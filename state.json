@@ -875,18 +875,20 @@
   "hn:50033638",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxjvvajf5e2t",
   "https://3dnews.ru/1149739/#6ac9e9a6742eec82ff8b456d",
-  "66c97033ca4b6dcf8e8824328bf34d26"
+  "66c97033ca4b6dcf8e8824328bf34d26",
+  "TyBR3XDcWdvskXNzwtjQXW",
+  "03469bea98ca465a4d1efeee3d848f3d"
  ],
  "posted": {
   "viral": 174,
-  "editorial": 175
+  "editorial": 176
  },
  "recent_labels": [
-  "Emily M. Bender",
   "Wired",
   "Habr",
   "404 Media",
-  "3DNews"
+  "3DNews",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-10-09",
  "history": [
@@ -1092,6 +1094,13 @@
    "source": "3DNews",
    "score": 0.23302,
    "at": "2026-10-10T23:42:25.910894+00:00"
+  },
+  {
+   "title": "توقف احتمالی تولید کارت گرافیک RTX 5090 توسط انویدیا",
+   "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-halts-geforce-rtx-5090-production-in-favor-of-ai-data-center-and-professional-gpus-impending-supply-drought-expected-to-drive-up-prices-rtx-5080-24gb-rumored-as-new-gaming-flagship",
+   "source": "Tom's Hardware",
+   "score": 0.39159,
+   "at": "2026-10-11T11:31:24.368968+00:00"
   }
  ],
  "stories": [
@@ -4928,53 +4937,27 @@
     "suno"
    ],
    "at": "2026-10-10T23:42:25.910894+00:00"
+  },
+  {
+   "sig": [
+    "center",
+    "data",
+    "evga",
+    "favor",
+    "geforce",
+    "gpus",
+    "halts",
+    "kingpin",
+    "nvidia",
+    "production",
+    "professional",
+    "reportedly",
+    "rtx"
+   ],
+   "at": "2026-10-11T11:31:24.368968+00:00"
   }
  ],
  "snapshots": {
-  "hn:49867486": [
-   415,
-   "2026-09-27T23:13:02.192836+00:00"
-  ],
-  "hn:49866951": [
-   346,
-   "2026-09-27T23:13:02.192836+00:00"
-  ],
-  "hn:49866534": [
-   188,
-   "2026-09-27T23:13:02.192836+00:00"
-  ],
-  "hn:49866515": [
-   261,
-   "2026-09-27T23:13:02.192836+00:00"
-  ],
-  "lobsters:1colyy": [
-   139,
-   "2026-09-27T23:13:02.192836+00:00"
-  ],
-  "lobsters:fpk9gq": [
-   52,
-   "2026-09-27T23:13:02.192836+00:00"
-  ],
-  "lobsters:apoyxs": [
-   35,
-   "2026-09-27T23:13:02.192836+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwjjx7plqn2h": [
-   311,
-   "2026-09-27T23:13:02.192836+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwj72m44ra2h": [
-   478,
-   "2026-09-27T23:13:02.192836+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mwjcwvab6c2k": [
-   89,
-   "2026-09-27T23:13:02.192836+00:00"
-  ],
-  "hn:49870417": [
-   88,
-   "2026-09-27T23:13:02.192836+00:00"
-  ],
   "hn:49870070": [
    93,
    "2026-09-27T23:13:02.192836+00:00"
@@ -7330,6 +7313,50 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxkigd6fks2v": [
    376,
    "2026-10-10T23:42:23.030919+00:00"
+  ],
+  "hn:50041682": [
+   108,
+   "2026-10-11T11:31:13.189488+00:00"
+  ],
+  "hn:50040625": [
+   112,
+   "2026-10-11T11:31:13.189488+00:00"
+  ],
+  "hn:50040547": [
+   853,
+   "2026-10-11T11:31:13.189488+00:00"
+  ],
+  "hn:50039536": [
+   168,
+   "2026-10-11T11:31:13.189488+00:00"
+  ],
+  "hn:50039092": [
+   254,
+   "2026-10-11T11:31:13.189488+00:00"
+  ],
+  "hn:50038634": [
+   459,
+   "2026-10-11T11:31:13.189488+00:00"
+  ],
+  "hn:50038623": [
+   116,
+   "2026-10-11T11:31:13.189488+00:00"
+  ],
+  "hn:50038383": [
+   310,
+   "2026-10-11T11:31:13.189488+00:00"
+  ],
+  "lobsters:ecxril": [
+   28,
+   "2026-10-11T11:31:13.189488+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxl4jg5cfj2y": [
+   393,
+   "2026-10-11T11:31:13.189488+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxku4syh7f2j": [
+   996,
+   "2026-10-11T11:31:13.189488+00:00"
   ]
  }
 }
