@@ -891,18 +891,23 @@
   "https://www.engadget.com/2283307/googles-sleek-new-fitbit-edge-is-packed-with-health-features-and-a-replaceable-battery/",
   "https://tech.slashdot.org/story/26/10/12/1841208/googles-fitbit-edge-debuts-a-replaceable-battery-brings-back-the-screen?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.neowin.net/news/google-announces-fitbit-edge-with-seven-day-battery-life-for-179/",
-  "https://www.androidpolice.com/googles-fitbit-edge-brings-pixel-watch-features-for-less/"
+  "https://www.androidpolice.com/googles-fitbit-edge-brings-pixel-watch-features-for-less/",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxqmum5ze22p",
+  "https://www.neowin.net/news/characterai-files-chapter-11-bankruptcy-as-disney-leads-20m-asset-bid/",
+  "hn:50069942",
+  "https://techcrunch.com/?p=3176907",
+  "https://www.theverge.com/?p=1009802"
  ],
  "posted": {
   "viral": 176,
-  "editorial": 178
+  "editorial": 179
  },
  "recent_labels": [
-  "Tom's Hardware",
   "9to5Mac",
   "Hacker News",
   "Hacker News",
-  "Wired"
+  "Wired",
+  "Neowin"
  ],
  "last_digest": "2026-10-09",
  "history": [
@@ -1143,6 +1148,13 @@
    "source": "Wired",
    "score": 1.32303,
    "at": "2026-10-12T21:48:57.770680+00:00"
+  },
+  {
+   "title": "اعلام ورشکستگی Character.ai و واگذاری بخشی از دارایی‌ها به Disney",
+   "url": "https://www.neowin.net/news/characterai-files-chapter-11-bankruptcy-as-disney-leads-20m-asset-bid/?utm_source=rss",
+   "source": "Neowin",
+   "score": 1.39892,
+   "at": "2026-10-13T12:51:27.581748+00:00"
   }
  ],
  "stories": [
@@ -5068,109 +5080,27 @@
     "watch"
    ],
    "at": "2026-10-12T21:48:57.770680+00:00"
+  },
+  {
+   "sig": [
+    "20m",
+    "asset",
+    "bankruptcy",
+    "bid",
+    "chapter",
+    "character.ai",
+    "chatbot",
+    "disney",
+    "files",
+    "interactive",
+    "leads",
+    "platform",
+    "years"
+   ],
+   "at": "2026-10-13T12:51:27.581748+00:00"
   }
  ],
  "snapshots": {
-  "hn:49886416": [
-   234,
-   "2026-09-29T11:29:05.296405+00:00"
-  ],
-  "hn:49886195": [
-   208,
-   "2026-09-29T11:29:05.296405+00:00"
-  ],
-  "hn:49886005": [
-   308,
-   "2026-09-29T11:29:05.296405+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mwmlonafmc2o": [
-   192,
-   "2026-09-29T11:29:05.296405+00:00"
-  ],
-  "hn:49890226": [
-   598,
-   "2026-09-29T16:58:08.562393+00:00"
-  ],
-  "hn:49890051": [
-   214,
-   "2026-09-29T16:58:08.562393+00:00"
-  ],
-  "hn:49889306": [
-   236,
-   "2026-09-29T16:58:08.562393+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwn5rvbynk2o": [
-   75,
-   "2026-09-29T16:58:08.562393+00:00"
-  ],
-  "hn:49893509": [
-   219,
-   "2026-09-29T16:58:08.562393+00:00"
-  ],
-  "lobsters:tyivfg": [
-   93,
-   "2026-09-29T16:58:08.562393+00:00"
-  ],
-  "lobsters:vlywx2": [
-   27,
-   "2026-09-29T16:58:08.562393+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwo4s4falc25": [
-   137,
-   "2026-09-29T16:58:08.562393+00:00"
-  ],
-  "hn:49892120": [
-   454,
-   "2026-09-29T21:29:35.355142+00:00"
-  ],
-  "hn:49891550": [
-   1045,
-   "2026-09-29T21:29:35.355142+00:00"
-  ],
-  "hn:49891480": [
-   1000,
-   "2026-09-29T21:29:35.355142+00:00"
-  ],
-  "hn:49891295": [
-   1883,
-   "2026-09-29T21:29:35.355142+00:00"
-  ],
-  "hn:49891290": [
-   382,
-   "2026-09-29T21:29:35.355142+00:00"
-  ],
-  "hn:49891881": [
-   189,
-   "2026-09-29T21:29:35.355142+00:00"
-  ],
-  "hn:49891769": [
-   75,
-   "2026-09-29T21:29:35.355142+00:00"
-  ],
-  "hn:49890829": [
-   84,
-   "2026-09-29T21:29:35.355142+00:00"
-  ],
-  "hn:49890647": [
-   145,
-   "2026-09-29T21:29:35.355142+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mwoc6wab4s2d": [
-   102,
-   "2026-09-29T21:29:35.355142+00:00"
-  ],
-  "hn:49894005": [
-   1064,
-   "2026-09-30T00:42:37.335898+00:00"
-  ],
-  "hn:49893709": [
-   233,
-   "2026-09-30T00:42:37.335898+00:00"
-  ],
-  "hn:49893653": [
-   436,
-   "2026-09-30T00:42:37.335898+00:00"
-  ],
   "hn:49892721": [
    362,
    "2026-09-30T00:42:37.335898+00:00"
@@ -7470,6 +7400,106 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxoxjpso6s23": [
    52,
    "2026-10-12T21:48:36.696421+00:00"
+  ],
+  "hn:50070302": [
+   111,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50069971": [
+   151,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50069942": [
+   113,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50069499": [
+   440,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50069337": [
+   131,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50069329": [
+   234,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50068946": [
+   397,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50068508": [
+   186,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50068437": [
+   133,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50067570": [
+   193,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50067414": [
+   177,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50067356": [
+   301,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50065972": [
+   118,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50065932": [
+   415,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50065805": [
+   405,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50065713": [
+   193,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "hn:50065692": [
+   467,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "lobsters:2h9opx": [
+   45,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "lobsters:j30pg4": [
+   53,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "lobsters:hjhufj": [
+   27,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxq4m32tq52p": [
+   173,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxpv2ne4fb26": [
+   682,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxqmum5ze22p": [
+   375,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxqkttu4gktl": [
+   56,
+   "2026-10-13T12:51:21.169788+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxpvgzs5fs2m": [
+   11,
+   "2026-10-13T12:51:21.169788+00:00"
   ]
  }
 }
