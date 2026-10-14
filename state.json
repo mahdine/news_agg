@@ -900,18 +900,28 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxr6chfx3kcf",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxr6dcedrc2g",
   "hn:50077020",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxrucac3x2cf"
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxrucac3x2cf",
+  "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+  "https://www.theverge.com/?p=1010642",
+  "6ace99f7435a00c3d3a1c4d2",
+  "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
+  "https://www.theregister.com/a/5303000",
+  "https://yro.slashdot.org/story/26/10/14/0231224/fbi-arrests-saudi-openai-employee-for-planting-recording-device-in-conference-room?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.neowin.net/news/saudi-national-planted-listening-device-at-openai-office-fbi-investigates-security-threat/",
+  "https://www.securityweek.com/?p=49988",
+  "TheNextWeb=6d02ed82c82c909d8f96a8ade3c3fbf9"
  ],
  "posted": {
   "viral": 178,
-  "editorial": 179
+  "editorial": 180
  },
  "recent_labels": [
-  "Hacker News",
   "Wired",
   "Neowin",
   "404 Media",
-  "Emily M. Bender"
+  "Emily M. Bender",
+  "The Hacker News"
  ],
  "last_digest": "2026-10-09",
  "history": [
@@ -1173,6 +1183,13 @@
    "source": "Emily M. Bender",
    "score": 0.19185,
    "at": "2026-10-13T23:48:13.284685+00:00"
+  },
+  {
+   "title": "بازداشت کارمند OpenAI به اتهام جاسوسی از جلسات محرمانه شرکت",
+   "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+   "source": "The Hacker News",
+   "score": 2.15568,
+   "at": "2026-10-14T10:25:08.751148+00:00"
   }
  ],
  "stories": [
@@ -5153,49 +5170,51 @@
     "tech"
    ],
    "at": "2026-10-13T23:48:13.284685+00:00"
+  },
+  {
+   "sig": [
+    "allegedly",
+    "arrested",
+    "arrests",
+    "boardroom",
+    "bug",
+    "charged",
+    "chatbot",
+    "company",
+    "conference",
+    "device",
+    "employee",
+    "engineer",
+    "executive",
+    "fbi",
+    "found",
+    "help",
+    "hidden",
+    "investigates",
+    "listening",
+    "national",
+    "office",
+    "offices",
+    "openai",
+    "paper",
+    "plant",
+    "planted",
+    "planting",
+    "recorder",
+    "recording",
+    "room",
+    "saudi",
+    "security",
+    "sophisticated",
+    "spy",
+    "threat",
+    "toilet",
+    "wrapped"
+   ],
+   "at": "2026-10-14T10:25:08.751148+00:00"
   }
  ],
  "snapshots": {
-  "hn:49903713": [
-   159,
-   "2026-09-30T11:17:08.713553+00:00"
-  ],
-  "lobsters:vmmq7g": [
-   61,
-   "2026-09-30T11:17:08.713553+00:00"
-  ],
-  "lobsters:odrfgk": [
-   28,
-   "2026-09-30T11:17:08.713553+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mwp2simzxk2o": [
-   10,
-   "2026-09-30T11:17:08.713553+00:00"
-  ],
-  "hn:49905487": [
-   1114,
-   "2026-09-30T16:54:34.418353+00:00"
-  ],
-  "lobsters:nicozi": [
-   59,
-   "2026-09-30T16:54:34.418353+00:00"
-  ],
-  "hn:49907057": [
-   569,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "hn:49906669": [
-   270,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "lobsters:irijoi": [
-   39,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "hn:49908962": [
-   228,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
   "hn:49908757": [
    273,
    "2026-10-01T00:47:18.866446+00:00"
@@ -7555,6 +7574,46 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxrucac3x2cf": [
    59,
    "2026-10-13T23:48:09.589178+00:00"
+  ],
+  "hn:50084240": [
+   150,
+   "2026-10-14T10:25:05.529571+00:00"
+  ],
+  "hn:50083766": [
+   246,
+   "2026-10-14T10:25:05.529571+00:00"
+  ],
+  "hn:50083130": [
+   503,
+   "2026-10-14T10:25:05.529571+00:00"
+  ],
+  "hn:50082962": [
+   194,
+   "2026-10-14T10:25:05.529571+00:00"
+  ],
+  "hn:50081930": [
+   208,
+   "2026-10-14T10:25:05.529571+00:00"
+  ],
+  "hn:50081151": [
+   226,
+   "2026-10-14T10:25:05.529571+00:00"
+  ],
+  "hn:50081054": [
+   68,
+   "2026-10-14T10:25:05.529571+00:00"
+  ],
+  "hn:50080275": [
+   241,
+   "2026-10-14T10:25:05.529571+00:00"
+  ],
+  "hn:50080007": [
+   466,
+   "2026-10-14T10:25:05.529571+00:00"
+  ],
+  "lobsters:dyypvf": [
+   37,
+   "2026-10-14T10:25:05.529571+00:00"
   ]
  }
 }
