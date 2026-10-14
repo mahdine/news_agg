@@ -910,18 +910,21 @@
   "https://yro.slashdot.org/story/26/10/14/0231224/fbi-arrests-saudi-openai-employee-for-planting-recording-device-in-conference-room?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.neowin.net/news/saudi-national-planted-listening-device-at-openai-office-fbi-investigates-security-threat/",
   "https://www.securityweek.com/?p=49988",
-  "TheNextWeb=6d02ed82c82c909d8f96a8ade3c3fbf9"
+  "TheNextWeb=6d02ed82c82c909d8f96a8ade3c3fbf9",
+  "hn:50086313",
+  "QrcKfAiGzGaMGtx2fi82ri",
+  "https://www.theverge.com/?p=1011110"
  ],
  "posted": {
   "viral": 178,
-  "editorial": 180
+  "editorial": 181
  },
  "recent_labels": [
-  "Wired",
   "Neowin",
   "404 Media",
   "Emily M. Bender",
-  "The Hacker News"
+  "The Hacker News",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-10-09",
  "history": [
@@ -1190,6 +1193,13 @@
    "source": "The Hacker News",
    "score": 2.15568,
    "at": "2026-10-14T10:25:08.751148+00:00"
+  },
+  {
+   "title": "محدودیت سرعت استارلینک برای پهپادهای نظامی اوکراین",
+   "url": "https://www.tomshardware.com/tech-industry/drones/spacex-limits-starlink-service-for-ukraines-high-speed-military-drones-without-prior-warning-ukrainian-officials-say-limitation-significantly-complicates-logistics-and-drone-operations",
+   "source": "Tom's Hardware",
+   "score": 0.58156,
+   "at": "2026-10-14T15:19:32.032781+00:00"
   }
  ],
  "stories": [
@@ -5212,77 +5222,28 @@
     "wrapped"
    ],
    "at": "2026-10-14T10:25:08.751148+00:00"
+  },
+  {
+   "sig": [
+    "claims",
+    "disrupting",
+    "drones",
+    "high-speed",
+    "limits",
+    "military",
+    "prior",
+    "service",
+    "spacex",
+    "starlink",
+    "suddenly",
+    "ukraine",
+    "warning",
+    "without"
+   ],
+   "at": "2026-10-14T15:19:32.032781+00:00"
   }
  ],
  "snapshots": {
-  "hn:49908757": [
-   273,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqretn2ds26": [
-   454,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqrbyuzeu26": [
-   501,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqr4ikk2s26": [
-   1826,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqqh4xjyc2r": [
-   223,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqnxf6foh27": [
-   171,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqn4eua3n2a": [
-   193,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqm63bplk26": [
-   3830,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqj43plbk26": [
-   330,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqgorfwpc26": [
-   265,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwqf6xp5vk6o": [
-   222,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "hn:49913255": [
-   193,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "hn:49912955": [
-   188,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "hn:49912444": [
-   188,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "hn:49911995": [
-   234,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "hn:49911757": [
-   226,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
-  "hn:49910613": [
-   121,
-   "2026-10-01T00:47:18.866446+00:00"
-  ],
   "hn:49909610": [
    106,
    "2026-10-01T00:47:18.866446+00:00"
@@ -7575,22 +7536,6 @@
    59,
    "2026-10-13T23:48:09.589178+00:00"
   ],
-  "hn:50084240": [
-   150,
-   "2026-10-14T10:25:05.529571+00:00"
-  ],
-  "hn:50083766": [
-   246,
-   "2026-10-14T10:25:05.529571+00:00"
-  ],
-  "hn:50083130": [
-   503,
-   "2026-10-14T10:25:05.529571+00:00"
-  ],
-  "hn:50082962": [
-   194,
-   "2026-10-14T10:25:05.529571+00:00"
-  ],
   "hn:50081930": [
    208,
    "2026-10-14T10:25:05.529571+00:00"
@@ -7611,9 +7556,93 @@
    466,
    "2026-10-14T10:25:05.529571+00:00"
   ],
+  "hn:50084240": [
+   742,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50083766": [
+   354,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50083130": [
+   813,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50082962": [
+   225,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
   "lobsters:dyypvf": [
-   37,
-   "2026-10-14T10:25:05.529571+00:00"
+   57,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50087336": [
+   111,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50087328": [
+   465,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50086313": [
+   277,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50086165": [
+   160,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50085323": [
+   171,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50085306": [
+   74,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50085259": [
+   165,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50085022": [
+   99,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50084838": [
+   280,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50084757": [
+   1051,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50084622": [
+   313,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50084416": [
+   159,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50083028": [
+   226,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "hn:50082021": [
+   209,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "lobsters:7xg9rm": [
+   84,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxtk7elbfk2r": [
+   565,
+   "2026-10-14T15:19:18.407113+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mxtdpza5p42o": [
+   44,
+   "2026-10-14T15:19:18.407113+00:00"
   ]
  }
 }
