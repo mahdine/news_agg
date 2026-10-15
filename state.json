@@ -916,18 +916,21 @@
   "https://www.theverge.com/?p=1011110",
   "hn:50091788",
   "hn:50094694",
-  "lobsters:plcgps"
+  "lobsters:plcgps",
+  "https://linux.slashdot.org/story/26/10/14/2121212/microsoft-defender-now-supports-linux-desktops?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.phoronix.com/news/Microsoft-Defender-For-Linux-D",
+  "https://www.neowin.net/news/microsoft-defender-now-supports-linux-desktops/"
  ],
  "posted": {
   "viral": 180,
-  "editorial": 181
+  "editorial": 182
  },
  "recent_labels": [
-  "Emily M. Bender",
   "The Hacker News",
   "Tom's Hardware",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Slashdot"
  ],
  "last_digest": "2026-10-09",
  "history": [
@@ -1217,6 +1220,13 @@
    "source": "sunshowers.io",
    "score": 0.30063,
    "at": "2026-10-14T23:21:24.121120+00:00"
+  },
+  {
+   "title": "پشتیبانی رسمی Microsoft Defender از توزیع‌های دسکتاپ لینوکس",
+   "url": "https://linux.slashdot.org/story/26/10/14/2121212/microsoft-defender-now-supports-linux-desktops?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.63265,
+   "at": "2026-10-15T10:09:53.321211+00:00"
   }
  ],
  "stories": [
@@ -5282,33 +5292,21 @@
     "scion"
    ],
    "at": "2026-10-14T23:21:24.121120+00:00"
+  },
+  {
+   "sig": [
+    "defender",
+    "desktop",
+    "desktops",
+    "linux",
+    "microsoft",
+    "releases",
+    "supports"
+   ],
+   "at": "2026-10-15T10:09:53.321211+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwt3bzb7ck2o": [
-   656,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwt27zc7ec25": [
-   355,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwsy7nmzi22o": [
-   2123,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwsxpkgux622": [
-   371,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwsyld5jx2xj": [
-   114,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwsxbeju2kxj": [
-   1957,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
   "hn:49927100": [
    259,
    "2026-10-01T22:51:52.986925+00:00"
@@ -7684,6 +7682,30 @@
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mxu4thu4mr2i": [
    48,
    "2026-10-14T23:21:22.125017+00:00"
+  ],
+  "hn:50098570": [
+   170,
+   "2026-10-15T10:09:48.054264+00:00"
+  ],
+  "hn:50098274": [
+   105,
+   "2026-10-15T10:09:48.054264+00:00"
+  ],
+  "hn:50097880": [
+   157,
+   "2026-10-15T10:09:48.054264+00:00"
+  ],
+  "hn:50097369": [
+   304,
+   "2026-10-15T10:09:48.054264+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxvoclv5hc2t": [
+   166,
+   "2026-10-15T10:09:48.054264+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mxvjfi3weu2o": [
+   38,
+   "2026-10-15T10:09:48.054264+00:00"
   ]
  }
 }
