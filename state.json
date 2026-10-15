@@ -919,18 +919,22 @@
   "lobsters:plcgps",
   "https://linux.slashdot.org/story/26/10/14/2121212/microsoft-defender-now-supports-linux-desktops?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.phoronix.com/news/Microsoft-Defender-For-Linux-D",
-  "https://www.neowin.net/news/microsoft-defender-now-supports-linux-desktops/"
+  "https://www.neowin.net/news/microsoft-defender-now-supports-linux-desktops/",
+  "6acf844b3350df3ad87c25ca",
+  "hn:50103000",
+  "hn:50101813",
+  "https://www.theverge.com/?p=1011956"
  ],
  "posted": {
   "viral": 180,
-  "editorial": 182
+  "editorial": 183
  },
  "recent_labels": [
-  "The Hacker News",
   "Tom's Hardware",
   "Hacker News",
   "Hacker News",
-  "Slashdot"
+  "Slashdot",
+  "Wired"
  ],
  "last_digest": "2026-10-09",
  "history": [
@@ -1227,6 +1231,13 @@
    "source": "Slashdot",
    "score": 0.63265,
    "at": "2026-10-15T10:09:53.321211+00:00"
+  },
+  {
+   "title": "نفوذ بدافزار جاسوسی از طریق تبلیغات آنلاین بدون نیاز به کلیک",
+   "url": "https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads/",
+   "source": "Wired",
+   "score": 0.88124,
+   "at": "2026-10-15T15:11:29.037134+00:00"
   }
  ],
  "stories": [
@@ -5304,81 +5315,34 @@
     "supports"
    ],
    "at": "2026-10-15T10:09:53.321211+00:00"
+  },
+  {
+   "sig": [
+    "adfection",
+    "ads",
+    "delivered",
+    "digital",
+    "enabling",
+    "firm",
+    "infecting",
+    "installation",
+    "israeli",
+    "nightmare",
+    "online",
+    "phones",
+    "researchers",
+    "scenario",
+    "sending",
+    "spyware",
+    "targeted",
+    "through",
+    "via",
+    "zero-click"
+   ],
+   "at": "2026-10-15T15:11:29.037134+00:00"
   }
  ],
  "snapshots": {
-  "hn:49927100": [
-   259,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "hn:49926628": [
-   324,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "hn:49926069": [
-   908,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "hn:49925969": [
-   188,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "hn:49925742": [
-   68,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "hn:49925036": [
-   129,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "hn:49924618": [
-   164,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "hn:49924275": [
-   73,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "hn:49923638": [
-   79,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "hn:49922736": [
-   110,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "hn:49922568": [
-   596,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "hn:49922212": [
-   110,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "lobsters:iwvjr0": [
-   37,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "lobsters:bytzgl": [
-   38,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "lobsters:ccxvh6": [
-   26,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "lobsters:zcr7in": [
-   40,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwtq7pugu22q": [
-   66,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwswwdkum22d": [
-   50,
-   "2026-10-01T22:51:52.986925+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mwti3kgui22c": [
    8,
    "2026-10-01T22:51:52.986925+00:00"
@@ -7700,12 +7664,84 @@
    "2026-10-15T10:09:48.054264+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxvoclv5hc2t": [
-   166,
-   "2026-10-15T10:09:48.054264+00:00"
+   542,
+   "2026-10-15T15:11:25.416636+00:00"
   ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mxvjfi3weu2o": [
-   38,
-   "2026-10-15T10:09:48.054264+00:00"
+   50,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "hn:50103630": [
+   310,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "hn:50103338": [
+   127,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "hn:50103000": [
+   601,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "hn:50102923": [
+   218,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "hn:50102423": [
+   196,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "hn:50102247": [
+   276,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "hn:50101813": [
+   71,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "hn:50099136": [
+   141,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "lobsters:bcaopz": [
+   55,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "lobsters:ixoasm": [
+   25,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwchjkfa22r": [
+   176,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwbzfn7g22k": [
+   125,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxw77zuv5m2j": [
+   273,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxw6tkb3vk2k": [
+   219,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxw6aa24ua2j": [
+   350,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mxw5izz2gs2g": [
+   75,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxwa4yrva2uu": [
+   67,
+   "2026-10-15T15:11:25.416636+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxw7y3wmzc2t": [
+   109,
+   "2026-10-15T15:11:25.416636+00:00"
   ]
  }
 }
