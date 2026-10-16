@@ -929,182 +929,35 @@
   "hn:50105777",
   "hn:50112657",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxxpoesxfj2y",
-  "hn:50114359"
+  "hn:50114359",
+  "6acf79c8fba7b7ee280c776a",
+  "hn:50116255",
+  "https://www.theverge.com/?p=1012783",
+  "https://www.engadget.com/2288448/relive-tesla-ridiculously-fun-roadster-stunt-show/",
+  "https://tech.slashdot.org/story/26/10/16/030228/tesla-reveals-spacex-powered-flying-roadster?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://9to5mac.com/?p=1074504",
+  "fbb1b38651aff821e8d78296af6e7e53",
+  "https://www.cnews.ru/news/line/2026-10-16_set_restore_otkryla_predzakaz",
+  "https://www.theverge.com/?p=988582",
+  "https://www.engadget.com/2288565/apple-iphone-duo-pre-orders-open-today/",
+  "https://www.neowin.net/news/apples-1999-iphone-duo-foldable-arrives-for-pre-order-with-a-758-inch-screen/",
+  "https://9to5mac.com/?p=1071775",
+  "https://9to5mac.com/?p=1074519",
+  "TheNextWeb=279d9e6d0a31e9544b7f044ed07e939d"
  ],
  "posted": {
   "viral": 183,
-  "editorial": 183
+  "editorial": 184
  },
  "recent_labels": [
-  "Slashdot",
   "Wired",
   "404 Media",
   "Filippo Valsorda",
-  "Hacker News"
+  "Hacker News",
+  "9to5Mac"
  ],
- "last_digest": "2026-10-09",
+ "last_digest": "2026-10-16",
  "history": [
-  {
-   "title": "متا با پروژه Muse Gadgets توسعه‌دهندگان را به ساخت گجت‌های هوشمند تشویق می‌کند",
-   "url": "https://www.engadget.com/2276312/meta-muse-gadgets-open-source-smart-home-link/",
-   "source": "Engadget",
-   "score": 0.59809,
-   "at": "2026-10-02T21:24:15.864906+00:00"
-  },
-  {
-   "title": "نشت گسترده اطلاعات کارکنان FBI و حواشی هوش مصنوعی Muse",
-   "url": "https://www.404media.co/podcast-the-fbi-was-hacked-weve-seen-the-data/",
-   "source": "404media.co",
-   "score": 0.05574,
-   "at": "2026-10-03T00:36:19.075975+00:00"
-  },
-  {
-   "title": "اختلال در عملکرد پرداخت بدون تماس گوشی‌های Pixel",
-   "url": "https://www.zdnet.com/tech/tap-to-pay-trouble-pixel-phones-google-wallet-nfc/",
-   "source": "ZDNet",
-   "score": 0.46465,
-   "at": "2026-10-03T10:31:16.875995+00:00"
-  },
-  {
-   "title": "استعفای یکی از مدیران ارشد OpenAI به دلیل بحران فرهنگ سازمانی",
-   "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
-   "source": "theatlantic.com",
-   "score": 0.35561,
-   "at": "2026-10-03T15:11:23.718678+00:00"
-  },
-  {
-   "title": "تغییر سیاست آمازون در استفاده از توافق‌نامه‌های عدم افشا برای دیتاسنترها",
-   "url": "https://www.wired.com/story/amazon-says-it-is-going-to-stop-using-ndas-for-data-centers/",
-   "source": "Wired",
-   "score": 0.5815,
-   "at": "2026-10-03T18:46:13.214250+00:00"
-  },
-  {
-   "title": "راهنمای استفاده بهینه از مدل هوش مصنوعی Opus 5.5",
-   "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
-   "source": "claude.dev",
-   "score": 0.10462,
-   "at": "2026-10-03T22:17:20.923478+00:00"
-  },
-  {
-   "title": "تاثیر ویژگی derive در زبان Rust بر حجم نهایی فایل اجرایی",
-   "url": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline/",
-   "source": "yossarian.net",
-   "score": 0.04016,
-   "at": "2026-10-04T11:12:37.414942+00:00"
-  },
-  {
-   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی وب‌سایت‌های تبلیغاتی ایران",
-   "url": "https://www.theregister.com/databases/2026/10/03/clever-database-but-can-it-run-doom/5300506",
-   "source": "The Register",
-   "score": 0.2566,
-   "at": "2026-10-04T15:54:25.990743+00:00"
-  },
-  {
-   "title": "تعویض رایگان گوشی‌های iPhone 18 Pro Max به دلیل اختلال در شبکه AT&T",
-   "url": "https://3dnews.ru/1149420",
-   "source": "3DNews",
-   "score": 0.38134,
-   "at": "2026-10-04T19:44:27.977509+00:00"
-  },
-  {
-   "title": "شناسایی آسیب‌پذیری بحرانی در FortiMail و بهره‌برداری فعال از آن",
-   "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-   "source": "The Hacker News",
-   "score": 0.4714,
-   "at": "2026-10-04T23:25:15.499286+00:00"
-  },
-  {
-   "title": "نشت گسترده اطلاعات هویتی ۸.۸ میلیون نفر در دانمارک",
-   "url": "https://therecord.media/denmark-breach-register-cyberattack",
-   "source": "The Record",
-   "score": 1.11993,
-   "at": "2026-10-05T12:28:28.346438+00:00"
-  },
-  {
-   "title": "فعالیت مخرب ایجنت‌های هوش مصنوعی OpenAI در پروژه‌های ویکی‌مدیا",
-   "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-   "source": "diff.wikimedia.org",
-   "score": 0.37823,
-   "at": "2026-10-05T20:47:00.238877+00:00"
-  },
-  {
-   "title": "بازداشت یک زن در فلوریدا به دلیل تهدید در چت‌بات Claude",
-   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-reports-florida-womans-claude-diary-threat-to-shoot-up-sheriffs-office-felony-charge-follows-its-at-least-the-third-such-conversation-to-reach-police-since-august",
-   "source": "Tom's Hardware",
-   "score": 0.35648,
-   "at": "2026-10-06T01:49:33.289880+00:00"
-  },
-  {
-   "title": "تأثیر مخرب الگوریتم‌های پلتفرم‌های دیجیتال بر آزادی بیان و زبان",
-   "url": "https://www.anildash.com/2026/10/06/kill-unalive/",
-   "source": "anildash.com",
-   "score": 0.07753,
-   "at": "2026-10-06T12:08:59.121891+00:00"
-  },
-  {
-   "title": "طرح قانونی نمایندگان آمریکا برای محدودسازی دوربین‌های پلاک‌خوان Flock",
-   "url": "https://www.404media.co/lawmakers-introduce-multiple-laws-to-curb-flock-after-404-media-coverage/",
-   "source": "404media.co",
-   "score": 0.20008,
-   "at": "2026-10-06T18:32:01.880155+00:00"
-  },
-  {
-   "title": "تجدید حکم دادگاه به دلیل استفاده از ویدئوی هوش مصنوعی",
-   "url": "https://bsky.app/profile/404media.co/post/3mxaf4jvmxs2n",
-   "source": "404 Media",
-   "score": 0.34269,
-   "at": "2026-10-06T23:11:24.034474+00:00"
-  },
-  {
-   "title": "انتشار نسخه ۲.۱ مدل هوش مصنوعی Google Nano Banana",
-   "url": "https://3dnews.ru/1149573",
-   "source": "3DNews",
-   "score": 0.71506,
-   "at": "2026-10-07T11:54:41.629416+00:00"
-  },
-  {
-   "title": "معرفی لپ‌تاپ قدرتمند Surface Laptop Ultra با تراشه اختصاصی NVIDIA",
-   "url": "https://www.engadget.com/2280302/microsoft-surface-laptop-ultra-specs/",
-   "source": "Engadget",
-   "score": 0.85589,
-   "at": "2026-10-07T19:01:37.455780+00:00"
-  },
-  {
-   "title": "بحران سلامت روان و فرسودگی شغلی در میان توسعه‌دهندگان نرم‌افزار",
-   "url": "https://www.baldurbjarnason.com/2026/05-software-developers-are-not-okay/",
-   "source": "baldurbjarnason.com",
-   "score": 0.17454,
-   "at": "2026-10-07T23:40:20.748352+00:00"
-  },
-  {
-   "title": "کلاهبرداری یک مدعی رمزگشایی فایل‌های آلوده به باج‌افزار",
-   "url": "https://www.theregister.com/cyber-crime/2026/10/08/ransomware-fixer-claimed-he-could-decrypt-files-allegedly-defrauded-clients-instead/5301831",
-   "source": "The Register",
-   "score": 0.51445,
-   "at": "2026-10-08T12:09:59.644480+00:00"
-  },
-  {
-   "title": "معرفی مدل هوش مصنوعی Whistle برای تبدیل گفتار به متن روی دستگاه",
-   "url": "https://cactuscompute.com/blog/whistle",
-   "source": "cactuscompute.com",
-   "score": 0.40735,
-   "at": "2026-10-08T18:57:18.912281+00:00"
-  },
-  {
-   "title": "نگرانی متخصصان از شکستن رمزنگاری کلید عمومی توسط هوش مصنوعی",
-   "url": "https://twitter.com/matthew_d_green/status/2108278850555674975",
-   "source": "twitter.com",
-   "score": 0.12448,
-   "at": "2026-10-08T23:50:36.353668+00:00"
-  },
-  {
-   "title": "تلاش SpaceX برای تبدیل Starlink به یک اپراتور موبایل سراسری در آمریکا",
-   "url": "https://3dnews.ru/1149680",
-   "source": "3DNews",
-   "score": 0.35746,
-   "at": "2026-10-09T12:01:09.434808+00:00"
-  },
   {
    "title": "نارضایتی مهندسان گوگل از اجبار به استفاده از ابزارهای هوش مصنوعی",
    "url": "https://bsky.app/profile/404media.co/post/3mxh4domyk22z",
@@ -1265,6 +1118,13 @@
    "source": "lwn.net",
    "score": 0.07911,
    "at": "2026-10-16T10:01:30.961541+00:00"
+  },
+  {
+   "title": "آغاز پیش‌فروش نخستین گوشی تاشوی اپل به نام iPhone Duo",
+   "url": "https://9to5mac.com/2026/10/16/apple-store-is-down-ahead-of-iphone-duo-preorder-rush/",
+   "source": "9to5Mac",
+   "score": 0.85114,
+   "at": "2026-10-16T14:58:30.142959+00:00"
   }
  ],
  "stories": [
@@ -5402,45 +5262,45 @@
     "rites"
    ],
    "at": "2026-10-16T10:01:30.961541+00:00"
+  },
+  {
+   "sig": [
+    "7.58-inch",
+    "8am",
+    "accessories",
+    "ahead",
+    "apple",
+    "arrives",
+    "available",
+    "cnews",
+    "deliveries",
+    "down",
+    "duo",
+    "five",
+    "foldable",
+    "goes",
+    "here",
+    "iphone",
+    "jd.com",
+    "minutes",
+    "picks",
+    "pre-order",
+    "preorder",
+    "prices",
+    "pushed",
+    "restore",
+    "rush",
+    "screen",
+    "sells",
+    "start",
+    "store",
+    "today",
+    "top"
+   ],
+   "at": "2026-10-16T14:58:30.142959+00:00"
   }
  ],
  "snapshots": {
-  "hn:49942818": [
-   234,
-   "2026-10-03T18:46:06.791289+00:00"
-  ],
-  "hn:49942706": [
-   742,
-   "2026-10-03T18:46:06.791289+00:00"
-  ],
-  "hn:49942211": [
-   214,
-   "2026-10-03T18:46:06.791289+00:00"
-  ],
-  "hn:49942592": [
-   151,
-   "2026-10-03T18:46:06.791289+00:00"
-  ],
-  "hn:49942434": [
-   144,
-   "2026-10-03T18:46:06.791289+00:00"
-  ],
-  "hn:49943034": [
-   431,
-   "2026-10-03T22:17:04.465165+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwy2dyprrn2e": [
-   490,
-   "2026-10-03T22:17:04.465165+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwxugslouu22": [
-   551,
-   "2026-10-03T22:17:04.465165+00:00"
-  ],
-  "hn:49946403": [
-   571,
-   "2026-10-03T22:17:04.465165+00:00"
-  ],
   "hn:49945323": [
    357,
    "2026-10-03T22:17:04.465165+00:00"
@@ -7757,14 +7617,6 @@
    158,
    "2026-10-16T10:01:22.607113+00:00"
   ],
-  "hn:50114342": [
-   80,
-   "2026-10-16T10:01:22.607113+00:00"
-  ],
-  "hn:50114077": [
-   72,
-   "2026-10-16T10:01:22.607113+00:00"
-  ],
   "hn:50112739": [
    216,
    "2026-10-16T10:01:22.607113+00:00"
@@ -7804,6 +7656,50 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxxpoesxfj2y": [
    381,
    "2026-10-16T10:01:22.607113+00:00"
+  ],
+  "hn:50114342": [
+   205,
+   "2026-10-16T14:58:02.164953+00:00"
+  ],
+  "hn:50114077": [
+   73,
+   "2026-10-16T14:58:02.164953+00:00"
+  ],
+  "hn:50117382": [
+   172,
+   "2026-10-16T14:58:02.164953+00:00"
+  ],
+  "hn:50116255": [
+   261,
+   "2026-10-16T14:58:02.164953+00:00"
+  ],
+  "hn:50115144": [
+   178,
+   "2026-10-16T14:58:02.164953+00:00"
+  ],
+  "lobsters:qvomvk": [
+   28,
+   "2026-10-16T14:58:02.164953+00:00"
+  ],
+  "lobsters:q0wobg": [
+   25,
+   "2026-10-16T14:58:02.164953+00:00"
+  ],
+  "lobsters:hounpx": [
+   33,
+   "2026-10-16T14:58:02.164953+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxysysjv622c": [
+   108,
+   "2026-10-16T14:58:02.164953+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxyrahgo622l": [
+   70,
+   "2026-10-16T14:58:02.164953+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxyr7h3qsb2v": [
+   67,
+   "2026-10-16T14:58:02.164953+00:00"
   ]
  }
 }
