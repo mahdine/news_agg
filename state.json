@@ -953,18 +953,22 @@
   "hn:50128297",
   "hn:50129121",
   "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
-  "X8bsBeCW2HwzVWJNdtDPmk"
+  "X8bsBeCW2HwzVWJNdtDPmk",
+  "https://www.theregister.com/a/5303621",
+  "https://3dnews.ru/1150087/#6ad398cf742eecb08f8b456a",
+  "b56050951e221629f7c665aff120026a",
+  "zASbahjQjfXihDsPuyofL7"
  ],
  "posted": {
   "viral": 185,
-  "editorial": 186
+  "editorial": 187
  },
  "recent_labels": [
-  "9to5Mac",
   "Slashdot",
   "Hacker News",
   "Hacker News",
-  "Engadget"
+  "Engadget",
+  "The Register"
  ],
  "last_digest": "2026-10-16",
  "history": [
@@ -1163,6 +1167,13 @@
    "source": "Engadget",
    "score": 0.36504,
    "at": "2026-10-17T13:50:10.721088+00:00"
+  },
+  {
+   "title": "بررسی لپ‌تاپ HP OmniBook Ultra با تراشه قدرتمند N1X برای هوش مصنوعی",
+   "url": "https://www.theregister.com/personal-tech/2026/10/16/benchmarked-nvidias-rtx-spark-notebook-delivers-serious-local-ai-compute-at-a-price/5303621",
+   "source": "The Register",
+   "score": 0.52309,
+   "at": "2026-10-17T17:25:23.933997+00:00"
   }
  ],
  "stories": [
@@ -5387,41 +5398,29 @@
     "where"
    ],
    "at": "2026-10-17T13:50:10.721088+00:00"
+  },
+  {
+   "sig": [
+    "benchmarked",
+    "compute",
+    "delivers",
+    "disappears",
+    "geforce",
+    "gpus",
+    "local",
+    "notebook",
+    "nvidia",
+    "price",
+    "rtx",
+    "seemingly",
+    "serious",
+    "spark",
+    "worried"
+   ],
+   "at": "2026-10-17T17:25:23.933997+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mx3al4gr522j": [
-   306,
-   "2026-10-04T23:25:13.422140+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mx3dktm6vk4n": [
-   93,
-   "2026-10-04T23:25:13.422140+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mx36xijzfs2w": [
-   161,
-   "2026-10-04T23:25:13.422140+00:00"
-  ],
-  "hn:49963366": [
-   174,
-   "2026-10-05T12:28:11.085212+00:00"
-  ],
-  "hn:49962012": [
-   580,
-   "2026-10-05T12:28:11.085212+00:00"
-  ],
-  "hn:49961890": [
-   279,
-   "2026-10-05T12:28:11.085212+00:00"
-  ],
-  "hn:49961861": [
-   193,
-   "2026-10-05T12:28:11.085212+00:00"
-  ],
-  "hn:49961057": [
-   202,
-   "2026-10-05T12:28:11.085212+00:00"
-  ],
   "hn:49960901": [
    162,
    "2026-10-05T12:28:11.085212+00:00"
@@ -7782,13 +7781,45 @@
    129,
    "2026-10-17T09:34:17.014040+00:00"
   ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxzy27gs522q": [
+   49,
+   "2026-10-17T09:34:17.014040+00:00"
+  ],
   "hn:50127979": [
    233,
    "2026-10-17T13:50:08.897822+00:00"
   ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxzy27gs522q": [
-   49,
-   "2026-10-17T09:34:17.014040+00:00"
+  "hn:50132328": [
+   176,
+   "2026-10-17T17:25:17.462969+00:00"
+  ],
+  "hn:50132278": [
+   65,
+   "2026-10-17T17:25:17.462969+00:00"
+  ],
+  "hn:50131881": [
+   73,
+   "2026-10-17T17:25:17.462969+00:00"
+  ],
+  "hn:50131440": [
+   336,
+   "2026-10-17T17:25:17.462969+00:00"
+  ],
+  "hn:50131256": [
+   511,
+   "2026-10-17T17:25:17.462969+00:00"
+  ],
+  "hn:50131213": [
+   205,
+   "2026-10-17T17:25:17.462969+00:00"
+  ],
+  "hn:50129045": [
+   1266,
+   "2026-10-17T17:25:17.462969+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my3a5stueq2j": [
+   176,
+   "2026-10-17T17:25:17.462969+00:00"
   ]
  }
 }
