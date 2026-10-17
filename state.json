@@ -948,17 +948,20 @@
   "hn:50118320",
   "https://3dnews.ru/1150060/#6ad24e31742eecd4a58b4583",
   "https://www.neowin.net/news/metas-new-muse-spark-open-ai-needs-two-5499-mac-studios-to-run-on-desktop/",
-  "hn:50122800"
+  "hn:50122800",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxzy27gs522q",
+  "hn:50128297",
+  "hn:50129121"
  ],
  "posted": {
-  "viral": 184,
+  "viral": 185,
   "editorial": 185
  },
  "recent_labels": [
-  "Filippo Valsorda",
   "Hacker News",
   "9to5Mac",
   "Slashdot",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-10-16",
@@ -1144,6 +1147,13 @@
    "source": "anthropic.com",
    "score": 0.2313,
    "at": "2026-10-16T22:10:17.811759+00:00"
+  },
+  {
+   "title": "معرفی مدل هوش مصنوعی DeepSeek V4.1 Flash با معماری جدید",
+   "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+   "source": "openrouter.ai",
+   "score": 0.18176,
+   "at": "2026-10-17T09:34:28.759928+00:00"
   }
  ],
  "stories": [
@@ -5348,25 +5358,17 @@
     "reveals"
    ],
    "at": "2026-10-16T22:10:17.811759+00:00"
+  },
+  {
+   "sig": [
+    "deepseek",
+    "flash",
+    "v4.1"
+   ],
+   "at": "2026-10-17T09:34:28.759928+00:00"
   }
  ],
  "snapshots": {
-  "hn:49957068": [
-   705,
-   "2026-10-04T23:25:13.422140+00:00"
-  ],
-  "hn:49953777": [
-   239,
-   "2026-10-04T23:25:13.422140+00:00"
-  ],
-  "hn:49953288": [
-   98,
-   "2026-10-04T23:25:13.422140+00:00"
-  ],
-  "lobsters:4bzoft": [
-   34,
-   "2026-10-04T23:25:13.422140+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mx3al4gr522j": [
    306,
    "2026-10-04T23:25:13.422140+00:00"
@@ -7750,6 +7752,22 @@
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mxzcbp5gju2c": [
    239,
    "2026-10-16T22:10:14.428840+00:00"
+  ],
+  "hn:50129121": [
+   76,
+   "2026-10-17T09:34:17.014040+00:00"
+  ],
+  "hn:50128297": [
+   129,
+   "2026-10-17T09:34:17.014040+00:00"
+  ],
+  "hn:50127979": [
+   121,
+   "2026-10-17T09:34:17.014040+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxzy27gs522q": [
+   49,
+   "2026-10-17T09:34:17.014040+00:00"
   ]
  }
 }
