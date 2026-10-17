@@ -951,18 +951,20 @@
   "hn:50122800",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxzy27gs522q",
   "hn:50128297",
-  "hn:50129121"
+  "hn:50129121",
+  "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
+  "X8bsBeCW2HwzVWJNdtDPmk"
  ],
  "posted": {
   "viral": 185,
-  "editorial": 185
+  "editorial": 186
  },
  "recent_labels": [
-  "Hacker News",
   "9to5Mac",
   "Slashdot",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Engadget"
  ],
  "last_digest": "2026-10-16",
  "history": [
@@ -1154,6 +1156,13 @@
    "source": "openrouter.ai",
    "score": 0.18176,
    "at": "2026-10-17T09:34:28.759928+00:00"
+  },
+  {
+   "title": "نمایش موقعیت دوربین‌های نظارتی در اپلیکیشن MapQuest",
+   "url": "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
+   "source": "Engadget",
+   "score": 0.36504,
+   "at": "2026-10-17T13:50:10.721088+00:00"
   }
  ],
  "stories": [
@@ -5366,6 +5375,18 @@
     "v4.1"
    ],
    "at": "2026-10-17T09:34:28.759928+00:00"
+  },
+  {
+   "sig": [
+    "cameras",
+    "flock",
+    "map",
+    "mapquest",
+    "neighborhood",
+    "show",
+    "where"
+   ],
+   "at": "2026-10-17T13:50:10.721088+00:00"
   }
  ],
  "snapshots": {
@@ -7762,8 +7783,8 @@
    "2026-10-17T09:34:17.014040+00:00"
   ],
   "hn:50127979": [
-   121,
-   "2026-10-17T09:34:17.014040+00:00"
+   233,
+   "2026-10-17T13:50:08.897822+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxzy27gs522q": [
    49,
