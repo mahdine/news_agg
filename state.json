@@ -964,17 +964,19 @@
   "6acf9742b89c86bafd0c52a0",
   "nRApjCym63soXUM2zkNX5B",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my4i7yk63n2i",
-  "lobsters:k5omum"
+  "lobsters:k5omum",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my4rhbyhjm2v",
+  "lobsters:ggpwfi"
  ],
  "posted": {
-  "viral": 187,
+  "viral": 188,
   "editorial": 188
  },
  "recent_labels": [
-  "Engadget",
   "The Register",
   "Hacker News",
   "The Verge",
+  "Lobsters",
   "Lobsters"
  ],
  "last_digest": "2026-10-16",
@@ -1202,6 +1204,13 @@
    "source": "terriblesoftware.org",
    "score": 0.06395,
    "at": "2026-10-18T09:46:41.164317+00:00"
+  },
+  {
+   "title": "انتقاد از برچسب‌گذاری نادرست محتوای فنی با عنوان vibecoding",
+   "url": "https://lobste.rs/s/ggpwfi/it_s_enough_vibecoding_tag_crossed_from",
+   "source": "Lobsters",
+   "score": 0.12079,
+   "at": "2026-10-18T14:05:40.545297+00:00"
   }
  ],
  "stories": [
@@ -5473,21 +5482,20 @@
     "training"
    ],
    "at": "2026-10-17T22:30:30.026251+00:00"
+  },
+  {
+   "sig": [
+    "crossed",
+    "enough",
+    "harmful",
+    "tag",
+    "useless",
+    "vibecoding"
+   ],
+   "at": "2026-10-18T14:05:40.545297+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mx5crufk2v2j": [
-   325,
-   "2026-10-06T01:49:30.167788+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mx5abe6tg52v": [
-   148,
-   "2026-10-06T01:49:30.167788+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mx54rpykpk2n": [
-   1783,
-   "2026-10-06T01:49:30.167788+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mx543lwfmx2u": [
    169,
    "2026-10-06T01:49:30.167788+00:00"
@@ -7820,30 +7828,6 @@
    90,
    "2026-10-17T22:30:16.283201+00:00"
   ],
-  "hn:50138531": [
-   348,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
-  "hn:50138087": [
-   234,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
-  "hn:50138044": [
-   129,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
-  "hn:50137950": [
-   189,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
-  "hn:50137820": [
-   89,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
-  "hn:50137620": [
-   418,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
   "hn:50136881": [
    1066,
    "2026-10-18T09:46:35.524273+00:00"
@@ -7860,10 +7844,6 @@
    29,
    "2026-10-18T09:46:35.524273+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my4rhbyhjm2v": [
-   655,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my4i7yk63n2i": [
    381,
    "2026-10-18T09:46:35.524273+00:00"
@@ -7875,6 +7855,46 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3my4emtu5x22d": [
    7,
    "2026-10-18T09:46:35.524273+00:00"
+  ],
+  "hn:50138531": [
+   655,
+   "2026-10-18T14:05:37.965850+00:00"
+  ],
+  "hn:50138087": [
+   302,
+   "2026-10-18T14:05:37.965850+00:00"
+  ],
+  "hn:50138044": [
+   146,
+   "2026-10-18T14:05:37.965850+00:00"
+  ],
+  "hn:50137950": [
+   291,
+   "2026-10-18T14:05:37.965850+00:00"
+  ],
+  "hn:50137820": [
+   92,
+   "2026-10-18T14:05:37.965850+00:00"
+  ],
+  "hn:50137620": [
+   724,
+   "2026-10-18T14:05:37.965850+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my4rhbyhjm2v": [
+   1009,
+   "2026-10-18T14:05:37.965850+00:00"
+  ],
+  "hn:50139873": [
+   394,
+   "2026-10-18T14:05:37.965850+00:00"
+  ],
+  "hn:50139692": [
+   105,
+   "2026-10-18T14:05:37.965850+00:00"
+  ],
+  "lobsters:ggpwfi": [
+   258,
+   "2026-10-18T14:05:37.965850+00:00"
   ]
  }
 }
