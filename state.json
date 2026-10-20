@@ -984,18 +984,24 @@
   "https://techcrunch.com/?p=3179279",
   "https://www.engadget.com/2291389/apple-store-two-iphone-duo-limit/",
   "e86a1cc625c3d799c5a4bebeedd4272d",
-  "https://9to5mac.com/?p=1074872"
+  "https://9to5mac.com/?p=1074872",
+  "https://www.theregister.com/a/5304010",
+  "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+  "https://techcrunch.com/?p=3179571",
+  "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
+  "https://www.techspot.com/news/114269-us-bans-deepseek-ai-tools-built-models-federal.html",
+  "https://www.neowin.net/news/department-of-homeland-security-bans-deepseek-use-in-federal-civilian-agencies/"
  ],
  "posted": {
   "viral": 192,
-  "editorial": 191
+  "editorial": 192
  },
  "recent_labels": [
-  "404 Media",
   "Hacker News",
   "The Hacker News",
   "Neowin",
-  "Engadget"
+  "Engadget",
+  "The Register"
  ],
  "last_digest": "2026-10-16",
  "history": [
@@ -1278,6 +1284,13 @@
    "source": "Engadget",
    "score": 0.3618,
    "at": "2026-10-20T10:17:05.446946+00:00"
+  },
+  {
+   "title": "دستور ممنوعیت استفاده از DeepSeek در تمام آژانس‌های فدرال آمریکا",
+   "url": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
+   "source": "The Register",
+   "score": 0.86707,
+   "at": "2026-10-20T15:16:03.014498+00:00"
   }
  ],
  "stories": [
@@ -5678,89 +5691,36 @@
     "strategy"
    ],
    "at": "2026-10-20T10:17:05.446946+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "agencies",
+    "angry",
+    "bans",
+    "built",
+    "china",
+    "civilian",
+    "deep-sixed",
+    "deepseek",
+    "department",
+    "dhs",
+    "federal",
+    "homeland",
+    "models",
+    "orders",
+    "products",
+    "prompting",
+    "remove",
+    "response",
+    "security",
+    "systems",
+    "tools"
+   ],
+   "at": "2026-10-20T15:16:03.014498+00:00"
   }
  ],
  "snapshots": {
-  "hn:49994027": [
-   575,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "hn:49993914": [
-   1098,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "hn:49993857": [
-   379,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "hn:49993121": [
-   200,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "hn:49992257": [
-   414,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "hn:49992125": [
-   455,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "hn:49992057": [
-   260,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "hn:49991823": [
-   489,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "hn:49991580": [
-   187,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "lobsters:rwdufq": [
-   131,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "lobsters:lgdxtw": [
-   42,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "lobsters:qn61ip": [
-   46,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "lobsters:hccdqa": [
-   38,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxckg4vd5k26": [
-   627,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxcflehv6s2e": [
-   182,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxcc7gha722v": [
-   217,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxcmbxa2sk2s": [
-   197,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxcjvnnkzk2s": [
-   69,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxc7uqoxvc22": [
-   265,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
-  "hn:49998895": [
-   399,
-   "2026-10-07T23:40:17.196391+00:00"
-  ],
   "hn:49998006": [
    109,
    "2026-10-07T23:40:17.196391+00:00"
@@ -8033,22 +7993,6 @@
    88,
    "2026-10-19T22:32:38.354333+00:00"
   ],
-  "hn:50163502": [
-   232,
-   "2026-10-20T10:15:56.469948+00:00"
-  ],
-  "hn:50163277": [
-   99,
-   "2026-10-20T10:15:56.469948+00:00"
-  ],
-  "hn:50161408": [
-   168,
-   "2026-10-20T10:15:56.469948+00:00"
-  ],
-  "hn:50161207": [
-   204,
-   "2026-10-20T10:15:56.469948+00:00"
-  ],
   "hn:50160877": [
    171,
    "2026-10-20T10:15:56.469948+00:00"
@@ -8080,6 +8024,102 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myb6upxbj22n": [
    1293,
    "2026-10-20T10:15:56.469948+00:00"
+  ],
+  "hn:50163502": [
+   1202,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "hn:50163277": [
+   2356,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "hn:50161408": [
+   201,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "hn:50161207": [
+   233,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "hn:50166579": [
+   109,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "hn:50165953": [
+   136,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "hn:50165801": [
+   229,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "hn:50165484": [
+   207,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "hn:50165208": [
+   360,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "hn:50163961": [
+   345,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "hn:50163625": [
+   250,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "hn:50163462": [
+   175,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "hn:50163142": [
+   187,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "hn:50162177": [
+   288,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "lobsters:gqyvn5": [
+   67,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "lobsters:d7m5j1": [
+   56,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycurvyums2z": [
+   203,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycrkkyu2i2e": [
+   392,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycmej7lp42e": [
+   123,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myctyyiwwk2v": [
+   49,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myctk2uu4c2z": [
+   249,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mycpfkf6kb2w": [
+   456,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mycgqwq2rs2w": [
+   167,
+   "2026-10-20T15:15:31.759534+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mycd4ryjbu2o": [
+   32,
+   "2026-10-20T15:15:31.759534+00:00"
   ]
  }
 }
