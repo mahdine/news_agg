@@ -992,18 +992,28 @@
   "https://www.techspot.com/news/114269-us-bans-deepseek-ai-tools-built-models-federal.html",
   "https://www.neowin.net/news/department-of-homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycurvyums2z",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycrkkyu2i2e"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycrkkyu2i2e",
+  "fPFXSmHXikZwNxCHedhzw7",
+  "https://3dnews.ru/1150196/#6ad79d67742eec69c28b4571",
+  "https://3dnews.ru/1150194/#6ad799d8742eec77c28b456c",
+  "e1dccce4c297c60f05bcbd4eda2fbed6",
+  "a5ff61d3cca32b731c88a211423c6024",
+  "2d511df43890d158ebef91cf373ce981",
+  "7643d2a25aa82226e74a9806743c87ab",
+  "https://www.engadget.com/2292103/amd-is-bringing-its-next-gen-fsr-41-upscaling-tech-to-xbox/",
+  "https://games.slashdot.org/story/26/10/20/1917248/amd-is-bringing-fsr-41-to-xbox-consoles-and-handhelds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.neowin.net/news/amd-fsr-upscaling-is-coming-to-xbox-series-xs-pc-handhelds-vulkan-and-more/"
  ],
  "posted": {
   "viral": 193,
-  "editorial": 192
+  "editorial": 193
  },
  "recent_labels": [
-  "The Hacker News",
   "Neowin",
   "Engadget",
   "The Register",
-  "404 Media"
+  "404 Media",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-10-16",
  "history": [
@@ -1300,6 +1310,13 @@
    "source": "404media.co",
    "score": 0.16425,
    "at": "2026-10-20T19:27:39.927853+00:00"
+  },
+  {
+   "title": "ارتقای فناوری FSR 4.1 برای کارت‌های گرافیک قدیمی و کنسول‌های AMD",
+   "url": "https://www.tomshardware.com/pc-components/gpu-drivers/amds-fsr-4-1-now-works-on-radeon-rx-6000-gpus-xbox-series-x-and-s-and-ryzen-ai-max-ai-9-and-z2-socs-new-release-brings-cutting-edge-tech-to-older-hardware-with-a-small-performance-cost",
+   "source": "Tom's Hardware",
+   "score": 0.71515,
+   "at": "2026-10-20T22:32:09.289795+00:00"
   }
  ],
  "stories": [
@@ -5740,33 +5757,39 @@
     "way"
    ],
    "at": "2026-10-20T19:27:39.927853+00:00"
+  },
+  {
+   "sig": [
+    "4.1",
+    "amd",
+    "api",
+    "arm",
+    "bringing",
+    "cards",
+    "coming",
+    "consoles",
+    "fsr",
+    "handhelds",
+    "igpu",
+    "max",
+    "microsoft",
+    "next-gen",
+    "playstation",
+    "radeon",
+    "ryzen",
+    "series",
+    "socs",
+    "surface",
+    "tech",
+    "upscaling",
+    "vulkan",
+    "works",
+    "xbox"
+   ],
+   "at": "2026-10-20T22:32:09.289795+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxdjzfj2yk2z": [
-   20,
-   "2026-10-08T12:09:45.100261+00:00"
-  ],
-  "hn:50002650": [
-   1144,
-   "2026-10-08T18:57:00.212463+00:00"
-  ],
-  "hn:50008427": [
-   253,
-   "2026-10-08T18:57:00.212463+00:00"
-  ],
-  "hn:50007519": [
-   325,
-   "2026-10-08T18:57:00.212463+00:00"
-  ],
-  "hn:50003107": [
-   343,
-   "2026-10-08T18:57:00.212463+00:00"
-  ],
-  "hn:50002665": [
-   109,
-   "2026-10-08T18:57:00.212463+00:00"
-  ],
   "lobsters:lhr4oy": [
    56,
    "2026-10-08T18:57:00.212463+00:00"
@@ -7999,26 +8022,6 @@
    3452,
    "2026-10-20T19:27:32.208602+00:00"
   ],
-  "hn:50166579": [
-   753,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "hn:50165953": [
-   452,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "hn:50165801": [
-   554,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "hn:50165484": [
-   313,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "hn:50165208": [
-   791,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
   "hn:50163961": [
    456,
    "2026-10-20T19:27:32.208602+00:00"
@@ -8035,10 +8038,6 @@
    209,
    "2026-10-20T19:27:32.208602+00:00"
   ],
-  "lobsters:gqyvn5": [
-   154,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
   "lobsters:d7m5j1": [
    80,
    "2026-10-20T19:27:32.208602+00:00"
@@ -8051,97 +8050,145 @@
    556,
    "2026-10-20T19:27:32.208602+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycmej7lp42e": [
-   148,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myctyyiwwk2v": [
-   277,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myctk2uu4c2z": [
-   701,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mycpfkf6kb2w": [
-   926,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mycgqwq2rs2w": [
-   186,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mycd4ryjbu2o": [
    34,
    "2026-10-20T19:27:32.208602+00:00"
   ],
+  "hn:50166579": [
+   1095,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "hn:50165953": [
+   598,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "hn:50165801": [
+   656,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "hn:50165484": [
+   363,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "hn:50165208": [
+   923,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "lobsters:gqyvn5": [
+   189,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycmej7lp42e": [
+   150,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myctyyiwwk2v": [
+   338,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myctk2uu4c2z": [
+   865,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mycpfkf6kb2w": [
+   1031,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mycgqwq2rs2w": [
+   194,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
   "hn:50169053": [
-   210,
-   "2026-10-20T19:27:32.208602+00:00"
+   313,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "hn:50168190": [
-   435,
-   "2026-10-20T19:27:32.208602+00:00"
+   524,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "hn:50167732": [
-   237,
-   "2026-10-20T19:27:32.208602+00:00"
+   332,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "hn:50167617": [
-   133,
-   "2026-10-20T19:27:32.208602+00:00"
+   149,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "hn:50167536": [
-   955,
-   "2026-10-20T19:27:32.208602+00:00"
+   1092,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "hn:50167286": [
    150,
-   "2026-10-20T19:27:32.208602+00:00"
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "hn:50167028": [
-   434,
-   "2026-10-20T19:27:32.208602+00:00"
+   668,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "hn:50166502": [
-   174,
-   "2026-10-20T19:27:32.208602+00:00"
+   269,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "hn:50166257": [
-   336,
-   "2026-10-20T19:27:32.208602+00:00"
+   424,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "hn:50165276": [
-   249,
-   "2026-10-20T19:27:32.208602+00:00"
+   318,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "lobsters:7d1swo": [
-   70,
-   "2026-10-20T19:27:32.208602+00:00"
+   79,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "lobsters:42zgmq": [
-   25,
-   "2026-10-20T19:27:32.208602+00:00"
+   28,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "lobsters:mngelc": [
-   26,
-   "2026-10-20T19:27:32.208602+00:00"
+   30,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myd7xjf7xs2z": [
-   228,
-   "2026-10-20T19:27:32.208602+00:00"
+   344,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myczrlmwav26": [
-   505,
-   "2026-10-20T19:27:32.208602+00:00"
+   612,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myct3ggljf2j": [
-   105,
-   "2026-10-20T19:27:32.208602+00:00"
+   111,
+   "2026-10-20T22:31:26.237453+00:00"
   ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myd2q2rhee2o": [
-   22,
-   "2026-10-20T19:27:32.208602+00:00"
+   26,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "hn:50171966": [
+   124,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "hn:50170021": [
+   142,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "hn:50168357": [
+   293,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "lobsters:9h14un": [
+   25,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mydffvspjs2x": [
+   233,
+   "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myd574ae7m2o": [
+   20,
+   "2026-10-20T22:31:26.237453+00:00"
   ]
  }
 }
