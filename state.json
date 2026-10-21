@@ -1003,18 +1003,22 @@
   "https://www.engadget.com/2292103/amd-is-bringing-its-next-gen-fsr-41-upscaling-tech-to-xbox/",
   "https://games.slashdot.org/story/26/10/20/1917248/amd-is-bringing-fsr-41-to-xbox-consoles-and-handhelds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.neowin.net/news/amd-fsr-upscaling-is-coming-to-xbox-series-xs-pc-handhelds-vulkan-and-more/",
-  "hn:50176077"
+  "hn:50176077",
+  "9a5d3635e2cdb421c85d3a2c352f6868",
+  "https://www.engadget.com/2292912/now-you-can-chat-with-gemini-while-using-google-maps-through-carplay/",
+  "https://www.neowin.net/news/googles-gemini-on-android-auto-can-navigate-to-a-place-in-your-photos/",
+  "https://9to5google.com/2026/10/21/google-maps-carplay-gemini/"
  ],
  "posted": {
   "viral": 194,
-  "editorial": 193
+  "editorial": 194
  },
  "recent_labels": [
-  "Engadget",
   "The Register",
   "404 Media",
   "Tom's Hardware",
-  "Hacker News"
+  "Hacker News",
+  "iXBT"
  ],
  "last_digest": "2026-10-16",
  "history": [
@@ -1325,6 +1329,13 @@
    "source": "jackalsyn.com",
    "score": 0.12803,
    "at": "2026-10-21T10:25:42.326106+00:00"
+  },
+  {
+   "title": "هوش مصنوعی Gemini در سیستم Android Auto شخصی‌سازی می‌شود",
+   "url": "https://www.ixbt.com/news/2026/10/21/gemini-za-rulem-google-sviazala-ii-v-android-auto-s-poctoi-i-fotografiiami.html",
+   "source": "iXBT",
+   "score": 0.80306,
+   "at": "2026-10-21T15:28:43.953679+00:00"
   }
  ],
  "stories": [
@@ -5806,85 +5817,29 @@
     "uaf"
    ],
    "at": "2026-10-21T10:25:42.326106+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "auto",
+    "carplay",
+    "chat",
+    "gemini",
+    "google",
+    "maps",
+    "navigate",
+    "navigating",
+    "photos",
+    "place",
+    "rolling",
+    "through",
+    "using",
+    "while"
+   ],
+   "at": "2026-10-21T15:28:43.953679+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxf2ve437v2t": [
-   2770,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxeuzjlyld2j": [
-   135,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxeu76xmop2b": [
-   201,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxes2m252223": [
-   1685,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxerqiyhes23": [
-   2046,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxeroj4we72j": [
-   158,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50012043": [
-   107,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50011928": [
-   299,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50010656": [
-   147,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50010470": [
-   165,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50009904": [
-   153,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50008565": [
-   335,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50008047": [
-   125,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50007764": [
-   126,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50005643": [
-   100,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "lobsters:sdlhhs": [
-   28,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50016489": [
-   109,
-   "2026-10-09T12:01:06.658734+00:00"
-  ],
-  "hn:50016312": [
-   462,
-   "2026-10-09T12:01:06.658734+00:00"
-  ],
-  "hn:50015515": [
-   496,
-   "2026-10-09T12:01:06.658734+00:00"
-  ],
   "hn:50015486": [
    154,
    "2026-10-09T12:01:06.658734+00:00"
@@ -8161,24 +8116,8 @@
    20,
    "2026-10-20T22:31:26.237453+00:00"
   ],
-  "hn:50177916": [
-   123,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
-  "hn:50177911": [
-   475,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
   "hn:50176077": [
    294,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
-  "hn:50175882": [
-   130,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
-  "hn:50175779": [
-   94,
    "2026-10-21T10:25:34.232312+00:00"
   ],
   "hn:50175510": [
@@ -8208,6 +8147,98 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mydqnuqwx224": [
    57,
    "2026-10-21T10:25:34.232312+00:00"
+  ],
+  "hn:50177916": [
+   981,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "hn:50177911": [
+   1816,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "hn:50175882": [
+   153,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "hn:50175779": [
+   247,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "hn:50181175": [
+   146,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "hn:50181137": [
+   320,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "hn:50181136": [
+   98,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "hn:50180943": [
+   497,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "hn:50180836": [
+   318,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "hn:50180444": [
+   192,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "hn:50179828": [
+   365,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "hn:50179706": [
+   386,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "hn:50178455": [
+   278,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "lobsters:mfserj": [
+   37,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfeeqlqp42r": [
+   75,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfe4zr3hc2z": [
+   197,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfdkhqarv26": [
+   210,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfbzkdcez2d": [
+   602,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myf4uachcs2a": [
+   417,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfgy4m4ac2y": [
+   26,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myff63jrns2g": [
+   18,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfexlt7m32u": [
+   49,
+   "2026-10-21T15:28:23.287536+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myf3jxirrs2g": [
+   14,
+   "2026-10-21T15:28:23.287536+00:00"
   ]
  }
 }
