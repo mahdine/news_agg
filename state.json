@@ -1002,18 +1002,19 @@
   "7643d2a25aa82226e74a9806743c87ab",
   "https://www.engadget.com/2292103/amd-is-bringing-its-next-gen-fsr-41-upscaling-tech-to-xbox/",
   "https://games.slashdot.org/story/26/10/20/1917248/amd-is-bringing-fsr-41-to-xbox-consoles-and-handhelds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://www.neowin.net/news/amd-fsr-upscaling-is-coming-to-xbox-series-xs-pc-handhelds-vulkan-and-more/"
+  "https://www.neowin.net/news/amd-fsr-upscaling-is-coming-to-xbox-series-xs-pc-handhelds-vulkan-and-more/",
+  "hn:50176077"
  ],
  "posted": {
-  "viral": 193,
+  "viral": 194,
   "editorial": 193
  },
  "recent_labels": [
-  "Neowin",
   "Engadget",
   "The Register",
   "404 Media",
-  "Tom's Hardware"
+  "Tom's Hardware",
+  "Hacker News"
  ],
  "last_digest": "2026-10-16",
  "history": [
@@ -1317,6 +1318,13 @@
    "source": "Tom's Hardware",
    "score": 0.71515,
    "at": "2026-10-20T22:32:09.289795+00:00"
+  },
+  {
+   "title": "کشف آسیب‌پذیری بحرانی Use-After-Free در پردازشگر آپلود فایل PHP",
+   "url": "https://jackalsyn.com/posts/php-up-2026.html",
+   "source": "jackalsyn.com",
+   "score": 0.12803,
+   "at": "2026-10-21T10:25:42.326106+00:00"
   }
  ],
  "stories": [
@@ -5787,57 +5795,20 @@
     "xbox"
    ],
    "at": "2026-10-20T22:32:09.289795+00:00"
+  },
+  {
+   "sig": [
+    "cve-2026-109618",
+    "heap",
+    "php",
+    "progress",
+    "session.upload",
+    "uaf"
+   ],
+   "at": "2026-10-21T10:25:42.326106+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:lhr4oy": [
-   56,
-   "2026-10-08T18:57:00.212463+00:00"
-  ],
-  "lobsters:en3vgh": [
-   59,
-   "2026-10-08T18:57:00.212463+00:00"
-  ],
-  "lobsters:nz3b1h": [
-   29,
-   "2026-10-08T18:57:00.212463+00:00"
-  ],
-  "hn:50008187": [
-   823,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50006948": [
-   122,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50006832": [
-   3551,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50006366": [
-   1023,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50005608": [
-   121,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50004790": [
-   690,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "hn:50004777": [
-   221,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "lobsters:mosbat": [
-   29,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxf2x34oqs2i": [
-   1775,
-   "2026-10-08T23:50:28.287535+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxf2ve437v2t": [
    2770,
    "2026-10-08T23:50:28.287535+00:00"
@@ -8189,6 +8160,54 @@
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myd574ae7m2o": [
    20,
    "2026-10-20T22:31:26.237453+00:00"
+  ],
+  "hn:50177916": [
+   123,
+   "2026-10-21T10:25:34.232312+00:00"
+  ],
+  "hn:50177911": [
+   475,
+   "2026-10-21T10:25:34.232312+00:00"
+  ],
+  "hn:50176077": [
+   294,
+   "2026-10-21T10:25:34.232312+00:00"
+  ],
+  "hn:50175882": [
+   130,
+   "2026-10-21T10:25:34.232312+00:00"
+  ],
+  "hn:50175779": [
+   94,
+   "2026-10-21T10:25:34.232312+00:00"
+  ],
+  "hn:50175510": [
+   116,
+   "2026-10-21T10:25:34.232312+00:00"
+  ],
+  "hn:50175185": [
+   205,
+   "2026-10-21T10:25:34.232312+00:00"
+  ],
+  "hn:50174687": [
+   352,
+   "2026-10-21T10:25:34.232312+00:00"
+  ],
+  "hn:50173907": [
+   68,
+   "2026-10-21T10:25:34.232312+00:00"
+  ],
+  "hn:50173891": [
+   497,
+   "2026-10-21T10:25:34.232312+00:00"
+  ],
+  "hn:50173547": [
+   87,
+   "2026-10-21T10:25:34.232312+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mydqnuqwx224": [
+   57,
+   "2026-10-21T10:25:34.232312+00:00"
   ]
  }
 }
