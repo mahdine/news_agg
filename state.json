@@ -1007,18 +1007,26 @@
   "9a5d3635e2cdb421c85d3a2c352f6868",
   "https://www.engadget.com/2292912/now-you-can-chat-with-gemini-while-using-google-maps-through-carplay/",
   "https://www.neowin.net/news/googles-gemini-on-android-auto-can-navigate-to-a-place-in-your-photos/",
-  "https://9to5google.com/2026/10/21/google-maps-carplay-gemini/"
+  "https://9to5google.com/2026/10/21/google-maps-carplay-gemini/",
+  "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+  "hn:50180836",
+  "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+  "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+  "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+  "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
+  "https://tech.slashdot.org/story/26/10/21/054204/php-warns-it-plans-to-release-2-emergency-patches-imminently?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.techspot.com/downloads/5680-php.html"
  ],
  "posted": {
   "viral": 194,
-  "editorial": 194
+  "editorial": 195
  },
  "recent_labels": [
-  "The Register",
   "404 Media",
   "Tom's Hardware",
   "Hacker News",
-  "iXBT"
+  "iXBT",
+  "The Hacker News"
  ],
  "last_digest": "2026-10-16",
  "history": [
@@ -1336,6 +1344,13 @@
    "source": "iXBT",
    "score": 0.80306,
    "at": "2026-10-21T15:28:43.953679+00:00"
+  },
+  {
+   "title": "پچ اضطراری PHP برای رفع آسیب‌پذیری‌های بحرانی PHP2Shell",
+   "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+   "source": "The Hacker News",
+   "score": 0.68469,
+   "at": "2026-10-21T19:29:37.952622+00:00"
   }
  ],
  "stories": [
@@ -5837,105 +5852,44 @@
     "while"
    ],
    "at": "2026-10-21T15:28:43.953679+00:00"
+  },
+  {
+   "sig": [
+    "9.2",
+    "admins",
+    "alert",
+    "attempts",
+    "coming",
+    "critical",
+    "cvss",
+    "emerge",
+    "emergency",
+    "exploit",
+    "flaws",
+    "imminently",
+    "issues",
+    "patches",
+    "php",
+    "php2shell",
+    "plans",
+    "psa",
+    "rce",
+    "release",
+    "security",
+    "server",
+    "ships",
+    "tomorrow",
+    "trigger",
+    "uncovers",
+    "unpatched",
+    "update",
+    "urged",
+    "warns"
+   ],
+   "at": "2026-10-21T19:29:37.952622+00:00"
   }
  ],
  "snapshots": {
-  "hn:50015486": [
-   154,
-   "2026-10-09T12:01:06.658734+00:00"
-  ],
-  "hn:50015236": [
-   457,
-   "2026-10-09T12:01:06.658734+00:00"
-  ],
-  "hn:50015074": [
-   366,
-   "2026-10-09T12:01:06.658734+00:00"
-  ],
-  "hn:50018420": [
-   697,
-   "2026-10-09T18:27:24.789087+00:00"
-  ],
-  "hn:50018350": [
-   526,
-   "2026-10-09T18:27:24.789087+00:00"
-  ],
-  "hn:50016974": [
-   82,
-   "2026-10-09T18:27:24.789087+00:00"
-  ],
-  "lobsters:8hauxs": [
-   72,
-   "2026-10-09T18:27:24.789087+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxh4domyk22z": [
-   495,
-   "2026-10-09T18:27:24.789087+00:00"
-  ],
-  "hn:50018817": [
-   673,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "hn:50021763": [
-   249,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "hn:50021540": [
-   357,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "hn:50021403": [
-   594,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "hn:50021066": [
-   1317,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "hn:50020927": [
-   746,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "hn:50020856": [
-   214,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "hn:50019741": [
-   157,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "hn:50019455": [
-   491,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "hn:50019451": [
-   155,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "hn:50019090": [
-   296,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "lobsters:ily7as": [
-   123,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "lobsters:t5htlf": [
-   48,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "lobsters:t3xjln": [
-   49,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxhfiqvknn2f": [
-   457,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxhdernzss2z": [
-   611,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxh3jaxcvs2z": [
    308,
    "2026-10-09T22:48:26.239522+00:00"
@@ -8148,14 +8102,6 @@
    57,
    "2026-10-21T10:25:34.232312+00:00"
   ],
-  "hn:50177916": [
-   981,
-   "2026-10-21T15:28:23.287536+00:00"
-  ],
-  "hn:50177911": [
-   1816,
-   "2026-10-21T15:28:23.287536+00:00"
-  ],
   "hn:50175882": [
    153,
    "2026-10-21T15:28:23.287536+00:00"
@@ -8164,81 +8110,185 @@
    247,
    "2026-10-21T15:28:23.287536+00:00"
   ],
+  "hn:50177916": [
+   1410,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50177911": [
+   2032,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
   "hn:50181175": [
-   146,
-   "2026-10-21T15:28:23.287536+00:00"
+   403,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "hn:50181137": [
-   320,
-   "2026-10-21T15:28:23.287536+00:00"
+   1290,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "hn:50181136": [
-   98,
-   "2026-10-21T15:28:23.287536+00:00"
+   340,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "hn:50180943": [
-   497,
-   "2026-10-21T15:28:23.287536+00:00"
+   280,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "hn:50180836": [
-   318,
-   "2026-10-21T15:28:23.287536+00:00"
+   729,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "hn:50180444": [
-   192,
-   "2026-10-21T15:28:23.287536+00:00"
+   387,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "hn:50179828": [
-   365,
-   "2026-10-21T15:28:23.287536+00:00"
+   435,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "hn:50179706": [
-   386,
-   "2026-10-21T15:28:23.287536+00:00"
+   469,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "hn:50178455": [
-   278,
-   "2026-10-21T15:28:23.287536+00:00"
+   441,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "lobsters:mfserj": [
-   37,
-   "2026-10-21T15:28:23.287536+00:00"
+   60,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfeeqlqp42r": [
-   75,
-   "2026-10-21T15:28:23.287536+00:00"
+   153,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfe4zr3hc2z": [
-   197,
-   "2026-10-21T15:28:23.287536+00:00"
+   383,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfdkhqarv26": [
-   210,
-   "2026-10-21T15:28:23.287536+00:00"
+   491,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfbzkdcez2d": [
-   602,
-   "2026-10-21T15:28:23.287536+00:00"
+   990,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myf4uachcs2a": [
-   417,
-   "2026-10-21T15:28:23.287536+00:00"
+   529,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfgy4m4ac2y": [
-   26,
-   "2026-10-21T15:28:23.287536+00:00"
+   93,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myff63jrns2g": [
-   18,
-   "2026-10-21T15:28:23.287536+00:00"
+   23,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfexlt7m32u": [
-   49,
-   "2026-10-21T15:28:23.287536+00:00"
+   88,
+   "2026-10-21T19:29:26.444113+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myf3jxirrs2g": [
-   14,
-   "2026-10-21T15:28:23.287536+00:00"
+   19,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50185045": [
+   209,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50184820": [
+   123,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50183727": [
+   188,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50183311": [
+   160,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50182987": [
+   697,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50182526": [
+   255,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50182130": [
+   77,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50181326": [
+   123,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50181114": [
+   487,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50180873": [
+   1840,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50180752": [
+   190,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50180079": [
+   258,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50180039": [
+   87,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "hn:50179857": [
+   138,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "lobsters:ebsqsp": [
+   36,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "lobsters:tsfina": [
+   26,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myftj62s5k2z": [
+   100,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfnmfeksj2j": [
+   125,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3myfmdrox3k2u": [
+   46,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfte67pjs2w": [
+   8,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfpgo6gq22g": [
+   33,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfpgfsc5q2u": [
+   46,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfoqauwk42t": [
+   46,
+   "2026-10-21T19:29:26.444113+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfhp77l722g": [
+   46,
+   "2026-10-21T19:29:26.444113+00:00"
   ]
  }
 }
