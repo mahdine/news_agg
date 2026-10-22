@@ -1019,18 +1019,21 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfoqauwk42t",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myg5l7vc7v2y",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myg4ka6gi526",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfpgfsc5q2u"
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfpgfsc5q2u",
+  "112449 at https://www.eff.org",
+  "112452 at https://www.eff.org",
+  "https://habr.com/ru/articles/1097800/"
  ],
  "posted": {
   "viral": 195,
-  "editorial": 195
+  "editorial": 196
  },
  "recent_labels": [
-  "Tom's Hardware",
   "Hacker News",
   "iXBT",
   "The Hacker News",
-  "Xe Iaso"
+  "Xe Iaso",
+  "EFF"
  ],
  "last_digest": "2026-10-16",
  "history": [
@@ -1362,6 +1365,13 @@
    "source": "xeiaso.net",
    "score": 0.62705,
    "at": "2026-10-21T22:37:17.849646+00:00"
+  },
+  {
+   "title": "عرضه‌ی افزونه Privacy Badger برای مرورگر Safari در سیستم‌عامل macOS",
+   "url": "https://www.eff.org/deeplinks/2026/10/announcing-privacy-badger-safari-macos",
+   "source": "EFF",
+   "score": 0.34662,
+   "at": "2026-10-22T10:24:10.246196+00:00"
   }
  ],
  "stories": [
@@ -5910,49 +5920,23 @@
     "where"
    ],
    "at": "2026-10-21T22:37:17.849646+00:00"
+  },
+  {
+   "sig": [
+    "announcing",
+    "badger",
+    "eff",
+    "extensions",
+    "launches",
+    "macos",
+    "privacy",
+    "safari",
+    "web"
+   ],
+   "at": "2026-10-22T10:24:10.246196+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:4dwrz0": [
-   35,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "lobsters:zubabn": [
-   34,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "lobsters:3zcaxw": [
-   25,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxho4lnyos2k": [
-   1181,
-   "2026-10-09T22:48:26.239522+00:00"
-  ],
-  "hn:50029123": [
-   387,
-   "2026-10-10T11:17:39.030646+00:00"
-  ],
-  "hn:50028275": [
-   811,
-   "2026-10-10T11:17:39.030646+00:00"
-  ],
-  "hn:50028059": [
-   165,
-   "2026-10-10T11:17:39.030646+00:00"
-  ],
-  "hn:50028027": [
-   108,
-   "2026-10-10T11:17:39.030646+00:00"
-  ],
-  "hn:50027853": [
-   128,
-   "2026-10-10T11:17:39.030646+00:00"
-  ],
-  "lobsters:nxspz6": [
-   39,
-   "2026-10-10T11:17:39.030646+00:00"
-  ],
   "hn:50029982": [
    440,
    "2026-10-10T16:18:52.930251+00:00"
@@ -8312,6 +8296,46 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myg4ka6gi526": [
    14,
    "2026-10-21T22:37:13.768401+00:00"
+  ],
+  "hn:50192900": [
+   133,
+   "2026-10-22T10:23:57.881862+00:00"
+  ],
+  "hn:50192254": [
+   179,
+   "2026-10-22T10:23:57.881862+00:00"
+  ],
+  "hn:50190959": [
+   189,
+   "2026-10-22T10:23:57.881862+00:00"
+  ],
+  "hn:50190455": [
+   488,
+   "2026-10-22T10:23:57.881862+00:00"
+  ],
+  "hn:50190363": [
+   352,
+   "2026-10-22T10:23:57.881862+00:00"
+  ],
+  "hn:50189232": [
+   713,
+   "2026-10-22T10:23:57.881862+00:00"
+  ],
+  "hn:50189150": [
+   504,
+   "2026-10-22T10:23:57.881862+00:00"
+  ],
+  "hn:50188948": [
+   1167,
+   "2026-10-22T10:23:57.881862+00:00"
+  ],
+  "lobsters:wi4nnl": [
+   25,
+   "2026-10-22T10:23:57.881862+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mygaolf2vk2c": [
+   42,
+   "2026-10-22T10:23:57.881862+00:00"
   ]
  }
 }
