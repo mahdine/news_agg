@@ -1035,189 +1035,27 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myij3hirg22z",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myiixdriib2q",
   "hn:50204754",
-  "hn:50205229"
+  "hn:50205229",
+  "6ad6841beadb1a017512d56a",
+  "https://3dnews.ru/1150335/#6adb0e4009433838fc056807",
+  "https://www.theverge.com/?p=1017157",
+  "https://www.techspot.com/news/114298-apple-more-than-50-apps-updated-iphone-duo.html",
+  "https://www.techspot.com/products/smartphones/apple-iphone-duo.330958/",
+  "https://www.neowin.net/news/apple-makes-it-easier-to-identify-iphone-duo-apps-on-the-app-store/"
  ],
  "posted": {
   "viral": 198,
-  "editorial": 197
+  "editorial": 198
  },
  "recent_labels": [
-  "EFF",
   "Slashdot",
   "Hacker News",
   "404 Media",
-  "Hacker News"
+  "Hacker News",
+  "Wired"
  ],
- "last_digest": "2026-10-16",
+ "last_digest": "2026-10-23",
  "history": [
-  {
-   "title": "نارضایتی مهندسان گوگل از اجبار به استفاده از ابزارهای هوش مصنوعی",
-   "url": "https://bsky.app/profile/404media.co/post/3mxh4domyk22z",
-   "source": "404 Media",
-   "score": 0.16825,
-   "at": "2026-10-09T18:27:32.427396+00:00"
-  },
-  {
-   "title": "انتقاد امیلی بندر به ادعای اخلاقی بودن مدل‌های هوش مصنوعی Anthropic",
-   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3mxho4lnyos2k",
-   "source": "Emily M. Bender",
-   "score": 0.56904,
-   "at": "2026-10-09T22:48:28.549808+00:00"
-  },
-  {
-   "title": "تغییر نام قابلیت رانندگی خودکار تسلا در اروپا برای دریافت مجوز",
-   "url": "https://www.wired.com/story/tesla-full-self-driving-becomes-assisted-driving-in-europe/",
-   "source": "Wired",
-   "score": 0.54566,
-   "at": "2026-10-10T11:17:49.649501+00:00"
-  },
-  {
-   "title": "ساخت ربات خودمختار با استفاده از شاسی دست‌دوم کوادروچرخ",
-   "url": "https://habr.com/ru/articles/1092756/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1092756",
-   "source": "Habr",
-   "score": 0.23111,
-   "at": "2026-10-10T16:19:27.154649+00:00"
-  },
-  {
-   "title": "وکیل آمریکایی با استناد به شهادت‌های جعلی ChatGPT دادگاه را گمراه کرد",
-   "url": "https://www.404media.co/chatgpt-fake-witnesses-testimony-stephen-aarons-new-mexico/",
-   "source": "404media.co",
-   "score": 0.13152,
-   "at": "2026-10-10T20:13:07.358514+00:00"
-  },
-  {
-   "title": "تست داخلی مدل هوش مصنوعی جدید گوگل با نام Gemini 4",
-   "url": "https://3dnews.ru/1149739",
-   "source": "3DNews",
-   "score": 0.23302,
-   "at": "2026-10-10T23:42:25.910894+00:00"
-  },
-  {
-   "title": "توقف احتمالی تولید کارت گرافیک RTX 5090 توسط انویدیا",
-   "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-halts-geforce-rtx-5090-production-in-favor-of-ai-data-center-and-professional-gpus-impending-supply-drought-expected-to-drive-up-prices-rtx-5080-24gb-rumored-as-new-gaming-flagship",
-   "source": "Tom's Hardware",
-   "score": 0.39159,
-   "at": "2026-10-11T11:31:24.368968+00:00"
-  },
-  {
-   "title": "افزایش قیمت قابل‌توجه نسل جدید iPad mini با نمایشگر OLED",
-   "url": "https://9to5mac.com/2026/10/11/ipad-mini-oled-higher-price/",
-   "source": "9to5Mac",
-   "score": 0.41543,
-   "at": "2026-10-11T17:44:46.220797+00:00"
-  },
-  {
-   "title": "شکاف عمیق در درک توانمندی‌های مدل‌های زبانی بزرگ",
-   "url": "https://twitter.com/karpathy/status/2109361546505966046",
-   "source": "twitter.com",
-   "score": 0.43269,
-   "at": "2026-10-11T22:15:07.619984+00:00"
-  },
-  {
-   "title": "کشف قطعه سخت‌افزاری غیرمجاز در کیف پول‌های Ledger",
-   "url": "https://crypto.news/ledger-confirms-hidden-chip-in-crypto-wallet-amid-92m/",
-   "source": "crypto.news",
-   "score": 0.12598,
-   "at": "2026-10-12T13:23:31.427309+00:00"
-  },
-  {
-   "title": "معرفی مچ‌بند هوشمند Fitbit Edge با قابلیت تعویض باتری توسط کاربر",
-   "url": "https://www.wired.com/story/googles-fitbit-edge-debuts-a-replaceable-battery-and-brings-back-the-screen/",
-   "source": "Wired",
-   "score": 1.32303,
-   "at": "2026-10-12T21:48:57.770680+00:00"
-  },
-  {
-   "title": "اعلام ورشکستگی Character.ai و واگذاری بخشی از دارایی‌ها به Disney",
-   "url": "https://www.neowin.net/news/characterai-files-chapter-11-bankruptcy-as-disney-leads-20m-asset-bid/?utm_source=rss",
-   "source": "Neowin",
-   "score": 1.39892,
-   "at": "2026-10-13T12:51:27.581748+00:00"
-  },
-  {
-   "title": "شناسایی موقعیت مکانی عکس‌ها با ابزار هوش مصنوعی Raven",
-   "url": "https://bsky.app/profile/404media.co/post/3mxr6dcedrc2g",
-   "source": "404 Media",
-   "score": 0.14173,
-   "at": "2026-10-13T19:55:49.007525+00:00"
-  },
-  {
-   "title": "واکنش به سوءبرداشت‌ها درباره اخلاقیات استفاده از هوش مصنوعی",
-   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3mxrucac3x2cf",
-   "source": "Emily M. Bender",
-   "score": 0.19185,
-   "at": "2026-10-13T23:48:13.284685+00:00"
-  },
-  {
-   "title": "بازداشت کارمند OpenAI به اتهام جاسوسی از جلسات محرمانه شرکت",
-   "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
-   "source": "The Hacker News",
-   "score": 2.15568,
-   "at": "2026-10-14T10:25:08.751148+00:00"
-  },
-  {
-   "title": "محدودیت سرعت استارلینک برای پهپادهای نظامی اوکراین",
-   "url": "https://www.tomshardware.com/tech-industry/drones/spacex-limits-starlink-service-for-ukraines-high-speed-military-drones-without-prior-warning-ukrainian-officials-say-limitation-significantly-complicates-logistics-and-drone-operations",
-   "source": "Tom's Hardware",
-   "score": 0.58156,
-   "at": "2026-10-14T15:19:32.032781+00:00"
-  },
-  {
-   "title": "قصور شرکت‌های هوش مصنوعی در پیاده‌سازی اصول اولیه امنیت سایبری",
-   "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "source": "csoonline.com",
-   "score": 0.69295,
-   "at": "2026-10-14T19:33:22.982762+00:00"
-  },
-  {
-   "title": "شباهت فنی سیستم کنترل نسخه Scion به پروژه Mononoke",
-   "url": "https://sunshowers.io/posts/anthropic-mononoke/",
-   "source": "sunshowers.io",
-   "score": 0.30063,
-   "at": "2026-10-14T23:21:24.121120+00:00"
-  },
-  {
-   "title": "پشتیبانی رسمی Microsoft Defender از توزیع‌های دسکتاپ لینوکس",
-   "url": "https://linux.slashdot.org/story/26/10/14/2121212/microsoft-defender-now-supports-linux-desktops?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-   "source": "Slashdot",
-   "score": 0.63265,
-   "at": "2026-10-15T10:09:53.321211+00:00"
-  },
-  {
-   "title": "نفوذ بدافزار جاسوسی از طریق تبلیغات آنلاین بدون نیاز به کلیک",
-   "url": "https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads/",
-   "source": "Wired",
-   "score": 0.88124,
-   "at": "2026-10-15T15:11:29.037134+00:00"
-  },
-  {
-   "title": "تعطیلی وب‌سایت decomp.dev به دلیل تسلط هوش مصنوعی بر مهندسی معکوس بازی‌ها",
-   "url": "https://www.404media.co/video-game-reverse-engineering-community-shuts-down-because-ai-has-made-it-too-easy/",
-   "source": "404media.co",
-   "score": 0.32979,
-   "at": "2026-10-15T19:18:30.167742+00:00"
-  },
-  {
-   "title": "پایان استفاده از ثانیه کبیسه در مقیاس زمانی جهانی",
-   "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
-   "source": "bipm.org",
-   "score": 0.20952,
-   "at": "2026-10-15T22:33:35.131374+00:00"
-  },
-  {
-   "title": "پایان پشتیبانی از مرورگر Chromium در توزیع لینوکسی Gentoo",
-   "url": "https://lwn.net/Articles/1097760/",
-   "source": "lwn.net",
-   "score": 0.07911,
-   "at": "2026-10-16T10:01:30.961541+00:00"
-  },
-  {
-   "title": "آغاز پیش‌فروش نخستین گوشی تاشوی اپل به نام iPhone Duo",
-   "url": "https://9to5mac.com/2026/10/16/apple-store-is-down-ahead-of-iphone-duo-preorder-rush/",
-   "source": "9to5Mac",
-   "score": 0.85114,
-   "at": "2026-10-16T14:58:30.142959+00:00"
-  },
   {
    "title": "عرضه‌ی مدل هوش مصنوعی Muse Spark Open برای اجرا روی Mac Studio",
    "url": "https://apple.slashdot.org/story/26/10/15/189249/meta-and-apple-bring-muse-spark-open-ai-model-to-mac-studio?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -1413,6 +1251,13 @@
    "source": "berget.ai",
    "score": 0.13834,
    "at": "2026-10-23T10:21:55.952251+00:00"
+  },
+  {
+   "title": "نگاهی به ویژگی‌ها و چالش‌های اولین گوشی تاشوی اپل، iPhone Duo",
+   "url": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
+   "source": "Wired",
+   "score": 0.5362,
+   "at": "2026-10-23T15:19:44.965079+00:00"
   }
  ],
  "stories": [
@@ -6042,65 +5887,33 @@
     "times"
    ],
    "at": "2026-10-23T10:21:55.952251+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "apple",
+    "apps",
+    "best",
+    "duo",
+    "easier",
+    "hardware",
+    "identify",
+    "iphone",
+    "know",
+    "launch",
+    "right",
+    "roundup",
+    "store",
+    "things",
+    "tips",
+    "updated",
+    "using",
+    "worth"
+   ],
+   "at": "2026-10-23T15:19:44.965079+00:00"
   }
  ],
  "snapshots": {
-  "hn:50047055": [
-   214,
-   "2026-10-11T22:14:07.789698+00:00"
-  ],
-  "hn:50046241": [
-   73,
-   "2026-10-11T22:14:07.789698+00:00"
-  ],
-  "hn:50045984": [
-   479,
-   "2026-10-11T22:14:07.789698+00:00"
-  ],
-  "hn:50045946": [
-   509,
-   "2026-10-11T22:14:07.789698+00:00"
-  ],
-  "hn:50045895": [
-   87,
-   "2026-10-11T22:14:07.789698+00:00"
-  ],
-  "hn:50045735": [
-   128,
-   "2026-10-11T22:14:07.789698+00:00"
-  ],
-  "hn:50044715": [
-   340,
-   "2026-10-11T22:14:07.789698+00:00"
-  ],
-  "hn:50044272": [
-   134,
-   "2026-10-11T22:14:07.789698+00:00"
-  ],
-  "hn:50043110": [
-   203,
-   "2026-10-11T22:14:07.789698+00:00"
-  ],
-  "hn:50042370": [
-   205,
-   "2026-10-11T22:14:07.789698+00:00"
-  ],
-  "lobsters:k2natg": [
-   25,
-   "2026-10-11T22:14:07.789698+00:00"
-  ],
-  "lobsters:gmnqhj": [
-   33,
-   "2026-10-11T22:14:07.789698+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxmotkuqy72t": [
-   171,
-   "2026-10-11T22:14:07.789698+00:00"
-  ],
-  "hn:50054092": [
-   186,
-   "2026-10-12T13:23:14.803429+00:00"
-  ],
   "hn:50052814": [
    246,
    "2026-10-12T13:23:14.803429+00:00"
@@ -8413,10 +8226,6 @@
    199,
    "2026-10-23T10:21:33.305604+00:00"
   ],
-  "hn:50204125": [
-   113,
-   "2026-10-23T10:21:33.305604+00:00"
-  ],
   "hn:50203161": [
    400,
    "2026-10-23T10:21:33.305604+00:00"
@@ -8444,6 +8253,66 @@
   "lobsters:mucay8": [
    59,
    "2026-10-23T10:21:33.305604+00:00"
+  ],
+  "hn:50204125": [
+   129,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "hn:50208837": [
+   812,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "hn:50208558": [
+   911,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "hn:50208258": [
+   270,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "hn:50207405": [
+   432,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "hn:50207050": [
+   295,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "hn:50206914": [
+   583,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "hn:50205934": [
+   566,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "hn:50205816": [
+   267,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "hn:50204926": [
+   140,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "lobsters:gajtrm": [
+   40,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "lobsters:crqz1g": [
+   42,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mykh66ohtk2h": [
+   61,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mykf65ibab2i": [
+   265,
+   "2026-10-23T15:19:42.613853+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mykejanoys2h": [
+   394,
+   "2026-10-23T15:19:42.613853+00:00"
   ]
  }
 }
