@@ -18,7 +18,7 @@ settings:
   # ۲۴ اجرا در روز × ۱ پست = سقف ۲۴، و در عمل حدود ۱۸ تا ۲۲ چون همه‌ی اجراها
   # چیز تازه‌ای پیدا نمی‌کنند. عرضه‌ی واقعی اندازه‌گیری شد: حدود ۴۶ آیتم در روز
   # قبل از فیلتر موضوعی، پس عرضه محدودکننده نیست و cron تعیین‌کننده است.
-  max_posts_per_run: 1
+  max_posts_per_run: 5
 
   # اگر ترجمه‌ی بهترین آیتم شکست بخورد، این تعداد گزینه‌ی بعدی امتحان می‌شود.
   # بدون این، یک آیتم مشکل‌دار کل اجرا را بی‌نتیجه می‌کرد.
@@ -164,25 +164,25 @@ sources:
     label: The Hacker News
     authority: 0.9
 
-  - type: rss
-    url: https://www.bleepingcomputer.com/feed/
-    label: BleepingComputer
-    authority: 0.9
+  # - type: rss
+  #   url: https://www.bleepingcomputer.com/feed/
+  #   label: BleepingComputer
+  #   authority: 0.9
 
-  - type: rss
-    url: https://krebsonsecurity.com/feed/
-    label: Krebs on Security
-    authority: 0.95
+  # - type: rss
+  #   url: https://krebsonsecurity.com/feed/
+  #   label: Krebs on Security
+  #   authority: 0.95
 
-  - type: rss
-    url: https://therecord.media/feed
-    label: The Record
-    authority: 0.8
+  # - type: rss
+  #   url: https://therecord.media/feed
+  #   label: The Record
+  #   authority: 0.8
 
-  - type: rss
-    url: https://www.darkreading.com/rss.xml
-    label: Dark Reading
-    authority: 0.75
+  # - type: rss
+  #   url: https://www.darkreading.com/rss.xml
+  #   label: Dark Reading
+  #   authority: 0.75
 
   # ────────────────────────────────────────────────────────── هوش مصنوعی
 
@@ -258,20 +258,20 @@ sources:
   # خبر روسی و انگلیسیِ یک ماجرا در یک خوشه می‌افتند، چون امضای خوشه از
   # توکن‌های لاتین ساخته می‌شود و اسم شرکت و محصول در روسی هم لاتین می‌ماند.
 
-  - type: rss
-    url: https://habr.com/ru/rss/articles/?fl=ru
-    label: Habr
-    authority: 0.8
+  # - type: rss
+  #   url: https://habr.com/ru/rss/articles/?fl=ru
+  #   label: Habr
+  #   authority: 0.8
 
-  - type: rss
-    url: https://3dnews.ru/news/rss/
-    label: 3DNews
-    authority: 0.7
+  # - type: rss
+  #   url: https://3dnews.ru/news/rss/
+  #   label: 3DNews
+  #   authority: 0.7
 
-  - type: rss
-    url: https://www.ixbt.com/export/news.rss
-    label: iXBT
-    authority: 0.7
+  # - type: rss
+  #   url: https://www.ixbt.com/export/news.rss
+  #   label: iXBT
+  #   authority: 0.7
 
   - type: rss
     url: https://hi-tech.mail.ru/rss/all/
@@ -394,3 +394,32 @@ sources:
   #   url: https://xcancel.com/OpenAI/rss
   #   label: OpenAI on X
   #   authority: 0.6
+  - type: rss
+    url: https://www.aisnakeoil.com/feed
+    label: AI Snake Oil
+    authority: 0.85
+
+  - type: rss
+    url: https://importai.substack.com/feed
+    label: Import AI
+    authority: 0.85
+
+  - type: rss
+    url: https://thegradient.pub/rss/
+    label: The Gradient
+    authority: 0.80
+
+  - type: rss
+    url: https://www.langchain.com/blog/rss.xml
+    label: LangChain Blog
+    authority: 0.80
+
+  - type: rss
+    url: https://www.latent.space/feed
+    label: Latent Space
+    authority: 0.80
+
+  - type: rss
+    url: https://simonwillison.net/atom/everything/
+    label: Simon Willison RSS
+    authority: 0.90
