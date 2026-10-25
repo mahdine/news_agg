@@ -1077,18 +1077,28 @@
   "https://www.phoronix.com/news/Linux-7.4-Sound",
   "https://www.phoronix.com/news/Linux-7.4-MM",
   "255cfb8133ccc74cbe511f27b791764a",
-  "TheNextWeb=3d8f7495cee95b7421c9abab26d98df4"
+  "TheNextWeb=3d8f7495cee95b7421c9abab26d98df4",
+  "https://www.androidpolice.com/fitbit-air-apple-watch-borrow-features/",
+  "https://www.theverge.com/?p=1018253",
+  "hn:50230917",
+  "hn:50231189",
+  "lobsters:zfoiw1",
+  "hn:50231722",
+  "https://www.engadget.com/2293248/how-much-playstation-plus-cost-2010-vs-2026/",
+  "https://9to5mac.com/?p=1075634",
+  "Ep6fsYRTRinQZBa7LtJ42M",
+  "f211f4d7dfaa46ed93cd750d7bc8e12e"
  ],
  "posted": {
-  "viral": 208,
+  "viral": 210,
   "editorial": 207
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
   "TechSpot",
   "Phoronix",
-  "The Next Web"
+  "The Next Web",
+  "Hacker News",
+  "Hacker News"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1427,6 +1437,20 @@
    "source": "The Next Web",
    "score": 0.2021,
    "at": "2026-10-25T14:18:25.311669+00:00"
+  },
+  {
+   "title": "تلویزیون‌های هوشمند سامسونگ از طریق بلوتوث به دنبال میکروفون‌ها هستند",
+   "url": "https://twitter.com/freddier/status/2114042326758867453",
+   "source": "twitter.com",
+   "score": 0.06057,
+   "at": "2026-10-25T16:41:30.598515+00:00"
+  },
+  {
+   "title": "ممنوعیت پروژه‌های شخصی و ابزارهای هوش مصنوعی در پلتفرم R/open source",
+   "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+   "source": "reddit.com",
+   "score": 0.09921,
+   "at": "2026-10-25T16:41:51.833611+00:00"
   }
  ],
  "stories": [
@@ -6370,37 +6394,35 @@
     "ukraine"
    ],
    "at": "2026-10-25T14:18:25.311669+00:00"
+  },
+  {
+   "sig": [
+    "bluetooth",
+    "events",
+    "house",
+    "look",
+    "microphones",
+    "samsung",
+    "spy",
+    "tvs",
+    "via"
+   ],
+   "at": "2026-10-25T16:41:30.598515+00:00"
+  },
+  {
+   "sig": [
+    "bans",
+    "llms",
+    "open",
+    "projects",
+    "solo",
+    "source",
+    "using"
+   ],
+   "at": "2026-10-25T16:41:51.833611+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxr6z2igq2cf": [
-   82,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxr7rxnhs226": [
-   47,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50078141": [
-   935,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50077703": [
-   86,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50077020": [
-   357,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50074091": [
-   106,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50070554": [
-   405,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxrw6t55us2r": [
    733,
    "2026-10-13T23:48:09.589178+00:00"
@@ -8761,10 +8783,6 @@
    363,
    "2026-10-25T14:16:52.771880+00:00"
   ],
-  "hn:50229861": [
-   340,
-   "2026-10-25T14:16:52.771880+00:00"
-  ],
   "hn:50229599": [
    265,
    "2026-10-25T14:16:52.771880+00:00"
@@ -8772,6 +8790,38 @@
   "hn:50229827": [
    75,
    "2026-10-25T14:16:52.771880+00:00"
+  ],
+  "hn:50229861": [
+   445,
+   "2026-10-25T16:41:03.634052+00:00"
+  ],
+  "hn:50232312": [
+   125,
+   "2026-10-25T16:41:03.634052+00:00"
+  ],
+  "hn:50231722": [
+   239,
+   "2026-10-25T16:41:03.634052+00:00"
+  ],
+  "hn:50231189": [
+   156,
+   "2026-10-25T16:41:03.634052+00:00"
+  ],
+  "hn:50231001": [
+   160,
+   "2026-10-25T16:41:03.634052+00:00"
+  ],
+  "hn:50230995": [
+   191,
+   "2026-10-25T16:41:03.634052+00:00"
+  ],
+  "hn:50230917": [
+   261,
+   "2026-10-25T16:41:03.634052+00:00"
+  ],
+  "lobsters:zfoiw1": [
+   59,
+   "2026-10-25T16:41:03.634052+00:00"
   ]
  }
 }
