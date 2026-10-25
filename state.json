@@ -1058,18 +1058,19 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mymutb22bk2r",
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mynhhiobqf25",
   "hn:50224916",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynzsqt7yg2c"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynzsqt7yg2c",
+  "hn:50229587"
  ],
  "posted": {
-  "viral": 203,
+  "viral": 204,
   "editorial": 201
  },
  "recent_labels": [
-  "The Hacker News",
   "Emily M. Bender",
   "Filippo Valsorda",
   "Hacker News",
-  "404 Media"
+  "404 Media",
+  "Hacker News"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1331,6 +1332,13 @@
    "source": "404media.co",
    "score": 0.13399,
    "at": "2026-10-25T06:47:57.050794+00:00"
+  },
+  {
+   "title": "اتهام متا به جانبداری سیاسی در الگوریتم‌های جستجو و هوش مصنوعی",
+   "url": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
+   "source": "panamericandispatch.org",
+   "score": 0.38,
+   "at": "2026-10-25T10:02:02.016467+00:00"
   }
  ],
  "stories": [
@@ -6129,13 +6137,22 @@
     "wanted"
    ],
    "at": "2026-10-25T06:47:57.050794+00:00"
+  },
+  {
+   "sig": [
+    "bolsonaro",
+    "brazilian",
+    "court",
+    "end",
+    "favoritism",
+    "ignores",
+    "meta",
+    "order"
+   ],
+   "at": "2026-10-25T10:02:02.016467+00:00"
   }
  ],
  "snapshots": {
-  "hn:50072994": [
-   688,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
   "hn:50072286": [
    717,
    "2026-10-13T23:48:09.589178+00:00"
@@ -8488,30 +8505,6 @@
    603,
    "2026-10-25T06:47:52.304550+00:00"
   ],
-  "hn:50228167": [
-   218,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
-  "hn:50227892": [
-   271,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
-  "hn:50227639": [
-   236,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
-  "hn:50227356": [
-   149,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
-  "hn:50226434": [
-   164,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
-  "hn:50226419": [
-   900,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
   "hn:50225695": [
    866,
    "2026-10-25T06:47:52.304550+00:00"
@@ -8520,17 +8513,45 @@
    79,
    "2026-10-25T06:47:52.304550+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myoepqanpe2h": [
-   205,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynzsqt7yg2c": [
    421,
    "2026-10-25T06:47:52.304550+00:00"
   ],
+  "hn:50228167": [
+   278,
+   "2026-10-25T10:01:58.670909+00:00"
+  ],
+  "hn:50227892": [
+   313,
+   "2026-10-25T10:01:58.670909+00:00"
+  ],
+  "hn:50227639": [
+   361,
+   "2026-10-25T10:01:58.670909+00:00"
+  ],
+  "hn:50227356": [
+   279,
+   "2026-10-25T10:01:58.670909+00:00"
+  ],
+  "hn:50226434": [
+   176,
+   "2026-10-25T10:01:58.670909+00:00"
+  ],
+  "hn:50226419": [
+   1096,
+   "2026-10-25T10:01:58.670909+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myoepqanpe2h": [
+   253,
+   "2026-10-25T10:01:58.670909+00:00"
+  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myo2iaxzbk2n": [
    12,
-   "2026-10-25T06:47:52.304550+00:00"
+   "2026-10-25T10:01:58.670909+00:00"
+  ],
+  "hn:50229587": [
+   151,
+   "2026-10-25T10:01:58.670909+00:00"
   ]
  }
 }
