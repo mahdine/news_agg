@@ -1108,18 +1108,27 @@
   "3215473",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mypvg37zje2a",
   "u5rQgqRudRKQW7AfjBnvfG",
-  "jARQyUtxWHPW6qRLZQWw9H"
+  "jARQyUtxWHPW6qRLZQWw9H",
+  "6adbb6231cfad481ad7e3d27",
+  "hn:50235217",
+  "hn:50233929",
+  "hn:50236081",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myq4rdkkmc2e",
+  "https://www.theverge.com/?p=1018233",
+  "https://www.engadget.com/2294022/devices-could-be-wrong-wifi-band-slowing-them-down/",
+  "https://www.androidpolice.com/default-browser-brave-arc-iceraven-firefox-bare/",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myq7h4kdcd2k"
  ],
  "posted": {
-  "viral": 213,
-  "editorial": 213
+  "viral": 215,
+  "editorial": 216
  },
  "recent_labels": [
-  "The Hacker News",
-  "vc.ru",
-  "404 Media",
-  "TechRadar",
-  "TechRadar"
+  "Hacker News",
+  "The Verge",
+  "Engadget",
+  "Android Police",
+  "404 Media"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1535,6 +1544,41 @@
    "source": "TechRadar",
    "score": 0.17838,
    "at": "2026-10-25T19:48:10.387820+00:00"
+  },
+  {
+   "title": "فراخوان برگزاری اتاق ابزارهای دور زدن سانسور در رویداد FOSDEM 2027",
+   "url": "https://talkweb.eu/openweb/4558/",
+   "source": "talkweb.eu",
+   "score": 0.20379,
+   "at": "2026-10-25T22:40:31.278282+00:00"
+  },
+  {
+   "title": "کالبدشکافی آیفون تاشو توسط iFixit و بررسی دلایل خرابی لولاها",
+   "url": "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge",
+   "source": "The Verge",
+   "score": 0.1535,
+   "at": "2026-10-25T22:40:56.863789+00:00"
+  },
+  {
+   "title": "بهینه‌سازی سرعت وای‌فای با مدیریت فرکانس‌های شبکه",
+   "url": "https://www.engadget.com/2294022/devices-could-be-wrong-wifi-band-slowing-them-down/",
+   "source": "Engadget",
+   "score": 0.15553,
+   "at": "2026-10-25T22:41:32.177825+00:00"
+  },
+  {
+   "title": "بررسی و مقایسه مرورگرهای جایگزین کروم در سیستم‌عامل اندروید",
+   "url": "https://www.androidpolice.com/default-browser-brave-arc-iceraven-firefox-bare/",
+   "source": "Android Police",
+   "score": 0.13363,
+   "at": "2026-10-25T22:42:12.090452+00:00"
+  },
+  {
+   "title": "استفاده از هوش مصنوعی برای مهندسی معکوس و شبیه‌سازی نرم‌افزارها",
+   "url": "https://www.404media.co/reverse-engineer-anything-is-the-new-wild-west-of-ai/",
+   "source": "404media.co",
+   "score": 0.38649,
+   "at": "2026-10-25T22:42:24.335100+00:00"
   }
  ],
  "stories": [
@@ -6624,29 +6668,74 @@
     "wants"
    ],
    "at": "2026-10-25T19:48:10.387820+00:00"
+  },
+  {
+   "sig": [
+    "accept",
+    "censored",
+    "fosdem",
+    "internet",
+    "join",
+    "refuse"
+   ],
+   "at": "2026-10-25T22:40:31.278282+00:00"
+  },
+  {
+   "sig": [
+    "broken",
+    "duo",
+    "explain",
+    "hinges",
+    "ifixit",
+    "inside",
+    "iphone",
+    "look",
+    "may",
+    "screens",
+    "those"
+   ],
+   "at": "2026-10-25T22:40:56.863789+00:00"
+  },
+  {
+   "sig": [
+    "band",
+    "could",
+    "devices",
+    "down",
+    "slowing",
+    "wi-fi",
+    "wrong"
+   ],
+   "at": "2026-10-25T22:41:32.177825+00:00"
+  },
+  {
+   "sig": [
+    "browsers",
+    "default",
+    "earned",
+    "finally",
+    "major",
+    "mobile",
+    "spot",
+    "testing"
+   ],
+   "at": "2026-10-25T22:42:12.090452+00:00"
+  },
+  {
+   "sig": [
+    "bike",
+    "could",
+    "defunct",
+    "exercise",
+    "reverse-engi",
+    "slopifying",
+    "wrong",
+    "www.404media.co"
+   ],
+   "at": "2026-10-25T22:42:24.335100+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:dyypvf": [
-   57,
-   "2026-10-14T15:19:18.407113+00:00"
-  ],
-  "hn:50086313": [
-   277,
-   "2026-10-14T15:19:18.407113+00:00"
-  ],
-  "hn:50084622": [
-   313,
-   "2026-10-14T15:19:18.407113+00:00"
-  ],
-  "hn:50083028": [
-   226,
-   "2026-10-14T15:19:18.407113+00:00"
-  ],
-  "hn:50082021": [
-   209,
-   "2026-10-14T15:19:18.407113+00:00"
-  ],
   "hn:50084240": [
    1135,
    "2026-10-14T19:33:19.432811+00:00"
@@ -8979,14 +9068,6 @@
    468,
    "2026-10-25T19:46:14.518053+00:00"
   ],
-  "hn:50232312": [
-   236,
-   "2026-10-25T19:46:14.518053+00:00"
-  ],
-  "hn:50231001": [
-   194,
-   "2026-10-25T19:46:14.518053+00:00"
-  ],
   "hn:50234474": [
    166,
    "2026-10-25T19:46:14.518053+00:00"
@@ -8995,37 +9076,65 @@
    217,
    "2026-10-25T19:46:14.518053+00:00"
   ],
-  "hn:50233929": [
-   393,
-   "2026-10-25T19:46:14.518053+00:00"
-  ],
-  "hn:50233779": [
-   420,
-   "2026-10-25T19:46:14.518053+00:00"
-  ],
-  "hn:50233304": [
-   422,
-   "2026-10-25T19:46:14.518053+00:00"
-  ],
-  "hn:50232682": [
-   249,
-   "2026-10-25T19:46:14.518053+00:00"
-  ],
-  "hn:50232035": [
-   147,
-   "2026-10-25T19:46:14.518053+00:00"
-  ],
-  "hn:50231349": [
-   128,
-   "2026-10-25T19:46:14.518053+00:00"
-  ],
-  "hn:50231166": [
-   113,
-   "2026-10-25T19:46:14.518053+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mypvg37zje2a": [
    143,
    "2026-10-25T19:46:14.518053+00:00"
+  ],
+  "hn:50232312": [
+   254,
+   "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "hn:50231001": [
+   200,
+   "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "hn:50233929": [
+   657,
+   "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "hn:50233779": [
+   689,
+   "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "hn:50233304": [
+   673,
+   "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "hn:50232682": [
+   268,
+   "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "hn:50232035": [
+   154,
+   "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "hn:50231349": [
+   132,
+   "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "hn:50231166": [
+   164,
+   "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "hn:50236081": [
+   170,
+   "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "hn:50235217": [
+   179,
+   "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "hn:50234329": [
+   113,
+   "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myq7h4kdcd2k": [
+   102,
+   "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myq4rdkkmc2e": [
+   8,
+   "2026-10-25T22:40:10.316719+00:00"
   ]
  }
 }
