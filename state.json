@@ -1059,18 +1059,27 @@
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mynhhiobqf25",
   "hn:50224916",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynzsqt7yg2c",
-  "hn:50229587"
+  "hn:50229587",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myoydwmvle2o",
+  "hn:50230181",
+  "hn:50230384",
+  "6ada7a03ace4f27f64bac5a5",
+  "agiX2LAFLtEf7n68PnJTUU",
+  "smgyaHrfn5tpEWNAjcWyoi",
+  "9kni5477bP7kRhTvXbYyHG",
+  "https://www.engadget.com/2292939/dont-throw-away-old-chromebook-even-if-getting-googlebook/",
+  "https://www.engadget.com/2291638/dont-throw-away-old-speakers-use-for-tv-instead/"
  ],
  "posted": {
-  "viral": 204,
-  "editorial": 201
+  "viral": 206,
+  "editorial": 204
  },
  "recent_labels": [
-  "Emily M. Bender",
-  "Filippo Valsorda",
   "Hacker News",
-  "404 Media",
-  "Hacker News"
+  "Hacker News",
+  "Tom's Hardware",
+  "Tom's Hardware",
+  "Engadget"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1339,6 +1348,41 @@
    "source": "panamericandispatch.org",
    "score": 0.38,
    "at": "2026-10-25T10:02:02.016467+00:00"
+  },
+  {
+   "title": "سامسونگ با مدل هوش مصنوعی کاربران را ردیابی می‌کند",
+   "url": "https://twitter.com/mike64_t/status/2114150399406202896",
+   "source": "twitter.com",
+   "score": 0.09789,
+   "at": "2026-10-25T13:24:57.149415+00:00"
+  },
+  {
+   "title": "بازسازی موتور بازی Heroes of Might and Magic II",
+   "url": "https://github.com/ihhub/fheroes2",
+   "source": "github.com",
+   "score": 0.09117,
+   "at": "2026-10-25T13:25:04.250273+00:00"
+  },
+  {
+   "title": "اجرای بازی‌های استیم روی کنسول‌های جیل‌بریک‌شده پلی‌استیشن ۵",
+   "url": "https://www.tomshardware.com/video-games/playstation/jailbroken-ps5s-can-now-run-steam-pc-games-you-can-now-sign-in-with-your-steam-account-and-install-games-from-your-library-directly-to-the-console",
+   "source": "Tom's Hardware",
+   "score": 0.15847,
+   "at": "2026-10-25T13:25:26.081631+00:00"
+  },
+  {
+   "title": "برنامه Nvidia برای دریافت حق اشتراک سالانه از پردازنده‌های گرافیکی هوش مصنوعی",
+   "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform",
+   "source": "Tom's Hardware",
+   "score": 0.1996,
+   "at": "2026-10-25T13:25:31.586609+00:00"
+  },
+  {
+   "title": "کاربردهای بهینه برای لپ‌تاپ‌های قدیمی Chromebook",
+   "url": "https://www.engadget.com/2292939/dont-throw-away-old-chromebook-even-if-getting-googlebook/",
+   "source": "Engadget",
+   "score": 0.20853,
+   "at": "2026-10-25T13:25:38.535630+00:00"
   }
  ],
  "stories": [
@@ -6150,33 +6194,73 @@
     "order"
    ],
    "at": "2026-10-25T10:02:02.016467+00:00"
+  },
+  {
+   "sig": [
+    "960x540",
+    "image",
+    "lite",
+    "model",
+    "running",
+    "samsung",
+    "tensorflow",
+    "track"
+   ],
+   "at": "2026-10-25T13:24:57.149415+00:00"
+  },
+  {
+   "sig": [
+    "engine",
+    "fheroes2",
+    "game",
+    "heroes",
+    "magic",
+    "might",
+    "recreation"
+   ],
+   "at": "2026-10-25T13:25:04.250273+00:00"
+  },
+  {
+   "sig": [
+    "games",
+    "jailbroken",
+    "ps5s",
+    "run",
+    "steam"
+   ],
+   "at": "2026-10-25T13:25:26.081631+00:00"
+  },
+  {
+   "sig": [
+    "000-per-gpu",
+    "agents",
+    "annual",
+    "discusses",
+    "factories",
+    "fee",
+    "nvidia",
+    "runs",
+    "software"
+   ],
+   "at": "2026-10-25T13:25:31.586609+00:00"
+  },
+  {
+   "sig": [
+    "away",
+    "chromebook",
+    "don",
+    "even",
+    "getting",
+    "googlebook",
+    "instead",
+    "old",
+    "speakers",
+    "throw"
+   ],
+   "at": "2026-10-25T13:25:38.535630+00:00"
   }
  ],
  "snapshots": {
-  "hn:50072286": [
-   717,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50072120": [
-   221,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50070593": [
-   398,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50070287": [
-   251,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "lobsters:73ssw1": [
-   107,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "lobsters:uiulqe": [
-   74,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxrd5vag6k2f": [
    251,
    "2026-10-13T23:48:09.589178+00:00"
@@ -8517,22 +8601,6 @@
    421,
    "2026-10-25T06:47:52.304550+00:00"
   ],
-  "hn:50228167": [
-   278,
-   "2026-10-25T10:01:58.670909+00:00"
-  ],
-  "hn:50227892": [
-   313,
-   "2026-10-25T10:01:58.670909+00:00"
-  ],
-  "hn:50227639": [
-   361,
-   "2026-10-25T10:01:58.670909+00:00"
-  ],
-  "hn:50227356": [
-   279,
-   "2026-10-25T10:01:58.670909+00:00"
-  ],
   "hn:50226434": [
    176,
    "2026-10-25T10:01:58.670909+00:00"
@@ -8541,17 +8609,57 @@
    1096,
    "2026-10-25T10:01:58.670909+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myoepqanpe2h": [
-   253,
-   "2026-10-25T10:01:58.670909+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myo2iaxzbk2n": [
-   12,
-   "2026-10-25T10:01:58.670909+00:00"
-  ],
   "hn:50229587": [
    151,
    "2026-10-25T10:01:58.670909+00:00"
+  ],
+  "hn:50228167": [
+   282,
+   "2026-10-25T13:24:53.375110+00:00"
+  ],
+  "hn:50227892": [
+   328,
+   "2026-10-25T13:24:53.375110+00:00"
+  ],
+  "hn:50227639": [
+   411,
+   "2026-10-25T13:24:53.375110+00:00"
+  ],
+  "hn:50227356": [
+   362,
+   "2026-10-25T13:24:53.375110+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myoepqanpe2h": [
+   360,
+   "2026-10-25T13:24:53.375110+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myo2iaxzbk2n": [
+   14,
+   "2026-10-25T13:24:53.375110+00:00"
+  ],
+  "hn:50230384": [
+   95,
+   "2026-10-25T13:24:53.375110+00:00"
+  ],
+  "hn:50230181": [
+   218,
+   "2026-10-25T13:24:53.375110+00:00"
+  ],
+  "hn:50229861": [
+   328,
+   "2026-10-25T13:24:53.375110+00:00"
+  ],
+  "hn:50229599": [
+   249,
+   "2026-10-25T13:24:53.375110+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myoydwmvle2o": [
+   19,
+   "2026-10-25T13:24:53.375110+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myo2i6vfgs2n": [
+   5,
+   "2026-10-25T13:24:53.375110+00:00"
   ]
  }
 }
