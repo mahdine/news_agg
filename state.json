@@ -1068,18 +1068,27 @@
   "smgyaHrfn5tpEWNAjcWyoi",
   "9kni5477bP7kRhTvXbYyHG",
   "https://www.engadget.com/2292939/dont-throw-away-old-chromebook-even-if-getting-googlebook/",
-  "https://www.engadget.com/2291638/dont-throw-away-old-speakers-use-for-tv-instead/"
+  "https://www.engadget.com/2291638/dont-throw-away-old-speakers-use-for-tv-instead/",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myoepqanpe2h",
+  "hn:50229599",
+  "hn:50229827",
+  "https://www.techspot.com/news/114324-microsoft-windows-insider-wallpapers-apparently-made-mac.html",
+  "https://www.neowin.net/news/microsoft-confirms-missing-recall-and-faster-settings-with-new-windows-11-insider-builds/",
+  "https://www.phoronix.com/news/Linux-7.4-Sound",
+  "https://www.phoronix.com/news/Linux-7.4-MM",
+  "255cfb8133ccc74cbe511f27b791764a",
+  "TheNextWeb=3d8f7495cee95b7421c9abab26d98df4"
  ],
  "posted": {
-  "viral": 206,
-  "editorial": 204
+  "viral": 208,
+  "editorial": 207
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
-  "Tom's Hardware",
-  "Tom's Hardware",
-  "Engadget"
+  "TechSpot",
+  "Phoronix",
+  "The Next Web"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1383,6 +1392,41 @@
    "source": "Engadget",
    "score": 0.20853,
    "at": "2026-10-25T13:25:38.535630+00:00"
+  },
+  {
+   "title": "CENSORSHIP SHUTDOWN IRAN",
+   "url": "https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463",
+   "source": "xtramagazine.com",
+   "score": 0.04455,
+   "at": "2026-10-25T14:17:22.796238+00:00"
+  },
+  {
+   "title": "سلب مقام برنده مسابقه عکاسی نیکون به دلیل استفاده از هوش مصنوعی",
+   "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+   "source": "techspot.com",
+   "score": 0.04275,
+   "at": "2026-10-25T14:17:35.912732+00:00"
+  },
+  {
+   "title": "تصاویر پس‌زمینه جدید مایکروسافت برای ویندوز در کامپیوترهای مک ساخته شده‌اند",
+   "url": "https://www.techspot.com/news/114324-microsoft-windows-insider-wallpapers-apparently-made-mac.html",
+   "source": "TechSpot",
+   "score": 0.24197,
+   "at": "2026-10-25T14:17:49.007430+00:00"
+  },
+  {
+   "title": "سیل پتچ‌های هوش مصنوعی و تغییرات سیستم صوتی در هسته لینوکس ۷.۴",
+   "url": "https://www.phoronix.com/news/Linux-7.4-Sound",
+   "source": "Phoronix",
+   "score": 0.17698,
+   "at": "2026-10-25T14:18:02.429855+00:00"
+  },
+  {
+   "title": "برقراری دوباره ارتباط استارلینک برای پهپادهای سریع اوکراین",
+   "url": "https://thenextweb.com/news/ukraine-starlink-starshield-drone-speeds-restored",
+   "source": "The Next Web",
+   "score": 0.2021,
+   "at": "2026-10-25T14:18:25.311669+00:00"
   }
  ],
  "stories": [
@@ -6258,13 +6302,77 @@
     "throw"
    ],
    "at": "2026-10-25T13:25:38.535630+00:00"
+  },
+  {
+   "sig": [
+    "censorship",
+    "crushing",
+    "indie",
+    "online",
+    "webcomics"
+   ],
+   "at": "2026-10-25T14:17:22.796238+00:00"
+  },
+  {
+   "sig": [
+    "contest",
+    "loses",
+    "nikon",
+    "photography",
+    "scientists",
+    "signs",
+    "spot",
+    "title",
+    "winner"
+   ],
+   "at": "2026-10-25T14:17:35.912732+00:00"
+  },
+  {
+   "sig": [
+    "apparently",
+    "builds",
+    "confirms",
+    "faster",
+    "insider",
+    "mac",
+    "microsoft",
+    "missing",
+    "recall",
+    "settings",
+    "wallpapers",
+    "were",
+    "windows"
+   ],
+   "at": "2026-10-25T14:17:49.007430+00:00"
+  },
+  {
+   "sig": [
+    "7.4",
+    "changes",
+    "continues",
+    "damon",
+    "flood",
+    "linux",
+    "merged",
+    "optimizations",
+    "patches",
+    "sound"
+   ],
+   "at": "2026-10-25T14:18:02.429855+00:00"
+  },
+  {
+   "sig": [
+    "above",
+    "back",
+    "drone",
+    "speeds",
+    "starlink",
+    "ukraine"
+   ],
+   "at": "2026-10-25T14:18:25.311669+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxrd5vag6k2f": [
-   251,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxr6z2igq2cf": [
    82,
    "2026-10-13T23:48:09.589178+00:00"
@@ -8613,24 +8721,8 @@
    151,
    "2026-10-25T10:01:58.670909+00:00"
   ],
-  "hn:50228167": [
-   282,
-   "2026-10-25T13:24:53.375110+00:00"
-  ],
-  "hn:50227892": [
-   328,
-   "2026-10-25T13:24:53.375110+00:00"
-  ],
-  "hn:50227639": [
-   411,
-   "2026-10-25T13:24:53.375110+00:00"
-  ],
   "hn:50227356": [
    362,
-   "2026-10-25T13:24:53.375110+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myoepqanpe2h": [
-   360,
    "2026-10-25T13:24:53.375110+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myo2iaxzbk2n": [
@@ -8645,14 +8737,6 @@
    218,
    "2026-10-25T13:24:53.375110+00:00"
   ],
-  "hn:50229861": [
-   328,
-   "2026-10-25T13:24:53.375110+00:00"
-  ],
-  "hn:50229599": [
-   249,
-   "2026-10-25T13:24:53.375110+00:00"
-  ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myoydwmvle2o": [
    19,
    "2026-10-25T13:24:53.375110+00:00"
@@ -8660,6 +8744,34 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myo2i6vfgs2n": [
    5,
    "2026-10-25T13:24:53.375110+00:00"
+  ],
+  "hn:50228167": [
+   289,
+   "2026-10-25T14:16:52.771880+00:00"
+  ],
+  "hn:50227892": [
+   334,
+   "2026-10-25T14:16:52.771880+00:00"
+  ],
+  "hn:50227639": [
+   414,
+   "2026-10-25T14:16:52.771880+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myoepqanpe2h": [
+   363,
+   "2026-10-25T14:16:52.771880+00:00"
+  ],
+  "hn:50229861": [
+   340,
+   "2026-10-25T14:16:52.771880+00:00"
+  ],
+  "hn:50229599": [
+   265,
+   "2026-10-25T14:16:52.771880+00:00"
+  ],
+  "hn:50229827": [
+   75,
+   "2026-10-25T14:16:52.771880+00:00"
   ]
  }
 }
