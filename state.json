@@ -1087,18 +1087,29 @@
   "https://www.engadget.com/2293248/how-much-playstation-plus-cost-2010-vs-2026/",
   "https://9to5mac.com/?p=1075634",
   "Ep6fsYRTRinQZBa7LtJ42M",
-  "f211f4d7dfaa46ed93cd750d7bc8e12e"
+  "f211f4d7dfaa46ed93cd750d7bc8e12e",
+  "https://www.techspot.com/news/114323-only-one-person-world-can-play-free-steam.html",
+  "uf65LRsP4uDNoLErSo6iRo",
+  "GXtRbgxYeoFvtTHz5CHQda",
+  "XoseyemJUtaWmaAr4YwrjR",
+  "hn:50230995",
+  "hn:50231310",
+  "lobsters:tbbiqb",
+  "https://techcrunch.com/?p=3181532",
+  "https://www.theverge.com/?p=1017508",
+  "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://www.androidpolice.com/samsung-expert-raw-upgrades-over-default-camera/"
  ],
  "posted": {
-  "viral": 210,
-  "editorial": 207
+  "viral": 212,
+  "editorial": 209
  },
  "recent_labels": [
-  "TechSpot",
-  "Phoronix",
-  "The Next Web",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Lobsters",
+  "TechCrunch AI",
+  "InfoQ"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1451,6 +1462,34 @@
    "source": "reddit.com",
    "score": 0.09921,
    "at": "2026-10-25T16:41:51.833611+00:00"
+  },
+  {
+   "title": "آینده‌ای خطرناک که در آن محرومیت از هوش مصنوعی برابر با نابودی اقتصادی است",
+   "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+   "source": "twitter.com",
+   "score": 0.05004,
+   "at": "2026-10-25T17:07:09.387221+00:00"
+  },
+  {
+   "title": "خطرات امنیتی استفاده از تابع wordexp در برنامه‌نویسی C",
+   "url": "https://yossarian.net/til/post/posix-wordexp-3-is-dangerous/",
+   "source": "yossarian.net",
+   "score": 0.26531,
+   "at": "2026-10-25T17:07:34.026264+00:00"
+  },
+  {
+   "title": "تأثیر مالی هوش مصنوعی روی شرکت‌های غیرتکنولوژی صفر بوده است",
+   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+   "source": "TechCrunch AI",
+   "score": 0.26167,
+   "at": "2026-10-25T17:07:48.391793+00:00"
+  },
+  {
+   "title": "معرفی موتور شتاب‌دهنده ML Drift گوگل برای هوش مصنوعی روی دستگاه",
+   "url": "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.25398,
+   "at": "2026-10-25T17:08:36.737993+00:00"
   }
  ],
  "stories": [
@@ -6420,17 +6459,55 @@
     "using"
    ],
    "at": "2026-10-25T16:41:51.833611+00:00"
+  },
+  {
+   "sig": [
+    "banned",
+    "being",
+    "economically",
+    "future",
+    "imagine",
+    "means",
+    "useless",
+    "where"
+   ],
+   "at": "2026-10-25T17:07:09.387221+00:00"
+  },
+  {
+   "sig": [
+    "dangerous",
+    "posix",
+    "wordexp"
+   ],
+   "at": "2026-10-25T17:07:34.026264+00:00"
+  },
+  {
+   "sig": [
+    "apollo",
+    "companies",
+    "delivers",
+    "economist",
+    "financial",
+    "payoff",
+    "zero"
+   ],
+   "at": "2026-10-25T17:07:48.391793+00:00"
+  },
+  {
+   "sig": [
+    "accelerates",
+    "across",
+    "diverse",
+    "drift",
+    "google",
+    "gpus",
+    "inference",
+    "on-device"
+   ],
+   "at": "2026-10-25T17:08:36.737993+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxrw6t55us2r": [
-   733,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxrudqcots2r": [
-   1173,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxru6fx5ms2r": [
    408,
    "2026-10-13T23:48:09.589178+00:00"
@@ -8791,28 +8868,12 @@
    75,
    "2026-10-25T14:16:52.771880+00:00"
   ],
-  "hn:50229861": [
-   445,
-   "2026-10-25T16:41:03.634052+00:00"
-  ],
-  "hn:50232312": [
-   125,
-   "2026-10-25T16:41:03.634052+00:00"
-  ],
   "hn:50231722": [
    239,
    "2026-10-25T16:41:03.634052+00:00"
   ],
   "hn:50231189": [
    156,
-   "2026-10-25T16:41:03.634052+00:00"
-  ],
-  "hn:50231001": [
-   160,
-   "2026-10-25T16:41:03.634052+00:00"
-  ],
-  "hn:50230995": [
-   191,
    "2026-10-25T16:41:03.634052+00:00"
   ],
   "hn:50230917": [
@@ -8822,6 +8883,30 @@
   "lobsters:zfoiw1": [
    59,
    "2026-10-25T16:41:03.634052+00:00"
+  ],
+  "hn:50229861": [
+   451,
+   "2026-10-25T17:06:44.243094+00:00"
+  ],
+  "hn:50232312": [
+   164,
+   "2026-10-25T17:06:44.243094+00:00"
+  ],
+  "hn:50231001": [
+   168,
+   "2026-10-25T17:06:44.243094+00:00"
+  ],
+  "hn:50230995": [
+   207,
+   "2026-10-25T17:06:44.243094+00:00"
+  ],
+  "hn:50231310": [
+   272,
+   "2026-10-25T17:06:44.243094+00:00"
+  ],
+  "lobsters:tbbiqb": [
+   29,
+   "2026-10-25T17:06:44.243094+00:00"
   ]
  }
 }
