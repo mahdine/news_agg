@@ -1057,18 +1057,19 @@
   "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mymutb22bk2r",
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mynhhiobqf25",
-  "hn:50224916"
+  "hn:50224916",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynzsqt7yg2c"
  ],
  "posted": {
-  "viral": 202,
+  "viral": 203,
   "editorial": 201
  },
  "recent_labels": [
-  "Hacker News",
   "The Hacker News",
   "Emily M. Bender",
   "Filippo Valsorda",
-  "Hacker News"
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1323,6 +1324,13 @@
    "source": "stealmybitcoin.com",
    "score": 0.21984,
    "at": "2026-10-24T23:34:18.046424+00:00"
+  },
+  {
+   "title": "بازداشت فعال مدنی به دلیل پاک کردن اطلاعات گوشی GrapheneOS",
+   "url": "https://www.404media.co/dhs-said-they-searched-man-who-wiped-grapheneos-phone-for-child-abuse-material-they-lied/",
+   "source": "404media.co",
+   "score": 0.13399,
+   "at": "2026-10-25T06:47:57.050794+00:00"
   }
  ],
  "stories": [
@@ -6098,53 +6106,32 @@
     "steal"
    ],
    "at": "2026-10-24T23:34:18.046424+00:00"
+  },
+  {
+   "sig": [
+    "abuse",
+    "activist",
+    "activities",
+    "actually",
+    "because",
+    "child",
+    "city",
+    "cop",
+    "material",
+    "officials",
+    "phone",
+    "samuel",
+    "search",
+    "stop",
+    "suspected",
+    "terrorist",
+    "tunick",
+    "wanted"
+   ],
+   "at": "2026-10-25T06:47:57.050794+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxqkttu4gktl": [
-   88,
-   "2026-10-13T19:55:30.514612+00:00"
-  ],
-  "lobsters:aasanp": [
-   41,
-   "2026-10-13T19:55:30.514612+00:00"
-  ],
-  "lobsters:zmuawx": [
-   49,
-   "2026-10-13T19:55:30.514612+00:00"
-  ],
-  "lobsters:6tbd2o": [
-   26,
-   "2026-10-13T19:55:30.514612+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxr6dcedrc2g": [
-   1000,
-   "2026-10-13T19:55:30.514612+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxr6chfx3kcf": [
-   207,
-   "2026-10-13T19:55:30.514612+00:00"
-  ],
-  "hn:50074869": [
-   259,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50074289": [
-   387,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50073879": [
-   2312,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50073633": [
-   1421,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50073221": [
-   504,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
   "hn:50072994": [
    688,
    "2026-10-13T23:48:09.589178+00:00"
@@ -8425,22 +8412,6 @@
    95,
    "2026-10-24T23:33:39.745589+00:00"
   ],
-  "hn:50224463": [
-   1235,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
-  "hn:50224300": [
-   170,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
-  "hn:50224100": [
-   432,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
-  "hn:50224074": [
-   244,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
   "hn:50223844": [
    442,
    "2026-10-24T23:33:39.745589+00:00"
@@ -8473,16 +8444,8 @@
    150,
    "2026-10-24T23:33:39.745589+00:00"
   ],
-  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mynjzpbars2g": [
-   19,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
   "hn:50224916": [
    681,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
-  "hn:50224422": [
-   207,
    "2026-10-24T23:33:39.745589+00:00"
   ],
   "lobsters:rlrfew": [
@@ -8497,9 +8460,77 @@
    29,
    "2026-10-24T23:33:39.745589+00:00"
   ],
+  "hn:50224463": [
+   1613,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "hn:50224300": [
+   174,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "hn:50224100": [
+   783,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "hn:50224074": [
+   306,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mynjzpbars2g": [
+   31,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "hn:50224422": [
+   372,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynnajwlvy2n": [
-   343,
-   "2026-10-24T23:33:39.745589+00:00"
+   603,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "hn:50228167": [
+   218,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "hn:50227892": [
+   271,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "hn:50227639": [
+   236,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "hn:50227356": [
+   149,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "hn:50226434": [
+   164,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "hn:50226419": [
+   900,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "hn:50225695": [
+   866,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "hn:50225663": [
+   79,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myoepqanpe2h": [
+   205,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynzsqt7yg2c": [
+   421,
+   "2026-10-25T06:47:52.304550+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myo2iaxzbk2n": [
+   12,
+   "2026-10-25T06:47:52.304550+00:00"
   ]
  }
 }
