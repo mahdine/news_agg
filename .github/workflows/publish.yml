@@ -14,7 +14,7 @@ permissions:
 
 # اجراهای همزمان روی یک state.json به هم می‌ریزند.
 concurrency:
-  group: publish
+  group: state-publisher
   cancel-in-progress: false
 
 jobs:
@@ -38,20 +38,40 @@ jobs:
         run: python -m src.main
 
       - name: commit state
-        run: |
-          if [[ -z "$(git status --porcelain state.json)" ]]; then
-            echo "state تغییر نکرد"
-            exit 0
-          fi
-          git config user.name  "github-actions[bot]"
+        run: |        
+          # حفظ state تولیدشده در اجرای جاری
+          cp state.json /tmp/generated-state.json
+
+          git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state.json
-          git commit -m "state: $(date -u '+%Y-%m-%d %H:%M UTC')"
-          # هر push کد از بیرون این اجرا را عقب می‌اندازد. rebase کن و دوباره
-          # تلاش کن، وگرنه هر بار که repo تغییر کند یک اجرا از دست می‌رود.
+
           for attempt in 1 2 3; do
-            git pull --rebase --autostash origin main && git push && exit 0
+            # دریافت آخرین وضعیت مخزن
+            git fetch origin main
+
+            # شروع از آخرین main و حذف وضعیت نیمه‌کاره قبلی
+            git reset --hard origin/main
+
+            # بازگرداندن state تولیدشده توسط اجرای جاری
+            cp /tmp/generated-state.json state.json
+
+            git add state.json
+
+            # اگر تغییری باقی نمانده، کار تمام است
+            if git diff --cached --quiet; then
+              echo "state تغییر جدیدی ندارد"
+              exit 0
+            fi
+
+            git commit -m "state: $(date -u '+%Y-%m-%d %H:%M UTC')"
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
             echo "push شکست خورد (تلاش $attempt)"
             sleep 5
           done
+
           exit 1
+
