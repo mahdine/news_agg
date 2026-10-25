@@ -56,7 +56,7 @@ def build_message(
     if title:
         parts.append(f"<b>{html.escape(title)}</b>")
     parts.append(html.escape(body))
-    parts.append(f"<i>{source}</i>\n{READ_MORE}")
+    parts.append(f"<i>{source}</i>")
     if footer:
         parts.append(html.escape(footer))
     return "\n\n".join(parts)
