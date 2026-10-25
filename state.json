@@ -1098,18 +1098,28 @@
   "https://techcrunch.com/?p=3181532",
   "https://www.theverge.com/?p=1017508",
   "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "https://www.androidpolice.com/samsung-expert-raw-upgrades-over-default-camera/"
+  "https://www.androidpolice.com/samsung-expert-raw-upgrades-over-default-camera/",
+  "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+  "https://www.techspot.com/news/114322-google-privacy-policy-now-has-loophole-using-gmail.html",
+  "NkN6EFFa8YnpMPTkuRNsUL",
+  "https://www.neowin.net/deals/samsung-990-2tb-nvme-ssd-is-an-excellent-deal-for-limited-time-only/",
+  "hn:50234232",
+  "hn:50234474",
+  "3215473",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mypvg37zje2a",
+  "u5rQgqRudRKQW7AfjBnvfG",
+  "jARQyUtxWHPW6qRLZQWw9H"
  ],
  "posted": {
-  "viral": 212,
-  "editorial": 209
+  "viral": 213,
+  "editorial": 213
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
-  "Lobsters",
-  "TechCrunch AI",
-  "InfoQ"
+  "The Hacker News",
+  "vc.ru",
+  "404 Media",
+  "TechRadar",
+  "TechRadar"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1490,6 +1500,41 @@
    "source": "InfoQ",
    "score": 0.25398,
    "at": "2026-10-25T17:08:36.737993+00:00"
+  },
+  {
+   "title": "تغییر سیاست حریم خصوصی گوگل برای نمایش تبلیغات هدفمند مبتنی بر هوش مصنوعی",
+   "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+   "source": "The Hacker News",
+   "score": 0.14889,
+   "at": "2026-10-25T19:46:23.961521+00:00"
+  },
+  {
+   "title": "الزام مراکز داده روسیه به حفاظت در برابر حملات پهپادی",
+   "url": "https://vc.ru/services/3215473-mincifry-utverdilo-trebovaniya-po-zashchite-data-tsentrov-ot-bespilotnikov?from=rss",
+   "source": "vc.ru",
+   "score": 0.13276,
+   "at": "2026-10-25T19:47:39.158125+00:00"
+  },
+  {
+   "title": "تعطیلی وب‌سایت decomp.dev به دلیل پیشرفت هوش مصنوعی در مهندسی معکوس",
+   "url": "https://www.404media.co/video-game-reverse-engineering-community-shuts-down-because-ai-has-made-it-too-easy/",
+   "source": "404media.co",
+   "score": 0.70018,
+   "at": "2026-10-25T19:47:45.535130+00:00"
+  },
+  {
+   "title": "بررسی تخصصی ذخیره‌ساز تحت شبکه Beelink ME Pro Creator Edition",
+   "url": "https://www.techradar.com/pro/beelink-me-pro-creator-edition-nas-review",
+   "source": "TechRadar",
+   "score": 0.15703,
+   "at": "2026-10-25T19:48:00.523570+00:00"
+  },
+  {
+   "title": "هاب RAMDeck برای اجرای مدل‌های هوش مصنوعی با اشتراک‌گذاری حافظه دستگاه‌ها",
+   "url": "https://www.techradar.com/pro/this-crowdfunded-usd109-hub-wants-to-pool-the-ram-in-your-old-pcs-macs-and-phones-to-run-bigger-ai-models-but-the-engine-underneath-is-software-you-can-already-get-for-free",
+   "source": "TechRadar",
+   "score": 0.17838,
+   "at": "2026-10-25T19:48:10.387820+00:00"
   }
  ],
  "stories": [
@@ -6505,49 +6550,83 @@
     "on-device"
    ],
    "at": "2026-10-25T17:08:36.737993+00:00"
+  },
+  {
+   "sig": [
+    "ads",
+    "could",
+    "data",
+    "gmail",
+    "google",
+    "loophole",
+    "photos",
+    "policy",
+    "privacy",
+    "search",
+    "shared",
+    "targeted",
+    "using"
+   ],
+   "at": "2026-10-25T19:46:23.961521+00:00"
+  },
+  {
+   "sig": [
+    "become",
+    "broader",
+    "clones",
+    "copyright",
+    "destabilizing",
+    "easy",
+    "functional",
+    "grey",
+    "live",
+    "people",
+    "potentially",
+    "software",
+    "symptomatic",
+    "trend",
+    "trivially",
+    "video-game-r",
+    "www.404media.co",
+    "zone"
+   ],
+   "at": "2026-10-25T19:47:45.535130+00:00"
+  },
+  {
+   "sig": [
+    "beelink",
+    "creator",
+    "edition",
+    "nas",
+    "pro",
+    "review"
+   ],
+   "at": "2026-10-25T19:48:00.523570+00:00"
+  },
+  {
+   "sig": [
+    "already",
+    "bigger",
+    "crowdfunded",
+    "engine",
+    "free",
+    "hub",
+    "macs",
+    "models",
+    "old",
+    "pcs",
+    "phones",
+    "pool",
+    "ram",
+    "run",
+    "software",
+    "underneath",
+    "wants"
+   ],
+   "at": "2026-10-25T19:48:10.387820+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxru6fx5ms2r": [
-   408,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxrucac3x2cf": [
-   59,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50081930": [
-   208,
-   "2026-10-14T10:25:05.529571+00:00"
-  ],
-  "hn:50081151": [
-   226,
-   "2026-10-14T10:25:05.529571+00:00"
-  ],
-  "hn:50081054": [
-   68,
-   "2026-10-14T10:25:05.529571+00:00"
-  ],
-  "hn:50080275": [
-   241,
-   "2026-10-14T10:25:05.529571+00:00"
-  ],
-  "hn:50080007": [
-   466,
-   "2026-10-14T10:25:05.529571+00:00"
-  ],
-  "hn:50083766": [
-   354,
-   "2026-10-14T15:19:18.407113+00:00"
-  ],
-  "hn:50083130": [
-   813,
-   "2026-10-14T15:19:18.407113+00:00"
-  ],
-  "hn:50082962": [
-   225,
-   "2026-10-14T15:19:18.407113+00:00"
-  ],
   "lobsters:dyypvf": [
    57,
    "2026-10-14T15:19:18.407113+00:00"
@@ -8884,18 +8963,6 @@
    59,
    "2026-10-25T16:41:03.634052+00:00"
   ],
-  "hn:50229861": [
-   451,
-   "2026-10-25T17:06:44.243094+00:00"
-  ],
-  "hn:50232312": [
-   164,
-   "2026-10-25T17:06:44.243094+00:00"
-  ],
-  "hn:50231001": [
-   168,
-   "2026-10-25T17:06:44.243094+00:00"
-  ],
   "hn:50230995": [
    207,
    "2026-10-25T17:06:44.243094+00:00"
@@ -8907,6 +8974,58 @@
   "lobsters:tbbiqb": [
    29,
    "2026-10-25T17:06:44.243094+00:00"
+  ],
+  "hn:50229861": [
+   468,
+   "2026-10-25T19:46:14.518053+00:00"
+  ],
+  "hn:50232312": [
+   236,
+   "2026-10-25T19:46:14.518053+00:00"
+  ],
+  "hn:50231001": [
+   194,
+   "2026-10-25T19:46:14.518053+00:00"
+  ],
+  "hn:50234474": [
+   166,
+   "2026-10-25T19:46:14.518053+00:00"
+  ],
+  "hn:50234232": [
+   217,
+   "2026-10-25T19:46:14.518053+00:00"
+  ],
+  "hn:50233929": [
+   393,
+   "2026-10-25T19:46:14.518053+00:00"
+  ],
+  "hn:50233779": [
+   420,
+   "2026-10-25T19:46:14.518053+00:00"
+  ],
+  "hn:50233304": [
+   422,
+   "2026-10-25T19:46:14.518053+00:00"
+  ],
+  "hn:50232682": [
+   249,
+   "2026-10-25T19:46:14.518053+00:00"
+  ],
+  "hn:50232035": [
+   147,
+   "2026-10-25T19:46:14.518053+00:00"
+  ],
+  "hn:50231349": [
+   128,
+   "2026-10-25T19:46:14.518053+00:00"
+  ],
+  "hn:50231166": [
+   113,
+   "2026-10-25T19:46:14.518053+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mypvg37zje2a": [
+   143,
+   "2026-10-25T19:46:14.518053+00:00"
   ]
  }
 }
