@@ -1158,18 +1158,27 @@
   "TheNextWeb=9fd634bf75695080ccdbb2c3942fa9cc",
   "https://9to5mac.com/?p=1075681",
   "https://www.techspot.com/news/114331-elon-musk-predicts-mass-extinction-ai-cloud-companies.html",
-  "TheNextWeb=11579bc9c6230253f0241b88f4ea1aef"
+  "TheNextWeb=11579bc9c6230253f0241b88f4ea1aef",
+  "https://www.theregister.com/a/5305208",
+  "TheNextWeb=50e56f562dd428b3e5972dd153192877",
+  "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+  "https://www.cnews.ru/news/line/2026-10-26_otlk_era_pereshlo_s_inostrannogo",
+  "https://www.cnews.ru/news/line/2026-10-26_mts_rasshirila_set_na_otechestvennom",
+  "https://www.neowin.net/news/microsoft-azure-qualifies-seagate-hamr-and-smr-drives-with-broadcom-hbas/",
+  "70b9b398c02fec49caaf90bc504b6a06",
+  "https://www.securityweek.com/?p=50292",
+  "https://www.cnews.ru/news/line/2026-10-26_solar_glavnymi_zhertvami"
  ],
  "posted": {
   "viral": 224,
-  "editorial": 228
+  "editorial": 233
  },
  "recent_labels": [
-  "InfoQ",
-  "TechRadar",
-  "The Next Web",
-  "9to5Mac",
-  "TechSpot"
+  "The Register",
+  "The Hacker News",
+  "Neowin",
+  "SecurityWeek",
+  "CNews"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1767,101 +1776,44 @@
    "source": "TechSpot",
    "score": 0.55666,
    "at": "2026-10-26T11:20:29.550806+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری جدید در PHP2Shell بدون وصله اضطراری",
+   "url": "https://www.theregister.com/security/2026/10/23/theres-a-third-php2shell-bug-but-it-wont-get-an-emergency-fix/5305208",
+   "source": "The Register",
+   "score": 0.34672,
+   "at": "2026-10-26T11:53:45.702157+00:00"
+  },
+  {
+   "title": "شناسایی حملات سایبری پنهان با تحلیل داده‌های شبکه و هوش مصنوعی",
+   "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+   "source": "The Hacker News",
+   "score": 0.2257,
+   "at": "2026-10-26T11:53:51.975262+00:00"
+  },
+  {
+   "title": "تأیید درایوهای Seagate و کنترلرهای Broadcom برای دیتاسنترهای Azure",
+   "url": "https://www.neowin.net/news/microsoft-azure-qualifies-seagate-hamr-and-smr-drives-with-broadcom-hbas/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.18461,
+   "at": "2026-10-26T11:54:02.437966+00:00"
+  },
+  {
+   "title": "دستگیری دو نفر به اتهام سرقت ۴۰۰ هزار دلاری با حملات NFC",
+   "url": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
+   "source": "SecurityWeek",
+   "score": 0.27448,
+   "at": "2026-10-26T11:54:09.994196+00:00"
+  },
+  {
+   "title": "افزایش نشت داده‌ها در بخش حمل‌ونقل و رشد فیشینگ با هوش مصنوعی",
+   "url": "https://www.cnews.ru/news/line/2026-10-26_solar_glavnymi_zhertvami",
+   "source": "CNews",
+   "score": 0.22344,
+   "at": "2026-10-26T11:54:25.537183+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "115gb",
-    "announces",
-    "apple",
-    "around",
-    "aug",
-    "colored",
-    "download",
-    "everything",
-    "features",
-    "featuring",
-    "fun",
-    "generate",
-    "generated",
-    "generation",
-    "here",
-    "leaps",
-    "log",
-    "lot",
-    "mac",
-    "mini",
-    "minimax-h3",
-    "minutes",
-    "model",
-    "mossy",
-    "notes",
-    "pro",
-    "prompt",
-    "rainbow",
-    "ran",
-    "simonwillison.net",
-    "skunk",
-    "soc",
-    "supermarket",
-    "took",
-    "updated",
-    "video"
-   ],
-   "at": "2026-08-25T14:25:03+00:00"
-  },
-  {
-   "sig": [
-    "12-core",
-    "17gb",
-    "27b",
-    "2nm",
-    "3.7",
-    "48gb",
-    "airtag",
-    "announces",
-    "any",
-    "apple",
-    "best",
-    "bicycle",
-    "changed",
-    "chips",
-    "cpu",
-    "date",
-    "deals",
-    "debuting",
-    "drew",
-    "each",
-    "gguf",
-    "laptop",
-    "launches",
-    "mac",
-    "macbook",
-    "max",
-    "mini",
-    "model",
-    "next-gen",
-    "pelican",
-    "price",
-    "pro",
-    "quad-die",
-    "qwen",
-    "release",
-    "riding",
-    "running",
-    "runs",
-    "seen",
-    "silicon",
-    "specs",
-    "studio",
-    "trades",
-    "ultra",
-    "unveils",
-    "upgraded"
-   ],
-   "at": "2026-08-25T19:03:29+00:00"
-  },
   {
    "sig": [
     "markdown",
@@ -7148,6 +7100,61 @@
     "spacex"
    ],
    "at": "2026-10-26T11:20:29.550806+00:00"
+  },
+  {
+   "sig": [
+    "bug",
+    "emergency",
+    "fix",
+    "flaw",
+    "php",
+    "php2shell",
+    "rush",
+    "there",
+    "third",
+    "warns",
+    "won"
+   ],
+   "at": "2026-10-26T11:53:45.702157+00:00"
+  },
+  {
+   "sig": [
+    "alerts",
+    "attackers",
+    "detection",
+    "misses",
+    "ordinary",
+    "spaces"
+   ],
+   "at": "2026-10-26T11:53:51.975262+00:00"
+  },
+  {
+   "sig": [
+    "azure",
+    "broadcom",
+    "drives",
+    "hamr",
+    "hbas",
+    "microsoft",
+    "qualifies",
+    "seagate",
+    "smr"
+   ],
+   "at": "2026-10-26T11:54:02.437966+00:00"
+  },
+  {
+   "sig": [
+    "accounts",
+    "arrest",
+    "attacks",
+    "bank",
+    "drained",
+    "dutch",
+    "nfc",
+    "police",
+    "relay"
+   ],
+   "at": "2026-10-26T11:54:09.994196+00:00"
   }
  ],
  "snapshots": {
