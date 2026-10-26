@@ -1125,18 +1125,24 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myqxosyjij2l",
   "https://www.neowin.net/news/microsoft-issues-urgent-net-security-patches-for-critical-buffer-overflow-flaws/",
   "ff2cecfcb18227434537181c0ba96a70",
-  "eb4d78de86ae38666f2506ede11d069e"
+  "eb4d78de86ae38666f2506ede11d069e",
+  "lobsters:hzrmwz",
+  "lobsters:x1s5oq",
+  "hn:50237485",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myql4ogqth2n",
+  "https://www.cnews.ru/news/line/2026-10-26_agrokompleks_ivanisovo",
+  "4db0cccaea6935a25125a7a26485c950"
  ],
  "posted": {
-  "viral": 217,
-  "editorial": 217
+  "viral": 220,
+  "editorial": 219
  },
  "recent_labels": [
-  "Android Police",
+  "Lobsters",
+  "Lobsters",
   "404 Media",
-  "Hacker News",
-  "Hacker News",
-  "Neowin"
+  "CNews",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1608,6 +1614,41 @@
    "source": "Neowin",
    "score": 0.19474,
    "at": "2026-10-26T08:52:26.580082+00:00"
+  },
+  {
+   "title": "راه‌اندازی وب‌سرور ساده با استفاده از NetBSD و bozohttpd",
+   "url": "https://bsandro.tech/posts/simple-netbsd-webserver/",
+   "source": "bsandro.tech",
+   "score": 0.03967,
+   "at": "2026-10-26T08:53:47.311762+00:00"
+  },
+  {
+   "title": "مهارت‌های زودگذر در دنیای هوش مصنوعی و چرخه‌ی عمر ابزارها",
+   "url": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
+   "source": "fishbowl.pastiche.org",
+   "score": 0.04676,
+   "at": "2026-10-26T08:53:53.307287+00:00"
+  },
+  {
+   "title": "نفوذ گروه تبهکار چینی به شبکه Staples برای کلاهبرداری گسترده",
+   "url": "https://www.404media.co/how-a-massive-chinese-crime-ring-hacked-staples-to-steal-millions/",
+   "source": "404media.co",
+   "score": 0.05096,
+   "at": "2026-10-26T08:53:59.633814+00:00"
+  },
+  {
+   "title": "مهاجرت آگروکامپلکس ایوانیسوو به زیرساخت ابری برای بهینه‌سازی هزینه‌ها",
+   "url": "https://www.cnews.ru/news/line/2026-10-26_agrokompleks_ivanisovo",
+   "source": "CNews",
+   "score": 0.16108,
+   "at": "2026-10-26T08:54:11.255135+00:00"
+  },
+  {
+   "title": "دستورالعمل جدید روسیه برای ایمن‌سازی مراکز داده در برابر حملات پهپادی",
+   "url": "https://hi-tech.mail.ru/news/158914-mincifry-utverdilo-rekomendacii-po-zashite-codov/",
+   "source": "Hi-Tech Mail",
+   "score": 0.1834,
+   "at": "2026-10-26T08:54:20.135393+00:00"
   }
  ],
  "stories": [
@@ -6801,6 +6842,38 @@
     "urgent"
    ],
    "at": "2026-10-26T08:52:26.580082+00:00"
+  },
+  {
+   "sig": [
+    "netbsd",
+    "simple",
+    "webserver"
+   ],
+   "at": "2026-10-26T08:53:47.311762+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "cards",
+    "crime",
+    "dollars",
+    "gang",
+    "gift",
+    "hacked",
+    "how-a-massiv",
+    "issued",
+    "millions",
+    "organized",
+    "sophisticated",
+    "spending",
+    "spree",
+    "staples",
+    "u.s",
+    "went",
+    "worth",
+    "www.404media.co"
+   ],
+   "at": "2026-10-26T08:53:59.633814+00:00"
   }
  ],
  "snapshots": {
@@ -9158,39 +9231,39 @@
   ],
   "hn:50238708": [
    259,
-   "2026-10-26T08:51:46.514272+00:00"
+   "2026-10-26T08:53:44.494083+00:00"
   ],
   "hn:50238557": [
    77,
-   "2026-10-26T08:51:46.514272+00:00"
+   "2026-10-26T08:53:44.494083+00:00"
   ],
   "hn:50238088": [
-   467,
-   "2026-10-26T08:51:46.514272+00:00"
+   474,
+   "2026-10-26T08:53:44.494083+00:00"
   ],
   "hn:50237712": [
    260,
-   "2026-10-26T08:51:46.514272+00:00"
+   "2026-10-26T08:53:44.494083+00:00"
   ],
   "hn:50237485": [
-   1218,
-   "2026-10-26T08:51:46.514272+00:00"
+   1220,
+   "2026-10-26T08:53:44.494083+00:00"
   ],
   "hn:50237224": [
-   170,
-   "2026-10-26T08:51:46.514272+00:00"
+   172,
+   "2026-10-26T08:53:44.494083+00:00"
   ],
   "hn:50236102": [
-   872,
-   "2026-10-26T08:51:46.514272+00:00"
+   873,
+   "2026-10-26T08:53:44.494083+00:00"
   ],
   "lobsters:hzrmwz": [
    36,
-   "2026-10-26T08:51:46.514272+00:00"
+   "2026-10-26T08:53:44.494083+00:00"
   ],
   "lobsters:x1s5oq": [
    32,
-   "2026-10-26T08:51:46.514272+00:00"
+   "2026-10-26T08:53:44.494083+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myqxosyjij2l": [
    250,
@@ -9198,11 +9271,11 @@
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myql4ogqth2n": [
    502,
-   "2026-10-26T08:51:46.514272+00:00"
+   "2026-10-26T08:53:44.494083+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myqqgszdv22z": [
-   88,
-   "2026-10-26T08:51:46.514272+00:00"
+   89,
+   "2026-10-26T08:53:44.494083+00:00"
   ]
  }
 }
