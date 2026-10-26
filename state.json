@@ -1141,18 +1141,26 @@
   "6acfa191b89c86bafd0c5309",
   "MSNqBTPcqGDLH2ZZit7Bim",
   "pAMACxE2FcVQiq83KnpyCM",
-  "https://www.neowin.net/news/denmark-has-abandoned-plans-to-ditch-microsoft-office-after-technical-problems/"
+  "https://www.neowin.net/news/denmark-has-abandoned-plans-to-ditch-microsoft-office-after-technical-problems/",
+  "hn:50237224",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myqidh5bo22x",
+  "hn:50238557",
+  "hn:50239748",
+  "https://www.cnews.ru/news/line/2026-10-26_bazalt_spo_i_tyumgu_podgotovyat",
+  "KMAkycWLZnK7euBiqcLQwE",
+  "77499eca0de0937e583088da5a6fe6ad",
+  "https://www.cnews.ru/news/line/2026-10-26_vvp_group_rasshiryaet_assortiment"
  ],
  "posted": {
-  "viral": 222,
-  "editorial": 222
+  "viral": 224,
+  "editorial": 223
  },
  "recent_labels": [
-  "Slashdot",
-  "Hacker News",
-  "Hacker News",
   "Wired",
-  "Tom's Hardware"
+  "Tom's Hardware",
+  "Hacker News",
+  "Hacker News",
+  "CNews"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1694,6 +1702,27 @@
    "source": "Tom's Hardware",
    "score": 0.3587,
    "at": "2026-10-26T09:54:27.653460+00:00"
+  },
+  {
+   "title": "معماری جدید برای مدل‌های زبانی بدون استفاده از مکانیزم Attention",
+   "url": "https://arxiv.org/abs/2512.19428",
+   "source": "arxiv.org",
+   "score": 0.01309,
+   "at": "2026-10-26T10:54:16.341217+00:00"
+  },
+  {
+   "title": "شکست پیش‌نویس استاندارد C++26 در رای‌گیری بین‌المللی",
+   "url": "https://train-it.eu/blog/cpp26-contracts-the-ballot-result/",
+   "source": "train-it.eu",
+   "score": 0.04665,
+   "at": "2026-10-26T10:54:26.525409+00:00"
+  },
+  {
+   "title": "همکاری دانشگاه دولتی تیومن و شرکت Bazalt SPO برای آموزش نرم‌افزارهای بومی",
+   "url": "https://www.cnews.ru/news/line/2026-10-26_bazalt_spo_i_tyumgu_podgotovyat",
+   "source": "CNews",
+   "score": 0.2136,
+   "at": "2026-10-26T10:54:39.368452+00:00"
   }
  ],
  "stories": [
@@ -6997,17 +7026,17 @@
     "under"
    ],
    "at": "2026-10-26T09:54:27.653460+00:00"
+  },
+  {
+   "sig": [
+    "ballot",
+    "dis",
+    "result"
+   ],
+   "at": "2026-10-26T10:54:26.525409+00:00"
   }
  ],
  "snapshots": {
-  "hn:50092664": [
-   612,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50092415": [
-   272,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
   "hn:50090842": [
    294,
    "2026-10-14T23:21:22.125017+00:00"
@@ -9368,28 +9397,12 @@
    502,
    "2026-10-26T08:53:44.494083+00:00"
   ],
-  "hn:50238708": [
-   302,
-   "2026-10-26T09:53:47.286747+00:00"
-  ],
-  "hn:50238557": [
-   79,
-   "2026-10-26T09:53:47.286747+00:00"
-  ],
   "hn:50238088": [
    527,
    "2026-10-26T09:53:47.286747+00:00"
   ],
   "hn:50237712": [
    289,
-   "2026-10-26T09:53:47.286747+00:00"
-  ],
-  "hn:50237224": [
-   184,
-   "2026-10-26T09:53:47.286747+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myqqgszdv22z": [
-   92,
    "2026-10-26T09:53:47.286747+00:00"
   ],
   "hn:50240922": [
@@ -9399,6 +9412,30 @@
   "hn:50238620": [
    105,
    "2026-10-26T09:53:47.286747+00:00"
+  ],
+  "hn:50238708": [
+   329,
+   "2026-10-26T10:53:52.281993+00:00"
+  ],
+  "hn:50238557": [
+   79,
+   "2026-10-26T10:53:52.281993+00:00"
+  ],
+  "hn:50237224": [
+   201,
+   "2026-10-26T10:53:52.281993+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myqqgszdv22z": [
+   93,
+   "2026-10-26T10:53:52.281993+00:00"
+  ],
+  "hn:50239748": [
+   173,
+   "2026-10-26T10:53:52.281993+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myqidh5bo22x": [
+   6,
+   "2026-10-26T10:53:52.281993+00:00"
   ]
  }
 }
