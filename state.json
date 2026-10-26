@@ -1207,18 +1207,48 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys4lj6csi2s",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys5g5x64r2a",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mys7uwobcs2z",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys7wn3t4r2n"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys7wn3t4r2n",
+  "hn:50247630",
+  "hn:50248055",
+  "hn:50248665",
+  "https://www.engadget.com/2297433/apple-responds-to-reports-of-the-iphone-duo-inner-display-cracking/",
+  "https://www.theverge.com/?p=1018827",
+  "https://www.theverge.com/?p=1018760",
+  "1389933",
+  "yssMN97KrmQkmnYSaHaYZY",
+  "https://www.techspot.com/news/114339-teardown-reveals-three-theories-why-iphone-duo-screens.html",
+  "https://www.neowin.net/news/apple-confirms-user-reports-about-iphone-duo-screen-cracking/",
+  "https://9to5mac.com/?p=1075898",
+  "https://9to5mac.com/?p=1075814",
+  "https://9to5mac.com/?p=1075884",
+  "https://9to5mac.com/?p=1075744",
+  "https://9to5mac.com/?p=1075788",
+  "https://9to5mac.com/?p=1075802",
+  "https://9to5mac.com/?p=1075793",
+  "https://9to5mac.com/?p=1075789",
+  "https://9to5mac.com/?p=1075791",
+  "https://9to5mac.com/?p=1075809",
+  "https://9to5mac.com/?p=1075842",
+  "https://9to5mac.com/?p=1075754",
+  "https://9to5mac.com/?p=1075708",
+  "TheNextWeb=c93b568b62ea70c02b7ea1c354f89cbb",
+  "hn:50249275",
+  "hn:50250016",
+  "hn:50250937",
+  "https://slashdot.org/story/26/10/26/2128235/skydance-offers-buyouts-gives-5-day-rto-order?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50249116",
+  "TheNextWeb=221f6c8c2320a9103679eaeb42a14235"
  ],
  "posted": {
-  "viral": 239,
-  "editorial": 243
+  "viral": 242,
+  "editorial": 244
  },
  "recent_labels": [
-  "Lobsters",
   "404 Media",
-  "404 Media",
-  "Emily M. Bender",
-  "404 Media"
+  "Hacker News",
+  "Hacker News",
+  "Engadget",
+  "Hacker News"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2026,67 +2056,37 @@
    "source": "404media.co",
    "score": 1.0168,
    "at": "2026-10-26T17:29:21.051822+00:00"
+  },
+  {
+   "title": "هدایت کاربران ChatGPT به سمت خبرنگاران برای حل مشکلات پشتیبانی فنی",
+   "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+   "source": "404media.co",
+   "score": 0.13922,
+   "at": "2026-10-26T22:47:16.971029+00:00"
+  },
+  {
+   "title": "بررسی قدیمی‌ترین نرم‌افزارهای گرافیکی قابل اجرا در ویندوز ۱۱",
+   "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+   "source": "blog.enlyth.com",
+   "score": 0.17123,
+   "at": "2026-10-26T22:47:24.705289+00:00"
+  },
+  {
+   "title": "گزارش خرابی نمایشگر داخلی در گوشی‌های جدید iPhone Duo",
+   "url": "https://www.engadget.com/2297433/apple-responds-to-reports-of-the-iphone-duo-inner-display-cracking/",
+   "source": "Engadget",
+   "score": 0.96639,
+   "at": "2026-10-26T22:47:31.642528+00:00"
+  },
+  {
+   "title": "برنامه سازمان حفاظت محیط زیست آمریکا برای حذف آرشیو آنلاین اسناد",
+   "url": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/",
+   "source": "motherjones.com",
+   "score": 0.20307,
+   "at": "2026-10-26T22:47:55.027552+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "breach",
-    "data",
-    "exposed",
-    "health",
-    "information",
-    "lacma",
-    "last",
-    "medical",
-    "nutex",
-    "security",
-    "sensitive",
-    "social",
-    "year"
-   ],
-   "at": "2026-08-26T08:07:17.187326+00:00"
-  },
-  {
-   "sig": [
-    "agentic",
-    "architecture",
-    "context",
-    "cost",
-    "management",
-    "memory",
-    "problems"
-   ],
-   "at": "2026-08-26T09:10:33.453356+00:00"
-  },
-  {
-   "sig": [
-    "browser",
-    "editor",
-    "latex",
-    "pdftex",
-    "runs",
-    "show",
-    "texbrain",
-    "via",
-    "wasm"
-   ],
-   "at": "2026-08-26T10:05:56.372850+00:00"
-  },
-  {
-   "sig": [
-    "alpha",
-    "behind",
-    "confirms",
-    "glm-series",
-    "model",
-    "release",
-    "stealth",
-    "weights",
-    "z.ai"
-   ],
-   "at": "2026-08-26T11:00:51.616342+00:00"
-  },
   {
    "sig": [
     "adds",
@@ -7251,101 +7251,112 @@
     "phone"
    ],
    "at": "2026-10-26T17:29:21.051822+00:00"
+  },
+  {
+   "sig": [
+    "chatgpt",
+    "keeps",
+    "media",
+    "people",
+    "problems",
+    "solve",
+    "support",
+    "tech",
+    "telling"
+   ],
+   "at": "2026-10-26T22:47:16.971029+00:00"
+  },
+  {
+   "sig": [
+    "application",
+    "gui",
+    "oldest",
+    "runs",
+    "still",
+    "windows"
+   ],
+   "at": "2026-10-26T22:47:24.705289+00:00"
+  },
+  {
+   "sig": [
+    "15.8.2",
+    "26.7.2",
+    "27.2",
+    "acknowledges",
+    "already",
+    "apple",
+    "available",
+    "aware",
+    "better",
+    "big",
+    "buyers",
+    "confirms",
+    "cracked",
+    "cracking",
+    "display",
+    "duo",
+    "duos",
+    "everything",
+    "failing",
+    "features",
+    "four",
+    "gate",
+    "getting",
+    "golden",
+    "here",
+    "homepod",
+    "inner",
+    "ios",
+    "ipad",
+    "ipados",
+    "iphone",
+    "issue",
+    "keep",
+    "keeps",
+    "know",
+    "launched",
+    "limitation",
+    "macos",
+    "mini",
+    "model",
+    "need",
+    "number",
+    "pencil",
+    "previous",
+    "releases",
+    "replace",
+    "reports",
+    "responds",
+    "reveals",
+    "screen",
+    "screens",
+    "sequoia",
+    "siri",
+    "small",
+    "supports",
+    "tahoe",
+    "teardown",
+    "theories",
+    "three",
+    "tvos",
+    "user",
+    "watch",
+    "watchos"
+   ],
+   "at": "2026-10-26T22:47:31.642528+00:00"
+  },
+  {
+   "sig": [
+    "archive",
+    "epa",
+    "killing",
+    "quietly",
+    "web"
+   ],
+   "at": "2026-10-26T22:47:55.027552+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxttvhhtfc2c": [
-   20,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50095353": [
-   208,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50094694": [
-   375,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50094673": [
-   286,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50093568": [
-   884,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50093180": [
-   686,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50092470": [
-   147,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50091875": [
-   262,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50091794": [
-   154,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50090932": [
-   171,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50088166": [
-   155,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50086363": [
-   144,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "lobsters:plcgps": [
-   56,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxufkknq2k2r": [
-   422,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mxu4thu4mr2i": [
-   48,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50098570": [
-   170,
-   "2026-10-15T10:09:48.054264+00:00"
-  ],
-  "hn:50098274": [
-   105,
-   "2026-10-15T10:09:48.054264+00:00"
-  ],
-  "hn:50097880": [
-   157,
-   "2026-10-15T10:09:48.054264+00:00"
-  ],
-  "hn:50097369": [
-   304,
-   "2026-10-15T10:09:48.054264+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mxvjfi3weu2o": [
-   50,
-   "2026-10-15T15:11:25.416636+00:00"
-  ],
-  "hn:50103000": [
-   601,
-   "2026-10-15T15:11:25.416636+00:00"
-  ],
-  "hn:50101813": [
-   71,
-   "2026-10-15T15:11:25.416636+00:00"
-  ],
-  "hn:50099136": [
-   141,
-   "2026-10-15T15:11:25.416636+00:00"
-  ],
   "lobsters:ixoasm": [
    25,
    "2026-10-15T15:11:25.416636+00:00"
@@ -9653,6 +9664,98 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mys7uwobcs2z": [
    50,
    "2026-10-26T17:28:32.399641+00:00"
+  ],
+  "hn:50251344": [
+   202,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50250937": [
+   287,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50250016": [
+   363,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50249275": [
+   244,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50249116": [
+   117,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50248665": [
+   312,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50248061": [
+   568,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50248055": [
+   469,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50248005": [
+   500,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50247928": [
+   175,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50247630": [
+   346,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50247453": [
+   123,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50246658": [
+   419,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50246238": [
+   115,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "hn:50245945": [
+   102,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "lobsters:6ntoqr": [
+   33,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "lobsters:c0yniy": [
+   32,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "lobsters:ysyqnt": [
+   31,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myskt366z22k": [
+   446,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysg7aosuk2a": [
+   739,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysdcaw54d2i": [
+   311,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysca4dxes2a": [
+   956,
+   "2026-10-26T22:47:11.774119+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mysifpvex22y": [
+   97,
+   "2026-10-26T22:47:11.774119+00:00"
   ]
  }
 }
