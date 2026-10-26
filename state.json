@@ -1167,18 +1167,25 @@
   "https://www.neowin.net/news/microsoft-azure-qualifies-seagate-hamr-and-smr-drives-with-broadcom-hbas/",
   "70b9b398c02fec49caaf90bc504b6a06",
   "https://www.securityweek.com/?p=50292",
-  "https://www.cnews.ru/news/line/2026-10-26_solar_glavnymi_zhertvami"
+  "https://www.cnews.ru/news/line/2026-10-26_solar_glavnymi_zhertvami",
+  "lobsters:mu3xcd",
+  "hn:50239430",
+  "7zNGrK5ARbKcmbogZaWmQ3",
+  "https://9to5mac.com/?p=1075697",
+  "https://www.engadget.com/2294291/built-in-android-phone-app-most-users-never-use/",
+  "https://www.techspot.com/news/114332-phantom-blade-zero-pc-requirements-reveal-145gb-install.html",
+  "TheNextWeb=a8f31f19c965106a8803a8c233b5fb0f"
  ],
  "posted": {
-  "viral": 224,
-  "editorial": 233
+  "viral": 225,
+  "editorial": 237
  },
  "recent_labels": [
-  "The Register",
-  "The Hacker News",
-  "Neowin",
-  "SecurityWeek",
-  "CNews"
+  "Lobsters",
+  "Tom's Hardware",
+  "9to5Mac",
+  "Engadget",
+  "The Next Web"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1811,68 +1818,44 @@
    "source": "CNews",
    "score": 0.22344,
    "at": "2026-10-26T11:54:25.537183+00:00"
+  },
+  {
+   "title": "آموزش پیاده‌سازی تحلیل‌گر عبارت‌ها با استفاده از روش Pratt Parsing",
+   "url": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html",
+   "source": "unix.dog",
+   "score": 0.03602,
+   "at": "2026-10-26T12:59:51.118066+00:00"
+  },
+  {
+   "title": "احتمال همکاری استراتژیک میان Intel و AMD برای توسعه پردازنده‌ها",
+   "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-explores-potential-collaboration-with-amd-as-lip-bu-tan-pushes-customer-focused-turnaround-ceo-targets-custom-chips-advanced-packaging-and-stronger-foundry-business",
+   "source": "Tom's Hardware",
+   "score": 0.21357,
+   "at": "2026-10-26T13:00:10.182986+00:00"
+  },
+  {
+   "title": "بازگشت غیرمنتظره iTunes Store به عنوان ابزار تبلیغاتی هنرمندان",
+   "url": "https://9to5mac.com/2026/10/26/some-27-years-later-the-itunes-store-is-making-an-unlikely-come-back/",
+   "source": "9to5Mac",
+   "score": 0.19483,
+   "at": "2026-10-26T13:00:16.861866+00:00"
+  },
+  {
+   "title": "ابزار مدیریت زمان و سلامت دیجیتال در گوشی‌های اندرویدی",
+   "url": "https://www.engadget.com/2294291/built-in-android-phone-app-most-users-never-use/",
+   "source": "Engadget",
+   "score": 0.21287,
+   "at": "2026-10-26T13:00:36.129872+00:00"
+  },
+  {
+   "title": "همکاری استراتژیک Verizon و AWS برای توسعه زیرساخت‌های هوش مصنوعی",
+   "url": "https://thenextweb.com/news/verizon-aws-ai-deal-2026-forecast",
+   "source": "The Next Web",
+   "score": 0.19923,
+   "at": "2026-10-26T13:00:51.806476+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "markdown",
-    "memory",
-    "screen",
-    "screenshots",
-    "show",
-    "text",
-    "without"
-   ],
-   "at": "2026-08-25T04:33:24+00:00"
-  },
-  {
-   "sig": [
-    "datacenter",
-    "development",
-    "first",
-    "platform",
-    "pushes",
-    "risc-v",
-    "server",
-    "sifive",
-    "take"
-   ],
-   "at": "2026-08-25T12:13:00+00:00"
-  },
-  {
-   "sig": [
-    "frontier",
-    "launches",
-    "model",
-    "own",
-    "reuters",
-    "thomson"
-   ],
-   "at": "2026-08-25T02:11:39+00:00"
-  },
-  {
-   "sig": [
-    "founders",
-    "prepare",
-    "should",
-    "universities"
-   ],
-   "at": "2026-08-25T01:40:39+00:00"
-  },
-  {
-   "sig": [
-    "computer",
-    "desktop",
-    "hardware",
-    "mnt",
-    "modular",
-    "open",
-    "server",
-    "station"
-   ],
-   "at": "2026-08-25T11:16:01.500000+00:00"
-  },
   {
    "sig": [
     "database",
@@ -7155,17 +7138,68 @@
     "relay"
    ],
    "at": "2026-10-26T11:54:09.994196+00:00"
+  },
+  {
+   "sig": [
+    "parsing",
+    "pratt",
+    "remember",
+    "writing"
+   ],
+   "at": "2026-10-26T12:59:51.118066+00:00"
+  },
+  {
+   "sig": [
+    "amd",
+    "collaboration",
+    "intel",
+    "lip-bu",
+    "lisa",
+    "potential",
+    "spoken",
+    "tan"
+   ],
+   "at": "2026-10-26T13:00:10.182986+00:00"
+  },
+  {
+   "sig": [
+    "come-back",
+    "itunes",
+    "later",
+    "making",
+    "store",
+    "unlikely",
+    "years"
+   ],
+   "at": "2026-10-26T13:00:16.861866+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "app",
+    "bother",
+    "built-in",
+    "never",
+    "phone",
+    "should",
+    "users"
+   ],
+   "at": "2026-10-26T13:00:36.129872+00:00"
+  },
+  {
+   "sig": [
+    "2bn",
+    "aws",
+    "deal",
+    "forecast",
+    "raises",
+    "signs",
+    "verizon"
+   ],
+   "at": "2026-10-26T13:00:51.806476+00:00"
   }
  ],
  "snapshots": {
-  "hn:50090842": [
-   294,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50090662": [
-   300,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
   "hn:50090443": [
    409,
    "2026-10-14T23:21:22.125017+00:00"
@@ -9534,10 +9568,6 @@
    105,
    "2026-10-26T09:53:47.286747+00:00"
   ],
-  "hn:50238708": [
-   336,
-   "2026-10-26T11:17:26.143656+00:00"
-  ],
   "hn:50238557": [
    79,
    "2026-10-26T10:53:52.281993+00:00"
@@ -9546,10 +9576,6 @@
    201,
    "2026-10-26T10:53:52.281993+00:00"
   ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myqqgszdv22z": [
-   93,
-   "2026-10-26T11:17:26.143656+00:00"
-  ],
   "hn:50239748": [
    173,
    "2026-10-26T10:53:52.281993+00:00"
@@ -9557,6 +9583,22 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myqidh5bo22x": [
    6,
    "2026-10-26T10:53:52.281993+00:00"
+  ],
+  "hn:50238708": [
+   336,
+   "2026-10-26T11:17:26.143656+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myqqgszdv22z": [
+   93,
+   "2026-10-26T11:17:26.143656+00:00"
+  ],
+  "hn:50239430": [
+   111,
+   "2026-10-26T12:59:32.574542+00:00"
+  ],
+  "lobsters:mu3xcd": [
+   27,
+   "2026-10-26T12:59:32.574542+00:00"
   ]
  }
 }
