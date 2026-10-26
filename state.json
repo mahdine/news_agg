@@ -1149,18 +1149,27 @@
   "https://www.cnews.ru/news/line/2026-10-26_bazalt_spo_i_tyumgu_podgotovyat",
   "KMAkycWLZnK7euBiqcLQwE",
   "77499eca0de0937e583088da5a6fe6ad",
-  "https://www.cnews.ru/news/line/2026-10-26_vvp_group_rasshiryaet_assortiment"
+  "https://www.cnews.ru/news/line/2026-10-26_vvp_group_rasshiryaet_assortiment",
+  "hn:50238708",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myqqgszdv22z",
+  "https://www.infoq.com/articles/agentic-ai-architecture-harness-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "a23fd11922f1c0a61c7ee60337abdf50",
+  "xvUnMKT6mVuz4CfiWYtFNb",
+  "TheNextWeb=9fd634bf75695080ccdbb2c3942fa9cc",
+  "https://9to5mac.com/?p=1075681",
+  "https://www.techspot.com/news/114331-elon-musk-predicts-mass-extinction-ai-cloud-companies.html",
+  "TheNextWeb=11579bc9c6230253f0241b88f4ea1aef"
  ],
  "posted": {
   "viral": 224,
-  "editorial": 223
+  "editorial": 228
  },
  "recent_labels": [
-  "Wired",
-  "Tom's Hardware",
-  "Hacker News",
-  "Hacker News",
-  "CNews"
+  "InfoQ",
+  "TechRadar",
+  "The Next Web",
+  "9to5Mac",
+  "TechSpot"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1723,6 +1732,41 @@
    "source": "CNews",
    "score": 0.2136,
    "at": "2026-10-26T10:54:39.368452+00:00"
+  },
+  {
+   "title": "تکامل سیستم‌های ایجنتیک هوش مصنوعی از زنجیره‌های خطی به گراف و کد",
+   "url": "https://www.infoq.com/articles/agentic-ai-architecture-harness-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.2195,
+   "at": "2026-10-26T11:17:41.257607+00:00"
+  },
+  {
+   "title": "قابلیت تشخیص فیشینگ مبتنی بر هوش مصنوعی در Microsoft Teams",
+   "url": "https://www.techradar.com/pro/microsoft-teams-will-soon-use-ai-to-warn-you-of-sneaky-phishing-scams",
+   "source": "TechRadar",
+   "score": 0.18772,
+   "at": "2026-10-26T11:18:57.544998+00:00"
+  },
+  {
+   "title": "استفاده حزب مخالف اسپانیا از دیپ‌فیک برای تخریب رقبای سیاسی",
+   "url": "https://thenextweb.com/news/spain-deepfake-video-pp-sanchez-wife-election",
+   "source": "The Next Web",
+   "score": 0.1878,
+   "at": "2026-10-26T11:19:53.543907+00:00"
+  },
+  {
+   "title": "تست مقاومت و بررسی لایه‌ی نانوتکسچر در آیفون Duo",
+   "url": "https://9to5mac.com/2026/10/26/iphone-duo-tested-to-destruction-including-removing-nanotexture-layer/",
+   "source": "9to5Mac",
+   "score": 0.22662,
+   "at": "2026-10-26T11:19:59.857835+00:00"
+  },
+  {
+   "title": "هشدار ایلان ماسک درباره ورشکستگی شرکت‌های ابری هوش مصنوعی",
+   "url": "https://www.techspot.com/news/114331-elon-musk-predicts-mass-extinction-ai-cloud-companies.html",
+   "source": "TechSpot",
+   "score": 0.55666,
+   "at": "2026-10-26T11:20:29.550806+00:00"
   }
  ],
  "stories": [
@@ -7034,6 +7078,76 @@
     "result"
    ],
    "at": "2026-10-26T10:54:26.525409+00:00"
+  },
+  {
+   "sig": [
+    "agentic",
+    "article",
+    "chains",
+    "code",
+    "evolution",
+    "graph",
+    "harnesses"
+   ],
+   "at": "2026-10-26T11:17:41.257607+00:00"
+  },
+  {
+   "sig": [
+    "microsoft",
+    "phishing",
+    "scams",
+    "sneaky",
+    "soon",
+    "teams",
+    "warn"
+   ],
+   "at": "2026-10-26T11:18:57.544998+00:00"
+  },
+  {
+   "sig": [
+    "deepfakes",
+    "election",
+    "nchez",
+    "opposition",
+    "posts",
+    "spain",
+    "wife"
+   ],
+   "at": "2026-10-26T11:19:53.543907+00:00"
+  },
+  {
+   "sig": [
+    "destruction",
+    "duo",
+    "including",
+    "iphone",
+    "layer",
+    "nanotexture",
+    "removing",
+    "tested"
+   ],
+   "at": "2026-10-26T11:19:59.857835+00:00"
+  },
+  {
+   "sig": [
+    "40bn",
+    "billion",
+    "buy",
+    "chips",
+    "cloud",
+    "companies",
+    "debt",
+    "elon",
+    "extinction",
+    "gpus",
+    "mass",
+    "musk",
+    "predicts",
+    "raised",
+    "seeks",
+    "spacex"
+   ],
+   "at": "2026-10-26T11:20:29.550806+00:00"
   }
  ],
  "snapshots": {
@@ -9414,8 +9528,8 @@
    "2026-10-26T09:53:47.286747+00:00"
   ],
   "hn:50238708": [
-   329,
-   "2026-10-26T10:53:52.281993+00:00"
+   336,
+   "2026-10-26T11:17:26.143656+00:00"
   ],
   "hn:50238557": [
    79,
@@ -9427,7 +9541,7 @@
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myqqgszdv22z": [
    93,
-   "2026-10-26T10:53:52.281993+00:00"
+   "2026-10-26T11:17:26.143656+00:00"
   ],
   "hn:50239748": [
    173,
