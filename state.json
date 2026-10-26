@@ -1117,18 +1117,26 @@
   "https://www.theverge.com/?p=1018233",
   "https://www.engadget.com/2294022/devices-could-be-wrong-wifi-band-slowing-them-down/",
   "https://www.androidpolice.com/default-browser-brave-arc-iceraven-firefox-bare/",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myq7h4kdcd2k"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myq7h4kdcd2k",
+  "hn:50238739",
+  "hn:50238763",
+  "hn:50238884",
+  "hn:50239027",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myqxosyjij2l",
+  "https://www.neowin.net/news/microsoft-issues-urgent-net-security-patches-for-critical-buffer-overflow-flaws/",
+  "ff2cecfcb18227434537181c0ba96a70",
+  "eb4d78de86ae38666f2506ede11d069e"
  ],
  "posted": {
-  "viral": 215,
-  "editorial": 216
+  "viral": 217,
+  "editorial": 217
  },
  "recent_labels": [
-  "Hacker News",
-  "The Verge",
-  "Engadget",
   "Android Police",
-  "404 Media"
+  "404 Media",
+  "Hacker News",
+  "Hacker News",
+  "Neowin"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1579,6 +1587,27 @@
    "source": "404media.co",
    "score": 0.38649,
    "at": "2026-10-25T22:42:24.335100+00:00"
+  },
+  {
+   "title": "ابزار متن‌باز PaperPilot برای مدیریت محلی فایل‌های PDF با زبان Rust",
+   "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+   "source": "github.com",
+   "score": 0.06567,
+   "at": "2026-10-26T08:51:50.863268+00:00"
+  },
+  {
+   "title": "تشابه وحشت از هوش مصنوعی با مرکانتیلیسم در دوران اولیه سرمایه‌داری",
+   "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+   "source": "contraptions.venkateshrao.com",
+   "score": 0.08294,
+   "at": "2026-10-26T08:52:20.132776+00:00"
+  },
+  {
+   "title": "انتشار وصله‌های امنیتی اضطراری برای آسیب‌پذیری‌های بحرانی در دات‌نت",
+   "url": "https://www.neowin.net/news/microsoft-issues-urgent-net-security-patches-for-critical-buffer-overflow-flaws/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.19474,
+   "at": "2026-10-26T08:52:26.580082+00:00"
   }
  ],
  "stories": [
@@ -6733,73 +6762,48 @@
     "www.404media.co"
    ],
    "at": "2026-10-25T22:42:24.335100+00:00"
+  },
+  {
+   "sig": [
+    "engine",
+    "mcp",
+    "paperpilot",
+    "pdf",
+    "pure-rust",
+    "wasm",
+    "zero-cloud"
+   ],
+   "at": "2026-10-26T08:51:50.863268+00:00"
+  },
+  {
+   "sig": [
+    "capitalism",
+    "cognitive",
+    "early",
+    "fears",
+    "mercantilism",
+    "panic",
+    "resembles"
+   ],
+   "at": "2026-10-26T08:52:20.132776+00:00"
+  },
+  {
+   "sig": [
+    "buffer",
+    "critical",
+    "flaws",
+    "issues",
+    "microsoft",
+    "net",
+    "overflow",
+    "patches",
+    "security",
+    "urgent"
+   ],
+   "at": "2026-10-26T08:52:26.580082+00:00"
   }
  ],
  "snapshots": {
-  "hn:50084240": [
-   1135,
-   "2026-10-14T19:33:19.432811+00:00"
-  ],
-  "hn:50085323": [
-   259,
-   "2026-10-14T19:33:19.432811+00:00"
-  ],
-  "hn:50085306": [
-   105,
-   "2026-10-14T19:33:19.432811+00:00"
-  ],
-  "hn:50085259": [
-   174,
-   "2026-10-14T19:33:19.432811+00:00"
-  ],
-  "hn:50085022": [
-   149,
-   "2026-10-14T19:33:19.432811+00:00"
-  ],
-  "hn:50084838": [
-   406,
-   "2026-10-14T19:33:19.432811+00:00"
-  ],
-  "hn:50084757": [
-   1696,
-   "2026-10-14T19:33:19.432811+00:00"
-  ],
-  "hn:50084416": [
-   165,
-   "2026-10-14T19:33:19.432811+00:00"
-  ],
-  "lobsters:7xg9rm": [
-   128,
-   "2026-10-14T19:33:19.432811+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mxtdpza5p42o": [
-   49,
-   "2026-10-14T19:33:19.432811+00:00"
-  ],
-  "hn:50091788": [
-   882,
-   "2026-10-14T19:33:19.432811+00:00"
-  ],
-  "lobsters:tsjuje": [
-   27,
-   "2026-10-14T19:33:19.432811+00:00"
-  ],
-  "hn:50087336": [
-   153,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50087328": [
-   525,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50086165": [
-   277,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxtk7elbfk2r": [
-   1063,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
   "hn:50092847": [
    313,
    "2026-10-14T23:21:22.125017+00:00"
@@ -9135,6 +9139,70 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myq4rdkkmc2e": [
    8,
    "2026-10-25T22:40:10.316719+00:00"
+  ],
+  "hn:50239027": [
+   200,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "hn:50238884": [
+   201,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "hn:50238763": [
+   188,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "hn:50238739": [
+   179,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "hn:50238708": [
+   259,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "hn:50238557": [
+   77,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "hn:50238088": [
+   467,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "hn:50237712": [
+   260,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "hn:50237485": [
+   1218,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "hn:50237224": [
+   170,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "hn:50236102": [
+   872,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "lobsters:hzrmwz": [
+   36,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "lobsters:x1s5oq": [
+   32,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myqxosyjij2l": [
+   250,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myql4ogqth2n": [
+   502,
+   "2026-10-26T08:51:46.514272+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myqqgszdv22z": [
+   88,
+   "2026-10-26T08:51:46.514272+00:00"
   ]
  }
 }
