@@ -1183,18 +1183,23 @@
   "https://www.theverge.com/?p=1017801",
   "https://9to5mac.com/?p=1075705",
   "https://www.securityweek.com/?p=50297",
-  "https://www.theverge.com/?p=1018476"
+  "https://www.theverge.com/?p=1018476",
+  "lobsters:xzp4m0",
+  "lobsters:olnqh2",
+  "hn:50242870",
+  "https://www.infoq.com/news/2026/10/java-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://techcrunch.com/?p=3181633"
  ],
  "posted": {
-  "viral": 226,
-  "editorial": 241
+  "viral": 229,
+  "editorial": 243
  },
  "recent_labels": [
-  "404 Media",
-  "The Verge",
-  "Engadget",
-  "SecurityWeek",
-  "The Verge"
+  "Lobsters",
+  "Lobsters",
+  "Hacker News",
+  "InfoQ",
+  "TechCrunch AI"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1897,120 +1902,44 @@
    "source": "The Verge",
    "score": 0.23784,
    "at": "2026-10-26T13:54:24.390931+00:00"
+  },
+  {
+   "title": "مسدودسازی گواهی‌های امنیتی eMudhra توسط اپل به دلیل نشت کلیدهای خصوصی",
+   "url": "https://support.apple.com/en-us/149555",
+   "source": "support.apple.com",
+   "score": 0.09306,
+   "at": "2026-10-26T14:53:48.533177+00:00"
+  },
+  {
+   "title": "بهینه‌سازی صفحات وب برای چاپ با استفاده از CSS",
+   "url": "https://brennenputh.me/blog/printable-websites/",
+   "source": "brennenputh.me",
+   "score": 0.04696,
+   "at": "2026-10-26T14:53:54.451056+00:00"
+  },
+  {
+   "title": "افزایش دقت فراخوانی ابزار در مدل‌های زبانی با vLLM",
+   "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+   "source": "ubicloud.com",
+   "score": 0.3258,
+   "at": "2026-10-26T14:54:08.413540+00:00"
+  },
+  {
+   "title": "تازه‌ترین اخبار اکوسیستم جاوا و انتشار وصله‌های امنیتی برای JDK",
+   "url": "https://www.infoq.com/news/2026/10/java-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.21573,
+   "at": "2026-10-26T14:54:25.361579+00:00"
+  },
+  {
+   "title": "عرضه‌ی عمومی سهام Anthropic و ساختار حاکمیتی بحث‌برانگیز آن",
+   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "source": "TechCrunch AI",
+   "score": 0.23121,
+   "at": "2026-10-26T14:54:35.868448+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "chatgpt",
-    "created",
-    "expert",
-    "explosion",
-    "killed",
-    "lawsuit",
-    "million",
-    "people",
-    "prompts",
-    "report",
-    "show",
-    "show-how-3m",
-    "three",
-    "witness",
-    "www.404media.co"
-   ],
-   "at": "2026-08-23T22:56:01.028000+00:00"
-  },
-  {
-   "sig": [
-    "3-point",
-    "agrees",
-    "ensure",
-    "filing",
-    "font",
-    "hidden",
-    "hypothetical",
-    "injections",
-    "instructions",
-    "llm",
-    "output",
-    "person-hides",
-    "presented",
-    "prompt",
-    "remediation",
-    "side",
-    "textual",
-    "these",
-    "throughout",
-    "tiny",
-    "told",
-    "were",
-    "white",
-    "written",
-    "www.404media.co"
-   ],
-   "at": "2026-08-23T20:56:00.677000+00:00"
-  },
-  {
-   "sig": [
-    "base",
-    "darth-vader",
-    "emperor",
-    "find",
-    "help",
-    "hidden",
-    "hoth",
-    "luke",
-    "needs",
-    "rebel",
-    "scum",
-    "skywalker",
-    "technology",
-    "traverses",
-    "universe",
-    "www.404media.co",
-    "x-wing"
-   ],
-   "at": "2026-08-23T17:55:00.663000+00:00"
-  },
-  {
-   "sig": [
-    "although",
-    "democrats",
-    "exact",
-    "people",
-    "ragebait",
-    "reason",
-    "serves",
-    "showed",
-    "unclear",
-    "www.404media.co",
-    "xs-algorithm"
-   ],
-   "at": "2026-08-23T14:54:00.496000+00:00"
-  },
-  {
-   "sig": [
-    "abuse",
-    "again",
-    "body",
-    "camera",
-    "chick",
-    "common",
-    "database",
-    "don",
-    "footage",
-    "hot",
-    "i-saw-a-shin",
-    "look",
-    "police",
-    "see",
-    "shows",
-    "surveillance",
-    "told",
-    "www.404media.co"
-   ],
-   "at": "2026-08-22T22:54:01.123000+00:00"
-  },
   {
    "sig": [
     "anthropics-t",
@@ -7243,21 +7172,64 @@
     "revolutionize"
    ],
    "at": "2026-10-26T13:54:24.390931+00:00"
+  },
+  {
+   "sig": [
+    "cas",
+    "compromised",
+    "emudhra",
+    "intermediate"
+   ],
+   "at": "2026-10-26T14:53:48.533177+00:00"
+  },
+  {
+   "sig": [
+    "printable",
+    "should",
+    "websites"
+   ],
+   "at": "2026-10-26T14:53:54.451056+00:00"
+  },
+  {
+   "sig": [
+    "accuracy",
+    "fixing",
+    "tool-call",
+    "vllm"
+   ],
+   "at": "2026-10-26T14:54:08.413540+00:00"
+  },
+  {
+   "sig": [
+    "apache",
+    "azul",
+    "bellsoft",
+    "certs",
+    "cpus",
+    "emudhra",
+    "java",
+    "jdk",
+    "news",
+    "oracle",
+    "poi",
+    "roundup",
+    "schedule",
+    "wildfly"
+   ],
+   "at": "2026-10-26T14:54:25.361579+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "debut",
+    "files",
+    "officially",
+    "public"
+   ],
+   "at": "2026-10-26T14:54:35.868448+00:00"
   }
  ],
  "snapshots": {
-  "hn:50090349": [
-   508,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50090246": [
-   1040,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50090084": [
-   379,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
   "hn:50089921": [
    548,
    "2026-10-14T23:21:22.125017+00:00"
@@ -9645,6 +9617,18 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myrqbfixqk2h": [
    106,
    "2026-10-26T13:53:43.540512+00:00"
+  ],
+  "hn:50242870": [
+   69,
+   "2026-10-26T14:53:46.035553+00:00"
+  ],
+  "lobsters:olnqh2": [
+   28,
+   "2026-10-26T14:53:46.035553+00:00"
+  ],
+  "lobsters:xzp4m0": [
+   28,
+   "2026-10-26T14:53:46.035553+00:00"
   ]
  }
 }
