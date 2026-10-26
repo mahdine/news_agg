@@ -1131,18 +1131,28 @@
   "hn:50237485",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myql4ogqth2n",
   "https://www.cnews.ru/news/line/2026-10-26_agrokompleks_ivanisovo",
-  "4db0cccaea6935a25125a7a26485c950"
+  "4db0cccaea6935a25125a7a26485c950",
+  "https://mobile.slashdot.org/story/26/10/23/1916222/spacex-in-talks-to-access-80000-cell-sites-for-new-network?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "TheNextWeb=efaf2da12e8800f17bca5a422d255ba4",
+  "hn:50237712",
+  "hn:50238088",
+  "hn:50238620",
+  "hn:50240922",
+  "6acfa191b89c86bafd0c5309",
+  "MSNqBTPcqGDLH2ZZit7Bim",
+  "pAMACxE2FcVQiq83KnpyCM",
+  "https://www.neowin.net/news/denmark-has-abandoned-plans-to-ditch-microsoft-office-after-technical-problems/"
  ],
  "posted": {
-  "viral": 220,
-  "editorial": 219
+  "viral": 222,
+  "editorial": 222
  },
  "recent_labels": [
-  "Lobsters",
-  "Lobsters",
-  "404 Media",
-  "CNews",
-  "Hi-Tech Mail"
+  "Slashdot",
+  "Hacker News",
+  "Hacker News",
+  "Wired",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1649,6 +1659,41 @@
    "source": "Hi-Tech Mail",
    "score": 0.1834,
    "at": "2026-10-26T08:54:20.135393+00:00"
+  },
+  {
+   "title": "تلاش اسپیس‌اکس برای ایجاد شبکه موبایل سراسری با اجاره دکل‌های مخابراتی",
+   "url": "https://mobile.slashdot.org/story/26/10/23/1916222/spacex-in-talks-to-access-80000-cell-sites-for-new-network?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.3884,
+   "at": "2026-10-26T09:53:49.337073+00:00"
+  },
+  {
+   "title": "بهینه‌سازی عملکرد وبلاگ با حذف Next.js و مهاجرت به Hono",
+   "url": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
+   "source": "korindiehacker.bloffy.blog",
+   "score": 0.0661,
+   "at": "2026-10-26T09:53:56.705888+00:00"
+  },
+  {
+   "title": "معرفی مدل Microsoft-Decision-1 برای تصمیم‌گیری سریع و دقیق",
+   "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
+   "source": "shattered.io",
+   "score": 0.07649,
+   "at": "2026-10-26T09:54:10.613716+00:00"
+  },
+  {
+   "title": "بررسی هدست واقعیت مجازی Steam Frame محصول جدید شرکت Valve",
+   "url": "https://www.wired.com/review/valve-steam-frame/",
+   "source": "Wired",
+   "score": 0.35331,
+   "at": "2026-10-26T09:54:19.847865+00:00"
+  },
+  {
+   "title": "شکست پروژه جایگزینی مایکروسافت آفیس با نرم‌افزار متن‌باز در دانمارک",
+   "url": "https://www.tomshardware.com/software/microsoft-office/denmarks-bid-to-ditch-microsoft-office-for-open-source-alternative-collabora-collapses-in-under-six-months-employees-cite-issues-with-style-formatting-and-tracking-changes",
+   "source": "Tom's Hardware",
+   "score": 0.3587,
+   "at": "2026-10-26T09:54:27.653460+00:00"
   }
  ],
  "stories": [
@@ -6874,17 +6919,87 @@
     "www.404media.co"
    ],
    "at": "2026-10-26T08:53:59.633814+00:00"
+  },
+  {
+   "sig": [
+    "access",
+    "bloomberg",
+    "cell",
+    "mobile",
+    "network",
+    "reports",
+    "seeks",
+    "sites",
+    "spacex",
+    "talks"
+   ],
+   "at": "2026-10-26T09:53:49.337073+00:00"
+  },
+  {
+   "sig": [
+    "blog",
+    "category",
+    "every",
+    "lighthouse",
+    "next.js",
+    "removing"
+   ],
+   "at": "2026-10-26T09:53:56.705888+00:00"
+  },
+  {
+   "sig": [
+    "decision-1",
+    "explained",
+    "launch",
+    "microsoft",
+    "model",
+    "qwen"
+   ],
+   "at": "2026-10-26T09:54:10.613716+00:00"
+  },
+  {
+   "sig": [
+    "adds",
+    "cd-rom",
+    "costly",
+    "drive",
+    "frame",
+    "inconsistent",
+    "kernel",
+    "less",
+    "minutes",
+    "review",
+    "steam",
+    "support",
+    "ten",
+    "took",
+    "valve"
+   ],
+   "at": "2026-10-26T09:54:19.847865+00:00"
+  },
+  {
+   "sig": [
+    "abandoned",
+    "alternative",
+    "bid",
+    "collabora",
+    "collapses",
+    "denmark",
+    "ditch",
+    "microsoft",
+    "months",
+    "office",
+    "open-source",
+    "plans",
+    "problems",
+    "six",
+    "technical",
+    "under"
+   ],
+   "at": "2026-10-26T09:54:27.653460+00:00"
   }
  ],
  "snapshots": {
-  "hn:50092847": [
-   313,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50092730": [
-   624,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
   "hn:50092664": [
    612,
    "2026-10-14T23:21:22.125017+00:00"
@@ -9229,28 +9344,12 @@
    179,
    "2026-10-26T08:51:46.514272+00:00"
   ],
-  "hn:50238708": [
-   259,
-   "2026-10-26T08:53:44.494083+00:00"
-  ],
-  "hn:50238557": [
-   77,
-   "2026-10-26T08:53:44.494083+00:00"
-  ],
-  "hn:50238088": [
-   474,
-   "2026-10-26T08:53:44.494083+00:00"
-  ],
-  "hn:50237712": [
-   260,
-   "2026-10-26T08:53:44.494083+00:00"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myqxosyjij2l": [
+   250,
+   "2026-10-26T08:51:46.514272+00:00"
   ],
   "hn:50237485": [
    1220,
-   "2026-10-26T08:53:44.494083+00:00"
-  ],
-  "hn:50237224": [
-   172,
    "2026-10-26T08:53:44.494083+00:00"
   ],
   "hn:50236102": [
@@ -9265,17 +9364,41 @@
    32,
    "2026-10-26T08:53:44.494083+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myqxosyjij2l": [
-   250,
-   "2026-10-26T08:51:46.514272+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myql4ogqth2n": [
    502,
    "2026-10-26T08:53:44.494083+00:00"
   ],
+  "hn:50238708": [
+   302,
+   "2026-10-26T09:53:47.286747+00:00"
+  ],
+  "hn:50238557": [
+   79,
+   "2026-10-26T09:53:47.286747+00:00"
+  ],
+  "hn:50238088": [
+   527,
+   "2026-10-26T09:53:47.286747+00:00"
+  ],
+  "hn:50237712": [
+   289,
+   "2026-10-26T09:53:47.286747+00:00"
+  ],
+  "hn:50237224": [
+   184,
+   "2026-10-26T09:53:47.286747+00:00"
+  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myqqgszdv22z": [
-   89,
-   "2026-10-26T08:53:44.494083+00:00"
+   92,
+   "2026-10-26T09:53:47.286747+00:00"
+  ],
+  "hn:50240922": [
+   94,
+   "2026-10-26T09:53:47.286747+00:00"
+  ],
+  "hn:50238620": [
+   105,
+   "2026-10-26T09:53:47.286747+00:00"
   ]
  }
 }
