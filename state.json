@@ -1188,18 +1188,24 @@
   "lobsters:olnqh2",
   "hn:50242870",
   "https://www.infoq.com/news/2026/10/java-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "https://techcrunch.com/?p=3181633"
+  "https://techcrunch.com/?p=3181633",
+  "lobsters:xxdda9",
+  "hn:50242555",
+  "hn:50242843",
+  "lobsters:ryjnyi",
+  "hn:50243762",
+  "hn:50245138"
  ],
  "posted": {
-  "viral": 229,
+  "viral": 234,
   "editorial": 243
  },
  "recent_labels": [
-  "Lobsters",
+  "Hacker News",
+  "Hacker News",
   "Lobsters",
   "Hacker News",
-  "InfoQ",
-  "TechCrunch AI"
+  "Hacker News"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1937,101 +1943,44 @@
    "source": "TechCrunch AI",
    "score": 0.23121,
    "at": "2026-10-26T14:54:35.868448+00:00"
+  },
+  {
+   "title": "اهمیت نگارش دقیق در توسعه نرم‌افزار با هوش مصنوعی",
+   "url": "https://danielmiessler.com/blog/writing-is-closer-to-thought-than-code",
+   "source": "danielmiessler.com",
+   "score": 0.07401,
+   "at": "2026-10-26T16:54:17.936622+00:00"
+  },
+  {
+   "title": "نقشه‌ی تعاملی از نیروی کار پنهان در صنعت هوش مصنوعی",
+   "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+   "source": "brown.edu",
+   "score": 0.10373,
+   "at": "2026-10-26T16:56:01.913008+00:00"
+  },
+  {
+   "title": "چالش‌های فنی و پیچیدگی‌های ارسال ایمیل شخصی",
+   "url": "https://evancz.dev/why-is-it-so-expensive-to-send-an-email",
+   "source": "evancz.dev",
+   "score": 0.05085,
+   "at": "2026-10-26T16:56:09.444741+00:00"
+  },
+  {
+   "title": "چالش حقوقی بر سر مالکیت اسناد محرمانه ریاست‌جمهوری آمریکا",
+   "url": "https://freedom.press/the-classifieds/doj-says-presidents-should-be-able-to-sell-secrets-on-ebay/",
+   "source": "freedom.press",
+   "score": 0.03461,
+   "at": "2026-10-26T16:56:20.941670+00:00"
+  },
+  {
+   "title": "آموزش ساخت مدل‌های استدلالی هوش مصنوعی با پایتون و PyTorch",
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "source": "magazine.sebastianraschka.com",
+   "score": 0.23455,
+   "at": "2026-10-26T16:56:30.818816+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anthropics-t",
-    "clue",
-    "companies",
-    "interchangeable",
-    "judge",
-    "quality",
-    "see",
-    "words",
-    "writing",
-    "www.404media.co",
-    "zero"
-   ],
-   "at": "2026-08-22T20:53:00.567000+00:00"
-  },
-  {
-   "sig": [
-    "amazon",
-    "books",
-    "buying",
-    "company",
-    "destroys",
-    "destructively",
-    "device",
-    "facility",
-    "found",
-    "genuine",
-    "location",
-    "logo",
-    "placed",
-    "rare",
-    "scans",
-    "see",
-    "shipment",
-    "tracking",
-    "where",
-    "which"
-   ],
-   "at": "2026-08-22T17:54:00.923000+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "botnet",
-    "built-in",
-    "car",
-    "fraud",
-    "malware",
-    "proxy",
-    "spreads",
-    "through",
-    "updaters"
-   ],
-   "at": "2026-08-21T15:41:44+00:00"
-  },
-  {
-   "sig": [
-    "1.28",
-    "10.2",
-    "18a-p",
-    "avx",
-    "brings",
-    "cache",
-    "chips",
-    "comes",
-    "cpu",
-    "diamond",
-    "emib",
-    "hot",
-    "instead",
-    "intel",
-    "last-level",
-    "next-gen",
-    "p-cores",
-    "rapids",
-    "ucie-s",
-    "xeon"
-   ],
-   "at": "2026-08-25T13:41:00+00:00"
-  },
-  {
-   "sig": [
-    "cyberattack",
-    "down",
-    "iran-linked",
-    "plant",
-    "power",
-    "shut"
-   ],
-   "at": "2026-08-24T16:59:00+00:00"
-  },
   {
    "sig": [
     "cyberdeck",
@@ -7227,45 +7176,63 @@
     "public"
    ],
    "at": "2026-10-26T14:54:35.868448+00:00"
+  },
+  {
+   "sig": [
+    "closer",
+    "code",
+    "thought",
+    "writing"
+   ],
+   "at": "2026-10-26T16:54:17.936622+00:00"
+  },
+  {
+   "sig": [
+    "brown",
+    "global",
+    "hidden",
+    "labor",
+    "maps",
+    "powering",
+    "student"
+   ],
+   "at": "2026-10-26T16:56:01.913008+00:00"
+  },
+  {
+   "sig": [
+    "email",
+    "expensive",
+    "send"
+   ],
+   "at": "2026-10-26T16:56:09.444741+00:00"
+  },
+  {
+   "sig": [
+    "able",
+    "doj",
+    "ebay",
+    "presidents",
+    "secrets",
+    "sell",
+    "should"
+   ],
+   "at": "2026-10-26T16:56:20.941670+00:00"
+  },
+  {
+   "sig": [
+    "building",
+    "course",
+    "from-scratch",
+    "models",
+    "raschka",
+    "reasoning",
+    "sebastian",
+    "video"
+   ],
+   "at": "2026-10-26T16:56:30.818816+00:00"
   }
  ],
  "snapshots": {
-  "hn:50089921": [
-   548,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50089395": [
-   236,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50088643": [
-   134,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50088534": [
-   379,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50088430": [
-   500,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50087524": [
-   453,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "lobsters:d1c8zn": [
-   65,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "lobsters:j4tlzg": [
-   78,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "lobsters:a4ljnh": [
-   37,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxu2ch4ik22r": [
    2270,
    "2026-10-14T23:21:22.125017+00:00"
@@ -9629,6 +9596,42 @@
   "lobsters:xzp4m0": [
    28,
    "2026-10-26T14:53:46.035553+00:00"
+  ],
+  "hn:50245524": [
+   420,
+   "2026-10-26T16:53:45.580869+00:00"
+  ],
+  "hn:50245385": [
+   358,
+   "2026-10-26T16:53:45.580869+00:00"
+  ],
+  "hn:50245138": [
+   168,
+   "2026-10-26T16:53:45.580869+00:00"
+  ],
+  "hn:50243762": [
+   216,
+   "2026-10-26T16:53:45.580869+00:00"
+  ],
+  "hn:50242843": [
+   260,
+   "2026-10-26T16:53:45.580869+00:00"
+  ],
+  "hn:50242555": [
+   125,
+   "2026-10-26T16:53:45.580869+00:00"
+  ],
+  "lobsters:ryjnyi": [
+   45,
+   "2026-10-26T16:53:45.580869+00:00"
+  ],
+  "lobsters:xxdda9": [
+   39,
+   "2026-10-26T16:53:45.580869+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys4lj6csi2s": [
+   272,
+   "2026-10-26T16:53:45.580869+00:00"
   ]
  }
 }
