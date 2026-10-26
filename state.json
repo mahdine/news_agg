@@ -1174,18 +1174,27 @@
   "https://9to5mac.com/?p=1075697",
   "https://www.engadget.com/2294291/built-in-android-phone-app-most-users-never-use/",
   "https://www.techspot.com/news/114332-phantom-blade-zero-pc-requirements-reveal-145gb-install.html",
-  "TheNextWeb=a8f31f19c965106a8803a8c233b5fb0f"
+  "TheNextWeb=a8f31f19c965106a8803a8c233b5fb0f",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myrqbfixqk2h",
+  "hn:50242734",
+  "https://www.theverge.com/?p=1018434",
+  "https://www.engadget.com/2296637/apple-updates-the-ipad-mini-with-an-a20-processor-and-oled-display/",
+  "0c6d2865e641693953d7e62e613dfb43",
+  "https://www.theverge.com/?p=1017801",
+  "https://9to5mac.com/?p=1075705",
+  "https://www.securityweek.com/?p=50297",
+  "https://www.theverge.com/?p=1018476"
  ],
  "posted": {
-  "viral": 225,
-  "editorial": 237
+  "viral": 226,
+  "editorial": 241
  },
  "recent_labels": [
-  "Lobsters",
-  "Tom's Hardware",
-  "9to5Mac",
+  "404 Media",
+  "The Verge",
   "Engadget",
-  "The Next Web"
+  "SecurityWeek",
+  "The Verge"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1853,87 +1862,44 @@
    "source": "The Next Web",
    "score": 0.19923,
    "at": "2026-10-26T13:00:51.806476+00:00"
+  },
+  {
+   "title": "بررسی حباب هوش مصنوعی در دنیای فناوری",
+   "url": "https://bsky.app/profile/404media.co/post/3myrqbfixqk2h",
+   "source": "404 Media",
+   "score": 0.47298,
+   "at": "2026-10-26T13:53:49.177979+00:00"
+  },
+  {
+   "title": "هوش مصنوعی برای بازنویسی کدهای قدیمی COBOL و مدرن‌سازی سیستم‌ها",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+   "source": "The Verge",
+   "score": 0.19196,
+   "at": "2026-10-26T13:54:01.242283+00:00"
+  },
+  {
+   "title": "معرفی نسل جدید iPad mini با تراشه A20 و نمایشگر OLED",
+   "url": "https://www.engadget.com/2296637/apple-updates-the-ipad-mini-with-an-a20-processor-and-oled-display/",
+   "source": "Engadget",
+   "score": 0.56586,
+   "at": "2026-10-26T13:54:10.663435+00:00"
+  },
+  {
+   "title": "حملات موفقیت‌آمیز به آسیب‌پذیری PHP2Shell",
+   "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/",
+   "source": "SecurityWeek",
+   "score": 0.21647,
+   "at": "2026-10-26T13:54:16.943940+00:00"
+  },
+  {
+   "title": "برنامه‌ی Anthropic برای ورود به بازار بورس با نماد ANT",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+   "source": "The Verge",
+   "score": 0.23784,
+   "at": "2026-10-26T13:54:24.390931+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "database",
-    "executable",
-    "sqlite"
-   ],
-   "at": "2026-08-24T07:32:45.274000+00:00"
-  },
-  {
-   "sig": [
-    "coding",
-    "expertise",
-    "prevent"
-   ],
-   "at": "2026-08-24T16:20:42.855000+00:00"
-  },
-  {
-   "sig": [
-    "31.1",
-    "control",
-    "default",
-    "emacs",
-    "enabled",
-    "gnu",
-    "mouse",
-    "released",
-    "theme",
-    "users"
-   ],
-   "at": "2026-08-24T11:55:01+00:00"
-  },
-  {
-   "sig": [
-    "almost",
-    "anthony",
-    "city",
-    "council",
-    "darth",
-    "diego",
-    "flock",
-    "meetings",
-    "ralphs",
-    "san",
-    "showed",
-    "speaking",
-    "started",
-    "straight",
-    "vader",
-    "video",
-    "wants",
-    "watching",
-    "world",
-    "year"
-   ],
-   "at": "2026-08-25T14:15:10.345000+00:00"
-  },
-  {
-   "sig": [
-    "bridgettodd.bsky.social",
-    "companies",
-    "companionship",
-    "down",
-    "human",
-    "implicated",
-    "mockery",
-    "never",
-    "people",
-    "relationships",
-    "replace",
-    "samleecole.bsky.social",
-    "sits",
-    "talk",
-    "tech",
-    "using",
-    "week"
-   ],
-   "at": "2026-08-24T15:01:23.790000+00:00"
-  },
   {
    "sig": [
     "chatgpt",
@@ -7197,17 +7163,89 @@
     "verizon"
    ],
    "at": "2026-10-26T13:00:51.806476+00:00"
+  },
+  {
+   "sig": [
+    "already",
+    "author",
+    "bubble",
+    "change",
+    "chatbots",
+    "despite",
+    "down",
+    "emanuelmaiberg.bsky.social",
+    "longtime",
+    "mikeisaac.bsky.social",
+    "pod",
+    "reporter",
+    "seeing",
+    "shitty",
+    "sits",
+    "talk",
+    "tech",
+    "way",
+    "week",
+    "works",
+    "world"
+   ],
+   "at": "2026-10-26T13:53:49.177979+00:00"
+  },
+  {
+   "sig": [
+    "cobol",
+    "code",
+    "crisis",
+    "help",
+    "solve"
+   ],
+   "at": "2026-10-26T13:54:01.242283+00:00"
+  },
+  {
+   "sig": [
+    "a20",
+    "all-new",
+    "apple",
+    "design",
+    "display",
+    "ipad",
+    "larger",
+    "mini",
+    "oled",
+    "processor",
+    "thinner",
+    "unveils",
+    "updates"
+   ],
+   "at": "2026-10-26T13:54:10.663435+00:00"
+  },
+  {
+   "sig": [
+    "exploitation",
+    "moves",
+    "php2shell",
+    "probes",
+    "shells",
+    "working"
+   ],
+   "at": "2026-10-26T13:54:16.943940+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "area",
+    "endeavor",
+    "every",
+    "filing",
+    "human",
+    "ipo",
+    "lays",
+    "plan",
+    "revolutionize"
+   ],
+   "at": "2026-10-26T13:54:24.390931+00:00"
   }
  ],
  "snapshots": {
-  "hn:50090443": [
-   409,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "hn:50090369": [
-   238,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
   "hn:50090349": [
    508,
    "2026-10-14T23:21:22.125017+00:00"
@@ -9599,6 +9637,14 @@
   "lobsters:mu3xcd": [
    27,
    "2026-10-26T12:59:32.574542+00:00"
+  ],
+  "hn:50242734": [
+   214,
+   "2026-10-26T13:53:43.540512+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myrqbfixqk2h": [
+   106,
+   "2026-10-26T13:53:43.540512+00:00"
   ]
  }
 }
