@@ -1194,18 +1194,31 @@
   "hn:50242843",
   "lobsters:ryjnyi",
   "hn:50243762",
-  "hn:50245138"
+  "hn:50245138",
+  "lobsters:p9obkt",
+  "hn:50245322",
+  "hn:50245385",
+  "https://slashdot.org/story/26/10/26/1544243/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50245524",
+  "https://www.theverge.com/?p=1018666",
+  "https://www.engadget.com/2297175/microsoft-reportedly-offers-voluntary-buyouts-to-60000-employees/",
+  "https://www.neowin.net/news/microsoft-offers-voluntary-exit-packages-to-60000-employees-across-four-countries/",
+  "TheNextWeb=80dfc385294c4920c0c25d8c0455efaf",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys4lj6csi2s",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys5g5x64r2a",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mys7uwobcs2z",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys7wn3t4r2n"
  ],
  "posted": {
-  "viral": 234,
+  "viral": 239,
   "editorial": 243
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
   "Lobsters",
-  "Hacker News",
-  "Hacker News"
+  "404 Media",
+  "404 Media",
+  "Emily M. Bender",
+  "404 Media"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1978,97 +1991,44 @@
    "source": "magazine.sebastianraschka.com",
    "score": 0.23455,
    "at": "2026-10-26T16:56:30.818816+00:00"
+  },
+  {
+   "title": "انتشار نسخه ۳.۴.۰ ویرایشگر Gram برای رفع آسیب‌پذیری امنیتی",
+   "url": "https://gram-editor.com/posts/release-3.4.0/",
+   "source": "gram-editor.com",
+   "score": 0.04341,
+   "at": "2026-10-26T17:28:37.239641+00:00"
+  },
+  {
+   "title": "کاربران برای حل مشکلات فنی به ChatGPT متوسل می‌شوند",
+   "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+   "source": "404media.co",
+   "score": 0.62256,
+   "at": "2026-10-26T17:28:59.696365+00:00"
+  },
+  {
+   "title": "اشتباه عجیب ChatGPT در شناسایی هویت رسانه 404 Media",
+   "url": "https://www.404media.co/chatgpt-says-404-media-is-tech-support-for-huge-corporations/",
+   "source": "404media.co",
+   "score": 0.11705,
+   "at": "2026-10-26T17:29:07.018829+00:00"
+  },
+  {
+   "title": "نقد اصطلاح طوطی‌های احتمالی در دنیای هوش مصنوعی",
+   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3mys7uwobcs2z",
+   "source": "Emily M. Bender",
+   "score": 0.83102,
+   "at": "2026-10-26T17:29:14.194930+00:00"
+  },
+  {
+   "title": "مشکلات جدی در نمایشگر تاشوی آیفون جدید اپل",
+   "url": "https://www.404media.co/iphone-duo-crackgate-crease-folding-phone/",
+   "source": "404media.co",
+   "score": 1.0168,
+   "at": "2026-10-26T17:29:21.051822+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "cyberdeck",
-    "making",
-    "official",
-    "raspberry",
-    "shares",
-    "tutorial"
-   ],
-   "at": "2026-08-24T20:00:00+00:00"
-  },
-  {
-   "sig": [
-    "agreed",
-    "cameras",
-    "catch",
-    "charged",
-    "consider",
-    "cop",
-    "council",
-    "department",
-    "ending",
-    "fake",
-    "felonies",
-    "flock",
-    "florida",
-    "had",
-    "happened",
-    "happening",
-    "idea",
-    "incident",
-    "majority",
-    "man",
-    "mayor",
-    "police",
-    "printed",
-    "she",
-    "three",
-    "would-be-vandals"
-   ],
-   "at": "2026-08-25T20:47:17.414113+00:00"
-  },
-  {
-   "sig": [
-    "1.9x",
-    "3.6x",
-    "400w",
-    "700w",
-    "asic",
-    "better",
-    "blackwell",
-    "broadcom",
-    "claims",
-    "co-developed",
-    "flagship",
-    "gpu",
-    "jalape",
-    "kilowatt",
-    "latency",
-    "lower",
-    "nvidia",
-    "openai",
-    "outpaces",
-    "per",
-    "throughput"
-   ],
-   "at": "2026-08-25T20:55:15.541360+00:00"
-  },
-  {
-   "sig": [
-    "cease",
-    "desist",
-    "nitter",
-    "project",
-    "received"
-   ],
-   "at": "2026-08-25T21:53:05.968893+00:00"
-  },
-  {
-   "sig": [
-    "constants",
-    "kinda",
-    "pre-declared",
-    "python",
-    "weird"
-   ],
-   "at": "2026-08-26T05:59:05.328514+00:00"
-  },
   {
    "sig": [
     "breach",
@@ -7230,29 +7190,70 @@
     "video"
    ],
    "at": "2026-10-26T16:56:30.818816+00:00"
+  },
+  {
+   "sig": [
+    "3.4.0",
+    "gram",
+    "released"
+   ],
+   "at": "2026-10-26T17:28:37.239641+00:00"
+  },
+  {
+   "sig": [
+    "ai-generated",
+    "because",
+    "begging",
+    "being",
+    "big",
+    "customer",
+    "doesn",
+    "emails",
+    "help",
+    "inundated",
+    "service",
+    "tech"
+   ],
+   "at": "2026-10-26T17:28:59.696365+00:00"
+  },
+  {
+   "sig": [
+    "draft",
+    "email",
+    "jason",
+    "koebler",
+    "media"
+   ],
+   "at": "2026-10-26T17:29:07.018829+00:00"
+  },
+  {
+   "sig": [
+    "clich",
+    "labeling",
+    "parrots",
+    "people",
+    "phrase",
+    "regularly",
+    "search",
+    "standing",
+    "stochastic",
+    "thought-terminating",
+    "turns"
+   ],
+   "at": "2026-10-26T17:29:14.194930+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "come",
+    "crackgate",
+    "folding",
+    "phone"
+   ],
+   "at": "2026-10-26T17:29:21.051822+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxu2ch4ik22r": [
-   2270,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxtxtb6doq2t": [
-   134,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxttn2nnrw2t": [
-   154,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxtzobrboc2u": [
-   7,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxty4fom6d2u": [
-   44,
-   "2026-10-14T23:21:22.125017+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxttvhhtfc2c": [
    20,
    "2026-10-14T23:21:22.125017+00:00"
@@ -9597,14 +9598,6 @@
    28,
    "2026-10-26T14:53:46.035553+00:00"
   ],
-  "hn:50245524": [
-   420,
-   "2026-10-26T16:53:45.580869+00:00"
-  ],
-  "hn:50245385": [
-   358,
-   "2026-10-26T16:53:45.580869+00:00"
-  ],
   "hn:50245138": [
    168,
    "2026-10-26T16:53:45.580869+00:00"
@@ -9629,9 +9622,37 @@
    39,
    "2026-10-26T16:53:45.580869+00:00"
   ],
+  "hn:50245524": [
+   692,
+   "2026-10-26T17:28:32.399641+00:00"
+  ],
+  "hn:50245385": [
+   388,
+   "2026-10-26T17:28:32.399641+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys4lj6csi2s": [
-   272,
-   "2026-10-26T16:53:45.580869+00:00"
+   393,
+   "2026-10-26T17:28:32.399641+00:00"
+  ],
+  "hn:50245322": [
+   166,
+   "2026-10-26T17:28:32.399641+00:00"
+  ],
+  "lobsters:p9obkt": [
+   27,
+   "2026-10-26T17:28:32.399641+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys7wn3t4r2n": [
+   138,
+   "2026-10-26T17:28:32.399641+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys5g5x64r2a": [
+   73,
+   "2026-10-26T17:28:32.399641+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mys7uwobcs2z": [
+   50,
+   "2026-10-26T17:28:32.399641+00:00"
   ]
  }
 }
