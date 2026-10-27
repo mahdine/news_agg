@@ -1259,18 +1259,27 @@
   "https://www.theregister.com/a/5305574",
   "https://www.neowin.net/news/openai-releases-gpt-61-terra-with-impressive-performance-at-massively-reduced-costs/",
   "https://9to5mac.com/?p=1075885",
-  "TheNextWeb=c76d18d98f9d3b4672384ea2fab217f0"
+  "TheNextWeb=c76d18d98f9d3b4672384ea2fab217f0",
+  "hn:50245945",
+  "lobsters:c0yniy",
+  "hn:50247453",
+  "https://entertainment.slashdot.org/story/26/10/26/1846258/instagram-chases-youtube-with-a-push-for-longer-widescreen-videos?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.neowin.net/news/instagram-takes-on-youtube-with-support-for-1-hour-widescreen-videos/",
+  "https://9to5mac.com/?p=1075926",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myskt366z22k",
+  "hn:50251062",
+  "lobsters:ihmfsc"
  ],
  "posted": {
-  "viral": 248,
-  "editorial": 248
+  "viral": 252,
+  "editorial": 249
  },
  "recent_labels": [
   "Hacker News",
-  "Emily M. Bender",
-  "Cloudflare",
-  "The Next Web",
-  "The Register"
+  "Hacker News",
+  "Slashdot",
+  "404 Media",
+  "Lobsters"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2176,94 +2185,44 @@
    "source": "The Register",
    "score": 0.17598,
    "at": "2026-10-27T02:54:30.153901+00:00"
+  },
+  {
+   "title": "انتشار نسخه پایدار ۱.۰ سرور ایمیل Stalwart با تمرکز بر عملکرد",
+   "url": "https://stalw.art/blog/stalwart-1-0/",
+   "source": "stalw.art",
+   "score": 0.02291,
+   "at": "2026-10-27T03:53:45.105354+00:00"
+  },
+  {
+   "title": "معرفی Entire، پلتفرم مدیریت کد برای همکاری هوش مصنوعی و انسان",
+   "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+   "source": "entire.com",
+   "score": 0.01969,
+   "at": "2026-10-27T03:53:51.896636+00:00"
+  },
+  {
+   "title": "تلاش اینستاگرام برای رقابت با یوتیوب با ویدیوهای افقی طولانی",
+   "url": "https://entertainment.slashdot.org/story/26/10/26/1846258/instagram-chases-youtube-with-a-push-for-longer-widescreen-videos?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.07714,
+   "at": "2026-10-27T03:53:58.096216+00:00"
+  },
+  {
+   "title": "ارزیابی مجدد کارکنان Proton برای تعیین تکلیف شغلی بر اساس استفاده از هوش مصنوعی",
+   "url": "https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/",
+   "source": "404media.co",
+   "score": 0.03353,
+   "at": "2026-10-27T03:54:04.062068+00:00"
+  },
+  {
+   "title": "تجربه‌ی نفوذ به حساب گوگل از طریق فیشینگ و سوءاستفاده از Passkey",
+   "url": "https://www.kcoleman.me/2026/10/22/hacked.html",
+   "source": "kcoleman.me",
+   "score": 0.12451,
+   "at": "2026-10-27T03:54:10.108012+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "bogus",
-    "breaks",
-    "company",
-    "dealing",
-    "disavowed",
-    "down",
-    "flock",
-    "idea",
-    "jasonkoebler.bsky.social",
-    "paid",
-    "researchers",
-    "study",
-    "talk",
-    "themselves"
-   ],
-   "at": "2026-08-28T17:34:03.361093+00:00"
-  },
-  {
-   "sig": [
-    "based",
-    "gdpr",
-    "good",
-    "hates",
-    "know"
-   ],
-   "at": "2026-08-29T11:44:39.923549+00:00"
-  },
-  {
-   "sig": [
-    "1.1.1.1",
-    "100tb",
-    "250gb",
-    "adding",
-    "any",
-    "behind",
-    "billion",
-    "byte",
-    "cache",
-    "cached",
-    "cloudflare",
-    "costs",
-    "dns",
-    "entries",
-    "freed",
-    "frees",
-    "given",
-    "means",
-    "memory",
-    "optimizing",
-    "ram",
-    "saved",
-    "server",
-    "shrinking",
-    "single",
-    "terabytes",
-    "time",
-    "wasted",
-    "without"
-   ],
-   "at": "2026-08-29T16:50:01.204824+00:00"
-  },
-  {
-   "sig": [
-    "alleging",
-    "anthropic",
-    "blatant",
-    "brazen",
-    "campaign",
-    "chappell",
-    "copyright",
-    "intellectual",
-    "law",
-    "music",
-    "property",
-    "sony",
-    "sue",
-    "suing",
-    "theft",
-    "violation",
-    "warner"
-   ],
-   "at": "2026-08-29T19:52:53.756075+00:00"
-  },
   {
    "sig": [
     "age",
@@ -7416,17 +7375,59 @@
     "work"
    ],
    "at": "2026-10-27T02:54:30.153901+00:00"
+  },
+  {
+   "sig": [
+    "fastest",
+    "mail",
+    "planet",
+    "server",
+    "stalwart",
+    "v1.0"
+   ],
+   "at": "2026-10-27T03:53:45.105354+00:00"
+  },
+  {
+   "sig": [
+    "agent-human",
+    "collaboration",
+    "forge",
+    "git"
+   ],
+   "at": "2026-10-27T03:53:51.896636+00:00"
+  },
+  {
+   "sig": [
+    "1-hour",
+    "90-minute",
+    "chases",
+    "format",
+    "horizontal",
+    "instagram",
+    "longer",
+    "push",
+    "support",
+    "takes",
+    "video",
+    "videos",
+    "widescreen",
+    "youtube"
+   ],
+   "at": "2026-10-27T03:53:58.096216+00:00"
+  },
+  {
+   "sig": [
+    "job",
+    "keep",
+    "proton",
+    "re-interview",
+    "see",
+    "staff"
+   ],
+   "at": "2026-10-27T03:54:04.062068+00:00"
   }
  ],
  "snapshots": {
-  "hn:50103630": [
-   1376,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50103338": [
-   811,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
   "hn:50102923": [
    512,
    "2026-10-15T22:33:30.541621+00:00"
@@ -9767,36 +9768,12 @@
    29,
    "2026-10-27T01:53:42.360285+00:00"
   ],
-  "hn:50248061": [
-   584,
-   "2026-10-27T02:53:40.374883+00:00"
-  ],
   "hn:50247928": [
    259,
    "2026-10-27T02:53:40.374883+00:00"
   ],
-  "hn:50247453": [
-   124,
-   "2026-10-27T02:53:40.374883+00:00"
-  ],
   "hn:50246658": [
    489,
-   "2026-10-27T02:53:40.374883+00:00"
-  ],
-  "hn:50246238": [
-   184,
-   "2026-10-27T02:53:40.374883+00:00"
-  ],
-  "hn:50245945": [
-   104,
-   "2026-10-27T02:53:40.374883+00:00"
-  ],
-  "lobsters:c0yniy": [
-   36,
-   "2026-10-27T02:53:40.374883+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myskt366z22k": [
-   622,
    "2026-10-27T02:53:40.374883+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mysifpvex22y": [
@@ -9815,9 +9792,41 @@
    113,
    "2026-10-27T02:53:40.374883+00:00"
   ],
+  "hn:50248061": [
+   586,
+   "2026-10-27T03:53:40.352794+00:00"
+  ],
+  "hn:50247453": [
+   124,
+   "2026-10-27T03:53:40.352794+00:00"
+  ],
+  "hn:50246238": [
+   188,
+   "2026-10-27T03:53:40.352794+00:00"
+  ],
+  "hn:50245945": [
+   104,
+   "2026-10-27T03:53:40.352794+00:00"
+  ],
+  "lobsters:c0yniy": [
+   37,
+   "2026-10-27T03:53:40.352794+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myskt366z22k": [
+   637,
+   "2026-10-27T03:53:40.352794+00:00"
+  ],
   "hn:50249045": [
-   62,
-   "2026-10-27T02:53:40.374883+00:00"
+   64,
+   "2026-10-27T03:53:40.352794+00:00"
+  ],
+  "hn:50251062": [
+   97,
+   "2026-10-27T03:53:40.352794+00:00"
+  ],
+  "lobsters:ihmfsc": [
+   25,
+   "2026-10-27T03:53:40.352794+00:00"
   ]
  }
 }
