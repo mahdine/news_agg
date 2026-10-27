@@ -1305,18 +1305,25 @@
   "211cbcb57772def070b88db2dbc43054",
   "3b64e967472f947e013f7625ea1f30b2",
   "6a7a3ca44b91b47b2ea629a02deb518d",
-  "1c1fd77ceec5f4567929a064d47b19bf"
+  "1c1fd77ceec5f4567929a064d47b19bf",
+  "TheNextWeb=4588a5ec9a45d6843293e16757cee7a8",
+  "https://www.neowin.net/news/nvidia-buys-3b-meta-stake-as-pair-expand-muse-ai-agent-partnership/",
+  "6adb5ab42c4105a738fd25ca",
+  "https://www.theregister.com/a/5305385",
+  "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+  "6adb76b15c99ae9c76783cab",
+  "d3N9WY5TyUgK6XSsfuWSaY"
  ],
  "posted": {
   "viral": 257,
-  "editorial": 266
+  "editorial": 271
  },
  "recent_labels": [
-  "TechRadar",
-  "InfoQ",
-  "Hacker News",
-  "Access Now",
-  "Hi-Tech Mail"
+  "The Next Web",
+  "Wired",
+  "The Register",
+  "The Hacker News",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2411,84 +2418,44 @@
    "source": "Hi-Tech Mail",
    "score": 0.18348,
    "at": "2026-10-27T08:54:26.631015+00:00"
+  },
+  {
+   "title": "سرمایه‌گذاری ۳ میلیارد دلاری انویدیا در متا برای توسعه هوش مصنوعی Muse",
+   "url": "https://thenextweb.com/news/nvidia-3bn-meta-muse-partnership",
+   "source": "The Next Web",
+   "score": 0.3595,
+   "at": "2026-10-27T09:53:50.070868+00:00"
+  },
+  {
+   "title": "بررسی عملکرد شش دستیار هوشمند در انجام وظایف روزمره و خودکارسازی",
+   "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
+   "source": "Wired",
+   "score": 0.22932,
+   "at": "2026-10-27T09:53:56.329355+00:00"
+  },
+  {
+   "title": "پیش‌بینی آنتروپیک برای سرمایه‌گذاری ۸۰۰ میلیارد دلاری در هوش مصنوعی",
+   "url": "https://www.theregister.com/offbeat/2026/10/27/year-of-linux-on-the-beach-confirmed/5305385",
+   "source": "The Register",
+   "score": 0.21583,
+   "at": "2026-10-27T09:54:02.697757+00:00"
+  },
+  {
+   "title": "عملیات موفق استرالیا برای قطع دسترسی بدافزار Amadey به ۱۸۰ هزار سیستم",
+   "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+   "source": "The Hacker News",
+   "score": 0.25252,
+   "at": "2026-10-27T09:54:08.778236+00:00"
+  },
+  {
+   "title": "سرقت سازمان‌یافته تجهیزات دیتاسنتر در مسیر حمل‌ونقل",
+   "url": "https://www.tomshardware.com/tech-industry/big-tech/data-center-gear-is-being-hijacked-in-transit-to-the-tune-of-hundreds-of-millions-grand-theft-gpu-thieves-hack-accounts-perform-hit-and-runs-spoof-gps-signals-and-funnel-hardware-to-china",
+   "source": "Tom's Hardware",
+   "score": 0.23037,
+   "at": "2026-10-27T09:54:16.731430+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "engineers",
-    "extra",
-    "having",
-    "like"
-   ],
-   "at": "2026-09-03T10:00:13.268255+00:00"
-  },
-  {
-   "sig": [
-    "12.9",
-    "12.93",
-    "acquire",
-    "acquiring",
-    "acquisition",
-    "almost",
-    "bet",
-    "billion",
-    "buy",
-    "buying",
-    "confirms",
-    "explains",
-    "face",
-    "huang",
-    "hugging",
-    "jensen",
-    "nearly",
-    "nvidia",
-    "open-source"
-   ],
-   "at": "2026-09-03T14:40:54.473978+00:00"
-  },
-  {
-   "sig": [
-    "connected",
-    "fleet",
-    "horizon",
-    "models",
-    "open",
-    "six"
-   ],
-   "at": "2026-09-03T18:51:28.274493+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "days",
-    "declaring",
-    "freedom",
-    "google",
-    "restricts",
-    "side-loading",
-    "until",
-    "war"
-   ],
-   "at": "2026-09-03T21:48:40.802493+00:00"
-  },
-  {
-   "sig": [
-    "around",
-    "built",
-    "company",
-    "ecosystem",
-    "home",
-    "hubs",
-    "local",
-    "nas",
-    "run",
-    "smart",
-    "ugreen",
-    "wants"
-   ],
-   "at": "2026-09-04T09:49:36.928429+00:00"
-  },
   {
    "sig": [
     "announces",
@@ -7513,6 +7480,71 @@
     "step"
    ],
    "at": "2026-10-27T08:54:12.580220+00:00"
+  },
+  {
+   "sig": [
+    "3bn",
+    "agent",
+    "buys",
+    "expand",
+    "invest",
+    "meta",
+    "muse",
+    "nvidia",
+    "pair",
+    "partnership",
+    "stake",
+    "work"
+   ],
+   "at": "2026-10-27T09:53:50.070868+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "best",
+    "day",
+    "every",
+    "here",
+    "major",
+    "tested"
+   ],
+   "at": "2026-10-27T09:53:56.329355+00:00"
+  },
+  {
+   "sig": [
+    "beach",
+    "confirmed",
+    "linux",
+    "year"
+   ],
+   "at": "2026-10-27T09:54:02.697757+00:00"
+  },
+  {
+   "sig": [
+    "access",
+    "amadey",
+    "australia",
+    "backend",
+    "computers",
+    "cuts",
+    "infected",
+    "malware"
+   ],
+   "at": "2026-10-27T09:54:08.778236+00:00"
+  },
+  {
+   "sig": [
+    "being",
+    "center",
+    "data",
+    "gear",
+    "hijacked",
+    "hundreds",
+    "millions",
+    "transit",
+    "tune"
+   ],
+   "at": "2026-10-27T09:54:16.731430+00:00"
   }
  ],
  "snapshots": {
