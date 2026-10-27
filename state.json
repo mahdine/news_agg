@@ -1327,18 +1327,26 @@
   "4H8jZpvqBzhg79SyR2nhtM",
   "TheNextWeb=83999871bad97988b751868bfa22007b",
   "TRJdHb4yoQF98CLUSuAQjB",
-  "TheNextWeb=5b26487c96a94e4c4a7565b28cd27b16"
+  "TheNextWeb=5b26487c96a94e4c4a7565b28cd27b16",
+  "lobsters:cajuq6",
+  "hn:50256738",
+  "hn:50256985",
+  "https://www.technologyreview.com/?p=1147142",
+  "https://www.infoq.com/news/2026/10/anthropic-source-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://9to5mac.com/?p=1075960",
+  "fffa0caea6c10c13da533bee0cbd834d",
+  "ee1ba219270eb6a18cf68bb5c47ed3b2"
  ],
  "posted": {
-  "viral": 257,
-  "editorial": 281
+  "viral": 259,
+  "editorial": 283
  },
  "recent_labels": [
-  "The Register",
-  "Tom's Hardware",
   "The Next Web",
-  "TechRadar",
-  "The Next Web"
+  "Lobsters",
+  "Hacker News",
+  "InfoQ",
+  "9to5Mac"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2538,66 +2546,37 @@
    "source": "The Next Web",
    "score": 0.19369,
    "at": "2026-10-27T10:54:42.473531+00:00"
+  },
+  {
+   "title": "توقف توسعه کامپایلر JIT در هسته اصلی زبان پایتون",
+   "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+   "source": "lwn.net",
+   "score": 0.08077,
+   "at": "2026-10-27T11:53:41.501907+00:00"
+  },
+  {
+   "title": "سرقت داده‌های سه‌بعدی توسط ربات خزنده Roblox برای آموزش مدل‌های هوش مصنوعی",
+   "url": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
+   "source": "open3dlab.com",
+   "score": 0.54434,
+   "at": "2026-10-27T11:53:50.936424+00:00"
+  },
+  {
+   "title": "مهاجرت Anthropic از Git به سیستم کنترل منبع اختصاصی Scion",
+   "url": "https://www.infoq.com/news/2026/10/anthropic-source-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.19058,
+   "at": "2026-10-27T11:53:59.975498+00:00"
+  },
+  {
+   "title": "شبیه‌ساز کامپیوترهای قدیمی برای آیفون",
+   "url": "https://9to5mac.com/2026/10/27/this-super-cute-app-turns-your-iphone-duo-into-tiny-vintage-macs/",
+   "source": "9to5Mac",
+   "score": 0.19458,
+   "at": "2026-10-27T11:54:06.434237+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "answer",
-    "complicated",
-    "drop",
-    "iphone",
-    "launches",
-    "may",
-    "price",
-    "there",
-    "usual",
-    "year"
-   ],
-   "at": "2026-09-06T17:13:37.335669+00:00"
-  },
-  {
-   "sig": [
-    "breaks",
-    "commit",
-    "crimes",
-    "qbittorrent",
-    "sandbox"
-   ],
-   "at": "2026-09-06T19:22:40.727794+00:00"
-  },
-  {
-   "sig": [
-    "advice",
-    "continue",
-    "following",
-    "legal",
-    "nitter",
-    "project",
-    "resume",
-    "service",
-    "xcancel"
-   ],
-   "at": "2026-09-06T21:31:17.326225+00:00"
-  },
-  {
-   "sig": [
-    "attackers",
-    "authentication",
-    "exploit",
-    "flaws",
-    "hackers",
-    "hijack",
-    "internet-exposed",
-    "mikrotik",
-    "routeros",
-    "routers",
-    "ssh",
-    "through",
-    "without"
-   ],
-   "at": "2026-09-07T10:36:33.315201+00:00"
-  },
   {
    "sig": [
     "abroad",
@@ -7550,21 +7529,57 @@
     "voort"
    ],
    "at": "2026-10-27T10:54:42.473531+00:00"
+  },
+  {
+   "sig": [
+    "experimental",
+    "jit",
+    "python",
+    "removed"
+   ],
+   "at": "2026-10-27T11:53:41.501907+00:00"
+  },
+  {
+   "sig": [
+    "145gb",
+    "adult",
+    "asking",
+    "content",
+    "downloaded",
+    "including",
+    "models",
+    "roblox",
+    "without"
+   ],
+   "at": "2026-10-27T11:53:50.936424+00:00"
+  },
+  {
+   "sig": [
+    "ai-driven",
+    "anthropic",
+    "control",
+    "development",
+    "redesigned",
+    "source"
+   ],
+   "at": "2026-10-27T11:53:59.975498+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "cute",
+    "duo",
+    "iphone",
+    "macs",
+    "super",
+    "tiny",
+    "turns",
+    "vintage"
+   ],
+   "at": "2026-10-27T11:54:06.434237+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwbzfn7g22k": [
-   505,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxw77zuv5m2j": [
-   709,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxw6tkb3vk2k": [
-   283,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxw6aa24ua2j": [
    1163,
    "2026-10-15T22:33:30.541621+00:00"
@@ -9952,6 +9967,18 @@
   "hn:50255298": [
    212,
    "2026-10-27T08:54:02.493460+00:00"
+  ],
+  "hn:50256985": [
+   283,
+   "2026-10-27T11:53:39.445445+00:00"
+  ],
+  "hn:50256738": [
+   184,
+   "2026-10-27T11:53:39.445445+00:00"
+  ],
+  "lobsters:cajuq6": [
+   26,
+   "2026-10-27T11:53:39.445445+00:00"
   ]
  }
 }
