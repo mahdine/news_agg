@@ -1268,18 +1268,24 @@
   "https://9to5mac.com/?p=1075926",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myskt366z22k",
   "hn:50251062",
-  "lobsters:ihmfsc"
+  "lobsters:ihmfsc",
+  "https://www.infoq.com/news/2026/10/google-argon-optimizes-adk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "DVrv22BfzaHnp6XpbpEz3L",
+  "hn:50248061",
+  "UwNRWpWwPC4rtQGD2B4oiH",
+  "d0e198bc38a01f9413634ceb3cb28e05",
+  "b632d642b283a0fa2d68ab5ac52fd41e"
  ],
  "posted": {
-  "viral": 252,
-  "editorial": 249
+  "viral": 253,
+  "editorial": 253
  },
  "recent_labels": [
+  "InfoQ",
   "Hacker News",
-  "Hacker News",
-  "Slashdot",
-  "404 Media",
-  "Lobsters"
+  "TechRadar",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2220,65 +2226,44 @@
    "source": "kcoleman.me",
    "score": 0.12451,
    "at": "2026-10-27T03:54:10.108012+00:00"
+  },
+  {
+   "title": "بهینه‌سازی کدهای Google Agent Development Kit با استفاده از مدل Gemini 4 Argon",
+   "url": "https://www.infoq.com/news/2026/10/google-argon-optimizes-adk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.25264,
+   "at": "2026-10-27T04:54:23.578288+00:00"
+  },
+  {
+   "title": "اعتراض کارکنان متا به دخالت سیاسی در انتخابات برزیل",
+   "url": "https://www.panamericandispatch.org/p/meta-employees-denounce-interference",
+   "source": "panamericandispatch.org",
+   "score": 0.0045,
+   "at": "2026-10-27T04:54:32.959137+00:00"
+  },
+  {
+   "title": "شالِو هولیو خواستار توسعه هوش مصنوعی مستقل برای دولت‌ها شد",
+   "url": "https://www.techradar.com/pro/security/you-want-to-control-your-own-ai-pegasus-spyware-founder-tells-governments-to-push-for-sovereign-ai-and-national-security-over-reliance-on-us-ai",
+   "source": "TechRadar",
+   "score": 0.07024,
+   "at": "2026-10-27T04:54:56.833724+00:00"
+  },
+  {
+   "title": "اختلال و محدودیت گسترده در دسترسی کاربران روسیه به WhatsApp",
+   "url": "https://hi-tech.mail.ru/news/145604-chto-segodnya-s-whatsapp/",
+   "source": "Hi-Tech Mail",
+   "score": 0.17097,
+   "at": "2026-10-27T04:55:04.957195+00:00"
+  },
+  {
+   "title": "اختلال گسترده در شبکه اپراتور Beeline در مناطق مختلف روسیه",
+   "url": "https://hi-tech.mail.ru/news/145605-chto-segodnya-s-bilajn/",
+   "source": "Hi-Tech Mail",
+   "score": 0.17148,
+   "at": "2026-10-27T04:55:18.444804+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "age",
-    "assets",
-    "cloud",
-    "enterprise",
-    "event",
-    "every",
-    "know",
-    "securing",
-    "should",
-    "virtual"
-   ],
-   "at": "2026-08-29T22:43:07.300876+00:00"
-  },
-  {
-   "sig": [
-    "algorithmic",
-    "expands",
-    "laws",
-    "litigation",
-    "local",
-    "rent-pricing",
-    "state",
-    "under"
-   ],
-   "at": "2026-08-30T10:35:26.728279+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "ahead",
-    "attack",
-    "board",
-    "breach",
-    "coordinated",
-    "drove",
-    "exploit",
-    "face",
-    "hack",
-    "hacking",
-    "hugging",
-    "hundreds",
-    "invaded",
-    "makeshift",
-    "message",
-    "nearly",
-    "openai",
-    "reward",
-    "rogue",
-    "servers",
-    "via",
-    "zero-days"
-   ],
-   "at": "2026-08-30T15:24:45.018825+00:00"
-  },
   {
    "sig": [
     "amazon",
@@ -7425,6 +7410,54 @@
     "staff"
    ],
    "at": "2026-10-27T03:54:04.062068+00:00"
+  },
+  {
+   "sig": [
+    "200k-line",
+    "agent",
+    "argon",
+    "codebase",
+    "development",
+    "gemini",
+    "google",
+    "kit",
+    "may",
+    "optimizes",
+    "overkill",
+    "overnight",
+    "python",
+    "tasks"
+   ],
+   "at": "2026-10-27T04:54:23.578288+00:00"
+  },
+  {
+   "sig": [
+    "brazilian",
+    "denounce",
+    "elections",
+    "employees",
+    "interference",
+    "meta"
+   ],
+   "at": "2026-10-27T04:54:32.959137+00:00"
+  },
+  {
+   "sig": [
+    "control",
+    "founder",
+    "governments",
+    "national",
+    "own",
+    "pegasus",
+    "push",
+    "reliance",
+    "security",
+    "sovereign",
+    "spyware",
+    "tells",
+    "want"
+   ],
+   "at": "2026-10-27T04:54:56.833724+00:00"
   }
  ],
  "snapshots": {
@@ -9793,8 +9826,8 @@
    "2026-10-27T02:53:40.374883+00:00"
   ],
   "hn:50248061": [
-   586,
-   "2026-10-27T03:53:40.352794+00:00"
+   587,
+   "2026-10-27T04:53:39.670616+00:00"
   ],
   "hn:50247453": [
    124,
@@ -9818,7 +9851,7 @@
   ],
   "hn:50249045": [
    64,
-   "2026-10-27T03:53:40.352794+00:00"
+   "2026-10-27T04:53:39.670616+00:00"
   ],
   "hn:50251062": [
    97,
