@@ -1283,18 +1283,26 @@
   "https://news.slashdot.org/story/26/10/26/227203/us-designates-helium-as-a-critical-material?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "3218189",
-  "3218219"
+  "3218219",
+  "hn:50254836",
+  "https://www.theregister.com/a/5305625",
+  "f6vXrxdhGPFEPa6ngNcFFT",
+  "saH32s9caraYym6mabonpc",
+  "CeFu3ZZEAAAN4ZxTKCHUtF",
+  "11a33438000ba28c415a0409fcad08b2",
+  "b96f22005b58b562d955b5c129fd81d3",
+  "https://www.neowin.net/news/instagram-now-has-an-app-for-the-apple-tv/"
  ],
  "posted": {
-  "viral": 255,
-  "editorial": 255
+  "viral": 256,
+  "editorial": 259
  },
  "recent_labels": [
-  "Hi-Tech Mail",
-  "Lobsters",
   "Hacker News",
-  "TechCrunch AI",
-  "InfoQ"
+  "The Register",
+  "TechRadar",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2298,76 +2306,44 @@
    "source": "InfoQ",
    "score": 0.06816,
    "at": "2026-10-27T05:54:33.384758+00:00"
+  },
+  {
+   "title": "دسترسی یکپارچه به مدل‌های هوش مصنوعی abliterated از طریق AllModels",
+   "url": "https://allmodels.io/llm/abliterated",
+   "source": "allmodels.io",
+   "score": 0.20371,
+   "at": "2026-10-27T06:53:50.957899+00:00"
+  },
+  {
+   "title": "شکایت مالکان حقوقی آثار الویس پریسلی از شرکت Anthropic",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/27/elvis-rightsholders-sue-anthropic-for-stealing-songs-and-leaving-them-in-heartbreak-hotel/5305625",
+   "source": "The Register",
+   "score": 0.12534,
+   "at": "2026-10-27T06:53:58.631927+00:00"
+  },
+  {
+   "title": "شناسایی کشتی‌های روسی در حال نقشه‌برداری از کابل‌های زیردریایی اینترنت",
+   "url": "https://www.techradar.com/pro/russian-boats-spotted-loitering-over-undersea-cables-connecting-europe-and-us",
+   "source": "TechRadar",
+   "score": 0.11512,
+   "at": "2026-10-27T06:54:12.765868+00:00"
+  },
+  {
+   "title": "گزارش اختلالات گسترده در شبکه اینترنت و سرویس‌های آنلاین روسیه",
+   "url": "https://hi-tech.mail.ru/news/145610-sboi-interneta-v-rossii/",
+   "source": "Hi-Tech Mail",
+   "score": 0.08414,
+   "at": "2026-10-27T06:54:34.093180+00:00"
+  },
+  {
+   "title": "حذف اپلیکیشن VPN محبوب Incy از اپ‌استور روسیه توسط اپل",
+   "url": "https://hi-tech.mail.ru/news/159008-apple-udalila-vpn-klient-incy-iz-rossiiskogo-app-store/",
+   "source": "Hi-Tech Mail",
+   "score": 0.18297,
+   "at": "2026-10-27T06:54:41.783776+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "app",
-    "hosting",
-    "lake",
-    "mapquest",
-    "move",
-    "navigation",
-    "ontario",
-    "refusing",
-    "rename",
-    "surges"
-   ],
-   "at": "2026-08-31T19:12:06.613024+00:00"
-  },
-  {
-   "sig": [
-    "job",
-    "may",
-    "safest",
-    "writing"
-   ],
-   "at": "2026-08-31T23:16:53.083530+00:00"
-  },
-  {
-   "sig": [
-    "anubis",
-    "claude",
-    "engineer",
-    "lol",
-    "refuse",
-    "reverse",
-    "starting"
-   ],
-   "at": "2026-09-01T10:19:14.540127+00:00"
-  },
-  {
-   "sig": [
-    "accessory",
-    "apple",
-    "becomes",
-    "ceo",
-    "day",
-    "deck",
-    "first",
-    "foldable",
-    "introduction",
-    "iphone",
-    "john",
-    "leadership",
-    "list",
-    "long",
-    "page",
-    "pencil",
-    "priorities",
-    "problems",
-    "prototyped",
-    "revealed",
-    "solve",
-    "starts",
-    "takes",
-    "ternus",
-    "tested",
-    "updated"
-   ],
-   "at": "2026-09-01T15:02:51.328873+00:00"
-  },
   {
    "sig": [
     "android",
@@ -7479,13 +7455,58 @@
     "weekly"
    ],
    "at": "2026-10-27T05:54:33.384758+00:00"
+  },
+  {
+   "sig": [
+    "abliterated",
+    "deepseek",
+    "inference",
+    "providers",
+    "there"
+   ],
+   "at": "2026-10-27T06:53:50.957899+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "elvis",
+    "heartbreak",
+    "hotel",
+    "leaving",
+    "rightsholders",
+    "songs",
+    "stealing",
+    "sue"
+   ],
+   "at": "2026-10-27T06:53:58.631927+00:00"
+  },
+  {
+   "sig": [
+    "boats",
+    "cables",
+    "connecting",
+    "europe",
+    "loitering",
+    "russian",
+    "spotted",
+    "undersea"
+   ],
+   "at": "2026-10-27T06:54:12.765868+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "apple",
+    "happ",
+    "incy",
+    "instagram",
+    "store",
+    "vpn"
+   ],
+   "at": "2026-10-27T06:54:41.783776+00:00"
   }
  ],
  "snapshots": {
-  "hn:50102247": [
-   567,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwchjkfa22r": [
    709,
    "2026-10-15T22:33:30.541621+00:00"
@@ -9881,6 +9902,10 @@
   "lobsters:cxxcik": [
    28,
    "2026-10-27T05:53:48.300336+00:00"
+  ],
+  "hn:50254836": [
+   184,
+   "2026-10-27T06:53:46.495206+00:00"
   ]
  }
 }
