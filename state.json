@@ -1247,18 +1247,30 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysg7aosuk2a",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysdcaw54d2i",
   "hn:50248124",
-  "lobsters:o5to4p"
+  "lobsters:o5to4p",
+  "hn:50246658",
+  "hn:50247928",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mysifpvex22y",
+  "01M5X2P6CQYMNAESRJ922DG5J3",
+  "hn:50252159",
+  "TheNextWeb=5c0c25e50873e5ced87b46dd37b98e22",
+  "hn:50251661",
+  "hn:50252457",
+  "https://www.theregister.com/a/5305574",
+  "https://www.neowin.net/news/openai-releases-gpt-61-terra-with-impressive-performance-at-massively-reduced-costs/",
+  "https://9to5mac.com/?p=1075885",
+  "TheNextWeb=c76d18d98f9d3b4672384ea2fab217f0"
  ],
  "posted": {
-  "viral": 246,
-  "editorial": 245
+  "viral": 248,
+  "editorial": 248
  },
  "recent_labels": [
-  "OpenAI",
-  "Lobsters",
-  "404 Media",
   "Hacker News",
-  "Lobsters"
+  "Emily M. Bender",
+  "Cloudflare",
+  "The Next Web",
+  "The Register"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2129,112 +2141,44 @@
    "source": "benjoffe.com",
    "score": 0.05863,
    "at": "2026-10-27T01:54:28.721103+00:00"
+  },
+  {
+   "title": "رفتار مشکوک مدل‌های هوش مصنوعی متن‌باز در نشت داده‌های داخلی",
+   "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+   "source": "cohere.com",
+   "score": 0.03126,
+   "at": "2026-10-27T02:53:43.899813+00:00"
+  },
+  {
+   "title": "تأمل در وابستگی کاربران به ابزارهای هوش مصنوعی",
+   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3mysifpvex22y",
+   "source": "Emily M. Bender",
+   "score": 0.07728,
+   "at": "2026-10-27T02:53:58.390720+00:00"
+  },
+  {
+   "title": "نشت داده‌های کاربران در مدل هوش مصنوعی GLM-5.3 کلودفلر",
+   "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+   "source": "Cloudflare",
+   "score": 0.18872,
+   "at": "2026-10-27T02:54:11.638355+00:00"
+  },
+  {
+   "title": "مدل هوش مصنوعی OpenAI فرضیه زمان نمایی را رد کرد",
+   "url": "https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills",
+   "source": "The Next Web",
+   "score": 0.20201,
+   "at": "2026-10-27T02:54:17.956949+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل اقتصادی GPT-6.1 Terra توسط OpenAI",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/26/openai-rolls-out-budget-priced-mid-tier-gpt-61-terra/5305574",
+   "source": "The Register",
+   "score": 0.17598,
+   "at": "2026-10-27T02:54:30.153901+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "abortion",
-    "ceo",
-    "cops",
-    "entirely",
-    "evystadium.bsky.social",
-    "false",
-    "flock",
-    "garrett",
-    "langley",
-    "lying",
-    "media",
-    "self-administered",
-    "someone",
-    "story",
-    "told",
-    "track",
-    "using"
-   ],
-   "at": "2026-08-26T18:14:00.422680+00:00"
-  },
-  {
-   "sig": [
-    "17b",
-    "addiction",
-    "agrees",
-    "billion",
-    "children",
-    "could",
-    "eff",
-    "force",
-    "harms",
-    "media",
-    "meta",
-    "reaches",
-    "rules",
-    "settlement",
-    "settlements",
-    "social",
-    "statement",
-    "teen",
-    "tiktok",
-    "tougher",
-    "youtube"
-   ],
-   "at": "2026-08-26T20:30:31.987805+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "alabama",
-    "breach",
-    "could",
-    "details",
-    "don",
-    "earlier",
-    "face",
-    "failures",
-    "hack",
-    "hacked",
-    "hugging",
-    "inside",
-    "investigation",
-    "know",
-    "launches",
-    "led",
-    "official",
-    "openai",
-    "prevented",
-    "releases",
-    "report",
-    "signals",
-    "still",
-    "story"
-   ],
-   "at": "2026-08-27T00:00:20.504782+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "code",
-    "exclusively",
-    "months",
-    "six",
-    "writing"
-   ],
-   "at": "2026-08-27T16:38:09.017112+00:00"
-  },
-  {
-   "sig": [
-    "alliance",
-    "fighter",
-    "modern",
-    "opentie",
-    "openxwa",
-    "ports",
-    "show",
-    "tie",
-    "x-wing"
-   ],
-   "at": "2026-08-28T01:36:00.453616+00:00"
-  },
   {
    "sig": [
     "bogus",
@@ -7390,17 +7334,91 @@
     "way"
    ],
    "at": "2026-10-27T01:54:28.721103+00:00"
+  },
+  {
+   "sig": [
+    "behavior",
+    "concerning",
+    "model",
+    "open-weight",
+    "popular"
+   ],
+   "at": "2026-10-27T02:53:43.899813+00:00"
+  },
+  {
+   "sig": [
+    "argument",
+    "context",
+    "convenience",
+    "llms",
+    "long",
+    "might",
+    "paper",
+    "people",
+    "related",
+    "software",
+    "take",
+    "technologies",
+    "thinking",
+    "without",
+    "working",
+    "would"
+   ],
+   "at": "2026-10-27T02:53:58.390720+00:00"
+  },
+  {
+   "sig": [
+    "cache",
+    "cross-request",
+    "exposure",
+    "glm-5.3",
+    "model",
+    "responses",
+    "workers"
+   ],
+   "at": "2026-10-27T02:54:11.638355+00:00"
+  },
+  {
+   "sig": [
+    "disproved",
+    "exponential",
+    "false",
+    "hypothesis",
+    "model",
+    "openai",
+    "pdf",
+    "time"
+   ],
+   "at": "2026-10-27T02:54:17.956949+00:00"
+  },
+  {
+   "sig": [
+    "budget-priced",
+    "chatgpt",
+    "cheaper",
+    "codex",
+    "computer",
+    "costs",
+    "everyday",
+    "gpt-6.1",
+    "impressive",
+    "launches",
+    "massively",
+    "mid-tier",
+    "model",
+    "openai",
+    "performance",
+    "reduced",
+    "releases",
+    "rolls",
+    "terra",
+    "upgrades",
+    "work"
+   ],
+   "at": "2026-10-27T02:54:30.153901+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:o0ixth": [
-   25,
-   "2026-10-15T19:18:27.038186+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwksrh5i32p": [
-   141,
-   "2026-10-15T19:18:27.038186+00:00"
-  ],
   "hn:50103630": [
    1376,
    "2026-10-15T22:33:30.541621+00:00"
@@ -9721,44 +9739,12 @@
    808,
    "2026-10-27T01:53:42.360285+00:00"
   ],
-  "hn:50248061": [
-   578,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
   "hn:50248005": [
    616,
    "2026-10-27T01:53:42.360285+00:00"
   ],
-  "hn:50247928": [
-   238,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "hn:50247453": [
-   124,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "hn:50246658": [
-   479,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "hn:50246238": [
-   174,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "hn:50245945": [
-   104,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
   "lobsters:6ntoqr": [
    50,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "lobsters:c0yniy": [
-   36,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myskt366z22k": [
-   605,
    "2026-10-27T01:53:42.360285+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysg7aosuk2a": [
@@ -9773,18 +9759,6 @@
    1109,
    "2026-10-27T01:53:42.360285+00:00"
   ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mysifpvex22y": [
-   111,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "hn:50252159": [
-   99,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "hn:50251661": [
-   501,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
   "hn:50248124": [
    1141,
    "2026-10-27T01:53:42.360285+00:00"
@@ -9792,6 +9766,58 @@
   "lobsters:o5to4p": [
    29,
    "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "hn:50248061": [
+   584,
+   "2026-10-27T02:53:40.374883+00:00"
+  ],
+  "hn:50247928": [
+   259,
+   "2026-10-27T02:53:40.374883+00:00"
+  ],
+  "hn:50247453": [
+   124,
+   "2026-10-27T02:53:40.374883+00:00"
+  ],
+  "hn:50246658": [
+   489,
+   "2026-10-27T02:53:40.374883+00:00"
+  ],
+  "hn:50246238": [
+   184,
+   "2026-10-27T02:53:40.374883+00:00"
+  ],
+  "hn:50245945": [
+   104,
+   "2026-10-27T02:53:40.374883+00:00"
+  ],
+  "lobsters:c0yniy": [
+   36,
+   "2026-10-27T02:53:40.374883+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myskt366z22k": [
+   622,
+   "2026-10-27T02:53:40.374883+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mysifpvex22y": [
+   112,
+   "2026-10-27T02:53:40.374883+00:00"
+  ],
+  "hn:50252159": [
+   133,
+   "2026-10-27T02:53:40.374883+00:00"
+  ],
+  "hn:50251661": [
+   624,
+   "2026-10-27T02:53:40.374883+00:00"
+  ],
+  "hn:50252457": [
+   113,
+   "2026-10-27T02:53:40.374883+00:00"
+  ],
+  "hn:50249045": [
+   62,
+   "2026-10-27T02:53:40.374883+00:00"
   ]
  }
 }
