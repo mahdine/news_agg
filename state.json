@@ -1367,18 +1367,26 @@
   "hn:50259050",
   "hn:50259406",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myufqgkrbc2h",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myugdjxwhp2h"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myugdjxwhp2h",
+  "hn:50260814",
+  "https://www.theverge.com/?p=1019551",
+  "112481 at https://www.eff.org",
+  "https://techcrunch.com/?p=3182045",
+  "https://www.theverge.com/?p=1019076",
+  "https://9to5mac.com/?p=1076085",
+  "https://www.neowin.net/deals/jbl-endurance-zone-open-ear-earbuds-hit-91-following-a-49-discount-on-amazon/",
+  "https://www.theverge.com/?p=1019604"
  ],
  "posted": {
-  "viral": 266,
-  "editorial": 291
+  "viral": 267,
+  "editorial": 295
  },
  "recent_labels": [
-  "The Hacker News",
-  "Wired",
   "Hacker News",
-  "Hacker News",
-  "404 Media"
+  "The Verge",
+  "EFF",
+  "TechCrunch AI",
+  "The Verge"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2711,95 +2719,44 @@
    "source": "404media.co",
    "score": 0.35988,
    "at": "2026-10-27T15:57:13.468420+00:00"
+  },
+  {
+   "title": "محکومیت Anthropic به دلیل استفاده غیرقانونی از آثار نویسندگان برای آموزش مدل‌ها",
+   "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+   "source": "stanforddaily.com",
+   "score": 0.14635,
+   "at": "2026-10-27T16:45:36.701839+00:00"
+  },
+  {
+   "title": "قابلیت‌های جدید هوش مصنوعی در مرورگر فایرفاکس",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+   "source": "The Verge",
+   "score": 0.2101,
+   "at": "2026-10-27T16:46:17.570540+00:00"
+  },
+  {
+   "title": "خروج سرویس DNS امنیتی Quad9 از بازار فرانسه به دلیل احکام قضایی",
+   "url": "https://www.eff.org/deeplinks/2026/10/french-courts-site-blocking-orders-drive-quad9-out-france",
+   "source": "EFF",
+   "score": 0.22467,
+   "at": "2026-10-27T16:46:30.519711+00:00"
+  },
+  {
+   "title": "معرفی مدل هوش مصنوعی Genie 4 با قابلیت‌های شبیه‌سازی واقع‌گرایانه",
+   "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+   "source": "TechCrunch AI",
+   "score": 0.66029,
+   "at": "2026-10-27T16:46:51.122728+00:00"
+  },
+  {
+   "title": "جریمه ۲۵ میلیارد دلاری متا در پرونده نقض حریم خصوصی کاربران",
+   "url": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement",
+   "source": "The Verge",
+   "score": 0.30377,
+   "at": "2026-10-27T16:48:32.240083+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "16.0.4",
-    "bug",
-    "code",
-    "critical",
-    "execution",
-    "fix",
-    "forgejo",
-    "rce",
-    "remote",
-    "security"
-   ],
-   "at": "2026-09-10T21:44:25.484425+00:00"
-  },
-  {
-   "sig": [
-    "breached",
-    "hackers",
-    "internal",
-    "proxy",
-    "servers",
-    "surfshark",
-    "systems",
-    "targeted",
-    "testing",
-    "vpn"
-   ],
-   "at": "2026-09-11T09:53:45.552439+00:00"
-  },
-  {
-   "sig": [
-    "alamos",
-    "build",
-    "center",
-    "consulted",
-    "data",
-    "labs",
-    "los",
-    "massive",
-    "michigan",
-    "national",
-    "never",
-    "partnering",
-    "residents",
-    "small",
-    "township",
-    "university",
-    "were"
-   ],
-   "at": "2026-09-11T14:32:57.840963+00:00"
-  },
-  {
-   "sig": [
-    "amid",
-    "astra",
-    "chatgpt",
-    "coding",
-    "computer",
-    "demand",
-    "due",
-    "gpt-6",
-    "halts",
-    "hold",
-    "openai",
-    "pauses",
-    "pro",
-    "puts",
-    "releases",
-    "sign-ups",
-    "strains",
-    "subscriptions",
-    "systems"
-   ],
-   "at": "2026-09-11T18:41:51.376689+00:00"
-  },
-  {
-   "sig": [
-    "anti-scraping",
-    "google",
-    "google.com",
-    "goto",
-    "update"
-   ],
-   "at": "2026-09-12T09:30:04.202640+00:00"
-  },
   {
    "sig": [
     "128gb",
@@ -7577,13 +7534,77 @@
     "today"
    ],
    "at": "2026-10-27T15:57:13.468420+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "books",
+    "claude",
+    "illegally",
+    "obtained",
+    "professors",
+    "stanford",
+    "trained"
+   ],
+   "at": "2026-10-27T16:45:36.701839+00:00"
+  },
+  {
+   "sig": [
+    "adds",
+    "filling",
+    "firefox",
+    "form",
+    "monitoring",
+    "smart",
+    "webpage",
+    "window"
+   ],
+   "at": "2026-10-27T16:46:17.570540+00:00"
+  },
+  {
+   "sig": [
+    "court",
+    "drive",
+    "france",
+    "french",
+    "orders",
+    "quad9",
+    "site-blocking"
+   ],
+   "at": "2026-10-27T16:46:30.519711+00:00"
+  },
+  {
+   "sig": [
+    "adds",
+    "audio",
+    "experiences",
+    "generates",
+    "genie",
+    "google",
+    "model",
+    "next",
+    "real-time",
+    "realistic",
+    "steering",
+    "world",
+    "worlds"
+   ],
+   "at": "2026-10-27T16:46:51.122728+00:00"
+  },
+  {
+   "sig": [
+    "billion",
+    "blood",
+    "legal",
+    "loss",
+    "meta",
+    "put",
+    "water"
+   ],
+   "at": "2026-10-27T16:48:32.240083+00:00"
   }
  ],
  "snapshots": {
-  "hn:50104726": [
-   366,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
   "hn:50104654": [
    559,
    "2026-10-15T22:33:30.541621+00:00"
@@ -9956,10 +9977,6 @@
    200,
    "2026-10-27T15:53:40.649877+00:00"
   ],
-  "hn:50259343": [
-   189,
-   "2026-10-27T15:53:40.649877+00:00"
-  ],
   "hn:50259050": [
    105,
    "2026-10-27T15:53:40.649877+00:00"
@@ -9979,6 +9996,14 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myudtn3yfe2l": [
    119,
    "2026-10-27T15:53:40.649877+00:00"
+  ],
+  "hn:50259343": [
+   232,
+   "2026-10-27T16:45:15.517896+00:00"
+  ],
+  "hn:50260814": [
+   103,
+   "2026-10-27T16:45:15.517896+00:00"
   ]
  }
 }
