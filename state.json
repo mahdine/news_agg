@@ -1393,18 +1393,24 @@
   "xVxt3Yw2qzZRJGx4MGsvtV",
   "TheNextWeb=2cdd7d72d7191f278d55cb992890b1b2",
   "https://www.androidpolice.com/chrome-group-inactive-tabs-hoarding/",
-  "112484 at https://www.eff.org"
+  "112484 at https://www.eff.org",
+  "lobsters:q7arzy",
+  "hn:50262942",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myuvcd54ds2n",
+  "hn:50263854",
+  "hn:50264228",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myuxh47zdk2z"
  ],
  "posted": {
-  "viral": 268,
+  "viral": 273,
   "editorial": 304
  },
  "recent_labels": [
+  "Lobsters",
+  "Xe Iaso",
   "Hacker News",
-  "ZDNet",
-  "Tom's Hardware",
-  "Android Police",
-  "EFF"
+  "Hacker News",
+  "Emily M. Bender"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2842,119 +2848,44 @@
    "source": "EFF",
    "score": 0.30377,
    "at": "2026-10-27T17:55:56.836830+00:00"
+  },
+  {
+   "title": "توسعه ابزار tar-codec برای افزایش امنیت و سرعت در uv",
+   "url": "https://astral.sh/blog/tar-codec",
+   "source": "astral.sh",
+   "score": 0.11738,
+   "at": "2026-10-27T21:24:05.373201+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری در کتابخانه mbedTLS وب‌سرور GoAhead منجر به افشای کلیدهای رمزنگاری می‌شود",
+   "url": "https://github.com/embedthis/goahead/security/advisories/GHSA-fmvx-2xfx-2gq4",
+   "source": "github.com",
+   "score": 0.19987,
+   "at": "2026-10-27T21:24:16.698707+00:00"
+  },
+  {
+   "title": "نمایش پیام‌های عمومی سرورهای دیسکورد در نتایج جستجوی گوگل",
+   "url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
+   "source": "discord.com",
+   "score": 0.19441,
+   "at": "2026-10-27T21:24:23.085112+00:00"
+  },
+  {
+   "title": "دونالد ترامپ استفاده از عبارت هوش مصنوعی را ممنوع کرد",
+   "url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term/",
+   "source": "thehill.com",
+   "score": 0.22192,
+   "at": "2026-10-27T21:24:29.950979+00:00"
+  },
+  {
+   "title": "انتقاد از عملکرد OpenAI در پی گزارش مرگ یک بیمار",
+   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3myuxh47zdk2z",
+   "source": "Emily M. Bender",
+   "score": 0.10952,
+   "at": "2026-10-27T21:24:36.132179+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "accounts",
-    "attackers",
-    "attacks",
-    "campaign",
-    "cloud",
-    "complex",
-    "data",
-    "exfiltrate",
-    "highly",
-    "hijack",
-    "impersonation",
-    "lead",
-    "microsoft",
-    "passkey",
-    "passkey-themed",
-    "phishing",
-    "stolen",
-    "theft"
-   ],
-   "at": "2026-09-14T17:00:27.415774+00:00"
-  },
-  {
-   "sig": [
-    "audio",
-    "break",
-    "bugs",
-    "cause",
-    "emergency",
-    "failures",
-    "fix",
-    "microsoft",
-    "out-of-band",
-    "patch",
-    "pcs",
-    "rds",
-    "releases",
-    "september",
-    "server",
-    "tuesday",
-    "update",
-    "updates",
-    "windows"
-   ],
-   "at": "2026-09-14T21:00:38.909962+00:00"
-  },
-  {
-   "sig": [
-    "alyx",
-    "arm",
-    "comes",
-    "discuss",
-    "duality",
-    "engineers",
-    "frame",
-    "free",
-    "half",
-    "half-life",
-    "headset",
-    "launches",
-    "life",
-    "newest",
-    "pivots",
-    "pricing",
-    "ships",
-    "standalone",
-    "starting",
-    "starts",
-    "steam",
-    "steamos",
-    "valve"
-   ],
-   "at": "2026-09-14T23:56:00.338833+00:00"
-  },
-  {
-   "sig": [
-    "account",
-    "ads",
-    "attack",
-    "attacks",
-    "clickfix",
-    "compromised",
-    "delivery",
-    "hacked",
-    "hackers",
-    "hbo",
-    "hijack",
-    "malware",
-    "max",
-    "push",
-    "reddit",
-    "serve",
-    "via"
-   ],
-   "at": "2026-09-15T10:16:31.200623+00:00"
-  },
-  {
-   "sig": [
-    "1800s",
-    "birds",
-    "draws",
-    "e-ink",
-    "frame",
-    "hears",
-    "illustrations",
-    "show"
-   ],
-   "at": "2026-09-15T15:09:17.988849+00:00"
-  },
   {
    "sig": [
     "agents",
@@ -7661,65 +7592,80 @@
     "records"
    ],
    "at": "2026-10-27T17:55:56.836830+00:00"
+  },
+  {
+   "sig": [
+    "ecosystem",
+    "fast",
+    "parser",
+    "rust",
+    "secure",
+    "tar"
+   ],
+   "at": "2026-10-27T21:24:05.373201+00:00"
+  },
+  {
+   "sig": [
+    "embedthis",
+    "fucking",
+    "github.com",
+    "kiddign"
+   ],
+   "at": "2026-10-27T21:24:16.698707+00:00"
+  },
+  {
+   "sig": [
+    "anyone",
+    "discord",
+    "find",
+    "google",
+    "let",
+    "messages",
+    "public",
+    "server",
+    "soon",
+    "through"
+   ],
+   "at": "2026-10-27T21:24:23.085112+00:00"
+  },
+  {
+   "sig": [
+    "artificial",
+    "ban",
+    "intelligence",
+    "president",
+    "term"
+   ],
+   "at": "2026-10-27T21:24:29.950979+00:00"
+  },
+  {
+   "sig": [
+    "believe",
+    "culpability",
+    "even",
+    "first",
+    "fuck",
+    "fuck-all",
+    "here",
+    "infurating",
+    "making",
+    "newer",
+    "openai",
+    "quote",
+    "really",
+    "red",
+    "see",
+    "should",
+    "someone",
+    "story",
+    "version",
+    "whole",
+    "won"
+   ],
+   "at": "2026-10-27T21:24:36.132179+00:00"
   }
  ],
  "snapshots": {
-  "hn:50103164": [
-   339,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50102854": [
-   240,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "lobsters:kaerns": [
-   70,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "lobsters:uejdwj": [
-   60,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwqw2n4qs2e": [
-   543,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwpil2oyc2e": [
-   200,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwoyrb77i2e": [
-   83,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwow5xjok2e": [
-   244,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwln6xxao2v": [
-   1534,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwfn3k2ic2e": [
-   324,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwe4c4j4b22": [
-   394,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mxwpkant2r2i": [
-   204,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50109707": [
-   401,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50109375": [
-   293,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
   "hn:50108872": [
    237,
    "2026-10-15T22:33:30.541621+00:00"
@@ -10048,10 +9994,6 @@
    103,
    "2026-10-27T16:45:15.517896+00:00"
   ],
-  "hn:50259343": [
-   257,
-   "2026-10-27T17:53:45.562267+00:00"
-  ],
   "hn:50261819": [
    148,
    "2026-10-27T17:53:45.562267+00:00"
@@ -10063,6 +10005,66 @@
   "hn:50260526": [
    107,
    "2026-10-27T17:53:45.562267+00:00"
+  ],
+  "hn:50259343": [
+   283,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "hn:50264857": [
+   162,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "hn:50264853": [
+   137,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "hn:50264228": [
+   228,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "hn:50263854": [
+   289,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "hn:50262942": [
+   144,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "hn:50262668": [
+   144,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "hn:50262229": [
+   141,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "hn:50261647": [
+   188,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "hn:50261589": [
+   279,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "hn:50260960": [
+   69,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "hn:50260714": [
+   65,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "lobsters:q7arzy": [
+   37,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myuxh47zdk2z": [
+   653,
+   "2026-10-27T21:24:00.138957+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myuvcd54ds2n": [
+   32,
+   "2026-10-27T21:24:00.138957+00:00"
   ]
  }
 }
