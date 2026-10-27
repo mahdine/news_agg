@@ -1375,18 +1375,26 @@
   "https://www.theverge.com/?p=1019076",
   "https://9to5mac.com/?p=1076085",
   "https://www.neowin.net/deals/jbl-endurance-zone-open-ear-earbuds-hit-91-following-a-49-discount-on-amazon/",
-  "https://www.theverge.com/?p=1019604"
+  "https://www.theverge.com/?p=1019604",
+  "9vrvg7oWN8NC7kaZpoRBoM",
+  "https://www.langchain.com/blog/design-agent",
+  "https://www.theregister.com/a/5305690",
+  "https://www.engadget.com/2298428/apple-creator-studio-update-adds-motionvfx-to-final-cut-and-ai-to-everywhere/",
+  "6ace58d853a598f2a833966e",
+  "7dSUu2uvENKq9nNdvU9ZCC",
+  "TheNextWeb=5ad912e33bb1d9f760f8ece124e0c2d7",
+  "https://www.engadget.com/2296043/why-does-the-fcc-hate-minions-routers/"
  ],
  "posted": {
   "viral": 267,
-  "editorial": 295
+  "editorial": 300
  },
  "recent_labels": [
-  "Hacker News",
-  "The Verge",
-  "EFF",
-  "TechCrunch AI",
-  "The Verge"
+  "Tom's Hardware",
+  "The Register",
+  "Engadget",
+  "The Next Web",
+  "Engadget"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2754,108 +2762,44 @@
    "source": "The Verge",
    "score": 0.30377,
    "at": "2026-10-27T16:48:32.240083+00:00"
+  },
+  {
+   "title": "معرفی مدل‌های هوش مصنوعی اختصاصی Cadence برای طراحی تراشه",
+   "url": "https://www.tomshardware.com/tech-industry/semiconductors/cadence-reveals-maestro-fine-tuned-ai-models-built-to-run-specialized-chip-design-agents-with-early-access-coming-for-select-customers-in-q4-2026-claims-up-to-30-percent-higher-quality-results-and-up-to-5x-token-efficiency-over-a-general-purpose-ai-model",
+   "source": "Tom's Hardware",
+   "score": 0.53437,
+   "at": "2026-10-27T16:53:52.313769+00:00"
+  },
+  {
+   "title": "حمله سایبری به دانشگاه نیومکزیکو و اختلال در پذیرش بیماران",
+   "url": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+   "source": "The Register",
+   "score": 0.18055,
+   "at": "2026-10-27T16:54:20.567164+00:00"
+  },
+  {
+   "title": "به‌روزرسانی بزرگ نرم‌افزارهای Apple برای تدوین ویدیو و تولید محتوا",
+   "url": "https://www.engadget.com/2298428/apple-creator-studio-update-adds-motionvfx-to-final-cut-and-ai-to-everywhere/",
+   "source": "Engadget",
+   "score": 0.17079,
+   "at": "2026-10-27T16:54:34.357558+00:00"
+  },
+  {
+   "title": "همکاری اوراکل و Cerebras برای ارائه خدمات ابری هوش مصنوعی",
+   "url": "https://thenextweb.com/news/oracle-cerebras-ai-inference-cloud-2027",
+   "source": "The Next Web",
+   "score": 0.17021,
+   "at": "2026-10-27T16:55:16.318760+00:00"
+  },
+  {
+   "title": "محدودیت‌های FCC برای روترهای فانتزی شرکت Davolink",
+   "url": "https://www.engadget.com/2296043/why-does-the-fcc-hate-minions-routers/",
+   "source": "Engadget",
+   "score": 0.2303,
+   "at": "2026-10-27T16:55:28.262019+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "128gb",
-    "both",
-    "branch",
-    "coding",
-    "deepseek",
-    "dual",
-    "dwarfstar",
-    "english",
-    "flash",
-    "github",
-    "language",
-    "macbook",
-    "main",
-    "max",
-    "ogs8",
-    "pushed",
-    "session",
-    "setup",
-    "ssd",
-    "streamed",
-    "support",
-    "test",
-    "v4.1",
-    "video",
-    "watch",
-    "where",
-    "www.youtube.com",
-    "youtube"
-   ],
-   "at": "2026-09-12T13:03:39.474035+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "device",
-    "enough",
-    "flagships",
-    "google",
-    "included",
-    "ipad",
-    "iphone",
-    "launches",
-    "live",
-    "pixel",
-    "plus",
-    "preorders",
-    "pro",
-    "save",
-    "savings",
-    "stack",
-    "t-mobile",
-    "verizon",
-    "watch",
-    "ways",
-    "yep"
-   ],
-   "at": "2026-09-12T16:25:15.404087+00:00"
-  },
-  {
-   "sig": [
-    "allegations",
-    "responds",
-    "spying"
-   ],
-   "at": "2026-09-12T18:34:07.873236+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "campaign",
-    "face",
-    "gained",
-    "hacked",
-    "hugging",
-    "incident",
-    "linked",
-    "openai",
-    "rce",
-    "rubydoc",
-    "rubygems",
-    "servers",
-    "service",
-    "software"
-   ],
-   "at": "2026-09-12T21:32:15.231380+00:00"
-  },
-  {
-   "sig": [
-    "development",
-    "down",
-    "everyone",
-    "except",
-    "should",
-    "slow"
-   ],
-   "at": "2026-09-13T10:27:01.620855+00:00"
-  },
   {
    "sig": [
     "back",
@@ -7602,6 +7546,76 @@
     "water"
    ],
    "at": "2026-10-27T16:48:32.240083+00:00"
+  },
+  {
+   "sig": [
+    "access",
+    "agent",
+    "agents",
+    "built",
+    "cadence",
+    "chip",
+    "coming",
+    "customers",
+    "design",
+    "early",
+    "fine-tuned",
+    "maestro",
+    "models",
+    "reveals",
+    "run",
+    "select",
+    "specialized"
+   ],
+   "at": "2026-10-27T16:53:52.313769+00:00"
+  },
+  {
+   "sig": [
+    "canceled",
+    "center",
+    "classes",
+    "cyberattack",
+    "day",
+    "health",
+    "mexico",
+    "sciences",
+    "university"
+   ],
+   "at": "2026-10-27T16:54:20.567164+00:00"
+  },
+  {
+   "sig": [
+    "adds",
+    "apple",
+    "creator",
+    "cut",
+    "everywhere",
+    "final",
+    "motionvfx",
+    "studio",
+    "update"
+   ],
+   "at": "2026-10-27T16:54:34.357558+00:00"
+  },
+  {
+   "sig": [
+    "cerebras",
+    "cloud",
+    "computers",
+    "offer",
+    "oracle"
+   ],
+   "at": "2026-10-27T16:55:16.318760+00:00"
+  },
+  {
+   "sig": [
+    "does",
+    "fcc",
+    "hate",
+    "minions",
+    "routers"
+   ],
+   "at": "2026-10-27T16:55:28.262019+00:00"
   }
  ],
  "snapshots": {
@@ -9998,8 +10012,8 @@
    "2026-10-27T15:53:40.649877+00:00"
   ],
   "hn:50259343": [
-   232,
-   "2026-10-27T16:45:15.517896+00:00"
+   238,
+   "2026-10-27T16:53:47.179304+00:00"
   ],
   "hn:50260814": [
    103,
