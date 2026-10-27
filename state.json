@@ -1291,18 +1291,24 @@
   "CeFu3ZZEAAAN4ZxTKCHUtF",
   "11a33438000ba28c415a0409fcad08b2",
   "b96f22005b58b562d955b5c129fd81d3",
-  "https://www.neowin.net/news/instagram-now-has-an-app-for-the-apple-tv/"
+  "https://www.neowin.net/news/instagram-now-has-an-app-for-the-apple-tv/",
+  "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+  "3218288",
+  "https://science.slashdot.org/story/26/10/27/0232248/industry-executives-knew-for-decades-that-microplastics-were-infiltrating-the-human-body?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.securityweek.com/?p=50310",
+  "YqQSMieYy8VUU2nsUCk8Yh",
+  "https://www.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
  ],
  "posted": {
   "viral": 256,
-  "editorial": 259
+  "editorial": 264
  },
  "recent_labels": [
-  "Hacker News",
-  "The Register",
+  "The Hacker News",
+  "vc.ru",
+  "SecurityWeek",
   "TechRadar",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail"
+  "InfoQ"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2341,102 +2347,44 @@
    "source": "Hi-Tech Mail",
    "score": 0.18297,
    "at": "2026-10-27T06:54:41.783776+00:00"
+  },
+  {
+   "title": "نفوذ گسترده به دوربین‌های امنیتی Dahua در اوکراین",
+   "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+   "source": "The Hacker News",
+   "score": 0.13541,
+   "at": "2026-10-27T07:53:43.009832+00:00"
+  },
+  {
+   "title": "تغییر استراتژی اینستاگرام با تست ویدیوهای ۹۰ دقیقه‌ای و قابلیت سریال",
+   "url": "https://vc.ru/social/3218288-instagram-testiruet-zagruzku-dlinnyh-video-i-serialy?from=rss",
+   "source": "vc.ru",
+   "score": 0.09949,
+   "at": "2026-10-27T07:53:50.868496+00:00"
+  },
+  {
+   "title": "راه‌اندازی پایگاه داده رایگان برای شناسایی آسیب‌پذیری‌های سیستم‌های دریایی و بندری",
+   "url": "https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/",
+   "source": "SecurityWeek",
+   "score": 0.17963,
+   "at": "2026-10-27T07:54:16.895663+00:00"
+  },
+  {
+   "title": "بررسی جامع بسته امنیتی و محافظت از هویت IDX Complete",
+   "url": "https://www.techradar.com/pro/idx-complete-identity-theft-protection-review",
+   "source": "TechRadar",
+   "score": 0.07456,
+   "at": "2026-10-27T07:54:24.563448+00:00"
+  },
+  {
+   "title": "معرفی tsrs، کامپایلر جدید TypeScript با عملکردی سریع‌تر و بهینه‌تر",
+   "url": "https://www.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.21319,
+   "at": "2026-10-27T07:54:31.781619+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "android",
-    "feature",
-    "find",
-    "google",
-    "help",
-    "hub",
-    "important",
-    "locate",
-    "put",
-    "remember",
-    "soon",
-    "things",
-    "tracker",
-    "where",
-    "without"
-   ],
-   "at": "2026-09-01T18:41:58.391215+00:00"
-  },
-  {
-   "sig": [
-    "ai-powered",
-    "animals",
-    "artist",
-    "bicycles",
-    "cameras",
-    "camouflage",
-    "designed",
-    "detect",
-    "digital",
-    "field",
-    "jasonkoebler.bsky.social",
-    "objects",
-    "other",
-    "people",
-    "proliferation",
-    "reports",
-    "response",
-    "shirt",
-    "simon",
-    "surveillance",
-    "vehicles",
-    "view",
-    "weckert"
-   ],
-   "at": "2026-09-01T21:53:51.671378+00:00"
-  },
-  {
-   "sig": [
-    "acer",
-    "asus",
-    "design",
-    "desktop",
-    "future",
-    "msi",
-    "nvidia",
-    "rtx",
-    "sff",
-    "shows",
-    "spark"
-   ],
-   "at": "2026-09-02T09:48:14.099302+00:00"
-  },
-  {
-   "sig": [
-    "agencies",
-    "any",
-    "apparent",
-    "asked",
-    "axon",
-    "batten",
-    "camera",
-    "cop",
-    "deleted",
-    "down",
-    "exactly",
-    "flock",
-    "hatches",
-    "help",
-    "like",
-    "look",
-    "optics",
-    "outpost",
-    "redesign",
-    "talk",
-    "there",
-    "think",
-    "webinar",
-    "while"
-   ],
-   "at": "2026-09-02T14:36:50.789653+00:00"
-  },
   {
    "sig": [
     "campaign",
@@ -7504,6 +7452,59 @@
     "vpn"
    ],
    "at": "2026-10-27T06:54:41.783776+00:00"
+  },
+  {
+   "sig": [
+    "access",
+    "attackers",
+    "auth",
+    "cameras",
+    "dahua",
+    "hijack",
+    "p2p",
+    "ukraine",
+    "using",
+    "weaknesses"
+   ],
+   "at": "2026-10-27T07:53:43.009832+00:00"
+  },
+  {
+   "sig": [
+    "coalition",
+    "database",
+    "free",
+    "launches",
+    "maritime",
+    "port",
+    "ship",
+    "systems",
+    "vulnerability"
+   ],
+   "at": "2026-10-27T07:54:16.895663+00:00"
+  },
+  {
+   "sig": [
+    "complete",
+    "identity",
+    "idx",
+    "protection",
+    "review",
+    "theft"
+   ],
+   "at": "2026-10-27T07:54:24.563448+00:00"
+  },
+  {
+   "sig": [
+    "ai-generated",
+    "cloudflare",
+    "introduce",
+    "port",
+    "rust",
+    "tsrs",
+    "typescript",
+    "voidzero"
+   ],
+   "at": "2026-10-27T07:54:31.781619+00:00"
   }
  ],
  "snapshots": {
