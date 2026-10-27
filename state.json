@@ -1312,18 +1312,26 @@
   "https://www.theregister.com/a/5305385",
   "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
   "6adb76b15c99ae9c76783cab",
-  "d3N9WY5TyUgK6XSsfuWSaY"
+  "d3N9WY5TyUgK6XSsfuWSaY",
+  "38b0a817cb74f8c6c564175c37bf0763",
+  "https://www.theverge.com/?p=1019245",
+  "https://www.securityweek.com/?p=50316",
+  "https://www.phoronix.com/news/NTFS-Linux-7.4-Improvements",
+  "https://www.phoronix.com/news/Beeper-In-Kernel-Parsing-eBPF",
+  "545cec807d01d49ab009da74666a3a01",
+  "https://www.androidpolice.com/fitbit-edge-best-charge-i-could-ever-buy/",
+  "https://www.neowin.net/news/you-will-soon-be-able-to-ask-excel-to-fetch-clean-and-load-data-for-you-using-copilot/"
  ],
  "posted": {
   "viral": 257,
-  "editorial": 271
+  "editorial": 276
  },
  "recent_labels": [
-  "The Next Web",
-  "Wired",
-  "The Register",
-  "The Hacker News",
-  "Tom's Hardware"
+  "Hi-Tech Mail",
+  "SecurityWeek",
+  "Phoronix",
+  "Phoronix",
+  "Neowin"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2453,120 +2461,44 @@
    "source": "Tom's Hardware",
    "score": 0.23037,
    "at": "2026-10-27T09:54:16.731430+00:00"
+  },
+  {
+   "title": "عرضه‌ی کنسول دستی Predator Atlas 8 با قیمت ۱۳۰۰ دلار",
+   "url": "https://hi-tech.mail.ru/news/159068-acer-predator-atlas-8-otsenili-v-ssha-v-1300-dollarov/",
+   "source": "Hi-Tech Mail",
+   "score": 0.43244,
+   "at": "2026-10-27T10:42:35.529699+00:00"
+  },
+  {
+   "title": "هشدار درباره تداوم آسیب‌پذیری‌های روز صفر در Citrix NetScaler",
+   "url": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
+   "source": "SecurityWeek",
+   "score": 0.17788,
+   "at": "2026-10-27T10:42:50.051470+00:00"
+  },
+  {
+   "title": "پشتیبانی از Alternate Data Streams در درایور جدید NTFS لینوکس",
+   "url": "https://www.phoronix.com/news/NTFS-Linux-7.4-Improvements",
+   "source": "Phoronix",
+   "score": 0.18525,
+   "at": "2026-10-27T10:42:55.864604+00:00"
+  },
+  {
+   "title": "افزایش چشمگیر سرعت سرورهای وب با استفاده از eBPF",
+   "url": "https://www.phoronix.com/news/Beeper-In-Kernel-Parsing-eBPF",
+   "source": "Phoronix",
+   "score": 0.22329,
+   "at": "2026-10-27T10:43:01.573511+00:00"
+  },
+  {
+   "title": "قابلیت جدید Copilot برای خودکارسازی آماده‌سازی داده‌ها در Excel",
+   "url": "https://www.neowin.net/news/you-will-soon-be-able-to-ask-excel-to-fetch-clean-and-load-data-for-you-using-copilot/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.19279,
+   "at": "2026-10-27T10:43:21.059933+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "announces",
-    "built",
-    "clutter-free",
-    "defender",
-    "desktop",
-    "developers",
-    "disable",
-    "distraction-free",
-    "enjoy",
-    "entice",
-    "experience",
-    "fake",
-    "installers",
-    "kb5120998",
-    "london",
-    "meant",
-    "microsoft",
-    "project",
-    "resets",
-    "settings",
-    "software",
-    "unveils",
-    "update",
-    "weaken",
-    "windows",
-    "zenith"
-   ],
-   "at": "2026-09-04T14:28:21.877938+00:00"
-  },
-  {
-   "sig": [
-    "able",
-    "ahead",
-    "app",
-    "brings",
-    "capping",
-    "caps",
-    "charging",
-    "cloud",
-    "coming",
-    "extra",
-    "gaming",
-    "getting",
-    "hour",
-    "hours",
-    "limits",
-    "microsoft",
-    "monthly",
-    "pay",
-    "pay-as-you-go",
-    "rolls",
-    "smart",
-    "streaming",
-    "switches",
-    "tcl",
-    "time",
-    "tvs",
-    "xbox"
-   ],
-   "at": "2026-09-04T17:43:27.201755+00:00"
-  },
-  {
-   "sig": [
-    "adult",
-    "doe",
-    "executive",
-    "film",
-    "john",
-    "meta",
-    "pirate",
-    "producer",
-    "prolific",
-    "torrent",
-    "unmasks"
-   ],
-   "at": "2026-09-04T20:55:13.199048+00:00"
-  },
-  {
-   "sig": [
-    "actively",
-    "chromium",
-    "exploited",
-    "rce",
-    "sandbox",
-    "versions"
-   ],
-   "at": "2026-09-04T23:09:16.352623+00:00"
-  },
-  {
-   "sig": [
-    "aligned",
-    "astra",
-    "blocks",
-    "exploit",
-    "exploitbench",
-    "gpt-6",
-    "intelligent",
-    "model",
-    "openai",
-    "poc",
-    "requests",
-    "ring",
-    "scores",
-    "throws",
-    "top-tier",
-    "world"
-   ],
-   "at": "2026-09-05T09:12:43.198002+00:00"
-  },
   {
    "sig": [
     "apple",
@@ -7545,6 +7477,72 @@
     "tune"
    ],
    "at": "2026-10-27T09:54:16.731430+00:00"
+  },
+  {
+   "sig": [
+    "acer",
+    "atlas",
+    "bringing",
+    "first",
+    "gaming",
+    "handheld",
+    "predator",
+    "time"
+   ],
+   "at": "2026-10-27T10:42:35.529699+00:00"
+  },
+  {
+   "sig": [
+    "fine",
+    "netscaler",
+    "normal",
+    "tell",
+    "zero-days"
+   ],
+   "at": "2026-10-27T10:42:50.051470+00:00"
+  },
+  {
+   "sig": [
+    "ads",
+    "alternate",
+    "data",
+    "driver",
+    "linux",
+    "modern",
+    "ntfs",
+    "streams",
+    "supports"
+   ],
+   "at": "2026-10-27T10:42:55.864604+00:00"
+  },
+  {
+   "sig": [
+    "4.5x",
+    "accelerating",
+    "deliver",
+    "ebpf",
+    "http",
+    "in-kernel",
+    "servers",
+    "throughput",
+    "web"
+   ],
+   "at": "2026-10-27T10:43:01.573511+00:00"
+  },
+  {
+   "sig": [
+    "able",
+    "ask",
+    "clean",
+    "copilot",
+    "data",
+    "excel",
+    "fetch",
+    "load",
+    "soon",
+    "using"
+   ],
+   "at": "2026-10-27T10:43:21.059933+00:00"
   }
  ],
  "snapshots": {
