@@ -1335,18 +1335,26 @@
   "https://www.infoq.com/news/2026/10/anthropic-source-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "https://9to5mac.com/?p=1075960",
   "fffa0caea6c10c13da533bee0cbd834d",
-  "ee1ba219270eb6a18cf68bb5c47ed3b2"
+  "ee1ba219270eb6a18cf68bb5c47ed3b2",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mytn3azq3e2o",
+  "hn:50257326",
+  "hn:50257548",
+  "BMSsZkc2oN5bKYCo8RinLL",
+  "https://www.theverge.com/?p=1019300",
+  "04da000423ce3b44c9b6ea0ba5b6a464",
+  "416ff9df5e42bc15da1c6f9c9bd951bf",
+  "7ebfd30329a6d68628565a8b859f5740"
  ],
  "posted": {
-  "viral": 259,
-  "editorial": 283
+  "viral": 262,
+  "editorial": 285
  },
  "recent_labels": [
-  "The Next Web",
-  "Lobsters",
+  "antirez",
   "Hacker News",
-  "InfoQ",
-  "9to5Mac"
+  "Hacker News",
+  "Tom's Hardware",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2574,94 +2582,44 @@
    "source": "9to5Mac",
    "score": 0.19458,
    "at": "2026-10-27T11:54:06.434237+00:00"
+  },
+  {
+   "title": "تقدیر از رویکرد OpenAI در تعامل با جامعه علمی",
+   "url": "https://bsky.app/profile/antirez.bsky.social/post/3mytn3azq3e2o",
+   "source": "antirez",
+   "score": 0.0632,
+   "at": "2026-10-27T12:53:49.930398+00:00"
+  },
+  {
+   "title": "تلاش ویکی‌پدیا برای پاکسازی مقالات تولید شده توسط هوش مصنوعی",
+   "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+   "source": "spectrum.ieee.org",
+   "score": 0.19706,
+   "at": "2026-10-27T12:54:14.018627+00:00"
+  },
+  {
+   "title": "افسانه‌ی کیفیت نرم‌افزارهای قدیمی و واقعیت‌های فنی دهه‌های گذشته",
+   "url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+   "source": "bitlog.com",
+   "score": 0.30053,
+   "at": "2026-10-27T12:54:26.135881+00:00"
+  },
+  {
+   "title": "انتقاد از Roblox به دلیل جمع‌آوری غیرمجاز داده‌های سه‌بعدی برای آموزش هوش مصنوعی",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/open3dlab-accuses-roblox-of-downloading-145gb-of-3d-assets-for-ai-training-purposes-automated-crawler-ignored-site-rules-to-grab-over-1-000-files-including-adult-content-during-scraping-spree",
+   "source": "Tom's Hardware",
+   "score": 0.19327,
+   "at": "2026-10-27T12:54:34.736783+00:00"
+  },
+  {
+   "title": "رقابت برترین اسپیکرهای هوشمند سال ۲۰۲۶ در نظرسنجی Hi-Tech Mail",
+   "url": "https://hi-tech.mail.ru/news/159125-best-gadget-2026-luchshaya-umnaya-kolonka/",
+   "source": "Hi-Tech Mail",
+   "score": 0.1999,
+   "at": "2026-10-27T12:55:43.923229+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "abroad",
-    "data",
-    "discussion",
-    "does",
-    "government",
-    "home",
-    "intercept",
-    "joining",
-    "kill",
-    "live",
-    "media",
-    "private",
-    "surveil",
-    "thursday",
-    "u.s",
-    "weaponize"
-   ],
-   "at": "2026-09-07T16:36:12.250311+00:00"
-  },
-  {
-   "sig": [
-    "chatbot",
-    "dollop",
-    "fiction",
-    "idols",
-    "interactive",
-    "large",
-    "like",
-    "marketing",
-    "seems",
-    "something",
-    "stans",
-    "there",
-    "thought",
-    "upset",
-    "usual",
-    "water",
-    "week"
-   ],
-   "at": "2026-09-07T20:42:01.890066+00:00"
-  },
-  {
-   "sig": [
-    "answer",
-    "asked",
-    "blowhard",
-    "don",
-    "guess",
-    "here",
-    "know",
-    "myself",
-    "took",
-    "wild"
-   ],
-   "at": "2026-09-07T23:38:55.044939+00:00"
-  },
-  {
-   "sig": [
-    "7.0",
-    "agentic",
-    "arm",
-    "compute",
-    "cores",
-    "css",
-    "debuts",
-    "die",
-    "introduces",
-    "lpddr6",
-    "mobile",
-    "n3p",
-    "neoverse",
-    "next-gen",
-    "packs",
-    "pcie",
-    "per",
-    "platform",
-    "ranger",
-    "semi-custom",
-    "subsystem",
-    "tsmc"
-   ],
-   "at": "2026-09-08T09:56:44.003549+00:00"
-  },
   {
    "sig": [
     "copperhead",
@@ -7577,21 +7535,66 @@
     "vintage"
    ],
    "at": "2026-10-27T11:54:06.434237+00:00"
+  },
+  {
+   "sig": [
+    "announcing",
+    "center",
+    "context",
+    "credits",
+    "discoveries",
+    "due",
+    "field",
+    "given",
+    "kudos",
+    "long",
+    "openai",
+    "process",
+    "putting",
+    "releases",
+    "scientific",
+    "scientists",
+    "time",
+    "understanding",
+    "where",
+    "worked"
+   ],
+   "at": "2026-10-27T12:53:49.930398+00:00"
+  },
+  {
+   "sig": [
+    "ai-generated",
+    "cleanup",
+    "content",
+    "wikipedia"
+   ],
+   "at": "2026-10-27T12:54:14.018627+00:00"
+  },
+  {
+   "sig": [
+    "getting",
+    "horrible",
+    "may",
+    "software",
+    "worse"
+   ],
+   "at": "2026-10-27T12:54:26.135881+00:00"
+  },
+  {
+   "sig": [
+    "145gb",
+    "accuses",
+    "assets",
+    "downloading",
+    "open3dlab",
+    "purposes",
+    "roblox",
+    "training"
+   ],
+   "at": "2026-10-27T12:54:34.736783+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxw6aa24ua2j": [
-   1163,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mxw5izz2gs2g": [
-   114,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxwa4yrva2uu": [
-   118,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxw7y3wmzc2t": [
    168,
    "2026-10-15T22:33:30.541621+00:00"
@@ -9979,6 +9982,18 @@
   "lobsters:cajuq6": [
    26,
    "2026-10-27T11:53:39.445445+00:00"
+  ],
+  "hn:50257548": [
+   232,
+   "2026-10-27T12:53:43.248948+00:00"
+  ],
+  "hn:50257326": [
+   116,
+   "2026-10-27T12:53:43.248948+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mytn3azq3e2o": [
+   17,
+   "2026-10-27T12:53:43.248948+00:00"
   ]
  }
 }
