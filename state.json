@@ -1357,18 +1357,28 @@
   "https://9to5mac.com/?p=1075981",
   "https://9to5mac.com/?p=1075969",
   "6adb71e137abe86dfce58bcd",
-  "https://www.securityweek.com/?p=50331"
+  "https://www.securityweek.com/?p=50331",
+  "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+  "urn:latent-space:post:post_54774b7d-42cc-4a8a-bb27-dee05866ddf0",
+  "6adb8d8d2fb53f1e44e3d5cc",
+  "hn:50259604",
+  "hn:50254935",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myudtn3yfe2l",
+  "hn:50259050",
+  "hn:50259406",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myufqgkrbc2h",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myugdjxwhp2h"
  ],
  "posted": {
-  "viral": 263,
-  "editorial": 289
+  "viral": 266,
+  "editorial": 291
  },
  "recent_labels": [
-  "Hacker News",
-  "Engadget",
-  "Tom's Hardware",
+  "The Hacker News",
   "Wired",
-  "SecurityWeek"
+  "Hacker News",
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2666,107 +2676,44 @@
    "source": "SecurityWeek",
    "score": 0.21737,
    "at": "2026-10-27T13:54:20.693297+00:00"
+  },
+  {
+   "title": "تلاش فایل مخرب برای فریب دادن ایجنت‌های کدنویسی هوش مصنوعی",
+   "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+   "source": "The Hacker News",
+   "score": 0.26779,
+   "at": "2026-10-27T15:54:06.193840+00:00"
+  },
+  {
+   "title": "پنهان‌کاری دولت آمریکا درباره حکم محرمانه نظارت دیجیتال فیسا",
+   "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+   "source": "Wired",
+   "score": 0.21508,
+   "at": "2026-10-27T15:55:10.406932+00:00"
+  },
+  {
+   "title": "جاسوسی از کاربران Starlink توسط یک شرکت امنیتی اسرائیلی",
+   "url": "https://www.reuters.com/business/media-telecom/alleged-israeli-spy-company-heavily-targeted-starlink-users-sources-say-2026-10-27/",
+   "source": "reuters.com",
+   "score": 0.1469,
+   "at": "2026-10-27T15:56:02.730528+00:00"
+  },
+  {
+   "title": "استفاده Anthropic از بازخورد کاربران برای آموزش مدل‌های هوش مصنوعی",
+   "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+   "source": "privacy.claude.com",
+   "score": 0.21295,
+   "at": "2026-10-27T15:56:29.332063+00:00"
+  },
+  {
+   "title": "مدیرعامل شرکت نظارتی Flock اعتراضات مردمی را ساختگی خواند",
+   "url": "https://www.404media.co/its-not-the-bots-flock/",
+   "source": "404media.co",
+   "score": 0.35988,
+   "at": "2026-10-27T15:57:13.468420+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "616.92",
-    "driver",
-    "first",
-    "game",
-    "geforce",
-    "lands",
-    "light",
-    "nvidia",
-    "path",
-    "ready",
-    "support",
-    "tracing",
-    "update",
-    "wardogs",
-    "whql"
-   ],
-   "at": "2026-09-09T18:46:14.914302+00:00"
-  },
-  {
-   "sig": [
-    "anthropic",
-    "believes",
-    "chance",
-    "companies",
-    "could",
-    "departing",
-    "employee",
-    "end",
-    "extinction",
-    "gambling",
-    "human",
-    "humans",
-    "kill",
-    "lives",
-    "next",
-    "quits",
-    "race",
-    "researcher",
-    "resigns",
-    "safety",
-    "self-improving",
-    "warns",
-    "years"
-   ],
-   "at": "2026-09-09T21:48:30.236242+00:00"
-  },
-  {
-   "sig": [
-    "capable",
-    "mathematicians",
-    "openai",
-    "put",
-    "understanding"
-   ],
-   "at": "2026-09-10T09:56:07.434955+00:00"
-  },
-  {
-   "sig": [
-    "bluemoon",
-    "caught",
-    "chrome",
-    "exploit",
-    "exploited",
-    "flaws",
-    "four",
-    "groups",
-    "kit",
-    "same",
-    "spy",
-    "using",
-    "week",
-    "windows",
-    "within",
-    "zero-day"
-   ],
-   "at": "2026-09-10T14:33:35.580018+00:00"
-  },
-  {
-   "sig": [
-    "acknowledgment",
-    "cults",
-    "delusions",
-    "help",
-    "historians",
-    "inside",
-    "interviews",
-    "living",
-    "media",
-    "members",
-    "own",
-    "platforms",
-    "precedent",
-    "zero"
-   ],
-   "at": "2026-09-10T18:36:45.618369+00:00"
-  },
   {
    "sig": [
     "16.0.4",
@@ -7568,41 +7515,71 @@
     "vendor"
    ],
    "at": "2026-10-27T13:54:20.693297+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "coding",
+    "downloads",
+    "file",
+    "folder",
+    "himalayas",
+    "installing",
+    "malicious",
+    "malware",
+    "offline",
+    "trick",
+    "tries"
+   ],
+   "at": "2026-10-27T15:54:06.193840+00:00"
+  },
+  {
+   "sig": [
+    "americans",
+    "court",
+    "government",
+    "hiding",
+    "ruling",
+    "secret",
+    "spies"
+   ],
+   "at": "2026-10-27T15:55:10.406932+00:00"
+  },
+  {
+   "sig": [
+    "alleged",
+    "company",
+    "israeli",
+    "spy",
+    "starlink",
+    "targeted",
+    "users"
+   ],
+   "at": "2026-10-27T15:56:02.730528+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "chat",
+    "data",
+    "feedback",
+    "gives",
+    "giving"
+   ],
+   "at": "2026-10-27T15:56:29.332063+00:00"
+  },
+  {
+   "sig": [
+    "catty",
+    "crackgate",
+    "newsletter",
+    "patties",
+    "today"
+   ],
+   "at": "2026-10-27T15:57:13.468420+00:00"
   }
  ],
  "snapshots": {
-  "hn:50106620": [
-   73,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50105900": [
-   219,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50105777": [
-   169,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50105648": [
-   365,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50105647": [
-   727,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50105635": [
-   759,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50105467": [
-   102,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50105344": [
-   464,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
   "hn:50104726": [
    366,
    "2026-10-15T22:33:30.541621+00:00"
@@ -9970,6 +9947,38 @@
   "hn:50257325": [
    578,
    "2026-10-27T13:53:41.711765+00:00"
+  ],
+  "hn:50259604": [
+   289,
+   "2026-10-27T15:53:40.649877+00:00"
+  ],
+  "hn:50259406": [
+   200,
+   "2026-10-27T15:53:40.649877+00:00"
+  ],
+  "hn:50259343": [
+   189,
+   "2026-10-27T15:53:40.649877+00:00"
+  ],
+  "hn:50259050": [
+   105,
+   "2026-10-27T15:53:40.649877+00:00"
+  ],
+  "hn:50254935": [
+   176,
+   "2026-10-27T15:53:40.649877+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myugdjxwhp2h": [
+   71,
+   "2026-10-27T15:53:40.649877+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myufqgkrbc2h": [
+   400,
+   "2026-10-27T15:53:40.649877+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myudtn3yfe2l": [
+   119,
+   "2026-10-27T15:53:40.649877+00:00"
   ]
  }
 }
