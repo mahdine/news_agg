@@ -1383,18 +1383,28 @@
   "6ace58d853a598f2a833966e",
   "7dSUu2uvENKq9nNdvU9ZCC",
   "TheNextWeb=5ad912e33bb1d9f760f8ece124e0c2d7",
-  "https://www.engadget.com/2296043/why-does-the-fcc-hate-minions-routers/"
+  "https://www.engadget.com/2296043/why-does-the-fcc-hate-minions-routers/",
+  "hn:50260526",
+  "hn:50261784",
+  "hn:50261819",
+  "1391952",
+  "K2xTyK4mWck6H3w3pUuQ5F",
+  "https://www.theverge.com/?p=1017064",
+  "xVxt3Yw2qzZRJGx4MGsvtV",
+  "TheNextWeb=2cdd7d72d7191f278d55cb992890b1b2",
+  "https://www.androidpolice.com/chrome-group-inactive-tabs-hoarding/",
+  "112484 at https://www.eff.org"
  ],
  "posted": {
-  "viral": 267,
-  "editorial": 300
+  "viral": 268,
+  "editorial": 304
  },
  "recent_labels": [
+  "Hacker News",
+  "ZDNet",
   "Tom's Hardware",
-  "The Register",
-  "Engadget",
-  "The Next Web",
-  "Engadget"
+  "Android Police",
+  "EFF"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2797,80 +2807,44 @@
    "source": "Engadget",
    "score": 0.2303,
    "at": "2026-10-27T16:55:28.262019+00:00"
+  },
+  {
+   "title": "استفاده پلیس از هوش مصنوعی برای شناسایی رانندگان مشکوک",
+   "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+   "source": "gizmodo.com",
+   "score": 0.55592,
+   "at": "2026-10-27T17:54:01.358067+00:00"
+  },
+  {
+   "title": "ابزار داخلی تست سرعت اینترنت به ویندوز ۱۱ می‌آید",
+   "url": "https://www.zdnet.com/tech/microsoft-is-finally-adding-an-integrated-network-speed-test-tool-to-windows-how-to-try-it/",
+   "source": "ZDNet",
+   "score": 0.26603,
+   "at": "2026-10-27T17:54:36.356741+00:00"
+  },
+  {
+   "title": "تولید لپ‌تاپ‌های نظامی با زنجیره تأمین داخلی در آمریکا",
+   "url": "https://www.tomshardware.com/laptops/military-drone-outfit-anduril-partners-with-qualcomm-to-build-laptops-on-us-soil-with-new-bluechip-venture-defense-contractor-targets-a-100-percent-domestic-supply-chain-in-the-future",
+   "source": "Tom's Hardware",
+   "score": 0.26041,
+   "at": "2026-10-27T17:55:37.860303+00:00"
+  },
+  {
+   "title": "مدیریت تب‌های انباشته در مرورگر کروم برای بهبود عملکرد گوشی",
+   "url": "https://www.androidpolice.com/chrome-group-inactive-tabs-hoarding/",
+   "source": "Android Police",
+   "score": 0.19793,
+   "at": "2026-10-27T17:55:45.730601+00:00"
+  },
+  {
+   "title": "اسناد جدید EFF از مشکلات جدی در سیستم هوش مصنوعی Medicare پرده برداشت",
+   "url": "https://www.eff.org/deeplinks/2026/10/new-records-obtained-eff-expose-more-problems-medicares-ai-experiment",
+   "source": "EFF",
+   "score": 0.30377,
+   "at": "2026-10-27T17:55:56.836830+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "back",
-    "brings",
-    "circular",
-    "dismisses",
-    "every",
-    "financing",
-    "invests",
-    "nvidia"
-   ],
-   "at": "2026-09-13T14:33:29.776316+00:00"
-  },
-  {
-   "sig": [
-    "apart",
-    "bad",
-    "batch",
-    "bugs",
-    "especially",
-    "found",
-    "good",
-    "issues",
-    "large",
-    "llms",
-    "scan",
-    "telling",
-    "those",
-    "triaged",
-    "vulnerabilities",
-    "zkao.io"
-   ],
-   "at": "2026-09-13T18:17:23.097820+00:00"
-  },
-  {
-   "sig": [
-    "altman",
-    "file",
-    "going",
-    "ill-advised",
-    "ipo",
-    "openai",
-    "public",
-    "sam",
-    "won",
-    "would",
-    "year"
-   ],
-   "at": "2026-09-13T21:00:31.086746+00:00"
-  },
-  {
-   "sig": [
-    "370-year-old",
-    "5.1",
-    "cipher",
-    "cyphral",
-    "distich",
-    "fable",
-    "solves"
-   ],
-   "at": "2026-09-13T23:17:58.493276+00:00"
-  },
-  {
-   "sig": [
-    "anecdotally",
-    "dislike",
-    "programmers",
-    "reduce"
-   ],
-   "at": "2026-09-14T10:52:06.635456+00:00"
-  },
   {
    "sig": [
     "accounts",
@@ -7616,21 +7590,80 @@
     "routers"
    ],
    "at": "2026-10-27T16:55:28.262019+00:00"
+  },
+  {
+   "sig": [
+    "behavior",
+    "drivers",
+    "police",
+    "pull",
+    "suspicious",
+    "using"
+   ],
+   "at": "2026-10-27T17:54:01.358067+00:00"
+  },
+  {
+   "sig": [
+    "bing",
+    "built-in",
+    "divorce",
+    "finally",
+    "getting",
+    "internet",
+    "speed",
+    "test",
+    "thankfully",
+    "tool",
+    "try",
+    "windows"
+   ],
+   "at": "2026-10-27T17:54:36.356741+00:00"
+  },
+  {
+   "sig": [
+    "anduril",
+    "bluechip",
+    "build",
+    "drone",
+    "government",
+    "laptops",
+    "military",
+    "outfit",
+    "partners",
+    "qualcomm",
+    "soil",
+    "venture"
+   ],
+   "at": "2026-10-27T17:55:37.860303+00:00"
+  },
+  {
+   "sig": [
+    "200-tab",
+    "android",
+    "chrome",
+    "cured",
+    "feature",
+    "habit",
+    "hoarding",
+    "underrated",
+    "using"
+   ],
+   "at": "2026-10-27T17:55:45.730601+00:00"
+  },
+  {
+   "sig": [
+    "eff",
+    "experiment",
+    "expose",
+    "medicare",
+    "obtained",
+    "problems",
+    "records"
+   ],
+   "at": "2026-10-27T17:55:56.836830+00:00"
   }
  ],
  "snapshots": {
-  "hn:50104654": [
-   559,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50104310": [
-   104,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50104299": [
-   227,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
   "hn:50103164": [
    339,
    "2026-10-15T22:33:30.541621+00:00"
@@ -10011,13 +10044,25 @@
    119,
    "2026-10-27T15:53:40.649877+00:00"
   ],
-  "hn:50259343": [
-   238,
-   "2026-10-27T16:53:47.179304+00:00"
-  ],
   "hn:50260814": [
    103,
    "2026-10-27T16:45:15.517896+00:00"
+  ],
+  "hn:50259343": [
+   257,
+   "2026-10-27T17:53:45.562267+00:00"
+  ],
+  "hn:50261819": [
+   148,
+   "2026-10-27T17:53:45.562267+00:00"
+  ],
+  "hn:50261784": [
+   189,
+   "2026-10-27T17:53:45.562267+00:00"
+  ],
+  "hn:50260526": [
+   107,
+   "2026-10-27T17:53:45.562267+00:00"
   ]
  }
 }
