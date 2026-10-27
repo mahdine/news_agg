@@ -1343,18 +1343,32 @@
   "https://www.theverge.com/?p=1019300",
   "04da000423ce3b44c9b6ea0ba5b6a464",
   "416ff9df5e42bc15da1c6f9c9bd951bf",
-  "7ebfd30329a6d68628565a8b859f5740"
+  "7ebfd30329a6d68628565a8b859f5740",
+  "hn:50257325",
+  "https://www.engadget.com/2298132/apples-imac-with-m6-arrives-promising-a-huge-leap-in-ai-performance/",
+  "https://www.theverge.com/?p=1018467",
+  "5XKEiVJTRUzvcH8KXVhgvA",
+  "hn:50258521",
+  "f91a672ecc081df84ba81b052721d9b9",
+  "https://www.theverge.com/?p=1017664",
+  "https://www.engadget.com/2298120/apple-has-updated-the-14-inch-macbook-pro-with-an-m6-chip/",
+  "https://9to5mac.com/?p=1076004",
+  "https://9to5mac.com/?p=1076013",
+  "https://9to5mac.com/?p=1075981",
+  "https://9to5mac.com/?p=1075969",
+  "6adb71e137abe86dfce58bcd",
+  "https://www.securityweek.com/?p=50331"
  ],
  "posted": {
-  "viral": 262,
-  "editorial": 285
+  "viral": 263,
+  "editorial": 289
  },
  "recent_labels": [
-  "antirez",
   "Hacker News",
-  "Hacker News",
+  "Engadget",
   "Tom's Hardware",
-  "Hi-Tech Mail"
+  "Wired",
+  "SecurityWeek"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2617,157 +2631,44 @@
    "source": "Hi-Tech Mail",
    "score": 0.1999,
    "at": "2026-10-27T12:55:43.923229+00:00"
+  },
+  {
+   "title": "افزایش حجم کاری مهندسان با استفاده از هوش مصنوعی و ایجنت‌ها",
+   "url": "https://oioannou.com/blog/ai-promised-less-work/",
+   "source": "oioannou.com",
+   "score": 0.0249,
+   "at": "2026-10-27T13:53:49.247540+00:00"
+  },
+  {
+   "title": "عرضه‌ی آی‌مک جدید با تراشه‌ی M6 و تمرکز بر هوش مصنوعی",
+   "url": "https://www.engadget.com/2298132/apples-imac-with-m6-arrives-promising-a-huge-leap-in-ai-performance/",
+   "source": "Engadget",
+   "score": 0.53313,
+   "at": "2026-10-27T13:54:00.985527+00:00"
+  },
+  {
+   "title": "اپل مک‌بوک پرو ۱۴ اینچی و آی‌مک را به تراشه M6 مجهز کرد",
+   "url": "https://www.tomshardware.com/laptops/macbooks/apple-adds-m6-to-14-inch-macbook-pro-and-imac-starts-at-usd1-999",
+   "source": "Tom's Hardware",
+   "score": 1.60735,
+   "at": "2026-10-27T13:54:07.219702+00:00"
+  },
+  {
+   "title": "شکایت نماینده پارلمان بریتانیا از شرکت xAI به دلیل تولید دیپ‌فیک",
+   "url": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
+   "source": "Wired",
+   "score": 0.2287,
+   "at": "2026-10-27T13:54:13.940131+00:00"
+  },
+  {
+   "title": "نشت کلید دسترسی در SquareML و افشای اطلاعات بیماران Denver Health",
+   "url": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
+   "source": "SecurityWeek",
+   "score": 0.21737,
+   "at": "2026-10-27T13:54:20.693297+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "copperhead",
-    "fast",
-    "hardware",
-    "show",
-    "software"
-   ],
-   "at": "2026-09-08T14:41:41.886140+00:00"
-  },
-  {
-   "sig": [
-    "adobe",
-    "backdoor",
-    "commerce",
-    "critical",
-    "deploy",
-    "exploited",
-    "fixes",
-    "including",
-    "linux",
-    "magento",
-    "n-able",
-    "n-central",
-    "online",
-    "patches",
-    "php",
-    "rust",
-    "servers",
-    "shell",
-    "stores",
-    "stylesmuggler",
-    "unpatched",
-    "vulnerabilities",
-    "web",
-    "zero-day"
-   ],
-   "at": "2026-09-08T18:52:00.482889+00:00"
-  },
-  {
-   "sig": [
-    "away",
-    "channel",
-    "data",
-    "emails",
-    "explicitly",
-    "give",
-    "illegal",
-    "lawyer",
-    "likely",
-    "marketing",
-    "media",
-    "own",
-    "people",
-    "policy",
-    "privacy",
-    "protection",
-    "purposes",
-    "sharing",
-    "subscribers",
-    "told",
-    "won"
-   ],
-   "at": "2026-09-08T21:58:17.258479+00:00"
-  },
-  {
-   "sig": [
-    "actually",
-    "claim",
-    "confusing",
-    "data",
-    "highlights",
-    "improve",
-    "means",
-    "millennium",
-    "million",
-    "model",
-    "navier",
-    "navier-stokes",
-    "openai",
-    "performance",
-    "prize",
-    "problem",
-    "proof",
-    "publishes",
-    "question",
-    "sep",
-    "simonwillison.net",
-    "solved",
-    "still",
-    "stokes",
-    "story",
-    "thoughts",
-    "unreleased",
-    "using",
-    "whole",
-    "wrote"
-   ],
-   "at": "2026-09-09T09:59:05.251925+00:00"
-  },
-  {
-   "sig": [
-    "1pm",
-    "9th",
-    "advice",
-    "ahead",
-    "airpods",
-    "announcements",
-    "app",
-    "apple",
-    "become",
-    "blog",
-    "brand-new",
-    "build",
-    "default",
-    "down",
-    "duo",
-    "event",
-    "expect",
-    "expected",
-    "fears",
-    "foldable",
-    "folding",
-    "headline",
-    "here",
-    "iphone",
-    "iphones",
-    "launch",
-    "live",
-    "model",
-    "pro",
-    "quality",
-    "report",
-    "samsung",
-    "september",
-    "series",
-    "set",
-    "store",
-    "suggests",
-    "today",
-    "tomorrow",
-    "unveil",
-    "upcoming",
-    "watch",
-    "where"
-   ],
-   "at": "2026-09-09T14:43:16.342371+00:00"
-  },
   {
    "sig": [
     "616.92",
@@ -7592,17 +7493,84 @@
     "training"
    ],
    "at": "2026-10-27T12:54:34.736783+00:00"
+  },
+  {
+   "sig": [
+    "less",
+    "never",
+    "promised",
+    "work",
+    "worked"
+   ],
+   "at": "2026-10-27T13:53:49.247540+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "arrives",
+    "chips",
+    "huge",
+    "imac",
+    "leap",
+    "performance",
+    "promising",
+    "refreshes"
+   ],
+   "at": "2026-10-27T13:54:00.985527+00:00"
+  },
+  {
+   "sig": [
+    "14-inch",
+    "actually",
+    "adds",
+    "apple",
+    "changed",
+    "chip",
+    "chips",
+    "imac",
+    "introduces",
+    "launches",
+    "macbook",
+    "powered",
+    "powerful",
+    "pro",
+    "unveils",
+    "updated",
+    "updates",
+    "watch"
+   ],
+   "at": "2026-10-27T13:54:07.219702+00:00"
+  },
+  {
+   "sig": [
+    "asato",
+    "court",
+    "deepfaked",
+    "jess",
+    "politician",
+    "she",
+    "taking",
+    "xai"
+   ],
+   "at": "2026-10-27T13:54:13.940131+00:00"
+  },
+  {
+   "sig": [
+    "data",
+    "denver",
+    "health",
+    "key",
+    "leak",
+    "members",
+    "plan",
+    "puts",
+    "risk",
+    "vendor"
+   ],
+   "at": "2026-10-27T13:54:20.693297+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxw7y3wmzc2t": [
-   168,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50107379": [
-   1122,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
   "hn:50106620": [
    73,
    "2026-10-15T22:33:30.541621+00:00"
@@ -9994,6 +9962,14 @@
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mytn3azq3e2o": [
    17,
    "2026-10-27T12:53:43.248948+00:00"
+  ],
+  "hn:50258521": [
+   172,
+   "2026-10-27T13:53:41.711765+00:00"
+  ],
+  "hn:50257325": [
+   578,
+   "2026-10-27T13:53:41.711765+00:00"
   ]
  }
 }
