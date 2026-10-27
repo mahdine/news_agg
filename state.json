@@ -1297,18 +1297,26 @@
   "https://science.slashdot.org/story/26/10/27/0232248/industry-executives-knew-for-decades-that-microplastics-were-infiltrating-the-human-body?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.securityweek.com/?p=50310",
   "YqQSMieYy8VUU2nsUCk8Yh",
-  "https://www.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  "https://www.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "hn:50255298",
+  "https://www.accessnow.org/?p=109007",
+  "7611d92e9dc0d08dfc3c0faf2e34bfb0",
+  "07f6e1bb55f8079b3e24fd086bf52deb",
+  "211cbcb57772def070b88db2dbc43054",
+  "3b64e967472f947e013f7625ea1f30b2",
+  "6a7a3ca44b91b47b2ea629a02deb518d",
+  "1c1fd77ceec5f4567929a064d47b19bf"
  ],
  "posted": {
-  "viral": 256,
-  "editorial": 264
+  "viral": 257,
+  "editorial": 266
  },
  "recent_labels": [
-  "The Hacker News",
-  "vc.ru",
-  "SecurityWeek",
   "TechRadar",
-  "InfoQ"
+  "InfoQ",
+  "Hacker News",
+  "Access Now",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2382,48 +2390,30 @@
    "source": "InfoQ",
    "score": 0.21319,
    "at": "2026-10-27T07:54:31.781619+00:00"
+  },
+  {
+   "title": "آیا قانون بروکس در عصر هوش مصنوعی همچنان معتبر است",
+   "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+   "source": "j11g.com",
+   "score": 0.30958,
+   "at": "2026-10-27T08:54:05.561676+00:00"
+  },
+  {
+   "title": "گزارش وضعیت قطعی اینترنت در کشورهای خاورمیانه و شمال آفریقا هنگام امتحانات",
+   "url": "https://www.accessnow.org/noexamshutdown-one-step-forward-another-step-back/?pk_campaign=feed&pk_kwd=noexamshutdown-one-step-forward-another-step-back",
+   "source": "Access Now",
+   "score": 0.1722,
+   "at": "2026-10-27T08:54:12.580220+00:00"
+  },
+  {
+   "title": "کاهش حجم ویندوز ۱۱ به کمتر از ۷۰۰ مگابایت برای جای‌گیری روی CD",
+   "url": "https://hi-tech.mail.ru/news/159030-windows-11-umestili-na-kompakt-disk-urezannaya-sistema/",
+   "source": "Hi-Tech Mail",
+   "score": 0.18348,
+   "at": "2026-10-27T08:54:26.631015+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "campaign",
-    "charges",
-    "excel",
-    "extradited",
-    "faces",
-    "facing",
-    "freelancers",
-    "hacker",
-    "infected",
-    "infecting",
-    "malware",
-    "national",
-    "russian",
-    "thousands",
-    "years"
-   ],
-   "at": "2026-09-02T18:51:07.769201+00:00"
-  },
-  {
-   "sig": [
-    "ban",
-    "bans",
-    "eighth",
-    "generative",
-    "grade",
-    "mamdani",
-    "middle",
-    "nyc",
-    "public",
-    "school",
-    "schools",
-    "students",
-    "through",
-    "tools"
-   ],
-   "at": "2026-09-02T21:55:01.912905+00:00"
-  },
   {
    "sig": [
     "engineers",
@@ -7505,13 +7495,27 @@
     "voidzero"
    ],
    "at": "2026-10-27T07:54:31.781619+00:00"
+  },
+  {
+   "sig": [
+    "age",
+    "man-month",
+    "mythical"
+   ],
+   "at": "2026-10-27T08:54:05.561676+00:00"
+  },
+  {
+   "sig": [
+    "another",
+    "back",
+    "forward",
+    "noexamshutdown",
+    "step"
+   ],
+   "at": "2026-10-27T08:54:12.580220+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwchjkfa22r": [
-   709,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwbzfn7g22k": [
    505,
    "2026-10-15T22:33:30.541621+00:00"
@@ -9907,6 +9911,10 @@
   "hn:50254836": [
    184,
    "2026-10-27T06:53:46.495206+00:00"
+  ],
+  "hn:50255298": [
+   212,
+   "2026-10-27T08:54:02.493460+00:00"
   ]
  }
 }
