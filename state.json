@@ -1274,18 +1274,27 @@
   "hn:50248061",
   "UwNRWpWwPC4rtQGD2B4oiH",
   "d0e198bc38a01f9413634ceb3cb28e05",
-  "b632d642b283a0fa2d68ab5ac52fd41e"
+  "b632d642b283a0fa2d68ab5ac52fd41e",
+  "https://entertainment.slashdot.org/story/26/10/26/1828230/walter-koenig-chekov-on-original-star-trek-dies-at-90?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50249045",
+  "lobsters:cxxcik",
+  "hn:50253529",
+  "https://techcrunch.com/?p=3181218",
+  "https://news.slashdot.org/story/26/10/26/227203/us-designates-helium-as-a-critical-material?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "3218189",
+  "3218219"
  ],
  "posted": {
-  "viral": 253,
-  "editorial": 253
+  "viral": 255,
+  "editorial": 255
  },
  "recent_labels": [
-  "InfoQ",
-  "Hacker News",
-  "TechRadar",
   "Hi-Tech Mail",
-  "Hi-Tech Mail"
+  "Lobsters",
+  "Hacker News",
+  "TechCrunch AI",
+  "InfoQ"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2261,63 +2270,37 @@
    "source": "Hi-Tech Mail",
    "score": 0.17148,
    "at": "2026-10-27T04:55:18.444804+00:00"
+  },
+  {
+   "title": "استاندارد WHIP برای بهبود کیفیت اشتراک‌گذاری صفحه در کنفرانس‌های ویدیویی",
+   "url": "http://shittyscreenshare.com",
+   "source": "shittyscreenshare.com",
+   "score": 0.07945,
+   "at": "2026-10-27T05:53:58.416988+00:00"
+  },
+  {
+   "title": "اجرای برنامه‌های ۱۶ بیتی در ویندوزهای ۶۴ بیتی",
+   "url": "https://github.com/otya128/winevdm",
+   "source": "github.com",
+   "score": 0.07588,
+   "at": "2026-10-27T05:54:04.981262+00:00"
+  },
+  {
+   "title": "معرفی دستیار شخصی هوشمند OpenAI با نام dots برای کاربران حرفه‌ای",
+   "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+   "source": "TechCrunch AI",
+   "score": 0.04268,
+   "at": "2026-10-27T05:54:15.036874+00:00"
+  },
+  {
+   "title": "کاهش چشمگیر بهره‌وری توسعه‌دهندگان با استفاده از ابزارهای هوش مصنوعی",
+   "url": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.06816,
+   "at": "2026-10-27T05:54:33.384758+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "amazon",
-    "books",
-    "buying",
-    "company",
-    "destroys",
-    "device",
-    "facility",
-    "found",
-    "placed",
-    "rare",
-    "scans",
-    "see",
-    "shipment",
-    "tracking",
-    "we-tracked-a",
-    "where",
-    "which",
-    "www.404media.co"
-   ],
-   "at": "2026-08-30T18:42:13.137044+00:00"
-  },
-  {
-   "sig": [
-    "america",
-    "bows",
-    "changed",
-    "google",
-    "instead",
-    "lake",
-    "maps",
-    "ontario",
-    "relabels",
-    "renamed",
-    "renames",
-    "shows",
-    "trump",
-    "u.s",
-    "users"
-   ],
-   "at": "2026-08-30T21:57:47.231646+00:00"
-  },
-  {
-   "sig": [
-    "auto",
-    "breaking",
-    "claude",
-    "code",
-    "mode",
-    "opus"
-   ],
-   "at": "2026-08-31T11:44:20.483182+00:00"
-  },
   {
    "sig": [
     "app",
@@ -7458,17 +7441,47 @@
     "want"
    ],
    "at": "2026-10-27T04:54:56.833724+00:00"
+  },
+  {
+   "sig": [
+    "1.x",
+    "16-bit",
+    "2.x",
+    "3.0",
+    "3.1",
+    "64-bit",
+    "etc",
+    "windows"
+   ],
+   "at": "2026-10-27T05:54:04.981262+00:00"
+  },
+  {
+   "sig": [
+    "always-on",
+    "assistant",
+    "coding",
+    "dots",
+    "openai",
+    "personal",
+    "tools",
+    "turned"
+   ],
+   "at": "2026-10-27T05:54:15.036874+00:00"
+  },
+  {
+   "sig": [
+    "developers",
+    "double-digit",
+    "fell",
+    "reporting",
+    "savings",
+    "time",
+    "weekly"
+   ],
+   "at": "2026-10-27T05:54:33.384758+00:00"
   }
  ],
  "snapshots": {
-  "hn:50102923": [
-   512,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50102423": [
-   254,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
   "hn:50102247": [
    567,
    "2026-10-15T22:33:30.541621+00:00"
@@ -9825,10 +9838,6 @@
    113,
    "2026-10-27T02:53:40.374883+00:00"
   ],
-  "hn:50248061": [
-   587,
-   "2026-10-27T04:53:39.670616+00:00"
-  ],
   "hn:50247453": [
    124,
    "2026-10-27T03:53:40.352794+00:00"
@@ -9849,10 +9858,6 @@
    637,
    "2026-10-27T03:53:40.352794+00:00"
   ],
-  "hn:50249045": [
-   64,
-   "2026-10-27T04:53:39.670616+00:00"
-  ],
   "hn:50251062": [
    97,
    "2026-10-27T03:53:40.352794+00:00"
@@ -9860,6 +9865,22 @@
   "lobsters:ihmfsc": [
    25,
    "2026-10-27T03:53:40.352794+00:00"
+  ],
+  "hn:50248061": [
+   587,
+   "2026-10-27T04:53:39.670616+00:00"
+  ],
+  "hn:50249045": [
+   65,
+   "2026-10-27T05:53:48.300336+00:00"
+  ],
+  "hn:50253529": [
+   71,
+   "2026-10-27T05:53:48.300336+00:00"
+  ],
+  "lobsters:cxxcik": [
+   28,
+   "2026-10-27T05:53:48.300336+00:00"
   ]
  }
 }
