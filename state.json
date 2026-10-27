@@ -1320,18 +1320,25 @@
   "https://www.phoronix.com/news/Beeper-In-Kernel-Parsing-eBPF",
   "545cec807d01d49ab009da74666a3a01",
   "https://www.androidpolice.com/fitbit-edge-best-charge-i-could-ever-buy/",
-  "https://www.neowin.net/news/you-will-soon-be-able-to-ask-excel-to-fetch-clean-and-load-data-for-you-using-copilot/"
+  "https://www.neowin.net/news/you-will-soon-be-able-to-ask-excel-to-fetch-clean-and-load-data-for-you-using-copilot/",
+  "6a91d2bb3ac8cc66a61bfa12",
+  "6adf4053447bde6f5610ffe8",
+  "https://www.theregister.com/a/5305446",
+  "4H8jZpvqBzhg79SyR2nhtM",
+  "TheNextWeb=83999871bad97988b751868bfa22007b",
+  "TRJdHb4yoQF98CLUSuAQjB",
+  "TheNextWeb=5b26487c96a94e4c4a7565b28cd27b16"
  ],
  "posted": {
   "viral": 257,
-  "editorial": 276
+  "editorial": 281
  },
  "recent_labels": [
-  "Hi-Tech Mail",
-  "SecurityWeek",
-  "Phoronix",
-  "Phoronix",
-  "Neowin"
+  "The Register",
+  "Tom's Hardware",
+  "The Next Web",
+  "TechRadar",
+  "The Next Web"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2496,106 +2503,44 @@
    "source": "Neowin",
    "score": 0.19279,
    "at": "2026-10-27T10:43:21.059933+00:00"
+  },
+  {
+   "title": "پورت شدن پروژه Omarchy به FreeBSD با کمک ابزارهای هوش مصنوعی",
+   "url": "https://www.theregister.com/os-platforms/2026/10/27/freebsd-founder-ports-omarchy-to-freebsd-in-ten-days-ten-releases/5305446",
+   "source": "The Register",
+   "score": 0.18068,
+   "at": "2026-10-27T10:54:07.619633+00:00"
+  },
+  {
+   "title": "پیشنهاد بازخرید داوطلبانه برای ۶۰ هزار کارمند مایکروسافت",
+   "url": "https://www.tomshardware.com/tech-industry/big-tech/60-000-microsoft-employees-offered-voluntary-buyouts-as-ai-buildout-costs-bite-program-covers-roughly-27-percent-of-workforce-across-us-canada-india-and-the-uk",
+   "source": "Tom's Hardware",
+   "score": 0.20253,
+   "at": "2026-10-27T10:54:16.494047+00:00"
+  },
+  {
+   "title": "قاضی آمریکایی محدودیت‌های پنتاگون علیه لابی‌گری برای Alibaba را تعلیق کرد",
+   "url": "https://thenextweb.com/news/alibaba-wins-injunction-against-pentagon-rule",
+   "source": "The Next Web",
+   "score": 0.16634,
+   "at": "2026-10-27T10:54:26.064927+00:00"
+  },
+  {
+   "title": "سنجش موفقیت هوش مصنوعی بر اساس خروجی‌های کسب‌وکار به جای معیارهای ظاهری",
+   "url": "https://www.techradar.com/pro/ai-success-depends-on-business-outcomes-not-usage-vanity-metrics",
+   "source": "TechRadar",
+   "score": 0.18687,
+   "at": "2026-10-27T10:54:31.982420+00:00"
+  },
+  {
+   "title": "تغییر استراتژی شرکت‌های هوش مصنوعی در استخدام نیروهای متخصص برای برچسب‌گذاری داده‌ها",
+   "url": "https://thenextweb.com/news/job-van-der-voort-remote-ai-productivity-tnw-podcast",
+   "source": "The Next Web",
+   "score": 0.19369,
+   "at": "2026-10-27T10:54:42.473531+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "apple",
-    "ceo",
-    "event",
-    "eyes",
-    "fold8",
-    "increase",
-    "iphone",
-    "john",
-    "last-minute",
-    "motorola",
-    "price",
-    "rumors",
-    "shine",
-    "star",
-    "surprise",
-    "ternus",
-    "ultra"
-   ],
-   "at": "2026-09-05T12:54:13.376580+00:00"
-  },
-  {
-   "sig": [
-    "again",
-    "demanding",
-    "dependents",
-    "does",
-    "dozens",
-    "fixing",
-    "hundreds",
-    "instead",
-    "issue",
-    "open",
-    "scale",
-    "scanners",
-    "source",
-    "sustainability",
-    "thousands",
-    "unaffected",
-    "vulnerability",
-    "work"
-   ],
-   "at": "2026-09-05T16:10:18.463317+00:00"
-  },
-  {
-   "sig": [
-    "admits",
-    "confirms",
-    "didn",
-    "disclose",
-    "disclosure",
-    "framework",
-    "german",
-    "hijacking",
-    "incident",
-    "openai",
-    "rogue",
-    "wiki",
-    "working"
-   ],
-   "at": "2026-09-05T18:29:14.029839+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "blender",
-    "coding",
-    "llms",
-    "macos",
-    "til",
-    "til.simonwillison.net",
-    "using"
-   ],
-   "at": "2026-09-05T20:38:09.641585+00:00"
-  },
-  {
-   "sig": [
-    "always",
-    "begin",
-    "blippi",
-    "children",
-    "cocomelon",
-    "cocomelons-s",
-    "content",
-    "entertainment",
-    "human",
-    "loop",
-    "moonbug",
-    "other",
-    "popular",
-    "using",
-    "which",
-    "www.404media.co"
-   ],
-   "at": "2026-09-06T09:34:39.792962+00:00"
-  },
   {
    "sig": [
     "answer",
@@ -7543,6 +7488,68 @@
     "using"
    ],
    "at": "2026-10-27T10:43:21.059933+00:00"
+  },
+  {
+   "sig": [
+    "days",
+    "founder",
+    "freebsd",
+    "omarchy",
+    "ports",
+    "releases",
+    "ten"
+   ],
+   "at": "2026-10-27T10:54:07.619633+00:00"
+  },
+  {
+   "sig": [
+    "bite",
+    "buildout",
+    "buyouts",
+    "costs",
+    "employees",
+    "microsoft",
+    "offered",
+    "voluntary"
+   ],
+   "at": "2026-10-27T10:54:16.494047+00:00"
+  },
+  {
+   "sig": [
+    "alibaba",
+    "injunction",
+    "pentagon",
+    "rule",
+    "wins"
+   ],
+   "at": "2026-10-27T10:54:26.064927+00:00"
+  },
+  {
+   "sig": [
+    "business",
+    "depends",
+    "metrics",
+    "outcomes",
+    "success",
+    "usage",
+    "vanity"
+   ],
+   "at": "2026-10-27T10:54:31.982420+00:00"
+  },
+  {
+   "sig": [
+    "companies",
+    "data",
+    "der",
+    "job",
+    "label",
+    "pay",
+    "phds",
+    "remote",
+    "van",
+    "voort"
+   ],
+   "at": "2026-10-27T10:54:42.473531+00:00"
   }
  ],
  "snapshots": {
