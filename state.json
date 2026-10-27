@@ -1237,18 +1237,28 @@
   "hn:50250937",
   "https://slashdot.org/story/26/10/26/2128235/skydance-offers-buyouts-gives-5-day-rto-order?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "hn:50249116",
-  "TheNextWeb=221f6c8c2320a9103679eaeb42a14235"
+  "TheNextWeb=221f6c8c2320a9103679eaeb42a14235",
+  "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+  "hn:50251344",
+  "https://www.theverge.com/?p=1019143",
+  "lobsters:6ntoqr",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysca4dxes2a",
+  "hn:50248005",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysg7aosuk2a",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysdcaw54d2i",
+  "hn:50248124",
+  "lobsters:o5to4p"
  ],
  "posted": {
-  "viral": 242,
-  "editorial": 244
+  "viral": 246,
+  "editorial": 245
  },
  "recent_labels": [
+  "OpenAI",
+  "Lobsters",
   "404 Media",
   "Hacker News",
-  "Hacker News",
-  "Engadget",
-  "Hacker News"
+  "Lobsters"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2084,78 +2094,44 @@
    "source": "motherjones.com",
    "score": 0.20307,
    "at": "2026-10-26T22:47:55.027552+00:00"
+  },
+  {
+   "title": "همکاری OpenAI با جامعه علمی برای حل مسائل پیچیده ریاضی و فیزیک",
+   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+   "source": "OpenAI",
+   "score": 0.46161,
+   "at": "2026-10-27T01:53:47.394395+00:00"
+  },
+  {
+   "title": "بازگشت سایت CSS-Tricks به مالکیت مستقل پس از دوران DigitalOcean",
+   "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+   "source": "css-tricks.com",
+   "score": 0.05946,
+   "at": "2026-10-27T01:53:58.769335+00:00"
+  },
+  {
+   "title": "ادعای مدیرعامل Flock درباره ساختگی بودن اعتراضات علیه دوربین‌های نظارتی",
+   "url": "https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/",
+   "source": "404media.co",
+   "score": 0.07337,
+   "at": "2026-10-27T01:54:12.585291+00:00"
+  },
+  {
+   "title": "معرفی مدل جدید GPT-6.1 Terra توسط OpenAI",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+   "source": "openai.com",
+   "score": 0.02202,
+   "at": "2026-10-27T01:54:22.105464+00:00"
+  },
+  {
+   "title": "بهینه‌سازی تقسیم صحیح ۶۴ بیتی با استفاده از ضرب و شیفت",
+   "url": "https://www.benjoffe.com/fast-floordiv",
+   "source": "benjoffe.com",
+   "score": 0.05863,
+   "at": "2026-10-27T01:54:28.721103+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "adds",
-    "alt",
-    "app",
-    "arm",
-    "bing",
-    "microsoft",
-    "nvidia",
-    "powertoys",
-    "switching",
-    "tab-style",
-    "windows"
-   ],
-   "at": "2026-08-26T11:55:22.273170+00:00"
-  },
-  {
-   "sig": [
-    "10th",
-    "abroad",
-    "angeles",
-    "data",
-    "discussion",
-    "does",
-    "government",
-    "home",
-    "jasonkoebler.bsky.social",
-    "joining",
-    "kill",
-    "live",
-    "los",
-    "media",
-    "private",
-    "september",
-    "surveil",
-    "theintercept.com",
-    "u.s",
-    "weaponize"
-   ],
-   "at": "2026-08-26T13:33:09.453602+00:00"
-  },
-  {
-   "sig": [
-    "addresses",
-    "avoids",
-    "calls",
-    "demands",
-    "drops",
-    "finally",
-    "finished",
-    "footage",
-    "game",
-    "gameplay",
-    "gta",
-    "heartbreaking",
-    "leaker",
-    "leaks",
-    "lucia",
-    "mentioning",
-    "nearly",
-    "releases",
-    "responds",
-    "rockstar",
-    "statement",
-    "team",
-    "week"
-   ],
-   "at": "2026-08-26T15:59:05.606674+00:00"
-  },
   {
    "sig": [
     "abortion",
@@ -7354,25 +7330,69 @@
     "web"
    ],
    "at": "2026-10-26T22:47:55.027552+00:00"
+  },
+  {
+   "sig": [
+    "academics",
+    "announces",
+    "announcing",
+    "big",
+    "computer",
+    "discoveries",
+    "mathematics",
+    "openai",
+    "physics",
+    "science",
+    "three",
+    "way",
+    "work"
+   ],
+   "at": "2026-10-27T01:53:47.394395+00:00"
+  },
+  {
+   "sig": [
+    "advised",
+    "apologize",
+    "audio",
+    "backlash",
+    "bots",
+    "ceo",
+    "comments",
+    "company",
+    "conference",
+    "cops",
+    "flock",
+    "garrett",
+    "him",
+    "isn",
+    "langley",
+    "leaked",
+    "never",
+    "police",
+    "private",
+    "real",
+    "tells",
+    "wasn",
+    "wife",
+    "work"
+   ],
+   "at": "2026-10-27T01:54:12.585291+00:00"
+  },
+  {
+   "sig": [
+    "64-bit",
+    "compute",
+    "constants",
+    "division",
+    "faster",
+    "floor",
+    "signed",
+    "way"
+   ],
+   "at": "2026-10-27T01:54:28.721103+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:ixoasm": [
-   25,
-   "2026-10-15T15:11:25.416636+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxvoclv5hc2t": [
-   636,
-   "2026-10-15T19:18:27.038186+00:00"
-  ],
-  "lobsters:bcaopz": [
-   73,
-   "2026-10-15T19:18:27.038186+00:00"
-  ],
-  "lobsters:p7tf7i": [
-   25,
-   "2026-10-15T19:18:27.038186+00:00"
-  ],
   "lobsters:o0ixth": [
    25,
    "2026-10-15T19:18:27.038186+00:00"
@@ -9665,10 +9685,6 @@
    50,
    "2026-10-26T17:28:32.399641+00:00"
   ],
-  "hn:50251344": [
-   202,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
   "hn:50250937": [
    287,
    "2026-10-26T22:47:11.774119+00:00"
@@ -9689,73 +9705,93 @@
    312,
    "2026-10-26T22:47:11.774119+00:00"
   ],
-  "hn:50248061": [
-   568,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
   "hn:50248055": [
    469,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "hn:50248005": [
-   500,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "hn:50247928": [
-   175,
    "2026-10-26T22:47:11.774119+00:00"
   ],
   "hn:50247630": [
    346,
    "2026-10-26T22:47:11.774119+00:00"
   ],
-  "hn:50247453": [
-   123,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "hn:50246658": [
-   419,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "hn:50246238": [
-   115,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "hn:50245945": [
-   102,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "lobsters:6ntoqr": [
-   33,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "lobsters:c0yniy": [
-   32,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
   "lobsters:ysyqnt": [
    31,
    "2026-10-26T22:47:11.774119+00:00"
   ],
+  "hn:50251344": [
+   808,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "hn:50248061": [
+   578,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "hn:50248005": [
+   616,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "hn:50247928": [
+   238,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "hn:50247453": [
+   124,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "hn:50246658": [
+   479,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "hn:50246238": [
+   174,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "hn:50245945": [
+   104,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "lobsters:6ntoqr": [
+   50,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "lobsters:c0yniy": [
+   36,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myskt366z22k": [
-   446,
-   "2026-10-26T22:47:11.774119+00:00"
+   605,
+   "2026-10-27T01:53:42.360285+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysg7aosuk2a": [
-   739,
-   "2026-10-26T22:47:11.774119+00:00"
+   900,
+   "2026-10-27T01:53:42.360285+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysdcaw54d2i": [
-   311,
-   "2026-10-26T22:47:11.774119+00:00"
+   347,
+   "2026-10-27T01:53:42.360285+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysca4dxes2a": [
-   956,
-   "2026-10-26T22:47:11.774119+00:00"
+   1109,
+   "2026-10-27T01:53:42.360285+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mysifpvex22y": [
-   97,
-   "2026-10-26T22:47:11.774119+00:00"
+   111,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "hn:50252159": [
+   99,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "hn:50251661": [
+   501,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "hn:50248124": [
+   1141,
+   "2026-10-27T01:53:42.360285+00:00"
+  ],
+  "lobsters:o5to4p": [
+   29,
+   "2026-10-27T01:53:42.360285+00:00"
   ]
  }
 }
