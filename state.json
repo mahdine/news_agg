@@ -1552,18 +1552,24 @@
   "https://www.techspot.com/news/114356-grand-theft-auto-vi-huge-210-gb-download.html",
   "https://www.neowin.net/news/looks-like-grand-theft-auto-vi-could-require-a-massive-210gb-download/",
   "https://www.langchain.com/blog/the-art-of-loop-engineering",
-  "1393565"
+  "1393565",
+  "hn:50275887",
+  "lobsters:exwlmn",
+  "hn:50276883",
+  "hn:50276998",
+  "hn:50279308",
+  "hn:50280178"
  ],
  "posted": {
-  "viral": 293,
+  "viral": 298,
   "editorial": 364
  },
  "recent_labels": [
   "Hacker News",
-  "The Register",
-  "The Hacker News",
-  "LangChain Blog",
-  "ZDNet"
+  "Lobsters",
+  "Hacker News",
+  "Hacker News",
+  "Hacker News"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3596,103 +3602,44 @@
    "source": "ZDNet",
    "score": 0.18763,
    "at": "2026-10-28T18:28:00.784509+00:00"
+  },
+  {
+   "title": "سانسور حساب کاربری No Kings در اینستاگرام توسط متا",
+   "url": "https://paulfwalsh.substack.com/p/meta-censored-the-no-kings-instagram",
+   "source": "paulfwalsh.substack.com",
+   "score": 0.04831,
+   "at": "2026-10-28T23:20:43.881472+00:00"
+  },
+  {
+   "title": "مدیریت خطاهای C با استفاده از الگوی goto",
+   "url": "https://thestateofinahaze.net/blog/c-goto-considered-totally-sick/",
+   "source": "thestateofinahaze.net",
+   "score": 0.06431,
+   "at": "2026-10-28T23:21:01.524529+00:00"
+  },
+  {
+   "title": "ابزار جدید برای ارائه اسلاید بدون نیاز به اشتراک‌گذاری صفحه",
+   "url": "https://slidebyside.com/",
+   "source": "slidebyside.com",
+   "score": 0.04374,
+   "at": "2026-10-28T23:21:08.383208+00:00"
+  },
+  {
+   "title": "کشف اسکریپت‌های مخرب با تکنیک‌های ضد هوش مصنوعی در وب",
+   "url": "https://nullpt.rs/fingerprinting-bioweapons",
+   "source": "nullpt.rs",
+   "score": 0.08793,
+   "at": "2026-10-28T23:21:15.437439+00:00"
+  },
+  {
+   "title": "رفتار متناقض هوش مصنوعی گوگل در پاسخ به نتایج انتخابات آمریکا",
+   "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+   "source": "arstechnica.com",
+   "score": 0.13922,
+   "at": "2026-10-28T23:21:26.135134+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "8.8",
-    "8.8m",
-    "breach",
-    "danish",
-    "data",
-    "denmark",
-    "dtu",
-    "exposes",
-    "million",
-    "national",
-    "people",
-    "personal",
-    "population",
-    "register",
-    "university"
-   ],
-   "at": "2026-10-05T12:28:28.346438+00:00"
-  },
-  {
-   "sig": [
-    "activities",
-    "agent",
-    "found",
-    "openai",
-    "projects",
-    "rogue",
-    "wikimedia"
-   ],
-   "at": "2026-10-05T20:47:00.238877+00:00"
-  },
-  {
-   "sig": [
-    "anthropic",
-    "arrested",
-    "charge",
-    "chat",
-    "claude",
-    "diary",
-    "discussing",
-    "enforcement",
-    "entry",
-    "felony",
-    "florida",
-    "follows",
-    "law",
-    "office",
-    "plans",
-    "police",
-    "reported",
-    "reports",
-    "sheriff",
-    "shoot",
-    "threat",
-    "woman"
-   ],
-   "at": "2026-10-06T01:49:33.289880+00:00"
-  },
-  {
-   "sig": [
-    "going",
-    "kill",
-    "unalive"
-   ],
-   "at": "2026-10-06T12:08:59.121891+00:00"
-  },
-  {
-   "sig": [
-    "act",
-    "agencies",
-    "automatic",
-    "ban",
-    "bernie",
-    "federal",
-    "flock",
-    "friday",
-    "introduced",
-    "jeff",
-    "license",
-    "merkley",
-    "ocasio-cortez",
-    "plate",
-    "readers",
-    "representative",
-    "sanders",
-    "senator",
-    "stop",
-    "using",
-    "which",
-    "would"
-   ],
-   "at": "2026-10-06T18:32:01.880155+00:00"
-  },
   {
    "sig": [
     "ai-generated",
@@ -8027,65 +7974,63 @@
     "track"
    ],
    "at": "2026-10-28T18:28:00.784509+00:00"
+  },
+  {
+   "sig": [
+    "account",
+    "campaign",
+    "censored",
+    "instagram",
+    "kings",
+    "meta",
+    "nationwide"
+   ],
+   "at": "2026-10-28T23:20:43.881472+00:00"
+  },
+  {
+   "sig": [
+    "considered",
+    "error",
+    "goto",
+    "handling",
+    "sick",
+    "totally"
+   ],
+   "at": "2026-10-28T23:21:01.524529+00:00"
+  },
+  {
+   "sig": [
+    "present",
+    "screen",
+    "sharing",
+    "show",
+    "slidebyside",
+    "slides",
+    "without"
+   ],
+   "at": "2026-10-28T23:21:08.383208+00:00"
+  },
+  {
+   "sig": [
+    "bioweapons",
+    "creating",
+    "fingerprinting",
+    "script"
+   ],
+   "at": "2026-10-28T23:21:15.437439+00:00"
+  },
+  {
+   "sig": [
+    "asked",
+    "cagey",
+    "elections",
+    "google",
+    "won"
+   ],
+   "at": "2026-10-28T23:21:26.135134+00:00"
   }
  ],
  "snapshots": {
-  "hn:50118977": [
-   234,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50118688": [
-   323,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50118624": [
-   67,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50118512": [
-   206,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50118267": [
-   192,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "lobsters:6laoto": [
-   59,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "lobsters:v6hhdr": [
-   43,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxyxwh4kmi2u": [
-   276,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxyvg4o7ss2c": [
-   272,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxyukmtry52e": [
-   187,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50124251": [
-   218,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50122951": [
-   418,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50122878": [
-   65,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50122800": [
-   883,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
   "hn:50122431": [
    199,
    "2026-10-16T22:10:14.428840+00:00"
@@ -10429,6 +10374,62 @@
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myxc5zvdrm2o": [
    15,
    "2026-10-28T18:24:18.841169+00:00"
+  ],
+  "hn:50281044": [
+   206,
+   "2026-10-28T23:20:41.586514+00:00"
+  ],
+  "hn:50280864": [
+   416,
+   "2026-10-28T23:20:41.586514+00:00"
+  ],
+  "hn:50280197": [
+   169,
+   "2026-10-28T23:20:41.586514+00:00"
+  ],
+  "hn:50280178": [
+   226,
+   "2026-10-28T23:20:41.586514+00:00"
+  ],
+  "hn:50279308": [
+   228,
+   "2026-10-28T23:20:41.586514+00:00"
+  ],
+  "hn:50277166": [
+   202,
+   "2026-10-28T23:20:41.586514+00:00"
+  ],
+  "hn:50276998": [
+   939,
+   "2026-10-28T23:20:41.586514+00:00"
+  ],
+  "hn:50276906": [
+   163,
+   "2026-10-28T23:20:41.586514+00:00"
+  ],
+  "hn:50276883": [
+   94,
+   "2026-10-28T23:20:41.586514+00:00"
+  ],
+  "hn:50275887": [
+   328,
+   "2026-10-28T23:20:41.586514+00:00"
+  ],
+  "hn:50275128": [
+   135,
+   "2026-10-28T23:20:41.586514+00:00"
+  ],
+  "hn:50271808": [
+   184,
+   "2026-10-28T23:20:41.586514+00:00"
+  ],
+  "lobsters:exwlmn": [
+   42,
+   "2026-10-28T23:20:41.586514+00:00"
+  ],
+  "lobsters:m3gsln": [
+   25,
+   "2026-10-28T23:20:41.586514+00:00"
   ]
  }
 }
