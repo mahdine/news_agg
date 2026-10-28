@@ -1499,18 +1499,30 @@
   "https://www.engadget.com/2299247/amazon-alexa-photo-frame/",
   "https://www.theverge.com/?p=1019626",
   "https://www.engadget.com/2299288/amazon-glare-reducing-nanomatte-display-to-its-new-echo-show-16/",
-  "https://www.theverge.com/?p=1020286"
+  "https://www.theverge.com/?p=1020286",
+  "6ad8ea7985529c1d195fc105",
+  "hn:50272749",
+  "hn:50272145",
+  "gZ5DtQjxVh83n5pZwyh73R",
+  "https://www.techspot.com/news/114365-palit-denies-galax-factory-shutting-down-due-nvidia.html",
+  "hn:50272596",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mywrfrevks2w",
+  "6ad67c22648315811e2f702c",
+  "https://www.engadget.com/2299326/kindle-colorsoft-signature-edition-2026-review/",
+  "https://www.engadget.com/2299180/kindle-paperwhite-signature-edition-2026-review/",
+  "https://www.securityweek.com/?p=50369",
+  "https://9to5mac.com/?p=1076227"
  ],
  "posted": {
   "viral": 286,
-  "editorial": 348
+  "editorial": 351
  },
  "recent_labels": [
-  "Hacker News",
   "Engadget",
   "Engadget",
-  "Engadget",
-  "Engadget"
+  "Wired",
+  "Tom's Hardware",
+  "SecurityWeek"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3382,81 +3394,30 @@
    "source": "Engadget",
    "score": 0.23208,
    "at": "2026-10-28T12:54:34.752498+00:00"
+  },
+  {
+   "title": "عملیات جاسوسی گسترده ICE علیه فعالان سیاسی در آمریکا",
+   "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
+   "source": "Wired",
+   "score": 0.65472,
+   "at": "2026-10-28T13:54:10.487910+00:00"
+  },
+  {
+   "title": "وانشش شرکت Palit به شایعات تعطیلی کارخانه Galax",
+   "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-gpu-vendor-palit-denies-its-galax-factory-has-closed-due-to-a-shortage-of-chips-company-says-brand-continues-to-operate-as-usual",
+   "source": "Tom's Hardware",
+   "score": 0.58994,
+   "at": "2026-10-28T13:55:21.955050+00:00"
+  },
+  {
+   "title": "بروزرسانی امنیتی کروم و فایرفاکس برای رفع بیش از ۲۰۰ آسیب‌پذیری",
+   "url": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
+   "source": "SecurityWeek",
+   "score": 0.24432,
+   "at": "2026-10-28T13:56:38.111572+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "addresses",
-    "beginning",
-    "data",
-    "decision",
-    "details",
-    "employees",
-    "exclusively",
-    "fbi",
-    "group",
-    "had",
-    "including",
-    "media",
-    "monday",
-    "never",
-    "publish",
-    "shinyhunters",
-    "since",
-    "spouses",
-    "stole",
-    "told",
-    "very",
-    "would"
-   ],
-   "at": "2026-09-29T00:28:39.028359+00:00"
-  },
-  {
-   "sig": [
-    "allll",
-    "apps",
-    "crashing",
-    "firebase",
-    "ios",
-    "morning",
-    "sdk",
-    "since",
-    "today"
-   ],
-   "at": "2026-09-29T11:29:25.461927+00:00"
-  },
-  {
-   "sig": [
-    "23-year-old",
-    "aiding",
-    "arrest",
-    "arrested",
-    "association",
-    "authorities",
-    "dutch",
-    "frankly",
-    "had",
-    "incompetent",
-    "individual",
-    "krebs",
-    "laughing",
-    "media",
-    "monday",
-    "netherlands",
-    "police",
-    "pro",
-    "probe",
-    "reported",
-    "representative",
-    "security",
-    "shinyhunters",
-    "suspicion",
-    "told",
-    "update"
-   ],
-   "at": "2026-09-29T16:58:12.221854+00:00"
-  },
   {
    "sig": [
     "blog",
@@ -7933,21 +7894,53 @@
     "show"
    ],
    "at": "2026-10-28T12:54:34.752498+00:00"
+  },
+  {
+   "sig": [
+    "anti-left",
+    "history",
+    "ice",
+    "largest",
+    "ops",
+    "running",
+    "surveillance"
+   ],
+   "at": "2026-10-28T13:54:10.487910+00:00"
+  },
+  {
+   "sig": [
+    "5000-series",
+    "chip",
+    "chips",
+    "closed",
+    "denies",
+    "down",
+    "due",
+    "factory",
+    "galax",
+    "gpu",
+    "nvidia",
+    "palit",
+    "rtx",
+    "shortage",
+    "shortages",
+    "shutting",
+    "vendor"
+   ],
+   "at": "2026-10-28T13:55:21.955050+00:00"
+  },
+  {
+   "sig": [
+    "chrome",
+    "firefox",
+    "patch",
+    "updates",
+    "vulnerabilities"
+   ],
+   "at": "2026-10-28T13:56:38.111572+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:qvomvk": [
-   28,
-   "2026-10-16T14:58:02.164953+00:00"
-  ],
-  "lobsters:q0wobg": [
-   25,
-   "2026-10-16T14:58:02.164953+00:00"
-  ],
-  "hn:50115144": [
-   183,
-   "2026-10-16T18:53:42.469960+00:00"
-  ],
   "lobsters:hounpx": [
    51,
    "2026-10-16T18:53:42.469960+00:00"
@@ -10333,8 +10326,20 @@
    "2026-10-28T12:53:47.628195+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mywrfrevks2w": [
-   102,
-   "2026-10-28T12:53:47.628195+00:00"
+   253,
+   "2026-10-28T13:53:48.350496+00:00"
+  ],
+  "hn:50272749": [
+   345,
+   "2026-10-28T13:53:48.350496+00:00"
+  ],
+  "hn:50272596": [
+   128,
+   "2026-10-28T13:53:48.350496+00:00"
+  ],
+  "hn:50272145": [
+   165,
+   "2026-10-28T13:53:48.350496+00:00"
   ]
  }
 }
