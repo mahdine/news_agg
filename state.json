@@ -1453,18 +1453,24 @@
   "3220608",
   "https://science.slashdot.org/story/26/10/28/0256204/cdc-warns-of-rising-threat-of-drug-resistant-germs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-  "uVnNQC6wdtvudJD87jkR6L"
+  "uVnNQC6wdtvudJD87jkR6L",
+  "hn:50266719",
+  "lobsters:cpaibp",
+  "6ae0f8e8b1846b1aa5192467",
+  "19501f60ab0ad55383cdacdd7c4fa960",
+  "20e6e2b5aefabc8dd13323d1a70cd88d",
+  "https://www.securityweek.com/?p=50346"
  ],
  "posted": {
-  "viral": 282,
-  "editorial": 323
+  "viral": 284,
+  "editorial": 326
  },
  "recent_labels": [
-  "The Hacker News",
-  "The Hacker News",
-  "vc.ru",
-  "The Hacker News",
-  "TechRadar"
+  "Hacker News",
+  "Lobsters",
+  "Wired",
+  "Hi-Tech Mail",
+  "SecurityWeek"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3133,70 +3139,44 @@
    "source": "TechRadar",
    "score": 0.13563,
    "at": "2026-10-28T07:54:35.427998+00:00"
+  },
+  {
+   "title": "تغییر رویکرد استخدام مهندسان نرم‌افزار در عصر هوش مصنوعی",
+   "url": "https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/",
+   "source": "felixrieseberg.com",
+   "score": 0.04367,
+   "at": "2026-10-28T08:56:16.605001+00:00"
+  },
+  {
+   "title": "بحران در مدیریت آسیب‌پذیری‌ها و فرسودگی تیم‌های امنیتی",
+   "url": "https://www.netmeister.org/blog/defense-ddos.html",
+   "source": "netmeister.org",
+   "score": 0.10039,
+   "at": "2026-10-28T08:56:24.653851+00:00"
+  },
+  {
+   "title": "استفاده از هوش مصنوعی برای ارسال هشدارهای اضطراری و خطرات آن",
+   "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+   "source": "Wired",
+   "score": 0.22255,
+   "at": "2026-10-28T08:56:31.582244+00:00"
+  },
+  {
+   "title": "معرفی ماوس جدید با نمایشگر لمسی ۳.۱ اینچی برای کنترل برنامه‌ها",
+   "url": "https://hi-tech.mail.ru/news/159175-super-mouse-s-3-dyuimovym-sensornym-ekranom-zamenit-makropad/",
+   "source": "Hi-Tech Mail",
+   "score": 0.16789,
+   "at": "2026-10-28T08:56:46.827341+00:00"
+  },
+  {
+   "title": "هشدار CISA درباره بهره‌برداری از آسیب‌پذیری Node2Shell در کتابخانه Brotli",
+   "url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/",
+   "source": "SecurityWeek",
+   "score": 0.22999,
+   "at": "2026-10-28T08:56:55.264140+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "android",
-    "call",
-    "facetime",
-    "join",
-    "phone",
-    "windows"
-   ],
-   "at": "2026-09-20T23:20:49.365482+00:00"
-  },
-  {
-   "sig": [
-    "around",
-    "bubble",
-    "cases",
-    "compared",
-    "don",
-    "exploded",
-    "fact",
-    "greatest",
-    "happening",
-    "hype",
-    "important",
-    "jev",
-    "know",
-    "may",
-    "minor",
-    "narrow",
-    "part",
-    "perfect",
-    "representation",
-    "rest",
-    "see",
-    "thing",
-    "yet"
-   ],
-   "at": "2026-09-21T10:56:23.581483+00:00"
-  },
-  {
-   "sig": [
-    "access",
-    "apple",
-    "claim",
-    "claims",
-    "here",
-    "ios",
-    "iphone",
-    "limit",
-    "million",
-    "owners",
-    "payout",
-    "settlement",
-    "siri",
-    "submit",
-    "there",
-    "today",
-    "waitlist"
-   ],
-   "at": "2026-09-21T17:08:54.322040+00:00"
-  },
   {
    "sig": [
     "active",
@@ -7824,17 +7804,44 @@
     "review"
    ],
    "at": "2026-10-28T07:54:35.427998+00:00"
+  },
+  {
+   "sig": [
+    "advice",
+    "beats",
+    "engineers",
+    "hunger",
+    "junior",
+    "tenure"
+   ],
+   "at": "2026-10-28T08:56:16.605001+00:00"
+  },
+  {
+   "sig": [
+    "alerts",
+    "coming",
+    "emergency",
+    "humans",
+    "might",
+    "ready"
+   ],
+   "at": "2026-10-28T08:56:31.582244+00:00"
+  },
+  {
+   "sig": [
+    "attack",
+    "attempts",
+    "cisa",
+    "exploitation",
+    "honeypots",
+    "log",
+    "node2shell",
+    "warns"
+   ],
+   "at": "2026-10-28T08:56:55.264140+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:ttcx5k": [
-   29,
-   "2026-10-16T10:01:22.607113+00:00"
-  ],
-  "lobsters:1iin5o": [
-   37,
-   "2026-10-16T10:01:22.607113+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxxpoesxfj2y": [
    381,
    "2026-10-16T10:01:22.607113+00:00"
@@ -10224,8 +10231,16 @@
    "2026-10-28T07:53:38.507187+00:00"
   ],
   "hn:50267569": [
-   78,
-   "2026-10-28T07:53:38.507187+00:00"
+   87,
+   "2026-10-28T08:56:12.437797+00:00"
+  ],
+  "hn:50266719": [
+   107,
+   "2026-10-28T08:56:12.437797+00:00"
+  ],
+  "lobsters:cpaibp": [
+   37,
+   "2026-10-28T08:56:12.437797+00:00"
   ]
  }
 }
