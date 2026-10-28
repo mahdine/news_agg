@@ -1471,18 +1471,26 @@
   "6ad123ca8f0396c58f0a3709",
   "https://www.theregister.com/a/5305765",
   "wKEWsKXV9RZYJ4gWqsvQaX",
-  "6ada507e5e6f399f2e9db2f5"
+  "6ada507e5e6f399f2e9db2f5",
+  "hn:50271032",
+  "https://www.securityweek.com/?p=50361",
+  "https://www.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://science.slashdot.org/story/26/10/28/035218/astronomers-may-have-just-discovered-our-solar-systems-sixth-dwarf-planet?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "b5d8b5ae572eedceaa5002459bbef5d4",
+  "JvbP3dvtTeB3RJfRSjT3yT",
+  "T5ayaBTuq2w9WrKEZfHNme",
+  "https://9to5mac.com/?p=1076184"
  ],
  "posted": {
   "viral": 285,
-  "editorial": 335
+  "editorial": 339
  },
  "recent_labels": [
-  "Hacker News",
-  "Simon Willison RSS",
   "Wired",
-  "Tom's Hardware",
-  "Wired"
+  "SecurityWeek",
+  "InfoQ",
+  "TechRadar",
+  "9to5Mac"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3256,87 +3264,37 @@
    "source": "Wired",
    "score": 0.2782,
    "at": "2026-10-28T10:55:27.823628+00:00"
+  },
+  {
+   "title": "رفع چهار آسیب‌پذیری بحرانی در نرم‌افزار کنترل تاسیسات تحقیقاتی EPICS",
+   "url": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
+   "source": "SecurityWeek",
+   "score": 0.18073,
+   "at": "2026-10-28T11:26:48.793107+00:00"
+  },
+  {
+   "title": "راهنمای پیاده‌سازی و مدیریت سیستم‌های مشاهده‌پذیری خودمیزبان",
+   "url": "https://www.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.1952,
+   "at": "2026-10-28T11:26:59.434746+00:00"
+  },
+  {
+   "title": "بررسی لپ‌تاپ Asus ProArt P16 با تراشه جدید Nvidia RTX Spark",
+   "url": "https://www.techradar.com/computing/windows-laptops/asus-proart-p16-rtx-spark",
+   "source": "TechRadar",
+   "score": 0.20972,
+   "at": "2026-10-28T11:27:20.933220+00:00"
+  },
+  {
+   "title": "موس جدید با نمایشگر لمسی برای میان‌برهای نرم‌افزاری در Kickstarter",
+   "url": "https://9to5mac.com/2026/10/28/kickstarter-project-offers-touchscreen-mouse-instead-of-a-touchscreen-mac/",
+   "source": "9to5Mac",
+   "score": 0.2323,
+   "at": "2026-10-28T11:27:28.225513+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "12-inch",
-    "13-inch",
-    "brings",
-    "chips",
-    "copilot",
-    "faster",
-    "higher",
-    "laptop",
-    "microsoft",
-    "much",
-    "plus",
-    "prices",
-    "pro",
-    "smaller",
-    "snapdragon",
-    "surface"
-   ],
-   "at": "2026-09-24T22:36:52.406191+00:00"
-  },
-  {
-   "sig": [
-    "alternative",
-    "based",
-    "builds",
-    "dutch",
-    "governments",
-    "microsoft",
-    "nixos"
-   ],
-   "at": "2026-09-25T10:22:20.719142+00:00"
-  },
-  {
-   "sig": [
-    "agent",
-    "announced",
-    "being",
-    "beings",
-    "businesses",
-    "call",
-    "calls",
-    "centers",
-    "coming",
-    "could",
-    "everything",
-    "having",
-    "human",
-    "jasonkoebler.bsky.social",
-    "learned",
-    "like",
-    "media",
-    "meta",
-    "muse",
-    "reality",
-    "reservations",
-    "testing",
-    "these",
-    "things"
-   ],
-   "at": "2026-09-25T15:23:42.760697+00:00"
-  },
-  {
-   "sig": [
-    "11.6",
-    "11.6b",
-    "akamai",
-    "anthropic",
-    "billion",
-    "cloud",
-    "deal",
-    "pay",
-    "seven",
-    "signs",
-    "years"
-   ],
-   "at": "2026-09-25T19:23:55.926358+00:00"
-  },
   {
    "sig": [
     "amounts",
@@ -7819,13 +7777,65 @@
     "want"
    ],
    "at": "2026-10-28T10:55:27.823628+00:00"
+  },
+  {
+   "sig": [
+    "control",
+    "epics",
+    "facility",
+    "flaws",
+    "long-hidden",
+    "patched",
+    "research",
+    "software"
+   ],
+   "at": "2026-10-28T11:26:48.793107+00:00"
+  },
+  {
+   "sig": [
+    "guide",
+    "observability",
+    "presentation",
+    "scale",
+    "self-hosted",
+    "telemetry",
+    "wrangling"
+   ],
+   "at": "2026-10-28T11:26:59.434746+00:00"
+  },
+  {
+   "sig": [
+    "asus",
+    "creative",
+    "gaming",
+    "next-gen",
+    "nvidia",
+    "p16",
+    "power",
+    "proart",
+    "review",
+    "rtx",
+    "soc",
+    "spark",
+    "stellar",
+    "yields"
+   ],
+   "at": "2026-10-28T11:27:20.933220+00:00"
+  },
+  {
+   "sig": [
+    "instead",
+    "kickstarter",
+    "mac",
+    "mouse",
+    "offers",
+    "project",
+    "touchscreen"
+   ],
+   "at": "2026-10-28T11:27:28.225513+00:00"
   }
  ],
  "snapshots": {
-  "hn:50114342": [
-   205,
-   "2026-10-16T14:58:02.164953+00:00"
-  ],
   "hn:50114077": [
    73,
    "2026-10-16T14:58:02.164953+00:00"
@@ -10221,6 +10231,10 @@
   "hn:50270764": [
    86,
    "2026-10-28T10:54:09.489543+00:00"
+  ],
+  "hn:50271032": [
+   153,
+   "2026-10-28T11:26:41.628042+00:00"
   ]
  }
 }
