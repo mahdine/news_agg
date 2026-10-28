@@ -1511,18 +1511,27 @@
   "https://www.engadget.com/2299326/kindle-colorsoft-signature-edition-2026-review/",
   "https://www.engadget.com/2299180/kindle-paperwhite-signature-edition-2026-review/",
   "https://www.securityweek.com/?p=50369",
-  "https://9to5mac.com/?p=1076227"
+  "https://9to5mac.com/?p=1076227",
+  "hn:50273396",
+  "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mywwaogdac23",
+  "hn:50273623",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mywxnueyol2k",
+  "https://www.theverge.com/?p=1020596",
+  "1b79cf09bb5333ffd2d796b35e652d65",
+  "f4gTWxioYDL3Lihe4j2L9W",
+  "https://www.accessnow.org/?post_type=press-release&p=109059"
  ],
  "posted": {
-  "viral": 286,
-  "editorial": 351
+  "viral": 288,
+  "editorial": 354
  },
  "recent_labels": [
-  "Engadget",
-  "Engadget",
-  "Wired",
-  "Tom's Hardware",
-  "SecurityWeek"
+  "Hacker News",
+  "404 Media",
+  "The Verge",
+  "Hi-Tech Mail",
+  "Access Now"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3415,124 +3424,44 @@
    "source": "SecurityWeek",
    "score": 0.24432,
    "at": "2026-10-28T13:56:38.111572+00:00"
+  },
+  {
+   "title": "معرفی پلتفرم متن‌باز CaseCite برای تحقیقات حقوقی با هوش مصنوعی",
+   "url": "https://github.com/thomasunise/casecite",
+   "source": "github.com",
+   "score": 0.55766,
+   "at": "2026-10-28T14:56:14.594713+00:00"
+  },
+  {
+   "title": "امکان اعتراض کاربران اروپایی به استفاده از داده‌ها برای آموزش هوش مصنوعی Meta",
+   "url": "https://www.404media.co/meta-ai-training-uk-eu/",
+   "source": "404media.co",
+   "score": 0.94687,
+   "at": "2026-10-28T14:56:35.001580+00:00"
+  },
+  {
+   "title": "خرید خانه‌های اطراف دیتاسنتر xAI در ازای انصراف از شکایت قضایی",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+   "source": "The Verge",
+   "score": 0.27607,
+   "at": "2026-10-28T14:56:47.934243+00:00"
+  },
+  {
+   "title": "معرفی آداپتور بلوتوث Twelve South AirFly View با صفحه نمایش داخلی",
+   "url": "https://hi-tech.mail.ru/news/159255-twelve-south-vypustila-airfly-view-adapter-dlya-airpods/",
+   "source": "Hi-Tech Mail",
+   "score": 0.19811,
+   "at": "2026-10-28T14:57:28.096902+00:00"
+  },
+  {
+   "title": "گسترش نظارت دیجیتال و هوش مصنوعی در آژانس مرزی اتحادیه اروپا",
+   "url": "https://www.accessnow.org/press-release/eu-transforms-frontex-into-a-high-tech-deportation-command-centre/",
+   "source": "Access Now",
+   "score": 0.31549,
+   "at": "2026-10-28T14:58:04.501818+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "blog",
-    "devday",
-    "event",
-    "events",
-    "five",
-    "francisco",
-    "gather",
-    "keynote",
-    "live",
-    "minutes",
-    "openai",
-    "past",
-    "posting",
-    "protesters",
-    "running",
-    "san",
-    "sep",
-    "simonwillison.net",
-    "starts",
-    "three",
-    "today",
-    "updates",
-    "where",
-    "which"
-   ],
-   "at": "2026-09-29T21:29:39.785335+00:00"
-  },
-  {
-   "sig": [
-    "altman",
-    "intern",
-    "models",
-    "openai",
-    "public",
-    "research",
-    "safe",
-    "sam",
-    "until",
-    "won"
-   ],
-   "at": "2026-09-30T00:42:39.224548+00:00"
-  },
-  {
-   "sig": [
-    "388m",
-    "attacker",
-    "bitget",
-    "exploited",
-    "flaw",
-    "hacked",
-    "product",
-    "products",
-    "security",
-    "steal",
-    "third-party",
-    "via",
-    "zero-day"
-   ],
-   "at": "2026-09-30T11:17:18.573397+00:00"
-  },
-  {
-   "sig": [
-    "all-new",
-    "amazon",
-    "design",
-    "directly",
-    "faster",
-    "fire",
-    "launches",
-    "plus",
-    "power",
-    "pull",
-    "redesigned",
-    "remote",
-    "stick",
-    "there",
-    "thinner",
-    "unveils",
-    "vega"
-   ],
-   "at": "2026-09-30T16:54:39.003788+00:00"
-  },
-  {
-   "sig": [
-    "aging",
-    "android",
-    "apex",
-    "dimensity",
-    "discover",
-    "easy",
-    "galaxy",
-    "ios",
-    "iphone",
-    "making",
-    "pen",
-    "plus",
-    "review",
-    "revisited",
-    "s12",
-    "s26",
-    "s27",
-    "samsung",
-    "smarttag",
-    "smarttag3",
-    "smartwatches",
-    "tab",
-    "tablet",
-    "ultra",
-    "watch",
-    "well"
-   ],
-   "at": "2026-09-30T21:29:56.383954+00:00"
-  },
   {
    "sig": [
     "anthropic",
@@ -7938,25 +7867,72 @@
     "vulnerabilities"
    ],
    "at": "2026-10-28T13:56:38.111572+00:00"
+  },
+  {
+   "sig": [
+    "500m",
+    "built",
+    "harvey",
+    "legal",
+    "open",
+    "raised",
+    "same",
+    "sourced"
+   ],
+   "at": "2026-10-28T14:56:14.594713+00:00"
+  },
+  {
+   "sig": [
+    "allow",
+    "certain",
+    "data",
+    "information",
+    "light",
+    "meta",
+    "object",
+    "option",
+    "people",
+    "scrape",
+    "terms",
+    "users"
+   ],
+   "at": "2026-10-28T14:56:35.001580+00:00"
+  },
+  {
+   "sig": [
+    "buying",
+    "center",
+    "data",
+    "homeowners",
+    "noise",
+    "promise",
+    "sue",
+    "xai"
+   ],
+   "at": "2026-10-28T14:56:47.934243+00:00"
+  },
+  {
+   "sig": [
+    "airfly",
+    "south",
+    "twelve",
+    "view"
+   ],
+   "at": "2026-10-28T14:57:28.096902+00:00"
+  },
+  {
+   "sig": [
+    "centre",
+    "command",
+    "deportation",
+    "frontex",
+    "high-tech",
+    "transforms"
+   ],
+   "at": "2026-10-28T14:58:04.501818+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:hounpx": [
-   51,
-   "2026-10-16T18:53:42.469960+00:00"
-  ],
-  "hn:50118981": [
-   608,
-   "2026-10-16T18:53:42.469960+00:00"
-  ],
-  "hn:50118320": [
-   370,
-   "2026-10-16T18:53:42.469960+00:00"
-  ],
-  "hn:50117382": [
-   321,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxysysjv622c": [
    523,
    "2026-10-16T22:10:14.428840+00:00"
@@ -10340,6 +10316,22 @@
   "hn:50272145": [
    165,
    "2026-10-28T13:53:48.350496+00:00"
+  ],
+  "hn:50273623": [
+   119,
+   "2026-10-28T14:53:42.661446+00:00"
+  ],
+  "hn:50273396": [
+   309,
+   "2026-10-28T14:53:42.661446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mywxnueyol2k": [
+   196,
+   "2026-10-28T14:53:42.661446+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mywwaogdac23": [
+   52,
+   "2026-10-28T14:53:42.661446+00:00"
   ]
  }
 }
