@@ -1405,10 +1405,18 @@
   "lobsters:qd0hc9",
   "hn:50264853",
   "hn:50264857",
-  "hn:50265609"
+  "hn:50265609",
+  "lobsters:tp0zlk",
+  "hn:50260714",
+  "hn:50261583",
+  "hn:50262668",
+  "hn:50262950",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myuyfm6t3c2y",
+  "hn:50266780",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myvlgw362224"
  ],
  "posted": {
-  "viral": 278,
+  "viral": 282,
   "editorial": 304
  },
  "recent_labels": [
@@ -2924,80 +2932,37 @@
    "source": "anthropic.com",
    "score": 0.05517,
    "at": "2026-10-28T01:54:20.664612+00:00"
+  },
+  {
+   "title": "ارتقای ترمینال داخلی محیط‌های توسعه JetBrains با استفاده از libghostty",
+   "url": "https://blog.jetbrains.com/platform/2026/10/jetbrains-terminal-now-uses-ghostty/",
+   "source": "blog.jetbrains.com",
+   "score": 0.00175,
+   "at": "2026-10-28T02:53:57.533317+00:00"
+  },
+  {
+   "title": "چالش‌های شناسایی و وصله‌گذاری سریع آسیب‌پذیری‌های نرم‌افزاری در محیط‌های ابری",
+   "url": "https://cloudsleuth.io/blog/php2shell-litellm-gitlab-find-what-you-run/",
+   "source": "cloudsleuth.io",
+   "score": 0.00182,
+   "at": "2026-10-28T02:54:03.877778+00:00"
+  },
+  {
+   "title": "یوسی کوهن از عملیات جهانی جاسوسی اسرائیل با تجهیزات دستکاری‌شده پرده برداشت",
+   "url": "https://www.theyeshivaworld.com/news/israel-news/2462875/former-mossad-chief-yossi-cohen-planted-devices-like-the-exploding-hezbollah-pagers-are-in-every-country-you-can-imagine.html",
+   "source": "theyeshivaworld.com",
+   "score": 0.00237,
+   "at": "2026-10-28T02:54:09.910156+00:00"
+  },
+  {
+   "title": "شکاف بزرگ میان بررسی‌های اولیه و تجربه واقعی کاربران از محصولات",
+   "url": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners",
+   "source": "bettascore.ai",
+   "score": 0.01174,
+   "at": "2026-10-28T02:54:59.303086+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anthropic",
-    "artifacts",
-    "chat",
-    "claude",
-    "cowork",
-    "directly",
-    "interface",
-    "merges",
-    "merging"
-   ],
-   "at": "2026-09-16T22:15:30.563401+00:00"
-  },
-  {
-   "sig": [
-    "agentic",
-    "bots",
-    "glowing",
-    "mac",
-    "mini",
-    "overkill",
-    "personal",
-    "pro",
-    "pyramid",
-    "runs",
-    "try"
-   ],
-   "at": "2026-09-17T10:13:45.149093+00:00"
-  },
-  {
-   "sig": [
-    "gemini",
-    "had",
-    "own",
-    "replacement",
-    "train"
-   ],
-   "at": "2026-09-17T15:09:26.928996+00:00"
-  },
-  {
-   "sig": [
-    "amazon",
-    "aws",
-    "centers",
-    "clients",
-    "damaged",
-    "data",
-    "drone",
-    "east",
-    "infrastructure",
-    "iranian",
-    "middle",
-    "months",
-    "mulls",
-    "offers",
-    "permanently",
-    "quit",
-    "recovery",
-    "six",
-    "strikes",
-    "tells",
-    "timeline",
-    "uae",
-    "underground",
-    "updated",
-    "us-iran",
-    "war"
-   ],
-   "at": "2026-09-17T19:09:53.194985+00:00"
-  },
   {
    "sig": [
     "bend",
@@ -7677,6 +7642,52 @@
     "progress"
    ],
    "at": "2026-10-28T01:54:20.664612+00:00"
+  },
+  {
+   "sig": [
+    "ides",
+    "jetbrains",
+    "libghostty",
+    "powered"
+   ],
+   "at": "2026-10-28T02:53:57.533317+00:00"
+  },
+  {
+   "sig": [
+    "find",
+    "gitlab",
+    "litellm",
+    "need",
+    "patch",
+    "php2shell"
+   ],
+   "at": "2026-10-28T02:54:03.877778+00:00"
+  },
+  {
+   "sig": [
+    "country",
+    "devices",
+    "every",
+    "exploding",
+    "imagine",
+    "like",
+    "mossad",
+    "pagers"
+   ],
+   "at": "2026-10-28T02:54:09.910156+00:00"
+  },
+  {
+   "sig": [
+    "bring",
+    "often",
+    "owners",
+    "rarely",
+    "reliability",
+    "reviewers",
+    "talk",
+    "twice"
+   ],
+   "at": "2026-10-28T02:54:59.303086+00:00"
   }
  ],
  "snapshots": {
@@ -10013,48 +10024,48 @@
    "2026-10-28T01:53:44.757509+00:00"
   ],
   "hn:50262668": [
-   147,
-   "2026-10-28T01:53:44.757509+00:00"
+   148,
+   "2026-10-28T02:53:42.394204+00:00"
   ],
   "hn:50262229": [
    223,
    "2026-10-28T01:53:44.757509+00:00"
   ],
   "hn:50261647": [
-   259,
-   "2026-10-28T01:53:44.757509+00:00"
+   266,
+   "2026-10-28T02:53:42.394204+00:00"
   ],
   "hn:50261589": [
    627,
    "2026-10-28T01:53:44.757509+00:00"
   ],
   "hn:50260960": [
-   71,
-   "2026-10-28T01:53:44.757509+00:00"
+   72,
+   "2026-10-28T02:53:42.394204+00:00"
   ],
   "hn:50260714": [
-   82,
-   "2026-10-28T01:53:44.757509+00:00"
+   85,
+   "2026-10-28T02:53:42.394204+00:00"
   ],
   "hn:50266780": [
-   175,
-   "2026-10-28T01:53:44.757509+00:00"
+   207,
+   "2026-10-28T02:53:42.394204+00:00"
   ],
   "hn:50265609": [
    354,
    "2026-10-28T01:53:44.757509+00:00"
   ],
   "hn:50265594": [
-   166,
-   "2026-10-28T01:53:44.757509+00:00"
+   195,
+   "2026-10-28T02:53:42.394204+00:00"
   ],
   "hn:50262950": [
-   65,
-   "2026-10-28T01:53:44.757509+00:00"
+   70,
+   "2026-10-28T02:53:42.394204+00:00"
   ],
   "hn:50261583": [
-   81,
-   "2026-10-28T01:53:44.757509+00:00"
+   82,
+   "2026-10-28T02:53:42.394204+00:00"
   ],
   "lobsters:qd0hc9": [
    32,
@@ -10066,19 +10077,19 @@
   ],
   "lobsters:tp0zlk": [
    26,
-   "2026-10-28T01:53:44.757509+00:00"
+   "2026-10-28T02:53:42.394204+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myuyfm6t3c2y": [
    50,
-   "2026-10-28T01:53:44.757509+00:00"
+   "2026-10-28T02:53:42.394204+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myvlgw362224": [
    7,
-   "2026-10-28T01:53:44.757509+00:00"
+   "2026-10-28T02:53:42.394204+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myvbcqqus223": [
-   219,
-   "2026-10-28T01:53:44.757509+00:00"
+   224,
+   "2026-10-28T02:53:42.394204+00:00"
   ]
  }
 }
