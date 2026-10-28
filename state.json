@@ -1464,18 +1464,25 @@
   "https://www.infoq.com/articles/building-offline-first-android-app-low-end-devices/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "TheNextWeb=b9be0191ed55c92c1b8085508c632852",
   "https://www.androidpolice.com/gemini-notebook-record-meetings-catch/",
-  "https://www.neowin.net/news/microsoft-is-removing-sharepoint-server-support-from-mobile-apps-next-month/"
+  "https://www.neowin.net/news/microsoft-is-removing-sharepoint-server-support-from-mobile-apps-next-month/",
+  "hn:50267569",
+  "hn:50270764",
+  "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+  "6ad123ca8f0396c58f0a3709",
+  "https://www.theregister.com/a/5305765",
+  "wKEWsKXV9RZYJ4gWqsvQaX",
+  "6ada507e5e6f399f2e9db2f5"
  ],
  "posted": {
-  "viral": 284,
-  "editorial": 331
+  "viral": 285,
+  "editorial": 335
  },
  "recent_labels": [
-  "InfoQ",
-  "InfoQ",
-  "The Next Web",
-  "Android Police",
-  "Neowin"
+  "Hacker News",
+  "Simon Willison RSS",
+  "Wired",
+  "Tom's Hardware",
+  "Wired"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3214,115 +3221,44 @@
    "source": "Neowin",
    "score": 0.16189,
    "at": "2026-10-28T09:56:18.741484+00:00"
+  },
+  {
+   "title": "انتشار نسخه ۱.۰ سیستم‌عامل سرگرمی Moxnox با معماری مشابه Windows NT",
+   "url": "https://github.com/maharmstone/moxnox",
+   "source": "github.com",
+   "score": 0.03434,
+   "at": "2026-10-28T10:54:35.059714+00:00"
+  },
+  {
+   "title": "رویکرد جدید آمازون به نقش مهندسان نرم‌افزار در عصر هوش مصنوعی",
+   "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+   "source": "Simon Willison RSS",
+   "score": 0.18947,
+   "at": "2026-10-28T10:54:44.718620+00:00"
+  },
+  {
+   "title": "شکست پروژه‌ی هوش مصنوعی اختصاصی در انتشارات مک‌میلان",
+   "url": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed/",
+   "source": "Wired",
+   "score": 0.19102,
+   "at": "2026-10-28T10:54:52.044154+00:00"
+  },
+  {
+   "title": "فروش یک ابرکامپیوتر هوش مصنوعی با ۹۶۰۰ پردازنده گرافیکی در eBay",
+   "url": "https://www.tomshardware.com/desktops/servers/it-vendor-lists-massive-usd60-million-ai-cluster-on-ebay-300x-racks-of-decommissioned-gpus-includes-9-600-nvidia-a100-gpus-and-4-200-amd-epyc-cpus-plus-free-shipping",
+   "source": "Tom's Hardware",
+   "score": 0.20142,
+   "at": "2026-10-28T10:55:16.462694+00:00"
+  },
+  {
+   "title": "تغییر استراتژی Pornhub برای مقابله با قوانین سخت‌گیرانه و سانسور محتوا",
+   "url": "https://www.wired.com/story/adult-video-stars-want-to-teach-you-how-to-make-dinner/",
+   "source": "Wired",
+   "score": 0.2782,
+   "at": "2026-10-28T10:55:27.823628+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agents",
-    "applicants",
-    "breach",
-    "claims",
-    "data",
-    "demands",
-    "fbi",
-    "financially",
-    "hack",
-    "investigating",
-    "job",
-    "motivated",
-    "peoplesoft",
-    "report",
-    "retraction",
-    "shinyhunters",
-    "stole",
-    "theft",
-    "threat",
-    "zero-day"
-   ],
-   "at": "2026-09-23T10:11:55.750378+00:00"
-  },
-  {
-   "sig": [
-    "bbc",
-    "defend",
-    "itself",
-    "jamming",
-    "military",
-    "nations",
-    "other",
-    "satellites",
-    "told"
-   ],
-   "at": "2026-09-23T19:10:12.147757+00:00"
-  },
-  {
-   "sig": [
-    "3.8",
-    "built",
-    "claude",
-    "clone",
-    "conversations",
-    "debate",
-    "flash",
-    "gemini",
-    "generate",
-    "google",
-    "had",
-    "knock",
-    "little",
-    "models",
-    "moving",
-    "multiple",
-    "own",
-    "pacifica",
-    "pelicans",
-    "pier",
-    "playground",
-    "script",
-    "sep",
-    "simonwillison.net",
-    "super-cheap",
-    "tts",
-    "voices",
-    "where"
-   ],
-   "at": "2026-09-23T22:25:25.557297+00:00"
-  },
-  {
-   "sig": [
-    "activity",
-    "agent",
-    "attempts",
-    "early",
-    "found",
-    "hack",
-    "rogue",
-    "urlquery.net"
-   ],
-   "at": "2026-09-24T10:20:02.493788+00:00"
-  },
-  {
-   "sig": [
-    "denier",
-    "election",
-    "flock",
-    "hawley",
-    "hearing",
-    "josh",
-    "journalist-founded",
-    "media",
-    "noted",
-    "owned",
-    "publication",
-    "referenced",
-    "senate",
-    "throughout",
-    "work",
-    "yesterday"
-   ],
-   "at": "2026-09-24T19:22:52.550086+00:00"
-  },
   {
    "sig": [
     "12-inch",
@@ -7825,13 +7761,67 @@
     "support"
    ],
    "at": "2026-10-28T09:56:18.741484+00:00"
+  },
+  {
+   "sig": [
+    "1.0",
+    "atop",
+    "btrfs",
+    "moxnox",
+    "nt-like",
+    "posix-compatible",
+    "running"
+   ],
+   "at": "2026-10-28T10:54:35.059714+00:00"
+  },
+  {
+   "sig": [
+    "quoting",
+    "terk",
+    "terkowitz"
+   ],
+   "at": "2026-10-28T10:54:44.718620+00:00"
+  },
+  {
+   "sig": [
+    "assistant",
+    "killed",
+    "later",
+    "macmillan",
+    "party",
+    "publisher",
+    "staff",
+    "threw",
+    "workplace"
+   ],
+   "at": "2026-10-28T10:54:52.044154+00:00"
+  },
+  {
+   "sig": [
+    "decommissioned",
+    "ebay",
+    "gpus",
+    "lists",
+    "massive",
+    "million",
+    "racks",
+    "supercomputer",
+    "vendor"
+   ],
+   "at": "2026-10-28T10:55:16.462694+00:00"
+  },
+  {
+   "sig": [
+    "dinner",
+    "pornhub",
+    "stars",
+    "teach",
+    "want"
+   ],
+   "at": "2026-10-28T10:55:27.823628+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxxpoesxfj2y": [
-   381,
-   "2026-10-16T10:01:22.607113+00:00"
-  ],
   "hn:50114342": [
    205,
    "2026-10-16T14:58:02.164953+00:00"
@@ -10216,10 +10206,6 @@
    295,
    "2026-10-28T07:53:38.507187+00:00"
   ],
-  "hn:50267569": [
-   95,
-   "2026-10-28T09:55:48.192957+00:00"
-  ],
   "hn:50266719": [
    107,
    "2026-10-28T08:56:12.437797+00:00"
@@ -10227,6 +10213,14 @@
   "lobsters:cpaibp": [
    37,
    "2026-10-28T08:56:12.437797+00:00"
+  ],
+  "hn:50267569": [
+   99,
+   "2026-10-28T10:54:09.489543+00:00"
+  ],
+  "hn:50270764": [
+   86,
+   "2026-10-28T10:54:09.489543+00:00"
   ]
  }
 }
