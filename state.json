@@ -1542,18 +1542,28 @@
   "a40708e8ef577f832c095261c2055c19",
   "https://www.engadget.com/2300009/heres-how-the-touchscreen-on-the-macbook-pro-with-proled-display-works/",
   "https://www.engadget.com/2299925/apples-redesigned-macbook-pro-has-an-oled-touchscreen-weighs-just-three-pounds/",
-  "DsfZ2gq6hxmHznVMir4jua"
+  "DsfZ2gq6hxmHznVMir4jua",
+  "hn:50275373",
+  "https://www.theregister.com/a/5306090",
+  "AevphxvmYVYDXtqDM3nbYW",
+  "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+  "https://tech.slashdot.org/story/26/10/28/0313217/google-begins-certifying-registered-app-stores-for-android?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myxc5zvdrm2o",
+  "https://www.techspot.com/news/114356-grand-theft-auto-vi-huge-210-gb-download.html",
+  "https://www.neowin.net/news/looks-like-grand-theft-auto-vi-could-require-a-massive-210gb-download/",
+  "https://www.langchain.com/blog/the-art-of-loop-engineering",
+  "1393565"
  ],
  "posted": {
-  "viral": 292,
-  "editorial": 360
+  "viral": 293,
+  "editorial": 364
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "The Verge",
-  "9to5Mac"
+  "The Register",
+  "The Hacker News",
+  "LangChain Blog",
+  "ZDNet"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3551,93 +3561,44 @@
    "source": "9to5Mac",
    "score": 0.50709,
    "at": "2026-10-28T17:55:36.209441+00:00"
+  },
+  {
+   "title": "سرویس Archive.today محدودیت‌های جدیدی برای لینک‌دهی اعمال می‌کند",
+   "url": "https://www.reddit.com/r/Seattle/comments/1xhf6qp/archivetoday_links_going_forward/",
+   "source": "reddit.com",
+   "score": 0.04417,
+   "at": "2026-10-28T18:24:35.577379+00:00"
+  },
+  {
+   "title": "توصیه آمازون به توسعه‌دهندگان برای تمرکز بر اهداف کاربردی به جای هوش مصنوعی",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/28/amazon-tells-tokenmaxxing-devs-to-slow-their-ai-roll/5306090",
+   "source": "The Register",
+   "score": 0.243,
+   "at": "2026-10-28T18:24:44.575917+00:00"
+  },
+  {
+   "title": "نصب تک‌لمسی برنامه‌ها از استورهای شخص ثالث در Android",
+   "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+   "source": "The Hacker News",
+   "score": 0.28794,
+   "at": "2026-10-28T18:25:51.904109+00:00"
+  },
+  {
+   "title": "مهندسی حلقه‌های بازخورد برای بهبود عملکرد ایجنت‌های هوش مصنوعی",
+   "url": "https://www.langchain.com/blog/the-art-of-loop-engineering",
+   "source": "LangChain Blog",
+   "score": 0.18134,
+   "at": "2026-10-28T18:26:44.686784+00:00"
+  },
+  {
+   "title": "قابلیت‌های جدید Claude Enterprise برای مدیریت هزینه‌ها و بازدهی هوش مصنوعی",
+   "url": "https://www.zdnet.com/innovation/claude-enterprise-efficiency-cost-tracking/",
+   "source": "ZDNet",
+   "score": 0.18763,
+   "at": "2026-10-28T18:28:00.784509+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "5.5",
-    "claude",
-    "code",
-    "getting",
-    "opus"
-   ],
-   "at": "2026-10-03T22:17:20.923478+00:00"
-  },
-  {
-   "sig": [
-    "derive",
-    "implies",
-    "inline",
-    "often",
-    "rust"
-   ],
-   "at": "2026-10-04T11:12:37.414942+00:00"
-  },
-  {
-   "sig": [
-    "clever",
-    "code",
-    "database",
-    "doom",
-    "expert",
-    "lines",
-    "run",
-    "runs",
-    "someone",
-    "sql"
-   ],
-   "at": "2026-10-04T15:54:25.990743+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "call",
-    "disable",
-    "features",
-    "five",
-    "free",
-    "intelligence",
-    "iphone",
-    "max",
-    "pro",
-    "replace",
-    "restrict",
-    "second",
-    "text",
-    "try",
-    "unbox",
-    "want"
-   ],
-   "at": "2026-10-04T19:44:27.977509+00:00"
-  },
-  {
-   "sig": [
-    "action",
-    "actively",
-    "alarm",
-    "allows",
-    "arbitrary",
-    "attacks",
-    "calls",
-    "citrix",
-    "critical",
-    "exploited",
-    "file",
-    "flaw",
-    "fortimail",
-    "fortinet",
-    "netscaler",
-    "patches",
-    "saml",
-    "sounds",
-    "unauthenticated",
-    "urgent",
-    "writes",
-    "zero-day"
-   ],
-   "at": "2026-10-04T23:25:15.499286+00:00"
-  },
   {
    "sig": [
     "8.8",
@@ -8003,13 +7964,72 @@
     "xdr"
    ],
    "at": "2026-10-28T17:55:36.209441+00:00"
+  },
+  {
+   "sig": [
+    "archive.today",
+    "forward",
+    "going",
+    "links"
+   ],
+   "at": "2026-10-28T18:24:35.577379+00:00"
+  },
+  {
+   "sig": [
+    "amazon",
+    "devs",
+    "engineers",
+    "look",
+    "productive",
+    "roll",
+    "slow",
+    "stop",
+    "tells",
+    "tokenmaxxing"
+   ],
+   "at": "2026-10-28T18:24:44.575917+00:00"
+  },
+  {
+   "sig": [
+    "allow",
+    "android",
+    "app",
+    "approved",
+    "begins",
+    "certifying",
+    "google",
+    "installs",
+    "one-tap",
+    "outside",
+    "registered",
+    "stores",
+    "third-party",
+    "u.s"
+   ],
+   "at": "2026-10-28T18:25:51.904109+00:00"
+  },
+  {
+   "sig": [
+    "art",
+    "engineering",
+    "loop"
+   ],
+   "at": "2026-10-28T18:26:44.686784+00:00"
+  },
+  {
+   "sig": [
+    "claude",
+    "enterprise",
+    "features",
+    "let",
+    "roi",
+    "these",
+    "track"
+   ],
+   "at": "2026-10-28T18:28:00.784509+00:00"
   }
  ],
  "snapshots": {
-  "hn:50119991": [
-   290,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
   "hn:50118977": [
    234,
    "2026-10-16T22:10:14.428840+00:00"
@@ -10390,10 +10410,6 @@
    161,
    "2026-10-28T17:53:44.895842+00:00"
   ],
-  "hn:50275373": [
-   171,
-   "2026-10-28T17:53:44.895842+00:00"
-  ],
   "hn:50274706": [
    215,
    "2026-10-28T17:53:44.895842+00:00"
@@ -10405,6 +10421,14 @@
   "hn:50271271": [
    103,
    "2026-10-28T17:53:44.895842+00:00"
+  ],
+  "hn:50275373": [
+   212,
+   "2026-10-28T18:24:18.841169+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myxc5zvdrm2o": [
+   15,
+   "2026-10-28T18:24:18.841169+00:00"
   ]
  }
 }
