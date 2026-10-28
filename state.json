@@ -1479,18 +1479,27 @@
   "b5d8b5ae572eedceaa5002459bbef5d4",
   "JvbP3dvtTeB3RJfRSjT3yT",
   "T5ayaBTuq2w9WrKEZfHNme",
-  "https://9to5mac.com/?p=1076184"
+  "https://9to5mac.com/?p=1076184",
+  "https://www.engadget.com/2299227/meta-tamagotchi-like-ai-digital-pet-app-waddle-world/",
+  "https://www.theverge.com/?p=1020410",
+  "https://www.techspot.com/news/114360-microsoft-tricks-keep-users-edge-detailed-new-report.html",
+  "https://www.neowin.net/reports/new-report-slams-microsoft-for-leveraging-dark-patterns-to-force-people-to-use-edge/",
+  "https://www.theverge.com/?p=1020012",
+  "Aq8HkER7LFrPcAp92xok2M",
+  "https://www.theregister.com/a/5305936",
+  "TheNextWeb=73c58a14d93ab9c29b514e91a846df85",
+  "https://techcrunch.com/?p=3182387"
  ],
  "posted": {
   "viral": 285,
-  "editorial": 339
+  "editorial": 344
  },
  "recent_labels": [
-  "Wired",
-  "SecurityWeek",
-  "InfoQ",
-  "TechRadar",
-  "9to5Mac"
+  "Engadget",
+  "TechSpot",
+  "The Verge",
+  "The Register",
+  "The Next Web"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3292,78 +3301,44 @@
    "source": "9to5Mac",
    "score": 0.2323,
    "at": "2026-10-28T11:27:28.225513+00:00"
+  },
+  {
+   "title": "عرضه‌ی اپلیکیشن حیوان خانگی مجازی Meta با قابلیت‌های هوش مصنوعی",
+   "url": "https://www.engadget.com/2299227/meta-tamagotchi-like-ai-digital-pet-app-waddle-world/",
+   "source": "Engadget",
+   "score": 0.46124,
+   "at": "2026-10-28T11:53:49.536977+00:00"
+  },
+  {
+   "title": "استفاده مایکروسافت از الگوهای طراحی فریبنده برای حفظ کاربران در Edge",
+   "url": "https://www.techspot.com/news/114360-microsoft-tricks-keep-users-edge-detailed-new-report.html",
+   "source": "TechSpot",
+   "score": 0.28077,
+   "at": "2026-10-28T11:53:55.334091+00:00"
+  },
+  {
+   "title": "تلاش متا برای تخریب چهره علمی جان هایت در اسناد دادگاه",
+   "url": "https://www.theverge.com/policy/1020012/meta-jonathan-haidt-social-media-mental-health",
+   "source": "The Verge",
+   "score": 0.22932,
+   "at": "2026-10-28T11:54:01.781207+00:00"
+  },
+  {
+   "title": "حمله سایبری مبتنی بر هوش مصنوعی به داده‌های مشتریان 123 Reg",
+   "url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+   "source": "The Register",
+   "score": 0.26317,
+   "at": "2026-10-28T11:54:08.408367+00:00"
+  },
+  {
+   "title": "شکایت والدین از OpenAI به دلیل توصیه‌های پزشکی مرگبار ChatGPT",
+   "url": "https://thenextweb.com/news/parents-sue-openai-chatgpt-seizure-medication",
+   "source": "The Next Web",
+   "score": 0.47658,
+   "at": "2026-10-28T11:54:14.660708+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "amounts",
-    "around",
-    "business",
-    "completely",
-    "drinks",
-    "easy",
-    "model",
-    "people",
-    "placebo",
-    "put",
-    "putting",
-    "roofies",
-    "show",
-    "start-up",
-    "stunt",
-    "unclear",
-    "went"
-   ],
-   "at": "2026-09-25T22:36:39.954883+00:00"
-  },
-  {
-   "sig": [
-    "american",
-    "captchas",
-    "don",
-    "human",
-    "prove"
-   ],
-   "at": "2026-09-26T10:03:22.962223+00:00"
-  },
-  {
-   "sig": [
-    "actions",
-    "active",
-    "back",
-    "came",
-    "compromised",
-    "executing",
-    "github",
-    "malware",
-    "mini",
-    "online",
-    "payload",
-    "re-enabled",
-    "resumed",
-    "shai-hulud",
-    "still"
-   ],
-   "at": "2026-09-26T14:38:53.223325+00:00"
-  },
-  {
-   "sig": [
-    "fbi-hack-exp",
-    "oops",
-    "www.404media.co"
-   ],
-   "at": "2026-09-26T18:40:25.936937+00:00"
-  },
-  {
-   "sig": [
-    "compute",
-    "deepseek",
-    "dsec",
-    "elastic"
-   ],
-   "at": "2026-09-26T22:03:48.757381+00:00"
-  },
   {
    "sig": [
     "astra",
@@ -7833,6 +7808,83 @@
     "touchscreen"
    ],
    "at": "2026-10-28T11:27:28.225513+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "journal",
+    "launched",
+    "meta",
+    "pet",
+    "quietly",
+    "tamagotchi-like",
+    "waddle",
+    "world"
+   ],
+   "at": "2026-10-28T11:53:49.536977+00:00"
+  },
+  {
+   "sig": [
+    "dark",
+    "detailed",
+    "edge",
+    "force",
+    "identifying",
+    "keep",
+    "leveraging",
+    "microsoft",
+    "patterns",
+    "people",
+    "report",
+    "slams",
+    "tricks",
+    "users"
+   ],
+   "at": "2026-10-28T11:53:55.334091+00:00"
+  },
+  {
+   "sig": [
+    "academics",
+    "considered",
+    "haidt",
+    "jonathan",
+    "meta",
+    "strategy",
+    "turn",
+    "whisper"
+   ],
+   "at": "2026-10-28T11:54:01.781207+00:00"
+  },
+  {
+   "sig": [
+    "china",
+    "customer",
+    "cyberattack",
+    "data",
+    "discloses",
+    "nexus",
+    "reg",
+    "suspects"
+   ],
+   "at": "2026-10-28T11:54:08.408367+00:00"
+  },
+  {
+   "sig": [
+    "advice",
+    "alleging",
+    "chatgpt",
+    "coached",
+    "cut",
+    "daughter",
+    "drug",
+    "gpt-4o",
+    "medication",
+    "openai",
+    "parents",
+    "seizure",
+    "sue"
+   ],
+   "at": "2026-10-28T11:54:14.660708+00:00"
   }
  ],
  "snapshots": {
