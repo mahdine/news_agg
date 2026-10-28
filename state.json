@@ -1530,18 +1530,30 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myx2gzele22e",
   "112490 at https://www.eff.org",
   "Ls3C9PyT936zaKzLVyVxyU",
-  "https://techcrunch.com/?p=3182513"
+  "https://techcrunch.com/?p=3182513",
+  "hn:50271271",
+  "hn:50273192",
+  "hn:50274706",
+  "hn:50275626",
+  "https://www.theverge.com/?p=1020626",
+  "https://techcrunch.com/?p=3182578",
+  "https://9to5mac.com/?p=1076237",
+  "hn:50276940",
+  "a40708e8ef577f832c095261c2055c19",
+  "https://www.engadget.com/2300009/heres-how-the-touchscreen-on-the-macbook-pro-with-proled-display-works/",
+  "https://www.engadget.com/2299925/apples-redesigned-macbook-pro-has-an-oled-touchscreen-weighs-just-three-pounds/",
+  "DsfZ2gq6hxmHznVMir4jua"
  ],
  "posted": {
-  "viral": 289,
-  "editorial": 358
+  "viral": 292,
+  "editorial": 360
  },
  "recent_labels": [
-  "Engadget",
-  "404 Media",
-  "EFF",
-  "Tom's Hardware",
-  "TechCrunch AI"
+  "Hacker News",
+  "Hacker News",
+  "Hacker News",
+  "The Verge",
+  "9to5Mac"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3504,88 +3516,44 @@
    "source": "TechCrunch AI",
    "score": 0.25018,
    "at": "2026-10-28T15:57:27.308850+00:00"
+  },
+  {
+   "title": "تناقض در سیاست‌های مایکروسافت و اپیک گیمز پیرامون استفاده از هوش مصنوعی",
+   "url": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316",
+   "source": "kotaku.com",
+   "score": 0.05828,
+   "at": "2026-10-28T17:54:05.179242+00:00"
+  },
+  {
+   "title": "راهکارهای Valve برای مقابله با بازی‌های کپی‌شده توسط هوش مصنوعی",
+   "url": "https://www.invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
+   "source": "invenglobal.com",
+   "score": 0.14684,
+   "at": "2026-10-28T17:54:16.999281+00:00"
+  },
+  {
+   "title": "ارزیابی عملکرد مدل‌های هوش مصنوعی در انجام وظایف تخصصی مالیاتی",
+   "url": "https://surgehq.ai/blog/dayjob-tax",
+   "source": "surgehq.ai",
+   "score": 0.34388,
+   "at": "2026-10-28T17:54:56.387424+00:00"
+  },
+  {
+   "title": "قابلیت تکمیل خودکار گوگل کروم با هوش مصنوعی Gemini هوشمندتر شد",
+   "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+   "source": "The Verge",
+   "score": 0.44939,
+   "at": "2026-10-28T17:55:18.786703+00:00"
+  },
+  {
+   "title": "معرفی مک‌بوک پرو جدید با نمایشگر لمسی و طراحی باریک‌تر",
+   "url": "https://9to5mac.com/2026/10/28/apple-announces-redesigned-macbook-pro-its-first-touchscreen-mac/",
+   "source": "9to5Mac",
+   "score": 0.50709,
+   "at": "2026-10-28T17:55:36.209441+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "build",
-    "code",
-    "gadgets",
-    "let",
-    "meta",
-    "muse",
-    "open",
-    "own",
-    "people",
-    "sources",
-    "too",
-    "wants"
-   ],
-   "at": "2026-10-02T21:24:15.864906+00:00"
-  },
-  {
-   "sig": [
-    "actually",
-    "add",
-    "cases",
-    "company",
-    "facial",
-    "fbi",
-    "flock",
-    "hack",
-    "massive",
-    "muse",
-    "onto",
-    "people",
-    "recognition",
-    "wants"
-   ],
-   "at": "2026-10-03T00:36:19.075975+00:00"
-  },
-  {
-   "sig": [
-    "fix",
-    "google",
-    "month",
-    "pixel",
-    "pro",
-    "restarted",
-    "still",
-    "tap-to-pay",
-    "three",
-    "times",
-    "wallet",
-    "ways",
-    "won",
-    "working"
-   ],
-   "at": "2026-10-03T10:31:16.875995+00:00"
-  },
-  {
-   "sig": [
-    "because",
-    "broken",
-    "culture",
-    "openai",
-    "quit"
-   ],
-   "at": "2026-10-03T15:11:23.718678+00:00"
-  },
-  {
-   "sig": [
-    "amazon",
-    "backlash",
-    "center",
-    "centers",
-    "data",
-    "longer",
-    "ndas",
-    "responds",
-    "using"
-   ],
-   "at": "2026-10-03T18:46:13.214250+00:00"
-  },
   {
    "sig": [
     "5.5",
@@ -7958,33 +7926,86 @@
     "wave"
    ],
    "at": "2026-10-28T15:57:27.308850+00:00"
+  },
+  {
+   "sig": [
+    "agree",
+    "epic",
+    "games",
+    "microsoft",
+    "suddenly",
+    "theft"
+   ],
+   "at": "2026-10-28T17:54:05.179242+00:00"
+  },
+  {
+   "sig": [
+    "clones",
+    "developers",
+    "fearing",
+    "responds",
+    "slop",
+    "valve"
+   ],
+   "at": "2026-10-28T17:54:16.999281+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "assignments",
+    "dayjob",
+    "evaluating",
+    "professional",
+    "tax"
+   ],
+   "at": "2026-10-28T17:54:56.387424+00:00"
+  },
+  {
+   "sig": [
+    "ai-powered",
+    "autofill",
+    "chrome",
+    "dig",
+    "enhanced",
+    "fill",
+    "forms",
+    "gmail",
+    "help",
+    "info",
+    "pull",
+    "through"
+   ],
+   "at": "2026-10-28T17:55:18.786703+00:00"
+  },
+  {
+   "sig": [
+    "all-new",
+    "announces",
+    "apple",
+    "display",
+    "event",
+    "first",
+    "here",
+    "live",
+    "mac",
+    "macbook",
+    "max",
+    "oled",
+    "pounds",
+    "pro",
+    "proled",
+    "redesigned",
+    "three",
+    "touch",
+    "touchscreen",
+    "weighs",
+    "works",
+    "xdr"
+   ],
+   "at": "2026-10-28T17:55:36.209441+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxyr7h3qsb2v": [
-   109,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50121179": [
-   916,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50120664": [
-   540,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50120224": [
-   428,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50120101": [
-   379,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50120010": [
-   196,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
   "hn:50119991": [
    290,
    "2026-10-16T22:10:14.428840+00:00"
@@ -10360,6 +10381,30 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myx2gzele22e": [
    116,
    "2026-10-28T15:53:46.007940+00:00"
+  ],
+  "hn:50276940": [
+   560,
+   "2026-10-28T17:53:44.895842+00:00"
+  ],
+  "hn:50275626": [
+   161,
+   "2026-10-28T17:53:44.895842+00:00"
+  ],
+  "hn:50275373": [
+   171,
+   "2026-10-28T17:53:44.895842+00:00"
+  ],
+  "hn:50274706": [
+   215,
+   "2026-10-28T17:53:44.895842+00:00"
+  ],
+  "hn:50273192": [
+   181,
+   "2026-10-28T17:53:44.895842+00:00"
+  ],
+  "hn:50271271": [
+   103,
+   "2026-10-28T17:53:44.895842+00:00"
   ]
  }
 }
