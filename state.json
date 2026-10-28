@@ -1422,18 +1422,26 @@
   "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myvbcqqus223",
   "KqocsMXiZuUjz6jwqN8Qac",
-  "https://9to5mac.com/?p=1076175"
+  "https://9to5mac.com/?p=1076175",
+  "https://it.slashdot.org/story/26/10/27/2121232/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50265393",
+  "https://www.phoronix.com/news/Wine-Mesa-Map-Buffer-Client-Ptr",
+  "44820f8166ace89852e3e86097969b65",
+  "https://news.slashdot.org/story/26/10/27/2325218/greenhouse-gas-levels-set-records-in-2025-un-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.neowin.net/news/microsofts-mai-image-27-preview-beats-openais-gpt-image-25-flare-in-image-editing/",
+  "https://www.androidpolice.com/android-18-phonebook-much-needed-privacy-upgrade/",
+  "4d67c95a4687ca6b6ef6c45d104440b0"
  ],
  "posted": {
   "viral": 282,
-  "editorial": 309
+  "editorial": 314
  },
  "recent_labels": [
-  "Tom's Hardware",
-  "Tom's Hardware",
-  "Ars Technica",
-  "TechRadar",
-  "9to5Mac"
+  "Slashdot",
+  "Phoronix",
+  "Neowin",
+  "Android Police",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3004,78 +3012,44 @@
    "source": "9to5Mac",
    "score": 0.07897,
    "at": "2026-10-28T03:54:24.259929+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری بحرانی در فریم‌ور UEFI اکثر سرورهای جهان را تهدید می‌کند",
+   "url": "https://it.slashdot.org/story/26/10/27/2121232/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.07997,
+   "at": "2026-10-28T04:56:14.859919+00:00"
+  },
+  {
+   "title": "بهبود اجرای بازی‌های ۳۲ بیتی ویندوز در محیط Wine",
+   "url": "https://www.phoronix.com/news/Wine-Mesa-Map-Buffer-Client-Ptr",
+   "source": "Phoronix",
+   "score": 0.03476,
+   "at": "2026-10-28T04:56:21.151966+00:00"
+  },
+  {
+   "title": "برتری مدل تصویری مایکروسافت در بنچمارک‌های جدید ویرایش تصویر",
+   "url": "https://www.neowin.net/news/microsofts-mai-image-27-preview-beats-openais-gpt-image-25-flare-in-image-editing/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.13331,
+   "at": "2026-10-28T04:56:32.046029+00:00"
+  },
+  {
+   "title": "ارتقای امنیت دفترچه تلفن در اندروید ۱۸ با محدودسازی دسترسی برنامه‌ها",
+   "url": "https://www.androidpolice.com/android-18-phonebook-much-needed-privacy-upgrade/",
+   "source": "Android Police",
+   "score": 0.16869,
+   "at": "2026-10-28T04:56:38.609897+00:00"
+  },
+  {
+   "title": "اختلال گسترده در شبکه اپراتور MegaFon روسیه",
+   "url": "https://hi-tech.mail.ru/news/145607-chto-segodnya-s-megafon/",
+   "source": "Hi-Tech Mail",
+   "score": 0.16996,
+   "at": "2026-10-28T04:56:46.897026+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "astra",
-    "cipher",
-    "german",
-    "gpt-6",
-    "radio",
-    "solves",
-    "wwi"
-   ],
-   "at": "2026-09-19T09:40:02.392515+00:00"
-  },
-  {
-   "sig": [
-    "another",
-    "don",
-    "galaxy",
-    "health",
-    "need",
-    "review",
-    "s27",
-    "samsung",
-    "score",
-    "ultra",
-    "watch9"
-   ],
-   "at": "2026-09-19T13:57:56.999666+00:00"
-  },
-  {
-   "sig": [
-    "actual",
-    "attention",
-    "concise",
-    "danieldrucker.bsky.social",
-    "discourse",
-    "diverts",
-    "encapsulation",
-    "energy",
-    "harms",
-    "incredibly",
-    "like",
-    "phdhurtbrain.bsky.social",
-    "real",
-    "superintelligence",
-    "thank",
-    "would"
-   ],
-   "at": "2026-09-19T17:21:31.942376+00:00"
-  },
-  {
-   "sig": [
-    "companies",
-    "environment",
-    "escaped",
-    "gemini",
-    "google",
-    "hack",
-    "hacked",
-    "hid",
-    "latest",
-    "model",
-    "other",
-    "rogue",
-    "testing",
-    "three",
-    "went"
-   ],
-   "at": "2026-09-19T19:27:25.765342+00:00"
-  },
   {
    "sig": [
     "director",
@@ -7721,13 +7695,65 @@
     "wave"
    ],
    "at": "2026-10-28T03:54:24.259929+00:00"
+  },
+  {
+   "sig": [
+    "code-execution",
+    "earth",
+    "firmware",
+    "flaw",
+    "planet",
+    "servers",
+    "threatens",
+    "uefi"
+   ],
+   "at": "2026-10-28T04:56:14.859919+00:00"
+  },
+  {
+   "sig": [
+    "32-bit",
+    "buffer",
+    "client",
+    "improve",
+    "map",
+    "merges",
+    "mesa",
+    "opengl",
+    "pointer",
+    "support",
+    "wine",
+    "wow64"
+   ],
+   "at": "2026-10-28T04:56:21.151966+00:00"
+  },
+  {
+   "sig": [
+    "2.5",
+    "beats",
+    "editing",
+    "flare",
+    "gpt",
+    "image",
+    "mai-image-2.7",
+    "microsoft",
+    "openai",
+    "preview"
+   ],
+   "at": "2026-10-28T04:56:32.046029+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "give",
+    "much-needed",
+    "phonebook",
+    "privacy",
+    "upgrade"
+   ],
+   "at": "2026-10-28T04:56:38.609897+00:00"
   }
  ],
  "snapshots": {
-  "hn:50111742": [
-   92,
-   "2026-10-16T10:01:22.607113+00:00"
-  ],
   "lobsters:xiq59t": [
    130,
    "2026-10-16T10:01:22.607113+00:00"
@@ -10056,21 +10082,29 @@
    392,
    "2026-10-28T01:53:44.757509+00:00"
   ],
-  "hn:50262668": [
-   148,
-   "2026-10-28T02:53:42.394204+00:00"
-  ],
   "hn:50262229": [
    223,
    "2026-10-28T01:53:44.757509+00:00"
   ],
-  "hn:50261647": [
-   278,
-   "2026-10-28T03:53:45.107528+00:00"
-  ],
   "hn:50261589": [
    627,
    "2026-10-28T01:53:44.757509+00:00"
+  ],
+  "hn:50265609": [
+   354,
+   "2026-10-28T01:53:44.757509+00:00"
+  ],
+  "lobsters:qd0hc9": [
+   32,
+   "2026-10-28T01:53:44.757509+00:00"
+  ],
+  "lobsters:d09iy3": [
+   41,
+   "2026-10-28T01:53:44.757509+00:00"
+  ],
+  "hn:50262668": [
+   148,
+   "2026-10-28T02:53:42.394204+00:00"
   ],
   "hn:50260960": [
    72,
@@ -10084,14 +10118,6 @@
    207,
    "2026-10-28T02:53:42.394204+00:00"
   ],
-  "hn:50265609": [
-   354,
-   "2026-10-28T01:53:44.757509+00:00"
-  ],
-  "hn:50265594": [
-   219,
-   "2026-10-28T03:53:45.107528+00:00"
-  ],
   "hn:50262950": [
    70,
    "2026-10-28T02:53:42.394204+00:00"
@@ -10099,14 +10125,6 @@
   "hn:50261583": [
    82,
    "2026-10-28T02:53:42.394204+00:00"
-  ],
-  "lobsters:qd0hc9": [
-   32,
-   "2026-10-28T01:53:44.757509+00:00"
-  ],
-  "lobsters:d09iy3": [
-   41,
-   "2026-10-28T01:53:44.757509+00:00"
   ],
   "lobsters:tp0zlk": [
    26,
@@ -10120,9 +10138,21 @@
    7,
    "2026-10-28T02:53:42.394204+00:00"
   ],
+  "hn:50261647": [
+   278,
+   "2026-10-28T03:53:45.107528+00:00"
+  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myvbcqqus223": [
    239,
    "2026-10-28T03:53:45.107528+00:00"
+  ],
+  "hn:50265594": [
+   242,
+   "2026-10-28T04:56:12.257673+00:00"
+  ],
+  "hn:50265393": [
+   92,
+   "2026-10-28T04:56:12.257673+00:00"
   ]
  }
 }
