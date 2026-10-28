@@ -1413,18 +1413,27 @@
   "hn:50262950",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myuyfm6t3c2y",
   "hn:50266780",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myvlgw362224"
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myvlgw362224",
+  "G9zaqrcDoWpP6NmMQAv949",
+  "https://www.techspot.com/news/114344-researchers-set-real-time-fiber-record-32-petabits.html",
+  "3nuHhHCo7fFwEDBvUvfTKb",
+  "https://techcrunch.com/?p=3182406",
+  "hn:50261647",
+  "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myvbcqqus223",
+  "KqocsMXiZuUjz6jwqN8Qac",
+  "https://9to5mac.com/?p=1076175"
  ],
  "posted": {
   "viral": 282,
-  "editorial": 304
+  "editorial": 309
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News"
+  "Tom's Hardware",
+  "Tom's Hardware",
+  "Ars Technica",
+  "TechRadar",
+  "9to5Mac"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -2960,101 +2969,44 @@
    "source": "bettascore.ai",
    "score": 0.01174,
    "at": "2026-10-28T02:54:59.303086+00:00"
+  },
+  {
+   "title": "ثبت رکورد جهانی جدید در سرعت انتقال داده با فیبر نوری",
+   "url": "https://www.tomshardware.com/networking/3-2-pb-s-real-time-optical-fiber-transfer-speed-world-record-claimed-by-chinese-team-speed-fast-enough-to-download-more-than-20-000-4k-movies-in-one-second",
+   "source": "Tom's Hardware",
+   "score": 0.04936,
+   "at": "2026-10-28T03:53:53.347716+00:00"
+  },
+  {
+   "title": "عرضه‌ی اولیه‌ی سهام Anthropic با ارزش احتمالی ۲ تریلیون دلار",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-prepares-for-potential-usd2-trillion-ipo-valuation-after-reporting-billions-in-revenue-company-warns-ai-could-pose-catastrophic-existential-risks-to-humanity",
+   "source": "Tom's Hardware",
+   "score": 0.12858,
+   "at": "2026-10-28T03:53:58.931627+00:00"
+  },
+  {
+   "title": "شناسایی حفره امنیتی بحرانی در فریم‌ور UEFI سرورها",
+   "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+   "source": "Ars Technica",
+   "score": 0.13002,
+   "at": "2026-10-28T03:54:09.957260+00:00"
+  },
+  {
+   "title": "استفاده روسیه از مدل زبانی GigaChat برای طراحی هواپیماهای نظامی و غیرنظامی",
+   "url": "https://www.techradar.com/pro/moscow-could-design-an-f-22-rival-using-an-ai-model-from-russias-jpmorgan-chase-sberbank-gigachat-used-its-llm-for-a-generative-design-of-a-new-aircraft",
+   "source": "TechRadar",
+   "score": 0.07019,
+   "at": "2026-10-28T03:54:17.041155+00:00"
+  },
+  {
+   "title": "ثبات قیمت در نسل جدید مک‌های مجهز به تراشه M6",
+   "url": "https://9to5mac.com/2026/10/27/new-m6-macs-buck-apples-second-wave-of-price-hikes/",
+   "source": "9to5Mac",
+   "score": 0.07897,
+   "at": "2026-10-28T03:54:24.259929+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "bend",
-    "blocks",
-    "cpu",
-    "gpu",
-    "language",
-    "mistakes",
-    "proof",
-    "via"
-   ],
-   "at": "2026-09-17T22:19:37.091272+00:00"
-  },
-  {
-   "sig": [
-    "attackers",
-    "check",
-    "code",
-    "critical",
-    "execute",
-    "flaw",
-    "hackers",
-    "lets",
-    "management",
-    "point",
-    "privileges",
-    "root",
-    "run",
-    "unauthenticated"
-   ],
-   "at": "2026-09-18T09:57:39.109793+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "coding",
-    "design",
-    "empirical",
-    "harness",
-    "study"
-   ],
-   "at": "2026-09-18T14:35:19.300629+00:00"
-  },
-  {
-   "sig": [
-    "companies",
-    "damning",
-    "easy",
-    "hide",
-    "human",
-    "immediate",
-    "indictments",
-    "jasonkoebler.bsky.social",
-    "labor",
-    "llms",
-    "pose",
-    "public",
-    "reports",
-    "see",
-    "statements",
-    "threat",
-    "trained",
-    "wanted",
-    "ways",
-    "were",
-    "work"
-   ],
-   "at": "2026-09-18T18:36:22.816798+00:00"
-  },
-  {
-   "sig": [
-    "access",
-    "extruding",
-    "falling",
-    "heavily",
-    "idea",
-    "information",
-    "keep",
-    "machines",
-    "marketing",
-    "people",
-    "since",
-    "synthetic",
-    "terrible",
-    "text",
-    "using",
-    "way",
-    "yelling",
-    "yet"
-   ],
-   "at": "2026-09-18T21:46:33.199922+00:00"
-  },
   {
    "sig": [
     "astra",
@@ -7688,6 +7640,87 @@
     "twice"
    ],
    "at": "2026-10-28T02:54:59.303086+00:00"
+  },
+  {
+   "sig": [
+    "10.3",
+    "3.2",
+    "chinese",
+    "claimed",
+    "fiber",
+    "kilometers",
+    "optical",
+    "per",
+    "petabits",
+    "real-time",
+    "record",
+    "researchers",
+    "second",
+    "set",
+    "speed",
+    "team",
+    "transfer",
+    "world"
+   ],
+   "at": "2026-10-28T03:53:53.347716+00:00"
+  },
+  {
+   "sig": [
+    "amazon",
+    "anthropic",
+    "billions",
+    "ipo",
+    "much",
+    "potential",
+    "prepares",
+    "reporting",
+    "revenue",
+    "set",
+    "trillion",
+    "valuation",
+    "vcs"
+   ],
+   "at": "2026-10-28T03:53:58.931627+00:00"
+  },
+  {
+   "sig": [
+    "arstechnica.com",
+    "kill",
+    "security"
+   ],
+   "at": "2026-10-28T03:54:09.957260+00:00"
+  },
+  {
+   "sig": [
+    "aircraft",
+    "chase",
+    "could",
+    "design",
+    "f-22",
+    "generative",
+    "gigachat",
+    "jpmorgan",
+    "llm",
+    "model",
+    "moscow",
+    "rival",
+    "russia",
+    "sberbank",
+    "using"
+   ],
+   "at": "2026-10-28T03:54:17.041155+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "buck",
+    "hikes",
+    "macs",
+    "price",
+    "second",
+    "wave"
+   ],
+   "at": "2026-10-28T03:54:24.259929+00:00"
   }
  ],
  "snapshots": {
@@ -10032,8 +10065,8 @@
    "2026-10-28T01:53:44.757509+00:00"
   ],
   "hn:50261647": [
-   266,
-   "2026-10-28T02:53:42.394204+00:00"
+   278,
+   "2026-10-28T03:53:45.107528+00:00"
   ],
   "hn:50261589": [
    627,
@@ -10056,8 +10089,8 @@
    "2026-10-28T01:53:44.757509+00:00"
   ],
   "hn:50265594": [
-   195,
-   "2026-10-28T02:53:42.394204+00:00"
+   219,
+   "2026-10-28T03:53:45.107528+00:00"
   ],
   "hn:50262950": [
    70,
@@ -10088,8 +10121,8 @@
    "2026-10-28T02:53:42.394204+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myvbcqqus223": [
-   224,
-   "2026-10-28T02:53:42.394204+00:00"
+   239,
+   "2026-10-28T03:53:45.107528+00:00"
   ]
  }
 }
