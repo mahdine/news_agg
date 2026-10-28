@@ -1488,18 +1488,29 @@
   "Aq8HkER7LFrPcAp92xok2M",
   "https://www.theregister.com/a/5305936",
   "TheNextWeb=73c58a14d93ab9c29b514e91a846df85",
-  "https://techcrunch.com/?p=3182387"
+  "https://techcrunch.com/?p=3182387",
+  "hn:50271457",
+  "https://www.engadget.com/2299245/the-amazon-echo-studio-new-camera-tell-you-how-to-play-monopoly/",
+  "https://www.theverge.com/?p=1020241",
+  "TheNextWeb=6312e0d50a42c53e9d65102f35bcadb3",
+  "https://www.engadget.com/2299263/amazon-echo-time-smart-alarm-clock/",
+  "https://www.theverge.com/?p=1020352",
+  "DmrhjbBnMwHEoJKrjPxVce",
+  "https://www.engadget.com/2299247/amazon-alexa-photo-frame/",
+  "https://www.theverge.com/?p=1019626",
+  "https://www.engadget.com/2299288/amazon-glare-reducing-nanomatte-display-to-its-new-echo-show-16/",
+  "https://www.theverge.com/?p=1020286"
  ],
  "posted": {
-  "viral": 285,
-  "editorial": 344
+  "viral": 286,
+  "editorial": 348
  },
  "recent_labels": [
+  "Hacker News",
   "Engadget",
-  "TechSpot",
-  "The Verge",
-  "The Register",
-  "The Next Web"
+  "Engadget",
+  "Engadget",
+  "Engadget"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3336,92 +3347,44 @@
    "source": "The Next Web",
    "score": 0.47658,
    "at": "2026-10-28T11:54:14.660708+00:00"
+  },
+  {
+   "title": "استفاده از تیک‌تاک برای سازماندهی تجمعات خشونت‌آمیز ساختگی در اروپا",
+   "url": "https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263",
+   "source": "theconversation.com",
+   "score": 0.08279,
+   "at": "2026-10-28T12:53:50.615882+00:00"
+  },
+  {
+   "title": "عرضه‌ی اسپیکر هوشمند Echo Studio با دوربین داخلی جدید توسط آمازون",
+   "url": "https://www.engadget.com/2299245/the-amazon-echo-studio-new-camera-tell-you-how-to-play-monopoly/",
+   "source": "Engadget",
+   "score": 0.47491,
+   "at": "2026-10-28T12:53:56.338134+00:00"
+  },
+  {
+   "title": "عرضه‌ی ساعت هوشمند Echo Time با قابلیت پایش خواب توسط آمازون",
+   "url": "https://www.engadget.com/2299263/amazon-echo-time-smart-alarm-clock/",
+   "source": "Engadget",
+   "score": 0.35371,
+   "at": "2026-10-28T12:54:12.295529+00:00"
+  },
+  {
+   "title": "عرضه‌ی قاب عکس دیجیتال جدید آمازون با دستیار صوتی Alexa",
+   "url": "https://www.engadget.com/2299247/amazon-alexa-photo-frame/",
+   "source": "Engadget",
+   "score": 0.23208,
+   "at": "2026-10-28T12:54:28.447055+00:00"
+  },
+  {
+   "title": "معرفی نمایشگر هوشمند جدید Amazon با نام Echo Show 16",
+   "url": "https://www.engadget.com/2299288/amazon-glare-reducing-nanomatte-display-to-its-new-echo-show-16/",
+   "source": "Engadget",
+   "score": 0.23208,
+   "at": "2026-10-28T12:54:34.752498+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "astra",
-    "different",
-    "even",
-    "explanation",
-    "feel",
-    "good",
-    "gpt",
-    "hard",
-    "like",
-    "live",
-    "models",
-    "obtaining",
-    "overlap",
-    "parallel",
-    "past",
-    "programmers",
-    "programming",
-    "requires",
-    "results",
-    "set",
-    "skill",
-    "state",
-    "there",
-    "universe",
-    "without"
-   ],
-   "at": "2026-09-27T10:39:25.556677+00:00"
-  },
-  {
-   "sig": [
-    "cookies",
-    "cookies.txt",
-    "partitioned"
-   ],
-   "at": "2026-09-27T15:44:00.284146+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "carplay",
-    "google",
-    "improve",
-    "maps",
-    "navigation"
-   ],
-   "at": "2026-09-27T23:13:07.357354+00:00"
-  },
-  {
-   "sig": [
-    "attackers",
-    "attacks",
-    "bypass",
-    "campaign",
-    "deploy",
-    "exploit",
-    "flaw",
-    "fresh",
-    "google",
-    "oracle",
-    "peoplesoft",
-    "shells",
-    "shinyhunters",
-    "trick",
-    "waf",
-    "wafs",
-    "warns",
-    "web"
-   ],
-   "at": "2026-09-28T11:52:22.711639+00:00"
-  },
-  {
-   "sig": [
-    "architecture",
-    "code",
-    "intent",
-    "knowing",
-    "problem",
-    "system"
-   ],
-   "at": "2026-09-28T19:46:56.162003+00:00"
-  },
   {
    "sig": [
     "addresses",
@@ -7885,17 +7848,94 @@
     "sue"
    ],
    "at": "2026-10-28T11:54:14.660708+00:00"
+  },
+  {
+   "sig": [
+    "age",
+    "barcelona",
+    "fabricate",
+    "protest",
+    "tiktok",
+    "unrest"
+   ],
+   "at": "2026-10-28T12:53:50.615882+00:00"
+  },
+  {
+   "sig": [
+    "alexa",
+    "amazon",
+    "camera",
+    "check",
+    "dog",
+    "echo",
+    "monopoly",
+    "play",
+    "puts",
+    "see",
+    "speaker",
+    "studio",
+    "tell"
+   ],
+   "at": "2026-10-28T12:53:56.338134+00:00"
+  },
+  {
+   "sig": [
+    "alarm",
+    "amazon",
+    "clock",
+    "echo",
+    "exist",
+    "good",
+    "less",
+    "painful",
+    "reason",
+    "senses",
+    "sleeping",
+    "smart",
+    "spending",
+    "surprisingly",
+    "time",
+    "tries",
+    "waking"
+   ],
+   "at": "2026-10-28T12:54:12.295529+00:00"
+  },
+  {
+   "sig": [
+    "add",
+    "alexa",
+    "amazon",
+    "built-in",
+    "digital",
+    "first",
+    "frame",
+    "launches",
+    "lets",
+    "notes",
+    "photo",
+    "photos",
+    "picture",
+    "voice"
+   ],
+   "at": "2026-10-28T12:54:28.447055+00:00"
+  },
+  {
+   "sig": [
+    "adds",
+    "amazon",
+    "big",
+    "display",
+    "echo",
+    "first",
+    "glare-reducing",
+    "look",
+    "nanomatte",
+    "show"
+   ],
+   "at": "2026-10-28T12:54:34.752498+00:00"
   }
  ],
  "snapshots": {
-  "hn:50114077": [
-   73,
-   "2026-10-16T14:58:02.164953+00:00"
-  ],
-  "hn:50116255": [
-   261,
-   "2026-10-16T14:58:02.164953+00:00"
-  ],
   "lobsters:qvomvk": [
    28,
    "2026-10-16T14:58:02.164953+00:00"
@@ -10287,6 +10327,14 @@
   "hn:50271032": [
    153,
    "2026-10-28T11:26:41.628042+00:00"
+  ],
+  "hn:50271457": [
+   162,
+   "2026-10-28T12:53:47.628195+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mywrfrevks2w": [
+   102,
+   "2026-10-28T12:53:47.628195+00:00"
   ]
  }
 }
