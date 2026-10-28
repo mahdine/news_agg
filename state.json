@@ -1430,17 +1430,32 @@
   "https://news.slashdot.org/story/26/10/27/2325218/greenhouse-gas-levels-set-records-in-2025-un-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.neowin.net/news/microsofts-mai-image-27-preview-beats-openais-gpt-image-25-flare-in-image-editing/",
   "https://www.androidpolice.com/android-18-phonebook-much-needed-privacy-upgrade/",
-  "4d67c95a4687ca6b6ef6c45d104440b0"
+  "4d67c95a4687ca6b6ef6c45d104440b0",
+  "https://www.theregister.com/a/5305887",
+  "6900e13d340cdaa92bb7d0c9",
+  "6723f3d1fe9036abfe13c4d6",
+  "674752c56e8c795eaf0c88ef",
+  "67d879bf81a4d165ab8f1213",
+  "66e8704eec595f4f2617f9f8",
+  "67180b58052c3d17e85f7da4",
+  "6682a4c73029f65bb234b2d6",
+  "66f197b41b1d2e8dde4bb52f",
+  "68a74f4bac61cbbb255166f7",
+  "67100c9a82459143cee93f27",
+  "6ac91b895442f8c22c4a842f",
+  "aa4e72f8379530853d8ef684d3e05484",
+  "3220461",
+  "f60dcfe7f43b0160d5d70894f8c1ade0"
  ],
  "posted": {
   "viral": 282,
-  "editorial": 314
+  "editorial": 318
  },
  "recent_labels": [
-  "Slashdot",
-  "Phoronix",
-  "Neowin",
-  "Android Police",
+  "Hi-Tech Mail",
+  "The Register",
+  "Hi-Tech Mail",
+  "vc.ru",
   "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-23",
@@ -3047,25 +3062,37 @@
    "source": "Hi-Tech Mail",
    "score": 0.16996,
    "at": "2026-10-28T04:56:46.897026+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل اقتصادی GPT-6.1 Terra توسط OpenAI",
+   "url": "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
+   "source": "The Register",
+   "score": 0.107,
+   "at": "2026-10-28T05:53:49.463759+00:00"
+  },
+  {
+   "title": "قابلیت هوش مصنوعی برای مسیریابی حمل‌ونقل عمومی در اپلیکیشن 2GIS",
+   "url": "https://hi-tech.mail.ru/news/159145-prilozhenie-2gis-nauchilos-otvechat-na-voprosy-ob-obshestvennom-transporte/",
+   "source": "Hi-Tech Mail",
+   "score": 0.06384,
+   "at": "2026-10-28T05:54:06.538798+00:00"
+  },
+  {
+   "title": "طرح وزارت ارتباطات روسیه برای کنترل ترافیک دامنه‌های خارجی",
+   "url": "https://vc.ru/money/3220461-diksi-smenila-registratsiyu-na-rossiyskuyu-sollers-nachnet-vypusk-avtomatov?from=rss",
+   "source": "vc.ru",
+   "score": 0.15136,
+   "at": "2026-10-28T05:54:14.766850+00:00"
+  },
+  {
+   "title": "اختلال گسترده و محدودیت‌های دسترسی به Telegram در روسیه",
+   "url": "https://hi-tech.mail.ru/news/145611-chto-segodnya-s-telegram/",
+   "source": "Hi-Tech Mail",
+   "score": 0.10068,
+   "at": "2026-10-28T05:54:23.996927+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "director",
-    "exec",
-    "history",
-    "human",
-    "labor",
-    "largest",
-    "microsoft",
-    "might",
-    "scraping",
-    "theft",
-    "training"
-   ],
-   "at": "2026-09-19T21:36:38.067815+00:00"
-  },
   {
    "sig": [
     "agent",
@@ -7751,6 +7778,16 @@
     "upgrade"
    ],
    "at": "2026-10-28T04:56:38.609897+00:00"
+  },
+  {
+   "sig": [
+    "hynix",
+    "memory",
+    "persist",
+    "shortages",
+    "until"
+   ],
+   "at": "2026-10-28T05:53:49.463759+00:00"
   }
  ],
  "snapshots": {
@@ -10147,8 +10184,8 @@
    "2026-10-28T03:53:45.107528+00:00"
   ],
   "hn:50265594": [
-   242,
-   "2026-10-28T04:56:12.257673+00:00"
+   251,
+   "2026-10-28T05:53:43.743893+00:00"
   ],
   "hn:50265393": [
    92,
