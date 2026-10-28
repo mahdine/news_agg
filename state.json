@@ -1459,18 +1459,23 @@
   "6ae0f8e8b1846b1aa5192467",
   "19501f60ab0ad55383cdacdd7c4fa960",
   "20e6e2b5aefabc8dd13323d1a70cd88d",
-  "https://www.securityweek.com/?p=50346"
+  "https://www.securityweek.com/?p=50346",
+  "https://www.infoq.com/news/2026/10/workers-kv-instant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://www.infoq.com/articles/building-offline-first-android-app-low-end-devices/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "TheNextWeb=b9be0191ed55c92c1b8085508c632852",
+  "https://www.androidpolice.com/gemini-notebook-record-meetings-catch/",
+  "https://www.neowin.net/news/microsoft-is-removing-sharepoint-server-support-from-mobile-apps-next-month/"
  ],
  "posted": {
   "viral": 284,
-  "editorial": 326
+  "editorial": 331
  },
  "recent_labels": [
-  "Hacker News",
-  "Lobsters",
-  "Wired",
-  "Hi-Tech Mail",
-  "SecurityWeek"
+  "InfoQ",
+  "InfoQ",
+  "The Next Web",
+  "Android Police",
+  "Neowin"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3174,126 +3179,44 @@
    "source": "SecurityWeek",
    "score": 0.22999,
    "at": "2026-10-28T08:56:55.264140+00:00"
+  },
+  {
+   "title": "ارائه‌ی سرویس KV Instant توسط Cloudflare برای دسترسی فوق‌سریع به داده‌ها",
+   "url": "https://www.infoq.com/news/2026/10/workers-kv-instant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.13669,
+   "at": "2026-10-28T09:55:50.585262+00:00"
+  },
+  {
+   "title": "مهندسی اپلیکیشن‌های آموزشی آفلاین برای گوشی‌های هوشمند ضعیف",
+   "url": "https://www.infoq.com/articles/building-offline-first-android-app-low-end-devices/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.14092,
+   "at": "2026-10-28T09:55:56.336150+00:00"
+  },
+  {
+   "title": "اختلال در سیستم ثبت گزارش‌های مالی کمیسیون انتخابات آمریکا پس از حمله سایبری",
+   "url": "https://thenextweb.com/news/fec-hacker-breach-filing-system-offline",
+   "source": "The Next Web",
+   "score": 0.14648,
+   "at": "2026-10-28T09:56:02.374955+00:00"
+  },
+  {
+   "title": "قابلیت ضبط صدا در اپلیکیشن Gemini Notebook برای اندروید و iOS",
+   "url": "https://www.androidpolice.com/gemini-notebook-record-meetings-catch/",
+   "source": "Android Police",
+   "score": 0.15294,
+   "at": "2026-10-28T09:56:08.543491+00:00"
+  },
+  {
+   "title": "پایان پشتیبانی مایکروسافت از SharePoint Server در اپلیکیشن‌های موبایل",
+   "url": "https://www.neowin.net/news/microsoft-is-removing-sharepoint-server-support-from-mobile-apps-next-month/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.16189,
+   "at": "2026-10-28T09:56:18.741484+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "active",
-    "alerts",
-    "cisa",
-    "exploitation",
-    "exploited",
-    "flags",
-    "flaws",
-    "kernel",
-    "linux",
-    "organizations",
-    "three",
-    "vulnerabilities",
-    "warned",
-    "wild"
-   ],
-   "at": "2026-09-21T21:10:46.491498+00:00"
-  },
-  {
-   "sig": [
-    "4k240",
-    "9600m",
-    "dimensity",
-    "dynamic",
-    "max",
-    "pro",
-    "range",
-    "slo-mo",
-    "stops",
-    "vivo",
-    "x500",
-    "zeiss"
-   ],
-   "at": "2026-09-22T00:13:19.545516+00:00"
-  },
-  {
-   "sig": [
-    "accessories",
-    "apple",
-    "debuts",
-    "elevate",
-    "favorite",
-    "grip",
-    "higher",
-    "late",
-    "losing",
-    "mac",
-    "max",
-    "mini",
-    "performance",
-    "price",
-    "review",
-    "rig",
-    "ssd",
-    "strong",
-    "studio",
-    "ultra",
-    "value"
-   ],
-   "at": "2026-09-22T15:08:01.354656+00:00"
-  },
-  {
-   "sig": [
-    "addresses",
-    "agents",
-    "alleged",
-    "details",
-    "employees",
-    "fbi",
-    "includes",
-    "media",
-    "names",
-    "numbers",
-    "phone",
-    "sample",
-    "seen",
-    "spouses"
-   ],
-   "at": "2026-09-22T19:01:36.389446+00:00"
-  },
-  {
-   "sig": [
-    "5.1",
-    "5.5",
-    "agreement",
-    "almost",
-    "analysis",
-    "anthropic",
-    "cheaper",
-    "claude",
-    "costs",
-    "delivers",
-    "details",
-    "fable",
-    "google",
-    "gpt-6",
-    "here",
-    "illegal",
-    "intelligence",
-    "lawsuit",
-    "less",
-    "like",
-    "max",
-    "model",
-    "much",
-    "openai",
-    "opus",
-    "performance",
-    "price",
-    "slowdown",
-    "sol",
-    "spacexai",
-    "upgrades"
-   ],
-   "at": "2026-09-22T22:21:53.545027+00:00"
-  },
   {
    "sig": [
     "agents",
@@ -7839,6 +7762,69 @@
     "warns"
    ],
    "at": "2026-10-28T08:56:55.264140+00:00"
+  },
+  {
+   "sig": [
+    "cloudflare",
+    "customers",
+    "envelope",
+    "inside",
+    "instant",
+    "opens",
+    "quicksilver",
+    "workers"
+   ],
+   "at": "2026-10-28T09:55:50.585262+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "article",
+    "building",
+    "coding",
+    "low-end",
+    "offline-first",
+    "phones",
+    "tutor"
+   ],
+   "at": "2026-10-28T09:55:56.336150+00:00"
+  },
+  {
+   "sig": [
+    "commission",
+    "down",
+    "election",
+    "federal",
+    "filing",
+    "midterms",
+    "system"
+   ],
+   "at": "2026-10-28T09:56:02.374955+00:00"
+  },
+  {
+   "sig": [
+    "catch",
+    "gemini",
+    "meetings",
+    "notebook",
+    "record",
+    "there"
+   ],
+   "at": "2026-10-28T09:56:08.543491+00:00"
+  },
+  {
+   "sig": [
+    "apps",
+    "microsoft",
+    "mobile",
+    "month",
+    "next",
+    "removing",
+    "server",
+    "sharepoint",
+    "support"
+   ],
+   "at": "2026-10-28T09:56:18.741484+00:00"
   }
  ],
  "snapshots": {
@@ -10231,8 +10217,8 @@
    "2026-10-28T07:53:38.507187+00:00"
   ],
   "hn:50267569": [
-   87,
-   "2026-10-28T08:56:12.437797+00:00"
+   95,
+   "2026-10-28T09:55:48.192957+00:00"
   ],
   "hn:50266719": [
    107,
