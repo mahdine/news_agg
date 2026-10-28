@@ -1520,18 +1520,28 @@
   "https://www.theverge.com/?p=1020596",
   "1b79cf09bb5333ffd2d796b35e652d65",
   "f4gTWxioYDL3Lihe4j2L9W",
-  "https://www.accessnow.org/?post_type=press-release&p=109059"
+  "https://www.accessnow.org/?post_type=press-release&p=109059",
+  "https://www.engadget.com/2299270/samsungs-galaxy-buds-on-are-clip-on-open-ear-wireless-headphones/",
+  "8r2tU8jUTMXcsprodSBHNA",
+  "https://www.neowin.net/news/samsungs-first-open-ear-earbuds-galaxy-buds-on-arrive-with-gemini-live/",
+  "6ae00a2b2ac28fa7bcf69fef",
+  "https://www.theverge.com/?p=1020671",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myx25ontgk2l",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myx2gzele22e",
+  "112490 at https://www.eff.org",
+  "Ls3C9PyT936zaKzLVyVxyU",
+  "https://techcrunch.com/?p=3182513"
  ],
  "posted": {
-  "viral": 288,
-  "editorial": 354
+  "viral": 289,
+  "editorial": 358
  },
  "recent_labels": [
-  "Hacker News",
+  "Engadget",
   "404 Media",
-  "The Verge",
-  "Hi-Tech Mail",
-  "Access Now"
+  "EFF",
+  "Tom's Hardware",
+  "TechCrunch AI"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3459,104 +3469,44 @@
    "source": "Access Now",
    "score": 0.31549,
    "at": "2026-10-28T14:58:04.501818+00:00"
+  },
+  {
+   "title": "معرفی هدفون‌های بی‌سیم جدید سامسونگ با طراحی کلیپسی و قابلیت حذف نشت صدا",
+   "url": "https://www.engadget.com/2299270/samsungs-galaxy-buds-on-are-clip-on-open-ear-wireless-headphones/",
+   "source": "Engadget",
+   "score": 0.2182,
+   "at": "2026-10-28T15:53:56.458716+00:00"
+  },
+  {
+   "title": "امکان اعتراض کاربران اروپایی به استفاده از داده‌ها برای آموزش هوش مصنوعی Meta",
+   "url": "https://www.404media.co/objection-your-honor/",
+   "source": "404media.co",
+   "score": 0.09335,
+   "at": "2026-10-28T15:54:52.134903+00:00"
+  },
+  {
+   "title": "پیروزی حقوقی EFF در برابر دسترسی غیرمجاز دولت به داده‌های شخصی",
+   "url": "https://www.eff.org/deeplinks/2026/10/fighting-doges-data-grab-effector-3819",
+   "source": "EFF",
+   "score": 0.20736,
+   "at": "2026-10-28T15:56:40.867334+00:00"
+  },
+  {
+   "title": "بازگشت تولیدکنندگان بزرگ کامپیوتر به چین به دلیل هزینه‌های بالای قطعات هوش مصنوعی",
+   "url": "https://www.tomshardware.com/tech-industry/manufacturing/ai-component-hikes-force-the-worlds-largest-pc-makers-to-return-manufacturing-capacity-to-china-brands-to-seek-lower-production-costs-and-efficiency-in-established-supply-chain",
+   "source": "Tom's Hardware",
+   "score": 0.18865,
+   "at": "2026-10-28T15:57:02.645783+00:00"
+  },
+  {
+   "title": "موج جدید حملات سایبری به موسسات مالی و صرافی‌های کره جنوبی",
+   "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+   "source": "TechCrunch AI",
+   "score": 0.25018,
+   "at": "2026-10-28T15:57:27.308850+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anthropic",
-    "apes",
-    "aws",
-    "consumers",
-    "ftc",
-    "investigating",
-    "marketplace",
-    "microsoftian",
-    "openai",
-    "possible",
-    "remains",
-    "risks",
-    "stubbornly",
-    "while"
-   ],
-   "at": "2026-10-01T00:47:23.771716+00:00"
-  },
-  {
-   "sig": [
-    "advice",
-    "code",
-    "coding",
-    "developer",
-    "games",
-    "generated",
-    "get-better",
-    "hand",
-    "interpreters",
-    "junior",
-    "look",
-    "mature",
-    "need",
-    "programmer",
-    "programs",
-    "ray",
-    "right",
-    "save",
-    "since",
-    "time",
-    "tracers",
-    "write",
-    "wrong"
-   ],
-   "at": "2026-10-01T11:44:18.790588+00:00"
-  },
-  {
-   "sig": [
-    "boards",
-    "catches",
-    "colorful",
-    "competitor",
-    "display",
-    "fight",
-    "joins",
-    "laptops",
-    "macbook",
-    "neo",
-    "oled",
-    "omnibook",
-    "plenty",
-    "starting",
-    "train"
-   ],
-   "at": "2026-10-01T18:30:36.593075+00:00"
-  },
-  {
-   "sig": [
-    "deepseek",
-    "desktop",
-    "harness",
-    "macos",
-    "windows"
-   ],
-   "at": "2026-10-02T11:13:58.976525+00:00"
-  },
-  {
-   "sig": [
-    "company",
-    "contractors",
-    "fired",
-    "helping",
-    "improve",
-    "models",
-    "multiple",
-    "openai",
-    "people-train",
-    "thousands",
-    "train",
-    "using",
-    "www.404media.co"
-   ],
-   "at": "2026-10-02T16:45:26.668797+00:00"
-  },
   {
    "sig": [
     "build",
@@ -7930,17 +7880,87 @@
     "transforms"
    ],
    "at": "2026-10-28T14:58:04.501818+00:00"
+  },
+  {
+   "sig": [
+    "arrive",
+    "availability",
+    "buds",
+    "clip-on",
+    "cost",
+    "debut",
+    "earbuds",
+    "expecting",
+    "first",
+    "galaxy",
+    "gemini",
+    "live",
+    "lot",
+    "open",
+    "open-ear",
+    "pricing",
+    "revealed",
+    "samsung",
+    "wireless"
+   ],
+   "at": "2026-10-28T15:53:56.458716+00:00"
+  },
+  {
+   "sig": [
+    "able",
+    "around",
+    "meta",
+    "might",
+    "object",
+    "pod",
+    "scraping",
+    "terms",
+    "web",
+    "week"
+   ],
+   "at": "2026-10-28T15:54:52.134903+00:00"
+  },
+  {
+   "sig": [
+    "38.19",
+    "data",
+    "doge",
+    "effector",
+    "fighting",
+    "grab"
+   ],
+   "at": "2026-10-28T15:56:40.867334+00:00"
+  },
+  {
+   "sig": [
+    "capacity",
+    "china",
+    "component",
+    "force",
+    "hikes",
+    "largest",
+    "makers",
+    "manufacturing",
+    "return",
+    "world"
+   ],
+   "at": "2026-10-28T15:57:02.645783+00:00"
+  },
+  {
+   "sig": [
+    "cyberattacks",
+    "financial",
+    "fresh",
+    "hit",
+    "industry",
+    "korea",
+    "south",
+    "wave"
+   ],
+   "at": "2026-10-28T15:57:27.308850+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxysysjv622c": [
-   523,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxyrahgo622l": [
-   117,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxyr7h3qsb2v": [
    109,
    "2026-10-16T22:10:14.428840+00:00"
@@ -10332,6 +10352,14 @@
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mywwaogdac23": [
    52,
    "2026-10-28T14:53:42.661446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myx25ontgk2l": [
+   83,
+   "2026-10-28T15:53:46.007940+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myx2gzele22e": [
+   116,
+   "2026-10-28T15:53:46.007940+00:00"
   ]
  }
 }
