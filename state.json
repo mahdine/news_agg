@@ -1445,18 +1445,26 @@
   "6ac91b895442f8c22c4a842f",
   "aa4e72f8379530853d8ef684d3e05484",
   "3220461",
-  "f60dcfe7f43b0160d5d70894f8c1ade0"
+  "f60dcfe7f43b0160d5d70894f8c1ade0",
+  "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+  "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+  "TheNextWeb=1de6a6f96a763635b5fb216036492907",
+  "3206511",
+  "3220608",
+  "https://science.slashdot.org/story/26/10/28/0256204/cdc-warns-of-rising-threat-of-drug-resistant-germs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+  "uVnNQC6wdtvudJD87jkR6L"
  ],
  "posted": {
   "viral": 282,
-  "editorial": 318
+  "editorial": 323
  },
  "recent_labels": [
-  "Hi-Tech Mail",
-  "The Register",
-  "Hi-Tech Mail",
+  "The Hacker News",
+  "The Hacker News",
   "vc.ru",
-  "Hi-Tech Mail"
+  "The Hacker News",
+  "TechRadar"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3090,71 +3098,44 @@
    "source": "Hi-Tech Mail",
    "score": 0.10068,
    "at": "2026-10-28T05:54:23.996927+00:00"
+  },
+  {
+   "title": "شناسایی دو آسیب‌پذیری بحرانی در Adobe Commerce و کتابخانه Brotli گوگل",
+   "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+   "source": "The Hacker News",
+   "score": 0.08895,
+   "at": "2026-10-28T07:53:42.655175+00:00"
+  },
+  {
+   "title": "سوءاستفاده گروه ShinyHunters از زنجیره‌ای از آسیب‌پذیری‌های بحرانی در Oracle PeopleSoft",
+   "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+   "source": "The Hacker News",
+   "score": 0.10534,
+   "at": "2026-10-28T07:53:51.377865+00:00"
+  },
+  {
+   "title": "هزینه‌ی یک میلیارد دلاری و هشت سال توسعه برای GTA VI",
+   "url": "https://vc.ru/story/3206511-razrabotka-gta-vi-trudnosti-i-byudzhet?from=rss",
+   "source": "vc.ru",
+   "score": 0.05903,
+   "at": "2026-10-28T07:54:04.924245+00:00"
+  },
+  {
+   "title": "پاداش یک میلیون دلاری GMO برای شناسایی هکرها پس از نشت داده",
+   "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+   "source": "The Hacker News",
+   "score": 0.19969,
+   "at": "2026-10-28T07:54:20.635099+00:00"
+  },
+  {
+   "title": "بررسی ابزار حذف اطلاعات شخصی Malwarebytes",
+   "url": "https://www.techradar.com/pro/malwarebytes-personal-data-remover-review",
+   "source": "TechRadar",
+   "score": 0.13563,
+   "at": "2026-10-28T07:54:35.427998+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agent",
-    "app",
-    "chatgpt",
-    "iphone",
-    "meta",
-    "muse",
-    "overtakes",
-    "store",
-    "top",
-    "vpn"
-   ],
-   "at": "2026-09-20T09:56:33.491203+00:00"
-  },
-  {
-   "sig": [
-    "chat-based",
-    "con",
-    "language",
-    "large",
-    "mechanisms",
-    "models",
-    "psychic",
-    "replicate"
-   ],
-   "at": "2026-09-20T14:18:19.092435+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "annoying",
-    "enough",
-    "extremely",
-    "online",
-    "permission",
-    "power",
-    "theres-a-100",
-    "www.404media.co"
-   ],
-   "at": "2026-09-20T17:33:51.465124+00:00"
-  },
-  {
-   "sig": [
-    "belong",
-    "came",
-    "catchy",
-    "core",
-    "cult",
-    "did",
-    "harder",
-    "people",
-    "phrase",
-    "recruit",
-    "research",
-    "sad",
-    "someone",
-    "tenets",
-    "undermines"
-   ],
-   "at": "2026-09-20T20:58:16.039230+00:00"
-  },
   {
    "sig": [
     "android",
@@ -7788,13 +7769,64 @@
     "until"
    ],
    "at": "2026-10-28T05:53:49.463759+00:00"
+  },
+  {
+   "sig": [
+    "adobe",
+    "attacks",
+    "breach",
+    "brotli",
+    "commerce",
+    "emerges",
+    "exploit",
+    "hundreds",
+    "polyshell",
+    "stores",
+    "traffic"
+   ],
+   "at": "2026-10-28T07:53:42.655175+00:00"
+  },
+  {
+   "sig": [
+    "chained",
+    "flaws",
+    "oracle",
+    "peoplesoft",
+    "shinyhunters-exploited",
+    "three",
+    "turns",
+    "zero-day"
+   ],
+   "at": "2026-10-28T07:53:51.377865+00:00"
+  },
+  {
+   "sig": [
+    "behind",
+    "bounty",
+    "breach",
+    "catch",
+    "cloud",
+    "gmo",
+    "hackers",
+    "japan",
+    "million",
+    "offers",
+    "trading"
+   ],
+   "at": "2026-10-28T07:54:20.635099+00:00"
+  },
+  {
+   "sig": [
+    "data",
+    "malwarebytes",
+    "personal",
+    "remover",
+    "review"
+   ],
+   "at": "2026-10-28T07:54:35.427998+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:xiq59t": [
-   130,
-   "2026-10-16T10:01:22.607113+00:00"
-  ],
   "lobsters:ttcx5k": [
    29,
    "2026-10-16T10:01:22.607113+00:00"
@@ -10183,13 +10215,17 @@
    239,
    "2026-10-28T03:53:45.107528+00:00"
   ],
-  "hn:50265594": [
-   251,
-   "2026-10-28T05:53:43.743893+00:00"
-  ],
   "hn:50265393": [
    92,
    "2026-10-28T04:56:12.257673+00:00"
+  ],
+  "hn:50265594": [
+   295,
+   "2026-10-28T07:53:38.507187+00:00"
+  ],
+  "hn:50267569": [
+   78,
+   "2026-10-28T07:53:38.507187+00:00"
   ]
  }
 }
