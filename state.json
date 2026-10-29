@@ -1714,18 +1714,26 @@
   "https://techcrunch.com/?p=3182652",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzuoyjew32i",
   "https://www.theverge.com/?p=1022440",
-  "https://www.engadget.com/2301410/meta-will-now-alert-parents-if-teens-repeatedly-search-for-self-harm-content-on-facebook/"
+  "https://www.engadget.com/2301410/meta-will-now-alert-parents-if-teens-repeatedly-search-for-self-harm-content-on-facebook/",
+  "lobsters:siebde",
+  "hn:50293879",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzy25ui5i2c",
+  "hn:50294506",
+  "hn:50294507",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzzn7ncdc2c",
+  "hn:50296470",
+  "hn:50296486"
  ],
  "posted": {
-  "viral": 323,
+  "viral": 328,
   "editorial": 417
  },
  "recent_labels": [
+  "404 Media",
   "Hacker News",
+  "404 Media",
   "Hacker News",
-  "The Register",
-  "The Next Web",
-  "Engadget"
+  "Hacker News"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4339,62 +4347,44 @@
    "source": "Engadget",
    "score": 0.21597,
    "at": "2026-10-29T18:36:01.409958+00:00"
+  },
+  {
+   "title": "سایت Archive of Our Own به دلیل مشکلات فنی طولانی‌مدت از دسترس خارج شد",
+   "url": "https://www.404media.co/archive-of-our-own-ao3-down-maintenance/",
+   "source": "404media.co",
+   "score": 0.21086,
+   "at": "2026-10-29T23:24:40.286737+00:00"
+  },
+  {
+   "title": "ابزار خودکار برای بستن پیام‌های مزاحم شبکه محلی در macOS",
+   "url": "https://github.com/johncassil/dontallow",
+   "source": "github.com",
+   "score": 0.05716,
+   "at": "2026-10-29T23:24:46.426436+00:00"
+  },
+  {
+   "title": "توضیحات Proton درباره وضعیت حریم خصوصی و شفافیت در مدیریت داده‌ها",
+   "url": "https://bsky.app/profile/404media.co/post/3myzzn7ncdc2c",
+   "source": "404 Media",
+   "score": 0.21925,
+   "at": "2026-10-29T23:24:54.055811+00:00"
+  },
+  {
+   "title": "سرقت ۵.۶ میلیارد دلاری از صرافی ارز دیجیتال Binance",
+   "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+   "source": "arkm.com",
+   "score": 0.23732,
+   "at": "2026-10-29T23:24:59.733550+00:00"
+  },
+  {
+   "title": "اجرای دسته‌های هوش مصنوعی در محیط بازی‌های Minecraft و Mindustry",
+   "url": "https://labs.ycombinator.com/projects/games/index.html",
+   "source": "labs.ycombinator.com",
+   "score": 0.12453,
+   "at": "2026-10-29T23:25:05.543006+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "000-per-gpu",
-    "agents",
-    "annual",
-    "discusses",
-    "factories",
-    "fee",
-    "nvidia",
-    "runs",
-    "software"
-   ],
-   "at": "2026-10-25T13:25:31.586609+00:00"
-  },
-  {
-   "sig": [
-    "away",
-    "chromebook",
-    "don",
-    "even",
-    "getting",
-    "googlebook",
-    "instead",
-    "old",
-    "speakers",
-    "throw"
-   ],
-   "at": "2026-10-25T13:25:38.535630+00:00"
-  },
-  {
-   "sig": [
-    "censorship",
-    "crushing",
-    "indie",
-    "online",
-    "webcomics"
-   ],
-   "at": "2026-10-25T14:17:22.796238+00:00"
-  },
-  {
-   "sig": [
-    "contest",
-    "loses",
-    "nikon",
-    "photography",
-    "scientists",
-    "signs",
-    "spot",
-    "title",
-    "winner"
-   ],
-   "at": "2026-10-25T14:17:35.912732+00:00"
-  },
   {
    "sig": [
     "apparently",
@@ -8496,61 +8486,58 @@
     "teens"
    ],
    "at": "2026-10-29T18:36:01.409958+00:00"
+  },
+  {
+   "sig": [
+    "allow",
+    "app",
+    "auto",
+    "devices",
+    "dismiss",
+    "find",
+    "local",
+    "mac",
+    "networks",
+    "show"
+   ],
+   "at": "2026-10-29T23:24:46.426436+00:00"
+  },
+  {
+   "sig": [
+    "account",
+    "another",
+    "first",
+    "house",
+    "need",
+    "official",
+    "order",
+    "proton",
+    "reddit",
+    "update"
+   ],
+   "at": "2026-10-29T23:24:54.055811+00:00"
+  },
+  {
+   "sig": [
+    "5.6b",
+    "binance",
+    "binance-hacker-1029",
+    "stolen"
+   ],
+   "at": "2026-10-29T23:24:59.733550+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "mindustry",
+    "minecraft",
+    "ran",
+    "swarms"
+   ],
+   "at": "2026-10-29T23:25:05.543006+00:00"
   }
  ],
  "snapshots": {
-  "hn:50141657": [
-   277,
-   "2026-10-18T17:27:56.621775+00:00"
-  ],
-  "hn:50138462": [
-   179,
-   "2026-10-18T17:27:56.621775+00:00"
-  ],
-  "hn:50139692": [
-   302,
-   "2026-10-18T19:33:02.582502+00:00"
-  ],
-  "hn:50144005": [
-   161,
-   "2026-10-18T19:33:02.582502+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my6c4t3mce2v": [
-   73,
-   "2026-10-18T19:33:02.582502+00:00"
-  ],
-  "hn:50139873": [
-   480,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50141681": [
-   432,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50141429": [
-   467,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50141295": [
-   359,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50141206": [
-   162,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50141053": [
-   271,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50140769": [
-   317,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50140462": [
-   255,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
   "hn:50140001": [
    191,
    "2026-10-18T22:31:14.449482+00:00"
@@ -10898,6 +10885,58 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzuoyjew32i": [
    74,
    "2026-10-29T18:33:48.942449+00:00"
+  ],
+  "hn:50296486": [
+   123,
+   "2026-10-29T23:24:37.264862+00:00"
+  ],
+  "hn:50296470": [
+   895,
+   "2026-10-29T23:24:37.264862+00:00"
+  ],
+  "hn:50295450": [
+   87,
+   "2026-10-29T23:24:37.264862+00:00"
+  ],
+  "hn:50294702": [
+   2824,
+   "2026-10-29T23:24:37.264862+00:00"
+  ],
+  "hn:50294507": [
+   241,
+   "2026-10-29T23:24:37.264862+00:00"
+  ],
+  "hn:50294506": [
+   205,
+   "2026-10-29T23:24:37.264862+00:00"
+  ],
+  "hn:50293879": [
+   83,
+   "2026-10-29T23:24:37.264862+00:00"
+  ],
+  "hn:50293023": [
+   198,
+   "2026-10-29T23:24:37.264862+00:00"
+  ],
+  "hn:50292727": [
+   208,
+   "2026-10-29T23:24:37.264862+00:00"
+  ],
+  "hn:50291421": [
+   91,
+   "2026-10-29T23:24:37.264862+00:00"
+  ],
+  "lobsters:siebde": [
+   29,
+   "2026-10-29T23:24:37.264862+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzzn7ncdc2c": [
+   435,
+   "2026-10-29T23:24:37.264862+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzy25ui5i2c": [
+   667,
+   "2026-10-29T23:24:37.264862+00:00"
   ]
  }
 }
