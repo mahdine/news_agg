@@ -1566,18 +1566,29 @@
   "hn:50282454",
   "hn:50282544",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myxydphfjk2m",
-  "hn:50282838"
+  "hn:50282838",
+  "lobsters:mgy3tr",
+  "hn:50276906",
+  "hn:50277755",
+  "https://www.theregister.com/a/5306115",
+  "https://slashdot.org/story/26/10/28/2222217/anthropic-engineer-declares-the-coding-interview-dead?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.theregister.com/a/5306181",
+  "https://www.theverge.com/?p=1020811",
+  "TY59YNoBwpX2FTEqJWhCvZ",
+  "https://www.theverge.com/?p=1021554",
+  "UUMyMTiKcKcJZij7ofqk3A",
+  "https://www.androidpolice.com/amazon-google-pixel-10-pro-deal-last-gen-savings/"
  ],
  "posted": {
-  "viral": 303,
-  "editorial": 364
+  "viral": 304,
+  "editorial": 367
  },
  "recent_labels": [
+  "Hacker News",
   "Lobsters",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News"
+  "The Register",
+  "The Register",
+  "The Verge"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3680,70 +3691,37 @@
    "source": "divagr.com",
    "score": 0.04159,
    "at": "2026-10-29T01:54:18.389837+00:00"
+  },
+  {
+   "title": "دعوت به برنامه‌نویسی دونفره برای توسعه پلتفرم Lobste.rs",
+   "url": "https://lobste.rs/s/mgy3tr/pair_coding_lobste_rs_feat",
+   "source": "Lobsters",
+   "score": 0.01655,
+   "at": "2026-10-29T02:53:43.835796+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی وب‌سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/28/anthropic-engineer-declares-the-coding-interview-dead/5306115",
+   "source": "The Register",
+   "score": 0.09165,
+   "at": "2026-10-29T02:54:01.275022+00:00"
+  },
+  {
+   "title": "چالش‌های مالی گوگل در مسیر درآمدزایی از جستجوی مبتنی بر هوش مصنوعی",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/29/google-struggling-to-make-ai-mode-searches-pay/5306181",
+   "source": "The Register",
+   "score": 0.22206,
+   "at": "2026-10-29T02:54:17.172118+00:00"
+  },
+  {
+   "title": "تلاش شرکت Anduril برای تولید لپ‌تاپ با قطعات ساخت آمریکا",
+   "url": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
+   "source": "The Verge",
+   "score": 0.21021,
+   "at": "2026-10-29T02:54:29.811510+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "16.9",
-    "speech",
-    "text",
-    "whistle"
-   ],
-   "at": "2026-10-08T18:57:18.912281+00:00"
-  },
-  {
-   "sig": [
-    "cryptography",
-    "key",
-    "lose",
-    "might",
-    "public",
-    "think"
-   ],
-   "at": "2026-10-08T23:50:36.353668+00:00"
-  },
-  {
-   "sig": [
-    "acquisition",
-    "announces",
-    "become",
-    "carrier",
-    "low-band",
-    "major",
-    "mobile",
-    "plan",
-    "plans",
-    "spacex",
-    "spectrum",
-    "starlink",
-    "turn",
-    "wants"
-   ],
-   "at": "2026-10-09T12:01:09.434808+00:00"
-  },
-  {
-   "sig": [
-    "able",
-    "anthropic",
-    "asking",
-    "called",
-    "claude",
-    "collection",
-    "comment",
-    "consideration",
-    "deserving",
-    "distress",
-    "feel",
-    "filling",
-    "inbox",
-    "journos",
-    "models",
-    "moral",
-    "nonsense"
-   ],
-   "at": "2026-10-09T22:48:28.549808+00:00"
-  },
   {
    "sig": [
     "assisted",
@@ -8027,17 +8005,53 @@
     "risc-v"
    ],
    "at": "2026-10-29T01:54:18.389837+00:00"
+  },
+  {
+   "sig": [
+    "feat",
+    "lobste.rs",
+    "pair-coding"
+   ],
+   "at": "2026-10-29T02:53:43.835796+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "coding",
+    "dead",
+    "declares",
+    "engineer",
+    "interview"
+   ],
+   "at": "2026-10-29T02:54:01.275022+00:00"
+  },
+  {
+   "sig": [
+    "driving",
+    "google",
+    "investments",
+    "mode",
+    "pay",
+    "searches",
+    "struggling"
+   ],
+   "at": "2026-10-29T02:54:17.172118+00:00"
+  },
+  {
+   "sig": [
+    "american",
+    "anduril",
+    "bluechip",
+    "buy",
+    "laptop",
+    "launch",
+    "meet",
+    "standards"
+   ],
+   "at": "2026-10-29T02:54:29.811510+00:00"
   }
  ],
  "snapshots": {
-  "hn:50121004": [
-   282,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "hn:50118318": [
-   167,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
   "lobsters:ddtqtn": [
    31,
    "2026-10-16T22:10:14.428840+00:00"
@@ -10386,24 +10400,8 @@
    285,
    "2026-10-29T01:53:43.797906+00:00"
   ],
-  "hn:50280864": [
-   556,
-   "2026-10-29T01:53:43.797906+00:00"
-  ],
   "hn:50280197": [
    175,
-   "2026-10-29T01:53:43.797906+00:00"
-  ],
-  "hn:50277166": [
-   203,
-   "2026-10-29T01:53:43.797906+00:00"
-  ],
-  "hn:50276906": [
-   168,
-   "2026-10-29T01:53:43.797906+00:00"
-  ],
-  "hn:50275128": [
-   151,
    "2026-10-29T01:53:43.797906+00:00"
   ],
   "lobsters:m3gsln": [
@@ -10429,6 +10427,30 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myxydphfjk2m": [
    16,
    "2026-10-29T01:53:43.797906+00:00"
+  ],
+  "hn:50280864": [
+   601,
+   "2026-10-29T02:53:41.052480+00:00"
+  ],
+  "hn:50277166": [
+   203,
+   "2026-10-29T02:53:41.052480+00:00"
+  ],
+  "hn:50276906": [
+   168,
+   "2026-10-29T02:53:41.052480+00:00"
+  ],
+  "hn:50275128": [
+   152,
+   "2026-10-29T02:53:41.052480+00:00"
+  ],
+  "hn:50277755": [
+   59,
+   "2026-10-29T02:53:41.052480+00:00"
+  ],
+  "lobsters:mgy3tr": [
+   25,
+   "2026-10-29T02:53:41.052480+00:00"
   ]
  }
 }
