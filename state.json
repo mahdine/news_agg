@@ -1609,18 +1609,25 @@
   "5b55ad761827bfbc2fab42d7830caede",
   "c1dc17fa9a66cd274151b071cd621046",
   "264a65f4898154ee46162a8a3d53693f",
-  "3222772"
+  "3222772",
+  "lobsters:uimyck",
+  "https://www.theregister.com/a/5306189",
+  "https://www.neowin.net/news/microsoft-reports-record-923-billion-revenue-as-azure-hits-332-billion-in-a-quarter/",
+  "https://techcrunch.com/?p=3182841",
+  "https://techcrunch.com/?p=3182880",
+  "https://www.neowin.net/news/google-cloud-revenue-doubles-to-307-billion-but-ai-infra-spending-hits-51-billion/",
+  "urn:latent-space:post:post_211d308e-4494-4480-adc1-9d69c85efd19"
  ],
  "posted": {
-  "viral": 306,
-  "editorial": 380
+  "viral": 307,
+  "editorial": 384
  },
  "recent_labels": [
-  "Hi-Tech Mail",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail",
-  "vc.ru"
+  "Lobsters",
+  "The Register",
+  "Neowin",
+  "Neowin",
+  "Latent Space"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3856,102 +3863,44 @@
    "source": "vc.ru",
    "score": 0.16625,
    "at": "2026-10-29T05:54:51.634007+00:00"
+  },
+  {
+   "title": "پنجاه سالگی ویرایشگر متن افسانه‌ای EMACS و تاثیر آن بر دنیای نرم‌افزار",
+   "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
+   "source": "technologyreview.com",
+   "score": 0.0606,
+   "at": "2026-10-29T06:53:43.583505+00:00"
+  },
+  {
+   "title": "توسعه مدل‌های هوش مصنوعی و چالش‌های زیرساختی در دنیای فناوری",
+   "url": "https://www.theregister.com/storage/2026/10/29/tape-is-so-not-dead-that-fujifilm-will-increase-production-capacity-5x/5306189",
+   "source": "The Register",
+   "score": 0.05139,
+   "at": "2026-10-29T06:53:57.737605+00:00"
+  },
+  {
+   "title": "رکوردشکنی درآمد مایکروسافت با رشد چشمگیر سرویس ابری Azure",
+   "url": "https://www.neowin.net/news/microsoft-reports-record-923-billion-revenue-as-azure-hits-332-billion-in-a-quarter/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.10462,
+   "at": "2026-10-29T06:54:03.472601+00:00"
+  },
+  {
+   "title": "سقوط ارزش سهام Alphabet با وجود رشد درآمدهای Google Cloud",
+   "url": "https://www.neowin.net/news/google-cloud-revenue-doubles-to-307-billion-but-ai-infra-spending-hits-51-billion/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.06173,
+   "at": "2026-10-29T06:54:12.040503+00:00"
+  },
+  {
+   "title": "گوگل مدل هوش مصنوعی Gemini 4 Carbon را برای امنیت سایبری معرفی کرد",
+   "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+   "source": "Latent Space",
+   "score": 0.03661,
+   "at": "2026-10-29T06:54:30.810655+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "almost",
-    "amused",
-    "any",
-    "csam",
-    "equivalent",
-    "many",
-    "misinterpreting",
-    "moral",
-    "people",
-    "saying",
-    "see",
-    "sold",
-    "tech"
-   ],
-   "at": "2026-10-13T23:48:13.284685+00:00"
-  },
-  {
-   "sig": [
-    "allegedly",
-    "arrested",
-    "arrests",
-    "boardroom",
-    "bug",
-    "charged",
-    "chatbot",
-    "company",
-    "conference",
-    "device",
-    "employee",
-    "engineer",
-    "executive",
-    "fbi",
-    "found",
-    "help",
-    "hidden",
-    "investigates",
-    "listening",
-    "national",
-    "office",
-    "offices",
-    "openai",
-    "paper",
-    "plant",
-    "planted",
-    "planting",
-    "recorder",
-    "recording",
-    "room",
-    "saudi",
-    "security",
-    "sophisticated",
-    "spy",
-    "threat",
-    "toilet",
-    "wrapped"
-   ],
-   "at": "2026-10-14T10:25:08.751148+00:00"
-  },
-  {
-   "sig": [
-    "claims",
-    "disrupting",
-    "drones",
-    "high-speed",
-    "limits",
-    "military",
-    "prior",
-    "service",
-    "spacex",
-    "starlink",
-    "suddenly",
-    "ukraine",
-    "warning",
-    "without"
-   ],
-   "at": "2026-10-14T15:19:32.032781+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "aren",
-    "basics",
-    "frontier",
-    "going",
-    "labs",
-    "rogue",
-    "security",
-    "skipping"
-   ],
-   "at": "2026-10-14T19:33:22.982762+00:00"
-  },
   {
    "sig": [
     "anthropic",
@@ -8161,13 +8110,67 @@
     "stole"
    ],
    "at": "2026-10-29T04:54:57.976050+00:00"
+  },
+  {
+   "sig": [
+    "capacity",
+    "dead",
+    "fujifilm",
+    "increase",
+    "production",
+    "tape"
+   ],
+   "at": "2026-10-29T06:53:57.737605+00:00"
+  },
+  {
+   "sig": [
+    "33.2",
+    "92.3",
+    "actual",
+    "azure",
+    "billion",
+    "dollars",
+    "hits",
+    "microsoft",
+    "openai",
+    "quarter",
+    "record",
+    "recorded",
+    "reports",
+    "revenue",
+    "shared"
+   ],
+   "at": "2026-10-29T06:54:03.472601+00:00"
+  },
+  {
+   "sig": [
+    "30.7",
+    "billion",
+    "cloud",
+    "doubles",
+    "google",
+    "hits",
+    "infra",
+    "revenue",
+    "spending"
+   ],
+   "at": "2026-10-29T06:54:12.040503+00:00"
+  },
+  {
+   "sig": [
+    "ainews",
+    "carbon",
+    "cyber",
+    "defenders",
+    "gemini",
+    "launches",
+    "leaderboards",
+    "tops"
+   ],
+   "at": "2026-10-29T06:54:30.810655+00:00"
   }
  ],
  "snapshots": {
-  "hn:50128297": [
-   129,
-   "2026-10-17T09:34:17.014040+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxzy27gs522q": [
    49,
    "2026-10-17T09:34:17.014040+00:00"
@@ -10563,6 +10566,10 @@
   "hn:50284329": [
    117,
    "2026-10-29T05:53:43.402195+00:00"
+  ],
+  "lobsters:uimyck": [
+   28,
+   "2026-10-29T06:53:40.868490+00:00"
   ]
  }
 }
