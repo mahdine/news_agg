@@ -1655,18 +1655,25 @@
   "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
   "hn:50287001",
   "https://www.securityweek.com/?p=50391",
-  "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "1391452",
+  "6QvY6jJb3U69fEEi3BMWmU",
+  "hn:50287359",
+  "https://9to5mac.com/?p=1076458",
+  "https://www.neowin.net/news/macbook-neo-gets-another-price-hike-for-students/",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzakwmsn22k",
+  "2uR5e7FD7w9vGuLvgjAhgH"
  ],
  "posted": {
-  "viral": 310,
-  "editorial": 404
+  "viral": 312,
+  "editorial": 407
  },
  "recent_labels": [
-  "The Hacker News",
-  "The Hacker News",
-  "The Hacker News",
-  "SecurityWeek",
-  "InfoQ"
+  "ZDNet",
+  "Hacker News",
+  "9to5Mac",
+  "404 Media",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4098,108 +4105,44 @@
    "source": "InfoQ",
    "score": 0.144,
    "at": "2026-10-29T11:56:24.027871+00:00"
+  },
+  {
+   "title": "قابلیت شخصی‌سازی منوی راست‌کلیک در ویندوز ۱۱",
+   "url": "https://www.zdnet.com/tech/windows-11-customizable-right-click-menu/",
+   "source": "ZDNet",
+   "score": 0.23228,
+   "at": "2026-10-29T12:53:42.215147+00:00"
+  },
+  {
+   "title": "پیام مردم بومی Kogui درباره ماهیت و اخلاق در هوش مصنوعی",
+   "url": "https://sonidoselva.com/perspectiva-kogui",
+   "source": "sonidoselva.com",
+   "score": 0.11989,
+   "at": "2026-10-29T12:53:51.542105+00:00"
+  },
+  {
+   "title": "افزایش دوباره قیمت آموزشی لپ‌تاپ MacBook Neo توسط اپل",
+   "url": "https://9to5mac.com/2026/10/29/the-education-price-of-the-macbook-neo-just-jumped-again/",
+   "source": "9to5Mac",
+   "score": 0.28084,
+   "at": "2026-10-29T12:53:57.397780+00:00"
+  },
+  {
+   "title": "فشار سناتورهای آمریکایی به متا برای نقض حریم خصوصی با عینک‌های هوشمند",
+   "url": "https://www.404media.co/senators-wyden-markey-letter-to-meta-smart-glasses/",
+   "source": "404media.co",
+   "score": 0.21788,
+   "at": "2026-10-29T12:54:03.667287+00:00"
+  },
+  {
+   "title": "توسعه بنچمارک جدید برای ارزیابی عملکرد پردازنده در بارهای کاری Agentic AI",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/our-first-step-at-defining-a-cpu-benchmark-for-agentic-ai-how-we-can-measure-throughput-of-agentic-ai-workloads-without-any-gpu-involved",
+   "source": "Tom's Hardware",
+   "score": 0.17957,
+   "at": "2026-10-29T12:54:13.943022+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "app",
-    "apple",
-    "arcade",
-    "check",
-    "chief",
-    "discusses",
-    "duos",
-    "future",
-    "gaming",
-    "iphone",
-    "let",
-    "store",
-    "strategy"
-   ],
-   "at": "2026-10-20T10:17:05.446946+00:00"
-  },
-  {
-   "sig": [
-    "across",
-    "agencies",
-    "angry",
-    "bans",
-    "built",
-    "china",
-    "civilian",
-    "deep-sixed",
-    "deepseek",
-    "department",
-    "dhs",
-    "federal",
-    "homeland",
-    "models",
-    "orders",
-    "products",
-    "prompting",
-    "remove",
-    "response",
-    "security",
-    "systems",
-    "tools"
-   ],
-   "at": "2026-10-20T15:16:03.014498+00:00"
-  },
-  {
-   "sig": [
-    "clone",
-    "easily",
-    "modify",
-    "other",
-    "people",
-    "products",
-    "promises",
-    "way"
-   ],
-   "at": "2026-10-20T19:27:39.927853+00:00"
-  },
-  {
-   "sig": [
-    "4.1",
-    "amd",
-    "api",
-    "arm",
-    "bringing",
-    "cards",
-    "coming",
-    "consoles",
-    "fsr",
-    "handhelds",
-    "igpu",
-    "max",
-    "microsoft",
-    "next-gen",
-    "playstation",
-    "radeon",
-    "ryzen",
-    "series",
-    "socs",
-    "surface",
-    "tech",
-    "upscaling",
-    "vulkan",
-    "works",
-    "xbox"
-   ],
-   "at": "2026-10-20T22:32:09.289795+00:00"
-  },
-  {
-   "sig": [
-    "cve-2026-109618",
-    "heap",
-    "php",
-    "progress",
-    "session.upload",
-    "uaf"
-   ],
-   "at": "2026-10-21T10:25:42.326106+00:00"
-  },
   {
    "sig": [
     "android",
@@ -8326,17 +8269,80 @@
     "york"
    ],
    "at": "2026-10-29T11:56:24.027871+00:00"
+  },
+  {
+   "sig": [
+    "change",
+    "customizable",
+    "faster",
+    "fully",
+    "menu",
+    "much-needed",
+    "right-click",
+    "tried",
+    "windows"
+   ],
+   "at": "2026-10-29T12:53:42.215147+00:00"
+  },
+  {
+   "sig": [
+    "artificial",
+    "intelligence",
+    "kogui",
+    "message",
+    "people",
+    "urgent"
+   ],
+   "at": "2026-10-29T12:53:51.542105+00:00"
+  },
+  {
+   "sig": [
+    "again",
+    "another",
+    "education",
+    "hike",
+    "jumped",
+    "macbook",
+    "neo",
+    "price",
+    "students"
+   ],
+   "at": "2026-10-29T12:53:57.397780+00:00"
+  },
+  {
+   "sig": [
+    "bystanders",
+    "disturbing",
+    "edward",
+    "glasses",
+    "implicated",
+    "increasingly",
+    "invasions",
+    "letter",
+    "markey",
+    "meta",
+    "privacy",
+    "ron",
+    "sent",
+    "smart",
+    "users",
+    "wyden"
+   ],
+   "at": "2026-10-29T12:54:03.667287+00:00"
+  },
+  {
+   "sig": [
+    "agentic",
+    "benchmark",
+    "cpu",
+    "defining",
+    "first",
+    "step"
+   ],
+   "at": "2026-10-29T12:54:13.943022+00:00"
   }
  ],
  "snapshots": {
-  "hn:50131440": [
-   496,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
-  "hn:50131256": [
-   971,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
   "hn:50131213": [
    355,
    "2026-10-17T22:30:16.283201+00:00"
@@ -10728,6 +10734,14 @@
   "hn:50287001": [
    85,
    "2026-10-29T11:53:42.189994+00:00"
+  ],
+  "hn:50287359": [
+   149,
+   "2026-10-29T12:53:39.440865+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzakwmsn22k": [
+   372,
+   "2026-10-29T12:53:39.440865+00:00"
   ]
  }
 }
