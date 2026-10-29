@@ -1638,18 +1638,28 @@
   "https://www.technologyreview.com/?p=1147824",
   "6ae023b4eaec5128172ae1c3",
   "6adf57da2ff5d06d81af7526",
-  "6adf7da631eac9e54331b316"
+  "6adf7da631eac9e54331b316",
+  "9csEFbz9DcZuiPuFsJJ3dR",
+  "https://www.engadget.com/2299912/fake-ps5-emulators-on-github-are-spreading-password-stealing-malware/",
+  "7f2bee238856a1888021a1396878b16d",
+  "dcjgr2ReyLCs38iTGs9YkB",
+  "https://www.theregister.com/a/5306084",
+  "8GuKx63Y9heKeNx3o34Crk",
+  "cd8b07dd9d14adc67a8c5cb0f47271a9",
+  "uywscopWDMAeMuiJ5BMx2Z",
+  "8Xt9NkeA2jK8VsXbDGJYck",
+  "https://www.androidpolice.com/att-samsung-galaxy-z-fold-8-deal-1200-off/"
  ],
  "posted": {
   "viral": 310,
-  "editorial": 395
+  "editorial": 399
  },
  "recent_labels": [
-  "The Hacker News",
   "Wired",
-  "MIT Tech Review",
-  "Wired",
-  "Wired"
+  "Tom's Hardware",
+  "Hi-Tech Mail",
+  "TechRadar",
+  "The Register"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4018,46 +4028,37 @@
    "source": "Wired",
    "score": 0.22956,
    "at": "2026-10-29T10:54:16.962717+00:00"
+  },
+  {
+   "title": "بدافزارهای مخفی‌شده در شبیه‌سازهای جعلی PS5 برای سرقت اطلاعات کاربران",
+   "url": "https://www.tomshardware.com/tech-industry/cyber-security/fake-ps5-emulators-are-being-used-to-infect-gamers-computers-with-password-scraping-malware-two-well-known-github-repos-including-anyps5-hit",
+   "source": "Tom's Hardware",
+   "score": 0.42559,
+   "at": "2026-10-29T11:38:50.101101+00:00"
+  },
+  {
+   "title": "توسعه ایجنت هوش مصنوعی برای تحلیل لوایح در دومای روسیه",
+   "url": "https://hi-tech.mail.ru/news/159313-v-gosdume-poyavitsya-ii-agent-dlya-raboty-s-zakonoproektami/",
+   "source": "Hi-Tech Mail",
+   "score": 0.18641,
+   "at": "2026-10-29T11:39:05.905657+00:00"
+  },
+  {
+   "title": "اهمیت طراحی مبتنی بر حریم خصوصی در عینک‌های هوشمند مجهز به هوش مصنوعی",
+   "url": "https://www.techradar.com/pro/why-ai-smart-glasses-need-a-privacy-first-approach",
+   "source": "TechRadar",
+   "score": 0.18866,
+   "at": "2026-10-29T11:39:28.813792+00:00"
+  },
+  {
+   "title": "موضع‌گیری توسعه‌دهندگان LibreOffice در برابر استفاده از ابزارهای هوش مصنوعی برای کدنویسی",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/29/libreoffices-no-ai-stance-meets-llm-assisted-code/5306084",
+   "source": "The Register",
+   "score": 0.26468,
+   "at": "2026-10-29T11:39:35.266502+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "allowed",
-    "concerns",
-    "language",
-    "may",
-    "meta",
-    "news",
-    "raised",
-    "removes",
-    "scrape",
-    "scraping",
-    "sites",
-    "training"
-   ],
-   "at": "2026-10-17T22:30:30.026251+00:00"
-  },
-  {
-   "sig": [
-    "crossed",
-    "enough",
-    "harmful",
-    "tag",
-    "useless",
-    "vibecoding"
-   ],
-   "at": "2026-10-18T14:05:40.545297+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "closing",
-    "doors",
-    "websites"
-   ],
-   "at": "2026-10-18T17:27:59.545430+00:00"
-  },
   {
    "sig": [
     "absurd",
@@ -8253,6 +8254,51 @@
     "targeted"
    ],
    "at": "2026-10-29T10:54:16.962717+00:00"
+  },
+  {
+   "sig": [
+    "anyps5",
+    "being",
+    "computers",
+    "emulators",
+    "fake",
+    "gamers",
+    "github",
+    "hit",
+    "including",
+    "infecting",
+    "malware",
+    "password-scraping",
+    "password-stealing",
+    "passwords",
+    "popular",
+    "ps5",
+    "repos",
+    "spreading",
+    "steal",
+    "well-known"
+   ],
+   "at": "2026-10-29T11:38:50.101101+00:00"
+  },
+  {
+   "sig": [
+    "approach",
+    "glasses",
+    "need",
+    "privacy-first",
+    "smart"
+   ],
+   "at": "2026-10-29T11:39:28.813792+00:00"
+  },
+  {
+   "sig": [
+    "code",
+    "libreoffice",
+    "llm-assisted",
+    "meets",
+    "stance"
+   ],
+   "at": "2026-10-29T11:39:35.266502+00:00"
   }
  ],
  "snapshots": {
@@ -10653,8 +10699,8 @@
    "2026-10-29T09:53:41.097280+00:00"
   ],
   "hn:50285319": [
-   102,
-   "2026-10-29T10:53:42.651337+00:00"
+   129,
+   "2026-10-29T11:37:23.049210+00:00"
   ]
  }
 }
