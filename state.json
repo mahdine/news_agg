@@ -1662,18 +1662,29 @@
   "https://9to5mac.com/?p=1076458",
   "https://www.neowin.net/news/macbook-neo-gets-another-price-hike-for-students/",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzakwmsn22k",
-  "2uR5e7FD7w9vGuLvgjAhgH"
+  "2uR5e7FD7w9vGuLvgjAhgH",
+  "lobsters:dqexzg",
+  "hn:50287448",
+  "https://www.engadget.com/2300741/doordash-acquires-instacart-in-dollar17-billion-delivery-service-merger/",
+  "https://www.theverge.com/?p=1021981",
+  "https://www.techspot.com/news/114355-doordash-reportedly-talks-acquire-instacart-17-billion-deal.html",
+  "TheNextWeb=b182249652e21705da0d371a346adb6f",
+  "hn:50287898",
+  "hn:50288019",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myze7zdhbc2c",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myzfv47ct22e",
+  "https://www.theverge.com/?p=1022140"
  ],
  "posted": {
-  "viral": 312,
-  "editorial": 407
+  "viral": 316,
+  "editorial": 408
  },
  "recent_labels": [
-  "ZDNet",
+  "Lobsters",
   "Hacker News",
-  "9to5Mac",
-  "404 Media",
-  "Tom's Hardware"
+  "Hacker News",
+  "Emily M. Bender",
+  "The Verge"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4140,103 +4151,44 @@
    "source": "Tom's Hardware",
    "score": 0.17957,
    "at": "2026-10-29T12:54:13.943022+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری در تولید کلید رمزنگاری نرم‌افزارهای PDF",
+   "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+   "source": "v12.sh",
+   "score": 0.02748,
+   "at": "2026-10-29T13:53:53.765727+00:00"
+  },
+  {
+   "title": "نشت اطلاعات حساس بیش از ۴۰ هزار کارمند وزارت امنیت داخلی آمریکا",
+   "url": "https://text.npr.org/nx-s1-6021497",
+   "source": "text.npr.org",
+   "score": 0.05922,
+   "at": "2026-10-29T13:54:19.765089+00:00"
+  },
+  {
+   "title": "مدل هوش مصنوعی Gemini 4 Carbon در صدر شاخص هوش مصنوعی قرار گرفت",
+   "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+   "source": "artificialanalysis.ai",
+   "score": 0.08726,
+   "at": "2026-10-29T13:54:25.885238+00:00"
+  },
+  {
+   "title": "خطرات هوش مصنوعی در تولید اطلاعات نادرست انتخاباتی",
+   "url": "https://www.washingtonpost.com/technology/2026/10/24/we-asked-six-chatbots-make-voter-guides-they-made-serious-errors/",
+   "source": "washingtonpost.com",
+   "score": 1.04173,
+   "at": "2026-10-29T13:54:58.503110+00:00"
+  },
+  {
+   "title": "قابلیت‌های جدید دستیار هوشمند خرید آمازون برای مدیریت لیست‌ها",
+   "url": "https://www.theverge.com/tech/1022140/amazon-alexa-for-shopping-grocery-lists-gift-registries",
+   "source": "The Verge",
+   "score": 0.30377,
+   "at": "2026-10-29T13:55:06.181485+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "android",
-    "auto",
-    "carplay",
-    "chat",
-    "gemini",
-    "google",
-    "maps",
-    "navigate",
-    "navigating",
-    "photos",
-    "place",
-    "rolling",
-    "through",
-    "using",
-    "while"
-   ],
-   "at": "2026-10-21T15:28:43.953679+00:00"
-  },
-  {
-   "sig": [
-    "9.2",
-    "admins",
-    "alert",
-    "attempts",
-    "coming",
-    "critical",
-    "cvss",
-    "emerge",
-    "emergency",
-    "exploit",
-    "flaws",
-    "imminently",
-    "issues",
-    "patches",
-    "php",
-    "php2shell",
-    "plans",
-    "psa",
-    "rce",
-    "release",
-    "security",
-    "server",
-    "ships",
-    "tomorrow",
-    "trigger",
-    "uncovers",
-    "unpatched",
-    "update",
-    "urged",
-    "warns"
-   ],
-   "at": "2026-10-21T19:29:37.952622+00:00"
-  },
-  {
-   "sig": [
-    "happens",
-    "language",
-    "prevent",
-    "regularly",
-    "users",
-    "way",
-    "where"
-   ],
-   "at": "2026-10-21T22:37:17.849646+00:00"
-  },
-  {
-   "sig": [
-    "announcing",
-    "badger",
-    "eff",
-    "extensions",
-    "launches",
-    "macos",
-    "privacy",
-    "safari",
-    "web"
-   ],
-   "at": "2026-10-22T10:24:10.246196+00:00"
-  },
-  {
-   "sig": [
-    "cloud",
-    "coming",
-    "google",
-    "major",
-    "models",
-    "openai",
-    "platforms",
-    "three"
-   ],
-   "at": "2026-10-22T15:27:38.807826+00:00"
-  },
   {
    "sig": [
     "dns",
@@ -8340,33 +8292,76 @@
     "step"
    ],
    "at": "2026-10-29T12:54:13.943022+00:00"
+  },
+  {
+   "sig": [
+    "aes",
+    "bit",
+    "case",
+    "key"
+   ],
+   "at": "2026-10-29T13:53:53.765727+00:00"
+  },
+  {
+   "sig": [
+    "40k",
+    "dhs",
+    "employees",
+    "expose",
+    "hackers",
+    "identities"
+   ],
+   "at": "2026-10-29T13:54:19.765089+00:00"
+  },
+  {
+   "sig": [
+    "analysis",
+    "artificial",
+    "carbon",
+    "gemini",
+    "index",
+    "intelligence"
+   ],
+   "at": "2026-10-29T13:54:25.885238+00:00"
+  },
+  {
+   "sig": [
+    "among",
+    "democracy",
+    "despoils",
+    "direct",
+    "ecosystem",
+    "example",
+    "here",
+    "information",
+    "llms-as-search",
+    "long",
+    "other",
+    "puts",
+    "risk",
+    "shouting",
+    "things",
+    "time",
+    "very",
+    "which"
+   ],
+   "at": "2026-10-29T13:54:58.503110+00:00"
+  },
+  {
+   "sig": [
+    "amazon",
+    "assistant",
+    "edit",
+    "gift",
+    "grocery",
+    "lists",
+    "registries",
+    "shopping"
+   ],
+   "at": "2026-10-29T13:55:06.181485+00:00"
   }
  ],
  "snapshots": {
-  "hn:50131213": [
-   355,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my3a5stueq2j": [
-   229,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
-  "hn:50132950": [
-   297,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
-  "hn:50132870": [
-   339,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
-  "hn:50132502": [
-   387,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
-  "hn:50131189": [
-   123,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
   "lobsters:srao9u": [
    34,
    "2026-10-17T22:30:16.283201+00:00"
@@ -10742,6 +10737,30 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzakwmsn22k": [
    372,
    "2026-10-29T12:53:39.440865+00:00"
+  ],
+  "hn:50288019": [
+   230,
+   "2026-10-29T13:53:48.488561+00:00"
+  ],
+  "hn:50287898": [
+   97,
+   "2026-10-29T13:53:48.488561+00:00"
+  ],
+  "hn:50287448": [
+   194,
+   "2026-10-29T13:53:48.488561+00:00"
+  ],
+  "lobsters:dqexzg": [
+   25,
+   "2026-10-29T13:53:48.488561+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myze7zdhbc2c": [
+   63,
+   "2026-10-29T13:53:48.488561+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myzfv47ct22e": [
+   73,
+   "2026-10-29T13:53:48.488561+00:00"
   ]
  }
 }
