@@ -1616,18 +1616,24 @@
   "https://techcrunch.com/?p=3182841",
   "https://techcrunch.com/?p=3182880",
   "https://www.neowin.net/news/google-cloud-revenue-doubles-to-307-billion-but-ai-infra-spending-hits-51-billion/",
-  "urn:latent-space:post:post_211d308e-4494-4480-adc1-9d69c85efd19"
+  "urn:latent-space:post:post_211d308e-4494-4480-adc1-9d69c85efd19",
+  "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/",
+  "https://www.neowin.net/news/github-copilot-fusion-combines-multiple-ai-models-to-write-better-code-at-lower-cost/",
+  "hn:50282766",
+  "hn:50282865",
+  "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "181bcae4e73dcb7f2348fd45f3912af7"
  ],
  "posted": {
-  "viral": 307,
-  "editorial": 384
+  "viral": 309,
+  "editorial": 387
  },
  "recent_labels": [
-  "Lobsters",
-  "The Register",
-  "Neowin",
-  "Neowin",
-  "Latent Space"
+  "Rest of World",
+  "Hacker News",
+  "Hacker News",
+  "InfoQ",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3898,70 +3904,44 @@
    "source": "Latent Space",
    "score": 0.03661,
    "at": "2026-10-29T06:54:30.810655+00:00"
+  },
+  {
+   "title": "نابرابری هزینه‌ی پردازش زبان‌ها در مدل‌های هوش مصنوعی",
+   "url": "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+   "source": "Rest of World",
+   "score": 0.40772,
+   "at": "2026-10-29T07:53:44.473977+00:00"
+  },
+  {
+   "title": "نیویورک‌تایمز قابلیت‌های هوش مصنوعی را به اپلیکیشن آشپزی خود اضافه کرد",
+   "url": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled/",
+   "source": "niemanlab.org",
+   "score": 0.08188,
+   "at": "2026-10-29T07:54:04.946760+00:00"
+  },
+  {
+   "title": "ممنوعیت کامل استفاده از هوش مصنوعی در پروژه‌های MicroZig",
+   "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+   "source": "github.com",
+   "score": 0.08009,
+   "at": "2026-10-29T07:54:11.460019+00:00"
+  },
+  {
+   "title": "ارائه‌ی رابط برنامه‌نویسی جدید Cloudflare برای جستجوی وب در مدل‌های هوش مصنوعی",
+   "url": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.16751,
+   "at": "2026-10-29T07:54:17.855494+00:00"
+  },
+  {
+   "title": "اهمیت برند شخصی متخصصان حوزه فناوری در عصر هوش مصنوعی",
+   "url": "https://hi-tech.mail.ru/articles/159268-kak-ostavatsya-zametnym-kogda-kontent-sozdayut-nejroseti/",
+   "source": "Hi-Tech Mail",
+   "score": 0.15128,
+   "at": "2026-10-29T07:54:27.747441+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anthropic",
-    "heavily",
-    "inspired",
-    "mononoke",
-    "scion"
-   ],
-   "at": "2026-10-14T23:21:24.121120+00:00"
-  },
-  {
-   "sig": [
-    "defender",
-    "desktop",
-    "desktops",
-    "linux",
-    "microsoft",
-    "releases",
-    "supports"
-   ],
-   "at": "2026-10-15T10:09:53.321211+00:00"
-  },
-  {
-   "sig": [
-    "adfection",
-    "ads",
-    "delivered",
-    "digital",
-    "enabling",
-    "firm",
-    "infecting",
-    "installation",
-    "israeli",
-    "nightmare",
-    "online",
-    "phones",
-    "researchers",
-    "scenario",
-    "sending",
-    "spyware",
-    "targeted",
-    "through",
-    "via",
-    "zero-click"
-   ],
-   "at": "2026-10-15T15:11:29.037134+00:00"
-  },
-  {
-   "sig": [
-    "brutally",
-    "consuming",
-    "decompilation",
-    "difficult",
-    "doing",
-    "historically",
-    "task",
-    "time",
-    "trivially"
-   ],
-   "at": "2026-10-15T19:18:30.167742+00:00"
-  },
   {
    "sig": [
     "actions",
@@ -8168,21 +8148,62 @@
     "tops"
    ],
    "at": "2026-10-29T06:54:30.810655+00:00"
+  },
+  {
+   "sig": [
+    "better",
+    "code",
+    "combines",
+    "copilot",
+    "cost",
+    "don",
+    "english",
+    "fusion",
+    "github",
+    "lower",
+    "models",
+    "multiple",
+    "write"
+   ],
+   "at": "2026-10-29T07:53:44.473977+00:00"
+  },
+  {
+   "sig": [
+    "adds",
+    "app",
+    "aren",
+    "cooking",
+    "features",
+    "thrilled",
+    "times",
+    "users",
+    "york"
+   ],
+   "at": "2026-10-29T07:54:04.946760+00:00"
+  },
+  {
+   "sig": [
+    "adopt",
+    "llm",
+    "microzig",
+    "policy",
+    "strict"
+   ],
+   "at": "2026-10-29T07:54:11.460019+00:00"
+  },
+  {
+   "sig": [
+    "api",
+    "applications",
+    "cloudflare",
+    "introduces",
+    "search",
+    "web"
+   ],
+   "at": "2026-10-29T07:54:17.855494+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxzy27gs522q": [
-   49,
-   "2026-10-17T09:34:17.014040+00:00"
-  ],
-  "hn:50127979": [
-   233,
-   "2026-10-17T13:50:08.897822+00:00"
-  ],
-  "hn:50129045": [
-   1503,
-   "2026-10-17T19:36:26.351891+00:00"
-  ],
   "hn:50133401": [
    293,
    "2026-10-17T19:36:26.351891+00:00"
@@ -10570,6 +10591,18 @@
   "lobsters:uimyck": [
    28,
    "2026-10-29T06:53:40.868490+00:00"
+  ],
+  "hn:50282865": [
+   189,
+   "2026-10-29T07:53:42.336006+00:00"
+  ],
+  "hn:50282766": [
+   239,
+   "2026-10-29T07:53:42.336006+00:00"
+  ],
+  "hn:50281826": [
+   135,
+   "2026-10-29T07:53:42.336006+00:00"
   ]
  }
 }
