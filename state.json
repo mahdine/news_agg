@@ -1631,18 +1631,25 @@
   "https://www.phoronix.com/news/Linux-7.4-KSMBD",
   "6adf415ece126e8759a833a7",
   "https://www.securityweek.com/?p=50383",
-  "https://www.phoronix.com/news/Linux-7.5-drm-misc-next"
+  "https://www.phoronix.com/news/Linux-7.5-drm-misc-next",
+  "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+  "https://www.securityweek.com/?p=50387",
+  "6ac53d249637ad55744650f4",
+  "https://www.technologyreview.com/?p=1147824",
+  "6ae023b4eaec5128172ae1c3",
+  "6adf57da2ff5d06d81af7526",
+  "6adf7da631eac9e54331b316"
  ],
  "posted": {
   "viral": 310,
-  "editorial": 390
+  "editorial": 395
  },
  "recent_labels": [
-  "Hi-Tech Mail",
-  "Hacker News",
-  "Phoronix",
-  "SecurityWeek",
-  "Phoronix"
+  "The Hacker News",
+  "Wired",
+  "MIT Tech Review",
+  "Wired",
+  "Wired"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3976,69 +3983,44 @@
    "source": "Phoronix",
    "score": 0.25918,
    "at": "2026-10-29T09:54:22.862491+00:00"
+  },
+  {
+   "title": "شبکه‌ی جاسوسی سایبری Volt Typhoon از زیرساخت مخفی Silent Train استفاده می‌کند",
+   "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+   "source": "The Hacker News",
+   "score": 0.45866,
+   "at": "2026-10-29T10:53:46.417636+00:00"
+  },
+  {
+   "title": "پیش‌بینی طول عمر با هوش مصنوعی و تحلیل داده‌های پزشکی",
+   "url": "https://www.wired.com/story/i-gave-an-ai-death-clock-my-blood/",
+   "source": "Wired",
+   "score": 0.16319,
+   "at": "2026-10-29T10:53:52.848628+00:00"
+  },
+  {
+   "title": "ضرورت نظارت لحظه‌ای بر عملکرد ایجنت‌های هوش مصنوعی برای جلوگیری از رفتارهای غیرمجاز",
+   "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+   "source": "MIT Tech Review",
+   "score": 0.17317,
+   "at": "2026-10-29T10:54:00.633782+00:00"
+  },
+  {
+   "title": "تجربه‌ی کاربری از عینک واقعیت افزوده جدید Snap",
+   "url": "https://www.wired.com/story/i-did-push-ups-with-snaps-chunky-ar-glasses/",
+   "source": "Wired",
+   "score": 0.19199,
+   "at": "2026-10-29T10:54:07.343822+00:00"
+  },
+  {
+   "title": "هکرهای حرفه‌ای با آلوده‌سازی نرم‌افزارهای پوکر آنلاین، کارت‌های بازیکنان را سرقت کردند",
+   "url": "https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/",
+   "source": "Wired",
+   "score": 0.22956,
+   "at": "2026-10-29T10:54:16.962717+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "claude",
-    "curve",
-    "ecdsa",
-    "origins",
-    "reveals"
-   ],
-   "at": "2026-10-16T22:10:17.811759+00:00"
-  },
-  {
-   "sig": [
-    "deepseek",
-    "flash",
-    "v4.1"
-   ],
-   "at": "2026-10-17T09:34:28.759928+00:00"
-  },
-  {
-   "sig": [
-    "cameras",
-    "flock",
-    "map",
-    "mapquest",
-    "neighborhood",
-    "show",
-    "where"
-   ],
-   "at": "2026-10-17T13:50:10.721088+00:00"
-  },
-  {
-   "sig": [
-    "benchmarked",
-    "compute",
-    "delivers",
-    "disappears",
-    "geforce",
-    "gpus",
-    "local",
-    "notebook",
-    "nvidia",
-    "price",
-    "rtx",
-    "seemingly",
-    "serious",
-    "spark",
-    "worried"
-   ],
-   "at": "2026-10-17T17:25:23.933997+00:00"
-  },
-  {
-   "sig": [
-    "credentials",
-    "hacked",
-    "leaked",
-    "opencode",
-    "user"
-   ],
-   "at": "2026-10-17T19:36:30.857722+00:00"
-  },
   {
    "sig": [
     "allowed",
@@ -8209,13 +8191,71 @@
     "queuing"
    ],
    "at": "2026-10-29T09:54:22.862491+00:00"
+  },
+  {
+   "sig": [
+    "campaigns",
+    "cisco",
+    "covert",
+    "exploitation",
+    "four",
+    "network",
+    "sd-wan",
+    "silent",
+    "tied",
+    "train",
+    "typhoon",
+    "volt",
+    "zero-day"
+   ],
+   "at": "2026-10-29T10:53:46.417636+00:00"
+  },
+  {
+   "sig": [
+    "blood",
+    "clock",
+    "death",
+    "gave"
+   ],
+   "at": "2026-10-29T10:53:52.848628+00:00"
+  },
+  {
+   "sig": [
+    "actions",
+    "agents",
+    "monitor",
+    "need",
+    "real",
+    "time",
+    "urgently"
+   ],
+   "at": "2026-10-29T10:54:00.633782+00:00"
+  },
+  {
+   "sig": [
+    "chunky",
+    "did",
+    "glasses",
+    "push-ups",
+    "snap"
+   ],
+   "at": "2026-10-29T10:54:07.343822+00:00"
+  },
+  {
+   "sig": [
+    "cards",
+    "exposed",
+    "hacker",
+    "high-stakes",
+    "malware",
+    "players",
+    "poker",
+    "targeted"
+   ],
+   "at": "2026-10-29T10:54:16.962717+00:00"
   }
  ],
  "snapshots": {
-  "hn:50132278": [
-   250,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
   "hn:50131881": [
    75,
    "2026-10-17T22:30:16.283201+00:00"
@@ -10611,6 +10651,10 @@
   "hn:50285452": [
    100,
    "2026-10-29T09:53:41.097280+00:00"
+  ],
+  "hn:50285319": [
+   102,
+   "2026-10-29T10:53:42.651337+00:00"
   ]
  }
 }
