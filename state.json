@@ -1587,18 +1587,26 @@
   "8VcNnG6tXWYy3ZtntF55DS",
   "rUZ5Svd5cozLytAYdkvnba",
   "https://yro.slashdot.org/story/26/10/28/2247205/bank-of-america-kindly-asks-that-you-dont-share-your-password-with-your-ai-assistant?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://techcrunch.com/?p=3182297"
+  "https://techcrunch.com/?p=3182297",
+  "https://www.neowin.net/news/google-gemini-4-carbon-dethrones-gpt-6-astra-and-claude-opus-55-at-a-fraction-of-the-price/",
+  "https://www.theverge.com/?p=1021339",
+  "hn:50282538",
+  "https://9to5mac.com/?p=1076440",
+  "hn:50284089",
+  "hn:50284255",
+  "6ae2a81b168dfe749932cb22",
+  "https://www.theverge.com/?p=1021528"
  ],
  "posted": {
-  "viral": 304,
-  "editorial": 372
+  "viral": 306,
+  "editorial": 375
  },
  "recent_labels": [
-  "Wired",
-  "Access Now",
-  "Phoronix",
-  "TechRadar",
-  "Slashdot"
+  "Neowin",
+  "Hacker News",
+  "9to5Mac",
+  "Hacker News",
+  "Wired"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3764,103 +3772,44 @@
    "source": "Slashdot",
    "score": 0.3998,
    "at": "2026-10-29T03:54:11.970252+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل هوش مصنوعی Gemini 4 Carbon توسط گوگل",
+   "url": "https://www.neowin.net/news/google-gemini-4-carbon-dethrones-gpt-6-astra-and-claude-opus-55-at-a-fraction-of-the-price/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.03012,
+   "at": "2026-10-29T04:54:22.437096+00:00"
+  },
+  {
+   "title": "عینک واقعیت ترکیبی XREAL AURA با سیستم‌عامل Android XR معرفی شد",
+   "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
+   "source": "blog.google",
+   "score": 0.11941,
+   "at": "2026-10-29T04:54:28.657452+00:00"
+  },
+  {
+   "title": "تعیین تاریخ دادگاه برای شکایت اپل از OpenAI بر سر اسرار تجاری",
+   "url": "https://9to5mac.com/2026/10/28/apple-and-openai-trade-secrets-lawsuit-now-has-an-official-trial-date/",
+   "source": "9to5Mac",
+   "score": 0.02833,
+   "at": "2026-10-29T04:54:36.407023+00:00"
+  },
+  {
+   "title": "کاهش مصرف توکن در Claude Code با غیرفعال‌سازی خودکار خلاصه‌ساز ایجنت‌ها",
+   "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+   "source": "gist.github.com",
+   "score": 0.56757,
+   "at": "2026-10-29T04:54:48.223717+00:00"
+  },
+  {
+   "title": "مسدودسازی لینک‌های حاوی اطلاعات کارکنان وزارت امنیت داخلی آمریکا در Bluesky",
+   "url": "https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/",
+   "source": "Wired",
+   "score": 0.03766,
+   "at": "2026-10-29T04:54:57.976050+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "capability",
-    "gap",
-    "llm",
-    "shared",
-    "understanding",
-    "widening"
-   ],
-   "at": "2026-10-11T22:15:07.619984+00:00"
-  },
-  {
-   "sig": [
-    "92m",
-    "amid",
-    "chip",
-    "claims",
-    "confirms",
-    "crypto",
-    "hidden",
-    "ledger",
-    "theft",
-    "wallet"
-   ],
-   "at": "2026-10-12T13:23:31.427309+00:00"
-  },
-  {
-   "sig": [
-    "announces",
-    "back",
-    "battery",
-    "brings",
-    "date",
-    "debuts",
-    "edge",
-    "features",
-    "fitbit",
-    "gemini",
-    "google",
-    "health",
-    "less",
-    "life",
-    "nfc",
-    "oled",
-    "packed",
-    "pixel",
-    "price",
-    "release",
-    "replaceable",
-    "screen",
-    "seven-day",
-    "sleek",
-    "specs",
-    "watch"
-   ],
-   "at": "2026-10-12T21:48:57.770680+00:00"
-  },
-  {
-   "sig": [
-    "20m",
-    "asset",
-    "bankruptcy",
-    "bid",
-    "chapter",
-    "character.ai",
-    "chatbot",
-    "disney",
-    "files",
-    "interactive",
-    "leads",
-    "platform",
-    "years"
-   ],
-   "at": "2026-10-13T12:51:27.581748+00:00"
-  },
-  {
-   "sig": [
-    "airbnb",
-    "called",
-    "cops",
-    "evystadium.bsky.social",
-    "figure",
-    "geospy",
-    "lets",
-    "photo",
-    "previously",
-    "property",
-    "raven",
-    "specific",
-    "taken",
-    "zillow"
-   ],
-   "at": "2026-10-13T19:55:49.007525+00:00"
-  },
   {
    "sig": [
     "almost",
@@ -8093,21 +8042,79 @@
     "share"
    ],
    "at": "2026-10-29T03:54:11.970252+00:00"
+  },
+  {
+   "sig": [
+    "5.5",
+    "astra",
+    "carbon",
+    "claude",
+    "cybersecurity",
+    "dethrones",
+    "fraction",
+    "gemini",
+    "google",
+    "gpt-6",
+    "launches",
+    "leap",
+    "opus",
+    "price",
+    "significant"
+   ],
+   "at": "2026-10-29T04:54:22.437096+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "first",
+    "glasses",
+    "powered",
+    "wired"
+   ],
+   "at": "2026-10-29T04:54:28.657452+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "date",
+    "lawsuit",
+    "official",
+    "openai",
+    "secrets",
+    "trade",
+    "trial"
+   ],
+   "at": "2026-10-29T04:54:36.407023+00:00"
+  },
+  {
+   "sig": [
+    "3-word",
+    "burns",
+    "claude",
+    "code",
+    "line",
+    "status",
+    "tokens"
+   ],
+   "at": "2026-10-29T04:54:48.223717+00:00"
+  },
+  {
+   "sig": [
+    "blocking",
+    "bluesky",
+    "dhs",
+    "employee",
+    "hacker",
+    "leak",
+    "links",
+    "major",
+    "records",
+    "stole"
+   ],
+   "at": "2026-10-29T04:54:57.976050+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:ddtqtn": [
-   31,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "lobsters:xcacrh": [
-   27,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mxzcbp5gju2c": [
-   239,
-   "2026-10-16T22:10:14.428840+00:00"
-  ],
   "hn:50129121": [
    76,
    "2026-10-17T09:34:17.014040+00:00"
@@ -10472,14 +10479,6 @@
    16,
    "2026-10-29T01:53:43.797906+00:00"
   ],
-  "hn:50280864": [
-   613,
-   "2026-10-29T03:53:43.387110+00:00"
-  ],
-  "hn:50277166": [
-   207,
-   "2026-10-29T03:53:43.387110+00:00"
-  ],
   "hn:50276906": [
    168,
    "2026-10-29T02:53:41.052480+00:00"
@@ -10495,6 +10494,26 @@
   "lobsters:mgy3tr": [
    25,
    "2026-10-29T02:53:41.052480+00:00"
+  ],
+  "hn:50280864": [
+   613,
+   "2026-10-29T03:53:43.387110+00:00"
+  ],
+  "hn:50277166": [
+   213,
+   "2026-10-29T04:53:41.827598+00:00"
+  ],
+  "hn:50284255": [
+   160,
+   "2026-10-29T04:53:41.827598+00:00"
+  ],
+  "hn:50284089": [
+   128,
+   "2026-10-29T04:53:41.827598+00:00"
+  ],
+  "hn:50282538": [
+   150,
+   "2026-10-29T04:53:41.827598+00:00"
   ]
  }
 }
