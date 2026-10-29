@@ -1687,18 +1687,26 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzhxsimik2c",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzi47oeoi2i",
   "UHsAYzFoSJp5Sbs9FeMsd",
-  "https://techcrunch.com/?p=3183066"
+  "https://techcrunch.com/?p=3183066",
+  "hn:50289162",
+  "lobsters:eccbci",
+  "hn:50289859",
+  "hn:50290170",
+  "hn:50290283",
+  "hn:50290668",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myznhj4rqc2c",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzogectl22c"
  ],
  "posted": {
-  "viral": 317,
+  "viral": 320,
   "editorial": 412
  },
  "recent_labels": [
-  "Phoronix",
-  "Engadget",
-  "ZDNet",
   "404 Media",
-  "TechCrunch AI"
+  "TechCrunch AI",
+  "Hacker News",
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4235,59 +4243,30 @@
    "source": "TechCrunch AI",
    "score": 0.23152,
    "at": "2026-10-29T14:56:24.403653+00:00"
+  },
+  {
+   "title": "چالش‌های توسعه‌دهندگان با ابزارهای هوش مصنوعی در محیط‌های عملیاتی",
+   "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
+   "source": "martinfowler.com",
+   "score": 0.25217,
+   "at": "2026-10-29T16:53:52.318654+00:00"
+  },
+  {
+   "title": "اعتبار‌سنجی آمارهای ارائه‌شده توسط مدل‌های هوش مصنوعی",
+   "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+   "source": "trakkr.ai",
+   "score": 0.36333,
+   "at": "2026-10-29T16:54:04.104751+00:00"
+  },
+  {
+   "title": "واکنش تند مدیرعامل Proton به درخواست کارمندان برای تست هوش مصنوعی",
+   "url": "https://bsky.app/profile/404media.co/post/3myzogectl22c",
+   "source": "404 Media",
+   "score": 0.49628,
+   "at": "2026-10-29T16:54:41.678815+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "analysis",
-    "artificial",
-    "cut",
-    "hacking",
-    "highspeed",
-    "k3.1",
-    "kimi",
-    "line",
-    "moonshot",
-    "pareto",
-    "placed",
-    "pro",
-    "releases",
-    "scores",
-    "skills"
-   ],
-   "at": "2026-10-23T22:29:15.686427+00:00"
-  },
-  {
-   "sig": [
-    "close",
-    "functional",
-    "programming",
-    "pure"
-   ],
-   "at": "2026-10-24T09:42:45.939109+00:00"
-  },
-  {
-   "sig": [
-    "baton",
-    "blackx",
-    "boot",
-    "bootkit",
-    "bypass",
-    "bypasses",
-    "drop",
-    "exploits",
-    "flaw",
-    "missing",
-    "patched",
-    "revocations",
-    "secure",
-    "systems",
-    "uefi",
-    "windows"
-   ],
-   "at": "2026-10-24T14:36:48.595357+00:00"
-  },
   {
    "sig": [
     "aren",
@@ -8398,41 +8377,55 @@
     "wabi"
    ],
    "at": "2026-10-29T14:56:24.403653+00:00"
+  },
+  {
+   "sig": [
+    "agentic",
+    "developers",
+    "development",
+    "good",
+    "wary"
+   ],
+   "at": "2026-10-29T16:53:52.318654+00:00"
+  },
+  {
+   "sig": [
+    "come",
+    "numbers",
+    "quotes",
+    "stats",
+    "where",
+    "zombie"
+   ],
+   "at": "2026-10-29T16:54:04.104751+00:00"
+  },
+  {
+   "sig": [
+    "andy",
+    "asked",
+    "bullshit",
+    "ceo",
+    "company",
+    "days",
+    "employee",
+    "few",
+    "going",
+    "him",
+    "investigation",
+    "live",
+    "loser",
+    "product",
+    "proton",
+    "responded",
+    "saying",
+    "test",
+    "thinking",
+    "yen"
+   ],
+   "at": "2026-10-29T16:54:41.678815+00:00"
   }
  ],
  "snapshots": {
-  "hn:50136536": [
-   485,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
-  "hn:50136198": [
-   309,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
-  "lobsters:k5omum": [
-   29,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my4i7yk63n2i": [
-   381,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my47tr7cs72e": [
-   184,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3my4emtu5x22d": [
-   7,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
-  "hn:50138087": [
-   302,
-   "2026-10-18T14:05:37.965850+00:00"
-  ],
-  "hn:50138044": [
-   146,
-   "2026-10-18T14:05:37.965850+00:00"
-  ],
   "hn:50137950": [
    291,
    "2026-10-18T14:05:37.965850+00:00"
@@ -10781,10 +10774,6 @@
    203,
    "2026-10-29T14:53:43.894761+00:00"
   ],
-  "hn:50286987": [
-   150,
-   "2026-10-29T14:53:43.894761+00:00"
-  ],
   "hn:50284342": [
    83,
    "2026-10-29T14:53:43.894761+00:00"
@@ -10800,6 +10789,42 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzhxsimik2c": [
    1058,
    "2026-10-29T14:53:43.894761+00:00"
+  ],
+  "hn:50286987": [
+   285,
+   "2026-10-29T16:53:48.965984+00:00"
+  ],
+  "hn:50290668": [
+   219,
+   "2026-10-29T16:53:48.965984+00:00"
+  ],
+  "hn:50290283": [
+   112,
+   "2026-10-29T16:53:48.965984+00:00"
+  ],
+  "hn:50290170": [
+   227,
+   "2026-10-29T16:53:48.965984+00:00"
+  ],
+  "hn:50289859": [
+   130,
+   "2026-10-29T16:53:48.965984+00:00"
+  ],
+  "hn:50289162": [
+   188,
+   "2026-10-29T16:53:48.965984+00:00"
+  ],
+  "lobsters:eccbci": [
+   37,
+   "2026-10-29T16:53:48.965984+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzogectl22c": [
+   233,
+   "2026-10-29T16:53:48.965984+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myznhj4rqc2c": [
+   243,
+   "2026-10-29T16:53:48.965984+00:00"
   ]
  }
 }
