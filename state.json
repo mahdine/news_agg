@@ -1695,18 +1695,28 @@
   "hn:50290283",
   "hn:50290668",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myznhj4rqc2c",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzogectl22c"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzogectl22c",
+  "hn:50286197",
+  "https://www.techspot.com/news/114381-alphabet-shares-plunge-over-10-google-ai-search.html",
+  "hn:50291945",
+  "qyCfZyxi4M6sqtgzQcEY5G",
+  "https://techcrunch.com/?p=3183099",
+  "hn:50290912",
+  "https://www.theverge.com/?p=1022400",
+  "6ae2399b91edfe18440519c0",
+  "https://www.techspot.com/news/114378-gtx-750-ti-back-8gb-memory-can-barely.html",
+  "https://www.neowin.net/news/the-elder-scrolls-vi-is-reportedly-titled-sentinel-reveal-coming-soon/"
  ],
  "posted": {
-  "viral": 320,
-  "editorial": 412
+  "viral": 321,
+  "editorial": 414
  },
  "recent_labels": [
+  "Hacker News",
   "404 Media",
-  "TechCrunch AI",
-  "Hacker News",
-  "Hacker News",
-  "404 Media"
+  "TechSpot",
+  "Tom's Hardware",
+  "Hacker News"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4264,62 +4274,30 @@
    "source": "404 Media",
    "score": 0.49628,
    "at": "2026-10-29T16:54:41.678815+00:00"
+  },
+  {
+   "title": "سقوط ارزش سهام Alphabet به دلیل چالش‌های درآمدزایی هوش مصنوعی گوگل",
+   "url": "https://www.techspot.com/news/114381-alphabet-shares-plunge-over-10-google-ai-search.html",
+   "source": "TechSpot",
+   "score": 0.56768,
+   "at": "2026-10-29T17:54:08.913101+00:00"
+  },
+  {
+   "title": "اتهام جاسوسی برای چین علیه شریک تجاری انویدیا",
+   "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-spy-plot-through-chinese-intelligence-asset-report-claims-exec-from-firm-under-investigation-for-smuggling-banned-ai-chips-to-china-accused-of-being-a-spy-was-also-feeding-information-to-beijing",
+   "source": "Tom's Hardware",
+   "score": 0.2781,
+   "at": "2026-10-29T17:54:37.144898+00:00"
+  },
+  {
+   "title": "بهینه‌سازی عملکرد پردازنده‌های گرافیکی با استفاده از معماری NVL72",
+   "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
+   "source": "skypilot.ai",
+   "score": 0.0815,
+   "at": "2026-10-29T17:55:12.557803+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "aren",
-    "cares",
-    "either",
-    "enterprises",
-    "experiments",
-    "human",
-    "llm",
-    "may",
-    "outcomes",
-    "peer",
-    "publishing",
-    "research",
-    "review",
-    "scholarship",
-    "showing",
-    "similar",
-    "there",
-    "understand"
-   ],
-   "at": "2026-10-24T17:32:10.869331+00:00"
-  },
-  {
-   "sig": [
-    "0.76s",
-    "0.82s",
-    "backwards",
-    "first",
-    "forward",
-    "jumped",
-    "ntp",
-    "pool",
-    "sent",
-    "server",
-    "system",
-    "systemd-timesyncd",
-    "time",
-    "trastevere",
-    "well",
-    "wildly",
-    "wrong"
-   ],
-   "at": "2026-10-24T21:05:27.003735+00:00"
-  },
-  {
-   "sig": [
-    "bitcoin",
-    "show",
-    "steal"
-   ],
-   "at": "2026-10-24T23:34:18.046424+00:00"
-  },
   {
    "sig": [
     "abuse",
@@ -8423,21 +8401,60 @@
     "yen"
    ],
    "at": "2026-10-29T16:54:41.678815+00:00"
+  },
+  {
+   "sig": [
+    "alphabet",
+    "ever",
+    "first",
+    "google",
+    "less",
+    "money",
+    "plunge",
+    "revenue",
+    "search",
+    "shares",
+    "struggles",
+    "time"
+   ],
+   "at": "2026-10-29T17:54:08.913101+00:00"
+  },
+  {
+   "sig": [
+    "aimed",
+    "asset",
+    "ceo",
+    "chinese",
+    "claims",
+    "huang",
+    "intelligence",
+    "investigated",
+    "jensen",
+    "may",
+    "nvidia",
+    "plot",
+    "report",
+    "spy",
+    "target",
+    "through"
+   ],
+   "at": "2026-10-29T17:54:37.144898+00:00"
+  },
+  {
+   "sig": [
+    "blackwell",
+    "gpus",
+    "grace",
+    "needs",
+    "racks",
+    "same",
+    "scheduler",
+    "usable"
+   ],
+   "at": "2026-10-29T17:55:12.557803+00:00"
   }
  ],
  "snapshots": {
-  "hn:50137950": [
-   291,
-   "2026-10-18T14:05:37.965850+00:00"
-  ],
-  "hn:50137820": [
-   92,
-   "2026-10-18T14:05:37.965850+00:00"
-  ],
-  "hn:50137620": [
-   724,
-   "2026-10-18T14:05:37.965850+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my4rhbyhjm2v": [
    1009,
    "2026-10-18T14:05:37.965850+00:00"
@@ -10790,10 +10807,6 @@
    1058,
    "2026-10-29T14:53:43.894761+00:00"
   ],
-  "hn:50286987": [
-   285,
-   "2026-10-29T16:53:48.965984+00:00"
-  ],
   "hn:50290668": [
    219,
    "2026-10-29T16:53:48.965984+00:00"
@@ -10825,6 +10838,22 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myznhj4rqc2c": [
    243,
    "2026-10-29T16:53:48.965984+00:00"
+  ],
+  "hn:50286987": [
+   337,
+   "2026-10-29T17:53:42.546055+00:00"
+  ],
+  "hn:50291945": [
+   408,
+   "2026-10-29T17:53:42.546055+00:00"
+  ],
+  "hn:50290912": [
+   63,
+   "2026-10-29T17:53:42.546055+00:00"
+  ],
+  "hn:50286197": [
+   257,
+   "2026-10-29T17:53:42.546055+00:00"
   ]
  }
 }
