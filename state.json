@@ -1648,18 +1648,25 @@
   "cd8b07dd9d14adc67a8c5cb0f47271a9",
   "uywscopWDMAeMuiJ5BMx2Z",
   "8Xt9NkeA2jK8VsXbDGJYck",
-  "https://www.androidpolice.com/att-samsung-galaxy-z-fold-8-deal-1200-off/"
+  "https://www.androidpolice.com/att-samsung-galaxy-z-fold-8-deal-1200-off/",
+  "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+  "hn:50285319",
+  "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+  "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+  "hn:50287001",
+  "https://www.securityweek.com/?p=50391",
+  "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
  ],
  "posted": {
   "viral": 310,
-  "editorial": 399
+  "editorial": 404
  },
  "recent_labels": [
-  "Wired",
-  "Tom's Hardware",
-  "Hi-Tech Mail",
-  "TechRadar",
-  "The Register"
+  "The Hacker News",
+  "The Hacker News",
+  "The Hacker News",
+  "SecurityWeek",
+  "InfoQ"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4056,100 +4063,44 @@
    "source": "The Register",
    "score": 0.26468,
    "at": "2026-10-29T11:39:35.266502+00:00"
+  },
+  {
+   "title": "نفوذ به مایکروسافت اج با زنجیره‌ای از خطاهای منطقی",
+   "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+   "source": "The Hacker News",
+   "score": 0.12071,
+   "at": "2026-10-29T11:54:07.949522+00:00"
+  },
+  {
+   "title": "قابلیت جدید GitHub برای مسدودسازی بسته‌های مخرب npm",
+   "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+   "source": "The Hacker News",
+   "score": 0.12586,
+   "at": "2026-10-29T11:54:14.993386+00:00"
+  },
+  {
+   "title": "وصله امنیتی سیسکو برای رفع آسیب‌پذیری بحرانی در فایروال‌های ASA و FTD",
+   "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+   "source": "The Hacker News",
+   "score": 0.14854,
+   "at": "2026-10-29T11:55:47.207990+00:00"
+  },
+  {
+   "title": "نشت اطلاعات میلیون‌ها کاربر سرویس اینترنتی سونی در ژاپن",
+   "url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
+   "source": "SecurityWeek",
+   "score": 0.1536,
+   "at": "2026-10-29T11:56:13.568078+00:00"
+  },
+  {
+   "title": "محورهای کلیدی کنفرانس QCon AI نیویورک ۲۰۲۶ برای توسعه‌دهندگان",
+   "url": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.144,
+   "at": "2026-10-29T11:56:24.027871+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "absurd",
-    "altruist",
-    "chamber",
-    "effective",
-    "model",
-    "obsession",
-    "opened",
-    "someone-tort",
-    "torture",
-    "upsetting",
-    "welfare",
-    "window",
-    "www.404media.co"
-   ],
-   "at": "2026-10-18T19:33:08.709731+00:00"
-  },
-  {
-   "sig": [
-    "accenture",
-    "accenture-te",
-    "allocated",
-    "breakdown",
-    "called",
-    "employee",
-    "find",
-    "fund",
-    "goes",
-    "project",
-    "rest",
-    "specific",
-    "structure",
-    "team",
-    "usage",
-    "wbs",
-    "work",
-    "workers",
-    "www.404media.co"
-   ],
-   "at": "2026-10-18T22:31:16.369531+00:00"
-  },
-  {
-   "sig": [
-    "action",
-    "class",
-    "com",
-    "consumer",
-    "domain",
-    "name",
-    "registry",
-    "verisign"
-   ],
-   "at": "2026-10-19T11:03:35.800036+00:00"
-  },
-  {
-   "sig": [
-    "attack",
-    "backdoor",
-    "chain",
-    "compromised",
-    "deliver",
-    "hijacked",
-    "math",
-    "plugin",
-    "popular",
-    "pro",
-    "rank",
-    "self-restoring",
-    "seo",
-    "supply",
-    "wordpress"
-   ],
-   "at": "2026-10-19T17:39:01.804776+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "cannot",
-    "frontier",
-    "insider",
-    "like",
-    "microsoft",
-    "models",
-    "origin",
-    "regardless",
-    "threats",
-    "trusted"
-   ],
-   "at": "2026-10-19T22:32:41.750557+00:00"
-  },
   {
    "sig": [
     "app",
@@ -8299,13 +8250,85 @@
     "stance"
    ],
    "at": "2026-10-29T11:39:35.266502+00:00"
+  },
+  {
+   "sig": [
+    "alone",
+    "bugs",
+    "chain",
+    "cracked",
+    "edge",
+    "forging",
+    "full",
+    "logic",
+    "microsoft",
+    "pwn2own",
+    "researcher",
+    "reveals",
+    "win"
+   ],
+   "at": "2026-10-29T11:54:07.949522+00:00"
+  },
+  {
+   "sig": [
+    "block",
+    "firewall",
+    "github",
+    "installation",
+    "launches",
+    "malicious",
+    "npm",
+    "packages"
+   ],
+   "at": "2026-10-29T11:54:14.993386+00:00"
+  },
+  {
+   "sig": [
+    "actively",
+    "asa",
+    "cisco",
+    "crash",
+    "exploited",
+    "firewalls",
+    "flaw",
+    "ftd",
+    "patches",
+    "vpn"
+   ],
+   "at": "2026-10-29T11:55:47.207990+00:00"
+  },
+  {
+   "sig": [
+    "2.6",
+    "hackers",
+    "isp",
+    "japanese",
+    "million",
+    "records",
+    "so-net",
+    "sony",
+    "steal"
+   ],
+   "at": "2026-10-29T11:56:13.568078+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "committee",
+    "context",
+    "costs",
+    "identity",
+    "infere",
+    "open-source",
+    "picks",
+    "program",
+    "qcon",
+    "york"
+   ],
+   "at": "2026-10-29T11:56:24.027871+00:00"
   }
  ],
  "snapshots": {
-  "hn:50131881": [
-   75,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
   "hn:50131440": [
    496,
    "2026-10-17T22:30:16.283201+00:00"
@@ -10699,8 +10722,12 @@
    "2026-10-29T09:53:41.097280+00:00"
   ],
   "hn:50285319": [
-   129,
-   "2026-10-29T11:37:23.049210+00:00"
+   143,
+   "2026-10-29T11:53:42.189994+00:00"
+  ],
+  "hn:50287001": [
+   85,
+   "2026-10-29T11:53:42.189994+00:00"
   ]
  }
 }
