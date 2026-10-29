@@ -1705,18 +1705,27 @@
   "https://www.theverge.com/?p=1022400",
   "6ae2399b91edfe18440519c0",
   "https://www.techspot.com/news/114378-gtx-750-ti-back-8gb-memory-can-barely.html",
-  "https://www.neowin.net/news/the-elder-scrolls-vi-is-reportedly-titled-sentinel-reveal-coming-soon/"
+  "https://www.neowin.net/news/the-elder-scrolls-vi-is-reportedly-titled-sentinel-reveal-coming-soon/",
+  "hn:50289590",
+  "hn:50292233",
+  "https://www.theregister.com/a/5306426",
+  "https://www.phoronix.com/news/Ubuntu-Core-Desktop-2026",
+  "TheNextWeb=8cdafdef7b9b5675e19adcaa79f58d04",
+  "https://techcrunch.com/?p=3182652",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzuoyjew32i",
+  "https://www.theverge.com/?p=1022440",
+  "https://www.engadget.com/2301410/meta-will-now-alert-parents-if-teens-repeatedly-search-for-self-harm-content-on-facebook/"
  ],
  "posted": {
-  "viral": 321,
-  "editorial": 414
+  "viral": 323,
+  "editorial": 417
  },
  "recent_labels": [
   "Hacker News",
-  "404 Media",
-  "TechSpot",
-  "Tom's Hardware",
-  "Hacker News"
+  "Hacker News",
+  "The Register",
+  "The Next Web",
+  "Engadget"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4295,80 +4304,44 @@
    "source": "skypilot.ai",
    "score": 0.0815,
    "at": "2026-10-29T17:55:12.557803+00:00"
+  },
+  {
+   "title": "ابزار Keplearn برای استخراج معادلات ریاضی از داده‌های جدولی",
+   "url": "https://github.com/owls-on-wires/keplearn",
+   "source": "github.com",
+   "score": 0.03692,
+   "at": "2026-10-29T18:33:52.049547+00:00"
+  },
+  {
+   "title": "اعطای نشان لیاقت جمهوری چک به دو متخصص حوزه تکنولوژی",
+   "url": "https://www.vut.cz/en/but/news-f19528/two-but-graduates-received-state-honors-from-the-president-of-the-republic-d378468",
+   "source": "vut.cz",
+   "score": 0.12002,
+   "at": "2026-10-29T18:34:21.927057+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی وب‌سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/os-platforms/2026/10/29/ubuntu-2704-may-bring-a-preview-of-the-long-awaited-core-desktop/5306426",
+   "source": "The Register",
+   "score": 0.22305,
+   "at": "2026-10-29T18:34:41.737438+00:00"
+  },
+  {
+   "title": "خرید شرکت Daily توسط Deepgram و تشکیل بنیاد مستقل برای Pipecat",
+   "url": "https://thenextweb.com/news/deepgram-daily-acquisition-pipecat-open-source",
+   "source": "The Next Web",
+   "score": 0.34165,
+   "at": "2026-10-29T18:34:56.826520+00:00"
+  },
+  {
+   "title": "گسترش نظارت والدین بر فعالیت نوجوانان در فیس‌بوک و هوش مصنوعی متا",
+   "url": "https://www.engadget.com/2301410/meta-will-now-alert-parents-if-teens-repeatedly-search-for-self-harm-content-on-facebook/",
+   "source": "Engadget",
+   "score": 0.21597,
+   "at": "2026-10-29T18:36:01.409958+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "abuse",
-    "activist",
-    "activities",
-    "actually",
-    "because",
-    "child",
-    "city",
-    "cop",
-    "material",
-    "officials",
-    "phone",
-    "samuel",
-    "search",
-    "stop",
-    "suspected",
-    "terrorist",
-    "tunick",
-    "wanted"
-   ],
-   "at": "2026-10-25T06:47:57.050794+00:00"
-  },
-  {
-   "sig": [
-    "bolsonaro",
-    "brazilian",
-    "court",
-    "end",
-    "favoritism",
-    "ignores",
-    "meta",
-    "order"
-   ],
-   "at": "2026-10-25T10:02:02.016467+00:00"
-  },
-  {
-   "sig": [
-    "960x540",
-    "image",
-    "lite",
-    "model",
-    "running",
-    "samsung",
-    "tensorflow",
-    "track"
-   ],
-   "at": "2026-10-25T13:24:57.149415+00:00"
-  },
-  {
-   "sig": [
-    "engine",
-    "fheroes2",
-    "game",
-    "heroes",
-    "magic",
-    "might",
-    "recreation"
-   ],
-   "at": "2026-10-25T13:25:04.250273+00:00"
-  },
-  {
-   "sig": [
-    "games",
-    "jailbroken",
-    "ps5s",
-    "run",
-    "steam"
-   ],
-   "at": "2026-10-25T13:25:26.081631+00:00"
-  },
   {
    "sig": [
     "000-per-gpu",
@@ -8452,21 +8425,80 @@
     "usable"
    ],
    "at": "2026-10-29T17:55:12.557803+00:00"
+  },
+  {
+   "sig": [
+    "data",
+    "equations",
+    "extract",
+    "keplearn",
+    "seconds"
+   ],
+   "at": "2026-10-29T18:33:52.049547+00:00"
+  },
+  {
+   "sig": [
+    "awarded",
+    "czech",
+    "medal",
+    "merit",
+    "mikolov",
+    "president",
+    "republic",
+    "tom"
+   ],
+   "at": "2026-10-29T18:34:21.927057+00:00"
+  },
+  {
+   "sig": [
+    "27.04",
+    "bring",
+    "canonical",
+    "core",
+    "desktop",
+    "immutable",
+    "long-awaited",
+    "may",
+    "preview",
+    "reviving",
+    "ubuntu"
+   ],
+   "at": "2026-10-29T18:34:41.737438+00:00"
+  },
+  {
+   "sig": [
+    "acquires",
+    "bolster",
+    "buys",
+    "daily",
+    "deepgram",
+    "framework",
+    "infrastructure",
+    "keeps",
+    "maker",
+    "open",
+    "pipecat",
+    "pipecat-maker",
+    "voice"
+   ],
+   "at": "2026-10-29T18:34:56.826520+00:00"
+  },
+  {
+   "sig": [
+    "alert",
+    "content",
+    "facebook",
+    "meta",
+    "parents",
+    "repeatedly",
+    "search",
+    "self-harm",
+    "teens"
+   ],
+   "at": "2026-10-29T18:36:01.409958+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my4rhbyhjm2v": [
-   1009,
-   "2026-10-18T14:05:37.965850+00:00"
-  ],
-  "lobsters:ggpwfi": [
-   258,
-   "2026-10-18T14:05:37.965850+00:00"
-  ],
-  "hn:50138531": [
-   841,
-   "2026-10-18T17:27:56.621775+00:00"
-  ],
   "hn:50141657": [
    277,
    "2026-10-18T17:27:56.621775+00:00"
@@ -10839,10 +10871,6 @@
    243,
    "2026-10-29T16:53:48.965984+00:00"
   ],
-  "hn:50286987": [
-   337,
-   "2026-10-29T17:53:42.546055+00:00"
-  ],
   "hn:50291945": [
    408,
    "2026-10-29T17:53:42.546055+00:00"
@@ -10854,6 +10882,22 @@
   "hn:50286197": [
    257,
    "2026-10-29T17:53:42.546055+00:00"
+  ],
+  "hn:50286987": [
+   362,
+   "2026-10-29T18:33:48.942449+00:00"
+  ],
+  "hn:50292233": [
+   88,
+   "2026-10-29T18:33:48.942449+00:00"
+  ],
+  "hn:50289590": [
+   58,
+   "2026-10-29T18:33:48.942449+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzuoyjew32i": [
+   74,
+   "2026-10-29T18:33:48.942449+00:00"
   ]
  }
 }
