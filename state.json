@@ -1622,18 +1622,27 @@
   "hn:50282766",
   "hn:50282865",
   "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "181bcae4e73dcb7f2348fd45f3912af7"
+  "181bcae4e73dcb7f2348fd45f3912af7",
+  "hn:50285452",
+  "hn:50285714",
+  "6ae26ce68025c0ad4677bab7",
+  "https://www.theregister.com/a/5306204",
+  "https://www.theregister.com/a/5305915",
+  "https://www.phoronix.com/news/Linux-7.4-KSMBD",
+  "6adf415ece126e8759a833a7",
+  "https://www.securityweek.com/?p=50383",
+  "https://www.phoronix.com/news/Linux-7.5-drm-misc-next"
  ],
  "posted": {
-  "viral": 309,
-  "editorial": 387
+  "viral": 310,
+  "editorial": 390
  },
  "recent_labels": [
-  "Rest of World",
+  "Hi-Tech Mail",
   "Hacker News",
-  "Hacker News",
-  "InfoQ",
-  "Hi-Tech Mail"
+  "Phoronix",
+  "SecurityWeek",
+  "Phoronix"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3939,87 +3948,37 @@
    "source": "Hi-Tech Mail",
    "score": 0.15128,
    "at": "2026-10-29T07:54:27.747441+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری خطرناک در اندروید برای از کار انداختن تماس‌های اضطراری",
+   "url": "https://smsofdeath.com/",
+   "source": "smsofdeath.com",
+   "score": 0.0741,
+   "at": "2026-10-29T09:53:43.165923+00:00"
+  },
+  {
+   "title": "بهبودهای جدید در سرور فایل KSMBD برای هسته لینوکس ۷.۴",
+   "url": "https://www.phoronix.com/news/Linux-7.4-KSMBD",
+   "source": "Phoronix",
+   "score": 0.21105,
+   "at": "2026-10-29T09:53:56.534137+00:00"
+  },
+  {
+   "title": "شناسایی دومین آسیب‌پذیری روز صفر در فایروال‌های Cisco در سال جاری",
+   "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
+   "source": "SecurityWeek",
+   "score": 0.27175,
+   "at": "2026-10-29T09:54:16.069985+00:00"
+  },
+  {
+   "title": "آماده‌سازی تغییرات درایورهای گرافیک و NPU برای هسته Linux 7.5",
+   "url": "https://www.phoronix.com/news/Linux-7.5-drm-misc-next",
+   "source": "Phoronix",
+   "score": 0.25918,
+   "at": "2026-10-29T09:54:22.862491+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "actions",
-    "continuity",
-    "ensure",
-    "needed",
-    "technical",
-    "utc"
-   ],
-   "at": "2026-10-15T22:33:35.131374+00:00"
-  },
-  {
-   "sig": [
-    "chromium",
-    "gentoo",
-    "last",
-    "package",
-    "rites"
-   ],
-   "at": "2026-10-16T10:01:30.961541+00:00"
-  },
-  {
-   "sig": [
-    "7.58-inch",
-    "8am",
-    "accessories",
-    "ahead",
-    "apple",
-    "arrives",
-    "available",
-    "cnews",
-    "deliveries",
-    "down",
-    "duo",
-    "five",
-    "foldable",
-    "goes",
-    "here",
-    "iphone",
-    "jd.com",
-    "minutes",
-    "picks",
-    "pre-order",
-    "preorder",
-    "prices",
-    "pushed",
-    "restore",
-    "rush",
-    "screen",
-    "sells",
-    "start",
-    "store",
-    "today",
-    "top"
-   ],
-   "at": "2026-10-16T14:58:30.142959+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "bring",
-    "desktop",
-    "four",
-    "mac",
-    "meta",
-    "mlx",
-    "model",
-    "muse",
-    "needs",
-    "open",
-    "research",
-    "run",
-    "spark",
-    "studio",
-    "studios"
-   ],
-   "at": "2026-10-16T18:53:47.293018+00:00"
-  },
   {
    "sig": [
     "claude",
@@ -8201,17 +8160,58 @@
     "web"
    ],
    "at": "2026-10-29T07:54:17.855494+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "click",
+    "dos",
+    "remote",
+    "silent",
+    "zero"
+   ],
+   "at": "2026-10-29T09:53:43.165923+00:00"
+  },
+  {
+   "sig": [
+    "7.4",
+    "adds",
+    "ksmbd",
+    "linux",
+    "options"
+   ],
+   "at": "2026-10-29T09:53:56.534137+00:00"
+  },
+  {
+   "sig": [
+    "attackers",
+    "august",
+    "cisco",
+    "exploit",
+    "firewall",
+    "second",
+    "since",
+    "vpn",
+    "zero-day"
+   ],
+   "at": "2026-10-29T09:54:16.069985+00:00"
+  },
+  {
+   "sig": [
+    "7.5",
+    "already",
+    "begin",
+    "changes",
+    "driver",
+    "graphics",
+    "linux",
+    "npu",
+    "queuing"
+   ],
+   "at": "2026-10-29T09:54:22.862491+00:00"
   }
  ],
  "snapshots": {
-  "hn:50133401": [
-   293,
-   "2026-10-17T19:36:26.351891+00:00"
-  ],
-  "hn:50132328": [
-   455,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
   "hn:50132278": [
    250,
    "2026-10-17T22:30:16.283201+00:00"
@@ -10601,8 +10601,16 @@
    "2026-10-29T07:53:42.336006+00:00"
   ],
   "hn:50281826": [
-   135,
-   "2026-10-29T07:53:42.336006+00:00"
+   159,
+   "2026-10-29T09:53:41.097280+00:00"
+  ],
+  "hn:50285714": [
+   252,
+   "2026-10-29T09:53:41.097280+00:00"
+  ],
+  "hn:50285452": [
+   100,
+   "2026-10-29T09:53:41.097280+00:00"
   ]
  }
 }
