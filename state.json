@@ -1673,18 +1673,32 @@
   "hn:50288019",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myze7zdhbc2c",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myzfv47ct22e",
-  "https://www.theverge.com/?p=1022140"
+  "https://www.theverge.com/?p=1022140",
+  "https://www.phoronix.com/news/NetBSD-New-Text-Editor",
+  "hn:50287599",
+  "lobsters:m6fw0x",
+  "https://www.engadget.com/2299633/the-xreal-aura-smartglasses-are-now-on-sale-for-a-discounted-launch-price/",
+  "0e181e5aeaf9774a8e53a2ec62997f33",
+  "hn:50284342",
+  "hn:50288867",
+  "1348725",
+  "hn:50289418",
+  "TheNextWeb=2d592cd6f6338d99d879cddeb9e51219",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzhxsimik2c",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzi47oeoi2i",
+  "UHsAYzFoSJp5Sbs9FeMsd",
+  "https://techcrunch.com/?p=3183066"
  ],
  "posted": {
-  "viral": 316,
-  "editorial": 408
+  "viral": 317,
+  "editorial": 412
  },
  "recent_labels": [
-  "Lobsters",
-  "Hacker News",
-  "Hacker News",
-  "Emily M. Bender",
-  "The Verge"
+  "Phoronix",
+  "Engadget",
+  "ZDNet",
+  "404 Media",
+  "TechCrunch AI"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4186,106 +4200,44 @@
    "source": "The Verge",
    "score": 0.30377,
    "at": "2026-10-29T13:55:06.181485+00:00"
+  },
+  {
+   "title": "افزودن ویرایشگر متن atto به سیستم‌عامل NetBSD",
+   "url": "https://www.phoronix.com/news/NetBSD-New-Text-Editor",
+   "source": "Phoronix",
+   "score": 0.27152,
+   "at": "2026-10-29T14:54:29.073953+00:00"
+  },
+  {
+   "title": "عرضه‌ی عینک‌های هوشمند Xreal Aura با پلتفرم Android XR",
+   "url": "https://www.engadget.com/2299633/the-xreal-aura-smartglasses-are-now-on-sale-for-a-discounted-launch-price/",
+   "source": "Engadget",
+   "score": 0.24765,
+   "at": "2026-10-29T14:54:36.430840+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل زبانی Mistral Large 4 با قابلیت‌های پیشرفته کدنویسی و امنیت",
+   "url": "https://www.zdnet.com/innovation/mistral-large-4-weights-release/",
+   "source": "ZDNet",
+   "score": 0.31023,
+   "at": "2026-10-29T14:56:09.598225+00:00"
+  },
+  {
+   "title": "فشار مدیرعامل Proton برای استفاده حداکثری از هوش مصنوعی در توسعه نرم‌افزار",
+   "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+   "source": "404media.co",
+   "score": 0.32661,
+   "at": "2026-10-29T14:56:16.035314+00:00"
+  },
+  {
+   "title": "جذب سرمایه ۵۵ میلیون دلاری استارتاپ Wabi برای توسعه دستیار هوش مصنوعی",
+   "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+   "source": "TechCrunch AI",
+   "score": 0.23152,
+   "at": "2026-10-29T14:56:24.403653+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "dns",
-    "exit",
-    "france",
-    "quad9",
-    "resolver"
-   ],
-   "at": "2026-10-22T19:22:12.070440+00:00"
-  },
-  {
-   "sig": [
-    "abbott",
-    "calling",
-    "center",
-    "centers",
-    "comes",
-    "construction",
-    "continued",
-    "data",
-    "despite",
-    "discovered",
-    "governor",
-    "greg",
-    "group",
-    "had",
-    "issue",
-    "media",
-    "mjgault.bsky.social",
-    "pause",
-    "permits",
-    "projects",
-    "related",
-    "reported",
-    "state",
-    "suspended",
-    "texans",
-    "texas"
-   ],
-   "at": "2026-10-22T22:35:59.207562+00:00"
-  },
-  {
-   "sig": [
-    "8.5",
-    "co2",
-    "emits",
-    "request",
-    "same",
-    "sweden",
-    "texas",
-    "times"
-   ],
-   "at": "2026-10-23T10:21:55.952251+00:00"
-  },
-  {
-   "sig": [
-    "app",
-    "apple",
-    "apps",
-    "best",
-    "duo",
-    "easier",
-    "hardware",
-    "identify",
-    "iphone",
-    "know",
-    "launch",
-    "right",
-    "roundup",
-    "store",
-    "things",
-    "tips",
-    "updated",
-    "using",
-    "worth"
-   ],
-   "at": "2026-10-23T15:19:44.965079+00:00"
-  },
-  {
-   "sig": [
-    "come",
-    "costs",
-    "deepseek",
-    "ever",
-    "headphones",
-    "latest",
-    "low",
-    "model",
-    "noise-crushing",
-    "price",
-    "running",
-    "sale",
-    "smarter",
-    "soundcore"
-   ],
-   "at": "2026-10-23T19:25:55.193987+00:00"
-  },
   {
    "sig": [
     "analysis",
@@ -8359,41 +8311,96 @@
     "shopping"
    ],
    "at": "2026-10-29T13:55:06.181485+00:00"
+  },
+  {
+   "sig": [
+    "adds",
+    "alternative",
+    "atto",
+    "beginner-friendly",
+    "called",
+    "easing",
+    "editor",
+    "netbsd",
+    "text",
+    "users",
+    "xedit"
+   ],
+   "at": "2026-10-29T14:54:29.073953+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "aura",
+    "discounted",
+    "launch",
+    "price",
+    "sale",
+    "smartglasses",
+    "xreal"
+   ],
+   "at": "2026-10-29T14:54:36.430840+00:00"
+  },
+  {
+   "sig": [
+    "alongside",
+    "chonk",
+    "codex",
+    "coding",
+    "gpt-6.1",
+    "large",
+    "mistral",
+    "model",
+    "open",
+    "ranking",
+    "releases",
+    "terra",
+    "top",
+    "trillion-parameter",
+    "weight",
+    "weights"
+   ],
+   "at": "2026-10-29T14:56:09.598225+00:00"
+  },
+  {
+   "sig": [
+    "andy",
+    "big",
+    "build",
+    "calm",
+    "ceo",
+    "concerns",
+    "critiques",
+    "engineers",
+    "even",
+    "internally",
+    "persona",
+    "projects",
+    "proton",
+    "pushing",
+    "rails",
+    "security",
+    "tech",
+    "yen"
+   ],
+   "at": "2026-10-29T14:56:16.035314+00:00"
+  },
+  {
+   "sig": [
+    "1.25b",
+    "agent",
+    "apps",
+    "builds",
+    "latest",
+    "mini",
+    "round",
+    "valued",
+    "wabi"
+   ],
+   "at": "2026-10-29T14:56:24.403653+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:srao9u": [
-   34,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my3tbjpalv25": [
-   738,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3my3oi4xcnx26": [
-   377,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
-  "hn:50134617": [
-   155,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
-  "hn:50133274": [
-   136,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
-  "hn:50132193": [
-   181,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
-  "hn:50131006": [
-   90,
-   "2026-10-17T22:30:16.283201+00:00"
-  ],
-  "hn:50136881": [
-   1066,
-   "2026-10-18T09:46:35.524273+00:00"
-  ],
   "hn:50136536": [
    485,
    "2026-10-18T09:46:35.524273+00:00"
@@ -10761,6 +10768,38 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myzfv47ct22e": [
    73,
    "2026-10-29T13:53:48.488561+00:00"
+  ],
+  "hn:50289418": [
+   280,
+   "2026-10-29T14:53:43.894761+00:00"
+  ],
+  "hn:50288867": [
+   365,
+   "2026-10-29T14:53:43.894761+00:00"
+  ],
+  "hn:50287599": [
+   203,
+   "2026-10-29T14:53:43.894761+00:00"
+  ],
+  "hn:50286987": [
+   150,
+   "2026-10-29T14:53:43.894761+00:00"
+  ],
+  "hn:50284342": [
+   83,
+   "2026-10-29T14:53:43.894761+00:00"
+  ],
+  "lobsters:m6fw0x": [
+   34,
+   "2026-10-29T14:53:43.894761+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzi47oeoi2i": [
+   134,
+   "2026-10-29T14:53:43.894761+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzhxsimik2c": [
+   1058,
+   "2026-10-29T14:53:43.894761+00:00"
   ]
  }
 }
