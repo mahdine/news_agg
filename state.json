@@ -1595,18 +1595,32 @@
   "hn:50284089",
   "hn:50284255",
   "6ae2a81b168dfe749932cb22",
-  "https://www.theverge.com/?p=1021528"
+  "https://www.theverge.com/?p=1021528",
+  "hn:50284329",
+  "0a295d78856ff3378a42541e33f29f0f",
+  "69a9a8ed48195f1e9629ff6f",
+  "689106ddb62bf4a139ca3cca",
+  "687565481c98b721c8067ce0",
+  "6761d31009e85beb9eef459b",
+  "6a206bc7b10c1400bea9fd32",
+  "6859959712304f4d67bd7fd3",
+  "695ff3f3f68acf71d298da25",
+  "69b81ce77b39c7582d3336f8",
+  "5b55ad761827bfbc2fab42d7830caede",
+  "c1dc17fa9a66cd274151b071cd621046",
+  "264a65f4898154ee46162a8a3d53693f",
+  "3222772"
  ],
  "posted": {
   "viral": 306,
-  "editorial": 375
+  "editorial": 380
  },
  "recent_labels": [
-  "Neowin",
-  "Hacker News",
-  "9to5Mac",
-  "Hacker News",
-  "Wired"
+  "Hi-Tech Mail",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail",
+  "vc.ru"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3807,6 +3821,41 @@
    "source": "Wired",
    "score": 0.03766,
    "at": "2026-10-29T04:54:57.976050+00:00"
+  },
+  {
+   "title": "اختلال گسترده در شبکه اپراتور T2 و محدودیت‌های دسترسی در روسیه",
+   "url": "https://hi-tech.mail.ru/news/145608-chto-segodnya-s-tele2/",
+   "source": "Hi-Tech Mail",
+   "score": 0.10817,
+   "at": "2026-10-29T05:54:02.810631+00:00"
+  },
+  {
+   "title": "اختلال گسترده در دسترسی به اینترنت و سرویس‌های خارجی در مسکو",
+   "url": "https://hi-tech.mail.ru/news/144029-sboi-interneta-v-moskve/",
+   "source": "Hi-Tech Mail",
+   "score": 0.11546,
+   "at": "2026-10-29T05:54:23.757563+00:00"
+  },
+  {
+   "title": "اختلال گسترده در اینترنت موبایل سن پترزبورگ و محدودیت دسترسی به سرویس‌ها",
+   "url": "https://hi-tech.mail.ru/news/145517-chto-segodnya-s-internetom-v-spb/",
+   "source": "Hi-Tech Mail",
+   "score": 0.12107,
+   "at": "2026-10-29T05:54:32.295613+00:00"
+  },
+  {
+   "title": "اختلال گسترده در شبکه اپراتور MTS روسیه",
+   "url": "https://hi-tech.mail.ru/news/145491-chto-segodnya-s-mts/",
+   "source": "Hi-Tech Mail",
+   "score": 0.12403,
+   "at": "2026-10-29T05:54:41.356388+00:00"
+  },
+  {
+   "title": "پرداخت جریمه سنگین توسط شعبه روسیه شرکت گوگل",
+   "url": "https://vc.ru/money/3222772-den-1709-rossiiskoe-yurlico-google-vyplatilo-v-rossii-168-mlrd-rublei-shtrafov?from=rss",
+   "source": "vc.ru",
+   "score": 0.16625,
+   "at": "2026-10-29T05:54:51.634007+00:00"
   }
  ],
  "stories": [
@@ -8115,10 +8164,6 @@
   }
  ],
  "snapshots": {
-  "hn:50129121": [
-   76,
-   "2026-10-17T09:34:17.014040+00:00"
-  ],
   "hn:50128297": [
    129,
    "2026-10-17T09:34:17.014040+00:00"
@@ -10514,6 +10559,10 @@
   "hn:50282538": [
    150,
    "2026-10-29T04:53:41.827598+00:00"
+  ],
+  "hn:50284329": [
+   117,
+   "2026-10-29T05:53:43.402195+00:00"
   ]
  }
 }
