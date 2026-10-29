@@ -1577,18 +1577,28 @@
   "TY59YNoBwpX2FTEqJWhCvZ",
   "https://www.theverge.com/?p=1021554",
   "UUMyMTiKcKcJZij7ofqk3A",
-  "https://www.androidpolice.com/amazon-google-pixel-10-pro-deal-last-gen-savings/"
+  "https://www.androidpolice.com/amazon-google-pixel-10-pro-deal-last-gen-savings/",
+  "6ae1052df71e5beea7b81bb4",
+  "hn:50280864",
+  "https://yro.slashdot.org/story/26/10/28/2158201/massive-leak-exposes-41000-homeland-security-workers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.accessnow.org/?post_type=press-release&p=109062",
+  "https://www.article19.org/?post_type=resources&p=391463",
+  "https://www.phoronix.com/news/GXVK-3Dfx-Glide-Vulkan",
+  "8VcNnG6tXWYy3ZtntF55DS",
+  "rUZ5Svd5cozLytAYdkvnba",
+  "https://yro.slashdot.org/story/26/10/28/2247205/bank-of-america-kindly-asks-that-you-dont-share-your-password-with-your-ai-assistant?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://techcrunch.com/?p=3182297"
  ],
  "posted": {
   "viral": 304,
-  "editorial": 367
+  "editorial": 372
  },
  "recent_labels": [
-  "Hacker News",
-  "Lobsters",
-  "The Register",
-  "The Register",
-  "The Verge"
+  "Wired",
+  "Access Now",
+  "Phoronix",
+  "TechRadar",
+  "Slashdot"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -3719,93 +3729,44 @@
    "source": "The Verge",
    "score": 0.21021,
    "at": "2026-10-29T02:54:29.811510+00:00"
+  },
+  {
+   "title": "نشت گسترده اطلاعات ۴۱ هزار کارمند وزارت امنیت داخلی آمریکا",
+   "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+   "source": "Wired",
+   "score": 0.04247,
+   "at": "2026-10-29T03:53:45.478915+00:00"
+  },
+  {
+   "title": "محکومیت سردبیر Mada Masr و دستور تعطیلی این رسانه در مصر",
+   "url": "https://www.accessnow.org/press-release/mada-masrs-closure/",
+   "source": "Access Now",
+   "score": 0.04167,
+   "at": "2026-10-29T03:53:52.724022+00:00"
+  },
+  {
+   "title": "اجرای رابط گرافیکی قدیمی 3Dfx Glide روی سیستم‌های مدرن با Vulkan",
+   "url": "https://www.phoronix.com/news/GXVK-3Dfx-Glide-Vulkan",
+   "source": "Phoronix",
+   "score": 0.05112,
+   "at": "2026-10-29T03:53:59.246597+00:00"
+  },
+  {
+   "title": "تغییر کاربری نیروگاه‌های هسته‌ای آلمان به مراکز داده هوش مصنوعی توسط Nvidia",
+   "url": "https://www.techradar.com/pro/nvidia-wants-to-turn-old-nuclear-power-plants-into-huge-ai-data-centers-but-says-it-draws-the-line-at-turning-them-back-on",
+   "source": "TechRadar",
+   "score": 0.04616,
+   "at": "2026-10-29T03:54:06.298820+00:00"
+  },
+  {
+   "title": "هشدار Bank of America درباره اشتراک‌گذاری رمز عبور با ابزارهای هوش مصنوعی",
+   "url": "https://yro.slashdot.org/story/26/10/28/2247205/bank-of-america-kindly-asks-that-you-dont-share-your-password-with-your-ai-assistant?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.3998,
+   "at": "2026-10-29T03:54:11.970252+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "assisted",
-    "becomes",
-    "called",
-    "driving",
-    "europe",
-    "full",
-    "self-driving",
-    "tesla"
-   ],
-   "at": "2026-10-10T11:17:49.649501+00:00"
-  },
-  {
-   "sig": [
-    "anything",
-    "asked",
-    "chatgpt",
-    "chatgpt-fake",
-    "false",
-    "going",
-    "judges",
-    "lawyer",
-    "listen",
-    "news",
-    "radio",
-    "read",
-    "submitted",
-    "testimony",
-    "using",
-    "watch",
-    "witnesses",
-    "world",
-    "www.404media.co"
-   ],
-   "at": "2026-10-10T20:13:07.358514+00:00"
-  },
-  {
-   "sig": [
-    "5.5",
-    "bot",
-    "carbon",
-    "claude",
-    "gemini",
-    "google",
-    "grok",
-    "midjourney",
-    "opus",
-    "suno"
-   ],
-   "at": "2026-10-10T23:42:25.910894+00:00"
-  },
-  {
-   "sig": [
-    "center",
-    "data",
-    "evga",
-    "favor",
-    "geforce",
-    "gpus",
-    "halts",
-    "kingpin",
-    "nvidia",
-    "production",
-    "professional",
-    "reportedly",
-    "rtx"
-   ],
-   "at": "2026-10-11T11:31:24.368968+00:00"
-  },
-  {
-   "sig": [
-    "bloomberg",
-    "current",
-    "display",
-    "expensive",
-    "ipad",
-    "mini",
-    "model",
-    "oled",
-    "significantly"
-   ],
-   "at": "2026-10-11T17:44:46.220797+00:00"
-  },
   {
    "sig": [
     "capability",
@@ -8049,6 +8010,89 @@
     "standards"
    ],
    "at": "2026-10-29T02:54:29.811510+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "exposes",
+    "homeland",
+    "ice",
+    "including",
+    "leak",
+    "massive",
+    "security",
+    "undercover",
+    "workers"
+   ],
+   "at": "2026-10-29T03:53:45.478915+00:00"
+  },
+  {
+   "sig": [
+    "attalah",
+    "closure",
+    "condemn",
+    "conviction",
+    "court",
+    "cpj",
+    "editor-in-chief",
+    "egypt",
+    "journalist",
+    "lina",
+    "mada",
+    "masr",
+    "order",
+    "outraged",
+    "shutdown",
+    "stand"
+   ],
+   "at": "2026-10-29T03:53:52.724022+00:00"
+  },
+  {
+   "sig": [
+    "3dfx",
+    "api",
+    "atop",
+    "glide",
+    "gxvk",
+    "implemented",
+    "modern",
+    "usage",
+    "vulkan"
+   ],
+   "at": "2026-10-29T03:53:59.246597+00:00"
+  },
+  {
+   "sig": [
+    "back",
+    "centers",
+    "data",
+    "draws",
+    "huge",
+    "line",
+    "nuclear",
+    "nvidia",
+    "old",
+    "plants",
+    "power",
+    "turn",
+    "turning",
+    "wants"
+   ],
+   "at": "2026-10-29T03:54:06.298820+00:00"
+  },
+  {
+   "sig": [
+    "america",
+    "asks",
+    "assistant",
+    "bank",
+    "banking",
+    "don",
+    "kindly",
+    "password",
+    "share"
+   ],
+   "at": "2026-10-29T03:54:11.970252+00:00"
   }
  ],
  "snapshots": {
@@ -10429,12 +10473,12 @@
    "2026-10-29T01:53:43.797906+00:00"
   ],
   "hn:50280864": [
-   601,
-   "2026-10-29T02:53:41.052480+00:00"
+   613,
+   "2026-10-29T03:53:43.387110+00:00"
   ],
   "hn:50277166": [
-   203,
-   "2026-10-29T02:53:41.052480+00:00"
+   207,
+   "2026-10-29T03:53:43.387110+00:00"
   ],
   "hn:50276906": [
    168,
