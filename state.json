@@ -1774,18 +1774,26 @@
   "sLULQSzgCvxYC8NoGHqXJK",
   "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
   "3224844",
-  "https://www.androidpolice.com/android-17-qpr3-beta-3-puts-useful-pixel-features-back-menu/"
+  "https://www.androidpolice.com/android-17-qpr3-beta-3-puts-useful-pixel-features-back-menu/",
+  "hn:50297037",
+  "https://www.theregister.com/a/5306547",
+  "3224888",
+  "f5818c671101ea9957d7ccbfd48aa311",
+  "https://www.neowin.net/news/ex-intel-ceo-pat-gelsinger-bets-on-breakthrough-ram-tech-to-fix-crisis-and-shortage-issues/",
+  "d0c89f3330f7d36558a57e6de5aff7f4",
+  "https://www.theregister.com/a/5306217",
+  "dbb69f400d42f62ab032b193311f9c36"
  ],
  "posted": {
-  "viral": 337,
-  "editorial": 432
+  "viral": 338,
+  "editorial": 433
  },
  "recent_labels": [
-  "Neowin",
-  "The Register",
   "The Hacker News",
   "vc.ru",
-  "Android Police"
+  "Android Police",
+  "Hacker News",
+  "Neowin"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4602,35 +4610,23 @@
    "source": "Android Police",
    "score": 0.07213,
    "at": "2026-10-30T05:54:13.095335+00:00"
+  },
+  {
+   "title": "سقوط ارزش بازار گوگل به دلیل هزینه‌های سنگین هوش مصنوعی",
+   "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+   "source": "bbc.com",
+   "score": 0.05813,
+   "at": "2026-10-30T06:53:40.735133+00:00"
+  },
+  {
+   "title": "سرمایه‌گذاری مدیرعامل سابق Intel روی فناوری جدید حافظه رم",
+   "url": "https://www.neowin.net/news/ex-intel-ceo-pat-gelsinger-bets-on-breakthrough-ram-tech-to-fix-crisis-and-shortage-issues/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.08702,
+   "at": "2026-10-30T06:53:50.423785+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "access",
-    "bloomberg",
-    "cell",
-    "mobile",
-    "network",
-    "reports",
-    "seeks",
-    "sites",
-    "spacex",
-    "talks"
-   ],
-   "at": "2026-10-26T09:53:49.337073+00:00"
-  },
-  {
-   "sig": [
-    "blog",
-    "category",
-    "every",
-    "lighthouse",
-    "next.js",
-    "removing"
-   ],
-   "at": "2026-10-26T09:53:56.705888+00:00"
-  },
   {
    "sig": [
     "decision-1",
@@ -8729,13 +8725,39 @@
     "useful"
    ],
    "at": "2026-10-30T05:54:13.095335+00:00"
+  },
+  {
+   "sig": [
+    "500b",
+    "fears",
+    "google",
+    "plunges",
+    "rattle",
+    "street",
+    "value",
+    "wall"
+   ],
+   "at": "2026-10-30T06:53:40.735133+00:00"
+  },
+  {
+   "sig": [
+    "bets",
+    "breakthrough",
+    "ceo",
+    "crisis",
+    "fix",
+    "gelsinger",
+    "intel",
+    "issues",
+    "pat",
+    "ram",
+    "shortage",
+    "tech"
+   ],
+   "at": "2026-10-30T06:53:50.423785+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:vwgrix": [
-   26,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
   "lobsters:mp8qye": [
    43,
    "2026-10-18T22:31:14.449482+00:00"
@@ -11131,6 +11153,10 @@
   "hn:50295868": [
    77,
    "2026-10-30T04:53:41.931023+00:00"
+  ],
+  "hn:50297037": [
+   97,
+   "2026-10-30T06:53:38.722440+00:00"
   ]
  }
 }
