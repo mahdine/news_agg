@@ -1789,18 +1789,23 @@
   "qnn2oQjHQzgPKiP2SbBxcC",
   "10611cc3bb39d096644fd0a9aa5bfe29",
   "3224998",
-  "a95f7f6377e61615f6b66616c5f61ef2"
+  "a95f7f6377e61615f6b66616c5f61ef2",
+  "lobsters:6ole9g",
+  "https://www.engadget.com/2301934/general-motors-220-million-settle-multi-state-data-privacy-lawsuit/",
+  "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+  "https://www.infoq.com/news/2026/10/ade-dev-box-retirement/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://www.securityweek.com/?p=50423"
  ],
  "posted": {
-  "viral": 339,
-  "editorial": 437
+  "viral": 340,
+  "editorial": 441
  },
  "recent_labels": [
-  "Hacker News",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail",
-  "vc.ru",
-  "Hi-Tech Mail"
+  "Lobsters",
+  "Engadget",
+  "The Hacker News",
+  "InfoQ",
+  "SecurityWeek"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4666,82 +4671,44 @@
    "source": "Hi-Tech Mail",
    "score": 0.16944,
    "at": "2026-10-30T07:55:01.427479+00:00"
+  },
+  {
+   "title": "راهنمای کاربردی برای آرشیو کردن و حفظ وب‌سایت‌های شخصی",
+   "url": "http://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+   "source": "blog.mistys-internet.website",
+   "score": 0.0147,
+   "at": "2026-10-30T08:53:46.722437+00:00"
+  },
+  {
+   "title": "توافق ۲۲۰ میلیون دلاری جنرال موتورز بر سر نقض حریم خصوصی",
+   "url": "https://www.engadget.com/2301934/general-motors-220-million-settle-multi-state-data-privacy-lawsuit/",
+   "source": "Engadget",
+   "score": 0.11527,
+   "at": "2026-10-30T08:53:55.307753+00:00"
+  },
+  {
+   "title": "شناسایی بهره‌برداری فعال از حفره امنیتی در Drupal Commerce Core",
+   "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+   "source": "The Hacker News",
+   "score": 0.14971,
+   "at": "2026-10-30T08:54:03.859140+00:00"
+  },
+  {
+   "title": "CLOUD DEVOPS",
+   "url": "https://www.infoq.com/news/2026/10/ade-dev-box-retirement/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.04145,
+   "at": "2026-10-30T08:54:10.258026+00:00"
+  },
+  {
+   "title": "ردپای هکرهای کره شمالی در سرقت ۶ میلیارد دلاری از Binance",
+   "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+   "source": "SecurityWeek",
+   "score": 0.18389,
+   "at": "2026-10-30T08:54:30.822986+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "adds",
-    "cd-rom",
-    "costly",
-    "drive",
-    "frame",
-    "inconsistent",
-    "kernel",
-    "less",
-    "minutes",
-    "review",
-    "steam",
-    "support",
-    "ten",
-    "took",
-    "valve"
-   ],
-   "at": "2026-10-26T09:54:19.847865+00:00"
-  },
-  {
-   "sig": [
-    "abandoned",
-    "alternative",
-    "bid",
-    "collabora",
-    "collapses",
-    "denmark",
-    "ditch",
-    "microsoft",
-    "months",
-    "office",
-    "open-source",
-    "plans",
-    "problems",
-    "six",
-    "technical",
-    "under"
-   ],
-   "at": "2026-10-26T09:54:27.653460+00:00"
-  },
-  {
-   "sig": [
-    "ballot",
-    "dis",
-    "result"
-   ],
-   "at": "2026-10-26T10:54:26.525409+00:00"
-  },
-  {
-   "sig": [
-    "agentic",
-    "article",
-    "chains",
-    "code",
-    "evolution",
-    "graph",
-    "harnesses"
-   ],
-   "at": "2026-10-26T11:17:41.257607+00:00"
-  },
-  {
-   "sig": [
-    "microsoft",
-    "phishing",
-    "scams",
-    "sneaky",
-    "soon",
-    "teams",
-    "warn"
-   ],
-   "at": "2026-10-26T11:18:57.544998+00:00"
-  },
   {
    "sig": [
     "deepfakes",
@@ -8798,13 +8765,73 @@
     "validation"
    ],
    "at": "2026-10-30T07:53:45.509049+00:00"
+  },
+  {
+   "sig": [
+    "back",
+    "love",
+    "website"
+   ],
+   "at": "2026-10-30T08:53:46.722437+00:00"
+  },
+  {
+   "sig": [
+    "agrees",
+    "data",
+    "general",
+    "lawsuit",
+    "million",
+    "motors",
+    "multi-state",
+    "pay",
+    "privacy",
+    "settle"
+   ],
+   "at": "2026-10-30T08:53:55.307753+00:00"
+  },
+  {
+   "sig": [
+    "actively",
+    "authorization",
+    "bypass",
+    "commerce",
+    "core",
+    "critical",
+    "drupal",
+    "exploit",
+    "flaw",
+    "hackers",
+    "highly"
+   ],
+   "at": "2026-10-30T08:54:03.859140+00:00"
+  },
+  {
+   "sig": [
+    "azure",
+    "deployment",
+    "environments",
+    "microsoft",
+    "product",
+    "replacement",
+    "retires"
+   ],
+   "at": "2026-10-30T08:54:10.258026+00:00"
+  },
+  {
+   "sig": [
+    "bears",
+    "billion",
+    "binance",
+    "hack",
+    "hallmarks",
+    "korea",
+    "north",
+    "tradertraitor"
+   ],
+   "at": "2026-10-30T08:54:30.822986+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my6kh24suw2n": [
-   123,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
   "hn:50148601": [
    136,
    "2026-10-19T11:03:34.068127+00:00"
@@ -11200,6 +11227,10 @@
   "hn:50299182": [
    120,
    "2026-10-30T07:53:41.442267+00:00"
+  ],
+  "lobsters:6ole9g": [
+   37,
+   "2026-10-30T08:53:36.565290+00:00"
   ]
  }
 }
