@@ -1730,18 +1730,29 @@
   "hn:50295821",
   "hn:50296585",
   "hn:50296602",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz2lx5a2i52j"
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz2lx5a2i52j",
+  "rdiVKrUq6NnfMW2s2DEAU6",
+  "https://techcrunch.com/?p=3183095",
+  "hn:50291116",
+  "https://entertainment.slashdot.org/story/26/10/29/2059216/patrick-stewart-star-trek-captain-and-x-men-superhero-dies-at-86?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50294702",
+  "https://www.theverge.com/?p=1022626",
+  "hn:50297089",
+  "hn:50297697",
+  "https://www.androidpolice.com/pixel-watch-hit-with-severe-battery-drain-issue/",
+  "swFMNnqovThTWfKPfMer48",
+  "https://www.theregister.com/a/5306531"
  ],
  "posted": {
-  "viral": 333,
-  "editorial": 417
+  "viral": 335,
+  "editorial": 420
  },
  "recent_labels": [
+  "Tom's Hardware",
   "Hacker News",
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Xe Iaso"
+  "Android Police",
+  "The Register"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4425,73 +4436,44 @@
    "source": "xeiaso.net",
    "score": 0.48218,
    "at": "2026-10-30T01:54:31.178711+00:00"
+  },
+  {
+   "title": "معافیت مذهبی یک کارمند از استفاده اجباری هوش مصنوعی در محیط کار",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/secular-humanist-gets-religious-exemption-from-using-ai-argues-that-offloading-his-thinking-to-llms-violates-his-beliefs-american-humanist-association-says-its-the-first-case-of-its-kind",
+   "source": "Tom's Hardware",
+   "score": 0.20884,
+   "at": "2026-10-30T02:53:43.502387+00:00"
+  },
+  {
+   "title": "شبیه‌سازی فریم‌ور برای تست خودکار توسط هوش مصنوعی",
+   "url": "https://news.ycombinator.com/item?id=50291116",
+   "source": "Hacker News",
+   "score": 0.00326,
+   "at": "2026-10-30T02:53:50.351753+00:00"
+  },
+  {
+   "title": "اجرای شبکه‌های عصبی درون موتور بازی DOOM با ابزار Doomformer",
+   "url": "https://github.com/mottopanikeiku/doomformer",
+   "source": "github.com",
+   "score": 0.01678,
+   "at": "2026-10-30T02:53:59.675085+00:00"
+  },
+  {
+   "title": "گزارش کاربران از تخلیه سریع باتری در نسل‌های مختلف Pixel Watch",
+   "url": "https://www.androidpolice.com/pixel-watch-hit-with-severe-battery-drain-issue/",
+   "source": "Android Police",
+   "score": 0.09808,
+   "at": "2026-10-30T02:54:05.723067+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal",
+   "url": "https://www.theregister.com/systems/2026/10/30/pc-chip-plunge-wipes-out-a-quarter-of-intels-value/5306531",
+   "source": "The Register",
+   "score": 0.25628,
+   "at": "2026-10-30T02:54:12.267962+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "banned",
-    "being",
-    "economically",
-    "future",
-    "imagine",
-    "means",
-    "useless",
-    "where"
-   ],
-   "at": "2026-10-25T17:07:09.387221+00:00"
-  },
-  {
-   "sig": [
-    "dangerous",
-    "posix",
-    "wordexp"
-   ],
-   "at": "2026-10-25T17:07:34.026264+00:00"
-  },
-  {
-   "sig": [
-    "apollo",
-    "companies",
-    "delivers",
-    "economist",
-    "financial",
-    "payoff",
-    "zero"
-   ],
-   "at": "2026-10-25T17:07:48.391793+00:00"
-  },
-  {
-   "sig": [
-    "accelerates",
-    "across",
-    "diverse",
-    "drift",
-    "google",
-    "gpus",
-    "inference",
-    "on-device"
-   ],
-   "at": "2026-10-25T17:08:36.737993+00:00"
-  },
-  {
-   "sig": [
-    "ads",
-    "could",
-    "data",
-    "gmail",
-    "google",
-    "loophole",
-    "photos",
-    "policy",
-    "privacy",
-    "search",
-    "shared",
-    "targeted",
-    "using"
-   ],
-   "at": "2026-10-25T19:46:23.961521+00:00"
-  },
   {
    "sig": [
     "become",
@@ -8560,25 +8542,72 @@
     "where"
    ],
    "at": "2026-10-30T01:54:31.178711+00:00"
+  },
+  {
+   "sig": [
+    "believe",
+    "don",
+    "exemption",
+    "first-of-its-kind",
+    "god",
+    "granted",
+    "man",
+    "mandatory",
+    "need",
+    "religious",
+    "using",
+    "work"
+   ],
+   "at": "2026-10-30T02:53:43.502387+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "f26",
+    "firmware",
+    "launch",
+    "simantic",
+    "simulation"
+   ],
+   "at": "2026-10-30T02:53:50.351753+00:00"
+  },
+  {
+   "sig": [
+    "doom",
+    "show",
+    "transformer",
+    "turned"
+   ],
+   "at": "2026-10-30T02:53:59.675085+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "battery",
+    "drain",
+    "generations",
+    "multiple",
+    "owners",
+    "pixel",
+    "report",
+    "severe",
+    "watch"
+   ],
+   "at": "2026-10-30T02:54:05.723067+00:00"
+  },
+  {
+   "sig": [
+    "chip",
+    "intel",
+    "plunge",
+    "quarter",
+    "value",
+    "wipes"
+   ],
+   "at": "2026-10-30T02:54:12.267962+00:00"
   }
  ],
  "snapshots": {
-  "hn:50142449": [
-   124,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50141579": [
-   314,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50145337": [
-   158,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50144405": [
-   191,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
   "hn:50144144": [
    69,
    "2026-10-18T22:31:14.449482+00:00"
@@ -10931,10 +10960,6 @@
    146,
    "2026-10-30T01:53:47.686669+00:00"
   ],
-  "hn:50294702": [
-   3413,
-   "2026-10-30T01:53:47.686669+00:00"
-  ],
   "hn:50293023": [
    209,
    "2026-10-30T01:53:47.686669+00:00"
@@ -10962,6 +10987,26 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz2lx5a2i52j": [
    20,
    "2026-10-30T01:53:47.686669+00:00"
+  ],
+  "hn:50294702": [
+   3552,
+   "2026-10-30T02:53:40.386954+00:00"
+  ],
+  "hn:50297697": [
+   73,
+   "2026-10-30T02:53:40.386954+00:00"
+  ],
+  "hn:50297089": [
+   78,
+   "2026-10-30T02:53:40.386954+00:00"
+  ],
+  "hn:50291902": [
+   66,
+   "2026-10-30T02:53:40.386954+00:00"
+  ],
+  "hn:50291116": [
+   84,
+   "2026-10-30T02:53:40.386954+00:00"
   ]
  }
 }
