@@ -1889,18 +1889,24 @@
   "https://www.androidpolice.com/google-pixel-11-pro-deal-lowest-price-amazon-early-black-friday/",
   "https://techcrunch.com/?p=3183083",
   "SzKzMkwE5nUhotzE7DSmbc",
-  "UNAXuYaxHe7Aw8q5jK4Vwj"
+  "UNAXuYaxHe7Aw8q5jK4Vwj",
+  "hn:50305320",
+  "hn:50305637",
+  "lobsters:spv7tb",
+  "hn:50307190",
+  "hn:50307723",
+  "hn:50308240"
  ],
  "posted": {
-  "viral": 359,
+  "viral": 364,
   "editorial": 471
  },
  "recent_labels": [
-  "Xe Iaso",
-  "Wired",
-  "The Verge",
-  "Cloudflare",
-  "TechCrunch AI"
+  "Hacker News",
+  "Hacker News",
+  "Lobsters",
+  "Hacker News",
+  "Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -4948,81 +4954,44 @@
    "source": "TechCrunch AI",
    "score": 0.22928,
    "at": "2026-10-30T18:08:42.117273+00:00"
+  },
+  {
+   "title": "ساخت یک بازی چندنفره تحت وب با محوریت گربه‌های پرنده",
+   "url": "https://catcopter.com",
+   "source": "catcopter.com",
+   "score": 0.07454,
+   "at": "2026-10-30T22:30:59.868252+00:00"
+  },
+  {
+   "title": "تولید خودکار حاشیه‌های گل‌دار در اسناد LaTeX با استفاده از Lua",
+   "url": "https://github.com/kevinraymond/florilegium",
+   "source": "github.com",
+   "score": 0.09051,
+   "at": "2026-10-30T22:31:15.069529+00:00"
+  },
+  {
+   "title": "بحث درباره محدودیت‌های جدید برای گفتگوهای مرتبط با هوش مصنوعی",
+   "url": "https://lobste.rs/s/spv7tb/rationale_for_filtering_llm_usage_links",
+   "source": "Lobsters",
+   "score": 0.07722,
+   "at": "2026-10-30T22:31:21.988406+00:00"
+  },
+  {
+   "title": "اختلال در سرویس‌های GitHub Actions و Pages و Webhooks",
+   "url": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
+   "source": "githubstatus.com",
+   "score": 0.15782,
+   "at": "2026-10-30T22:31:29.879346+00:00"
+  },
+  {
+   "title": "تصویب مالیات بر حجم داده در مجلس فرانسه برای سرویس‌های آنلاین",
+   "url": "https://www.lesnumeriques.com/societe-numerique/netflix-steam-cloud-vos-abonnements-et-telechargements-bientot-plus-chers-a-cause-d-une-nouvelle-taxe-n264035.html",
+   "source": "lesnumeriques.com",
+   "score": 0.1896,
+   "at": "2026-10-30T22:31:37.504144+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "job",
-    "keep",
-    "proton",
-    "re-interview",
-    "see",
-    "staff"
-   ],
-   "at": "2026-10-27T03:54:04.062068+00:00"
-  },
-  {
-   "sig": [
-    "200k-line",
-    "agent",
-    "argon",
-    "codebase",
-    "development",
-    "gemini",
-    "google",
-    "kit",
-    "may",
-    "optimizes",
-    "overkill",
-    "overnight",
-    "python",
-    "tasks"
-   ],
-   "at": "2026-10-27T04:54:23.578288+00:00"
-  },
-  {
-   "sig": [
-    "brazilian",
-    "denounce",
-    "elections",
-    "employees",
-    "interference",
-    "meta"
-   ],
-   "at": "2026-10-27T04:54:32.959137+00:00"
-  },
-  {
-   "sig": [
-    "control",
-    "founder",
-    "governments",
-    "national",
-    "own",
-    "pegasus",
-    "push",
-    "reliance",
-    "security",
-    "sovereign",
-    "spyware",
-    "tells",
-    "want"
-   ],
-   "at": "2026-10-27T04:54:56.833724+00:00"
-  },
-  {
-   "sig": [
-    "1.x",
-    "16-bit",
-    "2.x",
-    "3.0",
-    "3.1",
-    "64-bit",
-    "etc",
-    "windows"
-   ],
-   "at": "2026-10-27T05:54:04.981262+00:00"
-  },
   {
    "sig": [
     "always-on",
@@ -9061,77 +9030,64 @@
     "zest"
    ],
    "at": "2026-10-30T18:08:42.117273+00:00"
+  },
+  {
+   "sig": [
+    "aerial",
+    "built",
+    "cat",
+    "fighter",
+    "game",
+    "multiplayer",
+    "show",
+    "where"
+   ],
+   "at": "2026-10-30T22:30:59.868252+00:00"
+  },
+  {
+   "sig": [
+    "florilegium",
+    "flowers",
+    "latex",
+    "procedural"
+   ],
+   "at": "2026-10-30T22:31:15.069529+00:00"
+  },
+  {
+   "sig": [
+    "filtering",
+    "links",
+    "llm",
+    "off-topic",
+    "rationale",
+    "usage"
+   ],
+   "at": "2026-10-30T22:31:21.988406+00:00"
+  },
+  {
+   "sig": [
+    "actions",
+    "github",
+    "incident",
+    "pages",
+    "webhooks"
+   ],
+   "at": "2026-10-30T22:31:29.879346+00:00"
+  },
+  {
+   "sig": [
+    "0.055",
+    "assembly",
+    "french",
+    "internet",
+    "national",
+    "tax",
+    "votes"
+   ],
+   "at": "2026-10-30T22:31:37.504144+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myafxksf622j": [
-   104,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myaa3kptzz2b": [
-   1119,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mya57lgvnk2t": [
-   487,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3myahrcpxu22s": [
-   112,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mya7262o2cpw": [
-   183,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myajpb2tuk2g": [
-   14,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50158100": [
-   183,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50157664": [
-   167,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50156206": [
-   194,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50156189": [
-   87,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50155291": [
-   405,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50155237": [
-   124,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50154624": [
-   403,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50153403": [
-   127,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50152877": [
-   65,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50152541": [
-   139,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50152321": [
-   227,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
   "hn:50151376": [
    297,
    "2026-10-19T22:32:38.354333+00:00"
@@ -11463,6 +11419,74 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4bt4ntps2s": [
    17,
    "2026-10-30T17:53:43.525389+00:00"
+  ],
+  "hn:50309647": [
+   187,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "hn:50308631": [
+   241,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "hn:50308240": [
+   238,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "hn:50307723": [
+   237,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "hn:50307219": [
+   641,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "hn:50307190": [
+   287,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "hn:50305797": [
+   214,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "hn:50305637": [
+   240,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "hn:50305320": [
+   149,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "hn:50304122": [
+   193,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "lobsters:xudbqx": [
+   57,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "lobsters:ukj8mm": [
+   39,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "lobsters:fskctn": [
+   32,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "lobsters:spv7tb": [
+   28,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4ijgpt2h2h": [
+   192,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4f5hoz2w2k": [
+   81,
+   "2026-10-30T22:30:16.400634+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4i3sto6c2s": [
+   98,
+   "2026-10-30T22:30:16.400634+00:00"
   ]
  }
 }
