@@ -1750,18 +1750,29 @@
   "https://www.techspot.com/news/114385-ai-buildout-carbon-bill-could-undo-15-years.html",
   "vNDGHu9pXBfW8MsuWgyZRW",
   "tTHsyPHVxMnPF3XuSpN7h7",
-  "hn:50298964"
+  "hn:50298964",
+  "https://www.engadget.com/2300955/fromsoftware-delays-the-duskbloods-until-2027/",
+  "https://www.neowin.net/news/fromsoftware-delays-the-duskbloods-for-making-final-adjustments/",
+  "https://www.techspot.com/news/114383-us-company-wants-build-two-undersea-data-centers.html",
+  "D4V3vXTGXitHSFF3zaVCkL",
+  "hn:50295868",
+  "hn:50296947",
+  "https://simonwillison.net/2026/Oct/29/api-credits/",
+  "https://www.androidpolice.com/pixel-9-pro-fold-nice-replacement-upgrade/",
+  "https://9to5mac.com/?p=1076562",
+  "https://9to5mac.com/?p=1076512",
+  "https://www.neowin.net/news/amazons-aws-revenue-surges-39-to-46-billion-but-massive-ai-spending-drains-cash-flow/"
  ],
  "posted": {
-  "viral": 336,
-  "editorial": 424
+  "viral": 337,
+  "editorial": 428
  },
  "recent_labels": [
-  "Slashdot",
-  "Wired",
-  "TechRadar",
-  "TechRadar",
-  "Hacker News"
+  "TechSpot",
+  "Hacker News",
+  "Simon Willison RSS",
+  "Android Police",
+  "Neowin"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4515,71 +4526,44 @@
    "source": "github.com",
    "score": 0.11468,
    "at": "2026-10-30T03:54:09.460635+00:00"
+  },
+  {
+   "title": "احداث دیتاسنترهای زیرآبی در زیستگاه نهنگ‌های در معرض خطر",
+   "url": "https://www.techspot.com/news/114383-us-company-wants-build-two-undersea-data-centers.html",
+   "source": "TechSpot",
+   "score": 0.03131,
+   "at": "2026-10-30T04:53:45.196512+00:00"
+  },
+  {
+   "title": "معرفی سیستم‌عامل Sylphide OS برای میکروکنترلرها",
+   "url": "https://projects.freehackers.org/sylphide-os/",
+   "source": "projects.freehackers.org",
+   "score": 0.03326,
+   "at": "2026-10-30T04:53:58.585580+00:00"
+  },
+  {
+   "title": "ارائه اعتبار رایگان API برای مشترکین ChatGPT",
+   "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+   "source": "Simon Willison RSS",
+   "score": 0.0272,
+   "at": "2026-10-30T04:54:11.419716+00:00"
+  },
+  {
+   "title": "ارتقای غیرمنتظره گوشی پیکسل برای یکی از کاربران گوگل",
+   "url": "https://www.androidpolice.com/pixel-9-pro-fold-nice-replacement-upgrade/",
+   "source": "Android Police",
+   "score": 0.03065,
+   "at": "2026-10-30T04:54:17.524207+00:00"
+  },
+  {
+   "title": "افزایش درآمدهای ابری آمازون زیر سایه هزینه‌های سنگین هوش مصنوعی",
+   "url": "https://www.neowin.net/news/amazons-aws-revenue-surges-39-to-46-billion-but-massive-ai-spending-drains-cash-flow/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.03858,
+   "at": "2026-10-30T04:54:23.622218+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "band",
-    "could",
-    "devices",
-    "down",
-    "slowing",
-    "wi-fi",
-    "wrong"
-   ],
-   "at": "2026-10-25T22:41:32.177825+00:00"
-  },
-  {
-   "sig": [
-    "browsers",
-    "default",
-    "earned",
-    "finally",
-    "major",
-    "mobile",
-    "spot",
-    "testing"
-   ],
-   "at": "2026-10-25T22:42:12.090452+00:00"
-  },
-  {
-   "sig": [
-    "bike",
-    "could",
-    "defunct",
-    "exercise",
-    "reverse-engi",
-    "slopifying",
-    "wrong",
-    "www.404media.co"
-   ],
-   "at": "2026-10-25T22:42:24.335100+00:00"
-  },
-  {
-   "sig": [
-    "engine",
-    "mcp",
-    "paperpilot",
-    "pdf",
-    "pure-rust",
-    "wasm",
-    "zero-cloud"
-   ],
-   "at": "2026-10-26T08:51:50.863268+00:00"
-  },
-  {
-   "sig": [
-    "capitalism",
-    "cognitive",
-    "early",
-    "fears",
-    "mercantilism",
-    "panic",
-    "resembles"
-   ],
-   "at": "2026-10-26T08:52:20.132776+00:00"
-  },
   {
    "sig": [
     "buffer",
@@ -8626,17 +8610,90 @@
     "pico"
    ],
    "at": "2026-10-30T03:54:09.460635+00:00"
+  },
+  {
+   "sig": [
+    "call",
+    "centers",
+    "could",
+    "data",
+    "disrupt",
+    "endangered",
+    "heading",
+    "home",
+    "proposed",
+    "species",
+    "underwater",
+    "waters",
+    "whale",
+    "whales"
+   ],
+   "at": "2026-10-30T04:53:45.196512+00:00"
+  },
+  {
+   "sig": [
+    "computers",
+    "general-purpose",
+    "microcontroller-based",
+    "sylphide"
+   ],
+   "at": "2026-10-30T04:53:58.585580+00:00"
+  },
+  {
+   "sig": [
+    "announced",
+    "anthropic",
+    "api",
+    "benefit",
+    "chatgpt",
+    "credits",
+    "earlier",
+    "eligible",
+    "equivalent",
+    "expiring",
+    "generous",
+    "max",
+    "month",
+    "per",
+    "quantity",
+    "subscribers",
+    "subscriptions",
+    "team",
+    "would"
+   ],
+   "at": "2026-10-30T04:54:11.419716+00:00"
+  },
+  {
+   "sig": [
+    "expected",
+    "fold",
+    "nobody",
+    "owner",
+    "pixel",
+    "pro",
+    "repair",
+    "swap",
+    "upgrade"
+   ],
+   "at": "2026-10-30T04:54:17.524207+00:00"
+  },
+  {
+   "sig": [
+    "amazon",
+    "aws",
+    "billion",
+    "cash",
+    "drains",
+    "flow",
+    "massive",
+    "revenue",
+    "spending",
+    "surges"
+   ],
+   "at": "2026-10-30T04:54:23.622218+00:00"
   }
  ],
  "snapshots": {
-  "hn:50144066": [
-   110,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50143132": [
-   159,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
   "lobsters:vwgrix": [
    26,
    "2026-10-18T22:31:14.449482+00:00"
@@ -11028,6 +11085,14 @@
   "hn:50298964": [
    91,
    "2026-10-30T03:53:41.191622+00:00"
+  ],
+  "hn:50296947": [
+   97,
+   "2026-10-30T04:53:41.931023+00:00"
+  ],
+  "hn:50295868": [
+   77,
+   "2026-10-30T04:53:41.931023+00:00"
   ]
  }
 }
