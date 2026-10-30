@@ -1722,18 +1722,26 @@
   "hn:50294507",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzzn7ncdc2c",
   "hn:50296470",
-  "hn:50296486"
+  "hn:50296486",
+  "hn:50291421",
+  "hn:50292727",
+  "hn:50293023",
+  "hn:50295450",
+  "hn:50295821",
+  "hn:50296585",
+  "hn:50296602",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz2lx5a2i52j"
  ],
  "posted": {
-  "viral": 328,
+  "viral": 333,
   "editorial": 417
  },
  "recent_labels": [
-  "404 Media",
   "Hacker News",
-  "404 Media",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Hacker News",
+  "Xe Iaso"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4382,79 +4390,44 @@
    "source": "labs.ycombinator.com",
    "score": 0.12453,
    "at": "2026-10-29T23:25:05.543006+00:00"
+  },
+  {
+   "title": "بررسی قابلیت‌های ابزار جدید Claude Duet در مدیریت هوشمند دستیارهای شخصی",
+   "url": "https://fig.blue/posts/duet-is-the-future/",
+   "source": "fig.blue",
+   "score": 0.01189,
+   "at": "2026-10-30T01:53:51.764873+00:00"
+  },
+  {
+   "title": "اجرای مدل‌های هوش مصنوعی و بازی‌سازی روی میکروکنترلر Raspberry Pi Pico 2 W",
+   "url": "https://github.com/SheepSeb/tinyworldformer",
+   "source": "github.com",
+   "score": 0.00487,
+   "at": "2026-10-30T01:54:03.028182+00:00"
+  },
+  {
+   "title": "اجرای برنامه‌های Swift در مرورگر با استفاده از WebAssembly",
+   "url": "https://elementary.codes",
+   "source": "elementary.codes",
+   "score": 0.01849,
+   "at": "2026-10-30T01:54:09.545280+00:00"
+  },
+  {
+   "title": "سرمایه‌گذاری گسترده Proton روی هوش مصنوعی",
+   "url": "https://convo.casa/@b/117525936178835007",
+   "source": "convo.casa",
+   "score": 0.00814,
+   "at": "2026-10-30T01:54:20.409486+00:00"
+  },
+  {
+   "title": "انتقاد طنزآمیز از ضعف‌های امنیتی حافظه در زبان‌های برنامه‌نویسی",
+   "url": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-98432/?utm_campaign=mi_irl&utm_medium=social&utm_source=bluesky",
+   "source": "xeiaso.net",
+   "score": 0.48218,
+   "at": "2026-10-30T01:54:31.178711+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "apparently",
-    "builds",
-    "confirms",
-    "faster",
-    "insider",
-    "mac",
-    "microsoft",
-    "missing",
-    "recall",
-    "settings",
-    "wallpapers",
-    "were",
-    "windows"
-   ],
-   "at": "2026-10-25T14:17:49.007430+00:00"
-  },
-  {
-   "sig": [
-    "7.4",
-    "changes",
-    "continues",
-    "damon",
-    "flood",
-    "linux",
-    "merged",
-    "optimizations",
-    "patches",
-    "sound"
-   ],
-   "at": "2026-10-25T14:18:02.429855+00:00"
-  },
-  {
-   "sig": [
-    "above",
-    "back",
-    "drone",
-    "speeds",
-    "starlink",
-    "ukraine"
-   ],
-   "at": "2026-10-25T14:18:25.311669+00:00"
-  },
-  {
-   "sig": [
-    "bluetooth",
-    "events",
-    "house",
-    "look",
-    "microphones",
-    "samsung",
-    "spy",
-    "tvs",
-    "via"
-   ],
-   "at": "2026-10-25T16:41:30.598515+00:00"
-  },
-  {
-   "sig": [
-    "bans",
-    "llms",
-    "open",
-    "projects",
-    "solo",
-    "source",
-    "using"
-   ],
-   "at": "2026-10-25T16:41:51.833611+00:00"
-  },
   {
    "sig": [
     "banned",
@@ -8535,25 +8508,61 @@
     "swarms"
    ],
    "at": "2026-10-29T23:25:05.543006+00:00"
+  },
+  {
+   "sig": [
+    "claude",
+    "duet",
+    "feels",
+    "first",
+    "harness",
+    "personal-assistant-type",
+    "useful"
+   ],
+   "at": "2026-10-30T01:53:51.764873+00:00"
+  },
+  {
+   "sig": [
+    "games",
+    "model",
+    "pico",
+    "raspberry",
+    "running",
+    "tiny",
+    "world"
+   ],
+   "at": "2026-10-30T01:54:03.028182+00:00"
+  },
+  {
+   "sig": [
+    "browser",
+    "elementaryui",
+    "swift"
+   ],
+   "at": "2026-10-30T01:54:09.545280+00:00"
+  },
+  {
+   "sig": [
+    "goes",
+    "proton",
+    "using"
+   ],
+   "at": "2026-10-30T01:54:20.409486+00:00"
+  },
+  {
+   "sig": [
+    "happens",
+    "language",
+    "prevent",
+    "regularly",
+    "users",
+    "way",
+    "where"
+   ],
+   "at": "2026-10-30T01:54:31.178711+00:00"
   }
  ],
  "snapshots": {
-  "hn:50140001": [
-   191,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "lobsters:mmvhup": [
-   49,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50143218": [
-   365,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50142866": [
-   643,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
   "hn:50142449": [
    124,
    "2026-10-18T22:31:14.449482+00:00"
@@ -10894,14 +10903,6 @@
    895,
    "2026-10-29T23:24:37.264862+00:00"
   ],
-  "hn:50295450": [
-   87,
-   "2026-10-29T23:24:37.264862+00:00"
-  ],
-  "hn:50294702": [
-   2824,
-   "2026-10-29T23:24:37.264862+00:00"
-  ],
   "hn:50294507": [
    241,
    "2026-10-29T23:24:37.264862+00:00"
@@ -10912,18 +10913,6 @@
   ],
   "hn:50293879": [
    83,
-   "2026-10-29T23:24:37.264862+00:00"
-  ],
-  "hn:50293023": [
-   198,
-   "2026-10-29T23:24:37.264862+00:00"
-  ],
-  "hn:50292727": [
-   208,
-   "2026-10-29T23:24:37.264862+00:00"
-  ],
-  "hn:50291421": [
-   91,
    "2026-10-29T23:24:37.264862+00:00"
   ],
   "lobsters:siebde": [
@@ -10937,6 +10926,42 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzy25ui5i2c": [
    667,
    "2026-10-29T23:24:37.264862+00:00"
+  ],
+  "hn:50295450": [
+   146,
+   "2026-10-30T01:53:47.686669+00:00"
+  ],
+  "hn:50294702": [
+   3413,
+   "2026-10-30T01:53:47.686669+00:00"
+  ],
+  "hn:50293023": [
+   209,
+   "2026-10-30T01:53:47.686669+00:00"
+  ],
+  "hn:50292727": [
+   285,
+   "2026-10-30T01:53:47.686669+00:00"
+  ],
+  "hn:50291421": [
+   102,
+   "2026-10-30T01:53:47.686669+00:00"
+  ],
+  "hn:50296602": [
+   215,
+   "2026-10-30T01:53:47.686669+00:00"
+  ],
+  "hn:50296585": [
+   136,
+   "2026-10-30T01:53:47.686669+00:00"
+  ],
+  "hn:50295821": [
+   83,
+   "2026-10-30T01:53:47.686669+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz2lx5a2i52j": [
+   20,
+   "2026-10-30T01:53:47.686669+00:00"
   ]
  }
 }
