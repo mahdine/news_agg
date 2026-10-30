@@ -1853,18 +1853,26 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz3wwhyqrk2y",
   "gbhuLnATGhBVS6pEE2QtCo",
   "https://www.androidpolice.com/garmin-instinct-3-deal-amazon-early-black-friday/",
-  "https://www.theregister.com/a/5306589"
+  "https://www.theregister.com/a/5306589",
+  "lobsters:qsvspv",
+  "hn:50301717",
+  "hn:50304358",
+  "hn:50304419",
+  "https://www.theverge.com/?p=1022819",
+  "https://www.techspot.com/news/114388-actor-patrick-stewart-dies-86-legendary-star-star.html",
+  "https://www.engadget.com/2302374/the-wikimedia-foundation-weighs-in-on-the-nyts-case-against-openai/",
+  "https://www.neowin.net/news/meta-pauses-uk-policy-changes-that-sparked-a-competition-investigation/"
  ],
  "posted": {
-  "viral": 350,
-  "editorial": 462
+  "viral": 352,
+  "editorial": 464
  },
  "recent_labels": [
-  "Tom's Hardware",
-  "SecurityWeek",
+  "The Register",
+  "Lobsters",
   "Hacker News",
-  "404 Media",
-  "The Register"
+  "Engadget",
+  "Neowin"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -4786,59 +4794,37 @@
    "source": "The Register",
    "score": 0.26371,
    "at": "2026-10-30T14:53:58.961240+00:00"
+  },
+  {
+   "title": "انتشار چهارمین نسخه آلفای Pidgin 3.0 با شماره نسخه 2.98.0",
+   "url": "https://discourse.imfreedom.org/t/pidgin-3-0-alpha-4-2-98-0-has-been-released/445",
+   "source": "discourse.imfreedom.org",
+   "score": 0.00665,
+   "at": "2026-10-30T15:53:46.721244+00:00"
+  },
+  {
+   "title": "محدودیت جدید Anthropic برای بازسازی بازی‌های ویدیویی توسط Claude",
+   "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
+   "source": "twitter.com",
+   "score": 0.2576,
+   "at": "2026-10-30T15:54:03.703444+00:00"
+  },
+  {
+   "title": "موضع‌گیری بنیاد ویکی‌مدیا در پرونده حقوقی نیویورک‌تایمز علیه OpenAI",
+   "url": "https://www.engadget.com/2302374/the-wikimedia-foundation-weighs-in-on-the-nyts-case-against-openai/",
+   "source": "Engadget",
+   "score": 0.23772,
+   "at": "2026-10-30T15:54:20.656471+00:00"
+  },
+  {
+   "title": "توقف تغییرات سیاست‌های متا در بریتانیا پس از تحقیقات رگولاتوری",
+   "url": "https://www.neowin.net/news/meta-pauses-uk-policy-changes-that-sparked-a-competition-investigation/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.21219,
+   "at": "2026-10-30T15:54:26.325205+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "draft",
-    "email",
-    "jason",
-    "koebler",
-    "media"
-   ],
-   "at": "2026-10-26T17:29:07.018829+00:00"
-  },
-  {
-   "sig": [
-    "clich",
-    "labeling",
-    "parrots",
-    "people",
-    "phrase",
-    "regularly",
-    "search",
-    "standing",
-    "stochastic",
-    "thought-terminating",
-    "turns"
-   ],
-   "at": "2026-10-26T17:29:14.194930+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "come",
-    "crackgate",
-    "folding",
-    "phone"
-   ],
-   "at": "2026-10-26T17:29:21.051822+00:00"
-  },
-  {
-   "sig": [
-    "chatgpt",
-    "keeps",
-    "media",
-    "people",
-    "problems",
-    "solve",
-    "support",
-    "tech",
-    "telling"
-   ],
-   "at": "2026-10-26T22:47:16.971029+00:00"
-  },
   {
    "sig": [
     "application",
@@ -8967,25 +8953,53 @@
     "foss"
    ],
    "at": "2026-10-30T14:53:58.961240+00:00"
+  },
+  {
+   "sig": [
+    "2.98.0",
+    "3.0",
+    "alpha",
+    "pidgin",
+    "released"
+   ],
+   "at": "2026-10-30T15:53:46.721244+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "cracking",
+    "down",
+    "game",
+    "rewrites",
+    "video"
+   ],
+   "at": "2026-10-30T15:54:03.703444+00:00"
+  },
+  {
+   "sig": [
+    "case",
+    "foundation",
+    "nyt",
+    "openai",
+    "weighs",
+    "wikimedia"
+   ],
+   "at": "2026-10-30T15:54:20.656471+00:00"
+  },
+  {
+   "sig": [
+    "changes",
+    "competition",
+    "investigation",
+    "meta",
+    "pauses",
+    "policy",
+    "sparked"
+   ],
+   "at": "2026-10-30T15:54:26.325205+00:00"
   }
  ],
  "snapshots": {
-  "hn:50153934": [
-   384,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50153630": [
-   403,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50153431": [
-   169,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50152970": [
-   447,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
   "hn:50151928": [
    358,
    "2026-10-19T22:32:38.354333+00:00"
@@ -11369,6 +11383,22 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz3uq7ky72pd": [
    57,
    "2026-10-30T14:53:38.871392+00:00"
+  ],
+  "hn:50304419": [
+   156,
+   "2026-10-30T15:53:44.218809+00:00"
+  ],
+  "hn:50304358": [
+   175,
+   "2026-10-30T15:53:44.218809+00:00"
+  ],
+  "hn:50301717": [
+   134,
+   "2026-10-30T15:53:44.218809+00:00"
+  ],
+  "lobsters:qsvspv": [
+   25,
+   "2026-10-30T15:53:44.218809+00:00"
   ]
  }
 }
