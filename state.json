@@ -1871,18 +1871,25 @@
   "hn:50305693",
   "https://tech.slashdot.org/story/26/10/30/0155237/reddit-will-force-everyone-to-log-in?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://techcrunch.com/?p=3183224",
-  "https://www.engadget.com/2301687/reddit-will-move-to-logged-in-only-as-ai-eats-search-traffic/"
+  "https://www.engadget.com/2301687/reddit-will-move-to-logged-in-only-as-ai-eats-search-traffic/",
+  "hn:50305225",
+  "hn:50306008",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz46hakwvg2l",
+  "hn:50306442",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4a7vqwg22b",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4bsdhorf2n",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4bt4ntps2s"
  ],
  "posted": {
-  "viral": 354,
+  "viral": 359,
   "editorial": 467
  },
  "recent_labels": [
-  "Wired",
   "Hacker News",
-  "TechRadar",
   "Hacker News",
-  "Slashdot"
+  "Hacker News",
+  "404 Media",
+  "Xe Iaso"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -4867,78 +4874,44 @@
    "source": "Slashdot",
    "score": 0.43506,
    "at": "2026-10-30T16:54:20.016886+00:00"
+  },
+  {
+   "title": "حمله سایبری به پلتفرم Polymarket و سرقت دارایی کاربران",
+   "url": "https://www.nbcnews.com/business/consumer/polymarket-trading-halt-hack-wallets-rcna606405",
+   "source": "nbcnews.com",
+   "score": 0.07165,
+   "at": "2026-10-30T17:54:46.951759+00:00"
+  },
+  {
+   "title": "سقوط ارزش سهام غول‌های تکنولوژی به دلیل نگرانی از حباب هوش مصنوعی",
+   "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+   "source": "bbc.co.uk",
+   "score": 0.14349,
+   "at": "2026-10-30T17:54:52.821012+00:00"
+  },
+  {
+   "title": "اجرای کنسول بازی NES درون وزن‌های مدل هوش مصنوعی Qwen",
+   "url": "https://github.com/dbreunig/nesformer",
+   "source": "github.com",
+   "score": 0.16024,
+   "at": "2026-10-30T17:55:21.005813+00:00"
+  },
+  {
+   "title": "لغو مصاحبه‌های اجباری مدیرعامل Proton درباره استفاده از هوش مصنوعی",
+   "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+   "source": "404media.co",
+   "score": 0.24163,
+   "at": "2026-10-30T17:55:27.757921+00:00"
+  },
+  {
+   "title": "شناسایی نشانه‌های آلودگی در لپ‌تاپ‌های کاری به دلیل افزونه Claude Code",
+   "url": "https://bsky.app/profile/xeiaso.net/post/3mz4bt4ntps2s",
+   "source": "Xe Iaso",
+   "score": 0.1214,
+   "at": "2026-10-30T17:55:40.866275+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "64-bit",
-    "compute",
-    "constants",
-    "division",
-    "faster",
-    "floor",
-    "signed",
-    "way"
-   ],
-   "at": "2026-10-27T01:54:28.721103+00:00"
-  },
-  {
-   "sig": [
-    "behavior",
-    "concerning",
-    "model",
-    "open-weight",
-    "popular"
-   ],
-   "at": "2026-10-27T02:53:43.899813+00:00"
-  },
-  {
-   "sig": [
-    "argument",
-    "context",
-    "convenience",
-    "llms",
-    "long",
-    "might",
-    "paper",
-    "people",
-    "related",
-    "software",
-    "take",
-    "technologies",
-    "thinking",
-    "without",
-    "working",
-    "would"
-   ],
-   "at": "2026-10-27T02:53:58.390720+00:00"
-  },
-  {
-   "sig": [
-    "cache",
-    "cross-request",
-    "exposure",
-    "glm-5.3",
-    "model",
-    "responses",
-    "workers"
-   ],
-   "at": "2026-10-27T02:54:11.638355+00:00"
-  },
-  {
-   "sig": [
-    "disproved",
-    "exponential",
-    "false",
-    "hypothesis",
-    "model",
-    "openai",
-    "pdf",
-    "time"
-   ],
-   "at": "2026-10-27T02:54:17.956949+00:00"
-  },
   {
    "sig": [
     "budget-priced",
@@ -8982,33 +8955,80 @@
     "users"
    ],
    "at": "2026-10-30T16:54:20.016886+00:00"
+  },
+  {
+   "sig": [
+    "affected",
+    "compromise",
+    "halt",
+    "polymarket",
+    "users",
+    "vendor",
+    "whole"
+   ],
+   "at": "2026-10-30T17:54:46.951759+00:00"
+  },
+  {
+   "sig": [
+    "cost",
+    "falls",
+    "fears",
+    "see",
+    "sharp",
+    "stocks",
+    "tech"
+   ],
+   "at": "2026-10-30T17:54:52.821012+00:00"
+  },
+  {
+   "sig": [
+    "1gb",
+    "nintendo",
+    "qwen",
+    "weights",
+    "working"
+   ],
+   "at": "2026-10-30T17:55:21.005813+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "aggressively",
+    "andy",
+    "came",
+    "ceo",
+    "concerns",
+    "created",
+    "culture",
+    "despite",
+    "fear",
+    "investigation",
+    "media",
+    "move",
+    "proton",
+    "published",
+    "pushing",
+    "security",
+    "yen"
+   ],
+   "at": "2026-10-30T17:55:27.757921+00:00"
+  },
+  {
+   "sig": [
+    "boy",
+    "claude",
+    "code",
+    "compromise",
+    "extension",
+    "hack",
+    "indicator",
+    "laptop",
+    "work"
+   ],
+   "at": "2026-10-30T17:55:40.866275+00:00"
   }
  ],
  "snapshots": {
-  "hn:50150927": [
-   475,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50150809": [
-   385,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50150750": [
-   1331,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "lobsters:gqepzd": [
-   96,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "lobsters:vyfegx": [
-   94,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myak5xp5vw2p": [
-   286,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myafxksf622j": [
    104,
    "2026-10-19T22:32:38.354333+00:00"
@@ -11382,8 +11402,32 @@
    "2026-10-30T16:53:43.277861+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4a7vqwg22b": [
-   164,
-   "2026-10-30T16:53:43.277861+00:00"
+   566,
+   "2026-10-30T17:53:43.525389+00:00"
+  ],
+  "hn:50306442": [
+   153,
+   "2026-10-30T17:53:43.525389+00:00"
+  ],
+  "hn:50306008": [
+   258,
+   "2026-10-30T17:53:43.525389+00:00"
+  ],
+  "hn:50305225": [
+   93,
+   "2026-10-30T17:53:43.525389+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4bsdhorf2n": [
+   240,
+   "2026-10-30T17:53:43.525389+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz46hakwvg2l": [
+   68,
+   "2026-10-30T17:53:43.525389+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4bt4ntps2s": [
+   17,
+   "2026-10-30T17:53:43.525389+00:00"
   ]
  }
 }
