@@ -1819,18 +1819,25 @@
   "https://www.theregister.com/a/5306460",
   "MhKgfMWDfYnjhDfEHhZN7J",
   "ce37b3d5dc775d2a9837a2612d6c7764",
-  "e7ce0dfe3c2e749f1776f8a487573d60"
+  "e7ce0dfe3c2e749f1776f8a487573d60",
+  "lobsters:f4aqog",
+  "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+  "hn:50302334",
+  "hn:50301983",
+  "76HYCWMWg9yPmSc3nYEZvB",
+  "https://www.phoronix.com/review/nvidia-vera-1p-2p",
+  "https://www.techspot.com/news/114389-flock-cant-take-no-answer-cameras-reappear-another.html"
  ],
  "posted": {
-  "viral": 342,
-  "editorial": 452
+  "viral": 344,
+  "editorial": 455
  },
  "recent_labels": [
-  "Wired",
-  "The Register",
-  "TechRadar",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail"
+  "Lobsters",
+  "The Hacker News",
+  "Hacker News",
+  "Tom's Hardware",
+  "TechSpot"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4822,86 +4829,44 @@
    "source": "Hi-Tech Mail",
    "score": 0.17213,
    "at": "2026-10-30T11:29:51.598237+00:00"
+  },
+  {
+   "title": "کشف قابلیت تورینگ‌کامل در فایل‌های پیکربندی curl",
+   "url": "https://seriot.ch/computation/curl.html",
+   "source": "seriot.ch",
+   "score": 0.10776,
+   "at": "2026-10-30T11:53:44.749119+00:00"
+  },
+  {
+   "title": "نفوذ به افزونه Claude Code و ایجاد دسترسی غیرمجاز SSH",
+   "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+   "source": "The Hacker News",
+   "score": 0.18352,
+   "at": "2026-10-30T11:53:55.235830+00:00"
+  },
+  {
+   "title": "هک شدن Anthropic برای توزیع بدافزار دسترسی از راه دور",
+   "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+   "source": "doublepulsar.com",
+   "score": 0.41928,
+   "at": "2026-10-30T11:54:03.703886+00:00"
+  },
+  {
+   "title": "بررسی عملکرد پردازنده جدید انویدیا با نام Vera در دیتاسنترها",
+   "url": "https://www.tomshardware.com/pc-components/cpus/benchmarking-nvidias-vera-cpu-for-the-data-center-standalone-vera-tested-against-granite-rapids-ap-and-epyc-turin",
+   "source": "Tom's Hardware",
+   "score": 0.28712,
+   "at": "2026-10-30T11:54:12.878799+00:00"
+  },
+  {
+   "title": "بازگشت دوربین‌های نظارتی Flock به شهری که پیش‌تر آن‌ها را رد کرده بود",
+   "url": "https://www.techspot.com/news/114389-flock-cant-take-no-answer-cameras-reappear-another.html",
+   "source": "TechSpot",
+   "score": 0.1469,
+   "at": "2026-10-30T11:54:21.215097+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "2bn",
-    "aws",
-    "deal",
-    "forecast",
-    "raises",
-    "signs",
-    "verizon"
-   ],
-   "at": "2026-10-26T13:00:51.806476+00:00"
-  },
-  {
-   "sig": [
-    "already",
-    "author",
-    "bubble",
-    "change",
-    "chatbots",
-    "despite",
-    "down",
-    "emanuelmaiberg.bsky.social",
-    "longtime",
-    "mikeisaac.bsky.social",
-    "pod",
-    "reporter",
-    "seeing",
-    "shitty",
-    "sits",
-    "talk",
-    "tech",
-    "way",
-    "week",
-    "works",
-    "world"
-   ],
-   "at": "2026-10-26T13:53:49.177979+00:00"
-  },
-  {
-   "sig": [
-    "cobol",
-    "code",
-    "crisis",
-    "help",
-    "solve"
-   ],
-   "at": "2026-10-26T13:54:01.242283+00:00"
-  },
-  {
-   "sig": [
-    "a20",
-    "all-new",
-    "apple",
-    "design",
-    "display",
-    "ipad",
-    "larger",
-    "mini",
-    "oled",
-    "processor",
-    "thinner",
-    "unveils",
-    "updates"
-   ],
-   "at": "2026-10-26T13:54:10.663435+00:00"
-  },
-  {
-   "sig": [
-    "exploitation",
-    "moves",
-    "php2shell",
-    "probes",
-    "shells",
-    "working"
-   ],
-   "at": "2026-10-26T13:54:16.943940+00:00"
-  },
   {
    "sig": [
     "anthropic",
@@ -8977,21 +8942,81 @@
     "runway"
    ],
    "at": "2026-10-30T11:29:21.585015+00:00"
+  },
+  {
+   "sig": [
+    "accidentally",
+    "curl",
+    "months",
+    "nine",
+    "turing-complete"
+   ],
+   "at": "2026-10-30T11:53:44.749119+00:00"
+  },
+  {
+   "sig": [
+    "backdoor",
+    "backdoors",
+    "claude",
+    "code",
+    "compromised",
+    "extension",
+    "extensions",
+    "install",
+    "official",
+    "persistent",
+    "ssh"
+   ],
+   "at": "2026-10-30T11:53:55.235830+00:00"
+  },
+  {
+   "sig": [
+    "access",
+    "anthropic",
+    "deliver",
+    "hacked",
+    "remote",
+    "trojan"
+   ],
+   "at": "2026-10-30T11:54:03.703886+00:00"
+  },
+  {
+   "sig": [
+    "benchmarking",
+    "center",
+    "cpu",
+    "data",
+    "dual",
+    "epyc",
+    "granite",
+    "nvidia",
+    "performance",
+    "rapids-ap",
+    "single",
+    "socket",
+    "standalone",
+    "tested",
+    "turin",
+    "vera"
+   ],
+   "at": "2026-10-30T11:54:12.878799+00:00"
+  },
+  {
+   "sig": [
+    "another",
+    "answer",
+    "cameras",
+    "city",
+    "flock",
+    "reappear",
+    "rejected",
+    "seem",
+    "take"
+   ],
+   "at": "2026-10-30T11:54:21.215097+00:00"
   }
  ],
  "snapshots": {
-  "hn:50147455": [
-   225,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "hn:50146625": [
-   340,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "hn:50146624": [
-   233,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
   "lobsters:h0eate": [
    409,
    "2026-10-19T11:03:34.068127+00:00"
@@ -11379,6 +11404,18 @@
   "hn:50300853": [
    173,
    "2026-10-30T10:53:39.957248+00:00"
+  ],
+  "hn:50302334": [
+   126,
+   "2026-10-30T11:53:39.597762+00:00"
+  ],
+  "hn:50301983": [
+   120,
+   "2026-10-30T11:53:39.597762+00:00"
+  ],
+  "lobsters:f4aqog": [
+   28,
+   "2026-10-30T11:53:39.597762+00:00"
   ]
  }
 }
