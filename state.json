@@ -1835,18 +1835,25 @@
   "VmkrSAkEHhJv8RQcqjhhEN",
   "TheNextWeb=a41c202fe759a7f4ae1666328669166e",
   "https://www.androidpolice.com/galaxy-ais-privacy-switch-letsphone-leak-data-logged-connection-to-prove/",
-  "Q7G4nJSzJpCQo9K7PR4Cqn"
+  "Q7G4nJSzJpCQo9K7PR4Cqn",
+  "lobsters:u7dsbx",
+  "lobsters:htgcuc",
+  "hn:50302814",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz3slkc7az2o",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz3tmutcbc2f",
+  "ZiA8KccstWeZ3rduGCP4rj",
+  "https://www.securityweek.com/?p=50440"
  ],
  "posted": {
-  "viral": 345,
-  "editorial": 459
+  "viral": 348,
+  "editorial": 461
  },
  "recent_labels": [
-  "Hacker News",
-  "The Verge",
-  "The Next Web",
-  "Android Police",
-  "TechRadar"
+  "Lobsters",
+  "404 Media",
+  "404 Media",
+  "Tom's Hardware",
+  "SecurityWeek"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4908,60 +4915,44 @@
    "source": "TechRadar",
    "score": 0.20166,
    "at": "2026-10-30T12:54:25.792910+00:00"
+  },
+  {
+   "title": "نگرانی‌های امنیتی درباره عمومی بودن داده‌ها در پروتکل AT",
+   "url": "https://melaniekat.com/blog/public-on-pds/",
+   "source": "melaniekat.com",
+   "score": 0.2449,
+   "at": "2026-10-30T13:53:42.966214+00:00"
+  },
+  {
+   "title": "چالش‌های سخت‌افزاری و بحران هویت اپل در دوران مدیریت جدید",
+   "url": "https://www.404media.co/apple-is-entering-its-slop-era/",
+   "source": "404media.co",
+   "score": 0.45482,
+   "at": "2026-10-30T13:53:52.669206+00:00"
+  },
+  {
+   "title": "فشار مدیران ارشد برای توسعه شتاب‌زده هوش مصنوعی",
+   "url": "https://bsky.app/profile/404media.co/post/3mz3tmutcbc2f",
+   "source": "404 Media",
+   "score": 0.17838,
+   "at": "2026-10-30T13:54:03.159499+00:00"
+  },
+  {
+   "title": "گم شدن هزاران حافظه جانبی حاوی اطلاعات حساس در سازمان GCHQ بریتانیا",
+   "url": "https://www.tomshardware.com/pc-components/usb-flash-drives/intelligence-agency-misplaced-a-very-significant-number-of-removable-drives-storage-media-have-been-missing-for-years-but-exact-number-of-lost-devices-remain-unknown",
+   "source": "Tom's Hardware",
+   "score": 0.21827,
+   "at": "2026-10-30T13:54:28.876568+00:00"
+  },
+  {
+   "title": "توقیف دامین سرویس میزبانی متخلف توسط FBI",
+   "url": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+   "source": "SecurityWeek",
+   "score": 0.23404,
+   "at": "2026-10-30T13:54:34.440194+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anthropic",
-    "debut",
-    "files",
-    "officially",
-    "public"
-   ],
-   "at": "2026-10-26T14:54:35.868448+00:00"
-  },
-  {
-   "sig": [
-    "closer",
-    "code",
-    "thought",
-    "writing"
-   ],
-   "at": "2026-10-26T16:54:17.936622+00:00"
-  },
-  {
-   "sig": [
-    "brown",
-    "global",
-    "hidden",
-    "labor",
-    "maps",
-    "powering",
-    "student"
-   ],
-   "at": "2026-10-26T16:56:01.913008+00:00"
-  },
-  {
-   "sig": [
-    "email",
-    "expensive",
-    "send"
-   ],
-   "at": "2026-10-26T16:56:09.444741+00:00"
-  },
-  {
-   "sig": [
-    "able",
-    "doj",
-    "ebay",
-    "presidents",
-    "secrets",
-    "sell",
-    "should"
-   ],
-   "at": "2026-10-26T16:56:20.941670+00:00"
-  },
   {
    "sig": [
     "building",
@@ -9061,29 +9052,94 @@
     "retro"
    ],
    "at": "2026-10-30T12:54:25.792910+00:00"
+  },
+  {
+   "sig": [
+    "at-proto",
+    "know",
+    "public",
+    "users"
+   ],
+   "at": "2026-10-30T13:53:42.966214+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "buy",
+    "down",
+    "finally",
+    "iphone",
+    "might",
+    "peg",
+    "taken"
+   ],
+   "at": "2026-10-30T13:53:52.669206+00:00"
+  },
+  {
+   "sig": [
+    "andy",
+    "asking",
+    "bullet",
+    "ceo",
+    "chatbot",
+    "daughter",
+    "describe",
+    "employee",
+    "evystadium.bsky.social",
+    "hold",
+    "launch",
+    "loser",
+    "marissa",
+    "mayer",
+    "points",
+    "project",
+    "proton",
+    "saying",
+    "telling",
+    "testing",
+    "thinking",
+    "three",
+    "wtf",
+    "yen"
+   ],
+   "at": "2026-10-30T13:54:03.159499+00:00"
+  },
+  {
+   "sig": [
+    "agency",
+    "devices",
+    "drives",
+    "exact",
+    "intelligence",
+    "lost",
+    "media",
+    "misplaced",
+    "missing",
+    "number",
+    "remain",
+    "removable",
+    "significant",
+    "storage",
+    "unknown",
+    "very",
+    "years"
+   ],
+   "at": "2026-10-30T13:54:28.876568+00:00"
+  },
+  {
+   "sig": [
+    "bulletproof",
+    "domain",
+    "fbi",
+    "host",
+    "loses",
+    "seizure",
+    "virtualine"
+   ],
+   "at": "2026-10-30T13:54:34.440194+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:1s3dve": [
-   35,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "lobsters:ilul4v": [
-   28,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my7b34o7w52v": [
-   468,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my6xu6su7r2b": [
-   601,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "hn:50150434": [
-   528,
-   "2026-10-19T17:38:35.428619+00:00"
-  ],
   "hn:50148855": [
    318,
    "2026-10-19T17:38:35.428619+00:00"
@@ -11463,6 +11519,26 @@
   "hn:50301854": [
    55,
    "2026-10-30T12:53:40.133469+00:00"
+  ],
+  "hn:50302814": [
+   254,
+   "2026-10-30T13:53:40.004406+00:00"
+  ],
+  "lobsters:htgcuc": [
+   48,
+   "2026-10-30T13:53:40.004406+00:00"
+  ],
+  "lobsters:u7dsbx": [
+   29,
+   "2026-10-30T13:53:40.004406+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz3tmutcbc2f": [
+   184,
+   "2026-10-30T13:53:40.004406+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz3slkc7az2o": [
+   85,
+   "2026-10-30T13:53:40.004406+00:00"
   ]
  }
 }
