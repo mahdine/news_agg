@@ -1861,18 +1861,28 @@
   "https://www.theverge.com/?p=1022819",
   "https://www.techspot.com/news/114388-actor-patrick-stewart-dies-86-legendary-star-star.html",
   "https://www.engadget.com/2302374/the-wikimedia-foundation-weighs-in-on-the-nyts-case-against-openai/",
-  "https://www.neowin.net/news/meta-pauses-uk-policy-changes-that-sparked-a-competition-investigation/"
+  "https://www.neowin.net/news/meta-pauses-uk-policy-changes-that-sparked-a-competition-investigation/",
+  "6ae392e8b3ee5efdf6d00c8d",
+  "https://9to5mac.com/?p=1076611",
+  "hn:50305272",
+  "hn:50305436",
+  "WDFNcb2SKZE3854rR9GNY7",
+  "https://www.androidpolice.com/latest-google-home-update-goes-way-beyond-gemini-fixes-nest-gear-too/",
+  "hn:50305693",
+  "https://tech.slashdot.org/story/26/10/30/0155237/reddit-will-force-everyone-to-log-in?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://techcrunch.com/?p=3183224",
+  "https://www.engadget.com/2301687/reddit-will-move-to-logged-in-only-as-ai-eats-search-traffic/"
  ],
  "posted": {
-  "viral": 352,
-  "editorial": 464
+  "viral": 354,
+  "editorial": 467
  },
  "recent_labels": [
-  "The Register",
-  "Lobsters",
+  "Wired",
   "Hacker News",
-  "Engadget",
-  "Neowin"
+  "TechRadar",
+  "Hacker News",
+  "Slashdot"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -4822,145 +4832,44 @@
    "source": "Neowin",
    "score": 0.21219,
    "at": "2026-10-30T15:54:26.325205+00:00"
+  },
+  {
+   "title": "جان ترنوس به عنوان مدیرعامل جدید اپل بر تولید محصول تمرکز دارد",
+   "url": "https://www.wired.com/story/i-spent-30-minutes-with-apples-ceo-now-i-know-why-john-ternus-got-the-job/",
+   "source": "Wired",
+   "score": 0.35526,
+   "at": "2026-10-30T16:53:45.282838+00:00"
+  },
+  {
+   "title": "تلاش دولت آمریکا برای حذف وب‌سایت افشاگر با استفاده از ابزارهای خودکار",
+   "url": "https://blog.flokinet.is/2026/10/29/ice-wants-its-mask-back-and-hired-a-company-to-ask/",
+   "source": "blog.flokinet.is",
+   "score": 0.06596,
+   "at": "2026-10-30T16:53:54.043395+00:00"
+  },
+  {
+   "title": "انتشار به‌روزرسانی بزرگ برای اپلیکیشن Google Home و دستگاه‌های Nest",
+   "url": "https://www.techradar.com/home/smart-home/google-home-is-getting-a-major-update-with-improvements-for-matter-devices-google-speakers-and-nest-cameras-heres-how-to-get-it",
+   "source": "TechRadar",
+   "score": 0.2175,
+   "at": "2026-10-30T16:54:02.811402+00:00"
+  },
+  {
+   "title": "آیا استفاده از هوش مصنوعی باعث افت مهارت متخصصان SRE می‌شود؟",
+   "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+   "source": "newsletter.signoz.io",
+   "score": 0.42508,
+   "at": "2026-10-30T16:54:14.224024+00:00"
+  },
+  {
+   "title": "اجبار کاربران Reddit به ورود به حساب کاربری برای مشاهده محتوا",
+   "url": "https://tech.slashdot.org/story/26/10/30/0155237/reddit-will-force-everyone-to-log-in?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.43506,
+   "at": "2026-10-30T16:54:20.016886+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "application",
-    "gui",
-    "oldest",
-    "runs",
-    "still",
-    "windows"
-   ],
-   "at": "2026-10-26T22:47:24.705289+00:00"
-  },
-  {
-   "sig": [
-    "15.8.2",
-    "26.7.2",
-    "27.2",
-    "acknowledges",
-    "already",
-    "apple",
-    "available",
-    "aware",
-    "better",
-    "big",
-    "buyers",
-    "confirms",
-    "cracked",
-    "cracking",
-    "display",
-    "duo",
-    "duos",
-    "everything",
-    "failing",
-    "features",
-    "four",
-    "gate",
-    "getting",
-    "golden",
-    "here",
-    "homepod",
-    "inner",
-    "ios",
-    "ipad",
-    "ipados",
-    "iphone",
-    "issue",
-    "keep",
-    "keeps",
-    "know",
-    "launched",
-    "limitation",
-    "macos",
-    "mini",
-    "model",
-    "need",
-    "number",
-    "pencil",
-    "previous",
-    "releases",
-    "replace",
-    "reports",
-    "responds",
-    "reveals",
-    "screen",
-    "screens",
-    "sequoia",
-    "siri",
-    "small",
-    "supports",
-    "tahoe",
-    "teardown",
-    "theories",
-    "three",
-    "tvos",
-    "user",
-    "watch",
-    "watchos"
-   ],
-   "at": "2026-10-26T22:47:31.642528+00:00"
-  },
-  {
-   "sig": [
-    "archive",
-    "epa",
-    "killing",
-    "quietly",
-    "web"
-   ],
-   "at": "2026-10-26T22:47:55.027552+00:00"
-  },
-  {
-   "sig": [
-    "academics",
-    "announces",
-    "announcing",
-    "big",
-    "computer",
-    "discoveries",
-    "mathematics",
-    "openai",
-    "physics",
-    "science",
-    "three",
-    "way",
-    "work"
-   ],
-   "at": "2026-10-27T01:53:47.394395+00:00"
-  },
-  {
-   "sig": [
-    "advised",
-    "apologize",
-    "audio",
-    "backlash",
-    "bots",
-    "ceo",
-    "comments",
-    "company",
-    "conference",
-    "cops",
-    "flock",
-    "garrett",
-    "him",
-    "isn",
-    "langley",
-    "leaked",
-    "never",
-    "police",
-    "private",
-    "real",
-    "tells",
-    "wasn",
-    "wife",
-    "work"
-   ],
-   "at": "2026-10-27T01:54:12.585291+00:00"
-  },
   {
    "sig": [
     "64-bit",
@@ -8997,25 +8906,85 @@
     "sparked"
    ],
    "at": "2026-10-30T15:54:26.325205+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "ceo",
+    "defines",
+    "focus",
+    "job",
+    "john",
+    "know",
+    "minutes",
+    "spent",
+    "ternus",
+    "word"
+   ],
+   "at": "2026-10-30T16:53:45.282838+00:00"
+  },
+  {
+   "sig": [
+    "ask",
+    "back",
+    "company",
+    "hired",
+    "ice",
+    "mask",
+    "wants"
+   ],
+   "at": "2026-10-30T16:53:54.043395+00:00"
+  },
+  {
+   "sig": [
+    "beyond",
+    "fixes",
+    "gear",
+    "gemini",
+    "getting",
+    "goes",
+    "google",
+    "home",
+    "host",
+    "includes",
+    "latest",
+    "major",
+    "nest",
+    "too",
+    "update",
+    "way"
+   ],
+   "at": "2026-10-30T16:54:02.811402+00:00"
+  },
+  {
+   "sig": [
+    "deskilling",
+    "isn",
+    "replacing",
+    "sres"
+   ],
+   "at": "2026-10-30T16:54:14.224024+00:00"
+  },
+  {
+   "sig": [
+    "announces",
+    "dries",
+    "everyone",
+    "experience",
+    "force",
+    "killing",
+    "log",
+    "logged-in",
+    "reddit",
+    "search",
+    "shifting",
+    "traffic",
+    "users"
+   ],
+   "at": "2026-10-30T16:54:20.016886+00:00"
   }
  ],
  "snapshots": {
-  "hn:50151928": [
-   358,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50151390": [
-   253,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50151059": [
-   104,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "hn:50150935": [
-   81,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
   "hn:50150927": [
    475,
    "2026-10-19T22:32:38.354333+00:00"
@@ -11399,6 +11368,22 @@
   "lobsters:qsvspv": [
    25,
    "2026-10-30T15:53:44.218809+00:00"
+  ],
+  "hn:50305693": [
+   327,
+   "2026-10-30T16:53:43.277861+00:00"
+  ],
+  "hn:50305436": [
+   149,
+   "2026-10-30T16:53:43.277861+00:00"
+  ],
+  "hn:50305272": [
+   174,
+   "2026-10-30T16:53:43.277861+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4a7vqwg22b": [
+   164,
+   "2026-10-30T16:53:43.277861+00:00"
   ]
  }
 }
