@@ -1814,18 +1814,23 @@
   "X4e6CTy7RMW2vpdzbtX3pA",
   "TheNextWeb=619be79acad9066b1db780f13a8f6b79",
   "p2X5RSSYFmfSFdU7pepfie",
-  "6adf42d8f94165248bb604e5"
+  "6adf42d8f94165248bb604e5",
+  "6ad7b1c0f2f6fb121ecbf205",
+  "https://www.theregister.com/a/5306460",
+  "MhKgfMWDfYnjhDfEHhZN7J",
+  "ce37b3d5dc775d2a9837a2612d6c7764",
+  "e7ce0dfe3c2e749f1776f8a487573d60"
  ],
  "posted": {
   "viral": 342,
-  "editorial": 447
+  "editorial": 452
  },
  "recent_labels": [
-  "The Verge",
-  "Hacker News",
-  "Tom's Hardware",
-  "Tom's Hardware",
-  "The Next Web"
+  "Wired",
+  "The Register",
+  "TechRadar",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4782,47 +4787,44 @@
    "source": "The Next Web",
    "score": 0.19241,
    "at": "2026-10-30T10:53:56.117740+00:00"
+  },
+  {
+   "title": "اپلیکیشن Oh My Hours برای مدیریت زمان و کاهش اعتیاد به گوشی",
+   "url": "https://www.wired.com/story/oh-my-hours-ios-app/",
+   "source": "Wired",
+   "score": 0.21605,
+   "at": "2026-10-30T11:28:49.451600+00:00"
+  },
+  {
+   "title": "استفاده از ایجنت‌های هوش مصنوعی برای غربالگری متقاضیان کار در Accenture",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/30/accenture-ai-agents-are-sifting-through-applicants/5306460",
+   "source": "The Register",
+   "score": 0.20334,
+   "at": "2026-10-30T11:29:05.412875+00:00"
+  },
+  {
+   "title": "فرصت‌های تازه برای حاکمیت هوش مصنوعی در اروپا با تمدید مهلت‌های قانونی",
+   "url": "https://www.techradar.com/pro/the-ai-acts-longer-runway-is-an-opportunity-to-build-governance-that-lasts",
+   "source": "TechRadar",
+   "score": 0.15513,
+   "at": "2026-10-30T11:29:21.585015+00:00"
+  },
+  {
+   "title": "مدل هوش مصنوعی Anthropic موفق به کشف و بهره‌برداری از آسیب‌پذیری‌های امنیتی شد",
+   "url": "https://hi-tech.mail.ru/news/159397-claude-vzlomal-yadro-linux-za-53-minuty/",
+   "source": "Hi-Tech Mail",
+   "score": 0.16085,
+   "at": "2026-10-30T11:29:36.114330+00:00"
+  },
+  {
+   "title": "ابزار هوش مصنوعی Spotify برای ساخت ریمیکس‌های شخصی‌سازی‌شده",
+   "url": "https://hi-tech.mail.ru/news/159396-spotify-zapustit-platnyj-ii-instrument-dlya-sozdaniya-remiksov/",
+   "source": "Hi-Tech Mail",
+   "score": 0.17213,
+   "at": "2026-10-30T11:29:51.598237+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "amd",
-    "collaboration",
-    "intel",
-    "lip-bu",
-    "lisa",
-    "potential",
-    "spoken",
-    "tan"
-   ],
-   "at": "2026-10-26T13:00:10.182986+00:00"
-  },
-  {
-   "sig": [
-    "come-back",
-    "itunes",
-    "later",
-    "making",
-    "store",
-    "unlikely",
-    "years"
-   ],
-   "at": "2026-10-26T13:00:16.861866+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "app",
-    "bother",
-    "built-in",
-    "never",
-    "phone",
-    "should",
-    "users"
-   ],
-   "at": "2026-10-26T13:00:36.129872+00:00"
-  },
   {
    "sig": [
     "2bn",
@@ -8940,6 +8942,41 @@
     "wikimedia"
    ],
    "at": "2026-10-30T10:53:56.117740+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "brutally",
+    "hours",
+    "lost",
+    "many",
+    "scrolling",
+    "shames",
+    "tracking"
+   ],
+   "at": "2026-10-30T11:28:49.451600+00:00"
+  },
+  {
+   "sig": [
+    "accenture",
+    "agents",
+    "applicants",
+    "sifting",
+    "through"
+   ],
+   "at": "2026-10-30T11:29:05.412875+00:00"
+  },
+  {
+   "sig": [
+    "act",
+    "build",
+    "governance",
+    "lasts",
+    "longer",
+    "opportunity",
+    "runway"
+   ],
+   "at": "2026-10-30T11:29:21.585015+00:00"
   }
  ],
  "snapshots": {
