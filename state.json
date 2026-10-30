@@ -1761,18 +1761,31 @@
   "https://www.androidpolice.com/pixel-9-pro-fold-nice-replacement-upgrade/",
   "https://9to5mac.com/?p=1076562",
   "https://9to5mac.com/?p=1076512",
-  "https://www.neowin.net/news/amazons-aws-revenue-surges-39-to-46-billion-but-massive-ai-spending-drains-cash-flow/"
+  "https://www.neowin.net/news/amazons-aws-revenue-surges-39-to-46-billion-but-massive-ai-spending-drains-cash-flow/",
+  "https://www.engadget.com/2301826/sony-is-working-on-a-film-adaptation-of-viral-indie-horror-game-mouthwashing/",
+  "https://yro.slashdot.org/story/26/10/29/193242/trumps-ctfc-steps-in-to-defend-kalshi-as-utah-brings-criminal-charges-against-execs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.theregister.com/a/5306508",
+  "VB8cqMArqiWGSuFLhMgk2H",
+  "z3RYkZEfPdYLocDEaYPyPD",
+  "Pfysf9RKkpE5m5M45CgmJF",
+  "7iMprsdcHodyr4GFHDezLg",
+  "DEaCPAduW7Q3vcam82dfGK",
+  "GYmxgiA5fRgvA4WPCBC9qZ",
+  "sLULQSzgCvxYC8NoGHqXJK",
+  "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+  "3224844",
+  "https://www.androidpolice.com/android-17-qpr3-beta-3-puts-useful-pixel-features-back-menu/"
  ],
  "posted": {
   "viral": 337,
-  "editorial": 428
+  "editorial": 432
  },
  "recent_labels": [
-  "TechSpot",
-  "Hacker News",
-  "Simon Willison RSS",
-  "Android Police",
-  "Neowin"
+  "Neowin",
+  "The Register",
+  "The Hacker News",
+  "vc.ru",
+  "Android Police"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4561,56 +4574,37 @@
    "source": "Neowin",
    "score": 0.03858,
    "at": "2026-10-30T04:54:23.622218+00:00"
+  },
+  {
+   "title": "شناسایی حفره‌های امنیتی در ابزارهای توسعه هوش مصنوعی",
+   "url": "https://www.theregister.com/security/2026/10/29/researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-still-unpatched/5306508",
+   "source": "The Register",
+   "score": 0.02124,
+   "at": "2026-10-30T05:53:50.519335+00:00"
+  },
+  {
+   "title": "حمله سایبری گسترده به صرافی Binance و سرقت میلیاردها دلار دارایی",
+   "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+   "source": "The Hacker News",
+   "score": 0.02852,
+   "at": "2026-10-30T05:53:58.347765+00:00"
+  },
+  {
+   "title": "هک صرافی Binance و سرقت ۶.۳ میلیارد دلاری از دارایی کاربران",
+   "url": "https://vc.ru/crypto/3224844-vzlom-binance-priostanovka-vyvoda-sredstv?from=rss",
+   "source": "vc.ru",
+   "score": 0.1344,
+   "at": "2026-10-30T05:54:06.684808+00:00"
+  },
+  {
+   "title": "بازگشت قابلیت‌های کاربردی به نسخه بتای اندروید ۱۷ برای گوشی‌های پیکسل",
+   "url": "https://www.androidpolice.com/android-17-qpr3-beta-3-puts-useful-pixel-features-back-menu/",
+   "source": "Android Police",
+   "score": 0.07213,
+   "at": "2026-10-30T05:54:13.095335+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "buffer",
-    "critical",
-    "flaws",
-    "issues",
-    "microsoft",
-    "net",
-    "overflow",
-    "patches",
-    "security",
-    "urgent"
-   ],
-   "at": "2026-10-26T08:52:26.580082+00:00"
-  },
-  {
-   "sig": [
-    "netbsd",
-    "simple",
-    "webserver"
-   ],
-   "at": "2026-10-26T08:53:47.311762+00:00"
-  },
-  {
-   "sig": [
-    "across",
-    "cards",
-    "crime",
-    "dollars",
-    "gang",
-    "gift",
-    "hacked",
-    "how-a-massiv",
-    "issued",
-    "millions",
-    "organized",
-    "sophisticated",
-    "spending",
-    "spree",
-    "staples",
-    "u.s",
-    "went",
-    "worth",
-    "www.404media.co"
-   ],
-   "at": "2026-10-26T08:53:59.633814+00:00"
-  },
   {
    "sig": [
     "access",
@@ -8691,6 +8685,50 @@
     "surges"
    ],
    "at": "2026-10-30T04:54:23.622218+00:00"
+  },
+  {
+   "sig": [
+    "bugs",
+    "developer",
+    "find",
+    "flaws",
+    "microsoft",
+    "openai",
+    "researchers",
+    "still",
+    "tools",
+    "unpatched"
+   ],
+   "at": "2026-10-30T05:53:50.519335+00:00"
+  },
+  {
+   "sig": [
+    "6.3",
+    "affecting",
+    "assets",
+    "billion",
+    "binance",
+    "breach",
+    "frozen",
+    "nearly",
+    "security",
+    "suffers"
+   ],
+   "at": "2026-10-30T05:53:58.347765+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "back",
+    "beta",
+    "features",
+    "menu",
+    "pixel",
+    "puts",
+    "qpr3",
+    "useful"
+   ],
+   "at": "2026-10-30T05:54:13.095335+00:00"
   }
  ],
  "snapshots": {
