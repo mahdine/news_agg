@@ -1804,18 +1804,28 @@
   "https://www.theverge.com/?p=1022880",
   "6ae244377d6f8605eb141fbb",
   "https://www.technologyreview.com/?p=1147838",
-  "hn:50301479"
+  "hn:50301479",
+  "6ae20d592d9463895560aff8",
+  "69fb9cda0b472a54fb195adf",
+  "6ad666a00cd794b6e85cbe68",
+  "8TaaeRST3gnm3QN476NfKE",
+  "hn:50300853",
+  "https://slashdot.org/story/26/10/29/2143222/multi-billion-binance-hack-hitting-crypto-markets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "X4e6CTy7RMW2vpdzbtX3pA",
+  "TheNextWeb=619be79acad9066b1db780f13a8f6b79",
+  "p2X5RSSYFmfSFdU7pepfie",
+  "6adf42d8f94165248bb604e5"
  ],
  "posted": {
   "viral": 342,
-  "editorial": 444
+  "editorial": 447
  },
  "recent_labels": [
-  "The Hacker News",
-  "Simon Willison RSS",
-  "Hacker News",
   "The Verge",
-  "Hacker News"
+  "Hacker News",
+  "Tom's Hardware",
+  "Tom's Hardware",
+  "The Next Web"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4751,46 +4761,30 @@
    "source": "Hacker News",
    "score": 0.84535,
    "at": "2026-10-30T09:54:22.510217+00:00"
+  },
+  {
+   "title": "سرقت ۵.۶ میلیارد دلاری از صرافی Binance توسط هکرهای کره شمالی",
+   "url": "https://www.tomshardware.com/tech-industry/cryptocurrency/binance-withdrawals-frozen-after-thieves-steal-usd5-6-billion-in-crypto-in-record-breaking-cryptocurrency-heist-firm-says-it-will-cover-losses-as-stablecoin-networks-move-to-freeze-usd2-4b-in-stolen-assets",
+   "source": "Tom's Hardware",
+   "score": 0.26984,
+   "at": "2026-10-30T10:53:44.994969+00:00"
+  },
+  {
+   "title": "تحقیقات کیفری علیه گوگل به دلیل تخریب محیط‌زیست در فنلاند",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/criminal-investigation-launched-into-googles-ai-data-center-deforestation-in-finland-local-police-act-over-multiple-complaints-about-breaches-of-environmental-law",
+   "source": "Tom's Hardware",
+   "score": 0.23077,
+   "at": "2026-10-30T10:53:50.455351+00:00"
+  },
+  {
+   "title": "درخواست بنیاد ویکی‌مدیا برای تفکیک حقوقی آموزش مدل‌های هوش مصنوعی و چت‌بات‌ها",
+   "url": "https://thenextweb.com/news/wikimedia-amicus-brief-openai-new-york-times-fair-use-rag",
+   "source": "The Next Web",
+   "score": 0.19241,
+   "at": "2026-10-30T10:53:56.117740+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "azure",
-    "broadcom",
-    "drives",
-    "hamr",
-    "hbas",
-    "microsoft",
-    "qualifies",
-    "seagate",
-    "smr"
-   ],
-   "at": "2026-10-26T11:54:02.437966+00:00"
-  },
-  {
-   "sig": [
-    "accounts",
-    "arrest",
-    "attacks",
-    "bank",
-    "drained",
-    "dutch",
-    "nfc",
-    "police",
-    "relay"
-   ],
-   "at": "2026-10-26T11:54:09.994196+00:00"
-  },
-  {
-   "sig": [
-    "parsing",
-    "pratt",
-    "remember",
-    "writing"
-   ],
-   "at": "2026-10-26T12:59:51.118066+00:00"
-  },
   {
    "sig": [
     "amd",
@@ -8881,13 +8875,74 @@
     "too"
    ],
    "at": "2026-10-30T09:54:22.510217+00:00"
+  },
+  {
+   "sig": [
+    "5.6",
+    "6.3b",
+    "billion",
+    "binance",
+    "blamed",
+    "crypto",
+    "cryptocurrency",
+    "elite",
+    "frozen",
+    "hack",
+    "hackers",
+    "heist",
+    "hitting",
+    "korean",
+    "markets",
+    "multi-billion",
+    "north",
+    "record-breaking",
+    "steal",
+    "suspected",
+    "withdrawals"
+   ],
+   "at": "2026-10-30T10:53:44.994969+00:00"
+  },
+  {
+   "sig": [
+    "acres",
+    "bill",
+    "center",
+    "criminal",
+    "data",
+    "deforestation",
+    "destroyed",
+    "facility",
+    "finland",
+    "flee",
+    "forest",
+    "google",
+    "hikes",
+    "hit",
+    "local",
+    "power",
+    "probe",
+    "threatens",
+    "unapproved",
+    "villages",
+    "wolves"
+   ],
+   "at": "2026-10-30T10:53:50.455351+00:00"
+  },
+  {
+   "sig": [
+    "asks",
+    "chatbot",
+    "copying",
+    "court",
+    "fair",
+    "rule",
+    "training",
+    "wikimedia"
+   ],
+   "at": "2026-10-30T10:53:56.117740+00:00"
   }
  ],
  "snapshots": {
-  "hn:50147492": [
-   179,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
   "hn:50147455": [
    225,
    "2026-10-19T11:03:34.068127+00:00"
@@ -11283,6 +11338,10 @@
   "hn:50300618": [
    54,
    "2026-10-30T09:53:43.123614+00:00"
+  ],
+  "hn:50300853": [
+   173,
+   "2026-10-30T10:53:39.957248+00:00"
   ]
  }
 }
