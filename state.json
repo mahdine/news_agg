@@ -1878,18 +1878,29 @@
   "hn:50306442",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4a7vqwg22b",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4bsdhorf2n",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4bt4ntps2s"
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4bt4ntps2s",
+  "6adf41f52b5fc20f5f0e3547",
+  "oH23VHRYNYRKpwCuNJwEma",
+  "TheNextWeb=2a6848e1cb92e0985dabc65cbcd1b52f",
+  "https://techcrunch.com/?p=3183214",
+  "https://www.theverge.com/?p=1023440",
+  "01M66XYRNK559YY01V2P37EBD7",
+  "v3mAgRZG7MadYjauwF7xnL",
+  "https://www.androidpolice.com/google-pixel-11-pro-deal-lowest-price-amazon-early-black-friday/",
+  "https://techcrunch.com/?p=3183083",
+  "SzKzMkwE5nUhotzE7DSmbc",
+  "UNAXuYaxHe7Aw8q5jK4Vwj"
  ],
  "posted": {
   "viral": 359,
-  "editorial": 467
+  "editorial": 471
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "404 Media",
-  "Xe Iaso"
+  "Xe Iaso",
+  "Wired",
+  "The Verge",
+  "Cloudflare",
+  "TechCrunch AI"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -4909,74 +4920,37 @@
    "source": "Xe Iaso",
    "score": 0.1214,
    "at": "2026-10-30T17:55:40.866275+00:00"
+  },
+  {
+   "title": "نشت اطلاعات حساس پنتاگون توسط ایجنت هوش مصنوعی شرکت Accenture",
+   "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+   "source": "Wired",
+   "score": 0.33499,
+   "at": "2026-10-30T18:06:17.136074+00:00"
+  },
+  {
+   "title": "استارباکس به دنبال شخصی‌سازی منوهای دیجیتال با استفاده از هوش مصنوعی",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+   "source": "The Verge",
+   "score": 0.21725,
+   "at": "2026-10-30T18:07:08.653233+00:00"
+  },
+  {
+   "title": "کشف کلیدهای رمزنگاری بسیار ضعیف در گواهی‌های امنیتی eMudhra",
+   "url": "https://blog.cloudflare.com/emudhra-patching/",
+   "source": "Cloudflare",
+   "score": 0.20639,
+   "at": "2026-10-30T18:08:35.724517+00:00"
+  },
+  {
+   "title": "معرفی دستیار هوش مصنوعی Zest برای رزرو رستوران از طریق پیامک",
+   "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+   "source": "TechCrunch AI",
+   "score": 0.22928,
+   "at": "2026-10-30T18:08:42.117273+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "budget-priced",
-    "chatgpt",
-    "cheaper",
-    "codex",
-    "computer",
-    "costs",
-    "everyday",
-    "gpt-6.1",
-    "impressive",
-    "launches",
-    "massively",
-    "mid-tier",
-    "model",
-    "openai",
-    "performance",
-    "reduced",
-    "releases",
-    "rolls",
-    "terra",
-    "upgrades",
-    "work"
-   ],
-   "at": "2026-10-27T02:54:30.153901+00:00"
-  },
-  {
-   "sig": [
-    "fastest",
-    "mail",
-    "planet",
-    "server",
-    "stalwart",
-    "v1.0"
-   ],
-   "at": "2026-10-27T03:53:45.105354+00:00"
-  },
-  {
-   "sig": [
-    "agent-human",
-    "collaboration",
-    "forge",
-    "git"
-   ],
-   "at": "2026-10-27T03:53:51.896636+00:00"
-  },
-  {
-   "sig": [
-    "1-hour",
-    "90-minute",
-    "chases",
-    "format",
-    "horizontal",
-    "instagram",
-    "longer",
-    "push",
-    "support",
-    "takes",
-    "video",
-    "videos",
-    "widescreen",
-    "youtube"
-   ],
-   "at": "2026-10-27T03:53:58.096216+00:00"
-  },
   {
    "sig": [
     "job",
@@ -9026,6 +9000,67 @@
     "work"
    ],
    "at": "2026-10-30T17:55:40.866275+00:00"
+  },
+  {
+   "sig": [
+    "accenture",
+    "access",
+    "agent",
+    "connected",
+    "contractor",
+    "data",
+    "defense",
+    "gave",
+    "high-risk",
+    "national",
+    "network",
+    "pentagon",
+    "percent",
+    "personal",
+    "secure",
+    "security",
+    "sent",
+    "system",
+    "threat",
+    "website"
+   ],
+   "at": "2026-10-30T18:06:17.136074+00:00"
+  },
+  {
+   "sig": [
+    "digital",
+    "drive-thru",
+    "menu",
+    "personalized",
+    "show",
+    "starbucks",
+    "wants"
+   ],
+   "at": "2026-10-30T18:07:08.653233+00:00"
+  },
+  {
+   "sig": [
+    "emudhra",
+    "exploitation",
+    "keys",
+    "patching",
+    "real",
+    "tracking",
+    "weak"
+   ],
+   "at": "2026-10-30T18:08:35.724517+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "books",
+    "finds",
+    "reservations",
+    "restaurants",
+    "text",
+    "zest"
+   ],
+   "at": "2026-10-30T18:08:42.117273+00:00"
   }
  ],
  "snapshots": {
