@@ -1826,18 +1826,27 @@
   "hn:50301983",
   "76HYCWMWg9yPmSc3nYEZvB",
   "https://www.phoronix.com/review/nvidia-vera-1p-2p",
-  "https://www.techspot.com/news/114389-flock-cant-take-no-answer-cameras-reappear-another.html"
+  "https://www.techspot.com/news/114389-flock-cant-take-no-answer-cameras-reappear-another.html",
+  "hn:50301854",
+  "https://www.techspot.com/news/114386-elder-scrolls-6-reportedly-titled-sentinel-reveal-might.html",
+  "1414eaf6d7f779154db2fcd9ed8c4154",
+  "https://www.theverge.com/?p=1022894",
+  "TheNextWeb=f2566775e8c0fe044e0400ddb143e516",
+  "VmkrSAkEHhJv8RQcqjhhEN",
+  "TheNextWeb=a41c202fe759a7f4ae1666328669166e",
+  "https://www.androidpolice.com/galaxy-ais-privacy-switch-letsphone-leak-data-logged-connection-to-prove/",
+  "Q7G4nJSzJpCQo9K7PR4Cqn"
  ],
  "posted": {
-  "viral": 344,
-  "editorial": 455
+  "viral": 345,
+  "editorial": 459
  },
  "recent_labels": [
-  "Lobsters",
-  "The Hacker News",
   "Hacker News",
-  "Tom's Hardware",
-  "TechSpot"
+  "The Verge",
+  "The Next Web",
+  "Android Police",
+  "TechRadar"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4864,69 +4873,44 @@
    "source": "TechSpot",
    "score": 0.1469,
    "at": "2026-10-30T11:54:21.215097+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری‌های امنیتی در سرویس Azure Logic Apps و دسترسی غیرمجاز به داده‌ها",
+   "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+   "source": "binarysecurity.no",
+   "score": 0.11835,
+   "at": "2026-10-30T12:53:56.129959+00:00"
+  },
+  {
+   "title": "پشتیبانی از Apple Pencil در گوشی تاشوی جدید اپل",
+   "url": "https://www.theverge.com/tech/1022894/iphone-duo-apple-pencil-hands-on",
+   "source": "The Verge",
+   "score": 0.22968,
+   "at": "2026-10-30T12:54:06.490257+00:00"
+  },
+  {
+   "title": "شکست حقوقی Meta، TikTok و X در برابر نهاد نظارتی بریتانیا",
+   "url": "https://thenextweb.com/news/meta-tiktok-x-lose-ofcom-online-safety-data-case",
+   "source": "The Next Web",
+   "score": 0.18309,
+   "at": "2026-10-30T12:54:14.247789+00:00"
+  },
+  {
+   "title": "نشت داده‌های صوتی کاربران سامسونگ با وجود فعال‌سازی تنظیمات حریم خصوصی",
+   "url": "https://www.androidpolice.com/galaxy-ais-privacy-switch-letsphone-leak-data-logged-connection-to-prove/",
+   "source": "Android Police",
+   "score": 0.19819,
+   "at": "2026-10-30T12:54:20.212857+00:00"
+  },
+  {
+   "title": "معرفی مینی‌کامپیوتر جدید Acemagic با طراحی نوستالژیک کنسول‌های بازی",
+   "url": "https://www.techradar.com/pro/acemagics-nes-inspired-retro-x3-mini-pc-is-the-most-fun-looking-mini-pc-id-put-on-my-desk",
+   "source": "TechRadar",
+   "score": 0.20166,
+   "at": "2026-10-30T12:54:25.792910+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anthropic",
-    "area",
-    "endeavor",
-    "every",
-    "filing",
-    "human",
-    "ipo",
-    "lays",
-    "plan",
-    "revolutionize"
-   ],
-   "at": "2026-10-26T13:54:24.390931+00:00"
-  },
-  {
-   "sig": [
-    "cas",
-    "compromised",
-    "emudhra",
-    "intermediate"
-   ],
-   "at": "2026-10-26T14:53:48.533177+00:00"
-  },
-  {
-   "sig": [
-    "printable",
-    "should",
-    "websites"
-   ],
-   "at": "2026-10-26T14:53:54.451056+00:00"
-  },
-  {
-   "sig": [
-    "accuracy",
-    "fixing",
-    "tool-call",
-    "vllm"
-   ],
-   "at": "2026-10-26T14:54:08.413540+00:00"
-  },
-  {
-   "sig": [
-    "apache",
-    "azul",
-    "bellsoft",
-    "certs",
-    "cpus",
-    "emudhra",
-    "java",
-    "jdk",
-    "news",
-    "oracle",
-    "poi",
-    "roundup",
-    "schedule",
-    "wildfly"
-   ],
-   "at": "2026-10-26T14:54:25.361579+00:00"
-  },
   {
    "sig": [
     "anthropic",
@@ -9014,13 +8998,72 @@
     "take"
    ],
    "at": "2026-10-30T11:54:21.215097+00:00"
+  },
+  {
+   "sig": [
+    "azure",
+    "compromises",
+    "cross-tenant",
+    "five",
+    "full",
+    "link",
+    "weakest"
+   ],
+   "at": "2026-10-30T12:53:56.129959+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "duo",
+    "favorite",
+    "notebook",
+    "pencil",
+    "turned"
+   ],
+   "at": "2026-10-30T12:54:06.490257+00:00"
+  },
+  {
+   "sig": [
+    "court",
+    "data",
+    "demands",
+    "fight",
+    "lose",
+    "meta",
+    "ofcom",
+    "reportedly",
+    "tiktok"
+   ],
+   "at": "2026-10-30T12:54:14.247789+00:00"
+  },
+  {
+   "sig": [
+    "bixby",
+    "didn",
+    "privacy",
+    "samsung",
+    "sending",
+    "servers",
+    "stop",
+    "switch",
+    "voice"
+   ],
+   "at": "2026-10-30T12:54:20.212857+00:00"
+  },
+  {
+   "sig": [
+    "acemagic",
+    "desk",
+    "fun-looking",
+    "mini",
+    "nes-inspired",
+    "put",
+    "retro"
+   ],
+   "at": "2026-10-30T12:54:25.792910+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:h0eate": [
-   409,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
   "lobsters:1s3dve": [
    35,
    "2026-10-19T11:03:34.068127+00:00"
@@ -11416,6 +11459,10 @@
   "lobsters:f4aqog": [
    28,
    "2026-10-30T11:53:39.597762+00:00"
+  ],
+  "hn:50301854": [
+   55,
+   "2026-10-30T12:53:40.133469+00:00"
   ]
  }
 }
