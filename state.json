@@ -1741,18 +1741,27 @@
   "hn:50297697",
   "https://www.androidpolice.com/pixel-watch-hit-with-severe-battery-drain-issue/",
   "swFMNnqovThTWfKPfMer48",
-  "https://www.theregister.com/a/5306531"
+  "https://www.theregister.com/a/5306531",
+  "https://news.slashdot.org/story/26/10/29/1756212/alphabet-heads-for-a-500-billion-drop-in-market-value?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50291902",
+  "6ae393f0875c73a2d298ad9b",
+  "https://it.slashdot.org/story/26/10/29/2347249/polymarket-halted-international-trading-after-hackers-drained-accounts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.theverge.com/?p=1022934",
+  "https://www.techspot.com/news/114385-ai-buildout-carbon-bill-could-undo-15-years.html",
+  "vNDGHu9pXBfW8MsuWgyZRW",
+  "tTHsyPHVxMnPF3XuSpN7h7",
+  "hn:50298964"
  ],
  "posted": {
-  "viral": 335,
-  "editorial": 420
+  "viral": 336,
+  "editorial": 424
  },
  "recent_labels": [
-  "Tom's Hardware",
-  "Hacker News",
-  "Hacker News",
-  "Android Police",
-  "The Register"
+  "Slashdot",
+  "Wired",
+  "TechRadar",
+  "TechRadar",
+  "Hacker News"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4471,92 +4480,44 @@
    "source": "The Register",
    "score": 0.25628,
    "at": "2026-10-30T02:54:12.267962+00:00"
+  },
+  {
+   "title": "سقوط ارزش سهام Alphabet پس از گزارش درآمدهای سه‌ماهه سوم",
+   "url": "https://news.slashdot.org/story/26/10/29/1756212/alphabet-heads-for-a-500-billion-drop-in-market-value?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.0544,
+   "at": "2026-10-30T03:53:44.400407+00:00"
+  },
+  {
+   "title": "هک پلتفرم پیش‌بینی Polymarket و سرقت ۲.۷ میلیون دلار از کاربران",
+   "url": "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
+   "source": "Wired",
+   "score": 0.10968,
+   "at": "2026-10-30T03:53:50.115390+00:00"
+  },
+  {
+   "title": "شکایت مالکان آثار الویس پریسلی از Anthropic به دلیل نقض کپی‌رایت",
+   "url": "https://www.techradar.com/ai-platforms-assistants/anthropic-sued-for-allegedly-using-274-elvis-presley-songs-in-ai-training-and-its-about-time-ai-companies-faced-the-music",
+   "source": "TechRadar",
+   "score": 0.04476,
+   "at": "2026-10-30T03:53:57.545498+00:00"
+  },
+  {
+   "title": "نیروی هوایی آمریکا برای بهبود سوخت‌گیری هوایی از هوش مصنوعی استفاده می‌کند",
+   "url": "https://www.techradar.com/pro/the-us-air-force-wants-to-use-ai-to-help-with-mid-air-refuelling-problems",
+   "source": "TechRadar",
+   "score": 0.04764,
+   "at": "2026-10-30T03:54:03.317341+00:00"
+  },
+  {
+   "title": "پایان پشتیبانی از فریم‌ورک Pico CSS",
+   "url": "https://github.com/picocss/pico/discussions/754",
+   "source": "github.com",
+   "score": 0.11468,
+   "at": "2026-10-30T03:54:09.460635+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "become",
-    "broader",
-    "clones",
-    "copyright",
-    "destabilizing",
-    "easy",
-    "functional",
-    "grey",
-    "live",
-    "people",
-    "potentially",
-    "software",
-    "symptomatic",
-    "trend",
-    "trivially",
-    "video-game-r",
-    "www.404media.co",
-    "zone"
-   ],
-   "at": "2026-10-25T19:47:45.535130+00:00"
-  },
-  {
-   "sig": [
-    "beelink",
-    "creator",
-    "edition",
-    "nas",
-    "pro",
-    "review"
-   ],
-   "at": "2026-10-25T19:48:00.523570+00:00"
-  },
-  {
-   "sig": [
-    "already",
-    "bigger",
-    "crowdfunded",
-    "engine",
-    "free",
-    "hub",
-    "macs",
-    "models",
-    "old",
-    "pcs",
-    "phones",
-    "pool",
-    "ram",
-    "run",
-    "software",
-    "underneath",
-    "wants"
-   ],
-   "at": "2026-10-25T19:48:10.387820+00:00"
-  },
-  {
-   "sig": [
-    "accept",
-    "censored",
-    "fosdem",
-    "internet",
-    "join",
-    "refuse"
-   ],
-   "at": "2026-10-25T22:40:31.278282+00:00"
-  },
-  {
-   "sig": [
-    "broken",
-    "duo",
-    "explain",
-    "hinges",
-    "ifixit",
-    "inside",
-    "iphone",
-    "look",
-    "may",
-    "screens",
-    "those"
-   ],
-   "at": "2026-10-25T22:40:56.863789+00:00"
-  },
   {
    "sig": [
     "band",
@@ -8605,13 +8566,69 @@
     "wipes"
    ],
    "at": "2026-10-30T02:54:12.267962+00:00"
+  },
+  {
+   "sig": [
+    "500b",
+    "alphabet",
+    "biggest",
+    "billion",
+    "drop",
+    "heads",
+    "history",
+    "market",
+    "value"
+   ],
+   "at": "2026-10-30T03:53:44.400407+00:00"
+  },
+  {
+   "sig": [
+    "accounts",
+    "drained",
+    "hackers",
+    "halted",
+    "international",
+    "polymarket",
+    "trading"
+   ],
+   "at": "2026-10-30T03:53:50.115390+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "companies",
+    "elvis",
+    "face",
+    "lawsuit",
+    "music",
+    "need",
+    "shows"
+   ],
+   "at": "2026-10-30T03:53:57.545498+00:00"
+  },
+  {
+   "sig": [
+    "air",
+    "force",
+    "help",
+    "mid-air",
+    "problems",
+    "refuelling",
+    "wants"
+   ],
+   "at": "2026-10-30T03:54:03.317341+00:00"
+  },
+  {
+   "sig": [
+    "css",
+    "longer",
+    "maintained",
+    "pico"
+   ],
+   "at": "2026-10-30T03:54:09.460635+00:00"
   }
  ],
  "snapshots": {
-  "hn:50144144": [
-   69,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
   "hn:50144066": [
    110,
    "2026-10-18T22:31:14.449482+00:00"
@@ -11000,13 +11017,17 @@
    78,
    "2026-10-30T02:53:40.386954+00:00"
   ],
-  "hn:50291902": [
-   66,
-   "2026-10-30T02:53:40.386954+00:00"
-  ],
   "hn:50291116": [
    84,
    "2026-10-30T02:53:40.386954+00:00"
+  ],
+  "hn:50291902": [
+   66,
+   "2026-10-30T03:53:41.191622+00:00"
+  ],
+  "hn:50298964": [
+   91,
+   "2026-10-30T03:53:41.191622+00:00"
   ]
  }
 }
