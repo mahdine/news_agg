@@ -1794,18 +1794,28 @@
   "https://www.engadget.com/2301934/general-motors-220-million-settle-multi-state-data-privacy-lawsuit/",
   "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
   "https://www.infoq.com/news/2026/10/ade-dev-box-retirement/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "https://www.securityweek.com/?p=50423"
+  "https://www.securityweek.com/?p=50423",
+  "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+  "https://www.securityweek.com/?p=50428",
+  "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+  "https://techcrunch.com/?p=3183106",
+  "TheNextWeb=1fb4554ec4192679831737705c8839f2",
+  "hn:50300618",
+  "https://www.theverge.com/?p=1022880",
+  "6ae244377d6f8605eb141fbb",
+  "https://www.technologyreview.com/?p=1147838",
+  "hn:50301479"
  ],
  "posted": {
-  "viral": 340,
-  "editorial": 441
+  "viral": 342,
+  "editorial": 444
  },
  "recent_labels": [
-  "Lobsters",
-  "Engadget",
   "The Hacker News",
-  "InfoQ",
-  "SecurityWeek"
+  "Simon Willison RSS",
+  "Hacker News",
+  "The Verge",
+  "Hacker News"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4706,82 +4716,44 @@
    "source": "SecurityWeek",
    "score": 0.18389,
    "at": "2026-10-30T08:54:30.822986+00:00"
+  },
+  {
+   "title": "تلاش برای نفوذ به سرور GitLab پروژه Alpine Linux با بهره‌برداری از یک آسیب‌پذیری بحرانی",
+   "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+   "source": "The Hacker News",
+   "score": 0.25844,
+   "at": "2026-10-30T09:53:45.783275+00:00"
+  },
+  {
+   "title": "توسعه خودکار بازی Spawn با استفاده از مدل‌های هوش مصنوعی",
+   "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+   "source": "Simon Willison RSS",
+   "score": 0.43948,
+   "at": "2026-10-30T09:53:51.585567+00:00"
+  },
+  {
+   "title": "ابزار ویرایش ویدیوی Arsaze با قابلیت‌های هوش مصنوعی و اتوماسیون",
+   "url": "https://www.arsaze.com",
+   "source": "arsaze.com",
+   "score": 0.17316,
+   "at": "2026-10-30T09:53:57.396707+00:00"
+  },
+  {
+   "title": "موضع‌گیری بنیاد ویکی‌مدیا در پرونده‌های حقوقی کپی‌رایت هوش مصنوعی",
+   "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+   "source": "The Verge",
+   "score": 0.16318,
+   "at": "2026-10-30T09:54:03.228790+00:00"
+  },
+  {
+   "title": "خستگی ذهنی ناشی از استفاده مداوم از ابزارهای هوش مصنوعی",
+   "url": "https://news.ycombinator.com/item?id=50301479",
+   "source": "Hacker News",
+   "score": 0.84535,
+   "at": "2026-10-30T09:54:22.510217+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "deepfakes",
-    "election",
-    "nchez",
-    "opposition",
-    "posts",
-    "spain",
-    "wife"
-   ],
-   "at": "2026-10-26T11:19:53.543907+00:00"
-  },
-  {
-   "sig": [
-    "destruction",
-    "duo",
-    "including",
-    "iphone",
-    "layer",
-    "nanotexture",
-    "removing",
-    "tested"
-   ],
-   "at": "2026-10-26T11:19:59.857835+00:00"
-  },
-  {
-   "sig": [
-    "40bn",
-    "billion",
-    "buy",
-    "chips",
-    "cloud",
-    "companies",
-    "debt",
-    "elon",
-    "extinction",
-    "gpus",
-    "mass",
-    "musk",
-    "predicts",
-    "raised",
-    "seeks",
-    "spacex"
-   ],
-   "at": "2026-10-26T11:20:29.550806+00:00"
-  },
-  {
-   "sig": [
-    "bug",
-    "emergency",
-    "fix",
-    "flaw",
-    "php",
-    "php2shell",
-    "rush",
-    "there",
-    "third",
-    "warns",
-    "won"
-   ],
-   "at": "2026-10-26T11:53:45.702157+00:00"
-  },
-  {
-   "sig": [
-    "alerts",
-    "attackers",
-    "detection",
-    "misses",
-    "ordinary",
-    "spaces"
-   ],
-   "at": "2026-10-26T11:53:51.975262+00:00"
-  },
   {
    "sig": [
     "azure",
@@ -8829,17 +8801,89 @@
     "tradertraitor"
    ],
    "at": "2026-10-30T08:54:30.822986+00:00"
+  },
+  {
+   "sig": [
+    "10.0",
+    "alpine",
+    "attacker",
+    "cvss",
+    "exploit",
+    "exploited",
+    "flaw",
+    "gitlab",
+    "left",
+    "linux",
+    "max-severity",
+    "open",
+    "ruby",
+    "tried",
+    "via",
+    "vulnerability"
+   ],
+   "at": "2026-10-30T09:53:45.783275+00:00"
+  },
+  {
+   "sig": [
+    "17m",
+    "a16z",
+    "autonomous",
+    "build",
+    "building",
+    "construction",
+    "design",
+    "dream",
+    "ex-palantir",
+    "execs",
+    "fable-class",
+    "founders",
+    "game",
+    "launch",
+    "models",
+    "multiplayer",
+    "raise",
+    "world"
+   ],
+   "at": "2026-10-30T09:53:51.585567+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "arsaze",
+    "cursor",
+    "editing",
+    "edits",
+    "show",
+    "tab-complete",
+    "video"
+   ],
+   "at": "2026-10-30T09:53:57.396707+00:00"
+  },
+  {
+   "sig": [
+    "bad",
+    "copyright",
+    "could",
+    "open",
+    "operator",
+    "ruling",
+    "threaten",
+    "web",
+    "wikipedia"
+   ],
+   "at": "2026-10-30T09:54:03.228790+00:00"
+  },
+  {
+   "sig": [
+    "ask",
+    "era",
+    "tired",
+    "too"
+   ],
+   "at": "2026-10-30T09:54:22.510217+00:00"
   }
  ],
  "snapshots": {
-  "hn:50148601": [
-   136,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "hn:50148441": [
-   205,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
   "hn:50147492": [
    179,
    "2026-10-19T11:03:34.068127+00:00"
@@ -11231,6 +11275,14 @@
   "lobsters:6ole9g": [
    37,
    "2026-10-30T08:53:36.565290+00:00"
+  ],
+  "hn:50301479": [
+   145,
+   "2026-10-30T09:53:43.123614+00:00"
+  ],
+  "hn:50300618": [
+   54,
+   "2026-10-30T09:53:43.123614+00:00"
   ]
  }
 }
