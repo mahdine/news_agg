@@ -1782,18 +1782,25 @@
   "https://www.neowin.net/news/ex-intel-ceo-pat-gelsinger-bets-on-breakthrough-ram-tech-to-fix-crisis-and-shortage-issues/",
   "d0c89f3330f7d36558a57e6de5aff7f4",
   "https://www.theregister.com/a/5306217",
-  "dbb69f400d42f62ab032b193311f9c36"
+  "dbb69f400d42f62ab032b193311f9c36",
+  "hn:50299182",
+  "597570a567fd32982ac2e7762e40f9f4",
+  "d3dde3e32424ac540e291d2017951584",
+  "qnn2oQjHQzgPKiP2SbBxcC",
+  "10611cc3bb39d096644fd0a9aa5bfe29",
+  "3224998",
+  "a95f7f6377e61615f6b66616c5f61ef2"
  ],
  "posted": {
-  "viral": 338,
-  "editorial": 433
+  "viral": 339,
+  "editorial": 437
  },
  "recent_labels": [
-  "The Hacker News",
-  "vc.ru",
-  "Android Police",
   "Hacker News",
-  "Neowin"
+  "Hi-Tech Mail",
+  "Hi-Tech Mail",
+  "vc.ru",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -4624,20 +4631,44 @@
    "source": "Neowin",
    "score": 0.08702,
    "at": "2026-10-30T06:53:50.423785+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری خطرناک در هسته لینوکس و ریسک اجرای کد از راه دور",
+   "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
+   "source": "penligent.ai",
+   "score": 0.06346,
+   "at": "2026-10-30T07:53:45.509049+00:00"
+  },
+  {
+   "title": "نشت اطلاعات حساس پنتاگون در پی استفاده از ابزار Claude Code",
+   "url": "https://hi-tech.mail.ru/news/159350-ii-agent-claude-code-dva-mesyaca-rabotal-v-seti-pentagona/",
+   "source": "Hi-Tech Mail",
+   "score": 0.11372,
+   "at": "2026-10-30T07:54:15.761916+00:00"
+  },
+  {
+   "title": "اجباری شدن ورود به حساب کاربری برای مشاهده محتوای Reddit",
+   "url": "https://hi-tech.mail.ru/news/159351-reddit-nachnet-trebovat-uchetnuyu-zapis-dlya-dostupa/",
+   "source": "Hi-Tech Mail",
+   "score": 0.14221,
+   "at": "2026-10-30T07:54:45.280224+00:00"
+  },
+  {
+   "title": "Reddit قصد دارد برای مشاهده محتوا، کاربران را به ورود اجباری وادار کند",
+   "url": "https://vc.ru/social/3224998-reddit-vvodit-obyazatelnyy-vkhod-v-akkaut-dlya-prosmotra-kontenta?from=rss",
+   "source": "vc.ru",
+   "score": 0.08523,
+   "at": "2026-10-30T07:54:53.462288+00:00"
+  },
+  {
+   "title": "بزرگترین سرقت تاریخ ارزهای دیجیتال با هک صرافی Binance",
+   "url": "https://hi-tech.mail.ru/news/159352-binance-soobshila-o-vzlome-na-63-mlrd-dollarov/",
+   "source": "Hi-Tech Mail",
+   "score": 0.16944,
+   "at": "2026-10-30T07:55:01.427479+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "decision-1",
-    "explained",
-    "launch",
-    "microsoft",
-    "model",
-    "qwen"
-   ],
-   "at": "2026-10-26T09:54:10.613716+00:00"
-  },
   {
    "sig": [
     "adds",
@@ -8755,13 +8786,21 @@
     "tech"
    ],
    "at": "2026-10-30T06:53:50.423785+00:00"
+  },
+  {
+   "sig": [
+    "cve-2026-98432",
+    "linux",
+    "patch",
+    "risk",
+    "tcp",
+    "use-after-free",
+    "validation"
+   ],
+   "at": "2026-10-30T07:53:45.509049+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:mp8qye": [
-   43,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my6kh24suw2n": [
    123,
    "2026-10-18T22:31:14.449482+00:00"
@@ -11157,6 +11196,10 @@
   "hn:50297037": [
    97,
    "2026-10-30T06:53:38.722440+00:00"
+  ],
+  "hn:50299182": [
+   120,
+   "2026-10-30T07:53:41.442267+00:00"
   ]
  }
 }
