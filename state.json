@@ -1976,18 +1976,24 @@
   "6adfbb3349cde4e309050a88",
   "6bb0578f6e379676d0f68d38a9d11191",
   "6ae22f20168dfe749932c93c",
-  "CeGWndfViMmfp4D77TfbYK"
+  "CeGWndfViMmfp4D77TfbYK",
+  "lobsters:soosuu",
+  "6ae3cd3d378f1dacd59d6cc7",
+  "fXrfnWq963FrXsJnY9rNf7",
+  "https://www.phoronix.com/news/GNOME-Establishes-RFC",
+  "hn:50314654",
+  "TheNextWeb=1d50906718dbdc31ad6ebd19ddabb7aa"
  ],
  "posted": {
-  "viral": 377,
-  "editorial": 496
+  "viral": 378,
+  "editorial": 500
  },
  "recent_labels": [
-  "The Register",
-  "Neowin",
-  "Engadget",
   "Lobsters",
-  "The Hacker News"
+  "Wired",
+  "Tom's Hardware",
+  "Phoronix",
+  "The Next Web"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5336,78 +5342,44 @@
    "source": "The Hacker News",
    "score": 0.12709,
    "at": "2026-10-31T09:54:44.552417+00:00"
+  },
+  {
+   "title": "سازوکار ثبت خطای صفحه‌نمایش سیاه در ویندوز",
+   "url": "https://devblogs.microsoft.com/oldnewthing/20261029-00/?p=112808/",
+   "source": "devblogs.microsoft.com",
+   "score": 0.02032,
+   "at": "2026-10-31T10:53:44.226444+00:00"
+  },
+  {
+   "title": "تزریق داروی ژن‌درمانی به مغز موش زنده توسط یک ایجنت هوش مصنوعی",
+   "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+   "source": "Wired",
+   "score": 0.16322,
+   "at": "2026-10-31T10:53:49.770038+00:00"
+  },
+  {
+   "title": "قدیمی‌ترین نرم‌افزار گرافیکی ویندوز که در ویندوز ۱۱ اجرا می‌شود",
+   "url": "https://www.tomshardware.com/software/windows/tech-sleuth-claims-to-have-found-the-oldest-gui-application-that-still-works-with-windows-11-cdplayer-exe-from-windows-nt-in-november-1992-wins-the-prize",
+   "source": "Tom's Hardware",
+   "score": 0.14402,
+   "at": "2026-10-31T10:53:54.874228+00:00"
+  },
+  {
+   "title": "تغییرات ساختاری در فرآیند توسعه و بهبود قابلیت‌های فنی GNOME",
+   "url": "https://www.phoronix.com/news/GNOME-Establishes-RFC",
+   "source": "Phoronix",
+   "score": 0.1608,
+   "at": "2026-10-31T10:54:02.529262+00:00"
+  },
+  {
+   "title": "تلاش Nvidia برای تضمین بدهی‌های کلان جهت ساخت دیتاسنتر Anthropic",
+   "url": "https://thenextweb.com/news/nvidia-nscale-anthropic-data-centre-debt-guarantee",
+   "source": "The Next Web",
+   "score": 0.14956,
+   "at": "2026-10-31T10:54:09.352435+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "asato",
-    "court",
-    "deepfaked",
-    "jess",
-    "politician",
-    "she",
-    "taking",
-    "xai"
-   ],
-   "at": "2026-10-27T13:54:13.940131+00:00"
-  },
-  {
-   "sig": [
-    "data",
-    "denver",
-    "health",
-    "key",
-    "leak",
-    "members",
-    "plan",
-    "puts",
-    "risk",
-    "vendor"
-   ],
-   "at": "2026-10-27T13:54:20.693297+00:00"
-  },
-  {
-   "sig": [
-    "agent",
-    "coding",
-    "downloads",
-    "file",
-    "folder",
-    "himalayas",
-    "installing",
-    "malicious",
-    "malware",
-    "offline",
-    "trick",
-    "tries"
-   ],
-   "at": "2026-10-27T15:54:06.193840+00:00"
-  },
-  {
-   "sig": [
-    "americans",
-    "court",
-    "government",
-    "hiding",
-    "ruling",
-    "secret",
-    "spies"
-   ],
-   "at": "2026-10-27T15:55:10.406932+00:00"
-  },
-  {
-   "sig": [
-    "alleged",
-    "company",
-    "israeli",
-    "spy",
-    "starlink",
-    "targeted",
-    "users"
-   ],
-   "at": "2026-10-27T15:56:02.730528+00:00"
-  },
   {
    "sig": [
     "anthropic",
@@ -9452,17 +9424,75 @@
     "unauthenticated"
    ],
    "at": "2026-10-31T09:54:44.552417+00:00"
+  },
+  {
+   "sig": [
+    "black",
+    "case",
+    "could",
+    "customer",
+    "screen",
+    "see",
+    "support"
+   ],
+   "at": "2026-10-31T10:53:44.226444+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "brain",
+    "drugs",
+    "injected",
+    "live",
+    "mouse"
+   ],
+   "at": "2026-10-31T10:53:49.770038+00:00"
+  },
+  {
+   "sig": [
+    "application",
+    "cdplayer.exe",
+    "claims",
+    "found",
+    "gui",
+    "november",
+    "oldest",
+    "prize",
+    "sleuth",
+    "still",
+    "tech",
+    "windows",
+    "wins",
+    "works"
+   ],
+   "at": "2026-10-31T10:53:54.874228+00:00"
+  },
+  {
+   "sig": [
+    "continues",
+    "established",
+    "gnome",
+    "improving",
+    "process",
+    "rfc"
+   ],
+   "at": "2026-10-31T10:54:02.529262+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "centre",
+    "data",
+    "debt",
+    "guarantee",
+    "nscale",
+    "nvidia",
+    "talks"
+   ],
+   "at": "2026-10-31T10:54:09.352435+00:00"
   }
  ],
  "snapshots": {
-  "hn:50162177": [
-   288,
-   "2026-10-20T15:15:31.759534+00:00"
-  ],
-  "hn:50163502": [
-   1363,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
   "hn:50163277": [
    3452,
    "2026-10-20T19:27:32.208602+00:00"
@@ -11854,6 +11884,14 @@
   "lobsters:1pmuy7": [
    25,
    "2026-10-31T09:53:45.014249+00:00"
+  ],
+  "hn:50314654": [
+   121,
+   "2026-10-31T10:53:41.489224+00:00"
+  ],
+  "lobsters:soosuu": [
+   30,
+   "2026-10-31T10:53:41.489224+00:00"
   ]
  }
 }
