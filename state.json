@@ -1912,18 +1912,27 @@
   "hn:50308986",
   "https://techcrunch.com/?p=3183715",
   "hn:50311311",
-  "hn:50307219"
+  "hn:50307219",
+  "cNLmH2cuZ5HiS2avLYMAH7",
+  "https://developers.slashdot.org/story/26/10/30/2339234/cisco-gives-engineer-unlimited-ai-tokens-to-rewrite-legacy-code?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "1416621",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4i3sto6c2s",
+  "https://hardware.slashdot.org/story/26/10/30/2017206/sam-altman-thinks-your-pc-is-wasting-precious-ram?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50305797",
+  "https://yro.slashdot.org/story/26/10/30/213231/meta-settles-another-social-media-addiction-case-just-before-trial?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.engadget.com/2302956/meta-settles-another-social-media-addiction-case-just-before-trial/",
+  "hn:50310937"
  ],
  "posted": {
-  "viral": 371,
-  "editorial": 472
+  "viral": 372,
+  "editorial": 476
  },
  "recent_labels": [
-  "Lobsters",
-  "Lobsters",
-  "Lobsters",
-  "Hacker News",
-  "TechCrunch AI"
+  "Tom's Hardware",
+  "ZDNet",
+  "Slashdot",
+  "Slashdot",
+  "Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5062,68 +5071,44 @@
    "source": "TechCrunch AI",
    "score": 0.2088,
    "at": "2026-10-31T02:54:30.470602+00:00"
+  },
+  {
+   "title": "بازنویسی ۹۸ درصد از کدهای قدیمی سیسکو با استفاده از هوش مصنوعی",
+   "url": "https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts",
+   "source": "Tom's Hardware",
+   "score": 0.09858,
+   "at": "2026-10-31T03:53:51.804733+00:00"
+  },
+  {
+   "title": "نرخ پایین پذیرش اندروید ۱۷ و خطرات امنیتی نسخه‌های قدیمی",
+   "url": "https://www.zdnet.com/tech/android-17-os-adoption-numbers-october-2026/",
+   "source": "ZDNet",
+   "score": 0.06525,
+   "at": "2026-10-31T03:54:07.938800+00:00"
+  },
+  {
+   "title": "انتقاد سم آلتمن از اجرای محلی مدل‌های هوش مصنوعی روی کامپیوترهای شخصی",
+   "url": "https://hardware.slashdot.org/story/26/10/30/2017206/sam-altman-thinks-your-pc-is-wasting-precious-ram?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.08629,
+   "at": "2026-10-31T03:54:14.074873+00:00"
+  },
+  {
+   "title": "توافق متا در پرونده اعتیاد کاربران به شبکه‌های اجتماعی",
+   "url": "https://yro.slashdot.org/story/26/10/30/213231/meta-settles-another-social-media-addiction-case-just-before-trial?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.05283,
+   "at": "2026-10-31T03:54:20.101117+00:00"
+  },
+  {
+   "title": "شناسایی آسیب‌پذیری بحرانی در Canonical LXD با امتیاز ۱۰",
+   "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
+   "source": "cve.org",
+   "score": 0.06008,
+   "at": "2026-10-31T03:54:25.914629+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "complete",
-    "identity",
-    "idx",
-    "protection",
-    "review",
-    "theft"
-   ],
-   "at": "2026-10-27T07:54:24.563448+00:00"
-  },
-  {
-   "sig": [
-    "ai-generated",
-    "cloudflare",
-    "introduce",
-    "port",
-    "rust",
-    "tsrs",
-    "typescript",
-    "voidzero"
-   ],
-   "at": "2026-10-27T07:54:31.781619+00:00"
-  },
-  {
-   "sig": [
-    "age",
-    "man-month",
-    "mythical"
-   ],
-   "at": "2026-10-27T08:54:05.561676+00:00"
-  },
-  {
-   "sig": [
-    "another",
-    "back",
-    "forward",
-    "noexamshutdown",
-    "step"
-   ],
-   "at": "2026-10-27T08:54:12.580220+00:00"
-  },
-  {
-   "sig": [
-    "3bn",
-    "agent",
-    "buys",
-    "expand",
-    "invest",
-    "meta",
-    "muse",
-    "nvidia",
-    "pair",
-    "partnership",
-    "stake",
-    "work"
-   ],
-   "at": "2026-10-27T09:53:50.070868+00:00"
-  },
   {
    "sig": [
     "agent",
@@ -9151,13 +9136,86 @@
     "secure"
    ],
    "at": "2026-10-31T02:54:30.470602+00:00"
+  },
+  {
+   "sig": [
+    "27-year-old",
+    "cisco",
+    "code",
+    "company",
+    "engineer",
+    "gives",
+    "legacy",
+    "months",
+    "rewrite",
+    "tokens",
+    "unlimited"
+   ],
+   "at": "2026-10-31T03:53:51.804733+00:00"
+  },
+  {
+   "sig": [
+    "adoption",
+    "again",
+    "android",
+    "anything",
+    "continue",
+    "ever",
+    "greatest",
+    "hits",
+    "latest",
+    "never",
+    "often",
+    "really",
+    "security",
+    "should",
+    "software",
+    "staggering",
+    "sure",
+    "update",
+    "updating"
+   ],
+   "at": "2026-10-31T03:54:07.938800+00:00"
+  },
+  {
+   "sig": [
+    "altman",
+    "dram",
+    "precious",
+    "ram",
+    "sam",
+    "thinks",
+    "wasting"
+   ],
+   "at": "2026-10-31T03:54:14.074873+00:00"
+  },
+  {
+   "sig": [
+    "addiction",
+    "another",
+    "case",
+    "media",
+    "meta",
+    "settles",
+    "social",
+    "trial"
+   ],
+   "at": "2026-10-31T03:54:20.101117+00:00"
+  },
+  {
+   "sig": [
+    "10.0",
+    "canonical",
+    "cve",
+    "cve-2026-112816",
+    "emudhra",
+    "lxd",
+    "required"
+   ],
+   "at": "2026-10-31T03:54:25.914629+00:00"
   }
  ],
  "snapshots": {
-  "hn:50159341": [
-   700,
-   "2026-10-20T10:15:56.469948+00:00"
-  ],
   "hn:50159245": [
    282,
    "2026-10-20T10:15:56.469948+00:00"
@@ -11534,14 +11592,6 @@
    760,
    "2026-10-31T02:53:45.562235+00:00"
   ],
-  "hn:50305797": [
-   262,
-   "2026-10-31T02:53:45.562235+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4i3sto6c2s": [
-   113,
-   "2026-10-31T02:53:45.562235+00:00"
-  ],
   "hn:50311311": [
    183,
    "2026-10-31T02:53:45.562235+00:00"
@@ -11553,6 +11603,18 @@
   "lobsters:o1z9mm": [
    27,
    "2026-10-31T02:53:45.562235+00:00"
+  ],
+  "hn:50305797": [
+   263,
+   "2026-10-31T03:53:43.365415+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4i3sto6c2s": [
+   113,
+   "2026-10-31T03:53:43.365415+00:00"
+  ],
+  "hn:50310937": [
+   63,
+   "2026-10-31T03:53:43.365415+00:00"
   ]
  }
 }
