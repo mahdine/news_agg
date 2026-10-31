@@ -1948,18 +1948,30 @@
   "8349bc39d914d2e52b50ec2b0d9a4d16",
   "29TPGYfyaMqBMqb3i4jxmU",
   "cZX7bHQZXDoWKyaarRvSj8",
-  "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://www.techspot.com/downloads/7158-microsoft-edge.html",
+  "https://www.neowin.net/news/microsoft-will-soon-allow-organizations-to-auto-launch-edge-on-windows-startup/",
+  "https://www.neowin.net/news/microsoft-edge-getting-a-feature-that-will-make-launching-the-browser-faster/",
+  "https://9to5mac.com/?p=1076731",
+  "https://9to5mac.com/?p=1076736",
+  "https://science.slashdot.org/story/26/10/30/2344228/googles-first-data-center-satellite-is-online-and-writing-poetry?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://techcrunch.com/?p=3183584",
+  "https://www.theverge.com/?p=1023528",
+  "9eLgKjpZmUV3H8ghjGCLtC",
+  "https://www.neowin.net/deals/asus-rog-peltas-price-crashes-to-79-in-latest-deal-39-discount/",
+  "fdf076d915bb342bf55bfb887a1bcf2f",
+  "d4cf6f9632c15f55a5f5b75d832757ed"
  ],
  "posted": {
   "viral": 376,
-  "editorial": 485
+  "editorial": 489
  },
  "recent_labels": [
-  "Hacker News",
-  "The Hacker News",
-  "Latent Space",
-  "The Hacker News",
-  "InfoQ"
+  "InfoQ",
+  "TechSpot",
+  "9to5Mac",
+  "Slashdot",
+  "TechRadar"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5224,58 +5236,37 @@
    "source": "InfoQ",
    "score": 0.17951,
    "at": "2026-10-31T06:55:18.550956+00:00"
+  },
+  {
+   "title": "افزایش سرعت اجرای مرورگر Microsoft Edge در ویندوز ۱۱",
+   "url": "https://www.techspot.com/downloads/7158-microsoft-edge.html",
+   "source": "TechSpot",
+   "score": 0.0754,
+   "at": "2026-10-31T07:53:59.177450+00:00"
+  },
+  {
+   "title": "قابلیت‌های جدید مدیریت گروه‌ها در واتس‌اپ",
+   "url": "https://9to5mac.com/2026/10/30/whatsapp-announces-four-new-features-to-make-group-chats-easier-to-manage/",
+   "source": "9to5Mac",
+   "score": 0.01274,
+   "at": "2026-10-31T07:54:10.483545+00:00"
+  },
+  {
+   "title": "فعال‌سازی نخستین مرکز داده فضایی گوگل با اجرای مدل هوش مصنوعی",
+   "url": "https://science.slashdot.org/story/26/10/30/2344228/googles-first-data-center-satellite-is-online-and-writing-poetry?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.11848,
+   "at": "2026-10-31T07:54:22.300812+00:00"
+  },
+  {
+   "title": "چالش‌های حقوقی و تجاری استفاده از داده‌های مشتریان برای آموزش مدل‌های هوش مصنوعی",
+   "url": "https://www.techradar.com/pro/ai-vendors-are-relearning-the-oldest-rule-in-the-data-business",
+   "source": "TechRadar",
+   "score": 0.11519,
+   "at": "2026-10-31T07:54:31.260126+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "companies",
-    "data",
-    "der",
-    "job",
-    "label",
-    "pay",
-    "phds",
-    "remote",
-    "van",
-    "voort"
-   ],
-   "at": "2026-10-27T10:54:42.473531+00:00"
-  },
-  {
-   "sig": [
-    "experimental",
-    "jit",
-    "python",
-    "removed"
-   ],
-   "at": "2026-10-27T11:53:41.501907+00:00"
-  },
-  {
-   "sig": [
-    "145gb",
-    "adult",
-    "asking",
-    "content",
-    "downloaded",
-    "including",
-    "models",
-    "roblox",
-    "without"
-   ],
-   "at": "2026-10-27T11:53:50.936424+00:00"
-  },
-  {
-   "sig": [
-    "ai-driven",
-    "anthropic",
-    "control",
-    "development",
-    "redesigned",
-    "source"
-   ],
-   "at": "2026-10-27T11:53:59.975498+00:00"
-  },
   {
    "sig": [
     "app",
@@ -9349,6 +9340,66 @@
     "xss"
    ],
    "at": "2026-10-31T06:55:18.550956+00:00"
+  },
+  {
+   "sig": [
+    "allow",
+    "auto-launch",
+    "browser",
+    "edge",
+    "faster",
+    "feature",
+    "getting",
+    "launches",
+    "launching",
+    "microsoft",
+    "organizations",
+    "soon",
+    "startup",
+    "windows"
+   ],
+   "at": "2026-10-31T07:53:59.177450+00:00"
+  },
+  {
+   "sig": [
+    "announces",
+    "chats",
+    "easier",
+    "features",
+    "four",
+    "group",
+    "manage",
+    "whatsapp"
+   ],
+   "at": "2026-10-31T07:54:10.483545+00:00"
+  },
+  {
+   "sig": [
+    "center",
+    "data",
+    "earth",
+    "first",
+    "google",
+    "online",
+    "poetry",
+    "response",
+    "satellite",
+    "server",
+    "transmits",
+    "writing"
+   ],
+   "at": "2026-10-31T07:54:22.300812+00:00"
+  },
+  {
+   "sig": [
+    "business",
+    "data",
+    "oldest",
+    "relearning",
+    "rule",
+    "vendors"
+   ],
+   "at": "2026-10-31T07:54:31.260126+00:00"
   }
  ],
  "snapshots": {
