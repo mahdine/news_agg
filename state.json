@@ -1903,18 +1903,27 @@
   "hn:50309647",
   "hn:50310398",
   "hn:50310796",
-  "hn:50311686"
+  "hn:50311686",
+  "lobsters:xudbqx",
+  "lobsters:o1z9mm",
+  "lobsters:fskctn",
+  "lobsters:ukj8mm",
+  "hn:50308631",
+  "hn:50308986",
+  "https://techcrunch.com/?p=3183715",
+  "hn:50311311",
+  "hn:50307219"
  ],
  "posted": {
-  "viral": 367,
-  "editorial": 471
+  "viral": 371,
+  "editorial": 472
  },
  "recent_labels": [
+  "Lobsters",
+  "Lobsters",
+  "Lobsters",
   "Hacker News",
-  "Hacker News",
-  "404 Media",
-  "Hacker News",
-  "Hacker News"
+  "TechCrunch AI"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5018,77 +5027,44 @@
    "source": "firezone.dev",
    "score": 0.01207,
    "at": "2026-10-31T01:54:32.730856+00:00"
+  },
+  {
+   "title": "محدودیت‌های سخت‌گیرانه npm برای نام‌گذاری بسته‌ها و چالش‌های آن",
+   "url": "https://smoores.dev/post/no_npm_estee_is_not_a_typo/",
+   "source": "smoores.dev",
+   "score": 0.03218,
+   "at": "2026-10-31T02:53:51.104079+00:00"
+  },
+  {
+   "title": "بهینه‌سازی مصرف حافظه رم در توزیع NixOS برای اجرا در محیط‌های محدود",
+   "url": "https://lowendspirit.com/discussion/11543/shrinking-nixos-ram-footprint-and-resource-requirements-to-the-bare-minimum",
+   "source": "lowendspirit.com",
+   "score": 0.02758,
+   "at": "2026-10-31T02:53:58.176671+00:00"
+  },
+  {
+   "title": "معرفی پلتفرم Tangled به عنوان اولین فورج کدنویسی فدرال",
+   "url": "https://tangled.org/blog/forge/",
+   "source": "tangled.org",
+   "score": 0.01244,
+   "at": "2026-10-31T02:54:09.174163+00:00"
+  },
+  {
+   "title": "تصویب مالیات جدید در فرانسه و تهدید بقای سازمان غیرانتفاعی VideoLAN",
+   "url": "https://twitter.com/videolan/status/2116229135919919278",
+   "source": "twitter.com",
+   "score": 0.00158,
+   "at": "2026-10-31T02:54:22.933699+00:00"
+  },
+  {
+   "title": "پیش‌بینی رتبه اعتباری پایین برای Anthropic در آستانه عرضه عمومی",
+   "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+   "source": "TechCrunch AI",
+   "score": 0.2088,
+   "at": "2026-10-31T02:54:30.470602+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anthropic",
-    "elvis",
-    "heartbreak",
-    "hotel",
-    "leaving",
-    "rightsholders",
-    "songs",
-    "stealing",
-    "sue"
-   ],
-   "at": "2026-10-27T06:53:58.631927+00:00"
-  },
-  {
-   "sig": [
-    "boats",
-    "cables",
-    "connecting",
-    "europe",
-    "loitering",
-    "russian",
-    "spotted",
-    "undersea"
-   ],
-   "at": "2026-10-27T06:54:12.765868+00:00"
-  },
-  {
-   "sig": [
-    "app",
-    "apple",
-    "happ",
-    "incy",
-    "instagram",
-    "store",
-    "vpn"
-   ],
-   "at": "2026-10-27T06:54:41.783776+00:00"
-  },
-  {
-   "sig": [
-    "access",
-    "attackers",
-    "auth",
-    "cameras",
-    "dahua",
-    "hijack",
-    "p2p",
-    "ukraine",
-    "using",
-    "weaknesses"
-   ],
-   "at": "2026-10-27T07:53:43.009832+00:00"
-  },
-  {
-   "sig": [
-    "coalition",
-    "database",
-    "free",
-    "launches",
-    "maritime",
-    "port",
-    "ship",
-    "systems",
-    "vulnerability"
-   ],
-   "at": "2026-10-27T07:54:16.895663+00:00"
-  },
   {
    "sig": [
     "complete",
@@ -9115,13 +9091,69 @@
     "wireguard"
    ],
    "at": "2026-10-31T01:54:32.730856+00:00"
+  },
+  {
+   "sig": [
+    "estee",
+    "npm",
+    "testem",
+    "typo"
+   ],
+   "at": "2026-10-31T02:53:51.104079+00:00"
+  },
+  {
+   "sig": [
+    "bare",
+    "footprint",
+    "minimum",
+    "nixos",
+    "ram",
+    "requirements",
+    "resource",
+    "shrinking"
+   ],
+   "at": "2026-10-31T02:53:58.176671+00:00"
+  },
+  {
+   "sig": [
+    "code",
+    "federated",
+    "forge"
+   ],
+   "at": "2026-10-31T02:54:09.174163+00:00"
+  },
+  {
+   "sig": [
+    "digital",
+    "french",
+    "kill",
+    "may",
+    "non-profit",
+    "tax",
+    "videolan"
+   ],
+   "at": "2026-10-31T02:54:22.933699+00:00"
+  },
+  {
+   "sig": [
+    "agencies",
+    "anthropic",
+    "blackstone",
+    "credit",
+    "following",
+    "high",
+    "investment-grade",
+    "ipo",
+    "junk",
+    "may",
+    "rating",
+    "receive",
+    "secure"
+   ],
+   "at": "2026-10-31T02:54:30.470602+00:00"
   }
  ],
  "snapshots": {
-  "hn:50159616": [
-   480,
-   "2026-10-20T10:15:56.469948+00:00"
-  ],
   "hn:50159341": [
    700,
    "2026-10-20T10:15:56.469948+00:00"
@@ -11438,36 +11470,12 @@
    149,
    "2026-10-30T22:30:16.400634+00:00"
   ],
-  "lobsters:xudbqx": [
-   57,
-   "2026-10-30T22:30:16.400634+00:00"
-  ],
-  "lobsters:ukj8mm": [
-   39,
-   "2026-10-30T22:30:16.400634+00:00"
-  ],
-  "lobsters:fskctn": [
-   32,
-   "2026-10-30T22:30:16.400634+00:00"
-  ],
   "lobsters:spv7tb": [
    28,
    "2026-10-30T22:30:16.400634+00:00"
   ],
   "hn:50309647": [
    453,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
-  "hn:50308631": [
-   260,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
-  "hn:50307219": [
-   734,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
-  "hn:50305797": [
-   252,
    "2026-10-31T01:54:09.316801+00:00"
   ],
   "hn:50304122": [
@@ -11482,16 +11490,8 @@
    94,
    "2026-10-31T01:54:09.316801+00:00"
   ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4i3sto6c2s": [
-   111,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
   "hn:50311686": [
    84,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
-  "hn:50311311": [
-   167,
    "2026-10-31T01:54:09.316801+00:00"
   ],
   "hn:50310796": [
@@ -11510,13 +11510,49 @@
    157,
    "2026-10-31T01:54:09.316801+00:00"
   ],
-  "hn:50308986": [
-   67,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
   "hn:50304280": [
    97,
    "2026-10-31T01:54:09.316801+00:00"
+  ],
+  "lobsters:xudbqx": [
+   65,
+   "2026-10-31T02:53:45.562235+00:00"
+  ],
+  "lobsters:ukj8mm": [
+   51,
+   "2026-10-31T02:53:45.562235+00:00"
+  ],
+  "lobsters:fskctn": [
+   41,
+   "2026-10-31T02:53:45.562235+00:00"
+  ],
+  "hn:50308631": [
+   264,
+   "2026-10-31T02:53:45.562235+00:00"
+  ],
+  "hn:50307219": [
+   760,
+   "2026-10-31T02:53:45.562235+00:00"
+  ],
+  "hn:50305797": [
+   262,
+   "2026-10-31T02:53:45.562235+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4i3sto6c2s": [
+   113,
+   "2026-10-31T02:53:45.562235+00:00"
+  ],
+  "hn:50311311": [
+   183,
+   "2026-10-31T02:53:45.562235+00:00"
+  ],
+  "hn:50308986": [
+   74,
+   "2026-10-31T02:53:45.562235+00:00"
+  ],
+  "lobsters:o1z9mm": [
+   27,
+   "2026-10-31T02:53:45.562235+00:00"
   ]
  }
 }
