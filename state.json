@@ -1960,18 +1960,25 @@
   "9eLgKjpZmUV3H8ghjGCLtC",
   "https://www.neowin.net/deals/asus-rog-peltas-price-crashes-to-79-in-latest-deal-39-discount/",
   "fdf076d915bb342bf55bfb887a1bcf2f",
-  "d4cf6f9632c15f55a5f5b75d832757ed"
+  "d4cf6f9632c15f55a5f5b75d832757ed",
+  "https://www.theverge.com/?p=1023649",
+  "https://techcrunch.com/?p=3183738",
+  "https://techcrunch.com/?p=3183862",
+  "https://www.androidpolice.com/bose-quietcomfort-headphones-for-199-is-a-price-we-didnt-see-coming/",
+  "https://www.infoq.com/news/2026/10/localstack-azure-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://www.theregister.com/a/5306499",
+  "https://www.neowin.net/news/here-are-all-the-new-features-microsoft-added-to-intune-in-october-2026/"
  ],
  "posted": {
   "viral": 376,
-  "editorial": 489
+  "editorial": 494
  },
  "recent_labels": [
+  "The Verge",
+  "TechCrunch AI",
   "InfoQ",
-  "TechSpot",
-  "9to5Mac",
-  "Slashdot",
-  "TechRadar"
+  "The Register",
+  "Neowin"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5264,80 +5271,44 @@
    "source": "TechRadar",
    "score": 0.11519,
    "at": "2026-10-31T07:54:31.260126+00:00"
+  },
+  {
+   "title": "جزئیات جدید از سخت‌افزار موسیقی Akai MPC Sample Key",
+   "url": "https://www.theverge.com/gadgets/1023649/akai-mpc-sample-key-exclusive",
+   "source": "The Verge",
+   "score": 0.00973,
+   "at": "2026-10-31T08:53:48.030063+00:00"
+  },
+  {
+   "title": "سقوط ۲۸ درصدی ارزش سهام Intel در پی کاهش درآمدهای پیش‌بینی‌شده",
+   "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+   "source": "TechCrunch AI",
+   "score": 0.01031,
+   "at": "2026-10-31T08:53:54.564098+00:00"
+  },
+  {
+   "title": "عرضه‌ی عمومی شبیه‌ساز Azure توسط LocalStack با محدودیت‌های امنیتی",
+   "url": "https://www.infoq.com/news/2026/10/localstack-azure-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.07675,
+   "at": "2026-10-31T08:54:02.102340+00:00"
+  },
+  {
+   "title": "تبدیل شدن Nvidia به غول صنعت شبکه با استراتژی یکپارچه‌سازی",
+   "url": "https://www.theregister.com/networks/2026/10/31/backbone-of-a-beast-charting-nvidias-rise-to-networking-titan/5306499",
+   "source": "The Register",
+   "score": 0.1584,
+   "at": "2026-10-31T08:54:09.073878+00:00"
+  },
+  {
+   "title": "به‌روزرسانی جدید مایکروسافت برای سرویس مدیریت دستگاه Intune",
+   "url": "https://www.neowin.net/news/here-are-all-the-new-features-microsoft-added-to-intune-in-october-2026/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.13098,
+   "at": "2026-10-31T08:54:14.785323+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "app",
-    "cute",
-    "duo",
-    "iphone",
-    "macs",
-    "super",
-    "tiny",
-    "turns",
-    "vintage"
-   ],
-   "at": "2026-10-27T11:54:06.434237+00:00"
-  },
-  {
-   "sig": [
-    "announcing",
-    "center",
-    "context",
-    "credits",
-    "discoveries",
-    "due",
-    "field",
-    "given",
-    "kudos",
-    "long",
-    "openai",
-    "process",
-    "putting",
-    "releases",
-    "scientific",
-    "scientists",
-    "time",
-    "understanding",
-    "where",
-    "worked"
-   ],
-   "at": "2026-10-27T12:53:49.930398+00:00"
-  },
-  {
-   "sig": [
-    "ai-generated",
-    "cleanup",
-    "content",
-    "wikipedia"
-   ],
-   "at": "2026-10-27T12:54:14.018627+00:00"
-  },
-  {
-   "sig": [
-    "getting",
-    "horrible",
-    "may",
-    "software",
-    "worse"
-   ],
-   "at": "2026-10-27T12:54:26.135881+00:00"
-  },
-  {
-   "sig": [
-    "145gb",
-    "accuses",
-    "assets",
-    "downloading",
-    "open3dlab",
-    "purposes",
-    "roblox",
-    "training"
-   ],
-   "at": "2026-10-27T12:54:34.736783+00:00"
-  },
   {
    "sig": [
     "less",
@@ -9400,6 +9371,66 @@
     "vendors"
    ],
    "at": "2026-10-31T07:54:31.260126+00:00"
+  },
+  {
+   "sig": [
+    "akai",
+    "details",
+    "exclusive",
+    "key",
+    "mpc",
+    "sample"
+   ],
+   "at": "2026-10-31T08:53:48.030063+00:00"
+  },
+  {
+   "sig": [
+    "12b",
+    "crashes",
+    "government",
+    "intel",
+    "knocking",
+    "stake",
+    "stock"
+   ],
+   "at": "2026-10-31T08:53:54.564098+00:00"
+  },
+  {
+   "sig": [
+    "azure",
+    "enforced",
+    "enters",
+    "localstack",
+    "preview",
+    "public",
+    "security",
+    "settings",
+    "stored"
+   ],
+   "at": "2026-10-31T08:54:02.102340+00:00"
+  },
+  {
+   "sig": [
+    "backbone",
+    "beast",
+    "charting",
+    "networking",
+    "nvidia",
+    "rise",
+    "titan"
+   ],
+   "at": "2026-10-31T08:54:09.073878+00:00"
+  },
+  {
+   "sig": [
+    "added",
+    "features",
+    "here",
+    "intune",
+    "microsoft",
+    "october"
+   ],
+   "at": "2026-10-31T08:54:14.785323+00:00"
   }
  ],
  "snapshots": {
