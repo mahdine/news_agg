@@ -1997,18 +1997,28 @@
   "https://hardware.slashdot.org/story/26/10/30/2355244/supersonic-airliner-in-doubt-as-company-shifts-to-powering-ai-data-centers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "nZUw9jU7u6AjqZbEAvevm5",
   "b3df08c417f31eb64a7152e8594eedb8",
-  "https://www.techspot.com/news/114397-smart-screwdriver-uses-camera-ai-identify-screws-set.html"
+  "https://www.techspot.com/news/114397-smart-screwdriver-uses-camera-ai-identify-screws-set.html",
+  "6ae4b3341f3fe0a242c4a038",
+  "6ae4a64c4075b5f5ef4aa641",
+  "https://www.neowin.net/deals/bose-quietcomfort-2nd-gen-wireless-headphones-drop-to-their-lowest-price-yet/",
+  "hn:50314666",
+  "hn:50315226",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz6bityenn2n",
+  "hn:50315990",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz6g4uyhss2e",
+  "https://www.engadget.com/2300318/what-is-pdf-reader-do-you-need-on-phone/",
+  "https://www.phoronix.com/news/Linux-Mint-October-2026"
  ],
  "posted": {
-  "viral": 378,
-  "editorial": 510
+  "viral": 381,
+  "editorial": 511
  },
  "recent_labels": [
-  "Ars Technica",
-  "Phoronix",
-  "Tom's Hardware",
-  "Tom's Hardware",
-  "TechSpot"
+  "TechSpot",
+  "Hacker News",
+  "Hacker News",
+  "Hacker News",
+  "Phoronix"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5462,57 +5472,37 @@
    "source": "TechSpot",
    "score": 0.1825,
    "at": "2026-10-31T11:54:54.279679+00:00"
+  },
+  {
+   "title": "هشدار امنیتی درباره عدم به‌روزرسانی اپلیکیشن پیام‌رسان Molly",
+   "url": "https://piefed.world/post/1503394",
+   "source": "piefed.world",
+   "score": 0.16901,
+   "at": "2026-10-31T14:53:44.153765+00:00"
+  },
+  {
+   "title": "معرفی Prospero ابزاری سبک برای مدیریت ایجنت‌های برنامه‌نویسی",
+   "url": "https://nullprogram.com/blog/2026/10/31/",
+   "source": "nullprogram.com",
+   "score": 0.23032,
+   "at": "2026-10-31T14:53:55.080381+00:00"
+  },
+  {
+   "title": "نفوذ استارتاپ امنیتی به سیستم‌های داخلی Anthropic",
+   "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+   "source": "indiatoday.in",
+   "score": 0.1047,
+   "at": "2026-10-31T14:54:20.964192+00:00"
+  },
+  {
+   "title": "توسعه ابزارهای جدید و بهبود قابلیت‌های سیستم‌عامل Linux Mint",
+   "url": "https://www.phoronix.com/news/Linux-Mint-October-2026",
+   "source": "Phoronix",
+   "score": 0.12066,
+   "at": "2026-10-31T14:54:52.724213+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "cerebras",
-    "cloud",
-    "computers",
-    "offer",
-    "oracle"
-   ],
-   "at": "2026-10-27T16:55:16.318760+00:00"
-  },
-  {
-   "sig": [
-    "does",
-    "fcc",
-    "hate",
-    "minions",
-    "routers"
-   ],
-   "at": "2026-10-27T16:55:28.262019+00:00"
-  },
-  {
-   "sig": [
-    "behavior",
-    "drivers",
-    "police",
-    "pull",
-    "suspicious",
-    "using"
-   ],
-   "at": "2026-10-27T17:54:01.358067+00:00"
-  },
-  {
-   "sig": [
-    "bing",
-    "built-in",
-    "divorce",
-    "finally",
-    "getting",
-    "internet",
-    "speed",
-    "test",
-    "thankfully",
-    "tool",
-    "try",
-    "windows"
-   ],
-   "at": "2026-10-27T17:54:36.356741+00:00"
-  },
   {
    "sig": [
     "anduril",
@@ -9574,29 +9564,57 @@
     "torque"
    ],
    "at": "2026-10-31T11:54:54.279679+00:00"
+  },
+  {
+   "sig": [
+    "fork",
+    "molly",
+    "months",
+    "signal",
+    "since",
+    "updated",
+    "vulnerable"
+   ],
+   "at": "2026-10-31T14:53:44.153765+00:00"
+  },
+  {
+   "sig": [
+    "age",
+    "civilized",
+    "coding",
+    "harness",
+    "prospero"
+   ],
+   "at": "2026-10-31T14:53:55.080381+00:00"
+  },
+  {
+   "sig": [
+    "access",
+    "anthropic",
+    "details",
+    "employee",
+    "gains",
+    "hacks",
+    "internal",
+    "messages",
+    "startup"
+   ],
+   "at": "2026-10-31T14:54:20.964192+00:00"
+  },
+  {
+   "sig": [
+    "apps",
+    "developing",
+    "linux",
+    "mint",
+    "monitoring",
+    "system",
+    "terminal"
+   ],
+   "at": "2026-10-31T14:54:52.724213+00:00"
   }
  ],
  "snapshots": {
-  "hn:50163277": [
-   3452,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "hn:50163961": [
-   456,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "hn:50163625": [
-   257,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "hn:50163462": [
-   180,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "hn:50163142": [
-   209,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
   "lobsters:d7m5j1": [
    80,
    "2026-10-20T19:27:32.208602+00:00"
@@ -11976,6 +11994,26 @@
   "lobsters:soosuu": [
    30,
    "2026-10-31T10:53:41.489224+00:00"
+  ],
+  "hn:50315990": [
+   87,
+   "2026-10-31T14:53:39.567757+00:00"
+  ],
+  "hn:50315226": [
+   130,
+   "2026-10-31T14:53:39.567757+00:00"
+  ],
+  "hn:50314666": [
+   269,
+   "2026-10-31T14:53:39.567757+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz6bityenn2n": [
+   177,
+   "2026-10-31T14:53:39.567757+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz6g4uyhss2e": [
+   149,
+   "2026-10-31T14:53:39.567757+00:00"
   ]
  }
 }
