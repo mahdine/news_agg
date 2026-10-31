@@ -2007,18 +2007,26 @@
   "hn:50315990",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz6g4uyhss2e",
   "https://www.engadget.com/2300318/what-is-pdf-reader-do-you-need-on-phone/",
-  "https://www.phoronix.com/news/Linux-Mint-October-2026"
+  "https://www.phoronix.com/news/Linux-Mint-October-2026",
+  "hn:50314243",
+  "hn:50315776",
+  "lobsters:drwd4j",
+  "hn:50316103",
+  "https://www.neowin.net/news/microsoft-weekly-windows-11-preview-updates-elder-scrolls-vi-name-and-more/",
+  "https://www.engadget.com/2300262/gnss-vs-gps-differences/",
+  "https://www.androidpolice.com/turned-off-one-galaxy-watch-feature-gained-hours-of-battery-life/",
+  "https://www.engadget.com/2303277/nasa-second-year-long-mars-simulation-mission-ends-today/"
  ],
  "posted": {
-  "viral": 381,
+  "viral": 383,
   "editorial": 511
  },
  "recent_labels": [
-  "TechSpot",
   "Hacker News",
   "Hacker News",
+  "Phoronix",
   "Hacker News",
-  "Phoronix"
+  "Lobsters"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5500,40 +5508,23 @@
    "source": "Phoronix",
    "score": 0.12066,
    "at": "2026-10-31T14:54:52.724213+00:00"
+  },
+  {
+   "title": "رمزگشایی عملکرد دکمه پاور در ویندوز و ثبت اطلاعات بحرانی",
+   "url": "https://www.osnews.com/story/146273/how-long-do-you-need-to-hold-down-the-power-button-to-turn-off-a-pc/",
+   "source": "osnews.com",
+   "score": 0.0024,
+   "at": "2026-10-31T16:13:38.689003+00:00"
+  },
+  {
+   "title": "گزارش تیم Jepsen از بررسی دیتابیس ParticleDB",
+   "url": "https://jepsen.io/analyses/particledb-1.1.4",
+   "source": "jepsen.io",
+   "score": 0.2047,
+   "at": "2026-10-31T16:14:05.497313+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anduril",
-    "bluechip",
-    "build",
-    "drone",
-    "government",
-    "laptops",
-    "military",
-    "outfit",
-    "partners",
-    "qualcomm",
-    "soil",
-    "venture"
-   ],
-   "at": "2026-10-27T17:55:37.860303+00:00"
-  },
-  {
-   "sig": [
-    "200-tab",
-    "android",
-    "chrome",
-    "cured",
-    "feature",
-    "habit",
-    "hoarding",
-    "underrated",
-    "using"
-   ],
-   "at": "2026-10-27T17:55:45.730601+00:00"
-  },
   {
    "sig": [
     "eff",
@@ -9612,25 +9603,29 @@
     "terminal"
    ],
    "at": "2026-10-31T14:54:52.724213+00:00"
+  },
+  {
+   "sig": [
+    "button",
+    "down",
+    "hold",
+    "long",
+    "need",
+    "power",
+    "turn"
+   ],
+   "at": "2026-10-31T16:13:38.689003+00:00"
+  },
+  {
+   "sig": [
+    "1.1.4",
+    "jepsen",
+    "particledb"
+   ],
+   "at": "2026-10-31T16:14:05.497313+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:d7m5j1": [
-   80,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycurvyums2z": [
-   552,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycrkkyu2i2e": [
-   556,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mycd4ryjbu2o": [
-   34,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
   "hn:50166579": [
    1095,
    "2026-10-20T22:31:26.237453+00:00"
@@ -12014,6 +12009,22 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz6g4uyhss2e": [
    149,
    "2026-10-31T14:53:39.567757+00:00"
+  ],
+  "hn:50316103": [
+   249,
+   "2026-10-31T16:12:40.268204+00:00"
+  ],
+  "hn:50315776": [
+   197,
+   "2026-10-31T16:12:40.268204+00:00"
+  ],
+  "hn:50314243": [
+   79,
+   "2026-10-31T16:12:40.268204+00:00"
+  ],
+  "lobsters:drwd4j": [
+   28,
+   "2026-10-31T16:12:40.268204+00:00"
   ]
  }
 }
