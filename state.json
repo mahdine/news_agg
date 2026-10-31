@@ -1982,18 +1982,25 @@
   "fXrfnWq963FrXsJnY9rNf7",
   "https://www.phoronix.com/news/GNOME-Establishes-RFC",
   "hn:50314654",
-  "TheNextWeb=1d50906718dbdc31ad6ebd19ddabb7aa"
+  "TheNextWeb=1d50906718dbdc31ad6ebd19ddabb7aa",
+  "https://www.theregister.com/a/5306103",
+  "3XFZaPvnPsDEawqTkmnJjW",
+  "https://www.neowin.net/reviews/call-of-duty-modern-warfare-4-review-absolute-cinema/",
+  "https://www.androidpolice.com/galaxy-pause-point-alternative/",
+  "6ae4e6ac964b916949bd58ed",
+  "6ae10966f409d832a82411e4",
+  "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/"
  ],
  "posted": {
   "viral": 378,
-  "editorial": 500
+  "editorial": 505
  },
  "recent_labels": [
-  "Lobsters",
+  "The Register",
+  "TechRadar",
+  "Android Police",
   "Wired",
-  "Tom's Hardware",
-  "Phoronix",
-  "The Next Web"
+  "Engadget"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5377,68 +5384,44 @@
    "source": "The Next Web",
    "score": 0.14956,
    "at": "2026-10-31T10:54:09.352435+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/offbeat/2026/10/31/chocolate-caterpillar-or-chocolate-teapot-top-up-the-disk-space-for-windows-10-to-find-out/5306103",
+   "source": "The Register",
+   "score": 0.10969,
+   "at": "2026-10-31T10:59:29.450855+00:00"
+  },
+  {
+   "title": "هشدار Oracle درباره هزینه‌های پیش‌بینی‌نشده و چالش‌های بازگشت سرمایه در هوش مصنوعی",
+   "url": "https://www.techradar.com/pro/ai-usage-doesnt-equal-value-oracle-warns-as-businesses-struggle-with-unpredictable-costs",
+   "source": "TechRadar",
+   "score": 0.10867,
+   "at": "2026-10-31T10:59:35.214023+00:00"
+  },
+  {
+   "title": "ساخت جایگزین قابلیت Pause Point در گوشی‌های سامسونگ با ابزارهای One UI",
+   "url": "https://www.androidpolice.com/galaxy-pause-point-alternative/",
+   "source": "Android Police",
+   "score": 0.10885,
+   "at": "2026-10-31T10:59:42.216470+00:00"
+  },
+  {
+   "title": "تأثیر محدود ابزارهای هوش مصنوعی Meta بر بازارهای تجاری و فروش آنلاین",
+   "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+   "source": "Wired",
+   "score": 0.11769,
+   "at": "2026-10-31T10:59:48.290534+00:00"
+  },
+  {
+   "title": "استاندارد جدید برای کنترل دسترسی هوش مصنوعی به محتوای وب‌سایت‌ها",
+   "url": "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/",
+   "source": "Engadget",
+   "score": 0.18624,
+   "at": "2026-10-31T11:00:02.516122+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anthropic",
-    "chat",
-    "data",
-    "feedback",
-    "gives",
-    "giving"
-   ],
-   "at": "2026-10-27T15:56:29.332063+00:00"
-  },
-  {
-   "sig": [
-    "catty",
-    "crackgate",
-    "newsletter",
-    "patties",
-    "today"
-   ],
-   "at": "2026-10-27T15:57:13.468420+00:00"
-  },
-  {
-   "sig": [
-    "anthropic",
-    "books",
-    "claude",
-    "illegally",
-    "obtained",
-    "professors",
-    "stanford",
-    "trained"
-   ],
-   "at": "2026-10-27T16:45:36.701839+00:00"
-  },
-  {
-   "sig": [
-    "adds",
-    "filling",
-    "firefox",
-    "form",
-    "monitoring",
-    "smart",
-    "webpage",
-    "window"
-   ],
-   "at": "2026-10-27T16:46:17.570540+00:00"
-  },
-  {
-   "sig": [
-    "court",
-    "drive",
-    "france",
-    "french",
-    "orders",
-    "quad9",
-    "site-blocking"
-   ],
-   "at": "2026-10-27T16:46:30.519711+00:00"
-  },
   {
    "sig": [
     "adds",
@@ -9490,6 +9473,74 @@
     "talks"
    ],
    "at": "2026-10-31T10:54:09.352435+00:00"
+  },
+  {
+   "sig": [
+    "caterpillar",
+    "chocolate",
+    "disk",
+    "find",
+    "space",
+    "teapot",
+    "top",
+    "windows"
+   ],
+   "at": "2026-10-31T10:59:29.450855+00:00"
+  },
+  {
+   "sig": [
+    "businesses",
+    "costs",
+    "doesn",
+    "equal",
+    "oracle",
+    "struggle",
+    "unpredictable",
+    "usage",
+    "value",
+    "warns"
+   ],
+   "at": "2026-10-31T10:59:35.214023+00:00"
+  },
+  {
+   "sig": [
+    "built",
+    "galaxy",
+    "own",
+    "pause",
+    "phone",
+    "point",
+    "run",
+    "still",
+    "tools",
+    "version"
+   ],
+   "at": "2026-10-31T10:59:42.216470+00:00"
+  },
+  {
+   "sig": [
+    "businesses",
+    "could",
+    "hasn",
+    "kinds",
+    "meta",
+    "muse",
+    "upend",
+    "yet"
+   ],
+   "at": "2026-10-31T10:59:48.290534+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "controls",
+    "google",
+    "joins",
+    "openai",
+    "promising",
+    "scraping"
+   ],
+   "at": "2026-10-31T11:00:02.516122+00:00"
   }
  ],
  "snapshots": {
