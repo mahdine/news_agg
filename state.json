@@ -1934,17 +1934,22 @@
   "https://9to5mac.com/?p=1076738",
   "adeJAF8SSLiWSiyMc4MJ7h",
   "BvRiF9BaXmF3g3c3B8ADVb",
-  "hn:50312756"
+  "hn:50312756",
+  "hn:50310431",
+  "https://apple.slashdot.org/story/26/10/30/216221/apple-is-entering-its-slop-era?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.techspot.com/news/114393-ai-hardware-crunch-has-reached-humble-circuit-board.html",
+  "hn:50312739",
+  "hn:50312922"
  ],
  "posted": {
-  "viral": 373,
-  "editorial": 479
+  "viral": 376,
+  "editorial": 481
  },
  "recent_labels": [
   "Hacker News",
-  "Wired",
-  "9to5Mac",
-  "EFF",
+  "Slashdot",
+  "TechSpot",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-10-30",
@@ -5147,75 +5152,44 @@
    "source": "Hacker News",
    "score": 0.04647,
    "at": "2026-10-31T04:55:32.745652+00:00"
+  },
+  {
+   "title": "سقوط ارزش سهام شرکت‌های تکنولوژی به دلیل نگرانی از هزینه‌های هوش مصنوعی",
+   "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/",
+   "source": "reuters.com",
+   "score": 0.00381,
+   "at": "2026-10-31T05:53:42.612530+00:00"
+  },
+  {
+   "title": "انتقاد از تغییر مسیر استراتژیک و افت کیفیت سخت‌افزاری در Apple",
+   "url": "https://apple.slashdot.org/story/26/10/30/216221/apple-is-entering-its-slop-era?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.01782,
+   "at": "2026-10-31T05:53:54.336776+00:00"
+  },
+  {
+   "title": "کمبود بردهای مدار چاپی برای تولید رایانه‌های شخصی",
+   "url": "https://www.techspot.com/news/114393-ai-hardware-crunch-has-reached-humble-circuit-board.html",
+   "source": "TechSpot",
+   "score": 0.01877,
+   "at": "2026-10-31T05:54:34.755994+00:00"
+  },
+  {
+   "title": "کاهش چشمگیر استفاده از دوربین‌های نظارتی Flock پس از تخلف یک اپراتور",
+   "url": "https://www.wkyc.com/article/news/investigations/flock-camera-searches-fall-95-percent-highland-heights-dispatcher-misconduct-caught/95-94b18f33-60e2-4bc7-a00f-d71d1e1fdd5e",
+   "source": "wkyc.com",
+   "score": 0.05963,
+   "at": "2026-10-31T05:54:42.510857+00:00"
+  },
+  {
+   "title": "تلاش OpenAI برای جذب سرمایه با شکست در رسیدن به هدف",
+   "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+   "source": "wsj.com",
+   "score": 0.11502,
+   "at": "2026-10-31T05:54:53.810342+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "acer",
-    "atlas",
-    "bringing",
-    "first",
-    "gaming",
-    "handheld",
-    "predator",
-    "time"
-   ],
-   "at": "2026-10-27T10:42:35.529699+00:00"
-  },
-  {
-   "sig": [
-    "fine",
-    "netscaler",
-    "normal",
-    "tell",
-    "zero-days"
-   ],
-   "at": "2026-10-27T10:42:50.051470+00:00"
-  },
-  {
-   "sig": [
-    "ads",
-    "alternate",
-    "data",
-    "driver",
-    "linux",
-    "modern",
-    "ntfs",
-    "streams",
-    "supports"
-   ],
-   "at": "2026-10-27T10:42:55.864604+00:00"
-  },
-  {
-   "sig": [
-    "4.5x",
-    "accelerating",
-    "deliver",
-    "ebpf",
-    "http",
-    "in-kernel",
-    "servers",
-    "throughput",
-    "web"
-   ],
-   "at": "2026-10-27T10:43:01.573511+00:00"
-  },
-  {
-   "sig": [
-    "able",
-    "ask",
-    "clean",
-    "copilot",
-    "data",
-    "excel",
-    "fetch",
-    "load",
-    "soon",
-    "using"
-   ],
-   "at": "2026-10-27T10:43:21.059933+00:00"
-  },
   {
    "sig": [
     "days",
@@ -9265,21 +9239,68 @@
     "tell"
    ],
    "at": "2026-10-31T04:55:32.745652+00:00"
+  },
+  {
+   "sig": [
+    "burn",
+    "cash",
+    "closes",
+    "fears",
+    "lower",
+    "selloff",
+    "sharply",
+    "spark",
+    "street",
+    "tech",
+    "wall"
+   ],
+   "at": "2026-10-31T05:53:42.612530+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "entering",
+    "era",
+    "slop"
+   ],
+   "at": "2026-10-31T05:53:54.336776+00:00"
+  },
+  {
+   "sig": [
+    "board",
+    "circuit",
+    "crunch",
+    "hardware",
+    "humble",
+    "reached"
+   ],
+   "at": "2026-10-31T05:54:34.755994+00:00"
+  },
+  {
+   "sig": [
+    "camera",
+    "caught",
+    "dispatcher",
+    "fell",
+    "flock",
+    "misconduct",
+    "searches"
+   ],
+   "at": "2026-10-31T05:54:42.510857+00:00"
+  },
+  {
+   "sig": [
+    "30b",
+    "half",
+    "less",
+    "openai",
+    "raises",
+    "target"
+   ],
+   "at": "2026-10-31T05:54:53.810342+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:dpjkzz": [
-   27,
-   "2026-10-20T10:15:56.469948+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myb6upxbj22n": [
-   1293,
-   "2026-10-20T10:15:56.469948+00:00"
-  ],
-  "hn:50161408": [
-   201,
-   "2026-10-20T15:15:31.759534+00:00"
-  ],
   "hn:50161207": [
    233,
    "2026-10-20T15:15:31.759534+00:00"
@@ -11667,6 +11688,18 @@
   "hn:50312756": [
    146,
    "2026-10-31T04:53:41.863392+00:00"
+  ],
+  "hn:50312922": [
+   220,
+   "2026-10-31T05:53:38.647594+00:00"
+  ],
+  "hn:50312739": [
+   74,
+   "2026-10-31T05:53:38.647594+00:00"
+  ],
+  "hn:50310431": [
+   68,
+   "2026-10-31T05:53:38.647594+00:00"
   ]
  }
 }
