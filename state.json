@@ -1939,18 +1939,27 @@
   "https://apple.slashdot.org/story/26/10/30/216221/apple-is-entering-its-slop-era?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.techspot.com/news/114393-ai-hardware-crunch-has-reached-humble-circuit-board.html",
   "hn:50312739",
-  "hn:50312922"
+  "hn:50312922",
+  "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+  "67463b86d8f07d6a30d2b661",
+  "urn:latent-space:post:post_da09d759-cdcb-4e0e-8da3-a546632e0a0f",
+  "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+  "cca4d905f5f873851030af123d00a4b1",
+  "8349bc39d914d2e52b50ec2b0d9a4d16",
+  "29TPGYfyaMqBMqb3i4jxmU",
+  "cZX7bHQZXDoWKyaarRvSj8",
+  "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
  ],
  "posted": {
   "viral": 376,
-  "editorial": 481
+  "editorial": 485
  },
  "recent_labels": [
   "Hacker News",
-  "Slashdot",
-  "TechSpot",
-  "Hacker News",
-  "Hacker News"
+  "The Hacker News",
+  "Latent Space",
+  "The Hacker News",
+  "InfoQ"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5187,56 +5196,37 @@
    "source": "wsj.com",
    "score": 0.11502,
    "at": "2026-10-31T05:54:53.810342+00:00"
+  },
+  {
+   "title": "افزایش حملات DDoS در گزارش سه‌ماهه‌ی سوم Cloudflare",
+   "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+   "source": "The Hacker News",
+   "score": 0.09842,
+   "at": "2026-10-31T06:53:44.880768+00:00"
+  },
+  {
+   "title": "چالش‌های درآمدی گوگل با هوش مصنوعی و تحولات جدید مدل‌های زبانی",
+   "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+   "source": "Latent Space",
+   "score": 0.02265,
+   "at": "2026-10-31T06:53:54.046357+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری امنیتی در لینک‌های اشتراکی ChatGPT امکان دسترسی به چت‌های خصوصی را فراهم می‌کرد",
+   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "source": "The Hacker News",
+   "score": 0.03352,
+   "at": "2026-10-31T06:54:00.714702+00:00"
+  },
+  {
+   "title": "شناسایی بیش از ۵۰۰ آسیب‌پذیری XSS توسط هوش مصنوعی گوگل",
+   "url": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.17951,
+   "at": "2026-10-31T06:55:18.550956+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "days",
-    "founder",
-    "freebsd",
-    "omarchy",
-    "ports",
-    "releases",
-    "ten"
-   ],
-   "at": "2026-10-27T10:54:07.619633+00:00"
-  },
-  {
-   "sig": [
-    "bite",
-    "buildout",
-    "buyouts",
-    "costs",
-    "employees",
-    "microsoft",
-    "offered",
-    "voluntary"
-   ],
-   "at": "2026-10-27T10:54:16.494047+00:00"
-  },
-  {
-   "sig": [
-    "alibaba",
-    "injunction",
-    "pentagon",
-    "rule",
-    "wins"
-   ],
-   "at": "2026-10-27T10:54:26.064927+00:00"
-  },
-  {
-   "sig": [
-    "business",
-    "depends",
-    "metrics",
-    "outcomes",
-    "success",
-    "usage",
-    "vanity"
-   ],
-   "at": "2026-10-27T10:54:31.982420+00:00"
-  },
   {
    "sig": [
     "companies",
@@ -9298,6 +9288,67 @@
     "target"
    ],
    "at": "2026-10-31T05:54:53.810342+00:00"
+  },
+  {
+   "sig": [
+    "18.2",
+    "attacks",
+    "cloudflare",
+    "ddos",
+    "million",
+    "network-layer",
+    "reports"
+   ],
+   "at": "2026-10-31T06:53:44.880768+00:00"
+  },
+  {
+   "sig": [
+    "500b",
+    "admits",
+    "ainews",
+    "bear",
+    "coming",
+    "drop",
+    "google",
+    "hurts",
+    "ipo",
+    "market",
+    "mode",
+    "revenue",
+    "search",
+    "since",
+    "worst"
+   ],
+   "at": "2026-10-31T06:53:54.046357+00:00"
+  },
+  {
+   "sig": [
+    "attacker",
+    "chatgpt",
+    "chats",
+    "code",
+    "could",
+    "link",
+    "private",
+    "read",
+    "run",
+    "session",
+    "shared"
+   ],
+   "at": "2026-10-31T06:54:00.714702+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "bugs",
+    "discloses",
+    "found",
+    "google",
+    "pagebreak",
+    "security",
+    "xss"
+   ],
+   "at": "2026-10-31T06:55:18.550956+00:00"
   }
  ],
  "snapshots": {
