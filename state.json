@@ -2039,18 +2039,23 @@
   "hn:50318401",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mz6vmxpth22j",
   "hn:50318871",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz6y7yeefd2n"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz6y7yeefd2n",
+  "lobsters:ymqjuj",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz6rowze5c2s",
+  "hn:50318182",
+  "lobsters:k508we",
+  "hn:50319358"
  ],
  "posted": {
-  "viral": 390,
+  "viral": 395,
   "editorial": 519
  },
  "recent_labels": [
+  "Lobsters",
+  "Xe Iaso",
   "Hacker News",
-  "Hacker News",
-  "Simon Willison",
-  "Hacker News",
-  "404 Media"
+  "Lobsters",
+  "Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5651,90 +5656,44 @@
    "source": "404media.co",
    "score": 0.15246,
    "at": "2026-10-31T20:07:11.889901+00:00"
+  },
+  {
+   "title": "انتقاد از مشکلات دسترسی‌پذیری در رابط کاربری جدید پلتفرم Tangled",
+   "url": "https://dbushell.com/2026/11/01/tangled-accessibility/",
+   "source": "dbushell.com",
+   "score": 0.05295,
+   "at": "2026-10-31T23:29:07.614808+00:00"
+  },
+  {
+   "title": "شناسایی چندین حفره امنیتی در نرم‌افزار چت WeeChat",
+   "url": "https://github.com/weechat/weechat/security/advisories",
+   "source": "github.com",
+   "score": 0.04267,
+   "at": "2026-10-31T23:29:13.760260+00:00"
+  },
+  {
+   "title": "هک بیلبوردهای تبلیغاتی مصر و چند کشور دیگر توسط گروه Leakers$",
+   "url": "https://www.cairoreport.org/p/egypt-brazil-iraq-billboard-hack",
+   "source": "cairoreport.org",
+   "score": 0.0168,
+   "at": "2026-10-31T23:29:20.243155+00:00"
+  },
+  {
+   "title": "اصول طراحی توابع عمومی و جلوگیری از وابستگی‌های داخلی",
+   "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
+   "source": "matklad.github.io",
+   "score": 0.09653,
+   "at": "2026-10-31T23:29:25.756394+00:00"
+  },
+  {
+   "title": "مسدودسازی کاربران Anthropic به دلیل استفاده از مدل برای آموزش مدل‌های دیگر",
+   "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+   "source": "twitter.com",
+   "score": 0.03201,
+   "at": "2026-10-31T23:29:32.472575+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "10.3",
-    "3.2",
-    "chinese",
-    "claimed",
-    "fiber",
-    "kilometers",
-    "optical",
-    "per",
-    "petabits",
-    "real-time",
-    "record",
-    "researchers",
-    "second",
-    "set",
-    "speed",
-    "team",
-    "transfer",
-    "world"
-   ],
-   "at": "2026-10-28T03:53:53.347716+00:00"
-  },
-  {
-   "sig": [
-    "amazon",
-    "anthropic",
-    "billions",
-    "ipo",
-    "much",
-    "potential",
-    "prepares",
-    "reporting",
-    "revenue",
-    "set",
-    "trillion",
-    "valuation",
-    "vcs"
-   ],
-   "at": "2026-10-28T03:53:58.931627+00:00"
-  },
-  {
-   "sig": [
-    "arstechnica.com",
-    "kill",
-    "security"
-   ],
-   "at": "2026-10-28T03:54:09.957260+00:00"
-  },
-  {
-   "sig": [
-    "aircraft",
-    "chase",
-    "could",
-    "design",
-    "f-22",
-    "generative",
-    "gigachat",
-    "jpmorgan",
-    "llm",
-    "model",
-    "moscow",
-    "rival",
-    "russia",
-    "sberbank",
-    "using"
-   ],
-   "at": "2026-10-28T03:54:17.041155+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "buck",
-    "hikes",
-    "macs",
-    "price",
-    "second",
-    "wave"
-   ],
-   "at": "2026-10-28T03:54:24.259929+00:00"
-  },
   {
    "sig": [
     "code-execution",
@@ -9771,49 +9730,64 @@
     "www.404media.co"
    ],
    "at": "2026-10-31T20:07:11.889901+00:00"
+  },
+  {
+   "sig": [
+    "accessibility",
+    "expert",
+    "front-end",
+    "hire",
+    "tangled"
+   ],
+   "at": "2026-10-31T23:29:07.614808+00:00"
+  },
+  {
+   "sig": [
+    "github.com",
+    "weec",
+    "weechat"
+   ],
+   "at": "2026-10-31T23:29:13.760260+00:00"
+  },
+  {
+   "sig": [
+    "billboard",
+    "egypt",
+    "hackers",
+    "highway",
+    "hijack",
+    "malaysian",
+    "porn",
+    "screens",
+    "show"
+   ],
+   "at": "2026-10-31T23:29:20.243155+00:00"
+  },
+  {
+   "sig": [
+    "avoid",
+    "calling",
+    "functions",
+    "other",
+    "public"
+   ],
+   "at": "2026-10-31T23:29:25.756394+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "anything",
+    "blocks",
+    "larger",
+    "models",
+    "touching",
+    "training",
+    "users"
+   ],
+   "at": "2026-10-31T23:29:32.472575+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mycpfkf6kb2w": [
-   1031,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mycgqwq2rs2w": [
-   194,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50169053": [
-   313,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50168190": [
-   524,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50167732": [
-   332,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50167617": [
-   149,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50167536": [
-   1092,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50167286": [
-   150,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50167028": [
-   668,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50166502": [
-   269,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
   "hn:50166257": [
    424,
    "2026-10-20T22:31:26.237453+00:00"
@@ -12173,6 +12147,46 @@
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mz6vmxpth22j": [
    222,
    "2026-10-31T20:06:42.126659+00:00"
+  ],
+  "hn:50320255": [
+   199,
+   "2026-10-31T23:29:05.701793+00:00"
+  ],
+  "hn:50319510": [
+   843,
+   "2026-10-31T23:29:05.701793+00:00"
+  ],
+  "hn:50319358": [
+   213,
+   "2026-10-31T23:29:05.701793+00:00"
+  ],
+  "hn:50318720": [
+   150,
+   "2026-10-31T23:29:05.701793+00:00"
+  ],
+  "hn:50318182": [
+   178,
+   "2026-10-31T23:29:05.701793+00:00"
+  ],
+  "lobsters:k508we": [
+   50,
+   "2026-10-31T23:29:05.701793+00:00"
+  ],
+  "lobsters:qwou15": [
+   35,
+   "2026-10-31T23:29:05.701793+00:00"
+  ],
+  "lobsters:ymqjuj": [
+   25,
+   "2026-10-31T23:29:05.701793+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7ep3337s2s": [
+   126,
+   "2026-10-31T23:29:05.701793+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz6rowze5c2s": [
+   5,
+   "2026-10-31T23:29:05.701793+00:00"
   ]
  }
 }
