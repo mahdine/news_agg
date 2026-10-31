@@ -2015,18 +2015,24 @@
   "https://www.neowin.net/news/microsoft-weekly-windows-11-preview-updates-elder-scrolls-vi-name-and-more/",
   "https://www.engadget.com/2300262/gnss-vs-gps-differences/",
   "https://www.androidpolice.com/turned-off-one-galaxy-watch-feature-gained-hours-of-battery-life/",
-  "https://www.engadget.com/2303277/nasa-second-year-long-mars-simulation-mission-ends-today/"
+  "https://www.engadget.com/2303277/nasa-second-year-long-mars-simulation-mission-ends-today/",
+  "hn:50316531",
+  "hn:50316760",
+  "https://www.theverge.com/?p=1023477",
+  "https://9to5mac.com/?p=1072900",
+  "https://www.engadget.com/2299191/amazon-fire-tv-stick-setting-better-audio/",
+  "https://www.engadget.com/2301241/tsa-electronics-red-flags/"
  ],
  "posted": {
-  "viral": 383,
-  "editorial": 511
+  "viral": 385,
+  "editorial": 514
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
-  "Phoronix",
-  "Hacker News",
-  "Lobsters"
+  "9to5Mac",
+  "Engadget",
+  "Engadget"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5522,66 +5528,44 @@
    "source": "jepsen.io",
    "score": 0.2047,
    "at": "2026-10-31T16:14:05.497313+00:00"
+  },
+  {
+   "title": "استفاده از هوش مصنوعی برای اولویت‌بندی قربانیان در بدافزار جدید VOLTA",
+   "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+   "source": "blog.talosintelligence.com",
+   "score": 0.04865,
+   "at": "2026-10-31T16:53:52.269098+00:00"
+  },
+  {
+   "title": "افشای استفاده متا از کتاب‌های غیرقانونی برای آموزش مدل‌های Llama",
+   "url": "https://torrentfreak.com/ex-meta-researcher-torrented-pirated-books-dataset-deleted-it-due-to-all-this-litigation/",
+   "source": "torrentfreak.com",
+   "score": 0.0579,
+   "at": "2026-10-31T16:53:58.196555+00:00"
+  },
+  {
+   "title": "صرفه‌ی اقتصادی استفاده از سخت‌افزار Apple Silicon برای اجرای مدل‌های هوش مصنوعی",
+   "url": "https://9to5mac.com/2026/10/31/apple-work-next-to-a-token-bill-macs-might-start-looking-like-a-bargain/",
+   "source": "9to5Mac",
+   "score": 0.08522,
+   "at": "2026-10-31T16:54:08.232987+00:00"
+  },
+  {
+   "title": "بهبود کیفیت صدای دیالوگ‌ها در Amazon Fire TV با هوش مصنوعی",
+   "url": "https://www.engadget.com/2299191/amazon-fire-tv-stick-setting-better-audio/",
+   "source": "Engadget",
+   "score": 0.10089,
+   "at": "2026-10-31T16:54:23.162058+00:00"
+  },
+  {
+   "title": "قوانین حمل تجهیزات الکترونیکی در پروازها برای جلوگیری از توقیف در فرودگاه",
+   "url": "https://www.engadget.com/2301241/tsa-electronics-red-flags/",
+   "source": "Engadget",
+   "score": 0.11578,
+   "at": "2026-10-31T16:54:29.114374+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "eff",
-    "experiment",
-    "expose",
-    "medicare",
-    "obtained",
-    "problems",
-    "records"
-   ],
-   "at": "2026-10-27T17:55:56.836830+00:00"
-  },
-  {
-   "sig": [
-    "ecosystem",
-    "fast",
-    "parser",
-    "rust",
-    "secure",
-    "tar"
-   ],
-   "at": "2026-10-27T21:24:05.373201+00:00"
-  },
-  {
-   "sig": [
-    "embedthis",
-    "fucking",
-    "github.com",
-    "kiddign"
-   ],
-   "at": "2026-10-27T21:24:16.698707+00:00"
-  },
-  {
-   "sig": [
-    "anyone",
-    "discord",
-    "find",
-    "google",
-    "let",
-    "messages",
-    "public",
-    "server",
-    "soon",
-    "through"
-   ],
-   "at": "2026-10-27T21:24:23.085112+00:00"
-  },
-  {
-   "sig": [
-    "artificial",
-    "ban",
-    "intelligence",
-    "president",
-    "term"
-   ],
-   "at": "2026-10-27T21:24:29.950979+00:00"
-  },
   {
    "sig": [
     "believe",
@@ -9623,17 +9607,77 @@
     "particledb"
    ],
    "at": "2026-10-31T16:14:05.497313+00:00"
+  },
+  {
+   "sig": [
+    "llms",
+    "malware",
+    "much",
+    "rank",
+    "victims",
+    "worth"
+   ],
+   "at": "2026-10-31T16:53:52.269098+00:00"
+  },
+  {
+   "sig": [
+    "books",
+    "deleted",
+    "due",
+    "ex-meta",
+    "litigation",
+    "pirated",
+    "researcher",
+    "torrented"
+   ],
+   "at": "2026-10-31T16:53:58.196555+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "bargain",
+    "bill",
+    "growing",
+    "like",
+    "looking",
+    "macs",
+    "might",
+    "next",
+    "start",
+    "token",
+    "work"
+   ],
+   "at": "2026-10-31T16:54:08.232987+00:00"
+  },
+  {
+   "sig": [
+    "amazon",
+    "audio",
+    "better",
+    "fire",
+    "setting",
+    "should",
+    "stick",
+    "try"
+   ],
+   "at": "2026-10-31T16:54:23.162058+00:00"
+  },
+  {
+   "sig": [
+    "could",
+    "electronics",
+    "flags",
+    "items",
+    "raise",
+    "red",
+    "these",
+    "traveling",
+    "tsa"
+   ],
+   "at": "2026-10-31T16:54:29.114374+00:00"
   }
  ],
  "snapshots": {
-  "hn:50166579": [
-   1095,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50165953": [
-   598,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
   "hn:50165801": [
    656,
    "2026-10-20T22:31:26.237453+00:00"
@@ -12025,6 +12069,14 @@
   "lobsters:drwd4j": [
    28,
    "2026-10-31T16:12:40.268204+00:00"
+  ],
+  "hn:50316760": [
+   108,
+   "2026-10-31T16:53:42.610097+00:00"
+  ],
+  "hn:50316531": [
+   129,
+   "2026-10-31T16:53:42.610097+00:00"
   ]
  }
 }
