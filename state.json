@@ -2030,18 +2030,27 @@
   "Nu9QG6w4CXncThgZhoXyC",
   "zX5aDh3fRM3LiSpMrdFQdC",
   "https://www.engadget.com/2301962/bolt-graphics-powers-on-first-zeus-gpu/",
-  "https://www.techspot.com/news/114400-microsoft-directx-update-could-slash-ray-tracing-memory.html"
+  "https://www.techspot.com/news/114400-microsoft-directx-update-could-slash-ray-tracing-memory.html",
+  "6adf7d1a866c48a82946e7f6",
+  "qb7ALLEszypHL8S397ptqP",
+  "hn:50314699",
+  "hn:50317429",
+  "hn:50318189",
+  "hn:50318401",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mz6vmxpth22j",
+  "hn:50318871",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz6y7yeefd2n"
  ],
  "posted": {
-  "viral": 385,
+  "viral": 390,
   "editorial": 519
  },
  "recent_labels": [
-  "The Next Web",
-  "InfoQ",
-  "Android Police",
-  "Engadget",
-  "TechSpot"
+  "Hacker News",
+  "Hacker News",
+  "Simon Willison",
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5607,66 +5616,44 @@
    "source": "TechSpot",
    "score": 0.21401,
    "at": "2026-10-31T17:56:04.245717+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری در ChatGPT امکان دسترسی غیرمجاز به حساب‌های کاربری را فراهم کرد",
+   "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+   "source": "parameter.ai",
+   "score": 0.06372,
+   "at": "2026-10-31T20:06:45.639689+00:00"
+  },
+  {
+   "title": "تأثیر هوش مصنوعی مولد بر توانایی تفکر انتقادی کاربران",
+   "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+   "source": "dl.acm.org",
+   "score": 0.33939,
+   "at": "2026-10-31T20:06:52.819867+00:00"
+  },
+  {
+   "title": "تغییرات بنیادین در مهندسی نرم‌افزار طی یک سال گذشته",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3mz6vmxpth22j",
+   "source": "Simon Willison",
+   "score": 0.40798,
+   "at": "2026-10-31T20:06:59.644477+00:00"
+  },
+  {
+   "title": "موفقیت مدل هوش مصنوعی GPT-5.6 Sol در اتمام بازی Factorio",
+   "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+   "source": "ryanmadden.net",
+   "score": 0.57462,
+   "at": "2026-10-31T20:07:05.686904+00:00"
+  },
+  {
+   "title": "مهندسی معکوس نرم‌افزار با هوش مصنوعی و چالش‌های امنیتی آن",
+   "url": "https://www.404media.co/reverse-engineer-anything-is-the-new-wild-west-of-ai/",
+   "source": "404media.co",
+   "score": 0.15246,
+   "at": "2026-10-31T20:07:11.889901+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "accelerating",
-    "claude",
-    "development",
-    "drug",
-    "early",
-    "progress"
-   ],
-   "at": "2026-10-28T01:54:20.664612+00:00"
-  },
-  {
-   "sig": [
-    "ides",
-    "jetbrains",
-    "libghostty",
-    "powered"
-   ],
-   "at": "2026-10-28T02:53:57.533317+00:00"
-  },
-  {
-   "sig": [
-    "find",
-    "gitlab",
-    "litellm",
-    "need",
-    "patch",
-    "php2shell"
-   ],
-   "at": "2026-10-28T02:54:03.877778+00:00"
-  },
-  {
-   "sig": [
-    "country",
-    "devices",
-    "every",
-    "exploding",
-    "imagine",
-    "like",
-    "mossad",
-    "pagers"
-   ],
-   "at": "2026-10-28T02:54:09.910156+00:00"
-  },
-  {
-   "sig": [
-    "bring",
-    "often",
-    "owners",
-    "rarely",
-    "reliability",
-    "reviewers",
-    "talk",
-    "twice"
-   ],
-   "at": "2026-10-28T02:54:59.303086+00:00"
-  },
   {
    "sig": [
     "10.3",
@@ -9715,37 +9702,78 @@
     "update"
    ],
    "at": "2026-10-31T17:56:04.245717+00:00"
+  },
+  {
+   "sig": [
+    "accounts",
+    "chatgpt",
+    "math",
+    "took"
+   ],
+   "at": "2026-10-31T20:06:45.639689+00:00"
+  },
+  {
+   "sig": [
+    "critical",
+    "generative",
+    "impact",
+    "self-reported",
+    "thinking"
+   ],
+   "at": "2026-10-31T20:06:52.819867+00:00"
+  },
+  {
+   "sig": [
+    "changed",
+    "craft",
+    "dramatically",
+    "engineering",
+    "good",
+    "months",
+    "past",
+    "software",
+    "summary",
+    "thread"
+   ],
+   "at": "2026-10-31T20:06:59.644477+00:00"
+  },
+  {
+   "sig": [
+    "beat",
+    "factorio",
+    "gpt-5.6",
+    "mode",
+    "peaceful",
+    "sol"
+   ],
+   "at": "2026-10-31T20:07:05.686904+00:00"
+  },
+  {
+   "sig": [
+    "back",
+    "being",
+    "bikes",
+    "control",
+    "defunct",
+    "devices",
+    "exercise",
+    "like",
+    "machine",
+    "people",
+    "plagiarism",
+    "random",
+    "reverse-engi",
+    "take",
+    "using",
+    "welcome",
+    "west",
+    "wild",
+    "www.404media.co"
+   ],
+   "at": "2026-10-31T20:07:11.889901+00:00"
   }
  ],
  "snapshots": {
-  "hn:50165801": [
-   656,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50165484": [
-   363,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50165208": [
-   923,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "lobsters:gqyvn5": [
-   189,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycmej7lp42e": [
-   150,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myctyyiwwk2v": [
-   338,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myctk2uu4c2z": [
-   865,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mycpfkf6kb2w": [
    1031,
    "2026-10-20T22:31:26.237453+00:00"
@@ -12117,6 +12145,34 @@
   "hn:50316531": [
    129,
    "2026-10-31T16:53:42.610097+00:00"
+  ],
+  "hn:50318871": [
+   167,
+   "2026-10-31T20:06:42.126659+00:00"
+  ],
+  "hn:50318401": [
+   133,
+   "2026-10-31T20:06:42.126659+00:00"
+  ],
+  "hn:50318189": [
+   496,
+   "2026-10-31T20:06:42.126659+00:00"
+  ],
+  "hn:50317429": [
+   129,
+   "2026-10-31T20:06:42.126659+00:00"
+  ],
+  "hn:50314699": [
+   527,
+   "2026-10-31T20:06:42.126659+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz6y7yeefd2n": [
+   220,
+   "2026-10-31T20:06:42.126659+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mz6vmxpth22j": [
+   222,
+   "2026-10-31T20:06:42.126659+00:00"
   ]
  }
 }
