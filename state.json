@@ -1921,17 +1921,30 @@
   "hn:50305797",
   "https://yro.slashdot.org/story/26/10/30/213231/meta-settles-another-social-media-addiction-case-just-before-trial?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.engadget.com/2302956/meta-settles-another-social-media-addiction-case-just-before-trial/",
-  "hn:50310937"
+  "hn:50310937",
+  "6ae4b1a65ad2ab653323a35a",
+  "https://www.securityweek.com/?p=50430",
+  "https://9to5mac.com/?p=1076725",
+  "https://www.theverge.com/?p=1023974",
+  "TheNextWeb=d5826ee55cfb5f6e7624b9845511fd38",
+  "112503 at https://www.eff.org",
+  "PQv5RD4LQ5KFM9u7nniftJ",
+  "9nVJzsdn7zPKthi6qypujL",
+  "PxNeyWBYuLNWCVqkVYgfRN",
+  "https://9to5mac.com/?p=1076738",
+  "adeJAF8SSLiWSiyMc4MJ7h",
+  "BvRiF9BaXmF3g3c3B8ADVb",
+  "hn:50312756"
  ],
  "posted": {
-  "viral": 372,
-  "editorial": 476
+  "viral": 373,
+  "editorial": 479
  },
  "recent_labels": [
-  "Tom's Hardware",
-  "ZDNet",
-  "Slashdot",
-  "Slashdot",
+  "Hacker News",
+  "Wired",
+  "9to5Mac",
+  "EFF",
   "Hacker News"
  ],
  "last_digest": "2026-10-30",
@@ -5106,57 +5119,37 @@
    "source": "cve.org",
    "score": 0.06008,
    "at": "2026-10-31T03:54:25.914629+00:00"
+  },
+  {
+   "title": "حمله زنجیره تأمین به افزونه Claude در پلتفرم Cursor",
+   "url": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
+   "source": "Wired",
+   "score": 0.03337,
+   "at": "2026-10-31T04:53:45.090818+00:00"
+  },
+  {
+   "title": "عرضه‌ی قابلیت‌های Apple Intelligence در چین با نسخه‌ی بتای iOS 27.3",
+   "url": "https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china/",
+   "source": "9to5Mac",
+   "score": 0.10055,
+   "at": "2026-10-31T04:53:52.600646+00:00"
+  },
+  {
+   "title": "پیامدهای حقوقی پرونده‌های کپی‌رایت برای آینده هوش مصنوعی",
+   "url": "https://www.eff.org/deeplinks/2026/10/rewriting-copyright-law-generative-ai-would-hurt-everyone",
+   "source": "EFF",
+   "score": 0.0318,
+   "at": "2026-10-31T04:53:59.088859+00:00"
+  },
+  {
+   "title": "افشای اطلاعات کاربران در پی نفوذ به سرورهای Scribd",
+   "url": "https://news.ycombinator.com/item?id=50312756",
+   "source": "Hacker News",
+   "score": 0.04647,
+   "at": "2026-10-31T04:55:32.745652+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agent",
-    "best",
-    "day",
-    "every",
-    "here",
-    "major",
-    "tested"
-   ],
-   "at": "2026-10-27T09:53:56.329355+00:00"
-  },
-  {
-   "sig": [
-    "beach",
-    "confirmed",
-    "linux",
-    "year"
-   ],
-   "at": "2026-10-27T09:54:02.697757+00:00"
-  },
-  {
-   "sig": [
-    "access",
-    "amadey",
-    "australia",
-    "backend",
-    "computers",
-    "cuts",
-    "infected",
-    "malware"
-   ],
-   "at": "2026-10-27T09:54:08.778236+00:00"
-  },
-  {
-   "sig": [
-    "being",
-    "center",
-    "data",
-    "gear",
-    "hijacked",
-    "hundreds",
-    "millions",
-    "transit",
-    "tune"
-   ],
-   "at": "2026-10-27T09:54:16.731430+00:00"
-  },
   {
    "sig": [
     "acer",
@@ -9213,13 +9206,68 @@
     "required"
    ],
    "at": "2026-10-31T03:54:25.914629+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "attack",
+    "chain",
+    "claude",
+    "devices",
+    "drained",
+    "extensions",
+    "malicious",
+    "million",
+    "polymarket",
+    "put",
+    "supply",
+    "thousands",
+    "traders"
+   ],
+   "at": "2026-10-31T04:53:45.090818+00:00"
+  },
+  {
+   "sig": [
+    "27.3",
+    "apple",
+    "beta",
+    "china",
+    "coming",
+    "confirms",
+    "december",
+    "features",
+    "finally",
+    "intelligence",
+    "ios",
+    "next",
+    "qwen",
+    "reach",
+    "week"
+   ],
+   "at": "2026-10-31T04:53:52.600646+00:00"
+  },
+  {
+   "sig": [
+    "copyright",
+    "everyone",
+    "generative",
+    "hurt",
+    "law",
+    "rewriting",
+    "would"
+   ],
+   "at": "2026-10-31T04:53:59.088859+00:00"
+  },
+  {
+   "sig": [
+    "breached",
+    "scribd",
+    "tell"
+   ],
+   "at": "2026-10-31T04:55:32.745652+00:00"
   }
  ],
  "snapshots": {
-  "hn:50159245": [
-   282,
-   "2026-10-20T10:15:56.469948+00:00"
-  ],
   "lobsters:dpjkzz": [
    27,
    "2026-10-20T10:15:56.469948+00:00"
@@ -11615,6 +11663,10 @@
   "hn:50310937": [
    63,
    "2026-10-31T03:53:43.365415+00:00"
+  ],
+  "hn:50312756": [
+   146,
+   "2026-10-31T04:53:41.863392+00:00"
   ]
  }
 }
