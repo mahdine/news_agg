@@ -1967,18 +1967,27 @@
   "https://www.androidpolice.com/bose-quietcomfort-headphones-for-199-is-a-price-we-didnt-see-coming/",
   "https://www.infoq.com/news/2026/10/localstack-azure-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "https://www.theregister.com/a/5306499",
-  "https://www.neowin.net/news/here-are-all-the-new-features-microsoft-added-to-intune-in-october-2026/"
+  "https://www.neowin.net/news/here-are-all-the-new-features-microsoft-added-to-intune-in-october-2026/",
+  "https://www.engadget.com/2302681/everything-you-need-to-know-about-googlebooks/",
+  "mMbp6jHSp4DLaT5bDmqrTm",
+  "lobsters:1pmuy7",
+  "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+  "6ae4df5c8b1b5cec211330c0",
+  "6adfbb3349cde4e309050a88",
+  "6bb0578f6e379676d0f68d38a9d11191",
+  "6ae22f20168dfe749932c93c",
+  "CeGWndfViMmfp4D77TfbYK"
  ],
  "posted": {
-  "viral": 376,
-  "editorial": 494
+  "viral": 377,
+  "editorial": 496
  },
  "recent_labels": [
-  "The Verge",
-  "TechCrunch AI",
-  "InfoQ",
   "The Register",
-  "Neowin"
+  "Neowin",
+  "Engadget",
+  "Lobsters",
+  "The Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5306,56 +5315,30 @@
    "source": "Neowin",
    "score": 0.13098,
    "at": "2026-10-31T08:54:14.785323+00:00"
+  },
+  {
+   "title": "بررسی اولیه سیستم‌عامل جدید گوگل‌بوک و قابلیت‌های آن",
+   "url": "https://www.engadget.com/2302681/everything-you-need-to-know-about-googlebooks/",
+   "source": "Engadget",
+   "score": 0.25272,
+   "at": "2026-10-31T09:53:55.013143+00:00"
+  },
+  {
+   "title": "چالش‌های فنی تشخیص کاراکترهای فضای خالی در زبان‌های برنامه‌نویسی",
+   "url": "https://serce.me/posts/2026-10-30-how-hard-is-it-to-check-for-whitespace",
+   "source": "serce.me",
+   "score": 0.00706,
+   "at": "2026-10-31T09:54:19.712127+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری‌های زنجیره‌ای محصولات Ivanti Connect Secure هدف حمله هکرها",
+   "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "source": "The Hacker News",
+   "score": 0.12709,
+   "at": "2026-10-31T09:54:44.552417+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "less",
-    "never",
-    "promised",
-    "work",
-    "worked"
-   ],
-   "at": "2026-10-27T13:53:49.247540+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "arrives",
-    "chips",
-    "huge",
-    "imac",
-    "leap",
-    "performance",
-    "promising",
-    "refreshes"
-   ],
-   "at": "2026-10-27T13:54:00.985527+00:00"
-  },
-  {
-   "sig": [
-    "14-inch",
-    "actually",
-    "adds",
-    "apple",
-    "changed",
-    "chip",
-    "chips",
-    "imac",
-    "introduces",
-    "launches",
-    "macbook",
-    "powered",
-    "powerful",
-    "pro",
-    "unveils",
-    "updated",
-    "updates",
-    "watch"
-   ],
-   "at": "2026-10-27T13:54:07.219702+00:00"
-  },
   {
    "sig": [
     "asato",
@@ -9431,13 +9414,47 @@
     "october"
    ],
    "at": "2026-10-31T08:54:14.785323+00:00"
+  },
+  {
+   "sig": [
+    "6.3bn",
+    "binance",
+    "everything",
+    "explained",
+    "googlebooks",
+    "hack",
+    "know",
+    "need",
+    "things"
+   ],
+   "at": "2026-10-31T09:53:55.013143+00:00"
+  },
+  {
+   "sig": [
+    "check",
+    "hard",
+    "whitespace"
+   ],
+   "at": "2026-10-31T09:54:19.712127+00:00"
+  },
+  {
+   "sig": [
+    "access",
+    "attackers",
+    "chain",
+    "connect",
+    "flaws",
+    "gain",
+    "ivanti",
+    "root",
+    "secure",
+    "three",
+    "unauthenticated"
+   ],
+   "at": "2026-10-31T09:54:44.552417+00:00"
   }
  ],
  "snapshots": {
-  "hn:50161207": [
-   233,
-   "2026-10-20T15:15:31.759534+00:00"
-  ],
   "hn:50162177": [
    288,
    "2026-10-20T15:15:31.759534+00:00"
@@ -11833,6 +11850,10 @@
   "hn:50310431": [
    68,
    "2026-10-31T05:53:38.647594+00:00"
+  ],
+  "lobsters:1pmuy7": [
+   25,
+   "2026-10-31T09:53:45.014249+00:00"
   ]
  }
 }
