@@ -2021,18 +2021,27 @@
   "https://www.theverge.com/?p=1023477",
   "https://9to5mac.com/?p=1072900",
   "https://www.engadget.com/2299191/amazon-fire-tv-stick-setting-better-audio/",
-  "https://www.engadget.com/2301241/tsa-electronics-red-flags/"
+  "https://www.engadget.com/2301241/tsa-electronics-red-flags/",
+  "TheNextWeb=ee1e42b7fa58211bbf1fa0df8214499b",
+  "https://techcrunch.com/?p=3184004",
+  "pnf9zy2ZRNGrXhQ7foxrbi",
+  "https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://www.androidpolice.com/chrome-flags-faster-browsing/",
+  "Nu9QG6w4CXncThgZhoXyC",
+  "zX5aDh3fRM3LiSpMrdFQdC",
+  "https://www.engadget.com/2301962/bolt-graphics-powers-on-first-zeus-gpu/",
+  "https://www.techspot.com/news/114400-microsoft-directx-update-could-slash-ray-tracing-memory.html"
  ],
  "posted": {
   "viral": 385,
-  "editorial": 514
+  "editorial": 519
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
-  "9to5Mac",
+  "The Next Web",
+  "InfoQ",
+  "Android Police",
   "Engadget",
-  "Engadget"
+  "TechSpot"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5563,79 +5572,44 @@
    "source": "Engadget",
    "score": 0.11578,
    "at": "2026-10-31T16:54:29.114374+00:00"
+  },
+  {
+   "title": "کاهش هدف جذب سرمایه OpenAI به ۲۰ میلیارد دلار",
+   "url": "https://thenextweb.com/news/openai-funding-round-20bn-target-cut-ft",
+   "source": "The Next Web",
+   "score": 0.04751,
+   "at": "2026-10-31T17:55:05.121312+00:00"
+  },
+  {
+   "title": "انتشار نسخه ۸.۰ سیستم‌عامل OpenBSD با بهبودهای امنیتی و سخت‌افزاری",
+   "url": "https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.14396,
+   "at": "2026-10-31T17:55:31.406615+00:00"
+  },
+  {
+   "title": "بهینه‌سازی عملکرد مرورگر گوگل کروم در اندروید با استفاده از فلگ‌ها",
+   "url": "https://www.androidpolice.com/chrome-flags-faster-browsing/",
+   "source": "Android Police",
+   "score": 0.11537,
+   "at": "2026-10-31T17:55:37.488314+00:00"
+  },
+  {
+   "title": "استارتاپ Bolt Graphics اولین نمونه آزمایشی پردازنده گرافیکی Zeus را با موفقیت روشن کرد",
+   "url": "https://www.engadget.com/2301962/bolt-graphics-powers-on-first-zeus-gpu/",
+   "source": "Engadget",
+   "score": 0.05717,
+   "at": "2026-10-31T17:55:58.147081+00:00"
+  },
+  {
+   "title": "مایکروسافت قابلیت‌های جدیدی برای بهینه‌سازی حافظه در DirectX Raytracing معرفی کرد",
+   "url": "https://www.techspot.com/news/114400-microsoft-directx-update-could-slash-ray-tracing-memory.html",
+   "source": "TechSpot",
+   "score": 0.21401,
+   "at": "2026-10-31T17:56:04.245717+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "believe",
-    "culpability",
-    "even",
-    "first",
-    "fuck",
-    "fuck-all",
-    "here",
-    "infurating",
-    "making",
-    "newer",
-    "openai",
-    "quote",
-    "really",
-    "red",
-    "see",
-    "should",
-    "someone",
-    "story",
-    "version",
-    "whole",
-    "won"
-   ],
-   "at": "2026-10-27T21:24:36.132179+00:00"
-  },
-  {
-   "sig": [
-    "amazon",
-    "division",
-    "failure",
-    "gutting",
-    "sustained"
-   ],
-   "at": "2026-10-28T01:53:50.789219+00:00"
-  },
-  {
-   "sig": [
-    "every",
-    "intelligence",
-    "introducing",
-    "lfm3",
-    "modality",
-    "specialized"
-   ],
-   "at": "2026-10-28T01:54:01.809643+00:00"
-  },
-  {
-   "sig": [
-    "assistant",
-    "computer",
-    "emergency",
-    "library",
-    "llm",
-    "own",
-    "runs",
-    "survival"
-   ],
-   "at": "2026-10-28T01:54:08.853178+00:00"
-  },
-  {
-   "sig": [
-    "investigation",
-    "remediation",
-    "ssh",
-    "tailscale",
-    "update"
-   ],
-   "at": "2026-10-28T01:54:14.595847+00:00"
-  },
   {
    "sig": [
     "accelerating",
@@ -9675,6 +9649,72 @@
     "tsa"
    ],
    "at": "2026-10-31T16:54:29.114374+00:00"
+  },
+  {
+   "sig": [
+    "20bn",
+    "cuts",
+    "funding",
+    "lowers",
+    "openai",
+    "reportedly",
+    "reports",
+    "round",
+    "target"
+   ],
+   "at": "2026-10-31T17:55:05.121312+00:00"
+  },
+  {
+   "sig": [
+    "8.0",
+    "brings",
+    "enhancements",
+    "expanded",
+    "hardware",
+    "improvements",
+    "openbsd",
+    "security",
+    "support",
+    "virtualization"
+   ],
+   "at": "2026-10-31T17:55:31.406615+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "chrome",
+    "fine-tuned",
+    "navigation",
+    "settings",
+    "smoother",
+    "web"
+   ],
+   "at": "2026-10-31T17:55:37.488314+00:00"
+  },
+  {
+   "sig": [
+    "bolt",
+    "first",
+    "gpu",
+    "graphics",
+    "powers",
+    "zeus"
+   ],
+   "at": "2026-10-31T17:55:58.147081+00:00"
+  },
+  {
+   "sig": [
+    "could",
+    "directx",
+    "memory",
+    "microsoft",
+    "percent",
+    "ray",
+    "slash",
+    "tracing",
+    "update"
+   ],
+   "at": "2026-10-31T17:56:04.245717+00:00"
   }
  ],
  "snapshots": {
