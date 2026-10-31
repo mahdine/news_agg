@@ -1989,18 +1989,26 @@
   "https://www.androidpolice.com/galaxy-pause-point-alternative/",
   "6ae4e6ac964b916949bd58ed",
   "6ae10966f409d832a82411e4",
-  "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/"
+  "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/",
+  "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+  "TheNextWeb=eb7cfab03771314c913044bcd9280244",
+  "https://www.phoronix.com/news/KDE-Plasma-6.9-More-Performance",
+  "BJGYisGNMQDKTSAr6BYho4",
+  "https://hardware.slashdot.org/story/26/10/30/2355244/supersonic-airliner-in-doubt-as-company-shifts-to-powering-ai-data-centers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "nZUw9jU7u6AjqZbEAvevm5",
+  "b3df08c417f31eb64a7152e8594eedb8",
+  "https://www.techspot.com/news/114397-smart-screwdriver-uses-camera-ai-identify-screws-set.html"
  ],
  "posted": {
   "viral": 378,
-  "editorial": 505
+  "editorial": 510
  },
  "recent_labels": [
-  "The Register",
-  "TechRadar",
-  "Android Police",
-  "Wired",
-  "Engadget"
+  "Ars Technica",
+  "Phoronix",
+  "Tom's Hardware",
+  "Tom's Hardware",
+  "TechSpot"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5419,89 +5427,44 @@
    "source": "Engadget",
    "score": 0.18624,
    "at": "2026-10-31T11:00:02.516122+00:00"
+  },
+  {
+   "title": "نفوذ به اکانت رسمی Anthropic و انتشار افزونه مخرب برای کاربران Cursor",
+   "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+   "source": "Ars Technica",
+   "score": 0.09659,
+   "at": "2026-10-31T11:53:40.882295+00:00"
+  },
+  {
+   "title": "بهینه‌سازی‌های جدید در نسخه ۶.۹ محیط دسکتاپ KDE Plasma",
+   "url": "https://www.phoronix.com/news/KDE-Plasma-6.9-More-Performance",
+   "source": "Phoronix",
+   "score": 0.13158,
+   "at": "2026-10-31T11:53:49.329493+00:00"
+  },
+  {
+   "title": "ردیابی سلاح‌های چاپ سه‌بعدی با تحلیل خواص حرارتی فیلامنت‌های PLA",
+   "url": "https://www.tomshardware.com/3d-printing/3d-printed-guns-may-now-have-a-way-to-be-traced-to-their-source-australian-researchers-correctly-identify-26-out-of-28-printed-pla-samples-to-their-filament-product",
+   "source": "Tom's Hardware",
+   "score": 0.14409,
+   "at": "2026-10-31T11:53:56.785465+00:00"
+  },
+  {
+   "title": "خنک‌سازی کارت گرافیک با رادیاتور کولر گازی ۴ کیلوواتی",
+   "url": "https://www.tomshardware.com/pc-components/liquid-cooling/trashbench-repurposes-a-trash-4-kw-air-conditioner-radiator-for-his-test-bench-to-see-how-well-it-can-cool-a-pc-achieves-a-shocking-28c-on-an-nvidia-rtx-3080",
+   "source": "Tom's Hardware",
+   "score": 0.17959,
+   "at": "2026-10-31T11:54:06.474268+00:00"
+  },
+  {
+   "title": "پیچ‌گوشتی هوشمند با قابلیت تشخیص خودکار پیچ توسط هوش مصنوعی",
+   "url": "https://www.techspot.com/news/114397-smart-screwdriver-uses-camera-ai-identify-screws-set.html",
+   "source": "TechSpot",
+   "score": 0.1825,
+   "at": "2026-10-31T11:54:54.279679+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "adds",
-    "audio",
-    "experiences",
-    "generates",
-    "genie",
-    "google",
-    "model",
-    "next",
-    "real-time",
-    "realistic",
-    "steering",
-    "world",
-    "worlds"
-   ],
-   "at": "2026-10-27T16:46:51.122728+00:00"
-  },
-  {
-   "sig": [
-    "billion",
-    "blood",
-    "legal",
-    "loss",
-    "meta",
-    "put",
-    "water"
-   ],
-   "at": "2026-10-27T16:48:32.240083+00:00"
-  },
-  {
-   "sig": [
-    "access",
-    "agent",
-    "agents",
-    "built",
-    "cadence",
-    "chip",
-    "coming",
-    "customers",
-    "design",
-    "early",
-    "fine-tuned",
-    "maestro",
-    "models",
-    "reveals",
-    "run",
-    "select",
-    "specialized"
-   ],
-   "at": "2026-10-27T16:53:52.313769+00:00"
-  },
-  {
-   "sig": [
-    "canceled",
-    "center",
-    "classes",
-    "cyberattack",
-    "day",
-    "health",
-    "mexico",
-    "sciences",
-    "university"
-   ],
-   "at": "2026-10-27T16:54:20.567164+00:00"
-  },
-  {
-   "sig": [
-    "adds",
-    "apple",
-    "creator",
-    "cut",
-    "everywhere",
-    "final",
-    "motionvfx",
-    "studio",
-    "update"
-   ],
-   "at": "2026-10-27T16:54:34.357558+00:00"
-  },
   {
    "sig": [
     "cerebras",
@@ -9541,6 +9504,76 @@
     "scraping"
    ],
    "at": "2026-10-31T11:00:02.516122+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "backdoored",
+    "breach",
+    "claude",
+    "code",
+    "cursor",
+    "denies",
+    "extension",
+    "hits",
+    "hours",
+    "nearly",
+    "tampered",
+    "users"
+   ],
+   "at": "2026-10-31T11:53:40.882295+00:00"
+  },
+  {
+   "sig": [
+    "6.9",
+    "kde",
+    "lands",
+    "optimizations",
+    "performance",
+    "plasma"
+   ],
+   "at": "2026-10-31T11:53:49.329493+00:00"
+  },
+  {
+   "sig": [
+    "3d-printed",
+    "ghost",
+    "guns",
+    "may",
+    "source",
+    "traced",
+    "way"
+   ],
+   "at": "2026-10-31T11:53:56.785465+00:00"
+  },
+  {
+   "sig": [
+    "4-kw",
+    "air",
+    "bench",
+    "conditioner",
+    "cool",
+    "modder",
+    "radiator",
+    "see",
+    "test",
+    "trash",
+    "well"
+   ],
+   "at": "2026-10-31T11:54:06.474268+00:00"
+  },
+  {
+   "sig": [
+    "automatically",
+    "camera",
+    "identify",
+    "screwdriver",
+    "screws",
+    "set",
+    "smart",
+    "torque"
+   ],
+   "at": "2026-10-31T11:54:54.279679+00:00"
   }
  ],
  "snapshots": {
