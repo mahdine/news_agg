@@ -2113,18 +2113,24 @@
   "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
   "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "3822ad5841c50d142cc69e1b273974b4",
-  "3228651"
+  "3228651",
+  "TheNextWeb=634878d8b0507eb79bb13a7a0ec6bd9d",
+  "hn:50323088",
+  "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+  "b819b3a481e04d5d7be0b7bcd8b8837e",
+  "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+  "https://www.theregister.com/a/5306673"
  ],
  "posted": {
-  "viral": 409,
-  "editorial": 537
+  "viral": 410,
+  "editorial": 541
  },
  "recent_labels": [
+  "The Next Web",
   "Hacker News",
-  "Lobsters",
   "The Hacker News",
-  "InfoQ",
-  "vc.ru"
+  "The Hacker News",
+  "The Register"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5984,94 +5990,44 @@
    "source": "vc.ru",
    "score": 0.03315,
    "at": "2026-11-01T08:54:58.469868+00:00"
+  },
+  {
+   "title": "درخواست پاپ برای ممنوعیت سلاح‌های خودمختار پیش از نشست ژنو",
+   "url": "https://thenextweb.com/news/pope-leo-disarm-ai-lethal-autonomous-weapons-geneva",
+   "source": "The Next Web",
+   "score": 0.00626,
+   "at": "2026-11-01T09:53:45.814466+00:00"
+  },
+  {
+   "title": "ارزیابی عملکرد فریم‌ورک‌های جاوااسکریپت در توسعه توسط هوش مصنوعی",
+   "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+   "source": "nolanlawson.com",
+   "score": 0.02474,
+   "at": "2026-11-01T09:53:51.722157+00:00"
+  },
+  {
+   "title": "سرقت ۲.۷ میلیون دلار از کاربران پلتفرم Polymarket با تزریق کد مخرب",
+   "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+   "source": "The Hacker News",
+   "score": 0.01088,
+   "at": "2026-11-01T09:53:58.622524+00:00"
+  },
+  {
+   "title": "شناسایی حفره امنیتی بحرانی در LXD و MicroCloud با امتیاز ۱۰",
+   "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+   "source": "The Hacker News",
+   "score": 0.0218,
+   "at": "2026-11-01T09:54:06.579108+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی وب‌سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
+   "source": "The Register",
+   "score": 0.16014,
+   "at": "2026-11-01T09:54:12.449837+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "age",
-    "barcelona",
-    "fabricate",
-    "protest",
-    "tiktok",
-    "unrest"
-   ],
-   "at": "2026-10-28T12:53:50.615882+00:00"
-  },
-  {
-   "sig": [
-    "alexa",
-    "amazon",
-    "camera",
-    "check",
-    "dog",
-    "echo",
-    "monopoly",
-    "play",
-    "puts",
-    "see",
-    "speaker",
-    "studio",
-    "tell"
-   ],
-   "at": "2026-10-28T12:53:56.338134+00:00"
-  },
-  {
-   "sig": [
-    "alarm",
-    "amazon",
-    "clock",
-    "echo",
-    "exist",
-    "good",
-    "less",
-    "painful",
-    "reason",
-    "senses",
-    "sleeping",
-    "smart",
-    "spending",
-    "surprisingly",
-    "time",
-    "tries",
-    "waking"
-   ],
-   "at": "2026-10-28T12:54:12.295529+00:00"
-  },
-  {
-   "sig": [
-    "add",
-    "alexa",
-    "amazon",
-    "built-in",
-    "digital",
-    "first",
-    "frame",
-    "launches",
-    "lets",
-    "notes",
-    "photo",
-    "photos",
-    "picture",
-    "voice"
-   ],
-   "at": "2026-10-28T12:54:28.447055+00:00"
-  },
-  {
-   "sig": [
-    "adds",
-    "amazon",
-    "big",
-    "display",
-    "echo",
-    "first",
-    "glare-reducing",
-    "look",
-    "nanomatte",
-    "show"
-   ],
-   "at": "2026-10-28T12:54:34.752498+00:00"
-  },
   {
    "sig": [
     "anti-left",
@@ -10093,13 +10049,77 @@
     "meta"
    ],
    "at": "2026-11-01T08:54:58.469868+00:00"
+  },
+  {
+   "sig": [
+    "autonomous",
+    "ban",
+    "geneva",
+    "leo",
+    "lethal",
+    "pope",
+    "talks",
+    "urges",
+    "weapons"
+   ],
+   "at": "2026-11-01T09:53:45.814466+00:00"
+  },
+  {
+   "sig": [
+    "cost",
+    "frameworks",
+    "javascript"
+   ],
+   "at": "2026-11-01T09:53:51.722157+00:00"
+  },
+  {
+   "sig": [
+    "2.7",
+    "debugbear",
+    "hackers",
+    "hijacked",
+    "million",
+    "polymarket",
+    "script",
+    "steal",
+    "traders",
+    "via"
+   ],
+   "at": "2026-11-01T09:53:58.622524+00:00"
+  },
+  {
+   "sig": [
+    "10.0",
+    "attackers",
+    "clients",
+    "cvss",
+    "flaw",
+    "impersonate",
+    "key",
+    "lets",
+    "lxd",
+    "microcloud",
+    "private",
+    "trusted",
+    "without"
+   ],
+   "at": "2026-11-01T09:54:06.579108+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "britland",
+    "days",
+    "extensions",
+    "landline",
+    "openreach",
+    "phones",
+    "switch"
+   ],
+   "at": "2026-11-01T09:54:12.449837+00:00"
   }
  ],
  "snapshots": {
-  "hn:50175185": [
-   205,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
   "hn:50174687": [
    352,
    "2026-10-21T10:25:34.232312+00:00"
@@ -12495,6 +12515,10 @@
   "lobsters:lt44rt": [
    28,
    "2026-11-01T08:53:45.458473+00:00"
+  ],
+  "hn:50323088": [
+   132,
+   "2026-11-01T09:53:43.691533+00:00"
   ]
  }
 }
