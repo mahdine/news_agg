@@ -2096,18 +2096,28 @@
   "be55a7ad120ae9a71b43571f93258d54",
   "7wYurojAzGp8eQQPTPyUDT",
   "qS238XSGez5qspdgRej8xX",
-  "https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  "https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://techcrunch.com/?p=3183526",
+  "https://techcrunch.com/?p=3184015",
+  "https://techcrunch.com/?p=3183510",
+  "63efffd590cfa58f7330f7961989ef77",
+  "73318236c2983dd3493f1ee49ad5d087",
+  "22b0e259558c76bcaccc65d16992c339",
+  "56855ac872455f8d23ff8b9c139f8226",
+  "XZvVDuMVDmEUUjj9raLbLg",
+  "NSF7csDmjCVPgmFWPpeVZF",
+  "https://yro.slashdot.org/story/26/10/31/2356208/americas-clocks-are-still-falling-back-tonight-despite-trumps-daylight-saving-push?utm_source=rss1.0mainlinkanon&utm_medium=feed"
  ],
  "posted": {
   "viral": 407,
-  "editorial": 532
+  "editorial": 534
  },
  "recent_labels": [
-  "The Next Web",
-  "The Next Web",
   "Hacker News",
   "Hacker News",
-  "InfoQ"
+  "InfoQ",
+  "TechRadar",
+  "TechRadar"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5918,40 +5928,23 @@
    "source": "InfoQ",
    "score": 0.2077,
    "at": "2026-11-01T06:54:09.709287+00:00"
+  },
+  {
+   "title": "فشار نهادهای امنیتی آمریکا بر شرکت‌های بزرگ فناوری برای دسترسی به داده‌های کاربران",
+   "url": "https://www.techradar.com/pro/big-tech-is-quietly-preparing-for-democratic-scrutiny-as-trump-tries-to-crack-down-on-free-speech",
+   "source": "TechRadar",
+   "score": 0.00792,
+   "at": "2026-11-01T07:54:06.057188+00:00"
+  },
+  {
+   "title": "چالش‌های نسل جدید در عبور از فیلترهای هوش مصنوعی برای استخدام",
+   "url": "https://www.techradar.com/pro/neither-side-thinks-hiring-is-working-gen-z-job-seekers-are-rewriting-their-cvs-as-theyre-worried-about-sounding-like-ai-and-they-arent-alone",
+   "source": "TechRadar",
+   "score": 0.11511,
+   "at": "2026-11-01T07:54:15.617800+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "asus",
-    "creative",
-    "gaming",
-    "next-gen",
-    "nvidia",
-    "p16",
-    "power",
-    "proart",
-    "review",
-    "rtx",
-    "soc",
-    "spark",
-    "stellar",
-    "yields"
-   ],
-   "at": "2026-10-28T11:27:20.933220+00:00"
-  },
-  {
-   "sig": [
-    "instead",
-    "kickstarter",
-    "mac",
-    "mouse",
-    "offers",
-    "project",
-    "touchscreen"
-   ],
-   "at": "2026-10-28T11:27:28.225513+00:00"
-  },
   {
    "sig": [
     "app",
@@ -10043,6 +10036,43 @@
     "transfers"
    ],
    "at": "2026-11-01T06:54:09.709287+00:00"
+  },
+  {
+   "sig": [
+    "big",
+    "crack",
+    "democratic",
+    "down",
+    "free",
+    "preparing",
+    "quietly",
+    "scrutiny",
+    "speech",
+    "tech",
+    "tries",
+    "trump"
+   ],
+   "at": "2026-11-01T07:54:06.057188+00:00"
+  },
+  {
+   "sig": [
+    "alone",
+    "aren",
+    "cvs",
+    "gen",
+    "hiring",
+    "job",
+    "like",
+    "neither",
+    "rewriting",
+    "seekers",
+    "side",
+    "sounding",
+    "thinks",
+    "working",
+    "worried"
+   ],
+   "at": "2026-11-01T07:54:15.617800+00:00"
   }
  ],
  "snapshots": {
