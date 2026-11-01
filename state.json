@@ -2070,18 +2070,27 @@
   "Gt9o6DkbwKerAGKsvXKpN",
   "BfDVGRQMvAxmN6aMy7VsAk",
   "RE5YQKobRnTsEPKxQ9t99n",
-  "uVQzaVYgpCw7WkL6ruR3bb"
+  "uVQzaVYgpCw7WkL6ruR3bb",
+  "hn:50319110",
+  "https://www.theverge.com/?p=1024096",
+  "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+  "hn:50321130",
+  "https://www.phoronix.com/news/OpenShot-4.1-Released",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7tozvdiclm",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7x53ho7z2a",
+  "https://games.slashdot.org/story/26/11/01/0431200/xbox-manager-ai-already-being-used-in-xbox-game-development---and-throughout-the-game-industry?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.engadget.com/2302431/brandon-stirrup-xbox-manager-says-ai-used-game-development/"
  ],
  "posted": {
-  "viral": 403,
-  "editorial": 525
+  "viral": 404,
+  "editorial": 528
  },
  "recent_labels": [
-  "TechSpot",
-  "The Next Web",
-  "Engadget",
-  "Engadget",
-  "TechRadar"
+  "TechRadar",
+  "Simon Willison RSS",
+  "Phoronix",
+  "404 Media",
+  "Slashdot"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5815,46 +5824,37 @@
    "source": "TechRadar",
    "score": 0.03865,
    "at": "2026-11-01T03:54:25.150716+00:00"
+  },
+  {
+   "title": "انتشار نسخه جدید افزونه datasette-llm با قابلیت تشخیص مدل پیش‌فرض",
+   "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+   "source": "Simon Willison RSS",
+   "score": 0.02371,
+   "at": "2026-11-01T04:54:33.923329+00:00"
+  },
+  {
+   "title": "انتشار نسخه جدید ویرایشگر ویدیوی OpenShot با قابلیت‌های تازه",
+   "url": "https://www.phoronix.com/news/OpenShot-4.1-Released",
+   "source": "Phoronix",
+   "score": 0.0265,
+   "at": "2026-11-01T04:55:04.794288+00:00"
+  },
+  {
+   "title": "اشتباه گرفتن هوش مصنوعی با پشتیبانی فنی متا و ارجاع کاربران به رسانه‌ها",
+   "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+   "source": "404media.co",
+   "score": 0.19253,
+   "at": "2026-11-01T04:56:22.414846+00:00"
+  },
+  {
+   "title": "استفاده گسترده از هوش مصنوعی در صنعت بازی‌سازی و واکنش‌ها به آن",
+   "url": "https://games.slashdot.org/story/26/11/01/0431200/xbox-manager-ai-already-being-used-in-xbox-game-development---and-throughout-the-game-industry?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.41396,
+   "at": "2026-11-01T04:56:59.530656+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "commission",
-    "down",
-    "election",
-    "federal",
-    "filing",
-    "midterms",
-    "system"
-   ],
-   "at": "2026-10-28T09:56:02.374955+00:00"
-  },
-  {
-   "sig": [
-    "catch",
-    "gemini",
-    "meetings",
-    "notebook",
-    "record",
-    "there"
-   ],
-   "at": "2026-10-28T09:56:08.543491+00:00"
-  },
-  {
-   "sig": [
-    "apps",
-    "microsoft",
-    "mobile",
-    "month",
-    "next",
-    "removing",
-    "server",
-    "sharepoint",
-    "support"
-   ],
-   "at": "2026-10-28T09:56:18.741484+00:00"
-  },
   {
    "sig": [
     "1.0",
@@ -9918,21 +9918,61 @@
     "truly"
    ],
    "at": "2026-11-01T03:54:25.150716+00:00"
+  },
+  {
+   "sig": [
+    "4.1",
+    "arm64",
+    "auto-optimize",
+    "automation",
+    "builds",
+    "cli",
+    "linux",
+    "openshot",
+    "released"
+   ],
+   "at": "2026-11-01T04:55:04.794288+00:00"
+  },
+  {
+   "sig": [
+    "because",
+    "big",
+    "chatgpt",
+    "contact",
+    "customer",
+    "essentially",
+    "experiencing",
+    "human",
+    "impossible",
+    "many",
+    "people",
+    "platforms",
+    "problems",
+    "run-of-the-mill",
+    "support",
+    "tech",
+    "told",
+    "turned",
+    "users",
+    "which"
+   ],
+   "at": "2026-11-01T04:56:22.414846+00:00"
+  },
+  {
+   "sig": [
+    "already",
+    "being",
+    "development",
+    "game",
+    "industry",
+    "manager",
+    "throughout",
+    "xbox"
+   ],
+   "at": "2026-11-01T04:56:59.530656+00:00"
   }
  ],
  "snapshots": {
-  "hn:50171966": [
-   124,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50170021": [
-   142,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50168357": [
-   293,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
   "lobsters:9h14un": [
    25,
    "2026-10-20T22:31:26.237453+00:00"
@@ -12318,8 +12358,20 @@
    "2026-11-01T02:53:44.055086+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7tozvdiclm": [
-   68,
-   "2026-11-01T03:53:39.974341+00:00"
+   101,
+   "2026-11-01T04:53:39.856454+00:00"
+  ],
+  "hn:50321130": [
+   123,
+   "2026-11-01T04:53:39.856454+00:00"
+  ],
+  "hn:50319110": [
+   82,
+   "2026-11-01T04:53:39.856454+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7x53ho7z2a": [
+   170,
+   "2026-11-01T04:53:39.856454+00:00"
   ]
  }
 }
