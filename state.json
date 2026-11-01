@@ -2158,18 +2158,27 @@
   "TheNextWeb=b708f85c768788e880f5e18596ff39ee",
   "https://9to5mac.com/?p=1076869",
   "https://yro.slashdot.org/story/26/10/31/0250246/college-students-are-pushing-colleges-to-de-flock?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/"
+  "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+  "hn:50324533",
+  "pqGUeS3JqdySdVQSdiffMX",
+  "hn:50326118",
+  "hn:50327058",
+  "xAK52oucTqhesTykiUBhsU",
+  "https://www.neowin.net/deals/save-60-on-easeus-data-recovery-wizard-which-includes-lifetime-upgrades/",
+  "https://www.neowin.net/news/microsoft-confirms-supported-windows-10-pcs-can-now-directly-update-to-windows-11-26h2/",
+  "https://www.engadget.com/2300621/nifty-ways-reuse-old-laptop/",
+  "https://www.engadget.com/2300298/reason-xbox-controller-uses-aa-batteries/"
  ],
  "posted": {
-  "viral": 413,
-  "editorial": 559
+  "viral": 414,
+  "editorial": 563
  },
  "recent_labels": [
+  "Hacker News",
+  "Tom's Hardware",
+  "Neowin",
   "Engadget",
-  "Hacker News",
-  "Hacker News",
-  "Slashdot",
-  "Simon Willison RSS"
+  "Engadget"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6211,64 +6220,44 @@
    "source": "Simon Willison RSS",
    "score": 0.31379,
    "at": "2026-11-01T16:54:11.715311+00:00"
+  },
+  {
+   "title": "جریمه ۷ میلیون یورویی Fnac Darty به دلیل ردیابی غیرقانونی کاربران",
+   "url": "https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million",
+   "source": "noyb.eu",
+   "score": 0.02042,
+   "at": "2026-11-01T17:54:51.561854+00:00"
+  },
+  {
+   "title": "قطع فیزیکی دوربین‌های نظارتی Flock توسط پلیس شهر پلیموث",
+   "url": "https://www.tomshardware.com/tech-industry/big-tech/police-chief-physically-unplugs-flock-cameras-after-the-company-ignores-contract-cancellation-city-takes-matters-into-its-own-hands-amid-privacy-controversies",
+   "source": "Tom's Hardware",
+   "score": 0.27413,
+   "at": "2026-11-01T17:54:57.660398+00:00"
+  },
+  {
+   "title": "امکان ارتقای مستقیم ویندوز ۱۰ به نسخه ۲۶H۲ ویندوز ۱۱",
+   "url": "https://www.neowin.net/news/microsoft-confirms-supported-windows-10-pcs-can-now-directly-update-to-windows-11-26h2/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.14704,
+   "at": "2026-11-01T17:55:23.275141+00:00"
+  },
+  {
+   "title": "روش‌های کاربردی برای استفاده دوباره از لپ‌تاپ‌های قدیمی",
+   "url": "https://www.engadget.com/2300621/nifty-ways-reuse-old-laptop/",
+   "source": "Engadget",
+   "score": 0.104,
+   "at": "2026-11-01T17:55:29.539597+00:00"
+  },
+  {
+   "title": "دلایل فنی و استراتژیک مایکروسافت برای استفاده از باتری قلمی در کنترلر Xbox",
+   "url": "https://www.engadget.com/2300298/reason-xbox-controller-uses-aa-batteries/",
+   "source": "Engadget",
+   "score": 0.12682,
+   "at": "2026-11-01T17:55:36.886678+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "art",
-    "engineering",
-    "loop"
-   ],
-   "at": "2026-10-28T18:26:44.686784+00:00"
-  },
-  {
-   "sig": [
-    "claude",
-    "enterprise",
-    "features",
-    "let",
-    "roi",
-    "these",
-    "track"
-   ],
-   "at": "2026-10-28T18:28:00.784509+00:00"
-  },
-  {
-   "sig": [
-    "account",
-    "campaign",
-    "censored",
-    "instagram",
-    "kings",
-    "meta",
-    "nationwide"
-   ],
-   "at": "2026-10-28T23:20:43.881472+00:00"
-  },
-  {
-   "sig": [
-    "considered",
-    "error",
-    "goto",
-    "handling",
-    "sick",
-    "totally"
-   ],
-   "at": "2026-10-28T23:21:01.524529+00:00"
-  },
-  {
-   "sig": [
-    "present",
-    "screen",
-    "sharing",
-    "show",
-    "slidebyside",
-    "slides",
-    "without"
-   ],
-   "at": "2026-10-28T23:21:08.383208+00:00"
-  },
   {
    "sig": [
     "bioweapons",
@@ -10261,17 +10250,69 @@
     "quoting"
    ],
    "at": "2026-11-01T16:54:11.715311+00:00"
+  },
+  {
+   "sig": [
+    "darty",
+    "electronics",
+    "fined",
+    "fnac",
+    "french",
+    "noyb",
+    "retailer",
+    "win"
+   ],
+   "at": "2026-11-01T17:54:51.561854+00:00"
+  },
+  {
+   "sig": [
+    "cameras",
+    "cancellation",
+    "chief",
+    "company",
+    "contract",
+    "flock",
+    "ignores",
+    "police",
+    "unplugs"
+   ],
+   "at": "2026-11-01T17:54:57.660398+00:00"
+  },
+  {
+   "sig": [
+    "26h2",
+    "confirms",
+    "directly",
+    "microsoft",
+    "pcs",
+    "supported",
+    "update",
+    "windows"
+   ],
+   "at": "2026-11-01T17:55:23.275141+00:00"
+  },
+  {
+   "sig": [
+    "laptop",
+    "nifty",
+    "old",
+    "reuse",
+    "ways"
+   ],
+   "at": "2026-11-01T17:55:29.539597+00:00"
+  },
+  {
+   "sig": [
+    "batteries",
+    "controller",
+    "reason",
+    "still",
+    "xbox"
+   ],
+   "at": "2026-11-01T17:55:36.886678+00:00"
   }
  ],
  "snapshots": {
-  "hn:50177916": [
-   1410,
-   "2026-10-21T19:29:26.444113+00:00"
-  ],
-  "hn:50177911": [
-   2032,
-   "2026-10-21T19:29:26.444113+00:00"
-  ],
   "hn:50180836": [
    729,
    "2026-10-21T19:29:26.444113+00:00"
@@ -12656,13 +12697,21 @@
    173,
    "2026-11-01T16:53:45.982767+00:00"
   ],
-  "hn:50326118": [
-   208,
-   "2026-11-01T16:53:45.982767+00:00"
-  ],
   "hn:50325454": [
    86,
    "2026-11-01T16:53:45.982767+00:00"
+  ],
+  "hn:50326118": [
+   346,
+   "2026-11-01T17:53:41.831928+00:00"
+  ],
+  "hn:50327058": [
+   72,
+   "2026-11-01T17:53:41.831928+00:00"
+  ],
+  "hn:50324533": [
+   65,
+   "2026-11-01T17:53:41.831928+00:00"
   ]
  }
 }
