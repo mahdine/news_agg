@@ -2167,18 +2167,25 @@
   "https://www.neowin.net/deals/save-60-on-easeus-data-recovery-wizard-which-includes-lifetime-upgrades/",
   "https://www.neowin.net/news/microsoft-confirms-supported-windows-10-pcs-can-now-directly-update-to-windows-11-26h2/",
   "https://www.engadget.com/2300621/nifty-ways-reuse-old-laptop/",
-  "https://www.engadget.com/2300298/reason-xbox-controller-uses-aa-batteries/"
+  "https://www.engadget.com/2300298/reason-xbox-controller-uses-aa-batteries/",
+  "https://news.slashdot.org/story/26/11/01/0211213/amid-ai-bans-microsoft-and-openai-plan-a-joyful-hour-of-ai-for-kids?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "TheNextWeb=ed6fd69191671d1b32188b907fe81399",
+  "hmBtRuVcUktD3Ao3BAnWfa",
+  "https://www.techspot.com/news/114399-fake-students-used-ai-attend-class-government-cost.html",
+  "hn:50327266",
+  "https://www.theverge.com/?p=1024219",
+  "https://tech.slashdot.org/story/26/10/31/0615204/which-tech-companies-started-using-trumps-phrase-super-intelligence?utm_source=rss1.0mainlinkanon&utm_medium=feed"
  ],
  "posted": {
-  "viral": 414,
-  "editorial": 563
+  "viral": 415,
+  "editorial": 567
  },
  "recent_labels": [
+  "Slashdot",
+  "TechSpot",
   "Hacker News",
-  "Tom's Hardware",
-  "Neowin",
-  "Engadget",
-  "Engadget"
+  "The Verge",
+  "Slashdot"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6255,56 +6262,44 @@
    "source": "Engadget",
    "score": 0.12682,
    "at": "2026-11-01T17:55:36.886678+00:00"
+  },
+  {
+   "title": "همکاری مایکروسافت و OpenAI برای آموزش هوش مصنوعی به دانش‌آموزان",
+   "url": "https://news.slashdot.org/story/26/11/01/0211213/amid-ai-bans-microsoft-and-openai-plan-a-joyful-hour-of-ai-for-kids?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.06269,
+   "at": "2026-11-01T17:59:21.570071+00:00"
+  },
+  {
+   "title": "شناسایی کلاهبرداری سازمان‌یافته با تحلیل داده‌های کمک‌هزینه تحصیلی",
+   "url": "https://www.techspot.com/news/114399-fake-students-used-ai-attend-class-government-cost.html",
+   "source": "TechSpot",
+   "score": 0.09483,
+   "at": "2026-11-01T17:59:30.546425+00:00"
+  },
+  {
+   "title": "احتمال نشت گسترده اطلاعات کاربران در شرکت هواپیمایی Frontier Airlines",
+   "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+   "source": "reddit.com",
+   "score": 0.06449,
+   "at": "2026-11-01T17:59:36.382953+00:00"
+  },
+  {
+   "title": "احتمال افزودن قابلیت دوربین امنیتی به هاب هوشمند Apple HomeView",
+   "url": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
+   "source": "The Verge",
+   "score": 0.04564,
+   "at": "2026-11-01T17:59:42.910194+00:00"
+  },
+  {
+   "title": "تغییر ادبیات شرکت‌های بزرگ تکنولوژی در پی دستور ترامپ برای استفاده از واژه Super Intelligence",
+   "url": "https://tech.slashdot.org/story/26/10/31/0615204/which-tech-companies-started-using-trumps-phrase-super-intelligence?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.04632,
+   "at": "2026-11-01T17:59:48.655922+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "bioweapons",
-    "creating",
-    "fingerprinting",
-    "script"
-   ],
-   "at": "2026-10-28T23:21:15.437439+00:00"
-  },
-  {
-   "sig": [
-    "asked",
-    "cagey",
-    "elections",
-    "google",
-    "won"
-   ],
-   "at": "2026-10-28T23:21:26.135134+00:00"
-  },
-  {
-   "sig": [
-    "0.10.0",
-    "hoot",
-    "released"
-   ],
-   "at": "2026-10-29T01:53:47.030131+00:00"
-  },
-  {
-   "sig": [
-    "data",
-    "dhs",
-    "employees",
-    "leak",
-    "releases",
-    "website"
-   ],
-   "at": "2026-10-29T01:53:56.824729+00:00"
-  },
-  {
-   "sig": [
-    "fewer",
-    "month",
-    "questions",
-    "stackoverflow"
-   ],
-   "at": "2026-10-29T01:54:03.822601+00:00"
-  },
   {
    "sig": [
     "attempted",
@@ -10310,13 +10305,73 @@
     "xbox"
    ],
    "at": "2026-11-01T17:55:36.886678+00:00"
+  },
+  {
+   "sig": [
+    "amid",
+    "bans",
+    "hour",
+    "joyful",
+    "kids",
+    "microsoft",
+    "openai",
+    "plan"
+   ],
+   "at": "2026-11-01T17:59:21.570071+00:00"
+  },
+  {
+   "sig": [
+    "aid",
+    "away",
+    "data",
+    "federal",
+    "gave",
+    "ghost",
+    "millions",
+    "patterns",
+    "stole",
+    "students",
+    "until"
+   ],
+   "at": "2026-11-01T17:59:30.546425+00:00"
+  },
+  {
+   "sig": [
+    "airlines",
+    "breached",
+    "frontier",
+    "likely"
+   ],
+   "at": "2026-11-01T17:59:36.382953+00:00"
+  },
+  {
+   "sig": [
+    "add",
+    "apple",
+    "camera",
+    "could",
+    "features",
+    "homeview",
+    "security"
+   ],
+   "at": "2026-11-01T17:59:42.910194+00:00"
+  },
+  {
+   "sig": [
+    "companies",
+    "intelligence",
+    "phrase",
+    "started",
+    "super",
+    "tech",
+    "trump",
+    "using",
+    "which"
+   ],
+   "at": "2026-11-01T17:59:48.655922+00:00"
   }
  ],
  "snapshots": {
-  "hn:50180836": [
-   729,
-   "2026-10-21T19:29:26.444113+00:00"
-  ],
   "hn:50178455": [
    441,
    "2026-10-21T19:29:26.444113+00:00"
@@ -12712,6 +12767,10 @@
   "hn:50324533": [
    65,
    "2026-11-01T17:53:41.831928+00:00"
+  ],
+  "hn:50327266": [
+   75,
+   "2026-11-01T17:59:20.012582+00:00"
   ]
  }
 }
