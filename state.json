@@ -2106,18 +2106,25 @@
   "56855ac872455f8d23ff8b9c139f8226",
   "XZvVDuMVDmEUUjj9raLbLg",
   "NSF7csDmjCVPgmFWPpeVZF",
-  "https://yro.slashdot.org/story/26/10/31/2356208/americas-clocks-are-still-falling-back-tonight-despite-trumps-daylight-saving-push?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://yro.slashdot.org/story/26/10/31/2356208/americas-clocks-are-still-falling-back-tonight-despite-trumps-daylight-saving-push?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50320599",
+  "lobsters:lt44rt",
+  "6843b8b096ebf6a12c58642d18d2c089",
+  "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+  "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "3822ad5841c50d142cc69e1b273974b4",
+  "3228651"
  ],
  "posted": {
-  "viral": 407,
-  "editorial": 534
+  "viral": 409,
+  "editorial": 537
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
+  "Lobsters",
+  "The Hacker News",
   "InfoQ",
-  "TechRadar",
-  "TechRadar"
+  "vc.ru"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5942,86 +5949,44 @@
    "source": "TechRadar",
    "score": 0.11511,
    "at": "2026-11-01T07:54:15.617800+00:00"
+  },
+  {
+   "title": "تأثیر واترمارک‌گذاری بر کیفیت و تنوع خروجی مدل‌های هوش مصنوعی",
+   "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+   "source": "blog.keyvan.net",
+   "score": 0.01116,
+   "at": "2026-11-01T08:53:52.328184+00:00"
+  },
+  {
+   "title": "معرفی Kwi به عنوان شبیه‌ساز ترمینال جدید برای محیط KDE Plasma",
+   "url": "https://blogs.kde.org/2026/11/01/introducing-kwi/",
+   "source": "blogs.kde.org",
+   "score": 0.07479,
+   "at": "2026-11-01T08:53:59.942607+00:00"
+  },
+  {
+   "title": "حمله بدافزار NetamLoader به نسخه‌های اختصاصی ویندوز ۱۰ در سازمان‌های دولتی آسیا",
+   "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+   "source": "The Hacker News",
+   "score": 0.10361,
+   "at": "2026-11-01T08:54:17.774919+00:00"
+  },
+  {
+   "title": "اشباع ظرفیت‌های ابری AWS تا سال ۲۰۲۷",
+   "url": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.08168,
+   "at": "2026-11-01T08:54:32.641721+00:00"
+  },
+  {
+   "title": "همکاری Meta و Fourier برای ساخت ربات انسان‌نمای Max",
+   "url": "https://vc.ru/tech/3228651-meta-i-kitayskiy-startap-fourier-robot?from=rss",
+   "source": "vc.ru",
+   "score": 0.03315,
+   "at": "2026-11-01T08:54:58.469868+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "app",
-    "journal",
-    "launched",
-    "meta",
-    "pet",
-    "quietly",
-    "tamagotchi-like",
-    "waddle",
-    "world"
-   ],
-   "at": "2026-10-28T11:53:49.536977+00:00"
-  },
-  {
-   "sig": [
-    "dark",
-    "detailed",
-    "edge",
-    "force",
-    "identifying",
-    "keep",
-    "leveraging",
-    "microsoft",
-    "patterns",
-    "people",
-    "report",
-    "slams",
-    "tricks",
-    "users"
-   ],
-   "at": "2026-10-28T11:53:55.334091+00:00"
-  },
-  {
-   "sig": [
-    "academics",
-    "considered",
-    "haidt",
-    "jonathan",
-    "meta",
-    "strategy",
-    "turn",
-    "whisper"
-   ],
-   "at": "2026-10-28T11:54:01.781207+00:00"
-  },
-  {
-   "sig": [
-    "china",
-    "customer",
-    "cyberattack",
-    "data",
-    "discloses",
-    "nexus",
-    "reg",
-    "suspects"
-   ],
-   "at": "2026-10-28T11:54:08.408367+00:00"
-  },
-  {
-   "sig": [
-    "advice",
-    "alleging",
-    "chatgpt",
-    "coached",
-    "cut",
-    "daughter",
-    "drug",
-    "gpt-4o",
-    "medication",
-    "openai",
-    "parents",
-    "seizure",
-    "sue"
-   ],
-   "at": "2026-10-28T11:54:14.660708+00:00"
-  },
   {
    "sig": [
     "age",
@@ -10073,17 +10038,64 @@
     "worried"
    ],
    "at": "2026-11-01T07:54:15.617800+00:00"
+  },
+  {
+   "sig": [
+    "loss",
+    "quality",
+    "text",
+    "watermarking"
+   ],
+   "at": "2026-11-01T08:53:52.328184+00:00"
+  },
+  {
+   "sig": [
+    "emulator",
+    "introducing",
+    "kde",
+    "kwi",
+    "terminal"
+   ],
+   "at": "2026-11-01T08:53:59.942607+00:00"
+  },
+  {
+   "sig": [
+    "asia",
+    "government",
+    "injection",
+    "malware",
+    "net",
+    "netamloader",
+    "systems",
+    "targets",
+    "via",
+    "windows"
+   ],
+   "at": "2026-11-01T08:54:17.774919+00:00"
+  },
+  {
+   "sig": [
+    "aws",
+    "capacity",
+    "demand",
+    "headroom",
+    "largely",
+    "reserved",
+    "sold",
+    "through"
+   ],
+   "at": "2026-11-01T08:54:32.641721+00:00"
+  },
+  {
+   "sig": [
+    "fourier",
+    "information",
+    "meta"
+   ],
+   "at": "2026-11-01T08:54:58.469868+00:00"
   }
  ],
  "snapshots": {
-  "hn:50176077": [
-   294,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
-  "hn:50175510": [
-   116,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
   "hn:50175185": [
    205,
    "2026-10-21T10:25:34.232312+00:00"
@@ -12475,6 +12487,14 @@
   "hn:50322022": [
    104,
    "2026-11-01T06:53:43.177729+00:00"
+  ],
+  "hn:50320599": [
+   68,
+   "2026-11-01T08:53:45.458473+00:00"
+  ],
+  "lobsters:lt44rt": [
+   28,
+   "2026-11-01T08:53:45.458473+00:00"
   ]
  }
 }
