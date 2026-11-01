@@ -2134,18 +2134,27 @@
   "https://www.androidpolice.com/i-gave-gemini-cluttered-mac-downloads-folder-sorted-files-i-search/",
   "baa596d4b7cad0cee65e2e8331430df4",
   "https://www.techspot.com/news/114396-europe-canada-team-up-ai-computing-alliance-doesnt.html",
-  "https://www.theregister.com/a/5306727"
+  "https://www.theregister.com/a/5306727",
+  "hn:50324118",
+  "6ae505d521bfda08f54b3e83",
+  "6ae4bb2befa3d2dc0cf68d76",
+  "https://9to5mac.com/?p=1076719",
+  "6ad7ae04a2fe7a32ff22213c",
+  "rYhREWFvJeih7rUtEyTk7V",
+  "TheNextWeb=795ad40839eecf2bc05dbc4c7b6d1c25",
+  "663369f7f554f4ca4bded921",
+  "CDwEQQdy3XFNBgtknNG9Dg"
  ],
  "posted": {
   "viral": 411,
-  "editorial": 549
+  "editorial": 552
  },
  "recent_labels": [
-  "Phoronix",
-  "SecurityWeek",
-  "Android Police",
   "TechSpot",
-  "The Register"
+  "The Register",
+  "Wired",
+  "Wired",
+  "The Next Web"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6103,50 +6112,30 @@
    "source": "The Register",
    "score": 0.27793,
    "at": "2026-11-01T11:56:49.716489+00:00"
+  },
+  {
+   "title": "اپلیکیشن عکاسی Chromagraph با الگوریتم‌های سینمایی برای آیفون",
+   "url": "https://www.wired.com/story/the-hollywood-color-nerd-who-shot-knives-out-explains-his-viral-iphone-camera-app/",
+   "source": "Wired",
+   "score": 0.28226,
+   "at": "2026-11-01T12:53:51.989599+00:00"
+  },
+  {
+   "title": "قابلیت‌های ویرایش ویدیو در سرویس Google Vids برای کاربران عمومی",
+   "url": "https://www.wired.com/story/google-vids-free-video-editor-inside-google-drive/",
+   "source": "Wired",
+   "score": 0.16304,
+   "at": "2026-11-01T12:53:57.894560+00:00"
+  },
+  {
+   "title": "مذاکره گوگل برای همکاری در پروژه دفاعی Golden Dome آمریکا",
+   "url": "https://thenextweb.com/news/google-golden-dome-pentagon-data-security-talks",
+   "source": "The Next Web",
+   "score": 0.12741,
+   "at": "2026-11-01T12:54:05.456558+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "able",
-    "around",
-    "meta",
-    "might",
-    "object",
-    "pod",
-    "scraping",
-    "terms",
-    "web",
-    "week"
-   ],
-   "at": "2026-10-28T15:54:52.134903+00:00"
-  },
-  {
-   "sig": [
-    "38.19",
-    "data",
-    "doge",
-    "effector",
-    "fighting",
-    "grab"
-   ],
-   "at": "2026-10-28T15:56:40.867334+00:00"
-  },
-  {
-   "sig": [
-    "capacity",
-    "china",
-    "component",
-    "force",
-    "hikes",
-    "largest",
-    "makers",
-    "manufacturing",
-    "return",
-    "world"
-   ],
-   "at": "2026-10-28T15:57:02.645783+00:00"
-  },
   {
    "sig": [
     "cyberattacks",
@@ -10175,13 +10164,56 @@
     "mother"
    ],
    "at": "2026-11-01T11:56:49.716489+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "camera",
+    "color",
+    "director",
+    "explains",
+    "hollywood",
+    "iphone",
+    "knives",
+    "launches",
+    "like",
+    "movies",
+    "nerd",
+    "shoots",
+    "shot",
+    "viral"
+   ],
+   "at": "2026-11-01T12:53:51.989599+00:00"
+  },
+  {
+   "sig": [
+    "anyone",
+    "drive",
+    "editor",
+    "free",
+    "google",
+    "inside",
+    "there",
+    "video"
+   ],
+   "at": "2026-11-01T12:53:57.894560+00:00"
+  },
+  {
+   "sig": [
+    "bloomberg",
+    "dome",
+    "golden",
+    "google",
+    "join",
+    "programme",
+    "reports",
+    "talks",
+    "trump"
+   ],
+   "at": "2026-11-01T12:54:05.456558+00:00"
   }
  ],
  "snapshots": {
-  "hn:50173891": [
-   497,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
   "hn:50173547": [
    87,
    "2026-10-21T10:25:34.232312+00:00"
@@ -12577,6 +12609,10 @@
   "hn:50324388": [
    220,
    "2026-11-01T11:55:56.959833+00:00"
+  ],
+  "hn:50324118": [
+   104,
+   "2026-11-01T12:53:47.822489+00:00"
   ]
  }
 }
