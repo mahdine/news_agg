@@ -2079,18 +2079,26 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7tozvdiclm",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7x53ho7z2a",
   "https://games.slashdot.org/story/26/11/01/0431200/xbox-manager-ai-already-being-used-in-xbox-game-development---and-throughout-the-game-industry?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://www.engadget.com/2302431/brandon-stirrup-xbox-manager-says-ai-used-game-development/"
+  "https://www.engadget.com/2302431/brandon-stirrup-xbox-manager-says-ai-used-game-development/",
+  "https://techcrunch.com/?p=3184013",
+  "hn:50320588",
+  "https://www.engadget.com/2300249/netflix-download-speeds-offline-tricks-wish-knew-sooner/",
+  "TheNextWeb=2d9ef67c6236f1e7685eda889f0ca66f",
+  "TheNextWeb=185461e5418a5231d99e7dbf314aa1dd",
+  "https://www.engadget.com/2300248/reason-most-electrical-plug-prongs-have-holes/",
+  "https://www.engadget.com/2300238/slate-vs-ford-fathom-android-auto-carplay-support/",
+  "hn:50322173"
  ],
  "posted": {
-  "viral": 404,
-  "editorial": 528
+  "viral": 406,
+  "editorial": 531
  },
  "recent_labels": [
-  "TechRadar",
-  "Simon Willison RSS",
-  "Phoronix",
-  "404 Media",
-  "Slashdot"
+  "TechCrunch AI",
+  "Hacker News",
+  "The Next Web",
+  "The Next Web",
+  "Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5852,67 +5860,44 @@
    "source": "Slashdot",
    "score": 0.41396,
    "at": "2026-11-01T04:56:59.530656+00:00"
+  },
+  {
+   "title": "ادامه‌ی روند قضایی شکایت علیه مرکز داده‌ی Colossus شرکت xAI",
+   "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+   "source": "TechCrunch AI",
+   "score": 0.0148,
+   "at": "2026-11-01T05:54:44.137655+00:00"
+  },
+  {
+   "title": "تغییر در محدودیت‌های استفاده از ChatGPT و مدل Codex",
+   "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+   "source": "help.openai.com",
+   "score": 0.05942,
+   "at": "2026-11-01T05:55:05.124169+00:00"
+  },
+  {
+   "title": "تمرکز آمازون بر توسعه Alexa for Shopping به عنوان دستیار اصلی خرید",
+   "url": "https://thenextweb.com/news/alexa-for-shopping-jassy-ai-shopping-agents-meta-muse",
+   "source": "The Next Web",
+   "score": 0.01316,
+   "at": "2026-11-01T05:55:23.943354+00:00"
+  },
+  {
+   "title": "سرمایه‌گذاری سنگین شرکت‌های بزرگ در هوش مصنوعی و کاهش بازخرید سهام",
+   "url": "https://thenextweb.com/news/big-tech-buybacks-fall-ai-spending-reuters",
+   "source": "The Next Web",
+   "score": 0.01346,
+   "at": "2026-11-01T05:55:38.206020+00:00"
+  },
+  {
+   "title": "جریمه وکلای برزیلی به دلیل استفاده از حمله Prompt Injection در دادگاه",
+   "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+   "source": "jetstream.security",
+   "score": 0.19128,
+   "at": "2026-11-01T05:55:46.009703+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "1.0",
-    "atop",
-    "btrfs",
-    "moxnox",
-    "nt-like",
-    "posix-compatible",
-    "running"
-   ],
-   "at": "2026-10-28T10:54:35.059714+00:00"
-  },
-  {
-   "sig": [
-    "quoting",
-    "terk",
-    "terkowitz"
-   ],
-   "at": "2026-10-28T10:54:44.718620+00:00"
-  },
-  {
-   "sig": [
-    "assistant",
-    "killed",
-    "later",
-    "macmillan",
-    "party",
-    "publisher",
-    "staff",
-    "threw",
-    "workplace"
-   ],
-   "at": "2026-10-28T10:54:52.044154+00:00"
-  },
-  {
-   "sig": [
-    "decommissioned",
-    "ebay",
-    "gpus",
-    "lists",
-    "massive",
-    "million",
-    "racks",
-    "supercomputer",
-    "vendor"
-   ],
-   "at": "2026-10-28T10:55:16.462694+00:00"
-  },
-  {
-   "sig": [
-    "dinner",
-    "pornhub",
-    "stars",
-    "teach",
-    "want"
-   ],
-   "at": "2026-10-28T10:55:27.823628+00:00"
-  },
   {
    "sig": [
     "control",
@@ -9970,17 +9955,73 @@
     "xbox"
    ],
    "at": "2026-11-01T04:56:59.530656+00:00"
+  },
+  {
+   "sig": [
+    "allows",
+    "center",
+    "data",
+    "forward",
+    "judge",
+    "lawsuit",
+    "move",
+    "naacp",
+    "pollution",
+    "xai"
+   ],
+   "at": "2026-11-01T05:54:44.137655+00:00"
+  },
+  {
+   "sig": [
+    "chatgpt",
+    "codex",
+    "limits",
+    "merging",
+    "usage"
+   ],
+   "at": "2026-11-01T05:55:05.124169+00:00"
+  },
+  {
+   "sig": [
+    "alexa",
+    "amazon",
+    "muse",
+    "people",
+    "shop",
+    "shopping",
+    "store",
+    "wants"
+   ],
+   "at": "2026-11-01T05:55:23.943354+00:00"
+  },
+  {
+   "sig": [
+    "big",
+    "buybacks",
+    "cash",
+    "eats",
+    "fall",
+    "reports",
+    "reuters",
+    "spending",
+    "tech"
+   ],
+   "at": "2026-11-01T05:55:38.206020+00:00"
+  },
+  {
+   "sig": [
+    "brazilian",
+    "court",
+    "filing",
+    "injection",
+    "lawyers",
+    "prompt",
+    "sanctions"
+   ],
+   "at": "2026-11-01T05:55:46.009703+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:9h14un": [
-   25,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mydffvspjs2x": [
-   233,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myd574ae7m2o": [
    20,
    "2026-10-20T22:31:26.237453+00:00"
@@ -12372,6 +12413,14 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7x53ho7z2a": [
    170,
    "2026-11-01T04:53:39.856454+00:00"
+  ],
+  "hn:50322173": [
+   98,
+   "2026-11-01T05:54:16.136032+00:00"
+  ],
+  "hn:50320588": [
+   98,
+   "2026-11-01T05:54:16.136032+00:00"
   ]
  }
 }
