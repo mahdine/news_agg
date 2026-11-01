@@ -2119,18 +2119,25 @@
   "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
   "b819b3a481e04d5d7be0b7bcd8b8837e",
   "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-  "https://www.theregister.com/a/5306673"
+  "https://www.theregister.com/a/5306673",
+  "hn:50321462",
+  "69e2b832dde1a21de922217d",
+  "6ae377e17dd0104326133a38",
+  "https://www.phoronix.com/news/Linux-7.4-Merge-Window",
+  "6ae100238620da29e32c576d",
+  "6abd503baa33d1078558869a",
+  "https://www.phoronix.com/news/Linux-7.4-Perf-Tools"
  ],
  "posted": {
-  "viral": 410,
-  "editorial": 541
+  "viral": 411,
+  "editorial": 545
  },
  "recent_labels": [
-  "The Next Web",
   "Hacker News",
-  "The Hacker News",
-  "The Hacker News",
-  "The Register"
+  "Wired",
+  "Phoronix",
+  "Wired",
+  "Phoronix"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6025,83 +6032,44 @@
    "source": "The Register",
    "score": 0.16014,
    "at": "2026-11-01T09:54:12.449837+00:00"
+  },
+  {
+   "title": "کارزار تخریب علیه سیستم‌عامل GrapheneOS",
+   "url": "https://grapheneos.social/@GrapheneOS/117537776055163844",
+   "source": "grapheneos.social",
+   "score": 0.0209,
+   "at": "2026-11-01T10:53:40.961228+00:00"
+  },
+  {
+   "title": "بررسی بهترین لپ‌تاپ‌های کروم‌بوک در سال ۲۰۲۶",
+   "url": "https://www.wired.com/story/best-chromebooks/",
+   "source": "Wired",
+   "score": 0.1633,
+   "at": "2026-11-01T10:53:46.997263+00:00"
+  },
+  {
+   "title": "رشد بی‌سابقه کدهای هسته لینوکس در پنجره ادغام نسخه ۷.۴",
+   "url": "https://www.phoronix.com/news/Linux-7.4-Merge-Window",
+   "source": "Phoronix",
+   "score": 0.19864,
+   "at": "2026-11-01T10:53:54.052833+00:00"
+  },
+  {
+   "title": "خطرات اعتماد به هوش مصنوعی در برنامه‌ریزی برای کوهنوردی و طبیعت‌گردی",
+   "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
+   "source": "Wired",
+   "score": 0.22975,
+   "at": "2026-11-01T10:53:59.645587+00:00"
+  },
+  {
+   "title": "بهبود عملکرد ابزارهای تحلیل کارایی در هسته لینوکس ۷.۴",
+   "url": "https://www.phoronix.com/news/Linux-7.4-Perf-Tools",
+   "source": "Phoronix",
+   "score": 0.22751,
+   "at": "2026-11-01T10:54:06.578531+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anti-left",
-    "history",
-    "ice",
-    "largest",
-    "ops",
-    "running",
-    "surveillance"
-   ],
-   "at": "2026-10-28T13:54:10.487910+00:00"
-  },
-  {
-   "sig": [
-    "5000-series",
-    "chip",
-    "chips",
-    "closed",
-    "denies",
-    "down",
-    "due",
-    "factory",
-    "galax",
-    "gpu",
-    "nvidia",
-    "palit",
-    "rtx",
-    "shortage",
-    "shortages",
-    "shutting",
-    "vendor"
-   ],
-   "at": "2026-10-28T13:55:21.955050+00:00"
-  },
-  {
-   "sig": [
-    "chrome",
-    "firefox",
-    "patch",
-    "updates",
-    "vulnerabilities"
-   ],
-   "at": "2026-10-28T13:56:38.111572+00:00"
-  },
-  {
-   "sig": [
-    "500m",
-    "built",
-    "harvey",
-    "legal",
-    "open",
-    "raised",
-    "same",
-    "sourced"
-   ],
-   "at": "2026-10-28T14:56:14.594713+00:00"
-  },
-  {
-   "sig": [
-    "allow",
-    "certain",
-    "data",
-    "information",
-    "light",
-    "meta",
-    "object",
-    "option",
-    "people",
-    "scrape",
-    "terms",
-    "users"
-   ],
-   "at": "2026-10-28T14:56:35.001580+00:00"
-  },
   {
    "sig": [
     "buying",
@@ -10117,13 +10085,70 @@
     "switch"
    ],
    "at": "2026-11-01T09:54:12.449837+00:00"
+  },
+  {
+   "sig": [
+    "campaign",
+    "grapheneos",
+    "smear",
+    "towards"
+   ],
+   "at": "2026-11-01T10:53:40.961228+00:00"
+  },
+  {
+   "sig": [
+    "best",
+    "chromebooks",
+    "google",
+    "googlebooks",
+    "laptops",
+    "touch"
+   ],
+   "at": "2026-11-01T10:53:46.997263+00:00"
+  },
+  {
+   "sig": [
+    "20k",
+    "7.4",
+    "approaching",
+    "commits",
+    "lines",
+    "linux",
+    "merge",
+    "million",
+    "nearly",
+    "saw",
+    "source",
+    "tree",
+    "window"
+   ],
+   "at": "2026-11-01T10:53:54.052833+00:00"
+  },
+  {
+   "sig": [
+    "astray",
+    "chatbots",
+    "consequences",
+    "dangerous",
+    "hikers",
+    "leading"
+   ],
+   "at": "2026-11-01T10:53:59.645587+00:00"
+  },
+  {
+   "sig": [
+    "7.4",
+    "faster",
+    "linux",
+    "perf",
+    "python",
+    "robust",
+    "scripts"
+   ],
+   "at": "2026-11-01T10:54:06.578531+00:00"
   }
  ],
  "snapshots": {
-  "hn:50174687": [
-   352,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
   "hn:50173907": [
    68,
    "2026-10-21T10:25:34.232312+00:00"
@@ -12519,6 +12544,10 @@
   "hn:50323088": [
    132,
    "2026-11-01T09:53:43.691533+00:00"
+  ],
+  "hn:50321462": [
+   71,
+   "2026-11-01T10:53:38.733796+00:00"
   ]
  }
 }
