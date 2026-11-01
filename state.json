@@ -2150,18 +2150,26 @@
   "dW4RYtyCGt5E6nmd6qJ4KN",
   "Ek4r3jt56uATcdLLPiRxXc",
   "https://www.engadget.com/2302442/spotify-settings-worth-changing/",
-  "https://www.engadget.com/2300281/hardware-accelerated-gpu-scheduling-not-best-fit-cheap-gpu-reason/"
+  "https://www.engadget.com/2300281/hardware-accelerated-gpu-scheduling-not-best-fit-cheap-gpu-reason/",
+  "hn:50325454",
+  "hn:50326821",
+  "https://9to5mac.com/?p=1076615",
+  "https://www.theverge.com/?p=1024206",
+  "TheNextWeb=b708f85c768788e880f5e18596ff39ee",
+  "https://9to5mac.com/?p=1076869",
+  "https://yro.slashdot.org/story/26/10/31/0250246/college-students-are-pushing-colleges-to-de-flock?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/"
  ],
  "posted": {
-  "viral": 411,
-  "editorial": 557
+  "viral": 413,
+  "editorial": 559
  },
  "recent_labels": [
-  "Tom's Hardware",
   "Engadget",
-  "Tom's Hardware",
-  "Tom's Hardware",
-  "Engadget"
+  "Hacker News",
+  "Hacker News",
+  "Slashdot",
+  "Simon Willison RSS"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6175,79 +6183,37 @@
    "source": "Engadget",
    "score": 0.15802,
    "at": "2026-11-01T15:54:11.639473+00:00"
+  },
+  {
+   "title": "اثبات فرضیه بازنمایی افلاطونی با استفاده از معماری‌های JEPA",
+   "url": "https://arxiv.org/abs/2610.39302",
+   "source": "arxiv.org",
+   "score": 0.16144,
+   "at": "2026-11-01T16:53:48.801823+00:00"
+  },
+  {
+   "title": "پلتفرم HackerBooks برای دسترسی به کتاب‌های پیشنهادی در Hacker News",
+   "url": "https://hackerbooks.org",
+   "source": "hackerbooks.org",
+   "score": 0.17389,
+   "at": "2026-11-01T16:53:55.990962+00:00"
+  },
+  {
+   "title": "دانشجویان آمریکایی خواهان جمع‌آوری دوربین‌های پلاک‌خوان از محیط دانشگاه‌ها هستند",
+   "url": "https://yro.slashdot.org/story/26/10/31/0250246/college-students-are-pushing-colleges-to-de-flock?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.19876,
+   "at": "2026-11-01T16:54:05.484642+00:00"
+  },
+  {
+   "title": "چالش اعتماد به مستندات و نرم‌افزارها در عصر هوش مصنوعی",
+   "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+   "source": "Simon Willison RSS",
+   "score": 0.31379,
+   "at": "2026-11-01T16:54:11.715311+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "all-new",
-    "announces",
-    "apple",
-    "display",
-    "event",
-    "first",
-    "here",
-    "live",
-    "mac",
-    "macbook",
-    "max",
-    "oled",
-    "pounds",
-    "pro",
-    "proled",
-    "redesigned",
-    "three",
-    "touch",
-    "touchscreen",
-    "weighs",
-    "works",
-    "xdr"
-   ],
-   "at": "2026-10-28T17:55:36.209441+00:00"
-  },
-  {
-   "sig": [
-    "archive.today",
-    "forward",
-    "going",
-    "links"
-   ],
-   "at": "2026-10-28T18:24:35.577379+00:00"
-  },
-  {
-   "sig": [
-    "amazon",
-    "devs",
-    "engineers",
-    "look",
-    "productive",
-    "roll",
-    "slow",
-    "stop",
-    "tells",
-    "tokenmaxxing"
-   ],
-   "at": "2026-10-28T18:24:44.575917+00:00"
-  },
-  {
-   "sig": [
-    "allow",
-    "android",
-    "app",
-    "approved",
-    "begins",
-    "certifying",
-    "google",
-    "installs",
-    "one-tap",
-    "outside",
-    "registered",
-    "stores",
-    "third-party",
-    "u.s"
-   ],
-   "at": "2026-10-28T18:25:51.904109+00:00"
-  },
   {
    "sig": [
     "art",
@@ -10256,21 +10222,48 @@
     "simple"
    ],
    "at": "2026-11-01T15:54:11.639473+00:00"
+  },
+  {
+   "sig": [
+    "hypothesis",
+    "improving",
+    "jepas",
+    "platonic",
+    "proving",
+    "representation"
+   ],
+   "at": "2026-11-01T16:53:48.801823+00:00"
+  },
+  {
+   "sig": [
+    "books",
+    "hackerbooks",
+    "hackertube",
+    "recommended",
+    "show"
+   ],
+   "at": "2026-11-01T16:53:55.990962+00:00"
+  },
+  {
+   "sig": [
+    "college",
+    "colleges",
+    "de-flock",
+    "pushing",
+    "students"
+   ],
+   "at": "2026-11-01T16:54:05.484642+00:00"
+  },
+  {
+   "sig": [
+    "kingsbury",
+    "kyle",
+    "quoting"
+   ],
+   "at": "2026-11-01T16:54:11.715311+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mydqnuqwx224": [
-   57,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
-  "hn:50175882": [
-   153,
-   "2026-10-21T15:28:23.287536+00:00"
-  ],
-  "hn:50175779": [
-   247,
-   "2026-10-21T15:28:23.287536+00:00"
-  ],
   "hn:50177916": [
    1410,
    "2026-10-21T19:29:26.444113+00:00"
@@ -12658,6 +12651,18 @@
   "hn:50326099": [
    119,
    "2026-11-01T15:53:45.748403+00:00"
+  ],
+  "hn:50326821": [
+   173,
+   "2026-11-01T16:53:45.982767+00:00"
+  ],
+  "hn:50326118": [
+   208,
+   "2026-11-01T16:53:45.982767+00:00"
+  ],
+  "hn:50325454": [
+   86,
+   "2026-11-01T16:53:45.982767+00:00"
   ]
  }
 }
