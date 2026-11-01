@@ -2174,18 +2174,26 @@
   "https://www.techspot.com/news/114399-fake-students-used-ai-attend-class-government-cost.html",
   "hn:50327266",
   "https://www.theverge.com/?p=1024219",
-  "https://tech.slashdot.org/story/26/10/31/0615204/which-tech-companies-started-using-trumps-phrase-super-intelligence?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://tech.slashdot.org/story/26/10/31/0615204/which-tech-companies-started-using-trumps-phrase-super-intelligence?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "lobsters:s2qeww",
+  "hn:50327650",
+  "lobsters:bzazar",
+  "hn:50328251",
+  "hn:50328487",
+  "hn:50328488",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzbmrvrsi32s",
+  "hn:50330005"
  ],
  "posted": {
-  "viral": 415,
+  "viral": 418,
   "editorial": 567
  },
  "recent_labels": [
-  "Slashdot",
-  "TechSpot",
-  "Hacker News",
   "The Verge",
-  "Slashdot"
+  "Slashdot",
+  "Lobsters",
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6297,40 +6305,30 @@
    "source": "Slashdot",
    "score": 0.04632,
    "at": "2026-11-01T17:59:48.655922+00:00"
+  },
+  {
+   "title": "نگاهی به مفاهیم و مزایای الگوریتم تحلیلگر Pratt در کامپایلرها",
+   "url": "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/",
+   "source": "vinipsmaker.github.io",
+   "score": 0.11362,
+   "at": "2026-11-01T22:14:10.530352+00:00"
+  },
+  {
+   "title": "فشار مدیرعامل Proton برای استفاده از هوش مصنوعی و تضعیف امنیت",
+   "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+   "source": "blog.raed.dev",
+   "score": 0.03095,
+   "at": "2026-11-01T22:15:41.679985+00:00"
+  },
+  {
+   "title": "افشای فایل صوتی مدیرعامل Flock درباره اعتراضات به پلاک‌خوان‌ها",
+   "url": "https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/",
+   "source": "404media.co",
+   "score": 0.09741,
+   "at": "2026-11-01T22:15:57.478296+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "attempted",
-    "cve-2026-97229",
-    "exploitation",
-    "gitlab",
-    "incident",
-    "security"
-   ],
-   "at": "2026-10-29T01:54:10.844092+00:00"
-  },
-  {
-   "sig": [
-    "cpu",
-    "deterministic",
-    "functioning",
-    "inside",
-    "qwen3.5",
-    "qwenputer",
-    "risc-v"
-   ],
-   "at": "2026-10-29T01:54:18.389837+00:00"
-  },
-  {
-   "sig": [
-    "feat",
-    "lobste.rs",
-    "pair-coding"
-   ],
-   "at": "2026-10-29T02:53:43.835796+00:00"
-  },
   {
    "sig": [
     "anthropic",
@@ -10369,45 +10367,57 @@
     "which"
    ],
    "at": "2026-11-01T17:59:48.655922+00:00"
+  },
+  {
+   "sig": [
+    "black",
+    "box",
+    "parsing",
+    "pratt"
+   ],
+   "at": "2026-11-01T22:14:10.530352+00:00"
+  },
+  {
+   "sig": [
+    "charge",
+    "flipped",
+    "proton",
+    "wasn"
+   ],
+   "at": "2026-11-01T22:15:41.679985+00:00"
+  },
+  {
+   "sig": [
+    "activity",
+    "added",
+    "bot",
+    "centers",
+    "crazy",
+    "data",
+    "disproven",
+    "getting",
+    "had",
+    "here",
+    "impact",
+    "in-leaked-au",
+    "internet",
+    "listen",
+    "paid",
+    "people",
+    "repeating",
+    "russian",
+    "significant",
+    "strikes",
+    "theory",
+    "these",
+    "things",
+    "ukraine",
+    "www.404media.co"
+   ],
+   "at": "2026-11-01T22:15:57.478296+00:00"
   }
  ],
  "snapshots": {
-  "hn:50178455": [
-   441,
-   "2026-10-21T19:29:26.444113+00:00"
-  ],
-  "lobsters:mfserj": [
-   60,
-   "2026-10-21T19:29:26.444113+00:00"
-  ],
-  "hn:50182987": [
-   697,
-   "2026-10-21T19:29:26.444113+00:00"
-  ],
-  "lobsters:tsfina": [
-   26,
-   "2026-10-21T19:29:26.444113+00:00"
-  ],
-  "hn:50181175": [
-   488,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50181137": [
-   1409,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50181136": [
-   419,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50180943": [
-   280,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50180444": [
-   403,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "hn:50179828": [
    452,
    "2026-10-21T22:37:13.768401+00:00"
@@ -12771,6 +12781,42 @@
   "hn:50327266": [
    75,
    "2026-11-01T17:59:20.012582+00:00"
+  ],
+  "hn:50330005": [
+   150,
+   "2026-11-01T22:12:27.869784+00:00"
+  ],
+  "hn:50328488": [
+   279,
+   "2026-11-01T22:12:27.869784+00:00"
+  ],
+  "hn:50328487": [
+   416,
+   "2026-11-01T22:12:27.869784+00:00"
+  ],
+  "hn:50328251": [
+   493,
+   "2026-11-01T22:12:27.869784+00:00"
+  ],
+  "hn:50327650": [
+   717,
+   "2026-11-01T22:12:27.869784+00:00"
+  ],
+  "hn:50325253": [
+   171,
+   "2026-11-01T22:12:27.869784+00:00"
+  ],
+  "lobsters:s2qeww": [
+   40,
+   "2026-11-01T22:12:27.869784+00:00"
+  ],
+  "lobsters:bzazar": [
+   34,
+   "2026-11-01T22:12:27.869784+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzbmrvrsi32s": [
+   223,
+   "2026-11-01T22:12:27.869784+00:00"
   ]
  }
 }
