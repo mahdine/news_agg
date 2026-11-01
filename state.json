@@ -2052,18 +2052,25 @@
   "hn:50320963",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7ep3337s2s",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7kanlblklm",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7nw67hjd2h"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7nw67hjd2h",
+  "hn:50318018",
+  "hn:50318720",
+  "lobsters:qwou15",
+  "hn:50320255",
+  "hn:50320995",
+  "https://www.engadget.com/2300213/3d-printer-expensive-hobbies-where-it-saves-money/",
+  "https://www.phoronix.com/news/RAID-Drive-Replacement-Tonight"
  ],
  "posted": {
-  "viral": 399,
-  "editorial": 519
+  "viral": 403,
+  "editorial": 520
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
   "Hacker News",
-  "404 Media",
-  "404 Media"
+  "Hacker News",
+  "Phoronix"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5727,74 +5734,44 @@
    "source": "404media.co",
    "score": 0.89239,
    "at": "2026-11-01T01:55:23.177027+00:00"
+  },
+  {
+   "title": "موضع‌گیری اداره کپی‌رایت آمریکا در قبال آثار تولید شده با هوش مصنوعی",
+   "url": "https://pluralistic.net/2026/10/31/burn-berne/#unvictored",
+   "source": "pluralistic.net",
+   "score": 0.00695,
+   "at": "2026-11-01T02:53:48.296171+00:00"
+  },
+  {
+   "title": "بهینه‌سازی عملکرد پایگاه‌داده با مدیریت هوشمند حافظه و کش پردازنده",
+   "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+   "source": "pivotlake.io",
+   "score": 0.00298,
+   "at": "2026-11-01T02:53:54.387260+00:00"
+  },
+  {
+   "title": "محدودسازی مدل Claude توسط شرکت Anthropic برای جلوگیری از مهندسی معکوس بازی‌های ویدیویی",
+   "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+   "source": "mashable.com",
+   "score": 0.00477,
+   "at": "2026-11-01T02:54:23.291800+00:00"
+  },
+  {
+   "title": "عملکرد مدل‌های هوش مصنوعی در حل مسائل برنامه‌نویسی با معماری چندعاملی",
+   "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+   "source": "github.com",
+   "score": 0.00833,
+   "at": "2026-11-01T02:54:31.182843+00:00"
+  },
+  {
+   "title": "قطعی موقت وب‌سایت Phoronix به دلیل خرابی درایو سرور",
+   "url": "https://www.phoronix.com/news/RAID-Drive-Replacement-Tonight",
+   "source": "Phoronix",
+   "score": 0.06884,
+   "at": "2026-11-01T02:54:42.313735+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "hynix",
-    "memory",
-    "persist",
-    "shortages",
-    "until"
-   ],
-   "at": "2026-10-28T05:53:49.463759+00:00"
-  },
-  {
-   "sig": [
-    "adobe",
-    "attacks",
-    "breach",
-    "brotli",
-    "commerce",
-    "emerges",
-    "exploit",
-    "hundreds",
-    "polyshell",
-    "stores",
-    "traffic"
-   ],
-   "at": "2026-10-28T07:53:42.655175+00:00"
-  },
-  {
-   "sig": [
-    "chained",
-    "flaws",
-    "oracle",
-    "peoplesoft",
-    "shinyhunters-exploited",
-    "three",
-    "turns",
-    "zero-day"
-   ],
-   "at": "2026-10-28T07:53:51.377865+00:00"
-  },
-  {
-   "sig": [
-    "behind",
-    "bounty",
-    "breach",
-    "catch",
-    "cloud",
-    "gmo",
-    "hackers",
-    "japan",
-    "million",
-    "offers",
-    "trading"
-   ],
-   "at": "2026-10-28T07:54:20.635099+00:00"
-  },
-  {
-   "sig": [
-    "data",
-    "malwarebytes",
-    "personal",
-    "remover",
-    "review"
-   ],
-   "at": "2026-10-28T07:54:35.427998+00:00"
-  },
   {
    "sig": [
     "advice",
@@ -9819,6 +9796,60 @@
     "www.404media.co"
    ],
    "at": "2026-11-01T01:55:23.177027+00:00"
+  },
+  {
+   "sig": [
+    "copyright",
+    "office",
+    "restoring",
+    "something",
+    "work"
+   ],
+   "at": "2026-11-01T02:53:48.296171+00:00"
+  },
+  {
+   "sig": [
+    "latency",
+    "memory",
+    "stupid"
+   ],
+   "at": "2026-11-01T02:53:54.387260+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "block",
+    "claude",
+    "games",
+    "reverse-engineering",
+    "steps",
+    "takes",
+    "video"
+   ],
+   "at": "2026-11-01T02:54:23.291800+00:00"
+  },
+  {
+   "sig": [
+    "beats",
+    "fable",
+    "hard",
+    "livecodebench",
+    "memdoor",
+    "models",
+    "qwen3.8-27b",
+    "team"
+   ],
+   "at": "2026-11-01T02:54:31.182843+00:00"
+  },
+  {
+   "sig": [
+    "brief",
+    "downtime",
+    "expected",
+    "server",
+    "tonight"
+   ],
+   "at": "2026-11-01T02:54:42.313735+00:00"
   }
  ],
  "snapshots": {
@@ -12171,28 +12202,28 @@
    "2026-10-31T23:29:05.701793+00:00"
   ],
   "hn:50320255": [
-   229,
-   "2026-11-01T01:53:51.234595+00:00"
+   243,
+   "2026-11-01T02:53:44.055086+00:00"
   ],
   "hn:50319510": [
    1205,
    "2026-11-01T01:53:51.234595+00:00"
   ],
   "hn:50318720": [
-   204,
-   "2026-11-01T01:53:51.234595+00:00"
+   223,
+   "2026-11-01T02:53:44.055086+00:00"
   ],
   "lobsters:qwou15": [
-   39,
-   "2026-11-01T01:53:51.234595+00:00"
+   42,
+   "2026-11-01T02:53:44.055086+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7ep3337s2s": [
    219,
    "2026-11-01T01:53:51.234595+00:00"
   ],
   "hn:50320995": [
-   156,
-   "2026-11-01T01:53:51.234595+00:00"
+   196,
+   "2026-11-01T02:53:44.055086+00:00"
   ],
   "hn:50320963": [
    239,
@@ -12211,8 +12242,8 @@
    "2026-11-01T01:53:51.234595+00:00"
   ],
   "hn:50318018": [
-   125,
-   "2026-11-01T01:53:51.234595+00:00"
+   126,
+   "2026-11-01T02:53:44.055086+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7nw67hjd2h": [
    101,
