@@ -2059,18 +2059,29 @@
   "hn:50320255",
   "hn:50320995",
   "https://www.engadget.com/2300213/3d-printer-expensive-hobbies-where-it-saves-money/",
-  "https://www.phoronix.com/news/RAID-Drive-Replacement-Tonight"
+  "https://www.phoronix.com/news/RAID-Drive-Replacement-Tonight",
+  "https://www.techspot.com/news/114391-anthropic-manager-drops-coding-interviews-after-realizing-claude.html",
+  "Zv5DATYCS5oHuKkbzTdPxG",
+  "TheNextWeb=790b6db7ddb093afc48b751d0fcf5496",
+  "https://techcrunch.com/?p=3183613",
+  "https://www.engadget.com/2300231/why-airpods-battery-drains-fast-how-to-fix/",
+  "https://www.engadget.com/2300227/how-big-powerful-spacex-starship-rocket/",
+  "https://www.engadget.com/2300219/amazon-made-alexa-devices-aux-port-less-useful/",
+  "Gt9o6DkbwKerAGKsvXKpN",
+  "BfDVGRQMvAxmN6aMy7VsAk",
+  "RE5YQKobRnTsEPKxQ9t99n",
+  "uVQzaVYgpCw7WkL6ruR3bb"
  ],
  "posted": {
   "viral": 403,
-  "editorial": 520
+  "editorial": 525
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Phoronix"
+  "TechSpot",
+  "The Next Web",
+  "Engadget",
+  "Engadget",
+  "TechRadar"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5769,70 +5780,44 @@
    "source": "Phoronix",
    "score": 0.06884,
    "at": "2026-11-01T02:54:42.313735+00:00"
+  },
+  {
+   "title": "تغییر در فرآیند استخدام مهندسان نرم‌افزار به دلیل توانمندی هوش مصنوعی",
+   "url": "https://www.techspot.com/news/114391-anthropic-manager-drops-coding-interviews-after-realizing-claude.html",
+   "source": "TechSpot",
+   "score": 0.05065,
+   "at": "2026-11-01T03:53:42.251168+00:00"
+  },
+  {
+   "title": "هشدار افشاگر Theranos درباره کلاهبرداری‌های احتمالی در صنعت هوش مصنوعی",
+   "url": "https://thenextweb.com/news/theranos-whistleblower-tyler-shultz-ai-due-diligence-ndas",
+   "source": "The Next Web",
+   "score": 0.03997,
+   "at": "2026-11-01T03:53:47.766916+00:00"
+  },
+  {
+   "title": "دلایل تخلیه سریع باتری ایرپاد و راهکارهای افزایش طول عمر آن",
+   "url": "https://www.engadget.com/2300231/why-airpods-battery-drains-fast-how-to-fix/",
+   "source": "Engadget",
+   "score": 0.03228,
+   "at": "2026-11-01T03:53:54.108568+00:00"
+  },
+  {
+   "title": "محدودیت آمازون برای کنترل صوتی ورودی AUX در اسپیکرهای قدیمی Echo",
+   "url": "https://www.engadget.com/2300219/amazon-made-alexa-devices-aux-port-less-useful/",
+   "source": "Engadget",
+   "score": 0.03738,
+   "at": "2026-11-01T03:54:01.653333+00:00"
+  },
+  {
+   "title": "کیبورد ماژولار سفارشی با ریزکنترل‌گرهای RISC-V",
+   "url": "https://www.techradar.com/pro/this-truly-modular-keyboard-can-be-built-like-a-lego-set-meaning-you-can-add-as-many-keys-as-you-like",
+   "source": "TechRadar",
+   "score": 0.03865,
+   "at": "2026-11-01T03:54:25.150716+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "advice",
-    "beats",
-    "engineers",
-    "hunger",
-    "junior",
-    "tenure"
-   ],
-   "at": "2026-10-28T08:56:16.605001+00:00"
-  },
-  {
-   "sig": [
-    "alerts",
-    "coming",
-    "emergency",
-    "humans",
-    "might",
-    "ready"
-   ],
-   "at": "2026-10-28T08:56:31.582244+00:00"
-  },
-  {
-   "sig": [
-    "attack",
-    "attempts",
-    "cisa",
-    "exploitation",
-    "honeypots",
-    "log",
-    "node2shell",
-    "warns"
-   ],
-   "at": "2026-10-28T08:56:55.264140+00:00"
-  },
-  {
-   "sig": [
-    "cloudflare",
-    "customers",
-    "envelope",
-    "inside",
-    "instant",
-    "opens",
-    "quicksilver",
-    "workers"
-   ],
-   "at": "2026-10-28T09:55:50.585262+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "article",
-    "building",
-    "coding",
-    "low-end",
-    "offline-first",
-    "phones",
-    "tutor"
-   ],
-   "at": "2026-10-28T09:55:56.336150+00:00"
-  },
   {
    "sig": [
     "commission",
@@ -9850,13 +9835,92 @@
     "tonight"
    ],
    "at": "2026-11-01T02:54:42.313735+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "beats",
+    "because",
+    "better",
+    "candidates",
+    "claude",
+    "coding",
+    "engineers",
+    "giving",
+    "hiring",
+    "hunger",
+    "interviews",
+    "junior",
+    "manager",
+    "stopped",
+    "stops",
+    "tells",
+    "tenure"
+   ],
+   "at": "2026-11-01T03:53:42.251168+00:00"
+  },
+  {
+   "sig": [
+    "boom",
+    "deceive",
+    "easy",
+    "fake",
+    "great",
+    "opportunity",
+    "people",
+    "shultz",
+    "standard",
+    "tells",
+    "theranos",
+    "tyler",
+    "warns",
+    "whistleblower"
+   ],
+   "at": "2026-11-01T03:53:47.766916+00:00"
+  },
+  {
+   "sig": [
+    "airpods",
+    "apple",
+    "battery",
+    "drains",
+    "fast",
+    "last",
+    "longer"
+   ],
+   "at": "2026-11-01T03:53:54.108568+00:00"
+  },
+  {
+   "sig": [
+    "alexa",
+    "amazon",
+    "aux",
+    "devices",
+    "input",
+    "less",
+    "older",
+    "useful"
+   ],
+   "at": "2026-11-01T03:54:01.653333+00:00"
+  },
+  {
+   "sig": [
+    "add",
+    "built",
+    "keyboard",
+    "keys",
+    "lego",
+    "like",
+    "many",
+    "meaning",
+    "modular",
+    "set",
+    "truly"
+   ],
+   "at": "2026-11-01T03:54:25.150716+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myd2q2rhee2o": [
-   26,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
   "hn:50171966": [
    124,
    "2026-10-20T22:31:26.237453+00:00"
@@ -12201,29 +12265,13 @@
    5,
    "2026-10-31T23:29:05.701793+00:00"
   ],
-  "hn:50320255": [
-   243,
-   "2026-11-01T02:53:44.055086+00:00"
-  ],
   "hn:50319510": [
    1205,
    "2026-11-01T01:53:51.234595+00:00"
   ],
-  "hn:50318720": [
-   223,
-   "2026-11-01T02:53:44.055086+00:00"
-  ],
-  "lobsters:qwou15": [
-   42,
-   "2026-11-01T02:53:44.055086+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7ep3337s2s": [
    219,
    "2026-11-01T01:53:51.234595+00:00"
-  ],
-  "hn:50320995": [
-   196,
-   "2026-11-01T02:53:44.055086+00:00"
   ],
   "hn:50320963": [
    239,
@@ -12241,10 +12289,6 @@
    114,
    "2026-11-01T01:53:51.234595+00:00"
   ],
-  "hn:50318018": [
-   126,
-   "2026-11-01T02:53:44.055086+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7nw67hjd2h": [
    101,
    "2026-11-01T01:53:51.234595+00:00"
@@ -12252,6 +12296,30 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7kanlblklm": [
    226,
    "2026-11-01T01:53:51.234595+00:00"
+  ],
+  "hn:50320255": [
+   243,
+   "2026-11-01T02:53:44.055086+00:00"
+  ],
+  "hn:50318720": [
+   223,
+   "2026-11-01T02:53:44.055086+00:00"
+  ],
+  "lobsters:qwou15": [
+   42,
+   "2026-11-01T02:53:44.055086+00:00"
+  ],
+  "hn:50320995": [
+   196,
+   "2026-11-01T02:53:44.055086+00:00"
+  ],
+  "hn:50318018": [
+   126,
+   "2026-11-01T02:53:44.055086+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7tozvdiclm": [
+   68,
+   "2026-11-01T03:53:39.974341+00:00"
   ]
  }
 }
