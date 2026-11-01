@@ -2126,18 +2126,26 @@
   "https://www.phoronix.com/news/Linux-7.4-Merge-Window",
   "6ae100238620da29e32c576d",
   "6abd503baa33d1078558869a",
-  "https://www.phoronix.com/news/Linux-7.4-Perf-Tools"
+  "https://www.phoronix.com/news/Linux-7.4-Perf-Tools",
+  "hn:50324388",
+  "gDaSNJWnRARgGroPLX8Cei",
+  "https://www.securityweek.com/?p=50438",
+  "Qid7tvkU5axEN7byyiUbNm",
+  "https://www.androidpolice.com/i-gave-gemini-cluttered-mac-downloads-folder-sorted-files-i-search/",
+  "baa596d4b7cad0cee65e2e8331430df4",
+  "https://www.techspot.com/news/114396-europe-canada-team-up-ai-computing-alliance-doesnt.html",
+  "https://www.theregister.com/a/5306727"
  ],
  "posted": {
   "viral": 411,
-  "editorial": 545
+  "editorial": 549
  },
  "recent_labels": [
-  "Hacker News",
-  "Wired",
   "Phoronix",
-  "Wired",
-  "Phoronix"
+  "SecurityWeek",
+  "Android Police",
+  "TechSpot",
+  "The Register"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6067,66 +6075,37 @@
    "source": "Phoronix",
    "score": 0.22751,
    "at": "2026-11-01T10:54:06.578531+00:00"
+  },
+  {
+   "title": "جذب سرمایه ۷ میلیون دلاری استارتاپ Northstar Security برای شناسایی ریسک‌های امنیتی",
+   "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+   "source": "SecurityWeek",
+   "score": 0.18086,
+   "at": "2026-11-01T11:54:41.637513+00:00"
+  },
+  {
+   "title": "سازماندهی هوشمند فایل‌های مک با استفاده از قابلیت‌های Gemini Spark",
+   "url": "https://www.androidpolice.com/i-gave-gemini-cluttered-mac-downloads-folder-sorted-files-i-search/",
+   "source": "Android Police",
+   "score": 0.16254,
+   "at": "2026-11-01T11:54:49.467438+00:00"
+  },
+  {
+   "title": "همکاری استراتژیک اروپا و کانادا برای توسعه زیرساخت‌های پردازش هوش مصنوعی",
+   "url": "https://www.techspot.com/news/114396-europe-canada-team-up-ai-computing-alliance-doesnt.html",
+   "source": "TechSpot",
+   "score": 0.19743,
+   "at": "2026-11-01T11:55:09.411809+00:00"
+  },
+  {
+   "title": "پنجاه سالگی ویرایشگر متن Emacs و میراث آن در دنیای نرم‌افزار",
+   "url": "https://www.theregister.com/applications/2026/11/01/mother-of-all-editors-emacs-is-50/5306727",
+   "source": "The Register",
+   "score": 0.2859,
+   "at": "2026-11-01T11:55:15.348491+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "buying",
-    "center",
-    "data",
-    "homeowners",
-    "noise",
-    "promise",
-    "sue",
-    "xai"
-   ],
-   "at": "2026-10-28T14:56:47.934243+00:00"
-  },
-  {
-   "sig": [
-    "airfly",
-    "south",
-    "twelve",
-    "view"
-   ],
-   "at": "2026-10-28T14:57:28.096902+00:00"
-  },
-  {
-   "sig": [
-    "centre",
-    "command",
-    "deportation",
-    "frontex",
-    "high-tech",
-    "transforms"
-   ],
-   "at": "2026-10-28T14:58:04.501818+00:00"
-  },
-  {
-   "sig": [
-    "arrive",
-    "availability",
-    "buds",
-    "clip-on",
-    "cost",
-    "debut",
-    "earbuds",
-    "expecting",
-    "first",
-    "galaxy",
-    "gemini",
-    "live",
-    "lot",
-    "open",
-    "open-ear",
-    "pricing",
-    "revealed",
-    "samsung",
-    "wireless"
-   ],
-   "at": "2026-10-28T15:53:56.458716+00:00"
-  },
   {
    "sig": [
     "able",
@@ -10146,13 +10125,59 @@
     "scripts"
    ],
    "at": "2026-11-01T10:54:06.578531+00:00"
+  },
+  {
+   "sig": [
+    "combinations",
+    "exits",
+    "expose",
+    "northstar",
+    "risk",
+    "security",
+    "stealth",
+    "toxic"
+   ],
+   "at": "2026-11-01T11:54:41.637513+00:00"
+  },
+  {
+   "sig": [
+    "actually",
+    "cluttered",
+    "downloads",
+    "files",
+    "folder",
+    "gave",
+    "gemini",
+    "mac",
+    "search",
+    "sorted",
+    "way"
+   ],
+   "at": "2026-11-01T11:54:49.467438+00:00"
+  },
+  {
+   "sig": [
+    "alliance",
+    "canada",
+    "computing",
+    "depend",
+    "doesn",
+    "europe",
+    "team",
+    "washington"
+   ],
+   "at": "2026-11-01T11:55:09.411809+00:00"
+  },
+  {
+   "sig": [
+    "editors",
+    "emacs",
+    "mother"
+   ],
+   "at": "2026-11-01T11:55:15.348491+00:00"
   }
  ],
  "snapshots": {
-  "hn:50173907": [
-   68,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
   "hn:50173891": [
    497,
    "2026-10-21T10:25:34.232312+00:00"
@@ -12548,6 +12573,10 @@
   "hn:50321462": [
    71,
    "2026-11-01T10:53:38.733796+00:00"
+  ],
+  "hn:50324388": [
+   210,
+   "2026-11-01T11:53:37.842672+00:00"
   ]
  }
 }
