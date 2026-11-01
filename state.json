@@ -2044,18 +2044,26 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz6rowze5c2s",
   "hn:50318182",
   "lobsters:k508we",
-  "hn:50319358"
+  "hn:50319358",
+  "hn:50319169",
+  "hn:50319510",
+  "hn:50319563",
+  "hn:50320028",
+  "hn:50320963",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7ep3337s2s",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7kanlblklm",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7nw67hjd2h"
  ],
  "posted": {
-  "viral": 395,
+  "viral": 399,
   "editorial": 519
  },
  "recent_labels": [
-  "Lobsters",
-  "Xe Iaso",
   "Hacker News",
-  "Lobsters",
-  "Hacker News"
+  "Hacker News",
+  "Hacker News",
+  "404 Media",
+  "404 Media"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5691,65 +5699,37 @@
    "source": "twitter.com",
    "score": 0.03201,
    "at": "2026-10-31T23:29:32.472575+00:00"
+  },
+  {
+   "title": "پورت بازی کلاسیک Contra به وب‌اسمبلی با قابلیت چندنفره آنلاین",
+   "url": "https://epoyraz.github.io/nes-contra-us/",
+   "source": "epoyraz.github.io",
+   "score": 0.025,
+   "at": "2026-11-01T01:54:06.287031+00:00"
+  },
+  {
+   "title": "راه‌اندازی پلتفرم HackerTube با استفاده از هوش مصنوعی",
+   "url": "https://karpathy.bearblog.dev/hacker-tube/",
+   "source": "karpathy.bearblog.dev",
+   "score": 0.05952,
+   "at": "2026-11-01T01:54:30.910012+00:00"
+  },
+  {
+   "title": "افزایش نگرانی‌های امنیتی با کشف آسیب‌پذیری‌های گسترده توسط ابزارهای هوش مصنوعی",
+   "url": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
+   "source": "404media.co",
+   "score": 0.22236,
+   "at": "2026-11-01T01:55:14.833413+00:00"
+  },
+  {
+   "title": "قطعی طولانی‌مدت وب‌سایت Archive of Our Own به دلیل مشکلات فنی",
+   "url": "https://www.404media.co/archive-of-our-own-ao3-down-maintenance/",
+   "source": "404media.co",
+   "score": 0.89239,
+   "at": "2026-11-01T01:55:23.177027+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "code-execution",
-    "earth",
-    "firmware",
-    "flaw",
-    "planet",
-    "servers",
-    "threatens",
-    "uefi"
-   ],
-   "at": "2026-10-28T04:56:14.859919+00:00"
-  },
-  {
-   "sig": [
-    "32-bit",
-    "buffer",
-    "client",
-    "improve",
-    "map",
-    "merges",
-    "mesa",
-    "opengl",
-    "pointer",
-    "support",
-    "wine",
-    "wow64"
-   ],
-   "at": "2026-10-28T04:56:21.151966+00:00"
-  },
-  {
-   "sig": [
-    "2.5",
-    "beats",
-    "editing",
-    "flare",
-    "gpt",
-    "image",
-    "mai-image-2.7",
-    "microsoft",
-    "openai",
-    "preview"
-   ],
-   "at": "2026-10-28T04:56:32.046029+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "give",
-    "much-needed",
-    "phonebook",
-    "privacy",
-    "upgrade"
-   ],
-   "at": "2026-10-28T04:56:38.609897+00:00"
-  },
   {
    "sig": [
     "hynix",
@@ -9785,41 +9765,63 @@
     "users"
    ],
    "at": "2026-10-31T23:29:32.472575+00:00"
+  },
+  {
+   "sig": [
+    "asm",
+    "contra",
+    "nes",
+    "port",
+    "show",
+    "webassembly"
+   ],
+   "at": "2026-11-01T01:54:06.287031+00:00"
+  },
+  {
+   "sig": [
+    "built",
+    "hackertube",
+    "recommended",
+    "videos",
+    "youtube"
+   ],
+   "at": "2026-11-01T01:54:30.910012+00:00"
+  },
+  {
+   "sig": [
+    "black",
+    "bugs",
+    "cybersecurity",
+    "experts",
+    "freaking",
+    "hacks",
+    "happens",
+    "next",
+    "october",
+    "other",
+    "php",
+    "php2shell-bl",
+    "series",
+    "unsure",
+    "vulnerabilities",
+    "www.404media.co"
+   ],
+   "at": "2026-11-01T01:55:14.833413+00:00"
+  },
+  {
+   "sig": [
+    "actually",
+    "archive-of-o",
+    "asf",
+    "forget",
+    "halloween",
+    "scary",
+    "www.404media.co"
+   ],
+   "at": "2026-11-01T01:55:23.177027+00:00"
   }
  ],
  "snapshots": {
-  "hn:50166257": [
-   424,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50165276": [
-   318,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "lobsters:7d1swo": [
-   79,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "lobsters:42zgmq": [
-   28,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "lobsters:mngelc": [
-   30,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myd7xjf7xs2z": [
-   344,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myczrlmwav26": [
-   612,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myct3ggljf2j": [
-   111,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myd2q2rhee2o": [
    26,
    "2026-10-20T22:31:26.237453+00:00"
@@ -12148,20 +12150,8 @@
    222,
    "2026-10-31T20:06:42.126659+00:00"
   ],
-  "hn:50320255": [
-   199,
-   "2026-10-31T23:29:05.701793+00:00"
-  ],
-  "hn:50319510": [
-   843,
-   "2026-10-31T23:29:05.701793+00:00"
-  ],
   "hn:50319358": [
    213,
-   "2026-10-31T23:29:05.701793+00:00"
-  ],
-  "hn:50318720": [
-   150,
    "2026-10-31T23:29:05.701793+00:00"
   ],
   "hn:50318182": [
@@ -12172,21 +12162,65 @@
    50,
    "2026-10-31T23:29:05.701793+00:00"
   ],
-  "lobsters:qwou15": [
-   35,
-   "2026-10-31T23:29:05.701793+00:00"
-  ],
   "lobsters:ymqjuj": [
    25,
-   "2026-10-31T23:29:05.701793+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7ep3337s2s": [
-   126,
    "2026-10-31T23:29:05.701793+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz6rowze5c2s": [
    5,
    "2026-10-31T23:29:05.701793+00:00"
+  ],
+  "hn:50320255": [
+   229,
+   "2026-11-01T01:53:51.234595+00:00"
+  ],
+  "hn:50319510": [
+   1205,
+   "2026-11-01T01:53:51.234595+00:00"
+  ],
+  "hn:50318720": [
+   204,
+   "2026-11-01T01:53:51.234595+00:00"
+  ],
+  "lobsters:qwou15": [
+   39,
+   "2026-11-01T01:53:51.234595+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7ep3337s2s": [
+   219,
+   "2026-11-01T01:53:51.234595+00:00"
+  ],
+  "hn:50320995": [
+   156,
+   "2026-11-01T01:53:51.234595+00:00"
+  ],
+  "hn:50320963": [
+   239,
+   "2026-11-01T01:53:51.234595+00:00"
+  ],
+  "hn:50320028": [
+   154,
+   "2026-11-01T01:53:51.234595+00:00"
+  ],
+  "hn:50319563": [
+   94,
+   "2026-11-01T01:53:51.234595+00:00"
+  ],
+  "hn:50319169": [
+   114,
+   "2026-11-01T01:53:51.234595+00:00"
+  ],
+  "hn:50318018": [
+   125,
+   "2026-11-01T01:53:51.234595+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7nw67hjd2h": [
+   101,
+   "2026-11-01T01:53:51.234595+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7kanlblklm": [
+   226,
+   "2026-11-01T01:53:51.234595+00:00"
   ]
  }
 }
