@@ -2143,18 +2143,25 @@
   "rYhREWFvJeih7rUtEyTk7V",
   "TheNextWeb=795ad40839eecf2bc05dbc4c7b6d1c25",
   "663369f7f554f4ca4bded921",
-  "CDwEQQdy3XFNBgtknNG9Dg"
+  "CDwEQQdy3XFNBgtknNG9Dg",
+  "gcyJkc6Wiha9qcEfoFM6DA",
+  "hn:50326099",
+  "https://www.engadget.com/2300277/which-android-closest-to-iphone-18-pro-max/",
+  "dW4RYtyCGt5E6nmd6qJ4KN",
+  "Ek4r3jt56uATcdLLPiRxXc",
+  "https://www.engadget.com/2302442/spotify-settings-worth-changing/",
+  "https://www.engadget.com/2300281/hardware-accelerated-gpu-scheduling-not-best-fit-cheap-gpu-reason/"
  ],
  "posted": {
   "viral": 411,
-  "editorial": 552
+  "editorial": 557
  },
  "recent_labels": [
-  "TechSpot",
-  "The Register",
-  "Wired",
-  "Wired",
-  "The Next Web"
+  "Tom's Hardware",
+  "Engadget",
+  "Tom's Hardware",
+  "Tom's Hardware",
+  "Engadget"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6133,72 +6140,44 @@
    "source": "The Next Web",
    "score": 0.12741,
    "at": "2026-11-01T12:54:05.456558+00:00"
+  },
+  {
+   "title": "افشای ضعف‌های امنیتی در حافظه‌های جانبی رمزنگاری‌شده Lenovo",
+   "url": "https://www.tomshardware.com/tech-industry/cyber-security/lenovo-fingerprint-usb-stick-sold-as-aes-256-encrypted-had-a-plain-sd-card-inside-ai-assisted-follow-up-finds-a-backdoor-and-hardcoded-keys-in-other-secure-usb-products",
+   "source": "Tom's Hardware",
+   "score": 0.52546,
+   "at": "2026-11-01T15:53:48.237816+00:00"
+  },
+  {
+   "title": "مقایسه فنی پرچمداران سامسونگ و اپل در بازار گوشی‌های هوشمند",
+   "url": "https://www.engadget.com/2300277/which-android-closest-to-iphone-18-pro-max/",
+   "source": "Engadget",
+   "score": 0.11572,
+   "at": "2026-11-01T15:53:54.016606+00:00"
+  },
+  {
+   "title": "بررسی درایو اس‌اس‌دی Biwin M560 با کنترلر قدرتمند SMI",
+   "url": "https://www.tomshardware.com/pc-components/ssds/biwin-m560-2tb-ssd-review",
+   "source": "Tom's Hardware",
+   "score": 0.14391,
+   "at": "2026-11-01T15:53:59.719815+00:00"
+  },
+  {
+   "title": "همکاری استراتژیک Anycubic و Thingiverse برای تسهیل چاپ سه‌بعدی",
+   "url": "https://www.tomshardware.com/3d-printing/anycubic-and-thingiverse-announce-exclusive-3d-printing-partnership-makeronline-platform-to-offer-1-click-multicolor-3mf-models",
+   "source": "Tom's Hardware",
+   "score": 0.14391,
+   "at": "2026-11-01T15:54:05.564762+00:00"
+  },
+  {
+   "title": "تاثیر قابلیت HAGS بر عملکرد کارت‌های گرافیک با حافظه محدود",
+   "url": "https://www.engadget.com/2300281/hardware-accelerated-gpu-scheduling-not-best-fit-cheap-gpu-reason/",
+   "source": "Engadget",
+   "score": 0.15802,
+   "at": "2026-11-01T15:54:11.639473+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "cyberattacks",
-    "financial",
-    "fresh",
-    "hit",
-    "industry",
-    "korea",
-    "south",
-    "wave"
-   ],
-   "at": "2026-10-28T15:57:27.308850+00:00"
-  },
-  {
-   "sig": [
-    "agree",
-    "epic",
-    "games",
-    "microsoft",
-    "suddenly",
-    "theft"
-   ],
-   "at": "2026-10-28T17:54:05.179242+00:00"
-  },
-  {
-   "sig": [
-    "clones",
-    "developers",
-    "fearing",
-    "responds",
-    "slop",
-    "valve"
-   ],
-   "at": "2026-10-28T17:54:16.999281+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "assignments",
-    "dayjob",
-    "evaluating",
-    "professional",
-    "tax"
-   ],
-   "at": "2026-10-28T17:54:56.387424+00:00"
-  },
-  {
-   "sig": [
-    "ai-powered",
-    "autofill",
-    "chrome",
-    "dig",
-    "enhanced",
-    "fill",
-    "forms",
-    "gmail",
-    "help",
-    "info",
-    "pull",
-    "through"
-   ],
-   "at": "2026-10-28T17:55:18.786703+00:00"
-  },
   {
    "sig": [
     "all-new",
@@ -10211,13 +10190,75 @@
     "trump"
    ],
    "at": "2026-11-01T12:54:05.456558+00:00"
+  },
+  {
+   "sig": [
+    "card",
+    "case",
+    "drive",
+    "encrypted",
+    "fancy",
+    "fingerprint",
+    "lenovo",
+    "unencrypted",
+    "usb"
+   ],
+   "at": "2026-11-01T15:53:48.237816+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "closest",
+    "counterpart",
+    "iphone",
+    "max",
+    "pro",
+    "which"
+   ],
+   "at": "2026-11-01T15:53:54.016606+00:00"
+  },
+  {
+   "sig": [
+    "2tb",
+    "beat",
+    "biwin",
+    "dram-less",
+    "drive",
+    "m560",
+    "review",
+    "ssd"
+   ],
+   "at": "2026-11-01T15:53:59.719815+00:00"
+  },
+  {
+   "sig": [
+    "announce",
+    "anycubic",
+    "exclusive",
+    "partnership",
+    "printing",
+    "thingiverse"
+   ],
+   "at": "2026-11-01T15:54:05.564762+00:00"
+  },
+  {
+   "sig": [
+    "accelerated",
+    "best",
+    "cheap",
+    "fit",
+    "gpu",
+    "gpus",
+    "hardware",
+    "isn",
+    "reason",
+    "scheduling",
+    "simple"
+   ],
+   "at": "2026-11-01T15:54:11.639473+00:00"
   }
  ],
  "snapshots": {
-  "hn:50173547": [
-   87,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mydqnuqwx224": [
    57,
    "2026-10-21T10:25:34.232312+00:00"
@@ -12613,6 +12654,10 @@
   "hn:50324118": [
    104,
    "2026-11-01T12:53:47.822489+00:00"
+  ],
+  "hn:50326099": [
+   119,
+   "2026-11-01T15:53:45.748403+00:00"
   ]
  }
 }
