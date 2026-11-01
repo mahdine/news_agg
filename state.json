@@ -2087,18 +2087,27 @@
   "TheNextWeb=185461e5418a5231d99e7dbf314aa1dd",
   "https://www.engadget.com/2300248/reason-most-electrical-plug-prongs-have-holes/",
   "https://www.engadget.com/2300238/slate-vs-ford-fathom-android-auto-carplay-support/",
-  "hn:50322173"
+  "hn:50322173",
+  "https://www.theverge.com/?p=1017979",
+  "https://games.slashdot.org/story/26/10/31/2038237/recycling-ansi-art-tracing-the-origins-of-bbs-logon-screens?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://science.slashdot.org/story/26/10/31/2142240/computer-simulations-suggest-building-blocks-of-life-didnt-arrive-on-prehistoric-comets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "SVJVCfMLSVboRSjWTR5tA6",
+  "hn:50322022",
+  "be55a7ad120ae9a71b43571f93258d54",
+  "7wYurojAzGp8eQQPTPyUDT",
+  "qS238XSGez5qspdgRej8xX",
+  "https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
  ],
  "posted": {
-  "viral": 406,
-  "editorial": 531
+  "viral": 407,
+  "editorial": 532
  },
  "recent_labels": [
-  "TechCrunch AI",
+  "The Next Web",
+  "The Next Web",
   "Hacker News",
-  "The Next Web",
-  "The Next Web",
-  "Hacker News"
+  "Hacker News",
+  "InfoQ"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -5895,34 +5904,23 @@
    "source": "jetstream.security",
    "score": 0.19128,
    "at": "2026-11-01T05:55:46.009703+00:00"
+  },
+  {
+   "title": "حمله جدید برای سرقت اطلاعات از کامپیوترهای ایزوله با سیگنال‌های رادیویی",
+   "url": "https://arxiv.org/abs/2409.02292",
+   "source": "arxiv.org",
+   "score": 0.03597,
+   "at": "2026-11-01T06:53:49.009103+00:00"
+  },
+  {
+   "title": "ابزار متن‌باز AWS برای انتقال فایل‌های حجیم به Amazon S3",
+   "url": "https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.2077,
+   "at": "2026-11-01T06:54:09.709287+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "control",
-    "epics",
-    "facility",
-    "flaws",
-    "long-hidden",
-    "patched",
-    "research",
-    "software"
-   ],
-   "at": "2026-10-28T11:26:48.793107+00:00"
-  },
-  {
-   "sig": [
-    "guide",
-    "observability",
-    "presentation",
-    "scale",
-    "self-hosted",
-    "telemetry",
-    "wrangling"
-   ],
-   "at": "2026-10-28T11:26:59.434746+00:00"
-  },
   {
    "sig": [
     "asus",
@@ -10019,13 +10017,35 @@
     "sanctions"
    ],
    "at": "2026-11-01T05:55:46.009703+00:00"
+  },
+  {
+   "sig": [
+    "air-gap",
+    "computers",
+    "leaking",
+    "radio",
+    "ram",
+    "secrets",
+    "signals",
+    "spelling"
+   ],
+   "at": "2026-11-01T06:53:49.009103+00:00"
+  },
+  {
+   "sig": [
+    "aws",
+    "express",
+    "file",
+    "mover",
+    "open-source",
+    "releases",
+    "tool",
+    "transfers"
+   ],
+   "at": "2026-11-01T06:54:09.709287+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myd574ae7m2o": [
-   20,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
   "hn:50176077": [
    294,
    "2026-10-21T10:25:34.232312+00:00"
@@ -12421,6 +12441,10 @@
   "hn:50320588": [
    98,
    "2026-11-01T05:54:16.136032+00:00"
+  ],
+  "hn:50322022": [
+   104,
+   "2026-11-01T06:53:43.177729+00:00"
   ]
  }
 }
