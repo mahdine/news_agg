@@ -2266,18 +2266,25 @@
   "3230230",
   "25d3f2d14be3cb91bcf4708c1ced65a7",
   "4b0a6e4295748711f4ca6436956d0f50",
-  "LEcwm9f5TPcmW2s4Qn6KUT"
+  "LEcwm9f5TPcmW2s4Qn6KUT",
+  "hn:50333877",
+  "hn:50334038",
+  "lobsters:caksp0",
+  "hn:50334704",
+  "6ad7d51fa4cc6513f80c0e64",
+  "5dc9ad0a182de80009f7ff25",
+  "https://games.slashdot.org/story/26/11/02/0354237/itch-is-being-flooded-by-ai-generated-garbage?utm_source=rss1.0mainlinkanon&utm_medium=feed"
  ],
  "posted": {
-  "viral": 429,
-  "editorial": 604
+  "viral": 432,
+  "editorial": 606
  },
  "recent_labels": [
-  "Phoronix",
-  "TechRadar",
-  "Hi-Tech Mail",
-  "vc.ru",
-  "Hi-Tech Mail"
+  "Hacker News",
+  "Lobsters",
+  "Hacker News",
+  "Wired",
+  "Slashdot"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6746,75 +6753,44 @@
    "source": "Hi-Tech Mail",
    "score": 0.17495,
    "at": "2026-11-02T11:55:38.029771+00:00"
+  },
+  {
+   "title": "اعمال محدودیت‌های صادراتی چین بر فناوری‌های هوش مصنوعی",
+   "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+   "source": "labs.cloudsecurityalliance.org",
+   "score": 0.11855,
+   "at": "2026-11-02T12:53:58.287214+00:00"
+  },
+  {
+   "title": "معرفی Tyrtulia، انجمن‌ساز متن‌محور و سبک برای ترمینال",
+   "url": "https://en.andros.dev/blog/b5c8c6aa/i-built-a-forum-with-no-interface-no-passwords-made-for-the-terminal/",
+   "source": "en.andros.dev",
+   "score": 0.11356,
+   "at": "2026-11-02T12:54:05.192687+00:00"
+  },
+  {
+   "title": "به‌روزرسانی وب‌سایت و API جامع برای بررسی System Callهای لینوکس",
+   "url": "https://syscall.sh/",
+   "source": "syscall.sh",
+   "score": 0.04836,
+   "at": "2026-11-02T12:54:10.773031+00:00"
+  },
+  {
+   "title": "مقایسه کارایی موتورهای جستجوی سنتی و چت‌بات‌های هوش مصنوعی برای کاربران",
+   "url": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
+   "source": "Wired",
+   "score": 0.16316,
+   "at": "2026-11-02T12:54:16.571301+00:00"
+  },
+  {
+   "title": "سیل بازی‌های تولیدشده با هوش مصنوعی در پلتفرم itch.io",
+   "url": "https://games.slashdot.org/story/26/11/02/0354237/itch-is-being-flooded-by-ai-generated-garbage?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.19886,
+   "at": "2026-11-02T12:54:44.910516+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "again",
-    "another",
-    "education",
-    "hike",
-    "jumped",
-    "macbook",
-    "neo",
-    "price",
-    "students"
-   ],
-   "at": "2026-10-29T12:53:57.397780+00:00"
-  },
-  {
-   "sig": [
-    "bystanders",
-    "disturbing",
-    "edward",
-    "glasses",
-    "implicated",
-    "increasingly",
-    "invasions",
-    "letter",
-    "markey",
-    "meta",
-    "privacy",
-    "ron",
-    "sent",
-    "smart",
-    "users",
-    "wyden"
-   ],
-   "at": "2026-10-29T12:54:03.667287+00:00"
-  },
-  {
-   "sig": [
-    "agentic",
-    "benchmark",
-    "cpu",
-    "defining",
-    "first",
-    "step"
-   ],
-   "at": "2026-10-29T12:54:13.943022+00:00"
-  },
-  {
-   "sig": [
-    "aes",
-    "bit",
-    "case",
-    "key"
-   ],
-   "at": "2026-10-29T13:53:53.765727+00:00"
-  },
-  {
-   "sig": [
-    "40k",
-    "dhs",
-    "employees",
-    "expose",
-    "hackers",
-    "identities"
-   ],
-   "at": "2026-10-29T13:54:19.765089+00:00"
-  },
   {
    "sig": [
     "analysis",
@@ -10801,25 +10777,62 @@
     "s1150"
    ],
    "at": "2026-11-02T11:55:38.029771+00:00"
+  },
+  {
+   "sig": [
+    "announcement",
+    "china",
+    "controls",
+    "export",
+    "first",
+    "frontier",
+    "mofcom"
+   ],
+   "at": "2026-11-02T12:53:58.287214+00:00"
+  },
+  {
+   "sig": [
+    "forum",
+    "headless",
+    "passwords",
+    "terminal",
+    "tyrtulia"
+   ],
+   "at": "2026-11-02T12:54:05.192687+00:00"
+  },
+  {
+   "sig": [
+    "api",
+    "call",
+    "linux",
+    "show",
+    "system",
+    "updated",
+    "website"
+   ],
+   "at": "2026-11-02T12:54:10.773031+00:00"
+  },
+  {
+   "sig": [
+    "search",
+    "should",
+    "shouldn",
+    "web"
+   ],
+   "at": "2026-11-02T12:54:16.571301+00:00"
+  },
+  {
+   "sig": [
+    "ai-generated",
+    "being",
+    "flooded",
+    "garbage",
+    "itch"
+   ],
+   "at": "2026-11-02T12:54:44.910516+00:00"
   }
  ],
  "snapshots": {
-  "hn:50181114": [
-   620,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50180873": [
-   1987,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50180752": [
-   263,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50180079": [
-   379,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "hn:50180039": [
    106,
    "2026-10-21T22:37:13.768401+00:00"
@@ -13203,6 +13216,22 @@
   "lobsters:0yxkvs": [
    30,
    "2026-11-02T10:53:46.736746+00:00"
+  ],
+  "hn:50334704": [
+   99,
+   "2026-11-02T12:53:43.773906+00:00"
+  ],
+  "hn:50334038": [
+   156,
+   "2026-11-02T12:53:43.773906+00:00"
+  ],
+  "hn:50333877": [
+   102,
+   "2026-11-02T12:53:43.773906+00:00"
+  ],
+  "lobsters:caksp0": [
+   29,
+   "2026-11-02T12:53:43.773906+00:00"
   ]
  }
 }
