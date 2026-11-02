@@ -2182,18 +2182,25 @@
   "hn:50328487",
   "hn:50328488",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzbmrvrsi32s",
-  "hn:50330005"
+  "hn:50330005",
+  "lobsters:cqzwwg",
+  "hn:50328896",
+  "hn:50330253",
+  "hn:50330456",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzbw2x4enr2g",
+  "hn:50330939",
+  "https://www.engadget.com/2300327/google-maps-features-work-better-android-auto-vs-carplay/"
  ],
  "posted": {
-  "viral": 418,
-  "editorial": 567
+  "viral": 422,
+  "editorial": 568
  },
  "recent_labels": [
-  "The Verge",
-  "Slashdot",
-  "Lobsters",
   "Hacker News",
-  "404 Media"
+  "Hacker News",
+  "Hacker News",
+  "404 Media",
+  "Engadget"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6326,81 +6333,44 @@
    "source": "404media.co",
    "score": 0.09741,
    "at": "2026-11-01T22:15:57.478296+00:00"
+  },
+  {
+   "title": "راهکارهای حفظ حریم خصوصی در انتخاب تلویزیون‌های هوشمند",
+   "url": "https://news.ycombinator.com/item?id=50328896",
+   "source": "Hacker News",
+   "score": 0.06578,
+   "at": "2026-11-02T01:54:01.210864+00:00"
+  },
+  {
+   "title": "نقد استفاده از هوش مصنوعی در تحقیقات امنیتی و بازاریابی کاذب",
+   "url": "https://eva.ac/blog/llms/",
+   "source": "eva.ac",
+   "score": 0.09332,
+   "at": "2026-11-02T01:54:18.367521+00:00"
+  },
+  {
+   "title": "عدم سودآوری مالی هوش مصنوعی برای شرکت‌های غیرتکنولوژی",
+   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+   "source": "techcrunch.com",
+   "score": 0.12251,
+   "at": "2026-11-02T01:54:24.056223+00:00"
+  },
+  {
+   "title": "فشار مدیرعامل Proton برای استفاده حداکثری از هوش مصنوعی در توسعه نرم‌افزار",
+   "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+   "source": "404media.co",
+   "score": 0.03906,
+   "at": "2026-11-02T01:54:29.699309+00:00"
+  },
+  {
+   "title": "برتری عملکرد گوگل مپس در اندروید اتو نسبت به اپل کارپلی",
+   "url": "https://www.engadget.com/2300327/google-maps-features-work-better-android-auto-vs-carplay/",
+   "source": "Engadget",
+   "score": 0.13436,
+   "at": "2026-11-02T01:54:35.597069+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anthropic",
-    "coding",
-    "dead",
-    "declares",
-    "engineer",
-    "interview"
-   ],
-   "at": "2026-10-29T02:54:01.275022+00:00"
-  },
-  {
-   "sig": [
-    "driving",
-    "google",
-    "investments",
-    "mode",
-    "pay",
-    "searches",
-    "struggling"
-   ],
-   "at": "2026-10-29T02:54:17.172118+00:00"
-  },
-  {
-   "sig": [
-    "american",
-    "anduril",
-    "bluechip",
-    "buy",
-    "laptop",
-    "launch",
-    "meet",
-    "standards"
-   ],
-   "at": "2026-10-29T02:54:29.811510+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "exposes",
-    "homeland",
-    "ice",
-    "including",
-    "leak",
-    "massive",
-    "security",
-    "undercover",
-    "workers"
-   ],
-   "at": "2026-10-29T03:53:45.478915+00:00"
-  },
-  {
-   "sig": [
-    "attalah",
-    "closure",
-    "condemn",
-    "conviction",
-    "court",
-    "cpj",
-    "editor-in-chief",
-    "egypt",
-    "journalist",
-    "lina",
-    "mada",
-    "masr",
-    "order",
-    "outraged",
-    "shutdown",
-    "stand"
-   ],
-   "at": "2026-10-29T03:53:52.724022+00:00"
-  },
   {
    "sig": [
     "3dfx",
@@ -10415,33 +10385,73 @@
     "www.404media.co"
    ],
    "at": "2026-11-01T22:15:57.478296+00:00"
+  },
+  {
+   "sig": [
+    "ask",
+    "privacy",
+    "recommend",
+    "which"
+   ],
+   "at": "2026-11-02T01:54:01.210864+00:00"
+  },
+  {
+   "sig": [
+    "everyone",
+    "guess",
+    "llms",
+    "think"
+   ],
+   "at": "2026-11-02T01:54:18.367521+00:00"
+  },
+  {
+   "sig": [
+    "apollo",
+    "companies",
+    "delivers",
+    "economist",
+    "financial",
+    "payoff",
+    "zero"
+   ],
+   "at": "2026-11-02T01:54:24.056223+00:00"
+  },
+  {
+   "sig": [
+    "chats",
+    "company",
+    "cto",
+    "current",
+    "eight",
+    "employees",
+    "former",
+    "manifesto",
+    "media",
+    "meeting",
+    "proton",
+    "recordings",
+    "reviewed",
+    "slack",
+    "spoke",
+    "written"
+   ],
+   "at": "2026-11-02T01:54:29.699309+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "auto",
+    "better",
+    "carplay",
+    "features",
+    "google",
+    "maps",
+    "work"
+   ],
+   "at": "2026-11-02T01:54:35.597069+00:00"
   }
  ],
  "snapshots": {
-  "hn:50179828": [
-   452,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50179706": [
-   471,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfeeqlqp42r": [
-   165,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfe4zr3hc2z": [
-   470,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfdkhqarv26": [
-   846,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfbzkdcez2d": [
-   1075,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myf4uachcs2a": [
    660,
    "2026-10-21T22:37:13.768401+00:00"
@@ -12817,6 +12827,30 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzbmrvrsi32s": [
    223,
    "2026-11-01T22:12:27.869784+00:00"
+  ],
+  "hn:50330939": [
+   405,
+   "2026-11-02T01:53:43.907864+00:00"
+  ],
+  "hn:50330456": [
+   433,
+   "2026-11-02T01:53:43.907864+00:00"
+  ],
+  "hn:50330253": [
+   251,
+   "2026-11-02T01:53:43.907864+00:00"
+  ],
+  "hn:50328896": [
+   660,
+   "2026-11-02T01:53:43.907864+00:00"
+  ],
+  "lobsters:cqzwwg": [
+   30,
+   "2026-11-02T01:53:43.907864+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzbw2x4enr2g": [
+   330,
+   "2026-11-02T01:53:43.907864+00:00"
   ]
  }
 }
