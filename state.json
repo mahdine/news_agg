@@ -2196,18 +2196,25 @@
   "QyhjKcdvudUwysgZa9Gojd",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzc7ptyraseu",
   "https://news.slashdot.org/story/26/11/02/0159222/binance-reopens-to-364-in-net-outflows-98-choose-to-stay-says-its-founder?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://9to5mac.com/?p=1076902"
+  "https://9to5mac.com/?p=1076902",
+  "lobsters:zjjvbo",
+  "https://www.engadget.com/2300320/ai-glasses-replace-prescription-should-they/",
+  "https://www.engadget.com/2299525/ipad-widgets-didnt-realize-existed/",
+  "https://www.engadget.com/2300324/android-auto-next-update-could-upset-work-life-balance/",
+  "https://www.engadget.com/2300335/how-to-add-rearrange-apps-samsung-smart-tv/",
+  "https://www.theregister.com/a/5306860",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzcavjjq2x2a"
  ],
  "posted": {
-  "viral": 422,
-  "editorial": 573
+  "viral": 424,
+  "editorial": 576
  },
  "recent_labels": [
-  "Simon Willison RSS",
-  "Slashdot",
-  "TechRadar",
-  "Slashdot",
-  "9to5Mac"
+  "Lobsters",
+  "Engadget",
+  "Engadget",
+  "The Register",
+  "404 Media"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6410,80 +6417,44 @@
    "source": "9to5Mac",
    "score": 0.14285,
    "at": "2026-11-02T02:54:15.464477+00:00"
+  },
+  {
+   "title": "پیشرفت در توسعه سیستم فایل جدید GEFS برای OpenBSD",
+   "url": "https://www.undeadly.org/cgi?action=article;sid=20261101115637",
+   "source": "undeadly.org",
+   "score": 0.05262,
+   "at": "2026-11-02T03:53:47.132645+00:00"
+  },
+  {
+   "title": "چالش‌های جایگزینی عینک‌های طبی با عینک‌های هوشمند مجهز به هوش مصنوعی",
+   "url": "https://www.engadget.com/2300320/ai-glasses-replace-prescription-should-they/",
+   "source": "Engadget",
+   "score": 0.03737,
+   "at": "2026-11-02T03:53:52.814679+00:00"
+  },
+  {
+   "title": "احتمال افزودن قابلیت Work Mode به اندروید اتو",
+   "url": "https://www.engadget.com/2300324/android-auto-next-update-could-upset-work-life-balance/",
+   "source": "Engadget",
+   "score": 0.04383,
+   "at": "2026-11-02T03:53:58.795816+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/legal/2026/11/02/google-says-asian-advertisers-spending-less-off-due-to-europes-customs-changes/5306860",
+   "source": "The Register",
+   "score": 0.06057,
+   "at": "2026-11-02T03:54:05.440950+00:00"
+  },
+  {
+   "title": "تجدید ارزیابی شغلی کارکنان Proton با محوریت استفاده از هوش مصنوعی",
+   "url": "https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/",
+   "source": "404media.co",
+   "score": 0.46581,
+   "at": "2026-11-02T03:54:11.783547+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "apple",
-    "date",
-    "lawsuit",
-    "official",
-    "openai",
-    "secrets",
-    "trade",
-    "trial"
-   ],
-   "at": "2026-10-29T04:54:36.407023+00:00"
-  },
-  {
-   "sig": [
-    "3-word",
-    "burns",
-    "claude",
-    "code",
-    "line",
-    "status",
-    "tokens"
-   ],
-   "at": "2026-10-29T04:54:48.223717+00:00"
-  },
-  {
-   "sig": [
-    "blocking",
-    "bluesky",
-    "dhs",
-    "employee",
-    "hacker",
-    "leak",
-    "links",
-    "major",
-    "records",
-    "stole"
-   ],
-   "at": "2026-10-29T04:54:57.976050+00:00"
-  },
-  {
-   "sig": [
-    "capacity",
-    "dead",
-    "fujifilm",
-    "increase",
-    "production",
-    "tape"
-   ],
-   "at": "2026-10-29T06:53:57.737605+00:00"
-  },
-  {
-   "sig": [
-    "33.2",
-    "92.3",
-    "actual",
-    "azure",
-    "billion",
-    "dollars",
-    "hits",
-    "microsoft",
-    "openai",
-    "quarter",
-    "record",
-    "recorded",
-    "reports",
-    "revenue",
-    "shared"
-   ],
-   "at": "2026-10-29T06:54:03.472601+00:00"
-  },
   {
    "sig": [
     "30.7",
@@ -10484,13 +10455,81 @@
     "year"
    ],
    "at": "2026-11-02T02:54:15.464477+00:00"
+  },
+  {
+   "sig": [
+    "enough",
+    "file",
+    "gefs",
+    "good",
+    "openbsd",
+    "progresses",
+    "system",
+    "work"
+   ],
+   "at": "2026-11-02T03:53:47.132645+00:00"
+  },
+  {
+   "sig": [
+    "glasses",
+    "prescription",
+    "replace",
+    "should"
+   ],
+   "at": "2026-11-02T03:53:52.814679+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "auto",
+    "balance",
+    "could",
+    "next",
+    "update",
+    "upset",
+    "work-life"
+   ],
+   "at": "2026-11-02T03:53:58.795816+00:00"
+  },
+  {
+   "sig": [
+    "advertisers",
+    "asian",
+    "changes",
+    "customs",
+    "due",
+    "europe",
+    "google",
+    "less",
+    "spending"
+   ],
+   "at": "2026-11-02T03:54:05.440950+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "andy",
+    "begin",
+    "company",
+    "email",
+    "engineering",
+    "extending",
+    "interviewed",
+    "interviews",
+    "leaders",
+    "leaked",
+    "process",
+    "product",
+    "proton-to-re",
+    "senior",
+    "those",
+    "www.404media.co",
+    "yen"
+   ],
+   "at": "2026-11-02T03:54:11.783547+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myff63jrns2g": [
-   24,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfexlt7m32u": [
    104,
    "2026-10-21T22:37:13.768401+00:00"
@@ -12879,13 +12918,17 @@
    330,
    "2026-11-02T01:53:43.907864+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzcavjjq2x2a": [
-   181,
-   "2026-11-02T02:53:47.578991+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzc7ptyraseu": [
    139,
    "2026-11-02T02:53:47.578991+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzcavjjq2x2a": [
+   272,
+   "2026-11-02T03:53:42.903594+00:00"
+  ],
+  "lobsters:zjjvbo": [
+   28,
+   "2026-11-02T03:53:42.903594+00:00"
   ]
  }
 }
