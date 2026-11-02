@@ -2273,18 +2273,30 @@
   "hn:50334704",
   "6ad7d51fa4cc6513f80c0e64",
   "5dc9ad0a182de80009f7ff25",
-  "https://games.slashdot.org/story/26/11/02/0354237/itch-is-being-flooded-by-ai-generated-garbage?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://games.slashdot.org/story/26/11/02/0354237/itch-is-being-flooded-by-ai-generated-garbage?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "VeQFvgP5hLD5pxhNH6wcyi",
+  "hn:50335615",
+  "hn:50335602",
+  "https://www.neowin.net/news/europe-supermarket-freezers-cyberattack-hits-belgium-netherlands-sweden-luxembourg/",
+  "TheNextWeb=8060ace1818c016bf32fcc1ca3a35b32",
+  "jxtFwVQ3FApu2TSb8o7TyT",
+  "GhaJtjk8j2B6nzLQFZL668",
+  "https://www.theverge.com/?p=1024300",
+  "https://www.securityweek.com/?p=50468",
+  "https://www.techspot.com/news/114407-gears-war-e-day-half-billion-dollar-budget.html",
+  "386b7fd9b4013f8e51f2e11c50632c3e",
+  "https://9to5mac.com/?p=1076940"
  ],
  "posted": {
   "viral": 432,
-  "editorial": 606
+  "editorial": 611
  },
  "recent_labels": [
-  "Hacker News",
-  "Lobsters",
-  "Hacker News",
-  "Wired",
-  "Slashdot"
+  "Tom's Hardware",
+  "The Verge",
+  "SecurityWeek",
+  "Hi-Tech Mail",
+  "9to5Mac"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6788,72 +6800,44 @@
    "source": "Slashdot",
    "score": 0.19886,
    "at": "2026-11-02T12:54:44.910516+00:00"
+  },
+  {
+   "title": "حمله سایبری گسترده به یخچال‌های فروشگاهی در اروپا",
+   "url": "https://www.tomshardware.com/tech-industry/cyber-security/supermarket-freezers-across-europe-struck-in-second-crippling-cyberattack-hackers-raise-temperatures-to-50-degrees-celsius-in-belgium-and-sweden-destroying-food-stocks",
+   "source": "Tom's Hardware",
+   "score": 1.21306,
+   "at": "2026-11-02T13:40:24.840037+00:00"
+  },
+  {
+   "title": "حمله سایبری به سیستم‌های سرمایشی فروشگاه‌های زنجیره‌ای در اروپا",
+   "url": "https://www.theverge.com/tech/1024300/europe-freezer-fridge-hack-cyberattack",
+   "source": "The Verge",
+   "score": 0.18965,
+   "at": "2026-11-02T13:40:32.472004+00:00"
+  },
+  {
+   "title": "افزایش پاداش گوگل برای شناسایی آسیب‌پذیری‌های زیرساخت ابری",
+   "url": "https://www.securityweek.com/google-introduces-250000-root-in-cloud-bug-bounty-reward/",
+   "source": "SecurityWeek",
+   "score": 0.24117,
+   "at": "2026-11-02T13:40:38.195865+00:00"
+  },
+  {
+   "title": "حمله سایبری گسترده به زیرساخت‌های شرکت هاستینگ Beget",
+   "url": "https://hi-tech.mail.ru/news/159563-hosting-provajder-beget-raskryl-prichinu-masshtabnogo-sboya/",
+   "source": "Hi-Tech Mail",
+   "score": 0.20583,
+   "at": "2026-11-02T13:40:52.861442+00:00"
+  },
+  {
+   "title": "اختلال در نمایش زمان ساعت‌های اپل پس از تغییر ساعت تابستانی",
+   "url": "https://9to5mac.com/2026/11/02/always-on-apple-watch-display-showing-the-wrong-time-heres-the-fix/",
+   "source": "9to5Mac",
+   "score": 0.22856,
+   "at": "2026-11-02T13:41:14.037925+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "analysis",
-    "artificial",
-    "carbon",
-    "gemini",
-    "index",
-    "intelligence"
-   ],
-   "at": "2026-10-29T13:54:25.885238+00:00"
-  },
-  {
-   "sig": [
-    "among",
-    "democracy",
-    "despoils",
-    "direct",
-    "ecosystem",
-    "example",
-    "here",
-    "information",
-    "llms-as-search",
-    "long",
-    "other",
-    "puts",
-    "risk",
-    "shouting",
-    "things",
-    "time",
-    "very",
-    "which"
-   ],
-   "at": "2026-10-29T13:54:58.503110+00:00"
-  },
-  {
-   "sig": [
-    "amazon",
-    "assistant",
-    "edit",
-    "gift",
-    "grocery",
-    "lists",
-    "registries",
-    "shopping"
-   ],
-   "at": "2026-10-29T13:55:06.181485+00:00"
-  },
-  {
-   "sig": [
-    "adds",
-    "alternative",
-    "atto",
-    "beginner-friendly",
-    "called",
-    "easing",
-    "editor",
-    "netbsd",
-    "text",
-    "users",
-    "xedit"
-   ],
-   "at": "2026-10-29T14:54:29.073953+00:00"
-  },
   {
    "sig": [
     "android",
@@ -10830,17 +10814,67 @@
     "itch"
    ],
    "at": "2026-11-02T12:54:44.910516+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "belgium",
+    "crippling",
+    "cyber-attack",
+    "cyberattack",
+    "europe",
+    "freezers",
+    "hack",
+    "hit",
+    "hits",
+    "ireland",
+    "luxembourg",
+    "netherlands",
+    "second",
+    "struck",
+    "supermarket",
+    "suspected",
+    "sweden"
+   ],
+   "at": "2026-11-02T13:40:24.840037+00:00"
+  },
+  {
+   "sig": [
+    "european",
+    "freezers",
+    "getting",
+    "hacked",
+    "supermarkets"
+   ],
+   "at": "2026-11-02T13:40:32.472004+00:00"
+  },
+  {
+   "sig": [
+    "bounty",
+    "bug",
+    "google",
+    "introduces",
+    "reward",
+    "root-in-cloud"
+   ],
+   "at": "2026-11-02T13:40:38.195865+00:00"
+  },
+  {
+   "sig": [
+    "always-on",
+    "apple",
+    "display",
+    "fix",
+    "here",
+    "showing",
+    "time",
+    "watch",
+    "wrong"
+   ],
+   "at": "2026-11-02T13:41:14.037925+00:00"
   }
  ],
  "snapshots": {
-  "hn:50180039": [
-   106,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50179857": [
-   151,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "lobsters:ebsqsp": [
    49,
    "2026-10-21T22:37:13.768401+00:00"
@@ -13232,6 +13266,14 @@
   "lobsters:caksp0": [
    29,
    "2026-11-02T12:53:43.773906+00:00"
+  ],
+  "hn:50335615": [
+   184,
+   "2026-11-02T13:40:22.743191+00:00"
+  ],
+  "hn:50335602": [
+   193,
+   "2026-11-02T13:40:22.743191+00:00"
   ]
  }
 }
