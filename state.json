@@ -2258,18 +2258,26 @@
   "5df1238e4a6a5900092a0c89",
   "6765c821323d4215f6f1937e",
   "https://www.techspot.com/article/3192-gpu-pricing-q4-2026/",
-  "https://www.phoronix.com/news/Raspberry-Pi-5-16GB-385"
+  "https://www.phoronix.com/news/Raspberry-Pi-5-16GB-385",
+  "JCcR8LUtJY2RzUZy8HJ3qN",
+  "f6a305fbbe43a9b73561f3ed159e6389",
+  "CNDfyirFpWmzuNuyJqfGnP",
+  "https://www.androidpolice.com/usb-setup-shows-movies-offline/",
+  "3230230",
+  "25d3f2d14be3cb91bcf4708c1ced65a7",
+  "4b0a6e4295748711f4ca6436956d0f50",
+  "LEcwm9f5TPcmW2s4Qn6KUT"
  ],
  "posted": {
   "viral": 429,
-  "editorial": 600
+  "editorial": 604
  },
  "recent_labels": [
-  "The Hacker News",
-  "Lobsters",
-  "Wired",
-  "TechSpot",
-  "Phoronix"
+  "Phoronix",
+  "TechRadar",
+  "Hi-Tech Mail",
+  "vc.ru",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6710,50 +6718,37 @@
    "source": "Phoronix",
    "score": 0.19568,
    "at": "2026-11-02T10:54:27.579456+00:00"
+  },
+  {
+   "title": "قابلیت جدید هوش مصنوعی برای مدیریت سیستم روشنایی هوشمند Philips Hue",
+   "url": "https://www.techradar.com/home/smart-lights/philips-hue-just-launched-its-ambitious-custom-ai-behaviors-but-early-teething-troubles-show-the-smart-assistant-might-not-be-quite-ready-for-prime-time",
+   "source": "TechRadar",
+   "score": 0.15469,
+   "at": "2026-11-02T11:53:54.805683+00:00"
+  },
+  {
+   "title": "جریمه سنگین برای افشای اطلاعات بازی Honkai: Star Rail",
+   "url": "https://hi-tech.mail.ru/news/159539-za-utechki-honkai-star-rail-sud-vzyskal-okolo-12-mln-rublei/",
+   "source": "Hi-Tech Mail",
+   "score": 0.16139,
+   "at": "2026-11-02T11:54:31.068397+00:00"
+  },
+  {
+   "title": "قابلیت چت شخصی در پلتفرم Avito",
+   "url": "https://vc.ru/services/3230230-avito-testiruet-lichnye-chaty?from=rss",
+   "source": "vc.ru",
+   "score": 0.17604,
+   "at": "2026-11-02T11:55:24.402957+00:00"
+  },
+  {
+   "title": "رونمایی از تبلت روسی RayPad S1150 با سیستم‌عامل آвроرا",
+   "url": "https://hi-tech.mail.ru/news/159540-icl-tehno-pokazala-prototip-plansheta-raypad-s1150-na-avrore/",
+   "source": "Hi-Tech Mail",
+   "score": 0.17495,
+   "at": "2026-11-02T11:55:38.029771+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agent",
-    "committee",
-    "context",
-    "costs",
-    "identity",
-    "infere",
-    "open-source",
-    "picks",
-    "program",
-    "qcon",
-    "york"
-   ],
-   "at": "2026-10-29T11:56:24.027871+00:00"
-  },
-  {
-   "sig": [
-    "change",
-    "customizable",
-    "faster",
-    "fully",
-    "menu",
-    "much-needed",
-    "right-click",
-    "tried",
-    "windows"
-   ],
-   "at": "2026-10-29T12:53:42.215147+00:00"
-  },
-  {
-   "sig": [
-    "artificial",
-    "intelligence",
-    "kogui",
-    "message",
-    "people",
-    "urgent"
-   ],
-   "at": "2026-10-29T12:53:51.542105+00:00"
-  },
   {
    "sig": [
     "again",
@@ -10775,6 +10770,37 @@
     "usd"
    ],
    "at": "2026-11-02T10:54:27.579456+00:00"
+  },
+  {
+   "sig": [
+    "assistant",
+    "don",
+    "expect",
+    "finally",
+    "here",
+    "hue",
+    "lighting",
+    "perfection",
+    "philips"
+   ],
+   "at": "2026-11-02T11:53:54.805683+00:00"
+  },
+  {
+   "sig": [
+    "honkai",
+    "mihoyo",
+    "rail",
+    "star"
+   ],
+   "at": "2026-11-02T11:54:31.068397+00:00"
+  },
+  {
+   "sig": [
+    "icl",
+    "raypad",
+    "s1150"
+   ],
+   "at": "2026-11-02T11:55:38.029771+00:00"
   }
  ],
  "snapshots": {
