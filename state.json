@@ -2203,18 +2203,28 @@
   "https://www.engadget.com/2300324/android-auto-next-update-could-upset-work-life-balance/",
   "https://www.engadget.com/2300335/how-to-add-rearrange-apps-samsung-smart-tv/",
   "https://www.theregister.com/a/5306860",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzcavjjq2x2a"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzcavjjq2x2a",
+  "https://tech.slashdot.org/story/26/11/01/2333233/toyotas-ev-sales-more-than-doubled-in-a-year-while-its-gas-car-sales-dropped-20-in-china?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "D3KezoTuQV25prf4C3PA6E",
+  "bsMCiKQDpnfeGasmnAYTgF",
+  "dhAfJuNX26zUgRbPWFChcB",
+  "HPY5xmiRv3jfAv6cdNjzeD",
+  "https://www.androidpolice.com/professional-camera-app-open-source-free/",
+  "nUCMbDje9pmhwjtav5XyWo",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzcf43bo3ceu",
+  "https://9to5mac.com/?p=1076912",
+  "https://www.theregister.com/a/5306872"
  ],
  "posted": {
   "viral": 424,
-  "editorial": 576
+  "editorial": 578
  },
  "recent_labels": [
-  "Lobsters",
-  "Engadget",
   "Engadget",
   "The Register",
-  "404 Media"
+  "404 Media",
+  "Android Police",
+  "TechRadar"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6452,36 +6462,23 @@
    "source": "404media.co",
    "score": 0.46581,
    "at": "2026-11-02T03:54:11.783547+00:00"
+  },
+  {
+   "title": "معرفی اپلیکیشن Open Camera برای کنترل حرفه‌ای دوربین در اندروید",
+   "url": "https://www.androidpolice.com/professional-camera-app-open-source-free/",
+   "source": "Android Police",
+   "score": 0.02416,
+   "at": "2026-11-02T04:53:55.667036+00:00"
+  },
+  {
+   "title": "به‌کارگیری هوش مصنوعی Claude در تحقیقات دارویی و توسعه درمان‌های جدید",
+   "url": "https://www.techradar.com/pro/anthropic-wants-to-use-claude-ai-to-help-discover-new-lifesaving-drugs-says-the-best-way-to-identify-and-work-through-these-bottlenecks-is-to-get-deeply-involved-in-real-drug-programs",
+   "source": "TechRadar",
+   "score": 0.04914,
+   "at": "2026-11-02T04:54:01.528923+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "30.7",
-    "billion",
-    "cloud",
-    "doubles",
-    "google",
-    "hits",
-    "infra",
-    "revenue",
-    "spending"
-   ],
-   "at": "2026-10-29T06:54:12.040503+00:00"
-  },
-  {
-   "sig": [
-    "ainews",
-    "carbon",
-    "cyber",
-    "defenders",
-    "gemini",
-    "launches",
-    "leaderboards",
-    "tops"
-   ],
-   "at": "2026-10-29T06:54:30.810655+00:00"
-  },
   {
    "sig": [
     "better",
@@ -10527,13 +10524,47 @@
     "yen"
    ],
    "at": "2026-11-02T03:54:11.783547+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "camera",
+    "feels",
+    "phone",
+    "photos",
+    "post-processing",
+    "professional",
+    "right",
+    "unnecessary"
+   ],
+   "at": "2026-11-02T04:53:55.667036+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "best",
+    "bottlenecks",
+    "claude",
+    "deeply",
+    "discover",
+    "drug",
+    "drugs",
+    "help",
+    "identify",
+    "involved",
+    "lifesaving",
+    "programs",
+    "real",
+    "these",
+    "through",
+    "wants",
+    "way",
+    "work"
+   ],
+   "at": "2026-11-02T04:54:01.528923+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfexlt7m32u": [
-   104,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myf3jxirrs2g": [
    23,
    "2026-10-21T22:37:13.768401+00:00"
@@ -12929,6 +12960,10 @@
   "lobsters:zjjvbo": [
    28,
    "2026-11-02T03:53:42.903594+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzcf43bo3ceu": [
+   88,
+   "2026-11-02T04:53:50.639635+00:00"
   ]
  }
 }
