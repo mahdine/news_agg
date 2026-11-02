@@ -2232,18 +2232,26 @@
   "3230164",
   "https://www.theregister.com/a/5306879",
   "https://www.neowin.net/news/microsoft-issues-final-warning-and-guidance-on-entra-id-memberof-retirement/",
-  "https://www.neowin.net/news/binance-faces-billions-in-user-withdrawals-following-massive-security-breach/"
+  "https://www.neowin.net/news/binance-faces-billions-in-user-withdrawals-following-massive-security-breach/",
+  "hn:50331957",
+  "557fbd0175abe06a38f5440d54936be7",
+  "8c4307202d4a5968db9e380c909652e6",
+  "9dccb4af252f12566a643fa7f8f6b2af",
+  "3b0f709ef6821576fbc38286db64048e",
+  "e871f84c12be5d61869e6eaa7a750eb4",
+  "TheNextWeb=50234449e13d28eeb6654ba11190b6e1",
+  "c7932fe4566e391d90823867d4232e24"
  ],
  "posted": {
   "viral": 428,
-  "editorial": 589
+  "editorial": 591
  },
  "recent_labels": [
-  "Hacker News",
-  "vc.ru",
   "The Register",
   "Neowin",
-  "Neowin"
+  "Neowin",
+  "Hi-Tech Mail",
+  "The Next Web"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6600,21 +6608,23 @@
    "source": "Neowin",
    "score": 0.11762,
    "at": "2026-11-02T07:54:11.563598+00:00"
+  },
+  {
+   "title": "نگرانی کاربران از اشتراک‌گذاری داده‌های حساس با هوش مصنوعی",
+   "url": "https://hi-tech.mail.ru/news/159457-71-uchastnikov-oprosa-hi-tech-mail-ne-doverili-by-ii/",
+   "source": "Hi-Tech Mail",
+   "score": 0.11505,
+   "at": "2026-11-02T08:54:25.629475+00:00"
+  },
+  {
+   "title": "همکاری ADNOC با OpenAI و G42 برای پیاده‌سازی هوش مصنوعی در صنعت انرژی",
+   "url": "https://thenextweb.com/news/adnoc-openai-g42-frontier-ai-deal",
+   "source": "The Next Web",
+   "score": 0.13817,
+   "at": "2026-11-02T08:54:40.833490+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "actions",
-    "agents",
-    "monitor",
-    "need",
-    "real",
-    "time",
-    "urgently"
-   ],
-   "at": "2026-10-29T10:54:00.633782+00:00"
-  },
   {
    "sig": [
     "chunky",
@@ -10675,13 +10685,22 @@
     "withdrawals"
    ],
    "at": "2026-11-02T07:54:11.563598+00:00"
+  },
+  {
+   "sig": [
+    "adnoc",
+    "agents",
+    "deal",
+    "deploy",
+    "frontier",
+    "g42",
+    "openai",
+    "signs"
+   ],
+   "at": "2026-11-02T08:54:40.833490+00:00"
   }
  ],
  "snapshots": {
-  "hn:50182130": [
-   78,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "hn:50181326": [
    130,
    "2026-10-21T22:37:13.768401+00:00"
@@ -13077,6 +13096,10 @@
   "hn:50333339": [
    98,
    "2026-11-02T07:53:43.594501+00:00"
+  ],
+  "hn:50331957": [
+   73,
+   "2026-11-02T08:53:50.045127+00:00"
   ]
  }
 }
