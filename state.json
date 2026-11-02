@@ -2294,18 +2294,26 @@
   "https://www.engadget.com/2300337/difference-between-airpods-noise-cancellation-adaptive-audio-modes/",
   "PXr7qHE2wEZTXctAD7nLpJ",
   "fff6beacd19fd3897ef0085a1b00e3e1",
-  "https://www.androidpolice.com/reduced-usage-of-habitnow-improved-my-mental-health/"
+  "https://www.androidpolice.com/reduced-usage-of-habitnow-improved-my-mental-health/",
+  "hn:50335341",
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mzdgpm5fcl2t",
+  "lobsters:maqsgl",
+  "hn:50337439",
+  "hn:50337725",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzdm5ibtv223",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzdmwy3etk2f",
+  "hn:50338747"
  ],
  "posted": {
-  "viral": 432,
+  "viral": 436,
   "editorial": 614
  },
  "recent_labels": [
   "Hi-Tech Mail",
-  "9to5Mac",
-  "MIT Tech Review",
-  "TechRadar",
-  "Hi-Tech Mail"
+  "Filippo Valsorda",
+  "Hacker News",
+  "404 Media",
+  "Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6865,67 +6873,37 @@
    "source": "Hi-Tech Mail",
    "score": 0.10592,
    "at": "2026-11-02T13:56:51.151922+00:00"
+  },
+  {
+   "title": "انتقاد از انتخاب الگوریتم ترکیبی در به‌روزرسانی جدید OpenSSH",
+   "url": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mzdgpm5fcl2t",
+   "source": "Filippo Valsorda",
+   "score": 0.16904,
+   "at": "2026-11-02T16:54:10.732895+00:00"
+  },
+  {
+   "title": "گزارش مالی Anthropic در آستانه عرضه عمومی سهام",
+   "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+   "source": "cnbc.com",
+   "score": 0.48475,
+   "at": "2026-11-02T16:54:27.132333+00:00"
+  },
+  {
+   "title": "چالش‌های گسترش مراکز داده و مخالفت جوامع محلی با غول‌های فناوری",
+   "url": "https://bsky.app/profile/404media.co/post/3mzdmwy3etk2f",
+   "source": "404 Media",
+   "score": 0.12841,
+   "at": "2026-11-02T16:55:20.694402+00:00"
+  },
+  {
+   "title": "مهاجرت PostHog از DuckDB به معماری جدید مبتنی بر Trino",
+   "url": "https://posthog.com/blog/moving-off-duckdb",
+   "source": "posthog.com",
+   "score": 0.65629,
+   "at": "2026-11-02T16:55:35.968005+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "andy",
-    "big",
-    "build",
-    "calm",
-    "ceo",
-    "concerns",
-    "critiques",
-    "engineers",
-    "even",
-    "internally",
-    "persona",
-    "projects",
-    "proton",
-    "pushing",
-    "rails",
-    "security",
-    "tech",
-    "yen"
-   ],
-   "at": "2026-10-29T14:56:16.035314+00:00"
-  },
-  {
-   "sig": [
-    "1.25b",
-    "agent",
-    "apps",
-    "builds",
-    "latest",
-    "mini",
-    "round",
-    "valued",
-    "wabi"
-   ],
-   "at": "2026-10-29T14:56:24.403653+00:00"
-  },
-  {
-   "sig": [
-    "agentic",
-    "developers",
-    "development",
-    "good",
-    "wary"
-   ],
-   "at": "2026-10-29T16:53:52.318654+00:00"
-  },
-  {
-   "sig": [
-    "come",
-    "numbers",
-    "quotes",
-    "stats",
-    "where",
-    "zombie"
-   ],
-   "at": "2026-10-29T16:54:04.104751+00:00"
-  },
   {
    "sig": [
     "andy",
@@ -10892,53 +10870,73 @@
     "were"
    ],
    "at": "2026-11-02T13:56:15.354023+00:00"
+  },
+  {
+   "sig": [
+    "algorithm",
+    "auth",
+    "choice",
+    "ed25519",
+    "kinda",
+    "ml-dsa-44",
+    "openssh",
+    "post-quantum",
+    "sad"
+   ],
+   "at": "2026-11-02T16:54:10.732895+00:00"
+  },
+  {
+   "sig": [
+    "17b",
+    "895b",
+    "anthropic",
+    "commitments",
+    "reports",
+    "revenue",
+    "revised",
+    "s-1"
+   ],
+   "at": "2026-11-02T16:54:27.132333+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "big",
+    "built",
+    "centers",
+    "communities",
+    "data",
+    "despite",
+    "episode",
+    "keeler",
+    "kyle",
+    "lines",
+    "media",
+    "mjgault.bsky.social",
+    "nate",
+    "otjen",
+    "party",
+    "plowing",
+    "podcast",
+    "professors",
+    "residents",
+    "speaking",
+    "talk",
+    "tech",
+    "way"
+   ],
+   "at": "2026-11-02T16:55:20.694402+00:00"
+  },
+  {
+   "sig": [
+    "duckdb",
+    "moving",
+    "warehouse"
+   ],
+   "at": "2026-11-02T16:55:35.968005+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:ebsqsp": [
-   49,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myftj62s5k2z": [
-   174,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfnmfeksj2j": [
-   143,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3myfmdrox3k2u": [
-   93,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfte67pjs2w": [
-   19,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfpgo6gq22g": [
-   42,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfpgfsc5q2u": [
-   59,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfoqauwk42t": [
-   71,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfhp77l722g": [
-   53,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50187708": [
-   116,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50186318": [
-   261,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "hn:50186215": [
    209,
    "2026-10-21T22:37:13.768401+00:00"
@@ -13294,6 +13292,50 @@
   "hn:50335602": [
    193,
    "2026-11-02T13:40:22.743191+00:00"
+  ],
+  "hn:50338747": [
+   95,
+   "2026-11-02T16:53:56.600055+00:00"
+  ],
+  "hn:50337725": [
+   307,
+   "2026-11-02T16:53:56.600055+00:00"
+  ],
+  "hn:50337439": [
+   460,
+   "2026-11-02T16:53:56.600055+00:00"
+  ],
+  "hn:50336518": [
+   113,
+   "2026-11-02T16:53:56.600055+00:00"
+  ],
+  "hn:50335341": [
+   119,
+   "2026-11-02T16:53:56.600055+00:00"
+  ],
+  "hn:50334372": [
+   362,
+   "2026-11-02T16:53:56.600055+00:00"
+  ],
+  "hn:50333774": [
+   72,
+   "2026-11-02T16:53:56.600055+00:00"
+  ],
+  "lobsters:maqsgl": [
+   27,
+   "2026-11-02T16:53:56.600055+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzdmwy3etk2f": [
+   333,
+   "2026-11-02T16:53:56.600055+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mzdgpm5fcl2t": [
+   46,
+   "2026-11-02T16:53:56.600055+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzdm5ibtv223": [
+   6,
+   "2026-11-02T16:53:56.600055+00:00"
   ]
  }
 }
