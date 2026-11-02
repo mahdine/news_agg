@@ -2248,18 +2248,28 @@
   "https://www.theregister.com/a/5306715",
   "N79sASJ27nwzcJKz9aVUEB",
   "a2d7fcd8295e5997d0c405e42cd4591d",
-  "6e4c43e7252157f446b618e05f1041fc"
+  "6e4c43e7252157f446b618e05f1041fc",
+  "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+  "https://www.theverge.com/?p=1024176",
+  "https://www.techspot.com/news/114392-binance-loses-63-billion-largest-crypto-heist-ever.html",
+  "https://www.securityweek.com/?p=50459",
+  "lobsters:0yxkvs",
+  "6ace3a4387812505ce91e493",
+  "5df1238e4a6a5900092a0c89",
+  "6765c821323d4215f6f1937e",
+  "https://www.techspot.com/article/3192-gpu-pricing-q4-2026/",
+  "https://www.phoronix.com/news/Raspberry-Pi-5-16GB-385"
  ],
  "posted": {
-  "viral": 428,
-  "editorial": 596
+  "viral": 429,
+  "editorial": 600
  },
  "recent_labels": [
-  "InfoQ",
-  "The Register",
-  "The Register",
-  "TechRadar",
-  "Hi-Tech Mail"
+  "The Hacker News",
+  "Lobsters",
+  "Wired",
+  "TechSpot",
+  "Phoronix"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6665,79 +6675,44 @@
    "source": "Hi-Tech Mail",
    "score": 0.1126,
    "at": "2026-11-02T09:54:55.304614+00:00"
+  },
+  {
+   "title": "سرقت ۶.۴۳ میلیارد دلاری از صرافی Binance توسط گروه هکری TraderTraitor",
+   "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+   "source": "The Hacker News",
+   "score": 0.30911,
+   "at": "2026-11-02T10:53:53.247952+00:00"
+  },
+  {
+   "title": "تاخیر در انتشار نسخه ۱۹ دیتابیس Postgres به دلیل تمرکز بر هوش مصنوعی",
+   "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+   "source": "rhaas.blogspot.com",
+   "score": 0.04547,
+   "at": "2026-11-02T10:53:59.845004+00:00"
+  },
+  {
+   "title": "شبکه‌ای از اپلیکیشن‌های مخرب برای تولید دیپ‌فیک‌های غیراخلاقی کشف شد",
+   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "source": "Wired",
+   "score": 0.16307,
+   "at": "2026-11-02T10:54:07.771598+00:00"
+  },
+  {
+   "title": "افزایش بی‌سابقه‌ی قیمت کارت‌های گرافیک در بازار جهانی",
+   "url": "https://www.techspot.com/article/3192-gpu-pricing-q4-2026/",
+   "source": "TechSpot",
+   "score": 0.13874,
+   "at": "2026-11-02T10:54:17.270296+00:00"
+  },
+  {
+   "title": "افزایش قیمت مدل ۱۶ گیگابایتی Raspberry Pi 5 به ۳۸۵ دلار",
+   "url": "https://www.phoronix.com/news/Raspberry-Pi-5-16GB-385",
+   "source": "Phoronix",
+   "score": 0.19568,
+   "at": "2026-11-02T10:54:27.579456+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "code",
-    "libreoffice",
-    "llm-assisted",
-    "meets",
-    "stance"
-   ],
-   "at": "2026-10-29T11:39:35.266502+00:00"
-  },
-  {
-   "sig": [
-    "alone",
-    "bugs",
-    "chain",
-    "cracked",
-    "edge",
-    "forging",
-    "full",
-    "logic",
-    "microsoft",
-    "pwn2own",
-    "researcher",
-    "reveals",
-    "win"
-   ],
-   "at": "2026-10-29T11:54:07.949522+00:00"
-  },
-  {
-   "sig": [
-    "block",
-    "firewall",
-    "github",
-    "installation",
-    "launches",
-    "malicious",
-    "npm",
-    "packages"
-   ],
-   "at": "2026-10-29T11:54:14.993386+00:00"
-  },
-  {
-   "sig": [
-    "actively",
-    "asa",
-    "cisco",
-    "crash",
-    "exploited",
-    "firewalls",
-    "flaw",
-    "ftd",
-    "patches",
-    "vpn"
-   ],
-   "at": "2026-10-29T11:55:47.207990+00:00"
-  },
-  {
-   "sig": [
-    "2.6",
-    "hackers",
-    "isp",
-    "japanese",
-    "million",
-    "records",
-    "so-net",
-    "sony",
-    "steal"
-   ],
-   "at": "2026-10-29T11:56:13.568078+00:00"
-  },
   {
    "sig": [
     "agent",
@@ -10734,13 +10709,75 @@
     "telemetry"
    ],
    "at": "2026-11-02T09:54:41.744006+00:00"
+  },
+  {
+   "sig": [
+    "6.3",
+    "6.43",
+    "addresses",
+    "billion",
+    "binance",
+    "crypto",
+    "ever",
+    "fbi",
+    "flags",
+    "heist",
+    "korea",
+    "largest",
+    "linked",
+    "links",
+    "loses",
+    "massive",
+    "north",
+    "record",
+    "tied",
+    "tradertraitor"
+   ],
+   "at": "2026-11-02T10:53:53.247952+00:00"
+  },
+  {
+   "sig": [
+    "fault",
+    "late",
+    "postgres"
+   ],
+   "at": "2026-11-02T10:53:59.845004+00:00"
+  },
+  {
+   "sig": [
+    "abusive",
+    "apps",
+    "deepfake",
+    "features",
+    "hiding",
+    "hundreds",
+    "mundane",
+    "sexually"
+   ],
+   "at": "2026-11-02T10:54:07.771598+00:00"
+  },
+  {
+   "sig": [
+    "control",
+    "gpu",
+    "prices",
+    "spiraling",
+    "update"
+   ],
+   "at": "2026-11-02T10:54:17.270296+00:00"
+  },
+  {
+   "sig": [
+    "16gb",
+    "price",
+    "raspberry",
+    "rises",
+    "usd"
+   ],
+   "at": "2026-11-02T10:54:27.579456+00:00"
   }
  ],
  "snapshots": {
-  "hn:50181326": [
-   130,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "hn:50181114": [
    620,
    "2026-10-21T22:37:13.768401+00:00"
@@ -13136,6 +13173,10 @@
   "hn:50331957": [
    73,
    "2026-11-02T08:53:50.045127+00:00"
+  ],
+  "lobsters:0yxkvs": [
+   30,
+   "2026-11-02T10:53:46.736746+00:00"
   ]
  }
 }
