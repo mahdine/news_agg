@@ -2213,18 +2213,26 @@
   "nUCMbDje9pmhwjtav5XyWo",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzcf43bo3ceu",
   "https://9to5mac.com/?p=1076912",
-  "https://www.theregister.com/a/5306872"
+  "https://www.theregister.com/a/5306872",
+  "hn:50332086",
+  "hn:50332163",
+  "https://www.theverge.com/?p=1023173",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzck5d2pfa2n",
+  "https://9to5mac.com/?p=1044511",
+  "https://tech.slashdot.org/story/26/11/02/0317207/rocky-linux-creator-built-a-new-not-linux-kernel-in-11-days-using-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "3230140",
+  "https://www.neowin.net/news/apple-rewind-a-lot-of-apple-hardware-glowing-logo-returns-and-apples-smart-display/"
  ],
  "posted": {
-  "viral": 424,
-  "editorial": 578
+  "viral": 426,
+  "editorial": 581
  },
  "recent_labels": [
-  "Engadget",
-  "The Register",
+  "Hacker News",
   "404 Media",
-  "Android Police",
-  "TechRadar"
+  "Slashdot",
+  "vc.ru",
+  "Neowin"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6476,62 +6484,44 @@
    "source": "TechRadar",
    "score": 0.04914,
    "at": "2026-11-02T04:54:01.528923+00:00"
+  },
+  {
+   "title": "هجوم سایت‌های تولیدشده با هوش مصنوعی به ویکی‌های بازی‌های ویدئویی",
+   "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+   "source": "eurogamer.net",
+   "score": 0.16569,
+   "at": "2026-11-02T05:53:58.153216+00:00"
+  },
+  {
+   "title": "مشکل جدی در نمایشگر تاشوی آیفون دوو",
+   "url": "https://www.404media.co/iphone-duo-crackgate-crease-folding-phone/",
+   "source": "404media.co",
+   "score": 0.08502,
+   "at": "2026-11-02T05:54:05.963646+00:00"
+  },
+  {
+   "title": "توسعه هسته سیستم‌عامل جدید Ginux با کمک هوش مصنوعی",
+   "url": "https://tech.slashdot.org/story/26/11/02/0317207/rocky-linux-creator-built-a-new-not-linux-kernel-in-11-days-using-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.13982,
+   "at": "2026-11-02T05:54:13.173121+00:00"
+  },
+  {
+   "title": "ساخت دیتاسنترهای زیرزمینی توسط شرکت Rostelecom",
+   "url": "https://vc.ru/money/3230140-rostelekom-stroitelstvo-podzemnyh-data-tsentrov?from=rss",
+   "source": "vc.ru",
+   "score": 0.13811,
+   "at": "2026-11-02T05:54:22.412287+00:00"
+  },
+  {
+   "title": "شایعات جدید درباره محصولات آینده اپل و بازگشت لوگوی درخشان",
+   "url": "https://www.neowin.net/news/apple-rewind-a-lot-of-apple-hardware-glowing-logo-returns-and-apples-smart-display/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.15389,
+   "at": "2026-11-02T05:54:28.712750+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "better",
-    "code",
-    "combines",
-    "copilot",
-    "cost",
-    "don",
-    "english",
-    "fusion",
-    "github",
-    "lower",
-    "models",
-    "multiple",
-    "write"
-   ],
-   "at": "2026-10-29T07:53:44.473977+00:00"
-  },
-  {
-   "sig": [
-    "adds",
-    "app",
-    "aren",
-    "cooking",
-    "features",
-    "thrilled",
-    "times",
-    "users",
-    "york"
-   ],
-   "at": "2026-10-29T07:54:04.946760+00:00"
-  },
-  {
-   "sig": [
-    "adopt",
-    "llm",
-    "microzig",
-    "policy",
-    "strict"
-   ],
-   "at": "2026-10-29T07:54:11.460019+00:00"
-  },
-  {
-   "sig": [
-    "api",
-    "applications",
-    "cloudflare",
-    "introduces",
-    "search",
-    "web"
-   ],
-   "at": "2026-10-29T07:54:17.855494+00:00"
-  },
   {
    "sig": [
     "android",
@@ -10562,21 +10552,56 @@
     "work"
    ],
    "at": "2026-11-02T04:54:01.528923+00:00"
+  },
+  {
+   "sig": [
+    "culture",
+    "errors",
+    "fan",
+    "games",
+    "muddying",
+    "riddled",
+    "waters",
+    "wikis"
+   ],
+   "at": "2026-11-02T05:53:58.153216+00:00"
+  },
+  {
+   "sig": [
+    "crackgate",
+    "iphone-duo-c",
+    "www.404media.co"
+   ],
+   "at": "2026-11-02T05:54:05.963646+00:00"
+  },
+  {
+   "sig": [
+    "built",
+    "creator",
+    "days",
+    "kernel",
+    "linux",
+    "rocky",
+    "using"
+   ],
+   "at": "2026-11-02T05:54:13.173121+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "display",
+    "glowing",
+    "hardware",
+    "logo",
+    "lot",
+    "returns",
+    "rewind",
+    "smart"
+   ],
+   "at": "2026-11-02T05:54:28.712750+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myf3jxirrs2g": [
-   23,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50185045": [
-   341,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50184820": [
-   569,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "hn:50183727": [
    212,
    "2026-10-21T22:37:13.768401+00:00"
@@ -12964,6 +12989,18 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzcf43bo3ceu": [
    88,
    "2026-11-02T04:53:50.639635+00:00"
+  ],
+  "hn:50332163": [
+   72,
+   "2026-11-02T05:53:55.673295+00:00"
+  ],
+  "hn:50332086": [
+   121,
+   "2026-11-02T05:53:55.673295+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzck5d2pfa2n": [
+   120,
+   "2026-11-02T05:53:55.673295+00:00"
   ]
  }
 }
