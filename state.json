@@ -2302,15 +2302,23 @@
   "hn:50337725",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzdm5ibtv223",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzdmwy3etk2f",
-  "hn:50338747"
+  "hn:50338747",
+  "hn:50334372",
+  "lobsters:saskzi",
+  "hn:50336518",
+  "hn:50337454",
+  "hn:50338728",
+  "hn:50339221",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzdt7me33w2r",
+  "hn:50340088"
  ],
  "posted": {
-  "viral": 436,
+  "viral": 441,
   "editorial": 614
  },
  "recent_labels": [
-  "Hi-Tech Mail",
-  "Filippo Valsorda",
+  "Lobsters",
+  "Hacker News",
   "Hacker News",
   "404 Media",
   "Hacker News"
@@ -6901,95 +6909,44 @@
    "source": "posthog.com",
    "score": 0.65629,
    "at": "2026-11-02T16:55:35.968005+00:00"
+  },
+  {
+   "title": "مسدودسازی دسترسی به وبلاگ به دلیل مقابله با خزنده‌های هوش مصنوعی",
+   "url": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/ServerRAMGrowthReflex",
+   "source": "utcc.utoronto.ca",
+   "score": 0.05454,
+   "at": "2026-11-02T17:53:45.180940+00:00"
+  },
+  {
+   "title": "راهنمای عملی برای آرشیو کردن و حفظ وب‌سایت‌های شخصی",
+   "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+   "source": "blog.mistys-internet.website",
+   "score": 0.01336,
+   "at": "2026-11-02T17:53:51.721432+00:00"
+  },
+  {
+   "title": "نقشه سه‌بعدی تعاملی شهر ورشو با استفاده از داده‌های باز",
+   "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+   "source": "p.migdal.pl",
+   "score": 0.12118,
+   "at": "2026-11-02T17:54:00.490050+00:00"
+  },
+  {
+   "title": "استفاده از تصاویر تولیدشده با هوش مصنوعی در برچسب‌های انتخاباتی",
+   "url": "https://www.404media.co/voting-in-2026-is-getting-an-ai-slop-i-voted-sticker/",
+   "source": "404media.co",
+   "score": 0.42015,
+   "at": "2026-11-02T17:54:07.291737+00:00"
+  },
+  {
+   "title": "عینک هوشمند Subvocal برای تبدیل حرکات لب به متن بدون تولید صدا",
+   "url": "https://subvocal.company/",
+   "source": "subvocal.company",
+   "score": 0.24493,
+   "at": "2026-11-02T17:54:14.207403+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "andy",
-    "asked",
-    "bullshit",
-    "ceo",
-    "company",
-    "days",
-    "employee",
-    "few",
-    "going",
-    "him",
-    "investigation",
-    "live",
-    "loser",
-    "product",
-    "proton",
-    "responded",
-    "saying",
-    "test",
-    "thinking",
-    "yen"
-   ],
-   "at": "2026-10-29T16:54:41.678815+00:00"
-  },
-  {
-   "sig": [
-    "alphabet",
-    "ever",
-    "first",
-    "google",
-    "less",
-    "money",
-    "plunge",
-    "revenue",
-    "search",
-    "shares",
-    "struggles",
-    "time"
-   ],
-   "at": "2026-10-29T17:54:08.913101+00:00"
-  },
-  {
-   "sig": [
-    "aimed",
-    "asset",
-    "ceo",
-    "chinese",
-    "claims",
-    "huang",
-    "intelligence",
-    "investigated",
-    "jensen",
-    "may",
-    "nvidia",
-    "plot",
-    "report",
-    "spy",
-    "target",
-    "through"
-   ],
-   "at": "2026-10-29T17:54:37.144898+00:00"
-  },
-  {
-   "sig": [
-    "blackwell",
-    "gpus",
-    "grace",
-    "needs",
-    "racks",
-    "same",
-    "scheduler",
-    "usable"
-   ],
-   "at": "2026-10-29T17:55:12.557803+00:00"
-  },
-  {
-   "sig": [
-    "data",
-    "equations",
-    "extract",
-    "keplearn",
-    "seconds"
-   ],
-   "at": "2026-10-29T18:33:52.049547+00:00"
-  },
   {
    "sig": [
     "awarded",
@@ -10934,33 +10891,64 @@
     "warehouse"
    ],
    "at": "2026-11-02T16:55:35.968005+00:00"
+  },
+  {
+   "sig": [
+    "amounts",
+    "assuming",
+    "ever-growing",
+    "need",
+    "ram",
+    "reflex",
+    "servers"
+   ],
+   "at": "2026-11-02T17:53:45.180940+00:00"
+  },
+  {
+   "sig": [
+    "back",
+    "love",
+    "website"
+   ],
+   "at": "2026-11-02T17:53:51.721432+00:00"
+  },
+  {
+   "sig": [
+    "centre",
+    "city",
+    "interactive",
+    "map",
+    "show",
+    "voxels",
+    "warsaw"
+   ],
+   "at": "2026-11-02T17:54:00.490050+00:00"
+  },
+  {
+   "sig": [
+    "handing",
+    "midterm",
+    "place",
+    "polling",
+    "slop",
+    "voters"
+   ],
+   "at": "2026-11-02T17:54:07.291737+00:00"
+  },
+  {
+   "sig": [
+    "computer",
+    "making",
+    "noise",
+    "show",
+    "subvocal",
+    "talk",
+    "without"
+   ],
+   "at": "2026-11-02T17:54:14.207403+00:00"
   }
  ],
  "snapshots": {
-  "hn:50186215": [
-   209,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50186129": [
-   499,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50186043": [
-   106,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50185814": [
-   86,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50185630": [
-   139,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50183512": [
-   137,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "hn:50182960": [
    152,
    "2026-10-21T22:37:13.768401+00:00"
@@ -13305,20 +13293,8 @@
    460,
    "2026-11-02T16:53:56.600055+00:00"
   ],
-  "hn:50336518": [
-   113,
-   "2026-11-02T16:53:56.600055+00:00"
-  ],
   "hn:50335341": [
    119,
-   "2026-11-02T16:53:56.600055+00:00"
-  ],
-  "hn:50334372": [
-   362,
-   "2026-11-02T16:53:56.600055+00:00"
-  ],
-  "hn:50333774": [
-   72,
    "2026-11-02T16:53:56.600055+00:00"
   ],
   "lobsters:maqsgl": [
@@ -13336,6 +13312,42 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzdm5ibtv223": [
    6,
    "2026-11-02T16:53:56.600055+00:00"
+  ],
+  "hn:50336518": [
+   222,
+   "2026-11-02T17:53:41.408735+00:00"
+  ],
+  "hn:50334372": [
+   370,
+   "2026-11-02T17:53:41.408735+00:00"
+  ],
+  "hn:50333774": [
+   73,
+   "2026-11-02T17:53:41.408735+00:00"
+  ],
+  "hn:50340088": [
+   122,
+   "2026-11-02T17:53:41.408735+00:00"
+  ],
+  "hn:50339221": [
+   85,
+   "2026-11-02T17:53:41.408735+00:00"
+  ],
+  "hn:50338728": [
+   194,
+   "2026-11-02T17:53:41.408735+00:00"
+  ],
+  "hn:50337454": [
+   222,
+   "2026-11-02T17:53:41.408735+00:00"
+  ],
+  "lobsters:saskzi": [
+   25,
+   "2026-11-02T17:53:41.408735+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzdt7me33w2r": [
+   157,
+   "2026-11-02T17:53:41.408735+00:00"
   ]
  }
 }
