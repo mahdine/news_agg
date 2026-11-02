@@ -2285,18 +2285,27 @@
   "https://www.securityweek.com/?p=50468",
   "https://www.techspot.com/news/114407-gears-war-e-day-half-billion-dollar-budget.html",
   "386b7fd9b4013f8e51f2e11c50632c3e",
-  "https://9to5mac.com/?p=1076940"
+  "https://9to5mac.com/?p=1076940",
+  "https://www.article19.org/?post_type=resources&p=391853",
+  "TheNextWeb=166b23a987c56525e9a12f38c02afbc5",
+  "https://www.technologyreview.com/?p=1147889",
+  "https://www.technologyreview.com/?p=1147846",
+  "https://www.technologyreview.com/?p=1147702",
+  "https://www.engadget.com/2300337/difference-between-airpods-noise-cancellation-adaptive-audio-modes/",
+  "PXr7qHE2wEZTXctAD7nLpJ",
+  "fff6beacd19fd3897ef0085a1b00e3e1",
+  "https://www.androidpolice.com/reduced-usage-of-habitnow-improved-my-mental-health/"
  ],
  "posted": {
   "viral": 432,
-  "editorial": 611
+  "editorial": 614
  },
  "recent_labels": [
-  "Tom's Hardware",
-  "The Verge",
-  "SecurityWeek",
   "Hi-Tech Mail",
-  "9to5Mac"
+  "9to5Mac",
+  "MIT Tech Review",
+  "TechRadar",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6835,43 +6844,30 @@
    "source": "9to5Mac",
    "score": 0.22856,
    "at": "2026-11-02T13:41:14.037925+00:00"
+  },
+  {
+   "title": "مدیریت هزینه‌های سرسام‌آور کدهای هوش مصنوعی در سازمان‌ها",
+   "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+   "source": "MIT Tech Review",
+   "score": 0.17189,
+   "at": "2026-11-02T13:54:53.911216+00:00"
+  },
+  {
+   "title": "محدودسازی ربات هوش مصنوعی گروک به دلیل هزینه‌های بالای پردازش",
+   "url": "https://www.techradar.com/ai-platforms-assistants/elon-musk-says-grok-bot-was-throttled-because-costs-were-unsustainably-high-as-users-call-the-move-a-rug-pull",
+   "source": "TechRadar",
+   "score": 0.14851,
+   "at": "2026-11-02T13:56:15.354023+00:00"
+  },
+  {
+   "title": "حمله سایبری به سیستم‌های سردکننده فروشگاه‌های زنجیره‌ای در اروپا",
+   "url": "https://hi-tech.mail.ru/news/159564-v-shvedskom-magazine-morozilnikam-zadali-50-i-zapodozrili/",
+   "source": "Hi-Tech Mail",
+   "score": 0.10592,
+   "at": "2026-11-02T13:56:51.151922+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "android",
-    "aura",
-    "discounted",
-    "launch",
-    "price",
-    "sale",
-    "smartglasses",
-    "xreal"
-   ],
-   "at": "2026-10-29T14:54:36.430840+00:00"
-  },
-  {
-   "sig": [
-    "alongside",
-    "chonk",
-    "codex",
-    "coding",
-    "gpt-6.1",
-    "large",
-    "mistral",
-    "model",
-    "open",
-    "ranking",
-    "releases",
-    "terra",
-    "top",
-    "trillion-parameter",
-    "weight",
-    "weights"
-   ],
-   "at": "2026-10-29T14:56:09.598225+00:00"
-  },
   {
    "sig": [
     "andy",
@@ -10872,6 +10868,30 @@
     "wrong"
    ],
    "at": "2026-11-02T13:41:14.037925+00:00"
+  },
+  {
+   "sig": [
+    "counting",
+    "ships",
+    "start",
+    "stop",
+    "tokens"
+   ],
+   "at": "2026-11-02T13:54:53.911216+00:00"
+  },
+  {
+   "sig": [
+    "bot",
+    "costs",
+    "elon",
+    "grok",
+    "high",
+    "musk",
+    "throttled",
+    "unsustainably",
+    "were"
+   ],
+   "at": "2026-11-02T13:56:15.354023+00:00"
   }
  ],
  "snapshots": {
