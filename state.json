@@ -2240,18 +2240,26 @@
   "3b0f709ef6821576fbc38286db64048e",
   "e871f84c12be5d61869e6eaa7a750eb4",
   "TheNextWeb=50234449e13d28eeb6654ba11190b6e1",
-  "c7932fe4566e391d90823867d4232e24"
+  "c7932fe4566e391d90823867d4232e24",
+  "https://www.infoq.com/news/2026/11/shopify-kubernetes-ingresses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://www.theregister.com/a/5306614",
+  "HLPDJFhjebCMQcw9P5tk7W",
+  "ZJfQz7QC2WZr4Dgkk9KkzU",
+  "https://www.theregister.com/a/5306715",
+  "N79sASJ27nwzcJKz9aVUEB",
+  "a2d7fcd8295e5997d0c405e42cd4591d",
+  "6e4c43e7252157f446b618e05f1041fc"
  ],
  "posted": {
   "viral": 428,
-  "editorial": 591
+  "editorial": 596
  },
  "recent_labels": [
+  "InfoQ",
   "The Register",
-  "Neowin",
-  "Neowin",
-  "Hi-Tech Mail",
-  "The Next Web"
+  "The Register",
+  "TechRadar",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6622,67 +6630,44 @@
    "source": "The Next Web",
    "score": 0.13817,
    "at": "2026-11-02T08:54:40.833490+00:00"
+  },
+  {
+   "title": "ابزار جدید Shopify برای شناسایی سرویس‌های عمومی و ناامن در GKE",
+   "url": "https://www.infoq.com/news/2026/11/shopify-kubernetes-ingresses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.1438,
+   "at": "2026-11-02T09:54:19.970083+00:00"
+  },
+  {
+   "title": "بهره‌گیری از هوش مصنوعی در صنعت فولاد برای افزایش بهره‌وری",
+   "url": "https://www.theregister.com/ai-and-ml/2026/11/02/partner-content-from-expertise-to-intelligence-nisco-deploys-worlds-first-swarm-intelligence-steel-model-at-scale/5306614",
+   "source": "The Register",
+   "score": 0.08436,
+   "at": "2026-11-02T09:54:26.979103+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی وب‌سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/ai-and-ml/2026/11/02/britains-driverless-dream-hits-a-roundabout-of-awkward-questions/5306715",
+   "source": "The Register",
+   "score": 0.11864,
+   "at": "2026-11-02T09:54:35.764041+00:00"
+  },
+  {
+   "title": "چالش‌های نظارت بر تراکنش‌های پرداخت در فروشگاه‌های فیزیکی",
+   "url": "https://www.techradar.com/pro/the-in-store-telemetry-blackout-costing-retailers-billions",
+   "source": "TechRadar",
+   "score": 0.17142,
+   "at": "2026-11-02T09:54:41.744006+00:00"
+  },
+  {
+   "title": "انتقاد مدیرعامل OpenAI از اجرای محلی مدل‌های هوش مصنوعی روی کامپیوترهای شخصی",
+   "url": "https://hi-tech.mail.ru/news/159509-sem-altman-nazval-pamyat-v-domashnih-pk-neeffektivnoi-tratoi/",
+   "source": "Hi-Tech Mail",
+   "score": 0.1126,
+   "at": "2026-11-02T09:54:55.304614+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "chunky",
-    "did",
-    "glasses",
-    "push-ups",
-    "snap"
-   ],
-   "at": "2026-10-29T10:54:07.343822+00:00"
-  },
-  {
-   "sig": [
-    "cards",
-    "exposed",
-    "hacker",
-    "high-stakes",
-    "malware",
-    "players",
-    "poker",
-    "targeted"
-   ],
-   "at": "2026-10-29T10:54:16.962717+00:00"
-  },
-  {
-   "sig": [
-    "anyps5",
-    "being",
-    "computers",
-    "emulators",
-    "fake",
-    "gamers",
-    "github",
-    "hit",
-    "including",
-    "infecting",
-    "malware",
-    "password-scraping",
-    "password-stealing",
-    "passwords",
-    "popular",
-    "ps5",
-    "repos",
-    "spreading",
-    "steal",
-    "well-known"
-   ],
-   "at": "2026-10-29T11:38:50.101101+00:00"
-  },
-  {
-   "sig": [
-    "approach",
-    "glasses",
-    "need",
-    "privacy-first",
-    "smart"
-   ],
-   "at": "2026-10-29T11:39:28.813792+00:00"
-  },
   {
    "sig": [
     "code",
@@ -10698,6 +10683,57 @@
     "signs"
    ],
    "at": "2026-11-02T08:54:40.833490+00:00"
+  },
+  {
+   "sig": [
+    "cloud",
+    "exposure",
+    "gke",
+    "ingresses",
+    "overexposed",
+    "run",
+    "scans",
+    "shopify"
+   ],
+   "at": "2026-11-02T09:54:19.970083+00:00"
+  },
+  {
+   "sig": [
+    "deploys",
+    "expertise",
+    "first",
+    "intelligence",
+    "model",
+    "nisco",
+    "scale",
+    "steel",
+    "swarm-intelligence",
+    "world"
+   ],
+   "at": "2026-11-02T09:54:26.979103+00:00"
+  },
+  {
+   "sig": [
+    "awkward",
+    "britain",
+    "dream",
+    "driverless",
+    "hits",
+    "questions",
+    "roundabout"
+   ],
+   "at": "2026-11-02T09:54:35.764041+00:00"
+  },
+  {
+   "sig": [
+    "billions",
+    "blackout",
+    "costing",
+    "in-store",
+    "retailers",
+    "telemetry"
+   ],
+   "at": "2026-11-02T09:54:41.744006+00:00"
   }
  ],
  "snapshots": {
