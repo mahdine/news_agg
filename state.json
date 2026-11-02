@@ -2189,18 +2189,25 @@
   "hn:50330456",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzbw2x4enr2g",
   "hn:50330939",
-  "https://www.engadget.com/2300327/google-maps-features-work-better-android-auto-vs-carplay/"
+  "https://www.engadget.com/2300327/google-maps-features-work-better-android-auto-vs-carplay/",
+  "https://www.theregister.com/a/5306852",
+  "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+  "https://developers.slashdot.org/story/26/11/02/0026255/stack-overflow-reports-of-our-death-are-greatly-exaggerated?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "QyhjKcdvudUwysgZa9Gojd",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzc7ptyraseu",
+  "https://news.slashdot.org/story/26/11/02/0159222/binance-reopens-to-364-in-net-outflows-98-choose-to-stay-says-its-founder?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://9to5mac.com/?p=1076902"
  ],
  "posted": {
   "viral": 422,
-  "editorial": 568
+  "editorial": 573
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "404 Media",
-  "Engadget"
+  "Simon Willison RSS",
+  "Slashdot",
+  "TechRadar",
+  "Slashdot",
+  "9to5Mac"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6368,86 +6375,44 @@
    "source": "Engadget",
    "score": 0.13436,
    "at": "2026-11-02T01:54:35.597069+00:00"
+  },
+  {
+   "title": "رفع خطاهای وابستگی در پایتون ۳.۱۵ با حذف فایل uv.lock",
+   "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+   "source": "Simon Willison RSS",
+   "score": 0.05461,
+   "at": "2026-11-02T02:53:51.307128+00:00"
+  },
+  {
+   "title": "تغییر استراتژی Stack Overflow در عصر هوش مصنوعی",
+   "url": "https://developers.slashdot.org/story/26/11/02/0026255/stack-overflow-reports-of-our-death-are-greatly-exaggerated?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.06512,
+   "at": "2026-11-02T02:53:57.433965+00:00"
+  },
+  {
+   "title": "ثبت رکورد جدید انتقال داده با سرعت ۳.۲ پتابیت بر ثانیه",
+   "url": "https://www.techradar.com/pro/chinese-team-claims-new-fiber-transfer-speed-world-record-incredible-3-2-petabits-per-second-transfer-is-the-same-as-downloading-over-20-000-4k-movies-in-a-second",
+   "source": "TechRadar",
+   "score": 0.07604,
+   "at": "2026-11-02T02:54:03.307970+00:00"
+  },
+  {
+   "title": "خروج ۳.۶ میلیارد دلار سرمایه از صرافی Binance پس از نفوذ امنیتی",
+   "url": "https://news.slashdot.org/story/26/11/02/0159222/binance-reopens-to-364-in-net-outflows-98-choose-to-stay-says-its-founder?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.1371,
+   "at": "2026-11-02T02:54:09.711776+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل‌های جدید iPad در نیمه‌ی اول سال آینده",
+   "url": "https://9to5mac.com/2026/11/01/three-new-ipad-models-are-reportedly-launching-early-next-year-heres-whats-coming/",
+   "source": "9to5Mac",
+   "score": 0.14285,
+   "at": "2026-11-02T02:54:15.464477+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "3dfx",
-    "api",
-    "atop",
-    "glide",
-    "gxvk",
-    "implemented",
-    "modern",
-    "usage",
-    "vulkan"
-   ],
-   "at": "2026-10-29T03:53:59.246597+00:00"
-  },
-  {
-   "sig": [
-    "back",
-    "centers",
-    "data",
-    "draws",
-    "huge",
-    "line",
-    "nuclear",
-    "nvidia",
-    "old",
-    "plants",
-    "power",
-    "turn",
-    "turning",
-    "wants"
-   ],
-   "at": "2026-10-29T03:54:06.298820+00:00"
-  },
-  {
-   "sig": [
-    "america",
-    "asks",
-    "assistant",
-    "bank",
-    "banking",
-    "don",
-    "kindly",
-    "password",
-    "share"
-   ],
-   "at": "2026-10-29T03:54:11.970252+00:00"
-  },
-  {
-   "sig": [
-    "5.5",
-    "astra",
-    "carbon",
-    "claude",
-    "cybersecurity",
-    "dethrones",
-    "fraction",
-    "gemini",
-    "google",
-    "gpt-6",
-    "launches",
-    "leap",
-    "opus",
-    "price",
-    "significant"
-   ],
-   "at": "2026-10-29T04:54:22.437096+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "first",
-    "glasses",
-    "powered",
-    "wired"
-   ],
-   "at": "2026-10-29T04:54:28.657452+00:00"
-  },
   {
    "sig": [
     "apple",
@@ -10449,17 +10414,79 @@
     "work"
    ],
    "at": "2026-11-02T01:54:35.597069+00:00"
+  },
+  {
+   "sig": [
+    "delete",
+    "doubt",
+    "file",
+    "uv.lock"
+   ],
+   "at": "2026-11-02T02:53:51.307128+00:00"
+  },
+  {
+   "sig": [
+    "death",
+    "exaggerated",
+    "greatly",
+    "overflow",
+    "reports",
+    "stack"
+   ],
+   "at": "2026-11-02T02:53:57.433965+00:00"
+  },
+  {
+   "sig": [
+    "3.2",
+    "astonishing",
+    "chinese",
+    "claims",
+    "downloading",
+    "fiber",
+    "incredible",
+    "movies",
+    "per",
+    "petabits",
+    "record",
+    "same",
+    "second",
+    "speed",
+    "team",
+    "transfer",
+    "world"
+   ],
+   "at": "2026-11-02T02:54:03.307970+00:00"
+  },
+  {
+   "sig": [
+    "3.64",
+    "binance",
+    "choose",
+    "founder",
+    "net",
+    "outflows",
+    "reopens",
+    "stay"
+   ],
+   "at": "2026-11-02T02:54:09.711776+00:00"
+  },
+  {
+   "sig": [
+    "coming",
+    "early",
+    "here",
+    "ipad",
+    "launching",
+    "models",
+    "next",
+    "reportedly",
+    "three",
+    "year"
+   ],
+   "at": "2026-11-02T02:54:15.464477+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myf4uachcs2a": [
-   660,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfgy4m4ac2y": [
-   102,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myff63jrns2g": [
    24,
    "2026-10-21T22:37:13.768401+00:00"
@@ -12851,6 +12878,14 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzbw2x4enr2g": [
    330,
    "2026-11-02T01:53:43.907864+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzcavjjq2x2a": [
+   181,
+   "2026-11-02T02:53:47.578991+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzc7ptyraseu": [
+   139,
+   "2026-11-02T02:53:47.578991+00:00"
   ]
  }
 }
