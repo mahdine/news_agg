@@ -2227,18 +2227,23 @@
   "d2c67eb32bc0842cb617efa5c4cd9683",
   "29a5a7a69bcf74e2e0b8e428d5102a03",
   "46dee2319e2f0cf84fd10757537052f6",
-  "fd35bff44c0606e6cab71096227bcbf7"
+  "fd35bff44c0606e6cab71096227bcbf7",
+  "hn:50333339",
+  "3230164",
+  "https://www.theregister.com/a/5306879",
+  "https://www.neowin.net/news/microsoft-issues-final-warning-and-guidance-on-entra-id-memberof-retirement/",
+  "https://www.neowin.net/news/binance-faces-billions-in-user-withdrawals-following-massive-security-breach/"
  ],
  "posted": {
-  "viral": 427,
-  "editorial": 585
+  "viral": 428,
+  "editorial": 589
  },
  "recent_labels": [
   "Hacker News",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail"
+  "vc.ru",
+  "The Register",
+  "Neowin",
+  "Neowin"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6560,64 +6565,44 @@
    "source": "Hi-Tech Mail",
    "score": 0.19362,
    "at": "2026-11-02T06:54:46.320137+00:00"
+  },
+  {
+   "title": "ابزاری برای مرور مقالات ویکی‌پدیا بر اساس لینک‌های HackerNews",
+   "url": "https://wikihack.netlify.app",
+   "source": "wikihack.netlify.app",
+   "score": 0.03306,
+   "at": "2026-11-02T07:53:47.133655+00:00"
+  },
+  {
+   "title": "خروج ۳.۶۴ میلیارد دلار دارایی از صرافی Binance پس از هک اخیر",
+   "url": "https://vc.ru/crypto/3230164-vyvod-sredstv-s-binance?from=rss",
+   "source": "vc.ru",
+   "score": 0.06889,
+   "at": "2026-11-02T07:53:55.217540+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی وب‌سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/personal-tech/2026/11/02/chap-who-coded-googles-pac-man-clone-reveals-how-the-game-freaked-out-firefox/5306879",
+   "source": "The Register",
+   "score": 0.09408,
+   "at": "2026-11-02T07:54:00.980120+00:00"
+  },
+  {
+   "title": "هشدار نهایی مایکروسافت برای بازنشستگی ویژگی MemberOf در Entra ID",
+   "url": "https://www.neowin.net/news/microsoft-issues-final-warning-and-guidance-on-entra-id-memberof-retirement/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.07801,
+   "at": "2026-11-02T07:54:06.477663+00:00"
+  },
+  {
+   "title": "خروج گسترده سرمایه از صرافی Binance پس از یک رخنه امنیتی بزرگ",
+   "url": "https://www.neowin.net/news/binance-faces-billions-in-user-withdrawals-following-massive-security-breach/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.11762,
+   "at": "2026-11-02T07:54:11.563598+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "attackers",
-    "august",
-    "cisco",
-    "exploit",
-    "firewall",
-    "second",
-    "since",
-    "vpn",
-    "zero-day"
-   ],
-   "at": "2026-10-29T09:54:16.069985+00:00"
-  },
-  {
-   "sig": [
-    "7.5",
-    "already",
-    "begin",
-    "changes",
-    "driver",
-    "graphics",
-    "linux",
-    "npu",
-    "queuing"
-   ],
-   "at": "2026-10-29T09:54:22.862491+00:00"
-  },
-  {
-   "sig": [
-    "campaigns",
-    "cisco",
-    "covert",
-    "exploitation",
-    "four",
-    "network",
-    "sd-wan",
-    "silent",
-    "tied",
-    "train",
-    "typhoon",
-    "volt",
-    "zero-day"
-   ],
-   "at": "2026-10-29T10:53:46.417636+00:00"
-  },
-  {
-   "sig": [
-    "blood",
-    "clock",
-    "death",
-    "gave"
-   ],
-   "at": "2026-10-29T10:53:52.848628+00:00"
-  },
   {
    "sig": [
     "actions",
@@ -10638,13 +10623,61 @@
     "pro"
    ],
    "at": "2026-11-02T06:54:46.320137+00:00"
+  },
+  {
+   "sig": [
+    "articles",
+    "hackertube",
+    "mentioned",
+    "show",
+    "wikihack",
+    "wikipedia"
+   ],
+   "at": "2026-11-02T07:53:47.133655+00:00"
+  },
+  {
+   "sig": [
+    "chap",
+    "clone",
+    "coded",
+    "firefox",
+    "freaked",
+    "game",
+    "google",
+    "pac-man",
+    "reveals"
+   ],
+   "at": "2026-11-02T07:54:00.980120+00:00"
+  },
+  {
+   "sig": [
+    "entra",
+    "final",
+    "guidance",
+    "issues",
+    "memberof",
+    "microsoft",
+    "retirement",
+    "warning"
+   ],
+   "at": "2026-11-02T07:54:06.477663+00:00"
+  },
+  {
+   "sig": [
+    "billions",
+    "binance",
+    "breach",
+    "faces",
+    "following",
+    "massive",
+    "security",
+    "user",
+    "withdrawals"
+   ],
+   "at": "2026-11-02T07:54:11.563598+00:00"
   }
  ],
  "snapshots": {
-  "hn:50182526": [
-   312,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "hn:50182130": [
    78,
    "2026-10-21T22:37:13.768401+00:00"
@@ -13040,6 +13073,10 @@
   "hn:50331158": [
    155,
    "2026-11-02T06:53:41.533857+00:00"
+  ],
+  "hn:50333339": [
+   98,
+   "2026-11-02T07:53:43.594501+00:00"
   ]
  }
 }
