@@ -2221,18 +2221,24 @@
   "https://9to5mac.com/?p=1044511",
   "https://tech.slashdot.org/story/26/11/02/0317207/rocky-linux-creator-built-a-new-not-linux-kernel-in-11-days-using-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "3230140",
-  "https://www.neowin.net/news/apple-rewind-a-lot-of-apple-hardware-glowing-logo-returns-and-apples-smart-display/"
+  "https://www.neowin.net/news/apple-rewind-a-lot-of-apple-hardware-glowing-logo-returns-and-apples-smart-display/",
+  "hn:50331158",
+  "hn:50331784",
+  "d2c67eb32bc0842cb617efa5c4cd9683",
+  "29a5a7a69bcf74e2e0b8e428d5102a03",
+  "46dee2319e2f0cf84fd10757537052f6",
+  "fd35bff44c0606e6cab71096227bcbf7"
  ],
  "posted": {
-  "viral": 426,
-  "editorial": 581
+  "viral": 427,
+  "editorial": 585
  },
  "recent_labels": [
   "Hacker News",
-  "404 Media",
-  "Slashdot",
-  "vc.ru",
-  "Neowin"
+  "Hi-Tech Mail",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -6519,30 +6525,44 @@
    "source": "Neowin",
    "score": 0.15389,
    "at": "2026-11-02T05:54:28.712750+00:00"
+  },
+  {
+   "title": "نشت متغیرهای محیطی در پلتفرم Trigger.dev",
+   "url": "https://trigger.dev/blog/security-incident-nov-2026",
+   "source": "trigger.dev",
+   "score": 0.05506,
+   "at": "2026-11-02T06:53:44.974753+00:00"
+  },
+  {
+   "title": "شکست ۵۰ عامل هوش مصنوعی در تشکیل تمدن خودکار در Minecraft",
+   "url": "https://hi-tech.mail.ru/news/159461-50-ii-agentov-ne-smogli-postroit-civilizaciyu-v-minecraft/",
+   "source": "Hi-Tech Mail",
+   "score": 0.1665,
+   "at": "2026-11-02T06:54:00.369710+00:00"
+  },
+  {
+   "title": "برنامه Rostelecom برای انتقال مراکز داده به زیر زمین",
+   "url": "https://hi-tech.mail.ru/news/159463-rostelekom-planiruet-spryatat-data-centry-pod-zemlyu/",
+   "source": "Hi-Tech Mail",
+   "score": 0.18522,
+   "at": "2026-11-02T06:54:10.124539+00:00"
+  },
+  {
+   "title": "عرضه‌ی ابزار هوشمند DeepSeek برای خودکارسازی وظایف برنامه‌نویسی",
+   "url": "https://hi-tech.mail.ru/news/159464-deepseek-vypustila-prototip-agenta-kotoryi-beretsya-za/",
+   "source": "Hi-Tech Mail",
+   "score": 0.18664,
+   "at": "2026-11-02T06:54:37.300000+00:00"
+  },
+  {
+   "title": "تغییرات احتمالی در نسل آینده تبلت‌های iPad شرکت Apple",
+   "url": "https://hi-tech.mail.ru/news/159466-gurman-ipad-air-poluchit-oled-a-ipad-pro-mogut-uluchshit/",
+   "source": "Hi-Tech Mail",
+   "score": 0.19362,
+   "at": "2026-11-02T06:54:46.320137+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "android",
-    "click",
-    "dos",
-    "remote",
-    "silent",
-    "zero"
-   ],
-   "at": "2026-10-29T09:53:43.165923+00:00"
-  },
-  {
-   "sig": [
-    "7.4",
-    "adds",
-    "ksmbd",
-    "linux",
-    "options"
-   ],
-   "at": "2026-10-29T09:53:56.534137+00:00"
-  },
   {
    "sig": [
     "attackers",
@@ -10599,17 +10619,28 @@
     "smart"
    ],
    "at": "2026-11-02T05:54:28.712750+00:00"
+  },
+  {
+   "sig": [
+    "customer",
+    "environment",
+    "exposed",
+    "trigger.dev",
+    "variables"
+   ],
+   "at": "2026-11-02T06:53:44.974753+00:00"
+  },
+  {
+   "sig": [
+    "air",
+    "ipad",
+    "oled",
+    "pro"
+   ],
+   "at": "2026-11-02T06:54:46.320137+00:00"
   }
  ],
  "snapshots": {
-  "hn:50183727": [
-   212,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50183311": [
-   168,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "hn:50182526": [
    312,
    "2026-10-21T22:37:13.768401+00:00"
@@ -13001,6 +13032,14 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzck5d2pfa2n": [
    120,
    "2026-11-02T05:53:55.673295+00:00"
+  ],
+  "hn:50331784": [
+   101,
+   "2026-11-02T06:53:41.533857+00:00"
+  ],
+  "hn:50331158": [
+   155,
+   "2026-11-02T06:53:41.533857+00:00"
   ]
  }
 }
