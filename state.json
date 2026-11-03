@@ -2420,18 +2420,30 @@
   "hn:50350004",
   "https://www.techspot.com/news/114429-reddit-tells-australian-court-isnt-social-media-site.html",
   "TheNextWeb=505bdf39c50df34959712d66507bac91",
-  "qisyk8GScFrPtwp5FWsKuB"
+  "qisyk8GScFrPtwp5FWsKuB",
+  "https://www.engadget.com/2300355/samsung-galaxy-phones-bloatware-problem-easy-fix/",
+  "e8e052f78cf9d577aae502e72d6625c9",
+  "hn:50347552",
+  "https://www.engadget.com/2305059/nasas-swift-observatory-is-expected-to-re-enter-earth-on-november-4/",
+  "https://www.techspot.com/news/114412-nasa-swift-space-telescope-set-crash-back-earth.html",
+  "https://9to5mac.com/?p=1077132",
+  "6B2QEQx3auRQkuGnrSqd6",
+  "https://9to5mac.com/?p=1076999",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzfwazn4k22o",
+  "0bca6224bf6c858521c38de0a7335f42",
+  "d4134c692a169f9aebf9d86dc7cad377",
+  "82633b42cfd65b2e3c07565e4f9e7413"
  ],
  "posted": {
-  "viral": 470,
-  "editorial": 636
+  "viral": 472,
+  "editorial": 637
  },
  "recent_labels": [
-  "Tom's Hardware",
-  "Hacker News",
-  "Hacker News",
   "TechSpot",
-  "Tom's Hardware"
+  "Tom's Hardware",
+  "Engadget",
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7411,45 +7423,30 @@
    "source": "Tom's Hardware",
    "score": 0.20182,
    "at": "2026-11-03T12:55:37.397348+00:00"
+  },
+  {
+   "title": "چالش همیشگی نرم‌افزارهای پیش‌فرض در گوشی‌های سامسونگ",
+   "url": "https://www.engadget.com/2300355/samsung-galaxy-phones-bloatware-problem-easy-fix/",
+   "source": "Engadget",
+   "score": 0.41464,
+   "at": "2026-11-03T13:53:54.902143+00:00"
+  },
+  {
+   "title": "آموزش دستورات ویرایشگر Vim از طریق یک بازی مرورگر",
+   "url": "https://hjkl.duy.run",
+   "source": "hjkl.duy.run",
+   "score": 0.01162,
+   "at": "2026-11-03T13:54:01.005047+00:00"
+  },
+  {
+   "title": "تعطیلی وب‌سایت کپی‌بردار از آثار نویسندگان AO3 پس از اعتراضات گسترده",
+   "url": "https://www.404media.co/vibe-coded-ao3-clone-site-down-after-fanfic-authors-buried-it-with-2-000-takedown-notices-in-a-single-day/",
+   "source": "404media.co",
+   "score": 0.86214,
+   "at": "2026-11-03T13:54:07.915251+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "asks",
-    "chatbot",
-    "copying",
-    "court",
-    "fair",
-    "rule",
-    "training",
-    "wikimedia"
-   ],
-   "at": "2026-10-30T10:53:56.117740+00:00"
-  },
-  {
-   "sig": [
-    "app",
-    "brutally",
-    "hours",
-    "lost",
-    "many",
-    "scrolling",
-    "shames",
-    "tracking"
-   ],
-   "at": "2026-10-30T11:28:49.451600+00:00"
-  },
-  {
-   "sig": [
-    "accenture",
-    "agents",
-    "applicants",
-    "sifting",
-    "through"
-   ],
-   "at": "2026-10-30T11:29:05.412875+00:00"
-  },
   {
    "sig": [
     "act",
@@ -11364,21 +11361,54 @@
     "withdraw"
    ],
    "at": "2026-11-03T12:55:37.397348+00:00"
+  },
+  {
+   "sig": [
+    "easily",
+    "exists",
+    "fix",
+    "galaxy",
+    "problem",
+    "s27",
+    "sadly",
+    "samsung",
+    "still",
+    "ultra"
+   ],
+   "at": "2026-11-03T13:53:54.902143+00:00"
+  },
+  {
+   "sig": [
+    "browser",
+    "built",
+    "commands",
+    "game",
+    "little",
+    "practice",
+    "show",
+    "vim"
+   ],
+   "at": "2026-11-03T13:54:01.005047+00:00"
+  },
+  {
+   "sig": [
+    "ao3.life",
+    "audiobooks",
+    "authors",
+    "fanfiction",
+    "original",
+    "permission",
+    "repackaging",
+    "sale",
+    "scraping",
+    "turning",
+    "without",
+    "works"
+   ],
+   "at": "2026-11-03T13:54:07.915251+00:00"
   }
  ],
  "snapshots": {
-  "hn:50195543": [
-   615,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
-  "lobsters:nmurnh": [
-   38,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myij3hirg22z": [
-   1388,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myiixdriib2q": [
    74,
    "2026-10-22T22:35:26.823298+00:00"
@@ -13766,6 +13796,18 @@
   "hn:50349276": [
    131,
    "2026-11-03T12:55:11.162240+00:00"
+  ],
+  "hn:50350560": [
+   154,
+   "2026-11-03T13:53:53.220824+00:00"
+  ],
+  "hn:50347552": [
+   123,
+   "2026-11-03T13:53:53.220824+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzfwazn4k22o": [
+   349,
+   "2026-11-03T13:53:53.220824+00:00"
   ]
  }
 }
