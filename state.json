@@ -2338,18 +2338,29 @@
   "hn:50346153",
   "hn:50346164",
   "hn:50346849",
-  "hn:50346981"
+  "hn:50346981",
+  "hn:50339913",
+  "https://www.techspot.com/news/114414-apple-warning-iphone-users-110-countries-about-mercenary.html",
+  "https://9to5mac.com/?p=1077118",
+  "lobsters:s1btqo",
+  "hn:50344224",
+  "https://tech.slashdot.org/story/26/11/02/2047236/snap-reaches-settlement-in-social-media-addiction-lawsuit-ahead-of-trial?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.engadget.com/2304464/snap-settles-social-media-addiction-lawsuit-to-avoid-trial/",
+  "TheNextWeb=bc4889855ae4d3f33938fbd0342cacaa",
+  "hn:50347683",
+  "https://techcrunch.com/?p=3184353",
+  "https://tech.slashdot.org/story/26/11/03/0243238/byd-sold-more-evs-last-month-than-the-us-did-all-quarter?utm_source=rss1.0mainlinkanon&utm_medium=feed"
  ],
  "posted": {
-  "viral": 461,
-  "editorial": 614
+  "viral": 463,
+  "editorial": 616
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News"
+  "TechSpot",
+  "Lobsters",
+  "TechCrunch AI"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7112,62 +7123,37 @@
    "source": "hackertimes.ca",
    "score": 0.02221,
    "at": "2026-11-03T03:54:52.072154+00:00"
+  },
+  {
+   "title": "معرفی Momentic، عامل هوش مصنوعی برای تست خودکار نرم‌افزار و شناسایی باگ",
+   "url": "https://momentic.ai/",
+   "source": "momentic.ai",
+   "score": 0.00048,
+   "at": "2026-11-03T04:53:52.452821+00:00"
+  },
+  {
+   "title": "هشدار اپل به کاربران آیفون درباره حملات جاسوس‌افزارهای مزدور",
+   "url": "https://www.techspot.com/news/114414-apple-warning-iphone-users-110-countries-about-mercenary.html",
+   "source": "TechSpot",
+   "score": 0.11398,
+   "at": "2026-11-03T04:54:00.403743+00:00"
+  },
+  {
+   "title": "نشت موقعیت مکانی دقیق کاربران از طریق صداهای پس‌زمینه",
+   "url": "https://youtu.be/UytYrhYLOKI",
+   "source": "youtu.be",
+   "score": 0.03944,
+   "at": "2026-11-03T04:54:12.113922+00:00"
+  },
+  {
+   "title": "عرضه‌ی ابزار هوش مصنوعی Dreambeans گوگل در بازار هند",
+   "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+   "source": "TechCrunch AI",
+   "score": 0.1152,
+   "at": "2026-11-03T04:54:21.356828+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anthropic",
-    "companies",
-    "elvis",
-    "face",
-    "lawsuit",
-    "music",
-    "need",
-    "shows"
-   ],
-   "at": "2026-10-30T03:53:57.545498+00:00"
-  },
-  {
-   "sig": [
-    "air",
-    "force",
-    "help",
-    "mid-air",
-    "problems",
-    "refuelling",
-    "wants"
-   ],
-   "at": "2026-10-30T03:54:03.317341+00:00"
-  },
-  {
-   "sig": [
-    "css",
-    "longer",
-    "maintained",
-    "pico"
-   ],
-   "at": "2026-10-30T03:54:09.460635+00:00"
-  },
-  {
-   "sig": [
-    "call",
-    "centers",
-    "could",
-    "data",
-    "disrupt",
-    "endangered",
-    "heading",
-    "home",
-    "proposed",
-    "species",
-    "underwater",
-    "waters",
-    "whale",
-    "whales"
-   ],
-   "at": "2026-10-30T04:53:45.196512+00:00"
-  },
   {
    "sig": [
     "computers",
@@ -11079,21 +11065,63 @@
     "york"
    ],
    "at": "2026-11-03T03:54:52.072154+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "app",
+    "bugs",
+    "catch",
+    "launch",
+    "momentic",
+    "using",
+    "w24"
+   ],
+   "at": "2026-11-03T04:53:52.452821+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "attacks",
+    "countries",
+    "iphone",
+    "mercenary",
+    "notified",
+    "potential",
+    "recently",
+    "spyware",
+    "users",
+    "warning"
+   ],
+   "at": "2026-11-03T04:54:00.403743+00:00"
+  },
+  {
+   "sig": [
+    "background",
+    "exact",
+    "leaks",
+    "location",
+    "sound"
+   ],
+   "at": "2026-11-03T04:54:12.113922+00:00"
+  },
+  {
+   "sig": [
+    "ai-generated",
+    "bid",
+    "bring",
+    "dreambeans",
+    "google",
+    "india",
+    "masses",
+    "personal",
+    "stories",
+    "takes"
+   ],
+   "at": "2026-11-03T04:54:21.356828+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:m6l6ld": [
-   32,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myi2pflmlt2i": [
-   94,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myiaz3mun22j": [
-   24,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
   "hn:50201259": [
    84,
    "2026-10-22T22:35:26.823298+00:00"
@@ -13454,14 +13482,6 @@
    306,
    "2026-11-03T03:53:42.911010+00:00"
   ],
-  "hn:50339913": [
-   309,
-   "2026-11-03T03:53:42.911010+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mze2gvcx4s2u": [
-   70,
-   "2026-11-03T03:53:42.911010+00:00"
-  ],
   "hn:50346153": [
    287,
    "2026-11-03T03:53:42.911010+00:00"
@@ -13481,6 +13501,26 @@
   "hn:50346849": [
    108,
    "2026-11-03T03:53:42.911010+00:00"
+  ],
+  "hn:50339913": [
+   312,
+   "2026-11-03T04:53:48.541208+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mze2gvcx4s2u": [
+   70,
+   "2026-11-03T04:53:48.541208+00:00"
+  ],
+  "hn:50347683": [
+   309,
+   "2026-11-03T04:53:48.541208+00:00"
+  ],
+  "hn:50344224": [
+   67,
+   "2026-11-03T04:53:48.541208+00:00"
+  ],
+  "lobsters:s1btqo": [
+   25,
+   "2026-11-03T04:53:48.541208+00:00"
   ]
  }
 }
