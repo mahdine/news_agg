@@ -2380,18 +2380,27 @@
   "https://www.techspot.com/news/114419-refrigerator-cyberattack-spreads-many-european-countries-spoiling-food.html",
   "a80a77977a75359032d153771e2c0c31",
   "abc88be27281c6a50db0fbf1f82513ac",
-  "a53fffec0e2bd04c4a2a4605fec01935"
+  "a53fffec0e2bd04c4a2a4605fec01935",
+  "57e405521f84dbd8ca1acf7f21e4886b",
+  "https://www.androidpolice.com/quick-share-direct-android-and-ios/",
+  "https://www.cnews.ru/news/line/2026-11-03_stroitelnaya_kompaniya_strojsiti",
+  "https://www.cnews.ru/news/line/2026-11-03_atlas_i_icl_tehno_zaklyuchili",
+  "https://www.cnews.ru/news/line/2026-11-03_servery_rdw_computers_i_programmnyj",
+  "https://www.cnews.ru/news/line/2026-11-03_ao_novomet-perm_povyshaet",
+  "https://www.cnews.ru/news/line/2026-11-03_rosel_rasshiryaet_proizvodstvo",
+  "3232529",
+  "https://www.cnews.ru/news/line/2026-11-03_tatarstan_voshel_v_chislo_naibolee"
  ],
  "posted": {
   "viral": 465,
-  "editorial": 623
+  "editorial": 625
  },
  "recent_labels": [
-  "Dan Luu",
-  "Hacker News",
   "The Hacker News",
   "TechSpot",
-  "Hi-Tech Mail"
+  "Hi-Tech Mail",
+  "Hi-Tech Mail",
+  "CNews"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7245,26 +7254,23 @@
    "source": "Hi-Tech Mail",
    "score": 0.18245,
    "at": "2026-11-03T06:54:55.430515+00:00"
+  },
+  {
+   "title": "قابلیت Quick Share SDK برای ارسال مستقیم فایل در اپلیکیشن‌های اندروید و iOS",
+   "url": "https://hi-tech.mail.ru/news/159595-quick-share-pozvolit-peredavat-faily-pryamo-iz-prilozhenii/",
+   "source": "Hi-Tech Mail",
+   "score": 0.16233,
+   "at": "2026-11-03T07:54:04.091875+00:00"
+  },
+  {
+   "title": "شرکت «نوومِت-پِرم» برای مانیتورینگ شبکه خود به سراغ ابزار امنیتی PT NAD رفت",
+   "url": "https://www.cnews.ru/news/line/2026-11-03_ao_novomet-perm_povyshaet",
+   "source": "CNews",
+   "score": 0.18717,
+   "at": "2026-11-03T07:55:30.074641+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "bets",
-    "breakthrough",
-    "ceo",
-    "crisis",
-    "fix",
-    "gelsinger",
-    "intel",
-    "issues",
-    "pat",
-    "ram",
-    "shortage",
-    "tech"
-   ],
-   "at": "2026-10-30T06:53:50.423785+00:00"
-  },
   {
    "sig": [
     "cve-2026-98432",
@@ -11232,6 +11238,20 @@
     "worth"
    ],
    "at": "2026-11-03T06:54:20.730156+00:00"
+  },
+  {
+   "sig": [
+    "already",
+    "android",
+    "apps",
+    "coming",
+    "could",
+    "google",
+    "ios",
+    "quick",
+    "share"
+   ],
+   "at": "2026-11-03T07:54:04.091875+00:00"
   }
  ],
  "snapshots": {
