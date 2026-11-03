@@ -2413,18 +2413,25 @@
   "https://www.phoronix.com/news/GCC-17-Merges-AVX10V1AUX",
   "https://www.phoronix.com/news/SUSE-Layoffs-10p-AI",
   "6ae4dfc0620ab0559e381a7e",
-  "6ae8c770fdca8a2bb1f7b369"
+  "6ae8c770fdca8a2bb1f7b369",
+  "r8MRpfPbCQ4QpgZpcwmAdi",
+  "xPQAGaxnxP4ikbg3wUkWpV",
+  "hn:50349276",
+  "hn:50350004",
+  "https://www.techspot.com/news/114429-reddit-tells-australian-court-isnt-social-media-site.html",
+  "TheNextWeb=505bdf39c50df34959712d66507bac91",
+  "qisyk8GScFrPtwp5FWsKuB"
  ],
  "posted": {
-  "viral": 468,
-  "editorial": 633
+  "viral": 470,
+  "editorial": 636
  },
  "recent_labels": [
-  "Hi-Tech Mail",
+  "Tom's Hardware",
   "Hacker News",
   "Hacker News",
-  "Phoronix",
-  "Phoronix"
+  "TechSpot",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7369,97 +7376,44 @@
    "source": "Phoronix",
    "score": 0.20509,
    "at": "2026-11-03T10:54:05.753693+00:00"
+  },
+  {
+   "title": "انتقاد ایلان ماسک از دیدگاه سم آلتمن درباره محدودیت حافظه رم",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-mocks-openai-ceo-sam-altmans-claim-that-pcs-having-ram-is-terrible-the-people-deserve-to-have-their-ram-too",
+   "source": "Tom's Hardware",
+   "score": 0.45593,
+   "at": "2026-11-03T12:53:53.694447+00:00"
+  },
+  {
+   "title": "آیا سخت‌افزار سال ۱۹۹۶ می‌توانست گری کاسپاروف را در شطرنج شکست دهد",
+   "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+   "source": "nicholas.carlini.com",
+   "score": 0.03523,
+   "at": "2026-11-03T12:54:07.818732+00:00"
+  },
+  {
+   "title": "مهاجرت مهندسان Revolut به مدل‌های خودمیزبان برای کاهش هزینه‌های هوش مصنوعی",
+   "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+   "source": "twitter.com",
+   "score": 0.08782,
+   "at": "2026-11-03T12:54:15.178180+00:00"
+  },
+  {
+   "title": "موضع‌گیری Reddit در برابر قانون محدودیت سنی شبکه‌های اجتماعی در استرالیا",
+   "url": "https://www.techspot.com/news/114429-reddit-tells-australian-court-isnt-social-media-site.html",
+   "source": "TechSpot",
+   "score": 0.53871,
+   "at": "2026-11-03T12:54:20.668034+00:00"
+  },
+  {
+   "title": "تهدید زیرساخت‌های اینترنت جهانی توسط کشتی‌های تحقیقاتی چین",
+   "url": "https://www.tomshardware.com/tech-industry/chinese-survey-ship-loitering-near-undersea-cable-ignores-philippine-demands-to-withdraw-evasive-action-point-to-growing-prc-threats-to-data-lines-in-the-pacific",
+   "source": "Tom's Hardware",
+   "score": 0.20521,
+   "at": "2026-11-03T12:54:26.682489+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agent",
-    "arsaze",
-    "cursor",
-    "editing",
-    "edits",
-    "show",
-    "tab-complete",
-    "video"
-   ],
-   "at": "2026-10-30T09:53:57.396707+00:00"
-  },
-  {
-   "sig": [
-    "bad",
-    "copyright",
-    "could",
-    "open",
-    "operator",
-    "ruling",
-    "threaten",
-    "web",
-    "wikipedia"
-   ],
-   "at": "2026-10-30T09:54:03.228790+00:00"
-  },
-  {
-   "sig": [
-    "ask",
-    "era",
-    "tired",
-    "too"
-   ],
-   "at": "2026-10-30T09:54:22.510217+00:00"
-  },
-  {
-   "sig": [
-    "5.6",
-    "6.3b",
-    "billion",
-    "binance",
-    "blamed",
-    "crypto",
-    "cryptocurrency",
-    "elite",
-    "frozen",
-    "hack",
-    "hackers",
-    "heist",
-    "hitting",
-    "korean",
-    "markets",
-    "multi-billion",
-    "north",
-    "record-breaking",
-    "steal",
-    "suspected",
-    "withdrawals"
-   ],
-   "at": "2026-10-30T10:53:44.994969+00:00"
-  },
-  {
-   "sig": [
-    "acres",
-    "bill",
-    "center",
-    "criminal",
-    "data",
-    "deforestation",
-    "destroyed",
-    "facility",
-    "finland",
-    "flee",
-    "forest",
-    "google",
-    "hikes",
-    "hit",
-    "local",
-    "power",
-    "probe",
-    "threatens",
-    "unapproved",
-    "villages",
-    "wolves"
-   ],
-   "at": "2026-10-30T10:53:50.455351+00:00"
-  },
   {
    "sig": [
     "asks",
@@ -11321,17 +11275,98 @@
     "workforce"
    ],
    "at": "2026-11-03T10:54:05.753693+00:00"
+  },
+  {
+   "sig": [
+    "altman",
+    "ceo",
+    "claim",
+    "deserve",
+    "elon",
+    "having",
+    "home",
+    "mocks",
+    "musk",
+    "openai",
+    "owning",
+    "pcs",
+    "people",
+    "ram",
+    "sam",
+    "terrible",
+    "too"
+   ],
+   "at": "2026-11-03T12:53:53.694447+00:00"
+  },
+  {
+   "sig": [
+    "chess",
+    "could",
+    "defeated",
+    "engine",
+    "kasparov",
+    "modern",
+    "pentium"
+   ],
+   "at": "2026-11-03T12:54:07.818732+00:00"
+  },
+  {
+   "sig": [
+    "glm",
+    "moves",
+    "revolut",
+    "self-hosted"
+   ],
+   "at": "2026-11-03T12:54:15.178180+00:00"
+  },
+  {
+   "sig": [
+    "australia",
+    "australian",
+    "ban",
+    "calls",
+    "country",
+    "court",
+    "ill",
+    "inept",
+    "isn",
+    "media",
+    "reddit",
+    "site",
+    "social",
+    "tells",
+    "thought",
+    "under-16"
+   ],
+   "at": "2026-11-03T12:54:20.668034+00:00"
+  },
+  {
+   "sig": [
+    "action",
+    "cable",
+    "chinese",
+    "data",
+    "demands",
+    "evasive",
+    "growing",
+    "ignores",
+    "lines",
+    "loitering",
+    "near",
+    "pacific",
+    "philippine",
+    "point",
+    "prc",
+    "ship",
+    "survey",
+    "threats",
+    "undersea",
+    "withdraw"
+   ],
+   "at": "2026-11-03T12:54:26.682489+00:00"
   }
  ],
  "snapshots": {
-  "hn:50198675": [
-   489,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
-  "hn:50197313": [
-   471,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
   "hn:50195543": [
    615,
    "2026-10-22T22:35:26.823298+00:00"
@@ -13723,6 +13758,14 @@
   "hn:50348260": [
    68,
    "2026-11-03T10:53:43.285920+00:00"
+  ],
+  "hn:50350004": [
+   320,
+   "2026-11-03T12:53:51.385914+00:00"
+  ],
+  "hn:50349276": [
+   131,
+   "2026-11-03T12:53:51.385914+00:00"
   ]
  }
 }
