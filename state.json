@@ -2444,18 +2444,30 @@
   "https://techcrunch.com/?p=3184568",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzg2hkl3tr2c",
   "https://www.cnews.ru/news/line/2026-11-03_axelot_wms_obedinila_sklady",
-  "https://9to5mac.com/?p=1077179"
+  "https://9to5mac.com/?p=1077179",
+  "692076bc1d5cbe3df783222e",
+  "qWeXmEjdMghbJ9jBLDLd6J",
+  "hn:50351319",
+  "TheNextWeb=4f6098620e0f96bbb3ddb56a0e8a7953",
+  "https://openai.com/index/dan-driscoll-joins-openai",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzg4is4x7k2s",
+  "https://www.theverge.com/?p=1025245",
+  "https://techcrunch.com/?p=3184041",
+  "https://www.neowin.net/news/the-elder-scrolls-vi-officially-gets-a-new-teaser-confirms-hammerfell-setting/",
+  "https://www.theverge.com/?p=1025273",
+  "https://www.theregister.com/a/5307272",
+  "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html"
  ],
  "posted": {
-  "viral": 474,
-  "editorial": 637
+  "viral": 475,
+  "editorial": 641
  },
  "recent_labels": [
-  "Engadget",
-  "Hacker News",
-  "404 Media",
-  "Hacker News",
-  "404 Media"
+  "The Next Web",
+  "Emily M. Bender",
+  "The Verge",
+  "The Register",
+  "The Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7470,83 +7482,44 @@
    "source": "404media.co",
    "score": 0.50606,
    "at": "2026-11-03T15:00:27.684173+00:00"
+  },
+  {
+   "title": "استخدام مقام ارشد نظامی توسط OpenAI برای توسعه امنیت ملی",
+   "url": "https://thenextweb.com/news/openai-dan-driscoll-army-secretary-national-security",
+   "source": "The Next Web",
+   "score": 0.29847,
+   "at": "2026-11-03T15:54:13.931165+00:00"
+  },
+  {
+   "title": "نقد رویکرد استفاده از هوش مصنوعی برای حل مشکلات واقعی",
+   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3mzg4is4x7k2s",
+   "source": "Emily M. Bender",
+   "score": 0.57846,
+   "at": "2026-11-03T15:54:57.463183+00:00"
+  },
+  {
+   "title": "استراتژی اپل برای کسب درآمد از هوش مصنوعی بدون هزینه‌های سنگین زیرساختی",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
+   "source": "The Verge",
+   "score": 0.40838,
+   "at": "2026-11-03T15:55:07.573907+00:00"
+  },
+  {
+   "title": "نشت اطلاعات ۸۵۰ هزار دانشجو و خیر دانشگاه هاروارد توسط ShinyHunters",
+   "url": "https://www.theregister.com/cyber-crime/2026/11/03/shinyhunters-hit-850k-alumni-donors-students-and-fam-in-last-years-harvard-university-raid/5307272",
+   "source": "The Register",
+   "score": 0.2416,
+   "at": "2026-11-03T15:55:17.952813+00:00"
+  },
+  {
+   "title": "حمله LLMjacking و تحمیل هزینه‌های سنگین ابری به سازمان‌ها",
+   "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+   "source": "The Hacker News",
+   "score": 0.28288,
+   "at": "2026-11-03T15:55:32.750267+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "backdoor",
-    "backdoors",
-    "claude",
-    "code",
-    "compromised",
-    "extension",
-    "extensions",
-    "install",
-    "official",
-    "persistent",
-    "ssh"
-   ],
-   "at": "2026-10-30T11:53:55.235830+00:00"
-  },
-  {
-   "sig": [
-    "access",
-    "anthropic",
-    "deliver",
-    "hacked",
-    "remote",
-    "trojan"
-   ],
-   "at": "2026-10-30T11:54:03.703886+00:00"
-  },
-  {
-   "sig": [
-    "benchmarking",
-    "center",
-    "cpu",
-    "data",
-    "dual",
-    "epyc",
-    "granite",
-    "nvidia",
-    "performance",
-    "rapids-ap",
-    "single",
-    "socket",
-    "standalone",
-    "tested",
-    "turin",
-    "vera"
-   ],
-   "at": "2026-10-30T11:54:12.878799+00:00"
-  },
-  {
-   "sig": [
-    "another",
-    "answer",
-    "cameras",
-    "city",
-    "flock",
-    "reappear",
-    "rejected",
-    "seem",
-    "take"
-   ],
-   "at": "2026-10-30T11:54:21.215097+00:00"
-  },
-  {
-   "sig": [
-    "azure",
-    "compromises",
-    "cross-tenant",
-    "five",
-    "full",
-    "link",
-    "weakest"
-   ],
-   "at": "2026-10-30T12:53:56.129959+00:00"
-  },
   {
    "sig": [
     "apple",
@@ -11436,17 +11409,89 @@
     "work"
    ],
    "at": "2026-11-03T15:00:27.684173+00:00"
+  },
+  {
+   "sig": [
+    "appoints",
+    "army",
+    "counselor",
+    "dan",
+    "driscoll",
+    "former",
+    "hires",
+    "modernization",
+    "national",
+    "openai",
+    "secretary",
+    "security",
+    "senior"
+   ],
+   "at": "2026-11-03T15:54:13.931165+00:00"
+  },
+  {
+   "sig": [
+    "because",
+    "doesn",
+    "extruding",
+    "identified",
+    "machines",
+    "mean",
+    "problem",
+    "real",
+    "regular",
+    "reminder",
+    "solution",
+    "synthetic",
+    "text"
+   ],
+   "at": "2026-11-03T15:54:57.463183+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "ceos",
+    "easier",
+    "else",
+    "everyone",
+    "lives",
+    "own",
+    "tech"
+   ],
+   "at": "2026-11-03T15:55:07.573907+00:00"
+  },
+  {
+   "sig": [
+    "850k",
+    "alumni",
+    "donors",
+    "fam",
+    "harvard",
+    "hit",
+    "last",
+    "raid",
+    "shinyhunters",
+    "students",
+    "university",
+    "year"
+   ],
+   "at": "2026-11-03T15:55:17.952813+00:00"
+  },
+  {
+   "sig": [
+    "attacks",
+    "charges",
+    "cloud",
+    "costing",
+    "enterprises",
+    "google",
+    "llmjacking",
+    "million",
+    "warns"
+   ],
+   "at": "2026-11-03T15:55:32.750267+00:00"
   }
  ],
  "snapshots": {
-  "hn:50205229": [
-   364,
-   "2026-10-23T10:21:33.305604+00:00"
-  ],
-  "hn:50204754": [
-   199,
-   "2026-10-23T10:21:33.305604+00:00"
-  ],
   "hn:50203161": [
    400,
    "2026-10-23T10:21:33.305604+00:00"
@@ -13827,10 +13872,6 @@
    349,
    "2026-11-03T13:53:53.220824+00:00"
   ],
-  "hn:50350560": [
-   202,
-   "2026-11-03T14:53:40.851244+00:00"
-  ],
   "hn:50352257": [
    95,
    "2026-11-03T14:53:40.851244+00:00"
@@ -13838,6 +13879,18 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzg2hkl3tr2c": [
    163,
    "2026-11-03T14:53:40.851244+00:00"
+  ],
+  "hn:50350560": [
+   224,
+   "2026-11-03T15:53:58.675869+00:00"
+  ],
+  "hn:50351319": [
+   116,
+   "2026-11-03T15:53:58.675869+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzg4is4x7k2s": [
+   58,
+   "2026-11-03T15:53:58.675869+00:00"
   ]
  }
 }
