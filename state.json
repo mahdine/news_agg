@@ -2389,18 +2389,26 @@
   "https://www.cnews.ru/news/line/2026-11-03_ao_novomet-perm_povyshaet",
   "https://www.cnews.ru/news/line/2026-11-03_rosel_rasshiryaet_proizvodstvo",
   "3232529",
-  "https://www.cnews.ru/news/line/2026-11-03_tatarstan_voshel_v_chislo_naibolee"
+  "https://www.cnews.ru/news/line/2026-11-03_tatarstan_voshel_v_chislo_naibolee",
+  "lobsters:7fcuxz",
+  "hn:50349155",
+  "https://www.theregister.com/a/5307105",
+  "https://www.cnews.ru/news/line/2026-11-03_rt-tehpriemka_vnedrila",
+  "https://www.cnews.ru/news/line/2026-11-03_bank_v_armenii_vnedril_ii",
+  "3232732",
+  "https://www.cnews.ru/news/line/2026-11-03_rusal_meditsinskij_tsentr",
+  "https://www.securityweek.com/?p=50485"
  ],
  "posted": {
-  "viral": 465,
-  "editorial": 625
+  "viral": 466,
+  "editorial": 628
  },
  "recent_labels": [
-  "The Hacker News",
-  "TechSpot",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail",
-  "CNews"
+  "CNews",
+  "Hacker News",
+  "CNews",
+  "CNews",
+  "SecurityWeek"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7268,44 +7276,37 @@
    "source": "CNews",
    "score": 0.18717,
    "at": "2026-11-03T07:55:30.074641+00:00"
+  },
+  {
+   "title": "مسدودسازی ویدیوهای خودپخش در سایت TechCrunch با uBlock Origin",
+   "url": "https://cornfieldlabs.github.io/posts/ublock-stop-techcrunch-autoplay-video/post.html",
+   "source": "cornfieldlabs.github.io",
+   "score": 0.44801,
+   "at": "2026-11-03T08:53:59.736024+00:00"
+  },
+  {
+   "title": "اتوماسیون فرآیندهای بانکی در ارمنستان با استفاده از پلتفرم ROBIN",
+   "url": "https://www.cnews.ru/news/line/2026-11-03_bank_v_armenii_vnedril_ii",
+   "source": "CNews",
+   "score": 0.10706,
+   "at": "2026-11-03T08:54:14.703492+00:00"
+  },
+  {
+   "title": "CLOUD SECURITY",
+   "url": "https://www.cnews.ru/news/line/2026-11-03_rusal_meditsinskij_tsentr",
+   "source": "CNews",
+   "score": 0.12114,
+   "at": "2026-11-03T08:54:29.828348+00:00"
+  },
+  {
+   "title": "تمرینات سایبری ناتو با استفاده از هوش مصنوعی",
+   "url": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/",
+   "source": "SecurityWeek",
+   "score": 0.27915,
+   "at": "2026-11-03T08:54:35.466846+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "cve-2026-98432",
-    "linux",
-    "patch",
-    "risk",
-    "tcp",
-    "use-after-free",
-    "validation"
-   ],
-   "at": "2026-10-30T07:53:45.509049+00:00"
-  },
-  {
-   "sig": [
-    "back",
-    "love",
-    "website"
-   ],
-   "at": "2026-10-30T08:53:46.722437+00:00"
-  },
-  {
-   "sig": [
-    "agrees",
-    "data",
-    "general",
-    "lawsuit",
-    "million",
-    "motors",
-    "multi-state",
-    "pay",
-    "privacy",
-    "settle"
-   ],
-   "at": "2026-10-30T08:53:55.307753+00:00"
-  },
   {
    "sig": [
     "actively",
@@ -11252,17 +11253,44 @@
     "share"
    ],
    "at": "2026-11-03T07:54:04.091875+00:00"
+  },
+  {
+   "sig": [
+    "autoplay",
+    "block",
+    "filter",
+    "origin",
+    "techcrunch",
+    "ublock",
+    "videos"
+   ],
+   "at": "2026-11-03T08:53:59.736024+00:00"
+  },
+  {
+   "sig": [
+    "fabricaone.ai",
+    "robin",
+    "rpa",
+    "soft"
+   ],
+   "at": "2026-11-03T08:54:14.703492+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "brings",
+    "crossed",
+    "cyber",
+    "exercise",
+    "nato",
+    "operations",
+    "swords",
+    "training"
+   ],
+   "at": "2026-11-03T08:54:35.466846+00:00"
   }
  ],
  "snapshots": {
-  "hn:50199389": [
-   127,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
-  "hn:50199290": [
-   126,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
   "hn:50199230": [
    173,
    "2026-10-22T22:35:26.823298+00:00"
@@ -13654,6 +13682,14 @@
   "hn:50344861": [
    65,
    "2026-11-03T06:53:43.687930+00:00"
+  ],
+  "hn:50349155": [
+   72,
+   "2026-11-03T08:53:41.599064+00:00"
+  ],
+  "lobsters:7fcuxz": [
+   27,
+   "2026-11-03T08:53:41.599064+00:00"
   ]
  }
 }
