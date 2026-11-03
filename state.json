@@ -2397,18 +2397,26 @@
   "https://www.cnews.ru/news/line/2026-11-03_bank_v_armenii_vnedril_ii",
   "3232732",
   "https://www.cnews.ru/news/line/2026-11-03_rusal_meditsinskij_tsentr",
-  "https://www.securityweek.com/?p=50485"
+  "https://www.securityweek.com/?p=50485",
+  "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+  "https://www.theregister.com/a/5306650",
+  "3232754",
+  "ec6c0617e7a0d91a1d548e5ce82a49f6",
+  "https://www.theregister.com/a/5307004",
+  "748434c46cb2de08f2d06041766c8cde",
+  "56bdde25d578197d41c998384f257216",
+  "440f8fc9925b1ba884a78294453ee162"
  ],
  "posted": {
   "viral": 466,
-  "editorial": 628
+  "editorial": 631
  },
  "recent_labels": [
   "CNews",
-  "Hacker News",
-  "CNews",
-  "CNews",
-  "SecurityWeek"
+  "SecurityWeek",
+  "The Hacker News",
+  "vc.ru",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7304,25 +7312,30 @@
    "source": "SecurityWeek",
    "score": 0.27915,
    "at": "2026-11-03T08:54:35.466846+00:00"
+  },
+  {
+   "title": "هکرهای ناشناس با سوءاستفاده از یک آسیب‌پذیری توانستند بیت‌کوین و لایت‌کوین را از هات‌واللت‌های نرم‌افزار BTCPay Server به سرقت ببرند",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+   "source": "The Hacker News",
+   "score": 0.13187,
+   "at": "2026-11-03T09:53:49.611358+00:00"
+  },
+  {
+   "title": "رونمایی از اسپیکر هوشمند «Станция Bork» با قیمت ۷۸ هزار روبل",
+   "url": "https://vc.ru/tech/3232754-yandeks-i-bork-stantsiya-bork?from=rss",
+   "source": "vc.ru",
+   "score": 0.13473,
+   "at": "2026-11-03T09:54:23.373732+00:00"
+  },
+  {
+   "title": "فرمان جدید ولادیمیر پوتین برای تخصیص ۱۰ درصد ظرفیت دیتاسنترهای خصوصی",
+   "url": "https://hi-tech.mail.ru/news/159615-ekspert-obyasnil-nyuansy-ukaza-putina-po-chastnym-data-centram/",
+   "source": "Hi-Tech Mail",
+   "score": 0.16901,
+   "at": "2026-11-03T09:55:02.911188+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "actively",
-    "authorization",
-    "bypass",
-    "commerce",
-    "core",
-    "critical",
-    "drupal",
-    "exploit",
-    "flaw",
-    "hackers",
-    "highly"
-   ],
-   "at": "2026-10-30T08:54:03.859140+00:00"
-  },
   {
    "sig": [
     "azure",
@@ -11288,6 +11301,21 @@
     "training"
    ],
    "at": "2026-11-03T08:54:35.466846+00:00"
+  },
+  {
+   "sig": [
+    "bitcoin",
+    "btcpay",
+    "exploit",
+    "flaw",
+    "hackers",
+    "hot",
+    "litecoin",
+    "server",
+    "steal",
+    "wallets"
+   ],
+   "at": "2026-11-03T09:53:49.611358+00:00"
   }
  ],
  "snapshots": {
