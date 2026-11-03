@@ -2349,18 +2349,32 @@
   "TheNextWeb=bc4889855ae4d3f33938fbd0342cacaa",
   "hn:50347683",
   "https://techcrunch.com/?p=3184353",
-  "https://tech.slashdot.org/story/26/11/03/0243238/byd-sold-more-evs-last-month-than-the-us-did-all-quarter?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://tech.slashdot.org/story/26/11/03/0243238/byd-sold-more-evs-last-month-than-the-us-did-all-quarter?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+  "https://www.theverge.com/?p=1024807",
+  "https://www.theregister.com/a/5307045",
+  "1420893",
+  "https://techcrunch.com/?p=3184089",
+  "https://www.neowin.net/news/openai-is-merging-chat-and-work-into-a-single-chatgpt-experience/",
+  "https://9to5mac.com/?p=1077041",
+  "s5SGAWYcMMYR83ujTNsJ9H",
+  "https://techcrunch.com/?p=3184048",
+  "6n6AocYkmWc9eJZSNcbBKW",
+  "https://slashdot.org/story/26/11/02/1940254/openai-might-rebrand-its-data-centers-as-ai-compute-campuses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.techspot.com/news/114411-openai-plan-make-data-centers-less-hated-rename.html",
+  "https://www.theregister.com/a/5307124",
+  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mzezwpdhq22t"
  ],
  "posted": {
-  "viral": 463,
-  "editorial": 616
+  "viral": 464,
+  "editorial": 620
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
-  "TechSpot",
-  "Lobsters",
-  "TechCrunch AI"
+  "The Hacker News",
+  "ZDNet",
+  "Tom's Hardware",
+  "The Register",
+  "Dan Luu"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7151,86 +7165,44 @@
    "source": "TechCrunch AI",
    "score": 0.1152,
    "at": "2026-11-03T04:54:21.356828+00:00"
+  },
+  {
+   "title": "انهدام یک بات‌نت میلیونی اندروید توسط گوگل",
+   "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+   "source": "The Hacker News",
+   "score": 0.04879,
+   "at": "2026-11-03T05:53:53.103947+00:00"
+  },
+  {
+   "title": "ادغام تب‌های گفت‌وگو و کار در ChatGPT توسط شرکت OpenAI",
+   "url": "https://www.zdnet.com/innovation/openai-merge-chatgpt-chat-work-tabs/",
+   "source": "ZDNet",
+   "score": 0.04875,
+   "at": "2026-11-03T05:54:07.492093+00:00"
+  },
+  {
+   "title": "تلاش OpenAI برای تغییر نام دیتاسنترها به پردیس‌های پردازشی هوش مصنوعی",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-considers-rebranding-data-centers-to-ai-compute-campuses-as-data-center-backlash-intensifies-company-reportedly-sees-2028-presidential-election-becoming-an-ai-issue",
+   "source": "Tom's Hardware",
+   "score": 0.05482,
+   "at": "2026-11-03T05:54:24.569587+00:00"
+  },
+  {
+   "title": "ساخت ابزار متن‌باز جایگزین ابزار پنهان انتقال ماشین مجازی VMware",
+   "url": "https://www.theregister.com/virtualization/2026/11/03/architect-creates-open-source-replacement-for-vm-migration-tool-vmware-has-hidden/5307124",
+   "source": "The Register",
+   "score": 0.13355,
+   "at": "2026-11-03T05:54:45.360242+00:00"
+  },
+  {
+   "title": "ارزیابی کارایی تکنیک‌های تست و اعسنجی با استفاده از GPT-6 Astra",
+   "url": "https://bsky.app/profile/danluu.com/post/3mzezwpdhq22t",
+   "source": "Dan Luu",
+   "score": 0.31728,
+   "at": "2026-11-03T05:54:58.391973+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "computers",
-    "general-purpose",
-    "microcontroller-based",
-    "sylphide"
-   ],
-   "at": "2026-10-30T04:53:58.585580+00:00"
-  },
-  {
-   "sig": [
-    "announced",
-    "anthropic",
-    "api",
-    "benefit",
-    "chatgpt",
-    "credits",
-    "earlier",
-    "eligible",
-    "equivalent",
-    "expiring",
-    "generous",
-    "max",
-    "month",
-    "per",
-    "quantity",
-    "subscribers",
-    "subscriptions",
-    "team",
-    "would"
-   ],
-   "at": "2026-10-30T04:54:11.419716+00:00"
-  },
-  {
-   "sig": [
-    "expected",
-    "fold",
-    "nobody",
-    "owner",
-    "pixel",
-    "pro",
-    "repair",
-    "swap",
-    "upgrade"
-   ],
-   "at": "2026-10-30T04:54:17.524207+00:00"
-  },
-  {
-   "sig": [
-    "amazon",
-    "aws",
-    "billion",
-    "cash",
-    "drains",
-    "flow",
-    "massive",
-    "revenue",
-    "spending",
-    "surges"
-   ],
-   "at": "2026-10-30T04:54:23.622218+00:00"
-  },
-  {
-   "sig": [
-    "bugs",
-    "developer",
-    "find",
-    "flaws",
-    "microsoft",
-    "openai",
-    "researchers",
-    "still",
-    "tools",
-    "unpatched"
-   ],
-   "at": "2026-10-30T05:53:50.519335+00:00"
-  },
   {
    "sig": [
     "6.3",
@@ -11119,13 +11091,105 @@
     "takes"
    ],
    "at": "2026-11-03T04:54:21.356828+00:00"
+  },
+  {
+   "sig": [
+    "1.3",
+    "1.3m",
+    "access",
+    "android",
+    "botnet",
+    "box",
+    "boxes",
+    "bust",
+    "cops",
+    "criminal",
+    "disrupts",
+    "google",
+    "infected",
+    "maker",
+    "million",
+    "million-device",
+    "partners",
+    "set-top",
+    "sold",
+    "turned"
+   ],
+   "at": "2026-11-03T05:53:53.103947+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "chat",
+    "chatgpt",
+    "classic",
+    "combine",
+    "expect",
+    "experience",
+    "finally",
+    "here",
+    "merge",
+    "merging",
+    "openai",
+    "retiring",
+    "single",
+    "soon",
+    "tabs",
+    "work"
+   ],
+   "at": "2026-11-03T05:54:07.492093+00:00"
+  },
+  {
+   "sig": [
+    "backlash",
+    "campuses",
+    "center",
+    "centers",
+    "compute",
+    "considers",
+    "data",
+    "hated",
+    "intensifies",
+    "less",
+    "might",
+    "openai",
+    "people",
+    "plan",
+    "rebrand",
+    "rebranding",
+    "rename",
+    "try",
+    "wants",
+    "win"
+   ],
+   "at": "2026-11-03T05:54:24.569587+00:00"
+  },
+  {
+   "sig": [
+    "architect",
+    "creates",
+    "hidden",
+    "migration",
+    "open-source",
+    "replacement",
+    "tool",
+    "vmware"
+   ],
+   "at": "2026-11-03T05:54:45.360242+00:00"
+  },
+  {
+   "sig": [
+    "astra",
+    "effectiveness",
+    "gpt-6",
+    "technique",
+    "test",
+    "verification"
+   ],
+   "at": "2026-11-03T05:54:58.391973+00:00"
   }
  ],
  "snapshots": {
-  "hn:50201259": [
-   84,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
   "hn:50199757": [
    223,
    "2026-10-22T22:35:26.823298+00:00"
@@ -13506,10 +13570,6 @@
    312,
    "2026-11-03T04:53:48.541208+00:00"
   ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mze2gvcx4s2u": [
-   70,
-   "2026-11-03T04:53:48.541208+00:00"
-  ],
   "hn:50347683": [
    309,
    "2026-11-03T04:53:48.541208+00:00"
@@ -13521,6 +13581,14 @@
   "lobsters:s1btqo": [
    25,
    "2026-11-03T04:53:48.541208+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mze2gvcx4s2u": [
+   70,
+   "2026-11-03T05:53:43.215000+00:00"
+  ],
+  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mzezwpdhq22t": [
+   10,
+   "2026-11-03T05:53:43.215000+00:00"
   ]
  }
 }
