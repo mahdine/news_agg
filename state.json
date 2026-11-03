@@ -2363,18 +2363,35 @@
   "https://slashdot.org/story/26/11/02/1940254/openai-might-rebrand-its-data-centers-as-ai-compute-campuses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.techspot.com/news/114411-openai-plan-make-data-centers-less-hated-rename.html",
   "https://www.theregister.com/a/5307124",
-  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mzezwpdhq22t"
+  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mzezwpdhq22t",
+  "hn:50344861",
+  "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+  "67252234563a280b6ad5ef8d",
+  "6a4fc19f310c3dfb19c4f4bd",
+  "6733e9ae64178b40933a31fc",
+  "673bb0142598c31aeeee086e",
+  "674f80033ffc1b7f03c85b6b",
+  "67119320efb17e0b0a750c63",
+  "67bccc2de807ab74e8f0139a",
+  "66eb00ad83cd4f2fbb17d4a2",
+  "671bc281433273bdc6e673bc",
+  "672d41fcd6406683ec9bfd2e",
+  "0ad9445e8d64943b7d79299f231871a2",
+  "https://www.techspot.com/news/114419-refrigerator-cyberattack-spreads-many-european-countries-spoiling-food.html",
+  "a80a77977a75359032d153771e2c0c31",
+  "abc88be27281c6a50db0fbf1f82513ac",
+  "a53fffec0e2bd04c4a2a4605fec01935"
  ],
  "posted": {
-  "viral": 464,
-  "editorial": 620
+  "viral": 465,
+  "editorial": 623
  },
  "recent_labels": [
+  "Dan Luu",
+  "Hacker News",
   "The Hacker News",
-  "ZDNet",
-  "Tom's Hardware",
-  "The Register",
-  "Dan Luu"
+  "TechSpot",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7200,51 +7217,37 @@
    "source": "Dan Luu",
    "score": 0.31728,
    "at": "2026-11-03T05:54:58.391973+00:00"
+  },
+  {
+   "title": "توانایی مدل‌های زبانی در ویرایش مستقیم وزن‌های شبکه‌های عصبی",
+   "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
+   "source": "seangoedecke.com",
+   "score": 0.05464,
+   "at": "2026-11-03T06:53:45.671958+00:00"
+  },
+  {
+   "title": "سوءاستفاده از آسیب‌پذیری بحرانی در دستگاه‌های صنعتی Siemens IoT2050",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+   "source": "The Hacker News",
+   "score": 0.07438,
+   "at": "2026-11-03T06:53:51.730563+00:00"
+  },
+  {
+   "title": "حمله سایبری به سیستم‌های سرمایشی فروشگاه‌های زنجیره‌ای در اروپا",
+   "url": "https://www.techspot.com/news/114419-refrigerator-cyberattack-spreads-many-european-countries-spoiling-food.html",
+   "source": "TechSpot",
+   "score": 0.14514,
+   "at": "2026-11-03T06:54:20.730156+00:00"
+  },
+  {
+   "title": "حمله باج‌افزاری به حساب‌های کاربری خودروهای Li Auto در روسیه",
+   "url": "https://hi-tech.mail.ru/news/159592-u-vladelcev-li-auto-v-rossii-kradut-akkaunty-i-trebuyut/",
+   "source": "Hi-Tech Mail",
+   "score": 0.18245,
+   "at": "2026-11-03T06:54:55.430515+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "6.3",
-    "affecting",
-    "assets",
-    "billion",
-    "binance",
-    "breach",
-    "frozen",
-    "nearly",
-    "security",
-    "suffers"
-   ],
-   "at": "2026-10-30T05:53:58.347765+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "back",
-    "beta",
-    "features",
-    "menu",
-    "pixel",
-    "puts",
-    "qpr3",
-    "useful"
-   ],
-   "at": "2026-10-30T05:54:13.095335+00:00"
-  },
-  {
-   "sig": [
-    "500b",
-    "fears",
-    "google",
-    "plunges",
-    "rattle",
-    "street",
-    "value",
-    "wall"
-   ],
-   "at": "2026-10-30T06:53:40.735133+00:00"
-  },
   {
    "sig": [
     "bets",
@@ -11187,13 +11190,51 @@
     "verification"
    ],
    "at": "2026-11-03T05:54:58.391973+00:00"
+  },
+  {
+   "sig": [
+    "llms",
+    "network",
+    "neural",
+    "reading",
+    "superhuman",
+    "weights",
+    "writing"
+   ],
+   "at": "2026-11-03T06:53:45.671958+00:00"
+  },
+  {
+   "sig": [
+    "attackers",
+    "backdoors",
+    "command",
+    "critical",
+    "exploit",
+    "flaw",
+    "iot2050",
+    "plant",
+    "remote",
+    "siemens"
+   ],
+   "at": "2026-11-03T06:53:51.730563+00:00"
+  },
+  {
+   "sig": [
+    "countries",
+    "cyberattack",
+    "european",
+    "food",
+    "many",
+    "refrigerator",
+    "spoiling",
+    "spreads",
+    "thousands",
+    "worth"
+   ],
+   "at": "2026-11-03T06:54:20.730156+00:00"
   }
  ],
  "snapshots": {
-  "hn:50199757": [
-   223,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
   "hn:50199389": [
    127,
    "2026-10-22T22:35:26.823298+00:00"
@@ -13582,13 +13623,17 @@
    25,
    "2026-11-03T04:53:48.541208+00:00"
   ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mze2gvcx4s2u": [
-   70,
-   "2026-11-03T05:53:43.215000+00:00"
-  ],
   "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mzezwpdhq22t": [
    10,
    "2026-11-03T05:53:43.215000+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mze2gvcx4s2u": [
+   70,
+   "2026-11-03T06:53:43.687930+00:00"
+  ],
+  "hn:50344861": [
+   65,
+   "2026-11-03T06:53:43.687930+00:00"
   ]
  }
 }
