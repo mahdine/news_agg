@@ -7381,36 +7381,36 @@
    "title": "انتقاد ایلان ماسک از دیدگاه سم آلتمن درباره محدودیت حافظه رم",
    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-mocks-openai-ceo-sam-altmans-claim-that-pcs-having-ram-is-terrible-the-people-deserve-to-have-their-ram-too",
    "source": "Tom's Hardware",
-   "score": 0.45593,
-   "at": "2026-11-03T12:53:53.694447+00:00"
+   "score": 0.44742,
+   "at": "2026-11-03T12:55:13.087596+00:00"
   },
   {
-   "title": "آیا سخت‌افزار سال ۱۹۹۶ می‌توانست گری کاسپاروف را در شطرنج شکست دهد",
+   "title": "آیا سخت‌افزار سال ۱۹۹۶ می‌توانست گری کاسپاروف را شکست دهد",
    "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
    "source": "nicholas.carlini.com",
-   "score": 0.03523,
-   "at": "2026-11-03T12:54:07.818732+00:00"
+   "score": 0.03504,
+   "at": "2026-11-03T12:55:18.972014+00:00"
   },
   {
-   "title": "مهاجرت مهندسان Revolut به مدل‌های خودمیزبان برای کاهش هزینه‌های هوش مصنوعی",
+   "title": "مهاجرت Revolut به مدل‌های متن‌باز برای کاهش هزینه‌های مهندسی",
    "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
    "source": "twitter.com",
-   "score": 0.08782,
-   "at": "2026-11-03T12:54:15.178180+00:00"
+   "score": 0.08712,
+   "at": "2026-11-03T12:55:25.867213+00:00"
   },
   {
    "title": "موضع‌گیری Reddit در برابر قانون محدودیت سنی شبکه‌های اجتماعی در استرالیا",
    "url": "https://www.techspot.com/news/114429-reddit-tells-australian-court-isnt-social-media-site.html",
    "source": "TechSpot",
-   "score": 0.53871,
-   "at": "2026-11-03T12:54:20.668034+00:00"
+   "score": 0.52872,
+   "at": "2026-11-03T12:55:31.017820+00:00"
   },
   {
    "title": "تهدید زیرساخت‌های اینترنت جهانی توسط کشتی‌های تحقیقاتی چین",
    "url": "https://www.tomshardware.com/tech-industry/chinese-survey-ship-loitering-near-undersea-cable-ignores-philippine-demands-to-withdraw-evasive-action-point-to-growing-prc-threats-to-data-lines-in-the-pacific",
    "source": "Tom's Hardware",
-   "score": 0.20521,
-   "at": "2026-11-03T12:54:26.682489+00:00"
+   "score": 0.20182,
+   "at": "2026-11-03T12:55:37.397348+00:00"
   }
  ],
  "stories": [
@@ -11296,7 +11296,7 @@
     "terrible",
     "too"
    ],
-   "at": "2026-11-03T12:53:53.694447+00:00"
+   "at": "2026-11-03T12:55:13.087596+00:00"
   },
   {
    "sig": [
@@ -11308,7 +11308,7 @@
     "modern",
     "pentium"
    ],
-   "at": "2026-11-03T12:54:07.818732+00:00"
+   "at": "2026-11-03T12:55:18.972014+00:00"
   },
   {
    "sig": [
@@ -11317,7 +11317,7 @@
     "revolut",
     "self-hosted"
    ],
-   "at": "2026-11-03T12:54:15.178180+00:00"
+   "at": "2026-11-03T12:55:25.867213+00:00"
   },
   {
    "sig": [
@@ -11338,7 +11338,7 @@
     "thought",
     "under-16"
    ],
-   "at": "2026-11-03T12:54:20.668034+00:00"
+   "at": "2026-11-03T12:55:31.017820+00:00"
   },
   {
    "sig": [
@@ -11363,7 +11363,7 @@
     "undersea",
     "withdraw"
    ],
-   "at": "2026-11-03T12:54:26.682489+00:00"
+   "at": "2026-11-03T12:55:37.397348+00:00"
   }
  ],
  "snapshots": {
@@ -13761,11 +13761,11 @@
   ],
   "hn:50350004": [
    320,
-   "2026-11-03T12:53:51.385914+00:00"
+   "2026-11-03T12:55:11.162240+00:00"
   ],
   "hn:50349276": [
    131,
-   "2026-11-03T12:53:51.385914+00:00"
+   "2026-11-03T12:55:11.162240+00:00"
   ]
  }
 }
