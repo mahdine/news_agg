@@ -2432,16 +2432,28 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzfwazn4k22o",
   "0bca6224bf6c858521c38de0a7335f42",
   "d4134c692a169f9aebf9d86dc7cad377",
-  "82633b42cfd65b2e3c07565e4f9e7413"
+  "82633b42cfd65b2e3c07565e4f9e7413",
+  "https://www.engadget.com/2305009/peak-design-premium-chargers-batteries-cables-accessories/",
+  "https://www.theverge.com/?p=1024484",
+  "GJseYq6REsLcYLjntgjVdg",
+  "hHQCvLeAniKNRqYHiJna27",
+  "TheNextWeb=31e8556a0c77ce94a806374a73904fd0",
+  "https://www.theverge.com/?p=1025160",
+  "hn:50352257",
+  "https://techcrunch.com/?p=3184579",
+  "https://techcrunch.com/?p=3184568",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzg2hkl3tr2c",
+  "https://www.cnews.ru/news/line/2026-11-03_axelot_wms_obedinila_sklady",
+  "https://9to5mac.com/?p=1077179"
  ],
  "posted": {
-  "viral": 472,
+  "viral": 474,
   "editorial": 637
  },
  "recent_labels": [
-  "TechSpot",
-  "Tom's Hardware",
   "Engadget",
+  "Hacker News",
+  "404 Media",
   "Hacker News",
   "404 Media"
  ],
@@ -7444,31 +7456,23 @@
    "source": "404media.co",
    "score": 0.86214,
    "at": "2026-11-03T13:54:07.915251+00:00"
+  },
+  {
+   "title": "انتقاد از پاسخ‌های خودکار هوش مصنوعی در پشتیبانی مشتریان",
+   "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+   "source": "shkspr.mobi",
+   "score": 0.09804,
+   "at": "2026-11-03T14:58:21.646251+00:00"
+  },
+  {
+   "title": "هجوم افزونه‌های تولیدشده با هوش مصنوعی به بازی World of Warcraft",
+   "url": "https://www.404media.co/world-of-warcraft-forever-is-already-overrun-with-ai-slop/",
+   "source": "404media.co",
+   "score": 0.50606,
+   "at": "2026-11-03T15:00:27.684173+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "act",
-    "build",
-    "governance",
-    "lasts",
-    "longer",
-    "opportunity",
-    "runway"
-   ],
-   "at": "2026-10-30T11:29:21.585015+00:00"
-  },
-  {
-   "sig": [
-    "accidentally",
-    "curl",
-    "months",
-    "nine",
-    "turing-complete"
-   ],
-   "at": "2026-10-30T11:53:44.749119+00:00"
-  },
   {
    "sig": [
     "backdoor",
@@ -11406,17 +11410,35 @@
     "works"
    ],
    "at": "2026-11-03T13:54:07.915251+00:00"
+  },
+  {
+   "sig": [
+    "little",
+    "resistance",
+    "treat"
+   ],
+   "at": "2026-11-03T14:58:21.646251+00:00"
+  },
+  {
+   "sig": [
+    "addon",
+    "api",
+    "bad",
+    "changing",
+    "dealing",
+    "developers",
+    "getting",
+    "logs",
+    "problem",
+    "theft",
+    "vibe-coded",
+    "warcraft",
+    "work"
+   ],
+   "at": "2026-11-03T15:00:27.684173+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myiixdriib2q": [
-   74,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3myigjinnjc22": [
-   182,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
   "hn:50205229": [
    364,
    "2026-10-23T10:21:33.305604+00:00"
@@ -13797,10 +13819,6 @@
    131,
    "2026-11-03T12:55:11.162240+00:00"
   ],
-  "hn:50350560": [
-   154,
-   "2026-11-03T13:53:53.220824+00:00"
-  ],
   "hn:50347552": [
    123,
    "2026-11-03T13:53:53.220824+00:00"
@@ -13808,6 +13826,18 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzfwazn4k22o": [
    349,
    "2026-11-03T13:53:53.220824+00:00"
+  ],
+  "hn:50350560": [
+   202,
+   "2026-11-03T14:53:40.851244+00:00"
+  ],
+  "hn:50352257": [
+   95,
+   "2026-11-03T14:53:40.851244+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzg2hkl3tr2c": [
+   163,
+   "2026-11-03T14:53:40.851244+00:00"
   ]
  }
 }
