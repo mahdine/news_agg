@@ -2405,18 +2405,26 @@
   "https://www.theregister.com/a/5307004",
   "748434c46cb2de08f2d06041766c8cde",
   "56bdde25d578197d41c998384f257216",
-  "440f8fc9925b1ba884a78294453ee162"
+  "440f8fc9925b1ba884a78294453ee162",
+  "hn:50348260",
+  "hn:50348962",
+  "6ae8fe6dd5a17b3091ee07f9",
+  "https://www.theregister.com/a/5306918",
+  "https://www.phoronix.com/news/GCC-17-Merges-AVX10V1AUX",
+  "https://www.phoronix.com/news/SUSE-Layoffs-10p-AI",
+  "6ae4dfc0620ab0559e381a7e",
+  "6ae8c770fdca8a2bb1f7b369"
  ],
  "posted": {
-  "viral": 466,
-  "editorial": 631
+  "viral": 468,
+  "editorial": 633
  },
  "recent_labels": [
-  "CNews",
-  "SecurityWeek",
-  "The Hacker News",
-  "vc.ru",
-  "Hi-Tech Mail"
+  "Hi-Tech Mail",
+  "Hacker News",
+  "Hacker News",
+  "Phoronix",
+  "Phoronix"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7333,78 +7341,37 @@
    "source": "Hi-Tech Mail",
    "score": 0.16901,
    "at": "2026-11-03T09:55:02.911188+00:00"
+  },
+  {
+   "title": "اختلال در سرویس‌های شبکه Cloudflare در مناطق مختلف جهان",
+   "url": "https://www.cloudflarestatus.com/",
+   "source": "cloudflarestatus.com",
+   "score": 0.08465,
+   "at": "2026-11-03T10:53:45.242087+00:00"
+  },
+  {
+   "title": "معرفی ابزار متن‌باز Nvidia Auto Ontology برای بهبود دقت تحلیل‌های هوش مصنوعی",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "source": "github.com",
+   "score": 0.04543,
+   "at": "2026-11-03T10:53:52.076532+00:00"
+  },
+  {
+   "title": "افزودن پشتیبانی از دستورالعمل‌های AVX10V1AUX به کامپایلر GCC 17",
+   "url": "https://www.phoronix.com/news/GCC-17-Merges-AVX10V1AUX",
+   "source": "Phoronix",
+   "score": 0.18415,
+   "at": "2026-11-03T10:54:00.569054+00:00"
+  },
+  {
+   "title": "تعدیل نیروی ۱۰ درصدی در شرکت SUSE به دلیل اتوماسیون",
+   "url": "https://www.phoronix.com/news/SUSE-Layoffs-10p-AI",
+   "source": "Phoronix",
+   "score": 0.20509,
+   "at": "2026-11-03T10:54:05.753693+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "azure",
-    "deployment",
-    "environments",
-    "microsoft",
-    "product",
-    "replacement",
-    "retires"
-   ],
-   "at": "2026-10-30T08:54:10.258026+00:00"
-  },
-  {
-   "sig": [
-    "bears",
-    "billion",
-    "binance",
-    "hack",
-    "hallmarks",
-    "korea",
-    "north",
-    "tradertraitor"
-   ],
-   "at": "2026-10-30T08:54:30.822986+00:00"
-  },
-  {
-   "sig": [
-    "10.0",
-    "alpine",
-    "attacker",
-    "cvss",
-    "exploit",
-    "exploited",
-    "flaw",
-    "gitlab",
-    "left",
-    "linux",
-    "max-severity",
-    "open",
-    "ruby",
-    "tried",
-    "via",
-    "vulnerability"
-   ],
-   "at": "2026-10-30T09:53:45.783275+00:00"
-  },
-  {
-   "sig": [
-    "17m",
-    "a16z",
-    "autonomous",
-    "build",
-    "building",
-    "construction",
-    "design",
-    "dream",
-    "ex-palantir",
-    "execs",
-    "fable-class",
-    "founders",
-    "game",
-    "launch",
-    "models",
-    "multiplayer",
-    "raise",
-    "world"
-   ],
-   "at": "2026-10-30T09:53:51.585567+00:00"
-  },
   {
    "sig": [
     "agent",
@@ -11316,17 +11283,47 @@
     "wallets"
    ],
    "at": "2026-11-03T09:53:49.611358+00:00"
+  },
+  {
+   "sig": [
+    "active",
+    "cloudflare",
+    "experiencing",
+    "incidents",
+    "multiple"
+   ],
+   "at": "2026-11-03T10:53:45.242087+00:00"
+  },
+  {
+   "sig": [
+    "auto-ontology",
+    "nvidia",
+    "open-source"
+   ],
+   "at": "2026-11-03T10:53:52.076532+00:00"
+  },
+  {
+   "sig": [
+    "avx10v1aux",
+    "compiler",
+    "gcc",
+    "merges",
+    "support"
+   ],
+   "at": "2026-11-03T10:54:00.569054+00:00"
+  },
+  {
+   "sig": [
+    "automation",
+    "due",
+    "laying",
+    "suse",
+    "workforce"
+   ],
+   "at": "2026-11-03T10:54:05.753693+00:00"
   }
  ],
  "snapshots": {
-  "hn:50199230": [
-   173,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
-  "hn:50198940": [
-   144,
-   "2026-10-22T22:35:26.823298+00:00"
-  ],
   "hn:50198675": [
    489,
    "2026-10-22T22:35:26.823298+00:00"
@@ -13718,6 +13715,14 @@
   "lobsters:7fcuxz": [
    27,
    "2026-11-03T08:53:41.599064+00:00"
+  ],
+  "hn:50348962": [
+   109,
+   "2026-11-03T10:53:43.285920+00:00"
+  ],
+  "hn:50348260": [
+   68,
+   "2026-11-03T10:53:43.285920+00:00"
   ]
  }
 }
