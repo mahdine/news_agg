@@ -2560,18 +2560,28 @@
   "https://www.theregister.com/a/5307542",
   "https://science.slashdot.org/story/26/11/04/0616201/nasas-swift-observatory-is-falling-to-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "UwmNhwV6Y4ZEtsJGmgoxN",
-  "https://www.neowin.net/news/canva-cutting-22-of-workforce-in-major-restructuring-and-shifting-primary-product-hub/"
+  "https://www.neowin.net/news/canva-cutting-22-of-workforce-in-major-restructuring-and-shifting-primary-product-hub/",
+  "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+  "https://www.theregister.com/a/5307296",
+  "z7j6msmkko47LqBByytSiW",
+  "lobsters:cozhtg",
+  "3ijk3odn6cqrzgxLx6xv98",
+  "hn:50364478",
+  "https://www.phoronix.com/news/Debian-APT-MITM-RCE",
+  "hn:50364814",
+  "XC9LBgCQ4A2qJhYzXWxvVD",
+  "hn:50365982"
  ],
  "posted": {
-  "viral": 504,
-  "editorial": 655
+  "viral": 505,
+  "editorial": 659
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
-  "SecurityWeek",
+  "The Hacker News",
+  "Lobsters",
+  "TechRadar",
   "Phoronix",
-  "The Register"
+  "Tom's Hardware"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7922,91 +7932,44 @@
    "source": "The Register",
    "score": 0.23361,
    "at": "2026-11-04T13:06:56.990134+00:00"
+  },
+  {
+   "title": "هشدار امنیتی mSecure به کاربران پس از فعالیت مشکوک",
+   "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+   "source": "The Hacker News",
+   "score": 0.56344,
+   "at": "2026-11-04T14:54:30.050601+00:00"
+  },
+  {
+   "title": "سرقت درخواست‌های DNS توسط ارائه‌دهنده‌ی اینترنت",
+   "url": "https://karthihegde.dev/posts/dns_tampering",
+   "source": "karthihegde.dev",
+   "score": 0.19068,
+   "at": "2026-11-04T14:55:44.333178+00:00"
+  },
+  {
+   "title": "حمله هکری به سیستم سرمایش ذخایر خون فرانسه خنثی شد",
+   "url": "https://www.techradar.com/computing/cybercrime/hackers-target-french-blood-banks-in-latest-freezer-attack-as-uk-cybersecurity-chief-warns-of-sliding-doors-moment-for-unprecedented-threat",
+   "source": "TechRadar",
+   "score": 0.3696,
+   "at": "2026-11-04T14:57:21.500773+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری بحرانی در مدیریت بسته‌های APT دبیان",
+   "url": "https://www.phoronix.com/news/Debian-APT-MITM-RCE",
+   "source": "Phoronix",
+   "score": 0.27156,
+   "at": "2026-11-04T14:57:48.351343+00:00"
+  },
+  {
+   "title": "شکست دیتاسنترهای هوش مصنوعی در انتخابات میان‌دوره‌ای آمریکا",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-centers-comprehensively-defeated-at-us-midterm-elections-45-measures-put-on-the-ballot-as-americans-overwhelmingly-vote-against-developments",
+   "source": "Tom's Hardware",
+   "score": 0.90701,
+   "at": "2026-11-04T14:59:33.700032+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "digital",
-    "french",
-    "kill",
-    "may",
-    "non-profit",
-    "tax",
-    "videolan"
-   ],
-   "at": "2026-10-31T02:54:22.933699+00:00"
-  },
-  {
-   "sig": [
-    "agencies",
-    "anthropic",
-    "blackstone",
-    "credit",
-    "following",
-    "high",
-    "investment-grade",
-    "ipo",
-    "junk",
-    "may",
-    "rating",
-    "receive",
-    "secure"
-   ],
-   "at": "2026-10-31T02:54:30.470602+00:00"
-  },
-  {
-   "sig": [
-    "27-year-old",
-    "cisco",
-    "code",
-    "company",
-    "engineer",
-    "gives",
-    "legacy",
-    "months",
-    "rewrite",
-    "tokens",
-    "unlimited"
-   ],
-   "at": "2026-10-31T03:53:51.804733+00:00"
-  },
-  {
-   "sig": [
-    "adoption",
-    "again",
-    "android",
-    "anything",
-    "continue",
-    "ever",
-    "greatest",
-    "hits",
-    "latest",
-    "never",
-    "often",
-    "really",
-    "security",
-    "should",
-    "software",
-    "staggering",
-    "sure",
-    "update",
-    "updating"
-   ],
-   "at": "2026-10-31T03:54:07.938800+00:00"
-  },
-  {
-   "sig": [
-    "altman",
-    "dram",
-    "precious",
-    "ram",
-    "sam",
-    "thinks",
-    "wasting"
-   ],
-   "at": "2026-10-31T03:54:14.074873+00:00"
-  },
   {
    "sig": [
     "addiction",
@@ -11894,33 +11857,93 @@
     "watchdog"
    ],
    "at": "2026-11-04T13:06:56.990134+00:00"
+  },
+  {
+   "sig": [
+    "2fa",
+    "activity",
+    "change",
+    "immediately",
+    "manager",
+    "msecure",
+    "passkeys",
+    "password",
+    "passwords",
+    "reset",
+    "suspicious",
+    "tells",
+    "top",
+    "users",
+    "warns",
+    "won"
+   ],
+   "at": "2026-11-04T14:54:30.050601+00:00"
+  },
+  {
+   "sig": [
+    "dns",
+    "hijacking",
+    "isp"
+   ],
+   "at": "2026-11-04T14:55:44.333178+00:00"
+  },
+  {
+   "sig": [
+    "amid",
+    "attack",
+    "bank",
+    "banks",
+    "blood",
+    "freezer",
+    "french",
+    "hackers",
+    "hit",
+    "latest",
+    "national",
+    "target",
+    "warnings"
+   ],
+   "at": "2026-11-04T14:57:21.500773+00:00"
+  },
+  {
+   "sig": [
+    "affected",
+    "apt",
+    "arbitrary",
+    "attack",
+    "code",
+    "debian",
+    "execution",
+    "man-in-the-middle",
+    "root",
+    "security",
+    "update"
+   ],
+   "at": "2026-11-04T14:57:48.351343+00:00"
+  },
+  {
+   "sig": [
+    "americans",
+    "ballot",
+    "centers",
+    "comprehensively",
+    "data",
+    "defeated",
+    "developments",
+    "elections",
+    "measures",
+    "midterm",
+    "overwhelmingly",
+    "put",
+    "reject",
+    "roundly",
+    "vote",
+    "voters"
+   ],
+   "at": "2026-11-04T14:59:33.700032+00:00"
   }
  ],
  "snapshots": {
-  "hn:50218633": [
-   538,
-   "2026-10-24T14:36:34.134628+00:00"
-  ],
-  "hn:50217946": [
-   149,
-   "2026-10-24T14:36:34.134628+00:00"
-  ],
-  "hn:50217903": [
-   193,
-   "2026-10-24T14:36:34.134628+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mylvp5l7o22p": [
-   44,
-   "2026-10-24T14:36:34.134628+00:00"
-  ],
-  "lobsters:zug8xv": [
-   48,
-   "2026-10-24T14:36:34.134628+00:00"
-  ],
-  "hn:50219177": [
-   353,
-   "2026-10-24T17:32:08.407986+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mymutb22bk2r": [
    743,
    "2026-10-24T17:32:08.407986+00:00"
@@ -14265,10 +14288,6 @@
    59,
    "2026-11-04T10:53:48.021723+00:00"
   ],
-  "hn:50364336": [
-   306,
-   "2026-11-04T13:06:36.524615+00:00"
-  ],
   "hn:50363554": [
    219,
    "2026-11-04T12:53:39.773986+00:00"
@@ -14296,6 +14315,34 @@
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzhw4774us2b": [
    15,
    "2026-11-04T12:53:39.773986+00:00"
+  ],
+  "hn:50364336": [
+   306,
+   "2026-11-04T13:06:36.524615+00:00"
+  ],
+  "hn:50365982": [
+   96,
+   "2026-11-04T14:53:47.660770+00:00"
+  ],
+  "hn:50364814": [
+   170,
+   "2026-11-04T14:53:47.660770+00:00"
+  ],
+  "hn:50364478": [
+   219,
+   "2026-11-04T14:53:47.660770+00:00"
+  ],
+  "hn:50363968": [
+   119,
+   "2026-11-04T14:53:47.660770+00:00"
+  ],
+  "lobsters:cozhtg": [
+   31,
+   "2026-11-04T14:53:47.660770+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzigpsy5hs2r": [
+   810,
+   "2026-11-04T14:53:47.660770+00:00"
   ]
  }
 }
