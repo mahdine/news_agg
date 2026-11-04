@@ -2570,18 +2570,26 @@
   "https://www.phoronix.com/news/Debian-APT-MITM-RCE",
   "hn:50364814",
   "XC9LBgCQ4A2qJhYzXWxvVD",
-  "hn:50365982"
+  "hn:50365982",
+  "hn:50362274",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzigpsy5hs2r",
+  "https://www.theverge.com/?p=1026289",
+  "6ae4a29f964b916949bd55b3",
+  "https://www.theverge.com/?p=1026329",
+  "3235619",
+  "https://www.techspot.com/downloads/7467-remote-mouse.html",
+  "TheNextWeb=a9f1ddad890559e3172b168df0e7b8fc"
  ],
  "posted": {
-  "viral": 505,
-  "editorial": 659
+  "viral": 506,
+  "editorial": 663
  },
  "recent_labels": [
-  "The Hacker News",
-  "Lobsters",
-  "TechRadar",
-  "Phoronix",
-  "Tom's Hardware"
+  "Hacker News",
+  "The Verge",
+  "vc.ru",
+  "TechSpot",
+  "The Next Web"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7967,73 +7975,44 @@
    "source": "Tom's Hardware",
    "score": 0.90701,
    "at": "2026-11-04T14:59:33.700032+00:00"
+  },
+  {
+   "title": "سقوط سهام شرکت‌های هوش مصنوعی پس از انتخابات میان‌دوره‌ای آمریکا",
+   "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+   "source": "cnbc.com",
+   "score": 0.05728,
+   "at": "2026-11-04T15:53:52.564475+00:00"
+  },
+  {
+   "title": "تغییر موازنه قدرت در واشینگتن و آینده نظارت بر شرکت‌های بزرگ فناوری",
+   "url": "https://www.theverge.com/policy/1026289/midterms-2026-results-ai-data-center-big-tech-accountability",
+   "source": "The Verge",
+   "score": 0.16739,
+   "at": "2026-11-04T15:54:06.833283+00:00"
+  },
+  {
+   "title": "تعدیل گسترده نیرو در شرکت Canva برای بازسازی ساختار سازمانی",
+   "url": "https://vc.ru/money/3235619-tehnologii-menyayut-predstavlenie-o-tom-chto-i-kak-lyudi-mogut-sozdavat-i-chego-zhdut-ot-produktov-canva-obyavila-o-sokrashenii-shtata-ne-upomyanuv-ii-napryamuyu?from=rss",
+   "source": "vc.ru",
+   "score": 0.1908,
+   "at": "2026-11-04T15:54:26.568359+00:00"
+  },
+  {
+   "title": "تبدیل گوشی هوشمند به ماوس و کیبورد بی‌سیم برای کامپیوتر",
+   "url": "https://www.techspot.com/downloads/7467-remote-mouse.html",
+   "source": "TechSpot",
+   "score": 0.19727,
+   "at": "2026-11-04T15:54:35.635213+00:00"
+  },
+  {
+   "title": "ادغام دستیار هوش مصنوعی Adobe در پلتفرم‌های ChatGPT و Copilot",
+   "url": "https://thenextweb.com/news/adobe-cx-enterprise-coworker-chatgpt-claude-gemini-copilot",
+   "source": "The Next Web",
+   "score": 0.20293,
+   "at": "2026-11-04T15:54:43.111581+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "addiction",
-    "another",
-    "case",
-    "media",
-    "meta",
-    "settles",
-    "social",
-    "trial"
-   ],
-   "at": "2026-10-31T03:54:20.101117+00:00"
-  },
-  {
-   "sig": [
-    "10.0",
-    "canonical",
-    "cve",
-    "cve-2026-112816",
-    "emudhra",
-    "lxd",
-    "required"
-   ],
-   "at": "2026-10-31T03:54:25.914629+00:00"
-  },
-  {
-   "sig": [
-    "anthropic",
-    "attack",
-    "chain",
-    "claude",
-    "devices",
-    "drained",
-    "extensions",
-    "malicious",
-    "million",
-    "polymarket",
-    "put",
-    "supply",
-    "thousands",
-    "traders"
-   ],
-   "at": "2026-10-31T04:53:45.090818+00:00"
-  },
-  {
-   "sig": [
-    "27.3",
-    "apple",
-    "beta",
-    "china",
-    "coming",
-    "confirms",
-    "december",
-    "features",
-    "finally",
-    "intelligence",
-    "ios",
-    "next",
-    "qwen",
-    "reach",
-    "week"
-   ],
-   "at": "2026-10-31T04:53:52.600646+00:00"
-  },
   {
    "sig": [
     "copyright",
@@ -11941,13 +11920,55 @@
     "voters"
    ],
    "at": "2026-11-04T14:59:33.700032+00:00"
+  },
+  {
+   "sig": [
+    "center",
+    "data",
+    "governor",
+    "raises",
+    "result",
+    "risks",
+    "slide",
+    "stocks",
+    "texas"
+   ],
+   "at": "2026-11-04T15:53:52.564475+00:00"
+  },
+  {
+   "sig": [
+    "accountability",
+    "fight",
+    "starts",
+    "tech"
+   ],
+   "at": "2026-11-04T15:54:06.833283+00:00"
+  },
+  {
+   "sig": [
+    "handy",
+    "mouse",
+    "remote",
+    "smartphone",
+    "turns"
+   ],
+   "at": "2026-11-04T15:54:35.635213+00:00"
+  },
+  {
+   "sig": [
+    "adobe",
+    "agent",
+    "chatgpt",
+    "claude",
+    "copilot",
+    "inside",
+    "marketing",
+    "puts"
+   ],
+   "at": "2026-11-04T15:54:43.111581+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mymutb22bk2r": [
-   743,
-   "2026-10-24T17:32:08.407986+00:00"
-  ],
   "hn:50220204": [
    183,
    "2026-10-24T21:05:02.976983+00:00"
@@ -14332,17 +14353,21 @@
    219,
    "2026-11-04T14:53:47.660770+00:00"
   ],
-  "hn:50363968": [
-   119,
-   "2026-11-04T14:53:47.660770+00:00"
-  ],
   "lobsters:cozhtg": [
    31,
    "2026-11-04T14:53:47.660770+00:00"
   ],
+  "hn:50363968": [
+   170,
+   "2026-11-04T15:53:41.540009+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzigpsy5hs2r": [
-   810,
-   "2026-11-04T14:53:47.660770+00:00"
+   995,
+   "2026-11-04T15:53:41.540009+00:00"
+  ],
+  "hn:50362274": [
+   193,
+   "2026-11-04T15:53:41.540009+00:00"
   ]
  }
 }
