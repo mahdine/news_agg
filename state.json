@@ -2504,18 +2504,31 @@
   "hn:50361247",
   "jXSc98SbfGBTL7368PUuf",
   "UtbghkyyUoSLqprLCBkCKP",
-  "6ae8a25043c82b4f3ec26580"
+  "6ae8a25043c82b4f3ec26580",
+  "ERbeAEPAFJF9fSnG86zDHh",
+  "https://techcrunch.com/?p=3184896",
+  "https://www.theregister.com/a/5307422",
+  "https://www.theverge.com/?p=1025971",
+  "https://www.theverge.com/?p=1026148",
+  "hn:50360573",
+  "https://9to5mac.com/?p=1077358",
+  "ykKnkEZZZ6Ry23wafMcpjV",
+  "7hw2Hr9hHuUxWGLMPhd7Q4",
+  "yGxPTjXoz8wstWQKb58u2d",
+  "https://9to5mac.com/?p=1077362",
+  "https://www.theregister.com/a/5307448",
+  "https://www.neowin.net/news/microsoft-is-putting-an-ai-model-into-outlook-search-but-its-not-what-you-think/"
  ],
  "posted": {
   "viral": 494,
-  "editorial": 645
+  "editorial": 649
  },
  "recent_labels": [
-  "Hacker News",
-  "The Hacker News",
-  "Slashdot",
-  "Slashdot",
-  "TechRadar"
+  "TechRadar",
+  "Tom's Hardware",
+  "The Verge",
+  "9to5Mac",
+  "Neowin"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7726,68 +7739,37 @@
    "source": "TechRadar",
    "score": 0.133,
    "at": "2026-11-04T04:54:36.624618+00:00"
+  },
+  {
+   "title": "استفاده از موتورهای جت برای تامین برق دیتاسنترهای xAI",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-xai-installs-eight-converted-jet-engines-to-power-mississippi-data-center-permits-allow-25-percent-higher-limit-for-pollutants-concerns-raised-over-carbon-monoxide",
+   "source": "Tom's Hardware",
+   "score": 0.0364,
+   "at": "2026-11-04T05:55:11.787406+00:00"
+  },
+  {
+   "title": "رکوردشکنی درآمد AMD با تکیه بر بازار دیتاسنترها",
+   "url": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc",
+   "source": "The Verge",
+   "score": 0.03668,
+   "at": "2026-11-04T05:55:40.190485+00:00"
+  },
+  {
+   "title": "افزودن محافظ صفحه‌ی جدید به نسخه‌ی بتای macOS 27.3",
+   "url": "https://9to5mac.com/2026/11/03/macos-27-3-includes-cool-looking-pro-screensaver-from-new-touchscreen-macbook-pro/",
+   "source": "9to5Mac",
+   "score": 0.04385,
+   "at": "2026-11-04T05:55:50.153565+00:00"
+  },
+  {
+   "title": "هوش مصنوعی جدید در جستجوی Outlook",
+   "url": "https://www.neowin.net/news/microsoft-is-putting-an-ai-model-into-outlook-search-but-its-not-what-you-think/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.12826,
+   "at": "2026-11-04T05:55:56.135321+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "cost",
-    "falls",
-    "fears",
-    "see",
-    "sharp",
-    "stocks",
-    "tech"
-   ],
-   "at": "2026-10-30T17:54:52.821012+00:00"
-  },
-  {
-   "sig": [
-    "1gb",
-    "nintendo",
-    "qwen",
-    "weights",
-    "working"
-   ],
-   "at": "2026-10-30T17:55:21.005813+00:00"
-  },
-  {
-   "sig": [
-    "across",
-    "aggressively",
-    "andy",
-    "came",
-    "ceo",
-    "concerns",
-    "created",
-    "culture",
-    "despite",
-    "fear",
-    "investigation",
-    "media",
-    "move",
-    "proton",
-    "published",
-    "pushing",
-    "security",
-    "yen"
-   ],
-   "at": "2026-10-30T17:55:27.757921+00:00"
-  },
-  {
-   "sig": [
-    "boy",
-    "claude",
-    "code",
-    "compromise",
-    "extension",
-    "hack",
-    "indicator",
-    "laptop",
-    "work"
-   ],
-   "at": "2026-10-30T17:55:40.866275+00:00"
-  },
   {
    "sig": [
     "accenture",
@@ -11703,13 +11685,68 @@
     "nbn"
    ],
    "at": "2026-11-04T04:54:36.624618+00:00"
+  },
+  {
+   "sig": [
+    "centers",
+    "companies",
+    "converted",
+    "data",
+    "energy",
+    "engines",
+    "grows",
+    "jet",
+    "look",
+    "old",
+    "power",
+    "powering",
+    "sources",
+    "turning",
+    "wait",
+    "xai"
+   ],
+   "at": "2026-11-04T05:55:11.787406+00:00"
+  },
+  {
+   "sig": [
+    "amd",
+    "center",
+    "data",
+    "history",
+    "largest",
+    "profitable",
+    "quarter",
+    "riches",
+    "rides"
+   ],
+   "at": "2026-11-04T05:55:40.190485+00:00"
+  },
+  {
+   "sig": [
+    "27.3",
+    "cool-looking",
+    "includes",
+    "macbook",
+    "macos",
+    "pro",
+    "screensaver",
+    "touchscreen"
+   ],
+   "at": "2026-11-04T05:55:50.153565+00:00"
+  },
+  {
+   "sig": [
+    "microsoft",
+    "model",
+    "outlook",
+    "putting",
+    "search",
+    "think"
+   ],
+   "at": "2026-11-04T05:55:56.135321+00:00"
   }
  ],
  "snapshots": {
-  "hn:50214218": [
-   268,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
   "hn:50213925": [
    225,
    "2026-10-23T22:29:07.535236+00:00"
@@ -14098,13 +14135,17 @@
    62,
    "2026-11-04T04:53:46.746133+00:00"
   ],
-  "hn:50357236": [
-   54,
-   "2026-11-04T04:53:46.746133+00:00"
-  ],
   "hn:50361247": [
    113,
    "2026-11-04T04:53:46.746133+00:00"
+  ],
+  "hn:50357236": [
+   57,
+   "2026-11-04T05:53:40.444278+00:00"
+  ],
+  "hn:50360573": [
+   57,
+   "2026-11-04T05:53:40.444278+00:00"
   ]
  }
 }
