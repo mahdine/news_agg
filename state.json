@@ -2517,18 +2517,35 @@
   "yGxPTjXoz8wstWQKb58u2d",
   "https://9to5mac.com/?p=1077362",
   "https://www.theregister.com/a/5307448",
-  "https://www.neowin.net/news/microsoft-is-putting-an-ai-model-into-outlook-search-but-its-not-what-you-think/"
+  "https://www.neowin.net/news/microsoft-is-putting-an-ai-model-into-outlook-search-but-its-not-what-you-think/",
+  "hn:50357236",
+  "lobsters:xbmjlj",
+  "https://games.slashdot.org/story/26/11/03/2113209/bethesda-confirms-the-elder-scrolls-6-is-called-sentinel?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "04e42a95fa20a8c58d1990cae1642d43",
+  "lobsters:fgucra",
+  "6740c6ad29e1604c90f59b4f",
+  "69f9fdc8844a933bdeb7ec57",
+  "69f4cdc2c54e28406496ce9b",
+  "674f69a3d91167082bf1b530",
+  "67461c8e59fe5ea770ff3e9a",
+  "6a0635293f6b307a9138c8f4",
+  "67d319413364868e8cc487dc",
+  "6a1d98888b89a355f957b29a",
+  "6a6b8ed35926d140f76c554a",
+  "hn:50361936",
+  "https://politics.slashdot.org/story/26/11/04/0629214/democrats-take-control-of-us-congress-as-voters-reject-trumps-republicans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "a867faf746bf3461b1a3cc80a49ace5b"
  ],
  "posted": {
-  "viral": 494,
-  "editorial": 649
+  "viral": 496,
+  "editorial": 650
  },
  "recent_labels": [
-  "TechRadar",
-  "Tom's Hardware",
-  "The Verge",
   "9to5Mac",
-  "Neowin"
+  "Neowin",
+  "Hacker News",
+  "Lobsters",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7767,46 +7784,30 @@
    "source": "Neowin",
    "score": 0.12826,
    "at": "2026-11-04T05:55:56.135321+00:00"
+  },
+  {
+   "title": "جریمه‌ی ۲۰ میلیون دلاری و بی‌اثر بودن دکمه‌ی لغو ردیابی در تلویزیون‌های هوشمند",
+   "url": "https://pcper.com/2026/11/20-million-in-fines-and-still-vizio-smart-tvs-opt-out-of-spying-option-does-nothing/",
+   "source": "pcper.com",
+   "score": 0.02939,
+   "at": "2026-11-04T06:54:01.599812+00:00"
+  },
+  {
+   "title": "آزمایش واقعی امنیت PHP با راه‌اندازی سایت stealmybitcoin.com",
+   "url": "https://pavursec.com/blog/stealmybitcoin/",
+   "source": "pavursec.com",
+   "score": 0.06055,
+   "at": "2026-11-04T06:55:05.232963+00:00"
+  },
+  {
+   "title": "جزئیات هک بزرگ با خسارت ۶.۳ میلیارد دلاری از صرافی Binance",
+   "url": "https://hi-tech.mail.ru/news/159705-raskryty-podrobnosti-vzloma-binance-na-63-mlrd-dollarov/",
+   "source": "Hi-Tech Mail",
+   "score": 0.17515,
+   "at": "2026-11-04T06:56:41.561362+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "accenture",
-    "access",
-    "agent",
-    "connected",
-    "contractor",
-    "data",
-    "defense",
-    "gave",
-    "high-risk",
-    "national",
-    "network",
-    "pentagon",
-    "percent",
-    "personal",
-    "secure",
-    "security",
-    "sent",
-    "system",
-    "threat",
-    "website"
-   ],
-   "at": "2026-10-30T18:06:17.136074+00:00"
-  },
-  {
-   "sig": [
-    "digital",
-    "drive-thru",
-    "menu",
-    "personalized",
-    "show",
-    "starbucks",
-    "wants"
-   ],
-   "at": "2026-10-30T18:07:08.653233+00:00"
-  },
   {
    "sig": [
     "emudhra",
@@ -11744,25 +11745,32 @@
     "think"
    ],
    "at": "2026-11-04T05:55:56.135321+00:00"
+  },
+  {
+   "sig": [
+    "20m",
+    "does",
+    "fines",
+    "nothing",
+    "opt",
+    "option",
+    "smart",
+    "spying",
+    "tvs",
+    "vizio"
+   ],
+   "at": "2026-11-04T06:54:01.599812+00:00"
+  },
+  {
+   "sig": [
+    "observations",
+    "running",
+    "stealmybitcoin.com"
+   ],
+   "at": "2026-11-04T06:55:05.232963+00:00"
   }
  ],
  "snapshots": {
-  "hn:50213925": [
-   225,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50213826": [
-   135,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50213337": [
-   188,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50212668": [
-   83,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
   "hn:50212320": [
    226,
    "2026-10-23T22:29:07.535236+00:00"
@@ -14139,13 +14147,29 @@
    113,
    "2026-11-04T04:53:46.746133+00:00"
   ],
-  "hn:50357236": [
-   57,
-   "2026-11-04T05:53:40.444278+00:00"
-  ],
   "hn:50360573": [
    57,
    "2026-11-04T05:53:40.444278+00:00"
+  ],
+  "hn:50357236": [
+   58,
+   "2026-11-04T06:53:48.979201+00:00"
+  ],
+  "hn:50361936": [
+   88,
+   "2026-11-04T06:53:48.979201+00:00"
+  ],
+  "lobsters:fgucra": [
+   28,
+   "2026-11-04T06:53:48.979201+00:00"
+  ],
+  "lobsters:siqsg7": [
+   26,
+   "2026-11-04T06:53:48.979201+00:00"
+  ],
+  "lobsters:xbmjlj": [
+   28,
+   "2026-11-04T06:53:48.979201+00:00"
   ]
  }
 }
