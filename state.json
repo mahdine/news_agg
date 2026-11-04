@@ -2578,18 +2578,24 @@
   "https://www.theverge.com/?p=1026329",
   "3235619",
   "https://www.techspot.com/downloads/7467-remote-mouse.html",
-  "TheNextWeb=a9f1ddad890559e3172b168df0e7b8fc"
+  "TheNextWeb=a9f1ddad890559e3172b168df0e7b8fc",
+  "lobsters:bqllfe",
+  "hn:50368626",
+  "hn:50369146",
+  "hn:50369194",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzixisawgt2c",
+  "hn:50369657"
  ],
  "posted": {
-  "viral": 506,
+  "viral": 511,
   "editorial": 663
  },
  "recent_labels": [
+  "Lobsters",
   "Hacker News",
-  "The Verge",
-  "vc.ru",
-  "TechSpot",
-  "The Next Web"
+  "Hacker News",
+  "404 Media",
+  "Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8010,65 +8016,44 @@
    "source": "The Next Web",
    "score": 0.20293,
    "at": "2026-11-04T15:54:43.111581+00:00"
+  },
+  {
+   "title": "بررسی تاریخی تئوری‌های توطئه پیرامون نقش NSA در استانداردهای رمزنگاری",
+   "url": "https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/",
+   "source": "soatok.blog",
+   "score": 0.08892,
+   "at": "2026-11-04T20:28:18.203479+00:00"
+  },
+  {
+   "title": "توسعه سیستم FlashProve برای تایید رمزنگاری‌شده خروجی مدل‌های هوش مصنوعی",
+   "url": "https://www.anthropic.com/research/provable-inference",
+   "source": "anthropic.com",
+   "score": 0.13961,
+   "at": "2026-11-04T20:28:24.345512+00:00"
+  },
+  {
+   "title": "پیشرفت‌های چشمگیر مرورگر Ladybird در ماه اکتبر",
+   "url": "https://ladybird.org/newsletter/2026-10-31/",
+   "source": "ladybird.org",
+   "score": 0.1413,
+   "at": "2026-11-04T20:28:30.996756+00:00"
+  },
+  {
+   "title": "مخالفت گسترده رای‌دهندگان آمریکایی با احداث مراکز داده هوش مصنوعی",
+   "url": "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/",
+   "source": "404media.co",
+   "score": 0.13252,
+   "at": "2026-11-04T20:28:36.834167+00:00"
+  },
+  {
+   "title": "انتقاد از اجباری شدن ابزارهای هوش مصنوعی در سرویس‌های آموزشی گوگل",
+   "url": "https://blog.kagi.com/education-should-not-be-held-for-ransom",
+   "source": "blog.kagi.com",
+   "score": 0.23232,
+   "at": "2026-11-04T20:28:42.694085+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "copyright",
-    "everyone",
-    "generative",
-    "hurt",
-    "law",
-    "rewriting",
-    "would"
-   ],
-   "at": "2026-10-31T04:53:59.088859+00:00"
-  },
-  {
-   "sig": [
-    "breached",
-    "scribd",
-    "tell"
-   ],
-   "at": "2026-10-31T04:55:32.745652+00:00"
-  },
-  {
-   "sig": [
-    "burn",
-    "cash",
-    "closes",
-    "fears",
-    "lower",
-    "selloff",
-    "sharply",
-    "spark",
-    "street",
-    "tech",
-    "wall"
-   ],
-   "at": "2026-10-31T05:53:42.612530+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "entering",
-    "era",
-    "slop"
-   ],
-   "at": "2026-10-31T05:53:54.336776+00:00"
-  },
-  {
-   "sig": [
-    "board",
-    "circuit",
-    "crunch",
-    "hardware",
-    "humble",
-    "reached"
-   ],
-   "at": "2026-10-31T05:54:34.755994+00:00"
-  },
   {
    "sig": [
     "camera",
@@ -11966,77 +11951,60 @@
     "puts"
    ],
    "at": "2026-11-04T15:54:43.111581+00:00"
+  },
+  {
+   "sig": [
+    "conspiracy",
+    "cryptography",
+    "theory",
+    "wrong"
+   ],
+   "at": "2026-11-04T20:28:18.203479+00:00"
+  },
+  {
+   "sig": [
+    "inference",
+    "language",
+    "large",
+    "models",
+    "progress",
+    "provable"
+   ],
+   "at": "2026-11-04T20:28:24.345512+00:00"
+  },
+  {
+   "sig": [
+    "ladybird",
+    "month",
+    "october"
+   ],
+   "at": "2026-11-04T20:28:30.996756+00:00"
+  },
+  {
+   "sig": [
+    "ballot",
+    "centers",
+    "data",
+    "dozens",
+    "last",
+    "lost",
+    "night",
+    "races",
+    "were"
+   ],
+   "at": "2026-11-04T20:28:36.834167+00:00"
+  },
+  {
+   "sig": [
+    "education",
+    "held",
+    "ransom",
+    "shouldn"
+   ],
+   "at": "2026-11-04T20:28:42.694085+00:00"
   }
  ],
  "snapshots": {
-  "hn:50220204": [
-   183,
-   "2026-10-24T21:05:02.976983+00:00"
-  ],
-  "hn:50219666": [
-   602,
-   "2026-10-24T21:05:02.976983+00:00"
-  ],
-  "lobsters:xgih2x": [
-   145,
-   "2026-10-24T21:05:02.976983+00:00"
-  ],
-  "hn:50219700": [
-   243,
-   "2026-10-24T21:05:02.976983+00:00"
-  ],
-  "lobsters:vulvk7": [
-   31,
-   "2026-10-24T21:05:02.976983+00:00"
-  ],
-  "lobsters:rl0dz5": [
-   30,
-   "2026-10-24T21:05:02.976983+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mynhhiobqf25": [
-   41,
-   "2026-10-24T21:05:02.976983+00:00"
-  ],
-  "hn:50220913": [
-   1289,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mymps2bzyp2k": [
-   742,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mymn7j2kokb3": [
-   66,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mymqeriqkc2v": [
-   77,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mymofezfzx2p": [
-   140,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
-  "hn:50222622": [
-   547,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
-  "hn:50221676": [
-   644,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mymvd5mrc2b3": [
-   95,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
-  "hn:50223844": [
-   442,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
-  "hn:50223647": [
-   428,
-   "2026-10-24T23:33:39.745589+00:00"
-  ],
   "hn:50222976": [
    275,
    "2026-10-24T23:33:39.745589+00:00"
@@ -14357,10 +14325,6 @@
    31,
    "2026-11-04T14:53:47.660770+00:00"
   ],
-  "hn:50363968": [
-   170,
-   "2026-11-04T15:53:41.540009+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzigpsy5hs2r": [
    995,
    "2026-11-04T15:53:41.540009+00:00"
@@ -14368,6 +14332,78 @@
   "hn:50362274": [
    193,
    "2026-11-04T15:53:41.540009+00:00"
+  ],
+  "hn:50363968": [
+   349,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "hn:50369925": [
+   104,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "hn:50369657": [
+   199,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "hn:50369194": [
+   98,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "hn:50369146": [
+   317,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "hn:50368626": [
+   243,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "hn:50367125": [
+   554,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "hn:50366999": [
+   374,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "hn:50366929": [
+   162,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "hn:50366919": [
+   216,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "hn:50366863": [
+   160,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "hn:50366522": [
+   472,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "hn:50366117": [
+   210,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "lobsters:lh1j0e": [
+   48,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "lobsters:bqllfe": [
+   38,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "lobsters:pa1411": [
+   28,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzj4g4kxus22": [
+   317,
+   "2026-11-04T20:28:15.693457+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzixisawgt2c": [
+   2947,
+   "2026-11-04T20:28:15.693457+00:00"
   ]
  }
 }
