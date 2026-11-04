@@ -2465,17 +2465,25 @@
   "hn:50353457",
   "hn:50352757",
   "hn:50354960",
-  "hn:50355504"
+  "hn:50355504",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzg4xugn542n",
+  "lobsters:chypzr",
+  "lobsters:e201eb",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzge7jeumctj",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzgiw37gmk2h",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzgjvljp4s2f",
+  "hn:50358414",
+  "hn:50358422"
  ],
  "posted": {
-  "viral": 480,
+  "viral": 484,
   "editorial": 641
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
+  "Lobsters",
+  "Lobsters",
+  "Emily M. Bender",
   "Hacker News"
  ],
  "last_digest": "2026-10-30",
@@ -7561,82 +7569,37 @@
    "source": "washingtonpost.com",
    "score": 0.34246,
    "at": "2026-11-03T20:12:40.976325+00:00"
+  },
+  {
+   "title": "توقف پشتیبانی گوگل از XSLT در مرورگر کروم",
+   "url": "https://dbushell.com/2026/11/03/xslt-rip/",
+   "source": "dbushell.com",
+   "score": 0.01527,
+   "at": "2026-11-04T00:43:18.157291+00:00"
+  },
+  {
+   "title": "مسدودسازی دسترسی کاربران به وبلاگ Wandering Thoughts به دلیل حملات خزنده",
+   "url": "https://utcc.utoronto.ca/~cks/space/blog/linux/Ubuntu2604RustSudoNotCompatible",
+   "source": "utcc.utoronto.ca",
+   "score": 0.05173,
+   "at": "2026-11-04T00:43:28.131255+00:00"
+  },
+  {
+   "title": "اجبار شرکت‌های هوش مصنوعی به واترمارک‌گذاری محتوا طبق قوانین اتحادیه اروپا",
+   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3mzgiw37gmk2h",
+   "source": "Emily M. Bender",
+   "score": 0.03345,
+   "at": "2026-11-04T00:44:33.271633+00:00"
+  },
+  {
+   "title": "بدهی پنهان غول‌های فناوری برای توسعه هوش مصنوعی",
+   "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+   "source": "asia.nikkei.com",
+   "score": 0.01339,
+   "at": "2026-11-04T00:44:48.058361+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "at-proto",
-    "know",
-    "public",
-    "users"
-   ],
-   "at": "2026-10-30T13:53:42.966214+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "buy",
-    "down",
-    "finally",
-    "iphone",
-    "might",
-    "peg",
-    "taken"
-   ],
-   "at": "2026-10-30T13:53:52.669206+00:00"
-  },
-  {
-   "sig": [
-    "andy",
-    "asking",
-    "bullet",
-    "ceo",
-    "chatbot",
-    "daughter",
-    "describe",
-    "employee",
-    "evystadium.bsky.social",
-    "hold",
-    "launch",
-    "loser",
-    "marissa",
-    "mayer",
-    "points",
-    "project",
-    "proton",
-    "saying",
-    "telling",
-    "testing",
-    "thinking",
-    "three",
-    "wtf",
-    "yen"
-   ],
-   "at": "2026-10-30T13:54:03.159499+00:00"
-  },
-  {
-   "sig": [
-    "agency",
-    "devices",
-    "drives",
-    "exact",
-    "intelligence",
-    "lost",
-    "media",
-    "misplaced",
-    "missing",
-    "number",
-    "remain",
-    "removable",
-    "significant",
-    "storage",
-    "unknown",
-    "very",
-    "years"
-   ],
-   "at": "2026-10-30T13:54:28.876568+00:00"
-  },
   {
    "sig": [
     "bulletproof",
@@ -11530,57 +11493,66 @@
     "world"
    ],
    "at": "2026-11-03T20:12:40.976325+00:00"
+  },
+  {
+   "sig": [
+    "comes",
+    "death",
+    "xslt"
+   ],
+   "at": "2026-11-04T00:43:18.157291+00:00"
+  },
+  {
+   "sig": [
+    "26.04",
+    "compatible",
+    "rust",
+    "standard",
+    "sudo",
+    "ubuntu"
+   ],
+   "at": "2026-11-04T00:43:28.131255+00:00"
+  },
+  {
+   "sig": [
+    "act",
+    "along",
+    "another",
+    "anthropic",
+    "because",
+    "best",
+    "cleaning",
+    "could",
+    "doing",
+    "ecosystem",
+    "facilitating",
+    "heart",
+    "humanity",
+    "indication",
+    "information",
+    "interest",
+    "never",
+    "output",
+    "rest",
+    "slop",
+    "watermarking"
+   ],
+   "at": "2026-11-04T00:44:33.271633+00:00"
+  },
+  {
+   "sig": [
+    "3.2t",
+    "debt",
+    "giants",
+    "hidden",
+    "months",
+    "swells",
+    "tech"
+   ],
+   "at": "2026-11-04T00:44:48.058361+00:00"
   }
  ],
  "snapshots": {
-  "hn:50207050": [
-   485,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50206914": [
-   661,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mykh66ohtk2h": [
-   177,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mykf65ibab2i": [
-   630,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mykejanoys2h": [
-   1041,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50212065": [
-   1323,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50211746": [
-   249,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50211474": [
-   1518,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50210075": [
-   380,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50210067": [
-   485,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50209907": [
-   118,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50207910": [
-   738,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
   "lobsters:5hoqzj": [
    52,
    "2026-10-23T22:29:07.535236+00:00"
@@ -13861,16 +13833,8 @@
    229,
    "2026-11-03T20:10:56.738921+00:00"
   ],
-  "hn:50355251": [
-   442,
-   "2026-11-03T20:10:56.738921+00:00"
-  ],
   "hn:50354960": [
    1081,
-   "2026-11-03T20:10:56.738921+00:00"
-  ],
-  "hn:50354358": [
-   220,
    "2026-11-03T20:10:56.738921+00:00"
   ],
   "hn:50354336": [
@@ -13897,41 +13861,97 @@
    750,
    "2026-11-03T20:10:56.738921+00:00"
   ],
-  "hn:50353192": [
-   962,
-   "2026-11-03T20:10:56.738921+00:00"
-  ],
   "hn:50352757": [
    530,
    "2026-11-03T20:10:56.738921+00:00"
   ],
+  "hn:50355251": [
+   767,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50354358": [
+   612,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50353192": [
+   1339,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
   "lobsters:chypzr": [
-   111,
-   "2026-11-03T20:10:56.738921+00:00"
+   175,
+   "2026-11-04T00:43:04.662527+00:00"
   ],
   "lobsters:e201eb": [
-   70,
-   "2026-11-03T20:10:56.738921+00:00"
+   106,
+   "2026-11-04T00:43:04.662527+00:00"
   ],
   "lobsters:yes2hc": [
-   25,
-   "2026-11-03T20:10:56.738921+00:00"
+   31,
+   "2026-11-04T00:43:04.662527+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzgjvljp4s2f": [
-   374,
-   "2026-11-03T20:10:56.738921+00:00"
+   900,
+   "2026-11-04T00:43:04.662527+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzg4xugn542n": [
-   63,
-   "2026-11-03T20:10:56.738921+00:00"
+   81,
+   "2026-11-04T00:43:04.662527+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzgiw37gmk2h": [
-   229,
-   "2026-11-03T20:10:56.738921+00:00"
+   356,
+   "2026-11-04T00:43:04.662527+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzge7jeumctj": [
-   54,
-   "2026-11-03T20:10:56.738921+00:00"
+   59,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50358582": [
+   245,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50358562": [
+   557,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50358422": [
+   308,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50358414": [
+   179,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50356994": [
+   319,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50356944": [
+   207,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50355959": [
+   158,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50354555": [
+   83,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50353818": [
+   124,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50352898": [
+   119,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50352767": [
+   101,
+   "2026-11-04T00:43:04.662527+00:00"
+  ],
+  "hn:50352577": [
+   135,
+   "2026-11-04T00:43:04.662527+00:00"
   ]
  }
 }
