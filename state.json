@@ -2549,18 +2549,29 @@
   "hn:50363378",
   "hn:50363461",
   "hn:50360947",
-  "hn:50363554"
+  "hn:50363554",
+  "https://www.engadget.com/2305825/the-legend-of-zelda-ocarina-of-time-review/",
+  "https://www.theverge.com/?p=1025415",
+  "https://www.theverge.com/?post_type=vm_stream&p=1026112",
+  "QKikrEjR2LTWyHoAiJtw2A",
+  "hn:50364336",
+  "https://www.securityweek.com/?p=50527",
+  "https://www.phoronix.com/news/systemd-Loves-Rust",
+  "https://www.theregister.com/a/5307542",
+  "https://science.slashdot.org/story/26/11/04/0616201/nasas-swift-observatory-is-falling-to-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "UwmNhwV6Y4ZEtsJGmgoxN",
+  "https://www.neowin.net/news/canva-cutting-22-of-workforce-in-major-restructuring-and-shifting-primary-product-hub/"
  ],
  "posted": {
-  "viral": 503,
-  "editorial": 652
+  "viral": 504,
+  "editorial": 655
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News"
+  "SecurityWeek",
+  "Phoronix",
+  "The Register"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7883,50 +7894,37 @@
    "source": "theguardian.com",
    "score": 0.02376,
    "at": "2026-11-04T12:55:15.552997+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری PHP2Shell و نقش هوش مصنوعی در کشف حفره‌های امنیتی قدیمی",
+   "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+   "source": "spectrum.ieee.org",
+   "score": 0.0295,
+   "at": "2026-11-04T13:06:39.694282+00:00"
+  },
+  {
+   "title": "افزایش حملات سایبری با سوءاستفاده از توکن‌های دسترسی هوش مصنوعی",
+   "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+   "source": "SecurityWeek",
+   "score": 0.21724,
+   "at": "2026-11-04T13:06:45.496788+00:00"
+  },
+  {
+   "title": "پشتیبانی از زبان Rust در پروژه‌ی systemd",
+   "url": "https://www.phoronix.com/news/systemd-Loves-Rust",
+   "source": "Phoronix",
+   "score": 0.20694,
+   "at": "2026-11-04T13:06:51.001750+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal",
+   "url": "https://www.theregister.com/public-sector/2026/11/04/watchdog-sticks-probe-into-capitas-handling-of-17-million-member-civil-service-pension-scheme/5307542",
+   "source": "The Register",
+   "score": 0.23361,
+   "at": "2026-11-04T13:06:56.990134+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "implementation",
-    "parallel-friendly",
-    "rust",
-    "sans-io",
-    "sanstun",
-    "wireguard"
-   ],
-   "at": "2026-10-31T01:54:32.730856+00:00"
-  },
-  {
-   "sig": [
-    "estee",
-    "npm",
-    "testem",
-    "typo"
-   ],
-   "at": "2026-10-31T02:53:51.104079+00:00"
-  },
-  {
-   "sig": [
-    "bare",
-    "footprint",
-    "minimum",
-    "nixos",
-    "ram",
-    "requirements",
-    "resource",
-    "shrinking"
-   ],
-   "at": "2026-10-31T02:53:58.176671+00:00"
-  },
-  {
-   "sig": [
-    "code",
-    "federated",
-    "forge"
-   ],
-   "at": "2026-10-31T02:54:09.174163+00:00"
-  },
   {
    "sig": [
     "digital",
@@ -11847,6 +11845,55 @@
     "without"
    ],
    "at": "2026-11-04T12:55:15.552997+00:00"
+  },
+  {
+   "sig": [
+    "debt",
+    "forcing",
+    "pay",
+    "technical",
+    "years"
+   ],
+   "at": "2026-11-04T13:06:39.694282+00:00"
+  },
+  {
+   "sig": [
+    "ai-linked",
+    "breaches",
+    "disclose",
+    "hacks",
+    "mount",
+    "northflank",
+    "trigger.dev",
+    "workos"
+   ],
+   "at": "2026-11-04T13:06:45.496788+00:00"
+  },
+  {
+   "sig": [
+    "initial",
+    "rust",
+    "support",
+    "systemd"
+   ],
+   "at": "2026-11-04T13:06:51.001750+00:00"
+  },
+  {
+   "sig": [
+    "1.7",
+    "capita",
+    "civil",
+    "handling",
+    "member",
+    "million",
+    "pension",
+    "probe",
+    "scheme",
+    "service",
+    "sticks",
+    "watchdog"
+   ],
+   "at": "2026-11-04T13:06:56.990134+00:00"
   }
  ],
  "snapshots": {
@@ -14219,8 +14266,8 @@
    "2026-11-04T10:53:48.021723+00:00"
   ],
   "hn:50364336": [
-   243,
-   "2026-11-04T12:53:39.773986+00:00"
+   306,
+   "2026-11-04T13:06:36.524615+00:00"
   ],
   "hn:50363554": [
    219,
