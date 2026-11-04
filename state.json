@@ -2484,18 +2484,38 @@
   "lobsters:r3gton",
   "hn:50357683",
   "hn:50358314",
-  "hn:50358582"
+  "hn:50358582",
+  "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+  "https://www.theverge.com/?p=1025576",
+  "6aea05dcd809b451458cb920",
+  "https://www.theregister.com/a/5307398",
+  "https://it.slashdot.org/story/26/11/03/1939254/binance-says-hackers-used-fake-job-interviews-ai-tool-to-steal-63-billion-in-crypto?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://news.slashdot.org/story/26/11/03/1711242/google-will-turn-off-search-for-schools-that-reject-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://techcrunch.com/?p=3184603",
+  "https://www.engadget.com/2305432/google-says-that-students-in-schools-that-ban-ai-wont-have-access-to-search/",
+  "https://www.techspot.com/news/114433-google-schools-ban-ai-also-lose-search.html",
+  "https://www.neowin.net/news/google-will-block-search-for-schools-that-opt-out-of-its-ai-features/",
+  "TheNextWeb=89aa45227c63be768a09663bdd4f9cf7",
+  "https://tech.slashdot.org/story/26/11/03/2347212/ios-273-adds-vertical-tabs-adaptive-dark-mode-to-safari?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50358562",
+  "MKoD7mrfR3oRjfepyHvTZj",
+  "https://9to5mac.com/?p=1077232",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzh4tiie3s2d",
+  "hn:50361247",
+  "jXSc98SbfGBTL7368PUuf",
+  "UtbghkyyUoSLqprLCBkCKP",
+  "6ae8a25043c82b4f3ec26580"
  ],
  "posted": {
   "viral": 494,
-  "editorial": 641
+  "editorial": 645
  },
  "recent_labels": [
   "Hacker News",
-  "Lobsters",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News"
+  "The Hacker News",
+  "Slashdot",
+  "Slashdot",
+  "TechRadar"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7678,69 +7698,37 @@
    "source": "arxiv.org",
    "score": 0.00166,
    "at": "2026-11-04T03:54:13.999922+00:00"
+  },
+  {
+   "title": "سرقت ۶.۴۳ میلیارد دلاری از بایننس با مهندسی اجتماعی و ابزارهای آلوده",
+   "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+   "source": "The Hacker News",
+   "score": 0.12767,
+   "at": "2026-11-04T04:53:49.416988+00:00"
+  },
+  {
+   "title": "اجبار مدارس به پذیرش هوش مصنوعی برای دسترسی به گوگل",
+   "url": "https://news.slashdot.org/story/26/11/03/1711242/google-will-turn-off-search-for-schools-that-reject-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.15441,
+   "at": "2026-11-04T04:54:06.904433+00:00"
+  },
+  {
+   "title": "قابلیت‌های جدید مرورگر Safari در به‌روزرسانی‌های آینده اپل",
+   "url": "https://tech.slashdot.org/story/26/11/03/2347212/ios-273-adds-vertical-tabs-adaptive-dark-mode-to-safari?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.2245,
+   "at": "2026-11-04T04:54:20.712077+00:00"
+  },
+  {
+   "title": "آمادگی شبکه اینترنت استرالیا برای ترافیک سنگین دانلود بازی GTA VI",
+   "url": "https://www.techradar.com/computing/wi-fi-broadband/could-the-gta-6-launch-break-the-australian-internet-we-asked-nbn-co-to-find-out",
+   "source": "TechRadar",
+   "score": 0.133,
+   "at": "2026-11-04T04:54:36.624618+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "beyond",
-    "fixes",
-    "gear",
-    "gemini",
-    "getting",
-    "goes",
-    "google",
-    "home",
-    "host",
-    "includes",
-    "latest",
-    "major",
-    "nest",
-    "too",
-    "update",
-    "way"
-   ],
-   "at": "2026-10-30T16:54:02.811402+00:00"
-  },
-  {
-   "sig": [
-    "deskilling",
-    "isn",
-    "replacing",
-    "sres"
-   ],
-   "at": "2026-10-30T16:54:14.224024+00:00"
-  },
-  {
-   "sig": [
-    "announces",
-    "dries",
-    "everyone",
-    "experience",
-    "force",
-    "killing",
-    "log",
-    "logged-in",
-    "reddit",
-    "search",
-    "shifting",
-    "traffic",
-    "users"
-   ],
-   "at": "2026-10-30T16:54:20.016886+00:00"
-  },
-  {
-   "sig": [
-    "affected",
-    "compromise",
-    "halt",
-    "polymarket",
-    "users",
-    "vendor",
-    "whole"
-   ],
-   "at": "2026-10-30T17:54:46.951759+00:00"
-  },
   {
    "sig": [
     "cost",
@@ -11621,13 +11609,103 @@
     "primer"
    ],
    "at": "2026-11-04T03:54:13.999922+00:00"
+  },
+  {
+   "sig": [
+    "6.3",
+    "6.34",
+    "6.3b",
+    "6.43",
+    "abuse",
+    "billion",
+    "binance",
+    "carry",
+    "crypto",
+    "fake",
+    "hackers",
+    "heist",
+    "internal",
+    "interview",
+    "interviews",
+    "job",
+    "korean",
+    "led",
+    "north",
+    "pull",
+    "reveals",
+    "steal",
+    "theft",
+    "tool",
+    "tricks",
+    "well-known"
+   ],
+   "at": "2026-11-04T04:53:49.416988+00:00"
+  },
+  {
+   "sig": [
+    "access",
+    "ban",
+    "block",
+    "disable",
+    "features",
+    "gemini",
+    "google",
+    "let",
+    "lose",
+    "opt",
+    "reject",
+    "sacrificing",
+    "school",
+    "schools",
+    "search",
+    "students",
+    "switch",
+    "tools",
+    "turn",
+    "unless",
+    "without",
+    "won"
+   ],
+   "at": "2026-11-04T04:54:06.904433+00:00"
+  },
+  {
+   "sig": [
+    "27.3",
+    "adaptive",
+    "add",
+    "adds",
+    "any",
+    "dark",
+    "finally",
+    "introduces",
+    "ios",
+    "macos",
+    "mode",
+    "safari",
+    "site",
+    "tabs",
+    "thanks",
+    "vertical",
+    "way"
+   ],
+   "at": "2026-11-04T04:54:20.712077+00:00"
+  },
+  {
+   "sig": [
+    "asked",
+    "australian",
+    "break",
+    "could",
+    "find",
+    "gta",
+    "internet",
+    "launch",
+    "nbn"
+   ],
+   "at": "2026-11-04T04:54:36.624618+00:00"
   }
  ],
  "snapshots": {
-  "hn:50214323": [
-   163,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
   "hn:50214218": [
    268,
    "2026-10-23T22:29:07.535236+00:00"
@@ -13980,16 +14058,8 @@
    71,
    "2026-11-04T01:53:43.163877+00:00"
   ],
-  "hn:50355251": [
-   856,
-   "2026-11-04T03:53:40.313222+00:00"
-  ],
   "hn:50358582": [
    355,
-   "2026-11-04T03:53:40.313222+00:00"
-  ],
-  "hn:50358562": [
-   717,
    "2026-11-04T03:53:40.313222+00:00"
   ],
   "hn:50355959": [
@@ -14008,21 +14078,33 @@
    86,
    "2026-11-04T03:53:40.313222+00:00"
   ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzh4tiie3s2d": [
-   61,
-   "2026-11-04T03:53:40.313222+00:00"
-  ],
   "hn:50357683": [
    99,
-   "2026-11-04T03:53:40.313222+00:00"
-  ],
-  "hn:50357236": [
-   54,
    "2026-11-04T03:53:40.313222+00:00"
   ],
   "lobsters:r3gton": [
    28,
    "2026-11-04T03:53:40.313222+00:00"
+  ],
+  "hn:50355251": [
+   877,
+   "2026-11-04T04:53:46.746133+00:00"
+  ],
+  "hn:50358562": [
+   750,
+   "2026-11-04T04:53:46.746133+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzh4tiie3s2d": [
+   62,
+   "2026-11-04T04:53:46.746133+00:00"
+  ],
+  "hn:50357236": [
+   54,
+   "2026-11-04T04:53:46.746133+00:00"
+  ],
+  "hn:50361247": [
+   113,
+   "2026-11-04T04:53:46.746133+00:00"
   ]
  }
 }
