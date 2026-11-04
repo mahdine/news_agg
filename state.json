@@ -2542,18 +2542,25 @@
   "https://www.phoronix.com/news/Intel-XeSS-On-XMX-Proton",
   "https://www.securityweek.com/?p=50519",
   "6ae4bdc0656e4cd9336334f2",
-  "6ae8d2fb1e4076474056257e"
+  "6ae8d2fb1e4076474056257e",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzhw4774us2b",
+  "hn:50362993",
+  "hn:50363019",
+  "hn:50363378",
+  "hn:50363461",
+  "hn:50360947",
+  "hn:50363554"
  ],
  "posted": {
-  "viral": 498,
+  "viral": 503,
   "editorial": 652
  },
  "recent_labels": [
-  "Hi-Tech Mail",
   "Hacker News",
   "Hacker News",
-  "Phoronix",
-  "SecurityWeek"
+  "Hacker News",
+  "Hacker News",
+  "Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7841,67 +7848,44 @@
    "source": "SecurityWeek",
    "score": 0.24169,
    "at": "2026-11-04T10:54:26.377497+00:00"
+  },
+  {
+   "title": "معرفی ابزار Milkman به عنوان جایگزین سبک برای Postman",
+   "url": "https://milkman.dev/",
+   "source": "milkman.dev",
+   "score": 0.05106,
+   "at": "2026-11-04T12:53:50.424595+00:00"
+  },
+  {
+   "title": "چالش‌های تکیه بر هوش مصنوعی در تولید دانش علمی",
+   "url": "https://blog.cosmos-institute.org/p/verification-is-not-knowledge",
+   "source": "blog.cosmos-institute.org",
+   "score": 0.05251,
+   "at": "2026-11-04T12:53:57.296321+00:00"
+  },
+  {
+   "title": "رفع اختلالات گسترده در سرویس‌های GitHub",
+   "url": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+   "source": "githubstatus.com",
+   "score": 0.08078,
+   "at": "2026-11-04T12:55:04.061856+00:00"
+  },
+  {
+   "title": "استفاده گوگل از تاریخچه چت‌های Gemini برای آموزش مدل‌های هوش مصنوعی",
+   "url": "https://news.ycombinator.com/item?id=50363461",
+   "source": "Hacker News",
+   "score": 0.06811,
+   "at": "2026-11-04T12:55:09.925537+00:00"
+  },
+  {
+   "title": "هشدار جفری هینتون درباره خطرات وجودی هوش مصنوعی برای بشریت",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+   "source": "theguardian.com",
+   "score": 0.02376,
+   "at": "2026-11-04T12:55:15.552997+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "filtering",
-    "links",
-    "llm",
-    "off-topic",
-    "rationale",
-    "usage"
-   ],
-   "at": "2026-10-30T22:31:21.988406+00:00"
-  },
-  {
-   "sig": [
-    "actions",
-    "github",
-    "incident",
-    "pages",
-    "webhooks"
-   ],
-   "at": "2026-10-30T22:31:29.879346+00:00"
-  },
-  {
-   "sig": [
-    "0.055",
-    "assembly",
-    "french",
-    "internet",
-    "national",
-    "tax",
-    "votes"
-   ],
-   "at": "2026-10-30T22:31:37.504144+00:00"
-  },
-  {
-   "sig": [
-    "aftermath",
-    "anything",
-    "ao3",
-    "doing",
-    "feeling",
-    "outage",
-    "readers",
-    "share",
-    "wattpad",
-    "writer"
-   ],
-   "at": "2026-10-31T01:54:18.801424+00:00"
-  },
-  {
-   "sig": [
-    "aren",
-    "either",
-    "managers",
-    "product",
-    "safe"
-   ],
-   "at": "2026-10-31T01:54:26.042369+00:00"
-  },
   {
    "sig": [
     "implementation",
@@ -11807,41 +11791,65 @@
     "seven"
    ],
    "at": "2026-11-04T10:54:26.377497+00:00"
+  },
+  {
+   "sig": [
+    "alternative",
+    "better",
+    "milkman",
+    "postman"
+   ],
+   "at": "2026-11-04T12:53:50.424595+00:00"
+  },
+  {
+   "sig": [
+    "answers",
+    "knowledge",
+    "needs",
+    "science",
+    "verification"
+   ],
+   "at": "2026-11-04T12:53:57.296321+00:00"
+  },
+  {
+   "sig": [
+    "git",
+    "incident",
+    "issues",
+    "operations",
+    "pull",
+    "requests"
+   ],
+   "at": "2026-11-04T12:55:04.061856+00:00"
+  },
+  {
+   "sig": [
+    "accounts",
+    "chat",
+    "even",
+    "gemini",
+    "history",
+    "personal",
+    "subscribers",
+    "tell",
+    "trains"
+   ],
+   "at": "2026-11-04T12:55:09.925537+00:00"
+  },
+  {
+   "sig": [
+    "better",
+    "geoffrey",
+    "hinton",
+    "might",
+    "turn",
+    "were",
+    "without"
+   ],
+   "at": "2026-11-04T12:55:15.552997+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mykwxawoa22u": [
-   211,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50218195": [
-   138,
-   "2026-10-24T09:42:27.849455+00:00"
-  ],
-  "hn:50217683": [
-   148,
-   "2026-10-24T09:42:27.849455+00:00"
-  ],
-  "hn:50217587": [
-   217,
-   "2026-10-24T09:42:27.849455+00:00"
-  ],
-  "hn:50217500": [
-   244,
-   "2026-10-24T09:42:27.849455+00:00"
-  ],
-  "hn:50217495": [
-   72,
-   "2026-10-24T09:42:27.849455+00:00"
-  ],
-  "hn:50216791": [
-   342,
-   "2026-10-24T09:42:27.849455+00:00"
-  ],
-  "hn:50216142": [
-   131,
-   "2026-10-24T09:42:27.849455+00:00"
-  ],
   "hn:50218633": [
    538,
    "2026-10-24T14:36:34.134628+00:00"
@@ -14209,6 +14217,38 @@
   "hn:50361107": [
    59,
    "2026-11-04T10:53:48.021723+00:00"
+  ],
+  "hn:50364336": [
+   243,
+   "2026-11-04T12:53:39.773986+00:00"
+  ],
+  "hn:50363554": [
+   219,
+   "2026-11-04T12:53:39.773986+00:00"
+  ],
+  "hn:50363461": [
+   204,
+   "2026-11-04T12:53:39.773986+00:00"
+  ],
+  "hn:50363378": [
+   223,
+   "2026-11-04T12:53:39.773986+00:00"
+  ],
+  "hn:50363019": [
+   174,
+   "2026-11-04T12:53:39.773986+00:00"
+  ],
+  "hn:50362993": [
+   170,
+   "2026-11-04T12:53:39.773986+00:00"
+  ],
+  "hn:50360947": [
+   56,
+   "2026-11-04T12:53:39.773986+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzhw4774us2b": [
+   15,
+   "2026-11-04T12:53:39.773986+00:00"
   ]
  }
 }
