@@ -2534,18 +2534,26 @@
   "6a6b8ed35926d140f76c554a",
   "hn:50361936",
   "https://politics.slashdot.org/story/26/11/04/0629214/democrats-take-control-of-us-congress-as-voters-reject-trumps-republicans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "a867faf746bf3461b1a3cc80a49ace5b"
+  "a867faf746bf3461b1a3cc80a49ace5b",
+  "hn:50361107",
+  "hn:50361154",
+  "hn:50362905",
+  "kzCEhhJt3bJtmmZfiCvgR5",
+  "https://www.phoronix.com/news/Intel-XeSS-On-XMX-Proton",
+  "https://www.securityweek.com/?p=50519",
+  "6ae4bdc0656e4cd9336334f2",
+  "6ae8d2fb1e4076474056257e"
  ],
  "posted": {
-  "viral": 496,
-  "editorial": 650
+  "viral": 498,
+  "editorial": 652
  },
  "recent_labels": [
-  "9to5Mac",
-  "Neowin",
+  "Hi-Tech Mail",
   "Hacker News",
-  "Lobsters",
-  "Hi-Tech Mail"
+  "Hacker News",
+  "Phoronix",
+  "SecurityWeek"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -7805,55 +7813,37 @@
    "source": "Hi-Tech Mail",
    "score": 0.17515,
    "at": "2026-11-04T06:56:41.561362+00:00"
+  },
+  {
+   "title": "ابداع زبان برنامه‌نویسی catlang برای کامپایل به دستورات SQL",
+   "url": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
+   "source": "reasonablypolymorphic.com",
+   "score": 0.03088,
+   "at": "2026-11-04T10:53:51.641669+00:00"
+  },
+  {
+   "title": "مشکل افت عملکرد کارت گرافیک Nvidia در لپ‌تاپ‌های RTX Spark روی لینوکس",
+   "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+   "source": "mindstudio.ai",
+   "score": 0.05488,
+   "at": "2026-11-04T10:53:59.546750+00:00"
+  },
+  {
+   "title": "اجرای فناوری XeSS اینتل روی لینوکس با استفاده از Proton",
+   "url": "https://www.phoronix.com/news/Intel-XeSS-On-XMX-Proton",
+   "source": "Phoronix",
+   "score": 0.21775,
+   "at": "2026-11-04T10:54:17.677633+00:00"
+  },
+  {
+   "title": "انتشار به‌روزرسانی امنیتی برای مرورگر Chrome با رفع صدها آسیب‌پذیری",
+   "url": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
+   "source": "SecurityWeek",
+   "score": 0.24169,
+   "at": "2026-11-04T10:54:26.377497+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "emudhra",
-    "exploitation",
-    "keys",
-    "patching",
-    "real",
-    "tracking",
-    "weak"
-   ],
-   "at": "2026-10-30T18:08:35.724517+00:00"
-  },
-  {
-   "sig": [
-    "agent",
-    "books",
-    "finds",
-    "reservations",
-    "restaurants",
-    "text",
-    "zest"
-   ],
-   "at": "2026-10-30T18:08:42.117273+00:00"
-  },
-  {
-   "sig": [
-    "aerial",
-    "built",
-    "cat",
-    "fighter",
-    "game",
-    "multiplayer",
-    "show",
-    "where"
-   ],
-   "at": "2026-10-30T22:30:59.868252+00:00"
-  },
-  {
-   "sig": [
-    "florilegium",
-    "flowers",
-    "latex",
-    "procedural"
-   ],
-   "at": "2026-10-30T22:31:15.069529+00:00"
-  },
   {
    "sig": [
     "filtering",
@@ -11768,21 +11758,58 @@
     "stealmybitcoin.com"
    ],
    "at": "2026-11-04T06:55:05.232963+00:00"
+  },
+  {
+   "sig": [
+    "arrows",
+    "categories",
+    "queries"
+   ],
+   "at": "2026-11-04T10:53:51.641669+00:00"
+  },
+  {
+   "sig": [
+    "encrypted",
+    "firmware",
+    "inference",
+    "linux",
+    "nvidia",
+    "rtx",
+    "slows",
+    "spark",
+    "speed"
+   ],
+   "at": "2026-11-04T10:53:59.546750+00:00"
+  },
+  {
+   "sig": [
+    "experimental",
+    "intel",
+    "play",
+    "project",
+    "proton",
+    "steam",
+    "valve",
+    "working",
+    "xess",
+    "xmx"
+   ],
+   "at": "2026-11-04T10:54:17.677633+00:00"
+  },
+  {
+   "sig": [
+    "chrome",
+    "critical",
+    "fixes",
+    "rated",
+    "rolls",
+    "security",
+    "seven"
+   ],
+   "at": "2026-11-04T10:54:26.377497+00:00"
   }
  ],
  "snapshots": {
-  "hn:50212320": [
-   226,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50211729": [
-   80,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50207620": [
-   160,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mykwxawoa22u": [
    211,
    "2026-10-23T22:29:07.535236+00:00"
@@ -14170,6 +14197,18 @@
   "lobsters:xbmjlj": [
    28,
    "2026-11-04T06:53:48.979201+00:00"
+  ],
+  "hn:50362905": [
+   127,
+   "2026-11-04T10:53:48.021723+00:00"
+  ],
+  "hn:50361154": [
+   121,
+   "2026-11-04T10:53:48.021723+00:00"
+  ],
+  "hn:50361107": [
+   59,
+   "2026-11-04T10:53:48.021723+00:00"
   ]
  }
 }
