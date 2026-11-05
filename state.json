@@ -2703,18 +2703,26 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzkvjfwarc2u",
   "https://www.article19.org/?post_type=resources&p=392517",
   "a2c55223c3d03677ae82029d1862b903",
-  "ac8a2f9939c5605785daf24b8663b2ee"
+  "ac8a2f9939c5605785daf24b8663b2ee",
+  "hn:50375691",
+  "https://www.engadget.com/2307393/spotify-is-coming-to-uniteds-seatback-screens/",
+  "https://www.theverge.com/?p=1026472",
+  "6ae89af493d0a10b8d7f1dd9",
+  "https://www.androidpolice.com/motorola-razr-fold-deal-t-mobile-early-black-friday/",
+  "https://www.theverge.com/?p=1026643",
+  "https://techcrunch.com/?p=3185211",
+  "QSmfoJJNRGp6SSzgpJjq8R"
  ],
  "posted": {
   "viral": 530,
-  "editorial": 696
+  "editorial": 701
  },
  "recent_labels": [
+  "Engadget",
   "Wired",
-  "The Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Xe Iaso"
+  "The Verge",
+  "TechCrunch AI",
+  "TechRadar"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8534,80 +8542,44 @@
    "source": "sshhole.com",
    "score": 0.80259,
    "at": "2026-11-05T12:55:23.847429+00:00"
+  },
+  {
+   "title": "ارائه‌ی سرویس اسپاتیفای روی نمایشگرهای صندلی هواپیماهای یونایتد",
+   "url": "https://www.engadget.com/2307393/spotify-is-coming-to-uniteds-seatback-screens/",
+   "source": "Engadget",
+   "score": 0.62367,
+   "at": "2026-11-05T13:19:55.467545+00:00"
+  },
+  {
+   "title": "موتورولا با گوشی ۱۶۰۰ دلاری Signature 27 به رقابت با پرچمداران می‌رود",
+   "url": "https://www.wired.com/story/motorola-wants-to-sell-you-a-1600-phone-that-doesnt-fold/",
+   "source": "Wired",
+   "score": 0.38539,
+   "at": "2026-11-05T13:20:01.591149+00:00"
+  },
+  {
+   "title": "معرفی گوشی پرچمدار Signature 27 موتورولا با قیمت ۱۶۰۰ دلار",
+   "url": "https://www.theverge.com/gadgets/1026643/motorola-signature-27-price-specs-availability",
+   "source": "The Verge",
+   "score": 0.24099,
+   "at": "2026-11-05T13:20:08.334321+00:00"
+  },
+  {
+   "title": "جایزه یک میلیون دلاری برای حل چالش‌های علمی با هوش مصنوعی",
+   "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+   "source": "TechCrunch AI",
+   "score": 0.22682,
+   "at": "2026-11-05T13:20:14.141441+00:00"
+  },
+  {
+   "title": "استاندارد بلوتوث ۷ با قابلیت انتقال داده پرسرعت معرفی شد",
+   "url": "https://www.techradar.com/audio/bluetooth-7-will-bring-a-major-hi-res-audio-upgrade-in-2027-hdt-support-almost-quadruples-bit-rates-for-wireless-headphones-and-speakers",
+   "source": "TechRadar",
+   "score": 0.19954,
+   "at": "2026-11-05T13:20:20.051088+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "books",
-    "deleted",
-    "due",
-    "ex-meta",
-    "litigation",
-    "pirated",
-    "researcher",
-    "torrented"
-   ],
-   "at": "2026-10-31T16:53:58.196555+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "bargain",
-    "bill",
-    "growing",
-    "like",
-    "looking",
-    "macs",
-    "might",
-    "next",
-    "start",
-    "token",
-    "work"
-   ],
-   "at": "2026-10-31T16:54:08.232987+00:00"
-  },
-  {
-   "sig": [
-    "amazon",
-    "audio",
-    "better",
-    "fire",
-    "setting",
-    "should",
-    "stick",
-    "try"
-   ],
-   "at": "2026-10-31T16:54:23.162058+00:00"
-  },
-  {
-   "sig": [
-    "could",
-    "electronics",
-    "flags",
-    "items",
-    "raise",
-    "red",
-    "these",
-    "traveling",
-    "tsa"
-   ],
-   "at": "2026-10-31T16:54:29.114374+00:00"
-  },
-  {
-   "sig": [
-    "20bn",
-    "cuts",
-    "funding",
-    "lowers",
-    "openai",
-    "reportedly",
-    "reports",
-    "round",
-    "target"
-   ],
-   "at": "2026-10-31T17:55:05.121312+00:00"
-  },
   {
    "sig": [
     "8.0",
@@ -12511,13 +12483,74 @@
     "repositories"
    ],
    "at": "2026-11-05T12:54:31.483177+00:00"
+  },
+  {
+   "sig": [
+    "airlines",
+    "coming",
+    "help",
+    "screens",
+    "seatback",
+    "seatbacks",
+    "spotify",
+    "starlink",
+    "united"
+   ],
+   "at": "2026-11-05T13:19:55.467545+00:00"
+  },
+  {
+   "sig": [
+    "best",
+    "doesn",
+    "fold",
+    "motorola",
+    "phone",
+    "razr",
+    "sell",
+    "t-mobile",
+    "wants",
+    "years"
+   ],
+   "at": "2026-11-05T13:20:01.591149+00:00"
+  },
+  {
+   "sig": [
+    "going",
+    "motorola",
+    "phone",
+    "premium",
+    "signature",
+    "ultra"
+   ],
+   "at": "2026-11-05T13:20:08.334321+00:00"
+  },
+  {
+   "sig": [
+    "behind",
+    "five",
+    "materials",
+    "problems",
+    "putting",
+    "science",
+    "startup",
+    "unsolved"
+   ],
+   "at": "2026-11-05T13:20:14.141441+00:00"
+  },
+  {
+   "sig": [
+    "audio",
+    "bluetooth",
+    "boost",
+    "bring",
+    "hi-res",
+    "major",
+    "speed"
+   ],
+   "at": "2026-11-05T13:20:20.051088+00:00"
   }
  ],
  "snapshots": {
-  "hn:50226434": [
-   176,
-   "2026-10-25T10:01:58.670909+00:00"
-  ],
   "hn:50226419": [
    1096,
    "2026-10-25T10:01:58.670909+00:00"
@@ -14913,6 +14946,10 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzkvjfwarc2u": [
    29,
    "2026-11-05T12:53:43.461947+00:00"
+  ],
+  "hn:50375691": [
+   77,
+   "2026-11-05T13:19:52.971030+00:00"
   ]
  }
 }
