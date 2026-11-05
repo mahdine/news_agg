@@ -2608,18 +2608,28 @@
   "6ae4a305b65d62c5fd37b181",
   "hn:50371246",
   "hn:50373308",
-  "https://www.phoronix.com/news/MPV-0.42-Released"
+  "https://www.phoronix.com/news/MPV-0.42-Released",
+  "https://www.cnews.ru/news/line/2026-11-05_zhitel_kamchatki_poluchil",
+  "https://www.cnews.ru/news/line/2026-11-05_vame_rasshiril_publichnye_materialy",
+  "https://www.neowin.net/news/openais-chatgpt-images-26-is-50-faster-and-can-now-create-animated-gifs/",
+  "https://openai.com/index/introducing-images-2-6",
+  "TheNextWeb=fa0dbb8988a579e3095755598baac754",
+  "https://www.cnews.ru/news/line/2026-11-05_volga_zapustila_onlajn-prodazhi",
+  "https://www.cnews.ru/news/line/2026-11-05_novosibirtsy_stali_aktivnymi",
+  "https://www.cnews.ru/news/line/2026-11-05_v_tri_raza_chashche_stali_ispolzovat",
+  "https://www.androidpolice.com/samsung-hearing-aid-feature-galaxy-buds-4-pro-3-gets-approval-for-release/",
+  "https://www.cnews.ru/news/line/2026-11-05_v_innopolise_robotam-dostavshchikam"
  ],
  "posted": {
   "viral": 524,
-  "editorial": 665
+  "editorial": 669
  },
  "recent_labels": [
-  "OpenAI",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Phoronix"
+  "Phoronix",
+  "CNews",
+  "Neowin",
+  "CNews",
+  "Android Police"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8180,31 +8190,37 @@
    "source": "Phoronix",
    "score": 0.12275,
    "at": "2026-11-05T02:54:42.287919+00:00"
+  },
+  {
+   "title": "افزایش تماس‌های اسپم و کلاهبرداری‌های چندمرحله‌ای در روسیه",
+   "url": "https://www.cnews.ru/news/line/2026-11-05_zhitel_kamchatki_poluchil",
+   "source": "CNews",
+   "score": 0.10536,
+   "at": "2026-11-05T04:53:59.272106+00:00"
+  },
+  {
+   "title": "قابلیت ساخت تصاویر متحرک در نسخه جدید ChatGPT",
+   "url": "https://www.neowin.net/news/openais-chatgpt-images-26-is-50-faster-and-can-now-create-animated-gifs/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.37701,
+   "at": "2026-11-05T04:54:06.783542+00:00"
+  },
+  {
+   "title": "افزایش سه برابری کلاهبرداری‌های تلفنی چندمرحله‌ای در منطقه خاباروفسک",
+   "url": "https://www.cnews.ru/news/line/2026-11-05_v_tri_raza_chashche_stali_ispolzovat",
+   "source": "CNews",
+   "score": 0.14175,
+   "at": "2026-11-05T04:54:48.350615+00:00"
+  },
+  {
+   "title": "تایید قابلیت سمعک برای هدفون‌های Galaxy Buds سامسونگ",
+   "url": "https://www.androidpolice.com/samsung-hearing-aid-feature-galaxy-buds-4-pro-3-gets-approval-for-release/",
+   "source": "Android Police",
+   "score": 0.13995,
+   "at": "2026-11-05T04:54:54.166992+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "6.3bn",
-    "binance",
-    "everything",
-    "explained",
-    "googlebooks",
-    "hack",
-    "know",
-    "need",
-    "things"
-   ],
-   "at": "2026-10-31T09:53:55.013143+00:00"
-  },
-  {
-   "sig": [
-    "check",
-    "hard",
-    "whitespace"
-   ],
-   "at": "2026-10-31T09:54:19.712127+00:00"
-  },
   {
    "sig": [
     "access",
@@ -12131,6 +12147,33 @@
     "wayland"
    ],
    "at": "2026-11-05T02:54:42.287919+00:00"
+  },
+  {
+   "sig": [
+    "2.6",
+    "animated",
+    "chatgpt",
+    "create",
+    "faster",
+    "gifs",
+    "images",
+    "introducing",
+    "openai"
+   ],
+   "at": "2026-11-05T04:54:06.783542+00:00"
+  },
+  {
+   "sig": [
+    "aids",
+    "approved",
+    "buds",
+    "galaxy",
+    "hearing",
+    "over-the-counter",
+    "pro",
+    "samsung"
+   ],
+   "at": "2026-11-05T04:54:54.166992+00:00"
   }
  ],
  "snapshots": {
