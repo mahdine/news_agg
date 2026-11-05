@@ -2618,18 +2618,29 @@
   "https://www.cnews.ru/news/line/2026-11-05_novosibirtsy_stali_aktivnymi",
   "https://www.cnews.ru/news/line/2026-11-05_v_tri_raza_chashche_stali_ispolzovat",
   "https://www.androidpolice.com/samsung-hearing-aid-feature-galaxy-buds-4-pro-3-gets-approval-for-release/",
-  "https://www.cnews.ru/news/line/2026-11-05_v_innopolise_robotam-dostavshchikam"
+  "https://www.cnews.ru/news/line/2026-11-05_v_innopolise_robotam-dostavshchikam",
+  "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+  "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
+  "6aeafc77079f98228327c08a",
+  "https://www.theverge.com/?p=1025370",
+  "https://www.neowin.net/deals/google-pixel-buds-pro-2-getting-a-big-price-cut-to-make-workout-listening-affordable/",
+  "https://www.theregister.com/a/5307718",
+  "https://yro.slashdot.org/story/26/11/05/0322258/vietnam-jails-pirate-football-streamers-for-up-to-a-year?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "TheNextWeb=9917b52de0d23a9fcedf32801d716d2c",
+  "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+  "https://www.theverge.com/?p=1026380",
+  "https://www.techspot.com/news/114450-third-acquired-game-studios-have-shut-down-since.html"
  ],
  "posted": {
   "viral": 524,
-  "editorial": 669
+  "editorial": 672
  },
  "recent_labels": [
-  "Phoronix",
   "CNews",
-  "Neowin",
-  "CNews",
-  "Android Police"
+  "Android Police",
+  "The Hacker News",
+  "The Next Web",
+  "The Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8218,48 +8229,30 @@
    "source": "Android Police",
    "score": 0.13995,
    "at": "2026-11-05T04:54:54.166992+00:00"
+  },
+  {
+   "title": "حملات گسترده گروه APT29 با بهره‌گیری از آسیب‌پذیری‌های موبایل",
+   "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+   "source": "The Hacker News",
+   "score": 0.04174,
+   "at": "2026-11-05T05:53:50.874335+00:00"
+  },
+  {
+   "title": "جذب سرمایه ۱۰ میلیون یورویی استارتاپ Kabilio برای توسعه ایجنت‌های حسابداری",
+   "url": "https://thenextweb.com/news/kabilio-raises-e10m-to-bring-ai-agents-to-accounting-firms",
+   "source": "The Next Web",
+   "score": 0.0678,
+   "at": "2026-11-05T05:54:00.130315+00:00"
+  },
+  {
+   "title": "استفاده از هوش مصنوعی OpenAI برای شناسایی و رفع آسیب‌پذیری‌های لینوکس",
+   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "source": "The Hacker News",
+   "score": 0.13106,
+   "at": "2026-11-05T05:54:06.000187+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "access",
-    "attackers",
-    "chain",
-    "connect",
-    "flaws",
-    "gain",
-    "ivanti",
-    "root",
-    "secure",
-    "three",
-    "unauthenticated"
-   ],
-   "at": "2026-10-31T09:54:44.552417+00:00"
-  },
-  {
-   "sig": [
-    "black",
-    "case",
-    "could",
-    "customer",
-    "screen",
-    "see",
-    "support"
-   ],
-   "at": "2026-10-31T10:53:44.226444+00:00"
-  },
-  {
-   "sig": [
-    "agent",
-    "brain",
-    "drugs",
-    "injected",
-    "live",
-    "mouse"
-   ],
-   "at": "2026-10-31T10:53:49.770038+00:00"
-  },
   {
    "sig": [
     "application",
@@ -12174,6 +12167,52 @@
     "samsung"
    ],
    "at": "2026-11-05T04:54:54.166992+00:00"
+  },
+  {
+   "sig": [
+    "analytics",
+    "android",
+    "apt29-linked",
+    "deliver",
+    "exploited",
+    "exploits",
+    "flaws",
+    "hackers",
+    "hijack",
+    "infect",
+    "ios",
+    "phones",
+    "script",
+    "web"
+   ],
+   "at": "2026-11-05T05:53:50.874335+00:00"
+  },
+  {
+   "sig": [
+    "10m",
+    "accounting",
+    "agents",
+    "barcelona",
+    "bring",
+    "firms",
+    "kabilio",
+    "raises"
+   ],
+   "at": "2026-11-05T05:54:00.130315+00:00"
+  },
+  {
+   "sig": [
+    "30-hour",
+    "escalation",
+    "exploits",
+    "generates",
+    "linux",
+    "openai",
+    "pipeline",
+    "root",
+    "run"
+   ],
+   "at": "2026-11-05T05:54:06.000187+00:00"
   }
  ],
  "snapshots": {
