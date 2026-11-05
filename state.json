@@ -2629,18 +2629,36 @@
   "TheNextWeb=9917b52de0d23a9fcedf32801d716d2c",
   "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
   "https://www.theverge.com/?p=1026380",
-  "https://www.techspot.com/news/114450-third-acquired-game-studios-have-shut-down-since.html"
+  "https://www.techspot.com/news/114450-third-acquired-game-studios-have-shut-down-since.html",
+  "lobsters:jplxxr",
+  "6a4fea11df070edc7bda7a8f",
+  "67367a3b42e45bb4956a0b38",
+  "671fef9f5c6935ccd7cbc918",
+  "6ad7c64bf3f2a890d805dd77",
+  "6a67a4477121677383fc0ebc",
+  "690d12ea0bcd6d7c5eccd47d",
+  "673d17683f0c60a2ac246f61",
+  "6a0cb2f3783504bef308aa6c",
+  "68225b9544db1beca22d595d",
+  "69693e8d82b675266953a07f",
+  "6a063bb21e950aab129bbee8",
+  "69dd137ca1e49505ef8b581e",
+  "https://www.theregister.com/a/5307739",
+  "3236346",
+  "8b7f86a2efbb51113e7acf0b25494ba4",
+  "urn:latent-space:post:post_fd221542-e3ff-41a0-bb96-ef372fda447e",
+  "67c1283825ea22f771891cb93232a7be"
  ],
  "posted": {
-  "viral": 524,
-  "editorial": 672
+  "viral": 525,
+  "editorial": 674
  },
  "recent_labels": [
-  "CNews",
-  "Android Police",
-  "The Hacker News",
   "The Next Web",
-  "The Hacker News"
+  "The Hacker News",
+  "Lobsters",
+  "Hi-Tech Mail",
+  "Latent Space"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8250,28 +8268,30 @@
    "source": "The Hacker News",
    "score": 0.13106,
    "at": "2026-11-05T05:54:06.000187+00:00"
+  },
+  {
+   "title": "رویکردی نوین برای پیاده‌سازی تعاملات کشیدن و رها کردن در رابط‌های کاربری",
+   "url": "https://declarative-dragging.github.io/",
+   "source": "declarative-dragging.github.io",
+   "score": 0.06736,
+   "at": "2026-11-05T06:53:45.868484+00:00"
+  },
+  {
+   "title": "راه‌اندازی نخستین ایستگاه‌های رسمی برای ربات‌های تحویل‌دهنده در روسیه",
+   "url": "https://hi-tech.mail.ru/news/159720-v-rossii-poyavilis-pervye-parkovki-dlya-robotov/",
+   "source": "Hi-Tech Mail",
+   "score": 0.14794,
+   "at": "2026-11-05T06:53:58.442311+00:00"
+  },
+  {
+   "title": "شناسایی و اصلاح خودکار ۹۴۸ آسیب‌پذیری کرنل لینوکس توسط هوش مصنوعی",
+   "url": "https://latent.space/p/ainews-it-s-swapping-season/",
+   "source": "Latent Space",
+   "score": 0.20103,
+   "at": "2026-11-05T06:54:04.851054+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "application",
-    "cdplayer.exe",
-    "claims",
-    "found",
-    "gui",
-    "november",
-    "oldest",
-    "prize",
-    "sleuth",
-    "still",
-    "tech",
-    "windows",
-    "wins",
-    "works"
-   ],
-   "at": "2026-10-31T10:53:54.874228+00:00"
-  },
   {
    "sig": [
     "continues",
@@ -12213,13 +12233,17 @@
     "run"
    ],
    "at": "2026-11-05T05:54:06.000187+00:00"
+  },
+  {
+   "sig": [
+    "ainews",
+    "season",
+    "swapping"
+   ],
+   "at": "2026-11-05T06:54:04.851054+00:00"
   }
  ],
  "snapshots": {
-  "hn:50224074": [
-   306,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
   "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mynjzpbars2g": [
    31,
    "2026-10-25T06:47:52.304550+00:00"
@@ -14552,25 +14576,9 @@
    18,
    "2026-11-05T01:31:54.137690+00:00"
   ],
-  "hn:50367125": [
-   839,
-   "2026-11-05T02:53:56.741083+00:00"
-  ],
-  "hn:50366999": [
-   613,
-   "2026-11-05T02:53:56.741083+00:00"
-  ],
-  "hn:50366929": [
-   229,
-   "2026-11-05T02:53:56.741083+00:00"
-  ],
   "hn:50366919": [
    267,
    "2026-11-05T01:54:04.737421+00:00"
-  ],
-  "hn:50366863": [
-   321,
-   "2026-11-05T02:53:56.741083+00:00"
   ],
   "hn:50366522": [
    637,
@@ -14583,18 +14591,6 @@
   "lobsters:lh1j0e": [
    77,
    "2026-11-05T01:54:04.737421+00:00"
-  ],
-  "hn:50372929": [
-   341,
-   "2026-11-05T02:53:56.741083+00:00"
-  ],
-  "hn:50371246": [
-   1158,
-   "2026-11-05T02:53:56.741083+00:00"
-  ],
-  "hn:50369895": [
-   141,
-   "2026-11-05T02:53:56.741083+00:00"
   ],
   "hn:50368804": [
    122,
@@ -14612,9 +14608,41 @@
    209,
    "2026-11-05T01:54:04.737421+00:00"
   ],
+  "hn:50367125": [
+   839,
+   "2026-11-05T02:53:56.741083+00:00"
+  ],
+  "hn:50366999": [
+   613,
+   "2026-11-05T02:53:56.741083+00:00"
+  ],
+  "hn:50366929": [
+   229,
+   "2026-11-05T02:53:56.741083+00:00"
+  ],
+  "hn:50366863": [
+   321,
+   "2026-11-05T02:53:56.741083+00:00"
+  ],
+  "hn:50372929": [
+   341,
+   "2026-11-05T02:53:56.741083+00:00"
+  ],
+  "hn:50371246": [
+   1158,
+   "2026-11-05T02:53:56.741083+00:00"
+  ],
+  "hn:50369895": [
+   141,
+   "2026-11-05T02:53:56.741083+00:00"
+  ],
   "hn:50373308": [
    187,
    "2026-11-05T02:53:56.741083+00:00"
+  ],
+  "lobsters:jplxxr": [
+   25,
+   "2026-11-05T06:53:43.906070+00:00"
   ]
  }
 }
