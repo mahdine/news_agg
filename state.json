@@ -2721,18 +2721,24 @@
   "69ee1ac86bf1c69d55d9c81ced56c262",
   "779b610a05e47c46f18047afe9ec9c7f",
   "46d61ebb9a8b6d8e68d6b7425af72c69",
-  "8c72c42d648461ec6bf08e89d4dd976a"
+  "8c72c42d648461ec6bf08e89d4dd976a",
+  "hn:50378571",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzkzxqp4ks2n",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzl2seaf4s27",
+  "hn:50379704",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl4d3q24k2n",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl3esyg5l2c"
  ],
  "posted": {
-  "viral": 530,
+  "viral": 535,
   "editorial": 702
  },
  "recent_labels": [
-  "Wired",
-  "The Verge",
-  "TechCrunch AI",
-  "TechRadar",
-  "Hi-Tech Mail"
+  "Hacker News",
+  "404 Media",
+  "Xe Iaso",
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8594,70 +8600,44 @@
    "source": "Hi-Tech Mail",
    "score": 0.21443,
    "at": "2026-11-05T13:55:06.604278+00:00"
+  },
+  {
+   "title": "راهکارهای شخصی برای آرشیو و مدیریت ویدیوهای یوتیوب",
+   "url": "https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/",
+   "source": "criminallyvulgar.dev",
+   "score": 0.22632,
+   "at": "2026-11-05T15:53:43.441080+00:00"
+  },
+  {
+   "title": "تضاد درونی مدیریت Proton بر سر استفاده از هوش مصنوعی",
+   "url": "https://bsky.app/profile/404media.co/post/3mzkzxqp4ks2n",
+   "source": "404 Media",
+   "score": 0.43323,
+   "at": "2026-11-05T15:53:49.408734+00:00"
+  },
+  {
+   "title": "خرید پلتفرم ذخیره‌سازی Tigris توسط Dropbox برای توسعه زیرساخت‌های هوش مصنوعی",
+   "url": "https://www.tigrisdata.com/blog/dropbox-plans-acquire-tigris/",
+   "source": "tigrisdata.com",
+   "score": 0.31494,
+   "at": "2026-11-05T15:53:55.086335+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری بحرانی در OpenSSH سیستم‌عامل Alpine Linux",
+   "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+   "source": "alpinelinux.org",
+   "score": 0.52687,
+   "at": "2026-11-05T15:54:00.822523+00:00"
+  },
+  {
+   "title": "داستان سازنده‌ی OnlyFake و ابزار هوش مصنوعی برای جعل مدارک هویتی",
+   "url": "https://www.404media.co/the-confessions-of-an-ai-fraud-kingpin-onlyfake-owner-nazarenko/",
+   "source": "404media.co",
+   "score": 0.57635,
+   "at": "2026-11-05T15:54:06.465589+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "8.0",
-    "brings",
-    "enhancements",
-    "expanded",
-    "hardware",
-    "improvements",
-    "openbsd",
-    "security",
-    "support",
-    "virtualization"
-   ],
-   "at": "2026-10-31T17:55:31.406615+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "chrome",
-    "fine-tuned",
-    "navigation",
-    "settings",
-    "smoother",
-    "web"
-   ],
-   "at": "2026-10-31T17:55:37.488314+00:00"
-  },
-  {
-   "sig": [
-    "bolt",
-    "first",
-    "gpu",
-    "graphics",
-    "powers",
-    "zeus"
-   ],
-   "at": "2026-10-31T17:55:58.147081+00:00"
-  },
-  {
-   "sig": [
-    "could",
-    "directx",
-    "memory",
-    "microsoft",
-    "percent",
-    "ray",
-    "slash",
-    "tracing",
-    "update"
-   ],
-   "at": "2026-10-31T17:56:04.245717+00:00"
-  },
-  {
-   "sig": [
-    "accounts",
-    "chatgpt",
-    "math",
-    "took"
-   ],
-   "at": "2026-10-31T20:06:45.639689+00:00"
-  },
   {
    "sig": [
     "critical",
@@ -12565,57 +12545,92 @@
     "speed"
    ],
    "at": "2026-11-05T13:20:20.051088+00:00"
+  },
+  {
+   "sig": [
+    "download",
+    "favourite",
+    "videos",
+    "youtube"
+   ],
+   "at": "2026-11-05T15:53:43.441080+00:00"
+  },
+  {
+   "sig": [
+    "andy",
+    "big",
+    "build",
+    "calm",
+    "ceo",
+    "concerns",
+    "critiques",
+    "engineers",
+    "even",
+    "internally",
+    "josephcox.bsky.social",
+    "persona",
+    "projects",
+    "proton",
+    "pushing",
+    "rails",
+    "security",
+    "tech",
+    "yen"
+   ],
+   "at": "2026-11-05T15:53:49.408734+00:00"
+  },
+  {
+   "sig": [
+    "blog",
+    "dropbox",
+    "interesting",
+    "life",
+    "www.tigrisdata.com"
+   ],
+   "at": "2026-11-05T15:53:55.086335+00:00"
+  },
+  {
+   "sig": [
+    "advisory",
+    "alpine",
+    "authentication",
+    "bypass",
+    "linux",
+    "openssh-server",
+    "password",
+    "security"
+   ],
+   "at": "2026-11-05T15:54:00.822523+00:00"
+  },
+  {
+   "sig": [
+    "anxious",
+    "behind",
+    "cards",
+    "could",
+    "coverage",
+    "creator",
+    "didn",
+    "fake",
+    "fbi",
+    "found",
+    "growing",
+    "him",
+    "josephcox.bsky.social",
+    "know",
+    "media",
+    "onlyfake",
+    "passports",
+    "revealed",
+    "security",
+    "site",
+    "social",
+    "underground"
+   ],
+   "at": "2026-11-05T15:54:06.465589+00:00"
   }
  ],
  "snapshots": {
-  "hn:50226419": [
-   1096,
-   "2026-10-25T10:01:58.670909+00:00"
-  ],
-  "hn:50229587": [
-   151,
-   "2026-10-25T10:01:58.670909+00:00"
-  ],
-  "hn:50227356": [
-   362,
-   "2026-10-25T13:24:53.375110+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myo2iaxzbk2n": [
-   14,
-   "2026-10-25T13:24:53.375110+00:00"
-  ],
-  "hn:50230384": [
-   95,
-   "2026-10-25T13:24:53.375110+00:00"
-  ],
-  "hn:50230181": [
-   218,
-   "2026-10-25T13:24:53.375110+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myoydwmvle2o": [
-   19,
-   "2026-10-25T13:24:53.375110+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myo2i6vfgs2n": [
-   5,
-   "2026-10-25T13:24:53.375110+00:00"
-  ],
-  "hn:50228167": [
-   289,
-   "2026-10-25T14:16:52.771880+00:00"
-  ],
-  "hn:50227892": [
-   334,
-   "2026-10-25T14:16:52.771880+00:00"
-  ],
-  "hn:50227639": [
-   414,
-   "2026-10-25T14:16:52.771880+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myoepqanpe2h": [
-   363,
-   "2026-10-25T14:16:52.771880+00:00"
-  ],
   "hn:50229599": [
    265,
    "2026-10-25T14:16:52.771880+00:00"
@@ -14967,6 +14982,54 @@
   "hn:50375691": [
    77,
    "2026-11-05T13:19:52.971030+00:00"
+  ],
+  "hn:50379773": [
+   155,
+   "2026-11-05T15:53:41.338381+00:00"
+  ],
+  "hn:50379704": [
+   97,
+   "2026-11-05T15:53:41.338381+00:00"
+  ],
+  "hn:50378571": [
+   111,
+   "2026-11-05T15:53:41.338381+00:00"
+  ],
+  "hn:50376313": [
+   186,
+   "2026-11-05T15:53:41.338381+00:00"
+  ],
+  "lobsters:y4poxs": [
+   29,
+   "2026-11-05T15:53:41.338381+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5vimwri2a": [
+   217,
+   "2026-11-05T15:53:41.338381+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5lt6u7k2v": [
+   1132,
+   "2026-11-05T15:53:41.338381+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl4eozenn2h": [
+   110,
+   "2026-11-05T15:53:41.338381+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl4d3q24k2n": [
+   215,
+   "2026-11-05T15:53:41.338381+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl3esyg5l2c": [
+   94,
+   "2026-11-05T15:53:41.338381+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzkzxqp4ks2n": [
+   294,
+   "2026-11-05T15:53:41.338381+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzl2seaf4s27": [
+   27,
+   "2026-11-05T15:53:41.338381+00:00"
   ]
  }
 }
