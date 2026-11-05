@@ -2733,17 +2733,32 @@
   "hn:50378508",
   "hn:50378942",
   "hn:50379576",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl4eozenn2h"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl4eozenn2h",
+  "hn:50376313",
+  "hn:50379773",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5lt6u7k2v",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5vimwri2a",
+  "https://www.engadget.com/2304149/sony-mdr-3r-wired-headphones-are-steeped-in-retro-aesthetics/",
+  "https://www.theverge.com/?p=1026958",
+  "Kmwg5he4sAadYSX2tJhsrD",
+  "TheNextWeb=99ac5e1772fb70ca8fe2cc5d8c754b8f",
+  "hn:50381033",
+  "uv8mhF5uH28Mxft3S5CBzQ",
+  "https://www.techspot.com/news/114458-nintendo-switch-2-sales-down-41-500-price.html",
+  "3237854",
+  "https://www.theverge.com/?p=1027772",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlewrj3y22v",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlfglujbc2k"
  ],
  "posted": {
-  "viral": 540,
-  "editorial": 702
+  "viral": 542,
+  "editorial": 704
  },
  "recent_labels": [
+  "404 Media",
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
+  "Tom's Hardware",
+  "vc.ru",
   "404 Media"
  ],
  "last_digest": "2026-10-30",
@@ -8676,54 +8691,37 @@
    "source": "404media.co",
    "score": 0.02058,
    "at": "2026-11-05T16:54:14.622120+00:00"
+  },
+  {
+   "title": "عملکرد پنهانی و کاهش کارایی مدل GPT-6 Astra در تحقیقات ایمنی",
+   "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+   "source": "alignment.openai.com",
+   "score": 0.00135,
+   "at": "2026-11-05T17:53:55.629087+00:00"
+  },
+  {
+   "title": "کاهش ۴۱ درصدی فروش نینتندو سوییچ ۲ به دلیل افزایش قیمت",
+   "url": "https://www.tomshardware.com/video-games/nintendo/nintendo-switch-2-sales-dropped-by-41-percent-from-last-year-due-to-consoles-price-increase-pressure-to-release-more-big-games-to-make-up-for-shortfall",
+   "source": "Tom's Hardware",
+   "score": 0.31452,
+   "at": "2026-11-05T17:54:04.657981+00:00"
+  },
+  {
+   "title": "تست اپلیکیشن مستقل TikTok Shop برای رقابت با غول‌های تجارت الکترونیک",
+   "url": "https://vc.ru/services/3237854-tiktok-shop-novoe-prilozhenie-dlya-pokupok?from=rss",
+   "source": "vc.ru",
+   "score": 0.50656,
+   "at": "2026-11-05T17:54:13.066175+00:00"
+  },
+  {
+   "title": "قوانین جدید بریتانیا برای جرم‌انگاری محتوای پورنوگرافی و سانسور اینترنتی",
+   "url": "https://www.404media.co/uk-crime-and-policing-act-pornography/",
+   "source": "404media.co",
+   "score": 0.69912,
+   "at": "2026-11-05T17:54:22.819906+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "github.com",
-    "weec",
-    "weechat"
-   ],
-   "at": "2026-10-31T23:29:13.760260+00:00"
-  },
-  {
-   "sig": [
-    "billboard",
-    "egypt",
-    "hackers",
-    "highway",
-    "hijack",
-    "malaysian",
-    "porn",
-    "screens",
-    "show"
-   ],
-   "at": "2026-10-31T23:29:20.243155+00:00"
-  },
-  {
-   "sig": [
-    "avoid",
-    "calling",
-    "functions",
-    "other",
-    "public"
-   ],
-   "at": "2026-10-31T23:29:25.756394+00:00"
-  },
-  {
-   "sig": [
-    "anthropic",
-    "anything",
-    "blocks",
-    "larger",
-    "models",
-    "touching",
-    "training",
-    "users"
-   ],
-   "at": "2026-10-31T23:29:32.472575+00:00"
-  },
   {
    "sig": [
     "asm",
@@ -12656,21 +12654,76 @@
     "voters"
    ],
    "at": "2026-11-05T16:54:14.622120+00:00"
+  },
+  {
+   "sig": [
+    "astra",
+    "covertly",
+    "gpt-6",
+    "research",
+    "safety",
+    "underperforms"
+   ],
+   "at": "2026-11-05T17:53:55.629087+00:00"
+  },
+  {
+   "sig": [
+    "console",
+    "down",
+    "dropped",
+    "due",
+    "going",
+    "help",
+    "increase",
+    "isn",
+    "last",
+    "nintendo",
+    "price",
+    "sales",
+    "switch",
+    "tag",
+    "year"
+   ],
+   "at": "2026-11-05T17:54:04.657981+00:00"
+  },
+  {
+   "sig": [
+    "amazon",
+    "app",
+    "dedicated",
+    "launched",
+    "shop",
+    "temu",
+    "tiktok"
+   ],
+   "at": "2026-11-05T17:54:13.066175+00:00"
+  },
+  {
+   "sig": [
+    "act",
+    "close",
+    "crime",
+    "criminalizes",
+    "familial",
+    "force",
+    "goes",
+    "november",
+    "policing",
+    "porn",
+    "possessing",
+    "publishing",
+    "relatives",
+    "roleplay",
+    "strangulation",
+    "suffocation",
+    "types",
+    "well",
+    "which"
+   ],
+   "at": "2026-11-05T17:54:22.819906+00:00"
   }
  ],
  "snapshots": {
-  "hn:50230917": [
-   261,
-   "2026-10-25T16:41:03.634052+00:00"
-  ],
-  "lobsters:zfoiw1": [
-   59,
-   "2026-10-25T16:41:03.634052+00:00"
-  ],
-  "hn:50230995": [
-   207,
-   "2026-10-25T17:06:44.243094+00:00"
-  ],
   "hn:50231310": [
    272,
    "2026-10-25T17:06:44.243094+00:00"
@@ -15019,24 +15072,8 @@
    27,
    "2026-11-05T15:53:41.338381+00:00"
   ],
-  "hn:50379773": [
-   230,
-   "2026-11-05T16:53:46.546125+00:00"
-  ],
-  "hn:50376313": [
-   276,
-   "2026-11-05T16:53:46.546125+00:00"
-  ],
   "lobsters:y4poxs": [
    32,
-   "2026-11-05T16:53:46.546125+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5vimwri2a": [
-   299,
-   "2026-11-05T16:53:46.546125+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5lt6u7k2v": [
-   2144,
    "2026-11-05T16:53:46.546125+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl4eozenn2h": [
@@ -15058,6 +15095,34 @@
   "hn:50375653": [
    85,
    "2026-11-05T16:53:46.546125+00:00"
+  ],
+  "hn:50379773": [
+   262,
+   "2026-11-05T17:53:53.665867+00:00"
+  ],
+  "hn:50376313": [
+   336,
+   "2026-11-05T17:53:53.665867+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5vimwri2a": [
+   325,
+   "2026-11-05T17:53:53.665867+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5lt6u7k2v": [
+   2484,
+   "2026-11-05T17:53:53.665867+00:00"
+  ],
+  "hn:50381033": [
+   78,
+   "2026-11-05T17:53:53.665867+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlfglujbc2k": [
+   76,
+   "2026-11-05T17:53:53.665867+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlewrj3y22v": [
+   581,
+   "2026-11-05T17:53:53.665867+00:00"
   ]
  }
 }
