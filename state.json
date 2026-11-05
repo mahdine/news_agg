@@ -2727,16 +2727,22 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzl2seaf4s27",
   "hn:50379704",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl4d3q24k2n",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl3esyg5l2c"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl3esyg5l2c",
+  "hn:50375653",
+  "lobsters:y4poxs",
+  "hn:50378508",
+  "hn:50378942",
+  "hn:50379576",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl4eozenn2h"
  ],
  "posted": {
-  "viral": 535,
+  "viral": 540,
   "editorial": 702
  },
  "recent_labels": [
   "Hacker News",
-  "404 Media",
-  "Xe Iaso",
+  "Hacker News",
+  "Hacker News",
   "Hacker News",
   "404 Media"
  ],
@@ -8635,79 +8641,44 @@
    "source": "404media.co",
    "score": 0.57635,
    "at": "2026-11-05T15:54:06.465589+00:00"
+  },
+  {
+   "title": "معرفی سبد کامل تراشه‌های FPGA و SoC سری Agilex 2X توسط Altera",
+   "url": "https://www.altera.com/newsroom/agilex-2x",
+   "source": "altera.com",
+   "score": 0.00991,
+   "at": "2026-11-05T16:53:48.570843+00:00"
+  },
+  {
+   "title": "اجرای کدک صوتی ULC روی کنسول قدیمی Nintendo 64",
+   "url": "https://phoboslab.org/log/2026/11/n64-ulc-codec",
+   "source": "phoboslab.org",
+   "score": 0.04591,
+   "at": "2026-11-05T16:53:56.282855+00:00"
+  },
+  {
+   "title": "ناکارآمدی الگوریتم‌های شخصی‌سازی در تحلیل داده‌های کاربران",
+   "url": "https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me",
+   "source": "rakhim.exotext.com",
+   "score": 0.0685,
+   "at": "2026-11-05T16:54:02.841210+00:00"
+  },
+  {
+   "title": "انتشار نسخه ۰.۷.۰ موتور مرورگر Servo با بهبودهای گسترده فنی",
+   "url": "https://servo.org/blog/2026/11/05/september-in-servo/",
+   "source": "servo.org",
+   "score": 0.08465,
+   "at": "2026-11-05T16:54:08.672322+00:00"
+  },
+  {
+   "title": "اعترافات سازنده OnlyFake؛ چگونه هوش مصنوعی جعل هویت را متحول کرد",
+   "url": "https://www.404media.co/an-ai-fraud-kingpins-confessions/",
+   "source": "404media.co",
+   "score": 0.02058,
+   "at": "2026-11-05T16:54:14.622120+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "critical",
-    "generative",
-    "impact",
-    "self-reported",
-    "thinking"
-   ],
-   "at": "2026-10-31T20:06:52.819867+00:00"
-  },
-  {
-   "sig": [
-    "changed",
-    "craft",
-    "dramatically",
-    "engineering",
-    "good",
-    "months",
-    "past",
-    "software",
-    "summary",
-    "thread"
-   ],
-   "at": "2026-10-31T20:06:59.644477+00:00"
-  },
-  {
-   "sig": [
-    "beat",
-    "factorio",
-    "gpt-5.6",
-    "mode",
-    "peaceful",
-    "sol"
-   ],
-   "at": "2026-10-31T20:07:05.686904+00:00"
-  },
-  {
-   "sig": [
-    "back",
-    "being",
-    "bikes",
-    "control",
-    "defunct",
-    "devices",
-    "exercise",
-    "like",
-    "machine",
-    "people",
-    "plagiarism",
-    "random",
-    "reverse-engi",
-    "take",
-    "using",
-    "welcome",
-    "west",
-    "wild",
-    "www.404media.co"
-   ],
-   "at": "2026-10-31T20:07:11.889901+00:00"
-  },
-  {
-   "sig": [
-    "accessibility",
-    "expert",
-    "front-end",
-    "hire",
-    "tangled"
-   ],
-   "at": "2026-10-31T23:29:07.614808+00:00"
-  },
   {
    "sig": [
     "github.com",
@@ -12628,25 +12599,66 @@
     "underground"
    ],
    "at": "2026-11-05T15:54:06.465589+00:00"
+  },
+  {
+   "sig": [
+    "agilex",
+    "altera",
+    "announces",
+    "complete",
+    "fpga",
+    "portfolio",
+    "soc"
+   ],
+   "at": "2026-11-05T16:53:48.570843+00:00"
+  },
+  {
+   "sig": [
+    "audio",
+    "codec",
+    "fit",
+    "n64",
+    "obscure",
+    "perfect"
+   ],
+   "at": "2026-11-05T16:53:56.282855+00:00"
+  },
+  {
+   "sig": [
+    "companies",
+    "knew",
+    "tech",
+    "wish"
+   ],
+   "at": "2026-11-05T16:54:02.841210+00:00"
+  },
+  {
+   "sig": [
+    "progress",
+    "rectangles",
+    "rounded",
+    "september",
+    "servo"
+   ],
+   "at": "2026-11-05T16:54:08.672322+00:00"
+  },
+  {
+   "sig": [
+    "centers",
+    "data",
+    "fall",
+    "fear",
+    "fraud",
+    "kingpins",
+    "rejected",
+    "rise",
+    "unlocked",
+    "voters"
+   ],
+   "at": "2026-11-05T16:54:14.622120+00:00"
   }
  ],
  "snapshots": {
-  "hn:50229599": [
-   265,
-   "2026-10-25T14:16:52.771880+00:00"
-  ],
-  "hn:50229827": [
-   75,
-   "2026-10-25T14:16:52.771880+00:00"
-  ],
-  "hn:50231722": [
-   239,
-   "2026-10-25T16:41:03.634052+00:00"
-  ],
-  "hn:50231189": [
-   156,
-   "2026-10-25T16:41:03.634052+00:00"
-  ],
   "hn:50230917": [
    261,
    "2026-10-25T16:41:03.634052+00:00"
@@ -14983,36 +14995,12 @@
    77,
    "2026-11-05T13:19:52.971030+00:00"
   ],
-  "hn:50379773": [
-   155,
-   "2026-11-05T15:53:41.338381+00:00"
-  ],
   "hn:50379704": [
    97,
    "2026-11-05T15:53:41.338381+00:00"
   ],
   "hn:50378571": [
    111,
-   "2026-11-05T15:53:41.338381+00:00"
-  ],
-  "hn:50376313": [
-   186,
-   "2026-11-05T15:53:41.338381+00:00"
-  ],
-  "lobsters:y4poxs": [
-   29,
-   "2026-11-05T15:53:41.338381+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5vimwri2a": [
-   217,
-   "2026-11-05T15:53:41.338381+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5lt6u7k2v": [
-   1132,
-   "2026-11-05T15:53:41.338381+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl4eozenn2h": [
-   110,
    "2026-11-05T15:53:41.338381+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl4d3q24k2n": [
@@ -15030,6 +15018,46 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzl2seaf4s27": [
    27,
    "2026-11-05T15:53:41.338381+00:00"
+  ],
+  "hn:50379773": [
+   230,
+   "2026-11-05T16:53:46.546125+00:00"
+  ],
+  "hn:50376313": [
+   276,
+   "2026-11-05T16:53:46.546125+00:00"
+  ],
+  "lobsters:y4poxs": [
+   32,
+   "2026-11-05T16:53:46.546125+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5vimwri2a": [
+   299,
+   "2026-11-05T16:53:46.546125+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5lt6u7k2v": [
+   2144,
+   "2026-11-05T16:53:46.546125+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl4eozenn2h": [
+   117,
+   "2026-11-05T16:53:46.546125+00:00"
+  ],
+  "hn:50379576": [
+   91,
+   "2026-11-05T16:53:46.546125+00:00"
+  ],
+  "hn:50378942": [
+   153,
+   "2026-11-05T16:53:46.546125+00:00"
+  ],
+  "hn:50378508": [
+   106,
+   "2026-11-05T16:53:46.546125+00:00"
+  ],
+  "hn:50375653": [
+   85,
+   "2026-11-05T16:53:46.546125+00:00"
   ]
  }
 }
