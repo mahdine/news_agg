@@ -2711,18 +2711,28 @@
   "https://www.androidpolice.com/motorola-razr-fold-deal-t-mobile-early-black-friday/",
   "https://www.theverge.com/?p=1026643",
   "https://techcrunch.com/?p=3185211",
-  "QSmfoJJNRGp6SSzgpJjq8R"
+  "QSmfoJJNRGp6SSzgpJjq8R",
+  "https://9to5mac.com/?p=1077423",
+  "b9fb92bab1cc1f7950822149bd884281",
+  "https://9to5mac.com/?p=1077481",
+  "https://www.cnews.ru/news/line/2026-11-05_smart_biznes_vnedrila_dokumentooborot",
+  "eb76e7d472053910a60ab5e8b4901261",
+  "ad782677336877c7796134752b4c6106",
+  "69ee1ac86bf1c69d55d9c81ced56c262",
+  "779b610a05e47c46f18047afe9ec9c7f",
+  "46d61ebb9a8b6d8e68d6b7425af72c69",
+  "8c72c42d648461ec6bf08e89d4dd976a"
  ],
  "posted": {
   "viral": 530,
-  "editorial": 701
+  "editorial": 702
  },
  "recent_labels": [
-  "Engadget",
   "Wired",
   "The Verge",
   "TechCrunch AI",
-  "TechRadar"
+  "TechRadar",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8577,6 +8587,13 @@
    "source": "TechRadar",
    "score": 0.19954,
    "at": "2026-11-05T13:20:20.051088+00:00"
+  },
+  {
+   "title": "آغاز پیش‌فروش ربات‌های انسان‌نمای سری Echo با قابلیت‌های هوش مصنوعی",
+   "url": "https://hi-tech.mail.ru/news/159814-v-shtatah-otkryli-predzakaz-na-realistichnyh-gumanoidov-realbotix/",
+   "source": "Hi-Tech Mail",
+   "score": 0.21443,
+   "at": "2026-11-05T13:55:06.604278+00:00"
   }
  ],
  "stories": [
