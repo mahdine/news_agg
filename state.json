@@ -2694,18 +2694,27 @@
   "6aea182d5f9acfda4c7c80b4",
   "https://www.theverge.com/?p=1027379",
   "6ad26bec5976120efa9e5d95",
-  "772b10ad572d8d221fbb11e12a13679c"
+  "772b10ad572d8d221fbb11e12a13679c",
+  "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+  "https://www.securityweek.com/?p=50558",
+  "hn:50377221",
+  "hn:50377821",
+  "kbTvFjbUMnPMEMBWeJtnBi",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzkvjfwarc2u",
+  "https://www.article19.org/?post_type=resources&p=392517",
+  "a2c55223c3d03677ae82029d1862b903",
+  "ac8a2f9939c5605785daf24b8663b2ee"
  ],
  "posted": {
-  "viral": 527,
-  "editorial": 695
+  "viral": 530,
+  "editorial": 696
  },
  "recent_labels": [
-  "Access Now",
+  "Wired",
+  "The Hacker News",
   "Hacker News",
-  "TechSpot",
-  "The Verge",
-  "Wired"
+  "Hacker News",
+  "Xe Iaso"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8497,40 +8506,37 @@
    "source": "Wired",
    "score": 0.27936,
    "at": "2026-11-05T11:54:16.335020+00:00"
+  },
+  {
+   "title": "عدم ارائه وصله امنیتی برای آسیب‌پذیری‌های بحرانی در SonicWall GMS",
+   "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+   "source": "The Hacker News",
+   "score": 0.4816,
+   "at": "2026-11-05T12:54:16.140990+00:00"
+  },
+  {
+   "title": "انتشار نسخه جدید OpenSSH برای رفع یک آسیب‌پذیری بحرانی",
+   "url": "https://hachyderm.io/@damienmiller/117563026759098135",
+   "source": "hachyderm.io",
+   "score": 0.11722,
+   "at": "2026-11-05T12:54:25.480603+00:00"
+  },
+  {
+   "title": "کاهش کارایی مخازن Awesome در گیت‌هاب به دلیل هجوم محتوای هوش مصنوعی",
+   "url": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
+   "source": "erikgahner.github.io",
+   "score": 0.23735,
+   "at": "2026-11-05T12:54:31.483177+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری امنیتی در کتابخانه musl امکان دور زدن احراز هویت OpenSSH را فراهم می‌کند",
+   "url": "https://sshhole.com/",
+   "source": "sshhole.com",
+   "score": 0.80259,
+   "at": "2026-11-05T12:55:23.847429+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "button",
-    "down",
-    "hold",
-    "long",
-    "need",
-    "power",
-    "turn"
-   ],
-   "at": "2026-10-31T16:13:38.689003+00:00"
-  },
-  {
-   "sig": [
-    "1.1.4",
-    "jepsen",
-    "particledb"
-   ],
-   "at": "2026-10-31T16:14:05.497313+00:00"
-  },
-  {
-   "sig": [
-    "llms",
-    "malware",
-    "much",
-    "rank",
-    "victims",
-    "worth"
-   ],
-   "at": "2026-10-31T16:53:52.269098+00:00"
-  },
   {
    "sig": [
     "books",
@@ -12464,21 +12470,50 @@
     "work"
    ],
    "at": "2026-11-05T11:54:16.335020+00:00"
+  },
+  {
+   "sig": [
+    "alter",
+    "cisco",
+    "could",
+    "database",
+    "eol",
+    "expose",
+    "files",
+    "fix",
+    "flaws",
+    "gms",
+    "patch",
+    "patches",
+    "records",
+    "release",
+    "sonicwall",
+    "watchguard",
+    "won"
+   ],
+   "at": "2026-11-05T12:54:16.140990+00:00"
+  },
+  {
+   "sig": [
+    "10.6p2",
+    "critical",
+    "openssh",
+    "released",
+    "vulnerability",
+    "workaround"
+   ],
+   "at": "2026-11-05T12:54:25.480603+00:00"
+  },
+  {
+   "sig": [
+    "awesome",
+    "longer",
+    "repositories"
+   ],
+   "at": "2026-11-05T12:54:31.483177+00:00"
   }
  ],
  "snapshots": {
-  "hn:50225695": [
-   866,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
-  "hn:50225663": [
-   79,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynzsqt7yg2c": [
-   421,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
   "hn:50226434": [
    176,
    "2026-10-25T10:01:58.670909+00:00"
@@ -14866,6 +14901,18 @@
   "hn:50377078": [
    112,
    "2026-11-05T11:53:51.607078+00:00"
+  ],
+  "hn:50377821": [
+   126,
+   "2026-11-05T12:53:43.461947+00:00"
+  ],
+  "hn:50377221": [
+   125,
+   "2026-11-05T12:53:43.461947+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzkvjfwarc2u": [
+   29,
+   "2026-11-05T12:53:43.461947+00:00"
   ]
  }
 }
