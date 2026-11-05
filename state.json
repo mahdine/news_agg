@@ -2647,18 +2647,26 @@
   "3236346",
   "8b7f86a2efbb51113e7acf0b25494ba4",
   "urn:latent-space:post:post_fd221542-e3ff-41a0-bb96-ef372fda447e",
-  "67c1283825ea22f771891cb93232a7be"
+  "67c1283825ea22f771891cb93232a7be",
+  "3236294",
+  "1c26e06f5eb621f331848b94651f9f7c",
+  "6ad662fb8d7b5cce41c3ed37",
+  "https://yro.slashdot.org/story/26/11/05/052220/3m-to-pay-over-7-billion-to-settle-forever-chemical-groundwater-claims?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.androidpolice.com/samsung-may-bring-massive-6000-mah-battery-popular-galaxy-mid-range-phone/",
+  "dacb2ea6ba747088adbd2cfcfbf7e211",
+  "3ded30328fc75a0721c9fdd295d6641d",
+  "1f2721bfc66f32e6b14fc985590db4b3"
  ],
  "posted": {
   "viral": 525,
-  "editorial": 674
+  "editorial": 679
  },
  "recent_labels": [
-  "The Next Web",
-  "The Hacker News",
-  "Lobsters",
+  "Wired",
+  "Android Police",
   "Hi-Tech Mail",
-  "Latent Space"
+  "Hi-Tech Mail",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8289,33 +8297,44 @@
    "source": "Latent Space",
    "score": 0.20103,
    "at": "2026-11-05T06:54:04.851054+00:00"
+  },
+  {
+   "title": "قانون جدید بریتانیا برای محدودسازی محتوای پورنوگرافی و نگرانی از سانسور گسترده",
+   "url": "https://www.wired.com/story/a-new-uk-ban-sparks-fears-of-unprecedented-sex-censorship/",
+   "source": "Wired",
+   "score": 0.16228,
+   "at": "2026-11-05T07:54:19.976154+00:00"
+  },
+  {
+   "title": "افزایش ظرفیت باتری در گوشی‌های میان‌رده سامسونگ",
+   "url": "https://www.androidpolice.com/samsung-may-bring-massive-6000-mah-battery-popular-galaxy-mid-range-phone/",
+   "source": "Android Police",
+   "score": 0.12199,
+   "at": "2026-11-05T07:54:26.635079+00:00"
+  },
+  {
+   "title": "احتمال فروش بخش گوشی‌های هوشمند Nubia توسط شرکت ZTE",
+   "url": "https://hi-tech.mail.ru/news/159723-zte-obsuzhdaet-prodazhu-biznesa-po-vypusku-smartfonov-nubia/",
+   "source": "Hi-Tech Mail",
+   "score": 0.07669,
+   "at": "2026-11-05T07:54:34.827342+00:00"
+  },
+  {
+   "title": "مدل هوش مصنوعی Claude ساختار سه‌بعدی ذرات پروتئینی ناشناخته را کشف کرد",
+   "url": "https://hi-tech.mail.ru/news/159724-claude-pomog-poluchit-pervuyu-3d-strukturu-vault-podobnoy/",
+   "source": "Hi-Tech Mail",
+   "score": 0.07959,
+   "at": "2026-11-05T07:54:42.247399+00:00"
+  },
+  {
+   "title": "برنامه زمان‌بندی انتشار به‌روزرسانی HyperOS 4 برای گوشی‌های شیائومی",
+   "url": "https://hi-tech.mail.ru/news/159725-xiaomi-zaplanirovala-tri-volny-obnovleniya-do-hyperos-4/",
+   "source": "Hi-Tech Mail",
+   "score": 0.08018,
+   "at": "2026-11-05T07:54:49.638876+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "continues",
-    "established",
-    "gnome",
-    "improving",
-    "process",
-    "rfc"
-   ],
-   "at": "2026-10-31T10:54:02.529262+00:00"
-  },
-  {
-   "sig": [
-    "anthropic",
-    "centre",
-    "data",
-    "debt",
-    "guarantee",
-    "nscale",
-    "nvidia",
-    "talks"
-   ],
-   "at": "2026-10-31T10:54:09.352435+00:00"
-  },
   {
    "sig": [
     "caterpillar",
@@ -12241,6 +12260,33 @@
     "swapping"
    ],
    "at": "2026-11-05T06:54:04.851054+00:00"
+  },
+  {
+   "sig": [
+    "ban",
+    "censorship",
+    "fears",
+    "porn",
+    "sex",
+    "sparks",
+    "unprecedented"
+   ],
+   "at": "2026-11-05T07:54:19.976154+00:00"
+  },
+  {
+   "sig": [
+    "6000mah",
+    "battery",
+    "bring",
+    "galaxy",
+    "massive",
+    "may",
+    "mid-range",
+    "phone",
+    "popular",
+    "samsung"
+   ],
+   "at": "2026-11-05T07:54:26.635079+00:00"
   }
  ],
  "snapshots": {
