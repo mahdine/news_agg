@@ -2748,17 +2748,24 @@
   "3237854",
   "https://www.theverge.com/?p=1027772",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlewrj3y22v",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlfglujbc2k"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlfglujbc2k",
+  "hn:50380268",
+  "hn:50380658",
+  "hn:50381623",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlem6ttsb2c",
+  "hn:50381849",
+  "hn:50382179",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlh5e7ebk2v"
  ],
  "posted": {
-  "viral": 542,
+  "viral": 547,
   "editorial": 704
  },
  "recent_labels": [
+  "Hacker News",
+  "Hacker News",
   "404 Media",
   "Hacker News",
-  "Tom's Hardware",
-  "vc.ru",
   "404 Media"
  ],
  "last_digest": "2026-10-30",
@@ -8719,73 +8726,44 @@
    "source": "404media.co",
    "score": 0.69912,
    "at": "2026-11-05T17:54:22.819906+00:00"
+  },
+  {
+   "title": "بهینه‌سازی خروجی بافر در برنامه‌نویسی برای افزایش سرعت اجرای برنامه‌ها",
+   "url": "https://nullprogram.com/blog/2026/11/05/",
+   "source": "nullprogram.com",
+   "score": 0.01304,
+   "at": "2026-11-05T20:44:22.095238+00:00"
+  },
+  {
+   "title": "الگوهای معماری برای طراحی سیستم‌های چندعامله هوش مصنوعی",
+   "url": "https://kadhar.dev/blog/multi-agent-systems-from-scratch",
+   "source": "kadhar.dev",
+   "score": 0.06226,
+   "at": "2026-11-05T20:44:30.231229+00:00"
+  },
+  {
+   "title": "انتقاد از اولویت‌بندی هوش مصنوعی بر امنیت در شرکت Proton",
+   "url": "https://www.404media.co/podcast-protons-ceo-is-putting-ai-before-security/",
+   "source": "404media.co",
+   "score": 0.01169,
+   "at": "2026-11-05T20:44:36.793409+00:00"
+  },
+  {
+   "title": "مهندسی معکوس اپلیکیشن باشگاه برای حذف بخش شبکه‌های اجتماعی",
+   "url": "https://shayon.work/blog/reverse-engineering-gym-pass",
+   "source": "shayon.work",
+   "score": 0.1385,
+   "at": "2026-11-05T20:44:42.410099+00:00"
+  },
+  {
+   "title": "انتقاد از فضای حاکم بر هوش مصنوعی در پلتفرم X",
+   "url": "https://bsky.app/profile/404media.co/post/3mzlh5e7ebk2v",
+   "source": "404 Media",
+   "score": 0.09077,
+   "at": "2026-11-05T20:44:49.486925+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "asm",
-    "contra",
-    "nes",
-    "port",
-    "show",
-    "webassembly"
-   ],
-   "at": "2026-11-01T01:54:06.287031+00:00"
-  },
-  {
-   "sig": [
-    "built",
-    "hackertube",
-    "recommended",
-    "videos",
-    "youtube"
-   ],
-   "at": "2026-11-01T01:54:30.910012+00:00"
-  },
-  {
-   "sig": [
-    "black",
-    "bugs",
-    "cybersecurity",
-    "experts",
-    "freaking",
-    "hacks",
-    "happens",
-    "next",
-    "october",
-    "other",
-    "php",
-    "php2shell-bl",
-    "series",
-    "unsure",
-    "vulnerabilities",
-    "www.404media.co"
-   ],
-   "at": "2026-11-01T01:55:14.833413+00:00"
-  },
-  {
-   "sig": [
-    "actually",
-    "archive-of-o",
-    "asf",
-    "forget",
-    "halloween",
-    "scary",
-    "www.404media.co"
-   ],
-   "at": "2026-11-01T01:55:23.177027+00:00"
-  },
-  {
-   "sig": [
-    "copyright",
-    "office",
-    "restoring",
-    "something",
-    "work"
-   ],
-   "at": "2026-11-01T02:53:48.296171+00:00"
-  },
   {
    "sig": [
     "latency",
@@ -12721,45 +12699,67 @@
     "which"
    ],
    "at": "2026-11-05T17:54:22.819906+00:00"
+  },
+  {
+   "sig": [
+    "better",
+    "line-buffered",
+    "output"
+   ],
+   "at": "2026-11-05T20:44:22.095238+00:00"
+  },
+  {
+   "sig": [
+    "architecture",
+    "building",
+    "multi-agent",
+    "patterns",
+    "scratch",
+    "system"
+   ],
+   "at": "2026-11-05T20:44:30.231229+00:00"
+  },
+  {
+   "sig": [
+    "ao3",
+    "inside",
+    "outage",
+    "proton",
+    "reckoning",
+    "support",
+    "tech"
+   ],
+   "at": "2026-11-05T20:44:36.793409+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "down",
+    "forced",
+    "gym",
+    "media",
+    "reverse-engineered",
+    "social",
+    "throat"
+   ],
+   "at": "2026-11-05T20:44:42.410099+00:00"
+  },
+  {
+   "sig": [
+    "chamber",
+    "echo",
+    "maga",
+    "mjgault.bsky.social",
+    "ranting",
+    "shhhhhhh",
+    "show",
+    "slop",
+    "twitter"
+   ],
+   "at": "2026-11-05T20:44:49.486925+00:00"
   }
  ],
  "snapshots": {
-  "hn:50231310": [
-   272,
-   "2026-10-25T17:06:44.243094+00:00"
-  ],
-  "lobsters:tbbiqb": [
-   29,
-   "2026-10-25T17:06:44.243094+00:00"
-  ],
-  "hn:50229861": [
-   468,
-   "2026-10-25T19:46:14.518053+00:00"
-  ],
-  "hn:50234474": [
-   166,
-   "2026-10-25T19:46:14.518053+00:00"
-  ],
-  "hn:50234232": [
-   217,
-   "2026-10-25T19:46:14.518053+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mypvg37zje2a": [
-   143,
-   "2026-10-25T19:46:14.518053+00:00"
-  ],
-  "hn:50232312": [
-   254,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
-  "hn:50231001": [
-   200,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
-  "hn:50233929": [
-   657,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
   "hn:50233779": [
    689,
    "2026-10-25T22:40:10.316719+00:00"
@@ -15123,6 +15123,42 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlewrj3y22v": [
    581,
    "2026-11-05T17:53:53.665867+00:00"
+  ],
+  "hn:50382179": [
+   440,
+   "2026-11-05T20:44:04.823831+00:00"
+  ],
+  "hn:50381849": [
+   222,
+   "2026-11-05T20:44:04.823831+00:00"
+  ],
+  "hn:50381623": [
+   348,
+   "2026-11-05T20:44:04.823831+00:00"
+  ],
+  "hn:50381178": [
+   64,
+   "2026-11-05T20:44:04.823831+00:00"
+  ],
+  "hn:50380658": [
+   93,
+   "2026-11-05T20:44:04.823831+00:00"
+  ],
+  "hn:50380268": [
+   75,
+   "2026-11-05T20:44:04.823831+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzllc4rwcz2k": [
+   497,
+   "2026-11-05T20:44:04.823831+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlh5e7ebk2v": [
+   324,
+   "2026-11-05T20:44:04.823831+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlem6ttsb2c": [
+   77,
+   "2026-11-05T20:44:04.823831+00:00"
   ]
  }
 }
