@@ -2681,18 +2681,31 @@
   "https://www.cnews.ru/news/line/2026-11-05_platforma_telfin_integrirovana",
   "https://www.cnews.ru/news/line/2026-11-05_issledovanie_simpleone_bolee",
   "4e58ff5ea99b018207fa23bfeea981f2",
-  "https://www.accessnow.org/?post_type=tribe_events&p=109076"
+  "https://www.accessnow.org/?post_type=tribe_events&p=109076",
+  "https://www.engadget.com/2306802/god-of-war-laufey-is-delayed-until-may-20/",
+  "7e4426867803d46e74d74c0ea4c7d111",
+  "https://www.neowin.net/news/sony-delays-ps5-exclusive-god-of-war-laufey-out-of-february/",
+  "hn:50377078",
+  "https://www.engadget.com/2307194/amazon-teams-with-uber-eats-for-new-prime-perks/",
+  "https://www.theverge.com/?p=1026716",
+  "https://www.techspot.com/news/114452-ai-memory-boom-claims-another-victim-major-nintendo.html",
+  "https://www.engadget.com/2306886/nintendos-main-switch-cartridge-supplier-is-leaving-the-rom-business/",
+  "https://www.neowin.net/news/key-nintendo-switch-cartridge-chip-maker-is-phasing-out-production/",
+  "6aea182d5f9acfda4c7c80b4",
+  "https://www.theverge.com/?p=1027379",
+  "6ad26bec5976120efa9e5d95",
+  "772b10ad572d8d221fbb11e12a13679c"
  ],
  "posted": {
-  "viral": 526,
-  "editorial": 692
+  "viral": 527,
+  "editorial": 695
  },
  "recent_labels": [
-  "Phoronix",
-  "SecurityWeek",
-  "CNews",
-  "CNews",
-  "Access Now"
+  "Access Now",
+  "Hacker News",
+  "TechSpot",
+  "The Verge",
+  "Wired"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8456,57 +8469,37 @@
    "source": "Access Now",
    "score": 0.32164,
    "at": "2026-11-05T10:54:49.232575+00:00"
+  },
+  {
+   "title": "انتشار مدل زبانی ERNIE 5.5 Flash با ۲۸۰ میلیارد پارامتر",
+   "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+   "source": "ernie.baidu.com",
+   "score": 0.28532,
+   "at": "2026-11-05T11:53:57.333565+00:00"
+  },
+  {
+   "title": "خروج شرکت Macronix از بازار تولید تراشه‌های حافظه کنسول‌های بازی",
+   "url": "https://www.techspot.com/news/114452-ai-memory-boom-claims-another-victim-major-nintendo.html",
+   "source": "TechSpot",
+   "score": 0.45725,
+   "at": "2026-11-05T11:54:03.435832+00:00"
+  },
+  {
+   "title": "مهاجرت دیسکورد از Electron به Rust برای کاهش مصرف حافظه",
+   "url": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
+   "source": "The Verge",
+   "score": 0.25981,
+   "at": "2026-11-05T11:54:10.450027+00:00"
+  },
+  {
+   "title": "تلاش شرکت‌های بزرگ هوش مصنوعی برای همکاری با منتقد سرشناس",
+   "url": "https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/",
+   "source": "Wired",
+   "score": 0.27936,
+   "at": "2026-11-05T11:54:16.335020+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "fork",
-    "molly",
-    "months",
-    "signal",
-    "since",
-    "updated",
-    "vulnerable"
-   ],
-   "at": "2026-10-31T14:53:44.153765+00:00"
-  },
-  {
-   "sig": [
-    "age",
-    "civilized",
-    "coding",
-    "harness",
-    "prospero"
-   ],
-   "at": "2026-10-31T14:53:55.080381+00:00"
-  },
-  {
-   "sig": [
-    "access",
-    "anthropic",
-    "details",
-    "employee",
-    "gains",
-    "hacks",
-    "internal",
-    "messages",
-    "startup"
-   ],
-   "at": "2026-10-31T14:54:20.964192+00:00"
-  },
-  {
-   "sig": [
-    "apps",
-    "developing",
-    "linux",
-    "mint",
-    "monitoring",
-    "system",
-    "terminal"
-   ],
-   "at": "2026-10-31T14:54:52.724213+00:00"
-  },
   {
    "sig": [
     "button",
@@ -12413,13 +12406,67 @@
     "surveil"
    ],
    "at": "2026-11-05T10:54:49.232575+00:00"
+  },
+  {
+   "sig": [
+    "5.5",
+    "baidu",
+    "base",
+    "ernie",
+    "flash",
+    "released"
+   ],
+   "at": "2026-11-05T11:53:57.333565+00:00"
+  },
+  {
+   "sig": [
+    "another",
+    "boom",
+    "business",
+    "cartridge",
+    "chip",
+    "claims",
+    "exits",
+    "key",
+    "leaving",
+    "main",
+    "major",
+    "maker",
+    "memory",
+    "nintendo",
+    "phasing",
+    "production",
+    "rom",
+    "supplier",
+    "switch",
+    "victim"
+   ],
+   "at": "2026-11-05T11:54:03.435832+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "discord",
+    "ditching",
+    "electron",
+    "less",
+    "ram"
+   ],
+   "at": "2026-11-05T11:54:10.450027+00:00"
+  },
+  {
+   "sig": [
+    "him",
+    "labs",
+    "living",
+    "trolls",
+    "want",
+    "work"
+   ],
+   "at": "2026-11-05T11:54:16.335020+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynnajwlvy2n": [
-   603,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
   "hn:50225695": [
    866,
    "2026-10-25T06:47:52.304550+00:00"
@@ -14815,6 +14862,10 @@
   "hn:50372294": [
    133,
    "2026-11-05T09:54:15.337776+00:00"
+  ],
+  "hn:50377078": [
+   112,
+   "2026-11-05T11:53:51.607078+00:00"
   ]
  }
 }
