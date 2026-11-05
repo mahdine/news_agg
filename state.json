@@ -2663,18 +2663,27 @@
   "https://www.cnews.ru/news/line/2026-11-05_okdesk_pomogaet_punkt_e_masshtabirovat",
   "https://www.cnews.ru/news/line/2026-11-05_podtverzhdena_sovmestimost",
   "https://www.neowin.net/news/microsoft-releases-major-intelligent-terminal-update-to-improve-multitasking/",
-  "https://www.cnews.ru/news/line/2026-11-05_sberprajm_i_litres_otkryvayut"
+  "https://www.cnews.ru/news/line/2026-11-05_sberprajm_i_litres_otkryvayut",
+  "https://9to5mac.com/?p=1077469",
+  "5b5dfe9d497c5e14991004c03d0fd53d",
+  "hn:50372294",
+  "hn:50375728",
+  "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+  "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+  "https://9to5mac.com/?p=1077416",
+  "https://www.engadget.com/2307531/sony-earnings-report-2026-selling-more-ps5-games-console-demand/",
+  "fc552290dd1242d9ead7dcf5a41ac8a5"
  ],
  "posted": {
-  "viral": 525,
-  "editorial": 683
+  "viral": 526,
+  "editorial": 687
  },
  "recent_labels": [
-  "Hi-Tech Mail",
-  "CNews",
-  "CNews",
-  "CNews",
-  "Neowin"
+  "9to5Mac",
+  "Hacker News",
+  "The Hacker News",
+  "The Hacker News",
+  "Engadget"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8368,78 +8377,44 @@
    "source": "Neowin",
    "score": 0.1841,
    "at": "2026-11-05T08:57:44.799424+00:00"
+  },
+  {
+   "title": "تداوم استفاده از Dynamic Island در طراحی آیفون‌های آینده",
+   "url": "https://9to5mac.com/2026/11/04/next-years-iphone-pro-redesign-gets-new-update-from-leaker/",
+   "source": "9to5Mac",
+   "score": 0.4131,
+   "at": "2026-11-05T09:54:17.674189+00:00"
+  },
+  {
+   "title": "نشت ترافیک شبکه کاخ سفید از طریق سرویس‌های پروکسی مسکونی",
+   "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+   "source": "krebsonsecurity.com",
+   "score": 0.16613,
+   "at": "2026-11-05T09:54:39.980150+00:00"
+  },
+  {
+   "title": "حملات سایبری با ابزارهای هوش مصنوعی و نفوذ به کنسول‌های ARTEX",
+   "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+   "source": "The Hacker News",
+   "score": 0.14402,
+   "at": "2026-11-05T09:54:45.804263+00:00"
+  },
+  {
+   "title": "اسکن محتوای اشتراکی iCloud توسط اپل برای شناسایی موارد مخرب",
+   "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+   "source": "The Hacker News",
+   "score": 0.34339,
+   "at": "2026-11-05T09:54:51.833953+00:00"
+  },
+  {
+   "title": "افزایش سود سونی با وجود چالش در تامین کنسول PS5",
+   "url": "https://www.engadget.com/2307531/sony-earnings-report-2026-selling-more-ps5-games-console-demand/",
+   "source": "Engadget",
+   "score": 0.41311,
+   "at": "2026-11-05T09:54:57.450173+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "built",
-    "galaxy",
-    "own",
-    "pause",
-    "phone",
-    "point",
-    "run",
-    "still",
-    "tools",
-    "version"
-   ],
-   "at": "2026-10-31T10:59:42.216470+00:00"
-  },
-  {
-   "sig": [
-    "businesses",
-    "could",
-    "hasn",
-    "kinds",
-    "meta",
-    "muse",
-    "upend",
-    "yet"
-   ],
-   "at": "2026-10-31T10:59:48.290534+00:00"
-  },
-  {
-   "sig": [
-    "anthropic",
-    "controls",
-    "google",
-    "joins",
-    "openai",
-    "promising",
-    "scraping"
-   ],
-   "at": "2026-10-31T11:00:02.516122+00:00"
-  },
-  {
-   "sig": [
-    "anthropic",
-    "backdoored",
-    "breach",
-    "claude",
-    "code",
-    "cursor",
-    "denies",
-    "extension",
-    "hits",
-    "hours",
-    "nearly",
-    "tampered",
-    "users"
-   ],
-   "at": "2026-10-31T11:53:40.882295+00:00"
-  },
-  {
-   "sig": [
-    "6.9",
-    "kde",
-    "lands",
-    "optimizations",
-    "performance",
-    "plasma"
-   ],
-   "at": "2026-10-31T11:53:49.329493+00:00"
-  },
   {
    "sig": [
     "3d-printed",
@@ -12318,17 +12293,84 @@
     "update"
    ],
    "at": "2026-11-05T08:57:44.799424+00:00"
+  },
+  {
+   "sig": [
+    "iphone",
+    "leaker",
+    "max",
+    "next",
+    "pro",
+    "redesign",
+    "update",
+    "year"
+   ],
+   "at": "2026-11-05T09:54:17.674189+00:00"
+  },
+  {
+   "sig": [
+    "address",
+    "house",
+    "internet",
+    "rent",
+    "want",
+    "white"
+   ],
+   "at": "2026-11-05T09:54:39.980150+00:00"
+  },
+  {
+   "sig": [
+    "access",
+    "ai-driven",
+    "artex",
+    "attacks",
+    "backdoored",
+    "cert-in",
+    "consoles",
+    "exposes",
+    "flags",
+    "root"
+   ],
+   "at": "2026-11-05T09:54:45.804263+00:00"
+  },
+  {
+   "sig": [
+    "27.3",
+    "apple",
+    "checking",
+    "content",
+    "files",
+    "harmful",
+    "icloud",
+    "ios",
+    "links",
+    "photos",
+    "public",
+    "publicly",
+    "scanning",
+    "shared",
+    "start"
+   ],
+   "at": "2026-11-05T09:54:51.833953+00:00"
+  },
+  {
+   "sig": [
+    "console",
+    "demand",
+    "games",
+    "marvel",
+    "meet",
+    "ps5",
+    "selling",
+    "sony",
+    "still",
+    "struggling",
+    "wolverine"
+   ],
+   "at": "2026-11-05T09:54:57.450173+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mynjzpbars2g": [
-   31,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
-  "hn:50224422": [
-   372,
-   "2026-10-25T06:47:52.304550+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynnajwlvy2n": [
    603,
    "2026-10-25T06:47:52.304550+00:00"
@@ -14720,6 +14762,14 @@
   "lobsters:jplxxr": [
    25,
    "2026-11-05T06:53:43.906070+00:00"
+  ],
+  "hn:50375728": [
+   86,
+   "2026-11-05T09:54:15.337776+00:00"
+  ],
+  "hn:50372294": [
+   133,
+   "2026-11-05T09:54:15.337776+00:00"
   ]
  }
 }
