@@ -2672,18 +2672,27 @@
   "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
   "https://9to5mac.com/?p=1077416",
   "https://www.engadget.com/2307531/sony-earnings-report-2026-selling-more-ps5-games-console-demand/",
-  "fc552290dd1242d9ead7dcf5a41ac8a5"
+  "fc552290dd1242d9ead7dcf5a41ac8a5",
+  "https://www.techspot.com/news/114437-microsoft-giving-away-25-xbox-games-worth-over.html",
+  "392b5ff69b49767fa1e398b938507103",
+  "6aeb99b5079f98228327c10a",
+  "https://www.phoronix.com/news/Lemonade-2026.45.3",
+  "https://www.securityweek.com/?p=50549",
+  "https://www.cnews.ru/news/line/2026-11-05_platforma_telfin_integrirovana",
+  "https://www.cnews.ru/news/line/2026-11-05_issledovanie_simpleone_bolee",
+  "4e58ff5ea99b018207fa23bfeea981f2",
+  "https://www.accessnow.org/?post_type=tribe_events&p=109076"
  ],
  "posted": {
   "viral": 526,
-  "editorial": 687
+  "editorial": 692
  },
  "recent_labels": [
-  "9to5Mac",
-  "Hacker News",
-  "The Hacker News",
-  "The Hacker News",
-  "Engadget"
+  "Phoronix",
+  "SecurityWeek",
+  "CNews",
+  "CNews",
+  "Access Now"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8412,50 +8421,44 @@
    "source": "Engadget",
    "score": 0.41311,
    "at": "2026-11-05T09:54:57.450173+00:00"
+  },
+  {
+   "title": "عرضه‌ی نسخه‌ی جدید سرور هوش مصنوعی محلی Lemonade با رابط کاربری بازطراحی‌شده",
+   "url": "https://www.phoronix.com/news/Lemonade-2026.45.3",
+   "source": "Phoronix",
+   "score": 0.21525,
+   "at": "2026-11-05T10:53:44.446416+00:00"
+  },
+  {
+   "title": "حمله سایبری گسترده به دستگاه‌های اندرویدی و آیفون با زنجیره اکسپلویت",
+   "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
+   "source": "SecurityWeek",
+   "score": 0.23712,
+   "at": "2026-11-05T10:53:50.113468+00:00"
+  },
+  {
+   "title": "ادغام پلتفرم ارتباطی Telfin با سیستم مدیریت Tavroo",
+   "url": "https://www.cnews.ru/news/line/2026-11-05_platforma_telfin_integrirovana",
+   "source": "CNews",
+   "score": 0.21414,
+   "at": "2026-11-05T10:54:21.955555+00:00"
+  },
+  {
+   "title": "چالش‌های استفاده از هوش مصنوعی در فرآیندهای توسعه نرم‌افزار",
+   "url": "https://www.cnews.ru/news/line/2026-11-05_issledovanie_simpleone_bolee",
+   "source": "CNews",
+   "score": 0.21414,
+   "at": "2026-11-05T10:54:33.144771+00:00"
+  },
+  {
+   "title": "رونمایی از ابزار تعاملی برای افشای زیرساخت‌های نظارتی اتحادیه اروپا",
+   "url": "https://www.accessnow.org/event/digital-borders-exposed/",
+   "source": "Access Now",
+   "score": 0.32164,
+   "at": "2026-11-05T10:54:49.232575+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "3d-printed",
-    "ghost",
-    "guns",
-    "may",
-    "source",
-    "traced",
-    "way"
-   ],
-   "at": "2026-10-31T11:53:56.785465+00:00"
-  },
-  {
-   "sig": [
-    "4-kw",
-    "air",
-    "bench",
-    "conditioner",
-    "cool",
-    "modder",
-    "radiator",
-    "see",
-    "test",
-    "trash",
-    "well"
-   ],
-   "at": "2026-10-31T11:54:06.474268+00:00"
-  },
-  {
-   "sig": [
-    "automatically",
-    "camera",
-    "identify",
-    "screwdriver",
-    "screws",
-    "set",
-    "smart",
-    "torque"
-   ],
-   "at": "2026-10-31T11:54:54.279679+00:00"
-  },
   {
    "sig": [
     "fork",
@@ -12368,6 +12371,48 @@
     "wolverine"
    ],
    "at": "2026-11-05T09:54:57.450173+00:00"
+  },
+  {
+   "sig": [
+    "amd-backed",
+    "app",
+    "desktop",
+    "lemonade",
+    "local",
+    "redesigned",
+    "server",
+    "ships",
+    "web"
+   ],
+   "at": "2026-11-05T10:53:44.446416+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "chains",
+    "devices",
+    "exploit",
+    "hackers",
+    "hit",
+    "holes",
+    "ios",
+    "russia-linked",
+    "via",
+    "watering"
+   ],
+   "at": "2026-11-05T10:53:50.113468+00:00"
+  },
+  {
+   "sig": [
+    "borders",
+    "digital",
+    "exposed",
+    "launch",
+    "online",
+    "protect",
+    "surveil"
+   ],
+   "at": "2026-11-05T10:54:49.232575+00:00"
   }
  ],
  "snapshots": {
