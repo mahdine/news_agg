@@ -2755,18 +2755,26 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlem6ttsb2c",
   "hn:50381849",
   "hn:50382179",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlh5e7ebk2v"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlh5e7ebk2v",
+  "lobsters:yoywed",
+  "hn:50382594",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzllc4rwcz2k",
+  "hn:50383163",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlryozt6k2s",
+  "hn:50384822",
+  "hn:50385272",
+  "hn:50385870"
  ],
  "posted": {
-  "viral": 547,
+  "viral": 551,
   "editorial": 704
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
+  "404 Media",
+  "Lobsters",
   "404 Media",
   "Hacker News",
-  "404 Media"
+  "Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8761,53 +8769,37 @@
    "source": "404 Media",
    "score": 0.09077,
    "at": "2026-11-05T20:44:49.486925+00:00"
+  },
+  {
+   "title": "استخدام متخصص برای رفع باگ‌های پیچیده در استارتاپ AI-native",
+   "url": "https://lovro-bikic.github.io/software-line-specialist/",
+   "source": "lovro-bikic.github.io",
+   "score": 0.0435,
+   "at": "2026-11-06T01:53:40.329103+00:00"
+  },
+  {
+   "title": "عقب‌نشینی متا از تغییر شرایط استفاده برای آموزش هوش مصنوعی",
+   "url": "https://www.404media.co/meta-generative-ai-commercial-terms-on-pause/",
+   "source": "404media.co",
+   "score": 0.0149,
+   "at": "2026-11-06T01:53:49.000756+00:00"
+  },
+  {
+   "title": "نشت ایمیل کاربران توسط ابزار Claude Code در درخواست‌های وب",
+   "url": "https://github.com/anthropics/claude-code/issues/107757",
+   "source": "github.com",
+   "score": 0.06112,
+   "at": "2026-11-06T01:53:56.454954+00:00"
+  },
+  {
+   "title": "تبلیغات کلاهبرداری با دیپ‌فیک در پلتفرم‌های Meta",
+   "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+   "source": "finance.yahoo.com",
+   "score": 0.04971,
+   "at": "2026-11-06T01:54:02.871319+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "latency",
-    "memory",
-    "stupid"
-   ],
-   "at": "2026-11-01T02:53:54.387260+00:00"
-  },
-  {
-   "sig": [
-    "anthropic",
-    "block",
-    "claude",
-    "games",
-    "reverse-engineering",
-    "steps",
-    "takes",
-    "video"
-   ],
-   "at": "2026-11-01T02:54:23.291800+00:00"
-  },
-  {
-   "sig": [
-    "beats",
-    "fable",
-    "hard",
-    "livecodebench",
-    "memdoor",
-    "models",
-    "qwen3.8-27b",
-    "team"
-   ],
-   "at": "2026-11-01T02:54:31.182843+00:00"
-  },
-  {
-   "sig": [
-    "brief",
-    "downtime",
-    "expected",
-    "server",
-    "tonight"
-   ],
-   "at": "2026-11-01T02:54:42.313735+00:00"
-  },
   {
    "sig": [
     "anthropic",
@@ -12757,61 +12749,52 @@
     "twitter"
    ],
    "at": "2026-11-05T20:44:49.486925+00:00"
+  },
+  {
+   "sig": [
+    "line",
+    "software",
+    "specialist"
+   ],
+   "at": "2026-11-06T01:53:40.329103+00:00"
+  },
+  {
+   "sig": [
+    "back",
+    "board",
+    "drawing"
+   ],
+   "at": "2026-11-06T01:53:49.000756+00:00"
+  },
+  {
+   "sig": [
+    "address",
+    "claude",
+    "code",
+    "email",
+    "sends",
+    "websites"
+   ],
+   "at": "2026-11-06T01:53:56.454954+00:00"
+  },
+  {
+   "sig": [
+    "16b",
+    "ads",
+    "cuban",
+    "deepfake",
+    "docs",
+    "facebook",
+    "fraud",
+    "knowingly",
+    "revenue",
+    "runs",
+    "scam"
+   ],
+   "at": "2026-11-06T01:54:02.871319+00:00"
   }
  ],
  "snapshots": {
-  "hn:50233779": [
-   689,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
-  "hn:50233304": [
-   673,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
-  "hn:50232682": [
-   268,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
-  "hn:50232035": [
-   154,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
-  "hn:50231349": [
-   132,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
-  "hn:50231166": [
-   164,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
-  "hn:50236081": [
-   170,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
-  "hn:50235217": [
-   179,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
-  "hn:50234329": [
-   113,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myq7h4kdcd2k": [
-   102,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myq4rdkkmc2e": [
-   8,
-   "2026-10-25T22:40:10.316719+00:00"
-  ],
-  "hn:50239027": [
-   200,
-   "2026-10-26T08:51:46.514272+00:00"
-  ],
-  "hn:50238884": [
-   201,
-   "2026-10-26T08:51:46.514272+00:00"
-  ],
   "hn:50238763": [
    188,
    "2026-10-26T08:51:46.514272+00:00"
@@ -15136,20 +15119,12 @@
    348,
    "2026-11-05T20:44:04.823831+00:00"
   ],
-  "hn:50381178": [
-   64,
-   "2026-11-05T20:44:04.823831+00:00"
-  ],
   "hn:50380658": [
    93,
    "2026-11-05T20:44:04.823831+00:00"
   ],
   "hn:50380268": [
    75,
-   "2026-11-05T20:44:04.823831+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzllc4rwcz2k": [
-   497,
    "2026-11-05T20:44:04.823831+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlh5e7ebk2v": [
@@ -15159,6 +15134,66 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlem6ttsb2c": [
    77,
    "2026-11-05T20:44:04.823831+00:00"
+  ],
+  "hn:50381178": [
+   76,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzllc4rwcz2k": [
+   744,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "hn:50385870": [
+   159,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "hn:50385272": [
+   847,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "hn:50384822": [
+   352,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "hn:50384233": [
+   531,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "hn:50384133": [
+   216,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "hn:50383963": [
+   86,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "hn:50383163": [
+   224,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "hn:50382594": [
+   77,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "hn:50381687": [
+   157,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "hn:50380979": [
+   107,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "hn:50380704": [
+   99,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "lobsters:yoywed": [
+   44,
+   "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlryozt6k2s": [
+   802,
+   "2026-11-06T01:53:38.127058+00:00"
   ]
  }
 }
