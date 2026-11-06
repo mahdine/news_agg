@@ -2801,18 +2801,24 @@
   "https://www.cnews.ru/news/line/2026-11-06_set_4g_stala_bystree_v_krutinke",
   "https://www.cnews.ru/news/line/2026-11-06_peremenykotorye_vazhny_rostelekom",
   "https://www.cnews.ru/news/line/2026-11-06_mts_prokachala_lte_v_samom_molodom",
-  "https://www.cnews.ru/news/line/2026-11-06_mts_dobavila_lte_v_smolenshchine"
+  "https://www.cnews.ru/news/line/2026-11-06_mts_dobavila_lte_v_smolenshchine",
+  "https://9to5mac.com/?p=1077693",
+  "https://www.neowin.net/news/ipad-shipments-drop-significantly-in-q3-2026-market-share-declines-too/",
+  "hn:50387546",
+  "hn:50387738",
+  "a94d1ab598f0cdcb85735d2be25c8d8f",
+  "https://techcrunch.com/?p=3185713"
  ],
  "posted": {
-  "viral": 556,
-  "editorial": 713
+  "viral": 558,
+  "editorial": 716
  },
  "recent_labels": [
-  "Google AI",
-  "Android Police",
-  "The Register",
-  "CNews",
-  "CNews"
+  "9to5Mac",
+  "Hacker News",
+  "Hacker News",
+  "Hi-Tech Mail",
+  "TechCrunch AI"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8933,61 +8939,44 @@
    "source": "CNews",
    "score": 0.09522,
    "at": "2026-11-06T05:54:48.195512+00:00"
+  },
+  {
+   "title": "کاهش چشمگیر عرضه تبلت‌های اپل در بازار جهانی",
+   "url": "https://9to5mac.com/2026/11/05/report-ipad-shipments-drop-27-5-as-global-tablet-market-plunges-in-q3/",
+   "source": "9to5Mac",
+   "score": 0.36225,
+   "at": "2026-11-06T06:53:43.307083+00:00"
+  },
+  {
+   "title": "سلطه‌ی مدل‌های هوش مصنوعی بسته بر بازار مدل‌های اقتصادی",
+   "url": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
+   "source": "village.dev",
+   "score": 0.17702,
+   "at": "2026-11-06T06:53:49.808370+00:00"
+  },
+  {
+   "title": "معرفی موتور مدیریت کلاستر‌های کوبرنتیز NVIDIA برای زیرساخت‌های GPU",
+   "url": "https://github.com/dsx-ai-factory/nvke",
+   "source": "github.com",
+   "score": 0.04406,
+   "at": "2026-11-06T06:53:58.662450+00:00"
+  },
+  {
+   "title": "عرضه‌ی اپلیکیشن اختصاصی TikTok Shop برای رقابت با بازارهای آنلاین",
+   "url": "https://hi-tech.mail.ru/news/159842-tiktok-shop-otdelnoe-prilozhenie/",
+   "source": "Hi-Tech Mail",
+   "score": 0.15904,
+   "at": "2026-11-06T06:54:16.215025+00:00"
+  },
+  {
+   "title": "خرید استارتاپ Clutch توسط Palo Alto Networks برای تقویت امنیت هوش مصنوعی",
+   "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+   "source": "TechCrunch AI",
+   "score": 0.21231,
+   "at": "2026-11-06T06:54:23.421322+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "big",
-    "buybacks",
-    "cash",
-    "eats",
-    "fall",
-    "reports",
-    "reuters",
-    "spending",
-    "tech"
-   ],
-   "at": "2026-11-01T05:55:38.206020+00:00"
-  },
-  {
-   "sig": [
-    "brazilian",
-    "court",
-    "filing",
-    "injection",
-    "lawyers",
-    "prompt",
-    "sanctions"
-   ],
-   "at": "2026-11-01T05:55:46.009703+00:00"
-  },
-  {
-   "sig": [
-    "air-gap",
-    "computers",
-    "leaking",
-    "radio",
-    "ram",
-    "secrets",
-    "signals",
-    "spelling"
-   ],
-   "at": "2026-11-01T06:53:49.009103+00:00"
-  },
-  {
-   "sig": [
-    "aws",
-    "express",
-    "file",
-    "mover",
-    "open-source",
-    "releases",
-    "tool",
-    "transfers"
-   ],
-   "at": "2026-11-01T06:54:09.709287+00:00"
-  },
   {
    "sig": [
     "big",
@@ -12902,17 +12891,61 @@
     "website"
    ],
    "at": "2026-11-06T05:54:08.803727+00:00"
+  },
+  {
+   "sig": [
+    "27.5",
+    "declines",
+    "drop",
+    "global",
+    "ipad",
+    "market",
+    "plunges",
+    "report",
+    "share",
+    "shipments",
+    "significantly",
+    "tablet",
+    "too"
+   ],
+   "at": "2026-11-06T06:53:43.307083+00:00"
+  },
+  {
+   "sig": [
+    "closed",
+    "dominate",
+    "frontier",
+    "models",
+    "price-performance"
+   ],
+   "at": "2026-11-06T06:53:49.808370+00:00"
+  },
+  {
+   "sig": [
+    "engine",
+    "kubernetes",
+    "nvidia",
+    "nvke"
+   ],
+   "at": "2026-11-06T06:53:58.662450+00:00"
+  },
+  {
+   "sig": [
+    "500m",
+    "agent",
+    "alto",
+    "buy",
+    "clutch",
+    "networks",
+    "palo",
+    "security",
+    "startup",
+    "talks"
+   ],
+   "at": "2026-11-06T06:54:23.421322+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:hzrmwz": [
-   36,
-   "2026-10-26T08:53:44.494083+00:00"
-  ],
-  "lobsters:x1s5oq": [
-   32,
-   "2026-10-26T08:53:44.494083+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myql4ogqth2n": [
    502,
    "2026-10-26T08:53:44.494083+00:00"
@@ -15297,13 +15330,21 @@
    135,
    "2026-11-06T04:54:15.290651+00:00"
   ],
-  "hn:50386597": [
-   247,
-   "2026-11-06T05:53:49.376570+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzmgq73aks24": [
    5,
    "2026-11-06T05:53:49.376570+00:00"
+  ],
+  "hn:50386597": [
+   253,
+   "2026-11-06T06:53:38.864781+00:00"
+  ],
+  "hn:50387738": [
+   87,
+   "2026-11-06T06:53:38.864781+00:00"
+  ],
+  "hn:50387546": [
+   140,
+   "2026-11-06T06:53:38.864781+00:00"
   ]
  }
 }
