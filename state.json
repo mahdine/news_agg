@@ -2865,18 +2865,28 @@
   "https://techcrunch.com/?p=3185667",
   "EePpQjXaUq2JkjrvFGC4HS",
   "https://www.androidpolice.com/i-thought-my-battery-was-failing-until-i-adjusted-these-memory-settings-in-chrome/",
-  "https://techcrunch.com/?p=3185376"
+  "https://techcrunch.com/?p=3185376",
+  "hn:50389260",
+  "https://www.engadget.com/2308875/tesla-is-winding-down-cybertruck-production-at-its-texas-gigafactory/",
+  "hn:50391456",
+  "https://www.theverge.com/?p=1028542",
+  "9Fo8gjvJa5eAiEZGb69DGi",
+  "https://www.theregister.com/a/5308097",
+  "JBTYPcu4RRmpTk8NnxoLUe",
+  "https://www.techspot.com/news/114472-ea-brings-wing-commander-ultima-steam-cutscenes-restored.html",
+  "3239814",
+  "Wi3PGqjqn7yU6YrREa9TJA"
  ],
  "posted": {
-  "viral": 564,
-  "editorial": 738
+  "viral": 565,
+  "editorial": 742
  },
  "recent_labels": [
-  "The Verge",
-  "Hi-Tech Mail",
-  "TechCrunch AI",
-  "Android Police",
-  "TechCrunch AI"
+  "Hacker News",
+  "The Register",
+  "Tom's Hardware",
+  "vc.ru",
+  "TechRadar"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -9228,70 +9238,44 @@
    "source": "TechCrunch AI",
    "score": 0.2859,
    "at": "2026-11-06T13:03:38.271232+00:00"
+  },
+  {
+   "title": "شناسایی چندین آسیب‌پذیری امنیتی در اپلیکیشن‌های Tata Motors",
+   "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537",
+   "source": "cert-in.org.in",
+   "score": 0.06971,
+   "at": "2026-11-06T13:56:26.782771+00:00"
+  },
+  {
+   "title": "نقص امنیتی در DigiCert و افشای اطلاعات مشتریان طی ۱۶ ماه",
+   "url": "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097",
+   "source": "The Register",
+   "score": 0.18079,
+   "at": "2026-11-06T13:56:33.299969+00:00"
+  },
+  {
+   "title": "سرقت محموله ۱۱.۴ میلیون دلاری پردازنده‌های گرافیکی Nvidia در کالیفرنیا",
+   "url": "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears",
+   "source": "Tom's Hardware",
+   "score": 0.21676,
+   "at": "2026-11-06T13:56:39.138161+00:00"
+  },
+  {
+   "title": "آغاز معاملات رسمی ارزهای دیجیتال در صرافی‌های روسیه از نوامبر ۲۰۲۶",
+   "url": "https://vc.ru/crypto/3239814-cb-razreshit-rossiiskim-birzham-torgovat-bitkoinom-ethereum-i-usdt-s-17-noyabrya-2026-goda?from=rss",
+   "source": "vc.ru",
+   "score": 0.19911,
+   "at": "2026-11-06T13:56:48.234124+00:00"
+  },
+  {
+   "title": "چرا قیمت کنسول‌های بازی برخلاف گذشته با گذشت زمان افزایش می‌یابد",
+   "url": "https://www.techradar.com/gaming/consoles-used-to-get-cheaper-with-age-so-why-are-ps5-xbox-and-switch-2-going-the-other-way-heres-what-four-industry-analysts-think-about-the-current-console-landscape",
+   "source": "TechRadar",
+   "score": 0.20281,
+   "at": "2026-11-06T13:56:54.046065+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "app",
-    "camera",
-    "color",
-    "director",
-    "explains",
-    "hollywood",
-    "iphone",
-    "knives",
-    "launches",
-    "like",
-    "movies",
-    "nerd",
-    "shoots",
-    "shot",
-    "viral"
-   ],
-   "at": "2026-11-01T12:53:51.989599+00:00"
-  },
-  {
-   "sig": [
-    "anyone",
-    "drive",
-    "editor",
-    "free",
-    "google",
-    "inside",
-    "there",
-    "video"
-   ],
-   "at": "2026-11-01T12:53:57.894560+00:00"
-  },
-  {
-   "sig": [
-    "bloomberg",
-    "dome",
-    "golden",
-    "google",
-    "join",
-    "programme",
-    "reports",
-    "talks",
-    "trump"
-   ],
-   "at": "2026-11-01T12:54:05.456558+00:00"
-  },
-  {
-   "sig": [
-    "card",
-    "case",
-    "drive",
-    "encrypted",
-    "fancy",
-    "fingerprint",
-    "lenovo",
-    "unencrypted",
-    "usb"
-   ],
-   "at": "2026-11-01T15:53:48.237816+00:00"
-  },
   {
    "sig": [
     "android",
@@ -13190,17 +13174,72 @@
     "underdog"
    ],
    "at": "2026-11-06T13:03:38.271232+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "credentials",
+    "hardcoded",
+    "issues",
+    "motors",
+    "other",
+    "tata"
+   ],
+   "at": "2026-11-06T13:56:26.782771+00:00"
+  },
+  {
+   "sig": [
+    "16-month",
+    "admits",
+    "customer",
+    "digicert",
+    "exposed",
+    "information",
+    "lapse",
+    "security"
+   ],
+   "at": "2026-11-06T13:56:33.299969+00:00"
+  },
+  {
+   "sig": [
+    "11.4",
+    "california",
+    "cargo",
+    "gpus",
+    "heist",
+    "million",
+    "nvidia",
+    "pallets",
+    "six",
+    "stolen",
+    "worth"
+   ],
+   "at": "2026-11-06T13:56:39.138161+00:00"
+  },
+  {
+   "sig": [
+    "age",
+    "analysts",
+    "cheaper",
+    "console",
+    "consoles",
+    "current",
+    "four",
+    "going",
+    "here",
+    "industry",
+    "landscape",
+    "other",
+    "ps5",
+    "switch",
+    "think",
+    "way",
+    "xbox"
+   ],
+   "at": "2026-11-06T13:56:54.046065+00:00"
   }
  ],
  "snapshots": {
-  "hn:50242734": [
-   214,
-   "2026-10-26T13:53:43.540512+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myrqbfixqk2h": [
-   106,
-   "2026-10-26T13:53:43.540512+00:00"
-  ],
   "hn:50242870": [
    69,
    "2026-10-26T14:53:46.035553+00:00"
@@ -15592,6 +15631,14 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzngbjtq4c2n": [
    5,
    "2026-11-06T13:03:01.806168+00:00"
+  ],
+  "hn:50391456": [
+   232,
+   "2026-11-06T13:53:39.881896+00:00"
+  ],
+  "hn:50389260": [
+   70,
+   "2026-11-06T13:53:39.881896+00:00"
   ]
  }
 }
