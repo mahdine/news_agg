@@ -2771,18 +2771,27 @@
   "hn:50384133",
   "hn:50384233",
   "https://techcrunch.com/?p=3185656",
-  "https://www.theverge.com/?p=1028412"
+  "https://www.theverge.com/?p=1028412",
+  "lobsters:x2hcss",
+  "https://www.engadget.com/2308647/blue-origin-new-glenn-launch-delay-will-continue-into-2027/",
+  "https://www.theverge.com/?p=1028178",
+  "TheNextWeb=0f07273dd8320476e08de85c4e1e512c",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzmgo5mjcs24",
+  "https://news.slashdot.org/story/26/11/05/2236227/the-great-pacific-garbage-patch-is-changing-the-color-of-the-ocean?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.neowin.net/news/whatsapp-now-lets-you-invite-people-who-dont-use-whatsapp-to-events/",
+  "https://www.cnews.ru/news/line/2026-11-06_aktiv_i_takskom_obespechili",
+  "Fcxo6MkAhtSXznZQGykCZ9"
  ],
  "posted": {
-  "viral": 555,
-  "editorial": 705
+  "viral": 556,
+  "editorial": 707
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "TechCrunch AI"
+  "TechCrunch AI",
+  "Lobsters",
+  "Neowin",
+  "CNews"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8840,48 +8849,30 @@
    "source": "TechCrunch AI",
    "score": 0.15494,
    "at": "2026-11-06T02:54:23.720050+00:00"
+  },
+  {
+   "title": "کشف حفره امنیتی در SourceHut که امکان دور زدن ثبت‌نام را فراهم می‌کرد",
+   "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
+   "source": "blog.arusekk.pl",
+   "score": 0.03863,
+   "at": "2026-11-06T03:53:53.948825+00:00"
+  },
+  {
+   "title": "واتس‌اپ امکان دعوت افراد خارج از لیست مخاطبین به رویدادها را فراهم کرد",
+   "url": "https://www.neowin.net/news/whatsapp-now-lets-you-invite-people-who-dont-use-whatsapp-to-events/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.16199,
+   "at": "2026-11-06T03:54:40.045332+00:00"
+  },
+  {
+   "title": "امضای الکترونیک اسناد حمل‌ونقل با استفاده از Rutoken NFC",
+   "url": "https://www.cnews.ru/news/line/2026-11-06_aktiv_i_takskom_obespechili",
+   "source": "CNews",
+   "score": 0.21394,
+   "at": "2026-11-06T03:55:26.289345+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "4.1",
-    "arm64",
-    "auto-optimize",
-    "automation",
-    "builds",
-    "cli",
-    "linux",
-    "openshot",
-    "released"
-   ],
-   "at": "2026-11-01T04:55:04.794288+00:00"
-  },
-  {
-   "sig": [
-    "because",
-    "big",
-    "chatgpt",
-    "contact",
-    "customer",
-    "essentially",
-    "experiencing",
-    "human",
-    "impossible",
-    "many",
-    "people",
-    "platforms",
-    "problems",
-    "run-of-the-mill",
-    "support",
-    "tech",
-    "told",
-    "turned",
-    "users",
-    "which"
-   ],
-   "at": "2026-11-01T04:56:22.414846+00:00"
-  },
   {
    "sig": [
     "already",
@@ -12808,17 +12799,30 @@
     "working"
    ],
    "at": "2026-11-06T02:54:23.720050+00:00"
+  },
+  {
+   "sig": [
+    "bypass",
+    "cve-2026-121728",
+    "disabled",
+    "registration",
+    "sourcehut"
+   ],
+   "at": "2026-11-06T03:53:53.948825+00:00"
+  },
+  {
+   "sig": [
+    "don",
+    "events",
+    "invite",
+    "lets",
+    "people",
+    "whatsapp"
+   ],
+   "at": "2026-11-06T03:54:40.045332+00:00"
   }
  ],
  "snapshots": {
-  "hn:50238739": [
-   179,
-   "2026-10-26T08:51:46.514272+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myqxosyjij2l": [
-   250,
-   "2026-10-26T08:51:46.514272+00:00"
-  ],
   "hn:50237485": [
    1220,
    "2026-10-26T08:53:44.494083+00:00"
@@ -15179,10 +15183,6 @@
    802,
    "2026-11-06T01:53:38.127058+00:00"
   ],
-  "hn:50381178": [
-   76,
-   "2026-11-06T02:53:47.034232+00:00"
-  ],
   "hn:50384233": [
    593,
    "2026-11-06T02:53:47.034232+00:00"
@@ -15207,9 +15207,21 @@
    109,
    "2026-11-06T02:53:47.034232+00:00"
   ],
+  "hn:50381178": [
+   77,
+   "2026-11-06T03:53:45.266998+00:00"
+  ],
   "hn:50386597": [
-   160,
-   "2026-11-06T02:53:47.034232+00:00"
+   193,
+   "2026-11-06T03:53:45.266998+00:00"
+  ],
+  "lobsters:x2hcss": [
+   25,
+   "2026-11-06T03:53:45.266998+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzmgo5mjcs24": [
+   5,
+   "2026-11-06T03:53:45.266998+00:00"
   ]
  }
 }
