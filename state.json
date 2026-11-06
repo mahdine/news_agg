@@ -2763,18 +2763,26 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlryozt6k2s",
   "hn:50384822",
   "hn:50385272",
-  "hn:50385870"
+  "hn:50385870",
+  "hn:50380704",
+  "hn:50380979",
+  "hn:50381687",
+  "hn:50383963",
+  "hn:50384133",
+  "hn:50384233",
+  "https://techcrunch.com/?p=3185656",
+  "https://www.theverge.com/?p=1028412"
  ],
  "posted": {
-  "viral": 551,
-  "editorial": 704
+  "viral": 555,
+  "editorial": 705
  },
  "recent_labels": [
-  "404 Media",
-  "Lobsters",
-  "404 Media",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Hacker News",
+  "Hacker News",
+  "TechCrunch AI"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8797,92 +8805,44 @@
    "source": "finance.yahoo.com",
    "score": 0.04971,
    "at": "2026-11-06T01:54:02.871319+00:00"
+  },
+  {
+   "title": "ابزار Stroq برای نظارت امنیتی بر فعالیت ایجنت‌های برنامه‌نویسی هوش مصنوعی",
+   "url": "https://github.com/AGGIB/Stroq",
+   "source": "github.com",
+   "score": 0.01312,
+   "at": "2026-11-06T02:53:52.672914+00:00"
+  },
+  {
+   "title": "معرفی Rivet برای مدیریت مقیاس‌پذیر ایجنت‌های هوش مصنوعی با مدل اکتور",
+   "url": "https://github.com/rivet-dev/rivet",
+   "source": "github.com",
+   "score": 0.00353,
+   "at": "2026-11-06T02:54:01.450879+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل زبانی جدید Tencent با قابلیت‌های پیشرفته و متن‌باز",
+   "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+   "source": "tencent.com",
+   "score": 0.0067,
+   "at": "2026-11-06T02:54:07.919580+00:00"
+  },
+  {
+   "title": "شناسایی آسیب‌پذیری اجرای کد از راه دور در MS Paint",
+   "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+   "source": "cve.org",
+   "score": 0.01372,
+   "at": "2026-11-06T02:54:17.955199+00:00"
+  },
+  {
+   "title": "عرضه‌ی دستیار هوشمند سفر Airbnb تا نیمه‌ی اول سال ۲۰۲۷",
+   "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+   "source": "TechCrunch AI",
+   "score": 0.15494,
+   "at": "2026-11-06T02:54:23.720050+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anthropic",
-    "beats",
-    "because",
-    "better",
-    "candidates",
-    "claude",
-    "coding",
-    "engineers",
-    "giving",
-    "hiring",
-    "hunger",
-    "interviews",
-    "junior",
-    "manager",
-    "stopped",
-    "stops",
-    "tells",
-    "tenure"
-   ],
-   "at": "2026-11-01T03:53:42.251168+00:00"
-  },
-  {
-   "sig": [
-    "boom",
-    "deceive",
-    "easy",
-    "fake",
-    "great",
-    "opportunity",
-    "people",
-    "shultz",
-    "standard",
-    "tells",
-    "theranos",
-    "tyler",
-    "warns",
-    "whistleblower"
-   ],
-   "at": "2026-11-01T03:53:47.766916+00:00"
-  },
-  {
-   "sig": [
-    "airpods",
-    "apple",
-    "battery",
-    "drains",
-    "fast",
-    "last",
-    "longer"
-   ],
-   "at": "2026-11-01T03:53:54.108568+00:00"
-  },
-  {
-   "sig": [
-    "alexa",
-    "amazon",
-    "aux",
-    "devices",
-    "input",
-    "less",
-    "older",
-    "useful"
-   ],
-   "at": "2026-11-01T03:54:01.653333+00:00"
-  },
-  {
-   "sig": [
-    "add",
-    "built",
-    "keyboard",
-    "keys",
-    "lego",
-    "like",
-    "many",
-    "meaning",
-    "modular",
-    "set",
-    "truly"
-   ],
-   "at": "2026-11-01T03:54:25.150716+00:00"
-  },
   {
    "sig": [
     "4.1",
@@ -12792,13 +12752,65 @@
     "scam"
    ],
    "at": "2026-11-06T01:54:02.871319+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "audit",
+    "coding",
+    "did",
+    "local",
+    "show",
+    "stroq"
+   ],
+   "at": "2026-11-06T02:53:52.672914+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "launch",
+    "orchestrate",
+    "rivet",
+    "scale",
+    "w23"
+   ],
+   "at": "2026-11-06T02:54:01.450879+00:00"
+  },
+  {
+   "sig": [
+    "hy4",
+    "launches",
+    "leading",
+    "models",
+    "open-source",
+    "tencent"
+   ],
+   "at": "2026-11-06T02:54:07.919580+00:00"
+  },
+  {
+   "sig": [
+    "code",
+    "execution",
+    "paint",
+    "remote",
+    "vulnerability"
+   ],
+   "at": "2026-11-06T02:54:17.955199+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "airbnb",
+    "first",
+    "half",
+    "launching",
+    "travel",
+    "working"
+   ],
+   "at": "2026-11-06T02:54:23.720050+00:00"
   }
  ],
  "snapshots": {
-  "hn:50238763": [
-   188,
-   "2026-10-26T08:51:46.514272+00:00"
-  ],
   "hn:50238739": [
    179,
    "2026-10-26T08:51:46.514272+00:00"
@@ -15135,10 +15147,6 @@
    77,
    "2026-11-05T20:44:04.823831+00:00"
   ],
-  "hn:50381178": [
-   76,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzllc4rwcz2k": [
    744,
    "2026-11-06T01:53:38.127058+00:00"
@@ -15155,36 +15163,12 @@
    352,
    "2026-11-06T01:53:38.127058+00:00"
   ],
-  "hn:50384233": [
-   531,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
-  "hn:50384133": [
-   216,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
-  "hn:50383963": [
-   86,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
   "hn:50383163": [
    224,
    "2026-11-06T01:53:38.127058+00:00"
   ],
   "hn:50382594": [
    77,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
-  "hn:50381687": [
-   157,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
-  "hn:50380979": [
-   107,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
-  "hn:50380704": [
-   99,
    "2026-11-06T01:53:38.127058+00:00"
   ],
   "lobsters:yoywed": [
@@ -15194,6 +15178,38 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlryozt6k2s": [
    802,
    "2026-11-06T01:53:38.127058+00:00"
+  ],
+  "hn:50381178": [
+   76,
+   "2026-11-06T02:53:47.034232+00:00"
+  ],
+  "hn:50384233": [
+   593,
+   "2026-11-06T02:53:47.034232+00:00"
+  ],
+  "hn:50384133": [
+   216,
+   "2026-11-06T02:53:47.034232+00:00"
+  ],
+  "hn:50383963": [
+   95,
+   "2026-11-06T02:53:47.034232+00:00"
+  ],
+  "hn:50381687": [
+   159,
+   "2026-11-06T02:53:47.034232+00:00"
+  ],
+  "hn:50380979": [
+   111,
+   "2026-11-06T02:53:47.034232+00:00"
+  ],
+  "hn:50380704": [
+   109,
+   "2026-11-06T02:53:47.034232+00:00"
+  ],
+  "hn:50386597": [
+   160,
+   "2026-11-06T02:53:47.034232+00:00"
   ]
  }
 }
