@@ -2845,18 +2845,30 @@
   "https://www.theverge.com/?p=1028302",
   "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
   "623e42969298b92bd5393130",
-  "3239407"
+  "3239407",
+  "https://news.slashdot.org/story/26/11/05/1655231/major-digital-bank-in-paraguay-collapses-with-half-of-populations-savings?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.techspot.com/news/114467-paraguay-president-steps-down-after-digital-bank-ueno.html",
+  "691e4c67d689d6dc432d4b28",
+  "691b78c0cac069ace2d1a5d4",
+  "stsn2tMFpmR8uUFBeNNmjn",
+  "hn:50389448",
+  "hn:50390525",
+  "TheNextWeb=d3d23e1cc24ce3c4ef7ac7c409ef6fae",
+  "https://www.theverge.com/?p=1028549",
+  "https://www.theverge.com/?p=1026410",
+  "c668734416915fad2b9abf6fe70f02d9",
+  "a896b75ecdbd3624ab4609051e0e2246"
  ],
  "posted": {
-  "viral": 563,
-  "editorial": 732
+  "viral": 564,
+  "editorial": 734
  },
  "recent_labels": [
-  "Neowin",
-  "Hacker News",
-  "Hacker News",
   "Engadget",
-  "The Hacker News"
+  "The Hacker News",
+  "Hacker News",
+  "The Next Web",
+  "The Verge"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -9159,45 +9171,30 @@
    "source": "The Hacker News",
    "score": 0.24322,
    "at": "2026-11-06T11:54:01.952487+00:00"
+  },
+  {
+   "title": "وضعیت اپلیکیشن‌های اپ استور در سال ۲۰۲۶ از نگاه آمار",
+   "url": "https://obelisk.club/research/app-store-2026",
+   "source": "obelisk.club",
+   "score": 0.03991,
+   "at": "2026-11-06T12:54:34.369025+00:00"
+  },
+  {
+   "title": "تجمع اعتراضی علیه ساخت دیتاسنتر مایکروسافت در آمستردام",
+   "url": "https://thenextweb.com/news/microsoft-data-centre-amsterdam-protest",
+   "source": "The Next Web",
+   "score": 0.33297,
+   "at": "2026-11-06T12:54:42.236810+00:00"
+  },
+  {
+   "title": "مقایسه‌ی عملکرد سخت‌افزاری و نرم‌افزاری گوشی تاشوی جدید Apple با رقبا",
+   "url": "https://www.theverge.com/tech/1026410/iphone-duo-foldable-android-samsung-google-xiaomi-oppo-honor",
+   "source": "The Verge",
+   "score": 0.22924,
+   "at": "2026-11-06T12:54:48.613887+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "astray",
-    "chatbots",
-    "consequences",
-    "dangerous",
-    "hikers",
-    "leading"
-   ],
-   "at": "2026-11-01T10:53:59.645587+00:00"
-  },
-  {
-   "sig": [
-    "7.4",
-    "faster",
-    "linux",
-    "perf",
-    "python",
-    "robust",
-    "scripts"
-   ],
-   "at": "2026-11-01T10:54:06.578531+00:00"
-  },
-  {
-   "sig": [
-    "combinations",
-    "exits",
-    "expose",
-    "northstar",
-    "risk",
-    "security",
-    "stealth",
-    "toxic"
-   ],
-   "at": "2026-11-01T11:56:19.499695+00:00"
-  },
   {
    "sig": [
     "actually",
@@ -13116,17 +13113,49 @@
     "were"
    ],
    "at": "2026-11-06T11:54:01.952487+00:00"
+  },
+  {
+   "sig": [
+    "abandoned",
+    "app",
+    "apps",
+    "numbers",
+    "pricing",
+    "store"
+   ],
+   "at": "2026-11-06T12:54:34.369025+00:00"
+  },
+  {
+   "sig": [
+    "amsterdam",
+    "break",
+    "center",
+    "centre",
+    "construction",
+    "data",
+    "microsoft",
+    "protesters",
+    "site"
+   ],
+   "at": "2026-11-06T12:54:42.236810+00:00"
+  },
+  {
+   "sig": [
+    "almost",
+    "android",
+    "compares",
+    "duo",
+    "every",
+    "foldable",
+    "here",
+    "iphone",
+    "reviewed",
+    "year"
+   ],
+   "at": "2026-11-06T12:54:48.613887+00:00"
   }
  ],
  "snapshots": {
-  "hn:50238708": [
-   336,
-   "2026-10-26T11:17:26.143656+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myqqgszdv22z": [
-   93,
-   "2026-10-26T11:17:26.143656+00:00"
-  ],
   "hn:50239430": [
    111,
    "2026-10-26T12:59:32.574542+00:00"
@@ -15518,6 +15547,14 @@
   "hn:50386789": [
    92,
    "2026-11-06T11:53:39.545270+00:00"
+  ],
+  "hn:50390525": [
+   98,
+   "2026-11-06T12:53:49.362377+00:00"
+  ],
+  "hn:50389448": [
+   148,
+   "2026-11-06T12:53:49.362377+00:00"
   ]
  }
 }
