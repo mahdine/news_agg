@@ -2815,18 +2815,25 @@
   "https://www.cnews.ru/news/line/2026-11-06_studenty_universiteta_innopolis",
   "https://www.theregister.com/a/5308006",
   "https://www.cnews.ru/news/line/2026-11-06_wildberries_rasshiril_kategoriyu",
-  "https://www.cnews.ru/news/line/2026-11-06_denum_finans_zapuskaet"
+  "https://www.cnews.ru/news/line/2026-11-06_denum_finans_zapuskaet",
+  "hn:50388122",
+  "hn:50388513",
+  "hn:50389222",
+  "hn:50389333",
+  "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+  "5b68ce68cf173d0547f1ac5026533379",
+  "7e78673050926646762ea58528d4b3b4"
  ],
  "posted": {
-  "viral": 558,
-  "editorial": 720
+  "viral": 559,
+  "editorial": 722
  },
  "recent_labels": [
-  "TechCrunch AI",
-  "Slashdot",
   "CNews",
   "CNews",
-  "CNews"
+  "Hacker News",
+  "The Hacker News",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -9010,38 +9017,30 @@
    "source": "CNews",
    "score": 0.15726,
    "at": "2026-11-06T07:55:58.018976+00:00"
+  },
+  {
+   "title": "کتابخانه‌ی BUI برای استفاده از رابط کاربری Blender در اپلیکیشن‌های مختلف",
+   "url": "https://github.com/ppmpreetham/BUI",
+   "source": "github.com",
+   "score": 0.49268,
+   "at": "2026-11-06T08:54:02.873246+00:00"
+  },
+  {
+   "title": "نشت گسترده اطلاعات کاربران در پی حمله سایبری به شرکت Chainalysis",
+   "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+   "source": "The Hacker News",
+   "score": 0.18183,
+   "at": "2026-11-06T08:54:11.182057+00:00"
+  },
+  {
+   "title": "هند برای توسعه پردازنده گرافیکی اختصاصی جهت هوش مصنوعی برنامه‌ریزی می‌کند",
+   "url": "https://hi-tech.mail.ru/news/159858-indiya-planiruet-sozdat-svoy-graficheskiy-protsessor/",
+   "source": "Hi-Tech Mail",
+   "score": 0.16427,
+   "at": "2026-11-06T08:54:18.706602+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "alone",
-    "aren",
-    "cvs",
-    "gen",
-    "hiring",
-    "job",
-    "like",
-    "neither",
-    "rewriting",
-    "seekers",
-    "side",
-    "sounding",
-    "thinks",
-    "working",
-    "worried"
-   ],
-   "at": "2026-11-01T07:54:15.617800+00:00"
-  },
-  {
-   "sig": [
-    "loss",
-    "quality",
-    "text",
-    "watermarking"
-   ],
-   "at": "2026-11-01T08:53:52.328184+00:00"
-  },
   {
    "sig": [
     "emulator",
@@ -12976,25 +12975,33 @@
     "traffic"
    ],
    "at": "2026-11-06T07:53:50.688887+00:00"
+  },
+  {
+   "sig": [
+    "blender",
+    "faster",
+    "gpui",
+    "much",
+    "runtime"
+   ],
+   "at": "2026-11-06T08:54:02.873246+00:00"
+  },
+  {
+   "sig": [
+    "breach",
+    "chainalysis",
+    "credentials",
+    "exposes",
+    "forces",
+    "key",
+    "services",
+    "shutdown",
+    "users"
+   ],
+   "at": "2026-11-06T08:54:11.182057+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myql4ogqth2n": [
-   502,
-   "2026-10-26T08:53:44.494083+00:00"
-  ],
-  "hn:50238088": [
-   527,
-   "2026-10-26T09:53:47.286747+00:00"
-  ],
-  "hn:50237712": [
-   289,
-   "2026-10-26T09:53:47.286747+00:00"
-  ],
-  "hn:50240922": [
-   94,
-   "2026-10-26T09:53:47.286747+00:00"
-  ],
   "hn:50238620": [
    105,
    "2026-10-26T09:53:47.286747+00:00"
@@ -15367,10 +15374,6 @@
    5,
    "2026-11-06T05:53:49.376570+00:00"
   ],
-  "hn:50386597": [
-   265,
-   "2026-11-06T07:53:46.127315+00:00"
-  ],
   "hn:50387738": [
    87,
    "2026-11-06T06:53:38.864781+00:00"
@@ -15378,6 +15381,26 @@
   "hn:50387546": [
    140,
    "2026-11-06T06:53:38.864781+00:00"
+  ],
+  "hn:50386597": [
+   269,
+   "2026-11-06T08:53:40.556648+00:00"
+  ],
+  "hn:50389333": [
+   84,
+   "2026-11-06T08:53:40.556648+00:00"
+  ],
+  "hn:50389222": [
+   221,
+   "2026-11-06T08:53:40.556648+00:00"
+  ],
+  "hn:50388513": [
+   161,
+   "2026-11-06T08:53:40.556648+00:00"
+  ],
+  "hn:50388122": [
+   116,
+   "2026-11-06T08:53:40.556648+00:00"
   ]
  }
 }
