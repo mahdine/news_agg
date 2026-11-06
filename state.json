@@ -2807,18 +2807,26 @@
   "hn:50387546",
   "hn:50387738",
   "a94d1ab598f0cdcb85735d2be25c8d8f",
-  "https://techcrunch.com/?p=3185713"
+  "https://techcrunch.com/?p=3185713",
+  "https://hardware.slashdot.org/story/26/11/05/2239227/faa-phases-out-floppy-disks-from-air-traffic-control?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.engadget.com/2308330/the-faa-is-finally-phasing-out-floppy-disks-from-air-traffic-control/",
+  "https://www.cnews.ru/news/line/2026-11-06_pod_pritselom_belyh_hakerov",
+  "https://www.cnews.ru/news/line/2026-11-06_rynok_kiberbezopasnosti",
+  "https://www.cnews.ru/news/line/2026-11-06_studenty_universiteta_innopolis",
+  "https://www.theregister.com/a/5308006",
+  "https://www.cnews.ru/news/line/2026-11-06_wildberries_rasshiril_kategoriyu",
+  "https://www.cnews.ru/news/line/2026-11-06_denum_finans_zapuskaet"
  ],
  "posted": {
   "viral": 558,
-  "editorial": 716
+  "editorial": 720
  },
  "recent_labels": [
-  "9to5Mac",
-  "Hacker News",
-  "Hacker News",
-  "Hi-Tech Mail",
-  "TechCrunch AI"
+  "TechCrunch AI",
+  "Slashdot",
+  "CNews",
+  "CNews",
+  "CNews"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8974,26 +8982,37 @@
    "source": "TechCrunch AI",
    "score": 0.21231,
    "at": "2026-11-06T06:54:23.421322+00:00"
+  },
+  {
+   "title": "خداحافظی سازمان هوانوردی آمریکا با فلاپی‌دیسک‌های قدیمی",
+   "url": "https://hardware.slashdot.org/story/26/11/05/2239227/faa-phases-out-floppy-disks-from-air-traffic-control?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.27445,
+   "at": "2026-11-06T07:53:50.688887+00:00"
+  },
+  {
+   "title": "شرکت Innostage محصول مدیریت دسترسی ممتاز خود را به برنامه باگ‌بانتی سپرد",
+   "url": "https://www.cnews.ru/news/line/2026-11-06_pod_pritselom_belyh_hakerov",
+   "source": "CNews",
+   "score": 0.13145,
+   "at": "2026-11-06T07:54:21.712423+00:00"
+  },
+  {
+   "title": "پیش‌بینی رشد بازار امنیت سایبری روسیه تا سال ۲۰۲۶",
+   "url": "https://www.cnews.ru/news/line/2026-11-06_rynok_kiberbezopasnosti",
+   "source": "CNews",
+   "score": 0.14507,
+   "at": "2026-11-06T07:55:39.385623+00:00"
+  },
+  {
+   "title": "همکاری دانشگاه اینوپولیس و Ozon Tech برای توسعه رباتیک و بینایی ماشین",
+   "url": "https://www.cnews.ru/news/line/2026-11-06_studenty_universiteta_innopolis",
+   "source": "CNews",
+   "score": 0.15726,
+   "at": "2026-11-06T07:55:58.018976+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "big",
-    "crack",
-    "democratic",
-    "down",
-    "free",
-    "preparing",
-    "quietly",
-    "scrutiny",
-    "speech",
-    "tech",
-    "tries",
-    "trump"
-   ],
-   "at": "2026-11-01T07:54:06.057188+00:00"
-  },
   {
    "sig": [
     "alone",
@@ -12943,6 +12962,20 @@
     "talks"
    ],
    "at": "2026-11-06T06:54:23.421322+00:00"
+  },
+  {
+   "sig": [
+    "air",
+    "control",
+    "disks",
+    "faa",
+    "finally",
+    "floppy",
+    "phases",
+    "phasing",
+    "traffic"
+   ],
+   "at": "2026-11-06T07:53:50.688887+00:00"
   }
  ],
  "snapshots": {
@@ -15335,8 +15368,8 @@
    "2026-11-06T05:53:49.376570+00:00"
   ],
   "hn:50386597": [
-   253,
-   "2026-11-06T06:53:38.864781+00:00"
+   265,
+   "2026-11-06T07:53:46.127315+00:00"
   ],
   "hn:50387738": [
    87,
