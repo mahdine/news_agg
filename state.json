@@ -2828,18 +2828,27 @@
   "https://www.theregister.com/a/5307809",
   "https://www.theregister.com/a/5307779",
   "112517 at https://www.eff.org",
-  "https://www.securityweek.com/?p=50580"
+  "https://www.securityweek.com/?p=50580",
+  "https://www.theregister.com/a/5307855",
+  "deb73913b22a5f410b96e9002299f84a",
+  "lobsters:q0ld7f",
+  "https://www.engadget.com/2308852/the-new-york-times-company-reportedly-trying-to-buy-letterboxd/",
+  "https://www.theverge.com/?p=1028375",
+  "https://www.techspot.com/review/3193-gpu-for-budget-pc-scaling-test/",
+  "6aecae082a4c06c56ac337fb",
+  "a744c54a97b3fc053aceb56711ef87ae",
+  "https://www.neowin.net/news/powertoys-01023101-fixes-mouse-without-borders-pairing-failures/"
  ],
  "posted": {
-  "viral": 560,
-  "editorial": 726
+  "viral": 561,
+  "editorial": 730
  },
  "recent_labels": [
-  "Hacker News",
-  "vc.ru",
   "The Register",
-  "EFF",
-  "SecurityWeek"
+  "Lobsters",
+  "TechSpot",
+  "Hi-Tech Mail",
+  "Neowin"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -9079,64 +9088,44 @@
    "source": "SecurityWeek",
    "score": 0.22534,
    "at": "2026-11-06T09:54:58.169258+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل GPT-6 Cyber توسط OpenAI با تمرکز بر امنیت",
+   "url": "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855",
+   "source": "The Register",
+   "score": 0.17727,
+   "at": "2026-11-06T10:54:19.733001+00:00"
+  },
+  {
+   "title": "خلق تصاویر گرافیکی پیچیده در ۲۵۶ بایت برای DOS",
+   "url": "https://www.onirom.fr/wiki/codegolf/x-87/",
+   "source": "onirom.fr",
+   "score": 0.00792,
+   "at": "2026-11-06T10:54:28.514501+00:00"
+  },
+  {
+   "title": "بررسی تاثیر گلوگاه پردازنده بر عملکرد کارت‌های گرافیک اقتصادی",
+   "url": "https://www.techspot.com/review/3193-gpu-for-budget-pc-scaling-test/",
+   "source": "TechSpot",
+   "score": 0.15638,
+   "at": "2026-11-06T10:54:43.209704+00:00"
+  },
+  {
+   "title": "راهنمای عیب‌یابی و رفع مشکل هات‌سپات در گوشی‌های هوشمند",
+   "url": "https://hi-tech.mail.ru/articles/159888-ne-rabotaet-razdacha-interneta/",
+   "source": "Hi-Tech Mail",
+   "score": 0.18108,
+   "at": "2026-11-06T10:54:57.364346+00:00"
+  },
+  {
+   "title": "رفع مشکل اتصال در ابزار Mouse Without Borders مایکروسافت",
+   "url": "https://www.neowin.net/news/powertoys-01023101-fixes-mouse-without-borders-pairing-failures/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.18323,
+   "at": "2026-11-06T10:55:03.321105+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "autonomous",
-    "ban",
-    "geneva",
-    "leo",
-    "lethal",
-    "pope",
-    "talks",
-    "urges",
-    "weapons"
-   ],
-   "at": "2026-11-01T09:53:45.814466+00:00"
-  },
-  {
-   "sig": [
-    "cost",
-    "frameworks",
-    "javascript"
-   ],
-   "at": "2026-11-01T09:53:51.722157+00:00"
-  },
-  {
-   "sig": [
-    "2.7",
-    "debugbear",
-    "hackers",
-    "hijacked",
-    "million",
-    "polymarket",
-    "script",
-    "steal",
-    "traders",
-    "via"
-   ],
-   "at": "2026-11-01T09:53:58.622524+00:00"
-  },
-  {
-   "sig": [
-    "10.0",
-    "attackers",
-    "clients",
-    "cvss",
-    "flaw",
-    "impersonate",
-    "key",
-    "lets",
-    "lxd",
-    "microcloud",
-    "private",
-    "trusted",
-    "without"
-   ],
-   "at": "2026-11-01T09:54:06.579108+00:00"
-  },
   {
    "sig": [
     "across",
@@ -13044,13 +13033,56 @@
     "wrote"
    ],
    "at": "2026-11-06T09:54:58.169258+00:00"
+  },
+  {
+   "sig": [
+    "cyber",
+    "engagement",
+    "gpt-6",
+    "openai",
+    "promises",
+    "releases",
+    "rules",
+    "stays",
+    "within"
+   ],
+   "at": "2026-11-06T10:54:19.733001+00:00"
+  },
+  {
+   "sig": [
+    "bytes",
+    "dos",
+    "x-87"
+   ],
+   "at": "2026-11-06T10:54:28.514501+00:00"
+  },
+  {
+   "sig": [
+    "best",
+    "budget",
+    "cpu",
+    "gpu",
+    "pcs",
+    "scaling",
+    "tested"
+   ],
+   "at": "2026-11-06T10:54:43.209704+00:00"
+  },
+  {
+   "sig": [
+    "0.102.3101",
+    "borders",
+    "failures",
+    "fixes",
+    "mouse",
+    "pairing",
+    "powertoys",
+    "without"
+   ],
+   "at": "2026-11-06T10:55:03.321105+00:00"
   }
  ],
  "snapshots": {
-  "hn:50238557": [
-   79,
-   "2026-10-26T10:53:52.281993+00:00"
-  ],
   "hn:50237224": [
    201,
    "2026-10-26T10:53:52.281993+00:00"
@@ -15439,13 +15471,17 @@
    116,
    "2026-11-06T08:53:40.556648+00:00"
   ],
-  "hn:50386597": [
-   271,
-   "2026-11-06T09:54:14.496217+00:00"
-  ],
   "hn:50389370": [
    67,
    "2026-11-06T09:54:14.496217+00:00"
+  ],
+  "hn:50386597": [
+   273,
+   "2026-11-06T10:54:14.708116+00:00"
+  ],
+  "lobsters:q0ld7f": [
+   25,
+   "2026-11-06T10:54:14.708116+00:00"
   ]
  }
 }
