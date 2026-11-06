@@ -2794,18 +2794,25 @@
   "DB5eE9HrPneu8WNkjKX2aV",
   "UaaovNXQTBiJMs3TYhiPcg",
   "https://www.androidpolice.com/googles-big-googlebook-update-brings-memory-boost-tackles-chrome-crashes/",
-  "https://www.neowin.net/deals/get-the-latest-google-pixel-watch-5-45mm-for-50-off/"
+  "https://www.neowin.net/deals/get-the-latest-google-pixel-watch-5-45mm-for-50-off/",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzmgq73aks24",
+  "https://www.theregister.com/a/5308022",
+  "3MWTXxuapXbznJmaqxxVP7",
+  "https://www.cnews.ru/news/line/2026-11-06_set_4g_stala_bystree_v_krutinke",
+  "https://www.cnews.ru/news/line/2026-11-06_peremenykotorye_vazhny_rostelekom",
+  "https://www.cnews.ru/news/line/2026-11-06_mts_prokachala_lte_v_samom_molodom",
+  "https://www.cnews.ru/news/line/2026-11-06_mts_dobavila_lte_v_smolenshchine"
  ],
  "posted": {
   "viral": 556,
-  "editorial": 710
+  "editorial": 713
  },
  "recent_labels": [
-  "Neowin",
-  "CNews",
-  "Wired",
   "Google AI",
-  "Android Police"
+  "Android Police",
+  "The Register",
+  "CNews",
+  "CNews"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8905,22 +8912,30 @@
    "source": "Android Police",
    "score": 0.1187,
    "at": "2026-11-06T04:54:49.199376+00:00"
+  },
+  {
+   "title": "هشدار Cloudflare درباره تهدید عامل‌های هوش مصنوعی برای وب‌سایت‌ها",
+   "url": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
+   "source": "The Register",
+   "score": 0.11049,
+   "at": "2026-11-06T05:54:08.803727+00:00"
+  },
+  {
+   "title": "افزایش سرعت و ظرفیت شبکه 4G در مناطق مختلف استان Омسک",
+   "url": "https://www.cnews.ru/news/line/2026-11-06_set_4g_stala_bystree_v_krutinke",
+   "source": "CNews",
+   "score": 0.08644,
+   "at": "2026-11-06T05:54:33.085370+00:00"
+  },
+  {
+   "title": "نوسازی زیرساخت مخابراتی و توسعه شبکه GPON در منطقه کچوو",
+   "url": "https://www.cnews.ru/news/line/2026-11-06_peremenykotorye_vazhny_rostelekom",
+   "source": "CNews",
+   "score": 0.09522,
+   "at": "2026-11-06T05:54:48.195512+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "alexa",
-    "amazon",
-    "muse",
-    "people",
-    "shop",
-    "shopping",
-    "store",
-    "wants"
-   ],
-   "at": "2026-11-01T05:55:23.943354+00:00"
-  },
   {
    "sig": [
     "big",
@@ -12877,13 +12892,19 @@
     "update"
    ],
    "at": "2026-11-06T04:54:49.199376+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "bane",
+    "cloudflare",
+    "operators",
+    "website"
+   ],
+   "at": "2026-11-06T05:54:08.803727+00:00"
   }
  ],
  "snapshots": {
-  "hn:50236102": [
-   873,
-   "2026-10-26T08:53:44.494083+00:00"
-  ],
   "lobsters:hzrmwz": [
    36,
    "2026-10-26T08:53:44.494083+00:00"
@@ -15272,13 +15293,17 @@
    5,
    "2026-11-06T03:53:45.266998+00:00"
   ],
-  "hn:50386597": [
-   232,
-   "2026-11-06T04:54:15.290651+00:00"
-  ],
   "hn:50387406": [
    135,
    "2026-11-06T04:54:15.290651+00:00"
+  ],
+  "hn:50386597": [
+   247,
+   "2026-11-06T05:53:49.376570+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzmgq73aks24": [
+   5,
+   "2026-11-06T05:53:49.376570+00:00"
   ]
  }
 }
