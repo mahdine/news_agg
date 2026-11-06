@@ -2822,18 +2822,24 @@
   "hn:50389333",
   "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
   "5b68ce68cf173d0547f1ac5026533379",
-  "7e78673050926646762ea58528d4b3b4"
+  "7e78673050926646762ea58528d4b3b4",
+  "hn:50389370",
+  "3239046",
+  "https://www.theregister.com/a/5307809",
+  "https://www.theregister.com/a/5307779",
+  "112517 at https://www.eff.org",
+  "https://www.securityweek.com/?p=50580"
  ],
  "posted": {
-  "viral": 559,
-  "editorial": 722
+  "viral": 560,
+  "editorial": 726
  },
  "recent_labels": [
-  "CNews",
-  "CNews",
   "Hacker News",
-  "The Hacker News",
-  "Hi-Tech Mail"
+  "vc.ru",
+  "The Register",
+  "EFF",
+  "SecurityWeek"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -9038,55 +9044,44 @@
    "source": "Hi-Tech Mail",
    "score": 0.16427,
    "at": "2026-11-06T08:54:18.706602+00:00"
+  },
+  {
+   "title": "نرم‌افزار Kugelblitz جایگزینی بومی برای Google Earth در سیستم‌عامل macOS",
+   "url": "https://apps.metaebene.me/en/kugelblitz",
+   "source": "apps.metaebene.me",
+   "score": 0.17802,
+   "at": "2026-11-06T09:54:24.045381+00:00"
+  },
+  {
+   "title": "اختلال گسترده در خدمات بانکی و پلتفرم‌های آنلاین Ozon",
+   "url": "https://vc.ru/money/3239046-sboj-ozon-banka-problemy-s-prilozheniem?from=rss",
+   "source": "vc.ru",
+   "score": 0.16547,
+   "at": "2026-11-06T09:54:33.959301+00:00"
+  },
+  {
+   "title": "افزوده شدن پشتیبانی از زبان Rust به سیستم‌عامل systemd",
+   "url": "https://www.theregister.com/public-sector/2026/11/06/britains-tech-ambitions-depend-on-minerals-made-in-china-mps-warn/5307779",
+   "source": "The Register",
+   "score": 0.21463,
+   "at": "2026-11-06T09:54:43.521081+00:00"
+  },
+  {
+   "title": "سرکوب سازمان‌های مدافع حقوق دیجیتال در هند توسط پلیس دهلی",
+   "url": "https://www.eff.org/deeplinks/2026/11/when-watchdogs-are-silenced-indias-crackdown-those-documenting-online-censorship",
+   "source": "EFF",
+   "score": 0.23005,
+   "at": "2026-11-06T09:54:49.849333+00:00"
+  },
+  {
+   "title": "مدل هوش مصنوعی OpenAI برای دور زدن محدودیت‌های امنیتی کد شبکه نوشت",
+   "url": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+   "source": "SecurityWeek",
+   "score": 0.22534,
+   "at": "2026-11-06T09:54:58.169258+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "emulator",
-    "introducing",
-    "kde",
-    "kwi",
-    "terminal"
-   ],
-   "at": "2026-11-01T08:53:59.942607+00:00"
-  },
-  {
-   "sig": [
-    "asia",
-    "government",
-    "injection",
-    "malware",
-    "net",
-    "netamloader",
-    "systems",
-    "targets",
-    "via",
-    "windows"
-   ],
-   "at": "2026-11-01T08:54:17.774919+00:00"
-  },
-  {
-   "sig": [
-    "aws",
-    "capacity",
-    "demand",
-    "headroom",
-    "largely",
-    "reserved",
-    "sold",
-    "through"
-   ],
-   "at": "2026-11-01T08:54:32.641721+00:00"
-  },
-  {
-   "sig": [
-    "fourier",
-    "information",
-    "meta"
-   ],
-   "at": "2026-11-01T08:54:58.469868+00:00"
-  },
   {
    "sig": [
     "autonomous",
@@ -12999,13 +12994,59 @@
     "users"
    ],
    "at": "2026-11-06T08:54:11.182057+00:00"
+  },
+  {
+   "sig": [
+    "alternative",
+    "earth",
+    "google",
+    "kugelblitz",
+    "mac-native"
+   ],
+   "at": "2026-11-06T09:54:24.045381+00:00"
+  },
+  {
+   "sig": [
+    "ambitions",
+    "britain",
+    "china",
+    "depend",
+    "minerals",
+    "mps",
+    "tech",
+    "warn"
+   ],
+   "at": "2026-11-06T09:54:43.521081+00:00"
+  },
+  {
+   "sig": [
+    "censorship",
+    "crackdown",
+    "documenting",
+    "india",
+    "online",
+    "silenced",
+    "those",
+    "watchdogs"
+   ],
+   "at": "2026-11-06T09:54:49.849333+00:00"
+  },
+  {
+   "sig": [
+    "around",
+    "code",
+    "model",
+    "network",
+    "openai",
+    "own",
+    "restrictions",
+    "sandbox",
+    "wrote"
+   ],
+   "at": "2026-11-06T09:54:58.169258+00:00"
   }
  ],
  "snapshots": {
-  "hn:50238620": [
-   105,
-   "2026-10-26T09:53:47.286747+00:00"
-  ],
   "hn:50238557": [
    79,
    "2026-10-26T10:53:52.281993+00:00"
@@ -15382,10 +15423,6 @@
    140,
    "2026-11-06T06:53:38.864781+00:00"
   ],
-  "hn:50386597": [
-   269,
-   "2026-11-06T08:53:40.556648+00:00"
-  ],
   "hn:50389333": [
    84,
    "2026-11-06T08:53:40.556648+00:00"
@@ -15401,6 +15438,14 @@
   "hn:50388122": [
    116,
    "2026-11-06T08:53:40.556648+00:00"
+  ],
+  "hn:50386597": [
+   271,
+   "2026-11-06T09:54:14.496217+00:00"
+  ],
+  "hn:50389370": [
+   67,
+   "2026-11-06T09:54:14.496217+00:00"
   ]
  }
 }
