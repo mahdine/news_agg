@@ -2883,18 +2883,26 @@
   "https://www.cnews.ru/news/top/2026-10-23_angstrem_zaberut_v_megakorporatsiyu",
   "352139347376554cdc511195903953a6",
   "TheNextWeb=b87e840dddc076f2013bce86df9e40b4",
-  "urn:latent-space:post:pod_ep_01a1a3f4-4773-7a7d-acdc-731f8540ab5d"
+  "urn:latent-space:post:pod_ep_01a1a3f4-4773-7a7d-acdc-731f8540ab5d",
+  "1422730",
+  "https://9to5mac.com/?p=1077729",
+  "hn:50389570",
+  "lobsters:hvxjbb",
+  "hn:50393154",
+  "https://www.techspot.com/news/114475-after-amd-gaming-revenue-crashes-40-ceo-lisa.html",
+  "RTkAWk7o8avssMt7BBTYxB",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznowzko6s2v"
  ],
  "posted": {
-  "viral": 566,
-  "editorial": 745
+  "viral": 569,
+  "editorial": 747
  },
  "recent_labels": [
-  "TechRadar",
+  "ZDNet",
   "Hacker News",
-  "InfoQ",
-  "CNews",
-  "The Next Web"
+  "Lobsters",
+  "TechSpot",
+  "404 Media"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6390,64 +6398,44 @@
    "source": "The Next Web",
    "score": 0.19849,
    "at": "2026-11-06T14:54:27.803227+00:00"
+  },
+  {
+   "title": "چالش‌های اپل در تامین موجودی گوشی تاشوی iPhone Duo",
+   "url": "https://www.zdnet.com/tech/apple-foldable-iphone-duo-stock-shortage/",
+   "source": "ZDNet",
+   "score": 0.32861,
+   "at": "2026-11-06T15:54:01.724081+00:00"
+  },
+  {
+   "title": "تقابل مدل‌های آماری و رویکردهای سنتی در زبان‌شناسی محاسباتی",
+   "url": "https://www.norvig.com/chomsky.html",
+   "source": "norvig.com",
+   "score": 0.03273,
+   "at": "2026-11-06T15:54:22.273660+00:00"
+  },
+  {
+   "title": "اجرای درایورهای اختصاصی NVIDIA روی توزیع‌های لینوکسی مبتنی بر musl",
+   "url": "https://chimera-linux.org/news/2026/11/musl-nvidia.html",
+   "source": "chimera-linux.org",
+   "score": 0.20436,
+   "at": "2026-11-06T15:54:28.467820+00:00"
+  },
+  {
+   "title": "تغییر استراتژی AMD به سمت تمرکز بر مراکز داده",
+   "url": "https://www.techspot.com/news/114475-after-amd-gaming-revenue-crashes-40-ceo-lisa.html",
+   "source": "TechSpot",
+   "score": 0.29378,
+   "at": "2026-11-06T15:54:36.130785+00:00"
+  },
+  {
+   "title": "سایت OnlyFake و تولید کارت شناسایی جعلی با هوش مصنوعی",
+   "url": "https://bsky.app/profile/404media.co/post/3mznowzko6s2v",
+   "source": "404 Media",
+   "score": 0.85036,
+   "at": "2026-11-06T15:54:44.076208+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "accelerated",
-    "best",
-    "cheap",
-    "fit",
-    "gpu",
-    "gpus",
-    "hardware",
-    "isn",
-    "reason",
-    "scheduling",
-    "simple"
-   ],
-   "at": "2026-11-01T15:54:11.639473+00:00"
-  },
-  {
-   "sig": [
-    "hypothesis",
-    "improving",
-    "jepas",
-    "platonic",
-    "proving",
-    "representation"
-   ],
-   "at": "2026-11-01T16:53:48.801823+00:00"
-  },
-  {
-   "sig": [
-    "books",
-    "hackerbooks",
-    "hackertube",
-    "recommended",
-    "show"
-   ],
-   "at": "2026-11-01T16:53:55.990962+00:00"
-  },
-  {
-   "sig": [
-    "college",
-    "colleges",
-    "de-flock",
-    "pushing",
-    "students"
-   ],
-   "at": "2026-11-01T16:54:05.484642+00:00"
-  },
-  {
-   "sig": [
-    "kingsbury",
-    "kyle",
-    "quoting"
-   ],
-   "at": "2026-11-01T16:54:11.715311+00:00"
-  },
   {
    "sig": [
     "darty",
@@ -10353,29 +10341,91 @@
     "whose"
    ],
    "at": "2026-11-06T14:54:27.803227+00:00"
+  },
+  {
+   "sig": [
+    "already",
+    "apple",
+    "apps",
+    "built",
+    "duo",
+    "holidays",
+    "iphone",
+    "isn",
+    "latest",
+    "reassuring",
+    "stock",
+    "there",
+    "update",
+    "want"
+   ],
+   "at": "2026-11-06T15:54:01.724081+00:00"
+  },
+  {
+   "sig": [
+    "chomsky",
+    "cultures",
+    "learning",
+    "statistical"
+   ],
+   "at": "2026-11-06T15:54:22.273660+00:00"
+  },
+  {
+   "sig": [
+    "drivers",
+    "making",
+    "musl",
+    "nvidia",
+    "proprietary",
+    "together",
+    "work"
+   ],
+   "at": "2026-11-06T15:54:28.467820+00:00"
+  },
+  {
+   "sig": [
+    "amd",
+    "center",
+    "center-first",
+    "ceo",
+    "company",
+    "crashes",
+    "data",
+    "declares",
+    "enrages",
+    "first",
+    "gamers",
+    "gaming",
+    "lisa",
+    "revenue",
+    "saying"
+   ],
+   "at": "2026-11-06T15:54:36.130785+00:00"
+  },
+  {
+   "sig": [
+    "anyone",
+    "came",
+    "churn",
+    "created",
+    "fake",
+    "ids",
+    "investigation",
+    "josephcox.bsky.social",
+    "knocking",
+    "koreans",
+    "let",
+    "nazarenko",
+    "north",
+    "onlyfake",
+    "realistic",
+    "site",
+    "yuriy"
+   ],
+   "at": "2026-11-06T15:54:44.076208+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:olnqh2": [
-   28,
-   "2026-10-26T14:53:46.035553+00:00"
-  ],
-  "lobsters:xzp4m0": [
-   28,
-   "2026-10-26T14:53:46.035553+00:00"
-  ],
-  "hn:50245138": [
-   168,
-   "2026-10-26T16:53:45.580869+00:00"
-  ],
-  "hn:50243762": [
-   216,
-   "2026-10-26T16:53:45.580869+00:00"
-  ],
-  "hn:50242843": [
-   260,
-   "2026-10-26T16:53:45.580869+00:00"
-  ],
   "hn:50242555": [
    125,
    "2026-10-26T16:53:45.580869+00:00"
@@ -12755,6 +12805,26 @@
   "hn:50391145": [
    140,
    "2026-11-06T14:53:44.527825+00:00"
+  ],
+  "hn:50393154": [
+   134,
+   "2026-11-06T15:53:44.713179+00:00"
+  ],
+  "hn:50389570": [
+   99,
+   "2026-11-06T15:53:44.713179+00:00"
+  ],
+  "lobsters:hvxjbb": [
+   26,
+   "2026-11-06T15:53:44.713179+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznpffquhs2v": [
+   211,
+   "2026-11-06T15:53:44.713179+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznowzko6s2v": [
+   171,
+   "2026-11-06T15:53:44.713179+00:00"
   ]
  }
 }
