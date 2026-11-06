@@ -2780,18 +2780,32 @@
   "https://news.slashdot.org/story/26/11/05/2236227/the-great-pacific-garbage-patch-is-changing-the-color-of-the-ocean?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.neowin.net/news/whatsapp-now-lets-you-invite-people-who-dont-use-whatsapp-to-events/",
   "https://www.cnews.ru/news/line/2026-11-06_aktiv_i_takskom_obespechili",
-  "Fcxo6MkAhtSXznZQGykCZ9"
+  "Fcxo6MkAhtSXznZQGykCZ9",
+  "6aea2b1e174ddb15ddc58b2e",
+  "https://www.engadget.com/2307614/apple-macbook-pro-m6-review/",
+  "https://www.techspot.com/products/laptops/apple-macbook-pro-proled-xdr.330962/",
+  "https://9to5mac.com/?p=1077701",
+  "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+  "https://www.neowin.net/news/google-launches-gemini-omni-12-flash-with-30-lower-prices-and-longer-ai-videos/",
+  "TheNextWeb=0c960f1862cd71a8bdc254d2aed933c5",
+  "https://9to5mac.com/?p=1077705",
+  "hn:50387406",
+  "HBRBXqT6p5Fm6KPJ7XwHfn",
+  "DB5eE9HrPneu8WNkjKX2aV",
+  "UaaovNXQTBiJMs3TYhiPcg",
+  "https://www.androidpolice.com/googles-big-googlebook-update-brings-memory-boost-tackles-chrome-crashes/",
+  "https://www.neowin.net/deals/get-the-latest-google-pixel-watch-5-45mm-for-50-off/"
  ],
  "posted": {
   "viral": 556,
-  "editorial": 707
+  "editorial": 710
  },
  "recent_labels": [
-  "Hacker News",
-  "TechCrunch AI",
-  "Lobsters",
   "Neowin",
-  "CNews"
+  "CNews",
+  "Wired",
+  "Google AI",
+  "Android Police"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -8870,47 +8884,30 @@
    "source": "CNews",
    "score": 0.21394,
    "at": "2026-11-06T03:55:26.289345+00:00"
+  },
+  {
+   "title": "بررسی مک‌بوک پرو جدید با نمایشگر OLED و قابلیت لمسی",
+   "url": "https://www.wired.com/review/apple-macbook-pro-oled-2026/",
+   "source": "Wired",
+   "score": 0.05351,
+   "at": "2026-11-06T04:54:17.689979+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل Gemini Omni 1.2 Flash با قابلیت‌های پیشرفته تولید ویدیو",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "source": "Google AI",
+   "score": 0.12984,
+   "at": "2026-11-06T04:54:24.190387+00:00"
+  },
+  {
+   "title": "به‌روزرسانی جدید Googlebook برای بهبود مدیریت حافظه و رفع باگ‌های سیستمی",
+   "url": "https://www.androidpolice.com/googles-big-googlebook-update-brings-memory-boost-tackles-chrome-crashes/",
+   "source": "Android Police",
+   "score": 0.1187,
+   "at": "2026-11-06T04:54:49.199376+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "already",
-    "being",
-    "development",
-    "game",
-    "industry",
-    "manager",
-    "throughout",
-    "xbox"
-   ],
-   "at": "2026-11-01T04:56:59.530656+00:00"
-  },
-  {
-   "sig": [
-    "allows",
-    "center",
-    "data",
-    "forward",
-    "judge",
-    "lawsuit",
-    "move",
-    "naacp",
-    "pollution",
-    "xai"
-   ],
-   "at": "2026-11-01T05:54:44.137655+00:00"
-  },
-  {
-   "sig": [
-    "chatgpt",
-    "codex",
-    "limits",
-    "merging",
-    "usage"
-   ],
-   "at": "2026-11-01T05:55:05.124169+00:00"
-  },
   {
    "sig": [
     "alexa",
@@ -12820,13 +12817,69 @@
     "whatsapp"
    ],
    "at": "2026-11-06T03:54:40.045332+00:00"
+  },
+  {
+   "sig": [
+    "accessible",
+    "apple",
+    "best",
+    "comes",
+    "cost",
+    "explains",
+    "glowing",
+    "logo",
+    "macbook",
+    "matters",
+    "oled",
+    "pro",
+    "proves",
+    "review",
+    "slight",
+    "still",
+    "touch",
+    "turn",
+    "upgrade"
+   ],
+   "at": "2026-11-06T04:54:17.689979+00:00"
+  },
+  {
+   "sig": [
+    "1.2",
+    "15-second",
+    "clips",
+    "cost-effective",
+    "fast",
+    "flash",
+    "gemini",
+    "google",
+    "launches",
+    "less",
+    "longer",
+    "lower",
+    "omni",
+    "prices",
+    "videos"
+   ],
+   "at": "2026-11-06T04:54:24.190387+00:00"
+  },
+  {
+   "sig": [
+    "6gb",
+    "big",
+    "boost",
+    "brings",
+    "chrome",
+    "crashes",
+    "google",
+    "googlebook",
+    "memory",
+    "tackles",
+    "update"
+   ],
+   "at": "2026-11-06T04:54:49.199376+00:00"
   }
  ],
  "snapshots": {
-  "hn:50237485": [
-   1220,
-   "2026-10-26T08:53:44.494083+00:00"
-  ],
   "hn:50236102": [
    873,
    "2026-10-26T08:53:44.494083+00:00"
@@ -15211,10 +15264,6 @@
    77,
    "2026-11-06T03:53:45.266998+00:00"
   ],
-  "hn:50386597": [
-   193,
-   "2026-11-06T03:53:45.266998+00:00"
-  ],
   "lobsters:x2hcss": [
    25,
    "2026-11-06T03:53:45.266998+00:00"
@@ -15222,6 +15271,14 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzmgo5mjcs24": [
    5,
    "2026-11-06T03:53:45.266998+00:00"
+  ],
+  "hn:50386597": [
+   232,
+   "2026-11-06T04:54:15.290651+00:00"
+  ],
+  "hn:50387406": [
+   135,
+   "2026-11-06T04:54:15.290651+00:00"
   ]
  }
 }
