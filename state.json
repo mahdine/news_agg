@@ -2910,18 +2910,24 @@
   "https://simonwillison.net/2026/Nov/6/nilay-patel/",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznv6nxpok2v",
   "https://techcrunch.com/?post_type=tc_video&p=3185895",
-  "https://www.theverge.com/?p=1028715"
+  "https://www.theverge.com/?p=1028715",
+  "lobsters:i96uyr",
+  "hn:50394569",
+  "hn:50394855",
+  "hn:50394906",
+  "hn:50395318",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznwhwv7pc2v"
  ],
  "posted": {
-  "viral": 575,
+  "viral": 580,
   "editorial": 751
  },
  "recent_labels": [
+  "Lobsters",
   "Hacker News",
-  "404 Media",
-  "Simon Willison RSS",
-  "TechCrunch AI",
-  "The Verge"
+  "Hacker News",
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6522,75 +6528,44 @@
    "source": "The Verge",
    "score": 0.23623,
    "at": "2026-11-06T17:54:18.623091+00:00"
+  },
+  {
+   "title": "بهینه‌سازی تست‌نویسی در زبان Go با استفاده از الگوهای جنریک",
+   "url": "https://mtlynch.io/notes/go-must-create-pattern/",
+   "source": "mtlynch.io",
+   "score": 0.11841,
+   "at": "2026-11-06T19:59:41.301304+00:00"
+  },
+  {
+   "title": "معرفی فریم‌ورک Rune برای توسعه رابط کاربری با زبان Rust",
+   "url": "https://github.com/anomalyco/rune",
+   "source": "github.com",
+   "score": 0.12049,
+   "at": "2026-11-06T19:59:47.925125+00:00"
+  },
+  {
+   "title": "آموزش برنامه‌نویسی سطح پایین با استفاده از UEFI",
+   "url": "https://kevinboone.me/efitest_index.html",
+   "source": "kevinboone.me",
+   "score": 0.02803,
+   "at": "2026-11-06T19:59:54.277913+00:00"
+  },
+  {
+   "title": "ارزش‌گذاری Anthropic در آستانه عرضه عمومی سهام",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+   "source": "bloomberg.com",
+   "score": 0.19294,
+   "at": "2026-11-06T20:00:00.333291+00:00"
+  },
+  {
+   "title": "حذف گسترده محتوا در پلتفرم‌های بزرگسالان به دلیل قوانین جدید بریتانیا",
+   "url": "https://www.404media.co/clips4sale-content-removed-uk-porn-law/",
+   "source": "404media.co",
+   "score": 0.16641,
+   "at": "2026-11-06T20:00:06.231408+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "black",
-    "box",
-    "parsing",
-    "pratt"
-   ],
-   "at": "2026-11-01T22:14:10.530352+00:00"
-  },
-  {
-   "sig": [
-    "charge",
-    "flipped",
-    "proton",
-    "wasn"
-   ],
-   "at": "2026-11-01T22:15:41.679985+00:00"
-  },
-  {
-   "sig": [
-    "activity",
-    "added",
-    "bot",
-    "centers",
-    "crazy",
-    "data",
-    "disproven",
-    "getting",
-    "had",
-    "here",
-    "impact",
-    "in-leaked-au",
-    "internet",
-    "listen",
-    "paid",
-    "people",
-    "repeating",
-    "russian",
-    "significant",
-    "strikes",
-    "theory",
-    "these",
-    "things",
-    "ukraine",
-    "www.404media.co"
-   ],
-   "at": "2026-11-01T22:15:57.478296+00:00"
-  },
-  {
-   "sig": [
-    "ask",
-    "privacy",
-    "recommend",
-    "which"
-   ],
-   "at": "2026-11-02T01:54:01.210864+00:00"
-  },
-  {
-   "sig": [
-    "everyone",
-    "guess",
-    "llms",
-    "think"
-   ],
-   "at": "2026-11-02T01:54:18.367521+00:00"
-  },
   {
    "sig": [
     "apollo",
@@ -10540,49 +10515,85 @@
     "upload"
    ],
    "at": "2026-11-06T17:54:18.623091+00:00"
+  },
+  {
+   "sig": [
+    "mustcreate",
+    "pattern",
+    "tests"
+   ],
+   "at": "2026-11-06T19:59:41.301304+00:00"
+  },
+  {
+   "sig": [
+    "framework",
+    "gpu-rendered",
+    "linux",
+    "macos",
+    "native",
+    "rune",
+    "rust",
+    "web",
+    "windows"
+   ],
+   "at": "2026-11-06T19:59:47.925125+00:00"
+  },
+  {
+   "sig": [
+    "bare-metal",
+    "first",
+    "programming",
+    "steps",
+    "uefi",
+    "using"
+   ],
+   "at": "2026-11-06T19:59:54.277913+00:00"
+  },
+  {
+   "sig": [
+    "1.1t",
+    "1.3t",
+    "anthropic",
+    "buyers",
+    "drop",
+    "ipo",
+    "low",
+    "see",
+    "talks",
+    "valuation"
+   ],
+   "at": "2026-11-06T20:00:00.333291+00:00"
+  },
+  {
+   "sig": [
+    "adult",
+    "banned",
+    "breath-restriction",
+    "choking",
+    "compliance",
+    "creators",
+    "even",
+    "fantasies",
+    "hundreds",
+    "immediately",
+    "involving",
+    "law",
+    "platforms",
+    "porn",
+    "range",
+    "relative",
+    "remove",
+    "roleplay",
+    "thought",
+    "videos",
+    "watched",
+    "were",
+    "wide"
+   ],
+   "at": "2026-11-06T20:00:06.231408+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys7wn3t4r2n": [
-   138,
-   "2026-10-26T17:28:32.399641+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys5g5x64r2a": [
-   73,
-   "2026-10-26T17:28:32.399641+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mys7uwobcs2z": [
-   50,
-   "2026-10-26T17:28:32.399641+00:00"
-  ],
-  "hn:50250937": [
-   287,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "hn:50250016": [
-   363,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "hn:50249275": [
-   244,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "hn:50249116": [
-   117,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "hn:50248665": [
-   312,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "hn:50248055": [
-   469,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "hn:50247630": [
-   346,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
   "lobsters:ysyqnt": [
    31,
    "2026-10-26T22:47:11.774119+00:00"
@@ -12942,6 +12953,46 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznujgrcpc2v": [
    163,
    "2026-11-06T17:53:42.559297+00:00"
+  ],
+  "hn:50396064": [
+   166,
+   "2026-11-06T19:59:38.450036+00:00"
+  ],
+  "hn:50395933": [
+   76,
+   "2026-11-06T19:59:38.450036+00:00"
+  ],
+  "hn:50395905": [
+   207,
+   "2026-11-06T19:59:38.450036+00:00"
+  ],
+  "hn:50395318": [
+   94,
+   "2026-11-06T19:59:38.450036+00:00"
+  ],
+  "hn:50394906": [
+   467,
+   "2026-11-06T19:59:38.450036+00:00"
+  ],
+  "hn:50394855": [
+   122,
+   "2026-11-06T19:59:38.450036+00:00"
+  ],
+  "hn:50394569": [
+   234,
+   "2026-11-06T19:59:38.450036+00:00"
+  ],
+  "lobsters:i96uyr": [
+   37,
+   "2026-11-06T19:59:38.450036+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznwhwv7pc2v": [
+   126,
+   "2026-11-06T19:59:38.450036+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mznxnk6tfc2q": [
+   161,
+   "2026-11-06T19:59:38.450036+00:00"
   ]
  }
 }
