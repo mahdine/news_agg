@@ -2891,18 +2891,28 @@
   "hn:50393154",
   "https://www.techspot.com/news/114475-after-amd-gaming-revenue-crashes-40-ceo-lisa.html",
   "RTkAWk7o8avssMt7BBTYxB",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznowzko6s2v"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznowzko6s2v",
+  "hn:50392499",
+  "hn:50393105",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznpffquhs2v",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznptn3xuc2v",
+  "https://entertainment.slashdot.org/story/26/11/06/0711224/sony-revives-the-original-walkman-headphones-adds-usb-c?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.techspot.com/news/114466-sony-resurrects-1979-walkman-headphones-now-usb-c.html",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznrpwjvrt25",
+  "https://www.theverge.com/?p=1028372",
+  "TheNextWeb=4c921fdcfcf008002d0d8f2f1f80f2b6",
+  "https://techcrunch.com/?p=3185780"
  ],
  "posted": {
-  "viral": 569,
-  "editorial": 747
+  "viral": 573,
+  "editorial": 748
  },
  "recent_labels": [
-  "ZDNet",
   "Hacker News",
-  "Lobsters",
-  "TechSpot",
-  "404 Media"
+  "Hacker News",
+  "404 Media",
+  "404 Media",
+  "The Next Web"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6433,69 +6443,44 @@
    "source": "404 Media",
    "score": 0.85036,
    "at": "2026-11-06T15:54:44.076208+00:00"
+  },
+  {
+   "title": "هجوم ربات‌های هوش مصنوعی به وب‌سایت کتابخانه‌های دانشگاهی و اختلال در دسترسی عمومی",
+   "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+   "source": "cbc.ca",
+   "score": 0.14236,
+   "at": "2026-11-06T16:54:33.509871+00:00"
+  },
+  {
+   "title": "انتقاد کاربران از تأخیر Ubuntu در انتشار وصله امنیتی بحرانی",
+   "url": "https://news.ycombinator.com/item?id=50393105",
+   "source": "Hacker News",
+   "score": 0.20892,
+   "at": "2026-11-06T16:54:56.298291+00:00"
+  },
+  {
+   "title": "سواستفاده از داده‌های سایت AO3 توسط عوامل هوش مصنوعی",
+   "url": "https://bsky.app/profile/404media.co/post/3mznptn3xuc2v",
+   "source": "404 Media",
+   "score": 0.23437,
+   "at": "2026-11-06T16:55:05.001336+00:00"
+  },
+  {
+   "title": "سانسور گسترده محتوای بزرگسالان در بریتانیا پس از تصویب قانون جدید",
+   "url": "https://www.404media.co/clips4sale-content-removed-uk-porn-law/",
+   "source": "404media.co",
+   "score": 0.43752,
+   "at": "2026-11-06T16:55:12.096497+00:00"
+  },
+  {
+   "title": "امکان ثبت سفارش و خرید کالا از طریق پیامک با Alexa",
+   "url": "https://thenextweb.com/news/amazon-alexa-for-shopping-text-message-agent",
+   "source": "The Next Web",
+   "score": 0.55178,
+   "at": "2026-11-06T16:55:19.101679+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "darty",
-    "electronics",
-    "fined",
-    "fnac",
-    "french",
-    "noyb",
-    "retailer",
-    "win"
-   ],
-   "at": "2026-11-01T17:54:51.561854+00:00"
-  },
-  {
-   "sig": [
-    "cameras",
-    "cancellation",
-    "chief",
-    "company",
-    "contract",
-    "flock",
-    "ignores",
-    "police",
-    "unplugs"
-   ],
-   "at": "2026-11-01T17:54:57.660398+00:00"
-  },
-  {
-   "sig": [
-    "26h2",
-    "confirms",
-    "directly",
-    "microsoft",
-    "pcs",
-    "supported",
-    "update",
-    "windows"
-   ],
-   "at": "2026-11-01T17:55:23.275141+00:00"
-  },
-  {
-   "sig": [
-    "laptop",
-    "nifty",
-    "old",
-    "reuse",
-    "ways"
-   ],
-   "at": "2026-11-01T17:55:29.539597+00:00"
-  },
-  {
-   "sig": [
-    "batteries",
-    "controller",
-    "reason",
-    "still",
-    "xbox"
-   ],
-   "at": "2026-11-01T17:55:36.886678+00:00"
-  },
   {
    "sig": [
     "amid",
@@ -10423,25 +10408,96 @@
     "yuriy"
    ],
    "at": "2026-11-06T15:54:44.076208+00:00"
+  },
+  {
+   "sig": [
+    "access",
+    "being",
+    "bots",
+    "libraries",
+    "public",
+    "putting",
+    "risk",
+    "swarmed",
+    "university"
+   ],
+   "at": "2026-11-06T16:54:33.509871+00:00"
+  },
+  {
+   "sig": [
+    "ask",
+    "long",
+    "taking",
+    "ubuntu",
+    "world"
+   ],
+   "at": "2026-11-06T16:54:56.298291+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "announced",
+    "ao3",
+    "belong",
+    "couple",
+    "doesn",
+    "down",
+    "drives",
+    "even",
+    "fanfic",
+    "google",
+    "lead",
+    "people",
+    "person",
+    "putting",
+    "reddit",
+    "samleecole.bsky.social",
+    "scraped",
+    "site",
+    "swarm",
+    "weeks",
+    "work",
+    "would"
+   ],
+   "at": "2026-11-06T16:55:05.001336+00:00"
+  },
+  {
+   "sig": [
+    "adult",
+    "believe",
+    "broke",
+    "clip",
+    "content",
+    "creators",
+    "dark",
+    "didn",
+    "disappears",
+    "law",
+    "left",
+    "sites"
+   ],
+   "at": "2026-11-06T16:55:12.096497+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "alexa",
+    "amazon",
+    "blocking",
+    "help",
+    "lets",
+    "muse",
+    "orders",
+    "shop",
+    "shopping",
+    "take",
+    "text",
+    "users"
+   ],
+   "at": "2026-11-06T16:55:19.101679+00:00"
   }
  ],
  "snapshots": {
-  "hn:50242555": [
-   125,
-   "2026-10-26T16:53:45.580869+00:00"
-  ],
-  "lobsters:ryjnyi": [
-   45,
-   "2026-10-26T16:53:45.580869+00:00"
-  ],
-  "lobsters:xxdda9": [
-   39,
-   "2026-10-26T16:53:45.580869+00:00"
-  ],
-  "hn:50245524": [
-   692,
-   "2026-10-26T17:28:32.399641+00:00"
-  ],
   "hn:50245385": [
    388,
    "2026-10-26T17:28:32.399641+00:00"
@@ -12818,13 +12874,29 @@
    26,
    "2026-11-06T15:53:44.713179+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznpffquhs2v": [
-   211,
-   "2026-11-06T15:53:44.713179+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznowzko6s2v": [
    171,
    "2026-11-06T15:53:44.713179+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznpffquhs2v": [
+   567,
+   "2026-11-06T16:53:58.806356+00:00"
+  ],
+  "hn:50393105": [
+   151,
+   "2026-11-06T16:53:58.806356+00:00"
+  ],
+  "hn:50392499": [
+   138,
+   "2026-11-06T16:53:58.806356+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznrpwjvrt25": [
+   206,
+   "2026-11-06T16:53:58.806356+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznptn3xuc2v": [
+   88,
+   "2026-11-06T16:53:58.806356+00:00"
   ]
  }
 }
