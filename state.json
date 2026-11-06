@@ -2837,18 +2837,26 @@
   "https://www.techspot.com/review/3193-gpu-for-budget-pc-scaling-test/",
   "6aecae082a4c06c56ac337fb",
   "a744c54a97b3fc053aceb56711ef87ae",
-  "https://www.neowin.net/news/powertoys-01023101-fixes-mouse-without-borders-pairing-failures/"
+  "https://www.neowin.net/news/powertoys-01023101-fixes-mouse-without-borders-pairing-failures/",
+  "hn:50386789",
+  "hn:50389420",
+  "hn:50390124",
+  "https://www.engadget.com/2308870/perplexity-teammates-ai-agents-for-ongoing-work/",
+  "https://www.theverge.com/?p=1028302",
+  "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+  "623e42969298b92bd5393130",
+  "3239407"
  ],
  "posted": {
-  "viral": 561,
-  "editorial": 730
+  "viral": 563,
+  "editorial": 732
  },
  "recent_labels": [
-  "The Register",
-  "Lobsters",
-  "TechSpot",
-  "Hi-Tech Mail",
-  "Neowin"
+  "Neowin",
+  "Hacker News",
+  "Hacker News",
+  "Engadget",
+  "The Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -9123,60 +9131,37 @@
    "source": "Neowin",
    "score": 0.18323,
    "at": "2026-11-06T10:55:03.321105+00:00"
+  },
+  {
+   "title": "جایگزینی مدرن و بهینه برای پشته شبکه MacTCP در کامپیوترهای قدیمی مک",
+   "url": "https://github.com/matthewmrichter/mooftcp",
+   "source": "github.com",
+   "score": 0.03526,
+   "at": "2026-11-06T11:53:43.146778+00:00"
+  },
+  {
+   "title": "مسدودسازی دسترسی کاربران GrapheneOS توسط بانک هلندی ASN",
+   "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+   "source": "github.com",
+   "score": 0.43169,
+   "at": "2026-11-06T11:53:50.669153+00:00"
+  },
+  {
+   "title": "عرضه‌ی ایجنت‌های هوشمند Perplexity برای انجام خودکار وظایف کاری",
+   "url": "https://www.engadget.com/2308870/perplexity-teammates-ai-agents-for-ongoing-work/",
+   "source": "Engadget",
+   "score": 0.37295,
+   "at": "2026-11-06T11:53:56.132329+00:00"
+  },
+  {
+   "title": "مدیریت آسیب‌پذیری‌های نرم‌افزاری با استفاده از مدل‌های هوش مصنوعی",
+   "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+   "source": "The Hacker News",
+   "score": 0.24322,
+   "at": "2026-11-06T11:54:01.952487+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "across",
-    "britland",
-    "days",
-    "extensions",
-    "landline",
-    "openreach",
-    "phones",
-    "switch"
-   ],
-   "at": "2026-11-01T09:54:12.449837+00:00"
-  },
-  {
-   "sig": [
-    "campaign",
-    "grapheneos",
-    "smear",
-    "towards"
-   ],
-   "at": "2026-11-01T10:53:40.961228+00:00"
-  },
-  {
-   "sig": [
-    "best",
-    "chromebooks",
-    "google",
-    "googlebooks",
-    "laptops",
-    "touch"
-   ],
-   "at": "2026-11-01T10:53:46.997263+00:00"
-  },
-  {
-   "sig": [
-    "20k",
-    "7.4",
-    "approaching",
-    "commits",
-    "lines",
-    "linux",
-    "merge",
-    "million",
-    "nearly",
-    "saw",
-    "source",
-    "tree",
-    "window"
-   ],
-   "at": "2026-11-01T10:53:54.052833+00:00"
-  },
   {
    "sig": [
     "astray",
@@ -13080,21 +13065,60 @@
     "without"
    ],
    "at": "2026-11-06T10:55:03.321105+00:00"
+  },
+  {
+   "sig": [
+    "68k",
+    "macs",
+    "mactcp",
+    "modern",
+    "mooftcp",
+    "replacement"
+   ],
+   "at": "2026-11-06T11:53:43.146778+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "asn",
+    "bank",
+    "blocks",
+    "dutch",
+    "grapheneos",
+    "idealist",
+    "including",
+    "non-google"
+   ],
+   "at": "2026-11-06T11:53:50.669153+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "company",
+    "daily",
+    "launches",
+    "own",
+    "perplexity",
+    "take",
+    "tasks",
+    "teammates",
+    "work"
+   ],
+   "at": "2026-11-06T11:53:56.132329+00:00"
+  },
+  {
+   "sig": [
+    "already",
+    "coming",
+    "flood",
+    "full",
+    "pipes",
+    "were"
+   ],
+   "at": "2026-11-06T11:54:01.952487+00:00"
   }
  ],
  "snapshots": {
-  "hn:50237224": [
-   201,
-   "2026-10-26T10:53:52.281993+00:00"
-  ],
-  "hn:50239748": [
-   173,
-   "2026-10-26T10:53:52.281993+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myqidh5bo22x": [
-   6,
-   "2026-10-26T10:53:52.281993+00:00"
-  ],
   "hn:50238708": [
    336,
    "2026-10-26T11:17:26.143656+00:00"
@@ -15475,13 +15499,25 @@
    67,
    "2026-11-06T09:54:14.496217+00:00"
   ],
-  "hn:50386597": [
-   273,
-   "2026-11-06T10:54:14.708116+00:00"
-  ],
   "lobsters:q0ld7f": [
    25,
    "2026-11-06T10:54:14.708116+00:00"
+  ],
+  "hn:50386597": [
+   277,
+   "2026-11-06T11:53:39.545270+00:00"
+  ],
+  "hn:50390124": [
+   300,
+   "2026-11-06T11:53:39.545270+00:00"
+  ],
+  "hn:50389420": [
+   157,
+   "2026-11-06T11:53:39.545270+00:00"
+  ],
+  "hn:50386789": [
+   92,
+   "2026-11-06T11:53:39.545270+00:00"
   ]
  }
 }
