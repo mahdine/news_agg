@@ -2857,18 +2857,26 @@
   "https://www.theverge.com/?p=1028549",
   "https://www.theverge.com/?p=1026410",
   "c668734416915fad2b9abf6fe70f02d9",
-  "a896b75ecdbd3624ab4609051e0e2246"
+  "a896b75ecdbd3624ab4609051e0e2246",
+  "lobsters:jmdchp",
+  "1dc45a2555a57fe39f54085b382cbc5f",
+  "fb7edf7043c330a01d2a513cc29ef43b",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzngbjtq4c2n",
+  "https://techcrunch.com/?p=3185667",
+  "EePpQjXaUq2JkjrvFGC4HS",
+  "https://www.androidpolice.com/i-thought-my-battery-was-failing-until-i-adjusted-these-memory-settings-in-chrome/",
+  "https://techcrunch.com/?p=3185376"
  ],
  "posted": {
   "viral": 564,
-  "editorial": 734
+  "editorial": 738
  },
  "recent_labels": [
-  "Engadget",
-  "The Hacker News",
-  "Hacker News",
-  "The Next Web",
-  "The Verge"
+  "The Verge",
+  "Hi-Tech Mail",
+  "TechCrunch AI",
+  "Android Police",
+  "TechCrunch AI"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -9192,46 +9200,37 @@
    "source": "The Verge",
    "score": 0.22924,
    "at": "2026-11-06T12:54:48.613887+00:00"
+  },
+  {
+   "title": "افزایش هزینه‌های تحمیلی شرکت‌های مدیریت ساختمان به ارائه‌دهندگان اینترنت در روسیه",
+   "url": "https://hi-tech.mail.ru/news/159916-uk-vchetvero-podnyali-platu-za-dostup-v-doma-dlya-provajderov/",
+   "source": "Hi-Tech Mail",
+   "score": 0.17516,
+   "at": "2026-11-06T13:03:15.654535+00:00"
+  },
+  {
+   "title": "جذب سرمایه ۱۰ میلیون دلاری Physicl برای آموزش واقع‌گرایانه ربات‌ها",
+   "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+   "source": "TechCrunch AI",
+   "score": 0.28578,
+   "at": "2026-11-06T13:03:22.854036+00:00"
+  },
+  {
+   "title": "بهینه‌سازی مصرف انرژی و رم در مرورگر Chrome برای افزایش شارژدهی لپ‌تاپ",
+   "url": "https://www.androidpolice.com/i-thought-my-battery-was-failing-until-i-adjusted-these-memory-settings-in-chrome/",
+   "source": "Android Police",
+   "score": 0.21443,
+   "at": "2026-11-06T13:03:30.955201+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل هوش مصنوعی ۳۲ مگابایتی برای اجرا روی دستگاه‌های شخصی",
+   "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+   "source": "TechCrunch AI",
+   "score": 0.2859,
+   "at": "2026-11-06T13:03:38.271232+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "actually",
-    "cluttered",
-    "downloads",
-    "files",
-    "folder",
-    "gave",
-    "gemini",
-    "mac",
-    "search",
-    "sorted",
-    "way"
-   ],
-   "at": "2026-11-01T11:56:32.811687+00:00"
-  },
-  {
-   "sig": [
-    "alliance",
-    "canada",
-    "computing",
-    "depend",
-    "doesn",
-    "europe",
-    "team",
-    "washington"
-   ],
-   "at": "2026-11-01T11:56:43.035341+00:00"
-  },
-  {
-   "sig": [
-    "editors",
-    "emacs",
-    "mother"
-   ],
-   "at": "2026-11-01T11:56:49.716489+00:00"
-  },
   {
    "sig": [
     "app",
@@ -13153,17 +13152,47 @@
     "year"
    ],
    "at": "2026-11-06T12:54:48.613887+00:00"
+  },
+  {
+   "sig": [
+    "10m",
+    "digital",
+    "enough",
+    "physicl",
+    "raises",
+    "real",
+    "robots",
+    "world"
+   ],
+   "at": "2026-11-06T13:03:22.854036+00:00"
+  },
+  {
+   "sig": [
+    "adjusted",
+    "battery",
+    "chrome",
+    "failing",
+    "memory",
+    "settings",
+    "these",
+    "thought",
+    "until"
+   ],
+   "at": "2026-11-06T13:03:30.955201+00:00"
+  },
+  {
+   "sig": [
+    "32mb",
+    "demo",
+    "model",
+    "shows",
+    "speech",
+    "underdog"
+   ],
+   "at": "2026-11-06T13:03:38.271232+00:00"
   }
  ],
  "snapshots": {
-  "hn:50239430": [
-   111,
-   "2026-10-26T12:59:32.574542+00:00"
-  ],
-  "lobsters:mu3xcd": [
-   27,
-   "2026-10-26T12:59:32.574542+00:00"
-  ],
   "hn:50242734": [
    214,
    "2026-10-26T13:53:43.540512+00:00"
@@ -15555,6 +15584,14 @@
   "hn:50389448": [
    148,
    "2026-11-06T12:53:49.362377+00:00"
+  ],
+  "lobsters:jmdchp": [
+   28,
+   "2026-11-06T13:03:01.806168+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzngbjtq4c2n": [
+   5,
+   "2026-11-06T13:03:01.806168+00:00"
   ]
  }
 }
