@@ -2961,18 +2961,26 @@
   "hn:50401867",
   "pK6BjqjFXb9SLngdfLocNa",
   "rPQzXMiFXsMhWg57yA2qg9",
-  "https://www.neowin.net/news/windows-11-gains-more-steam-users-as-16gb-ram-widens-its-lead/"
+  "https://www.neowin.net/news/windows-11-gains-more-steam-users-as-16gb-ram-widens-its-lead/",
+  "hn:50401740",
+  "https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://science.slashdot.org/story/26/11/07/0216257/vibrating-mattress-helps-clear-alzheimers-protein-from-the-brain?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "20c5724570f4263d135630c7bafdf538",
+  "3240781",
+  "https://www.theregister.com/a/5307862",
+  "WZPPDcrYT5GdSGuBYfDsKT",
+  "6ad3f304c6d34cf8604718c913e50494"
  ],
  "posted": {
   "viral": 597,
-  "editorial": 762
+  "editorial": 763
  },
  "recent_labels": [
-  "Android Police",
   "Neowin",
   "Android Police",
   "Hacker News",
-  "Neowin"
+  "Neowin",
+  "InfoQ"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6804,24 +6812,16 @@
    "source": "Neowin",
    "score": 0.15805,
    "at": "2026-11-07T06:54:08.552322+00:00"
+  },
+  {
+   "title": "معرفی ابزار Bumpy برای مدیریت نسخه‌گذاری و تغییرات در پروژه‌های Monorepo",
+   "url": "https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.08056,
+   "at": "2026-11-07T08:53:53.884914+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "deploys",
-    "expertise",
-    "first",
-    "intelligence",
-    "model",
-    "nisco",
-    "scale",
-    "steel",
-    "swarm-intelligence",
-    "world"
-   ],
-   "at": "2026-11-02T09:54:26.979103+00:00"
-  },
   {
    "sig": [
     "awkward",
@@ -10793,13 +10793,21 @@
     "windows"
    ],
    "at": "2026-11-07T06:54:08.552322+00:00"
+  },
+  {
+   "sig": [
+    "alternative",
+    "bumpy",
+    "changesets",
+    "file-based",
+    "releases",
+    "varlock",
+    "versioning"
+   ],
+   "at": "2026-11-07T08:53:53.884914+00:00"
   }
  ],
  "snapshots": {
-  "hn:50253529": [
-   71,
-   "2026-10-27T05:53:48.300336+00:00"
-  ],
   "lobsters:cxxcik": [
    28,
    "2026-10-27T05:53:48.300336+00:00"
@@ -13195,6 +13203,10 @@
   "hn:50401029": [
    140,
    "2026-11-07T06:53:44.914513+00:00"
+  ],
+  "hn:50401740": [
+   145,
+   "2026-11-07T08:53:50.893932+00:00"
   ]
  }
 }
