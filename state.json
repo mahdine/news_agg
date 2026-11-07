@@ -2916,18 +2916,24 @@
   "hn:50394855",
   "hn:50394906",
   "hn:50395318",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznwhwv7pc2v"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznwhwv7pc2v",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mznxnk6tfc2q",
+  "hn:50396064",
+  "hn:50397017",
+  "hn:50397219",
+  "hn:50397264",
+  "hn:50397429"
  ],
  "posted": {
-  "viral": 580,
+  "viral": 585,
   "editorial": 751
  },
  "recent_labels": [
-  "Lobsters",
+  "Simon Willison",
   "Hacker News",
   "Hacker News",
   "Hacker News",
-  "404 Media"
+  "Hacker News"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6563,75 +6569,44 @@
    "source": "404media.co",
    "score": 0.16641,
    "at": "2026-11-06T20:00:06.231408+00:00"
+  },
+  {
+   "title": "نقد کارایی محصولات مبتنی بر هوش مصنوعی در بازار فعلی",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3mznxnk6tfc2q",
+   "source": "Simon Willison",
+   "score": 0.11032,
+   "at": "2026-11-07T00:10:29.067081+00:00"
+  },
+  {
+   "title": "شناسایی بیش از ۱۵ هزار وب‌سایت آلوده به کدهای مخرب جاوا اسکریپت",
+   "url": "https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/",
+   "source": "scotthelme.co.uk",
+   "score": 0.02203,
+   "at": "2026-11-07T00:10:36.262806+00:00"
+  },
+  {
+   "title": "کمپین گسترده فیشینگ با شبیه‌سازی وب‌سایت‌های سفارش آنلاین غذا",
+   "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+   "source": "infohawk.com",
+   "score": 0.02186,
+   "at": "2026-11-07T00:10:53.101730+00:00"
+  },
+  {
+   "title": "نفوذ به میزبان از طریق فرار از محیط ایزوله‌ی Firecracker",
+   "url": "https://pwn.ai/blog/firecracker-escape",
+   "source": "pwn.ai",
+   "score": 0.02974,
+   "at": "2026-11-07T00:11:02.309859+00:00"
+  },
+  {
+   "title": "بهینه‌سازی دقت مدل‌های زبانی در فرآیند تفکیک هویت با مدل ترکیبی",
+   "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+   "source": "hightouch.com",
+   "score": 0.03651,
+   "at": "2026-11-07T00:11:09.999058+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "apollo",
-    "companies",
-    "delivers",
-    "economist",
-    "financial",
-    "payoff",
-    "zero"
-   ],
-   "at": "2026-11-02T01:54:24.056223+00:00"
-  },
-  {
-   "sig": [
-    "chats",
-    "company",
-    "cto",
-    "current",
-    "eight",
-    "employees",
-    "former",
-    "manifesto",
-    "media",
-    "meeting",
-    "proton",
-    "recordings",
-    "reviewed",
-    "slack",
-    "spoke",
-    "written"
-   ],
-   "at": "2026-11-02T01:54:29.699309+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "auto",
-    "better",
-    "carplay",
-    "features",
-    "google",
-    "maps",
-    "work"
-   ],
-   "at": "2026-11-02T01:54:35.597069+00:00"
-  },
-  {
-   "sig": [
-    "delete",
-    "doubt",
-    "file",
-    "uv.lock"
-   ],
-   "at": "2026-11-02T02:53:51.307128+00:00"
-  },
-  {
-   "sig": [
-    "death",
-    "exaggerated",
-    "greatly",
-    "overflow",
-    "reports",
-    "stack"
-   ],
-   "at": "2026-11-02T02:53:57.433965+00:00"
-  },
   {
    "sig": [
     "3.2",
@@ -10591,61 +10566,71 @@
     "wide"
    ],
    "at": "2026-11-06T20:00:06.231408+00:00"
+  },
+  {
+   "sig": [
+    "aren",
+    "costs",
+    "enough",
+    "episode",
+    "good",
+    "latest",
+    "loved",
+    "people",
+    "products",
+    "reckless.bsky.social",
+    "riff",
+    "sell",
+    "u4t",
+    "vergecast",
+    "watch",
+    "www.youtube.com"
+   ],
+   "at": "2026-11-07T00:10:29.067081+00:00"
+  },
+  {
+   "sig": [
+    "15k",
+    "infected",
+    "know",
+    "tell",
+    "websites"
+   ],
+   "at": "2026-11-07T00:10:36.262806+00:00"
+  },
+  {
+   "sig": [
+    "campaign",
+    "delivery",
+    "payment-skimming",
+    "restaurant"
+   ],
+   "at": "2026-11-07T00:10:53.101730+00:00"
+  },
+  {
+   "sig": [
+    "escape",
+    "firecracker",
+    "part",
+    "pwnescape"
+   ],
+   "at": "2026-11-07T00:11:02.309859+00:00"
+  },
+  {
+   "sig": [
+    "accuracy",
+    "ask",
+    "cost",
+    "gives",
+    "help",
+    "jev",
+    "lower",
+    "opus"
+   ],
+   "at": "2026-11-07T00:11:09.999058+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:ysyqnt": [
-   31,
-   "2026-10-26T22:47:11.774119+00:00"
-  ],
-  "hn:50251344": [
-   808,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "hn:50248005": [
-   616,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "lobsters:6ntoqr": [
-   50,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysg7aosuk2a": [
-   900,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysdcaw54d2i": [
-   347,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysca4dxes2a": [
-   1109,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "hn:50248124": [
-   1141,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "lobsters:o5to4p": [
-   29,
-   "2026-10-27T01:53:42.360285+00:00"
-  ],
-  "hn:50247928": [
-   259,
-   "2026-10-27T02:53:40.374883+00:00"
-  ],
-  "hn:50246658": [
-   489,
-   "2026-10-27T02:53:40.374883+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mysifpvex22y": [
-   112,
-   "2026-10-27T02:53:40.374883+00:00"
-  ],
-  "hn:50252159": [
-   133,
-   "2026-10-27T02:53:40.374883+00:00"
-  ],
   "hn:50251661": [
    624,
    "2026-10-27T02:53:40.374883+00:00"
@@ -12954,18 +12939,6 @@
    163,
    "2026-11-06T17:53:42.559297+00:00"
   ],
-  "hn:50396064": [
-   166,
-   "2026-11-06T19:59:38.450036+00:00"
-  ],
-  "hn:50395933": [
-   76,
-   "2026-11-06T19:59:38.450036+00:00"
-  ],
-  "hn:50395905": [
-   207,
-   "2026-11-06T19:59:38.450036+00:00"
-  ],
   "hn:50395318": [
    94,
    "2026-11-06T19:59:38.450036+00:00"
@@ -12990,9 +12963,73 @@
    126,
    "2026-11-06T19:59:38.450036+00:00"
   ],
+  "hn:50396064": [
+   380,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50395933": [
+   106,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50395905": [
+   326,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mznxnk6tfc2q": [
-   161,
-   "2026-11-06T19:59:38.450036+00:00"
+   282,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50399657": [
+   116,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50397994": [
+   425,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50397429": [
+   415,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50397264": [
+   155,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50397219": [
+   283,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50397102": [
+   342,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50397017": [
+   134,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50396834": [
+   81,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50395919": [
+   89,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50395450": [
+   186,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50394292": [
+   97,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "hn:50393089": [
+   66,
+   "2026-11-07T00:09:39.116316+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzogsdavd22r": [
+   104,
+   "2026-11-07T00:09:39.116316+00:00"
   ]
  }
 }
