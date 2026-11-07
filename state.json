@@ -1,16 +1,5 @@
 {
  "seen": [
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3msbpz3kmak27",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3ms7ccvfvbk2r",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3ms42wydw4k2h",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mry67nj6jk25",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mry3ilyu7s2f",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mrxxwdfhxk2o",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mrxwydoc5k25",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mrx6kneuhc2i",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mrr3z77wj224",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mrqeabti3s2y",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mriy5j5l322j",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mrbjg3u5tk2z",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mrakxzlam22f",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mr7bxnbqls2x",
@@ -2999,18 +2988,29 @@
   "https://www.theverge.com/?p=1028917",
   "https://www.androidpolice.com/charging-pad-built-into-mouse-mat-changed-everything/",
   "https://www.engadget.com/2305767/gamers-tsa-game-console-rules/",
-  "https://www.engadget.com/2305919/gps-navigation-app-go-to-older-drivers-google-maps/"
+  "https://www.engadget.com/2305919/gps-navigation-app-go-to-older-drivers-google-maps/",
+  "https://www.theverge.com/1029489/nyt-cookings-ai-assistant-saved-my-weeknight-chicken-but-almost-ruined-my-cake",
+  "https://www.theverge.com/?p=1029474",
+  "hn:50405678",
+  "https://www.theverge.com/?p=1023230",
+  "https://linux.slashdot.org/story/26/11/07/0330255/almalinux-shows-advantages-of-abi-compatibility-after-rhel-restricted-source-code-access?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "q599y5g6b2pCjZdhgWk9nR",
+  "https://www.androidpolice.com/i-ditched-my-webcam-for-androids-webcam-mode/",
+  "M9Dpp84aCEg4dFSuXbFmXQ",
+  "PB47yxeEAu997knjGfVSAB",
+  "z5U7u4DYDK2HwbDnoj5o9K",
+  "sB4xwCGpYDvcr8t5FtQ34Y"
  ],
  "posted": {
-  "viral": 600,
-  "editorial": 786
+  "viral": 601,
+  "editorial": 789
  },
  "recent_labels": [
-  "Phoronix",
-  "TechRadar",
-  "Engadget",
-  "Engadget",
-  "Neowin"
+  "Neowin",
+  "The Verge",
+  "Hacker News",
+  "Slashdot",
+  "Android Police"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7031,52 +7031,37 @@
    "source": "Neowin",
    "score": 0.112,
    "at": "2026-11-07T16:54:43.754454+00:00"
+  },
+  {
+   "title": "دستیار هوش مصنوعی اپلیکیشن NYT Cooking برای شخصی‌سازی دستور پخت غذاها",
+   "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+   "source": "The Verge",
+   "score": 0.09254,
+   "at": "2026-11-07T17:48:07.053254+00:00"
+  },
+  {
+   "title": "نگاهی به تاریخچه و تأثیرگذاری ابزار برنامه‌نویسی Borland Turbo Pascal 7",
+   "url": "https://kevinboone.me/tpwin.html",
+   "source": "kevinboone.me",
+   "score": 0.45045,
+   "at": "2026-11-07T17:48:13.713496+00:00"
+  },
+  {
+   "title": "مزایای سازگاری ABI در AlmaLinux پس از محدودیت‌های دسترسی Red Hat",
+   "url": "https://linux.slashdot.org/story/26/11/07/0330255/almalinux-shows-advantages-of-abi-compatibility-after-rhel-restricted-source-code-access?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.14263,
+   "at": "2026-11-07T17:48:44.490203+00:00"
+  },
+  {
+   "title": "استفاده از دوربین گوشی‌های اندرویدی به عنوان وب‌کم با کیفیت بالا",
+   "url": "https://www.androidpolice.com/i-ditched-my-webcam-for-androids-webcam-mode/",
+   "source": "Android Police",
+   "score": 0.12247,
+   "at": "2026-11-07T17:48:51.334345+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "amounts",
-    "assuming",
-    "ever-growing",
-    "need",
-    "ram",
-    "reflex",
-    "servers"
-   ],
-   "at": "2026-11-02T17:53:45.180940+00:00"
-  },
-  {
-   "sig": [
-    "back",
-    "love",
-    "website"
-   ],
-   "at": "2026-11-02T17:53:51.721432+00:00"
-  },
-  {
-   "sig": [
-    "centre",
-    "city",
-    "interactive",
-    "map",
-    "show",
-    "voxels",
-    "warsaw"
-   ],
-   "at": "2026-11-02T17:54:00.490050+00:00"
-  },
-  {
-   "sig": [
-    "handing",
-    "midterm",
-    "place",
-    "polling",
-    "slop",
-    "voters"
-   ],
-   "at": "2026-11-02T17:54:07.291737+00:00"
-  },
   {
    "sig": [
     "computer",
@@ -11028,13 +11013,62 @@
     "validation"
    ],
    "at": "2026-11-07T16:54:43.754454+00:00"
+  },
+  {
+   "sig": [
+    "almost",
+    "assistant",
+    "cake",
+    "chicken",
+    "cooking",
+    "nyt",
+    "ruined",
+    "saved",
+    "weeknight"
+   ],
+   "at": "2026-11-07T17:48:07.053254+00:00"
+  },
+  {
+   "sig": [
+    "any",
+    "borland",
+    "don",
+    "like",
+    "pascal",
+    "turbo"
+   ],
+   "at": "2026-11-07T17:48:13.713496+00:00"
+  },
+  {
+   "sig": [
+    "abi",
+    "access",
+    "advantages",
+    "almalinux",
+    "code",
+    "compatibility",
+    "restricted",
+    "rhel",
+    "shows",
+    "source"
+   ],
+   "at": "2026-11-07T17:48:44.490203+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "improved",
+    "instantly",
+    "mode",
+    "quality",
+    "replaced",
+    "video",
+    "webcam"
+   ],
+   "at": "2026-11-07T17:48:51.334345+00:00"
   }
  ],
  "snapshots": {
-  "hn:50257326": [
-   116,
-   "2026-10-27T12:53:43.248948+00:00"
-  ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mytn3azq3e2o": [
    17,
    "2026-10-27T12:53:43.248948+00:00"
@@ -13424,12 +13458,16 @@
    "2026-11-07T14:53:44.912910+00:00"
   ],
   "hn:50402212": [
-   225,
-   "2026-11-07T16:54:27.768827+00:00"
+   245,
+   "2026-11-07T17:48:03.767993+00:00"
   ],
   "lobsters:j63dme": [
    33,
-   "2026-11-07T16:54:27.768827+00:00"
+   "2026-11-07T17:48:03.767993+00:00"
+  ],
+  "hn:50405678": [
+   169,
+   "2026-11-07T17:48:03.767993+00:00"
   ]
  }
 }
