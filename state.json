@@ -2930,10 +2930,16 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzogsdavd22r",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzohdkdxlk25",
   "hn:50399569",
-  "hn:50399657"
+  "hn:50399657",
+  "hn:50393089",
+  "hn:50394292",
+  "hn:50395450",
+  "hn:50397994",
+  "hn:50399695",
+  "lobsters:0ouxwf"
  ],
  "posted": {
-  "viral": 589,
+  "viral": 594,
   "editorial": 751
  },
  "recent_labels": [
@@ -2941,7 +2947,7 @@
   "Hacker News",
   "Hacker News",
   "Hacker News",
-  "Hacker News"
+  "Lobsters"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6640,68 +6646,44 @@
    "source": "community.openai.com",
    "score": 0.02574,
    "at": "2026-11-07T01:56:01.365821+00:00"
+  },
+  {
+   "title": "بهینه‌سازی مسیریابی جغرافیایی با استفاده از قابلیت Scriptable DNS در Bunny",
+   "url": "https://vincent.bernat.ch/en/blog/2026-bunny-geodns",
+   "source": "vincent.bernat.ch",
+   "score": 0.00183,
+   "at": "2026-11-07T02:53:47.007067+00:00"
+  },
+  {
+   "title": "ابزار devvm برای ایجاد محیط‌های توسعه ایزوله و امن",
+   "url": "https://devvm.dev/",
+   "source": "devvm.dev",
+   "score": 0.0008,
+   "at": "2026-11-07T02:53:52.614334+00:00"
+  },
+  {
+   "title": "شتاب‌گیری چشمگیر در توسعه هوش مصنوعی توسط شرکت Anthropic",
+   "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+   "source": "planned-obsolescence.org",
+   "score": 0.0018,
+   "at": "2026-11-07T02:53:59.091167+00:00"
+  },
+  {
+   "title": "امکان برقراری تماس‌های صوتی خروجی با استفاده از پروتکل SIP در OpenAI",
+   "url": "https://developers.openai.com/api/docs/guides/voice-sip",
+   "source": "developers.openai.com",
+   "score": 0.01098,
+   "at": "2026-11-07T02:54:23.186462+00:00"
+  },
+  {
+   "title": "انتشار نسخه‌ی ۱.۰ کتابخانه‌ی libghostty برای شبیه‌سازی ترمینال",
+   "url": "https://mitchellh.com/writing/libghostty-1-0",
+   "source": "mitchellh.com",
+   "score": 0.16815,
+   "at": "2026-11-07T02:54:30.943384+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "glasses",
-    "prescription",
-    "replace",
-    "should"
-   ],
-   "at": "2026-11-02T03:53:52.814679+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "auto",
-    "balance",
-    "could",
-    "next",
-    "update",
-    "upset",
-    "work-life"
-   ],
-   "at": "2026-11-02T03:53:58.795816+00:00"
-  },
-  {
-   "sig": [
-    "advertisers",
-    "asian",
-    "changes",
-    "customs",
-    "due",
-    "europe",
-    "google",
-    "less",
-    "spending"
-   ],
-   "at": "2026-11-02T03:54:05.440950+00:00"
-  },
-  {
-   "sig": [
-    "across",
-    "andy",
-    "begin",
-    "company",
-    "email",
-    "engineering",
-    "extending",
-    "interviewed",
-    "interviews",
-    "leaders",
-    "leaked",
-    "process",
-    "product",
-    "proton-to-re",
-    "senior",
-    "those",
-    "www.404media.co",
-    "yen"
-   ],
-   "at": "2026-11-02T03:54:11.783547+00:00"
-  },
   {
    "sig": [
     "app",
@@ -10643,17 +10625,45 @@
     "wants"
    ],
    "at": "2026-11-07T01:56:01.365821+00:00"
+  },
+  {
+   "sig": [
+    "aws",
+    "bunny",
+    "geodns",
+    "leaving",
+    "scriptable"
+   ],
+   "at": "2026-11-07T02:53:47.007067+00:00"
+  },
+  {
+   "sig": [
+    "devvm.dev",
+    "every",
+    "project"
+   ],
+   "at": "2026-11-07T02:53:52.614334+00:00"
+  },
+  {
+   "sig": [
+    "accelerating",
+    "dramatically",
+    "research"
+   ],
+   "at": "2026-11-07T02:53:59.091167+00:00"
+  },
+  {
+   "sig": [
+    "available",
+    "calling",
+    "organizations",
+    "outbound",
+    "sip"
+   ],
+   "at": "2026-11-07T02:54:23.186462+00:00"
   }
  ],
  "snapshots": {
-  "hn:50246238": [
-   188,
-   "2026-10-27T03:53:40.352794+00:00"
-  ],
-  "hn:50245945": [
-   104,
-   "2026-10-27T03:53:40.352794+00:00"
-  ],
   "lobsters:c0yniy": [
    37,
    "2026-10-27T03:53:40.352794+00:00"
@@ -12990,10 +13000,6 @@
    134,
    "2026-11-07T00:09:39.116316+00:00"
   ],
-  "hn:50395933": [
-   112,
-   "2026-11-07T01:53:44.263113+00:00"
-  ],
   "hn:50395905": [
    335,
    "2026-11-07T01:53:44.263113+00:00"
@@ -13002,32 +13008,12 @@
    227,
    "2026-11-07T01:53:44.263113+00:00"
   ],
-  "hn:50397994": [
-   507,
-   "2026-11-07T01:53:44.263113+00:00"
-  ],
-  "hn:50397102": [
-   358,
-   "2026-11-07T01:53:44.263113+00:00"
-  ],
   "hn:50396834": [
    102,
    "2026-11-07T01:53:44.263113+00:00"
   ],
   "hn:50395919": [
    100,
-   "2026-11-07T01:53:44.263113+00:00"
-  ],
-  "hn:50395450": [
-   215,
-   "2026-11-07T01:53:44.263113+00:00"
-  ],
-  "hn:50394292": [
-   97,
-   "2026-11-07T01:53:44.263113+00:00"
-  ],
-  "hn:50393089": [
-   67,
    "2026-11-07T01:53:44.263113+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzogsdavd22r": [
@@ -13045,6 +13031,38 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzohdkdxlk25": [
    5,
    "2026-11-07T01:53:44.263113+00:00"
+  ],
+  "hn:50395933": [
+   114,
+   "2026-11-07T02:53:42.182483+00:00"
+  ],
+  "hn:50397994": [
+   538,
+   "2026-11-07T02:53:42.182483+00:00"
+  ],
+  "hn:50397102": [
+   366,
+   "2026-11-07T02:53:42.182483+00:00"
+  ],
+  "hn:50395450": [
+   229,
+   "2026-11-07T02:53:42.182483+00:00"
+  ],
+  "hn:50394292": [
+   99,
+   "2026-11-07T02:53:42.182483+00:00"
+  ],
+  "hn:50393089": [
+   69,
+   "2026-11-07T02:53:42.182483+00:00"
+  ],
+  "hn:50399695": [
+   126,
+   "2026-11-07T02:53:42.182483+00:00"
+  ],
+  "lobsters:0ouxwf": [
+   29,
+   "2026-11-07T02:53:42.182483+00:00"
   ]
  }
 }
