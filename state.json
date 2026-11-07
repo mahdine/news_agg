@@ -1,13 +1,5 @@
 {
  "seen": [
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mt2ynhrlk22z",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3msz2okp6d22f",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3msjr3mlnz22x",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mseqv5z4qk2z",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3msepngc2kk26",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3msed56zylc2c",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3msectisgws27",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3msc7zqolvk2b",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3msbpz3kmak27",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3ms7ccvfvbk2r",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3ms42wydw4k2h",
@@ -2999,18 +2991,26 @@
   "https://www.theregister.com/a/5308277",
   "349A3qJiXg3eaN7UmLyUXn",
   "https://www.phoronix.com/news/GNU-Automake-1.20",
-  "2QDisPw3dRBaznJDuaSNbM"
+  "2QDisPw3dRBaznJDuaSNbM",
+  "https://www.engadget.com/2304970/how-to-build-live-streaming-setup-with-old-tablet/",
+  "https://www.techspot.com/news/114479-after-buying-ea-silver-lake-pif-reportedly-offer.html",
+  "https://www.engadget.com/2305456/why-isopropyl-alcohol-degrades-pc-cleaning/",
+  "https://www.neowin.net/news/microsoft-outlook-spf-validation-error-blocks-email-sending-and-receiving/",
+  "https://www.theverge.com/?p=1028917",
+  "https://www.androidpolice.com/charging-pad-built-into-mouse-mat-changed-everything/",
+  "https://www.engadget.com/2305767/gamers-tsa-game-console-rules/",
+  "https://www.engadget.com/2305919/gps-navigation-app-go-to-older-drivers-google-maps/"
  ],
  "posted": {
   "viral": 600,
-  "editorial": 783
+  "editorial": 786
  },
  "recent_labels": [
-  "The Verge",
-  "The Register",
-  "TechRadar",
   "Phoronix",
-  "TechRadar"
+  "TechRadar",
+  "Engadget",
+  "Engadget",
+  "Neowin"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7010,59 +7010,30 @@
    "source": "TechRadar",
    "score": 0.16212,
    "at": "2026-11-07T15:54:06.701978+00:00"
+  },
+  {
+   "title": "تبدیل تبلت‌های قدیمی به کنترلر استریم با اپلیکیشن Elgato",
+   "url": "https://www.engadget.com/2304970/how-to-build-live-streaming-setup-with-old-tablet/",
+   "source": "Engadget",
+   "score": 0.10022,
+   "at": "2026-11-07T16:54:30.099321+00:00"
+  },
+  {
+   "title": "خطرات استفاده از الکل ایزوپروپیل تاریخ‌گذشته برای تمیز کردن قطعات کامپیوتر",
+   "url": "https://www.engadget.com/2305456/why-isopropyl-alcohol-degrades-pc-cleaning/",
+   "source": "Engadget",
+   "score": 0.11495,
+   "at": "2026-11-07T16:54:38.255003+00:00"
+  },
+  {
+   "title": "اختلال در سرویس ایمیل Outlook به دلیل خطای اعتبارسنجی SPF",
+   "url": "https://www.neowin.net/news/microsoft-outlook-spf-validation-error-blocks-email-sending-and-receiving/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.112,
+   "at": "2026-11-07T16:54:43.754454+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "17b",
-    "895b",
-    "anthropic",
-    "commitments",
-    "reports",
-    "revenue",
-    "revised",
-    "s-1"
-   ],
-   "at": "2026-11-02T16:54:27.132333+00:00"
-  },
-  {
-   "sig": [
-    "across",
-    "big",
-    "built",
-    "centers",
-    "communities",
-    "data",
-    "despite",
-    "episode",
-    "keeler",
-    "kyle",
-    "lines",
-    "media",
-    "mjgault.bsky.social",
-    "nate",
-    "otjen",
-    "party",
-    "plowing",
-    "podcast",
-    "professors",
-    "residents",
-    "speaking",
-    "talk",
-    "tech",
-    "way"
-   ],
-   "at": "2026-11-02T16:55:20.694402+00:00"
-  },
-  {
-   "sig": [
-    "duckdb",
-    "moving",
-    "warehouse"
-   ],
-   "at": "2026-11-02T16:55:35.968005+00:00"
-  },
   {
    "sig": [
     "amounts",
@@ -11021,6 +10992,42 @@
     "sense"
    ],
    "at": "2026-11-07T15:54:06.701978+00:00"
+  },
+  {
+   "sig": [
+    "build",
+    "live",
+    "old",
+    "setup",
+    "streaming",
+    "tablet"
+   ],
+   "at": "2026-11-07T16:54:30.099321+00:00"
+  },
+  {
+   "sig": [
+    "alcohol",
+    "cleaning",
+    "expired",
+    "here",
+    "isopropyl",
+    "risky"
+   ],
+   "at": "2026-11-07T16:54:38.255003+00:00"
+  },
+  {
+   "sig": [
+    "blocks",
+    "email",
+    "error",
+    "microsoft",
+    "outlook",
+    "receiving",
+    "sending",
+    "spf",
+    "validation"
+   ],
+   "at": "2026-11-07T16:54:43.754454+00:00"
   }
  ],
  "snapshots": {
@@ -13417,12 +13424,12 @@
    "2026-11-07T14:53:44.912910+00:00"
   ],
   "hn:50402212": [
-   203,
-   "2026-11-07T15:53:40.400300+00:00"
+   225,
+   "2026-11-07T16:54:27.768827+00:00"
   ],
   "lobsters:j63dme": [
-   28,
-   "2026-11-07T15:53:40.400300+00:00"
+   33,
+   "2026-11-07T16:54:27.768827+00:00"
   ]
  }
 }
