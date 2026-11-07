@@ -2982,18 +2982,27 @@
   "TheNextWeb=2a29652e886ba40c4c964caabeef433f",
   "https://www.theverge.com/?p=1029338",
   "6aed11613576db1689ab3f76",
-  "QUTjCw376D8NxaiTBB8i5c"
+  "QUTjCw376D8NxaiTBB8i5c",
+  "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://news.slashdot.org/story/26/11/07/0249215/cryosphere-faces-permanent-damage-when-world-overshoots-15c-scientists-warn?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.androidpolice.com/quick-android-auto-setup-saved-road-trips-more-than-once/",
+  "7ebb7255db92c268e1994c1908a39c1e",
+  "https://www.phoronix.com/news/KDE-Plasma-6.9-Leak-Desktop",
+  "677d8d6a9c20569cd9f8080f",
+  "691e4b9bf2b91809d95c122a",
+  "69271d9a58e4e06eb6f254cb",
+  "eda3f868bce65d1ef75b691a33a5b0f9"
  ],
  "posted": {
   "viral": 599,
-  "editorial": 771
+  "editorial": 775
  },
  "recent_labels": [
-  "Hacker News",
-  "Lobsters",
-  "The Next Web",
-  "Wired",
-  "Tom's Hardware"
+  "Tom's Hardware",
+  "InfoQ",
+  "Android Police",
+  "Phoronix",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6902,43 +6911,37 @@
    "source": "Tom's Hardware",
    "score": 0.21354,
    "at": "2026-11-07T11:50:33.343863+00:00"
+  },
+  {
+   "title": "راهکار Grab برای مدیریت پایداری اپلیکیشن در عصر کدنویسی با هوش مصنوعی",
+   "url": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.14409,
+   "at": "2026-11-07T11:53:41.446180+00:00"
+  },
+  {
+   "title": "راهکارهایی برای بهینه‌سازی مصرف باتری و استفاده آفلاین از Android Auto",
+   "url": "https://www.androidpolice.com/quick-android-auto-setup-saved-road-trips-more-than-once/",
+   "source": "Android Police",
+   "score": 0.16252,
+   "at": "2026-11-07T11:53:48.618293+00:00"
+  },
+  {
+   "title": "رفع مشکل نشت حافظه در محیط دسکتاپ KDE Plasma 6.9",
+   "url": "https://www.phoronix.com/news/KDE-Plasma-6.9-Leak-Desktop",
+   "source": "Phoronix",
+   "score": 0.21551,
+   "at": "2026-11-07T11:53:56.376000+00:00"
+  },
+  {
+   "title": "پیشرفت در مهارت‌های حرکتی رباتیک با الگوریتم‌های جدید",
+   "url": "https://hi-tech.mail.ru/news/159944-lovkost-ruk-robot-sovershenstvuet-motoriku-i-vse-rezhe-ronyaet-predmety/",
+   "source": "Hi-Tech Mail",
+   "score": 0.20244,
+   "at": "2026-11-07T11:54:08.193996+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "announcement",
-    "china",
-    "controls",
-    "export",
-    "first",
-    "frontier",
-    "mofcom"
-   ],
-   "at": "2026-11-02T12:53:58.287214+00:00"
-  },
-  {
-   "sig": [
-    "forum",
-    "headless",
-    "passwords",
-    "terminal",
-    "tyrtulia"
-   ],
-   "at": "2026-11-02T12:54:05.192687+00:00"
-  },
-  {
-   "sig": [
-    "api",
-    "call",
-    "linux",
-    "show",
-    "system",
-    "updated",
-    "website"
-   ],
-   "at": "2026-11-02T12:54:10.773031+00:00"
-  },
   {
    "sig": [
     "search",
@@ -10897,6 +10900,51 @@
     "vault"
    ],
    "at": "2026-11-07T11:50:33.343863+00:00"
+  },
+  {
+   "sig": [
+    "ai-generated",
+    "app",
+    "changes",
+    "code",
+    "grab",
+    "handling",
+    "improved",
+    "mobile",
+    "safely",
+    "stability",
+    "surge"
+   ],
+   "at": "2026-11-07T11:53:41.446180+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "auto",
+    "once",
+    "quick",
+    "road",
+    "saved",
+    "setup",
+    "trips"
+   ],
+   "at": "2026-11-07T11:53:48.618293+00:00"
+  },
+  {
+   "sig": [
+    "6.9",
+    "clicking",
+    "desktop",
+    "files",
+    "folders",
+    "kde",
+    "leaking",
+    "memory",
+    "plasma",
+    "right",
+    "stop"
+   ],
+   "at": "2026-11-07T11:53:56.376000+00:00"
   }
  ],
  "snapshots": {
@@ -13293,8 +13341,8 @@
    "2026-11-07T11:49:33.399438+00:00"
   ],
   "hn:50402212": [
-   115,
-   "2026-11-07T11:49:33.399438+00:00"
+   117,
+   "2026-11-07T11:53:38.711597+00:00"
   ],
   "lobsters:ipplhe": [
    33,
