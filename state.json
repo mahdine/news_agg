@@ -2969,18 +2969,25 @@
   "3240781",
   "https://www.theregister.com/a/5307862",
   "WZPPDcrYT5GdSGuBYfDsKT",
-  "6ad3f304c6d34cf8604718c913e50494"
+  "6ad3f304c6d34cf8604718c913e50494",
+  "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+  "yRBB8PMsYYg3Mb4iNmTRrM",
+  "MxQZkDbWLNeMvVhXLXkvw",
+  "3240901",
+  "hLbXV2CQXHcXjUKZyjDzHe",
+  "oyv2cznkZH5iie3vSFy95R",
+  "SnAjEGixySMVLLgPWzPupD"
  ],
  "posted": {
   "viral": 597,
-  "editorial": 763
+  "editorial": 768
  },
  "recent_labels": [
-  "Neowin",
-  "Android Police",
-  "Hacker News",
-  "Neowin",
-  "InfoQ"
+  "The Hacker News",
+  "TechRadar",
+  "TechRadar",
+  "TechRadar",
+  "TechRadar"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6819,78 +6826,44 @@
    "source": "InfoQ",
    "score": 0.08056,
    "at": "2026-11-07T08:53:53.884914+00:00"
+  },
+  {
+   "title": "نشت کلیدهای امنیتی و رمزهای عبور در مخازن عمومی گیت‌هاب توسط Claude Code",
+   "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+   "source": "The Hacker News",
+   "score": 0.01528,
+   "at": "2026-11-07T09:53:42.781060+00:00"
+  },
+  {
+   "title": "بررسی گوشی جان‌سخت Oukitel WP63 با قابلیت عجیب فندک داخلی",
+   "url": "https://www.techradar.com/pro/phone-communications/oukitel-wp63-rugged-phone-review",
+   "source": "TechRadar",
+   "score": 0.04617,
+   "at": "2026-11-07T09:53:50.081804+00:00"
+  },
+  {
+   "title": "رفتار مودبانه کاربران بریتانیایی در تعامل با هوش مصنوعی",
+   "url": "https://www.techradar.com/pro/70-percent-of-brits-say-please-or-thank-you-when-speaking-to-ai-and-some-even-apologize",
+   "source": "TechRadar",
+   "score": 0.11523,
+   "at": "2026-11-07T09:53:57.180562+00:00"
+  },
+  {
+   "title": "خطرات امنیتی اسباب‌بازی‌های هوشمند برای کودکان",
+   "url": "https://www.techradar.com/tech/would-you-buy-your-kids-an-ai-teddy-bear-im-a-tech-loving-parent-but-i-dont-trust-these-toys-and-a-new-report-backs-me-up",
+   "source": "TechRadar",
+   "score": 0.11523,
+   "at": "2026-11-07T09:54:03.115134+00:00"
+  },
+  {
+   "title": "قابلیت جدید ChatGPT برای ساخت ابزارهای تعاملی با رابط کاربری هوشمند",
+   "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-can-now-build-custom-apps-for-you-in-seconds-without-any-coding-i-tried-making-6-of-my-own-and-the-results-surprised-me",
+   "source": "TechRadar",
+   "score": 0.02881,
+   "at": "2026-11-07T09:54:10.882307+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "awkward",
-    "britain",
-    "dream",
-    "driverless",
-    "hits",
-    "questions",
-    "roundabout"
-   ],
-   "at": "2026-11-02T09:54:35.764041+00:00"
-  },
-  {
-   "sig": [
-    "billions",
-    "blackout",
-    "costing",
-    "in-store",
-    "retailers",
-    "telemetry"
-   ],
-   "at": "2026-11-02T09:54:41.744006+00:00"
-  },
-  {
-   "sig": [
-    "6.3",
-    "6.43",
-    "addresses",
-    "billion",
-    "binance",
-    "crypto",
-    "ever",
-    "fbi",
-    "flags",
-    "heist",
-    "korea",
-    "largest",
-    "linked",
-    "links",
-    "loses",
-    "massive",
-    "north",
-    "record",
-    "tied",
-    "tradertraitor"
-   ],
-   "at": "2026-11-02T10:53:53.247952+00:00"
-  },
-  {
-   "sig": [
-    "fault",
-    "late",
-    "postgres"
-   ],
-   "at": "2026-11-02T10:53:59.845004+00:00"
-  },
-  {
-   "sig": [
-    "abusive",
-    "apps",
-    "deepfake",
-    "features",
-    "hiding",
-    "hundreds",
-    "mundane",
-    "sexually"
-   ],
-   "at": "2026-11-02T10:54:07.771598+00:00"
-  },
   {
    "sig": [
     "control",
@@ -10805,6 +10778,71 @@
     "versioning"
    ],
    "at": "2026-11-07T08:53:53.884914+00:00"
+  },
+  {
+   "sig": [
+    "again",
+    "ask",
+    "claude",
+    "code",
+    "copies",
+    "don",
+    "exposes",
+    "file",
+    "github",
+    "keys",
+    "passwords",
+    "public"
+   ],
+   "at": "2026-11-07T09:53:42.781060+00:00"
+  },
+  {
+   "sig": [
+    "oukitel",
+    "phone",
+    "review",
+    "rugged",
+    "wp63"
+   ],
+   "at": "2026-11-07T09:53:50.081804+00:00"
+  },
+  {
+   "sig": [
+    "apologize",
+    "brits",
+    "even",
+    "please",
+    "speaking",
+    "thank"
+   ],
+   "at": "2026-11-07T09:53:57.180562+00:00"
+  },
+  {
+   "sig": [
+    "bears",
+    "discovers",
+    "fears",
+    "fresh",
+    "malfunctioning",
+    "report",
+    "safety",
+    "spark",
+    "teddy",
+    "toys"
+   ],
+   "at": "2026-11-07T09:54:03.115134+00:00"
+  },
+  {
+   "sig": [
+    "answering",
+    "chatgpt",
+    "create",
+    "instead",
+    "interactive",
+    "questions",
+    "tools"
+   ],
+   "at": "2026-11-07T09:54:10.882307+00:00"
   }
  ],
  "snapshots": {
