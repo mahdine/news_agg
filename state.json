@@ -2936,18 +2936,26 @@
   "hn:50395450",
   "hn:50397994",
   "hn:50399695",
-  "lobsters:0ouxwf"
+  "lobsters:0ouxwf",
+  "TheNextWeb=bc17505a7762970fea0032e005a03aba",
+  "hn:50395933",
+  "hn:50399991",
+  "https://tech.slashdot.org/story/26/11/06/2210231/eu-says-tiktoks-rabbit-hole-effect-must-stop?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.engadget.com/2309300/the-eu-accuses-tiktoks-rabbit-hole-algorithm-of-breaching-its-content-rules/",
+  "hn:50400597",
+  "Pp5awtfTcq8SDc3RdUVU6V",
+  "ZAGz8rBouJp3Ye7jczgu2k"
  ],
  "posted": {
-  "viral": 594,
-  "editorial": 751
+  "viral": 595,
+  "editorial": 755
  },
  "recent_labels": [
+  "The Next Web",
+  "Slashdot",
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Lobsters"
+  "TechRadar",
+  "TechRadar"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6681,80 +6689,44 @@
    "source": "mitchellh.com",
    "score": 0.16815,
    "at": "2026-11-07T02:54:30.943384+00:00"
+  },
+  {
+   "title": "پایان همکاری مایکروسافت و اوراکل در اجاره زیرساخت‌های پردازشی هوش مصنوعی",
+   "url": "https://thenextweb.com/news/microsoft-winds-down-oracle-ai-cloud-capacity-deal",
+   "source": "The Next Web",
+   "score": 0.06114,
+   "at": "2026-11-07T03:53:59.766456+00:00"
+  },
+  {
+   "title": "کمیسیون اروپا TikTok را به دلیل نقض قانون خدمات دیجیتال تهدید کرد",
+   "url": "https://tech.slashdot.org/story/26/11/06/2210231/eu-says-tiktoks-rabbit-hole-effect-must-stop?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.07898,
+   "at": "2026-11-07T03:54:20.901326+00:00"
+  },
+  {
+   "title": "واقعیت‌های تولید ربات در کارخانه‌های Unitree و چالش‌های اتوماسیون",
+   "url": "https://josef.cn/blog/unitree",
+   "source": "josef.cn",
+   "score": 0.02667,
+   "at": "2026-11-07T03:54:31.921514+00:00"
+  },
+  {
+   "title": "محدودیت جدید Nvidia برای دسترسی شرکت‌های چینی به پردازنده‌های هوش مصنوعی",
+   "url": "https://www.techradar.com/pro/nvidia-reportedly-tells-data-center-customers-to-trim-exposure-to-the-chinese-market",
+   "source": "TechRadar",
+   "score": 0.05252,
+   "at": "2026-11-07T03:54:38.163362+00:00"
+  },
+  {
+   "title": "بررسی و مقایسه مدل‌های جدید تبلت‌های اپل در بازار",
+   "url": "https://www.techradar.com/tablets/ipad-mini/a-new-ipad-mini-has-arrived-so-how-does-it-compare-to-the-ipad-pro-ipad-air-and-base-ipad",
+   "source": "TechRadar",
+   "score": 0.06751,
+   "at": "2026-11-07T03:54:45.936702+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "app",
-    "camera",
-    "feels",
-    "phone",
-    "photos",
-    "post-processing",
-    "professional",
-    "right",
-    "unnecessary"
-   ],
-   "at": "2026-11-02T04:53:55.667036+00:00"
-  },
-  {
-   "sig": [
-    "anthropic",
-    "best",
-    "bottlenecks",
-    "claude",
-    "deeply",
-    "discover",
-    "drug",
-    "drugs",
-    "help",
-    "identify",
-    "involved",
-    "lifesaving",
-    "programs",
-    "real",
-    "these",
-    "through",
-    "wants",
-    "way",
-    "work"
-   ],
-   "at": "2026-11-02T04:54:01.528923+00:00"
-  },
-  {
-   "sig": [
-    "culture",
-    "errors",
-    "fan",
-    "games",
-    "muddying",
-    "riddled",
-    "waters",
-    "wikis"
-   ],
-   "at": "2026-11-02T05:53:58.153216+00:00"
-  },
-  {
-   "sig": [
-    "crackgate",
-    "iphone-duo-c",
-    "www.404media.co"
-   ],
-   "at": "2026-11-02T05:54:05.963646+00:00"
-  },
-  {
-   "sig": [
-    "built",
-    "creator",
-    "days",
-    "kernel",
-    "linux",
-    "rocky",
-    "using"
-   ],
-   "at": "2026-11-02T05:54:13.173121+00:00"
-  },
   {
    "sig": [
     "apple",
@@ -10661,17 +10633,76 @@
     "sip"
    ],
    "at": "2026-11-07T02:54:23.186462+00:00"
+  },
+  {
+   "sig": [
+    "capacity",
+    "cloud",
+    "computing",
+    "deal",
+    "down",
+    "microsoft",
+    "oracle",
+    "rent",
+    "winding"
+   ],
+   "at": "2026-11-07T03:53:59.766456+00:00"
+  },
+  {
+   "sig": [
+    "accuses",
+    "algorithm",
+    "breaching",
+    "content",
+    "effect",
+    "hole",
+    "must",
+    "rabbit",
+    "rules",
+    "stop",
+    "tiktok"
+   ],
+   "at": "2026-11-07T03:54:20.901326+00:00"
+  },
+  {
+   "sig": [
+    "bullish",
+    "factory",
+    "toured",
+    "unitree",
+    "west"
+   ],
+   "at": "2026-11-07T03:54:31.921514+00:00"
+  },
+  {
+   "sig": [
+    "center",
+    "chinese",
+    "customers",
+    "data",
+    "exposure",
+    "market",
+    "nvidia",
+    "reportedly",
+    "tells",
+    "trim"
+   ],
+   "at": "2026-11-07T03:54:38.163362+00:00"
+  },
+  {
+   "sig": [
+    "arrived",
+    "compare",
+    "does",
+    "ipad",
+    "mini",
+    "range",
+    "rest"
+   ],
+   "at": "2026-11-07T03:54:45.936702+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:c0yniy": [
-   37,
-   "2026-10-27T03:53:40.352794+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myskt366z22k": [
-   637,
-   "2026-10-27T03:53:40.352794+00:00"
-  ],
   "hn:50251062": [
    97,
    "2026-10-27T03:53:40.352794+00:00"
@@ -13032,16 +13063,8 @@
    5,
    "2026-11-07T01:53:44.263113+00:00"
   ],
-  "hn:50395933": [
-   114,
-   "2026-11-07T02:53:42.182483+00:00"
-  ],
   "hn:50397994": [
    538,
-   "2026-11-07T02:53:42.182483+00:00"
-  ],
-  "hn:50397102": [
-   366,
    "2026-11-07T02:53:42.182483+00:00"
   ],
   "hn:50395450": [
@@ -13063,6 +13086,22 @@
   "lobsters:0ouxwf": [
    29,
    "2026-11-07T02:53:42.182483+00:00"
+  ],
+  "hn:50395933": [
+   118,
+   "2026-11-07T03:53:44.751421+00:00"
+  ],
+  "hn:50397102": [
+   374,
+   "2026-11-07T03:53:44.751421+00:00"
+  ],
+  "hn:50400597": [
+   121,
+   "2026-11-07T03:53:44.751421+00:00"
+  ],
+  "hn:50399991": [
+   89,
+   "2026-11-07T03:53:44.751421+00:00"
   ]
  }
 }
