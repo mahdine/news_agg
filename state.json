@@ -2991,18 +2991,26 @@
   "677d8d6a9c20569cd9f8080f",
   "691e4b9bf2b91809d95c122a",
   "69271d9a58e4e06eb6f254cb",
-  "eda3f868bce65d1ef75b691a33a5b0f9"
+  "eda3f868bce65d1ef75b691a33a5b0f9",
+  "hn:50403052",
+  "hn:50403066",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzpy4essjq2x",
+  "https://www.engadget.com/2305049/playstation-cant-hold-candle-to-xbox-backwards-compatibility/",
+  "https://www.engadget.com/2305214/touchscreen-laptop-whats-the-point-could-use-tablet/",
+  "https://www.engadget.com/2304963/samsung-galaxy-s26-users-accessory-take-advantage-of/",
+  "9nJymnQEirgHwf9RNKTN5L",
+  "https://www.techspot.com/news/114480-nasa-artemis-ii-launch-punched-two-5000-km.html"
  ],
  "posted": {
-  "viral": 599,
-  "editorial": 775
+  "viral": 600,
+  "editorial": 778
  },
  "recent_labels": [
-  "Tom's Hardware",
-  "InfoQ",
-  "Android Police",
-  "Phoronix",
-  "Hi-Tech Mail"
+  "Hi-Tech Mail",
+  "Hacker News",
+  "Engadget",
+  "Engadget",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6939,61 +6947,37 @@
    "source": "Hi-Tech Mail",
    "score": 0.20244,
    "at": "2026-11-07T11:54:08.193996+00:00"
+  },
+  {
+   "title": "مدیریت یک دفتر حقوقی با استفاده از نرم‌افزارهای متن‌باز",
+   "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
+   "source": "decoded.legal",
+   "score": 0.02844,
+   "at": "2026-11-07T14:53:52.365433+00:00"
+  },
+  {
+   "title": "بررسی تفاوت‌های کاربردی لپ‌تاپ‌های لمسی و تبلت‌ها",
+   "url": "https://www.engadget.com/2305214/touchscreen-laptop-whats-the-point-could-use-tablet/",
+   "source": "Engadget",
+   "score": 0.15804,
+   "at": "2026-11-07T14:53:59.451882+00:00"
+  },
+  {
+   "title": "ارتقای سرعت شارژ در سری Samsung Galaxy S26 و نیاز به شارژر جدید",
+   "url": "https://www.engadget.com/2304963/samsung-galaxy-s26-users-accessory-take-advantage-of/",
+   "source": "Engadget",
+   "score": 0.18896,
+   "at": "2026-11-07T14:54:06.368885+00:00"
+  },
+  {
+   "title": "اتهام جاسوسی علیه مدیرعامل Nvidia در یک عملیات هانی‌پات",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-intelligence-believes-jensen-huang-had-romantic-relationship-with-chinese-spy-in-honeypot-operation-spy-suspect-linked-to-company-accused-of-smuggling-usd2-billion-in-ai-chips",
+   "source": "Tom's Hardware",
+   "score": 0.1409,
+   "at": "2026-11-07T14:54:12.145798+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "search",
-    "should",
-    "shouldn",
-    "web"
-   ],
-   "at": "2026-11-02T12:54:16.571301+00:00"
-  },
-  {
-   "sig": [
-    "ai-generated",
-    "being",
-    "flooded",
-    "garbage",
-    "itch"
-   ],
-   "at": "2026-11-02T12:54:44.910516+00:00"
-  },
-  {
-   "sig": [
-    "across",
-    "belgium",
-    "crippling",
-    "cyber-attack",
-    "cyberattack",
-    "europe",
-    "freezers",
-    "hack",
-    "hit",
-    "hits",
-    "ireland",
-    "luxembourg",
-    "netherlands",
-    "second",
-    "struck",
-    "supermarket",
-    "suspected",
-    "sweden"
-   ],
-   "at": "2026-11-02T13:40:24.840037+00:00"
-  },
-  {
-   "sig": [
-    "european",
-    "freezers",
-    "getting",
-    "hacked",
-    "supermarkets"
-   ],
-   "at": "2026-11-02T13:40:32.472004+00:00"
-  },
   {
    "sig": [
     "bounty",
@@ -10945,21 +10929,66 @@
     "stop"
    ],
    "at": "2026-11-07T11:53:56.376000+00:00"
+  },
+  {
+   "sig": [
+    "firm",
+    "free",
+    "law",
+    "running",
+    "software"
+   ],
+   "at": "2026-11-07T14:53:52.365433+00:00"
+  },
+  {
+   "sig": [
+    "buying",
+    "could",
+    "laptop",
+    "point",
+    "tablet",
+    "touchscreen"
+   ],
+   "at": "2026-11-07T14:53:59.451882+00:00"
+  },
+  {
+   "sig": [
+    "accessory",
+    "advantage",
+    "galaxy",
+    "s26",
+    "samsung",
+    "should",
+    "taking",
+    "users"
+   ],
+   "at": "2026-11-07T14:54:06.368885+00:00"
+  },
+  {
+   "sig": [
+    "accused",
+    "believes",
+    "billion",
+    "chinese",
+    "chips",
+    "company",
+    "had",
+    "honeypot",
+    "huang",
+    "intelligence",
+    "jensen",
+    "linked",
+    "operation",
+    "relationship",
+    "romantic",
+    "smuggling",
+    "spy",
+    "suspect"
+   ],
+   "at": "2026-11-07T14:54:12.145798+00:00"
   }
  ],
  "snapshots": {
-  "hn:50256985": [
-   283,
-   "2026-10-27T11:53:39.445445+00:00"
-  ],
-  "hn:50256738": [
-   184,
-   "2026-10-27T11:53:39.445445+00:00"
-  ],
-  "lobsters:cajuq6": [
-   26,
-   "2026-10-27T11:53:39.445445+00:00"
-  ],
   "hn:50257548": [
    232,
    "2026-10-27T12:53:43.248948+00:00"
@@ -13340,13 +13369,25 @@
    140,
    "2026-11-07T11:49:33.399438+00:00"
   ],
-  "hn:50402212": [
-   117,
-   "2026-11-07T11:53:38.711597+00:00"
-  ],
   "lobsters:ipplhe": [
    33,
    "2026-11-07T11:49:33.399438+00:00"
+  ],
+  "hn:50402212": [
+   181,
+   "2026-11-07T14:53:44.912910+00:00"
+  ],
+  "hn:50403066": [
+   107,
+   "2026-11-07T14:53:44.912910+00:00"
+  ],
+  "hn:50403052": [
+   473,
+   "2026-11-07T14:53:44.912910+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzpy4essjq2x": [
+   217,
+   "2026-11-07T14:53:44.912910+00:00"
   ]
  }
 }
