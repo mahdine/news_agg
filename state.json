@@ -2952,18 +2952,27 @@
   "https://techcrunch.com/?p=3186051",
   "lobsters:osqswf",
   "https://www.theverge.com/?p=1029380",
-  "https://www.androidpolice.com/samsung-galaxy-s27-ultra-tipped-use-snapdragon-processor-despite-overheating-concerns/"
+  "https://www.androidpolice.com/samsung-galaxy-s27-ultra-tipped-use-snapdragon-processor-despite-overheating-concerns/",
+  "hn:50401029",
+  "https://www.neowin.net/news/going-on-holiday-soon-be-wary-of-fake-rental-sites/",
+  "5t5RXxndBXUR3ajD5yAPe7",
+  "https://www.androidpolice.com/gboard-rambler-could-stop-butchering-your-favorite-contact-names-slang-words/",
+  "fEuCxoVBiSesRrH9k5K7q9",
+  "hn:50401867",
+  "pK6BjqjFXb9SLngdfLocNa",
+  "rPQzXMiFXsMhWg57yA2qg9",
+  "https://www.neowin.net/news/windows-11-gains-more-steam-users-as-16gb-ram-widens-its-lead/"
  ],
  "posted": {
-  "viral": 596,
-  "editorial": 759
+  "viral": 597,
+  "editorial": 762
  },
  "recent_labels": [
-  "The Verge",
-  "The Next Web",
-  "Lobsters",
-  "The Verge",
-  "Android Police"
+  "Android Police",
+  "Neowin",
+  "Android Police",
+  "Hacker News",
+  "Neowin"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6767,62 +6776,37 @@
    "source": "Android Police",
    "score": 0.03891,
    "at": "2026-11-07T05:56:02.250043+00:00"
+  },
+  {
+   "title": "هشدار درباره کلاهبرداری در سایت‌های جعلی رزرو اقامتگاه",
+   "url": "https://www.neowin.net/news/going-on-holiday-soon-be-wary-of-fake-rental-sites/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.02987,
+   "at": "2026-11-07T06:53:47.846981+00:00"
+  },
+  {
+   "title": "قابلیت‌های جدید هوش مصنوعی در Gboard برای بهبود تایپ صوتی",
+   "url": "https://www.androidpolice.com/gboard-rambler-could-stop-butchering-your-favorite-contact-names-slang-words/",
+   "source": "Android Police",
+   "score": 0.02841,
+   "at": "2026-11-07T06:53:55.829337+00:00"
+  },
+  {
+   "title": "گزارش پیشرفت پروژه Asahi Linux و پشتیبانی از تراشه‌های جدید اپل",
+   "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+   "source": "asahilinux.org",
+   "score": 0.42083,
+   "at": "2026-11-07T06:54:02.570798+00:00"
+  },
+  {
+   "title": "افزایش سهم بازار ویندوز ۱۱ در میان کاربران استیم",
+   "url": "https://www.neowin.net/news/windows-11-gains-more-steam-users-as-16gb-ram-widens-its-lead/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.15805,
+   "at": "2026-11-07T06:54:08.552322+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "entra",
-    "final",
-    "guidance",
-    "issues",
-    "memberof",
-    "microsoft",
-    "retirement",
-    "warning"
-   ],
-   "at": "2026-11-02T07:54:06.477663+00:00"
-  },
-  {
-   "sig": [
-    "billions",
-    "binance",
-    "breach",
-    "faces",
-    "following",
-    "massive",
-    "security",
-    "user",
-    "withdrawals"
-   ],
-   "at": "2026-11-02T07:54:11.563598+00:00"
-  },
-  {
-   "sig": [
-    "adnoc",
-    "agents",
-    "deal",
-    "deploy",
-    "frontier",
-    "g42",
-    "openai",
-    "signs"
-   ],
-   "at": "2026-11-02T08:54:40.833490+00:00"
-  },
-  {
-   "sig": [
-    "cloud",
-    "exposure",
-    "gke",
-    "ingresses",
-    "overexposed",
-    "run",
-    "scans",
-    "shopify"
-   ],
-   "at": "2026-11-02T09:54:19.970083+00:00"
-  },
   {
    "sig": [
     "deploys",
@@ -10759,17 +10743,59 @@
     "ultra"
    ],
    "at": "2026-11-07T05:56:02.250043+00:00"
+  },
+  {
+   "sig": [
+    "fake",
+    "going",
+    "holiday",
+    "rental",
+    "sites",
+    "soon",
+    "wary"
+   ],
+   "at": "2026-11-07T06:53:47.846981+00:00"
+  },
+  {
+   "sig": [
+    "butchering",
+    "contact",
+    "could",
+    "favorite",
+    "finally",
+    "gboard",
+    "names",
+    "rambler",
+    "slang",
+    "stop",
+    "words"
+   ],
+   "at": "2026-11-07T06:53:55.829337+00:00"
+  },
+  {
+   "sig": [
+    "7.3",
+    "asahi",
+    "linux",
+    "progress"
+   ],
+   "at": "2026-11-07T06:54:02.570798+00:00"
+  },
+  {
+   "sig": [
+    "16gb",
+    "gains",
+    "lead",
+    "ram",
+    "steam",
+    "users",
+    "widens",
+    "windows"
+   ],
+   "at": "2026-11-07T06:54:08.552322+00:00"
   }
  ],
  "snapshots": {
-  "hn:50248061": [
-   587,
-   "2026-10-27T04:53:39.670616+00:00"
-  ],
-  "hn:50249045": [
-   65,
-   "2026-10-27T05:53:48.300336+00:00"
-  ],
   "hn:50253529": [
    71,
    "2026-10-27T05:53:48.300336+00:00"
@@ -13150,10 +13176,6 @@
    89,
    "2026-11-07T03:53:44.751421+00:00"
   ],
-  "hn:50397102": [
-   385,
-   "2026-11-07T05:53:37.297551+00:00"
-  ],
   "hn:50397711": [
    81,
    "2026-11-07T05:53:37.297551+00:00"
@@ -13161,6 +13183,18 @@
   "lobsters:osqswf": [
    28,
    "2026-11-07T05:53:37.297551+00:00"
+  ],
+  "hn:50397102": [
+   389,
+   "2026-11-07T06:53:44.914513+00:00"
+  ],
+  "hn:50401867": [
+   83,
+   "2026-11-07T06:53:44.914513+00:00"
+  ],
+  "hn:50401029": [
+   140,
+   "2026-11-07T06:53:44.914513+00:00"
   ]
  }
 }
