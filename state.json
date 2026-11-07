@@ -2976,18 +2976,24 @@
   "3240901",
   "hLbXV2CQXHcXjUKZyjDzHe",
   "oyv2cznkZH5iie3vSFy95R",
-  "SnAjEGixySMVLLgPWzPupD"
+  "SnAjEGixySMVLLgPWzPupD",
+  "hn:50403097",
+  "lobsters:ipplhe",
+  "TheNextWeb=2a29652e886ba40c4c964caabeef433f",
+  "https://www.theverge.com/?p=1029338",
+  "6aed11613576db1689ab3f76",
+  "QUTjCw376D8NxaiTBB8i5c"
  ],
  "posted": {
-  "viral": 597,
-  "editorial": 768
+  "viral": 599,
+  "editorial": 771
  },
  "recent_labels": [
-  "The Hacker News",
-  "TechRadar",
-  "TechRadar",
-  "TechRadar",
-  "TechRadar"
+  "Hacker News",
+  "Lobsters",
+  "The Next Web",
+  "Wired",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6861,60 +6867,44 @@
    "source": "TechRadar",
    "score": 0.02881,
    "at": "2026-11-07T09:54:10.882307+00:00"
+  },
+  {
+   "title": "شناسایی ابزارهای پنهان اپل برای تحلیل روابط شخصی کاربران در macOS",
+   "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+   "source": "8rank.ai",
+   "score": 0.09118,
+   "at": "2026-11-07T11:49:37.614909+00:00"
+  },
+  {
+   "title": "تأثیر منفی هوش مصنوعی بر کیفیت جستجو و دسترسی به وب",
+   "url": "https://lobste.rs/s/ipplhe/how_are_you_dealing_with_all_negative_side",
+   "source": "Lobsters",
+   "score": 0.26318,
+   "at": "2026-11-07T11:49:43.676989+00:00"
+  },
+  {
+   "title": "احضار مدیرعامل Nvidia به کنگره برای پاسخگویی درباره نفوذ جاسوسی",
+   "url": "https://thenextweb.com/news/house-chairs-jensen-huang-briefing-megaspeed",
+   "source": "The Next Web",
+   "score": 0.1797,
+   "at": "2026-11-07T11:50:21.247268+00:00"
+  },
+  {
+   "title": "معرفی ابزار متن‌باز Purge برای آزادسازی فضای ذخیره‌سازی در macOS",
+   "url": "https://www.wired.com/story/this-totally-free-app-can-free-up-space-on-your-mac-purge/",
+   "source": "Wired",
+   "score": 0.20138,
+   "at": "2026-11-07T11:50:27.477820+00:00"
+  },
+  {
+   "title": "کشف آرشیو مخفی بازی‌های قدیمی در دفتر مرکزی Electronic Arts",
+   "url": "https://www.tomshardware.com/video-games/retro-gaming/ea-producer-found-20-000-archival-media-assets-in-secret-physical-vault-at-its-hq-betacam-vhs-and-d1-tapes-among-6000-assets-digitized-to-remaster-seven-classic-games",
+   "source": "Tom's Hardware",
+   "score": 0.21354,
+   "at": "2026-11-07T11:50:33.343863+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "control",
-    "gpu",
-    "prices",
-    "spiraling",
-    "update"
-   ],
-   "at": "2026-11-02T10:54:17.270296+00:00"
-  },
-  {
-   "sig": [
-    "16gb",
-    "price",
-    "raspberry",
-    "rises",
-    "usd"
-   ],
-   "at": "2026-11-02T10:54:27.579456+00:00"
-  },
-  {
-   "sig": [
-    "assistant",
-    "don",
-    "expect",
-    "finally",
-    "here",
-    "hue",
-    "lighting",
-    "perfection",
-    "philips"
-   ],
-   "at": "2026-11-02T11:53:54.805683+00:00"
-  },
-  {
-   "sig": [
-    "honkai",
-    "mihoyo",
-    "rail",
-    "star"
-   ],
-   "at": "2026-11-02T11:54:31.068397+00:00"
-  },
-  {
-   "sig": [
-    "icl",
-    "raypad",
-    "s1150"
-   ],
-   "at": "2026-11-02T11:55:38.029771+00:00"
-  },
   {
    "sig": [
     "announcement",
@@ -10843,21 +10833,73 @@
     "tools"
    ],
    "at": "2026-11-07T09:54:10.882307+00:00"
+  },
+  {
+   "sig": [
+    "classifier",
+    "comes",
+    "every",
+    "family",
+    "mac",
+    "member",
+    "undocumented"
+   ],
+   "at": "2026-11-07T11:49:37.614909+00:00"
+  },
+  {
+   "sig": [
+    "dealing",
+    "effects",
+    "negative",
+    "side",
+    "web"
+   ],
+   "at": "2026-11-07T11:49:43.676989+00:00"
+  },
+  {
+   "sig": [
+    "ask",
+    "chairs",
+    "china",
+    "exec",
+    "explain",
+    "house",
+    "huang",
+    "jensen",
+    "link",
+    "nvidia",
+    "recruited",
+    "reported",
+    "reportedly",
+    "spy"
+   ],
+   "at": "2026-11-07T11:50:21.247268+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "free",
+    "mac",
+    "space",
+    "totally"
+   ],
+   "at": "2026-11-07T11:50:27.477820+00:00"
+  },
+  {
+   "sig": [
+    "archival",
+    "assets",
+    "found",
+    "media",
+    "physical",
+    "producer",
+    "secret",
+    "vault"
+   ],
+   "at": "2026-11-07T11:50:33.343863+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:cxxcik": [
-   28,
-   "2026-10-27T05:53:48.300336+00:00"
-  ],
-  "hn:50254836": [
-   184,
-   "2026-10-27T06:53:46.495206+00:00"
-  ],
-  "hn:50255298": [
-   212,
-   "2026-10-27T08:54:02.493460+00:00"
-  ],
   "hn:50256985": [
    283,
    "2026-10-27T11:53:39.445445+00:00"
@@ -13245,6 +13287,18 @@
   "hn:50401740": [
    145,
    "2026-11-07T08:53:50.893932+00:00"
+  ],
+  "hn:50403097": [
+   140,
+   "2026-11-07T11:49:33.399438+00:00"
+  ],
+  "hn:50402212": [
+   115,
+   "2026-11-07T11:49:33.399438+00:00"
+  ],
+  "lobsters:ipplhe": [
+   33,
+   "2026-11-07T11:49:33.399438+00:00"
   ]
  }
 }
