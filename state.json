@@ -1,10 +1,5 @@
 {
  "seen": [
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mt4xrhnjz225",
-  "https://techcrunch.com/?p=3153306",
-  "https://techcrunch.com/?p=3153310",
-  "https://techcrunch.com/?p=3153313",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mt3pp4emz222",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mt2ynhrlk22z",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3msz2okp6d22f",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3msjr3mlnz22x",
@@ -2999,18 +2994,23 @@
   "https://www.engadget.com/2305214/touchscreen-laptop-whats-the-point-could-use-tablet/",
   "https://www.engadget.com/2304963/samsung-galaxy-s26-users-accessory-take-advantage-of/",
   "9nJymnQEirgHwf9RNKTN5L",
-  "https://www.techspot.com/news/114480-nasa-artemis-ii-launch-punched-two-5000-km.html"
+  "https://www.techspot.com/news/114480-nasa-artemis-ii-launch-punched-two-5000-km.html",
+  "https://www.theverge.com/?p=1029038",
+  "https://www.theregister.com/a/5308277",
+  "349A3qJiXg3eaN7UmLyUXn",
+  "https://www.phoronix.com/news/GNU-Automake-1.20",
+  "2QDisPw3dRBaznJDuaSNbM"
  ],
  "posted": {
   "viral": 600,
-  "editorial": 778
+  "editorial": 783
  },
  "recent_labels": [
-  "Hi-Tech Mail",
-  "Hacker News",
-  "Engadget",
-  "Engadget",
-  "Tom's Hardware"
+  "The Verge",
+  "The Register",
+  "TechRadar",
+  "Phoronix",
+  "TechRadar"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6975,72 +6975,44 @@
    "source": "Tom's Hardware",
    "score": 0.1409,
    "at": "2026-11-07T14:54:12.145798+00:00"
+  },
+  {
+   "title": "تغییر ماهیت حملات سایبری با استفاده از هوش مصنوعی",
+   "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+   "source": "The Verge",
+   "score": 0.16325,
+   "at": "2026-11-07T15:53:43.114055+00:00"
+  },
+  {
+   "title": "چالش‌های زیرساختی و اقتصادی در توسعه هوش مصنوعی و امنیت سایبری",
+   "url": "https://www.theregister.com/ai-and-ml/2026/11/07/fireworks-says-youre-wasting-money-on-ai-unless-youre-using-all-the-models/5308277",
+   "source": "The Register",
+   "score": 0.15365,
+   "at": "2026-11-07T15:53:48.841211+00:00"
+  },
+  {
+   "title": "ارائه‌ی دسترسی رایگان یک‌ساله Adobe به ابزارهای هوش مصنوعی برای استارتاپ‌ها",
+   "url": "https://www.techradar.com/pro/adobe-is-giving-start-ups-12-months-of-free-access-to-its-top-ai-tools-including-firefly-and-acrobat",
+   "source": "TechRadar",
+   "score": 0.12146,
+   "at": "2026-11-07T15:53:55.795452+00:00"
+  },
+  {
+   "title": "انتشار نسخه ۱.۲۰ ابزار GNU Automake با قابلیت‌های جدید",
+   "url": "https://www.phoronix.com/news/GNU-Automake-1.20",
+   "source": "Phoronix",
+   "score": 0.18382,
+   "at": "2026-11-07T15:54:01.181612+00:00"
+  },
+  {
+   "title": "رویکرد محتاطانه Garmin در استفاده از هوش مصنوعی و حفظ تعامل انسانی",
+   "url": "https://www.techradar.com/health-fitness/fitness-trackers/garmin-is-embracing-ai-with-a-keen-sense-of-authenticity-according-to-its-coo-but-acquired-trainingpeaks-for-consumers-who-want-to-engage-with-a-human-coach",
+   "source": "TechRadar",
+   "score": 0.16212,
+   "at": "2026-11-07T15:54:06.701978+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "bounty",
-    "bug",
-    "google",
-    "introduces",
-    "reward",
-    "root-in-cloud"
-   ],
-   "at": "2026-11-02T13:40:38.195865+00:00"
-  },
-  {
-   "sig": [
-    "always-on",
-    "apple",
-    "display",
-    "fix",
-    "here",
-    "showing",
-    "time",
-    "watch",
-    "wrong"
-   ],
-   "at": "2026-11-02T13:41:14.037925+00:00"
-  },
-  {
-   "sig": [
-    "counting",
-    "ships",
-    "start",
-    "stop",
-    "tokens"
-   ],
-   "at": "2026-11-02T13:54:53.911216+00:00"
-  },
-  {
-   "sig": [
-    "bot",
-    "costs",
-    "elon",
-    "grok",
-    "high",
-    "musk",
-    "throttled",
-    "unsustainably",
-    "were"
-   ],
-   "at": "2026-11-02T13:56:15.354023+00:00"
-  },
-  {
-   "sig": [
-    "algorithm",
-    "auth",
-    "choice",
-    "ed25519",
-    "kinda",
-    "ml-dsa-44",
-    "openssh",
-    "post-quantum",
-    "sad"
-   ],
-   "at": "2026-11-02T16:54:10.732895+00:00"
-  },
   {
    "sig": [
     "17b",
@@ -10986,13 +10958,72 @@
     "suspect"
    ],
    "at": "2026-11-07T14:54:12.145798+00:00"
+  },
+  {
+   "sig": [
+    "broke",
+    "cybersecurity",
+    "next",
+    "world"
+   ],
+   "at": "2026-11-07T15:53:43.114055+00:00"
+  },
+  {
+   "sig": [
+    "fireworks",
+    "models",
+    "money",
+    "unless",
+    "using",
+    "wasting"
+   ],
+   "at": "2026-11-07T15:53:48.841211+00:00"
+  },
+  {
+   "sig": [
+    "access",
+    "acrobat",
+    "adobe",
+    "firefly",
+    "free",
+    "giving",
+    "including",
+    "months",
+    "start-ups",
+    "tools",
+    "top"
+   ],
+   "at": "2026-11-07T15:53:55.795452+00:00"
+  },
+  {
+   "sig": [
+    "1.20",
+    "automake",
+    "brings",
+    "build",
+    "desires",
+    "features",
+    "gnu",
+    "leading",
+    "re-establish",
+    "system"
+   ],
+   "at": "2026-11-07T15:54:01.181612+00:00"
+  },
+  {
+   "sig": [
+    "according",
+    "authenticity",
+    "coo",
+    "embracing",
+    "garmin",
+    "keen",
+    "sense"
+   ],
+   "at": "2026-11-07T15:54:06.701978+00:00"
   }
  ],
  "snapshots": {
-  "hn:50257548": [
-   232,
-   "2026-10-27T12:53:43.248948+00:00"
-  ],
   "hn:50257326": [
    116,
    "2026-10-27T12:53:43.248948+00:00"
@@ -13373,10 +13404,6 @@
    33,
    "2026-11-07T11:49:33.399438+00:00"
   ],
-  "hn:50402212": [
-   181,
-   "2026-11-07T14:53:44.912910+00:00"
-  ],
   "hn:50403066": [
    107,
    "2026-11-07T14:53:44.912910+00:00"
@@ -13388,6 +13415,14 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzpy4essjq2x": [
    217,
    "2026-11-07T14:53:44.912910+00:00"
+  ],
+  "hn:50402212": [
+   203,
+   "2026-11-07T15:53:40.400300+00:00"
+  ],
+  "lobsters:j63dme": [
+   28,
+   "2026-11-07T15:53:40.400300+00:00"
   ]
  }
 }
