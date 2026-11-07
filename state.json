@@ -1,11 +1,5 @@
 {
  "seen": [
-  "https://techcrunch.com/?p=3152944",
-  "https://techcrunch.com/?post_type=tc_podcast&p=3153152",
-  "https://techcrunch.com/?p=3152760",
-  "https://techcrunch.com/?p=3152870",
-  "https://techcrunch.com/?p=3152875",
-  "https://techcrunch.com/?p=3152914",
   "https://techcrunch.com/?p=3152849",
   "https://techcrunch.com/?p=3152844",
   "https://techcrunch.com/?p=3152748",
@@ -2999,18 +2993,24 @@
   "https://www.engadget.com/2306188/solar-panel-efficiency-breakthrough-doubles-output/",
   "SmnmWqH8jzZMdSS6T6oehJ",
   "https://www.engadget.com/2306356/how-to-legally-download-free-movies/",
-  "https://www.engadget.com/2306181/google-messages-settings-might-want-to-disable/"
+  "https://www.engadget.com/2306181/google-messages-settings-might-want-to-disable/",
+  "hn:50405250",
+  "hn:50406111",
+  "hn:50406222",
+  "hn:50406292",
+  "hn:50406319",
+  "hn:50406670"
  ],
  "posted": {
-  "viral": 601,
+  "viral": 606,
   "editorial": 794
  },
  "recent_labels": [
-  "Tom's Hardware",
-  "Engadget",
-  "TechRadar",
-  "TechRadar",
-  "Engadget"
+  "Hacker News",
+  "Hacker News",
+  "Hacker News",
+  "Hacker News",
+  "Hacker News"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7094,60 +7094,44 @@
    "source": "Engadget",
    "score": 0.18906,
    "at": "2026-11-07T17:54:35.029541+00:00"
+  },
+  {
+   "title": "چالش‌های مهاجرت کاربران عادی به پروتکل‌های پیام‌رسان غیرمتمرکز",
+   "url": "https://news.ycombinator.com/item?id=50405250",
+   "source": "Hacker News",
+   "score": 0.08571,
+   "at": "2026-11-07T22:01:56.205311+00:00"
+  },
+  {
+   "title": "محدودیت اپل در پیشنهاد کلمات برای کیبورد آیفون",
+   "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+   "source": "theguardian.com",
+   "score": 0.19079,
+   "at": "2026-11-07T22:02:02.288863+00:00"
+  },
+  {
+   "title": "چالش بنچمارک‌های کدنویسی و پدیده «بنچ‌ماکسینگ» در مدل‌های هوش مصنوعی",
+   "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+   "source": "maxxbench.unlap.ai",
+   "score": 0.14574,
+   "at": "2026-11-07T22:02:08.522586+00:00"
+  },
+  {
+   "title": "طراحی هانی‌پات برای شناسایی حملات به کنترلرهای تبرید صنعتی",
+   "url": "https://github.com/hedgerow-dev/coldframe",
+   "source": "github.com",
+   "score": 0.15596,
+   "at": "2026-11-07T22:02:14.759104+00:00"
+  },
+  {
+   "title": "راه‌اندازی یک سرور خانگی ارزان‌قیمت با استفاده از سخت‌افزار OpenStick",
+   "url": "https://blog.bosscher.ch/posts/openstick/",
+   "source": "blog.bosscher.ch",
+   "score": 0.21746,
+   "at": "2026-11-07T22:02:21.600145+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "20b",
-    "bonds",
-    "buildout",
-    "files",
-    "finance",
-    "oracle",
-    "sell",
-    "stock"
-   ],
-   "at": "2026-11-02T22:49:56.946640+00:00"
-  },
-  {
-   "sig": [
-    "hardcoding",
-    "stop",
-    "timeouts"
-   ],
-   "at": "2026-11-03T01:53:49.581105+00:00"
-  },
-  {
-   "sig": [
-    "bugs",
-    "decade",
-    "kill"
-   ],
-   "at": "2026-11-03T01:53:55.636897+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "fourth",
-    "quarter",
-    "reports",
-    "results"
-   ],
-   "at": "2026-11-03T01:54:07.899873+00:00"
-  },
-  {
-   "sig": [
-    "anthropic",
-    "block",
-    "ipo",
-    "protect",
-    "public",
-    "sec",
-    "should"
-   ],
-   "at": "2026-11-03T01:54:14.940540+00:00"
-  },
   {
    "sig": [
     "anthropic",
@@ -11102,53 +11086,68 @@
     "want"
    ],
    "at": "2026-11-07T17:54:35.029541+00:00"
+  },
+  {
+   "sig": [
+    "ask",
+    "convince",
+    "did",
+    "family",
+    "friends",
+    "join",
+    "matrix",
+    "server",
+    "xmpp"
+   ],
+   "at": "2026-11-07T22:01:56.205311+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "grey",
+    "help",
+    "iphone",
+    "list",
+    "phrases",
+    "spell",
+    "won",
+    "words"
+   ],
+   "at": "2026-11-07T22:02:02.288863+00:00"
+  },
+  {
+   "sig": [
+    "deepswe",
+    "maxxbench",
+    "nice",
+    "score",
+    "true"
+   ],
+   "at": "2026-11-07T22:02:08.522586+00:00"
+  },
+  {
+   "sig": [
+    "coldframe",
+    "controller",
+    "fridge",
+    "honeypot",
+    "poses",
+    "show",
+    "supermarket"
+   ],
+   "at": "2026-11-07T22:02:14.759104+00:00"
+  },
+  {
+   "sig": [
+    "homelab",
+    "openstick",
+    "run",
+    "usd"
+   ],
+   "at": "2026-11-07T22:02:21.600145+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mytn3azq3e2o": [
-   17,
-   "2026-10-27T12:53:43.248948+00:00"
-  ],
-  "hn:50258521": [
-   172,
-   "2026-10-27T13:53:41.711765+00:00"
-  ],
-  "hn:50257325": [
-   578,
-   "2026-10-27T13:53:41.711765+00:00"
-  ],
-  "hn:50259604": [
-   289,
-   "2026-10-27T15:53:40.649877+00:00"
-  ],
-  "hn:50259406": [
-   200,
-   "2026-10-27T15:53:40.649877+00:00"
-  ],
-  "hn:50259050": [
-   105,
-   "2026-10-27T15:53:40.649877+00:00"
-  ],
-  "hn:50254935": [
-   176,
-   "2026-10-27T15:53:40.649877+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myugdjxwhp2h": [
-   71,
-   "2026-10-27T15:53:40.649877+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myufqgkrbc2h": [
-   400,
-   "2026-10-27T15:53:40.649877+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myudtn3yfe2l": [
-   119,
-   "2026-10-27T15:53:40.649877+00:00"
-  ],
-  "hn:50260814": [
-   103,
-   "2026-10-27T16:45:15.517896+00:00"
-  ],
   "hn:50261819": [
    148,
    "2026-10-27T17:53:45.562267+00:00"
@@ -13493,6 +13492,10 @@
    217,
    "2026-11-07T14:53:44.912910+00:00"
   ],
+  "hn:50405678": [
+   169,
+   "2026-11-07T17:48:03.767993+00:00"
+  ],
   "hn:50402212": [
    245,
    "2026-11-07T17:53:42.294897+00:00"
@@ -13501,9 +13504,49 @@
    33,
    "2026-11-07T17:53:42.294897+00:00"
   ],
-  "hn:50405678": [
-   169,
-   "2026-11-07T17:48:03.767993+00:00"
+  "hn:50406670": [
+   282,
+   "2026-11-07T22:01:54.486336+00:00"
+  ],
+  "hn:50406563": [
+   539,
+   "2026-11-07T22:01:54.486336+00:00"
+  ],
+  "hn:50406319": [
+   117,
+   "2026-11-07T22:01:54.486336+00:00"
+  ],
+  "hn:50406292": [
+   211,
+   "2026-11-07T22:01:54.486336+00:00"
+  ],
+  "hn:50406222": [
+   194,
+   "2026-11-07T22:01:54.486336+00:00"
+  ],
+  "hn:50406111": [
+   555,
+   "2026-11-07T22:01:54.486336+00:00"
+  ],
+  "hn:50405782": [
+   81,
+   "2026-11-07T22:01:54.486336+00:00"
+  ],
+  "hn:50405250": [
+   192,
+   "2026-11-07T22:01:54.486336+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzqplbweef2p": [
+   182,
+   "2026-11-07T22:01:54.486336+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzqqgdm2x22p": [
+   106,
+   "2026-11-07T22:01:54.486336+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzqd3taowk2p": [
+   50,
+   "2026-11-07T22:01:54.486336+00:00"
   ]
  }
 }
