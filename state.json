@@ -1,12 +1,5 @@
 {
  "seen": [
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mrbjg3u5tk2z",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mrakxzlam22f",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mr7bxnbqls2x",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mr5ucqec2s24",
-  "https://techcrunch.com/?p=3153145",
-  "https://techcrunch.com/?post_type=tc_video&p=3153153",
-  "https://techcrunch.com/?p=3153090",
   "https://techcrunch.com/?p=3152944",
   "https://techcrunch.com/?post_type=tc_podcast&p=3153152",
   "https://techcrunch.com/?p=3152760",
@@ -2999,18 +2992,25 @@
   "M9Dpp84aCEg4dFSuXbFmXQ",
   "PB47yxeEAu997knjGfVSAB",
   "z5U7u4DYDK2HwbDnoj5o9K",
-  "sB4xwCGpYDvcr8t5FtQ34Y"
+  "sB4xwCGpYDvcr8t5FtQ34Y",
+  "YDed2WLYJGj9fXGQNUo6ck",
+  "https://www.engadget.com/2305444/how-ios-warn-password-shows-up-data-leak/",
+  "67UyNjdzARvq2QyqKB6hk5",
+  "https://www.engadget.com/2306188/solar-panel-efficiency-breakthrough-doubles-output/",
+  "SmnmWqH8jzZMdSS6T6oehJ",
+  "https://www.engadget.com/2306356/how-to-legally-download-free-movies/",
+  "https://www.engadget.com/2306181/google-messages-settings-might-want-to-disable/"
  ],
  "posted": {
   "viral": 601,
-  "editorial": 789
+  "editorial": 794
  },
  "recent_labels": [
-  "Neowin",
-  "The Verge",
-  "Hacker News",
-  "Slashdot",
-  "Android Police"
+  "Tom's Hardware",
+  "Engadget",
+  "TechRadar",
+  "TechRadar",
+  "Engadget"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7059,66 +7059,44 @@
    "source": "Android Police",
    "score": 0.12247,
    "at": "2026-11-07T17:48:51.334345+00:00"
+  },
+  {
+   "title": "بررسی تازه‌های سخت‌افزاری و نقشه‌ی راه شرکت‌های بزرگ فناوری",
+   "url": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-7-2026-micron-roadmap-apples-touchscreen-ambitions-globalfoundries-interview-and-much-more",
+   "source": "Tom's Hardware",
+   "score": 0.05595,
+   "at": "2026-11-07T17:53:51.767688+00:00"
+  },
+  {
+   "title": "هشدار اپل درباره نشت رمزهای عبور در سیستم‌عامل iOS",
+   "url": "https://www.engadget.com/2305444/how-ios-warn-password-shows-up-data-leak/",
+   "source": "Engadget",
+   "score": 0.05738,
+   "at": "2026-11-07T17:53:57.454817+00:00"
+  },
+  {
+   "title": "هشدار مهندس Anthropic درباره خطر زوال مهارت‌های تفکر انتقادی با هوش مصنوعی",
+   "url": "https://www.techradar.com/ai-platforms-assistants/skills-you-stop-exercising-are-going-to-go-away-anthropic-engineer-warns-against-cognitive-surrender-from-giving-too-much-control-to-ai",
+   "source": "TechRadar",
+   "score": 0.05434,
+   "at": "2026-11-07T17:54:03.325064+00:00"
+  },
+  {
+   "title": "تجربه‌ی یک ماهه استفاده از گوشی Fairphone 6 Plus با سیستم‌عامل /e/OS",
+   "url": "https://www.techradar.com/phones/android/i-spent-a-month-trying-to-de-google-with-the-fairphone-6-plus-but-it-left-me-wishing-for-my-android-phone-back",
+   "source": "TechRadar",
+   "score": 0.1152,
+   "at": "2026-11-07T17:54:28.644272+00:00"
+  },
+  {
+   "title": "تنظیمات پیشنهادی برای بهبود تجربه کاربری در اپلیکیشن Google Messages",
+   "url": "https://www.engadget.com/2306181/google-messages-settings-might-want-to-disable/",
+   "source": "Engadget",
+   "score": 0.18906,
+   "at": "2026-11-07T17:54:35.029541+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "computer",
-    "making",
-    "noise",
-    "show",
-    "subvocal",
-    "talk",
-    "without"
-   ],
-   "at": "2026-11-02T17:54:14.207403+00:00"
-  },
-  {
-   "sig": [
-    "car",
-    "change",
-    "jailbreaking",
-    "navigation",
-    "system",
-    "time"
-   ],
-   "at": "2026-11-02T22:49:21.392964+00:00"
-  },
-  {
-   "sig": [
-    "astra",
-    "improve",
-    "qwen",
-    "read",
-    "weights",
-    "write"
-   ],
-   "at": "2026-11-02T22:49:27.783491+00:00"
-  },
-  {
-   "sig": [
-    "0day",
-    "almost",
-    "linux",
-    "patch",
-    "rce",
-    "released",
-    "still",
-    "ubuntu",
-    "weeks"
-   ],
-   "at": "2026-11-02T22:49:33.222438+00:00"
-  },
-  {
-   "sig": [
-    "config",
-    "format",
-    "humans",
-    "soml"
-   ],
-   "at": "2026-11-02T22:49:45.653185+00:00"
-  },
   {
    "sig": [
     "20b",
@@ -11066,6 +11044,64 @@
     "webcam"
    ],
    "at": "2026-11-07T17:48:51.334345+00:00"
+  },
+  {
+   "sig": [
+    "hardware",
+    "november",
+    "premium",
+    "tom",
+    "week"
+   ],
+   "at": "2026-11-07T17:53:51.767688+00:00"
+  },
+  {
+   "sig": [
+    "data",
+    "ios",
+    "leak",
+    "passwords",
+    "shows",
+    "warn"
+   ],
+   "at": "2026-11-07T17:53:57.454817+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "cognitive",
+    "engineer",
+    "much",
+    "surrender",
+    "too",
+    "warns"
+   ],
+   "at": "2026-11-07T17:54:03.325064+00:00"
+  },
+  {
+   "sig": [
+    "de-googled",
+    "fairphone",
+    "google",
+    "life",
+    "needed",
+    "running",
+    "sick",
+    "solution",
+    "wasn"
+   ],
+   "at": "2026-11-07T17:54:28.644272+00:00"
+  },
+  {
+   "sig": [
+    "disable",
+    "google",
+    "messages",
+    "might",
+    "settings",
+    "want"
+   ],
+   "at": "2026-11-07T17:54:35.029541+00:00"
   }
  ],
  "snapshots": {
@@ -13459,11 +13495,11 @@
   ],
   "hn:50402212": [
    245,
-   "2026-11-07T17:48:03.767993+00:00"
+   "2026-11-07T17:53:42.294897+00:00"
   ],
   "lobsters:j63dme": [
    33,
-   "2026-11-07T17:48:03.767993+00:00"
+   "2026-11-07T17:53:42.294897+00:00"
   ],
   "hn:50405678": [
    169,
