@@ -2944,18 +2944,26 @@
   "https://www.engadget.com/2309300/the-eu-accuses-tiktoks-rabbit-hole-algorithm-of-breaching-its-content-rules/",
   "hn:50400597",
   "Pp5awtfTcq8SDc3RdUVU6V",
-  "ZAGz8rBouJp3Ye7jczgu2k"
+  "ZAGz8rBouJp3Ye7jczgu2k",
+  "https://www.theverge.com/?p=1028871",
+  "https://techcrunch.com/?p=3185929",
+  "TheNextWeb=1a84f2f59856ed217ddb2f2dc4905ea3",
+  "hn:50397711",
+  "https://techcrunch.com/?p=3186051",
+  "lobsters:osqswf",
+  "https://www.theverge.com/?p=1029380",
+  "https://www.androidpolice.com/samsung-galaxy-s27-ultra-tipped-use-snapdragon-processor-despite-overheating-concerns/"
  ],
  "posted": {
-  "viral": 595,
-  "editorial": 755
+  "viral": 596,
+  "editorial": 759
  },
  "recent_labels": [
+  "The Verge",
   "The Next Web",
-  "Slashdot",
-  "Hacker News",
-  "TechRadar",
-  "TechRadar"
+  "Lobsters",
+  "The Verge",
+  "Android Police"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -6724,67 +6732,44 @@
    "source": "TechRadar",
    "score": 0.06751,
    "at": "2026-11-07T03:54:45.936702+00:00"
+  },
+  {
+   "title": "قابلیت ساخت فضاهای شخصی‌سازی‌شده و ابزارهای هوش مصنوعی جدید در Muse",
+   "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+   "source": "The Verge",
+   "score": 0.02708,
+   "at": "2026-11-07T05:53:48.454322+00:00"
+  },
+  {
+   "title": "خرید سایت دیتاسنتر وایومینگ توسط گوگل برای توسعه زیرساخت‌های ابری",
+   "url": "https://thenextweb.com/news/google-buys-crusoe-wyoming-data-centre-site",
+   "source": "The Next Web",
+   "score": 0.02577,
+   "at": "2026-11-07T05:55:12.552624+00:00"
+  },
+  {
+   "title": "بررسی فنی امکان استفاده از پورت صفر در پروتکل TCP",
+   "url": "https://acid.vegas/blog/the-port-that-does-not-exist/",
+   "source": "acid.vegas",
+   "score": 0.01546,
+   "at": "2026-11-07T05:55:37.559229+00:00"
+  },
+  {
+   "title": "ارزش‌گذاری جدید OpenAI و مسیر پیش‌روی رقیب آن Anthropic",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+   "source": "The Verge",
+   "score": 0.02549,
+   "at": "2026-11-07T05:55:51.516907+00:00"
+  },
+  {
+   "title": "استفاده سامسونگ از تراشه‌های اسنپدراگون در سری Galaxy S27",
+   "url": "https://www.androidpolice.com/samsung-galaxy-s27-ultra-tipped-use-snapdragon-processor-despite-overheating-concerns/",
+   "source": "Android Police",
+   "score": 0.03891,
+   "at": "2026-11-07T05:56:02.250043+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "apple",
-    "display",
-    "glowing",
-    "hardware",
-    "logo",
-    "lot",
-    "returns",
-    "rewind",
-    "smart"
-   ],
-   "at": "2026-11-02T05:54:28.712750+00:00"
-  },
-  {
-   "sig": [
-    "customer",
-    "environment",
-    "exposed",
-    "trigger.dev",
-    "variables"
-   ],
-   "at": "2026-11-02T06:53:44.974753+00:00"
-  },
-  {
-   "sig": [
-    "air",
-    "ipad",
-    "oled",
-    "pro"
-   ],
-   "at": "2026-11-02T06:54:46.320137+00:00"
-  },
-  {
-   "sig": [
-    "articles",
-    "hackertube",
-    "mentioned",
-    "show",
-    "wikihack",
-    "wikipedia"
-   ],
-   "at": "2026-11-02T07:53:47.133655+00:00"
-  },
-  {
-   "sig": [
-    "chap",
-    "clone",
-    "coded",
-    "firefox",
-    "freaked",
-    "game",
-    "google",
-    "pac-man",
-    "reveals"
-   ],
-   "at": "2026-11-02T07:54:00.980120+00:00"
-  },
   {
    "sig": [
     "entra",
@@ -10700,17 +10685,83 @@
     "rest"
    ],
    "at": "2026-11-07T03:54:45.936702+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "app",
+    "collaborate",
+    "create",
+    "custom",
+    "introduces",
+    "meta",
+    "muse",
+    "need",
+    "right",
+    "spaces",
+    "version",
+    "way"
+   ],
+   "at": "2026-11-07T05:53:48.454322+00:00"
+  },
+  {
+   "sig": [
+    "acquired",
+    "center",
+    "centre",
+    "crusoe",
+    "data",
+    "google",
+    "had",
+    "planned",
+    "project",
+    "sells",
+    "site",
+    "southeast",
+    "takes",
+    "troubled",
+    "wyoming"
+   ],
+   "at": "2026-11-07T05:55:12.552624+00:00"
+  },
+  {
+   "sig": [
+    "does",
+    "exist",
+    "port"
+   ],
+   "at": "2026-11-07T05:55:37.559229+00:00"
+  },
+  {
+   "sig": [
+    "1.25",
+    "anthropic",
+    "ipo",
+    "nears",
+    "openai",
+    "rival",
+    "trillion",
+    "valued"
+   ],
+   "at": "2026-11-07T05:55:51.516907+00:00"
+  },
+  {
+   "sig": [
+    "concerns",
+    "despite",
+    "galaxy",
+    "overheating",
+    "processor",
+    "s27",
+    "samsung",
+    "snapdragon",
+    "tipped",
+    "ultra"
+   ],
+   "at": "2026-11-07T05:56:02.250043+00:00"
   }
  ],
  "snapshots": {
-  "hn:50251062": [
-   97,
-   "2026-10-27T03:53:40.352794+00:00"
-  ],
-  "lobsters:ihmfsc": [
-   25,
-   "2026-10-27T03:53:40.352794+00:00"
-  ],
   "hn:50248061": [
    587,
    "2026-10-27T04:53:39.670616+00:00"
@@ -13091,10 +13142,6 @@
    118,
    "2026-11-07T03:53:44.751421+00:00"
   ],
-  "hn:50397102": [
-   374,
-   "2026-11-07T03:53:44.751421+00:00"
-  ],
   "hn:50400597": [
    121,
    "2026-11-07T03:53:44.751421+00:00"
@@ -13102,6 +13149,18 @@
   "hn:50399991": [
    89,
    "2026-11-07T03:53:44.751421+00:00"
+  ],
+  "hn:50397102": [
+   385,
+   "2026-11-07T05:53:37.297551+00:00"
+  ],
+  "hn:50397711": [
+   81,
+   "2026-11-07T05:53:37.297551+00:00"
+  ],
+  "lobsters:osqswf": [
+   28,
+   "2026-11-07T05:53:37.297551+00:00"
   ]
  }
 }
