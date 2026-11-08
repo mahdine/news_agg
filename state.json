@@ -1,13 +1,5 @@
 {
  "seen": [
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthuboscnk2o",
-  "hn:49371006",
-  "hn:49372583",
-  "lobsters:oaybfe",
-  "6a832d3e329d846975aa6084",
-  "https://www.engadget.com/2240088/amazon-is-bringing-drone-deliveries-to-the-chicago-and-atlanta-metro-areas/",
-  "19601155da58fd75e191a82685ea50e6",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtje4jnm5i2j",
   "https://www.theregister.com/a/5290344",
   "6a83e105415abf93e7c7ec3e",
   "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
@@ -2999,18 +2991,26 @@
   "hn:50414427",
   "https://www.engadget.com/2308062/ai-music-difficult-to-detect-telltale-signs/",
   "https://www.engadget.com/2307837/how-long-expect-apple-airpods-last/",
-  "https://www.engadget.com/2308205/how-much-did-iphone-cost-2007-vs-2026/"
+  "https://www.engadget.com/2308205/how-much-did-iphone-cost-2007-vs-2026/",
+  "lobsters:62loik",
+  "CC3fg2n7P8jNDi3puRYaCJ",
+  "https://www.neowin.net/deals/save-42-on-this-ultimate-pc-transfer-bundle-with-lifetime-subscriptions/",
+  "3242817",
+  "61679f786eb9fc5d7c35b40ceefce102",
+  "YyfFY9Qe9Yb6itpp7wqZjB",
+  "https://www.theverge.com/?p=1029533",
+  "oLWqey9tE4oJ82tttLUoB4"
  ],
  "posted": {
-  "viral": 623,
-  "editorial": 844
+  "viral": 624,
+  "editorial": 847
  },
  "recent_labels": [
-  "9to5Mac",
-  "Slashdot",
   "Engadget",
-  "Android Police",
-  "Engadget"
+  "Lobsters",
+  "vc.ru",
+  "TechRadar",
+  "The Verge"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7598,89 +7598,37 @@
    "source": "Engadget",
    "score": 0.15812,
    "at": "2026-11-08T16:56:10.599222+00:00"
+  },
+  {
+   "title": "پشتیبانی از زبان Rust به پروژه systemd اضافه شد",
+   "url": "https://amutable.com/blog/systemd-loves-rust",
+   "source": "amutable.com",
+   "score": 0.02422,
+   "at": "2026-11-08T17:53:50.161540+00:00"
+  },
+  {
+   "title": "استارتاپ چینی Liangpei برای یافتن همسر از هوش مصنوعی استفاده می‌کند",
+   "url": "https://vc.ru/services/3242817-startup-liangpei-ii-dlya-znakomstv-s-garantiej-braka?from=rss",
+   "source": "vc.ru",
+   "score": 0.12524,
+   "at": "2026-11-08T17:54:19.515702+00:00"
+  },
+  {
+   "title": "استاندارد جدید برای کنترل استفاده از محتوای وب در آموزش هوش مصنوعی",
+   "url": "https://www.techradar.com/pro/google-and-microsoft-among-those-signing-up-to-openais-plan-for-a-new-website-crawling-standard-including-opting-out-of-internet-scraping",
+   "source": "TechRadar",
+   "score": 0.12134,
+   "at": "2026-11-08T17:54:27.474047+00:00"
+  },
+  {
+   "title": "شکایت حقوقی از Suno به دلیل شبیه‌سازی غیرقانونی صدای خوانندگان",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+   "source": "The Verge",
+   "score": 0.21138,
+   "at": "2026-11-08T17:54:33.842657+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "6.3",
-    "6.34",
-    "6.3b",
-    "6.43",
-    "abuse",
-    "billion",
-    "binance",
-    "carry",
-    "crypto",
-    "fake",
-    "hackers",
-    "heist",
-    "internal",
-    "interview",
-    "interviews",
-    "job",
-    "korean",
-    "led",
-    "north",
-    "pull",
-    "reveals",
-    "steal",
-    "theft",
-    "tool",
-    "tricks",
-    "well-known"
-   ],
-   "at": "2026-11-04T04:53:49.416988+00:00"
-  },
-  {
-   "sig": [
-    "access",
-    "ban",
-    "block",
-    "disable",
-    "features",
-    "gemini",
-    "google",
-    "let",
-    "lose",
-    "opt",
-    "reject",
-    "sacrificing",
-    "school",
-    "schools",
-    "search",
-    "students",
-    "switch",
-    "tools",
-    "turn",
-    "unless",
-    "without",
-    "won"
-   ],
-   "at": "2026-11-04T04:54:06.904433+00:00"
-  },
-  {
-   "sig": [
-    "27.3",
-    "adaptive",
-    "add",
-    "adds",
-    "any",
-    "dark",
-    "finally",
-    "introduces",
-    "ios",
-    "macos",
-    "mode",
-    "safari",
-    "site",
-    "tabs",
-    "thanks",
-    "vertical",
-    "way"
-   ],
-   "at": "2026-11-04T04:54:20.712077+00:00"
-  },
   {
    "sig": [
     "asked",
@@ -11632,13 +11580,47 @@
     "there"
    ],
    "at": "2026-11-08T16:56:10.599222+00:00"
+  },
+  {
+   "sig": [
+    "loves",
+    "rust",
+    "systemd"
+   ],
+   "at": "2026-11-08T17:53:50.161540+00:00"
+  },
+  {
+   "sig": [
+    "among",
+    "crawling",
+    "google",
+    "including",
+    "internet",
+    "microsoft",
+    "openai",
+    "opting-out",
+    "plan",
+    "scraping",
+    "signing",
+    "standard",
+    "those",
+    "website"
+   ],
+   "at": "2026-11-08T17:54:27.474047+00:00"
+  },
+  {
+   "sig": [
+    "elvis",
+    "eminem",
+    "holders",
+    "rights",
+    "suing",
+    "suno"
+   ],
+   "at": "2026-11-08T17:54:33.842657+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:tp0zlk": [
-   26,
-   "2026-10-28T02:53:42.394204+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myuyfm6t3c2y": [
    50,
    "2026-10-28T02:53:42.394204+00:00"
@@ -14032,8 +14014,12 @@
    "2026-11-08T16:53:42.363628+00:00"
   ],
   "hn:50413822": [
-   253,
-   "2026-11-08T16:53:42.363628+00:00"
+   425,
+   "2026-11-08T17:53:46.047470+00:00"
+  ],
+  "lobsters:62loik": [
+   31,
+   "2026-11-08T17:53:46.047470+00:00"
   ]
  }
 }
