@@ -1,14 +1,5 @@
 {
  "seen": [
-  "hn:49329660",
-  "https://www.theregister.com/a/5287885",
-  "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtbsegvcjc2b",
-  "https://www.androidpolice.com/flashed-old-android-phone-with-open-source-os-and-gave-it-new-life/",
-  "https://9to5mac.com/?p=1064843",
-  "hn:49332981",
-  "https://news.slashdot.org/story/26/08/17/1644216/tracking-rare-books-leads-to-an-amazon-ai-training-facility?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "SmyES9oXsqr4y65srPRr39",
   "hn:49334544",
   "https://techcrunch.com/?p=3153430",
   "rey9GFDe5DeE3Uqc2RNKe7",
@@ -2999,18 +2990,27 @@
   "https://www.engadget.com/2309569/disadvantages-owning-smart-refrigerators/",
   "hn:50408961",
   "JuRrX3fWrYgFbuGNa2QCEL",
-  "https://science.slashdot.org/story/26/11/08/0629226/nasa-announces-its-looking-for-new-astronauts?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://science.slashdot.org/story/26/11/08/0629226/nasa-announces-its-looking-for-new-astronauts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "CF7rehN55hwd4YAcp7LGTg",
+  "TheNextWeb=46cac6c2cff8ae3ad0cebf242248b566",
+  "https://it.slashdot.org/story/26/11/07/2051225/is-mandating-ai-use-in-the-workplace-backfiring?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "w2N8ZULJRQyq2itrUuy6od",
+  "V37FpzdQE9dTmTTk3vvRzD",
+  "3242172",
+  "acEE6ZBt5Q37gMKveoPVdP",
+  "https://www.theregister.com/a/5308031",
+  "https://www.neowin.net/news/gta-6-achievements-leak-hints-at-how-massive-the-game-could-truly-be/"
  ],
  "posted": {
   "viral": 616,
-  "editorial": 814
+  "editorial": 817
  },
  "recent_labels": [
-  "Neowin",
   "Engadget",
   "Engadget",
-  "Engadget",
-  "Engadget"
+  "Tom's Hardware",
+  "Slashdot",
+  "vc.ru"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7339,29 +7339,30 @@
    "source": "Engadget",
    "score": 0.00946,
    "at": "2026-11-08T08:53:57.926305+00:00"
+  },
+  {
+   "title": "تکذیب گزارش‌ها درباره تولید حافظه 3D DRAM توسط TSMC برای Nvidia",
+   "url": "https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability",
+   "source": "Tom's Hardware",
+   "score": 0.00626,
+   "at": "2026-11-08T09:53:43.517803+00:00"
+  },
+  {
+   "title": "اجباری کردن استفاده از هوش مصنوعی در محیط کار نتیجه عکس می‌دهد",
+   "url": "https://it.slashdot.org/story/26/11/07/2051225/is-mandating-ai-use-in-the-workplace-backfiring?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.00695,
+   "at": "2026-11-08T09:53:49.394812+00:00"
+  },
+  {
+   "title": "راه‌اندازی خط تولید انبوه دیتاسنترهای شناور توسط استارتاپ Panthalassa",
+   "url": "https://vc.ru/future/3242172-startup-panthalassa-fabrika-plavuchikh-data-tsentrov?from=rss",
+   "source": "vc.ru",
+   "score": 0.1057,
+   "at": "2026-11-08T09:53:57.343888+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "avx10v1aux",
-    "compiler",
-    "gcc",
-    "merges",
-    "support"
-   ],
-   "at": "2026-11-03T10:54:00.569054+00:00"
-  },
-  {
-   "sig": [
-    "automation",
-    "due",
-    "laying",
-    "suse",
-    "workforce"
-   ],
-   "at": "2026-11-03T10:54:05.753693+00:00"
-  },
   {
    "sig": [
     "altman",
@@ -11413,6 +11414,29 @@
     "smart"
    ],
    "at": "2026-11-08T08:53:57.926305+00:00"
+  },
+  {
+   "sig": [
+    "chips",
+    "denies",
+    "dram",
+    "exploring",
+    "memory",
+    "move",
+    "nvidia",
+    "request",
+    "tsmc",
+    "weighing"
+   ],
+   "at": "2026-11-08T09:53:43.517803+00:00"
+  },
+  {
+   "sig": [
+    "backfiring",
+    "mandating",
+    "workplace"
+   ],
+   "at": "2026-11-08T09:53:49.394812+00:00"
   }
  ],
  "snapshots": {
