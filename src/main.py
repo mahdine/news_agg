@@ -17,7 +17,6 @@ from .models import Item
 from .state import State, now_utc
 
 ROOT = Path(__file__).resolve().parent.parent
-FALLBACK_IMAGE = ROOT / "assets" / "fallback.png"
 
 log = logging.getLogger("bot")
 
@@ -366,13 +365,19 @@ def publish(
             _archive(state, item)
             continue
 
-        # عکس را همین‌جا حل می‌کنیم نه زودتر: گزینه‌های یدکی معمولاً استفاده
-        # نمی‌شوند و گرفتن عکسشان فقط درخواست هدررفته بود.
-        images.resolve(item, client, enabled=settings.get("scrape_images", True))
+        # عکس را همین‌جا حل می‌کنیم نه زودتر: گزینه‌های یدکی معمولا‌ استفاده
+        # نمی‌شوند و گرفتن عکسشان فقط درخواست هدررفته بود. تصویر کوچک‌تر از
+        # min_image_side رد می‌شود؛ اگر هیچ تصویر مناسبی نبود، پست بی‌عکس می‌رود.
+        images.resolve(
+            item,
+            client,
+            enabled=settings.get("scrape_images", True),
+            min_side=settings.get("min_image_side", 400),
+        )
 
         if args.dry_run:
             print("\n" + "─" * 60)
-            print(f"[عکس] {item.image_url or 'assets/fallback.png (پیش‌فرض)'}")
+            print(f"[عکس] {item.image_url or 'بدون تصویر (preview غیرفعال)'}")
             print(telegram.build_message(item, title, persian, tag, channel))
             buttons = telegram.build_keyboard(item)["inline_keyboard"]
             print("[دکمه‌ها] " + " | ".join(b["text"] for row in buttons for b in row))

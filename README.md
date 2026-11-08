@@ -130,9 +130,9 @@ Twitter and X accounts work through [xcancel.com](https://xcancel.com) RSS bridg
 
 ## Other things it does
 
-Every post carries an image. The bot tries four things in order: whatever the feed or Bluesky embed gave it, then `og:image` or `twitter:image` on the article page, then the images inside the article body, and finally `assets/fallback.jpg`, which it uploads directly. Candidates are validated before use, since a broken URL makes `sendPhoto` fail and would otherwise cost the post its picture.
+Every post carries an image when a suitable one can be found. The bot tries in order: whatever the feed or Bluesky embed gave it, then `og:image` or `twitter:image` on the article page, then the images inside the article body. Every candidate is validated *and* size-checked before use: a feed thumbnail or a 56-pixel icon would render as a stretched square in Telegram, so anything below `min_image_side` (default 400px on the shorter side, configurable) is rejected and the next candidate tried. When nothing qualifies, the post goes out with the link preview disabled rather than with a site logo or fallback banner — a repeated brand image on every story reads as noise, not as identity.
 
-The article page is fetched with a browser user agent. With a bot-looking one, many publishers answer 403 and no image is ever found. Sites behind a JavaScript challenge still cannot be read, and those fall through to the default image.
+The article page is fetched with a browser user agent. With a bot-looking one, many publishers answer 403 and no image is ever found, and the post goes out without one. Sites behind a JavaScript challenge cannot be read either.
 
 Icons, logos, avatars, sprites, and tracking pixels are filtered out by name, and SVG is skipped because Telegram will not accept it.
 
@@ -208,6 +208,7 @@ Everything except the three secrets lives in [`config.yaml`](config.yaml).
 | `min_text_length` | 80 | Below this, an RSS item is usually an empty headline |
 | `min_ranked_text_length` | 30 | Lower, because engagement already proves the item |
 | `fetch_og_image` | true | Scrape `og:image` when a feed gives no picture |
+| `min_image_side` | 400 | Minimum pixels on the shorter side; smaller images are rejected and the next candidate tried |
 | `gemini_models` | four flash models | Tried in order; a 429 moves to the next |
 
 Per source you can set `label`, plus `authority` for RSS feeds, `min_engagement` for the viral pool, and `min_points` for Hacker News.

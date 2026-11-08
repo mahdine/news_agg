@@ -22,12 +22,9 @@ class TelegramError(RuntimeError):
 # می‌شود.
 MAX_TEXT = 3500
 
-# عکس پیش‌فرض از خودِ repo عمومی سرو می‌شود تا مثل بقیه یک URL داشته باشد و در
-# همان link preview بنشیند.
-FALLBACK_URL = (
-    "https://raw.githubusercontent.com/morpheusadam/PersianTwitter"
-    "/main/assets/fallback.png"
-)
+# عکس پست از طریق link preview می‌آید. وقتی تصویر مناسبی پیدا نشد preview
+# غیرفعال می‌شود — تصویر پیش‌فرض یا لوگوی سایت برای هر خبر یکی است و خواننده را
+# گمراه می‌کند، پس پست بی‌عکس تمیزتر است.
 
 # خلاصه هرچقدر هم کامل باشد جای مقاله را نمی‌گیرد؛ این خط خواننده را به دکمه‌ی
 # زیر پست وصل می‌کند.
@@ -95,11 +92,15 @@ def publish(
     محدودیت.
     """
     text = build_message(item, title, body, tag, channel)
-    preview = {
-        "url": item.image_url or FALLBACK_URL,
-        "prefer_large_media": True,
-        "show_above_text": True,
-    }
+    has_image = bool(item.image_url)
+    if has_image:
+        preview = {
+            "url": item.image_url,
+            "prefer_large_media": True,
+            "show_above_text": True,
+        }
+    else:
+        preview = {"is_disabled": True}
 
     try:
         _call(
@@ -116,6 +117,8 @@ def publish(
         )
         return
     except TelegramError as exc:
+        if not has_image:
+            raise
         log.warning("ارسال با عکس نشد، بدون عکس تلاش می‌کنم: %s", exc)
 
     _call(
