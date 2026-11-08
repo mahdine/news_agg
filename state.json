@@ -1,12 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtgva2e5z222",
-  "hn:49360545",
-  "https://www.theregister.com/a/5289572",
-  "https://www.engadget.com/2240020/google-pixel-11-pro-fold-review-more-but-not-enough/",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mthb4hqms22j",
-  "https://science.slashdot.org/story/26/08/19/1725205/moderna-merck-say-mrna-vaccine-prevents-melanoma-from-returning?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "TheNextWeb=0e71fdf4c7d2bca8415a0527e6c88d18",
   "https://3dnews.ru/1147097/#6a859907742eec8a988b456d",
   "https://therecord.media/electronic-health-record-company-carecloud-data-breach",
   "hn:49367350",
@@ -2999,18 +2992,25 @@
   "VL5Y7xNntzGjd5jrqYQCGG",
   "TXvKxUzbjdj8eeiV56NpwE",
   "TheNextWeb=2b32df9b2c5dd4da49b2bcd7b8975d49",
-  "TheNextWeb=8fa1eb0b943af7185de48a26f54e8f28"
+  "TheNextWeb=8fa1eb0b943af7185de48a26f54e8f28",
+  "hn:50412072",
+  "https://www.theverge.com/?p=1029526",
+  "https://www.techspot.com/news/114484-starlink-expands-surge-style-pricing-nationwide-increases-up.html",
+  "https://www.engadget.com/2307844/experimental-ev-batteries-eject-during-fire/",
+  "https://9to5mac.com/?p=1077897",
+  "https://www.neowin.net/news/airbnb-to-launch-an-ai-agent-for-travelers-next-year/",
+  "https://developers.slashdot.org/story/26/11/08/0558256/pythons-cves-triple-anthropic-funds-a-new-security-developer?utm_source=rss1.0mainlinkanon&utm_medium=feed"
  ],
  "posted": {
-  "viral": 622,
-  "editorial": 837
+  "viral": 623,
+  "editorial": 841
  },
  "recent_labels": [
-  "Tom's Hardware",
-  "Tom's Hardware",
-  "Tom's Hardware",
-  "The Next Web",
-  "The Next Web"
+  "Hacker News",
+  "The Verge",
+  "TechSpot",
+  "9to5Mac",
+  "Slashdot"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7542,58 +7542,44 @@
    "source": "The Next Web",
    "score": 0.16161,
    "at": "2026-11-08T14:54:59.780482+00:00"
+  },
+  {
+   "title": "رندر کردن سریع متن بیت‌مپ روی میکروکنترلرهای RP2350",
+   "url": "https://linebender.org/blog/jit-bitmap-text/",
+   "source": "linebender.org",
+   "score": 0.11001,
+   "at": "2026-11-08T15:53:45.374842+00:00"
+  },
+  {
+   "title": "احتمال حضور چت‌بات‌های هوش مصنوعی در هاب خانگی اپل",
+   "url": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
+   "source": "The Verge",
+   "score": 0.16401,
+   "at": "2026-11-08T15:53:51.681397+00:00"
+  },
+  {
+   "title": "تغییر مدل قیمت‌گذاری سرویس اینترنت ماهواره‌ای Starlink",
+   "url": "https://www.techspot.com/news/114484-starlink-expands-surge-style-pricing-nationwide-increases-up.html",
+   "source": "TechSpot",
+   "score": 0.14847,
+   "at": "2026-11-08T15:53:57.122484+00:00"
+  },
+  {
+   "title": "تلاش اپل برای تبدیل Siri به یک دستیار هوشمند کنش‌گرا",
+   "url": "https://9to5mac.com/2026/11/08/apple-working-on-agentic-siri-ai-next-year-report/",
+   "source": "9to5Mac",
+   "score": 0.33181,
+   "at": "2026-11-08T15:54:03.598875+00:00"
+  },
+  {
+   "title": "افزایش سه‌برابری آسیب‌پذیری‌های پایتون و استخدام نیروی امنیتی جدید",
+   "url": "https://developers.slashdot.org/story/26/11/08/0558256/pythons-cves-triple-anthropic-funds-a-new-security-developer?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.19887,
+   "at": "2026-11-08T15:54:09.397160+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "ats",
-    "introduction",
-    "programming"
-   ],
-   "at": "2026-11-04T01:54:31.144871+00:00"
-  },
-  {
-   "sig": [
-    "corestorage",
-    "does",
-    "macos",
-    "support",
-    "volumes"
-   ],
-   "at": "2026-11-04T01:54:59.398238+00:00"
-  },
-  {
-   "sig": [
-    "flipper",
-    "kickstarter",
-    "opening",
-    "pre-orders",
-    "preparing"
-   ],
-   "at": "2026-11-04T01:55:05.812747+00:00"
-  },
-  {
-   "sig": [
-    "every",
-    "getting",
-    "hit",
-    "human",
-    "other",
-    "prove",
-    "website"
-   ],
-   "at": "2026-11-04T03:53:46.692157+00:00"
-  },
-  {
-   "sig": [
-    "manipulation",
-    "navigation",
-    "setups",
-    "terminal"
-   ],
-   "at": "2026-11-04T03:53:52.169335+00:00"
-  },
   {
    "sig": [
     "always-listening",
@@ -11570,13 +11556,69 @@
     "under"
    ],
    "at": "2026-11-08T14:54:59.780482+00:00"
+  },
+  {
+   "sig": [
+    "bitmap",
+    "jit",
+    "microcontrollers",
+    "rendering",
+    "text"
+   ],
+   "at": "2026-11-08T15:53:45.374842+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "chatbots",
+    "coming",
+    "homeview",
+    "might"
+   ],
+   "at": "2026-11-08T15:53:51.681397+00:00"
+  },
+  {
+   "sig": [
+    "expands",
+    "increases",
+    "model",
+    "pricing",
+    "starlink",
+    "surge-style"
+   ],
+   "at": "2026-11-08T15:53:57.122484+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "aiming",
+    "airbnb",
+    "apple",
+    "launch",
+    "like",
+    "next",
+    "report",
+    "siri",
+    "soon",
+    "travelers",
+    "year"
+   ],
+   "at": "2026-11-08T15:54:03.598875+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "cves",
+    "developer",
+    "funds",
+    "python",
+    "security",
+    "triple"
+   ],
+   "at": "2026-11-08T15:54:09.397160+00:00"
   }
  ],
  "snapshots": {
-  "hn:50266780": [
-   207,
-   "2026-10-28T02:53:42.394204+00:00"
-  ],
   "hn:50262950": [
    70,
    "2026-10-28T02:53:42.394204+00:00"
@@ -13972,6 +14014,10 @@
   "hn:50411961": [
    97,
    "2026-11-08T13:53:38.296994+00:00"
+  ],
+  "hn:50412072": [
+   75,
+   "2026-11-08T15:53:43.523194+00:00"
   ]
  }
 }
