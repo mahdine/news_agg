@@ -1,12 +1,5 @@
 {
  "seen": [
-  "https://www.phoronix.com/news/Framework-Laptop-12-WCL",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtemfucs4b22",
-  "ArN7bX57b56trWuhYvGcUf",
-  "hn:49349147",
-  "hn:49349984",
-  "hn:49350955",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mtewlr23qq24",
   "hn:49348751",
   "https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b",
   "hn:49355142",
@@ -2999,18 +2992,25 @@
   "6aedfa1b872401bb1cbf6303",
   "https://www.androidpolice.com/i-want-headphones-and-earbuds-that-last/",
   "https://www.phoronix.com/news/AMD-PerfOpt-Tweaks-Linux-7.4",
-  "https://www.androidpolice.com/google-home-presence-automations-setting/"
+  "https://www.androidpolice.com/google-home-presence-automations-setting/",
+  "662b81aae6bf26f4a7313ad0",
+  "6aed1403f979e2b672d1308c",
+  "9V4KUWyWEeYn9ZzTgnDUj7",
+  "xEa3qAte9drAMTR4C7zvbc",
+  "https://www.securityweek.com/?p=50608",
+  "pRKqcEGMd9VrCMFG6qcSyW",
+  "https://yro.slashdot.org/story/26/11/07/0825245/aaron-swartz-wouldve-been-40-today-his-legacy-lives-on-says-fsf?utm_source=rss1.0mainlinkanon&utm_medium=feed"
  ],
  "posted": {
   "viral": 620,
-  "editorial": 824
+  "editorial": 829
  },
  "recent_labels": [
-  "The Register",
-  "Android Police",
-  "Android Police",
-  "Phoronix",
-  "Android Police"
+  "Wired",
+  "Tom's Hardware",
+  "SecurityWeek",
+  "Tom's Hardware",
+  "Slashdot"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7437,89 +7437,44 @@
    "source": "Android Police",
    "score": 0.21443,
    "at": "2026-11-08T12:01:00.542833+00:00"
+  },
+  {
+   "title": "قابلیت جدید هوش مصنوعی در اپلیکیشن آشپزی نیویورک تایمز",
+   "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+   "source": "Wired",
+   "score": 0.16323,
+   "at": "2026-11-08T12:53:44.075368+00:00"
+  },
+  {
+   "title": "تولید گیرنده رادیویی اوکراینی برای شنود تصاویر پهپادهای تهاجمی روسیه",
+   "url": "https://www.tomshardware.com/tech-industry/drones/pocket-sized-ukrainian-receiver-intercepts-russian-strike-drone-video-feeds-up-to-six-miles-away-device-only-slightly-heavier-than-a-smartphone-intercepts-analog-video-signals-sent-to-russian-operators",
+   "source": "Tom's Hardware",
+   "score": 0.14403,
+   "at": "2026-11-08T12:53:49.948587+00:00"
+  },
+  {
+   "title": "استارتاپ Brava Security با جذب سرمایه ۱۵ میلیون دلاری رونمایی شد",
+   "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+   "source": "SecurityWeek",
+   "score": 0.17872,
+   "at": "2026-11-08T12:53:57.626707+00:00"
+  },
+  {
+   "title": "اجرای مدل هوش مصنوعی ۲.۸ تریلیون پارامتری روی سخت‌افزار خانگی",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/homelabber-uses-second-gen-optane-memory-sticks-to-run-a-2-8-trillion-parameter-ai-model-on-cpu-alone-warns-that-optanes-extreme-heat-can-burn-out-nearby-memory-dram-used-blower-fans-to-prevent-melting-ram",
+   "source": "Tom's Hardware",
+   "score": 0.17951,
+   "at": "2026-11-08T12:54:03.188859+00:00"
+  },
+  {
+   "title": "گرامیداشت میراث فنی Aaron Swartz در چهل‌سالگی او",
+   "url": "https://yro.slashdot.org/story/26/11/07/0825245/aaron-swartz-wouldve-been-40-today-his-legacy-lives-on-says-fsf?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.19897,
+   "at": "2026-11-08T12:54:09.065640+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "appoints",
-    "army",
-    "counselor",
-    "dan",
-    "driscoll",
-    "former",
-    "hires",
-    "modernization",
-    "national",
-    "openai",
-    "secretary",
-    "security",
-    "senior"
-   ],
-   "at": "2026-11-03T15:54:13.931165+00:00"
-  },
-  {
-   "sig": [
-    "because",
-    "doesn",
-    "extruding",
-    "identified",
-    "machines",
-    "mean",
-    "problem",
-    "real",
-    "regular",
-    "reminder",
-    "solution",
-    "synthetic",
-    "text"
-   ],
-   "at": "2026-11-03T15:54:57.463183+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "ceos",
-    "easier",
-    "else",
-    "everyone",
-    "lives",
-    "own",
-    "tech"
-   ],
-   "at": "2026-11-03T15:55:07.573907+00:00"
-  },
-  {
-   "sig": [
-    "850k",
-    "alumni",
-    "donors",
-    "fam",
-    "harvard",
-    "hit",
-    "last",
-    "raid",
-    "shinyhunters",
-    "students",
-    "university",
-    "year"
-   ],
-   "at": "2026-11-03T15:55:17.952813+00:00"
-  },
-  {
-   "sig": [
-    "attacks",
-    "charges",
-    "cloud",
-    "costing",
-    "enterprises",
-    "google",
-    "llmjacking",
-    "million",
-    "warns"
-   ],
-   "at": "2026-11-03T15:55:32.750267+00:00"
-  },
   {
    "sig": [
     "bear",
@@ -11479,6 +11434,74 @@
     "wi-fi"
    ],
    "at": "2026-11-08T12:01:00.542833+00:00"
+  },
+  {
+   "sig": [
+    "actually",
+    "ai-powered",
+    "cooking",
+    "good",
+    "modifier",
+    "nyt",
+    "pretty",
+    "recipe"
+   ],
+   "at": "2026-11-08T12:53:44.075368+00:00"
+  },
+  {
+   "sig": [
+    "away",
+    "drone",
+    "feeds",
+    "intercepts",
+    "miles",
+    "pocket-sized",
+    "receiver",
+    "russian",
+    "six",
+    "strike",
+    "ukrainian",
+    "video"
+   ],
+   "at": "2026-11-08T12:53:49.948587+00:00"
+  },
+  {
+   "sig": [
+    "brava",
+    "emerges",
+    "funding",
+    "million",
+    "security",
+    "stealth"
+   ],
+   "at": "2026-11-08T12:53:57.626707+00:00"
+  },
+  {
+   "sig": [
+    "2.8-trillion-parameter",
+    "alone",
+    "cpu",
+    "homelabber",
+    "memory",
+    "model",
+    "optane",
+    "run",
+    "second-gen",
+    "sticks"
+   ],
+   "at": "2026-11-08T12:54:03.188859+00:00"
+  },
+  {
+   "sig": [
+    "aaron",
+    "fsf",
+    "legacy",
+    "lives",
+    "swartz",
+    "today",
+    "would"
+   ],
+   "at": "2026-11-08T12:54:09.065640+00:00"
   }
  ],
  "snapshots": {
