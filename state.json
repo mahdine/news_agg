@@ -1,13 +1,5 @@
 {
  "seen": [
-  "hn:49321717",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i",
-  "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
-  "hn:49319727",
-  "hn:49319814",
-  "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
-  "hn:49322695",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mt7xxpajaf2l",
   "https://www.engadget.com/2236219/how-samsung-galaxy-watch-series8-measures-antioxidant-levels/",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mta6urbgf22b",
   "6a75b69f0d880c43a7feaa2b",
@@ -2999,18 +2991,26 @@
   "https://9to5mac.com/?p=1077888",
   "https://www.engadget.com/2306942/playstation-5-playable-discs-explained/",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzrfku36422q",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzrolo3ud22n"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzrolo3ud22n",
+  "https://hardware.slashdot.org/story/26/11/07/2153213/data-centers-are-being-powered-by-giant-gas-plants-possibly-increasing-carbon-pollution-for-decades?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50409855",
+  "6heRZ4XBdy9v7ZCj7e5jQ4",
+  "https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "xRpZEwLM5xwZCHfLV8Tbc5",
+  "n6BSkNthUYmp4WucdrkVR3",
+  "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://www.neowin.net/news/microsoft-finally-addresses-over-30-years-of-user-frustrations-with-a-simple-windows-11-fix/"
  ],
  "posted": {
-  "viral": 615,
-  "editorial": 806
+  "viral": 616,
+  "editorial": 810
  },
  "recent_labels": [
-  "Engadget",
-  "404 Media",
-  "TechCrunch AI",
-  "9to5Mac",
-  "404 Media"
+  "Hacker News",
+  "InfoQ",
+  "TechRadar",
+  "InfoQ",
+  "Neowin"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7276,74 +7276,44 @@
    "source": "404media.co",
    "score": 0.45596,
    "at": "2026-11-08T05:54:50.812131+00:00"
+  },
+  {
+   "title": "معرفی کلاینت سبک و بومی ZapFast برای واتس‌اپ",
+   "url": "https://github.com/crmne/zapfast",
+   "source": "github.com",
+   "score": 0.02625,
+   "at": "2026-11-08T07:55:19.500018+00:00"
+  },
+  {
+   "title": "CLOUD DATABASE",
+   "url": "https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.11203,
+   "at": "2026-11-08T07:56:29.425718+00:00"
+  },
+  {
+   "title": "تمایل پایین کارجویان به شرکت در مصاحبه‌های استخدامی مبتنی بر هوش مصنوعی",
+   "url": "https://www.techradar.com/pro/employed-job-seekers-are-shunning-companies-which-use-ai-interviews-and-i-dont-blame-them",
+   "source": "TechRadar",
+   "score": 0.11521,
+   "at": "2026-11-08T07:56:36.425768+00:00"
+  },
+  {
+   "title": "CLOUD",
+   "url": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.17137,
+   "at": "2026-11-08T07:56:59.409912+00:00"
+  },
+  {
+   "title": "مایکروسافت یک مشکل ۳۰ ساله در ویندوز را برطرف می‌کند",
+   "url": "https://www.neowin.net/news/microsoft-finally-addresses-over-30-years-of-user-frustrations-with-a-simple-windows-11-fix/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.21231,
+   "at": "2026-11-08T07:57:05.845944+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "attackers",
-    "backdoors",
-    "command",
-    "critical",
-    "exploit",
-    "flaw",
-    "iot2050",
-    "plant",
-    "remote",
-    "siemens"
-   ],
-   "at": "2026-11-03T06:53:51.730563+00:00"
-  },
-  {
-   "sig": [
-    "countries",
-    "cyberattack",
-    "european",
-    "food",
-    "many",
-    "refrigerator",
-    "spoiling",
-    "spreads",
-    "thousands",
-    "worth"
-   ],
-   "at": "2026-11-03T06:54:20.730156+00:00"
-  },
-  {
-   "sig": [
-    "already",
-    "android",
-    "apps",
-    "coming",
-    "could",
-    "google",
-    "ios",
-    "quick",
-    "share"
-   ],
-   "at": "2026-11-03T07:54:04.091875+00:00"
-  },
-  {
-   "sig": [
-    "autoplay",
-    "block",
-    "filter",
-    "origin",
-    "techcrunch",
-    "ublock",
-    "videos"
-   ],
-   "at": "2026-11-03T08:53:59.736024+00:00"
-  },
-  {
-   "sig": [
-    "fabricaone.ai",
-    "robin",
-    "rpa",
-    "soft"
-   ],
-   "at": "2026-11-03T08:54:14.703492+00:00"
-  },
   {
    "sig": [
     "agents",
@@ -11356,13 +11326,73 @@
     "www.404media.co"
    ],
    "at": "2026-11-08T05:54:50.812131+00:00"
+  },
+  {
+   "sig": [
+    "client",
+    "egui",
+    "fast",
+    "native",
+    "rust",
+    "whatsapp",
+    "zapfast"
+   ],
+   "at": "2026-11-08T07:55:19.500018+00:00"
+  },
+  {
+   "sig": [
+    "cloudflare",
+    "control",
+    "databases",
+    "millions",
+    "plane",
+    "scales"
+   ],
+   "at": "2026-11-08T07:56:29.425718+00:00"
+  },
+  {
+   "sig": [
+    "blame",
+    "companies",
+    "don",
+    "employed",
+    "interviews",
+    "job",
+    "seekers",
+    "shunning",
+    "which"
+   ],
+   "at": "2026-11-08T07:56:36.425768+00:00"
+  },
+  {
+   "sig": [
+    "adds",
+    "bare",
+    "cloud",
+    "foundation",
+    "google",
+    "metal",
+    "self-managed",
+    "vmware"
+   ],
+   "at": "2026-11-08T07:56:59.409912+00:00"
+  },
+  {
+   "sig": [
+    "addresses",
+    "finally",
+    "fix",
+    "frustrations",
+    "microsoft",
+    "simple",
+    "user",
+    "windows",
+    "years"
+   ],
+   "at": "2026-11-08T07:57:05.845944+00:00"
   }
  ],
  "snapshots": {
-  "hn:50264857": [
-   399,
-   "2026-10-28T01:53:44.757509+00:00"
-  ],
   "hn:50264853": [
    392,
    "2026-10-28T01:53:44.757509+00:00"
@@ -13758,6 +13788,10 @@
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzrfku36422q": [
    31,
    "2026-11-08T05:53:43.345762+00:00"
+  ],
+  "hn:50409855": [
+   140,
+   "2026-11-08T07:53:41.838578+00:00"
   ]
  }
 }
