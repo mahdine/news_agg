@@ -1,15 +1,5 @@
 {
  "seen": [
-  "https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/",
-  "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
-  "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
-  "https://arstechnica.com/security/2026/07/kremlin-hackers-are-exploiting-exchange-flaw-to-backdoor-unpatched-networks/",
-  "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
-  "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
-  "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
-  "https://arstechnica.com/gadgets/2026/07/treesize-wont-renew-perpetual-license-support-unless-users-subscribe/",
-  "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
-  "https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/",
   "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
   "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
   "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
@@ -2999,18 +2989,28 @@
   "https://techcrunch.com/?p=3185468",
   "1425648",
   "https://www.engadget.com/2307324/spam-callers-how-they-get-your-number/",
-  "https://bsd.slashdot.org/story/26/11/08/0044219/alpinebsd-announced---an-ai-free-foss-os?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://bsd.slashdot.org/story/26/11/08/0044219/alpinebsd-announced---an-ai-free-foss-os?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.techspot.com/news/114465-raspberry-pi-5-16gb-now-costs-385-more.html",
+  "uZLGRg8rAQNstpybmhbsnZ",
+  "https://www.phoronix.com/news/OpenIndiana-2026.10",
+  "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+  "GhgMfkHArrSSPEBT3uhjoj",
+  "ZHc57QEWeWQadSgeYdZ6ke",
+  "gWb8sc5xRdKjCxDEoExTih",
+  "https://www.androidpolice.com/google-keep-widget-trick-visible/",
+  "Zuv9G6uUjzd7YGEnYpPjSj",
+  "BAXsXwS827hWf9riR4wyZ4"
  ],
  "posted": {
   "viral": 613,
-  "editorial": 797
+  "editorial": 802
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
-  "Engadget",
-  "Engadget",
-  "Slashdot"
+  "TechSpot",
+  "Phoronix",
+  "Simon Willison RSS",
+  "TechRadar",
+  "TechRadar"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7199,75 +7199,44 @@
    "source": "Slashdot",
    "score": 0.07093,
    "at": "2026-11-08T02:54:22.755124+00:00"
+  },
+  {
+   "title": "افزایش قیمت چشمگیر مدل ۱۶ گیگابایتی Raspberry Pi 5",
+   "url": "https://www.techspot.com/news/114465-raspberry-pi-5-16gb-now-costs-385-more.html",
+   "source": "TechSpot",
+   "score": 0.04972,
+   "at": "2026-11-08T03:53:42.002231+00:00"
+  },
+  {
+   "title": "انتشار نسخه جدید سیستم‌عامل OpenIndiana با ابزارهای به‌روزرسانی شده",
+   "url": "https://www.phoronix.com/news/OpenIndiana-2026.10",
+   "source": "Phoronix",
+   "score": 0.02903,
+   "at": "2026-11-08T03:53:55.911923+00:00"
+  },
+  {
+   "title": "تغییر در هدرهای HTTP برای جلوگیری از پیش‌بارگذاری صفحات در فایرفاکس",
+   "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+   "source": "Simon Willison RSS",
+   "score": 0.04751,
+   "at": "2026-11-08T03:54:02.235636+00:00"
+  },
+  {
+   "title": "استفاده از دکل‌های مخابراتی برای ردیابی پهپادها توسط اریکسون",
+   "url": "https://www.techradar.com/pro/drones-can-now-be-tracked-down-by-mobile-networks-alone-could-this-new-ericsson-tech-spell-the-end-for-the-current-crop-of-flying-uavs",
+   "source": "TechRadar",
+   "score": 0.03373,
+   "at": "2026-11-08T03:54:09.463366+00:00"
+  },
+  {
+   "title": "احتمال عرضه کنسول‌های بازی با قیمت هزار دلار در نسل آینده",
+   "url": "https://www.techradar.com/gaming/the-next-generation-wont-replace-this-one-so-much-as-sit-on-top-of-it-industry-analysts-say-sony-microsoft-and-nintendos-relentless-push-for-higher-end-performance-will-need-to-be-moderated-to-avoid-usd1000-launch-consoles",
+   "source": "TechRadar",
+   "score": 0.04477,
+   "at": "2026-11-08T03:54:15.011170+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "hacker",
-    "news",
-    "show",
-    "times",
-    "times-inspired",
-    "version",
-    "york"
-   ],
-   "at": "2026-11-03T03:54:52.072154+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "app",
-    "bugs",
-    "catch",
-    "launch",
-    "momentic",
-    "using",
-    "w24"
-   ],
-   "at": "2026-11-03T04:53:52.452821+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "attacks",
-    "countries",
-    "iphone",
-    "mercenary",
-    "notified",
-    "potential",
-    "recently",
-    "spyware",
-    "users",
-    "warning"
-   ],
-   "at": "2026-11-03T04:54:00.403743+00:00"
-  },
-  {
-   "sig": [
-    "background",
-    "exact",
-    "leaks",
-    "location",
-    "sound"
-   ],
-   "at": "2026-11-03T04:54:12.113922+00:00"
-  },
-  {
-   "sig": [
-    "ai-generated",
-    "bid",
-    "bring",
-    "dreambeans",
-    "google",
-    "india",
-    "masses",
-    "personal",
-    "stories",
-    "takes"
-   ],
-   "at": "2026-11-03T04:54:21.356828+00:00"
-  },
   {
    "sig": [
     "1.3",
@@ -11259,6 +11228,114 @@
     "foss"
    ],
    "at": "2026-11-08T02:54:22.755124+00:00"
+  },
+  {
+   "sig": [
+    "16gb",
+    "blame",
+    "costs",
+    "course",
+    "did",
+    "global",
+    "hike",
+    "launch",
+    "means",
+    "model",
+    "price",
+    "ram",
+    "raspberry",
+    "shortage",
+    "three",
+    "times",
+    "triple"
+   ],
+   "at": "2026-11-08T03:53:42.002231+00:00"
+  },
+  {
+   "sig": [
+    "2026.10",
+    "apps",
+    "compilers",
+    "openindiana",
+    "released",
+    "tools",
+    "updated"
+   ],
+   "at": "2026-11-08T03:53:55.911923+00:00"
+  },
+  {
+   "sig": [
+    "datasette",
+    "don",
+    "firefox",
+    "headers",
+    "html",
+    "http",
+    "link",
+    "looking",
+    "network",
+    "next",
+    "noticed",
+    "page",
+    "pages",
+    "panel",
+    "prefetch",
+    "rel",
+    "requests",
+    "rows",
+    "serve",
+    "table",
+    "today",
+    "triggering",
+    "were"
+   ],
+   "at": "2026-11-08T03:54:02.235636+00:00"
+  },
+  {
+   "sig": [
+    "alone",
+    "could",
+    "crop",
+    "current",
+    "down",
+    "drones",
+    "end",
+    "ericsson",
+    "flying",
+    "mobile",
+    "networks",
+    "spell",
+    "tech",
+    "tracked",
+    "uavs"
+   ],
+   "at": "2026-11-08T03:54:09.463366+00:00"
+  },
+  {
+   "sig": [
+    "analysts",
+    "avoid",
+    "consoles",
+    "generation",
+    "higher-end",
+    "industry",
+    "launch",
+    "microsoft",
+    "moderated",
+    "much",
+    "need",
+    "next",
+    "nintendo",
+    "performance",
+    "push",
+    "relentless",
+    "replace",
+    "sit",
+    "sony",
+    "top",
+    "won"
+   ],
+   "at": "2026-11-08T03:54:15.011170+00:00"
   }
  ],
  "snapshots": {
@@ -13659,8 +13736,8 @@
    "2026-11-08T02:53:45.159773+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzrdowcqdv2n": [
-   82,
-   "2026-11-08T02:53:45.159773+00:00"
+   150,
+   "2026-11-08T03:53:40.252034+00:00"
   ]
  }
 }
