@@ -1,12 +1,5 @@
 {
  "seen": [
-  "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
-  "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
-  "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-  "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
-  "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
-  "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
-  "https://arstechnica.com/security/2026/08/chrome-adopts-what-may-be-the-best-protection-yet-against-account-takeovers/",
   "https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/",
   "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
   "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
@@ -2999,18 +2992,25 @@
   "lobsters:owsnms",
   "hn:50408713",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzqytnwgq724",
-  "hn:50408931"
+  "hn:50408931",
+  "hn:50405782",
+  "hn:50406563",
+  "https://www.engadget.com/2310182/claude-vs-chatgpt-personal-finance-comparison/",
+  "https://techcrunch.com/?p=3185468",
+  "1425648",
+  "https://www.engadget.com/2307324/spam-callers-how-they-get-your-number/",
+  "https://bsd.slashdot.org/story/26/11/08/0044219/alpinebsd-announced---an-ai-free-foss-os?utm_source=rss1.0mainlinkanon&utm_medium=feed"
  ],
  "posted": {
-  "viral": 611,
-  "editorial": 794
+  "viral": 613,
+  "editorial": 797
  },
  "recent_labels": [
   "Hacker News",
-  "404 Media",
-  "Lobsters",
-  "404 Media",
-  "Hacker News"
+  "Hacker News",
+  "Engadget",
+  "Engadget",
+  "Slashdot"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7164,68 +7164,44 @@
    "source": "github.blog",
    "score": 0.00387,
    "at": "2026-11-08T01:54:08.448047+00:00"
+  },
+  {
+   "title": "آرشیو تصاویر میکروسکوپی از دای پردازنده‌ها از ۱۹۷۲ تا ۲۰۲۴",
+   "url": "https://sheets.works/data-viz/cpu-dies",
+   "source": "sheets.works",
+   "score": 0.00294,
+   "at": "2026-11-08T02:53:58.159780+00:00"
+  },
+  {
+   "title": "پایان کار گروه تحقیقاتی AI Frontiers در مایکروسافت",
+   "url": "https://hunch.net/?p=13764006",
+   "source": "hunch.net",
+   "score": 0.00632,
+   "at": "2026-11-08T02:54:05.188654+00:00"
+  },
+  {
+   "title": "مقایسه قابلیت‌های مدیریت مالی در چت‌بات‌های Claude و ChatGPT",
+   "url": "https://www.engadget.com/2310182/claude-vs-chatgpt-personal-finance-comparison/",
+   "source": "Engadget",
+   "score": 0.12337,
+   "at": "2026-11-08T02:54:10.768454+00:00"
+  },
+  {
+   "title": "روش‌های نشت شماره تلفن و راهکارهای مقابله با تماس‌های اسپم",
+   "url": "https://www.engadget.com/2307324/spam-callers-how-they-get-your-number/",
+   "source": "Engadget",
+   "score": 0.07042,
+   "at": "2026-11-08T02:54:16.647953+00:00"
+  },
+  {
+   "title": "معرفی سیستم‌عامل جدید AlpineBSD با رویکردی متفاوت در برابر هوش مصنوعی",
+   "url": "https://bsd.slashdot.org/story/26/11/08/0044219/alpinebsd-announced---an-ai-free-foss-os?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.07093,
+   "at": "2026-11-08T02:54:22.755124+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "ethernet",
-    "fiber",
-    "fish",
-    "instead",
-    "invisible"
-   ],
-   "at": "2026-11-03T02:54:38.486220+00:00"
-  },
-  {
-   "sig": [
-    "code",
-    "firmware",
-    "polyend",
-    "releases",
-    "source",
-    "tracker"
-   ],
-   "at": "2026-11-03T03:53:55.957464+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "back",
-    "buildings",
-    "gaza",
-    "maps",
-    "puts"
-   ],
-   "at": "2026-11-03T03:54:20.167621+00:00"
-  },
-  {
-   "sig": [
-    "3.5t",
-    "chip",
-    "collapse",
-    "intel",
-    "rout",
-    "spreads",
-    "stock",
-    "worsens"
-   ],
-   "at": "2026-11-03T03:54:30.211630+00:00"
-  },
-  {
-   "sig": [
-    "artwork",
-    "blu-ray",
-    "burn",
-    "cds",
-    "discimagestudio",
-    "discs",
-    "dvds",
-    "onto",
-    "visible"
-   ],
-   "at": "2026-11-03T03:54:42.895662+00:00"
-  },
   {
    "sig": [
     "hacker",
@@ -11223,13 +11199,69 @@
     "request"
    ],
    "at": "2026-11-08T01:54:08.448047+00:00"
+  },
+  {
+   "sig": [
+    "anyone",
+    "away",
+    "die",
+    "every",
+    "given",
+    "photographed",
+    "processor"
+   ],
+   "at": "2026-11-08T02:53:58.159780+00:00"
+  },
+  {
+   "sig": [
+    "end",
+    "frontiers",
+    "group",
+    "microsoft",
+    "research"
+   ],
+   "at": "2026-11-08T02:54:05.188654+00:00"
+  },
+  {
+   "sig": [
+    "aims",
+    "analyze",
+    "apart",
+    "chatgpt",
+    "claude",
+    "course",
+    "finance",
+    "finances",
+    "help",
+    "personal",
+    "read-only",
+    "sets",
+    "spending",
+    "tool"
+   ],
+   "at": "2026-11-08T02:54:10.768454+00:00"
+  },
+  {
+   "sig": [
+    "callers",
+    "first",
+    "number",
+    "place",
+    "spam"
+   ],
+   "at": "2026-11-08T02:54:16.647953+00:00"
+  },
+  {
+   "sig": [
+    "ai-free",
+    "alpinebsd",
+    "announced",
+    "foss"
+   ],
+   "at": "2026-11-08T02:54:22.755124+00:00"
   }
  ],
  "snapshots": {
-  "hn:50262942": [
-   144,
-   "2026-10-27T21:24:00.138957+00:00"
-  ],
   "lobsters:q7arzy": [
    37,
    "2026-10-27T21:24:00.138957+00:00"
@@ -13582,14 +13614,6 @@
    192,
    "2026-11-07T22:01:54.486336+00:00"
   ],
-  "hn:50406563": [
-   838,
-   "2026-11-08T01:53:39.230128+00:00"
-  ],
-  "hn:50405782": [
-   111,
-   "2026-11-08T01:53:39.230128+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzqplbweef2p": [
    241,
    "2026-11-08T01:53:39.230128+00:00"
@@ -13625,6 +13649,18 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzqytnwgq724": [
    98,
    "2026-11-08T01:53:39.230128+00:00"
+  ],
+  "hn:50406563": [
+   874,
+   "2026-11-08T02:53:45.159773+00:00"
+  ],
+  "hn:50405782": [
+   118,
+   "2026-11-08T02:53:45.159773+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzrdowcqdv2n": [
+   82,
+   "2026-11-08T02:53:45.159773+00:00"
   ]
  }
 }
