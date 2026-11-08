@@ -1,13 +1,5 @@
 {
  "seen": [
-  "hn:49348751",
-  "https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b",
-  "hn:49355142",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtfnebdqjs2t",
-  "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
-  "hn:49355105",
-  "hn:49355825",
-  "https://therecord.media/more-than-200-medusa-ransomware-victims-in-last-year-cisa",
   "hn:49354613",
   "lobsters:m0okh1",
   "hn:49355607",
@@ -2999,18 +2991,26 @@
   "xEa3qAte9drAMTR4C7zvbc",
   "https://www.securityweek.com/?p=50608",
   "pRKqcEGMd9VrCMFG6qcSyW",
-  "https://yro.slashdot.org/story/26/11/07/0825245/aaron-swartz-wouldve-been-40-today-his-legacy-lives-on-says-fsf?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://yro.slashdot.org/story/26/11/07/0825245/aaron-swartz-wouldve-been-40-today-his-legacy-lives-on-says-fsf?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50411961",
+  "hn:50412152",
+  "hn:50412591",
+  "https://www.engadget.com/2306213/avoid-common-mistakes-buying-new-monitor/",
+  "https://www.engadget.com/2306598/streaming-vs-downloading-battery-data-usage/",
+  "https://www.neowin.net/news/7-days-xbox-inside-alligator-freezers-arent-safe-and-edits-on-desktop/",
+  "https://www.engadget.com/2306218/can-hackers-do-anything-with-ip-address/",
+  "https://www.androidpolice.com/gemini-without-typing-a-single-word-i-get-way-more-done-now/"
  ],
  "posted": {
-  "viral": 620,
-  "editorial": 829
+  "viral": 622,
+  "editorial": 832
  },
  "recent_labels": [
-  "Wired",
-  "Tom's Hardware",
-  "SecurityWeek",
-  "Tom's Hardware",
-  "Slashdot"
+  "Hacker News",
+  "Hacker News",
+  "Engadget",
+  "Engadget",
+  "Android Police"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7472,65 +7472,44 @@
    "source": "Slashdot",
    "score": 0.19897,
    "at": "2026-11-08T12:54:09.065640+00:00"
+  },
+  {
+   "title": "اجرای مدل‌های هوش مصنوعی بزرگ روی سخت‌افزارهای معمولی بدون نیاز به GPU",
+   "url": "https://github.com/synchopate/llama-modchip",
+   "source": "github.com",
+   "score": 0.17369,
+   "at": "2026-11-08T13:53:40.736292+00:00"
+  },
+  {
+   "title": "تصمیم یک برنامه‌نویس برای عدم استفاده از مدل‌های زبانی در کدنویسی",
+   "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+   "source": "polso.info",
+   "score": 0.1396,
+   "at": "2026-11-08T13:53:49.267235+00:00"
+  },
+  {
+   "title": "مقایسه مصرف باتری و دیتا در استریم و دانلود محتوا",
+   "url": "https://www.engadget.com/2306598/streaming-vs-downloading-battery-data-usage/",
+   "source": "Engadget",
+   "score": 0.18922,
+   "at": "2026-11-08T13:53:55.136374+00:00"
+  },
+  {
+   "title": "خطرات افشای آدرس IP و چالش‌های امنیتی پروتکل IPv6",
+   "url": "https://www.engadget.com/2306218/can-hackers-do-anything-with-ip-address/",
+   "source": "Engadget",
+   "score": 0.23078,
+   "at": "2026-11-08T13:54:44.742840+00:00"
+  },
+  {
+   "title": "قابلیت‌های جدید کنترل صوتی Gemini برای مدیریت گوشی بدون لمس صفحه",
+   "url": "https://www.androidpolice.com/gemini-without-typing-a-single-word-i-get-way-more-done-now/",
+   "source": "Android Police",
+   "score": 0.19827,
+   "at": "2026-11-08T13:54:50.449794+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "bear",
-    "day",
-    "feels",
-    "like",
-    "still",
-    "turns"
-   ],
-   "at": "2026-11-03T20:11:12.363979+00:00"
-  },
-  {
-   "sig": [
-    "cancel",
-    "hackerchurn",
-    "saas",
-    "show",
-    "tools",
-    "wants",
-    "which"
-   ],
-   "at": "2026-11-03T20:11:21.542696+00:00"
-  },
-  {
-   "sig": [
-    "api",
-    "attempts",
-    "auto-installs",
-    "data",
-    "plugins",
-    "postman",
-    "share",
-    "silently"
-   ],
-   "at": "2026-11-03T20:11:34.892626+00:00"
-  },
-  {
-   "sig": [
-    "demand",
-    "freedom",
-    "google",
-    "know",
-    "researchers",
-    "tell",
-    "world"
-   ],
-   "at": "2026-11-03T20:12:40.976325+00:00"
-  },
-  {
-   "sig": [
-    "comes",
-    "death",
-    "xslt"
-   ],
-   "at": "2026-11-04T00:43:18.157291+00:00"
-  },
   {
    "sig": [
     "26.04",
@@ -11502,21 +11481,59 @@
     "would"
    ],
    "at": "2026-11-08T12:54:09.065640+00:00"
+  },
+  {
+   "sig": [
+    "284b",
+    "64gb",
+    "deepseek",
+    "gpu",
+    "llama-modchip",
+    "ram"
+   ],
+   "at": "2026-11-08T13:53:40.736292+00:00"
+  },
+  {
+   "sig": [
+    "coding",
+    "llms",
+    "using"
+   ],
+   "at": "2026-11-08T13:53:49.267235+00:00"
+  },
+  {
+   "sig": [
+    "battery",
+    "data",
+    "downloading",
+    "streaming",
+    "which"
+   ],
+   "at": "2026-11-08T13:53:55.136374+00:00"
+  },
+  {
+   "sig": [
+    "address",
+    "anything",
+    "hacker",
+    "really"
+   ],
+   "at": "2026-11-08T13:54:44.742840+00:00"
+  },
+  {
+   "sig": [
+    "done",
+    "gemini",
+    "single",
+    "typing",
+    "way",
+    "without",
+    "word"
+   ],
+   "at": "2026-11-08T13:54:50.449794+00:00"
   }
  ],
  "snapshots": {
-  "hn:50262668": [
-   148,
-   "2026-10-28T02:53:42.394204+00:00"
-  ],
-  "hn:50260960": [
-   72,
-   "2026-10-28T02:53:42.394204+00:00"
-  ],
-  "hn:50260714": [
-   85,
-   "2026-10-28T02:53:42.394204+00:00"
-  ],
   "hn:50266780": [
    207,
    "2026-10-28T02:53:42.394204+00:00"
@@ -13904,6 +13921,18 @@
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzs5litqwc2b": [
    15,
    "2026-11-08T11:53:42.210207+00:00"
+  ],
+  "hn:50412591": [
+   271,
+   "2026-11-08T13:53:38.296994+00:00"
+  ],
+  "hn:50412152": [
+   139,
+   "2026-11-08T13:53:38.296994+00:00"
+  ],
+  "hn:50411961": [
+   97,
+   "2026-11-08T13:53:38.296994+00:00"
   ]
  }
 }
