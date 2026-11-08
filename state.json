@@ -1,13 +1,5 @@
 {
  "seen": [
-  "https://3dnews.ru/1146980/#6a83fcd3742eec28428b4587",
-  "https://www.theregister.com/a/5288962",
-  "hn:49344825",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtecrqylp22l",
-  "https://www.theregister.com/a/5289121",
-  "lobsters:ttxwdz",
-  "https://9to5mac.com/?p=1065036",
-  "hn:49347055",
   "https://www.phoronix.com/news/Framework-Laptop-12-WCL",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtemfucs4b22",
   "ArN7bX57b56trWuhYvGcUf",
@@ -2999,18 +2991,26 @@
   "hn:50411467",
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzs5litqwc2b",
   "https://www.phoronix.com/news/GCC-17-Ends-Stage-1-Next-Week",
-  "https://www.theregister.com/a/5308092"
+  "https://www.theregister.com/a/5308092",
+  "6ae8f97ce744a53ef57b2583",
+  "gV48X7bnoXkrAMabu5JxUg",
+  "https://www.androidpolice.com/apks-install-and-update-on-android/",
+  "3241343",
+  "6aedfa1b872401bb1cbf6303",
+  "https://www.androidpolice.com/i-want-headphones-and-earbuds-that-last/",
+  "https://www.phoronix.com/news/AMD-PerfOpt-Tweaks-Linux-7.4",
+  "https://www.androidpolice.com/google-home-presence-automations-setting/"
  ],
  "posted": {
   "viral": 620,
-  "editorial": 820
+  "editorial": 824
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
-  "antirez",
+  "The Register",
+  "Android Police",
+  "Android Police",
   "Phoronix",
-  "The Register"
+  "Android Police"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7409,65 +7409,37 @@
    "source": "The Register",
    "score": 0.18921,
    "at": "2026-11-08T11:55:02.672236+00:00"
+  },
+  {
+   "title": "راهکارهای امنیتی برای نصب و به‌روزرسانی اپلیکیشن‌های خارج از گوگل پلی",
+   "url": "https://www.androidpolice.com/apks-install-and-update-on-android/",
+   "source": "Android Police",
+   "score": 0.1076,
+   "at": "2026-11-08T12:00:39.091424+00:00"
+  },
+  {
+   "title": "تولید هدفون و ایربادهای قابل تعمیر توسط برند Fairphone",
+   "url": "https://www.androidpolice.com/i-want-headphones-and-earbuds-that-last/",
+   "source": "Android Police",
+   "score": 0.14927,
+   "at": "2026-11-08T12:00:49.192976+00:00"
+  },
+  {
+   "title": "بهبود عملکرد پردازنده‌های AMD در هسته لینوکس",
+   "url": "https://www.phoronix.com/news/AMD-PerfOpt-Tweaks-Linux-7.4",
+   "source": "Phoronix",
+   "score": 0.11175,
+   "at": "2026-11-08T12:00:54.749802+00:00"
+  },
+  {
+   "title": "افزایش دقت تشخیص حضور در خانه با تنظیمات Wi-Fi گوگل هوم",
+   "url": "https://www.androidpolice.com/google-home-presence-automations-setting/",
+   "source": "Android Police",
+   "score": 0.21443,
+   "at": "2026-11-08T12:01:00.542833+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "browser",
-    "built",
-    "commands",
-    "game",
-    "little",
-    "practice",
-    "show",
-    "vim"
-   ],
-   "at": "2026-11-03T13:54:01.005047+00:00"
-  },
-  {
-   "sig": [
-    "ao3.life",
-    "audiobooks",
-    "authors",
-    "fanfiction",
-    "original",
-    "permission",
-    "repackaging",
-    "sale",
-    "scraping",
-    "turning",
-    "without",
-    "works"
-   ],
-   "at": "2026-11-03T13:54:07.915251+00:00"
-  },
-  {
-   "sig": [
-    "little",
-    "resistance",
-    "treat"
-   ],
-   "at": "2026-11-03T14:58:21.646251+00:00"
-  },
-  {
-   "sig": [
-    "addon",
-    "api",
-    "bad",
-    "changing",
-    "dealing",
-    "developers",
-    "getting",
-    "logs",
-    "problem",
-    "theft",
-    "vibe-coded",
-    "warcraft",
-    "work"
-   ],
-   "at": "2026-11-03T15:00:27.684173+00:00"
-  },
   {
    "sig": [
     "appoints",
@@ -11457,6 +11429,56 @@
     "violence"
    ],
    "at": "2026-11-08T11:55:02.672236+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "apks",
+    "found",
+    "install",
+    "keep",
+    "safer",
+    "updated",
+    "way"
+   ],
+   "at": "2026-11-08T12:00:39.091424+00:00"
+  },
+  {
+   "sig": [
+    "company",
+    "earbuds",
+    "headphones",
+    "last",
+    "making",
+    "want"
+   ],
+   "at": "2026-11-08T12:00:49.192976+00:00"
+  },
+  {
+   "sig": [
+    "7.4-rc2",
+    "amd",
+    "boosting",
+    "code",
+    "linux",
+    "perfopt",
+    "performance",
+    "tweaked"
+   ],
+   "at": "2026-11-08T12:00:54.749802+00:00"
+  },
+  {
+   "sig": [
+    "automations",
+    "fixed",
+    "google",
+    "home",
+    "presence",
+    "problems",
+    "setting",
+    "wi-fi"
+   ],
+   "at": "2026-11-08T12:01:00.542833+00:00"
   }
  ],
  "snapshots": {
