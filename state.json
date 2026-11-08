@@ -1,13 +1,5 @@
 {
  "seen": [
-  "https://www.engadget.com/2236219/how-samsung-galaxy-watch-series8-measures-antioxidant-levels/",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mta6urbgf22b",
-  "6a75b69f0d880c43a7feaa2b",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtack46hru2i",
-  "hn:49324985",
-  "https://therecord.media/french-tax-authority-dgfip-confirms-data-breach",
-  "https://www.theregister.com/a/5288156",
-  "hn:49329347",
   "hn:49329660",
   "https://www.theregister.com/a/5287885",
   "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
@@ -2999,18 +2991,26 @@
   "xRpZEwLM5xwZCHfLV8Tbc5",
   "n6BSkNthUYmp4WucdrkVR3",
   "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "https://www.neowin.net/news/microsoft-finally-addresses-over-30-years-of-user-frustrations-with-a-simple-windows-11-fix/"
+  "https://www.neowin.net/news/microsoft-finally-addresses-over-30-years-of-user-frustrations-with-a-simple-windows-11-fix/",
+  "https://www.engadget.com/2306204/old-ipod-sleeper-flash-drive/",
+  "https://www.engadget.com/2309559/ev-battery-can-power-house-what-stops-most-people/",
+  "https://www.engadget.com/2309565/how-often-should-restart-fitbit-watch/",
+  "https://www.engadget.com/2306359/how-to-keep-router-from-overheating/",
+  "https://www.engadget.com/2309569/disadvantages-owning-smart-refrigerators/",
+  "hn:50408961",
+  "JuRrX3fWrYgFbuGNa2QCEL",
+  "https://science.slashdot.org/story/26/11/08/0629226/nasa-announces-its-looking-for-new-astronauts?utm_source=rss1.0mainlinkanon&utm_medium=feed"
  ],
  "posted": {
   "viral": 616,
-  "editorial": 810
+  "editorial": 814
  },
  "recent_labels": [
-  "Hacker News",
-  "InfoQ",
-  "TechRadar",
-  "InfoQ",
-  "Neowin"
+  "Neowin",
+  "Engadget",
+  "Engadget",
+  "Engadget",
+  "Engadget"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7311,56 +7311,37 @@
    "source": "Neowin",
    "score": 0.21231,
    "at": "2026-11-08T07:57:05.845944+00:00"
+  },
+  {
+   "title": "استفاده دوباره از iPodهای قدیمی به عنوان حافظه جانبی",
+   "url": "https://www.engadget.com/2306204/old-ipod-sleeper-flash-drive/",
+   "source": "Engadget",
+   "score": 0.00799,
+   "at": "2026-11-08T08:53:41.154507+00:00"
+  },
+  {
+   "title": "راهنمای عیب‌یابی و راه‌اندازی مجدد گجت‌های پوشیدنی Fitbit",
+   "url": "https://www.engadget.com/2309565/how-often-should-restart-fitbit-watch/",
+   "source": "Engadget",
+   "score": 0.00882,
+   "at": "2026-11-08T08:53:47.076244+00:00"
+  },
+  {
+   "title": "راهکارهایی برای جلوگیری از داغ شدن بیش از حد مودم و روتر",
+   "url": "https://www.engadget.com/2306359/how-to-keep-router-from-overheating/",
+   "source": "Engadget",
+   "score": 0.00913,
+   "at": "2026-11-08T08:53:52.160930+00:00"
+  },
+  {
+   "title": "چالش‌های امنیتی و حریم خصوصی در یخچال‌های هوشمند",
+   "url": "https://www.engadget.com/2309569/disadvantages-owning-smart-refrigerators/",
+   "source": "Engadget",
+   "score": 0.00946,
+   "at": "2026-11-08T08:53:57.926305+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agents",
-    "brings",
-    "crossed",
-    "cyber",
-    "exercise",
-    "nato",
-    "operations",
-    "swords",
-    "training"
-   ],
-   "at": "2026-11-03T08:54:35.466846+00:00"
-  },
-  {
-   "sig": [
-    "bitcoin",
-    "btcpay",
-    "exploit",
-    "flaw",
-    "hackers",
-    "hot",
-    "litecoin",
-    "server",
-    "steal",
-    "wallets"
-   ],
-   "at": "2026-11-03T09:53:49.611358+00:00"
-  },
-  {
-   "sig": [
-    "active",
-    "cloudflare",
-    "experiencing",
-    "incidents",
-    "multiple"
-   ],
-   "at": "2026-11-03T10:53:45.242087+00:00"
-  },
-  {
-   "sig": [
-    "auto-ontology",
-    "nvidia",
-    "open-source"
-   ],
-   "at": "2026-11-03T10:53:52.076532+00:00"
-  },
   {
    "sig": [
     "avx10v1aux",
@@ -11390,13 +11371,51 @@
     "years"
    ],
    "at": "2026-11-08T07:57:05.845944+00:00"
+  },
+  {
+   "sig": [
+    "could",
+    "drive",
+    "flash",
+    "ipod",
+    "old",
+    "sleeper"
+   ],
+   "at": "2026-11-08T08:53:41.154507+00:00"
+  },
+  {
+   "sig": [
+    "fitbit",
+    "often",
+    "restart",
+    "should",
+    "watch"
+   ],
+   "at": "2026-11-08T08:53:47.076244+00:00"
+  },
+  {
+   "sig": [
+    "cool",
+    "here",
+    "keep",
+    "overheating",
+    "router",
+    "safely",
+    "working"
+   ],
+   "at": "2026-11-08T08:53:52.160930+00:00"
+  },
+  {
+   "sig": [
+    "disadvantages",
+    "owning",
+    "refrigerators",
+    "smart"
+   ],
+   "at": "2026-11-08T08:53:57.926305+00:00"
   }
  ],
  "snapshots": {
-  "hn:50264853": [
-   392,
-   "2026-10-28T01:53:44.757509+00:00"
-  ],
   "hn:50262229": [
    223,
    "2026-10-28T01:53:44.757509+00:00"
@@ -13792,6 +13811,10 @@
   "hn:50409855": [
    140,
    "2026-11-08T07:53:41.838578+00:00"
+  ],
+  "hn:50408961": [
+   86,
+   "2026-11-08T08:53:39.414969+00:00"
   ]
  }
 }
