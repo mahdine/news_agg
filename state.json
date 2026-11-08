@@ -1,13 +1,5 @@
 {
  "seen": [
-  "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
-  "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
-  "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
-  "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
-  "hn:49319566",
-  "hn:49319633",
-  "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
-  "lobsters:wpyhdh",
   "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
   "hn:49320856",
   "https://techcrunch.com/?p=3153318",
@@ -2999,18 +2991,26 @@
   "gWb8sc5xRdKjCxDEoExTih",
   "https://www.androidpolice.com/google-keep-widget-trick-visible/",
   "Zuv9G6uUjzd7YGEnYpPjSj",
-  "BAXsXwS827hWf9riR4wyZ4"
+  "BAXsXwS827hWf9riR4wyZ4",
+  "hn:50406502",
+  "https://www.engadget.com/2306820/using-amazfit-smartwatch-pros-and-cons/",
+  "https://tech.slashdot.org/story/26/11/07/2333220/microsoft-removes-pc-to-pc-migration-from-windows-11-points-users-to-onedrive-based-backup?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.engadget.com/2306821/why-never-put-playstation-5-on-carpeted-floor/",
+  "https://www.engadget.com/2309904/useful-ipad-apps-make-daily-life-easier/",
+  "https://www.engadget.com/2307479/samsung-one-ui-9-5-beta-program-how-to-sign-up/",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzrdowcqdv2n",
+  "https://entertainment.slashdot.org/story/26/11/08/041209/scifi-magazine-starlog-relaunches-and-back-issues-return-to-internet-archive?utm_source=rss1.0mainlinkanon&utm_medium=feed"
  ],
  "posted": {
-  "viral": 613,
-  "editorial": 802
+  "viral": 614,
+  "editorial": 804
  },
  "recent_labels": [
-  "TechSpot",
-  "Phoronix",
-  "Simon Willison RSS",
   "TechRadar",
-  "TechRadar"
+  "TechRadar",
+  "Slashdot",
+  "Engadget",
+  "404 Media"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7234,81 +7234,30 @@
    "source": "TechRadar",
    "score": 0.04477,
    "at": "2026-11-08T03:54:15.011170+00:00"
+  },
+  {
+   "title": "حذف قابلیت انتقال مستقیم فایل در ویندوز ۱۱ و اجبار به استفاده از OneDrive",
+   "url": "https://tech.slashdot.org/story/26/11/07/2333220/microsoft-removes-pc-to-pc-migration-from-windows-11-points-users-to-onedrive-based-backup?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.02535,
+   "at": "2026-11-08T04:53:58.951776+00:00"
+  },
+  {
+   "title": "انتشار قریب‌الوقوع نسخه‌ی بتای One UI 9.5 برای گوشی‌های سامسونگ",
+   "url": "https://www.engadget.com/2307479/samsung-one-ui-9-5-beta-program-how-to-sign-up/",
+   "source": "Engadget",
+   "score": 0.03735,
+   "at": "2026-11-08T04:54:05.979708+00:00"
+  },
+  {
+   "title": "هجوم افزونه‌های تولید شده با هوش مصنوعی به World of Warcraft",
+   "url": "https://www.404media.co/world-of-warcraft-forever-is-already-overrun-with-ai-slop/",
+   "source": "404media.co",
+   "score": 0.07022,
+   "at": "2026-11-08T04:54:11.754902+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "1.3",
-    "1.3m",
-    "access",
-    "android",
-    "botnet",
-    "box",
-    "boxes",
-    "bust",
-    "cops",
-    "criminal",
-    "disrupts",
-    "google",
-    "infected",
-    "maker",
-    "million",
-    "million-device",
-    "partners",
-    "set-top",
-    "sold",
-    "turned"
-   ],
-   "at": "2026-11-03T05:53:53.103947+00:00"
-  },
-  {
-   "sig": [
-    "app",
-    "chat",
-    "chatgpt",
-    "classic",
-    "combine",
-    "expect",
-    "experience",
-    "finally",
-    "here",
-    "merge",
-    "merging",
-    "openai",
-    "retiring",
-    "single",
-    "soon",
-    "tabs",
-    "work"
-   ],
-   "at": "2026-11-03T05:54:07.492093+00:00"
-  },
-  {
-   "sig": [
-    "backlash",
-    "campuses",
-    "center",
-    "centers",
-    "compute",
-    "considers",
-    "data",
-    "hated",
-    "intensifies",
-    "less",
-    "might",
-    "openai",
-    "people",
-    "plan",
-    "rebrand",
-    "rebranding",
-    "rename",
-    "try",
-    "wants",
-    "win"
-   ],
-   "at": "2026-11-03T05:54:24.569587+00:00"
-  },
   {
    "sig": [
     "architect",
@@ -11336,13 +11285,50 @@
     "won"
    ],
    "at": "2026-11-08T03:54:15.011170+00:00"
+  },
+  {
+   "sig": [
+    "backup",
+    "microsoft",
+    "migration",
+    "onedrive-based",
+    "pc-to-pc",
+    "points",
+    "removes",
+    "users",
+    "windows"
+   ],
+   "at": "2026-11-08T04:53:58.951776+00:00"
+  },
+  {
+   "sig": [
+    "9.5",
+    "beta",
+    "coming",
+    "here",
+    "may",
+    "program",
+    "samsung",
+    "sign",
+    "soon"
+   ],
+   "at": "2026-11-08T04:54:05.979708+00:00"
+  },
+  {
+   "sig": [
+    "copying",
+    "ideas",
+    "making",
+    "people",
+    "rip-offs",
+    "work",
+    "world-of-war",
+    "www.404media.co"
+   ],
+   "at": "2026-11-08T04:54:11.754902+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:q7arzy": [
-   37,
-   "2026-10-27T21:24:00.138957+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myuxh47zdk2z": [
    653,
    "2026-10-27T21:24:00.138957+00:00"
@@ -13736,8 +13722,12 @@
    "2026-11-08T02:53:45.159773+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzrdowcqdv2n": [
-   150,
-   "2026-11-08T03:53:40.252034+00:00"
+   177,
+   "2026-11-08T04:53:48.328371+00:00"
+  ],
+  "hn:50406502": [
+   91,
+   "2026-11-08T04:53:48.328371+00:00"
   ]
  }
 }
