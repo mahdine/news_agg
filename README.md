@@ -4,7 +4,7 @@
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![GitHub Actions](https://img.shields.io/badge/runs%20on-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)](.github/workflows/publish.yml)
+[![cron-job.org + GitHub Actions](https://img.shields.io/badge/runs%20on-cron--job.org%20%2B%20GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)](.github/workflows/publish.yml)
 [![Telegram](https://img.shields.io/badge/channel-@persiantechtwiter-26A5E4?logo=telegram&logoColor=white)](https://t.me/persiantechtwiter)
 [![Cost](https://img.shields.io/badge/cost-%240%2Fmonth-brightgreen)](#what-it-costs)
 
@@ -14,11 +14,13 @@
 
 ---
 
-Persian Tech Tube Bot aggregates technology and cybersecurity news from Hacker News, Lobsters, Bluesky, and fourteen RSS feeds, then publishes the best of it to a Telegram channel in Persian. It ranks stories with a virality algorithm built from Hacker News gravity decay, Reddit's logarithmic damping, and engagement velocity measured against each source's own median. Google Gemini's free tier writes the Farsi summaries. There is no server and no database: GitHub Actions cron runs it, and a committed `state.json` remembers what already went out.
+Persian Tech Tube Bot aggregates technology and cybersecurity news from Hacker News, Lobsters, Bluesky, and dozens of RSS feeds, then publishes the best of it to a Telegram channel in Persian. It ranks stories with a virality algorithm built from Hacker News gravity decay, Reddit's logarithmic damping, and engagement velocity measured against each source's own median. Google Gemini's free tier writes the Farsi summaries. There is no server and no database: a cron-job.org timer wakes a GitHub Actions workflow, and a committed `state.json` remembers what already went out.
 
 ## What it does
 
-Seventeen times a day the bot reads its sources, scores everything it found, and posts the single best item as a Persian summary with an image and link buttons. One post per run is deliberate: batching three posts meant they arrived twelve seconds apart and then the channel went quiet for half an hour. The schedule runs 05:30 to 21:30 UTC, which is 09:00 to 01:00 in Tehran, so nothing is published while the audience is asleep. That caps the channel at 17 posts a day, split evenly between social posts and news articles. Total cost is zero. Bluesky's API is open, Gemini has a free tier, and GitHub Actions gives public repositories unlimited minutes.
+Seventeen times a day the bot reads its sources, scores everything it found, and posts the best items as Persian summaries with images and link buttons. The schedule runs 05:30 to 21:30 UTC, which is 09:00 to 01:00 in Tehran, so nothing is published while the audience is asleep. That caps the channel at 17 runs a day, split roughly evenly between social posts and news articles. Total cost is zero. Bluesky's API is open, Gemini has a free tier, GitHub Actions gives public repositories unlimited minutes, and cron-job.org's free plan includes hourly jobs.
+
+A note on the timer: the `publish` workflow has **no `schedule` trigger**. GitHub does not guarantee punctual cron — scheduled runs on busy public runners are routinely delayed five to twenty minutes or more, and there is no documented worst case. The bot is instead woken on time by [cron-job.org](https://cron-job.org), which calls GitHub's `workflow_dispatch` API every hour. If the job ever needs a manual wake-up, the same API call (or the "Run workflow" button in the repository's Actions tab) works.
 
 <img src="assets/pipeline.svg" alt="Pipeline: sources are clustered into stories, scored, then summarized and posted" width="100%">
 
@@ -169,7 +171,26 @@ Push to a public repository, then add three secrets under Settings, Secrets and 
 | `TELEGRAM_CHANNEL` | Channel username, for example `@persiantechtwiter` |
 | `GEMINI_API_KEY` | Key from Google AI Studio |
 
-Run the `publish` workflow once by hand to check it, and the cron takes over after that. GitHub does not fire scheduled workflows punctually, and delays of five to twenty minutes are normal on busy public runners. That shifts when a post arrives but not which post wins, because scoring uses each item's real age rather than the time the job happened to start. The workflow commits `state.json` back to the repository, which is why it needs `contents: write`.
+Run the `publish` workflow once by hand ("Run workflow" button in the Actions tab) to check it.
+
+### Setting up the cron-job.org timer
+
+The workflow deliberately has no `schedule` trigger: GitHub does not guarantee punctual cron, and scheduled runs on busy public runners are routinely delayed five to twenty minutes or more. The timer that keeps the posts on the hour is a free job at [cron-job.org](https://cron-job.org), which wakes the workflow through GitHub's dispatch API.
+
+1. Create a (free) account at cron-job.org, then add a new job.
+2. Job type: **HTTP request**.
+   - Method: `POST`
+   - URL: `https://api.github.com/repos/<your-username>/PersianTwitter/dispatches`
+   - Body: `{"event": "workflow_dispatch"}`
+   - Header: `Authorization: token <GITHUB_TOKEN>` (or `Content-Type: application/json` plus the body above — set both if the UI asks)
+3. The token is a [GitHub personal access token](https://github.com/settings/tokens) with the `repo` scope (classic) or the `Contents: read and write` permission (fine-grained, scoped to this repository). cron-job.org's free plan is enough for one job running once an hour.
+4. Run interval: cron expression `23 5-21 * * *` in **UTC**. Tehran is UTC+3:30 with no DST, so that is 09:00 to 01:00 local — the audience is awake for every run. The `23` offset into the hour is a historical artifact from the GitHub-`schedule` era (it kept the run away from the top of the hour); it is harmless to keep, and you may change it to `0` if you prefer posts exactly on the hour.
+5. Test the job once from the cron-job.org dashboard and confirm a run appears in the repository's Actions tab.
+
+Two properties of this setup are worth knowing:
+
+- **The dispatch API starts a run almost instantly** — it is the same path as the manual "Run workflow" button, so the only remaining delay is GitHub's normal runner-queue wait, not the unbounded cron drift.
+- **Nothing breaks if the timer fails.** A missed run simply means one fewer post that hour; scoring uses each item's real age rather than the run time, so a late or skipped run never changes which stories win. A manual dispatch (or the Actions button) recovers from any gap.
 
 ## Configuration
 
@@ -237,6 +258,7 @@ Dependencies are `httpx`, `feedparser`, and `PyYAML`. Nothing else.
 | Hacker News Algolia API | Free |
 | Lobsters JSON | Free |
 | Google Gemini | Free tier, 20 requests a day per model |
+| cron-job.org | Free plan (hourly job) |
 | GitHub Actions | Free, unlimited minutes on public repos |
 | Telegram Bot API | Free |
 

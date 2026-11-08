@@ -1,11 +1,16 @@
 name: publish
 
+# تایمینگ اجرای ساعتی روی cron-job.org است، نه cron خودِ GitHub.
+# GitHub برای schedule تضمین اجرای سر ساعت نمی‌دهد و روی runnerهای شلوغ
+# تأخیر پنج تا بیست دقیقه (و گاهی بیشتر) رایج است. cron-job.org هر ساعت
+# با API گیت‌هاب (workflow_dispatch) این workflow را بیدار می‌کند:
+#   method:  POST
+#   url:     https://api.github.com/repos/<owner>/PersianTwitter/dispatches
+#   body:    {"event": "workflow_dispatch"}
+#   cron:    "23 5-21 * * *"   (UTC — ساعات بیداری تهران: ۹ صبح تا ۱ بامداد)
+#   token:   یک GITHUB_TOKEN با scope repo
+# راهنمای کامل نصب در بخش Deploying بخش README است.
 on:
-  schedule:
-    # ساعتی، ولی فقط در ساعات بیداری ایران. تهران UTC+3:30 است و DST ندارد،
-    # پس 05:30 تا 21:30 UTC می‌شود ۹ صبح تا ۱ بامداد به وقت تهران: ۱۷ اجرا.
-    # قبلاً ۲۴ ساعته بود و نصف پست‌ها بین ۲ تا ۸ صبح می‌رفتند که کسی نمی‌دید.
-    - cron: "23 5-21 * * *"
   workflow_dispatch:
 
 # برای commit کردن state.json لازم است.
