@@ -1,13 +1,5 @@
 {
  "seen": [
-  "hn:49334544",
-  "https://techcrunch.com/?p=3153430",
-  "rey9GFDe5DeE3Uqc2RNKe7",
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mtcm4cd4ek2v",
-  "hn:49338459",
-  "lobsters:05ocit",
-  "hn:49340013",
-  "hn:49341551",
   "5fd8447395210936e4c16c0612914884",
   "hn:49338328",
   "lobsters:j5xjf2",
@@ -2999,18 +2991,26 @@
   "3242172",
   "acEE6ZBt5Q37gMKveoPVdP",
   "https://www.theregister.com/a/5308031",
-  "https://www.neowin.net/news/gta-6-achievements-leak-hints-at-how-massive-the-game-could-truly-be/"
+  "https://www.neowin.net/news/gta-6-achievements-leak-hints-at-how-massive-the-game-could-truly-be/",
+  "hn:50409856",
+  "hn:50410359",
+  "61af6ef8d184762c75e0040d",
+  "omUXNZDnY3rE6tRdqKeTCG",
+  "e5f9320b760cc2c9d313ef047e04973e",
+  "6aebd3810d7423bc23450349",
+  "0cc074db1cf2f618124147677a9adb34",
+  "8f823a503b7c45ed0913438bf0f3e3cd"
  ],
  "posted": {
-  "viral": 616,
-  "editorial": 817
+  "viral": 617,
+  "editorial": 818
  },
  "recent_labels": [
-  "Engadget",
-  "Engadget",
   "Tom's Hardware",
   "Slashdot",
-  "vc.ru"
+  "vc.ru",
+  "Hacker News",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7360,31 +7360,23 @@
    "source": "vc.ru",
    "score": 0.1057,
    "at": "2026-11-08T09:53:57.343888+00:00"
+  },
+  {
+   "title": "PRIVACY",
+   "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+   "source": "science.org",
+   "score": 0.05686,
+   "at": "2026-11-08T10:53:43.356709+00:00"
+  },
+  {
+   "title": "افزوده شدن دستیار هوشمند به نسخه آزمایشی تلگرام در سیستم‌عامل macOS",
+   "url": "https://hi-tech.mail.ru/news/159951-v-eksperimentalnoy-sborke-telegram-dlya-macos-poyavilsya-ii/",
+   "source": "Hi-Tech Mail",
+   "score": 0.16217,
+   "at": "2026-11-08T10:53:58.877565+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "altman",
-    "ceo",
-    "claim",
-    "deserve",
-    "elon",
-    "having",
-    "home",
-    "mocks",
-    "musk",
-    "openai",
-    "owning",
-    "pcs",
-    "people",
-    "ram",
-    "sam",
-    "terrible",
-    "too"
-   ],
-   "at": "2026-11-03T12:55:13.087596+00:00"
-  },
   {
    "sig": [
     "chess",
@@ -11437,17 +11429,20 @@
     "workplace"
    ],
    "at": "2026-11-08T09:53:49.394812+00:00"
+  },
+  {
+   "sig": [
+    "brain",
+    "consumer",
+    "headsets",
+    "privacy",
+    "threaten",
+    "wave"
+   ],
+   "at": "2026-11-08T10:53:43.356709+00:00"
   }
  ],
  "snapshots": {
-  "hn:50262229": [
-   223,
-   "2026-10-28T01:53:44.757509+00:00"
-  ],
-  "hn:50261589": [
-   627,
-   "2026-10-28T01:53:44.757509+00:00"
-  ],
   "hn:50265609": [
    354,
    "2026-10-28T01:53:44.757509+00:00"
@@ -13839,6 +13834,14 @@
   "hn:50408961": [
    86,
    "2026-11-08T08:53:39.414969+00:00"
+  ],
+  "hn:50410359": [
+   70,
+   "2026-11-08T10:53:40.943896+00:00"
+  ],
+  "hn:50409856": [
+   109,
+   "2026-11-08T10:53:40.943896+00:00"
   ]
  }
 }
