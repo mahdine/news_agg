@@ -1,13 +1,5 @@
 {
  "seen": [
-  "https://www.theregister.com/a/5290344",
-  "6a83e105415abf93e7c7ec3e",
-  "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mtjmyw6ozk2a",
-  "avXmT6gnWswPoWcLfoeqsn",
-  "hn:49378630",
-  "hn:49379550",
-  "https://www.engadget.com/2241224/riot-is-ending-active-development-of-2xko-in-december/",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtk5gdvtxc2n",
   "b5c88251007a96673bb97689c766ce5f",
   "https://9to5mac.com/?p=1065394",
@@ -2999,18 +2991,26 @@
   "61679f786eb9fc5d7c35b40ceefce102",
   "YyfFY9Qe9Yb6itpp7wqZjB",
   "https://www.theverge.com/?p=1029533",
-  "oLWqey9tE4oJ82tttLUoB4"
+  "oLWqey9tE4oJ82tttLUoB4",
+  "https://techcrunch.com/?p=3186034",
+  "hn:50413822",
+  "JXrvr5o8F7mL8upWFaZqa8",
+  "DUjZu3QfKgSMarES4PSD3V",
+  "https://www.neowin.net/deals/samsung-p9-express-microsdxc-sd-cards-for-nintendo-switch-2-are-at-three-month-low-prices/",
+  "knKZd9rjJ42RMMY5Q5H5o7",
+  "https://www.androidpolice.com/motorola-quietly-building-apps-and-features-make-pixel-and-samsung-phones-feel-behind/",
+  "https://www.engadget.com/2308359/reason-why-usb-ports-teal/"
  ],
  "posted": {
   "viral": 624,
-  "editorial": 847
+  "editorial": 852
  },
  "recent_labels": [
-  "Engadget",
-  "Lobsters",
-  "vc.ru",
-  "TechRadar",
-  "The Verge"
+  "TechCrunch AI",
+  "Tom's Hardware",
+  "Tom's Hardware",
+  "Android Police",
+  "Engadget"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7626,82 +7626,44 @@
    "source": "The Verge",
    "score": 0.21138,
    "at": "2026-11-08T17:54:33.842657+00:00"
+  },
+  {
+   "title": "افزایش سرمایه ۱۱ میلیارد دلاری OpenAI با ارزش‌گذاری ۱.۲۵ تریلیون دلاری",
+   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "source": "TechCrunch AI",
+   "score": 0.05678,
+   "at": "2026-11-08T17:59:12.217529+00:00"
+  },
+  {
+   "title": "بررسی ماوس گیمینگ Logitech G502 X Lightspeed و ارتقای سنسور آن",
+   "url": "https://www.tomshardware.com/peripherals/gaming-mice/logitech-g502-x-lightspeed-review",
+   "source": "Tom's Hardware",
+   "score": 0.05412,
+   "at": "2026-11-08T17:59:18.112221+00:00"
+  },
+  {
+   "title": "تولید نخستین ویفر الماس تک‌کریستال ۲۰۰ میلی‌متری برای خنک‌سازی تراشه‌های هوش مصنوعی",
+   "url": "https://www.tomshardware.com/pc-components/cooling/diamond-foundry-creates-worlds-first-200mm-single-crystal-diamond-wafer-massive-gem-aims-to-solve-ai-chip-cooling-crisis-envisioned-as-a-cooling-material-for-semiconductors",
+   "source": "Tom's Hardware",
+   "score": 0.06332,
+   "at": "2026-11-08T18:00:16.673949+00:00"
+  },
+  {
+   "title": "موتورولا با گوشی Signature 27 به رقابت با پرچمداران گوگل و سامسونگ می‌رود",
+   "url": "https://www.androidpolice.com/motorola-quietly-building-apps-and-features-make-pixel-and-samsung-phones-feel-behind/",
+   "source": "Android Police",
+   "score": 0.10913,
+   "at": "2026-11-08T18:01:35.808348+00:00"
+  },
+  {
+   "title": "معنای رنگ فیروزه‌ای در درگاه‌های USB کامپیوتر",
+   "url": "https://www.engadget.com/2308359/reason-why-usb-ports-teal/",
+   "source": "Engadget",
+   "score": 0.08182,
+   "at": "2026-11-08T18:01:41.567845+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "asked",
-    "australian",
-    "break",
-    "could",
-    "find",
-    "gta",
-    "internet",
-    "launch",
-    "nbn"
-   ],
-   "at": "2026-11-04T04:54:36.624618+00:00"
-  },
-  {
-   "sig": [
-    "centers",
-    "companies",
-    "converted",
-    "data",
-    "energy",
-    "engines",
-    "grows",
-    "jet",
-    "look",
-    "old",
-    "power",
-    "powering",
-    "sources",
-    "turning",
-    "wait",
-    "xai"
-   ],
-   "at": "2026-11-04T05:55:11.787406+00:00"
-  },
-  {
-   "sig": [
-    "amd",
-    "center",
-    "data",
-    "history",
-    "largest",
-    "profitable",
-    "quarter",
-    "riches",
-    "rides"
-   ],
-   "at": "2026-11-04T05:55:40.190485+00:00"
-  },
-  {
-   "sig": [
-    "27.3",
-    "cool-looking",
-    "includes",
-    "macbook",
-    "macos",
-    "pro",
-    "screensaver",
-    "touchscreen"
-   ],
-   "at": "2026-11-04T05:55:50.153565+00:00"
-  },
-  {
-   "sig": [
-    "microsoft",
-    "model",
-    "outlook",
-    "putting",
-    "search",
-    "think"
-   ],
-   "at": "2026-11-04T05:55:56.135321+00:00"
-  },
   {
    "sig": [
     "20m",
@@ -11618,6 +11580,71 @@
     "suno"
    ],
    "at": "2026-11-08T17:54:33.842657+00:00"
+  },
+  {
+   "sig": [
+    "1.25",
+    "1.25t",
+    "11b",
+    "additional",
+    "billion",
+    "openai",
+    "raises",
+    "reportedly",
+    "trillion",
+    "valuation"
+   ],
+   "at": "2026-11-08T17:59:12.217529+00:00"
+  },
+  {
+   "sig": [
+    "g502",
+    "lights",
+    "lightspeed",
+    "logitech",
+    "price",
+    "review",
+    "same"
+   ],
+   "at": "2026-11-08T17:59:18.112221+00:00"
+  },
+  {
+   "sig": [
+    "200mm",
+    "creates",
+    "diamond",
+    "first",
+    "foundry",
+    "single-crystal",
+    "wafer",
+    "world"
+   ],
+   "at": "2026-11-08T18:00:16.673949+00:00"
+  },
+  {
+   "sig": [
+    "apps",
+    "behind",
+    "building",
+    "features",
+    "feel",
+    "motorola",
+    "phones",
+    "pixel",
+    "quietly",
+    "samsung",
+    "times"
+   ],
+   "at": "2026-11-08T18:01:35.808348+00:00"
+  },
+  {
+   "sig": [
+    "ports",
+    "reason",
+    "teal",
+    "usb"
+   ],
+   "at": "2026-11-08T18:01:41.567845+00:00"
   }
  ],
  "snapshots": {
@@ -14014,8 +14041,8 @@
    "2026-11-08T16:53:42.363628+00:00"
   ],
   "hn:50413822": [
-   425,
-   "2026-11-08T17:53:46.047470+00:00"
+   442,
+   "2026-11-08T17:59:10.505345+00:00"
   ],
   "lobsters:62loik": [
    31,
