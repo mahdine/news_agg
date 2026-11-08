@@ -1,10 +1,5 @@
 {
  "seen": [
-  "5fd8447395210936e4c16c0612914884",
-  "hn:49338328",
-  "lobsters:j5xjf2",
-  "hn:49342530",
-  "hn:49339577",
   "https://3dnews.ru/1146980/#6a83fcd3742eec28428b4587",
   "https://www.theregister.com/a/5288962",
   "hn:49344825",
@@ -2999,18 +2994,23 @@
   "e5f9320b760cc2c9d313ef047e04973e",
   "6aebd3810d7423bc23450349",
   "0cc074db1cf2f618124147677a9adb34",
-  "8f823a503b7c45ed0913438bf0f3e3cd"
+  "8f823a503b7c45ed0913438bf0f3e3cd",
+  "hn:50410249",
+  "hn:50411467",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzs5litqwc2b",
+  "https://www.phoronix.com/news/GCC-17-Ends-Stage-1-Next-Week",
+  "https://www.theregister.com/a/5308092"
  ],
  "posted": {
-  "viral": 617,
-  "editorial": 818
+  "viral": 620,
+  "editorial": 820
  },
  "recent_labels": [
-  "Tom's Hardware",
-  "Slashdot",
-  "vc.ru",
   "Hacker News",
-  "Hi-Tech Mail"
+  "Hacker News",
+  "antirez",
+  "Phoronix",
+  "The Register"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7374,91 +7374,44 @@
    "source": "Hi-Tech Mail",
    "score": 0.16217,
    "at": "2026-11-08T10:53:58.877565+00:00"
+  },
+  {
+   "title": "ISponsorBlockTV برای حذف خودکار تبلیغات در اپلیکیشن‌های YouTube TV",
+   "url": "https://github.com/dmunozv04/isponsorblocktv",
+   "source": "github.com",
+   "score": 0.0291,
+   "at": "2026-11-08T11:54:25.248253+00:00"
+  },
+  {
+   "title": "نیاز به استانداردسازی حافظه برای ایجنت‌های هوش مصنوعی",
+   "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+   "source": "lorekit.io",
+   "score": 0.13362,
+   "at": "2026-11-08T11:54:31.682603+00:00"
+  },
+  {
+   "title": "اجرای مدل K3.1 PRO روی شاخه kimi-k3 پروژه DwarfStar",
+   "url": "https://bsky.app/profile/antirez.bsky.social/post/3mzs5litqwc2b",
+   "source": "antirez",
+   "score": 0.22982,
+   "at": "2026-11-08T11:54:37.720575+00:00"
+  },
+  {
+   "title": "پایان مهلت افزودن قابلیت‌های جدید به کامپایلر GCC 17",
+   "url": "https://www.phoronix.com/news/GCC-17-Ends-Stage-1-Next-Week",
+   "source": "Phoronix",
+   "score": 0.16444,
+   "at": "2026-11-08T11:54:56.942753+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/offbeat/2026/11/08/doom-delivers-five-minutes-of-terminal-violence-on-an-ibm-mainframe/5308092",
+   "source": "The Register",
+   "score": 0.18921,
+   "at": "2026-11-08T11:55:02.672236+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "chess",
-    "could",
-    "defeated",
-    "engine",
-    "kasparov",
-    "modern",
-    "pentium"
-   ],
-   "at": "2026-11-03T12:55:18.972014+00:00"
-  },
-  {
-   "sig": [
-    "glm",
-    "moves",
-    "revolut",
-    "self-hosted"
-   ],
-   "at": "2026-11-03T12:55:25.867213+00:00"
-  },
-  {
-   "sig": [
-    "australia",
-    "australian",
-    "ban",
-    "calls",
-    "country",
-    "court",
-    "ill",
-    "inept",
-    "isn",
-    "media",
-    "reddit",
-    "site",
-    "social",
-    "tells",
-    "thought",
-    "under-16"
-   ],
-   "at": "2026-11-03T12:55:31.017820+00:00"
-  },
-  {
-   "sig": [
-    "action",
-    "cable",
-    "chinese",
-    "data",
-    "demands",
-    "evasive",
-    "growing",
-    "ignores",
-    "lines",
-    "loitering",
-    "near",
-    "pacific",
-    "philippine",
-    "point",
-    "prc",
-    "ship",
-    "survey",
-    "threats",
-    "undersea",
-    "withdraw"
-   ],
-   "at": "2026-11-03T12:55:37.397348+00:00"
-  },
-  {
-   "sig": [
-    "easily",
-    "exists",
-    "fix",
-    "galaxy",
-    "problem",
-    "s27",
-    "sadly",
-    "samsung",
-    "still",
-    "ultra"
-   ],
-   "at": "2026-11-03T13:53:54.902143+00:00"
-  },
   {
    "sig": [
     "browser",
@@ -11440,21 +11393,73 @@
     "wave"
    ],
    "at": "2026-11-08T10:53:43.356709+00:00"
+  },
+  {
+   "sig": [
+    "client",
+    "clients",
+    "isponsorblocktv",
+    "sponsorblock",
+    "youtube"
+   ],
+   "at": "2026-11-08T11:54:25.248253+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "memory",
+    "moment",
+    "needs",
+    "opentelemetry"
+   ],
+   "at": "2026-11-08T11:54:31.682603+00:00"
+  },
+  {
+   "sig": [
+    "branch",
+    "directly",
+    "dwarfstar",
+    "enough",
+    "good",
+    "inference",
+    "k3.1",
+    "kimi-k3",
+    "pro",
+    "safetensors",
+    "slow",
+    "ssd",
+    "streaming",
+    "tasks",
+    "weights"
+   ],
+   "at": "2026-11-08T11:54:37.720575+00:00"
+  },
+  {
+   "sig": [
+    "development",
+    "ends",
+    "feature",
+    "gcc",
+    "next",
+    "week"
+   ],
+   "at": "2026-11-08T11:54:56.942753+00:00"
+  },
+  {
+   "sig": [
+    "delivers",
+    "doom",
+    "five",
+    "ibm",
+    "mainframe",
+    "minutes",
+    "terminal",
+    "violence"
+   ],
+   "at": "2026-11-08T11:55:02.672236+00:00"
   }
  ],
  "snapshots": {
-  "hn:50265609": [
-   354,
-   "2026-10-28T01:53:44.757509+00:00"
-  ],
-  "lobsters:qd0hc9": [
-   32,
-   "2026-10-28T01:53:44.757509+00:00"
-  ],
-  "lobsters:d09iy3": [
-   41,
-   "2026-10-28T01:53:44.757509+00:00"
-  ],
   "hn:50262668": [
    148,
    "2026-10-28T02:53:42.394204+00:00"
@@ -13842,6 +13847,18 @@
   "hn:50409856": [
    109,
    "2026-11-08T10:53:40.943896+00:00"
+  ],
+  "hn:50411467": [
+   163,
+   "2026-11-08T11:53:42.210207+00:00"
+  ],
+  "hn:50410249": [
+   75,
+   "2026-11-08T11:53:42.210207+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzs5litqwc2b": [
+   15,
+   "2026-11-08T11:53:42.210207+00:00"
   ]
  }
 }
