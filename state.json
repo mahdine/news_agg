@@ -1,13 +1,5 @@
 {
  "seen": [
-  "https://3dnews.ru/1147097/#6a859907742eec8a988b456d",
-  "https://therecord.media/electronic-health-record-company-carecloud-data-breach",
-  "hn:49367350",
-  "hn:49368625",
-  "hn:49369408",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mthkbk7boq25",
-  "hn:49370440",
-  "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthuboscnk2o",
   "hn:49371006",
   "hn:49372583",
@@ -2999,18 +2991,26 @@
   "https://www.engadget.com/2307844/experimental-ev-batteries-eject-during-fire/",
   "https://9to5mac.com/?p=1077897",
   "https://www.neowin.net/news/airbnb-to-launch-an-ai-agent-for-travelers-next-year/",
-  "https://developers.slashdot.org/story/26/11/08/0558256/pythons-cves-triple-anthropic-funds-a-new-security-developer?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://developers.slashdot.org/story/26/11/08/0558256/pythons-cves-triple-anthropic-funds-a-new-security-developer?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.engadget.com/2307846/how-long-pc-coolant-lasts/",
+  "3242732",
+  "aqegWD2YE4VBtrLupsF4NP",
+  "https://www.androidpolice.com/graphene-os-myths-busted/",
+  "hn:50414427",
+  "https://www.engadget.com/2308062/ai-music-difficult-to-detect-telltale-signs/",
+  "https://www.engadget.com/2307837/how-long-expect-apple-airpods-last/",
+  "https://www.engadget.com/2308205/how-much-did-iphone-cost-2007-vs-2026/"
  ],
  "posted": {
   "viral": 623,
-  "editorial": 841
+  "editorial": 844
  },
  "recent_labels": [
-  "Hacker News",
-  "The Verge",
-  "TechSpot",
   "9to5Mac",
-  "Slashdot"
+  "Slashdot",
+  "Engadget",
+  "Android Police",
+  "Engadget"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7577,45 +7577,30 @@
    "source": "Slashdot",
    "score": 0.19887,
    "at": "2026-11-08T15:54:09.397160+00:00"
+  },
+  {
+   "title": "راهنمای نگهداری و تعویض مایع خنک‌کننده در سیستم‌های Liquid Cooling",
+   "url": "https://www.engadget.com/2307846/how-long-pc-coolant-lasts/",
+   "source": "Engadget",
+   "score": 0.11578,
+   "at": "2026-11-08T16:55:14.240469+00:00"
+  },
+  {
+   "title": "تجربه‌ی کاربری از نصب سیستم‌عامل GrapheneOS روی گوشی Pixel 9 Pro",
+   "url": "https://www.androidpolice.com/graphene-os-myths-busted/",
+   "source": "Android Police",
+   "score": 0.1154,
+   "at": "2026-11-08T16:55:40.065528+00:00"
+  },
+  {
+   "title": "نشانه‌های تشخیص موسیقی تولید شده توسط هوش مصنوعی در پلتفرم‌های استریم",
+   "url": "https://www.engadget.com/2308062/ai-music-difficult-to-detect-telltale-signs/",
+   "source": "Engadget",
+   "score": 0.15812,
+   "at": "2026-11-08T16:56:10.599222+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "always-listening",
-    "apple",
-    "door",
-    "nightmare",
-    "opens",
-    "tech",
-    "world"
-   ],
-   "at": "2026-11-04T03:53:57.901902+00:00"
-  },
-  {
-   "sig": [
-    "decisioning",
-    "fraud",
-    "kairos",
-    "open-source",
-    "platform",
-    "risk",
-    "show"
-   ],
-   "at": "2026-11-04T03:54:05.017223+00:00"
-  },
-  {
-   "sig": [
-    "book",
-    "foundations",
-    "generative",
-    "intuitive",
-    "little",
-    "mathematical",
-    "primer"
-   ],
-   "at": "2026-11-04T03:54:13.999922+00:00"
-  },
   {
    "sig": [
     "6.3",
@@ -11616,17 +11601,40 @@
     "triple"
    ],
    "at": "2026-11-08T15:54:09.397160+00:00"
+  },
+  {
+   "sig": [
+    "coolant",
+    "expire",
+    "here",
+    "last",
+    "long"
+   ],
+   "at": "2026-11-08T16:55:14.240469+00:00"
+  },
+  {
+   "sig": [
+    "busted",
+    "grapheneos",
+    "installing",
+    "myths",
+    "pixel"
+   ],
+   "at": "2026-11-08T16:55:40.065528+00:00"
+  },
+  {
+   "sig": [
+    "detect",
+    "difficult",
+    "music",
+    "signs",
+    "telltale",
+    "there"
+   ],
+   "at": "2026-11-08T16:56:10.599222+00:00"
   }
  ],
  "snapshots": {
-  "hn:50262950": [
-   70,
-   "2026-10-28T02:53:42.394204+00:00"
-  ],
-  "hn:50261583": [
-   82,
-   "2026-10-28T02:53:42.394204+00:00"
-  ],
   "lobsters:tp0zlk": [
    26,
    "2026-10-28T02:53:42.394204+00:00"
@@ -14018,6 +14026,14 @@
   "hn:50412072": [
    75,
    "2026-11-08T15:53:43.523194+00:00"
+  ],
+  "hn:50414427": [
+   260,
+   "2026-11-08T16:53:42.363628+00:00"
+  ],
+  "hn:50413822": [
+   253,
+   "2026-11-08T16:53:42.363628+00:00"
   ]
  }
 }
