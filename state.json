@@ -1,11 +1,5 @@
 {
  "seen": [
-  "hn:49354613",
-  "lobsters:m0okh1",
-  "hn:49355607",
-  "6a848674f787031f677590ed",
-  "hn:49360242",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtgujtxhps2o",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtgva2e5z222",
   "hn:49360545",
   "https://www.theregister.com/a/5289572",
@@ -2999,18 +2993,24 @@
   "https://www.engadget.com/2306598/streaming-vs-downloading-battery-data-usage/",
   "https://www.neowin.net/news/7-days-xbox-inside-alligator-freezers-arent-safe-and-edits-on-desktop/",
   "https://www.engadget.com/2306218/can-hackers-do-anything-with-ip-address/",
-  "https://www.androidpolice.com/gemini-without-typing-a-single-word-i-get-way-more-done-now/"
+  "https://www.androidpolice.com/gemini-without-typing-a-single-word-i-get-way-more-done-now/",
+  "crAid7FjDZfsdo9wxj34NY",
+  "https://www.theverge.com/?p=1029483",
+  "VL5Y7xNntzGjd5jrqYQCGG",
+  "TXvKxUzbjdj8eeiV56NpwE",
+  "TheNextWeb=2b32df9b2c5dd4da49b2bcd7b8975d49",
+  "TheNextWeb=8fa1eb0b943af7185de48a26f54e8f28"
  ],
  "posted": {
   "viral": 622,
-  "editorial": 832
+  "editorial": 837
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
-  "Engadget",
-  "Engadget",
-  "Android Police"
+  "Tom's Hardware",
+  "Tom's Hardware",
+  "Tom's Hardware",
+  "The Next Web",
+  "The Next Web"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7507,79 +7507,44 @@
    "source": "Android Police",
    "score": 0.19827,
    "at": "2026-11-08T13:54:50.449794+00:00"
+  },
+  {
+   "title": "ابهام در تایید مجوز صادرات تراشه‌های هوش مصنوعی Nvidia به چین",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/two-chinese-companies-cleared-to-buy-banned-nvidia-ai-chips-have-empty-offices-and-unknown-addresses-investigation-reveals-businesses-have-ties-to-sanctioned-chinese-military-suppliers",
+   "source": "Tom's Hardware",
+   "score": 0.17953,
+   "at": "2026-11-08T14:53:42.214921+00:00"
+  },
+  {
+   "title": "ابزار متن‌باز برای مدیریت و پایش دقیق مصرف حافظه گرافیکی",
+   "url": "https://www.tomshardware.com/pc-components/gpus/open-source-gpu-task-manager-reveals-exactly-whats-eating-your-vram-microsoft-vps-new-gpu-taskman-tool-reveals-every-process-using-your-gpu-how-much-memory-each-uses-and-breaks-down-ai-and-llm-workloads",
+   "source": "Tom's Hardware",
+   "score": 0.11839,
+   "at": "2026-11-08T14:54:22.499370+00:00"
+  },
+  {
+   "title": "عرضه‌ی دموی تعاملی انویدیا برای بیستمین سالگرد کارت گرافیک GeForce 8800 GTX",
+   "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-released-its-8800-gtx-gpu-20-years-ago-today-celebrates-with-steam-game-homage-interactive-demos-eye-watering-minimum-requirements-include-rtx-4070-32gb-ram-and-30gb-storage",
+   "source": "Tom's Hardware",
+   "score": 0.17953,
+   "at": "2026-11-08T14:54:28.170548+00:00"
+  },
+  {
+   "title": "بررسی احتمال ممنوعیت دسترسی افراد زیر ۱۶ سال به پلتفرم‌های خرید و فروش",
+   "url": "https://thenextweb.com/news/uk-under-16-social-media-ban-vinted-ebay",
+   "source": "The Next Web",
+   "score": 0.1538,
+   "at": "2026-11-08T14:54:53.724839+00:00"
+  },
+  {
+   "title": "تشکیل کارگروه ویژه وزارت دادگستری آمریکا برای مقابله با جرایم هوش مصنوعی",
+   "url": "https://thenextweb.com/news/doj-super-intelligence-task-force-ai",
+   "source": "The Next Web",
+   "score": 0.16161,
+   "at": "2026-11-08T14:54:59.780482+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "26.04",
-    "compatible",
-    "rust",
-    "standard",
-    "sudo",
-    "ubuntu"
-   ],
-   "at": "2026-11-04T00:43:28.131255+00:00"
-  },
-  {
-   "sig": [
-    "act",
-    "along",
-    "another",
-    "anthropic",
-    "because",
-    "best",
-    "cleaning",
-    "could",
-    "doing",
-    "ecosystem",
-    "facilitating",
-    "heart",
-    "humanity",
-    "indication",
-    "information",
-    "interest",
-    "never",
-    "output",
-    "rest",
-    "slop",
-    "watermarking"
-   ],
-   "at": "2026-11-04T00:44:33.271633+00:00"
-  },
-  {
-   "sig": [
-    "3.2t",
-    "debt",
-    "giants",
-    "hidden",
-    "months",
-    "swells",
-    "tech"
-   ],
-   "at": "2026-11-04T00:44:48.058361+00:00"
-  },
-  {
-   "sig": [
-    "gripper",
-    "open-source",
-    "robot",
-    "room",
-    "scale",
-    "stringman"
-   ],
-   "at": "2026-11-04T01:53:45.049244+00:00"
-  },
-  {
-   "sig": [
-    "children",
-    "harming",
-    "industrial",
-    "scale",
-    "snapchat"
-   ],
-   "at": "2026-11-04T01:53:51.713673+00:00"
-  },
   {
    "sig": [
     "ats",
@@ -11531,6 +11496,80 @@
     "word"
    ],
    "at": "2026-11-08T13:54:50.449794+00:00"
+  },
+  {
+   "sig": [
+    "addresses",
+    "banned",
+    "buy",
+    "china",
+    "chinese",
+    "chips",
+    "cleared",
+    "companies",
+    "empty",
+    "let",
+    "nvidia",
+    "office",
+    "offices",
+    "sell",
+    "unknown"
+   ],
+   "at": "2026-11-08T14:53:42.214921+00:00"
+  },
+  {
+   "sig": [
+    "eating",
+    "exactly",
+    "gpu",
+    "manager",
+    "open-source",
+    "reveals",
+    "task",
+    "vram"
+   ],
+   "at": "2026-11-08T14:54:22.499370+00:00"
+  },
+  {
+   "sig": [
+    "ago",
+    "celebrates",
+    "game",
+    "gpu",
+    "gtx",
+    "homage",
+    "nvidia",
+    "released",
+    "steam",
+    "today",
+    "years"
+   ],
+   "at": "2026-11-08T14:54:28.170548+00:00"
+  },
+  {
+   "sig": [
+    "add",
+    "ban",
+    "ebay",
+    "may",
+    "media",
+    "social",
+    "under-16",
+    "vinted"
+   ],
+   "at": "2026-11-08T14:54:53.724839+00:00"
+  },
+  {
+   "sig": [
+    "department",
+    "force",
+    "justice",
+    "name",
+    "sets",
+    "task",
+    "under"
+   ],
+   "at": "2026-11-08T14:54:59.780482+00:00"
   }
  ],
  "snapshots": {
