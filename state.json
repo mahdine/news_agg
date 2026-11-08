@@ -1,13 +1,5 @@
 {
  "seen": [
-  "https://techcrunch.com/?p=3152849",
-  "https://techcrunch.com/?p=3152844",
-  "https://techcrunch.com/?p=3152748",
-  "https://techcrunch.com/?p=3152223",
-  "https://techcrunch.com/?p=3152741",
-  "https://techcrunch.com/?p=3152533",
-  "https://techcrunch.com/?p=3152544",
-  "https://techcrunch.com/?p=3152463",
   "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
   "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
   "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
@@ -2999,17 +2991,25 @@
   "hn:50406222",
   "hn:50406292",
   "hn:50406319",
-  "hn:50406670"
+  "hn:50406670",
+  "hn:50405263",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzqd3taowk2p",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzqplbweef2p",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzqqgdm2x22p",
+  "lobsters:owsnms",
+  "hn:50408713",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzqytnwgq724",
+  "hn:50408931"
  ],
  "posted": {
-  "viral": 606,
+  "viral": 611,
   "editorial": 794
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
+  "404 Media",
+  "Lobsters",
+  "404 Media",
   "Hacker News"
  ],
  "last_digest": "2026-11-06",
@@ -7129,58 +7129,44 @@
    "source": "blog.bosscher.ch",
    "score": 0.21746,
    "at": "2026-11-07T22:02:21.600145+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل فشرده HyperFlow H3 Flash برای تولید ویدیو و صدا",
+   "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+   "source": "github.com",
+   "score": 0.00186,
+   "at": "2026-11-08T01:53:42.148014+00:00"
+  },
+  {
+   "title": "قوانین جدید بریتانیا برای جرم‌انگاری محتوای پورنوگرافی و محدودیت‌های آنلاین",
+   "url": "https://www.404media.co/uk-crime-and-policing-act-pornography/",
+   "source": "404media.co",
+   "score": 0.11465,
+   "at": "2026-11-08T01:53:49.179582+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری بحرانی در musl libc و خطر دسترسی غیرمجاز به سیستم",
+   "url": "https://sunshowers.io/posts/sshole/",
+   "source": "sunshowers.io",
+   "score": 0.12368,
+   "at": "2026-11-08T01:53:55.964633+00:00"
+  },
+  {
+   "title": "قطعی طولانی‌مدت وب‌سایت AO3 به دلیل یک حادثه‌ی امنیتی",
+   "url": "https://www.404media.co/ao3-down-outage-reactions/",
+   "source": "404media.co",
+   "score": 0.0604,
+   "at": "2026-11-08T01:54:02.191212+00:00"
+  },
+  {
+   "title": "رونمایی از صفحه جدید Overview برای مدیریت Pull Request در GitHub",
+   "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+   "source": "github.blog",
+   "score": 0.00387,
+   "at": "2026-11-08T01:54:08.448047+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anthropic",
-    "flattened",
-    "growth"
-   ],
-   "at": "2026-11-03T01:54:21.487309+00:00"
-  },
-  {
-   "sig": [
-    "5.5",
-    "architectural",
-    "claude",
-    "draw",
-    "drawings",
-    "opus",
-    "permit-level"
-   ],
-   "at": "2026-11-03T02:54:03.637193+00:00"
-  },
-  {
-   "sig": [
-    "cybersecurity",
-    "guide",
-    "nist",
-    "self-employed",
-    "solopreneur"
-   ],
-   "at": "2026-11-03T02:54:11.150244+00:00"
-  },
-  {
-   "sig": [
-    "create",
-    "product",
-    "skill",
-    "videos"
-   ],
-   "at": "2026-11-03T02:54:21.910692+00:00"
-  },
-  {
-   "sig": [
-    "agentic",
-    "backdoors",
-    "poisoning",
-    "pretraining",
-    "via"
-   ],
-   "at": "2026-11-03T02:54:31.166028+00:00"
-  },
   {
    "sig": [
     "ethernet",
@@ -11145,33 +11131,101 @@
     "usd"
    ],
    "at": "2026-11-07T22:02:21.600145+00:00"
+  },
+  {
+   "sig": [
+    "14b",
+    "31b",
+    "audio",
+    "compressed",
+    "diffusion",
+    "int8",
+    "model",
+    "show",
+    "steps",
+    "video"
+   ],
+   "at": "2026-11-08T01:53:42.148014+00:00"
+  },
+  {
+   "sig": [
+    "anyone",
+    "content",
+    "could",
+    "distributing",
+    "even",
+    "face",
+    "five",
+    "friday",
+    "homes",
+    "porn",
+    "possessing",
+    "prison",
+    "privacy",
+    "recorded",
+    "sale",
+    "site",
+    "type",
+    "uk-crime-and",
+    "www.404media.co",
+    "years"
+   ],
+   "at": "2026-11-08T01:53:49.179582+00:00"
+  },
+  {
+   "sig": [
+    "finally",
+    "going",
+    "rid",
+    "sshole"
+   ],
+   "at": "2026-11-08T01:53:55.964633+00:00"
+  },
+  {
+   "sig": [
+    "annual",
+    "ao3",
+    "ao3-down-out",
+    "based",
+    "chapter",
+    "clear",
+    "day",
+    "every",
+    "exercise",
+    "fic",
+    "grieving",
+    "group",
+    "horny",
+    "kinktober",
+    "loss",
+    "lot",
+    "october",
+    "people",
+    "prompt",
+    "prompts",
+    "throughout",
+    "upload",
+    "where",
+    "writers",
+    "writing",
+    "www.404media.co"
+   ],
+   "at": "2026-11-08T01:54:02.191212+00:00"
+  },
+  {
+   "sig": [
+    "github",
+    "overview",
+    "page",
+    "preview",
+    "public",
+    "pull",
+    "request"
+   ],
+   "at": "2026-11-08T01:54:08.448047+00:00"
   }
  ],
  "snapshots": {
-  "hn:50261819": [
-   148,
-   "2026-10-27T17:53:45.562267+00:00"
-  ],
-  "hn:50261784": [
-   189,
-   "2026-10-27T17:53:45.562267+00:00"
-  ],
-  "hn:50260526": [
-   107,
-   "2026-10-27T17:53:45.562267+00:00"
-  ],
-  "hn:50259343": [
-   283,
-   "2026-10-27T21:24:00.138957+00:00"
-  ],
-  "hn:50264228": [
-   228,
-   "2026-10-27T21:24:00.138957+00:00"
-  ],
-  "hn:50263854": [
-   289,
-   "2026-10-27T21:24:00.138957+00:00"
-  ],
   "hn:50262942": [
    144,
    "2026-10-27T21:24:00.138957+00:00"
@@ -13508,10 +13562,6 @@
    282,
    "2026-11-07T22:01:54.486336+00:00"
   ],
-  "hn:50406563": [
-   539,
-   "2026-11-07T22:01:54.486336+00:00"
-  ],
   "hn:50406319": [
    117,
    "2026-11-07T22:01:54.486336+00:00"
@@ -13528,25 +13578,53 @@
    555,
    "2026-11-07T22:01:54.486336+00:00"
   ],
-  "hn:50405782": [
-   81,
-   "2026-11-07T22:01:54.486336+00:00"
-  ],
   "hn:50405250": [
    192,
    "2026-11-07T22:01:54.486336+00:00"
   ],
+  "hn:50406563": [
+   838,
+   "2026-11-08T01:53:39.230128+00:00"
+  ],
+  "hn:50405782": [
+   111,
+   "2026-11-08T01:53:39.230128+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzqplbweef2p": [
-   182,
-   "2026-11-07T22:01:54.486336+00:00"
+   241,
+   "2026-11-08T01:53:39.230128+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzqqgdm2x22p": [
-   106,
-   "2026-11-07T22:01:54.486336+00:00"
+   170,
+   "2026-11-08T01:53:39.230128+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzqd3taowk2p": [
-   50,
-   "2026-11-07T22:01:54.486336+00:00"
+   59,
+   "2026-11-08T01:53:39.230128+00:00"
+  ],
+  "hn:50408931": [
+   141,
+   "2026-11-08T01:53:39.230128+00:00"
+  ],
+  "hn:50408713": [
+   81,
+   "2026-11-08T01:53:39.230128+00:00"
+  ],
+  "hn:50405263": [
+   81,
+   "2026-11-08T01:53:39.230128+00:00"
+  ],
+  "hn:50404747": [
+   124,
+   "2026-11-08T01:53:39.230128+00:00"
+  ],
+  "lobsters:owsnms": [
+   82,
+   "2026-11-08T01:53:39.230128+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzqytnwgq724": [
+   98,
+   "2026-11-08T01:53:39.230128+00:00"
   ]
  }
 }
