@@ -1,14 +1,5 @@
 {
  "seen": [
-  "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
-  "hn:49320856",
-  "https://techcrunch.com/?p=3153318",
-  "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
-  "lobsters:ii5tun",
-  "hn:49319389",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7hgtkozp2o",
-  "https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil",
-  "hn:49321353",
   "hn:49321717",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i",
   "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
@@ -2999,17 +2990,26 @@
   "https://www.engadget.com/2309904/useful-ipad-apps-make-daily-life-easier/",
   "https://www.engadget.com/2307479/samsung-one-ui-9-5-beta-program-how-to-sign-up/",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzrdowcqdv2n",
-  "https://entertainment.slashdot.org/story/26/11/08/041209/scifi-magazine-starlog-relaunches-and-back-issues-return-to-internet-archive?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://entertainment.slashdot.org/story/26/11/08/041209/scifi-magazine-starlog-relaunches-and-back-issues-return-to-internet-archive?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "6aecc0cf7a37f8fb97afb0fa",
+  "BS3UV8gCwuEmjAnmFDDuXf",
+  "https://9to5mac.com/?p=1077784",
+  "LkdZKGcRRCgbKJ7zhHJvVH",
+  "https://techcrunch.com/?p=3186091",
+  "https://9to5mac.com/?p=1077888",
+  "https://www.engadget.com/2306942/playstation-5-playable-discs-explained/",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzrfku36422q",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzrolo3ud22n"
  ],
  "posted": {
-  "viral": 614,
-  "editorial": 804
+  "viral": 615,
+  "editorial": 806
  },
  "recent_labels": [
-  "TechRadar",
-  "TechRadar",
-  "Slashdot",
   "Engadget",
+  "404 Media",
+  "TechCrunch AI",
+  "9to5Mac",
   "404 Media"
  ],
  "last_digest": "2026-11-06",
@@ -7255,45 +7255,30 @@
    "source": "404media.co",
    "score": 0.07022,
    "at": "2026-11-08T04:54:11.754902+00:00"
+  },
+  {
+   "title": "چالش‌های سیاسی و اجتماعی پیش روی توسعه مراکز داده در آمریکا",
+   "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+   "source": "TechCrunch AI",
+   "score": 0.01719,
+   "at": "2026-11-08T05:54:26.584299+00:00"
+  },
+  {
+   "title": "عرضه‌ی اپلیکیشن دوربین Chromagraph برای ثبت تصاویر طبیعی‌تر در آیفون",
+   "url": "https://9to5mac.com/2026/11/07/chromagraph-camera-is-exactly-the-camera-app-ive-been-looking-for-on-iphone/",
+   "source": "9to5Mac",
+   "score": 0.015,
+   "at": "2026-11-08T05:54:34.211435+00:00"
+  },
+  {
+   "title": "انتقاد از تغییر استراتژی‌های سخت‌افزاری و چالش‌های اخیر اپل",
+   "url": "https://www.404media.co/apple-is-entering-its-slop-era/",
+   "source": "404media.co",
+   "score": 0.45596,
+   "at": "2026-11-08T05:54:50.812131+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "architect",
-    "creates",
-    "hidden",
-    "migration",
-    "open-source",
-    "replacement",
-    "tool",
-    "vmware"
-   ],
-   "at": "2026-11-03T05:54:45.360242+00:00"
-  },
-  {
-   "sig": [
-    "astra",
-    "effectiveness",
-    "gpt-6",
-    "technique",
-    "test",
-    "verification"
-   ],
-   "at": "2026-11-03T05:54:58.391973+00:00"
-  },
-  {
-   "sig": [
-    "llms",
-    "network",
-    "neural",
-    "reading",
-    "superhuman",
-    "weights",
-    "writing"
-   ],
-   "at": "2026-11-03T06:53:45.671958+00:00"
-  },
   {
    "sig": [
     "attackers",
@@ -11326,17 +11311,54 @@
     "www.404media.co"
    ],
    "at": "2026-11-08T04:54:11.754902+00:00"
+  },
+  {
+   "sig": [
+    "centers",
+    "data",
+    "elon",
+    "looking",
+    "midterms",
+    "musk",
+    "rocky",
+    "things"
+   ],
+   "at": "2026-11-08T05:54:26.584299+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "camera",
+    "chromagraph",
+    "exactly",
+    "iphone",
+    "looking"
+   ],
+   "at": "2026-11-08T05:54:34.211435+00:00"
+  },
+  {
+   "sig": [
+    "announced",
+    "apple",
+    "apple-is-ent",
+    "crackgate",
+    "doesn",
+    "extensively",
+    "flailing",
+    "idea",
+    "jobs",
+    "laptop",
+    "launch",
+    "steve",
+    "tested",
+    "touch-screen",
+    "work",
+    "www.404media.co"
+   ],
+   "at": "2026-11-08T05:54:50.812131+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myuxh47zdk2z": [
-   653,
-   "2026-10-27T21:24:00.138957+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myuvcd54ds2n": [
-   32,
-   "2026-10-27T21:24:00.138957+00:00"
-  ],
   "hn:50264857": [
    399,
    "2026-10-28T01:53:44.757509+00:00"
@@ -13728,6 +13750,14 @@
   "hn:50406502": [
    91,
    "2026-11-08T04:53:48.328371+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzrolo3ud22n": [
+   93,
+   "2026-11-08T05:53:43.345762+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzrfku36422q": [
+   31,
+   "2026-11-08T05:53:43.345762+00:00"
   ]
  }
 }
