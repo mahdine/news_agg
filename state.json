@@ -1,13 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtr275w5yz2e",
-  "360ddc0de8913302fc8272e305e4a62a",
-  "https://habr.com/ru/articles/1073446/",
-  "vjsRVPRLrGjWUjHKtnfKg8",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrectulli2t",
-  "lobsters:fadbev",
-  "https://news.slashdot.org/story/26/08/23/1849216/iran-linked-cyberattackers-shut-down-a-uk-power-plant-for-four-days?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://www.engadget.com/2240251/android-auto-vs-automotive-how-different/",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtsik53ns22y",
   "https://3dnews.ru/1147312/#6a8a9758742eecb8988b456c",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrogj622x2l",
@@ -2999,18 +2991,26 @@
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzukga6eo22b",
   "https://www.theregister.com/a/5307758",
   "https://www.article19.org/?post_type=resources&p=392901",
-  "75f5b551c0d3560512ab2d7105c1fe29"
+  "75f5b551c0d3560512ab2d7105c1fe29",
+  "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+  "wMowpzieoj5ioszwBtTUsC",
+  "https://www.cnews.ru/news/line/2026-11-09_gruppa_astrabajkal_elektroniks",
+  "6aeb82bc291739b7e29cddd0",
+  "https://www.cnews.ru/news/line/2026-11-09_spikatel_voshel_v_lidery",
+  "https://www.phoronix.com/news/Intel-ANV-AV1-Bitrate-Control",
+  "phJ7PVHHWj3NPDMMWxbmoj",
+  "xQ99kRuKXb8q2VJuSD3u7U"
  ],
  "posted": {
   "viral": 645,
-  "editorial": 873
+  "editorial": 878
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
-  "antirez",
-  "The Register",
-  "Hi-Tech Mail"
+  "The Hacker News",
+  "CNews",
+  "CNews",
+  "Phoronix",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7965,65 +7965,54 @@
    "pool": "editorial",
    "score": 0.19917,
    "at": "2026-11-09T09:54:13.188769+00:00"
+  },
+  {
+   "title": "هشدار امنیتی برای توقف فعالیت سرورهای کیف پول LNbits",
+   "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.17523,
+   "at": "2026-11-09T10:53:47.307297+00:00"
+  },
+  {
+   "title": "ساخت سیستم ذخیره‌سازی داده تمام‌ایرانی برای ابررایانه دانشگاه دولتی مسکو",
+   "url": "https://www.cnews.ru/news/line/2026-11-09_gruppa_astrabajkal_elektroniks",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.16709,
+   "at": "2026-11-09T10:54:38.059796+00:00"
+  },
+  {
+   "title": "قرارگیری شرکت Spicatel در میان برترین ارائه‌دهندگان خدمات بازیابی فاجعه در روسیه",
+   "url": "https://www.cnews.ru/news/line/2026-11-09_spikatel_voshel_v_lidery",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.17555,
+   "at": "2026-11-09T10:54:59.687662+00:00"
+  },
+  {
+   "title": "درایور Mesa ANV اینتل اکنون از کنترل نرخ بیت برای انکودینگ AV1 پشتیبانی می‌کند",
+   "url": "https://www.phoronix.com/news/Intel-ANV-AV1-Bitrate-Control",
+   "source": "Phoronix",
+   "label": "Phoronix",
+   "pool": "editorial",
+   "score": 0.20358,
+   "at": "2026-11-09T10:55:05.292291+00:00"
+  },
+  {
+   "title": "جیل‌بریک خودرو برای تنظیم ساعت سیستم سرگرمی",
+   "url": "https://www.tomshardware.com/tech-industry/cyber-security/security-researcher-had-to-jailbreak-their-car-just-to-update-the-clock-missing-tomtom-sd-card-locked-settings-menu-custom-linux-exploit-deployed-to-adjust-daylight-saving-time",
+   "source": "Tom's Hardware",
+   "label": "Tom's Hardware",
+   "pool": "editorial",
+   "score": 0.23064,
+   "at": "2026-11-09T10:56:02.451900+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "128gb",
-    "almost",
-    "always",
-    "compared",
-    "computers",
-    "correctly",
-    "experts",
-    "hint",
-    "issue",
-    "k3.1",
-    "layer",
-    "model",
-    "next",
-    "possible",
-    "predicts",
-    "prefetching",
-    "previous",
-    "residual",
-    "router",
-    "running",
-    "score",
-    "size",
-    "small",
-    "ssd",
-    "still",
-    "streaming",
-    "top",
-    "very"
-   ],
-   "at": "2026-11-05T01:32:21.877085+00:00"
-  },
-  {
-   "sig": [
-    "back",
-    "libc",
-    "painter",
-    "rewrite",
-    "shlemiel",
-    "slower",
-    "sqlite",
-    "zig"
-   ],
-   "at": "2026-11-05T01:54:34.550883+00:00"
-  },
-  {
-   "sig": [
-    "evergreen",
-    "language",
-    "provably",
-    "safe",
-    "systems"
-   ],
-   "at": "2026-11-05T01:55:32.085151+00:00"
-  },
   {
    "sig": [
     "200k",
@@ -12024,6 +12013,46 @@
     "secondhand"
    ],
    "at": "2026-11-09T09:54:02.309386+00:00"
+  },
+  {
+   "sig": [
+    "amid",
+    "attacks",
+    "bitcoin",
+    "down",
+    "lightning",
+    "lnbits",
+    "operators",
+    "servers",
+    "shut",
+    "urges",
+    "wallet"
+   ],
+   "at": "2026-11-09T10:53:47.307297+00:00"
+  },
+  {
+   "sig": [
+    "anv",
+    "av1",
+    "bitrate",
+    "control",
+    "encoding",
+    "intel",
+    "lands"
+   ],
+   "at": "2026-11-09T10:55:05.292291+00:00"
+  },
+  {
+   "sig": [
+    "car",
+    "clock",
+    "had",
+    "jailbreak",
+    "researcher",
+    "security",
+    "update"
+   ],
+   "at": "2026-11-09T10:56:02.451900+00:00"
   }
  ],
  "snapshots": {
@@ -14429,8 +14458,10 @@
   ]
  },
  "skips": {
-  "Tom's Hardware": 1,
-  "Article 19": 1
+  "Tom's Hardware": 2,
+  "Article 19": 1,
+  "Wired": 1,
+  "TechRadar": 1
  },
  "posts_by_label": {
   "Engadget": 38,
@@ -14444,17 +14475,17 @@
   "Cloudflare": 1,
   "TechCrunch AI": 15,
   "Lobsters": 4,
-  "Tom's Hardware": 27,
+  "Tom's Hardware": 28,
   "ZDNet": 3,
   "9to5Mac": 10,
   "EFF": 2,
   "Hacker News": 10,
   "TechSpot": 17,
-  "The Hacker News": 22,
+  "The Hacker News": 23,
   "Latent Space": 2,
   "InfoQ": 12,
   "The Register": 20,
-  "Phoronix": 20,
+  "Phoronix": 21,
   "The Next Web": 19,
   "Android Police": 18,
   "Ars Technica": 1,
@@ -14466,7 +14497,7 @@
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 22,
+  "CNews": 24,
   "Emily M. Bender": 3,
   "antirez": 3,
   "OpenAI": 1,
@@ -14487,17 +14518,17 @@
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-08T17:59:12.217529+00:00",
   "Lobsters": "2026-11-09T02:53:49.622761+00:00",
-  "Tom's Hardware": "2026-11-08T18:00:16.673949+00:00",
+  "Tom's Hardware": "2026-11-09T10:56:02.452001+00:00",
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-08T15:54:03.598875+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
   "Hacker News": "2026-11-09T09:53:51.077489+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
-  "The Hacker News": "2026-11-09T06:53:57.059430+00:00",
+  "The Hacker News": "2026-11-09T10:53:47.307409+00:00",
   "Latent Space": "2026-11-05T06:54:04.851054+00:00",
   "InfoQ": "2026-11-09T07:55:09.141782+00:00",
   "The Register": "2026-11-09T09:54:02.309503+00:00",
-  "Phoronix": "2026-11-08T12:00:54.749802+00:00",
+  "Phoronix": "2026-11-09T10:55:05.292394+00:00",
   "The Next Web": "2026-11-08T14:54:59.780482+00:00",
   "Android Police": "2026-11-08T18:01:35.808348+00:00",
   "Ars Technica": "2026-10-31T11:53:40.882295+00:00",
@@ -14509,7 +14540,7 @@
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-09T08:54:03.940875+00:00",
+  "CNews": "2026-11-09T10:54:59.687789+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
   "antirez": "2026-11-09T09:53:56.680990+00:00",
   "OpenAI": "2026-11-05T02:53:58.432643+00:00",
