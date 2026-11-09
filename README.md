@@ -256,7 +256,7 @@ Dependencies are `httpx`, `feedparser`, and `PyYAML`. Nothing else.
 
 ## Scorecard
 
-Each run also writes `scorecard.html` — a self-contained, serverless dashboard that the `pages` workflow deploys to GitHub Pages (only that one file is served, so `state.json` and the rest of the repo never leave the repository). It shows, per active source: posts in the last 7 days and in total, last post, Gemini skip rate, average score, current tuning (`authority` / `min_engagement` / `min_points`), plus a recommendations section with explicit thresholds — silent sources, high-skip sources, pool-share drift, concentration on a single source.
+Each run also writes `scorecard.html` — a self-contained, serverless dashboard that the `pages` workflow deploys to GitHub Pages as `index.html` (only that one page is served, so `state.json` and the rest of the repo never leave the repository). It shows, per active source: posts in the last 7 days and in total, last post, Gemini skip rate, average score, current tuning (`authority` / `min_engagement` / `min_points`), plus a recommendations section with explicit thresholds — silent sources, high-skip sources, pool-share drift, concentration on a single source.
 
 Use it as a diagnosis tool, not a remote config: read the recommendations, then make a small `config.yaml` edit. It is regenerated on every run and committed alongside `state.json`.
 

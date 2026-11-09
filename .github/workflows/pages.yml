@@ -34,10 +34,18 @@ jobs:
         if: hashFiles('scorecard.html') == ''
         run: exit 1
 
+      # upload-pages-artifact فقط یک *دایرکتوری* می‌خورد، نه یک فایل.
+      # scorecard را به‌عنوان index.html در دایرکتوری site می‌گذاریم تا
+      # آدرسِ ریشه (…/news_agg/) خودش صفحه باشد.
+      - name: stage site
+        run: |
+          mkdir site
+          cp scorecard.html site/index.html
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: scorecard.html
+          path: site
 
       - uses: actions/deploy-pages@v4
