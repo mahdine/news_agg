@@ -1,13 +1,5 @@
 {
  "seen": [
-  "6a873e2f6e93e6c337fd96d5",
-  "https://3dnews.ru/1147287/#6a896a71742eec47068b4569",
-  "lobsters:lzgbrv",
-  "hn:49398304",
-  "https://www.techspot.com/news/113578-walmart-finally-support-apple-pay-google-pay-after.html",
-  "hn:49398152",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtoatyikji2v",
-  "hn:49399524",
   "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
   "hn:49398904",
   "lobsters:zibquu",
@@ -2999,18 +2991,26 @@
   "https://simonwillison.net/2026/Nov/9/details-summary/",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzu42ujywk24",
   "https://www.cnews.ru/news/line/2026-11-09_eltex_obnovil_sistemu_upravleniya",
-  "https://www.theregister.com/a/5308345"
+  "https://www.theregister.com/a/5308345",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzu67pgvkc2m",
+  "590440703eedf02e15f7e22e7fceb105",
+  "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+  "97d142a18606f11ac79c846dd1af85d2",
+  "8e6b05eaba13a2140fcdd95a556f9086",
+  "02756eaca081e9cd1075a529bf9cbf00",
+  "3243421",
+  "https://www.cnews.ru/news/line/2026-11-09_korus_konsalting_vnedril"
  ],
  "posted": {
-  "viral": 639,
-  "editorial": 861
+  "viral": 640,
+  "editorial": 863
  },
  "recent_labels": [
-  "Engadget",
-  "TechRadar",
-  "Simon Willison RSS",
   "CNews",
-  "The Register"
+  "The Register",
+  "404 Media",
+  "The Hacker News",
+  "CNews"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7829,18 +7829,30 @@
    "source": "The Register",
    "score": 0.07877,
    "at": "2026-11-09T05:54:36.440787+00:00"
+  },
+  {
+   "title": "سایت Archive of Our Own به دلیل مشکلات فنی تا یک ماه از دسترس خارج شد",
+   "url": "https://www.404media.co/archive-of-our-own-ao3-down-maintenance/",
+   "source": "404media.co",
+   "score": 0.37733,
+   "at": "2026-11-09T06:53:48.892103+00:00"
+  },
+  {
+   "title": "هشدار CISA درباره بهره‌برداری از آسیب‌پذیری‌های بحرانی در SonicWall",
+   "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+   "source": "The Hacker News",
+   "score": 0.18275,
+   "at": "2026-11-09T06:53:57.059430+00:00"
+  },
+  {
+   "title": "بهره‌گیری از پلتفرم Korus AI برای تحول هوشمند در کسب‌وکارها",
+   "url": "https://www.cnews.ru/news/line/2026-11-09_korus_konsalting_vnedril",
+   "source": "CNews",
+   "score": 0.12272,
+   "at": "2026-11-09T06:55:26.023250+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "accountability",
-    "fight",
-    "starts",
-    "tech"
-   ],
-   "at": "2026-11-04T15:54:06.833283+00:00"
-  },
   {
    "sig": [
     "handy",
@@ -11847,13 +11859,25 @@
     "torvalds"
    ],
    "at": "2026-11-09T05:54:36.440787+00:00"
+  },
+  {
+   "sig": [
+    "amid",
+    "bypass",
+    "cisa",
+    "exploitation",
+    "flags",
+    "flaw",
+    "mfa",
+    "possible",
+    "reports",
+    "sonicos",
+    "sonicwall"
+   ],
+   "at": "2026-11-09T06:53:57.059430+00:00"
   }
  ],
  "snapshots": {
-  "hn:50271271": [
-   103,
-   "2026-10-28T17:53:44.895842+00:00"
-  ],
   "hn:50275373": [
    212,
    "2026-10-28T18:24:18.841169+00:00"
@@ -14249,6 +14273,10 @@
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzu42ujywk24": [
    78,
    "2026-11-09T05:53:43.207832+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzu67pgvkc2m": [
+   79,
+   "2026-11-09T06:53:46.960433+00:00"
   ]
  }
 }
