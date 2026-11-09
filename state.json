@@ -1,11 +1,5 @@
 {
  "seen": [
-  "hn:49395040",
-  "hn:49395628",
-  "hn:49394373",
-  "hn:49396590",
-  "hn:49397074",
-  "https://habr.com/ru/articles/1073250/",
   "6a873e2f6e93e6c337fd96d5",
   "https://3dnews.ru/1147287/#6a896a71742eec47068b4569",
   "lobsters:lzgbrv",
@@ -2999,18 +2993,24 @@
   "https://www.neowin.net/news/japanese-retailer-iris-ohyama-warns-of-data-breach-affecting-77-million-users/",
   "https://www.cnews.ru/news/line/2026-11-09_v_oez_tehnopolis_moskva",
   "https://www.cnews.ru/news/line/2026-11-09_moskovskoe_po_dlya_upravleniya",
-  "https://www.cnews.ru/news/line/2026-11-09_primerilne_vstavaya_s_divana"
+  "https://www.cnews.ru/news/line/2026-11-09_primerilne_vstavaya_s_divana",
+  "https://www.engadget.com/2309279/why-usb-device-not-showing-up-macbook-fixes/",
+  "hTKW9b3bcTqr6kLh7rYoi7",
+  "https://simonwillison.net/2026/Nov/9/details-summary/",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzu42ujywk24",
+  "https://www.cnews.ru/news/line/2026-11-09_eltex_obnovil_sistemu_upravleniya",
+  "https://www.theregister.com/a/5308345"
  ],
  "posted": {
   "viral": 639,
-  "editorial": 856
+  "editorial": 861
  },
  "recent_labels": [
-  "The Register",
-  "Hacker News",
-  "Neowin",
+  "Engadget",
+  "TechRadar",
+  "Simon Willison RSS",
   "CNews",
-  "CNews"
+  "The Register"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7794,78 +7794,44 @@
    "source": "CNews",
    "score": 0.13887,
    "at": "2026-11-09T04:54:23.710222+00:00"
+  },
+  {
+   "title": "راهکارهای رفع مشکل شناسایی نشدن دستگاه‌های USB در سیستم‌عامل macOS",
+   "url": "https://www.engadget.com/2309279/why-usb-device-not-showing-up-macbook-fixes/",
+   "source": "Engadget",
+   "score": 0.02818,
+   "at": "2026-11-09T05:53:55.929682+00:00"
+  },
+  {
+   "title": "راه‌اندازی نخستین سیستم برق ۸۰۰ ولت DC در دیتاسنترهای هوش مصنوعی چین",
+   "url": "https://www.techradar.com/pro/has-china-cracked-the-ai-data-center-power-problem-new-800-volt-dc-power-system-is-a-world-first-offering-greater-efficiency-and-conversion-than-ever",
+   "source": "TechRadar",
+   "score": 0.02901,
+   "at": "2026-11-09T05:54:05.253086+00:00"
+  },
+  {
+   "title": "مدیریت توضیحات طولانی در Pull Requestهای تولیدشده توسط هوش مصنوعی",
+   "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+   "source": "Simon Willison RSS",
+   "score": 0.61194,
+   "at": "2026-11-09T05:54:14.907823+00:00"
+  },
+  {
+   "title": "به‌روزرسانی سیستم مدیریت شبکه Eltex ECCM",
+   "url": "https://www.cnews.ru/news/line/2026-11-09_eltex_obnovil_sistemu_upravleniya",
+   "source": "CNews",
+   "score": 0.03102,
+   "at": "2026-11-09T05:54:29.920364+00:00"
+  },
+  {
+   "title": "کاهش روند ارسال وصله‌های امنیتی مبتنی بر هوش مصنوعی برای لینوکس",
+   "url": "https://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345",
+   "source": "The Register",
+   "score": 0.07877,
+   "at": "2026-11-09T05:54:36.440787+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "amid",
-    "attack",
-    "bank",
-    "banks",
-    "blood",
-    "freezer",
-    "french",
-    "hackers",
-    "hit",
-    "latest",
-    "national",
-    "target",
-    "warnings"
-   ],
-   "at": "2026-11-04T14:57:21.500773+00:00"
-  },
-  {
-   "sig": [
-    "affected",
-    "apt",
-    "arbitrary",
-    "attack",
-    "code",
-    "debian",
-    "execution",
-    "man-in-the-middle",
-    "root",
-    "security",
-    "update"
-   ],
-   "at": "2026-11-04T14:57:48.351343+00:00"
-  },
-  {
-   "sig": [
-    "americans",
-    "ballot",
-    "centers",
-    "comprehensively",
-    "data",
-    "defeated",
-    "developments",
-    "elections",
-    "measures",
-    "midterm",
-    "overwhelmingly",
-    "put",
-    "reject",
-    "roundly",
-    "vote",
-    "voters"
-   ],
-   "at": "2026-11-04T14:59:33.700032+00:00"
-  },
-  {
-   "sig": [
-    "center",
-    "data",
-    "governor",
-    "raises",
-    "result",
-    "risks",
-    "slide",
-    "stocks",
-    "texas"
-   ],
-   "at": "2026-11-04T15:53:52.564475+00:00"
-  },
   {
    "sig": [
     "accountability",
@@ -11805,13 +11771,85 @@
     "warns"
    ],
    "at": "2026-11-09T04:53:55.125356+00:00"
+  },
+  {
+   "sig": [
+    "device",
+    "fix",
+    "isn",
+    "macbook",
+    "showing",
+    "usb"
+   ],
+   "at": "2026-11-09T05:53:55.929682+00:00"
+  },
+  {
+   "sig": [
+    "800-volt",
+    "center",
+    "china",
+    "conversion",
+    "cracked",
+    "data",
+    "efficiency",
+    "ever",
+    "first",
+    "greater",
+    "offering",
+    "power",
+    "problem",
+    "system",
+    "world"
+   ],
+   "at": "2026-11-09T05:54:05.253086+00:00"
+  },
+  {
+   "sig": [
+    "ai-generated",
+    "behind",
+    "bit",
+    "bulk",
+    "collapsed",
+    "descriptions",
+    "details",
+    "exhausting",
+    "github",
+    "hiding",
+    "html",
+    "less",
+    "little",
+    "making",
+    "markdown",
+    "nov",
+    "pattern",
+    "recently",
+    "simonwillison.net",
+    "slop",
+    "started",
+    "summary",
+    "supported",
+    "tag",
+    "thankfully",
+    "think",
+    "useful"
+   ],
+   "at": "2026-11-09T05:54:14.907823+00:00"
+  },
+  {
+   "sig": [
+    "ai-prompted",
+    "flood",
+    "linus",
+    "patch",
+    "peaked",
+    "sees",
+    "signs",
+    "torvalds"
+   ],
+   "at": "2026-11-09T05:54:36.440787+00:00"
   }
  ],
  "snapshots": {
-  "hn:50273192": [
-   181,
-   "2026-10-28T17:53:44.895842+00:00"
-  ],
   "hn:50271271": [
    103,
    "2026-10-28T17:53:44.895842+00:00"
@@ -14176,10 +14214,6 @@
    1246,
    "2026-11-09T03:53:44.672674+00:00"
   ],
-  "hn:50415628": [
-   1434,
-   "2026-11-09T04:53:41.821929+00:00"
-  ],
   "hn:50415281": [
    165,
    "2026-11-09T03:53:44.672674+00:00"
@@ -14196,10 +14230,6 @@
    245,
    "2026-11-09T03:53:44.672674+00:00"
   ],
-  "hn:50419215": [
-   279,
-   "2026-11-09T04:53:41.821929+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztvtj24ve2i": [
    316,
    "2026-11-09T03:53:44.672674+00:00"
@@ -14207,6 +14237,18 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzty6bfso22s": [
    7,
    "2026-11-09T03:53:44.672674+00:00"
+  ],
+  "hn:50415628": [
+   1434,
+   "2026-11-09T04:53:41.821929+00:00"
+  ],
+  "hn:50419215": [
+   279,
+   "2026-11-09T04:53:41.821929+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzu42ujywk24": [
+   78,
+   "2026-11-09T05:53:43.207832+00:00"
   ]
  }
 }
