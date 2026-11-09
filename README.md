@@ -243,13 +243,24 @@ src/
   translate.py   Gemini summarization and the SKIP filter
   telegram.py    sendPhoto and sendMessage
   state.py       seen-item tracking
+  scorecard.py   writes scorecard.html (the serverless dashboard)
   models.py      the Item dataclass
 config.yaml      sources and tuning
 state.json       written by the bot, committed by the workflow
+scorecard.html   written by the bot, deployed to GitHub Pages
 .github/workflows/publish.yml
+.github/workflows/pages.yml
 ```
 
 Dependencies are `httpx`, `feedparser`, and `PyYAML`. Nothing else.
+
+## Scorecard
+
+Each run also writes `scorecard.html` — a self-contained, serverless dashboard that the `pages` workflow deploys to GitHub Pages (only that one file is served, so `state.json` and the rest of the repo never leave the repository). It shows, per active source: posts in the last 7 days and in total, last post, Gemini skip rate, average score, current tuning (`authority` / `min_engagement` / `min_points`), plus a recommendations section with explicit thresholds — silent sources, high-skip sources, pool-share drift, concentration on a single source.
+
+Use it as a diagnosis tool, not a remote config: read the recommendations, then make a small `config.yaml` edit. It is regenerated on every run and committed alongside `state.json`.
+
+To enable it: Settings → Pages → Build and deployment → Source: **GitHub Actions**. URL: `https://<owner>.github.io/<repo>/`.
 
 ## What it costs
 

@@ -1,0 +1,43 @@
+# سرو کردن scorecard.html روی GitHub Pages.
+#
+# روی هر push به main اجرا می‌شود (خودِ commit‌های state همین push هستند،
+# پس scorecard تازه همیشه deploy می‌شود). فقط scorecard.html آپلود می‌شود —
+# نه state.json و نه بقیه‌ی repo — چون site root همین فایل است و
+# بقیه‌ی repo باید private بماند.
+#
+# اولین بار: Settings → Pages → Build and deployment → Source: GitHub Actions.
+# بعد از اولین deploy موفق آدرس: https://<owner>.github.io/<repo>/
+name: pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  pages: write
+  id-token: write
+
+# فقط یک deploy همزمان.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # scorecard.html را هنوز ندارد؟ (قبل از اولین اجرای bot) — چیزی deploy نکن.
+      - name: check scorecard exists
+        if: hashFiles('scorecard.html') == ''
+        run: exit 1
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: scorecard.html
+
+      - uses: actions/deploy-pages@v4

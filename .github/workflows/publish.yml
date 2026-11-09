@@ -44,8 +44,9 @@ jobs:
 
       - name: commit state
         run: |        
-          # حفظ state تولیدشده در اجرای جاری
+          # حفظ state و scorecard تولیدشده در اجرای جاری
           cp state.json /tmp/generated-state.json
+          cp scorecard.html /tmp/generated-scorecard.html
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -57,10 +58,11 @@ jobs:
             # شروع از آخرین main و حذف وضعیت نیمه‌کاره قبلی
             git reset --hard origin/main
 
-            # بازگرداندن state تولیدشده توسط اجرای جاری
+            # بازگرداندن state و scorecard تولیدشده توسط اجرای جاری
             cp /tmp/generated-state.json state.json
+            cp /tmp/generated-scorecard.html scorecard.html
 
-            git add state.json
+            git add state.json scorecard.html
 
             # اگر تغییری باقی نمانده، کار تمام است
             if git diff --cached --quiet; then

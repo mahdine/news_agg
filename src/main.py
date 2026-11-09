@@ -12,7 +12,7 @@ from pathlib import Path
 import httpx
 import yaml
 
-from . import article, cluster, images, scoring, sources, telegram, translate
+from . import article, cluster, images, scoring, scorecard, sources, telegram, translate
 from .models import Item
 from .state import State, now_utc
 
@@ -72,6 +72,8 @@ def main() -> int:
     state = State(args.state)
     if state.is_first_run:
         log.info("اولین اجرا — فقط بهترین‌ها می‌روند، بقیه seen علامت می‌خورند.")
+    # آمار scorecard را از history قدیمی بازسازی می‌کنیم (یک‌باره).
+    state.backfill(config)
 
     with httpx.Client(timeout=30, follow_redirects=True) as client:
         items = collect(config.get("sources", []), client)
@@ -93,6 +95,12 @@ def main() -> int:
         log.info("dry-run — state ذخیره نشد.")
     else:
         state.save()
+        # scorecard کنار state نوشته می‌شود تا workflow همان را commit کند.
+        try:
+            scorecard.generate(state, config, ROOT / "scorecard.html")
+        except Exception as exc:
+            # scorecard ابزار دیباگ است؛ شکستنش نباید اجرای پست را خراب کند.
+            log.warning("scorecard ساخته نشد: %s", exc)
 
     return 0
 
@@ -362,6 +370,7 @@ def publish(
             log.info("رد شد توسط مدل: %s — %s", item.label, item.text[:60])
             # مدل خودِ ماجرا را نامناسب دیده، نه فقط این روایت را؛ پس نسخه‌های
             # دیگرش هم نباید اجرای بعد دوباره ترجمه شوند.
+            state.count_skip(item.label)
             _archive(state, item)
             continue
 
