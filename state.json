@@ -1,14 +1,5 @@
 {
  "seen": [
-  "hn:49434378",
-  "https://habr.com/ru/articles/1074526/",
-  "hn:49437283",
-  "hn:49441033",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mtwm56gmla2i",
-  "hn:49443331",
-  "hn:49444514",
-  "https://science.slashdot.org/story/26/08/25/2337244/spacex-plans-to-build-a-100-billion-spaceport-in-louisiana?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "daa89cf441d2b90b78822ed99c95ac26",
   "fc046568be9a618619323485065139a5",
   "3089197",
   "https://www.engadget.com/2244379/spacex-is-building-a-100-billion-starbase-launch-site-in-louisiana/",
@@ -2999,18 +2990,27 @@
   "hn:50427362",
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvhbvmb622b",
   "https://www.neowin.net/news/microsoft-clarifies-rumor-of-redesigned--half-baked-windows-11-registry-editor/",
-  "zvygF64D8r4TjYHZWj6rzK"
+  "zvygF64D8r4TjYHZWj6rzK",
+  "hn:50429475",
+  "hn:50430585",
+  "hn:50431058",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzvqqoqnwc2k",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzvrjcx6zc2c",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzvsimnma22k",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzvtuef2lu27",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzvuqd4ndk24",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzvzdsqvn22c"
  ],
  "posted": {
-  "viral": 656,
+  "viral": 657,
   "editorial": 896
  },
  "recent_labels": [
-  "Lobsters",
   "Hacker News",
   "antirez",
   "Neowin",
-  "Tom's Hardware"
+  "Tom's Hardware",
+  "Hacker News"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8271,20 +8271,18 @@
    "pool": "editorial",
    "score": 0.25857,
    "at": "2026-11-09T17:54:16.481183+00:00"
+  },
+  {
+   "title": "حمله سایبری به سیستم‌های سرمایشی سوپرمارکت‌های فرانسه توسط گروه وابسته به سپاه",
+   "url": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges",
+   "source": "theguardian.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.0993,
+   "at": "2026-11-09T23:25:32.012329+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "app",
-    "discord",
-    "ditching",
-    "electron",
-    "less",
-    "ram"
-   ],
-   "at": "2026-11-05T11:54:10.450027+00:00"
-  },
   {
    "sig": [
     "him",
@@ -12330,117 +12328,21 @@
     "rentals"
    ],
    "at": "2026-11-09T17:54:16.481183+00:00"
+  },
+  {
+   "sig": [
+    "behind",
+    "cyber-attack",
+    "freezers",
+    "french",
+    "iran",
+    "paris",
+    "supermarket"
+   ],
+   "at": "2026-11-09T23:25:32.012329+00:00"
   }
  ],
  "snapshots": {
-  "hn:50284255": [
-   160,
-   "2026-10-29T04:53:41.827598+00:00"
-  ],
-  "hn:50284089": [
-   128,
-   "2026-10-29T04:53:41.827598+00:00"
-  ],
-  "hn:50282538": [
-   150,
-   "2026-10-29T04:53:41.827598+00:00"
-  ],
-  "hn:50284329": [
-   117,
-   "2026-10-29T05:53:43.402195+00:00"
-  ],
-  "lobsters:uimyck": [
-   28,
-   "2026-10-29T06:53:40.868490+00:00"
-  ],
-  "hn:50282865": [
-   189,
-   "2026-10-29T07:53:42.336006+00:00"
-  ],
-  "hn:50282766": [
-   239,
-   "2026-10-29T07:53:42.336006+00:00"
-  ],
-  "hn:50281826": [
-   159,
-   "2026-10-29T09:53:41.097280+00:00"
-  ],
-  "hn:50285714": [
-   252,
-   "2026-10-29T09:53:41.097280+00:00"
-  ],
-  "hn:50285452": [
-   100,
-   "2026-10-29T09:53:41.097280+00:00"
-  ],
-  "hn:50285319": [
-   143,
-   "2026-10-29T11:53:42.189994+00:00"
-  ],
-  "hn:50287001": [
-   85,
-   "2026-10-29T11:53:42.189994+00:00"
-  ],
-  "hn:50287359": [
-   149,
-   "2026-10-29T12:53:39.440865+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzakwmsn22k": [
-   372,
-   "2026-10-29T12:53:39.440865+00:00"
-  ],
-  "hn:50288019": [
-   230,
-   "2026-10-29T13:53:48.488561+00:00"
-  ],
-  "hn:50287898": [
-   97,
-   "2026-10-29T13:53:48.488561+00:00"
-  ],
-  "hn:50287448": [
-   194,
-   "2026-10-29T13:53:48.488561+00:00"
-  ],
-  "lobsters:dqexzg": [
-   25,
-   "2026-10-29T13:53:48.488561+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myze7zdhbc2c": [
-   63,
-   "2026-10-29T13:53:48.488561+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myzfv47ct22e": [
-   73,
-   "2026-10-29T13:53:48.488561+00:00"
-  ],
-  "hn:50289418": [
-   280,
-   "2026-10-29T14:53:43.894761+00:00"
-  ],
-  "hn:50288867": [
-   365,
-   "2026-10-29T14:53:43.894761+00:00"
-  ],
-  "hn:50287599": [
-   203,
-   "2026-10-29T14:53:43.894761+00:00"
-  ],
-  "hn:50284342": [
-   83,
-   "2026-10-29T14:53:43.894761+00:00"
-  ],
-  "lobsters:m6fw0x": [
-   34,
-   "2026-10-29T14:53:43.894761+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzi47oeoi2i": [
-   134,
-   "2026-10-29T14:53:43.894761+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzhxsimik2c": [
-   1058,
-   "2026-10-29T14:53:43.894761+00:00"
-  ],
   "hn:50290668": [
    219,
    "2026-10-29T16:53:48.965984+00:00"
@@ -14732,6 +14634,114 @@
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvhbvmb622b": [
    17,
    "2026-11-09T17:53:45.931025+00:00"
+  ],
+  "hn:50431144": [
+   485,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50431058": [
+   690,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50430621": [
+   265,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50430585": [
+   202,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50429906": [
+   1815,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50429734": [
+   255,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50429636": [
+   118,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50429545": [
+   167,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50429475": [
+   1232,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50429430": [
+   176,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50429426": [
+   359,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50429024": [
+   391,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50428907": [
+   270,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50428801": [
+   724,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50428724": [
+   627,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50427934": [
+   148,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "lobsters:ynik5s": [
+   41,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "lobsters:vghqe8": [
+   106,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "lobsters:vtjjbc": [
+   27,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "lobsters:eeclwg": [
+   33,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzvtuef2lu27": [
+   109,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzvsimnma22k": [
+   194,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzvqqoqnwc2k": [
+   1011,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzvuqd4ndk24": [
+   86,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzvrjcx6zc2c": [
+   69,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvxcprg2c2b": [
+   16,
+   "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzvzdsqvn22c": [
+   25,
+   "2026-11-09T23:25:27.622778+00:00"
   ]
  },
  "skips": {
@@ -14740,9 +14750,12 @@
   "Wired": 4,
   "TechRadar": 3,
   "Lobsters": 1,
-  "Hacker News": 4,
+  "Hacker News": 6,
   "The Next Web": 1,
-  "404 Media": 1
+  "404 Media": 3,
+  "Emily M. Bender": 1,
+  "Simon Willison": 1,
+  "Xe Iaso": 1
  },
  "posts_by_label": {
   "Engadget": 40,
@@ -14760,7 +14773,7 @@
   "ZDNet": 3,
   "9to5Mac": 11,
   "EFF": 2,
-  "Hacker News": 17,
+  "Hacker News": 18,
   "TechSpot": 17,
   "The Hacker News": 24,
   "Latent Space": 3,
@@ -14803,7 +14816,7 @@
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-09T14:55:21.585137+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-09T17:53:58.454454+00:00",
+  "Hacker News": "2026-11-09T23:25:32.012454+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-09T13:53:44.618335+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
