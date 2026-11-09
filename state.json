@@ -1,14 +1,5 @@
 {
  "seen": [
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mtugk37or22u",
-  "hn:49428121",
-  "hn:49428080",
-  "hn:49428318",
-  "https://www.techspot.com/news/113579-windows-could-soon-you-control-how-pc-splits.html",
-  "hn:49428638",
-  "https://www.theregister.com/a/5292059",
-  "hn:49429095",
-  "hn:49431364",
   "https://habr.com/ru/articles/1074304/",
   "lobsters:jjspxh",
   "uSh4L8fDpBUWEpAshCbGBC",
@@ -2999,18 +2990,27 @@
   "6af1762f5613664a71d65ac0",
   "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "01M6PDR60R01B25PZF6REB72W3",
-  "https://9to5mac.com/?p=1077975"
+  "https://9to5mac.com/?p=1077975",
+  "yUz59hbNFkTvwipof7Srb7",
+  "https://www.techspot.com/specs/cpu/300569-amd-ryzen-7-9800x3d.html",
+  "lobsters:txkq8s",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzv64dfjc22c",
+  "https://www.theverge.com/?p=1029684",
+  "fmLtG5oRbeUSBSEnCCFqgA",
+  "TheNextWeb=02aa61dc36076ef11cec47f5024c471c",
+  "https://www.theverge.com/?p=1029802",
+  "Q7RCikvJUKbmuq7g5L4M7F"
  ],
  "posted": {
-  "viral": 649,
-  "editorial": 889
+  "viral": 651,
+  "editorial": 891
  },
  "recent_labels": [
-  "Hacker News",
-  "Hi-Tech Mail",
-  "The Register",
-  "InfoQ",
-  "9to5Mac"
+  "9to5Mac",
+  "Lobsters",
+  "404 Media",
+  "The Verge",
+  "The Verge"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8145,59 +8145,45 @@
    "pool": "editorial",
    "score": 0.21084,
    "at": "2026-11-09T14:55:21.585018+00:00"
+  },
+  {
+   "title": "ترفندهای عجیب برای درج پیام در کلیدهای عمومی گواهی‌های SSL/TLS",
+   "url": "https://maurycyz.com/projects/badcert/",
+   "source": "maurycyz.com",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.17803,
+   "at": "2026-11-09T15:54:56.892599+00:00"
+  },
+  {
+   "title": "سیاست‌های سخت‌گیرانه اینستاگرام در قبال محتوای آموزشی جنسی",
+   "url": "https://bsky.app/profile/404media.co/post/3mzv64dfjc22c",
+   "source": "404 Media",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.58449,
+   "at": "2026-11-09T15:55:04.458948+00:00"
+  },
+  {
+   "title": "گفتگوی مدیرعامل RIAA درباره چالش‌های حقوقی هوش مصنوعی و کپی‌رایت",
+   "url": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
+   "source": "The Verge",
+   "label": "The Verge",
+   "pool": "editorial",
+   "score": 0.22942,
+   "at": "2026-11-09T15:55:33.016826+00:00"
+  },
+  {
+   "title": "ادعای ترامپ درباره تهدید مدیر یک شرکت هوش مصنوعی به حبس",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+   "source": "The Verge",
+   "label": "The Verge",
+   "pool": "editorial",
+   "score": 0.30321,
+   "at": "2026-11-09T15:55:45.346919+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "ban",
-    "censorship",
-    "fears",
-    "porn",
-    "sex",
-    "sparks",
-    "unprecedented"
-   ],
-   "at": "2026-11-05T07:54:19.976154+00:00"
-  },
-  {
-   "sig": [
-    "6000mah",
-    "battery",
-    "bring",
-    "galaxy",
-    "massive",
-    "may",
-    "mid-range",
-    "phone",
-    "popular",
-    "samsung"
-   ],
-   "at": "2026-11-05T07:54:26.635079+00:00"
-  },
-  {
-   "sig": [
-    "2.1",
-    "3.2",
-    "migrator",
-    "pragmatic",
-    "tools"
-   ],
-   "at": "2026-11-05T08:57:38.993937+00:00"
-  },
-  {
-   "sig": [
-    "improve",
-    "intelligent",
-    "major",
-    "microsoft",
-    "multitasking",
-    "releases",
-    "terminal",
-    "update"
-   ],
-   "at": "2026-11-05T08:57:44.799424+00:00"
-  },
   {
    "sig": [
     "iphone",
@@ -12207,17 +12193,61 @@
     "watch"
    ],
    "at": "2026-11-09T14:55:21.585018+00:00"
+  },
+  {
+   "sig": [
+    "horrible",
+    "key",
+    "public",
+    "tricks"
+   ],
+   "at": "2026-11-09T15:54:56.892599+00:00"
+  },
+  {
+   "sig": [
+    "censored",
+    "deepfakes",
+    "emojis",
+    "find",
+    "generated",
+    "girlfriends",
+    "instagram",
+    "like",
+    "might",
+    "nonconsensual",
+    "saying",
+    "sex",
+    "somehow"
+   ],
+   "at": "2026-11-09T15:55:04.458948+00:00"
+  },
+  {
+   "sig": [
+    "great",
+    "guy",
+    "had",
+    "hold",
+    "riaa",
+    "talking",
+    "time"
+   ],
+   "at": "2026-11-09T15:55:33.016826+00:00"
+  },
+  {
+   "sig": [
+    "arrest",
+    "exec",
+    "interview",
+    "minutes",
+    "safety",
+    "threat",
+    "touched",
+    "trump"
+   ],
+   "at": "2026-11-09T15:55:45.346919+00:00"
   }
  ],
  "snapshots": {
-  "hn:50282544": [
-   115,
-   "2026-10-29T01:53:43.797906+00:00"
-  ],
-  "hn:50282454": [
-   336,
-   "2026-10-29T01:53:43.797906+00:00"
-  ],
   "hn:50280662": [
    109,
    "2026-10-29T01:53:43.797906+00:00"
@@ -14609,15 +14639,24 @@
   "hn:50424199": [
    80,
    "2026-11-09T14:53:46.220168+00:00"
+  ],
+  "lobsters:txkq8s": [
+   31,
+   "2026-11-09T15:53:45.587184+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzv64dfjc22c": [
+   204,
+   "2026-11-09T15:53:45.587184+00:00"
   ]
  },
  "skips": {
-  "Tom's Hardware": 2,
+  "Tom's Hardware": 3,
   "Article 19": 1,
   "Wired": 4,
-  "TechRadar": 1,
+  "TechRadar": 3,
   "Lobsters": 1,
-  "Hacker News": 2
+  "Hacker News": 2,
+  "The Next Web": 1
  },
  "posts_by_label": {
   "Engadget": 39,
@@ -14625,12 +14664,12 @@
   "Wired": 19,
   "TechRadar": 30,
   "Slashdot": 24,
-  "404 Media": 34,
+  "404 Media": 35,
   "Xe Iaso": 2,
-  "The Verge": 18,
+  "The Verge": 20,
   "Cloudflare": 1,
   "TechCrunch AI": 15,
-  "Lobsters": 4,
+  "Lobsters": 5,
   "Tom's Hardware": 29,
   "ZDNet": 3,
   "9to5Mac": 11,
@@ -14668,12 +14707,12 @@
   "Wired": "2026-11-09T11:53:45.232647+00:00",
   "TechRadar": "2026-11-09T05:54:05.253086+00:00",
   "Slashdot": "2026-11-09T08:54:12.648083+00:00",
-  "404 Media": "2026-11-09T06:53:48.892103+00:00",
+  "404 Media": "2026-11-09T15:55:04.459028+00:00",
   "Xe Iaso": "2026-11-09T02:54:20.896292+00:00",
-  "The Verge": "2026-11-09T11:53:51.165215+00:00",
+  "The Verge": "2026-11-09T15:55:45.347012+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-08T17:59:12.217529+00:00",
-  "Lobsters": "2026-11-09T02:53:49.622761+00:00",
+  "Lobsters": "2026-11-09T15:54:56.892709+00:00",
   "Tom's Hardware": "2026-11-09T11:53:57.582129+00:00",
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-09T14:55:21.585137+00:00",
