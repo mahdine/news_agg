@@ -1,15 +1,5 @@
 {
  "seen": [
-  "https://3dnews.ru/1147360/#6a8c6713742eec11798b4586",
-  "https://www.theregister.com/a/5291802",
-  "lobsters:rehaa3",
-  "https://therecord.media/android-botnet-china-hackers",
-  "https://www.theregister.com/a/5291930",
-  "hn:49422784",
-  "hn:49424606",
-  "https://hardware.slashdot.org/story/26/08/24/1853204/raspberry-pi-shares-its-official-tutorial-for-making-a-cyberdeck?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "hn:49421554",
-  "b9j7Hk2YW4HnELqm6qKKfU",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mtugk37or22u",
   "hn:49428121",
   "hn:49428080",
@@ -2999,18 +2989,28 @@
   "lobsters:tt42jc",
   "hn:50423569",
   "hn:50424704",
-  "https://www.engadget.com/2310531/coinbase-receives-approval-to-become-a-chartered-trust-bank/"
+  "https://www.engadget.com/2310531/coinbase-receives-approval-to-become-a-chartered-trust-bank/",
+  "hn:50424199",
+  "hn:50425303",
+  "2c47666802506d1a1c2578090e2c5553",
+  "TheNextWeb=c2f8062756f11a59249b4a603c889518",
+  "https://www.theregister.com/a/5308419",
+  "VkmXBLDvVRVYyDzvb7QgZf",
+  "6af1762f5613664a71d65ac0",
+  "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "01M6PDR60R01B25PZF6REB72W3",
+  "https://9to5mac.com/?p=1077975"
  ],
  "posted": {
-  "viral": 648,
-  "editorial": 885
+  "viral": 649,
+  "editorial": 889
  },
  "recent_labels": [
-  "The Hacker News",
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Engadget"
+  "Hi-Tech Mail",
+  "The Register",
+  "InfoQ",
+  "9to5Mac"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8100,76 +8100,54 @@
    "pool": "editorial",
    "score": 0.2179,
    "at": "2026-11-09T13:54:50.008461+00:00"
+  },
+  {
+   "title": "آموزش ساخت موتور استنتاج مدل‌های زبانی با C++ و CUDA",
+   "url": "https://github.com/samir-sarwar/samir-vllm",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.02992,
+   "at": "2026-11-09T14:53:49.094130+00:00"
+  },
+  {
+   "title": "معرفی نسل جدید پردازنده‌های هوش مصنوعی Google با نام TPU 8tx و 8i Max",
+   "url": "https://hi-tech.mail.ru/news/160081-google-predstavila-novye-ii-chipy-tpu-8tx-i-tpu-8i-max/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.43871,
+   "at": "2026-11-09T14:55:01.881803+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/security/2026/11/09/who-gives-a-crap-hackers-apparently-after-toilet-paper-makers-customer-data-exposed/5308419",
+   "source": "The Register",
+   "label": "The Register",
+   "pool": "editorial",
+   "score": 0.41985,
+   "at": "2026-11-09T14:55:08.024542+00:00"
+  },
+  {
+   "title": "توسعه گواهی‌های Merkle Tree توسط Cloudflare برای امنیت پساکوانتومی وب",
+   "url": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "label": "InfoQ",
+   "pool": "editorial",
+   "score": 0.43332,
+   "at": "2026-11-09T14:55:15.429711+00:00"
+  },
+  {
+   "title": "بررسی قابلیت‌های جدید iOS 27.3 و حواشی حریم خصوصی Apple Watch",
+   "url": "https://9to5mac.com/2026/11/09/9to5mac-overtime-089-live-rewind-siri-recap-and-apple-watch-privacy/",
+   "source": "9to5Mac",
+   "label": "9to5Mac",
+   "pool": "editorial",
+   "score": 0.21084,
+   "at": "2026-11-09T14:55:21.585018+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "aids",
-    "approved",
-    "buds",
-    "galaxy",
-    "hearing",
-    "over-the-counter",
-    "pro",
-    "samsung"
-   ],
-   "at": "2026-11-05T04:54:54.166992+00:00"
-  },
-  {
-   "sig": [
-    "analytics",
-    "android",
-    "apt29-linked",
-    "deliver",
-    "exploited",
-    "exploits",
-    "flaws",
-    "hackers",
-    "hijack",
-    "infect",
-    "ios",
-    "phones",
-    "script",
-    "web"
-   ],
-   "at": "2026-11-05T05:53:50.874335+00:00"
-  },
-  {
-   "sig": [
-    "10m",
-    "accounting",
-    "agents",
-    "barcelona",
-    "bring",
-    "firms",
-    "kabilio",
-    "raises"
-   ],
-   "at": "2026-11-05T05:54:00.130315+00:00"
-  },
-  {
-   "sig": [
-    "30-hour",
-    "escalation",
-    "exploits",
-    "generates",
-    "linux",
-    "openai",
-    "pipeline",
-    "root",
-    "run"
-   ],
-   "at": "2026-11-05T05:54:06.000187+00:00"
-  },
-  {
-   "sig": [
-    "ainews",
-    "season",
-    "swapping"
-   ],
-   "at": "2026-11-05T06:54:04.851054+00:00"
-  },
   {
    "sig": [
     "ban",
@@ -12150,17 +12128,88 @@
     "trust"
    ],
    "at": "2026-11-09T13:54:50.008461+00:00"
+  },
+  {
+   "sig": [
+    "handtyped",
+    "here",
+    "hours",
+    "inference",
+    "llm",
+    "notes",
+    "pages",
+    "start",
+    "youtube"
+   ],
+   "at": "2026-11-09T14:53:49.094130+00:00"
+  },
+  {
+   "sig": [
+    "8tx",
+    "adds",
+    "google",
+    "long-context",
+    "max",
+    "reportedly",
+    "secure",
+    "tpu",
+    "variants"
+   ],
+   "at": "2026-11-09T14:55:01.881803+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "apparently",
+    "australia",
+    "breach",
+    "company",
+    "crap",
+    "customer",
+    "data",
+    "ethical",
+    "exposed",
+    "exposes",
+    "gives",
+    "hackers",
+    "information",
+    "maker",
+    "paper",
+    "toilet"
+   ],
+   "at": "2026-11-09T14:55:08.024542+00:00"
+  },
+  {
+   "sig": [
+    "authority",
+    "certificate",
+    "cloudflare",
+    "develops",
+    "future",
+    "post-quantum",
+    "privacy",
+    "public",
+    "security",
+    "web"
+   ],
+   "at": "2026-11-09T14:55:15.429711+00:00"
+  },
+  {
+   "sig": [
+    "9to5mac",
+    "apple",
+    "live",
+    "overtime",
+    "privacy",
+    "recap",
+    "rewind",
+    "siri",
+    "watch"
+   ],
+   "at": "2026-11-09T14:55:21.585018+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:m3gsln": [
-   29,
-   "2026-10-29T01:53:43.797906+00:00"
-  ],
-  "hn:50282838": [
-   85,
-   "2026-10-29T01:53:43.797906+00:00"
-  ],
   "hn:50282544": [
    115,
    "2026-10-29T01:53:43.797906+00:00"
@@ -14552,15 +14601,23 @@
   "lobsters:tt42jc": [
    39,
    "2026-11-09T13:53:42.430999+00:00"
+  ],
+  "hn:50425303": [
+   113,
+   "2026-11-09T14:53:46.220168+00:00"
+  ],
+  "hn:50424199": [
+   80,
+   "2026-11-09T14:53:46.220168+00:00"
   ]
  },
  "skips": {
   "Tom's Hardware": 2,
   "Article 19": 1,
-  "Wired": 3,
+  "Wired": 4,
   "TechRadar": 1,
   "Lobsters": 1,
-  "Hacker News": 1
+  "Hacker News": 2
  },
  "posts_by_label": {
   "Engadget": 39,
@@ -14576,14 +14633,14 @@
   "Lobsters": 4,
   "Tom's Hardware": 29,
   "ZDNet": 3,
-  "9to5Mac": 10,
+  "9to5Mac": 11,
   "EFF": 2,
-  "Hacker News": 13,
+  "Hacker News": 14,
   "TechSpot": 17,
   "The Hacker News": 24,
   "Latent Space": 2,
-  "InfoQ": 12,
-  "The Register": 20,
+  "InfoQ": 13,
+  "The Register": 21,
   "Phoronix": 21,
   "The Next Web": 19,
   "Android Police": 19,
@@ -14592,7 +14649,7 @@
   "Simon Willison RSS": 6,
   "vc.ru": 11,
   "SecurityWeek": 9,
-  "Hi-Tech Mail": 28,
+  "Hi-Tech Mail": 29,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
@@ -14619,14 +14676,14 @@
   "Lobsters": "2026-11-09T02:53:49.622761+00:00",
   "Tom's Hardware": "2026-11-09T11:53:57.582129+00:00",
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
-  "9to5Mac": "2026-11-08T15:54:03.598875+00:00",
+  "9to5Mac": "2026-11-09T14:55:21.585137+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-09T13:54:03.432239+00:00",
+  "Hacker News": "2026-11-09T14:53:49.094239+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-09T13:53:44.618335+00:00",
   "Latent Space": "2026-11-05T06:54:04.851054+00:00",
-  "InfoQ": "2026-11-09T07:55:09.141782+00:00",
-  "The Register": "2026-11-09T09:54:02.309503+00:00",
+  "InfoQ": "2026-11-09T14:55:15.429811+00:00",
+  "The Register": "2026-11-09T14:55:08.024667+00:00",
   "Phoronix": "2026-11-09T10:55:05.292394+00:00",
   "The Next Web": "2026-11-08T14:54:59.780482+00:00",
   "Android Police": "2026-11-09T11:54:03.532431+00:00",
@@ -14635,7 +14692,7 @@
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-08T17:54:19.515702+00:00",
   "SecurityWeek": "2026-11-09T08:54:18.014071+00:00",
-  "Hi-Tech Mail": "2026-11-09T09:54:13.188887+00:00",
+  "Hi-Tech Mail": "2026-11-09T14:55:01.881920+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
