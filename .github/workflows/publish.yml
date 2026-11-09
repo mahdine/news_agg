@@ -16,6 +16,8 @@ on:
 # برای commit کردن state.json لازم است.
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 # اجراهای همزمان روی یک state.json به هم می‌ریزند.
 concurrency:
@@ -81,4 +83,20 @@ jobs:
           done
 
           exit 1
+
+      # deploy همان scorecard تازه‌ی تولیدشده در این اجرا به GitHub Pages.
+      # مستقیم داخل همین workflow است (نه workflow جدا): هر اجرا scorecard
+      # دارد، پس deploy هم دقیقاً همان لحظه و بدون وابستگی به trigger push.
+      - name: stage site
+        run: |
+          mkdir site
+          cp scorecard.html site/index.html
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - uses: actions/deploy-pages@v4
 

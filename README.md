@@ -249,14 +249,13 @@ config.yaml      sources and tuning
 state.json       written by the bot, committed by the workflow
 scorecard.html   written by the bot, deployed to GitHub Pages
 .github/workflows/publish.yml
-.github/workflows/pages.yml
 ```
 
 Dependencies are `httpx`, `feedparser`, and `PyYAML`. Nothing else.
 
 ## Scorecard
 
-Each run also writes `scorecard.html` — a self-contained, serverless dashboard that the `pages` workflow deploys to GitHub Pages as `index.html` (only that one page is served, so `state.json` and the rest of the repo never leave the repository). It shows, per active source: posts in the last 7 days and in total, last post, Gemini skip rate, average score, current tuning (`authority` / `min_engagement` / `min_points`), plus a recommendations section with explicit thresholds — silent sources, high-skip sources, pool-share drift, concentration on a single source.
+Each run also writes `scorecard.html` — a self-contained, serverless dashboard that the `publish` workflow deploys to GitHub Pages as `index.html` in the same run (only that one page is served, so `state.json` and the rest of the repo never leave the repository). It shows, per active source: posts in the last 7 days and in total, last post, Gemini skip rate, average score, current tuning (`authority` / `min_engagement` / `min_points`), plus a recommendations section with explicit thresholds — silent sources, high-skip sources, pool-share drift, concentration on a single source. Timestamps are shown in Tehran time (UTC+3:30).
 
 Use it as a diagnosis tool, not a remote config: read the recommendations, then make a small `config.yaml` edit. It is regenerated on every run and committed alongside `state.json`.
 

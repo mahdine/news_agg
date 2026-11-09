@@ -17,6 +17,9 @@ from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+# وقت نمایشی صفحه (محاسبات داخلی روی UTC می‌مانند).
+TEHRAN = timezone(timedelta(hours=3, minutes=30), "Iran")
+
 
 @dataclass
 class SourceRow:
@@ -267,7 +270,7 @@ def render(rows: list[SourceRow], viral: int, editorial: int, target_share: floa
 <body>
 <div class="wrap">
   <h1>📊 Scorecard</h1>
-  <div class="sub">سلامتی منابع و پیشنهادهای تنظیم — به‌روزرسانی {now.strftime("%Y-%m-%d %H:%M UTC")}</div>
+  <div class="sub">سلامتی منابع و پیشنهادهای تنظیم — به‌روزرسانی {now.astimezone(TEHRAN).strftime("%Y-%m-%d %H:%M")} (تهران)</div>
 
   <div class="cards">
     <div class="card"><div class="n">{len(rows)}</div><div class="l">منبع فعال</div></div>
