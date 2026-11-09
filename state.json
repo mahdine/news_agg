@@ -1,12 +1,5 @@
 {
  "seen": [
-  "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
-  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mtmmmzbedc2t",
-  "hn:49395605",
-  "hn:49395700",
-  "https://3dnews.ru/1147272/#6a891866742eece4908b4569",
-  "hn:49394496",
-  "hn:49394827",
   "hn:49395040",
   "hn:49395628",
   "hn:49394373",
@@ -2999,18 +2992,25 @@
   "hn:50417407",
   "hn:50418176",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztvtj24ve2i",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzty6bfso22s"
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzty6bfso22s",
+  "https://www.theregister.com/a/5308198",
+  "hn:50419215",
+  "hn:50415628",
+  "https://www.neowin.net/news/japanese-retailer-iris-ohyama-warns-of-data-breach-affecting-77-million-users/",
+  "https://www.cnews.ru/news/line/2026-11-09_v_oez_tehnopolis_moskva",
+  "https://www.cnews.ru/news/line/2026-11-09_moskovskoe_po_dlya_upravleniya",
+  "https://www.cnews.ru/news/line/2026-11-09_primerilne_vstavaya_s_divana"
  ],
  "posted": {
-  "viral": 638,
-  "editorial": 852
+  "viral": 639,
+  "editorial": 856
  },
  "recent_labels": [
-  "Xe Iaso",
+  "The Register",
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News"
+  "Neowin",
+  "CNews",
+  "CNews"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7759,55 +7759,44 @@
    "source": "ketchup3d.github.io",
    "score": 0.01211,
    "at": "2026-11-09T03:54:21.661003+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی وب‌سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/offbeat/2026/11/06/rip-to-the-worlds-ugliest-car/5308198",
+   "source": "The Register",
+   "score": 0.13419,
+   "at": "2026-11-09T04:53:43.796821+00:00"
+  },
+  {
+   "title": "محدودیت دسترسی کارکنان گلدمن ساکس به ابزارهای هوش مصنوعی کدنویس",
+   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+   "source": "thestateofai.com",
+   "score": 0.00134,
+   "at": "2026-11-09T04:53:49.635387+00:00"
+  },
+  {
+   "title": "نشت اطلاعات شخصی ۷.۷ میلیون کاربر فروشگاه Iris Ohyama",
+   "url": "https://www.neowin.net/news/japanese-retailer-iris-ohyama-warns-of-data-breach-affecting-77-million-users/?utm_source=rss",
+   "source": "Neowin",
+   "score": 0.04532,
+   "at": "2026-11-09T04:53:55.125356+00:00"
+  },
+  {
+   "title": "تولید تجهیزات توزیع برق برای دیتاسنترها در روسیه",
+   "url": "https://www.cnews.ru/news/line/2026-11-09_v_oez_tehnopolis_moskva",
+   "source": "CNews",
+   "score": 0.10855,
+   "at": "2026-11-09T04:54:05.739154+00:00"
+  },
+  {
+   "title": "عرضه‌ی سرویس «Примерочная» با قابلیت استایلیست هوش مصنوعی در بازار روسیه",
+   "url": "https://www.cnews.ru/news/line/2026-11-09_primerilne_vstavaya_s_divana",
+   "source": "CNews",
+   "score": 0.13887,
+   "at": "2026-11-09T04:54:23.710222+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "1.7",
-    "capita",
-    "civil",
-    "handling",
-    "member",
-    "million",
-    "pension",
-    "probe",
-    "scheme",
-    "service",
-    "sticks",
-    "watchdog"
-   ],
-   "at": "2026-11-04T13:06:56.990134+00:00"
-  },
-  {
-   "sig": [
-    "2fa",
-    "activity",
-    "change",
-    "immediately",
-    "manager",
-    "msecure",
-    "passkeys",
-    "password",
-    "passwords",
-    "reset",
-    "suspicious",
-    "tells",
-    "top",
-    "users",
-    "warns",
-    "won"
-   ],
-   "at": "2026-11-04T14:54:30.050601+00:00"
-  },
-  {
-   "sig": [
-    "dns",
-    "hijacking",
-    "isp"
-   ],
-   "at": "2026-11-04T14:55:44.333178+00:00"
-  },
   {
    "sig": [
     "amid",
@@ -11776,6 +11765,46 @@
     "webgpu"
    ],
    "at": "2026-11-09T03:54:21.661003+00:00"
+  },
+  {
+   "sig": [
+    "any",
+    "brand",
+    "car",
+    "rip",
+    "ugliest",
+    "unlocking",
+    "world"
+   ],
+   "at": "2026-11-09T04:53:43.796821+00:00"
+  },
+  {
+   "sig": [
+    "bankers",
+    "claude",
+    "code",
+    "goldman",
+    "pulling",
+    "sachs",
+    "traders"
+   ],
+   "at": "2026-11-09T04:53:49.635387+00:00"
+  },
+  {
+   "sig": [
+    "7.7",
+    "affecting",
+    "breach",
+    "data",
+    "iris",
+    "japanese",
+    "million",
+    "ohyama",
+    "retailer",
+    "users",
+    "warns"
+   ],
+   "at": "2026-11-09T04:53:55.125356+00:00"
   }
  ],
  "snapshots": {
@@ -14148,8 +14177,8 @@
    "2026-11-09T03:53:44.672674+00:00"
   ],
   "hn:50415628": [
-   1411,
-   "2026-11-09T03:53:44.672674+00:00"
+   1434,
+   "2026-11-09T04:53:41.821929+00:00"
   ],
   "hn:50415281": [
    165,
@@ -14168,8 +14197,8 @@
    "2026-11-09T03:53:44.672674+00:00"
   ],
   "hn:50419215": [
-   227,
-   "2026-11-09T03:53:44.672674+00:00"
+   279,
+   "2026-11-09T04:53:41.821929+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztvtj24ve2i": [
    316,
