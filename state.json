@@ -1,12 +1,5 @@
 {
  "seen": [
-  "DaxsjGcGFGwLjLrnguZzoB",
-  "https://3dnews.ru/1147427/#6a8da1da742eec09ef8b4581",
-  "hn:49438052",
-  "hn:49439017",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtwk6nfowk23",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtw7o3scaw2z",
-  "dY7rcPxTn76DgDt6MZwyS",
   "hn:49434378",
   "https://habr.com/ru/articles/1074526/",
   "hn:49437283",
@@ -2999,18 +2992,25 @@
   "TheNextWeb=bff530909ed256498d2d10f9dedb561d",
   "xXuSf2DcxLLA8NktsjrDmf",
   "https://www.securityweek.com/?p=50634",
-  "urn:latent-space:post:pod_ep_01a1c0f3-0e12-7b37-bb7f-c0b59fbc3b39"
+  "urn:latent-space:post:pod_ep_01a1c0f3-0e12-7b37-bb7f-c0b59fbc3b39",
+  "lobsters:jxigk6",
+  "hn:50426175",
+  "hn:50427085",
+  "hn:50427362",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvhbvmb622b",
+  "https://www.neowin.net/news/microsoft-clarifies-rumor-of-redesigned--half-baked-windows-11-registry-editor/",
+  "zvygF64D8r4TjYHZWj6rzK"
  ],
  "posted": {
-  "viral": 653,
-  "editorial": 894
+  "viral": 656,
+  "editorial": 896
  },
  "recent_labels": [
+  "Lobsters",
   "Hacker News",
-  "Hacker News",
-  "Engadget",
-  "TechRadar",
-  "Latent Space"
+  "antirez",
+  "Neowin",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8226,87 +8226,54 @@
    "pool": "editorial",
    "score": 0.25181,
    "at": "2026-11-09T16:54:28.410418+00:00"
+  },
+  {
+   "title": "چالش‌های امنیتی در همگرایی شبکه‌های صنعتی و فناوری اطلاعات",
+   "url": "https://tisiphone.net/2026/11/08/lets-talk-about-why-all-this-ot-stuff-is-connected/",
+   "source": "tisiphone.net",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.08066,
+   "at": "2026-11-09T17:53:51.443639+00:00"
+  },
+  {
+   "title": "تفاوت فاحش قیمت اجاره پردازنده‌های گرافیکی H100 در سرویس‌های ابری",
+   "url": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.10289,
+   "at": "2026-11-09T17:53:58.454341+00:00"
+  },
+  {
+   "title": "حمایت بنیاد حقوق بشر از پروژه‌های هوش مصنوعی برای آزادی و حریم خصوصی",
+   "url": "https://hrf.org/latest/hrfs-ai-for-individual-rights-fund-supports-six-innovative-projects/",
+   "source": "hrf.org",
+   "label": "antirez",
+   "pool": "viral",
+   "score": 0.57574,
+   "at": "2026-11-09T17:54:05.178267+00:00"
+  },
+  {
+   "title": "تکذیب شایعات مربوط به بازطراحی رابط کاربری Registry Editor در ویندوز ۱۱",
+   "url": "https://www.neowin.net/news/microsoft-clarifies-rumor-of-redesigned--half-baked-windows-11-registry-editor/?utm_source=rss",
+   "source": "Neowin",
+   "label": "Neowin",
+   "pool": "editorial",
+   "score": 0.18948,
+   "at": "2026-11-09T17:54:10.899184+00:00"
+  },
+  {
+   "title": "محدودیت جدید انویدیا برای اجاره پردازنده‌های گرافیکی هوش مصنوعی به شرکت‌های چینی",
+   "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million",
+   "source": "Tom's Hardware",
+   "label": "Tom's Hardware",
+   "pool": "editorial",
+   "score": 0.25857,
+   "at": "2026-11-09T17:54:16.481183+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "amd-backed",
-    "app",
-    "desktop",
-    "lemonade",
-    "local",
-    "redesigned",
-    "server",
-    "ships",
-    "web"
-   ],
-   "at": "2026-11-05T10:53:44.446416+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "chains",
-    "devices",
-    "exploit",
-    "hackers",
-    "hit",
-    "holes",
-    "ios",
-    "russia-linked",
-    "via",
-    "watering"
-   ],
-   "at": "2026-11-05T10:53:50.113468+00:00"
-  },
-  {
-   "sig": [
-    "borders",
-    "digital",
-    "exposed",
-    "launch",
-    "online",
-    "protect",
-    "surveil"
-   ],
-   "at": "2026-11-05T10:54:49.232575+00:00"
-  },
-  {
-   "sig": [
-    "5.5",
-    "baidu",
-    "base",
-    "ernie",
-    "flash",
-    "released"
-   ],
-   "at": "2026-11-05T11:53:57.333565+00:00"
-  },
-  {
-   "sig": [
-    "another",
-    "boom",
-    "business",
-    "cartridge",
-    "chip",
-    "claims",
-    "exits",
-    "key",
-    "leaving",
-    "main",
-    "major",
-    "maker",
-    "memory",
-    "nintendo",
-    "phasing",
-    "production",
-    "rom",
-    "supplier",
-    "switch",
-    "victim"
-   ],
-   "at": "2026-11-05T11:54:03.435832+00:00"
-  },
   {
    "sig": [
     "app",
@@ -12288,29 +12255,84 @@
     "team"
    ],
    "at": "2026-11-09T16:54:28.410418+00:00"
+  },
+  {
+   "sig": [
+    "connected",
+    "let",
+    "stuff",
+    "talk"
+   ],
+   "at": "2026-11-09T17:53:51.443639+00:00"
+  },
+  {
+   "sig": [
+    "12.29",
+    "2.69",
+    "costs",
+    "depending",
+    "h100",
+    "hour",
+    "rent",
+    "same",
+    "where"
+   ],
+   "at": "2026-11-09T17:53:58.454341+00:00"
+  },
+  {
+   "sig": [
+    "affordable",
+    "allow",
+    "available",
+    "dwarfstar",
+    "extremely",
+    "generously",
+    "grant",
+    "grateful",
+    "hrf",
+    "hrf.org",
+    "hrfs",
+    "inference",
+    "latest",
+    "models",
+    "open",
+    "provide",
+    "provided",
+    "see",
+    "support",
+    "systems",
+    "thank"
+   ],
+   "at": "2026-11-09T17:54:05.178267+00:00"
+  },
+  {
+   "sig": [
+    "clarifies",
+    "editor",
+    "half-baked",
+    "microsoft",
+    "redesigned",
+    "registry",
+    "rumor",
+    "windows"
+   ],
+   "at": "2026-11-09T17:54:10.899184+00:00"
+  },
+  {
+   "sig": [
+    "china",
+    "cloud",
+    "cracks",
+    "down",
+    "gpu",
+    "nvidia",
+    "overseas",
+    "rentals"
+   ],
+   "at": "2026-11-09T17:54:16.481183+00:00"
   }
  ],
  "snapshots": {
-  "hn:50275128": [
-   152,
-   "2026-10-29T02:53:41.052480+00:00"
-  ],
-  "hn:50277755": [
-   59,
-   "2026-10-29T02:53:41.052480+00:00"
-  ],
-  "lobsters:mgy3tr": [
-   25,
-   "2026-10-29T02:53:41.052480+00:00"
-  ],
-  "hn:50280864": [
-   613,
-   "2026-10-29T03:53:43.387110+00:00"
-  ],
-  "hn:50277166": [
-   213,
-   "2026-10-29T04:53:41.827598+00:00"
-  ],
   "hn:50284255": [
    160,
    "2026-10-29T04:53:41.827598+00:00"
@@ -14690,6 +14712,26 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzv6abhfur26": [
    65,
    "2026-11-09T16:53:47.449230+00:00"
+  ],
+  "hn:50427362": [
+   348,
+   "2026-11-09T17:53:45.931025+00:00"
+  ],
+  "hn:50427085": [
+   212,
+   "2026-11-09T17:53:45.931025+00:00"
+  ],
+  "hn:50426175": [
+   151,
+   "2026-11-09T17:53:45.931025+00:00"
+  ],
+  "lobsters:jxigk6": [
+   25,
+   "2026-11-09T17:53:45.931025+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvhbvmb622b": [
+   17,
+   "2026-11-09T17:53:45.931025+00:00"
   ]
  },
  "skips": {
@@ -14698,13 +14740,13 @@
   "Wired": 4,
   "TechRadar": 3,
   "Lobsters": 1,
-  "Hacker News": 2,
+  "Hacker News": 4,
   "The Next Web": 1,
   "404 Media": 1
  },
  "posts_by_label": {
   "Engadget": 40,
-  "Neowin": 17,
+  "Neowin": 18,
   "Wired": 19,
   "TechRadar": 31,
   "Slashdot": 24,
@@ -14713,12 +14755,12 @@
   "The Verge": 20,
   "Cloudflare": 1,
   "TechCrunch AI": 15,
-  "Lobsters": 5,
-  "Tom's Hardware": 29,
+  "Lobsters": 6,
+  "Tom's Hardware": 30,
   "ZDNet": 3,
   "9to5Mac": 11,
   "EFF": 2,
-  "Hacker News": 16,
+  "Hacker News": 17,
   "TechSpot": 17,
   "The Hacker News": 24,
   "Latent Space": 3,
@@ -14738,7 +14780,7 @@
   "Dan Luu": 1,
   "CNews": 24,
   "Emily M. Bender": 3,
-  "antirez": 3,
+  "antirez": 4,
   "OpenAI": 1,
   "Hugging Face": 1,
   "Access Now": 1,
@@ -14747,7 +14789,7 @@
  },
  "last_post": {
   "Engadget": "2026-11-09T16:54:16.873228+00:00",
-  "Neowin": "2026-11-09T11:54:11.111460+00:00",
+  "Neowin": "2026-11-09T17:54:10.899288+00:00",
   "Wired": "2026-11-09T11:53:45.232647+00:00",
   "TechRadar": "2026-11-09T16:54:22.489804+00:00",
   "Slashdot": "2026-11-09T08:54:12.648083+00:00",
@@ -14756,12 +14798,12 @@
   "The Verge": "2026-11-09T15:55:45.347012+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-08T17:59:12.217529+00:00",
-  "Lobsters": "2026-11-09T15:54:56.892709+00:00",
-  "Tom's Hardware": "2026-11-09T11:53:57.582129+00:00",
+  "Lobsters": "2026-11-09T17:53:51.443769+00:00",
+  "Tom's Hardware": "2026-11-09T17:54:16.481286+00:00",
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-09T14:55:21.585137+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-09T16:54:11.672759+00:00",
+  "Hacker News": "2026-11-09T17:53:58.454454+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-09T13:53:44.618335+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
@@ -14781,7 +14823,7 @@
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
   "CNews": "2026-11-09T10:54:59.687789+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
-  "antirez": "2026-11-09T09:53:56.680990+00:00",
+  "antirez": "2026-11-09T17:54:05.178371+00:00",
   "OpenAI": "2026-11-05T02:53:58.432643+00:00",
   "Hugging Face": "2026-11-05T02:54:24.075211+00:00",
   "Access Now": "2026-11-05T10:54:49.232575+00:00",
