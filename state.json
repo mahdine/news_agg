@@ -1,11 +1,5 @@
 {
  "seen": [
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtk5gdvtxc2n",
-  "b5c88251007a96673bb97689c766ce5f",
-  "https://9to5mac.com/?p=1065394",
-  "hn:49383026",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtkucwnbes2a",
-  "hn:49384180",
   "hn:49384896",
   "https://3dnews.ru/1147216/#6a87fa3f742eec2b4f8b4579",
   "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
@@ -2999,18 +2993,24 @@
   "https://www.neowin.net/deals/samsung-p9-express-microsdxc-sd-cards-for-nintendo-switch-2-are-at-three-month-low-prices/",
   "knKZd9rjJ42RMMY5Q5H5o7",
   "https://www.androidpolice.com/motorola-quietly-building-apps-and-features-make-pixel-and-samsung-phones-feel-behind/",
-  "https://www.engadget.com/2308359/reason-why-usb-ports-teal/"
+  "https://www.engadget.com/2308359/reason-why-usb-ports-teal/",
+  "hn:50416053",
+  "hn:50416158",
+  "hn:50416456",
+  "hn:50416471",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztavtk6rs2i",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztjd5rnbu2f"
  ],
  "posted": {
-  "viral": 624,
+  "viral": 629,
   "editorial": 852
  },
  "recent_labels": [
-  "TechCrunch AI",
-  "Tom's Hardware",
-  "Tom's Hardware",
-  "Android Police",
-  "Engadget"
+  "Hacker News",
+  "Hacker News",
+  "Hacker News",
+  "404 Media",
+  "404 Media"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7661,69 +7661,44 @@
    "source": "Engadget",
    "score": 0.08182,
    "at": "2026-11-08T18:01:41.567845+00:00"
+  },
+  {
+   "title": "معرفی محیط دسکتاپ جدید Dux برای سیستم‌عامل‌های مبتنی بر Wayland",
+   "url": "https://duxlabs.dev/",
+   "source": "duxlabs.dev",
+   "score": 0.1001,
+   "at": "2026-11-09T01:53:49.141290+00:00"
+  },
+  {
+   "title": "سرویس ایمیل مایکروسافت بدون اطلاع قبلی ایمیل‌های فاقد رکورد DMARC را رد می‌کند",
+   "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+   "source": "mailroute.net",
+   "score": 0.12868,
+   "at": "2026-11-09T01:53:55.063367+00:00"
+  },
+  {
+   "title": "قدرت روزافزون مرورگرهای وب در توسعه نرم‌افزارهای مدرن",
+   "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+   "source": "ftrain.com",
+   "score": 0.09355,
+   "at": "2026-11-09T01:54:01.347549+00:00"
+  },
+  {
+   "title": "فشار مدیرعامل Proton برای استفاده اجباری از هوش مصنوعی و ایجاد فضای ترس",
+   "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+   "source": "404media.co",
+   "score": 0.14395,
+   "at": "2026-11-09T01:54:07.891674+00:00"
+  },
+  {
+   "title": "لغو مصاحبه‌های اجباری مدیرعامل Proton درباره استفاده از هوش مصنوعی",
+   "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+   "source": "404media.co",
+   "score": 0.31363,
+   "at": "2026-11-09T01:54:13.585628+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "20m",
-    "does",
-    "fines",
-    "nothing",
-    "opt",
-    "option",
-    "smart",
-    "spying",
-    "tvs",
-    "vizio"
-   ],
-   "at": "2026-11-04T06:54:01.599812+00:00"
-  },
-  {
-   "sig": [
-    "observations",
-    "running",
-    "stealmybitcoin.com"
-   ],
-   "at": "2026-11-04T06:55:05.232963+00:00"
-  },
-  {
-   "sig": [
-    "arrows",
-    "categories",
-    "queries"
-   ],
-   "at": "2026-11-04T10:53:51.641669+00:00"
-  },
-  {
-   "sig": [
-    "encrypted",
-    "firmware",
-    "inference",
-    "linux",
-    "nvidia",
-    "rtx",
-    "slows",
-    "spark",
-    "speed"
-   ],
-   "at": "2026-11-04T10:53:59.546750+00:00"
-  },
-  {
-   "sig": [
-    "experimental",
-    "intel",
-    "play",
-    "project",
-    "proton",
-    "steam",
-    "valve",
-    "working",
-    "xess",
-    "xmx"
-   ],
-   "at": "2026-11-04T10:54:17.677633+00:00"
-  },
   {
    "sig": [
     "chrome",
@@ -11645,93 +11620,94 @@
     "usb"
    ],
    "at": "2026-11-08T18:01:41.567845+00:00"
+  },
+  {
+   "sig": [
+    "desktop",
+    "dux",
+    "file",
+    "free",
+    "manager",
+    "open-source",
+    "shell",
+    "theming",
+    "wayland"
+   ],
+   "at": "2026-11-09T01:53:49.141290+00:00"
+  },
+  {
+   "sig": [
+    "dmarc",
+    "domains",
+    "email",
+    "outlook.com",
+    "quietly",
+    "rejecting",
+    "without"
+   ],
+   "at": "2026-11-09T01:53:55.063367+00:00"
+  },
+  {
+   "sig": [
+    "enough",
+    "ford",
+    "paul",
+    "web"
+   ],
+   "at": "2026-11-09T01:54:01.347549+00:00"
+  },
+  {
+   "sig": [
+    "andy",
+    "ceo",
+    "culture",
+    "employees",
+    "fear",
+    "internal",
+    "manifesto",
+    "manifestos-f",
+    "media",
+    "messages",
+    "missed",
+    "obtained",
+    "operating",
+    "proton",
+    "starts",
+    "told",
+    "under",
+    "where",
+    "www.404media.co",
+    "yen"
+   ],
+   "at": "2026-11-09T01:54:07.891674+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "aggressively",
+    "andy",
+    "came",
+    "ceo",
+    "concerns",
+    "created",
+    "culture",
+    "despite",
+    "fear",
+    "investigation",
+    "media",
+    "move",
+    "proton",
+    "protons-ceo",
+    "published",
+    "pushing",
+    "security",
+    "www.404media.co",
+    "yen"
+   ],
+   "at": "2026-11-09T01:54:13.585628+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myuyfm6t3c2y": [
-   50,
-   "2026-10-28T02:53:42.394204+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myvlgw362224": [
-   7,
-   "2026-10-28T02:53:42.394204+00:00"
-  ],
-  "hn:50261647": [
-   278,
-   "2026-10-28T03:53:45.107528+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myvbcqqus223": [
-   239,
-   "2026-10-28T03:53:45.107528+00:00"
-  ],
-  "hn:50265393": [
-   92,
-   "2026-10-28T04:56:12.257673+00:00"
-  ],
-  "hn:50265594": [
-   295,
-   "2026-10-28T07:53:38.507187+00:00"
-  ],
-  "hn:50266719": [
-   107,
-   "2026-10-28T08:56:12.437797+00:00"
-  ],
-  "lobsters:cpaibp": [
-   37,
-   "2026-10-28T08:56:12.437797+00:00"
-  ],
-  "hn:50267569": [
-   99,
-   "2026-10-28T10:54:09.489543+00:00"
-  ],
-  "hn:50270764": [
-   86,
-   "2026-10-28T10:54:09.489543+00:00"
-  ],
-  "hn:50271032": [
-   153,
-   "2026-10-28T11:26:41.628042+00:00"
-  ],
-  "hn:50271457": [
-   162,
-   "2026-10-28T12:53:47.628195+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mywrfrevks2w": [
-   253,
-   "2026-10-28T13:53:48.350496+00:00"
-  ],
-  "hn:50272749": [
-   345,
-   "2026-10-28T13:53:48.350496+00:00"
-  ],
-  "hn:50272596": [
-   128,
-   "2026-10-28T13:53:48.350496+00:00"
-  ],
-  "hn:50272145": [
-   165,
-   "2026-10-28T13:53:48.350496+00:00"
-  ],
-  "hn:50273623": [
-   119,
-   "2026-10-28T14:53:42.661446+00:00"
-  ],
-  "hn:50273396": [
-   309,
-   "2026-10-28T14:53:42.661446+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mywxnueyol2k": [
-   196,
-   "2026-10-28T14:53:42.661446+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mywwaogdac23": [
-   52,
-   "2026-10-28T14:53:42.661446+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myx25ontgk2l": [
-   83,
-   "2026-10-28T15:53:46.007940+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myx2gzele22e": [
    116,
    "2026-10-28T15:53:46.007940+00:00"
@@ -14040,13 +14016,97 @@
    260,
    "2026-11-08T16:53:42.363628+00:00"
   ],
+  "lobsters:62loik": [
+   31,
+   "2026-11-08T17:53:46.047470+00:00"
+  ],
   "hn:50413822": [
    442,
    "2026-11-08T17:59:10.505345+00:00"
   ],
-  "lobsters:62loik": [
-   31,
-   "2026-11-08T17:53:46.047470+00:00"
+  "hn:50418818": [
+   138,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50418176": [
+   292,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50417407": [
+   1043,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50416471": [
+   197,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50416456": [
+   148,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50416158": [
+   621,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50416053": [
+   319,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50415817": [
+   305,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50415628": [
+   1316,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50415281": [
+   158,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50415172": [
+   419,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50414524": [
+   132,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50414331": [
+   242,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50413885": [
+   136,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "hn:50413769": [
+   168,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "lobsters:urg4yu": [
+   27,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "lobsters:jbdtim": [
+   71,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztjd5rnbu2f": [
+   553,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztavtk6rs2i": [
+   659,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mztmm3gzzc25": [
+   29,
+   "2026-11-09T01:53:46.671036+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mztdrnphgs2r": [
+   7,
+   "2026-11-09T01:53:46.671036+00:00"
   ]
  }
 }
