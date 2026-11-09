@@ -1,13 +1,5 @@
 {
  "seen": [
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtsik53ns22y",
-  "https://3dnews.ru/1147312/#6a8a9758742eecb8988b456c",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrogj622x2l",
-  "https://www.engadget.com/2242295/humanoid-robots-have-beaten-usain-bolts-100-meter-dash-record/",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrv532nyd2z",
-  "lobsters:8ttu5n",
-  "d50f2d4371608e854616ac021be58371",
-  "https://www.techspot.com/news/113584-amazon-raises-echo-kindle-fire-tv-eero-prices.html",
   "lobsters:vcdk2q",
   "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
   "lobsters:lo28ad",
@@ -2999,18 +2991,26 @@
   "https://www.cnews.ru/news/line/2026-11-09_spikatel_voshel_v_lidery",
   "https://www.phoronix.com/news/Intel-ANV-AV1-Bitrate-Control",
   "phJ7PVHHWj3NPDMMWxbmoj",
-  "xQ99kRuKXb8q2VJuSD3u7U"
+  "xQ99kRuKXb8q2VJuSD3u7U",
+  "6adfc77b70893916e36b6ed5",
+  "6ae24ce6521215c41824a0aa",
+  "https://www.theverge.com/?post_type=vm_custom_story&p=1027614",
+  "6ae37296fade877474b75aa9",
+  "7dEsxXZYmJgaUnffRt8weP",
+  "https://www.techspot.com/news/114486-older-woled-tvs-suffer-edge-rot-test-finds.html",
+  "https://www.androidpolice.com/toughest-alternative-to-one-ui-9-security-feature/",
+  "https://www.neowin.net/news/firefox-could-soon-get-the-same-windows-11-speed-boost-as-edge/"
  ],
  "posted": {
   "viral": 645,
-  "editorial": 878
+  "editorial": 883
  },
  "recent_labels": [
-  "The Hacker News",
-  "CNews",
-  "CNews",
-  "Phoronix",
-  "Tom's Hardware"
+  "Wired",
+  "The Verge",
+  "Tom's Hardware",
+  "Android Police",
+  "Neowin"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8010,63 +8010,54 @@
    "pool": "editorial",
    "score": 0.23064,
    "at": "2026-11-09T10:56:02.451900+00:00"
+  },
+  {
+   "title": "چالش اثبات نویسندگی انسانی در عصر هوش مصنوعی",
+   "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+   "source": "Wired",
+   "label": "Wired",
+   "pool": "editorial",
+   "score": 0.16318,
+   "at": "2026-11-09T11:53:45.232512+00:00"
+  },
+  {
+   "title": "دنیای مخفی و سازمان‌یافته ترکر‌های خصوصی تورنت",
+   "url": "https://www.theverge.com/cs/features/1027614/torrent-movies-file-sharing-download-piracy",
+   "source": "The Verge",
+   "label": "The Verge",
+   "pool": "editorial",
+   "score": 0.16332,
+   "at": "2026-11-09T11:53:51.165097+00:00"
+  },
+  {
+   "title": "مشکل فنی در پنل‌های WOLED تلویزیون‌های LG و پدیده پوسیدگی لبه‌ها",
+   "url": "https://www.tomshardware.com/monitors/lg-woled-tvs-suffer-from-edge-rot-pixel-death-pixels-go-dark-around-the-edges-similar-to-a-mold-pattern-nearly-all-woled-test-units-show-clear-signs-of-degradation",
+   "source": "Tom's Hardware",
+   "label": "Tom's Hardware",
+   "pool": "editorial",
+   "score": 0.2827,
+   "at": "2026-11-09T11:53:57.582014+00:00"
+  },
+  {
+   "title": "قابلیت امنیتی جدید در One UI 9 و راهکار جایگزین سامسونگ",
+   "url": "https://www.androidpolice.com/toughest-alternative-to-one-ui-9-security-feature/",
+   "source": "Android Police",
+   "label": "Android Police",
+   "pool": "editorial",
+   "score": 0.16238,
+   "at": "2026-11-09T11:54:03.532320+00:00"
+  },
+  {
+   "title": "بهبود سرعت اجرای مرورگر فایرفاکس در ویندوز ۱۱",
+   "url": "https://www.neowin.net/news/firefox-could-soon-get-the-same-windows-11-speed-boost-as-edge/?utm_source=rss",
+   "source": "Neowin",
+   "label": "Neowin",
+   "pool": "editorial",
+   "score": 0.17052,
+   "at": "2026-11-09T11:54:11.111346+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "200k",
-    "agents",
-    "garry",
-    "much",
-    "spends",
-    "tan",
-    "tokens",
-    "year"
-   ],
-   "at": "2026-11-05T01:56:33.662643+00:00"
-  },
-  {
-   "sig": [
-    "editor",
-    "kino",
-    "launch",
-    "manager",
-    "media",
-    "s23",
-    "video"
-   ],
-   "at": "2026-11-05T01:56:40.185793+00:00"
-  },
-  {
-   "sig": [
-    "9-1-1",
-    "appreciate",
-    "automated",
-    "clarity",
-    "dbeekman.bsky.social",
-    "pushing",
-    "reporting",
-    "seattle",
-    "seattletimes.com",
-    "service",
-    "speech",
-    "system",
-    "tech",
-    "transparency",
-    "using"
-   ],
-   "at": "2026-11-05T01:57:12.173819+00:00"
-  },
-  {
-   "sig": [
-    "fewer",
-    "paths",
-    "root",
-    "thousand"
-   ],
-   "at": "2026-11-05T02:53:58.432643+00:00"
-  },
   {
    "sig": [
     "built",
@@ -12053,6 +12044,64 @@
     "update"
    ],
    "at": "2026-11-09T10:56:02.451900+00:00"
+  },
+  {
+   "sig": [
+    "allegations",
+    "authors",
+    "defend",
+    "enough",
+    "paper",
+    "tools",
+    "trail"
+   ],
+   "at": "2026-11-09T11:53:45.232512+00:00"
+  },
+  {
+   "sig": [
+    "dead",
+    "death",
+    "edge",
+    "finds",
+    "older",
+    "pixel",
+    "pixels",
+    "rot",
+    "sets",
+    "suffer",
+    "test",
+    "tvs",
+    "woled"
+   ],
+   "at": "2026-11-09T11:53:57.582014+00:00"
+  },
+  {
+   "sig": [
+    "around",
+    "feature",
+    "found",
+    "galaxy",
+    "missed",
+    "s24",
+    "security",
+    "toughest",
+    "ultra",
+    "way"
+   ],
+   "at": "2026-11-09T11:54:03.532320+00:00"
+  },
+  {
+   "sig": [
+    "boost",
+    "could",
+    "edge",
+    "firefox",
+    "same",
+    "soon",
+    "speed",
+    "windows"
+   ],
+   "at": "2026-11-09T11:54:11.111346+00:00"
   }
  ],
  "snapshots": {
@@ -14460,22 +14509,22 @@
  "skips": {
   "Tom's Hardware": 2,
   "Article 19": 1,
-  "Wired": 1,
+  "Wired": 3,
   "TechRadar": 1
  },
  "posts_by_label": {
   "Engadget": 38,
-  "Neowin": 16,
-  "Wired": 18,
+  "Neowin": 17,
+  "Wired": 19,
   "TechRadar": 30,
   "Slashdot": 24,
   "404 Media": 34,
   "Xe Iaso": 2,
-  "The Verge": 17,
+  "The Verge": 18,
   "Cloudflare": 1,
   "TechCrunch AI": 15,
   "Lobsters": 4,
-  "Tom's Hardware": 28,
+  "Tom's Hardware": 29,
   "ZDNet": 3,
   "9to5Mac": 10,
   "EFF": 2,
@@ -14487,7 +14536,7 @@
   "The Register": 20,
   "Phoronix": 21,
   "The Next Web": 19,
-  "Android Police": 18,
+  "Android Police": 19,
   "Ars Technica": 1,
   "Simon Willison": 2,
   "Simon Willison RSS": 6,
@@ -14508,17 +14557,17 @@
  },
  "last_post": {
   "Engadget": "2026-11-09T05:53:55.929682+00:00",
-  "Neowin": "2026-11-09T04:53:55.125356+00:00",
-  "Wired": "2026-11-09T07:53:49.226907+00:00",
+  "Neowin": "2026-11-09T11:54:11.111460+00:00",
+  "Wired": "2026-11-09T11:53:45.232647+00:00",
   "TechRadar": "2026-11-09T05:54:05.253086+00:00",
   "Slashdot": "2026-11-09T08:54:12.648083+00:00",
   "404 Media": "2026-11-09T06:53:48.892103+00:00",
   "Xe Iaso": "2026-11-09T02:54:20.896292+00:00",
-  "The Verge": "2026-11-08T17:54:33.842657+00:00",
+  "The Verge": "2026-11-09T11:53:51.165215+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-08T17:59:12.217529+00:00",
   "Lobsters": "2026-11-09T02:53:49.622761+00:00",
-  "Tom's Hardware": "2026-11-09T10:56:02.452001+00:00",
+  "Tom's Hardware": "2026-11-09T11:53:57.582129+00:00",
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-08T15:54:03.598875+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
@@ -14530,7 +14579,7 @@
   "The Register": "2026-11-09T09:54:02.309503+00:00",
   "Phoronix": "2026-11-09T10:55:05.292394+00:00",
   "The Next Web": "2026-11-08T14:54:59.780482+00:00",
-  "Android Police": "2026-11-08T18:01:35.808348+00:00",
+  "Android Police": "2026-11-09T11:54:03.532431+00:00",
   "Ars Technica": "2026-10-31T11:53:40.882295+00:00",
   "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
