@@ -1,10 +1,5 @@
 {
  "seen": [
-  "6a8871d34cde17b7139992c0",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtp5s6pdjh2z",
-  "hn:49405816",
-  "https://3dnews.ru/1147295/#6a8990f6742eecd7a28b4568",
-  "hn:49405870",
   "https://habr.com/ru/articles/1073398/",
   "hn:49406539",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtpeklmhky27",
@@ -2999,18 +2994,23 @@
   "hn:50421426",
   "https://www.infoq.com/news/2026/11/pinterest-journey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "e2492d12625fae7bcdeed6fad11db9f7",
-  "5a2ac37d58a37399583b82394c0013fd"
+  "5a2ac37d58a37399583b82394c0013fd",
+  "lobsters:ezjewj",
+  "https://restofworld.org/2026/chinese-ai-labs-hire-silicon-valley-engineers-openai-anthropic/",
+  "https://www.cnews.ru/news/line/2026-11-09_v_meste_vpadeniya_sulaka_v",
+  "https://entertainment.slashdot.org/story/26/11/09/0625231/surprise-for-cast-of-return-of-the-living-dead-sequel-they-were-replaced-by-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.securityweek.com/?p=50616"
  ],
  "posted": {
-  "viral": 641,
-  "editorial": 867
+  "viral": 642,
+  "editorial": 871
  },
  "recent_labels": [
-  "Wired",
-  "Hacker News",
-  "InfoQ",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail"
+  "Lobsters",
+  "Rest of World",
+  "CNews",
+  "Slashdot",
+  "SecurityWeek"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7885,51 +7885,44 @@
    "source": "Hi-Tech Mail",
    "score": 0.19727,
    "at": "2026-11-09T07:55:33.942203+00:00"
+  },
+  {
+   "title": "هزینه‌ی انرژی و سخت‌افزار برای ساخت بسته‌های نرم‌افزاری در توزیع لینوکس",
+   "url": "https://www.wezm.net/v2/posts/2026/distro-energy-use/",
+   "source": "wezm.net",
+   "score": 0.05891,
+   "at": "2026-11-09T08:53:41.763027+00:00"
+  },
+  {
+   "title": "تلاش شرکت‌های هوش مصنوعی چینی برای جذب متخصصان سیلیکون‌ولی",
+   "url": "https://restofworld.org/2026/chinese-ai-labs-hire-silicon-valley-engineers-openai-anthropic/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+   "source": "Rest of World",
+   "score": 0.2162,
+   "at": "2026-11-09T08:53:50.184598+00:00"
+  },
+  {
+   "title": "توسعه پوشش اینترنت موبایل MTS در سواحل دریای خزر",
+   "url": "https://www.cnews.ru/news/line/2026-11-09_v_meste_vpadeniya_sulaka_v",
+   "source": "CNews",
+   "score": 0.18016,
+   "at": "2026-11-09T08:54:03.940875+00:00"
+  },
+  {
+   "title": "جایگزینی بازیگران فیلم کلاسیک با هوش مصنوعی جنجال‌ساز شد",
+   "url": "https://entertainment.slashdot.org/story/26/11/09/0625231/surprise-for-cast-of-return-of-the-living-dead-sequel-they-were-replaced-by-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.19904,
+   "at": "2026-11-09T08:54:12.648083+00:00"
+  },
+  {
+   "title": "هوش مصنوعی گوگل امنیت کلیدهای رمزنگاری RSA-1024 را به چالش کشید",
+   "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+   "source": "SecurityWeek",
+   "score": 0.23295,
+   "at": "2026-11-09T08:54:18.014071+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "inference",
-    "language",
-    "large",
-    "models",
-    "progress",
-    "provable"
-   ],
-   "at": "2026-11-04T20:28:24.345512+00:00"
-  },
-  {
-   "sig": [
-    "ladybird",
-    "month",
-    "october"
-   ],
-   "at": "2026-11-04T20:28:30.996756+00:00"
-  },
-  {
-   "sig": [
-    "ballot",
-    "centers",
-    "data",
-    "dozens",
-    "last",
-    "lost",
-    "night",
-    "races",
-    "were"
-   ],
-   "at": "2026-11-04T20:28:36.834167+00:00"
-  },
-  {
-   "sig": [
-    "education",
-    "held",
-    "ransom",
-    "shouldn"
-   ],
-   "at": "2026-11-04T20:28:42.694085+00:00"
-  },
   {
    "sig": [
     "compiler",
@@ -11915,13 +11908,61 @@
     "reports"
    ],
    "at": "2026-11-09T07:55:09.141782+00:00"
+  },
+  {
+   "sig": [
+    "building",
+    "distro",
+    "does",
+    "energy",
+    "much",
+    "packages"
+   ],
+   "at": "2026-11-09T08:53:41.763027+00:00"
+  },
+  {
+   "sig": [
+    "chinese",
+    "easy",
+    "firms",
+    "minds",
+    "poaching",
+    "silicon",
+    "top",
+    "valley",
+    "want",
+    "won"
+   ],
+   "at": "2026-11-09T08:53:50.184598+00:00"
+  },
+  {
+   "sig": [
+    "cast",
+    "dead",
+    "living",
+    "replaced",
+    "return",
+    "sequel",
+    "surprise",
+    "were"
+   ],
+   "at": "2026-11-09T08:54:12.648083+00:00"
+  },
+  {
+   "sig": [
+    "1024-bit",
+    "agents",
+    "attack",
+    "cheaper",
+    "deepmind",
+    "google",
+    "keys",
+    "rsa"
+   ],
+   "at": "2026-11-09T08:54:18.014071+00:00"
   }
  ],
  "snapshots": {
-  "hn:50280178": [
-   226,
-   "2026-10-28T23:20:41.586514+00:00"
-  ],
   "hn:50279308": [
    228,
    "2026-10-28T23:20:41.586514+00:00"
@@ -14317,6 +14358,10 @@
   "hn:50416801": [
    1153,
    "2026-11-09T07:53:40.967397+00:00"
+  ],
+  "lobsters:ezjewj": [
+   25,
+   "2026-11-09T08:53:39.380343+00:00"
   ]
  }
 }
