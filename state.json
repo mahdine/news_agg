@@ -1,11 +1,5 @@
 {
  "seen": [
-  "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
-  "hn:49398904",
-  "lobsters:zibquu",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtolqshucj22",
-  "hn:49401549",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtots4qsmt2q",
   "6a8871d34cde17b7139992c0",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtp5s6pdjh2z",
   "hn:49405816",
@@ -2999,18 +2993,24 @@
   "8e6b05eaba13a2140fcdd95a556f9086",
   "02756eaca081e9cd1075a529bf9cbf00",
   "3243421",
-  "https://www.cnews.ru/news/line/2026-11-09_korus_konsalting_vnedril"
+  "https://www.cnews.ru/news/line/2026-11-09_korus_konsalting_vnedril",
+  "6aee0d7c8f04ba0cb07255aa",
+  "cf58c89f3c16c4e125f0e935e0d5ff5f",
+  "hn:50421426",
+  "https://www.infoq.com/news/2026/11/pinterest-journey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "e2492d12625fae7bcdeed6fad11db9f7",
+  "5a2ac37d58a37399583b82394c0013fd"
  ],
  "posted": {
-  "viral": 640,
-  "editorial": 863
+  "viral": 641,
+  "editorial": 867
  },
  "recent_labels": [
-  "CNews",
-  "The Register",
-  "404 Media",
-  "The Hacker News",
-  "CNews"
+  "Wired",
+  "Hacker News",
+  "InfoQ",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7850,41 +7850,44 @@
    "source": "CNews",
    "score": 0.12272,
    "at": "2026-11-09T06:55:26.023250+00:00"
+  },
+  {
+   "title": "ارزش خرید پایین مدل جدید MacBook Pro با تراشه M6",
+   "url": "https://www.wired.com/story/macbook-pro-m5-deal-11-6-2026/",
+   "source": "Wired",
+   "score": 0.31388,
+   "at": "2026-11-09T07:53:49.226907+00:00"
+  },
+  {
+   "title": "اپل بودجه روزانه هوش مصنوعی مهندسان خود را کاهش داد",
+   "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1",
+   "source": "stork.ai",
+   "score": 0.31866,
+   "at": "2026-11-09T07:54:00.878189+00:00"
+  },
+  {
+   "title": "پینترست سیستم تحلیل رفتار کاربران را با مدل زبانی Qwen3 جایگزین کرد",
+   "url": "https://www.infoq.com/news/2026/11/pinterest-journey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "score": 0.19052,
+   "at": "2026-11-09T07:55:09.141782+00:00"
+  },
+  {
+   "title": "نگرانی عمومی از تشکیل حباب مالی در بازار هوش مصنوعی",
+   "url": "https://hi-tech.mail.ru/news/159968-amerikantsev-silnee-trevozhit-vozmozhnyy-finansovyy-puzyr/",
+   "source": "Hi-Tech Mail",
+   "score": 0.19017,
+   "at": "2026-11-09T07:55:25.777406+00:00"
+  },
+  {
+   "title": "ساختار فنی سامانه‌های رزرو و کنترل پرواز در صنعت هوانوردی",
+   "url": "https://hi-tech.mail.ru/articles/34639-kak-vse-ustroeno-registraciya-na-rejs/",
+   "source": "Hi-Tech Mail",
+   "score": 0.19727,
+   "at": "2026-11-09T07:55:33.942203+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "handy",
-    "mouse",
-    "remote",
-    "smartphone",
-    "turns"
-   ],
-   "at": "2026-11-04T15:54:35.635213+00:00"
-  },
-  {
-   "sig": [
-    "adobe",
-    "agent",
-    "chatgpt",
-    "claude",
-    "copilot",
-    "inside",
-    "marketing",
-    "puts"
-   ],
-   "at": "2026-11-04T15:54:43.111581+00:00"
-  },
-  {
-   "sig": [
-    "conspiracy",
-    "cryptography",
-    "theory",
-    "wrong"
-   ],
-   "at": "2026-11-04T20:28:18.203479+00:00"
-  },
   {
    "sig": [
     "inference",
@@ -11875,17 +11878,46 @@
     "sonicwall"
    ],
    "at": "2026-11-09T06:53:57.059430+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "buy",
+    "macbook",
+    "oled",
+    "pro",
+    "right",
+    "sale",
+    "top"
+   ],
+   "at": "2026-11-09T07:53:49.226907+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "budget",
+    "capped",
+    "daily",
+    "engineers"
+   ],
+   "at": "2026-11-09T07:54:00.878189+00:00"
+  },
+  {
+   "sig": [
+    "clustering",
+    "engagement",
+    "improved",
+    "journey",
+    "llm",
+    "pinterest",
+    "qwen3",
+    "replaces",
+    "reports"
+   ],
+   "at": "2026-11-09T07:55:09.141782+00:00"
   }
  ],
  "snapshots": {
-  "hn:50275373": [
-   212,
-   "2026-10-28T18:24:18.841169+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myxc5zvdrm2o": [
-   15,
-   "2026-10-28T18:24:18.841169+00:00"
-  ],
   "hn:50280178": [
    226,
    "2026-10-28T23:20:41.586514+00:00"
@@ -14277,6 +14309,14 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzu67pgvkc2m": [
    79,
    "2026-11-09T06:53:46.960433+00:00"
+  ],
+  "hn:50421426": [
+   227,
+   "2026-11-09T07:53:40.967397+00:00"
+  ],
+  "hn:50416801": [
+   1153,
+   "2026-11-09T07:53:40.967397+00:00"
   ]
  }
 }
