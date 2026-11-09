@@ -1,13 +1,5 @@
 {
  "seen": [
-  "https://www.neowin.net/news/microsoft-is-making-new-outlook-more-palatable-with-classic-theme/",
-  "https://www.theregister.com/a/5291006",
-  "hn:49388154",
-  "uX4j6QX7BAcSUNqMyeJ73",
-  "lobsters:3giezs",
-  "K4nCRKP6hSTvvrC6mvh8A",
-  "https://www.engadget.com/2241608/walmart-will-finally-accept-tap-to-pay-in-stores-by-end-of-2026/",
-  "https://news.slashdot.org/story/26/08/21/1525227/walmart-to-finally-start-accepting-apple-pay-and-google-pay?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
   "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mtmmmzbedc2t",
   "hn:49395605",
@@ -2999,18 +2991,26 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mztdrnphgs2r",
   "hn:50418818",
   "hn:50418975",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mztmm3gzzc25"
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mztmm3gzzc25",
+  "hn:50414331",
+  "hn:50414524",
+  "hn:50415172",
+  "hn:50415281",
+  "hn:50417407",
+  "hn:50418176",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztvtj24ve2i",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzty6bfso22s"
  ],
  "posted": {
-  "viral": 634,
+  "viral": 638,
   "editorial": 852
  },
  "recent_labels": [
-  "Lobsters",
-  "Lobsters",
+  "Xe Iaso",
   "Hacker News",
   "Hacker News",
-  "Xe Iaso"
+  "Hacker News",
+  "Hacker News"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7731,53 +7731,37 @@
    "source": "Xe Iaso",
    "score": 0.19866,
    "at": "2026-11-09T02:54:20.896292+00:00"
+  },
+  {
+   "title": "طرح پیشنهادی بریتانیا برای نصب اجباری نرم‌افزار شناسایی محتوا روی گوشی‌ها",
+   "url": "https://observer.co.uk/news/national/article/fight-to-block-child-sexual-abuse-images-unites-peers-and-mps-in-cross-party-campaign",
+   "source": "observer.co.uk",
+   "score": 0.01023,
+   "at": "2026-11-09T03:53:46.668759+00:00"
+  },
+  {
+   "title": "اسکریپت طنز برای گزارش میزان رم بلااستفاده به سم آلتمن",
+   "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
+   "source": "respawnfirst.com",
+   "score": 0.01422,
+   "at": "2026-11-09T03:54:05.395521+00:00"
+  },
+  {
+   "title": "استفاده پلیس از تبلیغات درون‌برنامه‌ای برای ردیابی کاربران",
+   "url": "https://www.bloomberg.com/features/2026-police-phone-tracking-advertising-tech/",
+   "source": "bloomberg.com",
+   "score": 0.01161,
+   "at": "2026-11-09T03:54:14.462318+00:00"
+  },
+  {
+   "title": "معرفی نرم‌افزار متن‌باز BenchUp برای طراحی سه‌بعدی و نجاری",
+   "url": "https://ketchup3d.github.io/app/",
+   "source": "ketchup3d.github.io",
+   "score": 0.01211,
+   "at": "2026-11-09T03:54:21.661003+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "better",
-    "geoffrey",
-    "hinton",
-    "might",
-    "turn",
-    "were",
-    "without"
-   ],
-   "at": "2026-11-04T12:55:15.552997+00:00"
-  },
-  {
-   "sig": [
-    "debt",
-    "forcing",
-    "pay",
-    "technical",
-    "years"
-   ],
-   "at": "2026-11-04T13:06:39.694282+00:00"
-  },
-  {
-   "sig": [
-    "ai-linked",
-    "breaches",
-    "disclose",
-    "hacks",
-    "mount",
-    "northflank",
-    "trigger.dev",
-    "workos"
-   ],
-   "at": "2026-11-04T13:06:45.496788+00:00"
-  },
-  {
-   "sig": [
-    "initial",
-    "rust",
-    "support",
-    "systemd"
-   ],
-   "at": "2026-11-04T13:06:51.001750+00:00"
-  },
   {
    "sig": [
     "1.7",
@@ -11739,13 +11723,62 @@
     "tricked"
    ],
    "at": "2026-11-09T02:54:20.896292+00:00"
+  },
+  {
+   "sig": [
+    "csam",
+    "detection",
+    "house",
+    "lords",
+    "mandatory",
+    "propose",
+    "smartphones",
+    "software"
+   ],
+   "at": "2026-11-09T03:53:46.668759+00:00"
+  },
+  {
+   "sig": [
+    "altman",
+    "daily",
+    "emails",
+    "linux",
+    "much",
+    "ram",
+    "sam",
+    "script",
+    "unused"
+   ],
+   "at": "2026-11-09T03:54:05.395521+00:00"
+  },
+  {
+   "sig": [
+    "ads",
+    "apps",
+    "give",
+    "police",
+    "popular",
+    "powerful",
+    "spy",
+    "tool",
+    "users"
+   ],
+   "at": "2026-11-09T03:54:14.462318+00:00"
+  },
+  {
+   "sig": [
+    "alternative",
+    "built",
+    "ketchup",
+    "open-source",
+    "rust",
+    "sketchup",
+    "webgpu"
+   ],
+   "at": "2026-11-09T03:54:21.661003+00:00"
   }
  ],
  "snapshots": {
-  "hn:50274706": [
-   215,
-   "2026-10-28T17:53:44.895842+00:00"
-  ],
   "hn:50273192": [
    181,
    "2026-10-28T17:53:44.895842+00:00"
@@ -14078,36 +14111,8 @@
    205,
    "2026-11-09T02:53:47.645222+00:00"
   ],
-  "hn:50418176": [
-   384,
-   "2026-11-09T02:53:47.645222+00:00"
-  ],
-  "hn:50417407": [
-   1170,
-   "2026-11-09T02:53:47.645222+00:00"
-  ],
   "hn:50415817": [
    307,
-   "2026-11-09T02:53:47.645222+00:00"
-  ],
-  "hn:50415628": [
-   1354,
-   "2026-11-09T02:53:47.645222+00:00"
-  ],
-  "hn:50415281": [
-   165,
-   "2026-11-09T02:53:47.645222+00:00"
-  ],
-  "hn:50415172": [
-   420,
-   "2026-11-09T02:53:47.645222+00:00"
-  ],
-  "hn:50414524": [
-   134,
-   "2026-11-09T02:53:47.645222+00:00"
-  ],
-  "hn:50414331": [
-   242,
    "2026-11-09T02:53:47.645222+00:00"
   ],
   "hn:50413885": [
@@ -14130,17 +14135,49 @@
    8,
    "2026-11-09T02:53:47.645222+00:00"
   ],
-  "hn:50419215": [
-   160,
-   "2026-11-09T02:53:47.645222+00:00"
-  ],
   "hn:50418975": [
    188,
    "2026-11-09T02:53:47.645222+00:00"
   ],
+  "hn:50418176": [
+   450,
+   "2026-11-09T03:53:44.672674+00:00"
+  ],
+  "hn:50417407": [
+   1246,
+   "2026-11-09T03:53:44.672674+00:00"
+  ],
+  "hn:50415628": [
+   1411,
+   "2026-11-09T03:53:44.672674+00:00"
+  ],
+  "hn:50415281": [
+   165,
+   "2026-11-09T03:53:44.672674+00:00"
+  ],
+  "hn:50415172": [
+   430,
+   "2026-11-09T03:53:44.672674+00:00"
+  ],
+  "hn:50414524": [
+   138,
+   "2026-11-09T03:53:44.672674+00:00"
+  ],
+  "hn:50414331": [
+   245,
+   "2026-11-09T03:53:44.672674+00:00"
+  ],
+  "hn:50419215": [
+   227,
+   "2026-11-09T03:53:44.672674+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztvtj24ve2i": [
-   102,
-   "2026-11-09T02:53:47.645222+00:00"
+   316,
+   "2026-11-09T03:53:44.672674+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzty6bfso22s": [
+   7,
+   "2026-11-09T03:53:44.672674+00:00"
   ]
  }
 }
