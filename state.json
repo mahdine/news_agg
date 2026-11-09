@@ -1,13 +1,5 @@
 {
  "seen": [
-  "lobsters:vcdk2q",
-  "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
-  "lobsters:lo28ad",
-  "https://www.phoronix.com/news/GNU-Emacs-31.1-Released",
-  "6a88c0bfe5d3c9c921b3d827",
-  "https://www.engadget.com/2242283/twitch-amazon-hit-with-lawsuit-for-training-ai-with-streamers-content/",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mttl3bp46s2y",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mttltu7iu22a",
   "https://3dnews.ru/1147360/#6a8c6713742eec11798b4586",
   "https://www.theregister.com/a/5291802",
   "lobsters:rehaa3",
@@ -2999,18 +2991,26 @@
   "7dEsxXZYmJgaUnffRt8weP",
   "https://www.techspot.com/news/114486-older-woled-tvs-suffer-edge-rot-test-finds.html",
   "https://www.androidpolice.com/toughest-alternative-to-one-ui-9-security-feature/",
-  "https://www.neowin.net/news/firefox-could-soon-get-the-same-windows-11-speed-boost-as-edge/"
+  "https://www.neowin.net/news/firefox-could-soon-get-the-same-windows-11-speed-boost-as-edge/",
+  "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+  "https://www.securityweek.com/?p=50625",
+  "hn:50421155",
+  "hn:50422628",
+  "lobsters:tt42jc",
+  "hn:50423569",
+  "hn:50424704",
+  "https://www.engadget.com/2310531/coinbase-receives-approval-to-become-a-chartered-trust-bank/"
  ],
  "posted": {
-  "viral": 645,
-  "editorial": 883
+  "viral": 648,
+  "editorial": 885
  },
  "recent_labels": [
-  "Wired",
-  "The Verge",
-  "Tom's Hardware",
-  "Android Police",
-  "Neowin"
+  "The Hacker News",
+  "Hacker News",
+  "Hacker News",
+  "Hacker News",
+  "Engadget"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8055,71 +8055,54 @@
    "pool": "editorial",
    "score": 0.17052,
    "at": "2026-11-09T11:54:11.111346+00:00"
+  },
+  {
+   "title": "سوءاستفاده هکرها از آسیب‌پذیری SSHole در OpenSSH برای دسترسی غیرمجاز",
+   "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.20718,
+   "at": "2026-11-09T13:53:44.618216+00:00"
+  },
+  {
+   "title": "معرفی موتور استنتاج Flide برای افزایش سرعت مدل‌های تصمیم‌گیر",
+   "url": "https://github.com/OmniJev/Flide",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.04969,
+   "at": "2026-11-09T13:53:50.854394+00:00"
+  },
+  {
+   "title": "نشت کلیدهای دسترسی SSH در نسخه دسکتاپ ChatGPT",
+   "url": "https://news.ycombinator.com/item?id=50422628",
+   "source": "Hacker News",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.10956,
+   "at": "2026-11-09T13:53:56.587269+00:00"
+  },
+  {
+   "title": "تجربه‌ی کار با سیستم‌عامل کلاسیک IBM VM/370 در محیط مدرن",
+   "url": "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/",
+   "source": "rbanffy.github.io",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.1654,
+   "at": "2026-11-09T13:54:03.432127+00:00"
+  },
+  {
+   "title": "مجوز فعالیت Coinbase به عنوان بانک امانی در آمریکا",
+   "url": "https://www.engadget.com/2310531/coinbase-receives-approval-to-become-a-chartered-trust-bank/",
+   "source": "Engadget",
+   "label": "Engadget",
+   "pool": "editorial",
+   "score": 0.2179,
+   "at": "2026-11-09T13:54:50.008461+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "built",
-    "part",
-    "pre-built",
-    "prices",
-    "show",
-    "tool"
-   ],
-   "at": "2026-11-05T02:54:04.074645+00:00"
-  },
-  {
-   "sig": [
-    "k3.1",
-    "kimi",
-    "model",
-    "pro",
-    "weights"
-   ],
-   "at": "2026-11-05T02:54:24.075211+00:00"
-  },
-  {
-   "sig": [
-    "co-op",
-    "commander",
-    "decade",
-    "dos",
-    "reversing",
-    "show",
-    "wing",
-    "working"
-   ],
-   "at": "2026-11-05T02:54:35.386298+00:00"
-  },
-  {
-   "sig": [
-    "0.42",
-    "brings",
-    "hdr",
-    "improved",
-    "improvements",
-    "media",
-    "mpv",
-    "player",
-    "wayland"
-   ],
-   "at": "2026-11-05T02:54:42.287919+00:00"
-  },
-  {
-   "sig": [
-    "2.6",
-    "animated",
-    "chatgpt",
-    "create",
-    "faster",
-    "gifs",
-    "images",
-    "introducing",
-    "openai"
-   ],
-   "at": "2026-11-05T04:54:06.783542+00:00"
-  },
   {
    "sig": [
     "aids",
@@ -12102,29 +12085,74 @@
     "windows"
    ],
    "at": "2026-11-09T11:54:11.111346+00:00"
+  },
+  {
+   "sig": [
+    "authentication",
+    "bypass",
+    "disclosure",
+    "exploiting",
+    "flaw",
+    "gain",
+    "hackers",
+    "honeypot",
+    "hours",
+    "openssh",
+    "root",
+    "sshole",
+    "target",
+    "within"
+   ],
+   "at": "2026-11-09T13:53:44.618216+00:00"
+  },
+  {
+   "sig": [
+    "9.5x",
+    "decision",
+    "faster",
+    "flide",
+    "jev-like",
+    "models",
+    "show"
+   ],
+   "at": "2026-11-09T13:53:50.854394+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "chatgpt",
+    "desktop",
+    "forwards",
+    "machines",
+    "remote",
+    "ssh"
+   ],
+   "at": "2026-11-09T13:53:56.587269+00:00"
+  },
+  {
+   "sig": [
+    "big",
+    "computers",
+    "fun",
+    "machine",
+    "things"
+   ],
+   "at": "2026-11-09T13:54:03.432127+00:00"
+  },
+  {
+   "sig": [
+    "approval",
+    "bank",
+    "become",
+    "chartered",
+    "coinbase",
+    "receives",
+    "trust"
+   ],
+   "at": "2026-11-09T13:54:50.008461+00:00"
   }
  ],
  "snapshots": {
-  "hn:50275887": [
-   328,
-   "2026-10-28T23:20:41.586514+00:00"
-  ],
-  "hn:50271808": [
-   184,
-   "2026-10-28T23:20:41.586514+00:00"
-  ],
-  "lobsters:exwlmn": [
-   42,
-   "2026-10-28T23:20:41.586514+00:00"
-  ],
-  "hn:50281044": [
-   285,
-   "2026-10-29T01:53:43.797906+00:00"
-  ],
-  "hn:50280197": [
-   175,
-   "2026-10-29T01:53:43.797906+00:00"
-  ],
   "lobsters:m3gsln": [
    29,
    "2026-10-29T01:53:43.797906+00:00"
@@ -14504,16 +14532,38 @@
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzukga6eo22b": [
    18,
    "2026-11-09T09:53:41.880630+00:00"
+  ],
+  "hn:50424704": [
+   269,
+   "2026-11-09T13:53:42.430999+00:00"
+  ],
+  "hn:50423569": [
+   74,
+   "2026-11-09T13:53:42.430999+00:00"
+  ],
+  "hn:50422628": [
+   121,
+   "2026-11-09T13:53:42.430999+00:00"
+  ],
+  "hn:50421155": [
+   107,
+   "2026-11-09T13:53:42.430999+00:00"
+  ],
+  "lobsters:tt42jc": [
+   39,
+   "2026-11-09T13:53:42.430999+00:00"
   ]
  },
  "skips": {
   "Tom's Hardware": 2,
   "Article 19": 1,
   "Wired": 3,
-  "TechRadar": 1
+  "TechRadar": 1,
+  "Lobsters": 1,
+  "Hacker News": 1
  },
  "posts_by_label": {
-  "Engadget": 38,
+  "Engadget": 39,
   "Neowin": 17,
   "Wired": 19,
   "TechRadar": 30,
@@ -14528,9 +14578,9 @@
   "ZDNet": 3,
   "9to5Mac": 10,
   "EFF": 2,
-  "Hacker News": 10,
+  "Hacker News": 13,
   "TechSpot": 17,
-  "The Hacker News": 23,
+  "The Hacker News": 24,
   "Latent Space": 2,
   "InfoQ": 12,
   "The Register": 20,
@@ -14556,7 +14606,7 @@
   "Rest of World": 1
  },
  "last_post": {
-  "Engadget": "2026-11-09T05:53:55.929682+00:00",
+  "Engadget": "2026-11-09T13:54:50.008579+00:00",
   "Neowin": "2026-11-09T11:54:11.111460+00:00",
   "Wired": "2026-11-09T11:53:45.232647+00:00",
   "TechRadar": "2026-11-09T05:54:05.253086+00:00",
@@ -14571,9 +14621,9 @@
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-08T15:54:03.598875+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-09T09:53:51.077489+00:00",
+  "Hacker News": "2026-11-09T13:54:03.432239+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
-  "The Hacker News": "2026-11-09T10:53:47.307409+00:00",
+  "The Hacker News": "2026-11-09T13:53:44.618335+00:00",
   "Latent Space": "2026-11-05T06:54:04.851054+00:00",
   "InfoQ": "2026-11-09T07:55:09.141782+00:00",
   "The Register": "2026-11-09T09:54:02.309503+00:00",
