@@ -1,17 +1,5 @@
 {
  "seen": [
-  "https://habr.com/ru/articles/1073398/",
-  "hn:49406539",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtpeklmhky27",
-  "992934b9e2fe91e4ed5c8e6d29ecf85d",
-  "https://www.phoronix.com/news/Linux-7.3-Input",
-  "hn:49407143",
-  "5c9126abe48fae1a55ed4ea6",
-  "PJjnXaGpCUMbQJhYdHxoB4",
-  "hn:49407507",
-  "hn:49407576",
-  "https://habr.com/ru/articles/1073420/",
-  "hn:49408550",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtr275w5yz2e",
   "360ddc0de8913302fc8272e305e4a62a",
   "https://habr.com/ru/articles/1073446/",
@@ -2999,18 +2987,30 @@
   "https://restofworld.org/2026/chinese-ai-labs-hire-silicon-valley-engineers-openai-anthropic/",
   "https://www.cnews.ru/news/line/2026-11-09_v_meste_vpadeniya_sulaka_v",
   "https://entertainment.slashdot.org/story/26/11/09/0625231/surprise-for-cast-of-return-of-the-living-dead-sequel-they-were-replaced-by-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://www.securityweek.com/?p=50616"
+  "https://www.securityweek.com/?p=50616",
+  "sdapiLLRrgUAiDtM25VK5F",
+  "https://www.engadget.com/2310336/nvidia-is-investigating-reports-that-ceo-jensen-huang-was-the-target-of-chinese-spy-efforts/",
+  "6fkpCBjok4PQpYskxDeXhc",
+  "vpYxo9ghWxKvWc2raUoabD",
+  "https://hardware.slashdot.org/story/26/11/08/2125219/nvidia-ceo-admits-affair-with-alleged-chinese-spy-investigation-opened?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "TheNextWeb=445e516a5b6b37350fcc578db34d8779",
+  "hn:50422069",
+  "hn:50422168",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzukga6eo22b",
+  "https://www.theregister.com/a/5307758",
+  "https://www.article19.org/?post_type=resources&p=392901",
+  "75f5b551c0d3560512ab2d7105c1fe29"
  ],
  "posted": {
-  "viral": 642,
-  "editorial": 871
+  "viral": 645,
+  "editorial": 873
  },
  "recent_labels": [
-  "Lobsters",
-  "Rest of World",
-  "CNews",
-  "Slashdot",
-  "SecurityWeek"
+  "Hacker News",
+  "Hacker News",
+  "antirez",
+  "The Register",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7920,55 +7920,54 @@
    "source": "SecurityWeek",
    "score": 0.23295,
    "at": "2026-11-09T08:54:18.014071+00:00"
+  },
+  {
+   "title": "تغییر در الگوی استدلال مدل Claude 3.5 Opus",
+   "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+   "source": "twitter.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.29371,
+   "at": "2026-11-09T09:53:45.627032+00:00"
+  },
+  {
+   "title": "معرفی مدل Next-Concept برای تولید متن سریع و موازی",
+   "url": "https://arxiv.org/abs/2610.14162",
+   "source": "arxiv.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.23598,
+   "at": "2026-11-09T09:53:51.077378+00:00"
+  },
+  {
+   "title": "تأثیر هوش مصنوعی بر آینده شغلی برنامه‌نویسان",
+   "url": "https://bsky.app/profile/antirez.bsky.social/post/3mzukga6eo22b",
+   "source": "antirez",
+   "label": "antirez",
+   "pool": "viral",
+   "score": 0.09717,
+   "at": "2026-11-09T09:53:56.680879+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/on-prem/2026/11/09/memory-crunch-makes-refurbished-kit-look-a-lot-less-secondhand/5307758",
+   "source": "The Register",
+   "label": "The Register",
+   "pool": "editorial",
+   "score": 0.21609,
+   "at": "2026-11-09T09:54:02.309386+00:00"
+  },
+  {
+   "title": "برتری دوربین Motorola Signature 27 بر iPhone 18 Pro در تست DXOMARK",
+   "url": "https://hi-tech.mail.ru/news/160029-nazvan-smartfon-s-luchshej-kameroj-2026-goda-motorola-oboshla-iphone/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.19917,
+   "at": "2026-11-09T09:54:13.188769+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "compiler",
-    "november",
-    "rust",
-    "speed"
-   ],
-   "at": "2026-11-05T01:31:55.781079+00:00"
-  },
-  {
-   "sig": [
-    "agentic",
-    "coding",
-    "open-weight",
-    "preview",
-    "ripple-65b",
-    "sota",
-    "u.s"
-   ],
-   "at": "2026-11-05T01:32:01.503077+00:00"
-  },
-  {
-   "sig": [
-    "128gb",
-    "150w",
-    "548gb",
-    "accelerator",
-    "card",
-    "cloud",
-    "qualcomm",
-    "ultra"
-   ],
-   "at": "2026-11-05T01:32:09.142002+00:00"
-  },
-  {
-   "sig": [
-    "bad",
-    "hacking",
-    "hypervisor",
-    "improvements",
-    "part",
-    "update",
-    "xbox"
-   ],
-   "at": "2026-11-05T01:32:15.500953+00:00"
-  },
   {
    "sig": [
     "128gb",
@@ -11960,21 +11959,74 @@
     "rsa"
    ],
    "at": "2026-11-09T08:54:18.014071+00:00"
+  },
+  {
+   "sig": [
+    "5.5",
+    "changed",
+    "nerfed",
+    "november",
+    "opus",
+    "patterns",
+    "thinking"
+   ],
+   "at": "2026-11-09T09:53:45.627032+00:00"
+  },
+  {
+   "sig": [
+    "coarse-to-fine",
+    "fast",
+    "generation",
+    "modeling",
+    "next-concept",
+    "parallel",
+    "text"
+   ],
+   "at": "2026-11-09T09:53:51.077378+00:00"
+  },
+  {
+   "sig": [
+    "already",
+    "assistance",
+    "behind",
+    "bubble",
+    "clear",
+    "compared",
+    "faster",
+    "folks",
+    "happen",
+    "lag",
+    "living",
+    "losing",
+    "means",
+    "other",
+    "programming",
+    "refusing",
+    "see",
+    "significant",
+    "signs",
+    "starting",
+    "way",
+    "where",
+    "work"
+   ],
+   "at": "2026-11-09T09:53:56.680879+00:00"
+  },
+  {
+   "sig": [
+    "crunch",
+    "kit",
+    "less",
+    "look",
+    "lot",
+    "memory",
+    "refurbished",
+    "secondhand"
+   ],
+   "at": "2026-11-09T09:54:02.309386+00:00"
   }
  ],
  "snapshots": {
-  "hn:50279308": [
-   228,
-   "2026-10-28T23:20:41.586514+00:00"
-  ],
-  "hn:50276998": [
-   939,
-   "2026-10-28T23:20:41.586514+00:00"
-  ],
-  "hn:50276883": [
-   94,
-   "2026-10-28T23:20:41.586514+00:00"
-  ],
   "hn:50275887": [
    328,
    "2026-10-28T23:20:41.586514+00:00"
@@ -14362,6 +14414,108 @@
   "lobsters:ezjewj": [
    25,
    "2026-11-09T08:53:39.380343+00:00"
+  ],
+  "hn:50422168": [
+   82,
+   "2026-11-09T09:53:41.880630+00:00"
+  ],
+  "hn:50422069": [
+   246,
+   "2026-11-09T09:53:41.880630+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzukga6eo22b": [
+   18,
+   "2026-11-09T09:53:41.880630+00:00"
   ]
+ },
+ "skips": {
+  "Tom's Hardware": 1,
+  "Article 19": 1
+ },
+ "posts_by_label": {
+  "Engadget": 38,
+  "Neowin": 16,
+  "Wired": 18,
+  "TechRadar": 30,
+  "Slashdot": 24,
+  "404 Media": 34,
+  "Xe Iaso": 2,
+  "The Verge": 17,
+  "Cloudflare": 1,
+  "TechCrunch AI": 15,
+  "Lobsters": 4,
+  "Tom's Hardware": 27,
+  "ZDNet": 3,
+  "9to5Mac": 10,
+  "EFF": 2,
+  "Hacker News": 10,
+  "TechSpot": 17,
+  "The Hacker News": 22,
+  "Latent Space": 2,
+  "InfoQ": 12,
+  "The Register": 20,
+  "Phoronix": 20,
+  "The Next Web": 19,
+  "Android Police": 18,
+  "Ars Technica": 1,
+  "Simon Willison": 2,
+  "Simon Willison RSS": 6,
+  "vc.ru": 11,
+  "SecurityWeek": 9,
+  "Hi-Tech Mail": 28,
+  "MIT Tech Review": 1,
+  "Filippo Valsorda": 1,
+  "Dan Luu": 1,
+  "CNews": 22,
+  "Emily M. Bender": 3,
+  "antirez": 3,
+  "OpenAI": 1,
+  "Hugging Face": 1,
+  "Access Now": 1,
+  "Google AI": 1,
+  "Rest of World": 1
+ },
+ "last_post": {
+  "Engadget": "2026-11-09T05:53:55.929682+00:00",
+  "Neowin": "2026-11-09T04:53:55.125356+00:00",
+  "Wired": "2026-11-09T07:53:49.226907+00:00",
+  "TechRadar": "2026-11-09T05:54:05.253086+00:00",
+  "Slashdot": "2026-11-09T08:54:12.648083+00:00",
+  "404 Media": "2026-11-09T06:53:48.892103+00:00",
+  "Xe Iaso": "2026-11-09T02:54:20.896292+00:00",
+  "The Verge": "2026-11-08T17:54:33.842657+00:00",
+  "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
+  "TechCrunch AI": "2026-11-08T17:59:12.217529+00:00",
+  "Lobsters": "2026-11-09T02:53:49.622761+00:00",
+  "Tom's Hardware": "2026-11-08T18:00:16.673949+00:00",
+  "ZDNet": "2026-11-06T15:54:01.724081+00:00",
+  "9to5Mac": "2026-11-08T15:54:03.598875+00:00",
+  "EFF": "2026-11-06T09:54:49.849333+00:00",
+  "Hacker News": "2026-11-09T09:53:51.077489+00:00",
+  "TechSpot": "2026-11-08T15:53:57.122484+00:00",
+  "The Hacker News": "2026-11-09T06:53:57.059430+00:00",
+  "Latent Space": "2026-11-05T06:54:04.851054+00:00",
+  "InfoQ": "2026-11-09T07:55:09.141782+00:00",
+  "The Register": "2026-11-09T09:54:02.309503+00:00",
+  "Phoronix": "2026-11-08T12:00:54.749802+00:00",
+  "The Next Web": "2026-11-08T14:54:59.780482+00:00",
+  "Android Police": "2026-11-08T18:01:35.808348+00:00",
+  "Ars Technica": "2026-10-31T11:53:40.882295+00:00",
+  "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
+  "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
+  "vc.ru": "2026-11-08T17:54:19.515702+00:00",
+  "SecurityWeek": "2026-11-09T08:54:18.014071+00:00",
+  "Hi-Tech Mail": "2026-11-09T09:54:13.188887+00:00",
+  "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
+  "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
+  "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
+  "CNews": "2026-11-09T08:54:03.940875+00:00",
+  "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
+  "antirez": "2026-11-09T09:53:56.680990+00:00",
+  "OpenAI": "2026-11-05T02:53:58.432643+00:00",
+  "Hugging Face": "2026-11-05T02:54:24.075211+00:00",
+  "Access Now": "2026-11-05T10:54:49.232575+00:00",
+  "Google AI": "2026-11-06T04:54:24.190387+00:00",
+  "Rest of World": "2026-11-09T08:53:50.184598+00:00"
  }
 }
