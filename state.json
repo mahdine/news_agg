@@ -1,12 +1,5 @@
 {
  "seen": [
-  "hn:49384896",
-  "https://3dnews.ru/1147216/#6a87fa3f742eec2b4f8b4579",
-  "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
-  "https://www.engadget.com/2241281/amazons-god-of-war-show-brings-in-dave-bautista-as-its-new-kratos/",
-  "lobsters:hbjeir",
-  "hn:49384716",
-  "hn:49386659",
   "https://www.neowin.net/news/microsoft-is-making-new-outlook-more-palatable-with-classic-theme/",
   "https://www.theregister.com/a/5291006",
   "hn:49388154",
@@ -2999,18 +2992,25 @@
   "hn:50416456",
   "hn:50416471",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztavtk6rs2i",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztjd5rnbu2f"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztjd5rnbu2f",
+  "lobsters:jbdtim",
+  "lobsters:urg4yu",
+  "hn:50415817",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mztdrnphgs2r",
+  "hn:50418818",
+  "hn:50418975",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mztmm3gzzc25"
  ],
  "posted": {
-  "viral": 629,
+  "viral": 634,
   "editorial": 852
  },
  "recent_labels": [
+  "Lobsters",
+  "Lobsters",
   "Hacker News",
   "Hacker News",
-  "Hacker News",
-  "404 Media",
-  "404 Media"
+  "Xe Iaso"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -7696,65 +7696,44 @@
    "source": "404media.co",
    "score": 0.31363,
    "at": "2026-11-09T01:54:13.585628+00:00"
+  },
+  {
+   "title": "ایده‌ای برای شناسایی محتوای تولید شده توسط هوش مصنوعی در وب",
+   "url": "https://lobste.rs/s/jbdtim/who_wants_crowdsource_llm_scans_articles",
+   "source": "Lobsters",
+   "score": 0.0465,
+   "at": "2026-11-09T02:53:49.622761+00:00"
+  },
+  {
+   "title": "امنیت دیسک‌های رمزگذاری‌شده در سرورهای خانگی با سرویس ZKeys",
+   "url": "https://jmmv.dev/2026/11/zkeys-intro.html",
+   "source": "jmmv.dev",
+   "score": 0.02923,
+   "at": "2026-11-09T02:53:55.820751+00:00"
+  },
+  {
+   "title": "اختلاف نظر میان خالق و مالکان زبان برنامه‌نویسی",
+   "url": "https://isocpp.org/files/papers/P4454R0.pdf",
+   "source": "isocpp.org",
+   "score": 0.04327,
+   "at": "2026-11-09T02:54:08.712290+00:00"
+  },
+  {
+   "title": "آیا حباب هوش مصنوعی واقعیت دارد یا یک تصور اقتصادی است",
+   "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+   "source": "matteoraso.github.io",
+   "score": 0.04473,
+   "at": "2026-11-09T02:54:14.639284+00:00"
+  },
+  {
+   "title": "تأمل در ماهیت هوش مصنوعی و توهم آگاهی",
+   "url": "https://bsky.app/profile/xeiaso.net/post/3mztmm3gzzc25",
+   "source": "Xe Iaso",
+   "score": 0.19866,
+   "at": "2026-11-09T02:54:20.896292+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "chrome",
-    "critical",
-    "fixes",
-    "rated",
-    "rolls",
-    "security",
-    "seven"
-   ],
-   "at": "2026-11-04T10:54:26.377497+00:00"
-  },
-  {
-   "sig": [
-    "alternative",
-    "better",
-    "milkman",
-    "postman"
-   ],
-   "at": "2026-11-04T12:53:50.424595+00:00"
-  },
-  {
-   "sig": [
-    "answers",
-    "knowledge",
-    "needs",
-    "science",
-    "verification"
-   ],
-   "at": "2026-11-04T12:53:57.296321+00:00"
-  },
-  {
-   "sig": [
-    "git",
-    "incident",
-    "issues",
-    "operations",
-    "pull",
-    "requests"
-   ],
-   "at": "2026-11-04T12:55:04.061856+00:00"
-  },
-  {
-   "sig": [
-    "accounts",
-    "chat",
-    "even",
-    "gemini",
-    "history",
-    "personal",
-    "subscribers",
-    "tell",
-    "trains"
-   ],
-   "at": "2026-11-04T12:55:09.925537+00:00"
-  },
   {
    "sig": [
     "better",
@@ -11705,21 +11684,64 @@
     "yen"
    ],
    "at": "2026-11-09T01:54:13.585628+00:00"
+  },
+  {
+   "sig": [
+    "articles",
+    "crowdsource",
+    "llm",
+    "lobste.rs",
+    "scans",
+    "submitted",
+    "wants"
+   ],
+   "at": "2026-11-09T02:53:49.622761+00:00"
+  },
+  {
+   "sig": [
+    "disks",
+    "encrypted",
+    "reboots",
+    "unattended"
+   ],
+   "at": "2026-11-09T02:53:55.820751+00:00"
+  },
+  {
+   "sig": [
+    "creator",
+    "disagree",
+    "herb",
+    "language",
+    "owners",
+    "pdf",
+    "strongly",
+    "sutter"
+   ],
+   "at": "2026-11-09T02:54:08.712290+00:00"
+  },
+  {
+   "sig": [
+    "bubble",
+    "convinced",
+    "exists"
+   ],
+   "at": "2026-11-09T02:54:14.639284+00:00"
+  },
+  {
+   "sig": [
+    "did",
+    "isn",
+    "people",
+    "problem",
+    "rocks",
+    "think",
+    "thinking",
+    "tricked"
+   ],
+   "at": "2026-11-09T02:54:20.896292+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myx2gzele22e": [
-   116,
-   "2026-10-28T15:53:46.007940+00:00"
-  ],
-  "hn:50276940": [
-   560,
-   "2026-10-28T17:53:44.895842+00:00"
-  ],
-  "hn:50275626": [
-   161,
-   "2026-10-28T17:53:44.895842+00:00"
-  ],
   "hn:50274706": [
    215,
    "2026-10-28T17:53:44.895842+00:00"
@@ -14024,18 +14046,6 @@
    442,
    "2026-11-08T17:59:10.505345+00:00"
   ],
-  "hn:50418818": [
-   138,
-   "2026-11-09T01:53:46.671036+00:00"
-  ],
-  "hn:50418176": [
-   292,
-   "2026-11-09T01:53:46.671036+00:00"
-  ],
-  "hn:50417407": [
-   1043,
-   "2026-11-09T01:53:46.671036+00:00"
-  ],
   "hn:50416471": [
    197,
    "2026-11-09T01:53:46.671036+00:00"
@@ -14052,44 +14062,8 @@
    319,
    "2026-11-09T01:53:46.671036+00:00"
   ],
-  "hn:50415817": [
-   305,
-   "2026-11-09T01:53:46.671036+00:00"
-  ],
-  "hn:50415628": [
-   1316,
-   "2026-11-09T01:53:46.671036+00:00"
-  ],
-  "hn:50415281": [
-   158,
-   "2026-11-09T01:53:46.671036+00:00"
-  ],
-  "hn:50415172": [
-   419,
-   "2026-11-09T01:53:46.671036+00:00"
-  ],
-  "hn:50414524": [
-   132,
-   "2026-11-09T01:53:46.671036+00:00"
-  ],
-  "hn:50414331": [
-   242,
-   "2026-11-09T01:53:46.671036+00:00"
-  ],
-  "hn:50413885": [
-   136,
-   "2026-11-09T01:53:46.671036+00:00"
-  ],
   "hn:50413769": [
    168,
-   "2026-11-09T01:53:46.671036+00:00"
-  ],
-  "lobsters:urg4yu": [
-   27,
-   "2026-11-09T01:53:46.671036+00:00"
-  ],
-  "lobsters:jbdtim": [
-   71,
    "2026-11-09T01:53:46.671036+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztjd5rnbu2f": [
@@ -14100,13 +14074,73 @@
    659,
    "2026-11-09T01:53:46.671036+00:00"
   ],
+  "hn:50418818": [
+   205,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "hn:50418176": [
+   384,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "hn:50417407": [
+   1170,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "hn:50415817": [
+   307,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "hn:50415628": [
+   1354,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "hn:50415281": [
+   165,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "hn:50415172": [
+   420,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "hn:50414524": [
+   134,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "hn:50414331": [
+   242,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "hn:50413885": [
+   136,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "lobsters:urg4yu": [
+   27,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "lobsters:jbdtim": [
+   74,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mztmm3gzzc25": [
-   29,
-   "2026-11-09T01:53:46.671036+00:00"
+   33,
+   "2026-11-09T02:53:47.645222+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mztdrnphgs2r": [
-   7,
-   "2026-11-09T01:53:46.671036+00:00"
+   8,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "hn:50419215": [
+   160,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "hn:50418975": [
+   188,
+   "2026-11-09T02:53:47.645222+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztvtj24ve2i": [
+   102,
+   "2026-11-09T02:53:47.645222+00:00"
   ]
  }
 }
