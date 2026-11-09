@@ -1,14 +1,5 @@
 {
  "seen": [
-  "https://habr.com/ru/articles/1074304/",
-  "lobsters:jjspxh",
-  "uSh4L8fDpBUWEpAshCbGBC",
-  "https://9to5mac.com/?p=1065895",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtvygsopis23",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtvyxkym7d2q",
-  "https://3dnews.ru/1147425/#6a8da01d742eec02ef8b4572",
-  "efec373d4685220ae9da22fcb0448f05",
-  "6a8ca6cf68e309e12a12ee96",
   "DaxsjGcGFGwLjLrnguZzoB",
   "https://3dnews.ru/1147427/#6a8da1da742eec09ef8b4581",
   "hn:49438052",
@@ -2999,18 +2990,27 @@
   "fmLtG5oRbeUSBSEnCCFqgA",
   "TheNextWeb=02aa61dc36076ef11cec47f5024c471c",
   "https://www.theverge.com/?p=1029802",
-  "Q7RCikvJUKbmuq7g5L4M7F"
+  "Q7RCikvJUKbmuq7g5L4M7F",
+  "hn:50426207",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzv6abhfur26",
+  "hn:50426899",
+  "https://www.engadget.com/2310848/meta-is-expanding-ai-age-detection-for-instagram-teen-accounts/",
+  "https://www.neowin.net/news/instagram-is-taking-another-step-to-automatically-protect-teen-accounts-worldwide/",
+  "TheNextWeb=bff530909ed256498d2d10f9dedb561d",
+  "xXuSf2DcxLLA8NktsjrDmf",
+  "https://www.securityweek.com/?p=50634",
+  "urn:latent-space:post:pod_ep_01a1c0f3-0e12-7b37-bb7f-c0b59fbc3b39"
  ],
  "posted": {
-  "viral": 651,
-  "editorial": 891
+  "viral": 653,
+  "editorial": 894
  },
  "recent_labels": [
-  "9to5Mac",
-  "Lobsters",
-  "404 Media",
-  "The Verge",
-  "The Verge"
+  "Hacker News",
+  "Hacker News",
+  "Engadget",
+  "TechRadar",
+  "Latent Space"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8181,84 +8181,54 @@
    "pool": "editorial",
    "score": 0.30321,
    "at": "2026-11-09T15:55:45.346919+00:00"
+  },
+  {
+   "title": "معرفی کتابخانه‌ی Zebkit برای استفاده از موتور Chromium در برنامه‌های بومی",
+   "url": "https://github.com/ikey4u/zebkit",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.27791,
+   "at": "2026-11-09T16:53:49.876490+00:00"
+  },
+  {
+   "title": "جنجال بر سر تعهدنامه عجیب در بنیاد اتریوم",
+   "url": "https://www.denverpost.com/2026/11/06/ethereum-suicide-pledge-lawsuit-mandate-boulder-crypto/",
+   "source": "denverpost.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.48933,
+   "at": "2026-11-09T16:54:11.672639+00:00"
+  },
+  {
+   "title": "توسعه سیستم‌های هوش مصنوعی متا برای تشخیص سن کاربران نوجوان",
+   "url": "https://www.engadget.com/2310848/meta-is-expanding-ai-age-detection-for-instagram-teen-accounts/",
+   "source": "Engadget",
+   "label": "Engadget",
+   "pool": "editorial",
+   "score": 0.82371,
+   "at": "2026-11-09T16:54:16.873115+00:00"
+  },
+  {
+   "title": "حمله گسترده به دستگاه‌های QNAP از طریق آسیب‌پذیری Plex2Shell",
+   "url": "https://www.techradar.com/pro/security/qnap-says-more-nas-devices-hit-in-worrying-plex2shell-malware-attacks",
+   "source": "TechRadar",
+   "label": "TechRadar",
+   "pool": "editorial",
+   "score": 0.44666,
+   "at": "2026-11-09T16:54:22.489697+00:00"
+  },
+  {
+   "title": "بازار داده‌های تخصصی برای آموزش مدل‌های هوش مصنوعی پیشرفته",
+   "url": "https://latent.space/p/what_frontier_labs_buy_a_data_deep_dive_with_handshake_ai_garrett_lord_team/",
+   "source": "Latent Space",
+   "label": "Latent Space",
+   "pool": "editorial",
+   "score": 0.25181,
+   "at": "2026-11-09T16:54:28.410418+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "iphone",
-    "leaker",
-    "max",
-    "next",
-    "pro",
-    "redesign",
-    "update",
-    "year"
-   ],
-   "at": "2026-11-05T09:54:17.674189+00:00"
-  },
-  {
-   "sig": [
-    "address",
-    "house",
-    "internet",
-    "rent",
-    "want",
-    "white"
-   ],
-   "at": "2026-11-05T09:54:39.980150+00:00"
-  },
-  {
-   "sig": [
-    "access",
-    "ai-driven",
-    "artex",
-    "attacks",
-    "backdoored",
-    "cert-in",
-    "consoles",
-    "exposes",
-    "flags",
-    "root"
-   ],
-   "at": "2026-11-05T09:54:45.804263+00:00"
-  },
-  {
-   "sig": [
-    "27.3",
-    "apple",
-    "checking",
-    "content",
-    "files",
-    "harmful",
-    "icloud",
-    "ios",
-    "links",
-    "photos",
-    "public",
-    "publicly",
-    "scanning",
-    "shared",
-    "start"
-   ],
-   "at": "2026-11-05T09:54:51.833953+00:00"
-  },
-  {
-   "sig": [
-    "console",
-    "demand",
-    "games",
-    "marvel",
-    "meet",
-    "ps5",
-    "selling",
-    "sony",
-    "still",
-    "struggling",
-    "wolverine"
-   ],
-   "at": "2026-11-05T09:54:57.450173+00:00"
-  },
   {
    "sig": [
     "amd-backed",
@@ -12245,21 +12215,82 @@
     "trump"
    ],
    "at": "2026-11-09T15:55:45.346919+00:00"
+  },
+  {
+   "sig": [
+    "chromium",
+    "embeddable",
+    "library",
+    "zebkit"
+   ],
+   "at": "2026-11-09T16:53:49.876490+00:00"
+  },
+  {
+   "sig": [
+    "crypto",
+    "demanded",
+    "employees",
+    "endorse",
+    "foundation",
+    "pledge",
+    "suicide"
+   ],
+   "at": "2026-11-09T16:54:11.672639+00:00"
+  },
+  {
+   "sig": [
+    "accounts",
+    "age",
+    "another",
+    "automatically",
+    "checks",
+    "detection",
+    "expanding",
+    "expands",
+    "instagram",
+    "meta",
+    "move",
+    "protect",
+    "step",
+    "taking",
+    "teen",
+    "teens",
+    "worldwide"
+   ],
+   "at": "2026-11-09T16:54:16.873115+00:00"
+  },
+  {
+   "sig": [
+    "attacks",
+    "devices",
+    "exploited",
+    "hit",
+    "malware",
+    "nas",
+    "plex2shell",
+    "qnap",
+    "users",
+    "worrying"
+   ],
+   "at": "2026-11-09T16:54:22.489697+00:00"
+  },
+  {
+   "sig": [
+    "buy",
+    "data",
+    "deep",
+    "dive",
+    "frontier",
+    "garrett",
+    "handshake",
+    "labs",
+    "lord",
+    "team"
+   ],
+   "at": "2026-11-09T16:54:28.410418+00:00"
   }
  ],
  "snapshots": {
-  "hn:50280662": [
-   109,
-   "2026-10-29T01:53:43.797906+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myxydphfjk2m": [
-   16,
-   "2026-10-29T01:53:43.797906+00:00"
-  ],
-  "hn:50276906": [
-   168,
-   "2026-10-29T02:53:41.052480+00:00"
-  ],
   "hn:50275128": [
    152,
    "2026-10-29T02:53:41.052480+00:00"
@@ -14647,6 +14678,18 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzv64dfjc22c": [
    204,
    "2026-11-09T15:53:45.587184+00:00"
+  ],
+  "hn:50426899": [
+   173,
+   "2026-11-09T16:53:47.449230+00:00"
+  ],
+  "hn:50426207": [
+   112,
+   "2026-11-09T16:53:47.449230+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzv6abhfur26": [
+   65,
+   "2026-11-09T16:53:47.449230+00:00"
   ]
  },
  "skips": {
@@ -14656,13 +14699,14 @@
   "TechRadar": 3,
   "Lobsters": 1,
   "Hacker News": 2,
-  "The Next Web": 1
+  "The Next Web": 1,
+  "404 Media": 1
  },
  "posts_by_label": {
-  "Engadget": 39,
+  "Engadget": 40,
   "Neowin": 17,
   "Wired": 19,
-  "TechRadar": 30,
+  "TechRadar": 31,
   "Slashdot": 24,
   "404 Media": 35,
   "Xe Iaso": 2,
@@ -14674,10 +14718,10 @@
   "ZDNet": 3,
   "9to5Mac": 11,
   "EFF": 2,
-  "Hacker News": 14,
+  "Hacker News": 16,
   "TechSpot": 17,
   "The Hacker News": 24,
-  "Latent Space": 2,
+  "Latent Space": 3,
   "InfoQ": 13,
   "The Register": 21,
   "Phoronix": 21,
@@ -14702,10 +14746,10 @@
   "Rest of World": 1
  },
  "last_post": {
-  "Engadget": "2026-11-09T13:54:50.008579+00:00",
+  "Engadget": "2026-11-09T16:54:16.873228+00:00",
   "Neowin": "2026-11-09T11:54:11.111460+00:00",
   "Wired": "2026-11-09T11:53:45.232647+00:00",
-  "TechRadar": "2026-11-09T05:54:05.253086+00:00",
+  "TechRadar": "2026-11-09T16:54:22.489804+00:00",
   "Slashdot": "2026-11-09T08:54:12.648083+00:00",
   "404 Media": "2026-11-09T15:55:04.459028+00:00",
   "Xe Iaso": "2026-11-09T02:54:20.896292+00:00",
@@ -14717,10 +14761,10 @@
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-09T14:55:21.585137+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-09T14:53:49.094239+00:00",
+  "Hacker News": "2026-11-09T16:54:11.672759+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-09T13:53:44.618335+00:00",
-  "Latent Space": "2026-11-05T06:54:04.851054+00:00",
+  "Latent Space": "2026-11-09T16:54:28.410519+00:00",
   "InfoQ": "2026-11-09T14:55:15.429811+00:00",
   "The Register": "2026-11-09T14:55:08.024667+00:00",
   "Phoronix": "2026-11-09T10:55:05.292394+00:00",
