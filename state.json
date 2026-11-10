@@ -1,13 +1,5 @@
 {
  "seen": [
-  "https://news.slashdot.org/story/26/08/31/1646204/mapquests-app-surges-to-no-1-in-navigation-after-refusing-to-rename-lake-ontario?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "hn:49512574",
-  "hn:49512856",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mugjiyb3qk2a",
-  "https://www.techspot.com/news/113693-john-ternus-starts-first-day-apple-ceo-foldable.html",
-  "https://www.theverge.com/?post_type=vm_stream&p=915272",
-  "https://www.techspot.com/news/113681-apple-prototyped-tested-pencil-accessory-foldable-iphone.html",
-  "https://9to5mac.com/?p=1066926",
   "https://9to5mac.com/?p=1066893",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhmqkhfo227",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhtmq5mok27",
@@ -2999,18 +2991,26 @@
   "8iQj3VLhZR2FWrdtXMfJK5",
   "https://www.phoronix.com/news/Fedora-46-Approves-RPM-v6",
   "8f5edf350ac36c39ee76672413f9721e",
-  "e84320426f2618e74e09e59a6fe5e9e0"
+  "e84320426f2618e74e09e59a6fe5e9e0",
+  "lobsters:bubqox",
+  "hn:50437106",
+  "hn:50437790",
+  "https://tech.slashdot.org/story/26/11/09/2239245/uber-is-launching-its-own-parking-reservation-service?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.engadget.com/2308678/uber-is-launching-its-own-parking-reservation-service/",
+  "jhYcFwPBQtFtuj3gRGHbNN",
+  "https://www.theverge.com/?p=1029665",
+  "6aee0b6f76eb77d40b4758ef"
  ],
  "posted": {
-  "viral": 675,
-  "editorial": 921
+  "viral": 678,
+  "editorial": 923
  },
  "recent_labels": [
-  "9to5Mac",
-  "The Next Web",
+  "Lobsters",
+  "Hacker News",
+  "Hacker News",
   "Tom's Hardware",
-  "Phoronix",
-  "Hi-Tech Mail"
+  "Wired"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8667,76 +8667,54 @@
    "pool": "editorial",
    "score": 0.19759,
    "at": "2026-11-10T10:55:16.560722+00:00"
+  },
+  {
+   "title": "مسدودسازی ربات‌های مخرب با استفاده از تله‌ی هانی‌پات در وب‌سایت",
+   "url": "https://shkspr.mobi/blog/2026/11/blunt-banhammer-blocks-basic-bots-ballistically/",
+   "source": "shkspr.mobi",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.03099,
+   "at": "2026-11-10T11:53:54.560358+00:00"
+  },
+  {
+   "title": "نشت داده‌های کاربران Notion در پی حمله سایبری به Fireworks AI",
+   "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+   "source": "notion.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.13083,
+   "at": "2026-11-10T11:54:11.650951+00:00"
+  },
+  {
+   "title": "حمله باج‌افزاری به کتابخانه عمومی کوئینز و اختلال در خدمات دیجیتال",
+   "url": "https://connect.queenslibrary.org/",
+   "source": "connect.queenslibrary.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.25693,
+   "at": "2026-11-10T11:54:22.990529+00:00"
+  },
+  {
+   "title": "نگاهی به هارد اکسترنال هیبریدی جدید Seagate با قابلیت نصب SSD",
+   "url": "https://www.tomshardware.com/pc-components/external-ssds/seagate-resurrects-hybrid-storage-hands-on-with-the-firecuda-forge-8-or-20tb-external-hard-drive-requires-you-to-bring-your-own-nvme-ssd",
+   "source": "Tom's Hardware",
+   "label": "Tom's Hardware",
+   "pool": "editorial",
+   "score": 0.24199,
+   "at": "2026-11-10T11:54:35.380625+00:00"
+  },
+  {
+   "title": "مبارزه لوئیس راسمن برای حق تعمیر دستگاه‌های دیجیتال",
+   "url": "https://www.wired.com/story/the-big-interview-podcast-louis-rossmann-right-to-repair/",
+   "source": "Wired",
+   "label": "Wired",
+   "pool": "editorial",
+   "score": 0.22924,
+   "at": "2026-11-10T11:54:47.874302+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "code",
-    "execution",
-    "paint",
-    "remote",
-    "vulnerability"
-   ],
-   "at": "2026-11-06T02:54:17.955199+00:00"
-  },
-  {
-   "sig": [
-    "agent",
-    "airbnb",
-    "first",
-    "half",
-    "launching",
-    "travel",
-    "working"
-   ],
-   "at": "2026-11-06T02:54:23.720050+00:00"
-  },
-  {
-   "sig": [
-    "bypass",
-    "cve-2026-121728",
-    "disabled",
-    "registration",
-    "sourcehut"
-   ],
-   "at": "2026-11-06T03:53:53.948825+00:00"
-  },
-  {
-   "sig": [
-    "don",
-    "events",
-    "invite",
-    "lets",
-    "people",
-    "whatsapp"
-   ],
-   "at": "2026-11-06T03:54:40.045332+00:00"
-  },
-  {
-   "sig": [
-    "accessible",
-    "apple",
-    "best",
-    "comes",
-    "cost",
-    "explains",
-    "glowing",
-    "logo",
-    "macbook",
-    "matters",
-    "oled",
-    "pro",
-    "proves",
-    "review",
-    "slight",
-    "still",
-    "touch",
-    "turn",
-    "upgrade"
-   ],
-   "at": "2026-11-06T04:54:17.689979+00:00"
-  },
   {
    "sig": [
     "1.2",
@@ -12748,21 +12726,81 @@
     "thinlto"
    ],
    "at": "2026-11-10T10:54:35.367298+00:00"
+  },
+  {
+   "sig": [
+    "ballistically",
+    "banhammer",
+    "basic",
+    "blocks",
+    "blunt",
+    "bots"
+   ],
+   "at": "2026-11-10T11:53:54.560358+00:00"
+  },
+  {
+   "sig": [
+    "breach",
+    "customers",
+    "fireworks",
+    "impacts",
+    "notion",
+    "security"
+   ],
+   "at": "2026-11-10T11:54:11.650951+00:00"
+  },
+  {
+   "sig": [
+    "attack",
+    "e-borrowing",
+    "library",
+    "public",
+    "queens",
+    "ransomware",
+    "suspended",
+    "under"
+   ],
+   "at": "2026-11-10T11:54:22.990529+00:00"
+  },
+  {
+   "sig": [
+    "20tb",
+    "better",
+    "bring",
+    "data",
+    "drive",
+    "external",
+    "firecuda",
+    "forge",
+    "hands-on",
+    "hard",
+    "hybrid",
+    "moves",
+    "nvme",
+    "own",
+    "performance",
+    "requires",
+    "resurrects",
+    "seagate",
+    "ssd",
+    "storage"
+   ],
+   "at": "2026-11-10T11:54:35.380625+00:00"
+  },
+  {
+   "sig": [
+    "care",
+    "louis",
+    "people",
+    "repair",
+    "right",
+    "rossmann",
+    "wants"
+   ],
+   "at": "2026-11-10T11:54:47.874302+00:00"
   }
  ],
  "snapshots": {
-  "hn:50289590": [
-   58,
-   "2026-10-29T18:33:48.942449+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzuoyjew32i": [
-   74,
-   "2026-10-29T18:33:48.942449+00:00"
-  ],
-  "hn:50296486": [
-   123,
-   "2026-10-29T23:24:37.264862+00:00"
-  ],
   "hn:50296470": [
    895,
    "2026-10-29T23:24:37.264862+00:00"
@@ -15150,6 +15188,18 @@
   "hn:50437242": [
    112,
    "2026-11-10T10:53:48.929972+00:00"
+  ],
+  "hn:50437790": [
+   123,
+   "2026-11-10T11:53:49.341472+00:00"
+  ],
+  "hn:50437106": [
+   102,
+   "2026-11-10T11:53:49.341472+00:00"
+  ],
+  "lobsters:bubqox": [
+   30,
+   "2026-11-10T11:53:49.341472+00:00"
   ]
  },
  "skips": {
@@ -15167,12 +15217,13 @@
   "Simon Willison RSS": 1,
   "CNews": 3,
   "vc.ru": 2,
-  "Hi-Tech Mail": 2
+  "Hi-Tech Mail": 2,
+  "Slashdot": 1
  },
  "posts_by_label": {
   "Engadget": 41,
   "Neowin": 18,
-  "Wired": 19,
+  "Wired": 20,
   "TechRadar": 32,
   "Slashdot": 24,
   "404 Media": 35,
@@ -15180,12 +15231,12 @@
   "The Verge": 20,
   "Cloudflare": 1,
   "TechCrunch AI": 16,
-  "Lobsters": 8,
-  "Tom's Hardware": 31,
+  "Lobsters": 9,
+  "Tom's Hardware": 32,
   "ZDNet": 3,
   "9to5Mac": 13,
   "EFF": 2,
-  "Hacker News": 33,
+  "Hacker News": 35,
   "TechSpot": 17,
   "The Hacker News": 26,
   "Latent Space": 3,
@@ -15215,7 +15266,7 @@
  "last_post": {
   "Engadget": "2026-11-10T08:54:24.464468+00:00",
   "Neowin": "2026-11-09T17:54:10.899288+00:00",
-  "Wired": "2026-11-09T11:53:45.232647+00:00",
+  "Wired": "2026-11-10T11:54:47.874429+00:00",
   "TechRadar": "2026-11-10T09:54:17.383846+00:00",
   "Slashdot": "2026-11-09T08:54:12.648083+00:00",
   "404 Media": "2026-11-09T15:55:04.459028+00:00",
@@ -15223,12 +15274,12 @@
   "The Verge": "2026-11-09T15:55:45.347012+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-10T08:54:11.493335+00:00",
-  "Lobsters": "2026-11-10T02:54:56.814982+00:00",
-  "Tom's Hardware": "2026-11-10T10:54:28.746148+00:00",
+  "Lobsters": "2026-11-10T11:53:54.560480+00:00",
+  "Tom's Hardware": "2026-11-10T11:54:35.380747+00:00",
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-10T10:53:55.757129+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-10T09:53:50.242668+00:00",
+  "Hacker News": "2026-11-10T11:54:22.990643+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-10T08:53:53.000903+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
