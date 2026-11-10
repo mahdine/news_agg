@@ -1,14 +1,5 @@
 {
  "seen": [
-  "https://therecord.media/russian-national-facing-20-years-malware-campaign",
-  "hn:49540138",
-  "hn:49540575",
-  "https://news.slashdot.org/story/26/09/02/167206/nyc-public-schools-ban-ai-use-through-middle-school?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "hn:49542443",
-  "https://www.engadget.com/2249790/nyc-generative-ai-ban-in-public-schools-through-eighth-grade/",
-  "hn:49543530",
-  "hn:49546432",
-  "hn:49544903",
   "6a906b97096f095c67a177d0",
   "hn:49548952",
   "https://techcrunch.com/?p=3160347",
@@ -2999,18 +2990,27 @@
   "6af20aee630a020cf4096970",
   "https://www.theverge.com/?p=1030601",
   "https://www.theverge.com/?p=1030282",
-  "1431816"
+  "1431816",
+  "https://hardware.slashdot.org/story/26/11/09/2317206/boston-dynamics-adds-wheels-to-atlas-humanoid?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "15fd233efbfb519b54e6204ccdad2dc8",
+  "hn:50439000",
+  "tnJPdqDYWK7s9kfPqinA3E",
+  "https://www.neowin.net/news/wyndham-hotels--resorts-confirmed-app-bug-that-exposed-customer-data/",
+  "https://techcrunch.com/?p=3186772",
+  "https://www.theverge.com/?p=1030703",
+  "https://9to5mac.com/?p=1078170",
+  "https://techcrunch.com/?p=3186771"
  ],
  "posted": {
-  "viral": 680,
-  "editorial": 929
+  "viral": 681,
+  "editorial": 933
  },
  "recent_labels": [
+  "Slashdot",
   "Hacker News",
-  "SecurityWeek",
-  "Wired",
-  "The Verge",
-  "ZDNet"
+  "TechRadar",
+  "TechCrunch AI",
+  "9to5Mac"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8784,70 +8784,54 @@
    "pool": "editorial",
    "score": 0.1891,
    "at": "2026-11-10T13:55:03.345989+00:00"
+  },
+  {
+   "title": "افزودن چرخ به ربات انسان‌نمای Atlas برای افزایش سرعت حرکت",
+   "url": "https://hardware.slashdot.org/story/26/11/09/2317206/boston-dynamics-adds-wheels-to-atlas-humanoid?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "label": "Slashdot",
+   "pool": "editorial",
+   "score": 0.25141,
+   "at": "2026-11-10T14:54:13.136411+00:00"
+  },
+  {
+   "title": "معرفی ابزار HolyArrs برای مدیریت یکپارچه سرورهای رسانه‌ای خانگی",
+   "url": "https://github.com/HolyArrs/HolyArrs",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.13361,
+   "at": "2026-11-10T14:54:50.854139+00:00"
+  },
+  {
+   "title": "نشت اطلاعات میلیون‌ها کاربر Wyndham به دلیل وجود کدهای سخت‌افزاری در اپلیکیشن",
+   "url": "https://www.techradar.com/pro/security/wyndham-confirms-it-exposed-hotel-customer-data-after-expert-finds-flaw-in-app-security",
+   "source": "TechRadar",
+   "label": "TechRadar",
+   "pool": "editorial",
+   "score": 0.2439,
+   "at": "2026-11-10T14:54:57.171299+00:00"
+  },
+  {
+   "title": "عرضه‌ی اولیه‌ی سهام Anthropic با ارزش‌گذاری خیره‌کننده",
+   "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+   "source": "TechCrunch AI",
+   "label": "TechCrunch AI",
+   "pool": "editorial",
+   "score": 0.47521,
+   "at": "2026-11-10T14:55:14.549448+00:00"
+  },
+  {
+   "title": "ابزارهای جدید هوش مصنوعی Adobe برای مجموعه‌ی Creative Cloud",
+   "url": "https://9to5mac.com/2026/11/10/adobe-unveils-new-ai-tools-for-photoshop-premiere-and-more-with-mcp-support-coming-in-2027/",
+   "source": "9to5Mac",
+   "label": "9to5Mac",
+   "pool": "editorial",
+   "score": 0.4656,
+   "at": "2026-11-10T14:55:31.753557+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "air",
-    "control",
-    "disks",
-    "faa",
-    "finally",
-    "floppy",
-    "phases",
-    "phasing",
-    "traffic"
-   ],
-   "at": "2026-11-06T07:53:50.688887+00:00"
-  },
-  {
-   "sig": [
-    "blender",
-    "faster",
-    "gpui",
-    "much",
-    "runtime"
-   ],
-   "at": "2026-11-06T08:54:02.873246+00:00"
-  },
-  {
-   "sig": [
-    "breach",
-    "chainalysis",
-    "credentials",
-    "exposes",
-    "forces",
-    "key",
-    "services",
-    "shutdown",
-    "users"
-   ],
-   "at": "2026-11-06T08:54:11.182057+00:00"
-  },
-  {
-   "sig": [
-    "alternative",
-    "earth",
-    "google",
-    "kugelblitz",
-    "mac-native"
-   ],
-   "at": "2026-11-06T09:54:24.045381+00:00"
-  },
-  {
-   "sig": [
-    "ambitions",
-    "britain",
-    "china",
-    "depend",
-    "minerals",
-    "mps",
-    "tech",
-    "warn"
-   ],
-   "at": "2026-11-06T09:54:43.521081+00:00"
-  },
   {
    "sig": [
     "censorship",
@@ -12860,17 +12844,87 @@
     "upstairs"
    ],
    "at": "2026-11-10T13:55:03.345989+00:00"
+  },
+  {
+   "sig": [
+    "adds",
+    "atlas",
+    "boston",
+    "dynamics",
+    "humanoid",
+    "wheels"
+   ],
+   "at": "2026-11-10T14:54:13.136411+00:00"
+  },
+  {
+   "sig": [
+    "media",
+    "netflix",
+    "self-hosted",
+    "server",
+    "show",
+    "spotify"
+   ],
+   "at": "2026-11-10T14:54:50.854139+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "bug",
+    "confirmed",
+    "confirms",
+    "customer",
+    "data",
+    "expert",
+    "exposed",
+    "finds",
+    "flaw",
+    "hotel",
+    "hotels",
+    "resorts",
+    "security",
+    "wyndham"
+   ],
+   "at": "2026-11-10T14:54:57.171299+00:00"
+  },
+  {
+   "sig": [
+    "1.4",
+    "1.404",
+    "anthropic",
+    "implied",
+    "ipo",
+    "per",
+    "price",
+    "range",
+    "reach",
+    "sets",
+    "share",
+    "targets",
+    "trillion",
+    "valuation"
+   ],
+   "at": "2026-11-10T14:55:14.549448+00:00"
+  },
+  {
+   "sig": [
+    "adobe",
+    "agents",
+    "brings",
+    "coming",
+    "creative",
+    "firefly",
+    "mcp",
+    "photoshop",
+    "premiere",
+    "support",
+    "tools",
+    "unveils"
+   ],
+   "at": "2026-11-10T14:55:31.753557+00:00"
   }
  ],
  "snapshots": {
-  "hn:50293879": [
-   83,
-   "2026-10-29T23:24:37.264862+00:00"
-  ],
-  "lobsters:siebde": [
-   29,
-   "2026-10-29T23:24:37.264862+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzzn7ncdc2c": [
    435,
    "2026-10-29T23:24:37.264862+00:00"
@@ -15262,6 +15316,14 @@
   "hn:50438480": [
    147,
    "2026-11-10T13:53:41.338690+00:00"
+  ],
+  "hn:50439000": [
+   179,
+   "2026-11-10T14:53:48.956138+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxnpsucf62f": [
+   122,
+   "2026-11-10T14:53:48.956138+00:00"
   ]
  },
  "skips": {
@@ -15287,19 +15349,19 @@
   "Engadget": 41,
   "Neowin": 18,
   "Wired": 21,
-  "TechRadar": 32,
-  "Slashdot": 24,
+  "TechRadar": 33,
+  "Slashdot": 25,
   "404 Media": 35,
   "Xe Iaso": 2,
   "The Verge": 21,
   "Cloudflare": 1,
-  "TechCrunch AI": 16,
+  "TechCrunch AI": 17,
   "Lobsters": 9,
   "Tom's Hardware": 32,
   "ZDNet": 4,
-  "9to5Mac": 13,
+  "9to5Mac": 14,
   "EFF": 2,
-  "Hacker News": 37,
+  "Hacker News": 38,
   "TechSpot": 17,
   "The Hacker News": 27,
   "Latent Space": 3,
@@ -15330,19 +15392,19 @@
   "Engadget": "2026-11-10T08:54:24.464468+00:00",
   "Neowin": "2026-11-09T17:54:10.899288+00:00",
   "Wired": "2026-11-10T13:54:47.029930+00:00",
-  "TechRadar": "2026-11-10T09:54:17.383846+00:00",
-  "Slashdot": "2026-11-09T08:54:12.648083+00:00",
+  "TechRadar": "2026-11-10T14:54:57.171410+00:00",
+  "Slashdot": "2026-11-10T14:54:13.136539+00:00",
   "404 Media": "2026-11-09T15:55:04.459028+00:00",
   "Xe Iaso": "2026-11-09T02:54:20.896292+00:00",
   "The Verge": "2026-11-10T13:54:53.165290+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
-  "TechCrunch AI": "2026-11-10T08:54:11.493335+00:00",
+  "TechCrunch AI": "2026-11-10T14:55:14.549569+00:00",
   "Lobsters": "2026-11-10T11:53:54.560480+00:00",
   "Tom's Hardware": "2026-11-10T11:54:35.380747+00:00",
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
-  "9to5Mac": "2026-11-10T10:53:55.757129+00:00",
+  "9to5Mac": "2026-11-10T14:55:31.753692+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-10T13:53:43.202308+00:00",
+  "Hacker News": "2026-11-10T14:54:50.854282+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-10T12:54:19.974106+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
