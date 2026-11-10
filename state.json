@@ -1,12 +1,5 @@
 {
  "seen": [
-  "6a906b97096f095c67a177d0",
-  "hn:49548952",
-  "https://techcrunch.com/?p=3160347",
-  "https://3dnews.ru/1147921/#6a996d6e742eec615a8b456d",
-  "888e036fd5dea1c1bff54e3c79eae58c",
-  "https://www.theverge.com/?p=985474",
-  "https://www.engadget.com/2250197/nvidia-buys-hugging-face/",
   "https://www.phoronix.com/news/NVIDIA-Hugging-Face",
   "https://www.neowin.net/news/nvidias-jensen-huang-explains-why-its-buying-hugging-face-for-nearly-13-billion/",
   "hn:49551760",
@@ -2999,18 +2992,25 @@
   "https://techcrunch.com/?p=3186772",
   "https://www.theverge.com/?p=1030703",
   "https://9to5mac.com/?p=1078170",
-  "https://techcrunch.com/?p=3186771"
+  "https://techcrunch.com/?p=3186771",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxnpsucf62f",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxop6khy52n",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxpwyxblc2k",
+  "hn:50441518",
+  "hn:50441707",
+  "hn:50442202",
+  "hn:50442691"
  ],
  "posted": {
-  "viral": 681,
+  "viral": 686,
   "editorial": 933
  },
  "recent_labels": [
-  "Slashdot",
+  "404 Media",
+  "404 Media",
   "Hacker News",
-  "TechRadar",
-  "TechCrunch AI",
-  "9to5Mac"
+  "Hacker News",
+  "Hacker News"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8829,70 +8829,54 @@
    "pool": "editorial",
    "score": 0.4656,
    "at": "2026-11-10T14:55:31.753557+00:00"
+  },
+  {
+   "title": "محدودیت شرکت‌های بزرگ برای استفاده از هوش مصنوعی در مهندسی معکوس",
+   "url": "https://www.404media.co/reverse-engineer-anything-ai-companies-crack-down-on-the-coolest-thing-people-were-doing-with-ai/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.26005,
+   "at": "2026-11-10T17:53:48.556625+00:00"
+  },
+  {
+   "title": "محدودیت‌های جدید شرکت‌های هوش مصنوعی برای جلوگیری از مهندسی معکوس مدل‌ها",
+   "url": "https://www.404media.co/come-and-take-it/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.24494,
+   "at": "2026-11-10T17:53:56.759858+00:00"
+  },
+  {
+   "title": "خانه‌های هوشمند باید بدون وابستگی به اینترنت کار کنند",
+   "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+   "source": "docodethatmatters.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.17837,
+   "at": "2026-11-10T17:54:16.203244+00:00"
+  },
+  {
+   "title": "استخدام سناتور سابق توسط Palantir برای مقابله با فشارهای سیاسی",
+   "url": "https://text.npr.org/nx-s1-6029641",
+   "source": "text.npr.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.27505,
+   "at": "2026-11-10T17:54:22.025751+00:00"
+  },
+  {
+   "title": "رمزگذاری نام دامنه Tailscale با استفاده از آدرس‌های IPv6",
+   "url": "https://www.reddit.com/r/Tailscale/comments/1xsr24r/tailscales_dns_ipv6_spells_out_tailscale_easter/",
+   "source": "reddit.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.25159,
+   "at": "2026-11-10T17:54:41.934376+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "censorship",
-    "crackdown",
-    "documenting",
-    "india",
-    "online",
-    "silenced",
-    "those",
-    "watchdogs"
-   ],
-   "at": "2026-11-06T09:54:49.849333+00:00"
-  },
-  {
-   "sig": [
-    "around",
-    "code",
-    "model",
-    "network",
-    "openai",
-    "own",
-    "restrictions",
-    "sandbox",
-    "wrote"
-   ],
-   "at": "2026-11-06T09:54:58.169258+00:00"
-  },
-  {
-   "sig": [
-    "cyber",
-    "engagement",
-    "gpt-6",
-    "openai",
-    "promises",
-    "releases",
-    "rules",
-    "stays",
-    "within"
-   ],
-   "at": "2026-11-06T10:54:19.733001+00:00"
-  },
-  {
-   "sig": [
-    "bytes",
-    "dos",
-    "x-87"
-   ],
-   "at": "2026-11-06T10:54:28.514501+00:00"
-  },
-  {
-   "sig": [
-    "best",
-    "budget",
-    "cpu",
-    "gpu",
-    "pcs",
-    "scaling",
-    "tested"
-   ],
-   "at": "2026-11-06T10:54:43.209704+00:00"
-  },
   {
    "sig": [
     "0.102.3101",
@@ -12922,69 +12906,64 @@
     "unveils"
    ],
    "at": "2026-11-10T14:55:31.753557+00:00"
+  },
+  {
+   "sig": [
+    "devices",
+    "future",
+    "hacking",
+    "local",
+    "open-weight"
+   ],
+   "at": "2026-11-10T17:53:48.556625+00:00"
+  },
+  {
+   "sig": [
+    "anything",
+    "companies",
+    "crack",
+    "down",
+    "engineer",
+    "reverse"
+   ],
+   "at": "2026-11-10T17:53:56.759858+00:00"
+  },
+  {
+   "sig": [
+    "devices",
+    "home",
+    "internet",
+    "should",
+    "smart",
+    "without",
+    "work"
+   ],
+   "at": "2026-11-10T17:54:16.203244+00:00"
+  },
+  {
+   "sig": [
+    "congress",
+    "democratic",
+    "faces",
+    "former",
+    "hires",
+    "palantir",
+    "scrutiny",
+    "senator"
+   ],
+   "at": "2026-11-10T17:54:22.025751+00:00"
+  },
+  {
+   "sig": [
+    "dns",
+    "ipv6",
+    "spells",
+    "tailscale"
+   ],
+   "at": "2026-11-10T17:54:41.934376+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzzn7ncdc2c": [
-   435,
-   "2026-10-29T23:24:37.264862+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzy25ui5i2c": [
-   667,
-   "2026-10-29T23:24:37.264862+00:00"
-  ],
-  "hn:50295450": [
-   146,
-   "2026-10-30T01:53:47.686669+00:00"
-  ],
-  "hn:50293023": [
-   209,
-   "2026-10-30T01:53:47.686669+00:00"
-  ],
-  "hn:50292727": [
-   285,
-   "2026-10-30T01:53:47.686669+00:00"
-  ],
-  "hn:50291421": [
-   102,
-   "2026-10-30T01:53:47.686669+00:00"
-  ],
-  "hn:50296602": [
-   215,
-   "2026-10-30T01:53:47.686669+00:00"
-  ],
-  "hn:50296585": [
-   136,
-   "2026-10-30T01:53:47.686669+00:00"
-  ],
-  "hn:50295821": [
-   83,
-   "2026-10-30T01:53:47.686669+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz2lx5a2i52j": [
-   20,
-   "2026-10-30T01:53:47.686669+00:00"
-  ],
-  "hn:50294702": [
-   3552,
-   "2026-10-30T02:53:40.386954+00:00"
-  ],
-  "hn:50297697": [
-   73,
-   "2026-10-30T02:53:40.386954+00:00"
-  ],
-  "hn:50297089": [
-   78,
-   "2026-10-30T02:53:40.386954+00:00"
-  ],
-  "hn:50291116": [
-   84,
-   "2026-10-30T02:53:40.386954+00:00"
-  ],
-  "hn:50291902": [
-   66,
-   "2026-10-30T03:53:41.191622+00:00"
-  ],
   "hn:50298964": [
    91,
    "2026-10-30T03:53:41.191622+00:00"
@@ -15322,8 +15301,68 @@
    "2026-11-10T14:53:48.956138+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxnpsucf62f": [
-   122,
-   "2026-11-10T14:53:48.956138+00:00"
+   393,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "hn:50442691": [
+   89,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "hn:50442426": [
+   263,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "hn:50442303": [
+   412,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "hn:50442202": [
+   325,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "hn:50441707": [
+   205,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "hn:50441518": [
+   88,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "hn:50440668": [
+   266,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "hn:50439448": [
+   83,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "hn:50439284": [
+   273,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "hn:50438377": [
+   153,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "hn:50438042": [
+   75,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "lobsters:gj5obq": [
+   40,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "lobsters:vkkbwo": [
+   29,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxpwyxblc2k": [
+   153,
+   "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxop6khy52n": [
+   212,
+   "2026-11-10T17:53:44.026163+00:00"
   ]
  },
  "skips": {
@@ -15332,9 +15371,9 @@
   "Wired": 7,
   "TechRadar": 4,
   "Lobsters": 2,
-  "Hacker News": 13,
+  "Hacker News": 14,
   "The Next Web": 1,
-  "404 Media": 3,
+  "404 Media": 4,
   "Emily M. Bender": 2,
   "Simon Willison": 1,
   "Xe Iaso": 1,
@@ -15351,7 +15390,7 @@
   "Wired": 21,
   "TechRadar": 33,
   "Slashdot": 25,
-  "404 Media": 35,
+  "404 Media": 37,
   "Xe Iaso": 2,
   "The Verge": 21,
   "Cloudflare": 1,
@@ -15361,7 +15400,7 @@
   "ZDNet": 4,
   "9to5Mac": 14,
   "EFF": 2,
-  "Hacker News": 38,
+  "Hacker News": 41,
   "TechSpot": 17,
   "The Hacker News": 27,
   "Latent Space": 3,
@@ -15394,7 +15433,7 @@
   "Wired": "2026-11-10T13:54:47.029930+00:00",
   "TechRadar": "2026-11-10T14:54:57.171410+00:00",
   "Slashdot": "2026-11-10T14:54:13.136539+00:00",
-  "404 Media": "2026-11-09T15:55:04.459028+00:00",
+  "404 Media": "2026-11-10T17:53:56.759993+00:00",
   "Xe Iaso": "2026-11-09T02:54:20.896292+00:00",
   "The Verge": "2026-11-10T13:54:53.165290+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -15404,7 +15443,7 @@
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-10T14:55:31.753692+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-10T14:54:50.854282+00:00",
+  "Hacker News": "2026-11-10T17:54:41.934492+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-10T12:54:19.974106+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
