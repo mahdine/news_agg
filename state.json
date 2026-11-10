@@ -1,14 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mucpspuhrv27",
-  "6a94514445866f3284262379",
-  "https://www.engadget.com/2247074/google-maps-has-changed-lake-ontario-to-lake-america-for-us-users/",
-  "https://tech.slashdot.org/story/26/08/30/1850233/google-maps-renamed-lake-ontario-to-lake-america---but-only-for-us-users?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://www.neowin.net/news/google-bows-to-trump-as-it-renames-lake-ontario-to-lake-america-in-google-maps/",
-  "TheNextWeb=5f28ad2f21702b717929e66f5f06365c",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mue3rpzsdk2i",
-  "hn:49506819",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mufeho5l4s2k",
   "https://news.slashdot.org/story/26/08/31/1646204/mapquests-app-surges-to-no-1-in-navigation-after-refusing-to-rename-lake-ontario?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "hn:49512574",
   "hn:49512856",
@@ -2999,18 +2990,27 @@
   "https://www.securityweek.com/?p=50642",
   "https://www.cnews.ru/news/line/2026-11-10_diasoft_vypustila_versiyu",
   "gt56N6RjYd9u4mubzvzcyn",
-  "https://www.cnews.ru/news/line/2026-11-10_transtelekom_predstavil"
+  "https://www.cnews.ru/news/line/2026-11-10_transtelekom_predstavil",
+  "https://9to5mac.com/?p=1078144",
+  "5e9395570cebf95d0c4ad48781b2b6fc",
+  "hn:50437242",
+  "TheNextWeb=7188e8311638aa5b442e98dcb939fb98",
+  "https://www.theverge.com/?p=1030061",
+  "8iQj3VLhZR2FWrdtXMfJK5",
+  "https://www.phoronix.com/news/Fedora-46-Approves-RPM-v6",
+  "8f5edf350ac36c39ee76672413f9721e",
+  "e84320426f2618e74e09e59a6fe5e9e0"
  ],
  "posted": {
   "viral": 675,
-  "editorial": 916
+  "editorial": 921
  },
  "recent_labels": [
-  "Hacker News",
-  "SecurityWeek",
-  "CNews",
-  "TechRadar",
-  "CNews"
+  "9to5Mac",
+  "The Next Web",
+  "Tom's Hardware",
+  "Phoronix",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8622,59 +8622,54 @@
    "pool": "editorial",
    "score": 0.22307,
    "at": "2026-11-10T09:54:30.469373+00:00"
+  },
+  {
+   "title": "دادگاه کانادایی شکایت گروهی علیه اپل بابت همکاری با گوگل را تایید کرد",
+   "url": "https://9to5mac.com/2026/11/09/canadian-court-certifies-class-action-against-apple-over-google-search-deal/",
+   "source": "9to5Mac",
+   "label": "9to5Mac",
+   "pool": "editorial",
+   "score": 0.37346,
+   "at": "2026-11-10T10:53:55.757013+00:00"
+  },
+  {
+   "title": "ابزار جدید اینستاگرام برای ساخت فیلترهای استوری با هوش مصنوعی",
+   "url": "https://thenextweb.com/news/instagram-effect-builder-ai-stories-filters",
+   "source": "The Next Web",
+   "label": "The Next Web",
+   "pool": "editorial",
+   "score": 0.18945,
+   "at": "2026-11-10T10:54:20.926175+00:00"
+  },
+  {
+   "title": "اجرای بازی Doom روی ماهواره ESA با فرمان صوتی از زمین",
+   "url": "https://www.tomshardware.com/tech-industry/space/orbiting-esa-satellite-plays-doom-after-receiving-voice-commands-from-amateur-radio-operators-on-earth-27-mb-ai-speech-model-executes-the-game-on-the-seventh-attempt",
+   "source": "Tom's Hardware",
+   "label": "Tom's Hardware",
+   "pool": "editorial",
+   "score": 0.20229,
+   "at": "2026-11-10T10:54:28.746045+00:00"
+  },
+  {
+   "title": "تغییرات فنی در فرمت بسته‌بندی توزیع Fedora 46",
+   "url": "https://www.phoronix.com/news/Fedora-46-Approves-RPM-v6",
+   "source": "Phoronix",
+   "label": "Phoronix",
+   "pool": "editorial",
+   "score": 0.22154,
+   "at": "2026-11-10T10:54:35.367298+00:00"
+  },
+  {
+   "title": "کلاهبرداری با جایگزینی کدهای QR در اماکن عمومی",
+   "url": "https://hi-tech.mail.ru/news/160174-ekspert-moshenniki-raskleivayut-opasnye-qr-kody/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.19759,
+   "at": "2026-11-10T10:55:16.560722+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "16b",
-    "ads",
-    "cuban",
-    "deepfake",
-    "docs",
-    "facebook",
-    "fraud",
-    "knowingly",
-    "revenue",
-    "runs",
-    "scam"
-   ],
-   "at": "2026-11-06T01:54:02.871319+00:00"
-  },
-  {
-   "sig": [
-    "agent",
-    "audit",
-    "coding",
-    "did",
-    "local",
-    "show",
-    "stroq"
-   ],
-   "at": "2026-11-06T02:53:52.672914+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "launch",
-    "orchestrate",
-    "rivet",
-    "scale",
-    "w23"
-   ],
-   "at": "2026-11-06T02:54:01.450879+00:00"
-  },
-  {
-   "sig": [
-    "hy4",
-    "launches",
-    "leading",
-    "models",
-    "open-source",
-    "tencent"
-   ],
-   "at": "2026-11-06T02:54:07.919580+00:00"
-  },
   {
    "sig": [
     "code",
@@ -12694,13 +12689,68 @@
     "want"
    ],
    "at": "2026-11-10T09:54:17.383736+00:00"
+  },
+  {
+   "sig": [
+    "action",
+    "apple",
+    "canadian",
+    "certifies",
+    "class",
+    "court",
+    "deal",
+    "google",
+    "search",
+    "telegram",
+    "wikipedia"
+   ],
+   "at": "2026-11-10T10:53:55.757013+00:00"
+  },
+  {
+   "sig": [
+    "builder",
+    "effect",
+    "filters",
+    "instagram",
+    "launches",
+    "making",
+    "prompts",
+    "stories",
+    "text"
+   ],
+   "at": "2026-11-10T10:54:20.926175+00:00"
+  },
+  {
+   "sig": [
+    "amateur",
+    "commands",
+    "doom",
+    "earth",
+    "esa",
+    "operators",
+    "orbiting",
+    "plays",
+    "radio",
+    "receiving",
+    "satellite",
+    "voice"
+   ],
+   "at": "2026-11-10T10:54:28.746045+00:00"
+  },
+  {
+   "sig": [
+    "approved",
+    "fedora",
+    "flag",
+    "format",
+    "rejected",
+    "rpm",
+    "thinlto"
+   ],
+   "at": "2026-11-10T10:54:35.367298+00:00"
   }
  ],
  "snapshots": {
-  "hn:50292233": [
-   88,
-   "2026-10-29T18:33:48.942449+00:00"
-  ],
   "hn:50289590": [
    58,
    "2026-10-29T18:33:48.942449+00:00"
@@ -15096,6 +15146,10 @@
   "hn:50435898": [
    103,
    "2026-11-10T09:53:47.980193+00:00"
+  ],
+  "hn:50437242": [
+   112,
+   "2026-11-10T10:53:48.929972+00:00"
   ]
  },
  "skips": {
@@ -15104,7 +15158,7 @@
   "Wired": 7,
   "TechRadar": 3,
   "Lobsters": 2,
-  "Hacker News": 11,
+  "Hacker News": 12,
   "The Next Web": 1,
   "404 Media": 3,
   "Emily M. Bender": 2,
@@ -15113,7 +15167,7 @@
   "Simon Willison RSS": 1,
   "CNews": 3,
   "vc.ru": 2,
-  "Hi-Tech Mail": 1
+  "Hi-Tech Mail": 2
  },
  "posts_by_label": {
   "Engadget": 41,
@@ -15127,9 +15181,9 @@
   "Cloudflare": 1,
   "TechCrunch AI": 16,
   "Lobsters": 8,
-  "Tom's Hardware": 30,
+  "Tom's Hardware": 31,
   "ZDNet": 3,
-  "9to5Mac": 12,
+  "9to5Mac": 13,
   "EFF": 2,
   "Hacker News": 33,
   "TechSpot": 17,
@@ -15137,15 +15191,15 @@
   "Latent Space": 3,
   "InfoQ": 14,
   "The Register": 22,
-  "Phoronix": 21,
-  "The Next Web": 21,
+  "Phoronix": 22,
+  "The Next Web": 22,
   "Android Police": 19,
   "Ars Technica": 1,
   "Simon Willison": 2,
   "Simon Willison RSS": 6,
   "vc.ru": 11,
   "SecurityWeek": 11,
-  "Hi-Tech Mail": 32,
+  "Hi-Tech Mail": 33,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
@@ -15170,9 +15224,9 @@
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-10T08:54:11.493335+00:00",
   "Lobsters": "2026-11-10T02:54:56.814982+00:00",
-  "Tom's Hardware": "2026-11-09T17:54:16.481286+00:00",
+  "Tom's Hardware": "2026-11-10T10:54:28.746148+00:00",
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
-  "9to5Mac": "2026-11-10T05:54:10.013815+00:00",
+  "9to5Mac": "2026-11-10T10:53:55.757129+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
   "Hacker News": "2026-11-10T09:53:50.242668+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
@@ -15180,15 +15234,15 @@
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
   "InfoQ": "2026-11-10T06:54:51.221334+00:00",
   "The Register": "2026-11-10T08:53:46.758920+00:00",
-  "Phoronix": "2026-11-09T10:55:05.292394+00:00",
-  "The Next Web": "2026-11-10T08:54:18.866518+00:00",
+  "Phoronix": "2026-11-10T10:54:35.367397+00:00",
+  "The Next Web": "2026-11-10T10:54:20.926292+00:00",
   "Android Police": "2026-11-09T11:54:03.532431+00:00",
   "Ars Technica": "2026-10-31T11:53:40.882295+00:00",
   "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-08T17:54:19.515702+00:00",
   "SecurityWeek": "2026-11-10T09:53:59.738403+00:00",
-  "Hi-Tech Mail": "2026-11-10T07:54:26.972313+00:00",
+  "Hi-Tech Mail": "2026-11-10T10:55:16.560832+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
