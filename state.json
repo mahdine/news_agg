@@ -1,16 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtyhwn4v2s22",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtyvaf4wm223",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtyjgnouqv2z",
-  "112285 at https://www.eff.org",
-  "hn:49448819",
-  "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
-  "https://yro.slashdot.org/story/26/08/26/1632251/meta-reaches-18-billion-of-settlements-over-childrens-social-media-addiction?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://www.neowin.net/news/metas-18-billion-teen-addiction-settlement-could-force-tougher-rules-on-youtube-and-tiktok/",
-  "6a8e3628a900bd9d58335a70",
-  "https://techcrunch.com/?p=3157343",
-  "https://www.technologyreview.com/?p=1143013",
   "https://www.engadget.com/2245119/openai-details-the-failures-that-led-to-hugging-face-breach-in-official-report/",
   "https://it.slashdot.org/story/26/08/26/2058223/openai-releases-its-official-report-on-the-hugging-face-breach?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://yro.slashdot.org/story/26/08/25/2259204/alabama-launches-investigation-into-openais-hack-of-hugging-face?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -2999,18 +2988,29 @@
   "hn:50429636",
   "hn:50430621",
   "hn:50431144",
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvxcprg2c2b"
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvxcprg2c2b",
+  "https://9to5mac.com/?p=1078081",
+  "https://www.neowin.net/news/anthropics-claude-fable-52-beats-gpt-6-astra-in-coding-can-even-build-an-operating-system/",
+  "TheNextWeb=e5da1f4fd812dc9f0e97cdbae5743047",
+  "hn:50433541",
+  "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+  "hn:50434310",
+  "hn:50435660",
+  "https://www.cnews.ru/news/line/2026-11-10_kikshering_yurent_podvel",
+  "https://www.cnews.ru/news/line/2026-11-10_eshche_1500_semej_tsentralnogo",
+  "3245833",
+  "https://www.cnews.ru/news/line/2026-11-10_za_poryadkom_vo_dvorah_muravlenko"
  ],
  "posted": {
-  "viral": 671,
-  "editorial": 896
+  "viral": 673,
+  "editorial": 898
  },
  "recent_labels": [
+  "antirez",
+  "9to5Mac",
   "Hacker News",
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "antirez"
+  "CNews"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8406,41 +8406,45 @@
    "pool": "viral",
    "score": 0.01932,
    "at": "2026-11-10T03:55:22.527474+00:00"
+  },
+  {
+   "title": "آپدیت جدید شرکت Anthropic برای مدل هوش مصنوعی Claude",
+   "url": "https://9to5mac.com/2026/11/09/anthropic-upgrades-claude-with-new-fable-5-2-model-details-here/",
+   "source": "9to5Mac",
+   "label": "9to5Mac",
+   "pool": "editorial",
+   "score": 0.09542,
+   "at": "2026-11-10T05:54:10.013692+00:00"
+  },
+  {
+   "title": "فریم‌ورک متن‌باز Exact برای توسعه برنامه‌های بومی با هوش مصنوعی",
+   "url": "https://github.com/expo/exact",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00802,
+   "at": "2026-11-10T05:54:34.157492+00:00"
+  },
+  {
+   "title": "افزایش نگرانی‌ها از بازدهی اوراق قرضه شرکت‌های فعال در حوزه هوش مصنوعی",
+   "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+   "source": "cnbc.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.02764,
+   "at": "2026-11-10T05:56:05.182661+00:00"
+  },
+  {
+   "title": "گسترش شبکه نظارت تصویری هوشمند در شهر موراولنکو روسیه",
+   "url": "https://www.cnews.ru/news/line/2026-11-10_za_poryadkom_vo_dvorah_muravlenko",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.20787,
+   "at": "2026-11-10T05:57:23.950498+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agilex",
-    "altera",
-    "announces",
-    "complete",
-    "fpga",
-    "portfolio",
-    "soc"
-   ],
-   "at": "2026-11-05T16:53:48.570843+00:00"
-  },
-  {
-   "sig": [
-    "audio",
-    "codec",
-    "fit",
-    "n64",
-    "obscure",
-    "perfect"
-   ],
-   "at": "2026-11-05T16:53:56.282855+00:00"
-  },
-  {
-   "sig": [
-    "companies",
-    "knew",
-    "tech",
-    "wish"
-   ],
-   "at": "2026-11-05T16:54:02.841210+00:00"
-  },
   {
    "sig": [
     "progress",
@@ -12448,17 +12452,55 @@
     "which"
    ],
    "at": "2026-11-10T03:55:22.527474+00:00"
+  },
+  {
+   "sig": [
+    "5.2",
+    "anthropic",
+    "astra",
+    "beats",
+    "build",
+    "claude",
+    "coding",
+    "cuts",
+    "details",
+    "even",
+    "fable",
+    "gpt-6",
+    "here",
+    "launches",
+    "model",
+    "mythos",
+    "operating",
+    "price",
+    "system",
+    "upgrades"
+   ],
+   "at": "2026-11-10T05:54:10.013692+00:00"
+  },
+  {
+   "sig": [
+    "cross",
+    "exact",
+    "framework",
+    "platform"
+   ],
+   "at": "2026-11-10T05:54:34.157492+00:00"
+  },
+  {
+   "sig": [
+    "bond",
+    "coreweave",
+    "credit",
+    "rises",
+    "stress",
+    "tops",
+    "yield"
+   ],
+   "at": "2026-11-10T05:56:05.182661+00:00"
   }
  ],
  "snapshots": {
-  "hn:50291945": [
-   408,
-   "2026-10-29T17:53:42.546055+00:00"
-  ],
-  "hn:50290912": [
-   63,
-   "2026-10-29T17:53:42.546055+00:00"
-  ],
   "hn:50286197": [
    257,
    "2026-10-29T17:53:42.546055+00:00"
@@ -14823,10 +14865,6 @@
    141,
    "2026-11-10T03:53:47.781290+00:00"
   ],
-  "hn:50429024": [
-   483,
-   "2026-11-10T03:53:47.781290+00:00"
-  ],
   "hn:50428907": [
    343,
    "2026-11-10T03:53:47.781290+00:00"
@@ -14843,13 +14881,25 @@
    23,
    "2026-11-10T03:53:47.781290+00:00"
   ],
-  "hn:50433541": [
-   144,
-   "2026-11-10T03:53:47.781290+00:00"
-  ],
   "hn:50427501": [
    66,
    "2026-11-10T03:53:47.781290+00:00"
+  ],
+  "hn:50429024": [
+   511,
+   "2026-11-10T05:53:49.978755+00:00"
+  ],
+  "hn:50433541": [
+   193,
+   "2026-11-10T05:53:49.978755+00:00"
+  ],
+  "hn:50435660": [
+   136,
+   "2026-11-10T05:53:49.978755+00:00"
+  ],
+  "hn:50434310": [
+   168,
+   "2026-11-10T05:53:49.978755+00:00"
   ]
  },
  "skips": {
@@ -14863,7 +14913,10 @@
   "404 Media": 3,
   "Emily M. Bender": 2,
   "Simon Willison": 1,
-  "Xe Iaso": 1
+  "Xe Iaso": 1,
+  "Simon Willison RSS": 1,
+  "CNews": 2,
+  "vc.ru": 1
  },
  "posts_by_label": {
   "Engadget": 40,
@@ -14879,9 +14932,9 @@
   "Lobsters": 8,
   "Tom's Hardware": 30,
   "ZDNet": 3,
-  "9to5Mac": 11,
+  "9to5Mac": 12,
   "EFF": 2,
-  "Hacker News": 29,
+  "Hacker News": 31,
   "TechSpot": 17,
   "The Hacker News": 24,
   "Latent Space": 3,
@@ -14899,7 +14952,7 @@
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 24,
+  "CNews": 25,
   "Emily M. Bender": 3,
   "antirez": 5,
   "OpenAI": 1,
@@ -14922,9 +14975,9 @@
   "Lobsters": "2026-11-10T02:54:56.814982+00:00",
   "Tom's Hardware": "2026-11-09T17:54:16.481286+00:00",
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
-  "9to5Mac": "2026-11-09T14:55:21.585137+00:00",
+  "9to5Mac": "2026-11-10T05:54:10.013815+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-10T03:55:12.890777+00:00",
+  "Hacker News": "2026-11-10T05:56:05.182772+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-09T13:53:44.618335+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
@@ -14942,7 +14995,7 @@
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-09T10:54:59.687789+00:00",
+  "CNews": "2026-11-10T05:57:23.950599+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-05T02:53:58.432643+00:00",
