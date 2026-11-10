@@ -1,24 +1,5 @@
 {
  "seen": [
-  "https://www.engadget.com/2245119/openai-details-the-failures-that-led-to-hugging-face-breach-in-official-report/",
-  "https://it.slashdot.org/story/26/08/26/2058223/openai-releases-its-official-report-on-the-hugging-face-breach?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://yro.slashdot.org/story/26/08/25/2259204/alabama-launches-investigation-into-openais-hack-of-hugging-face?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "TheNextWeb=00f50b1e96918727440861c58352eec6",
-  "hn:49465119",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mu3jkxqauc24",
-  "6a9065915033b3e1c94cf74d",
-  "https://www.theverge.com/?p=985910",
-  "https://www.engadget.com/2245942/guns-cars-and-chihuahuas-breaking-down-the-gta-6-extended-look/",
-  "https://www.neowin.net/news/how-to-watch-todays-gta-6-extended-look-on-netflix-and-youtube/",
-  "hn:49471965",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mu5nky7sus2x",
-  "https://www.techspot.com/news/113641-hyundai-ceo-local-car-dealership-could-sell-you.html",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mu6ecu63ys2n",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mu6jmp5ltc2m",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mu6l5rw3p22m",
-  "lobsters:mroowi",
-  "hn:49488282",
-  "01M11810QJGXPR0NHE510EFS6F",
   "SPhMgstaKDWz63ptZBRVi3",
   "https://www.techspot.com/news/113665-cloudflare-freed-up-100tb-ram-behind-1111-dns.html",
   "6a8f2d32377f7d54e320aa59",
@@ -2999,18 +2980,37 @@
   "https://www.cnews.ru/news/line/2026-11-10_kikshering_yurent_podvel",
   "https://www.cnews.ru/news/line/2026-11-10_eshche_1500_semej_tsentralnogo",
   "3245833",
-  "https://www.cnews.ru/news/line/2026-11-10_za_poryadkom_vo_dvorah_muravlenko"
+  "https://www.cnews.ru/news/line/2026-11-10_za_poryadkom_vo_dvorah_muravlenko",
+  "TheNextWeb=875c38e3b9f579a6e468ded07a43fad8",
+  "https://www.neowin.net/news/metas-new-muse-ember-takes-on-gpt-6-luna-and-claude-haiku-55-at-a-fraction-of-the-cost/",
+  "69e797cacf619515a9f2476a",
+  "6a1d974498d38dd18285ad2e",
+  "67d855d0dbfd501733b277c9",
+  "69c2a669ff7423eb206178f9",
+  "69b47d46e0d041773c4cf9c3",
+  "69a71144866212c46886fe62",
+  "689e0aa38fc7fd16c2301579",
+  "69cc125c3fe11c8093235c75",
+  "6a68c215e27da33a4140f55b",
+  "6a7a19f4496322432d6a4ead",
+  "6a206922bde53b4239dfceb0",
+  "68b06d6eaaf2b3cf2410574c",
+  "69b421887c62fea374a4a3b4",
+  "hn:50436640",
+  "https://www.securityweek.com/?p=50638",
+  "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+  "https://www.infoq.com/news/2026/11/effect-4-0-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
  ],
  "posted": {
-  "viral": 673,
-  "editorial": 898
+  "viral": 674,
+  "editorial": 902
  },
  "recent_labels": [
-  "antirez",
-  "9to5Mac",
+  "The Next Web",
   "Hacker News",
-  "Hacker News",
-  "CNews"
+  "SecurityWeek",
+  "The Hacker News",
+  "InfoQ"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8442,77 +8442,54 @@
    "pool": "editorial",
    "score": 0.20787,
    "at": "2026-11-10T05:57:23.950498+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل هوش مصنوعی Muse Ember توسط متا با هزینه‌ی کمتر",
+   "url": "https://thenextweb.com/news/meta-muse-ember-small-ai-model-haiku-luna",
+   "source": "The Next Web",
+   "label": "The Next Web",
+   "pool": "editorial",
+   "score": 0.2467,
+   "at": "2026-11-10T06:53:50.343591+00:00"
+  },
+  {
+   "title": "کاهش ۹۸ درصدی هزینه‌های آمازون با جایگزینی مدل‌های زبانی",
+   "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+   "source": "strandsagents.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.17512,
+   "at": "2026-11-10T06:53:57.816371+00:00"
+  },
+  {
+   "title": "رفع آسیب‌پذیری روز-صفر در مرورگر Chrome",
+   "url": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/",
+   "source": "SecurityWeek",
+   "label": "SecurityWeek",
+   "pool": "editorial",
+   "score": 0.1753,
+   "at": "2026-11-10T06:54:03.292161+00:00"
+  },
+  {
+   "title": "هشدار CISA درباره بهره‌برداری فعال از چهار آسیب‌پذیری بحرانی در نرم‌افزارها",
+   "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.24802,
+   "at": "2026-11-10T06:54:10.062388+00:00"
+  },
+  {
+   "title": "انتشار نسخه ۴.۰ فریم‌ورک Effect با بازنویسی کامل و بهبود عملکرد",
+   "url": "https://www.infoq.com/news/2026/11/effect-4-0-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "label": "InfoQ",
+   "pool": "editorial",
+   "score": 0.21013,
+   "at": "2026-11-10T06:54:51.221231+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "progress",
-    "rectangles",
-    "rounded",
-    "september",
-    "servo"
-   ],
-   "at": "2026-11-05T16:54:08.672322+00:00"
-  },
-  {
-   "sig": [
-    "centers",
-    "data",
-    "fall",
-    "fear",
-    "fraud",
-    "kingpins",
-    "rejected",
-    "rise",
-    "unlocked",
-    "voters"
-   ],
-   "at": "2026-11-05T16:54:14.622120+00:00"
-  },
-  {
-   "sig": [
-    "astra",
-    "covertly",
-    "gpt-6",
-    "research",
-    "safety",
-    "underperforms"
-   ],
-   "at": "2026-11-05T17:53:55.629087+00:00"
-  },
-  {
-   "sig": [
-    "console",
-    "down",
-    "dropped",
-    "due",
-    "going",
-    "help",
-    "increase",
-    "isn",
-    "last",
-    "nintendo",
-    "price",
-    "sales",
-    "switch",
-    "tag",
-    "year"
-   ],
-   "at": "2026-11-05T17:54:04.657981+00:00"
-  },
-  {
-   "sig": [
-    "amazon",
-    "app",
-    "dedicated",
-    "launched",
-    "shop",
-    "temu",
-    "tiktok"
-   ],
-   "at": "2026-11-05T17:54:13.066175+00:00"
-  },
   {
    "sig": [
     "act",
@@ -12498,13 +12475,83 @@
     "yield"
    ],
    "at": "2026-11-10T05:56:05.182661+00:00"
+  },
+  {
+   "sig": [
+    "5.5",
+    "claude",
+    "cost",
+    "ember",
+    "fraction",
+    "gpt-6",
+    "haiku",
+    "luna",
+    "matches",
+    "meta",
+    "muse",
+    "per",
+    "takes",
+    "task",
+    "third"
+   ],
+   "at": "2026-11-10T06:53:50.343591+00:00"
+  },
+  {
+   "sig": [
+    "4.6",
+    "amazon",
+    "decider",
+    "millions",
+    "replacing",
+    "saves",
+    "sonnet",
+    "strands"
+   ],
+   "at": "2026-11-10T06:53:57.816371+00:00"
+  },
+  {
+   "sig": [
+    "chrome",
+    "eighth",
+    "exploited",
+    "patches",
+    "update",
+    "xml",
+    "year",
+    "zero-day"
+   ],
+   "at": "2026-11-10T06:54:03.292161+00:00"
+  },
+  {
+   "sig": [
+    "active",
+    "cisa",
+    "exploitation",
+    "flaws",
+    "freeswitch",
+    "gpustack",
+    "ibm",
+    "openssh",
+    "warns"
+   ],
+   "at": "2026-11-10T06:54:10.062388+00:00"
+  },
+  {
+   "sig": [
+    "4.0",
+    "bundles",
+    "dependency-free",
+    "effect",
+    "long-term",
+    "rewrite",
+    "ships",
+    "smaller",
+    "support"
+   ],
+   "at": "2026-11-10T06:54:51.221231+00:00"
   }
  ],
  "snapshots": {
-  "hn:50286197": [
-   257,
-   "2026-10-29T17:53:42.546055+00:00"
-  ],
   "hn:50286987": [
    362,
    "2026-10-29T18:33:48.942449+00:00"
@@ -14900,12 +14947,16 @@
   "hn:50434310": [
    168,
    "2026-11-10T05:53:49.978755+00:00"
+  ],
+  "hn:50436640": [
+   80,
+   "2026-11-10T06:53:48.423607+00:00"
   ]
  },
  "skips": {
   "Tom's Hardware": 3,
   "Article 19": 1,
-  "Wired": 4,
+  "Wired": 7,
   "TechRadar": 3,
   "Lobsters": 2,
   "Hacker News": 11,
@@ -14934,20 +14985,20 @@
   "ZDNet": 3,
   "9to5Mac": 12,
   "EFF": 2,
-  "Hacker News": 31,
+  "Hacker News": 32,
   "TechSpot": 17,
-  "The Hacker News": 24,
+  "The Hacker News": 25,
   "Latent Space": 3,
-  "InfoQ": 13,
+  "InfoQ": 14,
   "The Register": 21,
   "Phoronix": 21,
-  "The Next Web": 19,
+  "The Next Web": 20,
   "Android Police": 19,
   "Ars Technica": 1,
   "Simon Willison": 2,
   "Simon Willison RSS": 6,
   "vc.ru": 11,
-  "SecurityWeek": 9,
+  "SecurityWeek": 10,
   "Hi-Tech Mail": 29,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
@@ -14977,20 +15028,20 @@
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-10T05:54:10.013815+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-10T05:56:05.182772+00:00",
+  "Hacker News": "2026-11-10T06:53:57.816490+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
-  "The Hacker News": "2026-11-09T13:53:44.618335+00:00",
+  "The Hacker News": "2026-11-10T06:54:10.062494+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
-  "InfoQ": "2026-11-09T14:55:15.429811+00:00",
+  "InfoQ": "2026-11-10T06:54:51.221334+00:00",
   "The Register": "2026-11-09T14:55:08.024667+00:00",
   "Phoronix": "2026-11-09T10:55:05.292394+00:00",
-  "The Next Web": "2026-11-08T14:54:59.780482+00:00",
+  "The Next Web": "2026-11-10T06:53:50.343716+00:00",
   "Android Police": "2026-11-09T11:54:03.532431+00:00",
   "Ars Technica": "2026-10-31T11:53:40.882295+00:00",
   "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-08T17:54:19.515702+00:00",
-  "SecurityWeek": "2026-11-09T08:54:18.014071+00:00",
+  "SecurityWeek": "2026-11-10T06:54:03.292270+00:00",
   "Hi-Tech Mail": "2026-11-09T14:55:01.881920+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
