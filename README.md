@@ -244,6 +244,7 @@ src/
   telegram.py    sendPhoto and sendMessage
   state.py       seen-item tracking
   scorecard.py   writes scorecard.html (the serverless dashboard)
+  configedit.py  line-oriented editor for config.yaml (preserves Persian comments)
   models.py      the Item dataclass
 config.yaml      sources and tuning
 state.json       written by the bot, committed by the workflow
@@ -255,9 +256,13 @@ Dependencies are `httpx`, `feedparser`, and `PyYAML`. Nothing else.
 
 ## Scorecard
 
-Each run also writes `scorecard.html` — a self-contained, serverless dashboard that the `publish` workflow deploys to GitHub Pages as `index.html` in the same run (only that one page is served, so `state.json` and the rest of the repo never leave the repository). It shows, per active source: posts in the last 7 days and in total, last post, Gemini skip rate, average score, current tuning (`authority` / `min_engagement` / `min_points`), plus a recommendations section with explicit thresholds — silent sources, high-skip sources, pool-share drift, concentration on a single source. Timestamps are shown in Tehran time (UTC+3:30).
+Each run also writes `scorecard.html` — a self-contained, serverless dashboard that the `publish` workflow deploys to GitHub Pages as `index.html` in the same run (only that one page is served, so `state.json` and the rest of the repo never leave the repository). It has two tabs:
 
-Use it as a diagnosis tool, not a remote config: read the recommendations, then make a small `config.yaml` edit. It is regenerated on every run and committed alongside `state.json`.
+**Scorecard** — for each active source: posts in the last 7 days and in total, last post, Gemini skip rate, average score, current tuning (`authority` / `min_engagement` / `min_points`), plus a recommendations section with explicit thresholds — sources that are silent and should be disabled, sources with high skip rates, and sources posting heavily at low scores. Timestamps are shown in Tehran time (UTC+3:30).
+
+**Config** — a live editor over `config.yaml`. It lists every source (active *and* commented-out ones, since PyYAML cannot see the latter) plus the global settings. Tick a source to disable/enable it, edit `authority` / `min_engagement` / `min_points` / `max_age_hours` per source or any value in `settings`, and add a new source. The output is generated **in the browser** by a small line-oriented engine (`src/configedit.py` mirrors the same rules in Python for the backend) so all Persian comments and formatting in `config.yaml` are preserved byte-for-byte. Two export buttons: copy the resulting YAML to the clipboard, or open a chat window with it pre-filled. Nothing is written to the repository from the browser — copy the YAML, commit it, and the next run picks it up.
+
+Use the Scorecard tab to diagnose and the Config tab to prepare the fix: read the recommendations, edit the settings, copy the generated YAML, then commit `config.yaml`. Nothing is ever written to the repository from the browser, and the scorecard is regenerated on every run and committed alongside `state.json`.
 
 To enable it: Settings → Pages → Build and deployment → Source: **GitHub Actions**. URL: `https://<owner>.github.io/<repo>/`.
 

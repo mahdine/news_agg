@@ -50,6 +50,7 @@ def main() -> int:
     load_dotenv(ROOT / ".env")
 
     config = yaml.safe_load(args.config.read_text(encoding="utf-8"))
+    config_text = args.config.read_text(encoding="utf-8")
     settings = config.get("settings", {})
 
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
@@ -97,7 +98,7 @@ def main() -> int:
         state.save()
         # scorecard کنار state نوشته می‌شود تا workflow همان را commit کند.
         try:
-            scorecard.generate(state, config, ROOT / "scorecard.html")
+            scorecard.generate(state, config, config_text, ROOT / "scorecard.html")
         except Exception as exc:
             # scorecard ابزار دیباگ است؛ شکستنش نباید اجرای پست را خراب کند.
             log.warning("scorecard ساخته نشد: %s", exc)

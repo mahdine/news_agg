@@ -17,7 +17,15 @@
   }
   .wrap { max-width: 1080px; margin: 0 auto; }
   h1 { font-size: 22px; margin: 0 0 4px; }
-  .sub { color: var(--mut); margin-bottom: 24px; font-size: 13px; }
+  .sub { color: var(--mut); margin-bottom: 16px; font-size: 13px; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 20px; }
+  .tab {
+    padding: 8px 18px; border: 1px solid var(--border); border-radius: 8px;
+    background: var(--card); color: var(--fg); cursor: pointer; font-size: 14px; font-weight: 600;
+  }
+  .tab.active { border-color: var(--accent); color: var(--accent); }
+  .view { display: none; }
+  .view.active { display: block; }
   .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px,1fr)); gap: 12px; margin-bottom: 24px; }
   .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
   .card .n { font-size: 26px; font-weight: 700; }
@@ -29,9 +37,9 @@
   h2 { font-size: 16px; margin: 28px 0 12px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
   table { width: 100%; border-collapse: collapse; font-size: 13px; }
   th, td { text-align: right; padding: 7px 10px; border-bottom: 1px solid var(--border); white-space: nowrap; }
-  th { color: var(--mut); font-weight: 600; position: sticky; top: 0; background: var(--bg); }
+  th { color: var(--mut); font-weight: 600; position: sticky; top: 0; background: var(--bg); z-index: 1; }
   td.num { font-variant-numeric: tabular-nums; }
-  td.lbl { max-width: 220px; overflow: hidden; text-overflow: ellipsis; font-weight: 600; }
+  td.lbl { max-width: 210px; overflow: hidden; text-overflow: ellipsis; font-weight: 600; }
   td.mut, .mut { color: var(--mut); }
   tr:hover td { background: #161b22; }
   .pool { font-size: 11px; padding: 2px 8px; border-radius: 10px; border: 1px solid var(--border); }
@@ -43,13 +51,54 @@
   ul.checks li { margin: 8px 0; line-height: 1.7; }
   .footer { color: var(--mut); font-size: 12px; margin-top: 32px; text-align: center; }
   .tbl-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; }
+  input[type=number] {
+    width: 74px; background: var(--bg); color: var(--fg); border: 1px solid var(--border);
+    border-radius: 6px; padding: 4px 6px; font: inherit; font-size: 13px;
+  }
+  input[type=number]:focus { outline: none; border-color: var(--accent); }
+  input[type=checkbox] { width: 16px; height: 16px; accent-color: var(--accent); cursor: pointer; }
+  .row-changed td { background: #1c2530 !important; }
+  .fldlbl { display: inline-block; min-width: 88px; color: var(--mut); font-size: 11px; }
+  .btn {
+    display: inline-block; padding: 8px 16px; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--card); color: var(--fg); cursor: pointer; font: inherit; font-size: 14px; font-weight: 600;
+  }
+  .btn:disabled { opacity: .5; cursor: not-allowed; }
+  .btn.primary { background: #238636; border-color: #2ea043; color: #fff; }
+  .actions { display: flex; gap: 10px; flex-wrap: wrap; margin: 16px 0; }
+  .changelist { font-size: 13px; color: var(--mut); margin: 8px 0; line-height: 1.9; }
+  .changelist b { color: var(--fg); }
+  #yamlOut {
+    width: 100%; min-height: 200px; max-height: 480px; overflow: auto; background: #010409; color: #c9d1d9;
+    border: 1px solid var(--border); border-radius: 10px; padding: 14px;
+    font: 12px/1.6 ui-monospace, Consolas, monospace; direction: ltr; text-align: left; white-space: pre; tab-size: 2;
+  }
+  .hint { font-size: 12px; color: var(--mut); line-height: 1.9; margin: 10px 0; }
+  .addsrc { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; align-items: center; }
+  .addsrc input, .addsrc select {
+    background: var(--bg); color: var(--fg); border: 1px solid var(--border); border-radius: 6px;
+    padding: 6px 8px; font: inherit; font-size: 13px;
+  }
+  .addsrc input[type=text] { width: 200px; }
+  .addsrc input[type=url] { width: 280px; }
+  .note {
+    border: 1px solid #58a6ff44; background: #58a6ff11; border-radius: 8px;
+    padding: 10px 14px; font-size: 13px; line-height: 1.9; margin: 12px 0;
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>📊 Scorecard</h1>
-  <div class="sub">سلامتی منابع و پیشنهادهای تنظیم — به‌روزرسانی 2026-11-10 02:52 (تهران)</div>
+  <div class="sub">سلامتی منابع و تنظیمات — به‌روزرسانی 2026-11-10 14:40 (تهران)</div>
 
+  <div class="tabs">
+    <button class="tab active" data-view="score">Scorecard</button>
+    <button class="tab" data-view="config">Config</button>
+  </div>
+
+  <!-- ═══════════════ تب ۱: Scorecard (تشخیص) ═══════════════ -->
+  <div class="view active" id="view-score">
   <div class="cards">
     <div class="card"><div class="n">53</div><div class="l">منبع فعال</div></div>
     <div class="card"><div class="n">1552</div><div class="l">کل پست‌ها</div></div>
@@ -63,7 +112,7 @@
   </div>
 
   <h2>پیشنهادها</h2>
-  <ul class="checks"><li>🔇 12 منبع فعال تا حالا هیچ پست نداده‌اند: AI Snake Oil, Andrej Karpathy, Article 19, Brian Krebs, Global Voices Iran, Import AI, LangChain Blog, MalwareTech, OONI, Sebastian Raschka, The Gradient, VentureBeat AI. برای هرکدام یکی از سه دلیل: URL فید مرده، آستانه‌ی min_engagement/min_points سخت، یا همیشه رقیب قوی‌تری جلوتر است. فیدها را دستی باز کن و min_* را شل کن.</li><li>🕰️ منابعی که مدتی است پست ندادند: Cloudflare (10 روز), Ars Technica (9 روز), MIT Tech Review (7 روز), Filippo Valsorda (7 روز), Dan Luu (7 روز).</li></ul>
+  <ul class="checks"><li>🔇 12 منبع فعال تا حالا هیچ پست نداده‌اند: AI Snake Oil, Andrej Karpathy, Article 19, Brian Krebs, Global Voices Iran, Import AI, LangChain Blog, MalwareTech, OONI, Sebastian Raschka, The Gradient, VentureBeat AI. برای هرکدام یکی از سه دلیل: URL فید مرده، آستانه‌ی min_engagement/min_points سخت، یا همیشه رقیب قوی‌تری جلوتر است. فیدها را دستی باز کن و min_* را شل کن.</li><li>🕰️ منابعی که مدتی است پست ندادند: Cloudflare (11 روز), Ars Technica (10 روز), MIT Tech Review (8 روز), Filippo Valsorda (8 روز), Dan Luu (7 روز).</li></ul>
 
   <h2>منابع</h2>
   <div class="tbl-scroll">
@@ -72,11 +121,391 @@
       <th>منبع</th><th>استخر</th><th>۷روز</th><th>کل</th>
       <th>آخرین پست</th><th>skip</th><th>میانگین امتیاز</th><th>تنظیمات</th><th>وضعیت</th>
     </tr></thead>
-    <tbody><tr><td class='lbl'>Engadget</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>2</td><td class='num'>40</td><td>6 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.521</td><td class='mut'>auth 0.70</td><td></td></tr><tr><td class='lbl'>404 Media</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>1</td><td class='num'>35</td><td>7 ساعت</td><td class='num'>1 <span class='mut'>(3٪)</span></td><td class='num'>0.584</td><td class='mut'>min_eng 60</td><td></td></tr><tr><td class='lbl'>TechRadar</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>31</td><td>6 ساعت</td><td class='num'>3 <span class='mut'>(9٪)</span></td><td class='num'>0.447</td><td class='mut'>auth 0.60</td><td></td></tr><tr><td class='lbl'>Tom&#x27;s Hardware</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>3</td><td class='num'>30</td><td>5 ساعت</td><td class='num'>3 <span class='mut'>(9٪)</span></td><td class='num'>0.257</td><td class='mut'>auth 0.75</td><td></td></tr><tr><td class='lbl'>Hi-Tech Mail</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>2</td><td class='num'>29</td><td>8 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.319</td><td class='mut'>auth 0.60</td><td></td></tr><tr><td class='lbl'>CNews</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>2</td><td class='num'>24</td><td>12 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.171</td><td class='mut'>auth 0.65</td><td></td></tr><tr><td class='lbl'>Slashdot</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>24</td><td>14 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.70</td><td></td></tr><tr><td class='lbl'>The Hacker News</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>2</td><td class='num'>24</td><td>9 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.191</td><td class='mut'>auth 0.90</td><td></td></tr><tr><td class='lbl'>Phoronix</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>21</td><td>12 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.204</td><td class='mut'>auth 0.75</td><td></td></tr><tr><td class='lbl'>The Register</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>2</td><td class='num'>21</td><td>8 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.318</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>The Verge</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>3</td><td class='num'>20</td><td>7 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.232</td><td class='mut'>auth 0.85</td><td></td></tr><tr><td class='lbl'>Android Police</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>19</td><td>11 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.162</td><td class='mut'>auth 0.60</td><td></td></tr><tr><td class='lbl'>The Next Web</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>19</td><td>32 ساعت</td><td class='num'>1 <span class='mut'>(5٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.60</td><td></td></tr><tr><td class='lbl'>Wired</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>19</td><td>11 ساعت</td><td class='num'>4 <span class='mut'>(17٪)</span></td><td class='num'>0.163</td><td class='mut'>auth 0.85</td><td></td></tr><tr><td class='lbl'>Neowin</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>2</td><td class='num'>18</td><td>5 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.180</td><td class='mut'>auth 0.60</td><td></td></tr><tr><td class='lbl'>Hacker News</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>9</td><td class='num'>17</td><td>5 ساعت</td><td class='num'>4 <span class='mut'>(19٪)</span></td><td class='num'>0.195</td><td class='mut'>min_pts 50</td><td></td></tr><tr><td class='lbl'>TechSpot</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>17</td><td>31 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.65</td><td></td></tr><tr><td class='lbl'>TechCrunch AI</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>15</td><td>29 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>InfoQ</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>13</td><td>8 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.433</td><td class='mut'>auth 0.75</td><td></td></tr><tr><td class='lbl'>9to5Mac</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>11</td><td>8 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.211</td><td class='mut'>auth 0.65</td><td></td></tr><tr><td class='lbl'>vc.ru</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>11</td><td>29 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.65</td><td></td></tr><tr><td class='lbl'>SecurityWeek</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>9</td><td>14 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>Lobsters</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>2</td><td class='num'>6</td><td>5 ساعت</td><td class='num'>1 <span class='mut'>(14٪)</span></td><td class='num'>0.129</td><td class='mut'>min_eng 25</td><td></td></tr><tr><td class='lbl'>Simon Willison RSS</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>6</td><td>17 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.90</td><td></td></tr><tr><td class='lbl'>antirez</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>2</td><td class='num'>4</td><td>5 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.336</td><td class='mut'>min_eng 15</td><td></td></tr><tr><td class='lbl'>Emily M. Bender</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>3</td><td>4.9 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 50</td><td></td></tr><tr><td class='lbl'>Latent Space</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>3</td><td>6 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.252</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>ZDNet</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>3</td><td>3.3 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.70</td><td></td></tr><tr><td class='lbl'>EFF</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>2</td><td>3.6 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.85</td><td></td></tr><tr><td class='lbl'>Simon Willison</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>2</td><td>3.0 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 30</td><td></td></tr><tr><td class='lbl'>Xe Iaso</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>2</td><td>20 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 5</td><td></td></tr><tr><td class='lbl'>Access Now</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>4.5 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.90</td><td></td></tr><tr><td class='lbl'>Ars Technica</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>9.5 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.85</td><td></td></tr><tr><td class='lbl'>Cloudflare</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>10.2 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>Dan Luu</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>1</td><td>6.7 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 5</td><td></td></tr><tr><td class='lbl'>Filippo Valsorda</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>1</td><td>7.3 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 30</td><td></td></tr><tr><td class='lbl'>Google AI</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>3.8 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.85</td><td></td></tr><tr><td class='lbl'>Hugging Face</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>4.9 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.70</td><td></td></tr><tr><td class='lbl'>MIT Tech Review</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>7.4 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>OpenAI</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>4.9 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.90</td><td></td></tr><tr><td class='lbl'>Rest of World</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>14 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>AI Snake Oil</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.85</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>Andrej Karpathy</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 20</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>Article 19</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>1 <span class='mut'>(100٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>Brian Krebs</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 5</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>Global Voices Iran</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.75</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>Import AI</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.85</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>LangChain Blog</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>MalwareTech</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 30</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>OONI</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.85</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>Sebastian Raschka</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 20</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>The Gradient</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>VentureBeat AI</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.70</td><td><span class="tag tag-silent">خاموش</span></td></tr></tbody>
+    <tbody><tr><td class='lbl'>Engadget</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>2</td><td class='num'>40</td><td>18 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.521</td><td class='mut'>auth 0.70</td><td></td></tr><tr><td class='lbl'>404 Media</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>1</td><td class='num'>35</td><td>19 ساعت</td><td class='num'>1 <span class='mut'>(3٪)</span></td><td class='num'>0.584</td><td class='mut'>min_eng 60</td><td></td></tr><tr><td class='lbl'>TechRadar</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>31</td><td>18 ساعت</td><td class='num'>3 <span class='mut'>(9٪)</span></td><td class='num'>0.447</td><td class='mut'>auth 0.60</td><td></td></tr><tr><td class='lbl'>Tom&#x27;s Hardware</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>3</td><td class='num'>30</td><td>17 ساعت</td><td class='num'>3 <span class='mut'>(9٪)</span></td><td class='num'>0.257</td><td class='mut'>auth 0.75</td><td></td></tr><tr><td class='lbl'>Hi-Tech Mail</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>2</td><td class='num'>29</td><td>20 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.319</td><td class='mut'>auth 0.60</td><td></td></tr><tr><td class='lbl'>CNews</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>2</td><td class='num'>24</td><td>24 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.171</td><td class='mut'>auth 0.65</td><td></td></tr><tr><td class='lbl'>Slashdot</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>24</td><td>26 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.70</td><td></td></tr><tr><td class='lbl'>The Hacker News</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>2</td><td class='num'>24</td><td>21 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.191</td><td class='mut'>auth 0.90</td><td></td></tr><tr><td class='lbl'>Phoronix</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>21</td><td>24 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.204</td><td class='mut'>auth 0.75</td><td></td></tr><tr><td class='lbl'>The Register</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>2</td><td class='num'>21</td><td>20 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.318</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>The Verge</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>3</td><td class='num'>20</td><td>19 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.232</td><td class='mut'>auth 0.85</td><td></td></tr><tr><td class='lbl'>Android Police</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>19</td><td>23 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.162</td><td class='mut'>auth 0.60</td><td></td></tr><tr><td class='lbl'>The Next Web</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>19</td><td>44 ساعت</td><td class='num'>1 <span class='mut'>(5٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.60</td><td></td></tr><tr><td class='lbl'>Wired</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>19</td><td>23 ساعت</td><td class='num'>4 <span class='mut'>(17٪)</span></td><td class='num'>0.163</td><td class='mut'>auth 0.85</td><td></td></tr><tr><td class='lbl'>Neowin</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>2</td><td class='num'>18</td><td>17 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.180</td><td class='mut'>auth 0.60</td><td></td></tr><tr><td class='lbl'>Hacker News</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>9</td><td class='num'>17</td><td>17 ساعت</td><td class='num'>4 <span class='mut'>(19٪)</span></td><td class='num'>0.195</td><td class='mut'>min_pts 50</td><td></td></tr><tr><td class='lbl'>TechSpot</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>17</td><td>43 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.65</td><td></td></tr><tr><td class='lbl'>TechCrunch AI</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>15</td><td>41 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>InfoQ</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>13</td><td>20 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.433</td><td class='mut'>auth 0.75</td><td></td></tr><tr><td class='lbl'>9to5Mac</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>11</td><td>20 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.211</td><td class='mut'>auth 0.65</td><td></td></tr><tr><td class='lbl'>vc.ru</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>11</td><td>41 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.65</td><td></td></tr><tr><td class='lbl'>SecurityWeek</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>9</td><td>26 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>Lobsters</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>2</td><td class='num'>6</td><td>17 ساعت</td><td class='num'>1 <span class='mut'>(14٪)</span></td><td class='num'>0.129</td><td class='mut'>min_eng 25</td><td></td></tr><tr><td class='lbl'>Simon Willison RSS</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>6</td><td>29 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.90</td><td></td></tr><tr><td class='lbl'>antirez</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>2</td><td class='num'>4</td><td>17 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.336</td><td class='mut'>min_eng 15</td><td></td></tr><tr><td class='lbl'>Emily M. Bender</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>3</td><td>5.4 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 50</td><td></td></tr><tr><td class='lbl'>Latent Space</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>1</td><td class='num'>3</td><td>18 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.252</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>ZDNet</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>3</td><td>3.8 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.70</td><td></td></tr><tr><td class='lbl'>EFF</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>2</td><td>4.1 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.85</td><td></td></tr><tr><td class='lbl'>Simon Willison</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>2</td><td>3.5 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 30</td><td></td></tr><tr><td class='lbl'>Xe Iaso</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>2</td><td>32 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 5</td><td></td></tr><tr><td class='lbl'>Access Now</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>5.0 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.90</td><td></td></tr><tr><td class='lbl'>Ars Technica</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>10.0 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.85</td><td></td></tr><tr><td class='lbl'>Cloudflare</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>10.7 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>Dan Luu</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>1</td><td>7.2 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 5</td><td></td></tr><tr><td class='lbl'>Filippo Valsorda</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>1</td><td>7.8 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 30</td><td></td></tr><tr><td class='lbl'>Google AI</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>4.3 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.85</td><td></td></tr><tr><td class='lbl'>Hugging Face</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>5.3 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.70</td><td></td></tr><tr><td class='lbl'>MIT Tech Review</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>7.9 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>OpenAI</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>5.3 روز</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.90</td><td></td></tr><tr><td class='lbl'>Rest of World</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>1</td><td>26 ساعت</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td></td></tr><tr><td class='lbl'>AI Snake Oil</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.85</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>Andrej Karpathy</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 20</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>Article 19</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>1 <span class='mut'>(100٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>Brian Krebs</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 5</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>Global Voices Iran</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.75</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>Import AI</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.85</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>LangChain Blog</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>MalwareTech</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 30</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>OONI</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.85</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>Sebastian Raschka</td><td><span class='pool pool-viral'>viral</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>min_eng 20</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>The Gradient</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.80</td><td><span class="tag tag-silent">خاموش</span></td></tr><tr><td class='lbl'>VentureBeat AI</td><td><span class='pool pool-editorial'>editorial</span></td><td class='num'>0</td><td class='num'>0</td><td>—</td><td class='num'>0 <span class='mut'>(0٪)</span></td><td class='num'>0.000</td><td class='mut'>auth 0.70</td><td><span class="tag tag-silent">خاموش</span></td></tr></tbody>
   </table>
+  </div>
+  </div>
+
+  <!-- ═══════════════ تب ۲: Config (ویرایش) ═══════════════ -->
+  <div class="view" id="view-config">
+  <div class="note">تغییرات اینجا فقط <b>متن YAML</b> می‌سازند؛ خودِ صفحه‌ی استاتیک به هیچ‌جا نمی‌نویسد.
+  بعد از زدن «تولید»، YAML را کپی کن و یا در GitHub روی <code>config.yaml</code> paste و commit کن،
+  یا فهرست تغییرات را برای bot بفرست. هر تغییر، یک commit با diff در گیت باقی می‌ماند — کامنت‌های فارسی فایل حفظ می‌شوند.</div>
+
+  <h2>تنظیمات عمومی (settings)</h2>
+  <div class="tbl-scroll">
+  <table id="settingsTable">
+    <thead><tr><th>تنظیم</th><th>مقدار فعلی</th><th>تغییر</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  </div>
+
+  <h2>منابع</h2>
+  <div class="tbl-scroll">
+  <table id="sourcesTable">
+    <thead><tr><th>منبع</th><th>نوع</th><th>تنظیم</th><th>فعال</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  </div>
+
+  <h2>افزودن منبع جدید</h2>
+  <div class="addsrc">
+    <span class="mut">نوع:</span>
+    <select id="newType">
+      <option value="rss">rss (فید)</option>
+      <option value="bluesky">bluesky</option>
+    </select>
+    <input type="url" id="newUrl" placeholder="https://site.com/feed.xml">
+    <input type="text" id="newHandle" placeholder="handle.bsky.social" style="display:none">
+    <input type="text" id="newLabel" placeholder="label">
+    <input type="number" id="newAuthority" placeholder="authority" step="0.05" min="0" max="1" style="width:90px">
+    <input type="number" id="newMinEng" placeholder="min_engagement" step="1" style="display:none;width:120px">
+    <button class="btn" id="addBtn">افزودن</button>
+  </div>
+
+  <div class="actions">
+    <button class="btn primary" id="genBtn" disabled>📋 تولید config.yaml</button>
+    <button class="btn" id="copyYamlBtn" style="display:none">کپی YAML کامل</button>
+    <button class="btn" id="copyChangesBtn" style="display:none">📝 کپی تغییرات برای چت</button>
+    <button class="btn" id="resetBtn" style="display:none">بازنشانی</button>
+  </div>
+  <div class="changelist" id="changes"></div>
+  <pre id="yamlOut" style="display:none"></pre>
+  <div class="hint">نکته: برای حذف یک منبع، تیک «فعال» را بردار — بلوکش کامنت می‌شود (نه حذف) و بعدا‌ با زدن دوباره‌ی تیک برمی‌گردد.
+  ردیف‌های آبی‌رنگ یعنی تغییری نسبت به مقدار فعلی دارند.</div>
   </div>
 
   <div class="footer">تولید خودکار توسط bot · scorecard.html کنار state.json commit می‌شود</div>
 </div>
+
+<script>
+const CONFIG = {"settings": {"max_posts_per_run": 5, "spare_candidates": 3, "viral_share": 0.5, "max_age_hours": 12, "editorial_max_age_hours": 72, "seconds_between_posts": 4, "min_text_length": 80, "min_ranked_text_length": 30, "scrape_images": true, "min_image_side": 400, "scrape_article_text": true, "weekly_digest": true, "digest_weekday": 4, "digest_hour_utc": 14, "digest_size": 5, "gemini_models": ["gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-3-flash-preview", "gemini-2.5-flash"]}, "sources": [{"label": "Hacker News", "kind": "hackernews", "commented": false, "type": "hackernews", "min_points": 50}, {"label": "Lobsters", "kind": "lobsters", "commented": false, "type": "lobsters", "min_engagement": 25}, {"label": "404 Media", "kind": "bluesky", "commented": false, "type": "bluesky", "handle": "404media.co", "min_engagement": 60}, {"label": "Simon Willison", "kind": "bluesky", "commented": false, "type": "bluesky", "handle": "simonwillison.net", "min_engagement": 30}, {"label": "Emily M. Bender", "kind": "bluesky", "commented": false, "type": "bluesky", "handle": "emilymbender.bsky.social", "min_engagement": 50}, {"label": "MalwareTech", "kind": "bluesky", "commented": false, "type": "bluesky", "handle": "malwaretech.com", "min_engagement": 30}, {"label": "Filippo Valsorda", "kind": "bluesky", "commented": false, "type": "bluesky", "handle": "filippo.abyssdomain.expert", "min_engagement": 30}, {"label": "antirez", "kind": "bluesky", "commented": false, "type": "bluesky", "handle": "antirez.bsky.social", "min_engagement": 15}, {"label": "Sebastian Raschka", "kind": "bluesky", "commented": false, "type": "bluesky", "handle": "rasbt.bsky.social", "min_engagement": 20}, {"label": "Andrej Karpathy", "kind": "bluesky", "commented": false, "type": "bluesky", "handle": "karpathy.bsky.social", "min_engagement": 20}, {"label": "Xe Iaso", "kind": "bluesky", "commented": false, "type": "bluesky", "handle": "xeiaso.net", "min_engagement": 5}, {"label": "Dan Luu", "kind": "bluesky", "commented": false, "type": "bluesky", "handle": "danluu.com", "min_engagement": 5}, {"label": "Brian Krebs", "kind": "bluesky", "commented": false, "type": "bluesky", "handle": "briankrebs.bsky.social", "min_engagement": 5}, {"label": "The Hacker News", "kind": "rss", "commented": false, "type": "rss", "url": "https://feeds.feedburner.com/TheHackersNews", "authority": 0.9}, {"label": "BleepingComputer", "kind": "rss", "commented": true, "type": "rss", "url": "https://www.bleepingcomputer.com/feed/", "authority": 0.9}, {"label": "Krebs on Security", "kind": "rss", "commented": true, "type": "rss", "url": "https://krebsonsecurity.com/feed/", "authority": 0.95}, {"label": "The Record", "kind": "rss", "commented": true, "type": "rss", "url": "https://therecord.media/feed", "authority": 0.8}, {"label": "Dark Reading", "kind": "rss", "commented": true, "type": "rss", "url": "https://www.darkreading.com/rss.xml", "authority": 0.75}, {"label": "TechCrunch AI", "kind": "rss", "commented": false, "type": "rss", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "authority": 0.8}, {"label": "VentureBeat AI", "kind": "rss", "commented": false, "type": "rss", "url": "https://venturebeat.com/category/ai/feed/", "authority": 0.7}, {"label": "OpenAI", "kind": "rss", "commented": false, "type": "rss", "url": "https://openai.com/news/rss.xml", "authority": 0.9}, {"label": "Google AI", "kind": "rss", "commented": false, "type": "rss", "url": "https://blog.google/technology/ai/rss/", "authority": 0.85}, {"label": "Hugging Face", "kind": "rss", "commented": false, "type": "rss", "url": "https://huggingface.co/blog/feed.xml", "authority": 0.7}, {"label": "Access Now", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.accessnow.org/feed/", "authority": 0.9, "max_age_hours": 168}, {"label": "EFF", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.eff.org/rss/updates.xml", "authority": 0.85, "max_age_hours": 120}, {"label": "Article 19", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.article19.org/feed/", "authority": 0.8, "max_age_hours": 168}, {"label": "OONI", "kind": "rss", "commented": false, "type": "rss", "url": "https://ooni.org/blog/index.xml", "authority": 0.85, "max_age_hours": 336}, {"label": "Global Voices Iran", "kind": "rss", "commented": false, "type": "rss", "url": "https://globalvoices.org/-/world/middle-east-north-africa/iran/feed/", "authority": 0.75, "max_age_hours": 336}, {"label": "Cloudflare", "kind": "rss", "commented": false, "type": "rss", "url": "https://blog.cloudflare.com/rss/", "authority": 0.8, "max_age_hours": 120}, {"label": "Habr", "kind": "rss", "commented": true, "type": "rss", "url": "https://habr.com/ru/rss/articles/?fl=ru", "authority": 0.8}, {"label": "3DNews", "kind": "rss", "commented": true, "type": "rss", "url": "https://3dnews.ru/news/rss/", "authority": 0.7}, {"label": "iXBT", "kind": "rss", "commented": true, "type": "rss", "url": "https://www.ixbt.com/export/news.rss", "authority": 0.7}, {"label": "Hi-Tech Mail", "kind": "rss", "commented": false, "type": "rss", "url": "https://hi-tech.mail.ru/rss/all/", "authority": 0.6}, {"label": "vc.ru", "kind": "rss", "commented": false, "type": "rss", "url": "https://vc.ru/rss", "authority": 0.65}, {"label": "CNews", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.cnews.ru/inc/rss/news.xml", "authority": 0.65}, {"label": "Ars Technica", "kind": "rss", "commented": false, "type": "rss", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab", "authority": 0.85}, {"label": "MIT Tech Review", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.technologyreview.com/feed/", "authority": 0.8}, {"label": "The Verge", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.theverge.com/rss/index.xml", "authority": 0.85}, {"label": "Wired", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.wired.com/feed/rss", "authority": 0.85}, {"label": "Engadget", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.engadget.com/rss.xml", "authority": 0.7}, {"label": "The Register", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.theregister.com/headlines.atom", "authority": 0.8}, {"label": "ZDNet", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.zdnet.com/news/rss.xml", "authority": 0.7}, {"label": "TechRadar", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.techradar.com/rss", "authority": 0.6}, {"label": "Tom's Hardware", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.tomshardware.com/feeds/all", "authority": 0.75}, {"label": "Phoronix", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.phoronix.com/rss.php", "authority": 0.75}, {"label": "Slashdot", "kind": "rss", "commented": false, "type": "rss", "url": "https://rss.slashdot.org/Slashdot/slashdotMain", "authority": 0.7}, {"label": "TechSpot", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.techspot.com/backend.xml", "authority": 0.65}, {"label": "Neowin", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.neowin.net/news/rss/", "authority": 0.6}, {"label": "9to5Mac", "kind": "rss", "commented": false, "type": "rss", "url": "https://9to5mac.com/feed/", "authority": 0.65}, {"label": "Android Police", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.androidpolice.com/feed/", "authority": 0.6}, {"label": "SecurityWeek", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.securityweek.com/feed/", "authority": 0.8, "max_age_hours": 96}, {"label": "InfoQ", "kind": "rss", "commented": false, "type": "rss", "url": "https://feed.infoq.com/", "authority": 0.75, "max_age_hours": 96}, {"label": "The Next Web", "kind": "rss", "commented": false, "type": "rss", "url": "https://thenextweb.com/feed", "authority": 0.6}, {"label": "Rest of World", "kind": "rss", "commented": false, "type": "rss", "url": "https://restofworld.org/feed/latest/", "authority": 0.8, "max_age_hours": 168}, {"label": "OpenAI on X", "kind": "rss", "commented": true, "type": "rss", "url": "https://xcancel.com/OpenAI/rss", "authority": 0.6}, {"label": "AI Snake Oil", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.aisnakeoil.com/feed", "authority": 0.85}, {"label": "Import AI", "kind": "rss", "commented": false, "type": "rss", "url": "https://importai.substack.com/feed", "authority": 0.85}, {"label": "The Gradient", "kind": "rss", "commented": false, "type": "rss", "url": "https://thegradient.pub/rss/", "authority": 0.8}, {"label": "LangChain Blog", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.langchain.com/blog/rss.xml", "authority": 0.8}, {"label": "Latent Space", "kind": "rss", "commented": false, "type": "rss", "url": "https://www.latent.space/feed", "authority": 0.8}, {"label": "Simon Willison RSS", "kind": "rss", "commented": false, "type": "rss", "url": "https://simonwillison.net/atom/everything/", "authority": 0.9}], "kindFields": {"hackernews": ["min_points"], "lobsters": ["min_engagement"], "bluesky": ["min_engagement"], "rss": ["authority", "max_age_hours"]}, "settingFields": [["max_posts_per_run", "پست در هر اجرا", "number"], ["spare_candidates", "کاندیدای یدکی", "number"], ["viral_share", "سهم viral (۰ تا ۱)", "number"], ["max_age_hours", "سقف سن منابع ویروسی (ساعت)", "number"], ["editorial_max_age_hours", "سقف سن فید خبری (ساعت)", "number"], ["seconds_between_posts", "فاصله‌ی پست‌ها (ثانیه)", "number"], ["min_text_length", "حداقل طول متن فید", "number"], ["scrape_images", "استخراج تصویر", "checkbox"], ["min_image_side", "حداقل ضلع تصویر (px)", "number"], ["scrape_article_text", "استخراج متن مقاله", "checkbox"], ["weekly_digest", "خلاصه‌ی هفتگی", "checkbox"], ["digest_weekday", "روز هفته (۰=دوشنبه…۴=جمعه)", "number"], ["digest_hour_utc", "ساعت digest (UTC)", "number"], ["digest_size", "اندازه‌ی digest", "number"]]};
+const CONFIG_TEXT = "# منابع و تنظیمات کانال.\n#\n# چهار نوع منبع:\n#   bluesky    — اکانت در Bluesky. عدد like/repost/reply می‌دهد، پس امتیاز ویروسی می‌گیرد.\n#   hackernews — داستان‌های تازه‌ی HN بالای min_points. عدد points/comments دارد.\n#   lobsters   — صفحه‌ی hottest لابسترز. سیگنالش برای امنیت و سیستم تمیز است.\n#   rss        — هر فید RSS. عدد تعاملی ندارد، پس با authority و تازگی رتبه می‌گیرد.\n#\n# authority بین ۰ و ۱ — فقط برای منابع rss. یعنی «وقتی هیچ سیگنال تعاملی نداریم،\n# چقدر به این منبع اعتماد کنیم». عدد بالاتر یعنی شانس بیشتر برای انتخاب شدن.\n\nsettings:\n  # یک پست در هر اجرا. تایمر روی cron-job.org است (cron خودِ GitHub ساعتش تضمین\n  # ندارد — برای جزئیات بخش Deploying در README را ببینید).\n  #\n  # عمداً ۱ است تا کانال رگباری نشود. با ۳ پست در هر اجرا، سه پست ظرف ۱۲ ثانیه\n  # پشت هم می‌آمدند و بعد نیم‌ساعت سکوت. حالا فاصله‌ها یکنواخت است.\n  #\n  # ۲۴ اجرا در روز × ۱ پست = سقف ۲۴، و در عمل حدود ۱۸ تا ۲۲ چون همه‌ی اجراها\n  # چیز تازه‌ای پیدا نمی‌کنند. عرضه‌ی واقعی اندازه‌گیری شد: حدود ۴۶ آیتم در روز\n  # قبل از فیلتر موضوعی، پس عرضه محدودکننده نیست و cron تعیین‌کننده است.\n  max_posts_per_run: 5\n\n  # اگر ترجمه‌ی بهترین آیتم شکست بخورد، این تعداد گزینه‌ی بعدی امتحان می‌شود.\n  # بدون این، یک آیتم مشکل‌دار کل اجرا را بی‌نتیجه می‌کرد.\n  spare_candidates: 3\n\n  # نسبت بین دو استخر: نصف پست‌ها اجتماعی (توییت‌ها)، نصف خبری.\n  # چون هر اجرا فقط یک پست دارد، این نسبت داخل یک اجرا اعمال نمی‌شود بلکه در\n  # طول زمان نگه داشته می‌شود؛ شمارشش در state.json است.\n  viral_share: 0.5\n\n  # سقف سن برای منابع دارای عدد تعامل. اینجا تازگی حیاتی است چون کل ایده‌ی\n  # امتیاز ویروسی سرعت رشد در ساعات اول است.\n  max_age_hours: 12\n\n  # سقف سن برای فیدهای خبری. اندازه‌گیری شد: با ۴۸ ساعت فقط ۶ آیتم در روز\n  # عبور می‌کنند و استخر خبری خشک می‌شود، چون فیدهایی مثل Krebs و OpenAI و\n  # MIT دو تا سه روز فاصله بین انتشارها دارند. با ۷۲ ساعت می‌شود ۱۶ در روز.\n  # تابع زوال زمانی خودش قدیمی‌ترها را ته صف می‌گذارد.\n  editorial_max_age_hours: 72\n\n  # فاصله بین ارسال دو پست، برای نخوردن به rate limit تلگرام.\n  seconds_between_posts: 4\n\n  # متن کوتاه‌تر از این در فیدهای خبری احتمالاً ریپلای یا تیتر خالی است.\n  min_text_length: 80\n  # منابع دارای عدد تعامل عنوان کوتاه دارند ولی خودِ عدد کیفیت را ثابت می‌کند.\n  min_ranked_text_length: 30\n\n  # اگر آیتم از فید عکس نداشت: صفحه‌ی مقاله را باز کن و og:image یا یکی از\n  # تصاویر داخل متن را بردار. تصویر کوچک (thumbnail فید، آیکون، لوگو) از مرحله‌ی\n  # اول رد می‌شود. اگر هیچ تصویر مناسبی نبود پست بدون تصویر می‌رود — تصویر\n  # شاخص سایت یا fallback نمی‌رود چون لوگوی سایت برای هر خبر یکی است و\n  # خواننده را گمراه می‌کند.\n  scrape_images: true\n\n  # کوچک‌ترین ضلع مجاز تصویر برای پست، بر حسب پیکسل. تصویر کوچک‌تر از این در\n  # تلگرام یا مربع ریز دیده می‌شود یا کش‌آمده؛ در آن صورت گزینه‌های بعد\n  # امتحان می‌شوند و اگر نبود، پست بی‌عکس می‌رود.\n  min_image_side: 400\n\n  # متن کامل مقاله را با trafilatura استخراج کن و به مدل بده. بدون این، مدل\n  # فقط تیتر را می‌بیند و خلاصه‌ی ۲۵۰ کلمه‌ای چیزی جز بازنویسی تیتر نمی‌شود.\n  scrape_article_text: true\n\n  # خلاصه‌ی هفتگی: جمعه‌ها داغ‌ترین‌های هفته در یک پست. بیشترین forward را\n  # می‌گیرد و forward تنها رشد ارگانیک واقعی تلگرام است.\n  # weekday به سبک پایتون: دوشنبه ۰ … جمعه ۴.\n  weekly_digest: true\n  digest_weekday: 4\n  digest_hour_utc: 14\n  digest_size: 5\n\n  # مدل‌های Gemini، به ترتیب اولویت.\n  #\n  # سهمیه‌ی free tier «به ازای هر مدل در روز» است و برای هر کدام فقط ۲۰ درخواست.\n  # quotaId اش این را صریح می‌گوید: GenerateRequestsPerDayPerProjectPerModel.\n  # پس با یک مدل روزی ۲۰ پست سقف ماست. با چرخیدن بین چند مدل، بودجه چند برابر\n  # می‌شود بدون یک ریال هزینه. وقتی یکی 429 داد، بعدی امتحان می‌شود.\n  #\n  # gemma جواب می‌دهد ولی دستور را نادیده می‌گیرد و متن meta می‌نویسد، پس نیست.\n  gemini_models:\n    - gemini-3.1-flash-lite\n    - gemini-3.5-flash-lite\n    - gemini-3-flash-preview\n    - gemini-2.5-flash\n\nsources:\n  # ─────────────────────────────────────────────── سیگنال ویروسی (عدد تعامل دارند)\n\n  - type: hackernews\n    label: Hacker News\n    min_points: 50\n\n  - type: lobsters\n    label: Lobsters\n    # لابسترز جامعه‌ی کوچکی است و امتیازهایش یک رقمی؛ بدون این کف، یک پست\n    # ۳ امتیازی از یک بحث ۲۰۰ امتیازی HN جلو می‌زند.\n    min_engagement: 25\n\n  # اکانت‌های Bluesky — این‌ها جای توییت را می‌گیرند.\n  #\n  # چرا توییتر واقعی نیست: X برای خواندن پول می‌گیرد، xcancel مرده، و\n  # nitter.net چهل تا هفتاد ساعت عقب است که برای امتیاز ویروسی بی‌فایده است.\n  # Bluesky بلادرنگ است و عدد like/repost/reply هم می‌دهد.\n  #\n  # اکانت‌های خودِ رسانه‌ها (Wired، The Verge، Ars، TechCrunch) عمداً نیستند:\n  # فقط تیتر خودشان را بازنشر می‌کنند و با فیدهای RSS پایین تکراری می‌شوند.\n  # min_engagement حدود نصف میانه‌ی لایک همان اکانت است.\n\n  - type: bluesky\n    handle: 404media.co\n    label: 404 Media\n    min_engagement: 60\n\n  - type: bluesky\n    handle: simonwillison.net\n    label: Simon Willison\n    min_engagement: 30\n\n  - type: bluesky\n    handle: emilymbender.bsky.social\n    label: Emily M. Bender\n    min_engagement: 50\n\n  - type: bluesky\n    handle: malwaretech.com\n    label: MalwareTech\n    min_engagement: 30\n\n  - type: bluesky\n    handle: filippo.abyssdomain.expert\n    label: Filippo Valsorda\n    min_engagement: 30\n\n  - type: bluesky\n    handle: antirez.bsky.social\n    label: antirez\n    min_engagement: 15\n\n  - type: bluesky\n    handle: rasbt.bsky.social\n    label: Sebastian Raschka\n    min_engagement: 20\n\n  - type: bluesky\n    handle: karpathy.bsky.social\n    label: Andrej Karpathy\n    min_engagement: 20\n\n  - type: bluesky\n    handle: xeiaso.net\n    label: Xe Iaso\n    min_engagement: 5\n\n  # این دو کم‌کار شده‌اند ولی وقتی می‌نویسند ارزشش را دارد.\n  - type: bluesky\n    handle: danluu.com\n    label: Dan Luu\n    min_engagement: 5\n\n  - type: bluesky\n    handle: briankrebs.bsky.social\n    label: Brian Krebs\n    min_engagement: 5\n\n  # ─────────────────────────────────────────────────────────── امنیت و هک\n\n  - type: rss\n    url: https://feeds.feedburner.com/TheHackersNews\n    label: The Hacker News\n    authority: 0.9\n\n  # - type: rss\n  #   url: https://www.bleepingcomputer.com/feed/\n  #   label: BleepingComputer\n  #   authority: 0.9\n\n  # - type: rss\n  #   url: https://krebsonsecurity.com/feed/\n  #   label: Krebs on Security\n  #   authority: 0.95\n\n  # - type: rss\n  #   url: https://therecord.media/feed\n  #   label: The Record\n  #   authority: 0.8\n\n  # - type: rss\n  #   url: https://www.darkreading.com/rss.xml\n  #   label: Dark Reading\n  #   authority: 0.75\n\n  # ────────────────────────────────────────────────────────── هوش مصنوعی\n\n  - type: rss\n    url: https://techcrunch.com/category/artificial-intelligence/feed/\n    label: TechCrunch AI\n    authority: 0.8\n\n  - type: rss\n    url: https://venturebeat.com/category/ai/feed/\n    label: VentureBeat AI\n    authority: 0.7\n\n  - type: rss\n    url: https://openai.com/news/rss.xml\n    label: OpenAI\n    authority: 0.9\n\n  - type: rss\n    url: https://blog.google/technology/ai/rss/\n    label: Google AI\n    authority: 0.85\n\n  - type: rss\n    url: https://huggingface.co/blog/feed.xml\n    label: Hugging Face\n    authority: 0.7\n\n  # ──────────────────────────────────────── اینترنت، فیلترینگ و حقوق دیجیتال\n  #\n  # این‌ها هر چند روز یک بار منتشر می‌کنند، پس max_age_hours اختصاصی دارند.\n  # با پنجره‌ی ۷۲ ساعته‌ی عمومی تقریباً هیچ‌وقت نوبت نمی‌گرفتند، در حالی که\n  # گزارش قطعی اینترنت یا تغییر سیاست فیلترینگ یک هفته بعد هم تازه است.\n\n  - type: rss\n    url: https://www.accessnow.org/feed/\n    label: Access Now\n    authority: 0.9\n    max_age_hours: 168\n\n  - type: rss\n    url: https://www.eff.org/rss/updates.xml\n    label: EFF\n    authority: 0.85\n    max_age_hours: 120\n\n  - type: rss\n    url: https://www.article19.org/feed/\n    label: Article 19\n    authority: 0.8\n    max_age_hours: 168\n\n  - type: rss\n    url: https://ooni.org/blog/index.xml\n    label: OONI\n    authority: 0.85\n    max_age_hours: 336\n\n  - type: rss\n    url: https://globalvoices.org/-/world/middle-east-north-africa/iran/feed/\n    label: Global Voices Iran\n    authority: 0.75\n    max_age_hours: 336\n\n  - type: rss\n    url: https://blog.cloudflare.com/rss/\n    label: Cloudflare\n    authority: 0.8\n    max_age_hours: 120\n\n  # ─────────────────────────────────────────────────────── رسانه‌های روسی\n  #\n  # خبر روسی و انگلیسیِ یک ماجرا در یک خوشه می‌افتند، چون امضای خوشه از\n  # توکن‌های لاتین ساخته می‌شود و اسم شرکت و محصول در روسی هم لاتین می‌ماند.\n\n  # - type: rss\n  #   url: https://habr.com/ru/rss/articles/?fl=ru\n  #   label: Habr\n  #   authority: 0.8\n\n  # - type: rss\n  #   url: https://3dnews.ru/news/rss/\n  #   label: 3DNews\n  #   authority: 0.7\n\n  # - type: rss\n  #   url: https://www.ixbt.com/export/news.rss\n  #   label: iXBT\n  #   authority: 0.7\n\n  - type: rss\n    url: https://hi-tech.mail.ru/rss/all/\n    label: Hi-Tech Mail\n    authority: 0.6\n\n  - type: rss\n    url: https://vc.ru/rss\n    label: vc.ru\n    authority: 0.65\n\n  - type: rss\n    url: https://www.cnews.ru/inc/rss/news.xml\n    label: CNews\n    authority: 0.65\n\n  # ───────────────────────────────────────────────────── تکنولوژی عمومی\n\n  - type: rss\n    url: https://feeds.arstechnica.com/arstechnica/technology-lab\n    label: Ars Technica\n    authority: 0.85\n\n  - type: rss\n    url: https://www.technologyreview.com/feed/\n    label: MIT Tech Review\n    authority: 0.8\n\n  - type: rss\n    url: https://www.theverge.com/rss/index.xml\n    label: The Verge\n    authority: 0.85\n\n  - type: rss\n    url: https://www.wired.com/feed/rss\n    label: Wired\n    authority: 0.85\n\n  - type: rss\n    url: https://www.engadget.com/rss.xml\n    label: Engadget\n    authority: 0.7\n\n  - type: rss\n    url: https://www.theregister.com/headlines.atom\n    label: The Register\n    authority: 0.8\n\n  - type: rss\n    url: https://www.zdnet.com/news/rss.xml\n    label: ZDNet\n    authority: 0.7\n\n  - type: rss\n    url: https://www.techradar.com/rss\n    label: TechRadar\n    authority: 0.6\n\n  - type: rss\n    url: https://www.tomshardware.com/feeds/all\n    label: Tom's Hardware\n    authority: 0.75\n\n  - type: rss\n    url: https://www.phoronix.com/rss.php\n    label: Phoronix\n    authority: 0.75\n\n  - type: rss\n    url: https://rss.slashdot.org/Slashdot/slashdotMain\n    label: Slashdot\n    authority: 0.7\n\n  - type: rss\n    url: https://www.techspot.com/backend.xml\n    label: TechSpot\n    authority: 0.65\n\n  - type: rss\n    url: https://www.neowin.net/news/rss/\n    label: Neowin\n    authority: 0.6\n\n  - type: rss\n    url: https://9to5mac.com/feed/\n    label: 9to5Mac\n    authority: 0.65\n\n  - type: rss\n    url: https://www.androidpolice.com/feed/\n    label: Android Police\n    authority: 0.6\n\n  - type: rss\n    url: https://www.securityweek.com/feed/\n    label: SecurityWeek\n    authority: 0.8\n    max_age_hours: 96\n\n  - type: rss\n    url: https://feed.infoq.com/\n    label: InfoQ\n    authority: 0.75\n    max_age_hours: 96\n\n  - type: rss\n    url: https://thenextweb.com/feed\n    label: The Next Web\n    authority: 0.6\n\n  - type: rss\n    url: https://restofworld.org/feed/latest/\n    label: Rest of World\n    authority: 0.8\n    max_age_hours: 168\n\n  # نمونه‌ی توییتر از طریق xcancel. instance ها هر چند ماه می‌میرند؛ اگر از کار\n  # افتاد فقط همین خط را عوض کنید — بقیه‌ی اجرا متوقف نمی‌شود.\n  # - type: rss\n  #   url: https://xcancel.com/OpenAI/rss\n  #   label: OpenAI on X\n  #   authority: 0.6\n  - type: rss\n    url: https://www.aisnakeoil.com/feed\n    label: AI Snake Oil\n    authority: 0.85\n\n  - type: rss\n    url: https://importai.substack.com/feed\n    label: Import AI\n    authority: 0.85\n\n  - type: rss\n    url: https://thegradient.pub/rss/\n    label: The Gradient\n    authority: 0.80\n\n  - type: rss\n    url: https://www.langchain.com/blog/rss.xml\n    label: LangChain Blog\n    authority: 0.80\n\n  - type: rss\n    url: https://www.latent.space/feed\n    label: Latent Space\n    authority: 0.80\n\n  - type: rss\n    url: https://simonwillison.net/atom/everything/\n    label: Simon Willison RSS\n    authority: 0.90";
+let TEXT = CONFIG_TEXT;
+
+// ── کمک‌های line-oriented (همان الگوریتم configedit.py) ──
+const isComment = l => l.trimStart().startsWith("#");
+const uncomment = l => isComment(l) ? l.replace(/^(\s*)#\s?/, "$1") : l;
+const leadingSpaces = s => (s.match(/^ */) || [""])[0].length;
+function stripComment(l) {
+  let out = "", str = null;
+  for (let i = 0; i < l.length; i++) {
+    const ch = l[i];
+    if (str) { out += ch; if (ch === str) str = null; continue; }
+    if (ch === '"' || ch === "'") { str = ch; out += ch; }
+    else if (ch === "#" && (i === 0 || l[i-1] === " " || l[i-1] === "\t")) break;
+    else out += ch;
+  }
+  return out.replace(/\s+$/, "");
+}
+function listItemLines(ls, start) {
+  const out = [start];
+  for (let i = start + 1; i < ls.length; i++) {
+    const raw = ls[i];
+    if (!raw.trim()) break;
+    const eff = uncomment(raw).trim();
+    if (eff.startsWith("- ")) break;
+    if (leadingSpaces(uncomment(raw)) < 2) break;
+    out.push(i);
+  }
+  return out;
+}
+function itemIdentity(ls, block) {
+  for (const want of ["label", "handle"]) {
+    for (const i of block) {
+      const raw = stripComment(uncomment(ls[i])).trim();
+      const m = raw.match(new RegExp("^" + want + "\\s*:\\s*(.+)$"));
+      if (m) return m[1].trim().replace(/^["']|["']$/g, "");
+    }
+  }
+  return null;
+}
+function findSourceBlock(label) {
+  const ls = TEXT.split("\n");
+  const norm = label.toLowerCase();
+  for (let i = 0; i < ls.length; i++) {
+    const eff = uncomment(ls[i]).trim();
+    if (!eff.startsWith("- ") || !eff.includes("- type:")) continue;
+    const block = listItemLines(ls, i);
+    const ident = itemIdentity(ls, block);
+    if (ident && ident.trim().toLowerCase() === norm) return block;
+  }
+  return null;
+}
+function fmtVal(v) {
+  if (v === true) return "true";
+  if (v === false) return "false";
+  if (typeof v === "number") return String(v);
+  const s = String(v).trim();
+  if (/[:#[\]{}&,*!|>'"%@`]/.test(s) || s === "") return '"' + s + '"';
+  return s;
+}
+function applySetting(key, val) {
+  const ls = TEXT.split("\n");
+  let s = -1;
+  for (let i = 0; i < ls.length; i++) if (ls[i].replace(/\s+$/, "") === "settings:") { s = i; break; }
+  for (let i = s + 1; i < ls.length; i++) {
+    const raw = ls[i];
+    if (!raw.trim()) continue;
+    if (isComment(raw)) continue;
+    if (leadingSpaces(raw) <= 0) break;
+    const st = stripComment(raw).trim();
+    if (st.match(new RegExp("^" + key + "\\s*:")) && leadingSpaces(raw) === 2) {
+      ls[i] = "  " + key + ": " + fmtVal(val);
+      TEXT = ls.join("\n");
+      return;
+    }
+  }
+  throw new Error("تنظیم پیدا نشد: " + key);
+}
+function applySource(label, field, val) {
+  const block = findSourceBlock(label);
+  if (!block) throw new Error("منبع پیدا نشد: " + label);
+  const ls = TEXT.split("\n");
+  let idx = -1;
+  for (const i of block) {
+    const s = stripComment(uncomment(ls[i])).trim();
+    if (s.match(new RegExp("^" + field + "\\s*:"))) { idx = i; break; }
+  }
+  const v = fmtVal(val);
+  const blockCommented = isComment(ls[block[0]]);
+  if (idx >= 0) {
+    const wasComment = isComment(ls[idx]);
+    const base = uncomment(ls[idx]);
+    let newLine = base.replace(new RegExp("^(\\s*" + field + "\\s*:\\s*).*$"), "\$1" + v);
+    if (wasComment) newLine = newLine.replace(/^(\s*)/, "$1# ");
+    ls[idx] = newLine;
+  } else {
+    const first = stripComment(uncomment(ls[block[0]]));
+    const fi = leadingSpaces(first) + 2;
+    let newLine = " ".repeat(fi) + field + ": " + v;
+    if (blockCommented) newLine = newLine.replace(/^(\s*)/, "$1# ");
+    let last = -1;
+    for (const i of block) if (stripComment(uncomment(ls[i])).trim()) last = i;
+    ls.splice(last + 1, 0, newLine);
+  }
+  TEXT = ls.join("\n");
+}
+function toggleSource(label, enabled) {
+  const block = findSourceBlock(label);
+  if (!block) throw new Error("منبع پیدا نشد: " + label);
+  const ls = TEXT.split("\n");
+  const codeRe = /^(\s*)#\s+(?:- .+|(?:type|label|handle|url|authority|min_engagement|min_points|max_age_hours)\s*:)/;
+  for (const i of block) {
+    if (isComment(ls[i])) {
+      if (enabled && codeRe.test(ls[i])) ls[i] = ls[i].replace(/^(\s*)#\s?/, "$1");
+    } else {
+      if (!enabled) ls[i] = ls[i].replace(/^(\s*)/, "$1# ");
+    }
+  }
+  TEXT = ls.join("\n");
+}
+function addSource(item) {
+  const ls = TEXT.replace(/\n+$/, "").split("\n");
+  const body = ["  - type: " + item.kind];
+  if (item.kind === "rss") {
+    body.push("    url: " + item.url);
+    body.push("    label: " + item.label);
+    if (item.authority != null) body.push("    authority: " + fmtVal(item.authority));
+  } else {
+    body.push("    handle: " + item.handle);
+    body.push("    label: " + item.label);
+    if (item.min_engagement != null) body.push("    min_engagement: " + item.min_engagement);
+  }
+  ls.push("", "  # ── منبع جدید (از صفحه‌ی تنظیمات) ──", ...body);
+  TEXT = ls.join("\n") + "\n";
+}
+function generateYaml() {
+  TEXT = CONFIG_TEXT;
+  for (const [k, v] of Object.entries(edits.settings)) applySetting(k, v);
+  for (const [label, ch] of Object.entries(edits.sources)) {
+    for (const [f, v] of Object.entries(ch)) if (f !== "enabled") applySource(label, f, v);
+    if (ch.enabled === false) toggleSource(label, false);
+    else if (ch.enabled === true) toggleSource(label, true);
+  }
+  for (const item of edits.added) addSource(item);
+  return TEXT;
+}
+
+// ── state ویرایشگر ──
+const edits = { settings: {}, sources: {}, added: [] };
+const ORIG = {};
+for (const s of CONFIG.sources) {
+  ORIG[s.label] = { _enabled: !s.commented };
+  for (const f of (CONFIG.kindFields[s.kind] || []))
+    if (s[f] !== undefined && s[f] !== null) ORIG[s.label][f] = s[f];
+}
+
+// ── تب‌ها ──
+document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
+  document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
+  document.querySelectorAll(".view").forEach(x => x.classList.remove("active"));
+  t.classList.add("active");
+  document.getElementById("view-" + t.dataset.view).classList.add("active");
+}));
+
+// ── جدول settings ──
+(function() {
+  const tb = document.querySelector("#settingsTable tbody");
+  for (const [key, label, kind] of CONFIG.settingFields) {
+    const cur = CONFIG.settings[key];
+    const tr = document.createElement("tr");
+    if (kind === "checkbox") {
+      tr.innerHTML = `<td>${label}</td><td class="mut">${cur ? "فعال" : "غیرفعال"}</td>` +
+        `<td><input type="checkbox" data-key="${key}" ${cur ? "checked" : ""}></td>`;
+    } else {
+      const step = (key === "viral_share" || key === "authority") ? "0.05" : "1";
+      tr.innerHTML = `<td>${label}</td><td class="num mut">${cur === undefined || cur === null ? "—" : cur}</td>` +
+        `<td><input type="number" data-key="${key}" value="${cur === undefined || cur === null ? "" : cur}" step="${step}"></td>`;
+    }
+    tr.querySelector("input").addEventListener("change", e => {
+      const v = e.target.type === "checkbox" ? e.target.checked
+        : (e.target.value === "" ? null : parseFloat(e.target.value));
+      if (v === cur) delete edits.settings[key]; else edits.settings[key] = v;
+      tr.classList.toggle("row-changed", v !== cur);
+      showChanges();
+    });
+    tb.appendChild(tr);
+  }
+})();
+
+// ── جدول منابع ──
+(function() {
+  const tb = document.querySelector("#sourcesTable tbody");
+  const groups = {};
+  for (const s of CONFIG.sources) (groups[s.kind] = groups[s.kind] || []).push(s);
+  for (const kind of ["hackernews", "lobsters", "bluesky", "rss"]) {
+    if (!groups[kind]) continue;
+    for (const s of groups[kind]) {
+      const tr = document.createElement("tr");
+      let fieldHtml = "<span class='mut'>—</span>";
+      const inputs = [];
+      for (const f of (CONFIG.kindFields[kind] || [])) {
+        if (s[f] === undefined || s[f] === null) continue;
+        const step = (f === "authority") ? "0.05" : "1";
+        inputs.push(`<div><span class='fldlbl'>${f}</span>` +
+          `<input type="number" data-label="${s.label}" data-field="${f}" value="${s[f]}" step="${step}"></div>`);
+      }
+      if (inputs.length) fieldHtml = inputs.join("");
+      tr.innerHTML = `<td class="lbl" title="${s.label}">${s.label}</td>` +
+        `<td class="mut">${kind}</td>` +
+        `<td class="num">${fieldHtml}</td>` +
+        `<td><input type="checkbox" data-label="${s.label}" ${s.commented ? "" : "checked"}></td>`;
+      tr.querySelectorAll("input[type=number]").forEach(inp => inp.addEventListener("change", e => {
+        const f = e.target.dataset.field, lab = e.target.dataset.label;
+        const v = e.target.value === "" ? null : parseFloat(e.target.value);
+        edits.sources[lab] = edits.sources[lab] || {};
+        if (v === ORIG[lab][f]) delete edits.sources[lab][f]; else edits.sources[lab][f] = v;
+        tr.classList.toggle("row-changed", v !== ORIG[lab][f]);
+        showChanges();
+      }));
+      tr.querySelector("input[type=checkbox]").addEventListener("change", e => {
+        const lab = e.target.dataset.label;
+        edits.sources[lab] = edits.sources[lab] || {};
+        if (e.target.checked === ORIG[lab]._enabled) delete edits.sources[lab].enabled;
+        else edits.sources[lab].enabled = e.target.checked;
+        tr.classList.toggle("row-changed", e.target.checked !== ORIG[lab]._enabled);
+        showChanges();
+      });
+      tb.appendChild(tr);
+    }
+  }
+})();
+
+// ── افزودن منبع ──
+const newType = document.getElementById("newType");
+newType.addEventListener("change", () => {
+  const rss = newType.value === "rss";
+  document.getElementById("newUrl").style.display = rss ? "" : "none";
+  document.getElementById("newAuthority").style.display = rss ? "" : "none";
+  document.getElementById("newHandle").style.display = rss ? "none" : "";
+  document.getElementById("newMinEng").style.display = rss ? "none" : "";
+});
+document.getElementById("addBtn").addEventListener("click", () => {
+  const kind = newType.value;
+  const label = document.getElementById("newLabel").value.trim();
+  if (!label) { alert("label لازم است"); return; }
+  const item = { label, kind };
+  if (kind === "rss") {
+    const url = document.getElementById("newUrl").value.trim();
+    if (!url) { alert("url لازم است"); return; }
+    item.url = url;
+    const a = document.getElementById("newAuthority").value;
+    item.authority = a === "" ? 0.7 : parseFloat(a);
+  } else {
+    const h = document.getElementById("newHandle").value.trim();
+    if (!h) { alert("handle لازم است"); return; }
+    item.handle = h;
+    const m = document.getElementById("newMinEng").value;
+    item.min_engagement = m === "" ? 10 : parseInt(m);
+  }
+  edits.added.push(item);
+  ["newUrl","newHandle","newLabel","newAuthority","newMinEng"].forEach(id => document.getElementById(id).value = "");
+  showChanges();
+});
+
+// ── نمایش تغییرات ──
+function changesText() {
+  const parts = ["تغییرات config.yaml:"];
+  for (const [k, v] of Object.entries(edits.settings)) parts.push("  " + k + ": " + fmtVal(v));
+  for (const [label, ch] of Object.entries(edits.sources)) {
+    const bits = [];
+    for (const [f, v] of Object.entries(ch)) if (f !== "enabled") bits.push(f + ": " + fmtVal(v));
+    if (ch.enabled === false) bits.push("غیرفعال");
+    if (ch.enabled === true) bits.push("فعال");
+    if (bits.length) parts.push("  " + label + ": " + bits.join("، "));
+  }
+  for (const it of edits.added) parts.push("  + افزودن " + it.label + " (" + it.kind + ")");
+  return parts.join("\n");
+}
+function showChanges() {
+  const el = document.getElementById("changes");
+  const parts = [];
+  for (const [k, v] of Object.entries(edits.settings)) parts.push(`<b>${k}</b> ← ${v}`);
+  for (const [label, ch] of Object.entries(edits.sources)) {
+    const bits = [];
+    for (const [f, v] of Object.entries(ch)) if (f !== "enabled") bits.push(f + " ← " + v);
+    if (ch.enabled === false) bits.push("غیرفعال");
+    if (ch.enabled === true) bits.push("فعال");
+    if (bits.length) parts.push(`<b>${label}</b>: ${bits.join("، ")}`);
+  }
+  for (const it of edits.added) parts.push(`+ افزودن <b>${it.label}</b> (${it.kind})`);
+  el.innerHTML = parts.length ? "تغییرات: " + parts.join(" · ") : "";
+  const has = parts.length > 0;
+  document.getElementById("genBtn").disabled = !has;
+  document.getElementById("resetBtn").style.display = has ? "" : "none";
+  if (!has) {
+    document.getElementById("yamlOut").style.display = "none";
+    document.getElementById("copyYamlBtn").style.display = "none";
+    document.getElementById("copyChangesBtn").style.display = "none";
+  }
+}
+
+// ── دکمه‌ها ──
+document.getElementById("genBtn").addEventListener("click", () => {
+  try {
+    const out = generateYaml();
+    const pre = document.getElementById("yamlOut");
+    pre.textContent = out;
+    pre.style.display = "block";
+    document.getElementById("copyYamlBtn").style.display = "";
+    document.getElementById("copyChangesBtn").style.display = "";
+    pre.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  } catch (e) {
+    alert("تولید YAML شکست خورد: " + e.message);
+  }
+});
+document.getElementById("copyYamlBtn").addEventListener("click", async () => {
+  const out = document.getElementById("yamlOut").textContent;
+  try { await navigator.clipboard.writeText(out); alert("کپی شد — حالا در GitHub روی config.yaml paste و commit کن."); }
+  catch { document.getElementById("yamlOut").select(); document.execCommand("copy"); alert("کپی شد."); }
+});
+document.getElementById("copyChangesBtn").addEventListener("click", async () => {
+  const txt = changesText();
+  try { await navigator.clipboard.writeText(txt); alert("فهرست تغییرات کپی شد — برای bot/چت بفرست."); }
+  catch { alert(txt); }
+});
+document.getElementById("resetBtn").addEventListener("click", () => location.reload());
+</script>
 </body>
 </html>
