@@ -1,12 +1,5 @@
 {
  "seen": [
-  "https://www.theverge.com/?p=986438",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muara256bx2w",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muavgs7snj2i",
-  "99bed13651c1d78e5e5a9a1ce9ebacc2",
-  "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026",
-  "hn:49495127",
-  "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
   "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
   "https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers",
   "https://3dnews.ru/1147690/#6a942859742eec48f88b4569",
@@ -2999,18 +2992,25 @@
   "b676a419748dc551a0d98d22db83aabd",
   "https://www.cnews.ru/news/line/2026-11-10_dolya_zakazov_s_aktsionnymi",
   "fcc69cebd23b8b12e7610d2393d44e47",
-  "https://www.cnews.ru/news/line/2026-11-10_kazhdyj_tretij_mobilnyj_1"
+  "https://www.cnews.ru/news/line/2026-11-10_kazhdyj_tretij_mobilnyj_1",
+  "https://www.theregister.com/a/5308591",
+  "https://it.slashdot.org/story/26/11/09/2032202/france-accuses-iran-of-supermarket-fridge-hacking?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.securityweek.com/?p=50640",
+  "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+  "https://techcrunch.com/?p=3185546",
+  "TheNextWeb=cfc5bb5c5bb435e1e7c10ba6982cc6a8",
+  "https://www.engadget.com/2311413/hoverair-versa-review/"
  ],
  "posted": {
   "viral": 674,
-  "editorial": 907
+  "editorial": 912
  },
  "recent_labels": [
-  "CNews",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail",
-  "CNews"
+  "The Register",
+  "The Hacker News",
+  "TechCrunch AI",
+  "The Next Web",
+  "Engadget"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8532,77 +8532,54 @@
    "pool": "editorial",
    "score": 0.22645,
    "at": "2026-11-10T07:54:39.277699+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/security/2026/11/09/france-blames-iran-for-supermarket-hack-meltdowns/5308591",
+   "source": "The Register",
+   "label": "The Register",
+   "pool": "editorial",
+   "score": 0.09287,
+   "at": "2026-11-10T08:53:46.758792+00:00"
+  },
+  {
+   "title": "خاموشی اضطراری سرویس‌های N-able پس از افشای ۳۳ آسیب‌پذیری بحرانی",
+   "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.09031,
+   "at": "2026-11-10T08:53:53.000796+00:00"
+  },
+  {
+   "title": "پشتیبانی از ۳۱ زبان در ابزار هوش مصنوعی Otter.ai",
+   "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+   "source": "TechCrunch AI",
+   "label": "TechCrunch AI",
+   "pool": "editorial",
+   "score": 0.09004,
+   "at": "2026-11-10T08:54:11.493226+00:00"
+  },
+  {
+   "title": "استارتاپ Sumary برای توسعه نرم‌افزار حسابداری مبتنی بر هوش مصنوعی ۲۵ میلیون دلار جذب کرد",
+   "url": "https://thenextweb.com/news/sumary-25m-seed-ai-accounting",
+   "source": "The Next Web",
+   "label": "The Next Web",
+   "pool": "editorial",
+   "score": 0.1001,
+   "at": "2026-11-10T08:54:18.866412+00:00"
+  },
+  {
+   "title": "بررسی دوربین و پهپاد دوکاره HoverAir Versa",
+   "url": "https://www.engadget.com/2311413/hoverair-versa-review/",
+   "source": "Engadget",
+   "label": "Engadget",
+   "pool": "editorial",
+   "score": 0.1344,
+   "at": "2026-11-10T08:54:24.464364+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "act",
-    "close",
-    "crime",
-    "criminalizes",
-    "familial",
-    "force",
-    "goes",
-    "november",
-    "policing",
-    "porn",
-    "possessing",
-    "publishing",
-    "relatives",
-    "roleplay",
-    "strangulation",
-    "suffocation",
-    "types",
-    "well",
-    "which"
-   ],
-   "at": "2026-11-05T17:54:22.819906+00:00"
-  },
-  {
-   "sig": [
-    "better",
-    "line-buffered",
-    "output"
-   ],
-   "at": "2026-11-05T20:44:22.095238+00:00"
-  },
-  {
-   "sig": [
-    "architecture",
-    "building",
-    "multi-agent",
-    "patterns",
-    "scratch",
-    "system"
-   ],
-   "at": "2026-11-05T20:44:30.231229+00:00"
-  },
-  {
-   "sig": [
-    "ao3",
-    "inside",
-    "outage",
-    "proton",
-    "reckoning",
-    "support",
-    "tech"
-   ],
-   "at": "2026-11-05T20:44:36.793409+00:00"
-  },
-  {
-   "sig": [
-    "app",
-    "down",
-    "forced",
-    "gym",
-    "media",
-    "reverse-engineered",
-    "social",
-    "throat"
-   ],
-   "at": "2026-11-05T20:44:42.410099+00:00"
-  },
   {
    "sig": [
     "chamber",
@@ -12594,6 +12571,73 @@
     "support"
    ],
    "at": "2026-11-10T06:54:51.221231+00:00"
+  },
+  {
+   "sig": [
+    "accuses",
+    "blames",
+    "cyberattack",
+    "france",
+    "fridge",
+    "hack",
+    "hacking",
+    "heated",
+    "iran",
+    "meltdowns",
+    "refrigerators",
+    "supermarket"
+   ],
+   "at": "2026-11-10T08:53:46.758792+00:00"
+  },
+  {
+   "sig": [
+    "cloud",
+    "discloses",
+    "exploits",
+    "n-able",
+    "n-central",
+    "offline",
+    "poc",
+    "researcher",
+    "takes",
+    "zero-days"
+   ],
+   "at": "2026-11-10T08:53:53.000796+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "conversations",
+    "follow",
+    "languages",
+    "otter"
+   ],
+   "at": "2026-11-10T08:54:11.493226+00:00"
+  },
+  {
+   "sig": [
+    "25m",
+    "accounting",
+    "calls",
+    "europe",
+    "largest",
+    "raises",
+    "round",
+    "seed",
+    "sumary"
+   ],
+   "at": "2026-11-10T08:54:18.866412+00:00"
+  },
+  {
+   "sig": [
+    "compromises",
+    "convenience",
+    "creativity",
+    "hoverair",
+    "review",
+    "versa"
+   ],
+   "at": "2026-11-10T08:54:24.464364+00:00"
   }
  ],
  "snapshots": {
@@ -15015,7 +15059,7 @@
   "vc.ru": 2
  },
  "posts_by_label": {
-  "Engadget": 40,
+  "Engadget": 41,
   "Neowin": 18,
   "Wired": 19,
   "TechRadar": 31,
@@ -15024,7 +15068,7 @@
   "Xe Iaso": 2,
   "The Verge": 20,
   "Cloudflare": 1,
-  "TechCrunch AI": 15,
+  "TechCrunch AI": 16,
   "Lobsters": 8,
   "Tom's Hardware": 30,
   "ZDNet": 3,
@@ -15032,12 +15076,12 @@
   "EFF": 2,
   "Hacker News": 32,
   "TechSpot": 17,
-  "The Hacker News": 25,
+  "The Hacker News": 26,
   "Latent Space": 3,
   "InfoQ": 14,
-  "The Register": 21,
+  "The Register": 22,
   "Phoronix": 21,
-  "The Next Web": 20,
+  "The Next Web": 21,
   "Android Police": 19,
   "Ars Technica": 1,
   "Simon Willison": 2,
@@ -15058,7 +15102,7 @@
   "Rest of World": 1
  },
  "last_post": {
-  "Engadget": "2026-11-09T16:54:16.873228+00:00",
+  "Engadget": "2026-11-10T08:54:24.464468+00:00",
   "Neowin": "2026-11-09T17:54:10.899288+00:00",
   "Wired": "2026-11-09T11:53:45.232647+00:00",
   "TechRadar": "2026-11-09T16:54:22.489804+00:00",
@@ -15067,7 +15111,7 @@
   "Xe Iaso": "2026-11-09T02:54:20.896292+00:00",
   "The Verge": "2026-11-09T15:55:45.347012+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
-  "TechCrunch AI": "2026-11-08T17:59:12.217529+00:00",
+  "TechCrunch AI": "2026-11-10T08:54:11.493335+00:00",
   "Lobsters": "2026-11-10T02:54:56.814982+00:00",
   "Tom's Hardware": "2026-11-09T17:54:16.481286+00:00",
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
@@ -15075,12 +15119,12 @@
   "EFF": "2026-11-06T09:54:49.849333+00:00",
   "Hacker News": "2026-11-10T06:53:57.816490+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
-  "The Hacker News": "2026-11-10T06:54:10.062494+00:00",
+  "The Hacker News": "2026-11-10T08:53:53.000903+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
   "InfoQ": "2026-11-10T06:54:51.221334+00:00",
-  "The Register": "2026-11-09T14:55:08.024667+00:00",
+  "The Register": "2026-11-10T08:53:46.758920+00:00",
   "Phoronix": "2026-11-09T10:55:05.292394+00:00",
-  "The Next Web": "2026-11-10T06:53:50.343716+00:00",
+  "The Next Web": "2026-11-10T08:54:18.866518+00:00",
   "Android Police": "2026-11-09T11:54:03.532431+00:00",
   "Ars Technica": "2026-10-31T11:53:40.882295+00:00",
   "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
