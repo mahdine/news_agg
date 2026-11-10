@@ -1,15 +1,5 @@
 {
  "seen": [
-  "https://9to5mac.com/?p=1066893",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhmqkhfo227",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhtmq5mok27",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhm7yglum2c",
-  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3muhynxsst22z",
-  "https://www.engadget.com/2247151/new-android-find-hub-feature-will-help-you-remember-where-you-put-important-things/",
-  "https://www.theverge.com/?p=987339",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhlwenjnk27",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muho5pth3s27",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhjpergll2g",
   "hn:49530972",
   "https://3dnews.ru/1147813/#6a979e18742eeca4538b4568",
   "1ed41c6e111f1e491f8096316f1422fd",
@@ -2999,18 +2989,28 @@
   "https://www.engadget.com/2308678/uber-is-launching-its-own-parking-reservation-service/",
   "jhYcFwPBQtFtuj3gRGHbNN",
   "https://www.theverge.com/?p=1029665",
-  "6aee0b6f76eb77d40b4758ef"
+  "6aee0b6f76eb77d40b4758ef",
+  "hn:50437752",
+  "hn:50438318",
+  "Fp6fFQESR38fpqCSB3iDt6",
+  "https://www.neowin.net/deals/this-vzmore-ax9-max-early-black-friday-deal-slashes-229209-off-the-price/",
+  "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+  "3246683",
+  "https://www.cnews.ru/news/line/2026-11-10_imperatorskij_monetnyj",
+  "5adf98d5cba78f3731c9d96cf2d5be6f",
+  "https://www.cnews.ru/news/line/2026-11-10_vts_razdole_vvel_v_ekspluatatsiyu",
+  "68164261bdee24620c12b762d401752e"
  ],
  "posted": {
-  "viral": 678,
-  "editorial": 923
+  "viral": 679,
+  "editorial": 925
  },
  "recent_labels": [
-  "Lobsters",
-  "Hacker News",
-  "Hacker News",
   "Tom's Hardware",
-  "Wired"
+  "Wired",
+  "Hacker News",
+  "The Hacker News",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8712,45 +8712,36 @@
    "pool": "editorial",
    "score": 0.22924,
    "at": "2026-11-10T11:54:47.874302+00:00"
+  },
+  {
+   "title": "پیامدهای منفی استفاده گسترده از هوش مصنوعی در توسعه نرم‌افزار",
+   "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+   "source": "evanxmerz.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.10798,
+   "at": "2026-11-10T12:54:12.009836+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری جدید در iOS و خطر دسترسی به کلیدهای کیف پول دیجیتال",
+   "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.44481,
+   "at": "2026-11-10T12:54:19.974002+00:00"
+  },
+  {
+   "title": "CLOUD",
+   "url": "https://hi-tech.mail.ru/news/160194-yandex-cloud-vosstanovit-28-dannyh-klientov-posle-sboya-nevozmozhno/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.20073,
+   "at": "2026-11-10T12:54:34.788338+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "1.2",
-    "15-second",
-    "clips",
-    "cost-effective",
-    "fast",
-    "flash",
-    "gemini",
-    "google",
-    "launches",
-    "less",
-    "longer",
-    "lower",
-    "omni",
-    "prices",
-    "videos"
-   ],
-   "at": "2026-11-06T04:54:24.190387+00:00"
-  },
-  {
-   "sig": [
-    "6gb",
-    "big",
-    "boost",
-    "brings",
-    "chrome",
-    "crashes",
-    "google",
-    "googlebook",
-    "memory",
-    "tackles",
-    "update"
-   ],
-   "at": "2026-11-06T04:54:49.199376+00:00"
-  },
   {
    "sig": [
     "agents",
@@ -12798,17 +12789,36 @@
     "wants"
    ],
    "at": "2026-11-10T11:54:47.874302+00:00"
+  },
+  {
+   "sig": [
+    "codebase",
+    "fragile",
+    "generates",
+    "usage"
+   ],
+   "at": "2026-11-10T12:54:12.009836+00:00"
+  },
+  {
+   "sig": [
+    "binance",
+    "confirmed",
+    "could",
+    "crypto",
+    "escape",
+    "expose",
+    "fix",
+    "ios",
+    "keys",
+    "sandbox",
+    "seed",
+    "wallet",
+    "warns"
+   ],
+   "at": "2026-11-10T12:54:19.974002+00:00"
   }
  ],
  "snapshots": {
-  "hn:50296470": [
-   895,
-   "2026-10-29T23:24:37.264862+00:00"
-  ],
-  "hn:50294507": [
-   241,
-   "2026-10-29T23:24:37.264862+00:00"
-  ],
   "hn:50294506": [
    205,
    "2026-10-29T23:24:37.264862+00:00"
@@ -15200,24 +15210,32 @@
   "lobsters:bubqox": [
    30,
    "2026-11-10T11:53:49.341472+00:00"
+  ],
+  "hn:50438318": [
+   336,
+   "2026-11-10T12:53:44.643053+00:00"
+  ],
+  "hn:50437752": [
+   148,
+   "2026-11-10T12:53:44.643053+00:00"
   ]
  },
  "skips": {
   "Tom's Hardware": 3,
   "Article 19": 1,
   "Wired": 7,
-  "TechRadar": 3,
+  "TechRadar": 4,
   "Lobsters": 2,
-  "Hacker News": 12,
+  "Hacker News": 13,
   "The Next Web": 1,
   "404 Media": 3,
   "Emily M. Bender": 2,
   "Simon Willison": 1,
   "Xe Iaso": 1,
   "Simon Willison RSS": 1,
-  "CNews": 3,
+  "CNews": 5,
   "vc.ru": 2,
-  "Hi-Tech Mail": 2,
+  "Hi-Tech Mail": 3,
   "Slashdot": 1
  },
  "posts_by_label": {
@@ -15236,9 +15254,9 @@
   "ZDNet": 3,
   "9to5Mac": 13,
   "EFF": 2,
-  "Hacker News": 35,
+  "Hacker News": 36,
   "TechSpot": 17,
-  "The Hacker News": 26,
+  "The Hacker News": 27,
   "Latent Space": 3,
   "InfoQ": 14,
   "The Register": 22,
@@ -15250,7 +15268,7 @@
   "Simon Willison RSS": 6,
   "vc.ru": 11,
   "SecurityWeek": 11,
-  "Hi-Tech Mail": 33,
+  "Hi-Tech Mail": 34,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
@@ -15279,9 +15297,9 @@
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-10T10:53:55.757129+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-10T11:54:22.990643+00:00",
+  "Hacker News": "2026-11-10T12:54:12.009953+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
-  "The Hacker News": "2026-11-10T08:53:53.000903+00:00",
+  "The Hacker News": "2026-11-10T12:54:19.974106+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
   "InfoQ": "2026-11-10T06:54:51.221334+00:00",
   "The Register": "2026-11-10T08:53:46.758920+00:00",
@@ -15293,7 +15311,7 @@
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-08T17:54:19.515702+00:00",
   "SecurityWeek": "2026-11-10T09:53:59.738403+00:00",
-  "Hi-Tech Mail": "2026-11-10T10:55:16.560832+00:00",
+  "Hi-Tech Mail": "2026-11-10T12:54:34.788445+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
