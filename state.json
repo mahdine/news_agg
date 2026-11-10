@@ -1,12 +1,5 @@
 {
  "seen": [
-  "SPhMgstaKDWz63ptZBRVi3",
-  "https://www.techspot.com/news/113665-cloudflare-freed-up-100tb-ram-behind-1111-dns.html",
-  "6a8f2d32377f7d54e320aa59",
-  "hn:49490870",
-  "3145b7c9fa032cfb7c1c9e4cbbd5066e",
-  "https://www.engadget.com/2246997/sony-warner-sue-anthropic-for-blatant-violation-of-copyright-law/",
-  "https://techcrunch.com/?p=3158639",
   "https://www.theverge.com/?p=986438",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muara256bx2w",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muavgs7snj2i",
@@ -2999,18 +2992,25 @@
   "hn:50436640",
   "https://www.securityweek.com/?p=50638",
   "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
-  "https://www.infoq.com/news/2026/11/effect-4-0-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  "https://www.infoq.com/news/2026/11/effect-4-0-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://www.cnews.ru/news/line/2026-11-10_mts_razognala_mobilnyj",
+  "3246047",
+  "3c939529a2eaf1c6f1e1d1ce156a074b",
+  "b676a419748dc551a0d98d22db83aabd",
+  "https://www.cnews.ru/news/line/2026-11-10_dolya_zakazov_s_aktsionnymi",
+  "fcc69cebd23b8b12e7610d2393d44e47",
+  "https://www.cnews.ru/news/line/2026-11-10_kazhdyj_tretij_mobilnyj_1"
  ],
  "posted": {
   "viral": 674,
-  "editorial": 902
+  "editorial": 907
  },
  "recent_labels": [
-  "The Next Web",
-  "Hacker News",
-  "SecurityWeek",
-  "The Hacker News",
-  "InfoQ"
+  "CNews",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail",
+  "CNews"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8487,6 +8487,51 @@
    "pool": "editorial",
    "score": 0.21013,
    "at": "2026-11-10T06:54:51.221231+00:00"
+  },
+  {
+   "title": "گسترش پوشش شبکه LTE توسط اپراتور MTS در منطقه ماری ال روسیه",
+   "url": "https://www.cnews.ru/news/line/2026-11-10_mts_razognala_mobilnyj",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.18944,
+   "at": "2026-11-10T07:53:53.418438+00:00"
+  },
+  {
+   "title": "توصیه‌های امنیتی برای کاهش خطر سوءاستفاده از اطلاعات شخصی در شبکه‌های اجتماعی",
+   "url": "https://hi-tech.mail.ru/news/160110-kakie-publikacii-nuzhno-skryt-ili-udalit-v-socsetyah-otvet-eksperta/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.1839,
+   "at": "2026-11-10T07:54:06.387090+00:00"
+  },
+  {
+   "title": "جایگزینی نمایشگرهای LCD با پنل‌های ارزان‌قیمت OLED در گوشی‌های اقتصادی",
+   "url": "https://hi-tech.mail.ru/news/160105-samsung-display-i-boe-gotovyat-deshevye-oled-ekrany/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.18707,
+   "at": "2026-11-10T07:54:15.231650+00:00"
+  },
+  {
+   "title": "وضعیت محدودیت‌های دسترسی به تیک‌تاک در روسیه در سال ۲۰۲۶",
+   "url": "https://hi-tech.mail.ru/review/116899-tiktok-v-rossii/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.19684,
+   "at": "2026-11-10T07:54:26.972216+00:00"
+  },
+  {
+   "title": "بی‌توجهی گیمرهای موبایل به اصول امنیتی و افزایش تهدیدات سایبری",
+   "url": "https://www.cnews.ru/news/line/2026-11-10_kazhdyj_tretij_mobilnyj_1",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.22645,
+   "at": "2026-11-10T07:54:39.277699+00:00"
   }
  ],
  "stories": [
@@ -14966,8 +15011,8 @@
   "Simon Willison": 1,
   "Xe Iaso": 1,
   "Simon Willison RSS": 1,
-  "CNews": 2,
-  "vc.ru": 1
+  "CNews": 3,
+  "vc.ru": 2
  },
  "posts_by_label": {
   "Engadget": 40,
@@ -14999,11 +15044,11 @@
   "Simon Willison RSS": 6,
   "vc.ru": 11,
   "SecurityWeek": 10,
-  "Hi-Tech Mail": 29,
+  "Hi-Tech Mail": 32,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 25,
+  "CNews": 27,
   "Emily M. Bender": 3,
   "antirez": 5,
   "OpenAI": 1,
@@ -15042,11 +15087,11 @@
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-08T17:54:19.515702+00:00",
   "SecurityWeek": "2026-11-10T06:54:03.292270+00:00",
-  "Hi-Tech Mail": "2026-11-09T14:55:01.881920+00:00",
+  "Hi-Tech Mail": "2026-11-10T07:54:26.972313+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-10T05:57:23.950599+00:00",
+  "CNews": "2026-11-10T07:54:39.277804+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-05T02:53:58.432643+00:00",
