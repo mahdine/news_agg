@@ -1,12 +1,5 @@
 {
  "seen": [
-  "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
-  "https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers",
-  "https://3dnews.ru/1147690/#6a942859742eec48f88b4569",
-  "https://www.securityweek.com/?p=48925",
-  "36f19d0a0f3ff2db249c3618258922f3",
-  "https://www.theverge.com/?p=986544",
-  "https://www.engadget.com/2247120/nasa-nancy-grace-roman-space-telescope-launches-to-study-dark-universe/",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mucpspuhrv27",
   "6a94514445866f3284262379",
   "https://www.engadget.com/2247074/google-maps-has-changed-lake-ontario-to-lake-america-for-us-users/",
@@ -2999,18 +2992,25 @@
   "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
   "https://techcrunch.com/?p=3185546",
   "TheNextWeb=cfc5bb5c5bb435e1e7c10ba6982cc6a8",
-  "https://www.engadget.com/2311413/hoverair-versa-review/"
+  "https://www.engadget.com/2311413/hoverair-versa-review/",
+  "hn:50435898",
+  "3c076b3a6a50038c6a3841df57bee933",
+  "https://www.neowin.net/news/owlcats-detective-rpg-warhammer-40k-dark-heresy-launches-in-january/",
+  "https://www.securityweek.com/?p=50642",
+  "https://www.cnews.ru/news/line/2026-11-10_diasoft_vypustila_versiyu",
+  "gt56N6RjYd9u4mubzvzcyn",
+  "https://www.cnews.ru/news/line/2026-11-10_transtelekom_predstavil"
  ],
  "posted": {
-  "viral": 674,
-  "editorial": 912
+  "viral": 675,
+  "editorial": 916
  },
  "recent_labels": [
-  "The Register",
-  "The Hacker News",
-  "TechCrunch AI",
-  "The Next Web",
-  "Engadget"
+  "Hacker News",
+  "SecurityWeek",
+  "CNews",
+  "TechRadar",
+  "CNews"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8577,50 +8577,54 @@
    "pool": "editorial",
    "score": 0.1344,
    "at": "2026-11-10T08:54:24.464364+00:00"
+  },
+  {
+   "title": "معرفی ابزار Ultorg برای مدیریت بصری پایگاه‌های داده بدون نیاز به کدنویسی",
+   "url": "https://www.ultorg.com/",
+   "source": "ultorg.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.09841,
+   "at": "2026-11-10T09:53:50.242538+00:00"
+  },
+  {
+   "title": "هشدار CISA درباره بهره‌برداری فعال از آسیب‌پذیری‌های IBM و SignalWire",
+   "url": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "label": "SecurityWeek",
+   "pool": "editorial",
+   "score": 0.25403,
+   "at": "2026-11-10T09:53:59.738278+00:00"
+  },
+  {
+   "title": "انتشار نسخه جدید پایگاه داده Digital Q.DataBase با قابلیت‌های هوش مصنوعی",
+   "url": "https://www.cnews.ru/news/line/2026-11-10_diasoft_vypustila_versiyu",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.21683,
+   "at": "2026-11-10T09:54:11.568076+00:00"
+  },
+  {
+   "title": "محدودیت نروژ برای ساخت دیتاسنترهای جدید تا سال ۲۰۲۷",
+   "url": "https://www.techradar.com/pro/we-want-data-centers-in-norway-but-we-cant-have-all-types-of-data-centers-norwegian-government-halts-new-grid-connections-as-it-looks-to-limit-ai-facility-construction-until-late-2027",
+   "source": "TechRadar",
+   "label": "TechRadar",
+   "pool": "editorial",
+   "score": 0.20368,
+   "at": "2026-11-10T09:54:17.383736+00:00"
+  },
+  {
+   "title": "ارائه راهکار نظارت تصویری سیار توسط شرکت TransTeleCom",
+   "url": "https://www.cnews.ru/news/line/2026-11-10_transtelekom_predstavil",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.22307,
+   "at": "2026-11-10T09:54:30.469373+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "chamber",
-    "echo",
-    "maga",
-    "mjgault.bsky.social",
-    "ranting",
-    "shhhhhhh",
-    "show",
-    "slop",
-    "twitter"
-   ],
-   "at": "2026-11-05T20:44:49.486925+00:00"
-  },
-  {
-   "sig": [
-    "line",
-    "software",
-    "specialist"
-   ],
-   "at": "2026-11-06T01:53:40.329103+00:00"
-  },
-  {
-   "sig": [
-    "back",
-    "board",
-    "drawing"
-   ],
-   "at": "2026-11-06T01:53:49.000756+00:00"
-  },
-  {
-   "sig": [
-    "address",
-    "claude",
-    "code",
-    "email",
-    "sends",
-    "websites"
-   ],
-   "at": "2026-11-06T01:53:56.454954+00:00"
-  },
   {
    "sig": [
     "16b",
@@ -12638,13 +12642,61 @@
     "versa"
    ],
    "at": "2026-11-10T08:54:24.464364+00:00"
+  },
+  {
+   "sig": [
+    "databases",
+    "interface",
+    "relational",
+    "ultorg",
+    "user"
+   ],
+   "at": "2026-11-10T09:53:50.242538+00:00"
+  },
+  {
+   "sig": [
+    "aspera",
+    "attacks",
+    "exploited",
+    "faspex",
+    "freeswitch",
+    "ibm",
+    "signalwire",
+    "vulnerabilities"
+   ],
+   "at": "2026-11-10T09:53:59.738278+00:00"
+  },
+  {
+   "sig": [
+    "18.2",
+    "digital",
+    "q.database"
+   ],
+   "at": "2026-11-10T09:54:11.568076+00:00"
+  },
+  {
+   "sig": [
+    "centers",
+    "connections",
+    "construction",
+    "data",
+    "facility",
+    "government",
+    "grid",
+    "halts",
+    "late",
+    "limit",
+    "looks",
+    "norway",
+    "norwegian",
+    "types",
+    "until",
+    "want"
+   ],
+   "at": "2026-11-10T09:54:17.383736+00:00"
   }
  ],
  "snapshots": {
-  "hn:50286987": [
-   362,
-   "2026-10-29T18:33:48.942449+00:00"
-  ],
   "hn:50292233": [
    88,
    "2026-10-29T18:33:48.942449+00:00"
@@ -15040,6 +15092,10 @@
   "hn:50436640": [
    80,
    "2026-11-10T06:53:48.423607+00:00"
+  ],
+  "hn:50435898": [
+   103,
+   "2026-11-10T09:53:47.980193+00:00"
   ]
  },
  "skips": {
@@ -15056,13 +15112,14 @@
   "Xe Iaso": 1,
   "Simon Willison RSS": 1,
   "CNews": 3,
-  "vc.ru": 2
+  "vc.ru": 2,
+  "Hi-Tech Mail": 1
  },
  "posts_by_label": {
   "Engadget": 41,
   "Neowin": 18,
   "Wired": 19,
-  "TechRadar": 31,
+  "TechRadar": 32,
   "Slashdot": 24,
   "404 Media": 35,
   "Xe Iaso": 2,
@@ -15074,7 +15131,7 @@
   "ZDNet": 3,
   "9to5Mac": 12,
   "EFF": 2,
-  "Hacker News": 32,
+  "Hacker News": 33,
   "TechSpot": 17,
   "The Hacker News": 26,
   "Latent Space": 3,
@@ -15087,12 +15144,12 @@
   "Simon Willison": 2,
   "Simon Willison RSS": 6,
   "vc.ru": 11,
-  "SecurityWeek": 10,
+  "SecurityWeek": 11,
   "Hi-Tech Mail": 32,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 27,
+  "CNews": 29,
   "Emily M. Bender": 3,
   "antirez": 5,
   "OpenAI": 1,
@@ -15105,7 +15162,7 @@
   "Engadget": "2026-11-10T08:54:24.464468+00:00",
   "Neowin": "2026-11-09T17:54:10.899288+00:00",
   "Wired": "2026-11-09T11:53:45.232647+00:00",
-  "TechRadar": "2026-11-09T16:54:22.489804+00:00",
+  "TechRadar": "2026-11-10T09:54:17.383846+00:00",
   "Slashdot": "2026-11-09T08:54:12.648083+00:00",
   "404 Media": "2026-11-09T15:55:04.459028+00:00",
   "Xe Iaso": "2026-11-09T02:54:20.896292+00:00",
@@ -15117,7 +15174,7 @@
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-10T05:54:10.013815+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-10T06:53:57.816490+00:00",
+  "Hacker News": "2026-11-10T09:53:50.242668+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-10T08:53:53.000903+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
@@ -15130,12 +15187,12 @@
   "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-08T17:54:19.515702+00:00",
-  "SecurityWeek": "2026-11-10T06:54:03.292270+00:00",
+  "SecurityWeek": "2026-11-10T09:53:59.738403+00:00",
   "Hi-Tech Mail": "2026-11-10T07:54:26.972313+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-10T07:54:39.277804+00:00",
+  "CNews": "2026-11-10T09:54:30.469474+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-05T02:53:58.432643+00:00",
