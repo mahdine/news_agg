@@ -1,13 +1,5 @@
 {
  "seen": [
-  "fc046568be9a618619323485065139a5",
-  "3089197",
-  "https://www.engadget.com/2244379/spacex-is-building-a-100-billion-starbase-launch-site-in-louisiana/",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtwntvfvmk23",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtwocmuwrk2w",
-  "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
-  "https://www.securityweek.com/?p=48882",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtwwyee6622w",
   "hn:49442743",
   "hn:49443523",
   "hn:49441375",
@@ -2999,17 +2991,25 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzvsimnma22k",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzvtuef2lu27",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzvuqd4ndk24",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzvzdsqvn22c"
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzvzdsqvn22c",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzv4uynkckce",
+  "hn:50429426",
+  "hn:50429430",
+  "lobsters:eeclwg",
+  "hn:50429734",
+  "hn:50430991",
+  "hn:50433079",
+  "hn:50433659"
  ],
  "posted": {
-  "viral": 657,
+  "viral": 661,
   "editorial": 896
  },
  "recent_labels": [
   "Hacker News",
-  "antirez",
-  "Neowin",
-  "Tom's Hardware",
+  "Hacker News",
+  "Hacker News",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-06",
@@ -8280,61 +8280,45 @@
    "pool": "viral",
    "score": 0.0993,
    "at": "2026-11-09T23:25:32.012329+00:00"
+  },
+  {
+   "title": "تغییر سیاست گوگل در دسترسی انسانی به داده‌های شخصی کاربران Gemini",
+   "url": "https://github.com/thisisme6598/gemini_files/",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.03829,
+   "at": "2026-11-10T01:53:44.721783+00:00"
+  },
+  {
+   "title": "معرفی الگوریتم e-means توسط Meta برای بهبود سرعت خوشه‌بندی",
+   "url": "https://e-means.github.io/",
+   "source": "e-means.github.io",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.02858,
+   "at": "2026-11-10T01:53:53.351024+00:00"
+  },
+  {
+   "title": "چالش‌های استفاده از هوش مصنوعی در نگهداری کدهای نرم‌افزاری",
+   "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+   "source": "reddit.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.09028,
+   "at": "2026-11-10T01:53:59.889157+00:00"
+  },
+  {
+   "title": "ساخت یک بازی ویدئویی کامل با استفاده از مدل هوش مصنوعی Fable 5.2",
+   "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+   "source": "notesbylex.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.11987,
+   "at": "2026-11-10T01:54:05.279016+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "him",
-    "labs",
-    "living",
-    "trolls",
-    "want",
-    "work"
-   ],
-   "at": "2026-11-05T11:54:16.335020+00:00"
-  },
-  {
-   "sig": [
-    "alter",
-    "cisco",
-    "could",
-    "database",
-    "eol",
-    "expose",
-    "files",
-    "fix",
-    "flaws",
-    "gms",
-    "patch",
-    "patches",
-    "records",
-    "release",
-    "sonicwall",
-    "watchguard",
-    "won"
-   ],
-   "at": "2026-11-05T12:54:16.140990+00:00"
-  },
-  {
-   "sig": [
-    "10.6p2",
-    "critical",
-    "openssh",
-    "released",
-    "vulnerability",
-    "workaround"
-   ],
-   "at": "2026-11-05T12:54:25.480603+00:00"
-  },
-  {
-   "sig": [
-    "awesome",
-    "longer",
-    "repositories"
-   ],
-   "at": "2026-11-05T12:54:31.483177+00:00"
-  },
   {
    "sig": [
     "airlines",
@@ -12340,33 +12324,54 @@
     "supermarket"
    ],
    "at": "2026-11-09T23:25:32.012329+00:00"
+  },
+  {
+   "sig": [
+    "annotators",
+    "drive",
+    "emails",
+    "files",
+    "gemini",
+    "google",
+    "human",
+    "personal",
+    "routes"
+   ],
+   "at": "2026-11-10T01:53:44.721783+00:00"
+  },
+  {
+   "sig": [
+    "e-means",
+    "epochs",
+    "k-means",
+    "one-tenth",
+    "outperforming"
+   ],
+   "at": "2026-11-10T01:53:53.351024+00:00"
+  },
+  {
+   "sig": [
+    "code",
+    "mandate",
+    "nobody",
+    "understands",
+    "year"
+   ],
+   "at": "2026-11-10T01:53:59.889157+00:00"
+  },
+  {
+   "sig": [
+    "5.2",
+    "dream",
+    "fable",
+    "game",
+    "nephew",
+    "one-shotted"
+   ],
+   "at": "2026-11-10T01:54:05.279016+00:00"
   }
  ],
  "snapshots": {
-  "hn:50290668": [
-   219,
-   "2026-10-29T16:53:48.965984+00:00"
-  ],
-  "hn:50290283": [
-   112,
-   "2026-10-29T16:53:48.965984+00:00"
-  ],
-  "hn:50290170": [
-   227,
-   "2026-10-29T16:53:48.965984+00:00"
-  ],
-  "hn:50289859": [
-   130,
-   "2026-10-29T16:53:48.965984+00:00"
-  ],
-  "hn:50289162": [
-   188,
-   "2026-10-29T16:53:48.965984+00:00"
-  ],
-  "lobsters:eccbci": [
-   37,
-   "2026-10-29T16:53:48.965984+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzogectl22c": [
    233,
    "2026-10-29T16:53:48.965984+00:00"
@@ -14635,84 +14640,20 @@
    17,
    "2026-11-09T17:53:45.931025+00:00"
   ],
-  "hn:50431144": [
-   485,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
   "hn:50431058": [
    690,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
-  "hn:50430621": [
-   265,
    "2026-11-09T23:25:27.622778+00:00"
   ],
   "hn:50430585": [
    202,
    "2026-11-09T23:25:27.622778+00:00"
   ],
-  "hn:50429906": [
-   1815,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
-  "hn:50429734": [
-   255,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
-  "hn:50429636": [
-   118,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
-  "hn:50429545": [
-   167,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
   "hn:50429475": [
    1232,
    "2026-11-09T23:25:27.622778+00:00"
   ],
-  "hn:50429430": [
-   176,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
-  "hn:50429426": [
-   359,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
-  "hn:50429024": [
-   391,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
-  "hn:50428907": [
-   270,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
-  "hn:50428801": [
-   724,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
-  "hn:50428724": [
-   627,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
-  "hn:50427934": [
-   148,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
-  "lobsters:ynik5s": [
-   41,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
-  "lobsters:vghqe8": [
-   106,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
   "lobsters:vtjjbc": [
    27,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
-  "lobsters:eeclwg": [
-   33,
    "2026-11-09T23:25:27.622778+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzvtuef2lu27": [
@@ -14735,13 +14676,101 @@
    69,
    "2026-11-09T23:25:27.622778+00:00"
   ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvxcprg2c2b": [
-   16,
-   "2026-11-09T23:25:27.622778+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzvzdsqvn22c": [
    25,
    "2026-11-09T23:25:27.622778+00:00"
+  ],
+  "hn:50431144": [
+   686,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50430621": [
+   309,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50429906": [
+   2102,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50429734": [
+   313,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50429636": [
+   133,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50429545": [
+   181,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50429430": [
+   221,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50429426": [
+   614,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50429024": [
+   450,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50428907": [
+   313,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50428801": [
+   781,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50428724": [
+   665,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50427934": [
+   161,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "lobsters:ynik5s": [
+   51,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "lobsters:vghqe8": [
+   123,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "lobsters:eeclwg": [
+   41,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvxcprg2c2b": [
+   18,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50433659": [
+   325,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50433079": [
+   369,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50430991": [
+   119,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50429812": [
+   110,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50429144": [
+   87,
+   "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzv4uynkckce": [
+   50,
+   "2026-11-10T01:53:41.918626+00:00"
   ]
  },
  "skips": {
@@ -14749,11 +14778,11 @@
   "Article 19": 1,
   "Wired": 4,
   "TechRadar": 3,
-  "Lobsters": 1,
-  "Hacker News": 6,
+  "Lobsters": 2,
+  "Hacker News": 8,
   "The Next Web": 1,
   "404 Media": 3,
-  "Emily M. Bender": 1,
+  "Emily M. Bender": 2,
   "Simon Willison": 1,
   "Xe Iaso": 1
  },
@@ -14773,7 +14802,7 @@
   "ZDNet": 3,
   "9to5Mac": 11,
   "EFF": 2,
-  "Hacker News": 18,
+  "Hacker News": 22,
   "TechSpot": 17,
   "The Hacker News": 24,
   "Latent Space": 3,
@@ -14816,7 +14845,7 @@
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-09T14:55:21.585137+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-09T23:25:32.012454+00:00",
+  "Hacker News": "2026-11-10T01:54:05.279130+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-09T13:53:44.618335+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
