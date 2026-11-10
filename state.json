@@ -1,12 +1,5 @@
 {
  "seen": [
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
-  "https://www.cnews.ru/news/top/2026-08-26_microsoft_pojmana_s_polichnym",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtycfeczyc22",
-  "Wc2XoT7aq5UtAWhAaJzhke",
-  "https://www.theverge.com/?p=984959",
-  "https://www.engadget.com/2244659/rockstar-calls-gta-6-leaks-heartbreaking-says-game-is-nearly-finished/",
-  "https://www.neowin.net/news/rockstar-addresses-leaks-as-new-gta-6-lucia-footage-drops/",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtyhwn4v2s22",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtyvaf4wm223",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtyjgnouqv2z",
@@ -2999,18 +2992,25 @@
   "hn:50429144",
   "hn:50429545",
   "lobsters:ynik5s",
-  "hn:50429812"
+  "hn:50429812",
+  "hn:50427501",
+  "hn:50428801",
+  "hn:50428907",
+  "hn:50429636",
+  "hn:50430621",
+  "hn:50431144",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvxcprg2c2b"
  ],
  "posted": {
-  "viral": 666,
+  "viral": 671,
   "editorial": 896
  },
  "recent_labels": [
-  "Lobsters",
   "Hacker News",
   "Hacker News",
-  "Lobsters",
-  "Hacker News"
+  "Hacker News",
+  "Hacker News",
+  "antirez"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8361,92 +8361,54 @@
    "pool": "viral",
    "score": 0.00308,
    "at": "2026-11-10T02:55:02.567925+00:00"
+  },
+  {
+   "title": "ابزاری برای ردیابی ماهواره‌های عبوری و مشاهده تصاویر ماهواره‌ای",
+   "url": "https://www.watched.earth",
+   "source": "watched.earth",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00968,
+   "at": "2026-11-10T03:54:51.246242+00:00"
+  },
+  {
+   "title": "کنترل مک از طریق آیفون با ابزار متن‌باز MeowDisplay",
+   "url": "https://meowdisplay.app/",
+   "source": "meowdisplay.app",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00835,
+   "at": "2026-11-10T03:55:00.587494+00:00"
+  },
+  {
+   "title": "کتابخانه‌ی CUI برای توسعه رابط کاربری بومی در زبان C",
+   "url": "https://yappologistic.github.io/CUI/",
+   "source": "yappologistic.github.io",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00307,
+   "at": "2026-11-10T03:55:06.364761+00:00"
+  },
+  {
+   "title": "کسب امتیاز ۶۵ توسط مدل Claude Fable 5.2 در شاخص هوش",
+   "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+   "source": "artificialanalysis.ai",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00438,
+   "at": "2026-11-10T03:55:12.890663+00:00"
+  },
+  {
+   "title": "کشف دو حفره امنیتی بحرانی در پروژه Mythos",
+   "url": "https://bsky.app/profile/antirez.bsky.social/post/3mzvxcprg2c2b",
+   "source": "antirez",
+   "label": "antirez",
+   "pool": "viral",
+   "score": 0.01932,
+   "at": "2026-11-10T03:55:22.527474+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "download",
-    "favourite",
-    "videos",
-    "youtube"
-   ],
-   "at": "2026-11-05T15:53:43.441080+00:00"
-  },
-  {
-   "sig": [
-    "andy",
-    "big",
-    "build",
-    "calm",
-    "ceo",
-    "concerns",
-    "critiques",
-    "engineers",
-    "even",
-    "internally",
-    "josephcox.bsky.social",
-    "persona",
-    "projects",
-    "proton",
-    "pushing",
-    "rails",
-    "security",
-    "tech",
-    "yen"
-   ],
-   "at": "2026-11-05T15:53:49.408734+00:00"
-  },
-  {
-   "sig": [
-    "blog",
-    "dropbox",
-    "interesting",
-    "life",
-    "www.tigrisdata.com"
-   ],
-   "at": "2026-11-05T15:53:55.086335+00:00"
-  },
-  {
-   "sig": [
-    "advisory",
-    "alpine",
-    "authentication",
-    "bypass",
-    "linux",
-    "openssh-server",
-    "password",
-    "security"
-   ],
-   "at": "2026-11-05T15:54:00.822523+00:00"
-  },
-  {
-   "sig": [
-    "anxious",
-    "behind",
-    "cards",
-    "could",
-    "coverage",
-    "creator",
-    "didn",
-    "fake",
-    "fbi",
-    "found",
-    "growing",
-    "him",
-    "josephcox.bsky.social",
-    "know",
-    "media",
-    "onlyfake",
-    "passports",
-    "revealed",
-    "security",
-    "site",
-    "social",
-    "underground"
-   ],
-   "at": "2026-11-05T15:54:06.465589+00:00"
-  },
   {
    "sig": [
     "agilex",
@@ -12408,13 +12370,87 @@
     "while"
    ],
    "at": "2026-11-10T02:55:02.567925+00:00"
+  },
+  {
+   "sig": [
+    "any",
+    "every",
+    "passed",
+    "photos",
+    "place",
+    "satellite",
+    "show",
+    "week"
+   ],
+   "at": "2026-11-10T03:54:51.246242+00:00"
+  },
+  {
+   "sig": [
+    "iphone",
+    "meowdisplay",
+    "mirroring",
+    "reverse",
+    "show"
+   ],
+   "at": "2026-11-10T03:55:00.587494+00:00"
+  },
+  {
+   "sig": [
+    "components",
+    "cui",
+    "native"
+   ],
+   "at": "2026-11-10T03:55:06.364761+00:00"
+  },
+  {
+   "sig": [
+    "5.2",
+    "analysis",
+    "artificial",
+    "claude",
+    "fable",
+    "far",
+    "highest",
+    "scores"
+   ],
+   "at": "2026-11-10T03:55:12.890663+00:00"
+  },
+  {
+   "sig": [
+    "5.2",
+    "accesso",
+    "bugs",
+    "check",
+    "checked",
+    "does",
+    "expert",
+    "fable",
+    "good",
+    "had",
+    "humans",
+    "issues",
+    "later",
+    "matter",
+    "minutes",
+    "mythos",
+    "project",
+    "recently",
+    "severe",
+    "still",
+    "system",
+    "tell",
+    "there",
+    "tonight",
+    "uncovered",
+    "updated",
+    "wanted",
+    "were",
+    "which"
+   ],
+   "at": "2026-11-10T03:55:22.527474+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myznhj4rqc2c": [
-   243,
-   "2026-10-29T16:53:48.965984+00:00"
-  ],
   "hn:50291945": [
    408,
    "2026-10-29T17:53:42.546055+00:00"
@@ -14751,40 +14787,12 @@
    50,
    "2026-11-10T01:53:41.918626+00:00"
   ],
-  "hn:50431144": [
-   734,
-   "2026-11-10T02:53:50.989836+00:00"
-  ],
-  "hn:50430621": [
-   323,
-   "2026-11-10T02:53:50.989836+00:00"
-  ],
-  "hn:50429636": [
-   136,
-   "2026-11-10T02:53:50.989836+00:00"
-  ],
   "hn:50429545": [
    183,
    "2026-11-10T02:53:50.989836+00:00"
   ],
-  "hn:50429024": [
-   472,
-   "2026-11-10T02:53:50.989836+00:00"
-  ],
-  "hn:50428907": [
-   329,
-   "2026-11-10T02:53:50.989836+00:00"
-  ],
-  "hn:50428801": [
-   786,
-   "2026-11-10T02:53:50.989836+00:00"
-  ],
   "hn:50428724": [
    673,
-   "2026-11-10T02:53:50.989836+00:00"
-  ],
-  "hn:50427934": [
-   165,
    "2026-11-10T02:53:50.989836+00:00"
   ],
   "lobsters:ynik5s": [
@@ -14795,10 +14803,6 @@
    129,
    "2026-11-10T02:53:50.989836+00:00"
   ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvxcprg2c2b": [
-   22,
-   "2026-11-10T02:53:50.989836+00:00"
-  ],
   "hn:50429812": [
    116,
    "2026-11-10T02:53:50.989836+00:00"
@@ -14807,9 +14811,45 @@
    99,
    "2026-11-10T02:53:50.989836+00:00"
   ],
+  "hn:50431144": [
+   761,
+   "2026-11-10T03:53:47.781290+00:00"
+  ],
+  "hn:50430621": [
+   334,
+   "2026-11-10T03:53:47.781290+00:00"
+  ],
+  "hn:50429636": [
+   141,
+   "2026-11-10T03:53:47.781290+00:00"
+  ],
+  "hn:50429024": [
+   483,
+   "2026-11-10T03:53:47.781290+00:00"
+  ],
+  "hn:50428907": [
+   343,
+   "2026-11-10T03:53:47.781290+00:00"
+  ],
+  "hn:50428801": [
+   796,
+   "2026-11-10T03:53:47.781290+00:00"
+  ],
+  "hn:50427934": [
+   165,
+   "2026-11-10T03:53:47.781290+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvxcprg2c2b": [
+   23,
+   "2026-11-10T03:53:47.781290+00:00"
+  ],
   "hn:50433541": [
-   107,
-   "2026-11-10T02:53:50.989836+00:00"
+   144,
+   "2026-11-10T03:53:47.781290+00:00"
+  ],
+  "hn:50427501": [
+   66,
+   "2026-11-10T03:53:47.781290+00:00"
   ]
  },
  "skips": {
@@ -14818,7 +14858,7 @@
   "Wired": 4,
   "TechRadar": 3,
   "Lobsters": 2,
-  "Hacker News": 9,
+  "Hacker News": 11,
   "The Next Web": 1,
   "404 Media": 3,
   "Emily M. Bender": 2,
@@ -14841,7 +14881,7 @@
   "ZDNet": 3,
   "9to5Mac": 11,
   "EFF": 2,
-  "Hacker News": 25,
+  "Hacker News": 29,
   "TechSpot": 17,
   "The Hacker News": 24,
   "Latent Space": 3,
@@ -14861,7 +14901,7 @@
   "Dan Luu": 1,
   "CNews": 24,
   "Emily M. Bender": 3,
-  "antirez": 4,
+  "antirez": 5,
   "OpenAI": 1,
   "Hugging Face": 1,
   "Access Now": 1,
@@ -14884,7 +14924,7 @@
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-09T14:55:21.585137+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-10T02:55:02.568032+00:00",
+  "Hacker News": "2026-11-10T03:55:12.890777+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-09T13:53:44.618335+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
@@ -14904,7 +14944,7 @@
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
   "CNews": "2026-11-09T10:54:59.687789+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
-  "antirez": "2026-11-09T17:54:05.178371+00:00",
+  "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-05T02:53:58.432643+00:00",
   "Hugging Face": "2026-11-05T02:54:24.075211+00:00",
   "Access Now": "2026-11-05T10:54:49.232575+00:00",
