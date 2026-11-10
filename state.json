@@ -1,13 +1,5 @@
 {
  "seen": [
-  "hn:49530972",
-  "https://3dnews.ru/1147813/#6a979e18742eeca4538b4568",
-  "1ed41c6e111f1e491f8096316f1422fd",
-  "https://www.engadget.com/2248794/acer-shows-off-its-ai-desktop-future-with-the-rtx-spark-design/",
-  "hn:49535526",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muk4os3v742z",
-  "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
-  "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
   "https://therecord.media/russian-national-facing-20-years-malware-campaign",
   "hn:49540138",
   "hn:49540575",
@@ -2999,18 +2991,26 @@
   "https://www.cnews.ru/news/line/2026-11-10_imperatorskij_monetnyj",
   "5adf98d5cba78f3731c9d96cf2d5be6f",
   "https://www.cnews.ru/news/line/2026-11-10_vts_razdole_vvel_v_ekspluatatsiyu",
-  "68164261bdee24620c12b762d401752e"
+  "68164261bdee24620c12b762d401752e",
+  "hn:50438480",
+  "https://www.theregister.com/a/5308687",
+  "https://www.neowin.net/news/vanderbilt-university-suffers-potential-ransomware-attack-data-breach/",
+  "https://www.securityweek.com/?p=50648",
+  "6af20aee630a020cf4096970",
+  "https://www.theverge.com/?p=1030601",
+  "https://www.theverge.com/?p=1030282",
+  "1431816"
  ],
  "posted": {
-  "viral": 679,
-  "editorial": 925
+  "viral": 680,
+  "editorial": 929
  },
  "recent_labels": [
-  "Tom's Hardware",
-  "Wired",
   "Hacker News",
-  "The Hacker News",
-  "Hi-Tech Mail"
+  "SecurityWeek",
+  "Wired",
+  "The Verge",
+  "ZDNet"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8739,71 +8739,54 @@
    "pool": "editorial",
    "score": 0.20073,
    "at": "2026-11-10T12:54:34.788338+00:00"
+  },
+  {
+   "title": "تأثیرات مخرب نظارت مداوم بر رشد و سلامت روان کودکان",
+   "url": "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/",
+   "source": "theatlantic.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.12637,
+   "at": "2026-11-10T13:53:43.202211+00:00"
+  },
+  {
+   "title": "حمله زنجیره تأمین به پلتفرم Qubole و سرقت اطلاعات حساس مشتریان",
+   "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+   "source": "SecurityWeek",
+   "label": "SecurityWeek",
+   "pool": "editorial",
+   "score": 0.21011,
+   "at": "2026-11-10T13:54:24.527707+00:00"
+  },
+  {
+   "title": "پهپاد امنیتی جدید Ring با قابلیت پردازش ابری و هوش مصنوعی",
+   "url": "https://www.wired.com/story/ring-robotics-drone-cam-rover-cam/",
+   "source": "Wired",
+   "label": "Wired",
+   "pool": "editorial",
+   "score": 0.35847,
+   "at": "2026-11-10T13:54:47.029833+00:00"
+  },
+  {
+   "title": "رونمایی آمازون از ربات گشتی Ring Rover Cam برای امنیت اماکن تجاری",
+   "url": "https://www.theverge.com/tech/1030282/amazon-ring-robotics-rover-cam-4k-security-business",
+   "source": "The Verge",
+   "label": "The Verge",
+   "pool": "editorial",
+   "score": 0.22962,
+   "at": "2026-11-10T13:54:53.165201+00:00"
+  },
+  {
+   "title": "رونمایی از پهپاد و ربات امنیتی جدید Ring برای نظارت هوشمند",
+   "url": "https://www.zdnet.com/home-and-office/ring-drone-cam-rover-cam-security-robots/",
+   "source": "ZDNet",
+   "label": "ZDNet",
+   "pool": "editorial",
+   "score": 0.1891,
+   "at": "2026-11-10T13:55:03.345989+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agents",
-    "bane",
-    "cloudflare",
-    "operators",
-    "website"
-   ],
-   "at": "2026-11-06T05:54:08.803727+00:00"
-  },
-  {
-   "sig": [
-    "27.5",
-    "declines",
-    "drop",
-    "global",
-    "ipad",
-    "market",
-    "plunges",
-    "report",
-    "share",
-    "shipments",
-    "significantly",
-    "tablet",
-    "too"
-   ],
-   "at": "2026-11-06T06:53:43.307083+00:00"
-  },
-  {
-   "sig": [
-    "closed",
-    "dominate",
-    "frontier",
-    "models",
-    "price-performance"
-   ],
-   "at": "2026-11-06T06:53:49.808370+00:00"
-  },
-  {
-   "sig": [
-    "engine",
-    "kubernetes",
-    "nvidia",
-    "nvke"
-   ],
-   "at": "2026-11-06T06:53:58.662450+00:00"
-  },
-  {
-   "sig": [
-    "500m",
-    "agent",
-    "alto",
-    "buy",
-    "clutch",
-    "networks",
-    "palo",
-    "security",
-    "startup",
-    "talks"
-   ],
-   "at": "2026-11-06T06:54:23.421322+00:00"
-  },
   {
    "sig": [
     "air",
@@ -12816,13 +12799,70 @@
     "warns"
    ],
    "at": "2026-11-10T12:54:19.974002+00:00"
+  },
+  {
+   "sig": [
+    "children",
+    "constant",
+    "doing",
+    "surveillance"
+   ],
+   "at": "2026-11-10T13:53:43.202211+00:00"
+  },
+  {
+   "sig": [
+    "attack",
+    "chain",
+    "dozen",
+    "hit",
+    "organizations",
+    "qubole",
+    "supply"
+   ],
+   "at": "2026-11-10T13:54:24.527707+00:00"
+  },
+  {
+   "sig": [
+    "back",
+    "camera",
+    "drone",
+    "hands-on",
+    "home",
+    "indoor",
+    "powered",
+    "ring"
+   ],
+   "at": "2026-11-10T13:54:47.029833+00:00"
+  },
+  {
+   "sig": [
+    "alexa",
+    "amazon",
+    "bot",
+    "patrol",
+    "ring",
+    "robot",
+    "security",
+    "turned"
+   ],
+   "at": "2026-11-10T13:54:53.165201+00:00"
+  },
+  {
+   "sig": [
+    "drone",
+    "even",
+    "eye",
+    "home",
+    "keep",
+    "patrols",
+    "ring",
+    "things",
+    "upstairs"
+   ],
+   "at": "2026-11-10T13:55:03.345989+00:00"
   }
  ],
  "snapshots": {
-  "hn:50294506": [
-   205,
-   "2026-10-29T23:24:37.264862+00:00"
-  ],
   "hn:50293879": [
    83,
    "2026-10-29T23:24:37.264862+00:00"
@@ -15218,6 +15258,10 @@
   "hn:50437752": [
    148,
    "2026-11-10T12:53:44.643053+00:00"
+  ],
+  "hn:50438480": [
+   147,
+   "2026-11-10T13:53:41.338690+00:00"
   ]
  },
  "skips": {
@@ -15236,25 +15280,26 @@
   "CNews": 5,
   "vc.ru": 2,
   "Hi-Tech Mail": 3,
-  "Slashdot": 1
+  "Slashdot": 1,
+  "The Register": 1
  },
  "posts_by_label": {
   "Engadget": 41,
   "Neowin": 18,
-  "Wired": 20,
+  "Wired": 21,
   "TechRadar": 32,
   "Slashdot": 24,
   "404 Media": 35,
   "Xe Iaso": 2,
-  "The Verge": 20,
+  "The Verge": 21,
   "Cloudflare": 1,
   "TechCrunch AI": 16,
   "Lobsters": 9,
   "Tom's Hardware": 32,
-  "ZDNet": 3,
+  "ZDNet": 4,
   "9to5Mac": 13,
   "EFF": 2,
-  "Hacker News": 36,
+  "Hacker News": 37,
   "TechSpot": 17,
   "The Hacker News": 27,
   "Latent Space": 3,
@@ -15267,7 +15312,7 @@
   "Simon Willison": 2,
   "Simon Willison RSS": 6,
   "vc.ru": 11,
-  "SecurityWeek": 11,
+  "SecurityWeek": 12,
   "Hi-Tech Mail": 34,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
@@ -15284,20 +15329,20 @@
  "last_post": {
   "Engadget": "2026-11-10T08:54:24.464468+00:00",
   "Neowin": "2026-11-09T17:54:10.899288+00:00",
-  "Wired": "2026-11-10T11:54:47.874429+00:00",
+  "Wired": "2026-11-10T13:54:47.029930+00:00",
   "TechRadar": "2026-11-10T09:54:17.383846+00:00",
   "Slashdot": "2026-11-09T08:54:12.648083+00:00",
   "404 Media": "2026-11-09T15:55:04.459028+00:00",
   "Xe Iaso": "2026-11-09T02:54:20.896292+00:00",
-  "The Verge": "2026-11-09T15:55:45.347012+00:00",
+  "The Verge": "2026-11-10T13:54:53.165290+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-10T08:54:11.493335+00:00",
   "Lobsters": "2026-11-10T11:53:54.560480+00:00",
   "Tom's Hardware": "2026-11-10T11:54:35.380747+00:00",
-  "ZDNet": "2026-11-06T15:54:01.724081+00:00",
+  "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-10T10:53:55.757129+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-10T12:54:12.009953+00:00",
+  "Hacker News": "2026-11-10T13:53:43.202308+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-10T12:54:19.974106+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
@@ -15310,7 +15355,7 @@
   "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-08T17:54:19.515702+00:00",
-  "SecurityWeek": "2026-11-10T09:53:59.738403+00:00",
+  "SecurityWeek": "2026-11-10T13:54:24.527816+00:00",
   "Hi-Tech Mail": "2026-11-10T12:54:34.788445+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
