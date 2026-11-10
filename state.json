@@ -1,11 +1,5 @@
 {
  "seen": [
-  "hn:49442743",
-  "hn:49443523",
-  "hn:49441375",
-  "https://techcrunch.com/?p=3155879",
-  "hn:49446422",
-  "https://3dnews.ru/1147472/#6a8e9370742eec3d3b8b456e",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
   "https://www.cnews.ru/news/top/2026-08-26_microsoft_pojmana_s_polichnym",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtycfeczyc22",
@@ -2999,17 +2993,23 @@
   "hn:50429734",
   "hn:50430991",
   "hn:50433079",
-  "hn:50433659"
+  "hn:50433659",
+  "lobsters:vghqe8",
+  "hn:50428724",
+  "hn:50429144",
+  "hn:50429545",
+  "lobsters:ynik5s",
+  "hn:50429812"
  ],
  "posted": {
-  "viral": 661,
+  "viral": 666,
   "editorial": 896
  },
  "recent_labels": [
+  "Lobsters",
   "Hacker News",
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
+  "Lobsters",
   "Hacker News"
  ],
  "last_digest": "2026-11-06",
@@ -8316,74 +8316,54 @@
    "pool": "viral",
    "score": 0.11987,
    "at": "2026-11-10T01:54:05.279016+00:00"
+  },
+  {
+   "title": "کشف آسیب‌پذیری بحرانی در ابزار Terminal2Shell با دسترسی کامل به سیستم‌عامل‌ها",
+   "url": "https://terminal2shell.com/",
+   "source": "terminal2shell.com",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.01133,
+   "at": "2026-11-10T02:53:52.801545+00:00"
+  },
+  {
+   "title": "ابزار STE80 Humanizer برای بازنویسی متن‌های هوش مصنوعی با استانداردهای فنی",
+   "url": "https://github.com/Dodaios/ste80-humanizer",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00288,
+   "at": "2026-11-10T02:54:03.184741+00:00"
+  },
+  {
+   "title": "تراشه جدید DeepX برای اجرای مدل‌های هوش مصنوعی با مصرف انرژی بسیار پایین",
+   "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+   "source": "eetimes.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00288,
+   "at": "2026-11-10T02:54:49.248114+00:00"
+  },
+  {
+   "title": "اختلال گسترده در ارسال ایمیل به سرویس‌های Microsoft به دلیل تغییرات ناگهانی",
+   "url": "https://www.mythic-beasts.com/blog/2026/11/09/microsoft-are-rejecting-your-mail/",
+   "source": "mythic-beasts.com",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.01086,
+   "at": "2026-11-10T02:54:56.814883+00:00"
+  },
+  {
+   "title": "ابزار امنیتی برای شناسایی افراد غیرمجاز در سیستم‌های مک",
+   "url": "https://someonewashere.app/",
+   "source": "someonewashere.app",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00308,
+   "at": "2026-11-10T02:55:02.567925+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "airlines",
-    "coming",
-    "help",
-    "screens",
-    "seatback",
-    "seatbacks",
-    "spotify",
-    "starlink",
-    "united"
-   ],
-   "at": "2026-11-05T13:19:55.467545+00:00"
-  },
-  {
-   "sig": [
-    "best",
-    "doesn",
-    "fold",
-    "motorola",
-    "phone",
-    "razr",
-    "sell",
-    "t-mobile",
-    "wants",
-    "years"
-   ],
-   "at": "2026-11-05T13:20:01.591149+00:00"
-  },
-  {
-   "sig": [
-    "going",
-    "motorola",
-    "phone",
-    "premium",
-    "signature",
-    "ultra"
-   ],
-   "at": "2026-11-05T13:20:08.334321+00:00"
-  },
-  {
-   "sig": [
-    "behind",
-    "five",
-    "materials",
-    "problems",
-    "putting",
-    "science",
-    "startup",
-    "unsolved"
-   ],
-   "at": "2026-11-05T13:20:14.141441+00:00"
-  },
-  {
-   "sig": [
-    "audio",
-    "bluetooth",
-    "boost",
-    "bring",
-    "hi-res",
-    "major",
-    "speed"
-   ],
-   "at": "2026-11-05T13:20:20.051088+00:00"
-  },
   {
    "sig": [
     "download",
@@ -12369,13 +12349,68 @@
     "one-shotted"
    ],
    "at": "2026-11-10T01:54:05.279016+00:00"
+  },
+  {
+   "sig": [
+    "access",
+    "critical",
+    "every",
+    "flaw",
+    "grants",
+    "instant",
+    "major",
+    "shell",
+    "terminal2shell"
+   ],
+   "at": "2026-11-10T02:53:52.801545+00:00"
+  },
+  {
+   "sig": [
+    "asd-ste100",
+    "de-ai",
+    "humanizer",
+    "show",
+    "ste80",
+    "text",
+    "way",
+    "writing"
+   ],
+   "at": "2026-11-10T02:54:03.184741+00:00"
+  },
+  {
+   "sig": [
+    "100b",
+    "claims",
+    "deepx",
+    "inference",
+    "less",
+    "parameters"
+   ],
+   "at": "2026-11-10T02:54:49.248114+00:00"
+  },
+  {
+   "sig": [
+    "mail",
+    "microsoft",
+    "rejecting"
+   ],
+   "at": "2026-11-10T02:54:56.814883+00:00"
+  },
+  {
+   "sig": [
+    "away",
+    "find",
+    "here",
+    "mac",
+    "show",
+    "someone",
+    "were",
+    "while"
+   ],
+   "at": "2026-11-10T02:55:02.567925+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzogectl22c": [
-   233,
-   "2026-10-29T16:53:48.965984+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myznhj4rqc2c": [
    243,
    "2026-10-29T16:53:48.965984+00:00"
@@ -14680,28 +14715,12 @@
    25,
    "2026-11-09T23:25:27.622778+00:00"
   ],
-  "hn:50431144": [
-   686,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
-  "hn:50430621": [
-   309,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
   "hn:50429906": [
    2102,
    "2026-11-10T01:53:41.918626+00:00"
   ],
   "hn:50429734": [
    313,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
-  "hn:50429636": [
-   133,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
-  "hn:50429545": [
-   181,
    "2026-11-10T01:53:41.918626+00:00"
   ],
   "hn:50429430": [
@@ -14712,40 +14731,8 @@
    614,
    "2026-11-10T01:53:41.918626+00:00"
   ],
-  "hn:50429024": [
-   450,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
-  "hn:50428907": [
-   313,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
-  "hn:50428801": [
-   781,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
-  "hn:50428724": [
-   665,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
-  "hn:50427934": [
-   161,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
-  "lobsters:ynik5s": [
-   51,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
-  "lobsters:vghqe8": [
-   123,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
   "lobsters:eeclwg": [
    41,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvxcprg2c2b": [
-   18,
    "2026-11-10T01:53:41.918626+00:00"
   ],
   "hn:50433659": [
@@ -14760,17 +14747,69 @@
    119,
    "2026-11-10T01:53:41.918626+00:00"
   ],
-  "hn:50429812": [
-   110,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
-  "hn:50429144": [
-   87,
-   "2026-11-10T01:53:41.918626+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzv4uynkckce": [
    50,
    "2026-11-10T01:53:41.918626+00:00"
+  ],
+  "hn:50431144": [
+   734,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "hn:50430621": [
+   323,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "hn:50429636": [
+   136,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "hn:50429545": [
+   183,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "hn:50429024": [
+   472,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "hn:50428907": [
+   329,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "hn:50428801": [
+   786,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "hn:50428724": [
+   673,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "hn:50427934": [
+   165,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "lobsters:ynik5s": [
+   51,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "lobsters:vghqe8": [
+   129,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvxcprg2c2b": [
+   22,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "hn:50429812": [
+   116,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "hn:50429144": [
+   99,
+   "2026-11-10T02:53:50.989836+00:00"
+  ],
+  "hn:50433541": [
+   107,
+   "2026-11-10T02:53:50.989836+00:00"
   ]
  },
  "skips": {
@@ -14779,7 +14818,7 @@
   "Wired": 4,
   "TechRadar": 3,
   "Lobsters": 2,
-  "Hacker News": 8,
+  "Hacker News": 9,
   "The Next Web": 1,
   "404 Media": 3,
   "Emily M. Bender": 2,
@@ -14797,12 +14836,12 @@
   "The Verge": 20,
   "Cloudflare": 1,
   "TechCrunch AI": 15,
-  "Lobsters": 6,
+  "Lobsters": 8,
   "Tom's Hardware": 30,
   "ZDNet": 3,
   "9to5Mac": 11,
   "EFF": 2,
-  "Hacker News": 22,
+  "Hacker News": 25,
   "TechSpot": 17,
   "The Hacker News": 24,
   "Latent Space": 3,
@@ -14840,12 +14879,12 @@
   "The Verge": "2026-11-09T15:55:45.347012+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-08T17:59:12.217529+00:00",
-  "Lobsters": "2026-11-09T17:53:51.443769+00:00",
+  "Lobsters": "2026-11-10T02:54:56.814982+00:00",
   "Tom's Hardware": "2026-11-09T17:54:16.481286+00:00",
   "ZDNet": "2026-11-06T15:54:01.724081+00:00",
   "9to5Mac": "2026-11-09T14:55:21.585137+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-10T01:54:05.279130+00:00",
+  "Hacker News": "2026-11-10T02:55:02.568032+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-09T13:53:44.618335+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
