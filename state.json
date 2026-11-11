@@ -1,10 +1,5 @@
 {
  "seen": [
-  "58c1747442c409341afeb8142a67888a",
-  "https://www.neowin.net/news/arm-introduces-css-for-mobile-2-platform-for-agentic-ai/",
-  "hn:49610059",
-  "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
-  "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
   "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
   "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
   "https://www.securityweek.com/?p=49165",
@@ -2999,18 +2994,23 @@
   "hn:50448174",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzzenln62c2r",
   "https://www.infoq.com/news/2026/11/angular-compiler-rust-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "3248446"
+  "3248446",
+  "hn:50448340",
+  "hn:50450007",
+  "https://www.cnews.ru/news/line/2026-11-11_directum_uchastvuet_v_eksperimente",
+  "https://www.cnews.ru/news/line/2026-11-11_alt_mobilnyj_1101_novye",
+  "https://www.securityweek.com/?p=50687"
  ],
  "posted": {
-  "viral": 701,
-  "editorial": 952
+  "viral": 703,
+  "editorial": 955
  },
  "recent_labels": [
-  "The Hacker News",
   "Hacker News",
-  "Xe Iaso",
-  "InfoQ",
-  "vc.ru"
+  "Hacker News",
+  "CNews",
+  "CNews",
+  "SecurityWeek"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9180,60 +9180,54 @@
    "pool": "editorial",
    "score": 0.13978,
    "at": "2026-11-11T07:54:17.468626+00:00"
+  },
+  {
+   "title": "عملکرد مدل‌های زبانی در حل و بهینه‌سازی بازی برنامه‌نویسی TIS-100",
+   "url": "https://tis-100.wincon.dev/",
+   "source": "tis-100.wincon.dev",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00718,
+   "at": "2026-11-11T08:53:43.511149+00:00"
+  },
+  {
+   "title": "تغییر رویکرد پروژه Ginux به یک هسته در فضای کاربری",
+   "url": "https://github.com/gmkurtzer/ginux",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.10501,
+   "at": "2026-11-11T08:53:50.759444+00:00"
+  },
+  {
+   "title": "اتصال پلتفرم Directum به پیام‌رسان دولتی روسیه برای امضای اسناد",
+   "url": "https://www.cnews.ru/news/line/2026-11-11_directum_uchastvuet_v_eksperimente",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.17781,
+   "at": "2026-11-11T08:55:09.386009+00:00"
+  },
+  {
+   "title": "انتشار نسخه‌ی ۱۱.۰.۱ سیستم‌عامل موبایل Alt با بهبودهای امنیتی و سیستمی",
+   "url": "https://www.cnews.ru/news/line/2026-11-11_alt_mobilnyj_1101_novye",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.19993,
+   "at": "2026-11-11T08:55:20.807887+00:00"
+  },
+  {
+   "title": "انتشار وصله‌های امنیتی برای بیش از ۲۰۰ آسیب‌پذیری در محصولات Intel و AMD",
+   "url": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
+   "source": "SecurityWeek",
+   "label": "SecurityWeek",
+   "pool": "editorial",
+   "score": 0.25539,
+   "at": "2026-11-11T08:55:30.078776+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agent",
-    "alexa",
-    "amazon",
-    "blocking",
-    "help",
-    "lets",
-    "muse",
-    "orders",
-    "shop",
-    "shopping",
-    "take",
-    "text",
-    "users"
-   ],
-   "at": "2026-11-06T16:55:19.101679+00:00"
-  },
-  {
-   "sig": [
-    "claude",
-    "discovery",
-    "researchers",
-    "scientific"
-   ],
-   "at": "2026-11-06T17:53:44.298058+00:00"
-  },
-  {
-   "sig": [
-    "change",
-    "clips4sale",
-    "content",
-    "creator",
-    "edits",
-    "flagging",
-    "needed",
-    "noting",
-    "percent",
-    "platform",
-    "removed",
-    "requiring",
-    "samleecole.bsky.social",
-    "sophia",
-    "told",
-    "truee",
-    "uk-based",
-    "videos",
-    "without"
-   ],
-   "at": "2026-11-06T17:53:51.233703+00:00"
-  },
   {
    "sig": [
     "nilay",
@@ -13263,17 +13257,40 @@
     "typescript"
    ],
    "at": "2026-11-11T07:54:09.506556+00:00"
+  },
+  {
+   "sig": [
+    "llms",
+    "play",
+    "tis-100",
+    "zachtronics"
+   ],
+   "at": "2026-11-11T08:53:43.511149+00:00"
+  },
+  {
+   "sig": [
+    "ginux",
+    "greg",
+    "kernel",
+    "kurtzer",
+    "userspace"
+   ],
+   "at": "2026-11-11T08:53:50.759444+00:00"
+  },
+  {
+   "sig": [
+    "addressed",
+    "amd",
+    "chipmaker",
+    "intel",
+    "patch",
+    "tuesday",
+    "vulnerabilities"
+   ],
+   "at": "2026-11-11T08:55:30.078776+00:00"
   }
  ],
  "snapshots": {
-  "hn:50305693": [
-   327,
-   "2026-10-30T16:53:43.277861+00:00"
-  ],
-  "hn:50305436": [
-   149,
-   "2026-10-30T16:53:43.277861+00:00"
-  ],
   "hn:50305272": [
    174,
    "2026-10-30T16:53:43.277861+00:00"
@@ -15650,14 +15667,6 @@
    118,
    "2026-11-11T06:53:42.315473+00:00"
   ],
-  "hn:50446520": [
-   462,
-   "2026-11-11T07:53:49.284298+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzymgrmku22t": [
-   7,
-   "2026-11-11T07:53:49.284298+00:00"
-  ],
   "hn:50448174": [
    118,
    "2026-11-11T07:53:49.284298+00:00"
@@ -15665,6 +15674,22 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzzenln62c2r": [
    30,
    "2026-11-11T07:53:49.284298+00:00"
+  ],
+  "hn:50446520": [
+   545,
+   "2026-11-11T08:53:41.588658+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzymgrmku22t": [
+   7,
+   "2026-11-11T08:53:41.588658+00:00"
+  ],
+  "hn:50450007": [
+   102,
+   "2026-11-11T08:53:41.588658+00:00"
+  ],
+  "hn:50448340": [
+   80,
+   "2026-11-11T08:53:41.588658+00:00"
   ]
  },
  "skips": {
@@ -15702,7 +15727,7 @@
   "ZDNet": 4,
   "9to5Mac": 14,
   "EFF": 2,
-  "Hacker News": 53,
+  "Hacker News": 55,
   "TechSpot": 17,
   "The Hacker News": 28,
   "Latent Space": 4,
@@ -15715,12 +15740,12 @@
   "Simon Willison": 2,
   "Simon Willison RSS": 6,
   "vc.ru": 12,
-  "SecurityWeek": 12,
+  "SecurityWeek": 13,
   "Hi-Tech Mail": 35,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 33,
+  "CNews": 35,
   "Emily M. Bender": 3,
   "antirez": 5,
   "OpenAI": 3,
@@ -15745,7 +15770,7 @@
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-10T14:55:31.753692+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-11T07:53:57.406311+00:00",
+  "Hacker News": "2026-11-11T08:53:50.759563+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-11T07:53:51.357648+00:00",
   "Latent Space": "2026-11-11T05:54:10.742649+00:00",
@@ -15758,12 +15783,12 @@
   "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-11T07:54:17.468730+00:00",
-  "SecurityWeek": "2026-11-10T13:54:24.527816+00:00",
+  "SecurityWeek": "2026-11-11T08:55:30.078904+00:00",
   "Hi-Tech Mail": "2026-11-11T06:54:11.974830+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-11T06:54:01.983899+00:00",
+  "CNews": "2026-11-11T08:55:20.808022+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
