@@ -1,16 +1,5 @@
 {
  "seen": [
-  "hn:49580369",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3musefjkfel2o",
-  "17967d94738b2f85ac8fc5d185f9f53b",
-  "hn:49580325",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3musjl7lvdx2f",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3musx3wgdvc2n",
-  "hn:49584123",
-  "hn:49584637",
-  "https://3dnews.ru/1148051/#6a9d3cf6742eec715e8b4568",
-  "hn:49584083",
-  "TheNextWeb=c4f64344d456b57c622a6746b8fac2c9",
   "hn:49585627",
   "6a9705368e71dd67ca5de95a",
   "k527r6rZ8YkhFM8RnXb9p5",
@@ -2999,18 +2988,29 @@
   "hn:50448921",
   "https://www.cnews.ru/news/line/2026-11-11_dzen_obnovil_glifa_ii-assistent",
   "https://www.cnews.ru/news/line/2026-11-11_robodostavka_zarabotala",
-  "https://www.cnews.ru/news/line/2026-11-11_bolee_poloviny_rossiyan_protiv"
+  "https://www.cnews.ru/news/line/2026-11-11_bolee_poloviny_rossiyan_protiv",
+  "https://www.theregister.com/a/5308603",
+  "https://www.phoronix.com/review/amd-epyc-9996",
+  "https://www.phoronix.com/review/amd-epyc-9686f",
+  "https://www.techspot.com/news/114513-amd-launches-zen-6-epyc-9006-series-up.html",
+  "https://tech.slashdot.org/story/26/11/10/208239/starlink-mini-2-adds-a-swappable-battery-wi-fi-6?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.theverge.com/?p=1031028",
+  "https://www.androidpolice.com/starlink-mini-2-debuts-with-new-design-built-in-battery/",
+  "urn:latent-space:post:post_4bf810e2-c310-445e-a5c0-4a9f7a3f36ec",
+  "MrtNeiVyrGeCcmNY7pngNa",
+  "https://huggingface.co/blog/qvac/botpsy",
+  "https://www.androidpolice.com/motorolas-wide-razr-foldable-officially-coming-for-galaxy-z-fold-8/"
  ],
  "posted": {
   "viral": 699,
-  "editorial": 939
+  "editorial": 944
  },
  "recent_labels": [
-  "Lobsters",
-  "Hacker News",
-  "CNews",
-  "CNews",
-  "CNews"
+  "The Register",
+  "Slashdot",
+  "Latent Space",
+  "Hugging Face",
+  "Android Police"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9045,72 +9045,54 @@
    "pool": "editorial",
    "score": 0.15544,
    "at": "2026-11-11T04:54:33.693858+00:00"
+  },
+  {
+   "title": "جزئیات معماری پردازنده‌های جدید AMD با هسته‌های Zen 6 و Zen 6c",
+   "url": "https://www.theregister.com/systems/2026/11/10/amd-winds-up-zen-6-cores-for-faster-clock-speeds/5308603",
+   "source": "The Register",
+   "label": "The Register",
+   "pool": "editorial",
+   "score": 0.11983,
+   "at": "2026-11-11T05:53:52.356950+00:00"
+  },
+  {
+   "title": "عرضه‌ی Starlink Mini 2 با باتری قابل تعویض و پشتیبانی از Wi-Fi 6",
+   "url": "https://tech.slashdot.org/story/26/11/10/208239/starlink-mini-2-adds-a-swappable-battery-wi-fi-6?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "label": "Slashdot",
+   "pool": "editorial",
+   "score": 0.07768,
+   "at": "2026-11-11T05:53:59.180425+00:00"
+  },
+  {
+   "title": "تغییرات جدید در ابزار برنامه‌نویسی Codex و قابلیت‌های شخصی‌سازی OpenAI",
+   "url": "https://latent.space/p/codex-work/",
+   "source": "Latent Space",
+   "label": "Latent Space",
+   "pool": "editorial",
+   "score": 0.13845,
+   "at": "2026-11-11T05:54:10.742548+00:00"
+  },
+  {
+   "title": "معرفی مدل هوش مصنوعی BotPsy برای اجرای محلی روی دستگاه",
+   "url": "https://huggingface.co/blog/qvac/botpsy",
+   "source": "Hugging Face",
+   "label": "Hugging Face",
+   "pool": "editorial",
+   "score": 0.13602,
+   "at": "2026-11-11T05:54:17.268028+00:00"
+  },
+  {
+   "title": "جزئیات جدید از گوشی تاشوی جدید موتورولا با نام Razr Flex",
+   "url": "https://www.androidpolice.com/motorolas-wide-razr-foldable-officially-coming-for-galaxy-z-fold-8/",
+   "source": "Android Police",
+   "label": "Android Police",
+   "pool": "editorial",
+   "score": 0.11765,
+   "at": "2026-11-11T05:54:23.447100+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "built",
-    "feature",
-    "flag",
-    "open-source",
-    "server",
-    "years"
-   ],
-   "at": "2026-11-06T14:53:48.486519+00:00"
-  },
-  {
-   "sig": [
-    "assistant",
-    "combines",
-    "native",
-    "server-driven",
-    "yelp"
-   ],
-   "at": "2026-11-06T14:54:01.996686+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "app",
-    "buys",
-    "coding",
-    "conductor",
-    "meta",
-    "parallel",
-    "runs",
-    "whose"
-   ],
-   "at": "2026-11-06T14:54:27.803227+00:00"
-  },
-  {
-   "sig": [
-    "already",
-    "apple",
-    "apps",
-    "built",
-    "duo",
-    "holidays",
-    "iphone",
-    "isn",
-    "latest",
-    "reassuring",
-    "stock",
-    "there",
-    "update",
-    "want"
-   ],
-   "at": "2026-11-06T15:54:01.724081+00:00"
-  },
-  {
-   "sig": [
-    "chomsky",
-    "cultures",
-    "learning",
-    "statistical"
-   ],
-   "at": "2026-11-06T15:54:22.273660+00:00"
-  },
   {
    "sig": [
     "drivers",
@@ -13137,6 +13119,83 @@
     "old-timey"
    ],
    "at": "2026-11-11T04:53:55.820695+00:00"
+  },
+  {
+   "sig": [
+    "5.3ghz",
+    "9686f",
+    "amd",
+    "benchmarks",
+    "clock",
+    "cores",
+    "epyc",
+    "faster",
+    "launches",
+    "linux",
+    "performance",
+    "series",
+    "show",
+    "speeds",
+    "threads",
+    "tsmc",
+    "unparalleled",
+    "winds",
+    "zen"
+   ],
+   "at": "2026-11-11T05:53:52.356950+00:00"
+  },
+  {
+   "sig": [
+    "adds",
+    "battery",
+    "built-in",
+    "debut",
+    "design",
+    "mini",
+    "starlink",
+    "swappable",
+    "thinner",
+    "wi-fi"
+   ],
+   "at": "2026-11-11T05:53:59.180425+00:00"
+  },
+  {
+   "sig": [
+    "code",
+    "codex",
+    "engineer",
+    "openai",
+    "summit",
+    "ways",
+    "working"
+   ],
+   "at": "2026-11-11T05:54:10.742548+00:00"
+  },
+  {
+   "sig": [
+    "agentic",
+    "assistant",
+    "botpsy",
+    "language",
+    "model",
+    "on-device",
+    "personal",
+    "sub-billion-parameter"
+   ],
+   "at": "2026-11-11T05:54:17.268028+00:00"
+  },
+  {
+   "sig": [
+    "coming",
+    "fold",
+    "foldable",
+    "galaxy",
+    "motorola",
+    "officially",
+    "razr",
+    "wide"
+   ],
+   "at": "2026-11-11T05:54:23.447100+00:00"
   }
  ],
  "snapshots": {
@@ -15521,16 +15580,16 @@
    "2026-11-11T03:53:46.380396+00:00"
   ],
   "hn:50446520": [
-   312,
-   "2026-11-11T04:53:45.642370+00:00"
+   319,
+   "2026-11-11T05:53:49.299574+00:00"
   ],
   "hn:50443716": [
    441,
-   "2026-11-11T04:53:45.642370+00:00"
+   "2026-11-11T05:53:49.299574+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzymgrmku22t": [
    7,
-   "2026-11-11T04:53:45.642370+00:00"
+   "2026-11-11T05:53:49.299574+00:00"
   ],
   "hn:50448921": [
    90,
@@ -15545,7 +15604,7 @@
   "Tom's Hardware": 3,
   "Article 19": 1,
   "Wired": 7,
-  "TechRadar": 4,
+  "TechRadar": 5,
   "Lobsters": 2,
   "Hacker News": 17,
   "The Next Web": 1,
@@ -15565,7 +15624,7 @@
   "Neowin": 18,
   "Wired": 21,
   "TechRadar": 33,
-  "Slashdot": 26,
+  "Slashdot": 27,
   "404 Media": 38,
   "Xe Iaso": 2,
   "The Verge": 21,
@@ -15579,12 +15638,12 @@
   "Hacker News": 52,
   "TechSpot": 17,
   "The Hacker News": 27,
-  "Latent Space": 3,
+  "Latent Space": 4,
   "InfoQ": 14,
-  "The Register": 22,
+  "The Register": 23,
   "Phoronix": 22,
   "The Next Web": 22,
-  "Android Police": 19,
+  "Android Police": 20,
   "Ars Technica": 1,
   "Simon Willison": 2,
   "Simon Willison RSS": 6,
@@ -15598,7 +15657,7 @@
   "Emily M. Bender": 3,
   "antirez": 5,
   "OpenAI": 2,
-  "Hugging Face": 1,
+  "Hugging Face": 2,
   "Access Now": 1,
   "Google AI": 1,
   "Rest of World": 1
@@ -15608,7 +15667,7 @@
   "Neowin": "2026-11-09T17:54:10.899288+00:00",
   "Wired": "2026-11-10T13:54:47.029930+00:00",
   "TechRadar": "2026-11-10T14:54:57.171410+00:00",
-  "Slashdot": "2026-11-11T03:54:01.572520+00:00",
+  "Slashdot": "2026-11-11T05:53:59.180534+00:00",
   "404 Media": "2026-11-11T01:53:54.657776+00:00",
   "Xe Iaso": "2026-11-09T02:54:20.896292+00:00",
   "The Verge": "2026-11-10T13:54:53.165290+00:00",
@@ -15622,12 +15681,12 @@
   "Hacker News": "2026-11-11T04:53:55.820814+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-10T12:54:19.974106+00:00",
-  "Latent Space": "2026-11-09T16:54:28.410519+00:00",
+  "Latent Space": "2026-11-11T05:54:10.742649+00:00",
   "InfoQ": "2026-11-10T06:54:51.221334+00:00",
-  "The Register": "2026-11-10T08:53:46.758920+00:00",
+  "The Register": "2026-11-11T05:53:52.357081+00:00",
   "Phoronix": "2026-11-10T10:54:35.367397+00:00",
   "The Next Web": "2026-11-10T10:54:20.926292+00:00",
-  "Android Police": "2026-11-09T11:54:03.532431+00:00",
+  "Android Police": "2026-11-11T05:54:23.447205+00:00",
   "Ars Technica": "2026-10-31T11:53:40.882295+00:00",
   "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
@@ -15641,7 +15700,7 @@
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-11T03:54:42.452051+00:00",
-  "Hugging Face": "2026-11-05T02:54:24.075211+00:00",
+  "Hugging Face": "2026-11-11T05:54:17.268131+00:00",
   "Access Now": "2026-11-05T10:54:49.232575+00:00",
   "Google AI": "2026-11-06T04:54:24.190387+00:00",
   "Rest of World": "2026-11-09T08:53:50.184598+00:00"
