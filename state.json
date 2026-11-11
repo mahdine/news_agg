@@ -1,23 +1,5 @@
 {
  "seen": [
-  "https://games.slashdot.org/story/26/09/03/1943208/xbox-cloud-gaming-switches-to-monthly-hour-limits?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://www.theverge.com/?p=990132",
-  "https://www.techspot.com/news/113734-xbox-cloud-gaming-now-allows-only-up-15.html",
-  "https://www.neowin.net/news/microsoft-brings-xbox-cloud-gaming-to-tcl-smart-tvs-ahead-of-streaming-caps/",
-  "https://www.neowin.net/news/microsoft-capping-xbox-cloud-gaming-to-15-hours-charging-for-extra/",
-  "hn:49567053",
-  "21b6cdce143bf355be6cc87838ad80be",
-  "CvcisyJkME78g8oyF5ALwc",
-  "hn:49570669",
-  "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
-  "https://3dnews.ru/1148024/#6a9bc793742eeccae98b4572",
-  "https://www.engadget.com/2250814/openai-says-gpt-6-astra-is-the-most-intelligent-and-aligned-model-in-the-world/",
-  "https://www.theregister.com/a/5294378",
-  "https://9to5mac.com/?p=1067340",
-  "59bbe7cc0b876e74ec441e3c2173ac9d",
-  "UfgT9ar8kZ4Nk8xPiKTHRP",
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3murek44kop2y",
-  "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
   "https://techcrunch.com/?p=3161042",
   "https://www.theverge.com/?p=990773",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mursboktiv2k",
@@ -2999,18 +2981,36 @@
   "hn:50443090",
   "hn:50443714",
   "hn:50443812",
-  "hn:50444684"
+  "hn:50444684",
+  "5ym4xDRhuAMXLqBhjNYdgL",
+  "https://techcrunch.com/?p=3186475",
+  "https://techcrunch.com/?p=3186581",
+  "https://www.engadget.com/2312947/nvidia-shareholders-are-suing-the-company-and-ceo-jensen-huang/",
+  "ru4Ac9kpjEEpr49gQcr8X8",
+  "bTLxyxPVGhVg33F8dvoL63",
+  "https://yro.slashdot.org/story/26/11/09/2253208/trump-backs-nvidia-ceo-jensen-huang-amid-chinese-spy-affair-investigation?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.techspot.com/news/114504-nvidia-jensen-huang-face-class-action-lawsuit-after.html",
+  "https://tech.slashdot.org/story/26/11/10/178254/blender-53-released-with-nvidia-dlss-45-ray-reconstruction-vulkan-default?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50442426",
+  "https://www.phoronix.com/news/Blender-5.3-Released",
+  "https://www.techspot.com/downloads/638-blender.html",
+  "hn:50444850",
+  "hn:50445013",
+  "https://news.slashdot.org/story/26/11/10/2227217/m-john-harrison-becomes-first-sci-fi-author-to-win-booker-prize?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.cnews.ru/news/line/2026-11-11_grt-ci-w82a_novinka_v_linejke",
+  "https://www.cnews.ru/news/line/2026-11-11_obem_otgruzok_positive_technologies",
+  "https://openai.com/index/gilbert-tobin-sam-nickless"
  ],
  "posted": {
-  "viral": 696,
-  "editorial": 933
+  "viral": 697,
+  "editorial": 936
  },
  "recent_labels": [
   "Hacker News",
+  "Tom's Hardware",
+  "Slashdot",
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News"
+  "OpenAI"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -8964,59 +8964,45 @@
    "pool": "viral",
    "score": 0.00681,
    "at": "2026-11-11T02:54:55.716172+00:00"
+  },
+  {
+   "title": "تحقیقات اف‌بی‌آی درباره مدیرعامل انویدیا و ارتباط با جاسوس چینی",
+   "url": "https://www.tomshardware.com/tech-industry/policy/president-trump-says-the-fbi-is-investigating-jensen-huangs-affair-nvidia-also-accused-of-intervening-in-megaspeed-chip-smuggling-investigation",
+   "source": "Tom's Hardware",
+   "label": "Tom's Hardware",
+   "pool": "editorial",
+   "score": 0.18285,
+   "at": "2026-11-11T03:53:51.841123+00:00"
+  },
+  {
+   "title": "انتشار نسخه ۵.۳ نرم‌افزار Blender با پشتیبانی از Vulkan و DLSS",
+   "url": "https://tech.slashdot.org/story/26/11/10/178254/blender-53-released-with-nvidia-dlss-45-ray-reconstruction-vulkan-default?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "label": "Slashdot",
+   "pool": "editorial",
+   "score": 0.13561,
+   "at": "2026-11-11T03:54:01.572409+00:00"
+  },
+  {
+   "title": "تحلیل فرآیند استدلال مدل‌های زبانی به مثابه مسیریابی در فضای توکن‌ها",
+   "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+   "source": "alexwang.ai",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.0037,
+   "at": "2026-11-11T03:54:18.827612+00:00"
+  },
+  {
+   "title": "تغییر مدل کسب‌وکار حقوقی با استفاده از هوش مصنوعی در Gilbert + Tobin",
+   "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "source": "OpenAI",
+   "label": "OpenAI",
+   "pool": "editorial",
+   "score": 0.32164,
+   "at": "2026-11-11T03:54:42.451949+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "adjusted",
-    "battery",
-    "chrome",
-    "failing",
-    "memory",
-    "settings",
-    "these",
-    "thought",
-    "until"
-   ],
-   "at": "2026-11-06T13:03:30.955201+00:00"
-  },
-  {
-   "sig": [
-    "32mb",
-    "demo",
-    "model",
-    "shows",
-    "speech",
-    "underdog"
-   ],
-   "at": "2026-11-06T13:03:38.271232+00:00"
-  },
-  {
-   "sig": [
-    "app",
-    "credentials",
-    "hardcoded",
-    "issues",
-    "motors",
-    "other",
-    "tata"
-   ],
-   "at": "2026-11-06T13:56:26.782771+00:00"
-  },
-  {
-   "sig": [
-    "16-month",
-    "admits",
-    "customer",
-    "digicert",
-    "exposed",
-    "information",
-    "lapse",
-    "security"
-   ],
-   "at": "2026-11-06T13:56:33.299969+00:00"
-  },
   {
    "sig": [
     "11.4",
@@ -13045,6 +13031,88 @@
     "users"
    ],
    "at": "2026-11-11T02:54:55.716172+00:00"
+  },
+  {
+   "sig": [
+    "affair",
+    "alleged",
+    "amid",
+    "backs",
+    "billion",
+    "ceo",
+    "chinese",
+    "class-action",
+    "company",
+    "confirms",
+    "congress",
+    "face",
+    "fbi",
+    "files",
+    "firm",
+    "flagged",
+    "huang",
+    "investigating",
+    "investigation",
+    "jensen",
+    "law",
+    "lawsuit",
+    "months",
+    "nvidia",
+    "president",
+    "scandal",
+    "seller",
+    "shareholders",
+    "short",
+    "six",
+    "spy",
+    "suing",
+    "summoned",
+    "suspected",
+    "ties",
+    "timeline",
+    "trump",
+    "wipes"
+   ],
+   "at": "2026-11-11T03:53:51.841123+00:00"
+  },
+  {
+   "sig": [
+    "4.5",
+    "5.3",
+    "adds",
+    "blender",
+    "default",
+    "dlss",
+    "gaussian",
+    "native",
+    "nvidia",
+    "ray",
+    "reconstruction",
+    "released",
+    "splat",
+    "splatting",
+    "support",
+    "vulkan"
+   ],
+   "at": "2026-11-11T03:54:01.572409+00:00"
+  },
+  {
+   "sig": [
+    "objective",
+    "reasoning",
+    "solving"
+   ],
+   "at": "2026-11-11T03:54:18.827612+00:00"
+  },
+  {
+   "sig": [
+    "business",
+    "gilbert",
+    "law",
+    "rethinks",
+    "tobin"
+   ],
+   "at": "2026-11-11T03:54:42.451949+00:00"
   }
  ],
  "snapshots": {
@@ -15349,8 +15417,8 @@
    "2026-11-10T17:53:44.026163+00:00"
   ],
   "hn:50442426": [
-   579,
-   "2026-11-11T02:53:40.727231+00:00"
+   583,
+   "2026-11-11T03:53:46.380396+00:00"
   ],
   "hn:50442303": [
    576,
@@ -15373,8 +15441,8 @@
    "2026-11-11T01:53:43.950660+00:00"
   ],
   "hn:50446520": [
-   298,
-   "2026-11-11T02:53:40.727231+00:00"
+   305,
+   "2026-11-11T03:53:46.380396+00:00"
   ],
   "hn:50446246": [
    177,
@@ -15385,12 +15453,12 @@
    "2026-11-11T01:53:43.950660+00:00"
   ],
   "hn:50445013": [
-   213,
-   "2026-11-11T02:53:40.727231+00:00"
+   225,
+   "2026-11-11T03:53:46.380396+00:00"
   ],
   "hn:50444850": [
    182,
-   "2026-11-11T02:53:40.727231+00:00"
+   "2026-11-11T03:53:46.380396+00:00"
   ],
   "hn:50444684": [
    152,
@@ -15405,8 +15473,8 @@
    "2026-11-11T02:53:40.727231+00:00"
   ],
   "hn:50443716": [
-   431,
-   "2026-11-11T02:53:40.727231+00:00"
+   438,
+   "2026-11-11T03:53:46.380396+00:00"
   ],
   "hn:50443714": [
    89,
@@ -15429,8 +15497,8 @@
    "2026-11-11T01:53:43.950660+00:00"
   ],
   "lobsters:kqjcnb": [
-   59,
-   "2026-11-11T02:53:40.727231+00:00"
+   61,
+   "2026-11-11T03:53:46.380396+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxyqznios2r": [
    289,
@@ -15446,7 +15514,7 @@
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzymgrmku22t": [
    7,
-   "2026-11-11T02:53:40.727231+00:00"
+   "2026-11-11T03:53:46.380396+00:00"
   ]
  },
  "skips": {
@@ -15455,17 +15523,17 @@
   "Wired": 7,
   "TechRadar": 4,
   "Lobsters": 2,
-  "Hacker News": 16,
+  "Hacker News": 17,
   "The Next Web": 1,
   "404 Media": 4,
   "Emily M. Bender": 2,
   "Simon Willison": 2,
   "Xe Iaso": 1,
   "Simon Willison RSS": 1,
-  "CNews": 5,
+  "CNews": 7,
   "vc.ru": 2,
   "Hi-Tech Mail": 3,
-  "Slashdot": 1,
+  "Slashdot": 2,
   "The Register": 1
  },
  "posts_by_label": {
@@ -15473,18 +15541,18 @@
   "Neowin": 18,
   "Wired": 21,
   "TechRadar": 33,
-  "Slashdot": 25,
+  "Slashdot": 26,
   "404 Media": 38,
   "Xe Iaso": 2,
   "The Verge": 21,
   "Cloudflare": 1,
   "TechCrunch AI": 17,
   "Lobsters": 9,
-  "Tom's Hardware": 32,
+  "Tom's Hardware": 33,
   "ZDNet": 4,
   "9to5Mac": 14,
   "EFF": 2,
-  "Hacker News": 50,
+  "Hacker News": 51,
   "TechSpot": 17,
   "The Hacker News": 27,
   "Latent Space": 3,
@@ -15505,7 +15573,7 @@
   "CNews": 29,
   "Emily M. Bender": 3,
   "antirez": 5,
-  "OpenAI": 1,
+  "OpenAI": 2,
   "Hugging Face": 1,
   "Access Now": 1,
   "Google AI": 1,
@@ -15516,18 +15584,18 @@
   "Neowin": "2026-11-09T17:54:10.899288+00:00",
   "Wired": "2026-11-10T13:54:47.029930+00:00",
   "TechRadar": "2026-11-10T14:54:57.171410+00:00",
-  "Slashdot": "2026-11-10T14:54:13.136539+00:00",
+  "Slashdot": "2026-11-11T03:54:01.572520+00:00",
   "404 Media": "2026-11-11T01:53:54.657776+00:00",
   "Xe Iaso": "2026-11-09T02:54:20.896292+00:00",
   "The Verge": "2026-11-10T13:54:53.165290+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-10T14:55:14.549569+00:00",
   "Lobsters": "2026-11-10T11:53:54.560480+00:00",
-  "Tom's Hardware": "2026-11-10T11:54:35.380747+00:00",
+  "Tom's Hardware": "2026-11-11T03:53:51.841244+00:00",
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-10T14:55:31.753692+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-11T02:54:55.716273+00:00",
+  "Hacker News": "2026-11-11T03:54:18.827716+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-10T12:54:19.974106+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
@@ -15548,7 +15616,7 @@
   "CNews": "2026-11-10T09:54:30.469474+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
-  "OpenAI": "2026-11-05T02:53:58.432643+00:00",
+  "OpenAI": "2026-11-11T03:54:42.452051+00:00",
   "Hugging Face": "2026-11-05T02:54:24.075211+00:00",
   "Access Now": "2026-11-05T10:54:49.232575+00:00",
   "Google AI": "2026-11-06T04:54:24.190387+00:00",
