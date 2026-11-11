@@ -1,11 +1,5 @@
 {
  "seen": [
-  "https://www.engadget.com/2256741/openai-agents-hacked-rubygems/",
-  "hn:49678683",
-  "lobsters:fmkm3v",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvecyept3i23",
-  "hn:49682319",
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mvfkheny5u2t",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvgdwhryoc2m",
   "https://www.engadget.com/2256984/sam-altman-says-openai-wont-file-for-ipo-this-year/",
   "https://techcrunch.com/?p=3163386",
@@ -2999,18 +2993,24 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22aopmjab2i",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22bjlmt5c2l",
   "yndS4cbSftxr6mmj73q5ze",
-  "https://www.neowin.net/news/openai-is-retiring-chatgpts-advanced-and-standard-voice-modes-sparking-user-backlash/"
+  "https://www.neowin.net/news/openai-is-retiring-chatgpts-advanced-and-standard-voice-modes-sparking-user-backlash/",
+  "hn:50453288",
+  "hn:50453637",
+  "x8F8q5d9pTLKkCj5CtaMqQ",
+  "https://www.techspot.com/news/114521-asrock-releases-new-radeon-gpu-firmware-after-previous.html",
+  "lobsters:romf5e",
+  "hn:50453763"
  ],
  "posted": {
-  "viral": 712,
-  "editorial": 974
+  "viral": 716,
+  "editorial": 975
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
-  "The Verge",
-  "9to5Mac",
-  "TechRadar"
+  "Tom's Hardware",
+  "Lobsters",
+  "Hacker News"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9477,82 +9477,54 @@
    "pool": "editorial",
    "score": 0.28859,
    "at": "2026-11-11T15:55:04.484240+00:00"
+  },
+  {
+   "title": "شبیه‌سازی واقع‌گرایانه شن با استفاده از WebGL2",
+   "url": "https://av.github.io/safe-sand/",
+   "source": "av.github.io",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.06523,
+   "at": "2026-11-11T16:53:54.867156+00:00"
+  },
+  {
+   "title": "همگام‌سازی و جستجوی تاریخچه جلسات ایجنت‌های کدنویسی با Atuin Threads",
+   "url": "https://blog.atuin.sh/threads-agent-sessions/",
+   "source": "blog.atuin.sh",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.08242,
+   "at": "2026-11-11T16:54:01.310199+00:00"
+  },
+  {
+   "title": "انتشار فریم‌ور جدید ASRock برای رفع مشکل خرابی کارت‌های گرافیک",
+   "url": "https://www.tomshardware.com/pc-components/gpus/asrock-attempts-to-correct-botched-radeon-rx-7000-firmware-release-with-new-version-revised-release-should-work-ok-but-company-provides-no-explanation-for-bricked-cards",
+   "source": "Tom's Hardware",
+   "label": "Tom's Hardware",
+   "pool": "editorial",
+   "score": 0.41975,
+   "at": "2026-11-11T16:54:07.259819+00:00"
+  },
+  {
+   "title": "درگذشت تیم پیترز، از توسعه‌دهندگان کلیدی و تاثیرگذار زبان برنامه‌نویسی Python",
+   "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+   "source": "discuss.python.org",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.20199,
+   "at": "2026-11-11T16:54:13.513377+00:00"
+  },
+  {
+   "title": "اجرای محیط برنامه‌نویسی Pharo در مرورگر با استفاده از WebAssembly",
+   "url": "https://massimo-nocentini.github.io/pharo-vm/world.html",
+   "source": "massimo-nocentini.github.io",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.08116,
+   "at": "2026-11-11T16:54:19.294771+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "center",
-    "chinese",
-    "customers",
-    "data",
-    "exposure",
-    "market",
-    "nvidia",
-    "reportedly",
-    "tells",
-    "trim"
-   ],
-   "at": "2026-11-07T03:54:38.163362+00:00"
-  },
-  {
-   "sig": [
-    "arrived",
-    "compare",
-    "does",
-    "ipad",
-    "mini",
-    "range",
-    "rest"
-   ],
-   "at": "2026-11-07T03:54:45.936702+00:00"
-  },
-  {
-   "sig": [
-    "agent",
-    "app",
-    "collaborate",
-    "create",
-    "custom",
-    "introduces",
-    "meta",
-    "muse",
-    "need",
-    "right",
-    "spaces",
-    "version",
-    "way"
-   ],
-   "at": "2026-11-07T05:53:48.454322+00:00"
-  },
-  {
-   "sig": [
-    "acquired",
-    "center",
-    "centre",
-    "crusoe",
-    "data",
-    "google",
-    "had",
-    "planned",
-    "project",
-    "sells",
-    "site",
-    "southeast",
-    "takes",
-    "troubled",
-    "wyoming"
-   ],
-   "at": "2026-11-07T05:55:12.552624+00:00"
-  },
-  {
-   "sig": [
-    "does",
-    "exist",
-    "port"
-   ],
-   "at": "2026-11-07T05:55:37.559229+00:00"
-  },
   {
    "sig": [
     "1.25",
@@ -13580,33 +13552,66 @@
     "voice"
    ],
    "at": "2026-11-11T15:55:04.484240+00:00"
+  },
+  {
+   "sig": [
+    "hyper-realistic",
+    "sand",
+    "webgl2"
+   ],
+   "at": "2026-11-11T16:53:54.867156+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "atuin",
+    "every",
+    "machine",
+    "sessions",
+    "threads"
+   ],
+   "at": "2026-11-11T16:54:01.310199+00:00"
+  },
+  {
+   "sig": [
+    "7900-series",
+    "asrock",
+    "bricked",
+    "cards",
+    "disastrous",
+    "explanation",
+    "firmware",
+    "gpu",
+    "gpus",
+    "killed",
+    "offers",
+    "previous",
+    "quietly",
+    "radeon",
+    "releases",
+    "rolls",
+    "update"
+   ],
+   "at": "2026-11-11T16:54:07.259819+00:00"
+  },
+  {
+   "sig": [
+    "memoriam",
+    "peters",
+    "tim"
+   ],
+   "at": "2026-11-11T16:54:13.513377+00:00"
+  },
+  {
+   "sig": [
+    "browser",
+    "pharo",
+    "webassembly"
+   ],
+   "at": "2026-11-11T16:54:19.294771+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4f5hoz2w2k": [
-   94,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
-  "hn:50311686": [
-   84,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
-  "hn:50310796": [
-   235,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
-  "hn:50310398": [
-   87,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
-  "hn:50309534": [
-   202,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
-  "hn:50309266": [
-   157,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
   "hn:50304280": [
    97,
    "2026-10-31T01:54:09.316801+00:00"
@@ -15982,6 +15987,30 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22aopmjab2i": [
    157,
    "2026-11-11T15:53:44.612244+00:00"
+  ],
+  "hn:50453763": [
+   107,
+   "2026-11-11T16:53:51.612607+00:00"
+  ],
+  "hn:50453637": [
+   143,
+   "2026-11-11T16:53:51.612607+00:00"
+  ],
+  "hn:50453288": [
+   133,
+   "2026-11-11T16:53:51.612607+00:00"
+  ],
+  "lobsters:romf5e": [
+   27,
+   "2026-11-11T16:53:51.612607+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22dztsyrp2f": [
+   184,
+   "2026-11-11T16:53:51.612607+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22bhl4ubc2l": [
+   75,
+   "2026-11-11T16:53:51.612607+00:00"
   ]
  },
  "skips": {
@@ -16017,12 +16046,12 @@
   "The Verge": 22,
   "Cloudflare": 1,
   "TechCrunch AI": 17,
-  "Lobsters": 11,
-  "Tom's Hardware": 35,
+  "Lobsters": 12,
+  "Tom's Hardware": 36,
   "ZDNet": 4,
   "9to5Mac": 16,
   "EFF": 2,
-  "Hacker News": 62,
+  "Hacker News": 65,
   "TechSpot": 17,
   "The Hacker News": 29,
   "Latent Space": 5,
@@ -16060,12 +16089,12 @@
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-10T14:55:14.549569+00:00",
-  "Lobsters": "2026-11-11T10:53:46.261304+00:00",
-  "Tom's Hardware": "2026-11-11T12:54:15.564832+00:00",
+  "Lobsters": "2026-11-11T16:54:13.513528+00:00",
+  "Tom's Hardware": "2026-11-11T16:54:07.259933+00:00",
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-11T15:54:31.610844+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-11T15:54:15.874237+00:00",
+  "Hacker News": "2026-11-11T16:54:19.295017+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-11T09:54:00.557413+00:00",
   "Latent Space": "2026-11-11T09:54:24.134418+00:00",
