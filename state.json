@@ -1,15 +1,5 @@
 {
  "seen": [
-  "6a970fd0a4730003b51cb67d",
-  "https://www.theverge.com/?p=989692",
-  "6a99a3d36f7d62b638e2170a",
-  "https://www.engadget.com/2252525/how-to-watch-apple-event-september-9-2026/",
-  "https://www.techspot.com/news/113783-foldable-iphone-duo-expected-headline-apple-event-today.html",
-  "https://www.neowin.net/news/heres-when-and-where-to-watch-2026-iphone-launch-event-and-what-to-expect/",
-  "https://www.neowin.net/news/apple-to-launch-a-brand-new-app-for-apple-watch-tomorrow-says-report/",
-  "https://9to5mac.com/?p=1066399",
-  "https://9to5mac.com/?p=1067854",
-  "https://9to5mac.com/?p=1067866",
   "https://9to5mac.com/?p=1064369",
   "https://www.techspot.com/downloads/drivers/essentials/nvidia-geforce/",
   "34c2c5d579e9c92c3fd579dcdc3ca9ac",
@@ -2999,18 +2989,28 @@
   "3f593598c7c64f761a931c2f867bc32a",
   "db71c46e9da8e593701a0c011a19c94e",
   "urn:latent-space:post:post_a2419605-9a45-4fa3-a4b3-362a0d8f0efe",
-  "ff6336cc3d23f9656723afe803054a43"
+  "ff6336cc3d23f9656723afe803054a43",
+  "lobsters:x4kaac",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzzdejdzwc2v",
+  "691f3de53b476d6c7a5ff4dc",
+  "6af3651739057729d033ff7f",
+  "ZJnW9yGeQTWyvWmvheacCj",
+  "https://www.phoronix.com/news/Haiku-OS-October-2026",
+  "6ae0fe13268680e603e73921",
+  "BZYtQK4gkgAgLzg6vMTeEc",
+  "https://www.phoronix.com/news/Intel-CPU-Microcode-20261110",
+  "https://www.theregister.com/a/5308738"
  ],
  "posted": {
-  "viral": 703,
-  "editorial": 960
+  "viral": 704,
+  "editorial": 963
  },
  "recent_labels": [
-  "Engadget",
-  "The Hacker News",
   "Hi-Tech Mail",
-  "Latent Space",
-  "Hi-Tech Mail"
+  "Lobsters",
+  "Phoronix",
+  "Tom's Hardware",
+  "Phoronix"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9270,57 +9270,45 @@
    "pool": "editorial",
    "score": 0.21298,
    "at": "2026-11-11T09:54:37.517918+00:00"
+  },
+  {
+   "title": "سی‌امین سالگرد تولد ابزار انتقال داده curl و تاریخچه توسعه آن",
+   "url": "https://daniel.haxx.se/blog/2026/11/11/30-years-of-internet-transfers-with-curl/",
+   "source": "daniel.haxx.se",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.02961,
+   "at": "2026-11-11T10:53:46.261183+00:00"
+  },
+  {
+   "title": "افزودن درایور UFS و قابلیت‌های جدید به سیستم‌عامل Haiku",
+   "url": "https://www.phoronix.com/news/Haiku-OS-October-2026",
+   "source": "Phoronix",
+   "label": "Phoronix",
+   "pool": "editorial",
+   "score": 0.19273,
+   "at": "2026-11-11T10:54:03.345271+00:00"
+  },
+  {
+   "title": "خنک‌سازی خلاقانه سیستم با انتقال حرارت به فضای بیرون",
+   "url": "https://www.tomshardware.com/pc-components/liquid-cooling/enterprising-pc-modder-makes-a-split-cooling-system-to-keep-it-from-overheating-his-room-winter-cold-keeps-cpu-and-gpu-temperatures-below-50-c-under-load",
+   "source": "Tom's Hardware",
+   "label": "Tom's Hardware",
+   "pool": "editorial",
+   "score": 0.20249,
+   "at": "2026-11-11T10:54:09.944347+00:00"
+  },
+  {
+   "title": "انتشار آپدیت میکروکد اینتل برای رفع مشکلات پردازنده‌های جدید",
+   "url": "https://www.phoronix.com/news/Intel-CPU-Microcode-20261110",
+   "source": "Phoronix",
+   "label": "Phoronix",
+   "pool": "editorial",
+   "score": 0.23369,
+   "at": "2026-11-11T10:54:15.482013+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "mustcreate",
-    "pattern",
-    "tests"
-   ],
-   "at": "2026-11-06T19:59:41.301304+00:00"
-  },
-  {
-   "sig": [
-    "framework",
-    "gpu-rendered",
-    "linux",
-    "macos",
-    "native",
-    "rune",
-    "rust",
-    "web",
-    "windows"
-   ],
-   "at": "2026-11-06T19:59:47.925125+00:00"
-  },
-  {
-   "sig": [
-    "bare-metal",
-    "first",
-    "programming",
-    "steps",
-    "uefi",
-    "using"
-   ],
-   "at": "2026-11-06T19:59:54.277913+00:00"
-  },
-  {
-   "sig": [
-    "1.1t",
-    "1.3t",
-    "anthropic",
-    "buyers",
-    "drop",
-    "ipo",
-    "low",
-    "see",
-    "talks",
-    "valuation"
-   ],
-   "at": "2026-11-06T20:00:00.333291+00:00"
-  },
   {
    "sig": [
     "adult",
@@ -13348,17 +13336,58 @@
     "valuation"
    ],
    "at": "2026-11-11T09:54:24.134306+00:00"
+  },
+  {
+   "sig": [
+    "curl",
+    "internet",
+    "transfers",
+    "years"
+   ],
+   "at": "2026-11-11T10:53:46.261183+00:00"
+  },
+  {
+   "sig": [
+    "driver",
+    "finger",
+    "gestures",
+    "haiku",
+    "tap",
+    "three",
+    "ufs"
+   ],
+   "at": "2026-11-11T10:54:03.345271+00:00"
+  },
+  {
+   "sig": [
+    "beat",
+    "cooling",
+    "heat",
+    "loop",
+    "modder",
+    "outside",
+    "radiator",
+    "routes",
+    "water",
+    "winter"
+   ],
+   "at": "2026-11-11T10:54:09.944347+00:00"
+  },
+  {
+   "sig": [
+    "cpu",
+    "fix",
+    "functional",
+    "intel",
+    "issues",
+    "microcode",
+    "releases",
+    "variety"
+   ],
+   "at": "2026-11-11T10:54:15.482013+00:00"
   }
  ],
  "snapshots": {
-  "hn:50305272": [
-   174,
-   "2026-10-30T16:53:43.277861+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4a7vqwg22b": [
-   566,
-   "2026-10-30T17:53:43.525389+00:00"
-  ],
   "hn:50306442": [
    153,
    "2026-10-30T17:53:43.525389+00:00"
@@ -15739,10 +15768,6 @@
    545,
    "2026-11-11T08:53:41.588658+00:00"
   ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzymgrmku22t": [
-   7,
-   "2026-11-11T09:53:48.891270+00:00"
-  ],
   "hn:50450007": [
    102,
    "2026-11-11T08:53:41.588658+00:00"
@@ -15750,12 +15775,24 @@
   "hn:50448340": [
    80,
    "2026-11-11T08:53:41.588658+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzymgrmku22t": [
+   8,
+   "2026-11-11T10:53:44.242018+00:00"
+  ],
+  "lobsters:x4kaac": [
+   26,
+   "2026-11-11T10:53:44.242018+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzzdejdzwc2v": [
+   6,
+   "2026-11-11T10:53:44.242018+00:00"
   ]
  },
  "skips": {
   "Tom's Hardware": 3,
   "Article 19": 1,
-  "Wired": 7,
+  "Wired": 9,
   "TechRadar": 5,
   "Lobsters": 2,
   "Hacker News": 18,
@@ -15763,13 +15800,13 @@
   "404 Media": 4,
   "Emily M. Bender": 2,
   "Simon Willison": 2,
-  "Xe Iaso": 1,
+  "Xe Iaso": 2,
   "Simon Willison RSS": 1,
   "CNews": 9,
   "vc.ru": 2,
   "Hi-Tech Mail": 4,
   "Slashdot": 2,
-  "The Register": 2,
+  "The Register": 3,
   "Google AI": 1
  },
  "posts_by_label": {
@@ -15783,8 +15820,8 @@
   "The Verge": 21,
   "Cloudflare": 1,
   "TechCrunch AI": 17,
-  "Lobsters": 10,
-  "Tom's Hardware": 33,
+  "Lobsters": 11,
+  "Tom's Hardware": 34,
   "ZDNet": 4,
   "9to5Mac": 14,
   "EFF": 2,
@@ -15794,7 +15831,7 @@
   "Latent Space": 5,
   "InfoQ": 15,
   "The Register": 23,
-  "Phoronix": 22,
+  "Phoronix": 24,
   "The Next Web": 23,
   "Android Police": 20,
   "Ars Technica": 1,
@@ -15826,8 +15863,8 @@
   "The Verge": "2026-11-10T13:54:53.165290+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-10T14:55:14.549569+00:00",
-  "Lobsters": "2026-11-11T04:53:49.702247+00:00",
-  "Tom's Hardware": "2026-11-11T03:53:51.841244+00:00",
+  "Lobsters": "2026-11-11T10:53:46.261304+00:00",
+  "Tom's Hardware": "2026-11-11T10:54:09.944475+00:00",
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-10T14:55:31.753692+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
@@ -15837,7 +15874,7 @@
   "Latent Space": "2026-11-11T09:54:24.134418+00:00",
   "InfoQ": "2026-11-11T07:54:09.506665+00:00",
   "The Register": "2026-11-11T05:53:52.357081+00:00",
-  "Phoronix": "2026-11-10T10:54:35.367397+00:00",
+  "Phoronix": "2026-11-11T10:54:15.482122+00:00",
   "The Next Web": "2026-11-11T06:53:51.794639+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
   "Ars Technica": "2026-10-31T11:53:40.882295+00:00",
