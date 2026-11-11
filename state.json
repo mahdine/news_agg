@@ -1,11 +1,5 @@
 {
  "seen": [
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
-  "https://3dnews.ru/1147990/#6a9ab3cc742eec022d8b4568",
-  "https://www.theverge.com/?p=990051",
-  "https://www.engadget.com/2251018/microsoft-announces-project-zenith-clutter-free-windows-experience/",
-  "https://www.theregister.com/a/5294302",
-  "https://www.neowin.net/news/microsoft-unveils-project-zenith-a-windows-11-built-for-developers/",
   "https://games.slashdot.org/story/26/09/03/1943208/xbox-cloud-gaming-switches-to-monthly-hour-limits?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.theverge.com/?p=990132",
   "https://www.techspot.com/news/113734-xbox-cloud-gaming-now-allows-only-up-15.html",
@@ -2999,15 +2993,21 @@
   "hn:50445401",
   "hn:50446246",
   "hn:50446714",
-  "hn:50447074"
+  "hn:50447074",
+  "hn:50442303",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzyd7r6ttc24",
+  "hn:50443090",
+  "hn:50443714",
+  "hn:50443812",
+  "hn:50444684"
  ],
  "posted": {
-  "viral": 691,
+  "viral": 696,
   "editorial": 933
  },
  "recent_labels": [
   "Hacker News",
-  "404 Media",
+  "Hacker News",
   "Hacker News",
   "Hacker News",
   "Hacker News"
@@ -8919,73 +8919,54 @@
    "pool": "viral",
    "score": 0.04443,
    "at": "2026-11-11T01:54:25.385968+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل هوش مصنوعی Gemini 4 Carbon با قابلیت‌های پیشرفته امنیتی",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+   "source": "blog.google",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00263,
+   "at": "2026-11-11T02:54:28.689721+00:00"
+  },
+  {
+   "title": "بررسی معماری نسل جدید پردازنده‌های AMD Zen 6",
+   "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+   "source": "chipsandcheese.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00547,
+   "at": "2026-11-11T02:54:35.622146+00:00"
+  },
+  {
+   "title": "راهنمای جامع مهندسی استنتاج برای استقرار مدل‌های هوش مصنوعی",
+   "url": "https://docs.modelplane.ai/guides/inference-guide",
+   "source": "docs.modelplane.ai",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00105,
+   "at": "2026-11-11T02:54:43.519234+00:00"
+  },
+  {
+   "title": "ابزار Modern Web Guidance برای بهبود عملکرد کدهای تولیدی توسط هوش مصنوعی",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00173,
+   "at": "2026-11-11T02:54:49.699106+00:00"
+  },
+  {
+   "title": "کاهش ردپای دیجیتال کاربران با به‌روزرسانی‌های جدید مرورگر Firefox",
+   "url": "https://fingerprinting.study/",
+   "source": "fingerprinting.study",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00681,
+   "at": "2026-11-11T02:54:55.716172+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "already",
-    "coming",
-    "flood",
-    "full",
-    "pipes",
-    "were"
-   ],
-   "at": "2026-11-06T11:54:01.952487+00:00"
-  },
-  {
-   "sig": [
-    "abandoned",
-    "app",
-    "apps",
-    "numbers",
-    "pricing",
-    "store"
-   ],
-   "at": "2026-11-06T12:54:34.369025+00:00"
-  },
-  {
-   "sig": [
-    "amsterdam",
-    "break",
-    "center",
-    "centre",
-    "construction",
-    "data",
-    "microsoft",
-    "protesters",
-    "site"
-   ],
-   "at": "2026-11-06T12:54:42.236810+00:00"
-  },
-  {
-   "sig": [
-    "almost",
-    "android",
-    "compares",
-    "duo",
-    "every",
-    "foldable",
-    "here",
-    "iphone",
-    "reviewed",
-    "year"
-   ],
-   "at": "2026-11-06T12:54:48.613887+00:00"
-  },
-  {
-   "sig": [
-    "10m",
-    "digital",
-    "enough",
-    "physicl",
-    "raises",
-    "real",
-    "robots",
-    "world"
-   ],
-   "at": "2026-11-06T13:03:22.854036+00:00"
-  },
   {
    "sig": [
     "adjusted",
@@ -13010,6 +12991,60 @@
     "underwhelming"
    ],
    "at": "2026-11-11T01:54:25.385968+00:00"
+  },
+  {
+   "sig": [
+    "available",
+    "carbon",
+    "gemini",
+    "good",
+    "nothing",
+    "pelican",
+    "svgs"
+   ],
+   "at": "2026-11-11T02:54:28.689721+00:00"
+  },
+  {
+   "sig": [
+    "amd",
+    "beast",
+    "family",
+    "feeding",
+    "zen"
+   ],
+   "at": "2026-11-11T02:54:35.622146+00:00"
+  },
+  {
+   "sig": [
+    "engineering",
+    "field",
+    "guide",
+    "inference",
+    "open"
+   ],
+   "at": "2026-11-11T02:54:43.519234+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "coding",
+    "javascript",
+    "modern",
+    "onto",
+    "primitives",
+    "show",
+    "web"
+   ],
+   "at": "2026-11-11T02:54:49.699106+00:00"
+  },
+  {
+   "sig": [
+    "comprehensive",
+    "fingerprintable",
+    "study",
+    "users"
+   ],
+   "at": "2026-11-11T02:54:55.716172+00:00"
   }
  ],
  "snapshots": {
@@ -15314,12 +15349,12 @@
    "2026-11-10T17:53:44.026163+00:00"
   ],
   "hn:50442426": [
-   567,
-   "2026-11-11T01:53:43.950660+00:00"
+   579,
+   "2026-11-11T02:53:40.727231+00:00"
   ],
   "hn:50442303": [
-   573,
-   "2026-11-11T01:53:43.950660+00:00"
+   576,
+   "2026-11-11T02:53:40.727231+00:00"
   ],
   "hn:50440668": [
    308,
@@ -15338,8 +15373,8 @@
    "2026-11-11T01:53:43.950660+00:00"
   ],
   "hn:50446520": [
-   285,
-   "2026-11-11T01:53:43.950660+00:00"
+   298,
+   "2026-11-11T02:53:40.727231+00:00"
   ],
   "hn:50446246": [
    177,
@@ -15350,36 +15385,36 @@
    "2026-11-11T01:53:43.950660+00:00"
   ],
   "hn:50445013": [
-   192,
-   "2026-11-11T01:53:43.950660+00:00"
+   213,
+   "2026-11-11T02:53:40.727231+00:00"
   ],
   "hn:50444850": [
-   179,
-   "2026-11-11T01:53:43.950660+00:00"
+   182,
+   "2026-11-11T02:53:40.727231+00:00"
   ],
   "hn:50444684": [
-   135,
-   "2026-11-11T01:53:43.950660+00:00"
+   152,
+   "2026-11-11T02:53:40.727231+00:00"
   ],
   "hn:50443824": [
    619,
    "2026-11-11T01:53:43.950660+00:00"
   ],
   "hn:50443812": [
-   417,
-   "2026-11-11T01:53:43.950660+00:00"
+   438,
+   "2026-11-11T02:53:40.727231+00:00"
   ],
   "hn:50443716": [
-   421,
-   "2026-11-11T01:53:43.950660+00:00"
+   431,
+   "2026-11-11T02:53:40.727231+00:00"
   ],
   "hn:50443714": [
-   86,
-   "2026-11-11T01:53:43.950660+00:00"
+   89,
+   "2026-11-11T02:53:40.727231+00:00"
   ],
   "hn:50443090": [
-   321,
-   "2026-11-11T01:53:43.950660+00:00"
+   337,
+   "2026-11-11T02:53:40.727231+00:00"
   ],
   "hn:50442736": [
    1001,
@@ -15394,16 +15429,16 @@
    "2026-11-11T01:53:43.950660+00:00"
   ],
   "lobsters:kqjcnb": [
-   55,
-   "2026-11-11T01:53:43.950660+00:00"
+   59,
+   "2026-11-11T02:53:40.727231+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxyqznios2r": [
    289,
    "2026-11-11T01:53:43.950660+00:00"
   ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzyd7r6ttc24": [
-   116,
-   "2026-11-11T01:53:43.950660+00:00"
+   122,
+   "2026-11-11T02:53:40.727231+00:00"
   ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzxz4j32us24": [
    70,
@@ -15411,7 +15446,7 @@
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzymgrmku22t": [
    7,
-   "2026-11-11T01:53:43.950660+00:00"
+   "2026-11-11T02:53:40.727231+00:00"
   ]
  },
  "skips": {
@@ -15449,7 +15484,7 @@
   "ZDNet": 4,
   "9to5Mac": 14,
   "EFF": 2,
-  "Hacker News": 45,
+  "Hacker News": 50,
   "TechSpot": 17,
   "The Hacker News": 27,
   "Latent Space": 3,
@@ -15492,7 +15527,7 @@
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-10T14:55:31.753692+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-11T01:54:25.386030+00:00",
+  "Hacker News": "2026-11-11T02:54:55.716273+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-10T12:54:19.974106+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
