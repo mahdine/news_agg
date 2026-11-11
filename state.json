@@ -1,16 +1,5 @@
 {
  "seen": [
-  "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
-  "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
-  "https://www.securityweek.com/?p=49165",
-  "https://www.securityweek.com/?p=49141",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muzqavvgk22t",
-  "hn:49622042",
-  "TheNextWeb=7882fa96d3b276cffe67fb3dd5c9deb7",
-  "hn:49621697",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mv2a4quhpk2d",
-  "https://openai.com/index/navier-stokes-solution",
-  "https://www.neowin.net/news/openai-says-its-unreleased-ai-model-has-solved-a-1-million-millennium-prize-problem/",
   "6a970fd0a4730003b51cb67d",
   "https://www.theverge.com/?p=989692",
   "6a99a3d36f7d62b638e2170a",
@@ -2999,18 +2988,29 @@
   "hn:50450007",
   "https://www.cnews.ru/news/line/2026-11-11_directum_uchastvuet_v_eksperimente",
   "https://www.cnews.ru/news/line/2026-11-11_alt_mobilnyj_1101_novye",
-  "https://www.securityweek.com/?p=50687"
+  "https://www.securityweek.com/?p=50687",
+  "https://www.engadget.com/2312136/google-november-pixel-drop-rambler-hilight-updates/",
+  "d6605d8d3de83188c4be9153838e703b",
+  "https://www.theverge.com/?p=1030766",
+  "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+  "https://www.securityweek.com/?p=50690",
+  "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+  "https://www.theregister.com/a/5308814",
+  "3f593598c7c64f761a931c2f867bc32a",
+  "db71c46e9da8e593701a0c011a19c94e",
+  "urn:latent-space:post:post_a2419605-9a45-4fa3-a4b3-362a0d8f0efe",
+  "ff6336cc3d23f9656723afe803054a43"
  ],
  "posted": {
   "viral": 703,
-  "editorial": 955
+  "editorial": 960
  },
  "recent_labels": [
-  "Hacker News",
-  "Hacker News",
-  "CNews",
-  "CNews",
-  "SecurityWeek"
+  "Engadget",
+  "The Hacker News",
+  "Hi-Tech Mail",
+  "Latent Space",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9225,41 +9225,54 @@
    "pool": "editorial",
    "score": 0.25539,
    "at": "2026-11-11T08:55:30.078776+00:00"
+  },
+  {
+   "title": "قابلیت‌های هوش مصنوعی جدید برای گوشی‌های Pixel گوگل",
+   "url": "https://www.engadget.com/2312136/google-november-pixel-drop-rambler-hilight-updates/",
+   "source": "Engadget",
+   "label": "Engadget",
+   "pool": "editorial",
+   "score": 0.41503,
+   "at": "2026-11-11T09:53:54.659751+00:00"
+  },
+  {
+   "title": "افزوده شدن دو آسیب‌پذیری فعال سیسکو و اوپن‌ویو به فهرست KEV",
+   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.37326,
+   "at": "2026-11-11T09:54:00.557293+00:00"
+  },
+  {
+   "title": "تست موفقیت‌آمیز اینترنت ماهواره‌ای روسیه در یخ‌شکن اتمی",
+   "url": "https://hi-tech.mail.ru/news/160257-rossijskuyu-sputnikovuyu-svyaz-byuro-1440-protestirovali-na-atomnom-ledokole/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.15757,
+   "at": "2026-11-11T09:54:15.330227+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل هوش مصنوعی Gemini 4 Carbon توسط گوگل",
+   "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+   "source": "Latent Space",
+   "label": "Latent Space",
+   "pool": "editorial",
+   "score": 0.22838,
+   "at": "2026-11-11T09:54:24.134306+00:00"
+  },
+  {
+   "title": "تأثیر الگوریتم‌های هوش مصنوعی بر ارزیابی شهرت دیجیتال در استخدام",
+   "url": "https://hi-tech.mail.ru/news/160251-cifrovoj-sled-i-karera-kak-starye-posty-vliyayut-na-najm/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.21298,
+   "at": "2026-11-11T09:54:37.517918+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "nilay",
-    "patel",
-    "quoting"
-   ],
-   "at": "2026-11-06T17:53:57.394677+00:00"
-  },
-  {
-   "sig": [
-    "industry",
-    "midterms",
-    "rough",
-    "years"
-   ],
-   "at": "2026-11-06T17:54:07.153840+00:00"
-  },
-  {
-   "sig": [
-    "across",
-    "devices",
-    "ebooks",
-    "kobo",
-    "let",
-    "own",
-    "price",
-    "soon",
-    "sync",
-    "upload"
-   ],
-   "at": "2026-11-06T17:54:18.623091+00:00"
-  },
   {
    "sig": [
     "mustcreate",
@@ -13288,6 +13301,53 @@
     "vulnerabilities"
    ],
    "at": "2026-11-11T08:55:30.078776+00:00"
+  },
+  {
+   "sig": [
+    "available",
+    "devices",
+    "dictation",
+    "google",
+    "impressive",
+    "pixel",
+    "rambler",
+    "tag",
+    "tech",
+    "too",
+    "tracker"
+   ],
+   "at": "2026-11-11T09:53:54.659751+00:00"
+  },
+  {
+   "sig": [
+    "actively",
+    "actors",
+    "available",
+    "broadworks",
+    "cisco",
+    "despite",
+    "exploit",
+    "exploited",
+    "flaws",
+    "openwave",
+    "patches",
+    "threat",
+    "vulnerabilities"
+   ],
+   "at": "2026-11-11T09:54:00.557293+00:00"
+  },
+  {
+   "sig": [
+    "20b",
+    "750m",
+    "ainews",
+    "mercor",
+    "rate",
+    "run",
+    "series",
+    "valuation"
+   ],
+   "at": "2026-11-11T09:54:24.134306+00:00"
   }
  ],
  "snapshots": {
@@ -15681,7 +15741,7 @@
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzymgrmku22t": [
    7,
-   "2026-11-11T08:53:41.588658+00:00"
+   "2026-11-11T09:53:48.891270+00:00"
   ],
   "hn:50450007": [
    102,
@@ -15707,12 +15767,13 @@
   "Simon Willison RSS": 1,
   "CNews": 9,
   "vc.ru": 2,
-  "Hi-Tech Mail": 3,
+  "Hi-Tech Mail": 4,
   "Slashdot": 2,
-  "The Register": 1
+  "The Register": 2,
+  "Google AI": 1
  },
  "posts_by_label": {
-  "Engadget": 41,
+  "Engadget": 42,
   "Neowin": 18,
   "Wired": 21,
   "TechRadar": 33,
@@ -15729,8 +15790,8 @@
   "EFF": 2,
   "Hacker News": 55,
   "TechSpot": 17,
-  "The Hacker News": 28,
-  "Latent Space": 4,
+  "The Hacker News": 29,
+  "Latent Space": 5,
   "InfoQ": 15,
   "The Register": 23,
   "Phoronix": 22,
@@ -15741,7 +15802,7 @@
   "Simon Willison RSS": 6,
   "vc.ru": 12,
   "SecurityWeek": 13,
-  "Hi-Tech Mail": 35,
+  "Hi-Tech Mail": 37,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
@@ -15755,7 +15816,7 @@
   "Rest of World": 1
  },
  "last_post": {
-  "Engadget": "2026-11-10T08:54:24.464468+00:00",
+  "Engadget": "2026-11-11T09:53:54.659895+00:00",
   "Neowin": "2026-11-09T17:54:10.899288+00:00",
   "Wired": "2026-11-10T13:54:47.029930+00:00",
   "TechRadar": "2026-11-10T14:54:57.171410+00:00",
@@ -15772,8 +15833,8 @@
   "EFF": "2026-11-06T09:54:49.849333+00:00",
   "Hacker News": "2026-11-11T08:53:50.759563+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
-  "The Hacker News": "2026-11-11T07:53:51.357648+00:00",
-  "Latent Space": "2026-11-11T05:54:10.742649+00:00",
+  "The Hacker News": "2026-11-11T09:54:00.557413+00:00",
+  "Latent Space": "2026-11-11T09:54:24.134418+00:00",
   "InfoQ": "2026-11-11T07:54:09.506665+00:00",
   "The Register": "2026-11-11T05:53:52.357081+00:00",
   "Phoronix": "2026-11-10T10:54:35.367397+00:00",
@@ -15784,7 +15845,7 @@
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-11T07:54:17.468730+00:00",
   "SecurityWeek": "2026-11-11T08:55:30.078904+00:00",
-  "Hi-Tech Mail": "2026-11-11T06:54:11.974830+00:00",
+  "Hi-Tech Mail": "2026-11-11T09:54:37.518033+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
