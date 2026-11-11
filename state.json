@@ -1,16 +1,5 @@
 {
  "seen": [
-  "https://9to5mac.com/?p=1064369",
-  "https://www.techspot.com/downloads/drivers/essentials/nvidia-geforce/",
-  "34c2c5d579e9c92c3fd579dcdc3ca9ac",
-  "https://www.neowin.net/news/nvidia-61692-driver-lands-with-support-for-wardogs-007-path-tracing-more/",
-  "LNGsQbhwEjS5v3FE7hHSR4",
-  "https://techcrunch.com/?p=3161915",
-  "https://slashdot.org/story/26/09/09/1943258/anthropic-researcher-believes-more-than-10-chance-ai-could-kill-all-humans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://www.techspot.com/news/113788-anthropic-researcher-resigns-after-warning-ai-race-could.html",
-  "hn:49638280",
-  "hn:49638622",
-  "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
   "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
   "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mv6fvytz2s25",
@@ -2999,18 +2988,29 @@
   "6ae0fe13268680e603e73921",
   "BZYtQK4gkgAgLzg6vMTeEc",
   "https://www.phoronix.com/news/Intel-CPU-Microcode-20261110",
-  "https://www.theregister.com/a/5308738"
+  "https://www.theregister.com/a/5308738",
+  "hn:50451102",
+  "https://www.engadget.com/2313147/apple-shuts-down-support-community-forum/",
+  "hn:50449440",
+  "https://9to5mac.com/?p=1078333",
+  "6af202b7de07673ef2c0f377",
+  "6af1f037c112f9286c9a9e11",
+  "a4s3ktZfhd4LjQG6FBoewM",
+  "https://www.theregister.com/a/5308995",
+  "https://www.cnews.ru/news/line/2026-11-11_virtualnyj_operator_mobilnoj",
+  "pJe6pfVQQ5iBZKWTXPgyPK",
+  "https://www.neowin.net/news/halos-pelican-lands-in-flight-simulator-and-its-free-this-week/"
  ],
  "posted": {
-  "viral": 704,
-  "editorial": 963
+  "viral": 705,
+  "editorial": 966
  },
  "recent_labels": [
-  "Hi-Tech Mail",
-  "Lobsters",
   "Phoronix",
-  "Tom's Hardware",
-  "Phoronix"
+  "Hacker News",
+  "Engadget",
+  "CNews",
+  "TechRadar"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9306,68 +9306,45 @@
    "pool": "editorial",
    "score": 0.23369,
    "at": "2026-11-11T10:54:15.482013+00:00"
+  },
+  {
+   "title": "افزایش پروژه‌های متن‌باز با ممنوعیت مشارکت‌های تولیدشده توسط هوش مصنوعی",
+   "url": "https://osssaysno.com",
+   "source": "osssaysno.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.26877,
+   "at": "2026-11-11T11:54:01.141566+00:00"
+  },
+  {
+   "title": "تعطیلی دائمی انجمن‌های پشتیبانی آنلاین اپل",
+   "url": "https://www.engadget.com/2313147/apple-shuts-down-support-community-forum/",
+   "source": "Engadget",
+   "label": "Engadget",
+   "pool": "editorial",
+   "score": 0.6737,
+   "at": "2026-11-11T11:54:07.032906+00:00"
+  },
+  {
+   "title": "پیاده‌سازی راهکار کنترل ترافیک SKAT PCEF در شبکه اپراتور Miatel",
+   "url": "https://www.cnews.ru/news/line/2026-11-11_virtualnyj_operator_mobilnoj",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.18219,
+   "at": "2026-11-11T11:54:21.868936+00:00"
+  },
+  {
+   "title": "چالش‌های روانی و تغییر نقش برنامه‌نویسان در عصر هوش مصنوعی",
+   "url": "https://www.techradar.com/pro/ai-has-made-developers-more-powerful-than-ever-why-arent-they-happy",
+   "source": "TechRadar",
+   "label": "TechRadar",
+   "pool": "editorial",
+   "score": 0.20399,
+   "at": "2026-11-11T11:54:45.572895+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "adult",
-    "banned",
-    "breath-restriction",
-    "choking",
-    "compliance",
-    "creators",
-    "even",
-    "fantasies",
-    "hundreds",
-    "immediately",
-    "involving",
-    "law",
-    "platforms",
-    "porn",
-    "range",
-    "relative",
-    "remove",
-    "roleplay",
-    "thought",
-    "videos",
-    "watched",
-    "were",
-    "wide"
-   ],
-   "at": "2026-11-06T20:00:06.231408+00:00"
-  },
-  {
-   "sig": [
-    "aren",
-    "costs",
-    "enough",
-    "episode",
-    "good",
-    "latest",
-    "loved",
-    "people",
-    "products",
-    "reckless.bsky.social",
-    "riff",
-    "sell",
-    "u4t",
-    "vergecast",
-    "watch",
-    "www.youtube.com"
-   ],
-   "at": "2026-11-07T00:10:29.067081+00:00"
-  },
-  {
-   "sig": [
-    "15k",
-    "infected",
-    "know",
-    "tell",
-    "websites"
-   ],
-   "at": "2026-11-07T00:10:36.262806+00:00"
-  },
   {
    "sig": [
     "campaign",
@@ -13385,17 +13362,46 @@
     "variety"
    ],
    "at": "2026-11-11T10:54:15.482013+00:00"
+  },
+  {
+   "sig": [
+    "ai-generated",
+    "banning",
+    "contributions",
+    "oss",
+    "projects"
+   ],
+   "at": "2026-11-11T11:54:01.141566+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "close",
+    "community",
+    "down",
+    "end",
+    "era",
+    "forums",
+    "november",
+    "online",
+    "permanently",
+    "shutting",
+    "support"
+   ],
+   "at": "2026-11-11T11:54:07.032906+00:00"
+  },
+  {
+   "sig": [
+    "aren",
+    "developers",
+    "ever",
+    "happy",
+    "powerful"
+   ],
+   "at": "2026-11-11T11:54:45.572895+00:00"
   }
  ],
  "snapshots": {
-  "hn:50306442": [
-   153,
-   "2026-10-30T17:53:43.525389+00:00"
-  ],
-  "hn:50306008": [
-   258,
-   "2026-10-30T17:53:43.525389+00:00"
-  ],
   "hn:50305225": [
    93,
    "2026-10-30T17:53:43.525389+00:00"
@@ -15787,12 +15793,20 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzzdejdzwc2v": [
    6,
    "2026-11-11T10:53:44.242018+00:00"
+  ],
+  "hn:50451102": [
+   202,
+   "2026-11-11T11:53:46.455209+00:00"
+  ],
+  "hn:50449440": [
+   104,
+   "2026-11-11T11:53:46.455209+00:00"
   ]
  },
  "skips": {
   "Tom's Hardware": 3,
   "Article 19": 1,
-  "Wired": 9,
+  "Wired": 11,
   "TechRadar": 5,
   "Lobsters": 2,
   "Hacker News": 18,
@@ -15806,14 +15820,15 @@
   "vc.ru": 2,
   "Hi-Tech Mail": 4,
   "Slashdot": 2,
-  "The Register": 3,
-  "Google AI": 1
+  "The Register": 4,
+  "Google AI": 1,
+  "Neowin": 1
  },
  "posts_by_label": {
-  "Engadget": 42,
+  "Engadget": 43,
   "Neowin": 18,
   "Wired": 21,
-  "TechRadar": 33,
+  "TechRadar": 34,
   "Slashdot": 28,
   "404 Media": 38,
   "Xe Iaso": 3,
@@ -15825,7 +15840,7 @@
   "ZDNet": 4,
   "9to5Mac": 14,
   "EFF": 2,
-  "Hacker News": 55,
+  "Hacker News": 56,
   "TechSpot": 17,
   "The Hacker News": 29,
   "Latent Space": 5,
@@ -15843,7 +15858,7 @@
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 35,
+  "CNews": 36,
   "Emily M. Bender": 3,
   "antirez": 5,
   "OpenAI": 3,
@@ -15853,10 +15868,10 @@
   "Rest of World": 1
  },
  "last_post": {
-  "Engadget": "2026-11-11T09:53:54.659895+00:00",
+  "Engadget": "2026-11-11T11:54:07.033021+00:00",
   "Neowin": "2026-11-09T17:54:10.899288+00:00",
   "Wired": "2026-11-10T13:54:47.029930+00:00",
-  "TechRadar": "2026-11-10T14:54:57.171410+00:00",
+  "TechRadar": "2026-11-11T11:54:45.573001+00:00",
   "Slashdot": "2026-11-11T06:53:45.071921+00:00",
   "404 Media": "2026-11-11T01:53:54.657776+00:00",
   "Xe Iaso": "2026-11-11T07:54:03.268319+00:00",
@@ -15868,7 +15883,7 @@
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-10T14:55:31.753692+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-11T08:53:50.759563+00:00",
+  "Hacker News": "2026-11-11T11:54:01.141676+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-11T09:54:00.557413+00:00",
   "Latent Space": "2026-11-11T09:54:24.134418+00:00",
@@ -15886,7 +15901,7 @@
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-11T08:55:20.808022+00:00",
+  "CNews": "2026-11-11T11:54:21.869038+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
