@@ -1,10 +1,5 @@
 {
  "seen": [
-  "https://techcrunch.com/?p=3161042",
-  "https://www.theverge.com/?p=990773",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mursboktiv2k",
-  "lobsters:wk38d2",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3murtmdynq22s",
   "hn:49580369",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3musefjkfel2o",
   "17967d94738b2f85ac8fc5d185f9f53b",
@@ -2999,18 +2994,23 @@
   "https://news.slashdot.org/story/26/11/10/2227217/m-john-harrison-becomes-first-sci-fi-author-to-win-booker-prize?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.cnews.ru/news/line/2026-11-11_grt-ci-w82a_novinka_v_linejke",
   "https://www.cnews.ru/news/line/2026-11-11_obem_otgruzok_positive_technologies",
-  "https://openai.com/index/gilbert-tobin-sam-nickless"
+  "https://openai.com/index/gilbert-tobin-sam-nickless",
+  "lobsters:sdtcvv",
+  "hn:50448921",
+  "https://www.cnews.ru/news/line/2026-11-11_dzen_obnovil_glifa_ii-assistent",
+  "https://www.cnews.ru/news/line/2026-11-11_robodostavka_zarabotala",
+  "https://www.cnews.ru/news/line/2026-11-11_bolee_poloviny_rossiyan_protiv"
  ],
  "posted": {
-  "viral": 697,
-  "editorial": 936
+  "viral": 699,
+  "editorial": 939
  },
  "recent_labels": [
+  "Lobsters",
   "Hacker News",
-  "Tom's Hardware",
-  "Slashdot",
-  "Hacker News",
-  "OpenAI"
+  "CNews",
+  "CNews",
+  "CNews"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9000,47 +9000,54 @@
    "pool": "editorial",
    "score": 0.32164,
    "at": "2026-11-11T03:54:42.451949+00:00"
+  },
+  {
+   "title": "امن‌سازی کلیدهای SSH با استفاده از ماژول‌های سخت‌افزاری",
+   "url": "https://blog.infected.systems/posts/2026-11-03-i-deleted-all-my-ssh-keys/",
+   "source": "blog.infected.systems",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.01232,
+   "at": "2026-11-11T04:53:49.702129+00:00"
+  },
+  {
+   "title": "بهینه‌سازی دستی کدهای گرافیکی در کامپیوترهای قدیمی",
+   "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+   "source": "blog.moertel.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.08347,
+   "at": "2026-11-11T04:53:55.820695+00:00"
+  },
+  {
+   "title": "ارتقای دستیار هوش مصنوعی پلتفرم Dzen برای تحلیل دقیق‌تر اخبار",
+   "url": "https://www.cnews.ru/news/line/2026-11-11_dzen_obnovil_glifa_ii-assistent",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.12094,
+   "at": "2026-11-11T04:54:09.157434+00:00"
+  },
+  {
+   "title": "آغاز به کار ربات‌های تحویل‌دهنده یاندکس در شهر یکاترینبورگ",
+   "url": "https://www.cnews.ru/news/line/2026-11-11_robodostavka_zarabotala",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.13726,
+   "at": "2026-11-11T04:54:21.433691+00:00"
+  },
+  {
+   "title": "مخالفت اکثریت روس‌ها با استفاده از هوش مصنوعی در آثار هنری",
+   "url": "https://www.cnews.ru/news/line/2026-11-11_bolee_poloviny_rossiyan_protiv",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.15544,
+   "at": "2026-11-11T04:54:33.693858+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "11.4",
-    "california",
-    "cargo",
-    "gpus",
-    "heist",
-    "million",
-    "nvidia",
-    "pallets",
-    "six",
-    "stolen",
-    "worth"
-   ],
-   "at": "2026-11-06T13:56:39.138161+00:00"
-  },
-  {
-   "sig": [
-    "age",
-    "analysts",
-    "cheaper",
-    "console",
-    "consoles",
-    "current",
-    "four",
-    "going",
-    "here",
-    "industry",
-    "landscape",
-    "other",
-    "ps5",
-    "switch",
-    "think",
-    "way",
-    "xbox"
-   ],
-   "at": "2026-11-06T13:56:54.046065+00:00"
-  },
   {
    "sig": [
     "built",
@@ -13113,17 +13120,26 @@
     "tobin"
    ],
    "at": "2026-11-11T03:54:42.451949+00:00"
+  },
+  {
+   "sig": [
+    "deleted",
+    "keys",
+    "ssh"
+   ],
+   "at": "2026-11-11T04:53:49.702129+00:00"
+  },
+  {
+   "sig": [
+    "game-programming",
+    "great",
+    "hack",
+    "old-timey"
+   ],
+   "at": "2026-11-11T04:53:55.820695+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz3uq7ky72pd": [
-   57,
-   "2026-10-30T14:53:38.871392+00:00"
-  ],
-  "hn:50304419": [
-   156,
-   "2026-10-30T15:53:44.218809+00:00"
-  ],
   "hn:50304358": [
    175,
    "2026-10-30T15:53:44.218809+00:00"
@@ -15416,14 +15432,6 @@
    212,
    "2026-11-10T17:53:44.026163+00:00"
   ],
-  "hn:50442426": [
-   583,
-   "2026-11-11T03:53:46.380396+00:00"
-  ],
-  "hn:50442303": [
-   576,
-   "2026-11-11T02:53:40.727231+00:00"
-  ],
   "hn:50440668": [
    308,
    "2026-11-11T01:53:43.950660+00:00"
@@ -15440,10 +15448,6 @@
    173,
    "2026-11-11T01:53:43.950660+00:00"
   ],
-  "hn:50446520": [
-   305,
-   "2026-11-11T03:53:46.380396+00:00"
-  ],
   "hn:50446246": [
    177,
    "2026-11-11T01:53:43.950660+00:00"
@@ -15452,37 +15456,9 @@
    820,
    "2026-11-11T01:53:43.950660+00:00"
   ],
-  "hn:50445013": [
-   225,
-   "2026-11-11T03:53:46.380396+00:00"
-  ],
-  "hn:50444850": [
-   182,
-   "2026-11-11T03:53:46.380396+00:00"
-  ],
-  "hn:50444684": [
-   152,
-   "2026-11-11T02:53:40.727231+00:00"
-  ],
   "hn:50443824": [
    619,
    "2026-11-11T01:53:43.950660+00:00"
-  ],
-  "hn:50443812": [
-   438,
-   "2026-11-11T02:53:40.727231+00:00"
-  ],
-  "hn:50443716": [
-   438,
-   "2026-11-11T03:53:46.380396+00:00"
-  ],
-  "hn:50443714": [
-   89,
-   "2026-11-11T02:53:40.727231+00:00"
-  ],
-  "hn:50443090": [
-   337,
-   "2026-11-11T02:53:40.727231+00:00"
   ],
   "hn:50442736": [
    1001,
@@ -15496,25 +15472,73 @@
    56,
    "2026-11-11T01:53:43.950660+00:00"
   ],
-  "lobsters:kqjcnb": [
-   61,
-   "2026-11-11T03:53:46.380396+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxyqznios2r": [
    289,
    "2026-11-11T01:53:43.950660+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzyd7r6ttc24": [
-   122,
-   "2026-11-11T02:53:40.727231+00:00"
   ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzxz4j32us24": [
    70,
    "2026-11-11T01:53:43.950660+00:00"
   ],
+  "hn:50442303": [
+   576,
+   "2026-11-11T02:53:40.727231+00:00"
+  ],
+  "hn:50444684": [
+   152,
+   "2026-11-11T02:53:40.727231+00:00"
+  ],
+  "hn:50443812": [
+   438,
+   "2026-11-11T02:53:40.727231+00:00"
+  ],
+  "hn:50443714": [
+   89,
+   "2026-11-11T02:53:40.727231+00:00"
+  ],
+  "hn:50443090": [
+   337,
+   "2026-11-11T02:53:40.727231+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzyd7r6ttc24": [
+   122,
+   "2026-11-11T02:53:40.727231+00:00"
+  ],
+  "hn:50442426": [
+   583,
+   "2026-11-11T03:53:46.380396+00:00"
+  ],
+  "hn:50445013": [
+   225,
+   "2026-11-11T03:53:46.380396+00:00"
+  ],
+  "hn:50444850": [
+   182,
+   "2026-11-11T03:53:46.380396+00:00"
+  ],
+  "lobsters:kqjcnb": [
+   61,
+   "2026-11-11T03:53:46.380396+00:00"
+  ],
+  "hn:50446520": [
+   312,
+   "2026-11-11T04:53:45.642370+00:00"
+  ],
+  "hn:50443716": [
+   441,
+   "2026-11-11T04:53:45.642370+00:00"
+  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzymgrmku22t": [
    7,
-   "2026-11-11T03:53:46.380396+00:00"
+   "2026-11-11T04:53:45.642370+00:00"
+  ],
+  "hn:50448921": [
+   90,
+   "2026-11-11T04:53:45.642370+00:00"
+  ],
+  "lobsters:sdtcvv": [
+   29,
+   "2026-11-11T04:53:45.642370+00:00"
   ]
  },
  "skips": {
@@ -15547,12 +15571,12 @@
   "The Verge": 21,
   "Cloudflare": 1,
   "TechCrunch AI": 17,
-  "Lobsters": 9,
+  "Lobsters": 10,
   "Tom's Hardware": 33,
   "ZDNet": 4,
   "9to5Mac": 14,
   "EFF": 2,
-  "Hacker News": 51,
+  "Hacker News": 52,
   "TechSpot": 17,
   "The Hacker News": 27,
   "Latent Space": 3,
@@ -15570,7 +15594,7 @@
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 29,
+  "CNews": 32,
   "Emily M. Bender": 3,
   "antirez": 5,
   "OpenAI": 2,
@@ -15590,12 +15614,12 @@
   "The Verge": "2026-11-10T13:54:53.165290+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-10T14:55:14.549569+00:00",
-  "Lobsters": "2026-11-10T11:53:54.560480+00:00",
+  "Lobsters": "2026-11-11T04:53:49.702247+00:00",
   "Tom's Hardware": "2026-11-11T03:53:51.841244+00:00",
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-10T14:55:31.753692+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-11T03:54:18.827716+00:00",
+  "Hacker News": "2026-11-11T04:53:55.820814+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-10T12:54:19.974106+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
@@ -15613,7 +15637,7 @@
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-10T09:54:30.469474+00:00",
+  "CNews": "2026-11-11T04:54:33.693968+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-11T03:54:42.452051+00:00",
