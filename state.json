@@ -1,16 +1,5 @@
 {
  "seen": [
-  "hn:49585627",
-  "6a9705368e71dd67ca5de95a",
-  "k527r6rZ8YkhFM8RnXb9p5",
-  "hn:49586171",
-  "hn:49588988",
-  "hn:49589003",
-  "lobsters:jsxzwl",
-  "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
-  "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muwpfhsfpc2m",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muwpmfr2c62e",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muws3nvehl2z",
   "https://www.engadget.com/2252249/the-a2-e-tron-is-audis-most-efficient-ev-yet/",
   "https://www.theverge.com/?p=991081",
@@ -2999,18 +2988,29 @@
   "urn:latent-space:post:post_4bf810e2-c310-445e-a5c0-4a9f7a3f36ec",
   "MrtNeiVyrGeCcmNY7pngNa",
   "https://huggingface.co/blog/qvac/botpsy",
-  "https://www.androidpolice.com/motorolas-wide-razr-foldable-officially-coming-for-galaxy-z-fold-8/"
+  "https://www.androidpolice.com/motorolas-wide-razr-foldable-officially-coming-for-galaxy-z-fold-8/",
+  "https://tech.slashdot.org/story/26/11/10/1654224/reddit-is-turning-user-conversations-into-ai-powered-product-reviews?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "1431827",
+  "TheNextWeb=88e035267f724003676592c3aa138402",
+  "hn:50449275",
+  "TheNextWeb=593894240845a3da55ef1755e53893df",
+  "https://techcrunch.com/?p=3187116",
+  "https://www.cnews.ru/news/line/2026-11-11_megafon_i_mts_obyavlyayut",
+  "08d84158a46cc8beaff153df8c792af8",
+  "https://www.cnews.ru/news/line/2026-11-11_gk_umnyj_servis_avtomatizirovala",
+  "https://www.cnews.ru/news/line/2026-11-11_megafon_usilil_svyaz_v",
+  "https://openai.com/index/chatgpt-plus-for-veterans"
  ],
  "posted": {
   "viral": 699,
-  "editorial": 944
+  "editorial": 949
  },
  "recent_labels": [
-  "The Register",
   "Slashdot",
-  "Latent Space",
-  "Hugging Face",
-  "Android Police"
+  "The Next Web",
+  "CNews",
+  "Hi-Tech Mail",
+  "OpenAI"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9090,63 +9090,54 @@
    "pool": "editorial",
    "score": 0.11765,
    "at": "2026-11-11T05:54:23.447100+00:00"
+  },
+  {
+   "title": "قابلیت جدید Reddit برای خلاصه‌سازی نظرات کاربران با هوش مصنوعی",
+   "url": "https://tech.slashdot.org/story/26/11/10/1654224/reddit-is-turning-user-conversations-into-ai-powered-product-reviews?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "label": "Slashdot",
+   "pool": "editorial",
+   "score": 0.28524,
+   "at": "2026-11-11T06:53:45.071795+00:00"
+  },
+  {
+   "title": "خرید استارتاپ مسافرتی Odessia توسط OpenAI و توقف فعالیت آن",
+   "url": "https://thenextweb.com/news/openai-acquires-odessia-ai-travel-agent",
+   "source": "The Next Web",
+   "label": "The Next Web",
+   "pool": "editorial",
+   "score": 0.29875,
+   "at": "2026-11-11T06:53:51.794522+00:00"
+  },
+  {
+   "title": "اپراتورهای MegaFon و MTS در حال مذاکره برای برچسب‌گذاری تماس‌های بانکی هستند",
+   "url": "https://www.cnews.ru/news/line/2026-11-11_megafon_i_mts_obyavlyayut",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.18957,
+   "at": "2026-11-11T06:54:01.983788+00:00"
+  },
+  {
+   "title": "کلاهبرداری از طریق سایت‌های جعلی برای سرقت حساب‌های کاربری پیام‌رسان",
+   "url": "https://hi-tech.mail.ru/news/160224-v-mvd-raskryli-shemu-moshennikov-dlya-krazhi-akkauntov-v-messendzherah/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.18556,
+   "at": "2026-11-11T06:54:11.974721+00:00"
+  },
+  {
+   "title": "ارائه اشتراک رایگان ChatGPT Plus به کهنه‌سربازان و نیروهای نظامی",
+   "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "source": "OpenAI",
+   "label": "OpenAI",
+   "pool": "editorial",
+   "score": 0.32164,
+   "at": "2026-11-11T06:54:19.720179+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "drivers",
-    "making",
-    "musl",
-    "nvidia",
-    "proprietary",
-    "together",
-    "work"
-   ],
-   "at": "2026-11-06T15:54:28.467820+00:00"
-  },
-  {
-   "sig": [
-    "amd",
-    "center",
-    "center-first",
-    "ceo",
-    "company",
-    "crashes",
-    "data",
-    "declares",
-    "enrages",
-    "first",
-    "gamers",
-    "gaming",
-    "lisa",
-    "revenue",
-    "saying"
-   ],
-   "at": "2026-11-06T15:54:36.130785+00:00"
-  },
-  {
-   "sig": [
-    "anyone",
-    "came",
-    "churn",
-    "created",
-    "fake",
-    "ids",
-    "investigation",
-    "josephcox.bsky.social",
-    "knocking",
-    "koreans",
-    "let",
-    "nazarenko",
-    "north",
-    "onlyfake",
-    "realistic",
-    "site",
-    "yuriy"
-   ],
-   "at": "2026-11-06T15:54:44.076208+00:00"
-  },
   {
    "sig": [
     "access",
@@ -13196,13 +13187,51 @@
     "wide"
    ],
    "at": "2026-11-11T05:54:23.447100+00:00"
+  },
+  {
+   "sig": [
+    "ai-powered",
+    "conversations",
+    "feature",
+    "launches",
+    "product",
+    "products",
+    "reddit",
+    "reviews",
+    "start",
+    "threads",
+    "turning",
+    "turns",
+    "user"
+   ],
+   "at": "2026-11-11T06:53:45.071795+00:00"
+  },
+  {
+   "sig": [
+    "acquires",
+    "agent",
+    "buys",
+    "created",
+    "founder",
+    "odessia",
+    "openai",
+    "sonder",
+    "startup",
+    "travel"
+   ],
+   "at": "2026-11-11T06:53:51.794522+00:00"
+  },
+  {
+   "sig": [
+    "chatgpt",
+    "plus",
+    "servicemembers",
+    "veterans"
+   ],
+   "at": "2026-11-11T06:54:19.720179+00:00"
   }
  ],
  "snapshots": {
-  "hn:50304358": [
-   175,
-   "2026-10-30T15:53:44.218809+00:00"
-  ],
   "hn:50301717": [
    134,
    "2026-10-30T15:53:44.218809+00:00"
@@ -15579,18 +15608,6 @@
    61,
    "2026-11-11T03:53:46.380396+00:00"
   ],
-  "hn:50446520": [
-   319,
-   "2026-11-11T05:53:49.299574+00:00"
-  ],
-  "hn:50443716": [
-   441,
-   "2026-11-11T05:53:49.299574+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzymgrmku22t": [
-   7,
-   "2026-11-11T05:53:49.299574+00:00"
-  ],
   "hn:50448921": [
    90,
    "2026-11-11T04:53:45.642370+00:00"
@@ -15598,6 +15615,22 @@
   "lobsters:sdtcvv": [
    29,
    "2026-11-11T04:53:45.642370+00:00"
+  ],
+  "hn:50443716": [
+   441,
+   "2026-11-11T05:53:49.299574+00:00"
+  ],
+  "hn:50446520": [
+   385,
+   "2026-11-11T06:53:42.315473+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzymgrmku22t": [
+   7,
+   "2026-11-11T06:53:42.315473+00:00"
+  ],
+  "hn:50449275": [
+   118,
+   "2026-11-11T06:53:42.315473+00:00"
   ]
  },
  "skips": {
@@ -15606,14 +15639,14 @@
   "Wired": 7,
   "TechRadar": 5,
   "Lobsters": 2,
-  "Hacker News": 17,
+  "Hacker News": 18,
   "The Next Web": 1,
   "404 Media": 4,
   "Emily M. Bender": 2,
   "Simon Willison": 2,
   "Xe Iaso": 1,
   "Simon Willison RSS": 1,
-  "CNews": 7,
+  "CNews": 9,
   "vc.ru": 2,
   "Hi-Tech Mail": 3,
   "Slashdot": 2,
@@ -15624,7 +15657,7 @@
   "Neowin": 18,
   "Wired": 21,
   "TechRadar": 33,
-  "Slashdot": 27,
+  "Slashdot": 28,
   "404 Media": 38,
   "Xe Iaso": 2,
   "The Verge": 21,
@@ -15642,21 +15675,21 @@
   "InfoQ": 14,
   "The Register": 23,
   "Phoronix": 22,
-  "The Next Web": 22,
+  "The Next Web": 23,
   "Android Police": 20,
   "Ars Technica": 1,
   "Simon Willison": 2,
   "Simon Willison RSS": 6,
   "vc.ru": 11,
   "SecurityWeek": 12,
-  "Hi-Tech Mail": 34,
+  "Hi-Tech Mail": 35,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 32,
+  "CNews": 33,
   "Emily M. Bender": 3,
   "antirez": 5,
-  "OpenAI": 2,
+  "OpenAI": 3,
   "Hugging Face": 2,
   "Access Now": 1,
   "Google AI": 1,
@@ -15667,7 +15700,7 @@
   "Neowin": "2026-11-09T17:54:10.899288+00:00",
   "Wired": "2026-11-10T13:54:47.029930+00:00",
   "TechRadar": "2026-11-10T14:54:57.171410+00:00",
-  "Slashdot": "2026-11-11T05:53:59.180534+00:00",
+  "Slashdot": "2026-11-11T06:53:45.071921+00:00",
   "404 Media": "2026-11-11T01:53:54.657776+00:00",
   "Xe Iaso": "2026-11-09T02:54:20.896292+00:00",
   "The Verge": "2026-11-10T13:54:53.165290+00:00",
@@ -15685,21 +15718,21 @@
   "InfoQ": "2026-11-10T06:54:51.221334+00:00",
   "The Register": "2026-11-11T05:53:52.357081+00:00",
   "Phoronix": "2026-11-10T10:54:35.367397+00:00",
-  "The Next Web": "2026-11-10T10:54:20.926292+00:00",
+  "The Next Web": "2026-11-11T06:53:51.794639+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
   "Ars Technica": "2026-10-31T11:53:40.882295+00:00",
   "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-08T17:54:19.515702+00:00",
   "SecurityWeek": "2026-11-10T13:54:24.527816+00:00",
-  "Hi-Tech Mail": "2026-11-10T12:54:34.788445+00:00",
+  "Hi-Tech Mail": "2026-11-11T06:54:11.974830+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-11T04:54:33.693968+00:00",
+  "CNews": "2026-11-11T06:54:01.983899+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
-  "OpenAI": "2026-11-11T03:54:42.452051+00:00",
+  "OpenAI": "2026-11-11T06:54:19.720294+00:00",
   "Hugging Face": "2026-11-11T05:54:17.268131+00:00",
   "Access Now": "2026-11-05T10:54:49.232575+00:00",
   "Google AI": "2026-11-06T04:54:24.190387+00:00",
