@@ -1,15 +1,5 @@
 {
  "seen": [
-  "https://www.phoronix.com/news/NVIDIA-Hugging-Face",
-  "https://www.neowin.net/news/nvidias-jensen-huang-explains-why-its-buying-hugging-face-for-nearly-13-billion/",
-  "hn:49551760",
-  "https://9to5mac.com/?p=1067263",
-  "28a51672fa68196f0d5214b2e1462506",
-  "https://9to5mac.com/?p=1060071",
-  "hn:49554372",
-  "https://www.engadget.com/2250749/ugreen-smart-home-ecosystem-built-around-local-ai-hubs/",
-  "https://www.theverge.com/?p=990006",
-  "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
   "https://3dnews.ru/1147990/#6a9ab3cc742eec022d8b4568",
   "https://www.theverge.com/?p=990051",
@@ -2999,14 +2989,24 @@
   "hn:50441518",
   "hn:50441707",
   "hn:50442202",
-  "hn:50442691"
+  "hn:50442691",
+  "hn:50442736",
+  "lobsters:vkkbwo",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxyqznios2r",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzxz4j32us24",
+  "hn:50443824",
+  "lobsters:fdnic2",
+  "hn:50445401",
+  "hn:50446246",
+  "hn:50446714",
+  "hn:50447074"
  ],
  "posted": {
-  "viral": 686,
+  "viral": 691,
   "editorial": 933
  },
  "recent_labels": [
-  "404 Media",
+  "Hacker News",
   "404 Media",
   "Hacker News",
   "Hacker News",
@@ -8874,62 +8874,54 @@
    "pool": "viral",
    "score": 0.25159,
    "at": "2026-11-10T17:54:41.934376+00:00"
+  },
+  {
+   "title": "توقف طرح حذف دامنه‌های سطح سوم .name توسط Verisign",
+   "url": "https://neil.fraser.name/news/2026/11/10/",
+   "source": "neil.fraser.name",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.01886,
+   "at": "2026-11-11T01:53:47.705669+00:00"
+  },
+  {
+   "title": "قوانین جدید بریتانیا برای جرم‌انگاری محتوای پورنوگرافی و افزایش سانسور اینترنتی",
+   "url": "https://bsky.app/profile/404media.co/post/3mzxyqznios2r",
+   "source": "404 Media",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.02271,
+   "at": "2026-11-11T01:53:54.657658+00:00"
+  },
+  {
+   "title": "توقف توسعه درایور متن‌باز برای سخت‌افزارهای DisplayLink به دلیل تهدیدات حقوقی",
+   "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+   "source": "lwn.net",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.0189,
+   "at": "2026-11-11T01:54:05.546571+00:00"
+  },
+  {
+   "title": "معرفی پروتکل متن‌باز rVPN برای عبور از فیلترینگ با پنهان‌سازی ترافیک",
+   "url": "https://rvpn.org/",
+   "source": "rvpn.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.02799,
+   "at": "2026-11-11T01:54:19.103030+00:00"
+  },
+  {
+   "title": "عملکرد ضعیف پروژه Glasswing شرکت Anthropic در شناسایی آسیب‌پذیری‌ها",
+   "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+   "source": "vulncheck.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.04443,
+   "at": "2026-11-11T01:54:25.385968+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "0.102.3101",
-    "borders",
-    "failures",
-    "fixes",
-    "mouse",
-    "pairing",
-    "powertoys",
-    "without"
-   ],
-   "at": "2026-11-06T10:55:03.321105+00:00"
-  },
-  {
-   "sig": [
-    "68k",
-    "macs",
-    "mactcp",
-    "modern",
-    "mooftcp",
-    "replacement"
-   ],
-   "at": "2026-11-06T11:53:43.146778+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "asn",
-    "bank",
-    "blocks",
-    "dutch",
-    "grapheneos",
-    "idealist",
-    "including",
-    "non-google"
-   ],
-   "at": "2026-11-06T11:53:50.669153+00:00"
-  },
-  {
-   "sig": [
-    "agents",
-    "company",
-    "daily",
-    "launches",
-    "own",
-    "perplexity",
-    "take",
-    "tasks",
-    "teammates",
-    "work"
-   ],
-   "at": "2026-11-06T11:53:56.132329+00:00"
-  },
   {
    "sig": [
     "already",
@@ -12961,93 +12953,66 @@
     "tailscale"
    ],
    "at": "2026-11-10T17:54:41.934376+00:00"
+  },
+  {
+   "sig": [
+    "acts",
+    "because",
+    "censoring",
+    "criminalized",
+    "depictions",
+    "don",
+    "fancy",
+    "government",
+    "jail",
+    "keep",
+    "land",
+    "list",
+    "otherwise",
+    "porn",
+    "reads",
+    "samleecole.bsky.social",
+    "someone",
+    "speak",
+    "which"
+   ],
+   "at": "2026-11-11T01:53:54.657658+00:00"
+  },
+  {
+   "sig": [
+    "claims",
+    "displaylink",
+    "drivers",
+    "patent",
+    "stop",
+    "synaptics",
+    "work"
+   ],
+   "at": "2026-11-11T01:54:05.546571+00:00"
+  },
+  {
+   "sig": [
+    "encryption",
+    "end-to-end",
+    "rvpn",
+    "stealth",
+    "vpn"
+   ],
+   "at": "2026-11-11T01:54:19.103030+00:00"
+  },
+  {
+   "sig": [
+    "findings",
+    "glasswing",
+    "maintainers",
+    "months",
+    "overwelms",
+    "underwhelming"
+   ],
+   "at": "2026-11-11T01:54:25.385968+00:00"
   }
  ],
  "snapshots": {
-  "hn:50298964": [
-   91,
-   "2026-10-30T03:53:41.191622+00:00"
-  ],
-  "hn:50296947": [
-   97,
-   "2026-10-30T04:53:41.931023+00:00"
-  ],
-  "hn:50295868": [
-   77,
-   "2026-10-30T04:53:41.931023+00:00"
-  ],
-  "hn:50297037": [
-   97,
-   "2026-10-30T06:53:38.722440+00:00"
-  ],
-  "hn:50299182": [
-   120,
-   "2026-10-30T07:53:41.442267+00:00"
-  ],
-  "lobsters:6ole9g": [
-   37,
-   "2026-10-30T08:53:36.565290+00:00"
-  ],
-  "hn:50301479": [
-   145,
-   "2026-10-30T09:53:43.123614+00:00"
-  ],
-  "hn:50300618": [
-   54,
-   "2026-10-30T09:53:43.123614+00:00"
-  ],
-  "hn:50300853": [
-   173,
-   "2026-10-30T10:53:39.957248+00:00"
-  ],
-  "hn:50302334": [
-   126,
-   "2026-10-30T11:53:39.597762+00:00"
-  ],
-  "hn:50301983": [
-   120,
-   "2026-10-30T11:53:39.597762+00:00"
-  ],
-  "lobsters:f4aqog": [
-   28,
-   "2026-10-30T11:53:39.597762+00:00"
-  ],
-  "hn:50301854": [
-   55,
-   "2026-10-30T12:53:40.133469+00:00"
-  ],
-  "hn:50302814": [
-   254,
-   "2026-10-30T13:53:40.004406+00:00"
-  ],
-  "lobsters:htgcuc": [
-   48,
-   "2026-10-30T13:53:40.004406+00:00"
-  ],
-  "lobsters:u7dsbx": [
-   29,
-   "2026-10-30T13:53:40.004406+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz3tmutcbc2f": [
-   184,
-   "2026-10-30T13:53:40.004406+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz3slkc7az2o": [
-   85,
-   "2026-10-30T13:53:40.004406+00:00"
-  ],
-  "hn:50304006": [
-   78,
-   "2026-10-30T14:53:38.871392+00:00"
-  ],
-  "hn:50303791": [
-   201,
-   "2026-10-30T14:53:38.871392+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz3wwhyqrk2y": [
-   138,
-   "2026-10-30T14:53:38.871392+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz3uq7ky72pd": [
    57,
    "2026-10-30T14:53:38.871392+00:00"
@@ -15308,14 +15273,6 @@
    89,
    "2026-11-10T17:53:44.026163+00:00"
   ],
-  "hn:50442426": [
-   263,
-   "2026-11-10T17:53:44.026163+00:00"
-  ],
-  "hn:50442303": [
-   412,
-   "2026-11-10T17:53:44.026163+00:00"
-  ],
   "hn:50442202": [
    325,
    "2026-11-10T17:53:44.026163+00:00"
@@ -15326,10 +15283,6 @@
   ],
   "hn:50441518": [
    88,
-   "2026-11-10T17:53:44.026163+00:00"
-  ],
-  "hn:50440668": [
-   266,
    "2026-11-10T17:53:44.026163+00:00"
   ],
   "hn:50439448": [
@@ -15352,10 +15305,6 @@
    40,
    "2026-11-10T17:53:44.026163+00:00"
   ],
-  "lobsters:vkkbwo": [
-   29,
-   "2026-11-10T17:53:44.026163+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxpwyxblc2k": [
    153,
    "2026-11-10T17:53:44.026163+00:00"
@@ -15363,6 +15312,106 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxop6khy52n": [
    212,
    "2026-11-10T17:53:44.026163+00:00"
+  ],
+  "hn:50442426": [
+   567,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50442303": [
+   573,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50440668": [
+   308,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "lobsters:vkkbwo": [
+   150,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50447074": [
+   390,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50446714": [
+   173,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50446520": [
+   285,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50446246": [
+   177,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50445401": [
+   820,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50445013": [
+   192,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50444850": [
+   179,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50444684": [
+   135,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50443824": [
+   619,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50443812": [
+   417,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50443716": [
+   421,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50443714": [
+   86,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50443090": [
+   321,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50442736": [
+   1001,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "hn:50441074": [
+   231,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "lobsters:fdnic2": [
+   56,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "lobsters:kqjcnb": [
+   55,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxyqznios2r": [
+   289,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzyd7r6ttc24": [
+   116,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzxz4j32us24": [
+   70,
+   "2026-11-11T01:53:43.950660+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzymgrmku22t": [
+   7,
+   "2026-11-11T01:53:43.950660+00:00"
   ]
  },
  "skips": {
@@ -15371,11 +15420,11 @@
   "Wired": 7,
   "TechRadar": 4,
   "Lobsters": 2,
-  "Hacker News": 14,
+  "Hacker News": 16,
   "The Next Web": 1,
   "404 Media": 4,
   "Emily M. Bender": 2,
-  "Simon Willison": 1,
+  "Simon Willison": 2,
   "Xe Iaso": 1,
   "Simon Willison RSS": 1,
   "CNews": 5,
@@ -15390,7 +15439,7 @@
   "Wired": 21,
   "TechRadar": 33,
   "Slashdot": 25,
-  "404 Media": 37,
+  "404 Media": 38,
   "Xe Iaso": 2,
   "The Verge": 21,
   "Cloudflare": 1,
@@ -15400,7 +15449,7 @@
   "ZDNet": 4,
   "9to5Mac": 14,
   "EFF": 2,
-  "Hacker News": 41,
+  "Hacker News": 45,
   "TechSpot": 17,
   "The Hacker News": 27,
   "Latent Space": 3,
@@ -15433,7 +15482,7 @@
   "Wired": "2026-11-10T13:54:47.029930+00:00",
   "TechRadar": "2026-11-10T14:54:57.171410+00:00",
   "Slashdot": "2026-11-10T14:54:13.136539+00:00",
-  "404 Media": "2026-11-10T17:53:56.759993+00:00",
+  "404 Media": "2026-11-11T01:53:54.657776+00:00",
   "Xe Iaso": "2026-11-09T02:54:20.896292+00:00",
   "The Verge": "2026-11-10T13:54:53.165290+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -15443,7 +15492,7 @@
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-10T14:55:31.753692+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-10T17:54:41.934492+00:00",
+  "Hacker News": "2026-11-11T01:54:25.386030+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-10T12:54:19.974106+00:00",
   "Latent Space": "2026-11-09T16:54:28.410519+00:00",
