@@ -1,13 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvapeo3dwi2v",
-  "https://www.infoq.com/news/2026/09/openai-gpt6-astra/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "https://techcrunch.com/?p=3162967",
-  "https://3dnews.ru/1148345/#6aa3c675742eec7afb8b4579",
-  "https://www.neowin.net/news/openai-halts-200-pro-subscriptions-amid-astra-demand/",
-  "TheNextWeb=5f0c79c0fe67cd3e67c394b0428d6af5",
-  "hn:49662371",
-  "hn:49668386",
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvcwftyhx22o",
   "https://www.engadget.com/2256364/iphone-18-pro-vs-pixel-11-pro/",
   "dNHLafdVpHnJdf74SVegPc",
@@ -2999,18 +2991,26 @@
   "c01b15c069e6021550612ab38da80339",
   "https://www.techspot.com/news/114514-call-duty-player-sparks-bomb-scare-airport-after.html",
   "https://9to5mac.com/?p=1078387",
-  "https://www.neowin.net/news/world-record-this-android-device-has-a-jaw-dropping-uptime-of-11-years/"
+  "https://www.neowin.net/news/world-record-this-android-device-has-a-jaw-dropping-uptime-of-11-years/",
+  "hn:50451903",
+  "hn:50452074",
+  "lobsters:m43bas",
+  "hn:50452455",
+  "hn:50452655",
+  "lobsters:nld6x3",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n222md3bp22r",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2267667nc2q"
  ],
  "posted": {
-  "viral": 705,
+  "viral": 710,
   "editorial": 971
  },
  "recent_labels": [
-  "SecurityWeek",
-  "Tom's Hardware",
-  "Hi-Tech Mail",
-  "9to5Mac",
-  "Neowin"
+  "Hacker News",
+  "Hacker News",
+  "Hacker News",
+  "Hacker News",
+  "Xe Iaso"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9387,59 +9387,54 @@
    "pool": "editorial",
    "score": 0.20608,
    "at": "2026-11-11T12:56:14.451602+00:00"
+  },
+  {
+   "title": "آنلاک کردن قابلیت‌های کارت گرافیک NVIDIA CMP 170HX با تزریق ولتاژ",
+   "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+   "source": "blog.kate.land",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.16765,
+   "at": "2026-11-11T14:53:48.268856+00:00"
+  },
+  {
+   "title": "چالش‌های مدیریتی و ناپایداری در مسیر توسعه زبان برنامه‌نویسی Zig",
+   "url": "https://bytecode.news/posts/2026/10/the-zig-project-is-going-nowhere",
+   "source": "bytecode.news",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.20403,
+   "at": "2026-11-11T14:53:54.316986+00:00"
+  },
+  {
+   "title": "کشف یک هرم مایا با استفاده از ۴۸ ایجنت هوش مصنوعی",
+   "url": "https://pietromiotti.com/latest/maya-site/?maya",
+   "source": "pietromiotti.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.42202,
+   "at": "2026-11-11T14:54:01.519880+00:00"
+  },
+  {
+   "title": "بهینه‌سازی مدل‌های زبانی با اصلاح وزن‌های شبکه عصبی",
+   "url": "https://nathan.rs/posts/weight-space-lp/",
+   "source": "nathan.rs",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.28946,
+   "at": "2026-11-11T14:54:09.701282+00:00"
+  },
+  {
+   "title": "چالش‌های ایجاد آسیب‌پذیری حافظه در زبان برنامه‌نویسی Rust",
+   "url": "https://bsky.app/profile/xeiaso.net/post/3n2267667nc2q",
+   "source": "Xe Iaso",
+   "label": "Xe Iaso",
+   "pool": "viral",
+   "score": 0.10303,
+   "at": "2026-11-11T14:54:18.284012+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "engine",
-    "microvms",
-    "rebuilt",
-    "replit",
-    "sandbox"
-   ],
-   "at": "2026-11-07T01:55:07.323120+00:00"
-  },
-  {
-   "sig": [
-    "architecture",
-    "git",
-    "github",
-    "storage"
-   ],
-   "at": "2026-11-07T01:55:40.235263+00:00"
-  },
-  {
-   "sig": [
-    "bounty",
-    "card",
-    "chatgpt",
-    "connectors",
-    "data",
-    "passes",
-    "silently",
-    "wants"
-   ],
-   "at": "2026-11-07T01:56:01.365821+00:00"
-  },
-  {
-   "sig": [
-    "aws",
-    "bunny",
-    "geodns",
-    "leaving",
-    "scriptable"
-   ],
-   "at": "2026-11-07T02:53:47.007067+00:00"
-  },
-  {
-   "sig": [
-    "devvm.dev",
-    "every",
-    "project"
-   ],
-   "at": "2026-11-07T02:53:52.614334+00:00"
-  },
   {
    "sig": [
     "accelerating",
@@ -13460,49 +13455,79 @@
     "years"
    ],
    "at": "2026-11-11T12:56:14.451602+00:00"
+  },
+  {
+   "sig": [
+    "a100",
+    "card",
+    "glitching",
+    "mining",
+    "unleash",
+    "using",
+    "voltage"
+   ],
+   "at": "2026-11-11T14:53:48.268856+00:00"
+  },
+  {
+   "sig": [
+    "going",
+    "nowhere",
+    "project",
+    "zig"
+   ],
+   "at": "2026-11-11T14:53:54.316986+00:00"
+  },
+  {
+   "sig": [
+    "72h",
+    "agents",
+    "finds",
+    "google",
+    "lidar",
+    "maya",
+    "nasa",
+    "points",
+    "pyramid",
+    "swe",
+    "unmapped"
+   ],
+   "at": "2026-11-11T14:54:01.519880+00:00"
+  },
+  {
+   "sig": [
+    "linear",
+    "program",
+    "programming",
+    "weight-space"
+   ],
+   "at": "2026-11-11T14:54:09.701282+00:00"
+  },
+  {
+   "sig": [
+    "being",
+    "code",
+    "difficult",
+    "doing",
+    "execution",
+    "goodness",
+    "honest",
+    "intentionally",
+    "leads",
+    "memory",
+    "obvious",
+    "overwhelmingly",
+    "remote",
+    "rust",
+    "safety",
+    "vulnerability",
+    "without",
+    "would",
+    "wrong"
+   ],
+   "at": "2026-11-11T14:54:18.284012+00:00"
   }
  ],
  "snapshots": {
-  "hn:50305225": [
-   93,
-   "2026-10-30T17:53:43.525389+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4bsdhorf2n": [
-   240,
-   "2026-10-30T17:53:43.525389+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz46hakwvg2l": [
-   68,
-   "2026-10-30T17:53:43.525389+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4bt4ntps2s": [
-   17,
-   "2026-10-30T17:53:43.525389+00:00"
-  ],
-  "hn:50308240": [
-   238,
-   "2026-10-30T22:30:16.400634+00:00"
-  ],
-  "hn:50307723": [
-   237,
-   "2026-10-30T22:30:16.400634+00:00"
-  ],
-  "hn:50307190": [
-   287,
-   "2026-10-30T22:30:16.400634+00:00"
-  ],
-  "hn:50305637": [
-   240,
-   "2026-10-30T22:30:16.400634+00:00"
-  ],
-  "hn:50305320": [
-   149,
-   "2026-10-30T22:30:16.400634+00:00"
-  ],
-  "lobsters:spv7tb": [
-   28,
-   "2026-10-30T22:30:16.400634+00:00"
-  ],
   "hn:50309647": [
    453,
    "2026-10-31T01:54:09.316801+00:00"
@@ -15862,6 +15887,46 @@
   "hn:50449440": [
    104,
    "2026-11-11T11:53:46.455209+00:00"
+  ],
+  "hn:50453474": [
+   85,
+   "2026-11-11T14:53:43.359909+00:00"
+  ],
+  "hn:50452655": [
+   121,
+   "2026-11-11T14:53:43.359909+00:00"
+  ],
+  "hn:50452455": [
+   683,
+   "2026-11-11T14:53:43.359909+00:00"
+  ],
+  "hn:50452074": [
+   191,
+   "2026-11-11T14:53:43.359909+00:00"
+  ],
+  "hn:50451903": [
+   170,
+   "2026-11-11T14:53:43.359909+00:00"
+  ],
+  "hn:50449891": [
+   149,
+   "2026-11-11T14:53:43.359909+00:00"
+  ],
+  "lobsters:m43bas": [
+   61,
+   "2026-11-11T14:53:43.359909+00:00"
+  ],
+  "lobsters:nld6x3": [
+   33,
+   "2026-11-11T14:53:43.359909+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n222md3bp22r": [
+   97,
+   "2026-11-11T14:53:43.359909+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2267667nc2q": [
+   5,
+   "2026-11-11T14:53:43.359909+00:00"
   ]
  },
  "skips": {
@@ -15869,10 +15934,10 @@
   "Article 19": 1,
   "Wired": 12,
   "TechRadar": 5,
-  "Lobsters": 2,
+  "Lobsters": 4,
   "Hacker News": 18,
   "The Next Web": 1,
-  "404 Media": 4,
+  "404 Media": 5,
   "Emily M. Bender": 2,
   "Simon Willison": 2,
   "Xe Iaso": 2,
@@ -15893,7 +15958,7 @@
   "TechRadar": 34,
   "Slashdot": 28,
   "404 Media": 38,
-  "Xe Iaso": 3,
+  "Xe Iaso": 4,
   "The Verge": 21,
   "Cloudflare": 1,
   "TechCrunch AI": 17,
@@ -15902,7 +15967,7 @@
   "ZDNet": 4,
   "9to5Mac": 15,
   "EFF": 2,
-  "Hacker News": 56,
+  "Hacker News": 60,
   "TechSpot": 17,
   "The Hacker News": 29,
   "Latent Space": 5,
@@ -15936,7 +16001,7 @@
   "TechRadar": "2026-11-11T11:54:45.573001+00:00",
   "Slashdot": "2026-11-11T06:53:45.071921+00:00",
   "404 Media": "2026-11-11T01:53:54.657776+00:00",
-  "Xe Iaso": "2026-11-11T07:54:03.268319+00:00",
+  "Xe Iaso": "2026-11-11T14:54:18.284123+00:00",
   "The Verge": "2026-11-10T13:54:53.165290+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-10T14:55:14.549569+00:00",
@@ -15945,7 +16010,7 @@
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-11T12:56:08.842473+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-11T11:54:01.141676+00:00",
+  "Hacker News": "2026-11-11T14:54:09.701393+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-11T09:54:00.557413+00:00",
   "Latent Space": "2026-11-11T09:54:24.134418+00:00",
