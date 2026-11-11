@@ -1,15 +1,5 @@
 {
  "seen": [
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvcwftyhx22o",
-  "https://www.engadget.com/2256364/iphone-18-pro-vs-pixel-11-pro/",
-  "dNHLafdVpHnJdf74SVegPc",
-  "pVVnKKUQ8BFSRQSutdAWAX",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvd2nfvqpe2c",
-  "https://yro.slashdot.org/story/26/09/12/1652215/lg-responds-to-tv-spying-allegations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "hn:49673392",
-  "https://www.theverge.com/?p=994333",
-  "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
-  "https://3dnews.ru/1148388/#6aa505a9742eece3bf8b456f",
   "https://www.engadget.com/2256741/openai-agents-hacked-rubygems/",
   "hn:49678683",
   "lobsters:fmkm3v",
@@ -2999,18 +2989,28 @@
   "hn:50452655",
   "lobsters:nld6x3",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n222md3bp22r",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2267667nc2q"
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2267667nc2q",
+  "hn:50449891",
+  "hn:50452742",
+  "https://www.theverge.com/?p=1012372",
+  "hn:50453474",
+  "https://9to5mac.com/?p=1078440",
+  "https://www.theverge.com/?p=1030398",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22aopmjab2i",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22bjlmt5c2l",
+  "yndS4cbSftxr6mmj73q5ze",
+  "https://www.neowin.net/news/openai-is-retiring-chatgpts-advanced-and-standard-voice-modes-sparking-user-backlash/"
  ],
  "posted": {
-  "viral": 710,
-  "editorial": 971
+  "viral": 712,
+  "editorial": 974
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Xe Iaso"
+  "The Verge",
+  "9to5Mac",
+  "TechRadar"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9432,67 +9432,54 @@
    "pool": "viral",
    "score": 0.10303,
    "at": "2026-11-11T14:54:18.284012+00:00"
+  },
+  {
+   "title": "اجرای بومی بازی Black Ops II روی مک‌های مجهز به تراشه Apple Silicon",
+   "url": "https://github.com/adrbn/bo2-mac",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00102,
+   "at": "2026-11-11T15:53:47.198662+00:00"
+  },
+  {
+   "title": "افزایش حریم خصوصی کاربران فایرفاکس با مقابله علیه اثرانگشت‌گیری دیجیتال",
+   "url": "https://blog.mozilla.org/security/2026/11/10/open-research-stronger-privacy-making-firefox-users-harder-to-fingerprint/",
+   "source": "blog.mozilla.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.01978,
+   "at": "2026-11-11T15:54:15.874104+00:00"
+  },
+  {
+   "title": "نگرانی‌ها از جاسوسی تولیدکنندگان تلویزیون‌های هوشمند و جمع‌آوری داده‌های کاربران",
+   "url": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
+   "source": "The Verge",
+   "label": "The Verge",
+   "pool": "editorial",
+   "score": 0.44787,
+   "at": "2026-11-11T15:54:22.068719+00:00"
+  },
+  {
+   "title": "بررسی دلایل مرجوعی گوشی تاشوی جدید اپل توسط برخی کاربران",
+   "url": "https://9to5mac.com/2026/11/11/if-you-bought-an-iphone-duo-have-you-kept-or-returned-it-poll/",
+   "source": "9to5Mac",
+   "label": "9to5Mac",
+   "pool": "editorial",
+   "score": 0.23126,
+   "at": "2026-11-11T15:54:31.610740+00:00"
+  },
+  {
+   "title": "نارضایتی کاربران از حذف حالت‌های صوتی قدیمی ChatGPT توسط OpenAI",
+   "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/im-beyond-disappointed-because-chatgpt-means-a-lot-to-me-users-are-furious-that-openai-is-retiring-their-favorite-voice-modes",
+   "source": "TechRadar",
+   "label": "TechRadar",
+   "pool": "editorial",
+   "score": 0.28859,
+   "at": "2026-11-11T15:55:04.484240+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "accelerating",
-    "dramatically",
-    "research"
-   ],
-   "at": "2026-11-07T02:53:59.091167+00:00"
-  },
-  {
-   "sig": [
-    "available",
-    "calling",
-    "organizations",
-    "outbound",
-    "sip"
-   ],
-   "at": "2026-11-07T02:54:23.186462+00:00"
-  },
-  {
-   "sig": [
-    "capacity",
-    "cloud",
-    "computing",
-    "deal",
-    "down",
-    "microsoft",
-    "oracle",
-    "rent",
-    "winding"
-   ],
-   "at": "2026-11-07T03:53:59.766456+00:00"
-  },
-  {
-   "sig": [
-    "accuses",
-    "algorithm",
-    "breaching",
-    "content",
-    "effect",
-    "hole",
-    "must",
-    "rabbit",
-    "rules",
-    "stop",
-    "tiktok"
-   ],
-   "at": "2026-11-07T03:54:20.901326+00:00"
-  },
-  {
-   "sig": [
-    "bullish",
-    "factory",
-    "toured",
-    "unitree",
-    "west"
-   ],
-   "at": "2026-11-07T03:54:31.921514+00:00"
-  },
   {
    "sig": [
     "center",
@@ -13525,21 +13512,77 @@
     "wrong"
    ],
    "at": "2026-11-11T14:54:18.284012+00:00"
+  },
+  {
+   "sig": [
+    "arm64",
+    "black",
+    "macos",
+    "native",
+    "ops",
+    "recompiled",
+    "show",
+    "statically"
+   ],
+   "at": "2026-11-11T15:53:47.198662+00:00"
+  },
+  {
+   "sig": [
+    "fingerprint",
+    "firefox",
+    "harder",
+    "making",
+    "open",
+    "privacy",
+    "research",
+    "stronger",
+    "users"
+   ],
+   "at": "2026-11-11T15:54:15.874104+00:00"
+  },
+  {
+   "sig": [
+    "asked",
+    "every",
+    "manufacturer",
+    "questions",
+    "spy"
+   ],
+   "at": "2026-11-11T15:54:22.068719+00:00"
+  },
+  {
+   "sig": [
+    "bought",
+    "duo",
+    "everyone",
+    "iphone",
+    "kept",
+    "loving",
+    "poll",
+    "returned"
+   ],
+   "at": "2026-11-11T15:54:31.610740+00:00"
+  },
+  {
+   "sig": [
+    "advanced",
+    "backlash",
+    "chatgpt",
+    "favorite",
+    "furious",
+    "modes",
+    "openai",
+    "retiring",
+    "sparking",
+    "standard",
+    "user",
+    "users",
+    "voice"
+   ],
+   "at": "2026-11-11T15:55:04.484240+00:00"
   }
  ],
  "snapshots": {
-  "hn:50309647": [
-   453,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
-  "hn:50304122": [
-   331,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4ijgpt2h2h": [
-   219,
-   "2026-10-31T01:54:09.316801+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4f5hoz2w2k": [
    94,
    "2026-10-31T01:54:09.316801+00:00"
@@ -15888,10 +15931,6 @@
    104,
    "2026-11-11T11:53:46.455209+00:00"
   ],
-  "hn:50453474": [
-   85,
-   "2026-11-11T14:53:43.359909+00:00"
-  ],
   "hn:50452655": [
    121,
    "2026-11-11T14:53:43.359909+00:00"
@@ -15906,10 +15945,6 @@
   ],
   "hn:50451903": [
    170,
-   "2026-11-11T14:53:43.359909+00:00"
-  ],
-  "hn:50449891": [
-   149,
    "2026-11-11T14:53:43.359909+00:00"
   ],
   "lobsters:m43bas": [
@@ -15927,6 +15962,26 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2267667nc2q": [
    5,
    "2026-11-11T14:53:43.359909+00:00"
+  ],
+  "hn:50453474": [
+   245,
+   "2026-11-11T15:53:44.612244+00:00"
+  ],
+  "hn:50449891": [
+   181,
+   "2026-11-11T15:53:44.612244+00:00"
+  ],
+  "hn:50452742": [
+   116,
+   "2026-11-11T15:53:44.612244+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22bjlmt5c2l": [
+   113,
+   "2026-11-11T15:53:44.612244+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22aopmjab2i": [
+   157,
+   "2026-11-11T15:53:44.612244+00:00"
   ]
  },
  "skips": {
@@ -15937,7 +15992,7 @@
   "Lobsters": 4,
   "Hacker News": 18,
   "The Next Web": 1,
-  "404 Media": 5,
+  "404 Media": 6,
   "Emily M. Bender": 2,
   "Simon Willison": 2,
   "Xe Iaso": 2,
@@ -15955,19 +16010,19 @@
   "Engadget": 43,
   "Neowin": 19,
   "Wired": 21,
-  "TechRadar": 34,
+  "TechRadar": 35,
   "Slashdot": 28,
   "404 Media": 38,
   "Xe Iaso": 4,
-  "The Verge": 21,
+  "The Verge": 22,
   "Cloudflare": 1,
   "TechCrunch AI": 17,
   "Lobsters": 11,
   "Tom's Hardware": 35,
   "ZDNet": 4,
-  "9to5Mac": 15,
+  "9to5Mac": 16,
   "EFF": 2,
-  "Hacker News": 60,
+  "Hacker News": 62,
   "TechSpot": 17,
   "The Hacker News": 29,
   "Latent Space": 5,
@@ -15998,19 +16053,19 @@
   "Engadget": "2026-11-11T11:54:07.033021+00:00",
   "Neowin": "2026-11-11T12:56:14.451751+00:00",
   "Wired": "2026-11-10T13:54:47.029930+00:00",
-  "TechRadar": "2026-11-11T11:54:45.573001+00:00",
+  "TechRadar": "2026-11-11T15:55:04.484344+00:00",
   "Slashdot": "2026-11-11T06:53:45.071921+00:00",
   "404 Media": "2026-11-11T01:53:54.657776+00:00",
   "Xe Iaso": "2026-11-11T14:54:18.284123+00:00",
-  "The Verge": "2026-11-10T13:54:53.165290+00:00",
+  "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-10T14:55:14.549569+00:00",
   "Lobsters": "2026-11-11T10:53:46.261304+00:00",
   "Tom's Hardware": "2026-11-11T12:54:15.564832+00:00",
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
-  "9to5Mac": "2026-11-11T12:56:08.842473+00:00",
+  "9to5Mac": "2026-11-11T15:54:31.610844+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-11T14:54:09.701393+00:00",
+  "Hacker News": "2026-11-11T15:54:15.874237+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-11T09:54:00.557413+00:00",
   "Latent Space": "2026-11-11T09:54:24.134418+00:00",
