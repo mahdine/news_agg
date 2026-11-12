@@ -1,18 +1,5 @@
 {
  "seen": [
-  "https://www.neowin.net/news/anthropics-new-claude-opus-55-model-is-almost-like-fable-51-but-much-cheaper/",
-  "https://9to5mac.com/?p=1071021",
-  "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-  "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
-  "https://www.theregister.com/a/5298385",
-  "https://www.securityweek.com/?p=49505",
-  "TheNextWeb=75f53e8eb197f6fe73d074e2482954c5",
-  "6ab1517e8f43ad86c75ae906",
-  "https://www.theverge.com/?p=999412",
-  "hn:49819221",
-  "hn:49819814",
-  "https://3dnews.ru/1148941/#6ab406c7742eecf70e8b4569",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mw7magyrwc2i",
   "lobsters:wf4wid",
   "hn:49826565",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwbomw3njc2x",
@@ -2999,17 +2986,30 @@
   "https://techcrunch.com/?p=3187646",
   "6af47ab4ab35daedc087ac07",
   "https://www.theregister.com/a/5309357",
-  "https://9to5mac.com/?p=1078972"
+  "https://9to5mac.com/?p=1078972",
+  "1431019",
+  "cfa2ced9f08bb189f02115d6856bf766",
+  "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+  "https://www.securityweek.com/?p=50736",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n24miuqjqkle",
+  "6af3e86ed118d6e4473190ce",
+  "https://www.theverge.com/?p=1031647",
+  "6af3e883b241f03872463093",
+  "https://9to5google.com/2026/11/12/google-glasses-iphone-support/",
+  "https://www.engadget.com/2314410/apple-tv-4k-4th-gen-review/",
+  "FoJVnaCj4xZ3P6c3Cqb25G",
+  "https://9to5mac.com/?p=1078817",
+  "https://www.theverge.com/?p=1031633"
  ],
  "posted": {
   "viral": 738,
-  "editorial": 1015
+  "editorial": 1020
  },
  "recent_labels": [
-  "TechSpot",
-  "vc.ru",
-  "TechCrunch AI",
+  "ZDNet",
+  "The Hacker News",
   "Wired",
+  "Engadget",
   "9to5Mac"
  ],
  "last_digest": "2026-11-06",
@@ -10080,93 +10080,54 @@
    "pool": "editorial",
    "score": 0.20549,
    "at": "2026-11-12T13:54:31.419426+00:00"
+  },
+  {
+   "title": "احتمال پولی‌شدن قابلیت‌های هوش مصنوعی در گوشی‌های سامسونگ",
+   "url": "https://www.zdnet.com/innovation/samsung-galaxy-ai-paid-subscription/",
+   "source": "ZDNet",
+   "label": "ZDNet",
+   "pool": "editorial",
+   "score": 0.24968,
+   "at": "2026-11-12T14:54:14.140051+00:00"
+  },
+  {
+   "title": "حمله گسترده به مخازن GitHub با استفاده از حساب‌های کاربری سرقتی",
+   "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.28037,
+   "at": "2026-11-12T14:54:38.299585+00:00"
+  },
+  {
+   "title": "عرضه‌ی عینک‌های هوشمند گوگل و سامسونگ با قابلیت‌های هوش مصنوعی Gemini",
+   "url": "https://www.wired.com/story/google-samsung-intelligent-eyewear-launch-warby-parker-gentle-monster-smart-glasses/",
+   "source": "Wired",
+   "label": "Wired",
+   "pool": "editorial",
+   "score": 0.41215,
+   "at": "2026-11-12T14:54:52.658399+00:00"
+  },
+  {
+   "title": "بررسی نسل چهارم Apple TV 4K با تراشه A19 و قیمت بالا",
+   "url": "https://www.engadget.com/2314410/apple-tv-4k-4th-gen-review/",
+   "source": "Engadget",
+   "label": "Engadget",
+   "pool": "editorial",
+   "score": 0.35417,
+   "at": "2026-11-12T14:55:09.676181+00:00"
+  },
+  {
+   "title": "معرفی نسل جدید Apple TV 4K با تراشه A19 و هوش مصنوعی",
+   "url": "https://9to5mac.com/2026/11/12/apple-tv-4k-review-the-best-streamer-comes-at-a-cost/",
+   "source": "9to5Mac",
+   "label": "9to5Mac",
+   "pool": "editorial",
+   "score": 0.22511,
+   "at": "2026-11-12T14:56:06.410123+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "annual",
-    "ao3",
-    "ao3-down-out",
-    "based",
-    "chapter",
-    "clear",
-    "day",
-    "every",
-    "exercise",
-    "fic",
-    "grieving",
-    "group",
-    "horny",
-    "kinktober",
-    "loss",
-    "lot",
-    "october",
-    "people",
-    "prompt",
-    "prompts",
-    "throughout",
-    "upload",
-    "where",
-    "writers",
-    "writing",
-    "www.404media.co"
-   ],
-   "at": "2026-11-08T01:54:02.191212+00:00"
-  },
-  {
-   "sig": [
-    "github",
-    "overview",
-    "page",
-    "preview",
-    "public",
-    "pull",
-    "request"
-   ],
-   "at": "2026-11-08T01:54:08.448047+00:00"
-  },
-  {
-   "sig": [
-    "anyone",
-    "away",
-    "die",
-    "every",
-    "given",
-    "photographed",
-    "processor"
-   ],
-   "at": "2026-11-08T02:53:58.159780+00:00"
-  },
-  {
-   "sig": [
-    "end",
-    "frontiers",
-    "group",
-    "microsoft",
-    "research"
-   ],
-   "at": "2026-11-08T02:54:05.188654+00:00"
-  },
-  {
-   "sig": [
-    "aims",
-    "analyze",
-    "apart",
-    "chatgpt",
-    "claude",
-    "course",
-    "finance",
-    "finances",
-    "help",
-    "personal",
-    "read-only",
-    "sets",
-    "spending",
-    "tool"
-   ],
-   "at": "2026-11-08T02:54:10.768454+00:00"
-  },
   {
    "sig": [
     "callers",
@@ -14170,17 +14131,92 @@
     "watch"
    ],
    "at": "2026-11-12T13:54:31.419426+00:00"
+  },
+  {
+   "sig": [
+    "galaxy",
+    "know",
+    "limits",
+    "mulls",
+    "s27",
+    "samsung",
+    "subscription",
+    "tiers",
+    "usage"
+   ],
+   "at": "2026-11-12T14:54:14.140051+00:00"
+  },
+  {
+   "sig": [
+    "accounts",
+    "attacker",
+    "campaign",
+    "credential",
+    "github",
+    "hijacked",
+    "repositories",
+    "run",
+    "secret",
+    "stealer",
+    "targets",
+    "theft"
+   ],
+   "at": "2026-11-12T14:54:38.299585+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "certified",
+    "competition",
+    "finally",
+    "glasses",
+    "google",
+    "here",
+    "ios",
+    "iphone",
+    "making",
+    "meta",
+    "private",
+    "real",
+    "samsung",
+    "smart",
+    "tried",
+    "work"
+   ],
+   "at": "2026-11-12T14:54:52.658399+00:00"
+  },
+  {
+   "sig": [
+    "4th",
+    "apple",
+    "device",
+    "drastically",
+    "expensive",
+    "gen",
+    "great",
+    "price",
+    "review",
+    "rough",
+    "still"
+   ],
+   "at": "2026-11-12T14:55:09.676181+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "around",
+    "best",
+    "comes",
+    "cost",
+    "pricey",
+    "review",
+    "still",
+    "streamer"
+   ],
+   "at": "2026-11-12T14:56:06.410123+00:00"
   }
  ],
  "snapshots": {
-  "hn:50314699": [
-   527,
-   "2026-10-31T20:06:42.126659+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz6y7yeefd2n": [
-   220,
-   "2026-10-31T20:06:42.126659+00:00"
-  ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mz6vmxpth22j": [
    222,
    "2026-10-31T20:06:42.126659+00:00"
@@ -16572,6 +16608,14 @@
   "hn:50465352": [
    155,
    "2026-11-12T12:53:48.385357+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n24nwelyl2le": [
+   112,
+   "2026-11-12T14:53:43.238015+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n24miuqjqkle": [
+   173,
+   "2026-11-12T14:53:43.238015+00:00"
   ]
  },
  "skips": {
@@ -16583,7 +16627,7 @@
   "Hacker News": 23,
   "The Next Web": 1,
   "404 Media": 9,
-  "Emily M. Bender": 2,
+  "Emily M. Bender": 3,
   "Simon Willison": 2,
   "Xe Iaso": 3,
   "Simon Willison RSS": 1,
@@ -16598,9 +16642,9 @@
   "9to5Mac": 2
  },
  "posts_by_label": {
-  "Engadget": 43,
+  "Engadget": 44,
   "Neowin": 21,
-  "Wired": 23,
+  "Wired": 24,
   "TechRadar": 36,
   "Slashdot": 30,
   "404 Media": 38,
@@ -16610,12 +16654,12 @@
   "TechCrunch AI": 18,
   "Lobsters": 13,
   "Tom's Hardware": 36,
-  "ZDNet": 5,
-  "9to5Mac": 17,
+  "ZDNet": 6,
+  "9to5Mac": 18,
   "EFF": 2,
   "Hacker News": 86,
   "TechSpot": 19,
-  "The Hacker News": 34,
+  "The Hacker News": 35,
   "Latent Space": 6,
   "InfoQ": 16,
   "The Register": 24,
@@ -16642,9 +16686,9 @@
   "LangChain Blog": 1
  },
  "last_post": {
-  "Engadget": "2026-11-11T11:54:07.033021+00:00",
+  "Engadget": "2026-11-12T14:55:09.676292+00:00",
   "Neowin": "2026-11-12T11:54:33.187083+00:00",
-  "Wired": "2026-11-12T13:54:24.963985+00:00",
+  "Wired": "2026-11-12T14:54:52.658528+00:00",
   "TechRadar": "2026-11-12T10:53:59.382125+00:00",
   "Slashdot": "2026-11-12T12:55:17.497961+00:00",
   "404 Media": "2026-11-11T01:53:54.657776+00:00",
@@ -16654,12 +16698,12 @@
   "TechCrunch AI": "2026-11-12T13:54:19.433280+00:00",
   "Lobsters": "2026-11-12T01:54:29.252609+00:00",
   "Tom's Hardware": "2026-11-11T16:54:07.259933+00:00",
-  "ZDNet": "2026-11-12T08:55:13.159740+00:00",
-  "9to5Mac": "2026-11-12T13:54:31.419528+00:00",
+  "ZDNet": "2026-11-12T14:54:14.140225+00:00",
+  "9to5Mac": "2026-11-12T14:56:06.410255+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
   "Hacker News": "2026-11-12T12:55:23.307864+00:00",
   "TechSpot": "2026-11-12T13:53:42.182722+00:00",
-  "The Hacker News": "2026-11-12T12:56:49.543344+00:00",
+  "The Hacker News": "2026-11-12T14:54:38.299721+00:00",
   "Latent Space": "2026-11-12T05:54:13.348855+00:00",
   "InfoQ": "2026-11-12T09:53:51.614525+00:00",
   "The Register": "2026-11-12T09:53:57.397920+00:00",
