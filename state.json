@@ -1,11 +1,5 @@
 {
  "seen": [
-  "7eEjTxgDsVWyfwSNEnLgjM",
-  "https://3dnews.ru/1148464/#6aa82c4c742eec93dd8b456d",
-  "d4aceffa2414ebf6abf8e747a01d64ad",
-  "https://9to5mac.com/?p=1069545",
-  "https://www.neowin.net/news/microsoft-releases-emergency-out-of-band-windows-update-to-fix-patch-tuesday-bugs/",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
   "rEYnB2Kky6BsMAyX7UrA9m",
@@ -2999,17 +2993,23 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22bhl4ubc2l",
   "https://www.theverge.com/?p=1030864",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22dztsyrp2f",
-  "hn:50455394"
+  "hn:50455394",
+  "hn:50456631",
+  "hn:50457230",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22o46qy7324",
+  "hn:50458532",
+  "lobsters:lnau2d",
+  "hn:50459745"
  ],
  "posted": {
-  "viral": 720,
+  "viral": 725,
   "editorial": 976
  },
  "recent_labels": [
-  "Ars Technica",
   "Hacker News",
   "Hacker News",
   "Hacker News",
+  "Lobsters",
   "Hacker News"
  ],
  "last_digest": "2026-11-06",
@@ -9567,61 +9567,54 @@
    "pool": "viral",
    "score": 0.13505,
    "at": "2026-11-11T17:54:44.612789+00:00"
+  },
+  {
+   "title": "معرفی ابزار AWS Emulator برای تست محلی سرویس‌های آمازون",
+   "url": "https://github.com/aws/aws-emulator",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.01198,
+   "at": "2026-11-12T01:53:54.239522+00:00"
+  },
+  {
+   "title": "بازسازی بازی Papers Please با محوریت انتخاب استارتاپ‌های Y Combinator",
+   "url": "https://termsheetplease.com/",
+   "source": "termsheetplease.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00974,
+   "at": "2026-11-12T01:53:59.989727+00:00"
+  },
+  {
+   "title": "اختلال گسترده در سرویس‌های GitHub و توقف موقت پردازش‌ها",
+   "url": "https://www.githubstatus.com/incidents/dvy0t3mvh1lg",
+   "source": "githubstatus.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.01283,
+   "at": "2026-11-12T01:54:22.253782+00:00"
+  },
+  {
+   "title": "دسترسی غیرمجاز به پلتفرم گزارش باگ گوگل و تغییر پاداش",
+   "url": "https://lyra.horse/blog/2026/11/disinformation-machine/",
+   "source": "lyra.horse",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.14273,
+   "at": "2026-11-12T01:54:29.252515+00:00"
+  },
+  {
+   "title": "تحلیل قابلیت اجرای لکه‌های رنگ به عنوان کدهای زبان Perl",
+   "url": "https://www.mcmillen.dev/sigbovik/",
+   "source": "mcmillen.dev",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.02212,
+   "at": "2026-11-12T01:54:34.825986+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "16gb",
-    "gains",
-    "lead",
-    "ram",
-    "steam",
-    "users",
-    "widens",
-    "windows"
-   ],
-   "at": "2026-11-07T06:54:08.552322+00:00"
-  },
-  {
-   "sig": [
-    "alternative",
-    "bumpy",
-    "changesets",
-    "file-based",
-    "releases",
-    "varlock",
-    "versioning"
-   ],
-   "at": "2026-11-07T08:53:53.884914+00:00"
-  },
-  {
-   "sig": [
-    "again",
-    "ask",
-    "claude",
-    "code",
-    "copies",
-    "don",
-    "exposes",
-    "file",
-    "github",
-    "keys",
-    "passwords",
-    "public"
-   ],
-   "at": "2026-11-07T09:53:42.781060+00:00"
-  },
-  {
-   "sig": [
-    "oukitel",
-    "phone",
-    "review",
-    "rugged",
-    "wp63"
-   ],
-   "at": "2026-11-07T09:53:50.081804+00:00"
-  },
   {
    "sig": [
     "apologize",
@@ -13655,101 +13648,50 @@
     "street"
    ],
    "at": "2026-11-11T17:54:44.612789+00:00"
+  },
+  {
+   "sig": [
+    "deciding",
+    "fund",
+    "papers",
+    "please",
+    "recreated",
+    "show",
+    "startups",
+    "which"
+   ],
+   "at": "2026-11-12T01:53:59.989727+00:00"
+  },
+  {
+   "sig": [
+    "actions",
+    "etc",
+    "github",
+    "incident",
+    "webhooks"
+   ],
+   "at": "2026-11-12T01:54:22.253782+00:00"
+  },
+  {
+   "sig": [
+    "accidentally",
+    "became",
+    "millionaire"
+   ],
+   "at": "2026-11-12T01:54:29.252515+00:00"
+  },
+  {
+   "sig": [
+    "paint",
+    "perl",
+    "programs",
+    "splatters",
+    "valid"
+   ],
+   "at": "2026-11-12T01:54:34.825986+00:00"
   }
  ],
  "snapshots": {
-  "hn:50308631": [
-   264,
-   "2026-10-31T02:53:45.562235+00:00"
-  ],
-  "hn:50307219": [
-   760,
-   "2026-10-31T02:53:45.562235+00:00"
-  ],
-  "hn:50311311": [
-   183,
-   "2026-10-31T02:53:45.562235+00:00"
-  ],
-  "hn:50308986": [
-   74,
-   "2026-10-31T02:53:45.562235+00:00"
-  ],
-  "lobsters:o1z9mm": [
-   27,
-   "2026-10-31T02:53:45.562235+00:00"
-  ],
-  "hn:50305797": [
-   263,
-   "2026-10-31T03:53:43.365415+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4i3sto6c2s": [
-   113,
-   "2026-10-31T03:53:43.365415+00:00"
-  ],
-  "hn:50310937": [
-   63,
-   "2026-10-31T03:53:43.365415+00:00"
-  ],
-  "hn:50312756": [
-   146,
-   "2026-10-31T04:53:41.863392+00:00"
-  ],
-  "hn:50312922": [
-   220,
-   "2026-10-31T05:53:38.647594+00:00"
-  ],
-  "hn:50312739": [
-   74,
-   "2026-10-31T05:53:38.647594+00:00"
-  ],
-  "hn:50310431": [
-   68,
-   "2026-10-31T05:53:38.647594+00:00"
-  ],
-  "lobsters:1pmuy7": [
-   25,
-   "2026-10-31T09:53:45.014249+00:00"
-  ],
-  "hn:50314654": [
-   121,
-   "2026-10-31T10:53:41.489224+00:00"
-  ],
-  "lobsters:soosuu": [
-   30,
-   "2026-10-31T10:53:41.489224+00:00"
-  ],
-  "hn:50315990": [
-   87,
-   "2026-10-31T14:53:39.567757+00:00"
-  ],
-  "hn:50315226": [
-   130,
-   "2026-10-31T14:53:39.567757+00:00"
-  ],
-  "hn:50314666": [
-   269,
-   "2026-10-31T14:53:39.567757+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz6bityenn2n": [
-   177,
-   "2026-10-31T14:53:39.567757+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz6g4uyhss2e": [
-   149,
-   "2026-10-31T14:53:39.567757+00:00"
-  ],
-  "hn:50316103": [
-   249,
-   "2026-10-31T16:12:40.268204+00:00"
-  ],
-  "hn:50315776": [
-   197,
-   "2026-10-31T16:12:40.268204+00:00"
-  ],
-  "hn:50314243": [
-   79,
-   "2026-10-31T16:12:40.268204+00:00"
-  ],
   "lobsters:drwd4j": [
    28,
    "2026-10-31T16:12:40.268204+00:00"
@@ -16057,6 +15999,98 @@
   "hn:50452224": [
    75,
    "2026-11-11T17:53:41.657733+00:00"
+  ],
+  "hn:50460154": [
+   79,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50459745": [
+   192,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50459321": [
+   561,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50458900": [
+   1080,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50458532": [
+   193,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50458166": [
+   98,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50457939": [
+   722,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50457618": [
+   110,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50457230": [
+   322,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50457164": [
+   430,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50457083": [
+   93,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50456740": [
+   115,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50456631": [
+   1103,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50455633": [
+   209,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50455332": [
+   307,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50454995": [
+   179,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50454951": [
+   127,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50454823": [
+   105,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "hn:50454625": [
+   321,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "lobsters:lnau2d": [
+   40,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "lobsters:wfr0b4": [
+   25,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22o46qy7324": [
+   116,
+   "2026-11-12T01:53:49.032490+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n23drmufbs2q": [
+   6,
+   "2026-11-12T01:53:49.032490+00:00"
   ]
  },
  "skips": {
@@ -16067,7 +16101,7 @@
   "Lobsters": 4,
   "Hacker News": 18,
   "The Next Web": 1,
-  "404 Media": 8,
+  "404 Media": 9,
   "Emily M. Bender": 2,
   "Simon Willison": 2,
   "Xe Iaso": 2,
@@ -16092,12 +16126,12 @@
   "The Verge": 22,
   "Cloudflare": 1,
   "TechCrunch AI": 17,
-  "Lobsters": 12,
+  "Lobsters": 13,
   "Tom's Hardware": 36,
   "ZDNet": 4,
   "9to5Mac": 16,
   "EFF": 2,
-  "Hacker News": 69,
+  "Hacker News": 73,
   "TechSpot": 17,
   "The Hacker News": 29,
   "Latent Space": 5,
@@ -16135,12 +16169,12 @@
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-10T14:55:14.549569+00:00",
-  "Lobsters": "2026-11-11T16:54:13.513528+00:00",
+  "Lobsters": "2026-11-12T01:54:29.252609+00:00",
   "Tom's Hardware": "2026-11-11T16:54:07.259933+00:00",
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-11T15:54:31.610844+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-11T17:54:44.612904+00:00",
+  "Hacker News": "2026-11-12T01:54:34.826087+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-11T09:54:00.557413+00:00",
   "Latent Space": "2026-11-11T09:54:24.134418+00:00",
