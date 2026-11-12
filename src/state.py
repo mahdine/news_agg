@@ -155,19 +155,25 @@ class State:
                 domain_to_label[host] = label
 
         for entry in self.history:
-            source = (entry.get("source") or "").lower()
-            label = domain_to_label.get(source)
+            # رکوردهای جدید label (منبعِ config) را مستقیم دارند؛ دامنه‌ی
+            # ناشر برای داستان‌های HN چیزی مثل github.com می‌شود و برای
+            # آمار به درد نمی‌خورد. حدس زدن از روی دامنه فقط برای رکوردهای
+            # قدیمی بدون label می‌ماند.
+            label = entry.get("label")
             if label is None:
-                # شاید خودِ source یک label config باشد (مثلا‌ اکانت HN یا
-                # فیدی که publisher ندارد). مقایسه بدون حساسیت به حروف بزرگ.
-                label = next(
-                    (
-                        (s.get("label") or s.get("handle") or s.get("url"))
-                        for s in config.get("sources", [])
-                        if ((s.get("label") or s.get("handle") or s.get("url")) or "").lower() == source
-                    ),
-                    None,
-                )
+                source = (entry.get("source") or "").lower()
+                label = domain_to_label.get(source)
+                if label is None:
+                    # شاید خودِ source یک label config باشد (مثلا‌ اکانت HN یا
+                    # فیدی که publisher ندارد). مقایسه بدون حساسیت به حروف بزرگ.
+                    label = next(
+                        (
+                            (s.get("label") or s.get("handle") or s.get("url"))
+                            for s in config.get("sources", [])
+                            if ((s.get("label") or s.get("handle") or s.get("url")) or "").lower() == source
+                        ),
+                        None,
+                    )
             if label is None:
                 continue
             self.posts_by_label[label] = self.posts_by_label.get(label, 0) + 1

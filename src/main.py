@@ -294,7 +294,16 @@ def maybe_digest(state, settings, client, args, token, channel) -> None:
     lines = ["<b>🔥 داغ‌ترین‌های هفته</b>", ""]
     for index, row in enumerate(top, 1):
         title = html.escape(row.get("title", "")[:150])
-        source = html.escape(row.get("source", ""))
+        # `source` دامنه‌ی ناشر است و برای داستان‌های HN چیزی مثل github.com می‌شود
+        # (خبر مال آن سایت است، HN فقط آن را لینک کرده). همان ترکیب پست‌های
+        # عادی: ناشر + «via منبع». رکوردهای قدیمی بدون label فقط source دارند.
+        label = row.get("label") or ""
+        publisher = row.get("source") or ""
+        if label and publisher and publisher.lower() != label.lower():
+            source = f"{publisher} · via {label}"
+        else:
+            source = publisher or label
+        source = html.escape(source)
         url = html.escape(row.get("url", ""), quote=True)
         lines.append(f'{index}. <a href="{url}">{title}</a>')
         lines.append(f"    <i>{source}</i>")
