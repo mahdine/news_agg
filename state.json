@@ -1,13 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw4qvunupz2t",
-  "https://yro.slashdot.org/story/26/09/20/2152215/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "hn:49804316",
-  "hn:49803863",
-  "https://3dnews.ru/1148883/#6ab2c7ac742eec866e8b456c",
-  "d2ef7ba4eba179bed22a4ff5fea971af",
-  "9f171859ea1d04cfc88cd6a3c94b43ee",
-  "1324194",
   "https://www.neowin.net/news/anthropics-new-claude-opus-55-model-is-almost-like-fable-51-but-much-cheaper/",
   "https://9to5mac.com/?p=1071021",
   "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
@@ -2999,18 +2991,26 @@
   "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
   "6aa1ab1ac085eea9f1c6adff",
   "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
-  "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html"
+  "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+  "https://www.techspot.com/news/114516-uber-doordash-airbnb-reveal-how-few-people-actually.html",
+  "wT7kQPpAkWmTXkS2BtevUB",
+  "3251441",
+  "a37ff72370576d48a6e8d013cfd03cc3",
+  "https://techcrunch.com/?p=3187646",
+  "6af47ab4ab35daedc087ac07",
+  "https://www.theregister.com/a/5309357",
+  "https://9to5mac.com/?p=1078972"
  ],
  "posted": {
   "viral": 738,
-  "editorial": 1010
+  "editorial": 1015
  },
  "recent_labels": [
-  "Slashdot",
-  "Hacker News",
-  "The Hacker News",
-  "The Hacker News",
-  "The Hacker News"
+  "TechSpot",
+  "vc.ru",
+  "TechCrunch AI",
+  "Wired",
+  "9to5Mac"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -10035,79 +10035,54 @@
    "pool": "editorial",
    "score": 0.19044,
    "at": "2026-11-12T12:56:49.543229+00:00"
+  },
+  {
+   "title": "استقبال بسیار اندک کاربران از ایجنت‌های هوش مصنوعی در پلتفرم‌های خدماتی",
+   "url": "https://www.techspot.com/news/114516-uber-doordash-airbnb-reveal-how-few-people-actually.html",
+   "source": "TechSpot",
+   "label": "TechSpot",
+   "pool": "editorial",
+   "score": 0.32497,
+   "at": "2026-11-12T13:53:42.182594+00:00"
+  },
+  {
+   "title": "طرح جدید اتحادیه اروپا برای مقابله با طراحی‌های اعتیادآور در اپلیکیشن‌ها",
+   "url": "https://vc.ru/services/3251441-evrokomissiya-zapretit-manipulativnye-mehaniki?from=rss",
+   "source": "vc.ru",
+   "label": "vc.ru",
+   "pool": "editorial",
+   "score": 0.28345,
+   "at": "2026-11-12T13:54:13.914014+00:00"
+  },
+  {
+   "title": "رقابت نه استارتاپ کره‌ای برای ورود به رویداد Startup Battlefield 200",
+   "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+   "source": "TechCrunch AI",
+   "label": "TechCrunch AI",
+   "pool": "editorial",
+   "score": 0.20679,
+   "at": "2026-11-12T13:54:19.433174+00:00"
+  },
+  {
+   "title": "همکاری Fairphone با Boost Mobile برای عرضه گوشی‌های تعمیرپذیر در آمریکا",
+   "url": "https://www.wired.com/story/exclusive-fairphone-lands-its-first-us-carrier-partner-in-boost-mobile/",
+   "source": "Wired",
+   "label": "Wired",
+   "pool": "editorial",
+   "score": 0.22967,
+   "at": "2026-11-12T13:54:24.963886+00:00"
+  },
+  {
+   "title": "تغییرات جدید در اپلیکیشن Peacock برای افزایش تعامل کاربران",
+   "url": "https://9to5mac.com/2026/11/12/peacock-thinks-vertical-video-will-make-you-watch-one-more-hour-per-month/",
+   "source": "9to5Mac",
+   "label": "9to5Mac",
+   "pool": "editorial",
+   "score": 0.20549,
+   "at": "2026-11-12T13:54:31.419426+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "coldframe",
-    "controller",
-    "fridge",
-    "honeypot",
-    "poses",
-    "show",
-    "supermarket"
-   ],
-   "at": "2026-11-07T22:02:14.759104+00:00"
-  },
-  {
-   "sig": [
-    "homelab",
-    "openstick",
-    "run",
-    "usd"
-   ],
-   "at": "2026-11-07T22:02:21.600145+00:00"
-  },
-  {
-   "sig": [
-    "14b",
-    "31b",
-    "audio",
-    "compressed",
-    "diffusion",
-    "int8",
-    "model",
-    "show",
-    "steps",
-    "video"
-   ],
-   "at": "2026-11-08T01:53:42.148014+00:00"
-  },
-  {
-   "sig": [
-    "anyone",
-    "content",
-    "could",
-    "distributing",
-    "even",
-    "face",
-    "five",
-    "friday",
-    "homes",
-    "porn",
-    "possessing",
-    "prison",
-    "privacy",
-    "recorded",
-    "sale",
-    "site",
-    "type",
-    "uk-crime-and",
-    "www.404media.co",
-    "years"
-   ],
-   "at": "2026-11-08T01:53:49.179582+00:00"
-  },
-  {
-   "sig": [
-    "finally",
-    "going",
-    "rid",
-    "sshole"
-   ],
-   "at": "2026-11-08T01:53:55.964633+00:00"
-  },
   {
    "sig": [
     "annual",
@@ -14131,6 +14106,70 @@
     "warns"
    ],
    "at": "2026-11-12T12:56:49.543229+00:00"
+  },
+  {
+   "sig": [
+    "according",
+    "agents",
+    "airbnb",
+    "almost",
+    "anyone",
+    "bookings",
+    "doordash",
+    "hardly",
+    "nobody",
+    "uber",
+    "using"
+   ],
+   "at": "2026-11-12T13:53:42.182594+00:00"
+  },
+  {
+   "sig": [
+    "duolingo",
+    "strava",
+    "ticketmaster"
+   ],
+   "at": "2026-11-12T13:54:13.914014+00:00"
+  },
+  {
+   "sig": [
+    "battlefield",
+    "competition",
+    "disrupt",
+    "korean",
+    "nine",
+    "spot",
+    "startup",
+    "startups",
+    "vie"
+   ],
+   "at": "2026-11-12T13:54:19.433174+00:00"
+  },
+  {
+   "sig": [
+    "boost",
+    "carrier",
+    "exclusive",
+    "fairphone",
+    "first",
+    "lands",
+    "mobile",
+    "partner"
+   ],
+   "at": "2026-11-12T13:54:24.963886+00:00"
+  },
+  {
+   "sig": [
+    "hour",
+    "month",
+    "peacock",
+    "per",
+    "thinks",
+    "vertical",
+    "video",
+    "watch"
+   ],
+   "at": "2026-11-12T13:54:31.419426+00:00"
   }
  ],
  "snapshots": {
@@ -16552,7 +16591,7 @@
   "vc.ru": 2,
   "Hi-Tech Mail": 6,
   "Slashdot": 2,
-  "The Register": 5,
+  "The Register": 6,
   "Google AI": 1,
   "Neowin": 1,
   "TechSpot": 1,
@@ -16561,21 +16600,21 @@
  "posts_by_label": {
   "Engadget": 43,
   "Neowin": 21,
-  "Wired": 22,
+  "Wired": 23,
   "TechRadar": 36,
   "Slashdot": 30,
   "404 Media": 38,
   "Xe Iaso": 4,
   "The Verge": 22,
   "Cloudflare": 1,
-  "TechCrunch AI": 17,
+  "TechCrunch AI": 18,
   "Lobsters": 13,
   "Tom's Hardware": 36,
   "ZDNet": 5,
-  "9to5Mac": 16,
+  "9to5Mac": 17,
   "EFF": 2,
   "Hacker News": 86,
-  "TechSpot": 18,
+  "TechSpot": 19,
   "The Hacker News": 34,
   "Latent Space": 6,
   "InfoQ": 16,
@@ -16586,7 +16625,7 @@
   "Ars Technica": 2,
   "Simon Willison": 2,
   "Simon Willison RSS": 6,
-  "vc.ru": 12,
+  "vc.ru": 13,
   "SecurityWeek": 16,
   "Hi-Tech Mail": 43,
   "MIT Tech Review": 1,
@@ -16605,21 +16644,21 @@
  "last_post": {
   "Engadget": "2026-11-11T11:54:07.033021+00:00",
   "Neowin": "2026-11-12T11:54:33.187083+00:00",
-  "Wired": "2026-11-12T10:53:47.876635+00:00",
+  "Wired": "2026-11-12T13:54:24.963985+00:00",
   "TechRadar": "2026-11-12T10:53:59.382125+00:00",
   "Slashdot": "2026-11-12T12:55:17.497961+00:00",
   "404 Media": "2026-11-11T01:53:54.657776+00:00",
   "Xe Iaso": "2026-11-11T14:54:18.284123+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
-  "TechCrunch AI": "2026-11-10T14:55:14.549569+00:00",
+  "TechCrunch AI": "2026-11-12T13:54:19.433280+00:00",
   "Lobsters": "2026-11-12T01:54:29.252609+00:00",
   "Tom's Hardware": "2026-11-11T16:54:07.259933+00:00",
   "ZDNet": "2026-11-12T08:55:13.159740+00:00",
-  "9to5Mac": "2026-11-11T15:54:31.610844+00:00",
+  "9to5Mac": "2026-11-12T13:54:31.419528+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
   "Hacker News": "2026-11-12T12:55:23.307864+00:00",
-  "TechSpot": "2026-11-12T10:53:53.594490+00:00",
+  "TechSpot": "2026-11-12T13:53:42.182722+00:00",
   "The Hacker News": "2026-11-12T12:56:49.543344+00:00",
   "Latent Space": "2026-11-12T05:54:13.348855+00:00",
   "InfoQ": "2026-11-12T09:53:51.614525+00:00",
@@ -16630,7 +16669,7 @@
   "Ars Technica": "2026-11-11T17:53:47.755359+00:00",
   "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
-  "vc.ru": "2026-11-11T07:54:17.468730+00:00",
+  "vc.ru": "2026-11-12T13:54:13.914130+00:00",
   "SecurityWeek": "2026-11-12T10:54:14.068277+00:00",
   "Hi-Tech Mail": "2026-11-12T11:54:22.186415+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
