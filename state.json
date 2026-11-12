@@ -1,13 +1,5 @@
 {
  "seen": [
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvz6hegazk2o",
-  "112375 at https://www.eff.org",
-  "https://3dnews.ru/1148809/#6ab1378b742eec95db8b457b",
-  "https://www.theverge.com/?p=998191",
-  "https://www.engadget.com/2261054/why-siri-ai-ios-27-waitlist/",
-  "1319291",
-  "https://9to5mac.com/?p=1070712",
-  "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
   "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
   "https://www.securityweek.com/?p=49450",
   "https://3dnews.ru/1148813/#6ab145e4742eec14838b458a",
@@ -2999,18 +2991,26 @@
   "https://www.infoq.com/news/2026/11/finprim-validation-qanda/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "https://www.theregister.com/a/5308889",
   "https://www.cnews.ru/news/line/2026-11-12_antiplagiat_predstavil",
-  "https://www.cnews.ru/news/line/2026-11-12_kontur_uprostil_podklyuchenie"
+  "https://www.cnews.ru/news/line/2026-11-12_kontur_uprostil_podklyuchenie",
+  "66ba52512316e311c13dba87",
+  "6af4a94dcfaf3e18d8d29b24",
+  "https://www.techspot.com/news/114530-anthropic-dario-amodei-uses-ipo-pitch-promise-ai.html",
+  "yjnLGTGBVKvdXjeDDNtLw7",
+  "6af4c2b3786b084e206ae2a3",
+  "7185da0fe899620752452a39ff22893b",
+  "TheNextWeb=62c237e40c008cda8c221a4d1231f790",
+  "https://www.securityweek.com/?p=50726"
  ],
  "posted": {
   "viral": 736,
-  "editorial": 997
+  "editorial": 1002
  },
  "recent_labels": [
-  "Hacker News",
-  "InfoQ",
-  "The Register",
-  "CNews",
-  "CNews"
+  "Wired",
+  "TechSpot",
+  "TechRadar",
+  "The Next Web",
+  "SecurityWeek"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9900,76 +9900,54 @@
    "pool": "editorial",
    "score": 0.1871,
    "at": "2026-11-12T09:54:18.348433+00:00"
+  },
+  {
+   "title": "توافق اتحادیه مهمانداران برای حذف داده‌های شخصی از فروش اطلاعات به گوگل",
+   "url": "https://www.wired.com/story/google-wanted-spirit-airlines-data-flight-attendants-found-a-way-to-opt-out/",
+   "source": "Wired",
+   "label": "Wired",
+   "pool": "editorial",
+   "score": 0.1919,
+   "at": "2026-11-12T10:53:47.876511+00:00"
+  },
+  {
+   "title": "وعده‌ی جنجالی مدیرعامل Anthropic برای ریشه‌کنی بیماری‌ها با هوش مصنوعی",
+   "url": "https://www.techspot.com/news/114530-anthropic-dario-amodei-uses-ipo-pitch-promise-ai.html",
+   "source": "TechSpot",
+   "label": "TechSpot",
+   "pool": "editorial",
+   "score": 0.15365,
+   "at": "2026-11-12T10:53:53.594377+00:00"
+  },
+  {
+   "title": "تغییر استراتژی Adobe برای دسترسی به ابزارهای حرفه‌ای از طریق هوش مصنوعی",
+   "url": "https://www.techradar.com/pro/we-like-transparency-but-we-also-like-control-software-vendors-need-to-make-their-tools-more-accessible-without-dumbing-them-down-and-adobe-thinks-its-got-the-winning-formula",
+   "source": "TechRadar",
+   "label": "TechRadar",
+   "pool": "editorial",
+   "score": 0.14802,
+   "at": "2026-11-12T10:53:59.382019+00:00"
+  },
+  {
+   "title": "احتمال بازگشت جریمه ۱.۴۹ میلیارد یورویی گوگل توسط دادگاه عالی اتحادیه اروپا",
+   "url": "https://thenextweb.com/news/googles-e1-49b-adsense-fine-was-wrongly-scrapped",
+   "source": "The Next Web",
+   "label": "The Next Web",
+   "pool": "editorial",
+   "score": 0.17091,
+   "at": "2026-11-12T10:54:08.198122+00:00"
+  },
+  {
+   "title": "نفوذ هکرها به صدها سیستم از طریق آسیب‌پذیری در ScreenConnect",
+   "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+   "source": "SecurityWeek",
+   "label": "SecurityWeek",
+   "pool": "editorial",
+   "score": 0.24444,
+   "at": "2026-11-12T10:54:14.068166+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "blocks",
-    "email",
-    "error",
-    "microsoft",
-    "outlook",
-    "receiving",
-    "sending",
-    "spf",
-    "validation"
-   ],
-   "at": "2026-11-07T16:54:43.754454+00:00"
-  },
-  {
-   "sig": [
-    "almost",
-    "assistant",
-    "cake",
-    "chicken",
-    "cooking",
-    "nyt",
-    "ruined",
-    "saved",
-    "weeknight"
-   ],
-   "at": "2026-11-07T17:48:07.053254+00:00"
-  },
-  {
-   "sig": [
-    "any",
-    "borland",
-    "don",
-    "like",
-    "pascal",
-    "turbo"
-   ],
-   "at": "2026-11-07T17:48:13.713496+00:00"
-  },
-  {
-   "sig": [
-    "abi",
-    "access",
-    "advantages",
-    "almalinux",
-    "code",
-    "compatibility",
-    "restricted",
-    "rhel",
-    "shows",
-    "source"
-   ],
-   "at": "2026-11-07T17:48:44.490203+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "improved",
-    "instantly",
-    "mode",
-    "quality",
-    "replaced",
-    "video",
-    "webcam"
-   ],
-   "at": "2026-11-07T17:48:51.334345+00:00"
-  },
   {
    "sig": [
     "hardware",
@@ -13967,6 +13945,78 @@
     "whiteboard"
    ],
    "at": "2026-11-12T09:53:57.397814+00:00"
+  },
+  {
+   "sig": [
+    "airlines",
+    "attendants",
+    "data",
+    "flight",
+    "found",
+    "google",
+    "opt",
+    "spirit",
+    "wanted",
+    "way"
+   ],
+   "at": "2026-11-12T10:53:47.876511+00:00"
+  },
+  {
+   "sig": [
+    "alzheimer",
+    "amodei",
+    "anthropic",
+    "cancer",
+    "dario",
+    "decade",
+    "eliminate",
+    "ipo",
+    "pitch",
+    "promise",
+    "within"
+   ],
+   "at": "2026-11-12T10:53:53.594377+00:00"
+  },
+  {
+   "sig": [
+    "accessible",
+    "adobe",
+    "down",
+    "dumbing",
+    "formula",
+    "need",
+    "software",
+    "thinks",
+    "tools",
+    "vendors",
+    "winning",
+    "without"
+   ],
+   "at": "2026-11-12T10:53:59.382019+00:00"
+  },
+  {
+   "sig": [
+    "1.49b",
+    "adsense",
+    "adviser",
+    "court",
+    "fine",
+    "google",
+    "scrapped",
+    "wrongly"
+   ],
+   "at": "2026-11-12T10:54:08.198122+00:00"
+  },
+  {
+   "sig": [
+    "campaign",
+    "deploy",
+    "fresh",
+    "hackers",
+    "malware",
+    "screenconnect"
+   ],
+   "at": "2026-11-12T10:54:14.068166+00:00"
   }
  ],
  "snapshots": {
@@ -16374,7 +16424,7 @@
  "skips": {
   "Tom's Hardware": 4,
   "Article 19": 1,
-  "Wired": 15,
+  "Wired": 17,
   "TechRadar": 8,
   "Lobsters": 4,
   "Hacker News": 23,
@@ -16386,7 +16436,7 @@
   "Simon Willison RSS": 1,
   "CNews": 13,
   "vc.ru": 2,
-  "Hi-Tech Mail": 5,
+  "Hi-Tech Mail": 6,
   "Slashdot": 2,
   "The Register": 5,
   "Google AI": 1,
@@ -16397,8 +16447,8 @@
  "posts_by_label": {
   "Engadget": 43,
   "Neowin": 20,
-  "Wired": 21,
-  "TechRadar": 35,
+  "Wired": 22,
+  "TechRadar": 36,
   "Slashdot": 29,
   "404 Media": 38,
   "Xe Iaso": 4,
@@ -16411,19 +16461,19 @@
   "9to5Mac": 16,
   "EFF": 2,
   "Hacker News": 84,
-  "TechSpot": 17,
+  "TechSpot": 18,
   "The Hacker News": 31,
   "Latent Space": 6,
   "InfoQ": 16,
   "The Register": 24,
   "Phoronix": 24,
-  "The Next Web": 24,
+  "The Next Web": 25,
   "Android Police": 20,
   "Ars Technica": 2,
   "Simon Willison": 2,
   "Simon Willison RSS": 6,
   "vc.ru": 12,
-  "SecurityWeek": 15,
+  "SecurityWeek": 16,
   "Hi-Tech Mail": 41,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
@@ -16441,8 +16491,8 @@
  "last_post": {
   "Engadget": "2026-11-11T11:54:07.033021+00:00",
   "Neowin": "2026-11-12T05:53:53.609663+00:00",
-  "Wired": "2026-11-10T13:54:47.029930+00:00",
-  "TechRadar": "2026-11-11T15:55:04.484344+00:00",
+  "Wired": "2026-11-12T10:53:47.876635+00:00",
+  "TechRadar": "2026-11-12T10:53:59.382125+00:00",
   "Slashdot": "2026-11-12T03:54:12.270334+00:00",
   "404 Media": "2026-11-11T01:53:54.657776+00:00",
   "Xe Iaso": "2026-11-11T14:54:18.284123+00:00",
@@ -16455,19 +16505,19 @@
   "9to5Mac": "2026-11-11T15:54:31.610844+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
   "Hacker News": "2026-11-12T09:53:45.504444+00:00",
-  "TechSpot": "2026-11-08T15:53:57.122484+00:00",
+  "TechSpot": "2026-11-12T10:53:53.594490+00:00",
   "The Hacker News": "2026-11-12T08:53:47.085957+00:00",
   "Latent Space": "2026-11-12T05:54:13.348855+00:00",
   "InfoQ": "2026-11-12T09:53:51.614525+00:00",
   "The Register": "2026-11-12T09:53:57.397920+00:00",
   "Phoronix": "2026-11-11T10:54:15.482122+00:00",
-  "The Next Web": "2026-11-12T05:54:05.739000+00:00",
+  "The Next Web": "2026-11-12T10:54:08.198232+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
   "Ars Technica": "2026-11-11T17:53:47.755359+00:00",
   "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-11T07:54:17.468730+00:00",
-  "SecurityWeek": "2026-11-12T08:56:25.320081+00:00",
+  "SecurityWeek": "2026-11-12T10:54:14.068277+00:00",
   "Hi-Tech Mail": "2026-11-12T06:54:42.382791+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
