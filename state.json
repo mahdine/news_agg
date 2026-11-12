@@ -1,12 +1,5 @@
 {
  "seen": [
-  "lobsters:wf4wid",
-  "hn:49826565",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwbomw3njc2x",
-  "ciRBLy96TG9gUsXUWQdbia",
-  "https://3dnews.ru/1149010/#6ab579bf742eec36a38b456b",
-  "3156318",
-  "https://www.techspot.com/news/113973-microsoft-smaller-surface-pro-surface-laptop-get-faster.html",
   "lobsters:68n22g",
   "hn:49841563",
   "https://techcrunch.com/?p=3168527",
@@ -2999,18 +2992,25 @@
   "https://www.engadget.com/2314410/apple-tv-4k-4th-gen-review/",
   "FoJVnaCj4xZ3P6c3Cqb25G",
   "https://9to5mac.com/?p=1078817",
-  "https://www.theverge.com/?p=1031633"
+  "https://www.theverge.com/?p=1031633",
+  "hn:50465453",
+  "lobsters:2drgwh",
+  "lobsters:ooshl8",
+  "hn:50467460",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n24nwelyl2le",
+  "hn:50467618",
+  "hn:50467763"
  ],
  "posted": {
-  "viral": 738,
+  "viral": 743,
   "editorial": 1020
  },
  "recent_labels": [
-  "ZDNet",
-  "The Hacker News",
-  "Wired",
-  "Engadget",
-  "9to5Mac"
+  "Lobsters",
+  "Lobsters",
+  "Hacker News",
+  "Emily M. Bender",
+  "Hacker News"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -10125,90 +10125,54 @@
    "pool": "editorial",
    "score": 0.22511,
    "at": "2026-11-12T14:56:06.410123+00:00"
+  },
+  {
+   "title": "مسدودسازی تبلیغات تلویزیون سامسونگ با استفاده از گواهی امنیتی آسیب‌دیده",
+   "url": "https://dvratil.cz/2026/11/hijacking-samsung-tv-smart-hub-ads/",
+   "source": "dvratil.cz",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.01942,
+   "at": "2026-11-12T16:56:15.709916+00:00"
+  },
+  {
+   "title": "انتشار رایگان کتاب تخصصی Let Over Lambda برای برنامه‌نویسان",
+   "url": "https://letoverlambda.com/",
+   "source": "letoverlambda.com",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.13334,
+   "at": "2026-11-12T16:56:24.525097+00:00"
+  },
+  {
+   "title": "جزئیات فنی معماری پردازنده‌های جدید AMD Zen 6 و Zen 6c",
+   "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
+   "source": "chipsandcheese.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.06147,
+   "at": "2026-11-12T16:56:31.366478+00:00"
+  },
+  {
+   "title": "تجربه‌ی تعامل با هوش مصنوعی در نقش مدیرعامل NVIDIA",
+   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3n24nwelyl2le",
+   "source": "Emily M. Bender",
+   "label": "Emily M. Bender",
+   "pool": "viral",
+   "score": 0.28703,
+   "at": "2026-11-12T16:56:40.304485+00:00"
+  },
+  {
+   "title": "انتشار به‌روزرسانی امنیتی مهم برای نسخه‌های مختلف PostgreSQL",
+   "url": "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+   "source": "postgresql.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.24969,
+   "at": "2026-11-12T16:56:59.376702+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "callers",
-    "first",
-    "number",
-    "place",
-    "spam"
-   ],
-   "at": "2026-11-08T02:54:16.647953+00:00"
-  },
-  {
-   "sig": [
-    "ai-free",
-    "alpinebsd",
-    "announced",
-    "foss"
-   ],
-   "at": "2026-11-08T02:54:22.755124+00:00"
-  },
-  {
-   "sig": [
-    "16gb",
-    "blame",
-    "costs",
-    "course",
-    "did",
-    "global",
-    "hike",
-    "launch",
-    "means",
-    "model",
-    "price",
-    "ram",
-    "raspberry",
-    "shortage",
-    "three",
-    "times",
-    "triple"
-   ],
-   "at": "2026-11-08T03:53:42.002231+00:00"
-  },
-  {
-   "sig": [
-    "2026.10",
-    "apps",
-    "compilers",
-    "openindiana",
-    "released",
-    "tools",
-    "updated"
-   ],
-   "at": "2026-11-08T03:53:55.911923+00:00"
-  },
-  {
-   "sig": [
-    "datasette",
-    "don",
-    "firefox",
-    "headers",
-    "html",
-    "http",
-    "link",
-    "looking",
-    "network",
-    "next",
-    "noticed",
-    "page",
-    "pages",
-    "panel",
-    "prefetch",
-    "rel",
-    "requests",
-    "rows",
-    "serve",
-    "table",
-    "today",
-    "triggering",
-    "were"
-   ],
-   "at": "2026-11-08T03:54:02.235636+00:00"
-  },
   {
    "sig": [
     "alone",
@@ -14214,37 +14178,69 @@
     "streamer"
    ],
    "at": "2026-11-12T14:56:06.410123+00:00"
+  },
+  {
+   "sig": [
+    "ads",
+    "hijacking",
+    "hub",
+    "samsung",
+    "smart"
+   ],
+   "at": "2026-11-12T16:56:15.709916+00:00"
+  },
+  {
+   "sig": [
+    "available",
+    "entirety",
+    "freely",
+    "lambda",
+    "let",
+    "online"
+   ],
+   "at": "2026-11-12T16:56:24.525097+00:00"
+  },
+  {
+   "sig": [
+    "amd",
+    "clark",
+    "in-depth",
+    "mike",
+    "talking",
+    "zen"
+   ],
+   "at": "2026-11-12T16:56:31.366478+00:00"
+  },
+  {
+   "sig": [
+    "affair",
+    "anyone",
+    "hasn",
+    "huang",
+    "jensen",
+    "latest",
+    "parrot",
+    "stochastic",
+    "thinks",
+    "tried",
+    "ways"
+   ],
+   "at": "2026-11-12T16:56:40.304485+00:00"
+  },
+  {
+   "sig": [
+    "14.25",
+    "15.20",
+    "16.16",
+    "17.12",
+    "18.7",
+    "postgresql",
+    "released"
+   ],
+   "at": "2026-11-12T16:56:59.376702+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mz6vmxpth22j": [
-   222,
-   "2026-10-31T20:06:42.126659+00:00"
-  ],
-  "hn:50319358": [
-   213,
-   "2026-10-31T23:29:05.701793+00:00"
-  ],
-  "hn:50318182": [
-   178,
-   "2026-10-31T23:29:05.701793+00:00"
-  ],
-  "lobsters:k508we": [
-   50,
-   "2026-10-31T23:29:05.701793+00:00"
-  ],
-  "lobsters:ymqjuj": [
-   25,
-   "2026-10-31T23:29:05.701793+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz6rowze5c2s": [
-   5,
-   "2026-10-31T23:29:05.701793+00:00"
-  ],
-  "hn:50319510": [
-   1205,
-   "2026-11-01T01:53:51.234595+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7ep3337s2s": [
    219,
    "2026-11-01T01:53:51.234595+00:00"
@@ -16609,13 +16605,41 @@
    155,
    "2026-11-12T12:53:48.385357+00:00"
   ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n24nwelyl2le": [
-   112,
-   "2026-11-12T14:53:43.238015+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n24miuqjqkle": [
    173,
    "2026-11-12T14:53:43.238015+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n24nwelyl2le": [
+   184,
+   "2026-11-12T16:53:52.508305+00:00"
+  ],
+  "hn:50467763": [
+   67,
+   "2026-11-12T16:53:52.508305+00:00"
+  ],
+  "hn:50467618": [
+   164,
+   "2026-11-12T16:53:52.508305+00:00"
+  ],
+  "hn:50467460": [
+   85,
+   "2026-11-12T16:53:52.508305+00:00"
+  ],
+  "hn:50465453": [
+   151,
+   "2026-11-12T16:53:52.508305+00:00"
+  ],
+  "lobsters:ooshl8": [
+   41,
+   "2026-11-12T16:53:52.508305+00:00"
+  ],
+  "lobsters:2drgwh": [
+   32,
+   "2026-11-12T16:53:52.508305+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n24vdostzo2g": [
+   79,
+   "2026-11-12T16:53:52.508305+00:00"
   ]
  },
  "skips": {
@@ -16624,7 +16648,7 @@
   "Wired": 18,
   "TechRadar": 8,
   "Lobsters": 4,
-  "Hacker News": 23,
+  "Hacker News": 25,
   "The Next Web": 1,
   "404 Media": 9,
   "Emily M. Bender": 3,
@@ -16652,12 +16676,12 @@
   "The Verge": 22,
   "Cloudflare": 1,
   "TechCrunch AI": 18,
-  "Lobsters": 13,
+  "Lobsters": 15,
   "Tom's Hardware": 36,
   "ZDNet": 6,
   "9to5Mac": 18,
   "EFF": 2,
-  "Hacker News": 86,
+  "Hacker News": 88,
   "TechSpot": 19,
   "The Hacker News": 35,
   "Latent Space": 6,
@@ -16676,7 +16700,7 @@
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
   "CNews": 43,
-  "Emily M. Bender": 3,
+  "Emily M. Bender": 4,
   "antirez": 5,
   "OpenAI": 3,
   "Hugging Face": 2,
@@ -16696,12 +16720,12 @@
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-12T13:54:19.433280+00:00",
-  "Lobsters": "2026-11-12T01:54:29.252609+00:00",
+  "Lobsters": "2026-11-12T16:56:24.525149+00:00",
   "Tom's Hardware": "2026-11-11T16:54:07.259933+00:00",
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-12T14:56:06.410255+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-12T12:55:23.307864+00:00",
+  "Hacker News": "2026-11-12T16:56:59.376753+00:00",
   "TechSpot": "2026-11-12T13:53:42.182722+00:00",
   "The Hacker News": "2026-11-12T14:54:38.299721+00:00",
   "Latent Space": "2026-11-12T05:54:13.348855+00:00",
@@ -16720,7 +16744,7 @@
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
   "CNews": "2026-11-12T09:54:18.348558+00:00",
-  "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
+  "Emily M. Bender": "2026-11-12T16:56:40.304536+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
   "Hugging Face": "2026-11-11T05:54:17.268131+00:00",
