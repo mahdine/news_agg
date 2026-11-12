@@ -1,13 +1,5 @@
 {
  "seen": [
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
-  "rEYnB2Kky6BsMAyX7UrA9m",
-  "https://www.engadget.com/2257150/valves-steam-frame-vr-headset-starts-at-1059-and-ships-with-half-life-alyx/",
-  "https://www.techspot.com/news/113838-valve-steam-frame-launches-1059-half-life-alyx.html",
-  "https://www.neowin.net/news/valve-launches-steam-frame-standalone-vr-headset-starting-at-1059/",
-  "https://www.theregister.com/a/5296408",
-  "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
   "https://www.securityweek.com/?p=49312",
   "hn:49711544",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvkvehgxmk2j",
@@ -2999,17 +2991,25 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22o46qy7324",
   "hn:50458532",
   "lobsters:lnau2d",
-  "hn:50459745"
+  "hn:50459745",
+  "hn:50455332",
+  "hn:50455633",
+  "hn:50457083",
+  "hn:50457618",
+  "hn:50457669",
+  "hn:50458166",
+  "hn:50460154",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n23drmufbs2q"
  ],
  "posted": {
-  "viral": 725,
+  "viral": 729,
   "editorial": 976
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
   "Hacker News",
-  "Lobsters",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-06",
@@ -9612,59 +9612,45 @@
    "pool": "viral",
    "score": 0.02212,
    "at": "2026-11-12T01:54:34.825986+00:00"
+  },
+  {
+   "title": "چالش‌های استفاده از هوش مصنوعی در فرآیند تولید و عرضه نرم‌افزار",
+   "url": "https://cabird.com/talks/shipping-faster/",
+   "source": "cabird.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00429,
+   "at": "2026-11-12T02:53:49.549603+00:00"
+  },
+  {
+   "title": "بهینه‌سازی جستجوی برداری برای بهبود عملکرد سیستم‌های RAG",
+   "url": "https://machinelearning.apple.com/research/faster-retrieval",
+   "source": "machinelearning.apple.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00528,
+   "at": "2026-11-12T02:53:55.886033+00:00"
+  },
+  {
+   "title": "معرفی ابزار MACaQ برای کوانتایز سریع مدل‌های هوش مصنوعی",
+   "url": "https://github.com/huawei-csl/MACaQ",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00721,
+   "at": "2026-11-12T02:54:09.774476+00:00"
+  },
+  {
+   "title": "اجرای سیستم‌عامل macOS روی کامپیوترهای x86 با پروژه Stela",
+   "url": "https://github.com/tylertms/Stela",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.01875,
+   "at": "2026-11-12T02:54:15.677063+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "apologize",
-    "brits",
-    "even",
-    "please",
-    "speaking",
-    "thank"
-   ],
-   "at": "2026-11-07T09:53:57.180562+00:00"
-  },
-  {
-   "sig": [
-    "bears",
-    "discovers",
-    "fears",
-    "fresh",
-    "malfunctioning",
-    "report",
-    "safety",
-    "spark",
-    "teddy",
-    "toys"
-   ],
-   "at": "2026-11-07T09:54:03.115134+00:00"
-  },
-  {
-   "sig": [
-    "answering",
-    "chatgpt",
-    "create",
-    "instead",
-    "interactive",
-    "questions",
-    "tools"
-   ],
-   "at": "2026-11-07T09:54:10.882307+00:00"
-  },
-  {
-   "sig": [
-    "classifier",
-    "comes",
-    "every",
-    "family",
-    "mac",
-    "member",
-    "undocumented"
-   ],
-   "at": "2026-11-07T11:49:37.614909+00:00"
-  },
   {
    "sig": [
     "dealing",
@@ -13689,13 +13675,52 @@
     "valid"
    ],
    "at": "2026-11-12T01:54:34.825986+00:00"
+  },
+  {
+   "sig": [
+    "activity",
+    "engineering",
+    "outcomes",
+    "software"
+   ],
+   "at": "2026-11-12T02:53:49.549603+00:00"
+  },
+  {
+   "sig": [
+    "better",
+    "efficient",
+    "faster",
+    "rag",
+    "retrieval"
+   ],
+   "at": "2026-11-12T02:53:55.886033+00:00"
+  },
+  {
+   "sig": [
+    "huawei",
+    "inference",
+    "internal",
+    "local",
+    "macaq",
+    "quantizer",
+    "releases"
+   ],
+   "at": "2026-11-12T02:54:09.774476+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "general",
+    "layer",
+    "pcs",
+    "purpose",
+    "silicon",
+    "x86-64"
+   ],
+   "at": "2026-11-12T02:54:15.677063+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:drwd4j": [
-   28,
-   "2026-10-31T16:12:40.268204+00:00"
-  ],
   "hn:50316760": [
    108,
    "2026-10-31T16:53:42.610097+00:00"
@@ -16000,97 +16025,101 @@
    75,
    "2026-11-11T17:53:41.657733+00:00"
   ],
-  "hn:50460154": [
-   79,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
   "hn:50459745": [
    192,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
-  "hn:50459321": [
-   561,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
-  "hn:50458900": [
-   1080,
    "2026-11-12T01:53:49.032490+00:00"
   ],
   "hn:50458532": [
    193,
    "2026-11-12T01:53:49.032490+00:00"
   ],
-  "hn:50458166": [
-   98,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
-  "hn:50457939": [
-   722,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
-  "hn:50457618": [
-   110,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
   "hn:50457230": [
    322,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
-  "hn:50457164": [
-   430,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
-  "hn:50457083": [
-   93,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
-  "hn:50456740": [
-   115,
    "2026-11-12T01:53:49.032490+00:00"
   ],
   "hn:50456631": [
    1103,
    "2026-11-12T01:53:49.032490+00:00"
   ],
-  "hn:50455633": [
-   209,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
-  "hn:50455332": [
-   307,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
-  "hn:50454995": [
-   179,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
-  "hn:50454951": [
-   127,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
-  "hn:50454823": [
-   105,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
-  "hn:50454625": [
-   321,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
   "lobsters:lnau2d": [
    40,
-   "2026-11-12T01:53:49.032490+00:00"
-  ],
-  "lobsters:wfr0b4": [
-   25,
    "2026-11-12T01:53:49.032490+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22o46qy7324": [
    116,
    "2026-11-12T01:53:49.032490+00:00"
   ],
+  "hn:50460154": [
+   106,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50459321": [
+   777,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50458900": [
+   1216,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50458166": [
+   102,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50457939": [
+   732,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50457618": [
+   130,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50457164": [
+   436,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50457083": [
+   96,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50456740": [
+   115,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50455633": [
+   223,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50455332": [
+   310,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50454995": [
+   186,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50454951": [
+   129,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50454823": [
+   106,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50454625": [
+   342,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "lobsters:wfr0b4": [
+   26,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n23drmufbs2q": [
-   6,
-   "2026-11-12T01:53:49.032490+00:00"
+   15,
+   "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50457669": [
+   100,
+   "2026-11-12T02:53:46.535645+00:00"
   ]
  },
  "skips": {
@@ -16099,12 +16128,12 @@
   "Wired": 12,
   "TechRadar": 5,
   "Lobsters": 4,
-  "Hacker News": 18,
+  "Hacker News": 21,
   "The Next Web": 1,
   "404 Media": 9,
   "Emily M. Bender": 2,
   "Simon Willison": 2,
-  "Xe Iaso": 2,
+  "Xe Iaso": 3,
   "Simon Willison RSS": 1,
   "CNews": 9,
   "vc.ru": 2,
@@ -16131,7 +16160,7 @@
   "ZDNet": 4,
   "9to5Mac": 16,
   "EFF": 2,
-  "Hacker News": 73,
+  "Hacker News": 77,
   "TechSpot": 17,
   "The Hacker News": 29,
   "Latent Space": 5,
@@ -16174,7 +16203,7 @@
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-11T15:54:31.610844+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-12T01:54:34.826087+00:00",
+  "Hacker News": "2026-11-12T02:54:15.677187+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-11T09:54:00.557413+00:00",
   "Latent Space": "2026-11-11T09:54:24.134418+00:00",
