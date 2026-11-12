@@ -1,12 +1,5 @@
 {
  "seen": [
-  "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
-  "https://www.securityweek.com/?p=49450",
-  "https://3dnews.ru/1148813/#6ab145e4742eec14838b458a",
-  "https://3dnews.ru/1148825/#6ab19762742eec945f8b4569",
-  "f8271c75a687c7c7ace10c1d1af3be8e",
-  "https://www.theverge.com/?p=998165",
-  "hn:49797139",
   "lobsters:kqxgyo",
   "jaTmSQ7v6mDZfJDpp2KFmP",
   "https://3dnews.ru/1148871/#6ab28f99742eec533c8b4586",
@@ -2999,18 +2992,25 @@
   "6af4c2b3786b084e206ae2a3",
   "7185da0fe899620752452a39ff22893b",
   "TheNextWeb=62c237e40c008cda8c221a4d1231f790",
-  "https://www.securityweek.com/?p=50726"
+  "https://www.securityweek.com/?p=50726",
+  "hn:50463540",
+  "https://www.phoronix.com/news/Linux-7.5-ASUS-Transformer",
+  "4c5babf49293c2aaf2691c1cba11d53b",
+  "https://www.cnews.ru/news/line/2026-11-12_t2_adtech_obespechil_brendam_16",
+  "f6f186431c49a14b59cfb61d30790fda",
+  "https://9to5mac.com/?p=1078918",
+  "https://www.neowin.net/news/asean-google-team-up-to-combat-the-rise-of-online-scams/"
  ],
  "posted": {
-  "viral": 736,
-  "editorial": 1002
+  "viral": 737,
+  "editorial": 1006
  },
  "recent_labels": [
-  "Wired",
-  "TechSpot",
-  "TechRadar",
-  "The Next Web",
-  "SecurityWeek"
+  "Hacker News",
+  "Phoronix",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail",
+  "Neowin"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9945,42 +9945,54 @@
    "pool": "editorial",
    "score": 0.24444,
    "at": "2026-11-12T10:54:14.068166+00:00"
+  },
+  {
+   "title": "توسعه یک موتور شبیه‌ساز پین‌بال متن‌باز برای لینوکس",
+   "url": "https://www.getlazarus.org/forums/topic/17/",
+   "source": "getlazarus.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.09511,
+   "at": "2026-11-12T11:53:45.084327+00:00"
+  },
+  {
+   "title": "بهبود پشتیبانی از لپ‌تاپ‌های قدیمی ASUS Transformer در هسته لینوکس ۷.۵",
+   "url": "https://www.phoronix.com/news/Linux-7.5-ASUS-Transformer",
+   "source": "Phoronix",
+   "label": "Phoronix",
+   "pool": "editorial",
+   "score": 0.19344,
+   "at": "2026-11-12T11:53:54.012199+00:00"
+  },
+  {
+   "title": "طرح اتحادیه اروپا برای مقابله با طراحی‌های اعتیادآور در سرویس‌های آنلاین",
+   "url": "https://hi-tech.mail.ru/news/160395-v-es-predlozhili-zapretit-manipulyativnye-priemy-v-onlayn/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.1813,
+   "at": "2026-11-12T11:54:11.978060+00:00"
+  },
+  {
+   "title": "جایگزینی کپچا با احراز هویت صوتی توسط استارتاپ Helix",
+   "url": "https://hi-tech.mail.ru/news/160397-helix-privlek-6-2-mln-dollarov-na-golosovuyu-alternativu/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.19222,
+   "at": "2026-11-12T11:54:22.186306+00:00"
+  },
+  {
+   "title": "همکاری گوگل و آسه آن برای مقابله با کلاهبرداری‌های آنلاین",
+   "url": "https://www.neowin.net/news/asean-google-team-up-to-combat-the-rise-of-online-scams/?utm_source=rss",
+   "source": "Neowin",
+   "label": "Neowin",
+   "pool": "editorial",
+   "score": 0.2062,
+   "at": "2026-11-12T11:54:33.186953+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "hardware",
-    "november",
-    "premium",
-    "tom",
-    "week"
-   ],
-   "at": "2026-11-07T17:53:51.767688+00:00"
-  },
-  {
-   "sig": [
-    "data",
-    "ios",
-    "leak",
-    "passwords",
-    "shows",
-    "warn"
-   ],
-   "at": "2026-11-07T17:53:57.454817+00:00"
-  },
-  {
-   "sig": [
-    "anthropic",
-    "cognitive",
-    "engineer",
-    "much",
-    "surrender",
-    "too",
-    "warns"
-   ],
-   "at": "2026-11-07T17:54:03.325064+00:00"
-  },
   {
    "sig": [
     "de-googled",
@@ -14017,13 +14029,47 @@
     "screenconnect"
    ],
    "at": "2026-11-12T10:54:14.068166+00:00"
+  },
+  {
+   "sig": [
+    "engine",
+    "foss",
+    "linux",
+    "pinbal",
+    "simulation",
+    "working"
+   ],
+   "at": "2026-11-12T11:53:45.084327+00:00"
+  },
+  {
+   "sig": [
+    "7.5",
+    "asus",
+    "hybrid",
+    "improve",
+    "laptops",
+    "linux",
+    "old",
+    "support",
+    "tablets",
+    "transformer"
+   ],
+   "at": "2026-11-12T11:53:54.012199+00:00"
+  },
+  {
+   "sig": [
+    "asean",
+    "combat",
+    "google",
+    "online",
+    "rise",
+    "scams",
+    "team"
+   ],
+   "at": "2026-11-12T11:54:33.186953+00:00"
   }
  ],
  "snapshots": {
-  "hn:50318189": [
-   496,
-   "2026-10-31T20:06:42.126659+00:00"
-  ],
   "hn:50317429": [
    129,
    "2026-10-31T20:06:42.126659+00:00"
@@ -16419,6 +16465,10 @@
   "hn:50462613": [
    155,
    "2026-11-12T09:53:42.744847+00:00"
+  ],
+  "hn:50463540": [
+   105,
+   "2026-11-12T11:53:43.093685+00:00"
   ]
  },
  "skips": {
@@ -16434,7 +16484,7 @@
   "Simon Willison": 2,
   "Xe Iaso": 3,
   "Simon Willison RSS": 1,
-  "CNews": 13,
+  "CNews": 14,
   "vc.ru": 2,
   "Hi-Tech Mail": 6,
   "Slashdot": 2,
@@ -16442,11 +16492,11 @@
   "Google AI": 1,
   "Neowin": 1,
   "TechSpot": 1,
-  "9to5Mac": 1
+  "9to5Mac": 2
  },
  "posts_by_label": {
   "Engadget": 43,
-  "Neowin": 20,
+  "Neowin": 21,
   "Wired": 22,
   "TechRadar": 36,
   "Slashdot": 29,
@@ -16460,13 +16510,13 @@
   "ZDNet": 5,
   "9to5Mac": 16,
   "EFF": 2,
-  "Hacker News": 84,
+  "Hacker News": 85,
   "TechSpot": 18,
   "The Hacker News": 31,
   "Latent Space": 6,
   "InfoQ": 16,
   "The Register": 24,
-  "Phoronix": 24,
+  "Phoronix": 25,
   "The Next Web": 25,
   "Android Police": 20,
   "Ars Technica": 2,
@@ -16474,7 +16524,7 @@
   "Simon Willison RSS": 6,
   "vc.ru": 12,
   "SecurityWeek": 16,
-  "Hi-Tech Mail": 41,
+  "Hi-Tech Mail": 43,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
@@ -16490,7 +16540,7 @@
  },
  "last_post": {
   "Engadget": "2026-11-11T11:54:07.033021+00:00",
-  "Neowin": "2026-11-12T05:53:53.609663+00:00",
+  "Neowin": "2026-11-12T11:54:33.187083+00:00",
   "Wired": "2026-11-12T10:53:47.876635+00:00",
   "TechRadar": "2026-11-12T10:53:59.382125+00:00",
   "Slashdot": "2026-11-12T03:54:12.270334+00:00",
@@ -16504,13 +16554,13 @@
   "ZDNet": "2026-11-12T08:55:13.159740+00:00",
   "9to5Mac": "2026-11-11T15:54:31.610844+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-12T09:53:45.504444+00:00",
+  "Hacker News": "2026-11-12T11:53:45.084436+00:00",
   "TechSpot": "2026-11-12T10:53:53.594490+00:00",
   "The Hacker News": "2026-11-12T08:53:47.085957+00:00",
   "Latent Space": "2026-11-12T05:54:13.348855+00:00",
   "InfoQ": "2026-11-12T09:53:51.614525+00:00",
   "The Register": "2026-11-12T09:53:57.397920+00:00",
-  "Phoronix": "2026-11-11T10:54:15.482122+00:00",
+  "Phoronix": "2026-11-12T11:53:54.012322+00:00",
   "The Next Web": "2026-11-12T10:54:08.198232+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
   "Ars Technica": "2026-11-11T17:53:47.755359+00:00",
@@ -16518,7 +16568,7 @@
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-11T07:54:17.468730+00:00",
   "SecurityWeek": "2026-11-12T10:54:14.068277+00:00",
-  "Hi-Tech Mail": "2026-11-12T06:54:42.382791+00:00",
+  "Hi-Tech Mail": "2026-11-12T11:54:22.186415+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
