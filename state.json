@@ -1,13 +1,5 @@
 {
  "seen": [
-  "lobsters:kqxgyo",
-  "jaTmSQ7v6mDZfJDpp2KFmP",
-  "https://3dnews.ru/1148871/#6ab28f99742eec533c8b4586",
-  "https://3dnews.ru/1148870/#6ab28c39742eecb83b8b4579",
-  "https://3dnews.ru/1148865/#6ab283b5742eec403c8b4574",
-  "https://www.techspot.com/products/desktop-pcs/apple-mac-mini-m6.330931/",
-  "https://9to5mac.com/?p=1070840",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw4oukjfb22l",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw4qvunupz2t",
   "https://yro.slashdot.org/story/26/09/20/2152215/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "hn:49804316",
@@ -2999,18 +2991,26 @@
   "https://www.cnews.ru/news/line/2026-11-12_t2_adtech_obespechil_brendam_16",
   "f6f186431c49a14b59cfb61d30790fda",
   "https://9to5mac.com/?p=1078918",
-  "https://www.neowin.net/news/asean-google-team-up-to-combat-the-rise-of-online-scams/"
+  "https://www.neowin.net/news/asean-google-team-up-to-combat-the-rise-of-online-scams/",
+  "https://tech.slashdot.org/story/26/11/11/2048256/new-york-forces-t-mobile-to-end-data-caps-on-low-income-plans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.engadget.com/2314341/new-york-is-forcing-t-mobile-to-stop-putting-data-caps-on-low-income-home-internet-plans/",
+  "https://www.techspot.com/news/114531-new-york-forces-t-mobile-remove-50gb-cap.html",
+  "hn:50465352",
+  "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+  "6aa1ab1ac085eea9f1c6adff",
+  "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+  "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html"
  ],
  "posted": {
-  "viral": 737,
-  "editorial": 1006
+  "viral": 738,
+  "editorial": 1010
  },
  "recent_labels": [
+  "Slashdot",
   "Hacker News",
-  "Phoronix",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail",
-  "Neowin"
+  "The Hacker News",
+  "The Hacker News",
+  "The Hacker News"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9990,72 +9990,54 @@
    "pool": "editorial",
    "score": 0.2062,
    "at": "2026-11-12T11:54:33.186953+00:00"
+  },
+  {
+   "title": "اجبار T-Mobile به حذف محدودیت‌های اینترنتی در نیویورک",
+   "url": "https://tech.slashdot.org/story/26/11/11/2048256/new-york-forces-t-mobile-to-end-data-caps-on-low-income-plans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "label": "Slashdot",
+   "pool": "editorial",
+   "score": 0.42876,
+   "at": "2026-11-12T12:55:17.497830+00:00"
+  },
+  {
+   "title": "چرا نوشتن نرم‌افزار بدون خطا از نظر تئوری دشوار است",
+   "url": "https://pron.github.io/posts/correctness-and-complexity",
+   "source": "pron.github.io",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.16514,
+   "at": "2026-11-12T12:55:23.307744+00:00"
+  },
+  {
+   "title": "کشف آسیب‌پذیری‌های جدید در سرورهای N-central و تهدید دسترسی غیرمجاز",
+   "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.15874,
+   "at": "2026-11-12T12:55:30.848131+00:00"
+  },
+  {
+   "title": "چالش‌های شناسایی هویت در تیم‌های عملیات امنیت و SOC",
+   "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.17783,
+   "at": "2026-11-12T12:56:43.589006+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری پردازنده‌های AMD Turin در سرویس‌های ابری گوگل",
+   "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.19044,
+   "at": "2026-11-12T12:56:49.543229+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "de-googled",
-    "fairphone",
-    "google",
-    "life",
-    "needed",
-    "running",
-    "sick",
-    "solution",
-    "wasn"
-   ],
-   "at": "2026-11-07T17:54:28.644272+00:00"
-  },
-  {
-   "sig": [
-    "disable",
-    "google",
-    "messages",
-    "might",
-    "settings",
-    "want"
-   ],
-   "at": "2026-11-07T17:54:35.029541+00:00"
-  },
-  {
-   "sig": [
-    "ask",
-    "convince",
-    "did",
-    "family",
-    "friends",
-    "join",
-    "matrix",
-    "server",
-    "xmpp"
-   ],
-   "at": "2026-11-07T22:01:56.205311+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "grey",
-    "help",
-    "iphone",
-    "list",
-    "phrases",
-    "spell",
-    "won",
-    "words"
-   ],
-   "at": "2026-11-07T22:02:02.288863+00:00"
-  },
-  {
-   "sig": [
-    "deepswe",
-    "maxxbench",
-    "nice",
-    "score",
-    "true"
-   ],
-   "at": "2026-11-07T22:02:08.522586+00:00"
-  },
   {
    "sig": [
     "coldframe",
@@ -14067,13 +14049,91 @@
     "team"
    ],
    "at": "2026-11-12T11:54:33.186953+00:00"
+  },
+  {
+   "sig": [
+    "50gb",
+    "600kbps",
+    "cap",
+    "caps",
+    "data",
+    "end",
+    "forces",
+    "forcing",
+    "home",
+    "internet",
+    "low-income",
+    "plans",
+    "putting",
+    "remove",
+    "stop",
+    "t-mobile",
+    "throttled",
+    "users",
+    "york"
+   ],
+   "at": "2026-11-12T12:55:17.497830+00:00"
+  },
+  {
+   "sig": [
+    "correct",
+    "hard",
+    "software",
+    "writing"
+   ],
+   "at": "2026-11-12T12:55:23.307744+00:00"
+  },
+  {
+   "sig": [
+    "access",
+    "enable",
+    "exploits",
+    "n-central",
+    "patched",
+    "rce",
+    "root",
+    "servers",
+    "system",
+    "windows",
+    "work"
+   ],
+   "at": "2026-11-12T12:55:30.848131+00:00"
+  },
+  {
+   "sig": [
+    "blind",
+    "close",
+    "identity",
+    "put",
+    "risk",
+    "see",
+    "soc",
+    "spots",
+    "webinar"
+   ],
+   "at": "2026-11-12T12:56:43.589006+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "amd",
+    "cloud",
+    "could",
+    "cpu",
+    "data",
+    "flaws",
+    "google",
+    "leak",
+    "processes",
+    "three",
+    "turin",
+    "vms",
+    "warns"
+   ],
+   "at": "2026-11-12T12:56:49.543229+00:00"
   }
  ],
  "snapshots": {
-  "hn:50317429": [
-   129,
-   "2026-10-31T20:06:42.126659+00:00"
-  ],
   "hn:50314699": [
    527,
    "2026-10-31T20:06:42.126659+00:00"
@@ -16469,12 +16529,16 @@
   "hn:50463540": [
    105,
    "2026-11-12T11:53:43.093685+00:00"
+  ],
+  "hn:50465352": [
+   155,
+   "2026-11-12T12:53:48.385357+00:00"
   ]
  },
  "skips": {
   "Tom's Hardware": 4,
   "Article 19": 1,
-  "Wired": 17,
+  "Wired": 18,
   "TechRadar": 8,
   "Lobsters": 4,
   "Hacker News": 23,
@@ -16499,7 +16563,7 @@
   "Neowin": 21,
   "Wired": 22,
   "TechRadar": 36,
-  "Slashdot": 29,
+  "Slashdot": 30,
   "404 Media": 38,
   "Xe Iaso": 4,
   "The Verge": 22,
@@ -16510,9 +16574,9 @@
   "ZDNet": 5,
   "9to5Mac": 16,
   "EFF": 2,
-  "Hacker News": 85,
+  "Hacker News": 86,
   "TechSpot": 18,
-  "The Hacker News": 31,
+  "The Hacker News": 34,
   "Latent Space": 6,
   "InfoQ": 16,
   "The Register": 24,
@@ -16543,7 +16607,7 @@
   "Neowin": "2026-11-12T11:54:33.187083+00:00",
   "Wired": "2026-11-12T10:53:47.876635+00:00",
   "TechRadar": "2026-11-12T10:53:59.382125+00:00",
-  "Slashdot": "2026-11-12T03:54:12.270334+00:00",
+  "Slashdot": "2026-11-12T12:55:17.497961+00:00",
   "404 Media": "2026-11-11T01:53:54.657776+00:00",
   "Xe Iaso": "2026-11-11T14:54:18.284123+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
@@ -16554,9 +16618,9 @@
   "ZDNet": "2026-11-12T08:55:13.159740+00:00",
   "9to5Mac": "2026-11-11T15:54:31.610844+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-12T11:53:45.084436+00:00",
+  "Hacker News": "2026-11-12T12:55:23.307864+00:00",
   "TechSpot": "2026-11-12T10:53:53.594490+00:00",
-  "The Hacker News": "2026-11-12T08:53:47.085957+00:00",
+  "The Hacker News": "2026-11-12T12:56:49.543344+00:00",
   "Latent Space": "2026-11-12T05:54:13.348855+00:00",
   "InfoQ": "2026-11-12T09:53:51.614525+00:00",
   "The Register": "2026-11-12T09:53:57.397920+00:00",
