@@ -1,10 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvxnqfk3bv2p",
-  "https://www.neowin.net/news/people-hate-flock-so-much-that-its-employees-are-now-demoralized-and-thinking-of-quitting/",
-  "hn:49777872",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvxtsdrkm22y",
-  "https://www.engadget.com/2260287/how-to-join-facetime-call-android-phone-windows-pc/",
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvz6hegazk2o",
   "112375 at https://www.eff.org",
   "https://3dnews.ru/1148809/#6ab1378b742eec95db8b457b",
@@ -2999,18 +2994,23 @@
   "https://9to5mac.com/?p=1078903",
   "zDXkja5MZ7AgsLuZiBaBC7",
   "https://www.cnews.ru/news/line/2026-11-12_ocs_obnovila_portfel_usilennymi",
-  "https://www.securityweek.com/?p=50718"
+  "https://www.securityweek.com/?p=50718",
+  "hn:50462613",
+  "https://www.infoq.com/news/2026/11/finprim-validation-qanda/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://www.theregister.com/a/5308889",
+  "https://www.cnews.ru/news/line/2026-11-12_antiplagiat_predstavil",
+  "https://www.cnews.ru/news/line/2026-11-12_kontur_uprostil_podklyuchenie"
  ],
  "posted": {
-  "viral": 735,
-  "editorial": 993
+  "viral": 736,
+  "editorial": 997
  },
  "recent_labels": [
-  "Hi-Tech Mail",
-  "The Hacker News",
-  "ZDNet",
   "Hacker News",
-  "SecurityWeek"
+  "InfoQ",
+  "The Register",
+  "CNews",
+  "CNews"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9855,43 +9855,54 @@
    "pool": "editorial",
    "score": 0.24192,
    "at": "2026-11-12T08:56:25.319967+00:00"
+  },
+  {
+   "title": "تغییر رویکردهای سنتی مدیریت تیم‌های نرم‌افزاری با کمک ابزارهای هوش مصنوعی",
+   "url": "https://devonestes.com/bad-ideas-that-arent-bad-anymore",
+   "source": "devonestes.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.04882,
+   "at": "2026-11-12T09:53:45.504327+00:00"
+  },
+  {
+   "title": "معرفی کتابخانه TypeScript برای اعتبارسنجی داده‌های مالی",
+   "url": "https://www.infoq.com/news/2026/11/finprim-validation-qanda/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "label": "InfoQ",
+   "pool": "editorial",
+   "score": 0.19757,
+   "at": "2026-11-12T09:53:51.614408+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی وب‌سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/security/2026/11/12/london-hotel-put-admin-login-for-booking-website-on-whiteboard-behind-the-front-desk/5308889",
+   "source": "The Register",
+   "label": "The Register",
+   "pool": "editorial",
+   "score": 0.21605,
+   "at": "2026-11-12T09:53:57.397814+00:00"
+  },
+  {
+   "title": "معرفی پلتفرم «Чистовик» برای مدیریت هوشمند نگارش متون علمی",
+   "url": "https://www.cnews.ru/news/line/2026-11-12_antiplagiat_predstavil",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.18234,
+   "at": "2026-11-12T09:54:08.794427+00:00"
+  },
+  {
+   "title": "ساده‌سازی امضای الکترونیک در سرویس Kontur.Diadoc با استفاده از Gosklyuch",
+   "url": "https://www.cnews.ru/news/line/2026-11-12_kontur_uprostil_podklyuchenie",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.1871,
+   "at": "2026-11-12T09:54:18.348433+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "according",
-    "authenticity",
-    "coo",
-    "embracing",
-    "garmin",
-    "keen",
-    "sense"
-   ],
-   "at": "2026-11-07T15:54:06.701978+00:00"
-  },
-  {
-   "sig": [
-    "build",
-    "live",
-    "old",
-    "setup",
-    "streaming",
-    "tablet"
-   ],
-   "at": "2026-11-07T16:54:30.099321+00:00"
-  },
-  {
-   "sig": [
-    "alcohol",
-    "cleaning",
-    "expired",
-    "here",
-    "isopropyl",
-    "risky"
-   ],
-   "at": "2026-11-07T16:54:38.255003+00:00"
-  },
   {
    "sig": [
     "blocks",
@@ -13919,13 +13930,46 @@
     "theft"
    ],
    "at": "2026-11-12T08:56:25.319967+00:00"
+  },
+  {
+   "sig": [
+    "anymore",
+    "aren",
+    "bad",
+    "ideas"
+   ],
+   "at": "2026-11-12T09:53:45.504327+00:00"
+  },
+  {
+   "sig": [
+    "author",
+    "case",
+    "financial",
+    "finprim",
+    "library",
+    "typescript",
+    "validation"
+   ],
+   "at": "2026-11-12T09:53:51.614408+00:00"
+  },
+  {
+   "sig": [
+    "admin",
+    "behind",
+    "booking",
+    "desk",
+    "front",
+    "hotel",
+    "login",
+    "london",
+    "put",
+    "website",
+    "whiteboard"
+   ],
+   "at": "2026-11-12T09:53:57.397814+00:00"
   }
  ],
  "snapshots": {
-  "hn:50318401": [
-   133,
-   "2026-10-31T20:06:42.126659+00:00"
-  ],
   "hn:50318189": [
    496,
    "2026-10-31T20:06:42.126659+00:00"
@@ -16314,13 +16358,17 @@
    100,
    "2026-11-12T04:53:45.654121+00:00"
   ],
-  "hn:50459321": [
-   1228,
-   "2026-11-12T08:53:44.766229+00:00"
-  ],
   "hn:50463899": [
    361,
    "2026-11-12T08:53:44.766229+00:00"
+  ],
+  "hn:50459321": [
+   1258,
+   "2026-11-12T09:53:42.744847+00:00"
+  ],
+  "hn:50462613": [
+   155,
+   "2026-11-12T09:53:42.744847+00:00"
   ]
  },
  "skips": {
@@ -16362,12 +16410,12 @@
   "ZDNet": 5,
   "9to5Mac": 16,
   "EFF": 2,
-  "Hacker News": 83,
+  "Hacker News": 84,
   "TechSpot": 17,
   "The Hacker News": 31,
   "Latent Space": 6,
-  "InfoQ": 15,
-  "The Register": 23,
+  "InfoQ": 16,
+  "The Register": 24,
   "Phoronix": 24,
   "The Next Web": 24,
   "Android Police": 20,
@@ -16380,7 +16428,7 @@
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 41,
+  "CNews": 43,
   "Emily M. Bender": 3,
   "antirez": 5,
   "OpenAI": 3,
@@ -16406,12 +16454,12 @@
   "ZDNet": "2026-11-12T08:55:13.159740+00:00",
   "9to5Mac": "2026-11-11T15:54:31.610844+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-12T08:55:18.301135+00:00",
+  "Hacker News": "2026-11-12T09:53:45.504444+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-12T08:53:47.085957+00:00",
   "Latent Space": "2026-11-12T05:54:13.348855+00:00",
-  "InfoQ": "2026-11-11T07:54:09.506665+00:00",
-  "The Register": "2026-11-11T05:53:52.357081+00:00",
+  "InfoQ": "2026-11-12T09:53:51.614525+00:00",
+  "The Register": "2026-11-12T09:53:57.397920+00:00",
   "Phoronix": "2026-11-11T10:54:15.482122+00:00",
   "The Next Web": "2026-11-12T05:54:05.739000+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
@@ -16424,7 +16472,7 @@
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-12T06:54:01.183318+00:00",
+  "CNews": "2026-11-12T09:54:18.348558+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
