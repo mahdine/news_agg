@@ -1,13 +1,5 @@
 {
  "seen": [
-  "lobsters:lcjf7c",
-  "hn:49753878",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvshavbtsk2f",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvsvprxqku2o",
-  "hn:49763987",
-  "6a8c66c112c52ac70f8bd558",
-  "d1b6c8295bf14bafed48439f9b75086e",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvutwrross2s",
   "https://www.engadget.com/2263198/google-gemini-escaped-testing-environment-hacked-three-companies/",
   "https://techcrunch.com/?p=3166647",
   "https://www.theverge.com/?p=997795",
@@ -2999,18 +2991,26 @@
   "auYAKpe64BcfSr2zsKYT45",
   "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
   "TheNextWeb=2c6037c0b6dde8a8b5a9298144298a39",
-  "urn:latent-space:post:post_b31597d9-ad6f-469e-a051-d723be8fd562"
+  "urn:latent-space:post:post_b31597d9-ad6f-469e-a051-d723be8fd562",
+  "67897e3548630cbedf000850",
+  "https://www.cnews.ru/news/line/2026-11-12_rutsentr_vyvodit_na_rynok",
+  "https://www.cnews.ru/news/top/2026-11-12_sovladelets_yandeksa_vnezapno",
+  "73a93774091a0519c1c3df83edc967a6",
+  "https://www.cnews.ru/news/line/2026-11-12_metrika42_pomogla_kompanii_iz",
+  "4c7b8b5bff28367f93ef633c90fa63ac",
+  "3a66c5b2496052d249bb77352295e25f",
+  "https://www.cnews.ru/news/line/2026-11-12_shkolnitsa_iz_detskogo_tehnoparka"
  ],
  "posted": {
   "viral": 734,
-  "editorial": 986
+  "editorial": 990
  },
  "recent_labels": [
-  "LangChain Blog",
-  "Neowin",
-  "The Hacker News",
-  "The Next Web",
-  "Latent Space"
+  "Latent Space",
+  "CNews",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9783,6 +9783,42 @@
    "pool": "editorial",
    "score": 0.16784,
    "at": "2026-11-12T05:54:13.348741+00:00"
+  },
+  {
+   "title": "ارائه خدمات ابری جدید توسط شرکت «روسنتر» برای کسب‌وکارها",
+   "url": "https://www.cnews.ru/news/line/2026-11-12_rutsentr_vyvodit_na_rynok",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.17315,
+   "at": "2026-11-12T06:54:01.183188+00:00"
+  },
+  {
+   "title": "هشدار پلیس درباره کلاهبرداری فیشینگ با جعل عنوان سازمان مالیاتی",
+   "url": "https://hi-tech.mail.ru/news/160327-v-mvd-predupredili-o-sheme-moshennikov-s-proverkoj-nalogov/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.16979,
+   "at": "2026-11-12T06:54:16.748048+00:00"
+  },
+  {
+   "title": "سیستم هوش مصنوعی NtechLab برای شناسایی افراد در لیست سیاه اماکن عمومی",
+   "url": "https://hi-tech.mail.ru/news/160326-rossijskij-ii-ne-pustit-deboshirov-v-restorany-i-torgovye-centry/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.1885,
+   "at": "2026-11-12T06:54:34.325951+00:00"
+  },
+  {
+   "title": "اختلال گسترده در خدمات اینترنتی شرکت Rostelecom",
+   "url": "https://hi-tech.mail.ru/news/160328-polzovateli-rostelekoma-soobschili-o-sboyah-v-neskolkih/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.19857,
+   "at": "2026-11-12T06:54:42.382655+00:00"
   }
  ],
  "stories": [
@@ -16226,8 +16262,8 @@
    "2026-11-12T03:53:43.492504+00:00"
   ],
   "hn:50459321": [
-   1085,
-   "2026-11-12T05:53:41.493306+00:00"
+   1158,
+   "2026-11-12T06:53:48.752096+00:00"
   ],
   "lobsters:wfr0b4": [
    28,
@@ -16241,7 +16277,7 @@
  "skips": {
   "Tom's Hardware": 4,
   "Article 19": 1,
-  "Wired": 13,
+  "Wired": 14,
   "TechRadar": 7,
   "Lobsters": 4,
   "Hacker News": 23,
@@ -16251,7 +16287,7 @@
   "Simon Willison": 2,
   "Xe Iaso": 3,
   "Simon Willison RSS": 1,
-  "CNews": 9,
+  "CNews": 12,
   "vc.ru": 2,
   "Hi-Tech Mail": 5,
   "Slashdot": 2,
@@ -16290,11 +16326,11 @@
   "Simon Willison RSS": 6,
   "vc.ru": 12,
   "SecurityWeek": 14,
-  "Hi-Tech Mail": 38,
+  "Hi-Tech Mail": 41,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 40,
+  "CNews": 41,
   "Emily M. Bender": 3,
   "antirez": 5,
   "OpenAI": 3,
@@ -16334,11 +16370,11 @@
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-11T07:54:17.468730+00:00",
   "SecurityWeek": "2026-11-11T12:53:59.100819+00:00",
-  "Hi-Tech Mail": "2026-11-11T12:54:36.193532+00:00",
+  "Hi-Tech Mail": "2026-11-12T06:54:42.382791+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-12T04:54:37.797550+00:00",
+  "CNews": "2026-11-12T06:54:01.183318+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
