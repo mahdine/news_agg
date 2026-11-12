@@ -1,14 +1,5 @@
 {
  "seen": [
-  "https://www.securityweek.com/?p=49312",
-  "hn:49711544",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvkvehgxmk2j",
-  "hn:49715113",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvkw4ym5kb2t",
-  "hn:49717558",
-  "https://www.techspot.com/news/113851-eu-plans-under-15-restrictions-social-media-ai.html",
-  "https://www.theverge.com/?p=995704",
-  "TheNextWeb=4d4771d91f50672c8b3686b305eff47d",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvn2vfibks2f",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvnagvx5hk2l",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvn4jktynw2c",
@@ -2999,18 +2990,27 @@
   "hn:50457669",
   "hn:50458166",
   "hn:50460154",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n23drmufbs2q"
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n23drmufbs2q",
+  "hn:50454951",
+  "hn:50454995",
+  "hn:50455811",
+  "hn:50456740",
+  "hn:50457164",
+  "hn:50457939",
+  "https://slashdot.org/story/26/11/11/2229248/united-airlines-bans-ai-agents-from-booking-flights-on-behalf-of-travelers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50458900",
+  "https://www.engadget.com/2314121/united-is-restricting-ai-agents-from-booking-flights/"
  ],
  "posted": {
-  "viral": 729,
-  "editorial": 976
+  "viral": 733,
+  "editorial": 977
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
   "Hacker News",
   "Hacker News",
-  "Hacker News"
+  "Slashdot"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9648,77 +9648,54 @@
    "pool": "viral",
    "score": 0.01875,
    "at": "2026-11-12T02:54:15.677063+00:00"
+  },
+  {
+   "title": "معرفی Klad، ابزار نقاشی و انیمیشن‌سازی با قابلیت کنترل توسط هوش مصنوعی",
+   "url": "https://github.com/klad-app/klad",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00046,
+   "at": "2026-11-12T03:53:46.476064+00:00"
+  },
+  {
+   "title": "تبدیل وب‌سایت‌های قدیمی به API برای استفاده توسط ایجنت‌های هوشمند",
+   "url": "https://news.ycombinator.com/item?id=50455811",
+   "source": "Hacker News",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00248,
+   "at": "2026-11-12T03:53:53.258294+00:00"
+  },
+  {
+   "title": "معرفی AWS Emulator برای تست محلی سرویس‌های ابری توسط هوش مصنوعی",
+   "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+   "source": "allthingsdistributed.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00052,
+   "at": "2026-11-12T03:53:58.916677+00:00"
+  },
+  {
+   "title": "سرمایه‌گذاری‌های کلان در هوش مصنوعی و خطر حباب مالی در صنعت تکنولوژی",
+   "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+   "source": "lpeproject.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.0033,
+   "at": "2026-11-12T03:54:04.860049+00:00"
+  },
+  {
+   "title": "ممنوعیت استفاده از دستیارهای هوش مصنوعی برای رزرو پرواز در United Airlines",
+   "url": "https://slashdot.org/story/26/11/11/2229248/united-airlines-bans-ai-agents-from-booking-flights-on-behalf-of-travelers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "label": "Slashdot",
+   "pool": "editorial",
+   "score": 0.27401,
+   "at": "2026-11-12T03:54:12.270224+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "dealing",
-    "effects",
-    "negative",
-    "side",
-    "web"
-   ],
-   "at": "2026-11-07T11:49:43.676989+00:00"
-  },
-  {
-   "sig": [
-    "ask",
-    "chairs",
-    "china",
-    "exec",
-    "explain",
-    "house",
-    "huang",
-    "jensen",
-    "link",
-    "nvidia",
-    "recruited",
-    "reported",
-    "reportedly",
-    "spy"
-   ],
-   "at": "2026-11-07T11:50:21.247268+00:00"
-  },
-  {
-   "sig": [
-    "app",
-    "free",
-    "mac",
-    "space",
-    "totally"
-   ],
-   "at": "2026-11-07T11:50:27.477820+00:00"
-  },
-  {
-   "sig": [
-    "archival",
-    "assets",
-    "found",
-    "media",
-    "physical",
-    "producer",
-    "secret",
-    "vault"
-   ],
-   "at": "2026-11-07T11:50:33.343863+00:00"
-  },
-  {
-   "sig": [
-    "ai-generated",
-    "app",
-    "changes",
-    "code",
-    "grab",
-    "handling",
-    "improved",
-    "mobile",
-    "safely",
-    "stability",
-    "surge"
-   ],
-   "at": "2026-11-07T11:53:41.446180+00:00"
-  },
   {
    "sig": [
     "android",
@@ -13718,13 +13695,70 @@
     "x86-64"
    ],
    "at": "2026-11-12T02:54:15.677063+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "app",
+    "coding",
+    "drive",
+    "klad",
+    "paint",
+    "show",
+    "source-available"
+   ],
+   "at": "2026-11-12T03:53:46.476064+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "any",
+    "f26",
+    "launch",
+    "mcp",
+    "pomerado",
+    "turn",
+    "website"
+   ],
+   "at": "2026-11-12T03:53:53.258294+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "aws",
+    "code",
+    "emulator",
+    "engineer",
+    "job",
+    "write"
+   ],
+   "at": "2026-11-12T03:53:58.916677+00:00"
+  },
+  {
+   "sig": [
+    "bubble",
+    "fueling",
+    "retirement",
+    "savings"
+   ],
+   "at": "2026-11-12T03:54:04.860049+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "airlines",
+    "bans",
+    "behalf",
+    "booking",
+    "flights",
+    "restricting",
+    "travelers",
+    "united"
+   ],
+   "at": "2026-11-12T03:54:12.270224+00:00"
   }
  ],
  "snapshots": {
-  "hn:50316760": [
-   108,
-   "2026-10-31T16:53:42.610097+00:00"
-  ],
   "hn:50316531": [
    129,
    "2026-10-31T16:53:42.610097+00:00"
@@ -16053,36 +16087,16 @@
    106,
    "2026-11-12T02:53:46.535645+00:00"
   ],
-  "hn:50459321": [
-   777,
-   "2026-11-12T02:53:46.535645+00:00"
-  ],
-  "hn:50458900": [
-   1216,
-   "2026-11-12T02:53:46.535645+00:00"
-  ],
   "hn:50458166": [
    102,
-   "2026-11-12T02:53:46.535645+00:00"
-  ],
-  "hn:50457939": [
-   732,
    "2026-11-12T02:53:46.535645+00:00"
   ],
   "hn:50457618": [
    130,
    "2026-11-12T02:53:46.535645+00:00"
   ],
-  "hn:50457164": [
-   436,
-   "2026-11-12T02:53:46.535645+00:00"
-  ],
   "hn:50457083": [
    96,
-   "2026-11-12T02:53:46.535645+00:00"
-  ],
-  "hn:50456740": [
-   115,
    "2026-11-12T02:53:46.535645+00:00"
   ],
   "hn:50455633": [
@@ -16093,24 +16107,12 @@
    310,
    "2026-11-12T02:53:46.535645+00:00"
   ],
-  "hn:50454995": [
-   186,
-   "2026-11-12T02:53:46.535645+00:00"
-  ],
-  "hn:50454951": [
-   129,
-   "2026-11-12T02:53:46.535645+00:00"
-  ],
   "hn:50454823": [
    106,
    "2026-11-12T02:53:46.535645+00:00"
   ],
   "hn:50454625": [
    342,
-   "2026-11-12T02:53:46.535645+00:00"
-  ],
-  "lobsters:wfr0b4": [
-   26,
    "2026-11-12T02:53:46.535645+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n23drmufbs2q": [
@@ -16120,6 +16122,42 @@
   "hn:50457669": [
    100,
    "2026-11-12T02:53:46.535645+00:00"
+  ],
+  "hn:50459321": [
+   916,
+   "2026-11-12T03:53:43.492504+00:00"
+  ],
+  "hn:50458900": [
+   1304,
+   "2026-11-12T03:53:43.492504+00:00"
+  ],
+  "hn:50457939": [
+   738,
+   "2026-11-12T03:53:43.492504+00:00"
+  ],
+  "hn:50457164": [
+   439,
+   "2026-11-12T03:53:43.492504+00:00"
+  ],
+  "hn:50456740": [
+   115,
+   "2026-11-12T03:53:43.492504+00:00"
+  ],
+  "hn:50454995": [
+   187,
+   "2026-11-12T03:53:43.492504+00:00"
+  ],
+  "hn:50454951": [
+   134,
+   "2026-11-12T03:53:43.492504+00:00"
+  ],
+  "lobsters:wfr0b4": [
+   27,
+   "2026-11-12T03:53:43.492504+00:00"
+  ],
+  "hn:50455811": [
+   131,
+   "2026-11-12T03:53:43.492504+00:00"
   ]
  },
  "skips": {
@@ -16128,7 +16166,7 @@
   "Wired": 12,
   "TechRadar": 5,
   "Lobsters": 4,
-  "Hacker News": 21,
+  "Hacker News": 23,
   "The Next Web": 1,
   "404 Media": 9,
   "Emily M. Bender": 2,
@@ -16149,7 +16187,7 @@
   "Neowin": 19,
   "Wired": 21,
   "TechRadar": 35,
-  "Slashdot": 28,
+  "Slashdot": 29,
   "404 Media": 38,
   "Xe Iaso": 4,
   "The Verge": 22,
@@ -16160,7 +16198,7 @@
   "ZDNet": 4,
   "9to5Mac": 16,
   "EFF": 2,
-  "Hacker News": 77,
+  "Hacker News": 81,
   "TechSpot": 17,
   "The Hacker News": 29,
   "Latent Space": 5,
@@ -16192,7 +16230,7 @@
   "Neowin": "2026-11-11T12:56:14.451751+00:00",
   "Wired": "2026-11-10T13:54:47.029930+00:00",
   "TechRadar": "2026-11-11T15:55:04.484344+00:00",
-  "Slashdot": "2026-11-11T06:53:45.071921+00:00",
+  "Slashdot": "2026-11-12T03:54:12.270334+00:00",
   "404 Media": "2026-11-11T01:53:54.657776+00:00",
   "Xe Iaso": "2026-11-11T14:54:18.284123+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
@@ -16203,7 +16241,7 @@
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-11T15:54:31.610844+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-12T02:54:15.677187+00:00",
+  "Hacker News": "2026-11-12T03:54:04.860203+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-11T09:54:00.557413+00:00",
   "Latent Space": "2026-11-11T09:54:24.134418+00:00",
