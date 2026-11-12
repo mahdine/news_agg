@@ -1,15 +1,5 @@
 {
  "seen": [
-  "lobsters:68n22g",
-  "hn:49841563",
-  "https://techcrunch.com/?p=3168527",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwdzqnahi225",
-  "https://www.neowin.net/news/anthropic-signs-116b-cloud-deal-with-akamai/",
-  "https://techcrunch.com/?p=3169815",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwefkifo2s23",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwfmgwppuk2g",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwfkucvngs2g",
-  "hn:49854399",
   "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
   "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwginr2cd326",
@@ -2999,18 +2989,28 @@
   "hn:50467460",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n24nwelyl2le",
   "hn:50467618",
-  "hn:50467763"
+  "hn:50467763",
+  "https://www.theregister.com/a/5309065",
+  "8B9LjHGeBdEtqv7hzeSTyF",
+  "m82uwYjcqvbxWfu9dSzRfP",
+  "https://games.slashdot.org/story/26/11/11/180258/logitech-giving-all-7000-employees-the-day-off-to-play-gta-6?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.techspot.com/news/114526-logitech-offers-7000-employees-paid-day-off-play.html",
+  "hn:50468888",
+  "hn:50469007",
+  "hn:50469994",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n24wq7mias2k",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n24vdostzo2g"
  ],
  "posted": {
-  "viral": 743,
-  "editorial": 1020
+  "viral": 747,
+  "editorial": 1021
  },
  "recent_labels": [
-  "Lobsters",
-  "Lobsters",
+  "The Register",
   "Hacker News",
-  "Emily M. Bender",
-  "Hacker News"
+  "Hacker News",
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -10170,96 +10170,54 @@
    "pool": "viral",
    "score": 0.24969,
    "at": "2026-11-12T16:56:59.376702+00:00"
+  },
+  {
+   "title": "نشت اطلاعات کاربران انجمن هکری YouHack پس از یک دهه",
+   "url": "https://www.theregister.com/cyber-crime/2026/11/11/2013-breach-at-russian-cybercrime-forum-resurfaces-with-millions-of-victims-credentials/5309065",
+   "source": "The Register",
+   "label": "The Register",
+   "pool": "editorial",
+   "score": 0.3962,
+   "at": "2026-11-12T17:53:52.582103+00:00"
+  },
+  {
+   "title": "اجرای مدل‌های زبانی بزرگ روی سخت‌افزارهای قدیمی و ضعیف",
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.02103,
+   "at": "2026-11-12T17:54:10.909361+00:00"
+  },
+  {
+   "title": "ساخت بازی‌های تحت وب با استفاده از مدل هوش مصنوعی Claude",
+   "url": "https://fable52.games",
+   "source": "fable52.games",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.02259,
+   "at": "2026-11-12T17:54:19.217535+00:00"
+  },
+  {
+   "title": "حمله گسترده نینتندو به مخازن گیت‌هاب برای حذف شبیه‌سازها و فریم‌ورها",
+   "url": "https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep",
+   "source": "ign.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.15387,
+   "at": "2026-11-12T17:54:25.294667+00:00"
+  },
+  {
+   "title": "سوءاستفاده هوش مصنوعی Muse از هویت افراد برای تولید محتوای جنسی",
+   "url": "https://www.404media.co/muse-sexts-roleplaying-real-people/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.13783,
+   "at": "2026-11-12T17:54:37.391197+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "alone",
-    "could",
-    "crop",
-    "current",
-    "down",
-    "drones",
-    "end",
-    "ericsson",
-    "flying",
-    "mobile",
-    "networks",
-    "spell",
-    "tech",
-    "tracked",
-    "uavs"
-   ],
-   "at": "2026-11-08T03:54:09.463366+00:00"
-  },
-  {
-   "sig": [
-    "analysts",
-    "avoid",
-    "consoles",
-    "generation",
-    "higher-end",
-    "industry",
-    "launch",
-    "microsoft",
-    "moderated",
-    "much",
-    "need",
-    "next",
-    "nintendo",
-    "performance",
-    "push",
-    "relentless",
-    "replace",
-    "sit",
-    "sony",
-    "top",
-    "won"
-   ],
-   "at": "2026-11-08T03:54:15.011170+00:00"
-  },
-  {
-   "sig": [
-    "backup",
-    "microsoft",
-    "migration",
-    "onedrive-based",
-    "pc-to-pc",
-    "points",
-    "removes",
-    "users",
-    "windows"
-   ],
-   "at": "2026-11-08T04:53:58.951776+00:00"
-  },
-  {
-   "sig": [
-    "9.5",
-    "beta",
-    "coming",
-    "here",
-    "may",
-    "program",
-    "samsung",
-    "sign",
-    "soon"
-   ],
-   "at": "2026-11-08T04:54:05.979708+00:00"
-  },
-  {
-   "sig": [
-    "copying",
-    "ideas",
-    "making",
-    "people",
-    "rip-offs",
-    "work",
-    "world-of-war",
-    "www.404media.co"
-   ],
-   "at": "2026-11-08T04:54:11.754902+00:00"
-  },
   {
    "sig": [
     "centers",
@@ -14238,29 +14196,93 @@
     "released"
    ],
    "at": "2026-11-12T16:56:59.376702+00:00"
+  },
+  {
+   "sig": [
+    "breach",
+    "credentials",
+    "cybercrime",
+    "details",
+    "forum",
+    "hack",
+    "leaked",
+    "may",
+    "millions",
+    "resurfaces",
+    "russian",
+    "users",
+    "victims"
+   ],
+   "at": "2026-11-12T17:53:52.582103+00:00"
+  },
+  {
+   "sig": [
+    "devices",
+    "llms",
+    "making",
+    "old",
+    "small",
+    "work"
+   ],
+   "at": "2026-11-12T17:54:10.909361+00:00"
+  },
+  {
+   "sig": [
+    "5.2",
+    "fable",
+    "fable52.games",
+    "games",
+    "html",
+    "inspect",
+    "play",
+    "show",
+    "single-file"
+   ],
+   "at": "2026-11-12T17:54:19.217535+00:00"
+  },
+  {
+   "sig": [
+    "dmca",
+    "down",
+    "emulators",
+    "firmware",
+    "github",
+    "massive",
+    "nintendo",
+    "sweep",
+    "takes"
+   ],
+   "at": "2026-11-12T17:54:25.294667+00:00"
+  },
+  {
+   "sig": [
+    "advance",
+    "built",
+    "catering",
+    "digital",
+    "doppelg",
+    "escalating",
+    "every",
+    "explicit",
+    "fan",
+    "light",
+    "muse",
+    "nger",
+    "pretending",
+    "prompting",
+    "real-life",
+    "roleplay",
+    "saying",
+    "sexual",
+    "sexually",
+    "vanniall",
+    "whim",
+    "yes"
+   ],
+   "at": "2026-11-12T17:54:37.391197+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7ep3337s2s": [
-   219,
-   "2026-11-01T01:53:51.234595+00:00"
-  ],
-  "hn:50320963": [
-   239,
-   "2026-11-01T01:53:51.234595+00:00"
-  ],
-  "hn:50320028": [
-   154,
-   "2026-11-01T01:53:51.234595+00:00"
-  ],
-  "hn:50319563": [
-   94,
-   "2026-11-01T01:53:51.234595+00:00"
-  ],
-  "hn:50319169": [
-   114,
-   "2026-11-01T01:53:51.234595+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7nw67hjd2h": [
    101,
    "2026-11-01T01:53:51.234595+00:00"
@@ -16638,12 +16660,32 @@
    "2026-11-12T16:53:52.508305+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n24vdostzo2g": [
-   79,
-   "2026-11-12T16:53:52.508305+00:00"
+   115,
+   "2026-11-12T17:53:46.725340+00:00"
+  ],
+  "hn:50469994": [
+   146,
+   "2026-11-12T17:53:46.725340+00:00"
+  ],
+  "hn:50469007": [
+   141,
+   "2026-11-12T17:53:46.725340+00:00"
+  ],
+  "hn:50468888": [
+   132,
+   "2026-11-12T17:53:46.725340+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n24xfwwgcc2k": [
+   125,
+   "2026-11-12T17:53:46.725340+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n24wq7mias2k": [
+   116,
+   "2026-11-12T17:53:46.725340+00:00"
   ]
  },
  "skips": {
-  "Tom's Hardware": 4,
+  "Tom's Hardware": 5,
   "Article 19": 1,
   "Wired": 18,
   "TechRadar": 8,
@@ -16671,7 +16713,7 @@
   "Wired": 24,
   "TechRadar": 36,
   "Slashdot": 30,
-  "404 Media": 38,
+  "404 Media": 39,
   "Xe Iaso": 4,
   "The Verge": 22,
   "Cloudflare": 1,
@@ -16681,12 +16723,12 @@
   "ZDNet": 6,
   "9to5Mac": 18,
   "EFF": 2,
-  "Hacker News": 88,
+  "Hacker News": 91,
   "TechSpot": 19,
   "The Hacker News": 35,
   "Latent Space": 6,
   "InfoQ": 16,
-  "The Register": 24,
+  "The Register": 25,
   "Phoronix": 25,
   "The Next Web": 25,
   "Android Police": 20,
@@ -16715,7 +16757,7 @@
   "Wired": "2026-11-12T14:54:52.658528+00:00",
   "TechRadar": "2026-11-12T10:53:59.382125+00:00",
   "Slashdot": "2026-11-12T12:55:17.497961+00:00",
-  "404 Media": "2026-11-11T01:53:54.657776+00:00",
+  "404 Media": "2026-11-12T17:54:37.391304+00:00",
   "Xe Iaso": "2026-11-11T14:54:18.284123+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -16725,12 +16767,12 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-12T14:56:06.410255+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-12T16:56:59.376753+00:00",
+  "Hacker News": "2026-11-12T17:54:25.294765+00:00",
   "TechSpot": "2026-11-12T13:53:42.182722+00:00",
   "The Hacker News": "2026-11-12T14:54:38.299721+00:00",
   "Latent Space": "2026-11-12T05:54:13.348855+00:00",
   "InfoQ": "2026-11-12T09:53:51.614525+00:00",
-  "The Register": "2026-11-12T09:53:57.397920+00:00",
+  "The Register": "2026-11-12T17:53:52.582241+00:00",
   "Phoronix": "2026-11-12T11:53:54.012322+00:00",
   "The Next Web": "2026-11-12T10:54:08.198232+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
