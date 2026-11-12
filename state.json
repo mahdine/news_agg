@@ -1,18 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvn2vfibks2f",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvnagvx5hk2l",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvn4jktynw2c",
-  "6aa831e66e0c009ab5a7a62f",
-  "https://www.cnews.ru/news/line/2026-09-16_dve_osennih_premery_onyx_boox",
-  "https://www.techspot.com/news/113862-boox-palma-3-launches-340-android-16-handwriting.html",
-  "https://www.androidpolice.com/the-boox-palma-3-is-coming-and-it-has-stylus-support/",
-  "https://3dnews.ru/1148601/#6aaaddbb742eecea488b4569",
-  "hn:49729412",
-  "https://techcrunch.com/?p=3164745",
-  "1312922",
-  "https://www.neowin.net/news/anthropic-is-merging-claude-cowork-directly-into-claude-chat/",
-  "https://9to5mac.com/?p=1070026",
   "https://www.theregister.com/a/5296964",
   "https://habr.com/ru/articles/1083322/",
   "hn:49740260",
@@ -2999,18 +2986,31 @@
   "hn:50457939",
   "https://slashdot.org/story/26/11/11/2229248/united-airlines-bans-ai-agents-from-booking-flights-on-behalf-of-travelers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "hn:50458900",
-  "https://www.engadget.com/2314121/united-is-restricting-ai-agents-from-booking-flights/"
+  "https://www.engadget.com/2314121/united-is-restricting-ai-agents-from-booking-flights/",
+  "E6sDQTjK88uDtR97d4biKX",
+  "https://techcrunch.com/?p=3187556",
+  "https://www.techspot.com/news/114528-nvidia-board-reportedly-preparing-oust-jensen-huang-after.html",
+  "https://www.neowin.net/news/nvidia-may-soon-have-a-new-ceo-as-board-reportedly-prepares-to-oust-jensen-huang/",
+  "hn:50462177",
+  "6af4d48e0a3c2e6762592f11",
+  "https://www.theverge.com/?p=1028991",
+  "6af4936eb9a1088954de9430",
+  "https://www.cnews.ru/news/line/2026-11-12_partnerstvo_simpleone_i_sheksna-avtomatizatsiya",
+  "https://www.cnews.ru/news/line/2026-11-12_mts_web_services_polnostyu_importozamestila",
+  "A4FDBvd68aDaF7CeKwutwe",
+  "https://www.cnews.ru/news/line/2026-11-12_ii_sdelal_kibermoshennichestvo",
+  "https://www.cnews.ru/news/line/2026-11-12_obnovilos_mobilnoe_prilozhenie"
  ],
  "posted": {
-  "viral": 733,
-  "editorial": 977
+  "viral": 734,
+  "editorial": 981
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Slashdot"
+  "CNews",
+  "CNews",
+  "CNews",
+  "CNews"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9693,22 +9693,54 @@
    "pool": "editorial",
    "score": 0.27401,
    "at": "2026-11-12T03:54:12.270224+00:00"
+  },
+  {
+   "title": "شناسایی آسیب‌پذیری بحرانی RCE در سرور Apache HTTP",
+   "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+   "source": "wiz.io",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.02095,
+   "at": "2026-11-12T04:53:51.006740+00:00"
+  },
+  {
+   "title": "همکاری استراتژیک SimpleOne و Sheksna-Avtomatizatsiya برای مدیریت دارایی‌های فناوری",
+   "url": "https://www.cnews.ru/news/line/2026-11-12_partnerstvo_simpleone_i_sheksna-avtomatizatsiya",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.13431,
+   "at": "2026-11-12T04:54:03.818868+00:00"
+  },
+  {
+   "title": "راه‌اندازی پلتفرم بومی برای برچسب‌گذاری داده‌های هوش مصنوعی توسط MWS",
+   "url": "https://www.cnews.ru/news/line/2026-11-12_mts_web_services_polnostyu_importozamestila",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.15012,
+   "at": "2026-11-12T04:54:15.094433+00:00"
+  },
+  {
+   "title": "هوش مصنوعی عامل اصلی افزایش کلاهبرداری‌های سایبری در سال ۲۰۲۶",
+   "url": "https://www.cnews.ru/news/line/2026-11-12_ii_sdelal_kibermoshennichestvo",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.17326,
+   "at": "2026-11-12T04:54:26.936325+00:00"
+  },
+  {
+   "title": "به‌روزرسانی جدید اپلیکیشن موبایل ConsultantPlus با قابلیت همگام‌سازی پروفایل کاربری",
+   "url": "https://www.cnews.ru/news/line/2026-11-12_obnovilos_mobilnoe_prilozhenie",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.19975,
+   "at": "2026-11-12T04:54:37.797446+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "android",
-    "auto",
-    "once",
-    "quick",
-    "road",
-    "saved",
-    "setup",
-    "trips"
-   ],
-   "at": "2026-11-07T11:53:48.618293+00:00"
-  },
   {
    "sig": [
     "6.9",
@@ -13756,13 +13788,20 @@
     "united"
    ],
    "at": "2026-11-12T03:54:12.270224+00:00"
+  },
+  {
+   "sig": [
+    "apache",
+    "critical",
+    "http",
+    "rce",
+    "server",
+    "vulnerability"
+   ],
+   "at": "2026-11-12T04:53:51.006740+00:00"
   }
  ],
  "snapshots": {
-  "hn:50316531": [
-   129,
-   "2026-10-31T16:53:42.610097+00:00"
-  ],
   "hn:50318871": [
    167,
    "2026-10-31T20:06:42.126659+00:00"
@@ -16123,10 +16162,6 @@
    100,
    "2026-11-12T02:53:46.535645+00:00"
   ],
-  "hn:50459321": [
-   916,
-   "2026-11-12T03:53:43.492504+00:00"
-  ],
   "hn:50458900": [
    1304,
    "2026-11-12T03:53:43.492504+00:00"
@@ -16151,20 +16186,28 @@
    134,
    "2026-11-12T03:53:43.492504+00:00"
   ],
-  "lobsters:wfr0b4": [
-   27,
-   "2026-11-12T03:53:43.492504+00:00"
-  ],
   "hn:50455811": [
    131,
    "2026-11-12T03:53:43.492504+00:00"
+  ],
+  "hn:50459321": [
+   1007,
+   "2026-11-12T04:53:45.654121+00:00"
+  ],
+  "lobsters:wfr0b4": [
+   28,
+   "2026-11-12T04:53:45.654121+00:00"
+  ],
+  "hn:50462177": [
+   100,
+   "2026-11-12T04:53:45.654121+00:00"
   ]
  },
  "skips": {
-  "Tom's Hardware": 3,
+  "Tom's Hardware": 4,
   "Article 19": 1,
-  "Wired": 12,
-  "TechRadar": 5,
+  "Wired": 13,
+  "TechRadar": 6,
   "Lobsters": 4,
   "Hacker News": 23,
   "The Next Web": 1,
@@ -16198,7 +16241,7 @@
   "ZDNet": 4,
   "9to5Mac": 16,
   "EFF": 2,
-  "Hacker News": 81,
+  "Hacker News": 82,
   "TechSpot": 17,
   "The Hacker News": 29,
   "Latent Space": 5,
@@ -16216,7 +16259,7 @@
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 36,
+  "CNews": 40,
   "Emily M. Bender": 3,
   "antirez": 5,
   "OpenAI": 3,
@@ -16241,7 +16284,7 @@
   "ZDNet": "2026-11-10T13:55:03.346080+00:00",
   "9to5Mac": "2026-11-11T15:54:31.610844+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-12T03:54:04.860203+00:00",
+  "Hacker News": "2026-11-12T04:53:51.006876+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
   "The Hacker News": "2026-11-11T09:54:00.557413+00:00",
   "Latent Space": "2026-11-11T09:54:24.134418+00:00",
@@ -16259,7 +16302,7 @@
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-11T11:54:21.869038+00:00",
+  "CNews": "2026-11-12T04:54:37.797550+00:00",
   "Emily M. Bender": "2026-11-05T01:57:12.173819+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
