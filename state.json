@@ -1,14 +1,5 @@
 {
  "seen": [
-  "https://www.theregister.com/a/5296964",
-  "https://habr.com/ru/articles/1083322/",
-  "hn:49740260",
-  "hn:49740330",
-  "oLK7ZLSExUMa5Fo64WDkJF",
-  "https://www.techspot.com/news/113886-us-iran-war-permanently-damaged-amazon-aws-infrastructure.html",
-  "hn:49746163",
-  "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-  "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
   "lobsters:lcjf7c",
   "hn:49753878",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvshavbtsk2f",
@@ -2999,18 +2990,27 @@
   "https://www.cnews.ru/news/line/2026-11-12_mts_web_services_polnostyu_importozamestila",
   "A4FDBvd68aDaF7CeKwutwe",
   "https://www.cnews.ru/news/line/2026-11-12_ii_sdelal_kibermoshennichestvo",
-  "https://www.cnews.ru/news/line/2026-11-12_obnovilos_mobilnoe_prilozhenie"
+  "https://www.cnews.ru/news/line/2026-11-12_obnovilos_mobilnoe_prilozhenie",
+  "https://www.theregister.com/a/5309234",
+  "https://hardware.slashdot.org/story/26/11/11/1950231/ukraine-strikes-cause-permanent-data-loss-at-russias-yandex-cloud?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
+  "https://www.neowin.net/news/latest-windows-11-update-kb5132061-could-break-your-powershell-scripts/",
+  "DVDZT5w7joSiAn9brNax3H",
+  "auYAKpe64BcfSr2zsKYT45",
+  "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+  "TheNextWeb=2c6037c0b6dde8a8b5a9298144298a39",
+  "urn:latent-space:post:post_b31597d9-ad6f-469e-a051-d723be8fd562"
  ],
  "posted": {
   "viral": 734,
-  "editorial": 981
+  "editorial": 986
  },
  "recent_labels": [
-  "Hacker News",
-  "CNews",
-  "CNews",
-  "CNews",
-  "CNews"
+  "LangChain Blog",
+  "Neowin",
+  "The Hacker News",
+  "The Next Web",
+  "Latent Space"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9738,82 +9738,54 @@
    "pool": "editorial",
    "score": 0.19975,
    "at": "2026-11-12T04:54:37.797446+00:00"
+  },
+  {
+   "title": "استفاده از هوش مصنوعی برای خودکارسازی تولید مستندات فروش در LangChain",
+   "url": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
+   "source": "LangChain Blog",
+   "label": "LangChain Blog",
+   "pool": "editorial",
+   "score": 0.07495,
+   "at": "2026-11-12T05:53:48.515680+00:00"
+  },
+  {
+   "title": "اختلال در اجرای اسکریپت‌های PowerShell پس از به‌روزرسانی ویندوز ۱۱",
+   "url": "https://www.neowin.net/news/latest-windows-11-update-kb5132061-could-break-your-powershell-scripts/?utm_source=rss",
+   "source": "Neowin",
+   "label": "Neowin",
+   "pool": "editorial",
+   "score": 0.07192,
+   "at": "2026-11-12T05:53:53.609555+00:00"
+  },
+  {
+   "title": "حملات سایبری گسترده به زیرساخت‌های ScreenConnect با استفاده از افزونه‌های مخرب",
+   "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.14177,
+   "at": "2026-11-12T05:53:59.982652+00:00"
+  },
+  {
+   "title": "جذب سرمایه ۲۱ میلیون دلاری Nebuly برای سنجش بازگشت سرمایه هوش مصنوعی",
+   "url": "https://thenextweb.com/news/nebuly-21m-series-a-enterprise-ai-roi",
+   "source": "The Next Web",
+   "label": "The Next Web",
+   "pool": "editorial",
+   "score": 0.11559,
+   "at": "2026-11-12T05:54:05.738877+00:00"
+  },
+  {
+   "title": "ظهور مدل‌های System One برای افزایش قابلیت اطمینان در نرم‌افزارهای هوش مصنوعی",
+   "url": "https://latent.space/p/jev-revolution/",
+   "source": "Latent Space",
+   "label": "Latent Space",
+   "pool": "editorial",
+   "score": 0.16784,
+   "at": "2026-11-12T05:54:13.348741+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "6.9",
-    "clicking",
-    "desktop",
-    "files",
-    "folders",
-    "kde",
-    "leaking",
-    "memory",
-    "plasma",
-    "right",
-    "stop"
-   ],
-   "at": "2026-11-07T11:53:56.376000+00:00"
-  },
-  {
-   "sig": [
-    "firm",
-    "free",
-    "law",
-    "running",
-    "software"
-   ],
-   "at": "2026-11-07T14:53:52.365433+00:00"
-  },
-  {
-   "sig": [
-    "buying",
-    "could",
-    "laptop",
-    "point",
-    "tablet",
-    "touchscreen"
-   ],
-   "at": "2026-11-07T14:53:59.451882+00:00"
-  },
-  {
-   "sig": [
-    "accessory",
-    "advantage",
-    "galaxy",
-    "s26",
-    "samsung",
-    "should",
-    "taking",
-    "users"
-   ],
-   "at": "2026-11-07T14:54:06.368885+00:00"
-  },
-  {
-   "sig": [
-    "accused",
-    "believes",
-    "billion",
-    "chinese",
-    "chips",
-    "company",
-    "had",
-    "honeypot",
-    "huang",
-    "intelligence",
-    "jensen",
-    "linked",
-    "operation",
-    "relationship",
-    "romantic",
-    "smuggling",
-    "spy",
-    "suspect"
-   ],
-   "at": "2026-11-07T14:54:12.145798+00:00"
-  },
   {
    "sig": [
     "broke",
@@ -13799,6 +13771,69 @@
     "vulnerability"
    ],
    "at": "2026-11-12T04:53:51.006740+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "artifacts",
+    "builds",
+    "consistent",
+    "gtm",
+    "high-quality",
+    "sales"
+   ],
+   "at": "2026-11-12T05:53:48.515680+00:00"
+  },
+  {
+   "sig": [
+    "break",
+    "could",
+    "kb5132061",
+    "latest",
+    "powershell",
+    "scripts",
+    "update",
+    "windows"
+   ],
+   "at": "2026-11-12T05:53:53.609555+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "attacks",
+    "clients",
+    "endpoints",
+    "least",
+    "organizations",
+    "rogue",
+    "screenconnect",
+    "target"
+   ],
+   "at": "2026-11-12T05:53:59.982652+00:00"
+  },
+  {
+   "sig": [
+    "21m",
+    "enterprise",
+    "measure",
+    "nebuly",
+    "raises",
+    "roi",
+    "series"
+   ],
+   "at": "2026-11-12T05:54:05.738877+00:00"
+  },
+  {
+   "sig": [
+    "already",
+    "building",
+    "engineers",
+    "jev",
+    "models",
+    "revolution",
+    "system"
+   ],
+   "at": "2026-11-12T05:54:13.348741+00:00"
   }
  ],
  "snapshots": {
@@ -16191,8 +16226,8 @@
    "2026-11-12T03:53:43.492504+00:00"
   ],
   "hn:50459321": [
-   1007,
-   "2026-11-12T04:53:45.654121+00:00"
+   1085,
+   "2026-11-12T05:53:41.493306+00:00"
   ],
   "lobsters:wfr0b4": [
    28,
@@ -16207,7 +16242,7 @@
   "Tom's Hardware": 4,
   "Article 19": 1,
   "Wired": 13,
-  "TechRadar": 6,
+  "TechRadar": 7,
   "Lobsters": 4,
   "Hacker News": 23,
   "The Next Web": 1,
@@ -16220,14 +16255,14 @@
   "vc.ru": 2,
   "Hi-Tech Mail": 5,
   "Slashdot": 2,
-  "The Register": 4,
+  "The Register": 5,
   "Google AI": 1,
   "Neowin": 1,
   "TechSpot": 1
  },
  "posts_by_label": {
   "Engadget": 43,
-  "Neowin": 19,
+  "Neowin": 20,
   "Wired": 21,
   "TechRadar": 35,
   "Slashdot": 29,
@@ -16243,12 +16278,12 @@
   "EFF": 2,
   "Hacker News": 82,
   "TechSpot": 17,
-  "The Hacker News": 29,
-  "Latent Space": 5,
+  "The Hacker News": 30,
+  "Latent Space": 6,
   "InfoQ": 15,
   "The Register": 23,
   "Phoronix": 24,
-  "The Next Web": 23,
+  "The Next Web": 24,
   "Android Police": 20,
   "Ars Technica": 2,
   "Simon Willison": 2,
@@ -16266,11 +16301,12 @@
   "Hugging Face": 2,
   "Access Now": 1,
   "Google AI": 1,
-  "Rest of World": 1
+  "Rest of World": 1,
+  "LangChain Blog": 1
  },
  "last_post": {
   "Engadget": "2026-11-11T11:54:07.033021+00:00",
-  "Neowin": "2026-11-11T12:56:14.451751+00:00",
+  "Neowin": "2026-11-12T05:53:53.609663+00:00",
   "Wired": "2026-11-10T13:54:47.029930+00:00",
   "TechRadar": "2026-11-11T15:55:04.484344+00:00",
   "Slashdot": "2026-11-12T03:54:12.270334+00:00",
@@ -16286,12 +16322,12 @@
   "EFF": "2026-11-06T09:54:49.849333+00:00",
   "Hacker News": "2026-11-12T04:53:51.006876+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
-  "The Hacker News": "2026-11-11T09:54:00.557413+00:00",
-  "Latent Space": "2026-11-11T09:54:24.134418+00:00",
+  "The Hacker News": "2026-11-12T05:53:59.982774+00:00",
+  "Latent Space": "2026-11-12T05:54:13.348855+00:00",
   "InfoQ": "2026-11-11T07:54:09.506665+00:00",
   "The Register": "2026-11-11T05:53:52.357081+00:00",
   "Phoronix": "2026-11-11T10:54:15.482122+00:00",
-  "The Next Web": "2026-11-11T06:53:51.794639+00:00",
+  "The Next Web": "2026-11-12T05:54:05.739000+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
   "Ars Technica": "2026-11-11T17:53:47.755359+00:00",
   "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
@@ -16309,6 +16345,7 @@
   "Hugging Face": "2026-11-11T05:54:17.268131+00:00",
   "Access Now": "2026-11-05T10:54:49.232575+00:00",
   "Google AI": "2026-11-06T04:54:24.190387+00:00",
-  "Rest of World": "2026-11-09T08:53:50.184598+00:00"
+  "Rest of World": "2026-11-09T08:53:50.184598+00:00",
+  "LangChain Blog": "2026-11-12T05:53:48.515796+00:00"
  }
 }
