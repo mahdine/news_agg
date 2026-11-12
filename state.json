@@ -1,16 +1,5 @@
 {
  "seen": [
-  "https://www.engadget.com/2263198/google-gemini-escaped-testing-environment-hacked-three-companies/",
-  "https://techcrunch.com/?p=3166647",
-  "https://www.theverge.com/?p=997795",
-  "Eg8vUSk52w4BTBaSUZxTq8",
-  "hn:49768921",
-  "https://www.techspot.com/news/113891-microsoft-exec-ai-training-might-largest-labor-theft.html",
-  "https://3dnews.ru/1148751/#6aae59cb742eecfa3f8b456f",
-  "6e202a7139bc9622469d51a148a81abc",
-  "https://9to5mac.com/?p=1070501",
-  "hn:49775104",
-  "hn:49777035",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvxnqfk3bv2p",
   "https://www.neowin.net/news/people-hate-flock-so-much-that-its-employees-are-now-demoralized-and-thinking-of-quitting/",
   "hn:49777872",
@@ -2999,18 +2988,29 @@
   "https://www.cnews.ru/news/line/2026-11-12_metrika42_pomogla_kompanii_iz",
   "4c7b8b5bff28367f93ef633c90fa63ac",
   "3a66c5b2496052d249bb77352295e25f",
-  "https://www.cnews.ru/news/line/2026-11-12_shkolnitsa_iz_detskogo_tehnoparka"
+  "https://www.cnews.ru/news/line/2026-11-12_shkolnitsa_iz_detskogo_tehnoparka",
+  "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+  "1433386",
+  "https://www.neowin.net/news/microsoft-explains-how-windows-11-kb5132061-install-fail-bug-is-being-fixed/",
+  "1434725",
+  "d031a2f97f6b8ef4b79d776a307f9e71",
+  "hn:50463899",
+  "6ae9173b1c32373b69412ad2",
+  "https://9to5mac.com/?p=1078903",
+  "zDXkja5MZ7AgsLuZiBaBC7",
+  "https://www.cnews.ru/news/line/2026-11-12_ocs_obnovila_portfel_usilennymi",
+  "https://www.securityweek.com/?p=50718"
  ],
  "posted": {
-  "viral": 734,
-  "editorial": 990
+  "viral": 735,
+  "editorial": 993
  },
  "recent_labels": [
-  "Latent Space",
-  "CNews",
   "Hi-Tech Mail",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail"
+  "The Hacker News",
+  "ZDNet",
+  "Hacker News",
+  "SecurityWeek"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -9819,60 +9819,45 @@
    "pool": "editorial",
    "score": 0.19857,
    "at": "2026-11-12T06:54:42.382655+00:00"
+  },
+  {
+   "title": "مایکروسافت ۱۲۵۹ آسیب‌پذیری محصولات خود را در وصله‌های امنیتی جدید برطرف کرد",
+   "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.17492,
+   "at": "2026-11-12T08:53:47.085822+00:00"
+  },
+  {
+   "title": "قابلیت‌های هوش مصنوعی Gemini برای کاربران گوشی‌های Pixel در Android Auto",
+   "url": "https://www.zdnet.com/tech/android-auto-gemini-intelligence-update/",
+   "source": "ZDNet",
+   "label": "ZDNet",
+   "pool": "editorial",
+   "score": 0.32776,
+   "at": "2026-11-12T08:55:13.159595+00:00"
+  },
+  {
+   "title": "نقص امنیتی در پلتفرم Humble Bundle به دلیل تغییرات در کدنویسی",
+   "url": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
+   "source": "forums.spacebattles.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.43934,
+   "at": "2026-11-12T08:55:18.301022+00:00"
+  },
+  {
+   "title": "حمله باج‌افزاری گروه WhiteArmor به شرکت کشتیرانی Maersk",
+   "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
+   "source": "SecurityWeek",
+   "label": "SecurityWeek",
+   "pool": "editorial",
+   "score": 0.24192,
+   "at": "2026-11-12T08:56:25.319967+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "broke",
-    "cybersecurity",
-    "next",
-    "world"
-   ],
-   "at": "2026-11-07T15:53:43.114055+00:00"
-  },
-  {
-   "sig": [
-    "fireworks",
-    "models",
-    "money",
-    "unless",
-    "using",
-    "wasting"
-   ],
-   "at": "2026-11-07T15:53:48.841211+00:00"
-  },
-  {
-   "sig": [
-    "access",
-    "acrobat",
-    "adobe",
-    "firefly",
-    "free",
-    "giving",
-    "including",
-    "months",
-    "start-ups",
-    "tools",
-    "top"
-   ],
-   "at": "2026-11-07T15:53:55.795452+00:00"
-  },
-  {
-   "sig": [
-    "1.20",
-    "automake",
-    "brings",
-    "build",
-    "desires",
-    "features",
-    "gnu",
-    "leading",
-    "re-establish",
-    "system"
-   ],
-   "at": "2026-11-07T15:54:01.181612+00:00"
-  },
   {
    "sig": [
     "according",
@@ -13870,13 +13855,73 @@
     "system"
    ],
    "at": "2026-11-12T05:54:13.348741+00:00"
+  },
+  {
+   "sig": [
+    "being",
+    "bug",
+    "explains",
+    "exploited",
+    "expose",
+    "fail",
+    "fixed",
+    "fixes",
+    "flaws",
+    "hashes",
+    "including",
+    "install",
+    "kb5132061",
+    "may",
+    "microsoft",
+    "ntlmv2",
+    "outlook",
+    "patches",
+    "windows"
+   ],
+   "at": "2026-11-12T08:53:47.085822+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "auto",
+    "getting",
+    "major",
+    "need",
+    "pixel",
+    "rivals",
+    "siri",
+    "speed",
+    "update",
+    "users"
+   ],
+   "at": "2026-11-12T08:55:13.159595+00:00"
+  },
+  {
+   "sig": [
+    "bundle",
+    "humble",
+    "killed",
+    "security",
+    "through",
+    "vibecoding"
+   ],
+   "at": "2026-11-12T08:55:18.301022+00:00"
+  },
+  {
+   "sig": [
+    "amid",
+    "attempt",
+    "confirms",
+    "data",
+    "extortion",
+    "maersk",
+    "million",
+    "theft"
+   ],
+   "at": "2026-11-12T08:56:25.319967+00:00"
   }
  ],
  "snapshots": {
-  "hn:50318871": [
-   167,
-   "2026-10-31T20:06:42.126659+00:00"
-  ],
   "hn:50318401": [
    133,
    "2026-10-31T20:06:42.126659+00:00"
@@ -16261,10 +16306,6 @@
    131,
    "2026-11-12T03:53:43.492504+00:00"
   ],
-  "hn:50459321": [
-   1158,
-   "2026-11-12T06:53:48.752096+00:00"
-  ],
   "lobsters:wfr0b4": [
    28,
    "2026-11-12T04:53:45.654121+00:00"
@@ -16272,13 +16313,21 @@
   "hn:50462177": [
    100,
    "2026-11-12T04:53:45.654121+00:00"
+  ],
+  "hn:50459321": [
+   1228,
+   "2026-11-12T08:53:44.766229+00:00"
+  ],
+  "hn:50463899": [
+   361,
+   "2026-11-12T08:53:44.766229+00:00"
   ]
  },
  "skips": {
   "Tom's Hardware": 4,
   "Article 19": 1,
-  "Wired": 14,
-  "TechRadar": 7,
+  "Wired": 15,
+  "TechRadar": 8,
   "Lobsters": 4,
   "Hacker News": 23,
   "The Next Web": 1,
@@ -16287,14 +16336,15 @@
   "Simon Willison": 2,
   "Xe Iaso": 3,
   "Simon Willison RSS": 1,
-  "CNews": 12,
+  "CNews": 13,
   "vc.ru": 2,
   "Hi-Tech Mail": 5,
   "Slashdot": 2,
   "The Register": 5,
   "Google AI": 1,
   "Neowin": 1,
-  "TechSpot": 1
+  "TechSpot": 1,
+  "9to5Mac": 1
  },
  "posts_by_label": {
   "Engadget": 43,
@@ -16309,12 +16359,12 @@
   "TechCrunch AI": 17,
   "Lobsters": 13,
   "Tom's Hardware": 36,
-  "ZDNet": 4,
+  "ZDNet": 5,
   "9to5Mac": 16,
   "EFF": 2,
-  "Hacker News": 82,
+  "Hacker News": 83,
   "TechSpot": 17,
-  "The Hacker News": 30,
+  "The Hacker News": 31,
   "Latent Space": 6,
   "InfoQ": 15,
   "The Register": 23,
@@ -16325,7 +16375,7 @@
   "Simon Willison": 2,
   "Simon Willison RSS": 6,
   "vc.ru": 12,
-  "SecurityWeek": 14,
+  "SecurityWeek": 15,
   "Hi-Tech Mail": 41,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
@@ -16353,12 +16403,12 @@
   "TechCrunch AI": "2026-11-10T14:55:14.549569+00:00",
   "Lobsters": "2026-11-12T01:54:29.252609+00:00",
   "Tom's Hardware": "2026-11-11T16:54:07.259933+00:00",
-  "ZDNet": "2026-11-10T13:55:03.346080+00:00",
+  "ZDNet": "2026-11-12T08:55:13.159740+00:00",
   "9to5Mac": "2026-11-11T15:54:31.610844+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-12T04:53:51.006876+00:00",
+  "Hacker News": "2026-11-12T08:55:18.301135+00:00",
   "TechSpot": "2026-11-08T15:53:57.122484+00:00",
-  "The Hacker News": "2026-11-12T05:53:59.982774+00:00",
+  "The Hacker News": "2026-11-12T08:53:47.085957+00:00",
   "Latent Space": "2026-11-12T05:54:13.348855+00:00",
   "InfoQ": "2026-11-11T07:54:09.506665+00:00",
   "The Register": "2026-11-11T05:53:52.357081+00:00",
@@ -16369,7 +16419,7 @@
   "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-11T07:54:17.468730+00:00",
-  "SecurityWeek": "2026-11-11T12:53:59.100819+00:00",
+  "SecurityWeek": "2026-11-12T08:56:25.320081+00:00",
   "Hi-Tech Mail": "2026-11-12T06:54:42.382791+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
