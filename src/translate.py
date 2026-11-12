@@ -115,12 +115,26 @@ def summarize(text: str, api_key: str, models: list[str], client: httpx.Client) 
 def _ask(model, payload, api_key, client) -> httpx.Response | None:
     """None یعنی مدل بعد از چند تلاش هنوز شلوغ بود."""
     for attempt in range(1, ATTEMPTS + 1):
-        resp = client.post(
-            ENDPOINT.format(model=model),
-            params={"key": api_key},
-            json=payload,
-            timeout=90,
-        )
+        try:
+            resp = client.post(
+                ENDPOINT.format(model=model),
+                params={"key": api_key},
+                json=payload,
+                timeout=90,
+            )
+        except httpx.HTTPError as exc:
+            # تاخیر شبکه یا قطع شدن: مثل 503 رفتار می‌کند — کمی صبر و دوباره.
+            # اگر اینجا catch نشود کل اجرا crash می‌کند و state ذخیره نمی‌شود.
+            if attempt < ATTEMPTS:
+                backoff = 2**attempt
+                log.info(
+                    "%s خطای شبکه‌ای (%s) — %d ثانیه صبر",
+                    model, type(exc).__name__, backoff,
+                )
+                time.sleep(backoff)
+                continue
+            log.warning("%s خطای شبکه‌ای ماند: %s", model, exc)
+            return None
         if resp.status_code not in BUSY:
             return resp
         if attempt < ATTEMPTS:

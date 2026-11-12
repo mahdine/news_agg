@@ -160,10 +160,13 @@ sources:
     label: Dan Luu
     min_engagement: 5
 
-  - type: bluesky
-    handle: briankrebs.bsky.social
-    label: Brian Krebs
-    min_engagement: 5
+  # اکانت Krebs در Bluesky پیدا نمی‌شود (400 «Profile not found» در هر اجرا؛
+  # هر دو handle امتحان شده). فید RSS خودش هم غیرفعال است. اگر حساب برگشت
+  # تیک را برگردان.
+  # - type: bluesky
+  #   handle: briankrebs.bsky.social
+  #   label: Brian Krebs
+  #   min_engagement: 5
 
   # ─────────────────────────────────────────────────────────── امنیت و هک
 

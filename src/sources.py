@@ -19,7 +19,16 @@ HN_SEARCH = "https://hn.algolia.com/api/v1/search_by_date"
 HN_ITEM = "https://news.ycombinator.com/item?id={id}"
 LOBSTERS_FEED = "https://lobste.rs/hottest.json"
 
-UA = {"User-Agent": "Mozilla/5.0 (compatible; PersianTwitter)"}
+# بعضی فیدها (VentureBeat 429، Substack 403) آدرس IP datacenter و User-Agent
+# رباتی را می‌شکنند؛ با UA مرورگر رد می‌شوند. همان UA‌ای که article/images هم
+# استفاده می‌کنند.
+UA = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/rss+xml, application/xml, text/xml, */*;q=0.8",
+}
 
 _TAG = re.compile(r"<[^>]+>")
 _WS = re.compile(r"[ \t]*\n[ \t]*")
