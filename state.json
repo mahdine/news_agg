@@ -1,14 +1,5 @@
 {
  "seen": [
-  "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
-  "https://www.theregister.com/a/5300803",
-  "https://www.securityweek.com/?p=49752",
-  "hn:49960901",
-  "hn:49961890",
-  "hn:49963366",
-  "https://therecord.media/denmark-breach-register-cyberattack",
-  "hn:49962012",
-  "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
   "hn:49967444",
   "hn:49968105",
   "EZ4H2PeFvnhYVHoDt7LBgD",
@@ -2999,18 +2990,27 @@
   "6af6159829597bd36fdf1073",
   "qnSNSHynXKLfmXJCA3rgfn",
   "d3f54fa3928138d535923508a2e9ff33",
-  "5b6859d57b74175ff490c130b08c071f"
+  "5b6859d57b74175ff490c130b08c071f",
+  "7ZkshFsaQASmcKxXR7XhHk",
+  "https://www.techspot.com/news/114541-modder-tricks-switch-2-thinking-45-laptop-hub.html",
+  "zppcrpVxxAoy6GSqAHbHcf",
+  "https://techcrunch.com/?p=3187523",
+  "6af367e9edee43782ec1b293",
+  "https://www.phoronix.com/news/Intel-GCC-Coral-Rapids-Razor",
+  "6af5f30237a2c638ea1af1e3",
+  "https://www.cnews.ru/news/top/2026-11-13_vzloman_sudohodnyj_gigant",
+  "6af36771190ffd33e9467dde"
  ],
  "posted": {
   "viral": 764,
-  "editorial": 1053
+  "editorial": 1058
  },
  "recent_labels": [
-  "The Register",
-  "Hacker News",
   "Tom's Hardware",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail"
+  "Tom's Hardware",
+  "Phoronix",
+  "CNews",
+  "Wired"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -10656,71 +10656,54 @@
    "pool": "editorial",
    "score": 0.18412,
    "at": "2026-11-13T10:54:17.771167+00:00"
+  },
+  {
+   "title": "هک فریم‌ور هاب USB-C برای تبدیل آن به داک Nintendo Switch 2",
+   "url": "https://www.tomshardware.com/video-games/nintendo/hobbyist-turns-usd45-usb-c-hub-into-a-working-nintendo-switch-2-dock-by-patching-its-firmware-consoles-proprietary-handshake-needs-about-540-bytes-of-code-to-answer",
+   "source": "Tom's Hardware",
+   "label": "Tom's Hardware",
+   "pool": "editorial",
+   "score": 0.1722,
+   "at": "2026-11-13T11:53:46.165438+00:00"
+  },
+  {
+   "title": "قاچاق گسترده تراشه‌های هوش مصنوعی Nvidia به چین و خروج جنسن هوانگ",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+   "source": "Tom's Hardware",
+   "label": "Tom's Hardware",
+   "pool": "editorial",
+   "score": 0.16389,
+   "at": "2026-11-13T11:53:52.167039+00:00"
+  },
+  {
+   "title": "انتشار کدهای اولیه کامپایلر GCC برای پردازنده‌های آینده اینتل",
+   "url": "https://www.phoronix.com/news/Intel-GCC-Coral-Rapids-Razor",
+   "source": "Phoronix",
+   "label": "Phoronix",
+   "pool": "editorial",
+   "score": 0.19998,
+   "at": "2026-11-13T11:54:00.388658+00:00"
+  },
+  {
+   "title": "باج‌افزار WhiteArmor شرکت حمل‌ونقل Maersk را هدف قرار داد",
+   "url": "https://www.cnews.ru/news/top/2026-11-13_vzloman_sudohodnyj_gigant",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.17771,
+   "at": "2026-11-13T11:54:14.744793+00:00"
+  },
+  {
+   "title": "استفاده استارتاپ Mansa از هوش مصنوعی برای تولید سریال‌های کوتاه",
+   "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+   "source": "Wired",
+   "label": "Wired",
+   "pool": "editorial",
+   "score": 0.27985,
+   "at": "2026-11-13T11:54:20.801525+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "addresses",
-    "banned",
-    "buy",
-    "china",
-    "chinese",
-    "chips",
-    "cleared",
-    "companies",
-    "empty",
-    "let",
-    "nvidia",
-    "office",
-    "offices",
-    "sell",
-    "unknown"
-   ],
-   "at": "2026-11-08T14:53:42.214921+00:00"
-  },
-  {
-   "sig": [
-    "eating",
-    "exactly",
-    "gpu",
-    "manager",
-    "open-source",
-    "reveals",
-    "task",
-    "vram"
-   ],
-   "at": "2026-11-08T14:54:22.499370+00:00"
-  },
-  {
-   "sig": [
-    "ago",
-    "celebrates",
-    "game",
-    "gpu",
-    "gtx",
-    "homage",
-    "nvidia",
-    "released",
-    "steam",
-    "today",
-    "years"
-   ],
-   "at": "2026-11-08T14:54:28.170548+00:00"
-  },
-  {
-   "sig": [
-    "add",
-    "ban",
-    "ebay",
-    "may",
-    "media",
-    "social",
-    "under-16",
-    "vinted"
-   ],
-   "at": "2026-11-08T14:54:53.724839+00:00"
-  },
   {
    "sig": [
     "department",
@@ -14750,6 +14733,76 @@
     "tests"
    ],
    "at": "2026-11-13T10:54:00.199147+00:00"
+  },
+  {
+   "sig": [
+    "dock",
+    "firmware",
+    "hobbyist",
+    "hub",
+    "laptop",
+    "modder",
+    "nintendo",
+    "official",
+    "patching",
+    "switch",
+    "thinking",
+    "tricks",
+    "turns",
+    "usb-c",
+    "working"
+   ],
+   "at": "2026-11-13T11:53:46.165438+00:00"
+  },
+  {
+   "sig": [
+    "1.5",
+    "analysts",
+    "cause",
+    "claim",
+    "could",
+    "damage",
+    "departure",
+    "five",
+    "gpus",
+    "huang",
+    "industry",
+    "jensen",
+    "mass",
+    "million",
+    "nvidia",
+    "ouster",
+    "smuggling",
+    "underlying",
+    "ways"
+   ],
+   "at": "2026-11-13T11:53:52.167039+00:00"
+  },
+  {
+   "sig": [
+    "code",
+    "compiler",
+    "coral",
+    "gcc",
+    "initial",
+    "intel",
+    "lake",
+    "posts",
+    "rapids",
+    "razor"
+   ],
+   "at": "2026-11-13T11:54:00.388658+00:00"
+  },
+  {
+   "sig": [
+    "betting",
+    "black",
+    "hollywood",
+    "microdramas",
+    "startup",
+    "stories"
+   ],
+   "at": "2026-11-13T11:54:20.801525+00:00"
   }
  ],
  "snapshots": {
@@ -17157,7 +17210,7 @@
  "skips": {
   "Tom's Hardware": 5,
   "Article 19": 1,
-  "Wired": 23,
+  "Wired": 25,
   "TechRadar": 8,
   "Lobsters": 5,
   "Hacker News": 30,
@@ -17181,7 +17234,7 @@
  "posts_by_label": {
   "Engadget": 44,
   "Neowin": 25,
-  "Wired": 24,
+  "Wired": 25,
   "TechRadar": 37,
   "Slashdot": 31,
   "404 Media": 40,
@@ -17190,7 +17243,7 @@
   "Cloudflare": 1,
   "TechCrunch AI": 18,
   "Lobsters": 17,
-  "Tom's Hardware": 37,
+  "Tom's Hardware": 39,
   "ZDNet": 6,
   "9to5Mac": 18,
   "EFF": 2,
@@ -17200,7 +17253,7 @@
   "Latent Space": 7,
   "InfoQ": 18,
   "The Register": 27,
-  "Phoronix": 25,
+  "Phoronix": 26,
   "The Next Web": 26,
   "Android Police": 20,
   "Ars Technica": 2,
@@ -17212,7 +17265,7 @@
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 51,
+  "CNews": 52,
   "Emily M. Bender": 4,
   "antirez": 5,
   "OpenAI": 3,
@@ -17225,7 +17278,7 @@
  "last_post": {
   "Engadget": "2026-11-12T14:55:09.676292+00:00",
   "Neowin": "2026-11-13T09:54:40.447965+00:00",
-  "Wired": "2026-11-12T14:54:52.658528+00:00",
+  "Wired": "2026-11-13T11:54:20.801626+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-13T04:54:43.870063+00:00",
   "404 Media": "2026-11-13T01:53:54.628589+00:00",
@@ -17234,7 +17287,7 @@
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-12T13:54:19.433280+00:00",
   "Lobsters": "2026-11-13T02:55:06.956790+00:00",
-  "Tom's Hardware": "2026-11-13T10:54:00.199266+00:00",
+  "Tom's Hardware": "2026-11-13T11:53:52.167150+00:00",
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-12T14:56:06.410255+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
@@ -17244,7 +17297,7 @@
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
   "InfoQ": "2026-11-13T09:54:17.521781+00:00",
   "The Register": "2026-11-13T10:53:47.376640+00:00",
-  "Phoronix": "2026-11-12T11:53:54.012322+00:00",
+  "Phoronix": "2026-11-13T11:54:00.388760+00:00",
   "The Next Web": "2026-11-13T07:54:30.228023+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
   "Ars Technica": "2026-11-11T17:53:47.755359+00:00",
@@ -17256,7 +17309,7 @@
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-13T09:54:29.648606+00:00",
+  "CNews": "2026-11-13T11:54:14.744898+00:00",
   "Emily M. Bender": "2026-11-12T16:56:40.304536+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
