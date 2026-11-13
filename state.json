@@ -1,13 +1,5 @@
 {
  "seen": [
-  "hn:49929489",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwvkzjudgs2z",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mww3hm6ozk2c",
-  "https://www.engadget.com/2276312/meta-muse-gadgets-open-source-smart-home-link/",
-  "https://www.theverge.com/?p=1004330",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwvy3jcx7r2b",
-  "1343164",
-  "https://www.androidpolice.com/ive-restarted-my-pixel-10-pro-three-times-this-month-alone-google-still-wont-fix-it/",
   "hn:49943451",
   "hn:49944227",
   "6abeda5b53d3a98ae3a1a99b",
@@ -2999,18 +2991,26 @@
   "https://www.cnews.ru/news/top/2026-11-13_hakery_skomprometirovali",
   "https://www.cnews.ru/news/line/2026-11-13_ladcraft_zapuskaet_fabriku",
   "https://www.cnews.ru/news/line/2026-11-13_bell_integrator_fabricaoneai_prinyala",
-  "TheNextWeb=290ddef865a593c856f712ab85280d30"
+  "TheNextWeb=290ddef865a593c856f712ab85280d30",
+  "hn:50477155",
+  "hn:50479876",
+  "https://www.engadget.com/2315638/byd-wheel-assembly-error-great-tang-electric-suv/",
+  "3253038",
+  "c9fde6ef07ea56b60b22f0379dd19277",
+  "bfa311ffa76f4e699be8530dad8982e0",
+  "ba8bfb4f414f658a833f5f2009e644da",
+  "e92e96ce056e593d438e66976eab6e8a"
  ],
  "posted": {
-  "viral": 762,
-  "editorial": 1041
+  "viral": 763,
+  "editorial": 1044
  },
  "recent_labels": [
+  "The Next Web",
   "Hacker News",
-  "CNews",
-  "CNews",
-  "CNews",
-  "The Next Web"
+  "vc.ru",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -10530,20 +10530,45 @@
    "pool": "editorial",
    "score": 0.18845,
    "at": "2026-11-13T07:54:30.227901+00:00"
+  },
+  {
+   "title": "ممنوعیت قیمت‌گذاری الگوریتمی بر اساس داده‌های شخصی در نیویورک",
+   "url": "https://gothamist.com/news/nyc-council-passes-ban-on-surveillance-pricing-that-relies-on-personal-data",
+   "source": "gothamist.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.03602,
+   "at": "2026-11-13T08:53:46.668019+00:00"
+  },
+  {
+   "title": "به‌روزرسانی اپلیکیشن 2GIS برای مسیریابی دقیق‌تر در حمل‌ونقل عمومی",
+   "url": "https://vc.ru/services/3253038-2gis-obnovil-navigator-dlya-obshestvennogo-transporta-prilozhenie-i-vidzhet-pokazyvayut-progress-na-marshrute-i-zaranee-preduprezhdayut-o-nuzhnoi-ostanovke?from=rss",
+   "source": "vc.ru",
+   "label": "vc.ru",
+   "pool": "editorial",
+   "score": 0.16237,
+   "at": "2026-11-13T08:54:02.885862+00:00"
+  },
+  {
+   "title": "آینده خرید آنلاین با دستیارهای هوشمند و اتوماسیون کامل",
+   "url": "https://hi-tech.mail.ru/news/160486-kogda-ii-nachnet-samostoyatelno-pokupat-tovary-i-reshat-bytovye-zadachi-otvet-eksperta/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.17323,
+   "at": "2026-11-13T08:54:25.114171+00:00"
+  },
+  {
+   "title": "کلاهبرداری با وعده دانلود زودهنگام بازی GTA 6",
+   "url": "https://hi-tech.mail.ru/news/160490-moshenniki-rasprostranyayut-vredonosnye-faily-pod-vidom-rannei/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.19592,
+   "at": "2026-11-13T08:54:35.423729+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "brava",
-    "emerges",
-    "funding",
-    "million",
-    "security",
-    "stealth"
-   ],
-   "at": "2026-11-08T12:53:57.626707+00:00"
-  },
   {
    "sig": [
     "2.8-trillion-parameter",
@@ -14607,17 +14632,20 @@
     "summit"
    ],
    "at": "2026-11-13T07:54:30.227901+00:00"
+  },
+  {
+   "sig": [
+    "ban",
+    "council",
+    "nyc",
+    "passes",
+    "pricing",
+    "surveillance"
+   ],
+   "at": "2026-11-13T08:53:46.668019+00:00"
   }
  ],
  "snapshots": {
-  "hn:50330005": [
-   150,
-   "2026-11-01T22:12:27.869784+00:00"
-  ],
-  "hn:50328488": [
-   279,
-   "2026-11-01T22:12:27.869784+00:00"
-  ],
   "hn:50328487": [
    416,
    "2026-11-01T22:12:27.869784+00:00"
@@ -17009,6 +17037,14 @@
   "hn:50477649": [
    143,
    "2026-11-13T07:53:41.904729+00:00"
+  ],
+  "hn:50479876": [
+   183,
+   "2026-11-13T08:53:43.609578+00:00"
+  ],
+  "hn:50477155": [
+   80,
+   "2026-11-13T08:53:43.609578+00:00"
   ]
  },
  "skips": {
@@ -17017,7 +17053,7 @@
   "Wired": 21,
   "TechRadar": 8,
   "Lobsters": 5,
-  "Hacker News": 29,
+  "Hacker News": 30,
   "The Next Web": 1,
   "404 Media": 10,
   "Emily M. Bender": 3,
@@ -17026,13 +17062,14 @@
   "Simon Willison RSS": 1,
   "CNews": 19,
   "vc.ru": 2,
-  "Hi-Tech Mail": 6,
+  "Hi-Tech Mail": 8,
   "Slashdot": 2,
   "The Register": 6,
   "Google AI": 1,
   "Neowin": 1,
   "TechSpot": 1,
-  "9to5Mac": 2
+  "9to5Mac": 2,
+  "Engadget": 1
  },
  "posts_by_label": {
   "Engadget": 44,
@@ -17050,7 +17087,7 @@
   "ZDNet": 6,
   "9to5Mac": 18,
   "EFF": 2,
-  "Hacker News": 102,
+  "Hacker News": 103,
   "TechSpot": 20,
   "The Hacker News": 36,
   "Latent Space": 7,
@@ -17062,9 +17099,9 @@
   "Ars Technica": 2,
   "Simon Willison": 3,
   "Simon Willison RSS": 6,
-  "vc.ru": 14,
+  "vc.ru": 15,
   "SecurityWeek": 17,
-  "Hi-Tech Mail": 45,
+  "Hi-Tech Mail": 47,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
@@ -17094,7 +17131,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-12T14:56:06.410255+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-13T07:53:44.067209+00:00",
+  "Hacker News": "2026-11-13T08:53:46.668142+00:00",
   "TechSpot": "2026-11-13T03:53:47.498872+00:00",
   "The Hacker News": "2026-11-13T05:56:48.238641+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -17106,9 +17143,9 @@
   "Ars Technica": "2026-11-11T17:53:47.755359+00:00",
   "Simon Willison": "2026-11-13T03:54:17.433642+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
-  "vc.ru": "2026-11-13T06:54:06.268663+00:00",
+  "vc.ru": "2026-11-13T08:54:02.885975+00:00",
   "SecurityWeek": "2026-11-13T05:54:16.992665+00:00",
-  "Hi-Tech Mail": "2026-11-13T06:57:13.483757+00:00",
+  "Hi-Tech Mail": "2026-11-13T08:54:35.423832+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
