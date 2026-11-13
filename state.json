@@ -1,13 +1,5 @@
 {
  "seen": [
-  "hn:49943451",
-  "hn:49944227",
-  "6abeda5b53d3a98ae3a1a99b",
-  "https://techcrunch.com/?p=3173505",
-  "hn:49946403",
-  "hn:49946567",
-  "lobsters:dldhpw",
-  "https://www.theregister.com/a/5300506",
   "gTcd7kmEFDQpwXhV5upQHR",
   "https://developers.slashdot.org/story/26/10/03/0125235/someone-got-doom-in-an-sql-database?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://3dnews.ru/1149420/#6ac07bbf742eece77d8b456c",
@@ -2999,18 +2991,26 @@
   "c9fde6ef07ea56b60b22f0379dd19277",
   "bfa311ffa76f4e699be8530dad8982e0",
   "ba8bfb4f414f658a833f5f2009e644da",
-  "e92e96ce056e593d438e66976eab6e8a"
+  "e92e96ce056e593d438e66976eab6e8a",
+  "https://www.neowin.net/news/openai-launches-daybreak-red-team-and-defense-factory-to-fix-vulnerabilities-using-ai/",
+  "https://www.securityweek.com/?p=50762",
+  "https://www.infoq.com/podcasts/accountability-age-ai-coding-summary/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://www.cnews.ru/news/line/2026-11-13_2gis_masshtabno_obnovil_navigator",
+  "https://www.theregister.com/a/5309316",
+  "https://www.neowin.net/news/housefishing-how-scammers-are-excessively-altering-real-estate-photos-using-ai/",
+  "https://www.cnews.ru/news/line/2026-11-13_sibur_zapustil_ekologicheskuyu",
+  "8aJD62thuw5CE5pNJ7Bqmg"
  ],
  "posted": {
   "viral": 763,
-  "editorial": 1044
+  "editorial": 1049
  },
  "recent_labels": [
-  "The Next Web",
-  "Hacker News",
-  "vc.ru",
-  "Hi-Tech Mail",
-  "Hi-Tech Mail"
+  "Neowin",
+  "InfoQ",
+  "CNews",
+  "Neowin",
+  "TechRadar"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -10566,55 +10566,54 @@
    "pool": "editorial",
    "score": 0.19592,
    "at": "2026-11-13T08:54:35.423729+00:00"
+  },
+  {
+   "title": "تلاش OpenAI برای ارتقای امنیت سایبری با ابزارهای هوش مصنوعی",
+   "url": "https://www.neowin.net/news/openai-launches-daybreak-red-team-and-defense-factory-to-fix-vulnerabilities-using-ai/?utm_source=rss",
+   "source": "Neowin",
+   "label": "Neowin",
+   "pool": "editorial",
+   "score": 0.40821,
+   "at": "2026-11-13T09:54:11.258790+00:00"
+  },
+  {
+   "title": "مسئولیت‌پذیری مهندسان در عصر تولید کد با هوش مصنوعی",
+   "url": "https://www.infoq.com/podcasts/accountability-age-ai-coding-summary/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "label": "InfoQ",
+   "pool": "editorial",
+   "score": 0.14392,
+   "at": "2026-11-13T09:54:17.521642+00:00"
+  },
+  {
+   "title": "به‌روزرسانی بزرگ اپلیکیشن 2ГИС برای مسیریابی حمل‌ونقل عمومی",
+   "url": "https://www.cnews.ru/news/line/2026-11-13_2gis_masshtabno_obnovil_navigator",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.16105,
+   "at": "2026-11-13T09:54:29.648500+00:00"
+  },
+  {
+   "title": "کلاهبرداری در بازار مسکن با استفاده از تصاویر دستکاری‌شده هوش مصنوعی",
+   "url": "https://www.neowin.net/news/housefishing-how-scammers-are-excessively-altering-real-estate-photos-using-ai/?utm_source=rss",
+   "source": "Neowin",
+   "label": "Neowin",
+   "pool": "editorial",
+   "score": 0.18443,
+   "at": "2026-11-13T09:54:40.447846+00:00"
+  },
+  {
+   "title": "هزینه‌های پنهان استفاده از لپ‌تاپ‌های قدیمی به عنوان کلاینت‌های سبک",
+   "url": "https://www.techradar.com/pro/the-hidden-costs-of-repurposing-laptops",
+   "source": "TechRadar",
+   "label": "TechRadar",
+   "pool": "editorial",
+   "score": 0.20633,
+   "at": "2026-11-13T09:54:48.357547+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "2.8-trillion-parameter",
-    "alone",
-    "cpu",
-    "homelabber",
-    "memory",
-    "model",
-    "optane",
-    "run",
-    "second-gen",
-    "sticks"
-   ],
-   "at": "2026-11-08T12:54:03.188859+00:00"
-  },
-  {
-   "sig": [
-    "aaron",
-    "fsf",
-    "legacy",
-    "lives",
-    "swartz",
-    "today",
-    "would"
-   ],
-   "at": "2026-11-08T12:54:09.065640+00:00"
-  },
-  {
-   "sig": [
-    "284b",
-    "64gb",
-    "deepseek",
-    "gpu",
-    "llama-modchip",
-    "ram"
-   ],
-   "at": "2026-11-08T13:53:40.736292+00:00"
-  },
-  {
-   "sig": [
-    "coding",
-    "llms",
-    "using"
-   ],
-   "at": "2026-11-08T13:53:49.267235+00:00"
-  },
   {
    "sig": [
     "battery",
@@ -14643,6 +14642,59 @@
     "surveillance"
    ],
    "at": "2026-11-13T08:53:46.668019+00:00"
+  },
+  {
+   "sig": [
+    "daybreak",
+    "defense",
+    "factory",
+    "fix",
+    "launches",
+    "openai",
+    "red",
+    "security",
+    "team",
+    "tools",
+    "unveils",
+    "using",
+    "vulnerabilities"
+   ],
+   "at": "2026-11-13T09:54:11.258790+00:00"
+  },
+  {
+   "sig": [
+    "accountability",
+    "age",
+    "coding",
+    "doing",
+    "podcast",
+    "right",
+    "summary",
+    "thing"
+   ],
+   "at": "2026-11-13T09:54:17.521642+00:00"
+  },
+  {
+   "sig": [
+    "altering",
+    "estate",
+    "excessively",
+    "housefishing",
+    "photos",
+    "real",
+    "scammers",
+    "using"
+   ],
+   "at": "2026-11-13T09:54:40.447846+00:00"
+  },
+  {
+   "sig": [
+    "costs",
+    "hidden",
+    "laptops",
+    "repurposing"
+   ],
+   "at": "2026-11-13T09:54:48.357547+00:00"
   }
  ],
  "snapshots": {
@@ -17060,11 +17112,11 @@
   "Simon Willison": 2,
   "Xe Iaso": 3,
   "Simon Willison RSS": 1,
-  "CNews": 19,
+  "CNews": 20,
   "vc.ru": 2,
   "Hi-Tech Mail": 8,
   "Slashdot": 2,
-  "The Register": 6,
+  "The Register": 7,
   "Google AI": 1,
   "Neowin": 1,
   "TechSpot": 1,
@@ -17073,9 +17125,9 @@
  },
  "posts_by_label": {
   "Engadget": 44,
-  "Neowin": 23,
+  "Neowin": 25,
   "Wired": 24,
-  "TechRadar": 36,
+  "TechRadar": 37,
   "Slashdot": 31,
   "404 Media": 40,
   "Xe Iaso": 4,
@@ -17091,7 +17143,7 @@
   "TechSpot": 20,
   "The Hacker News": 36,
   "Latent Space": 7,
-  "InfoQ": 17,
+  "InfoQ": 18,
   "The Register": 26,
   "Phoronix": 25,
   "The Next Web": 26,
@@ -17105,7 +17157,7 @@
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 50,
+  "CNews": 51,
   "Emily M. Bender": 4,
   "antirez": 5,
   "OpenAI": 3,
@@ -17117,9 +17169,9 @@
  },
  "last_post": {
   "Engadget": "2026-11-12T14:55:09.676292+00:00",
-  "Neowin": "2026-11-13T06:57:00.442000+00:00",
+  "Neowin": "2026-11-13T09:54:40.447965+00:00",
   "Wired": "2026-11-12T14:54:52.658528+00:00",
-  "TechRadar": "2026-11-12T10:53:59.382125+00:00",
+  "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-13T04:54:43.870063+00:00",
   "404 Media": "2026-11-13T01:53:54.628589+00:00",
   "Xe Iaso": "2026-11-11T14:54:18.284123+00:00",
@@ -17135,7 +17187,7 @@
   "TechSpot": "2026-11-13T03:53:47.498872+00:00",
   "The Hacker News": "2026-11-13T05:56:48.238641+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
-  "InfoQ": "2026-11-13T06:54:59.180068+00:00",
+  "InfoQ": "2026-11-13T09:54:17.521781+00:00",
   "The Register": "2026-11-13T06:56:28.245211+00:00",
   "Phoronix": "2026-11-12T11:53:54.012322+00:00",
   "The Next Web": "2026-11-13T07:54:30.228023+00:00",
@@ -17149,7 +17201,7 @@
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-13T07:54:18.362810+00:00",
+  "CNews": "2026-11-13T09:54:29.648606+00:00",
   "Emily M. Bender": "2026-11-12T16:56:40.304536+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
