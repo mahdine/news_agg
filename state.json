@@ -1,12 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxaf4jvmxs2n",
-  "hn:49990224",
-  "hn:49990470",
-  "https://3dnews.ru/1149573/#6ac6048d742eecda3f8b457f",
-  "35fcfa2a646b505cdd0eae89a1248950",
-  "c09cca6e390679c2b37e12afd5bcfa37",
-  "https://www.neowin.net/news/google-launches-nano-banana-21-with-better-editing-and-subject-consistency/",
   "https://www.engadget.com/2280302/microsoft-surface-laptop-ultra-specs/",
   "https://www.theverge.com/?post_type=vm_stream&p=1007147",
   "https://www.theverge.com/?p=1006378",
@@ -2999,18 +2992,25 @@
   "hn:50482992",
   "hn:50483480",
   "https://techcrunch.com/?p=3188328",
-  "https://www.theregister.com/a/5309649"
+  "https://www.theregister.com/a/5309649",
+  "hn:50483611",
+  "hn:50483875",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n27aiwihl226",
+  "https://www.securityweek.com/?p=50780",
+  "TheNextWeb=70f807c336998a9566a4e0041bec12b7",
+  "https://www.phoronix.com/news/Linux-7.5-hwpoison-panic",
+  "https://9to5mac.com/?p=1079138"
  ],
  "posted": {
-  "viral": 770,
-  "editorial": 1066
+  "viral": 771,
+  "editorial": 1070
  },
  "recent_labels": [
-  "Hi-Tech Mail",
   "Hacker News",
-  "Lobsters",
-  "Hacker News",
-  "TechCrunch AI"
+  "SecurityWeek",
+  "The Next Web",
+  "Phoronix",
+  "9to5Mac"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7334,73 +7334,54 @@
    "pool": "editorial",
    "score": 0.2628,
    "at": "2026-11-13T14:55:22.519086+00:00"
+  },
+  {
+   "title": "برتری‌های زبان برنامه‌نویسی Zig نسبت به C در توسعه سیستم",
+   "url": "https://www.mtsoukalos.eu/2026/11/why-zig-over-c-for-systems-programming/",
+   "source": "mtsoukalos.eu",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.02615,
+   "at": "2026-11-13T15:53:55.027047+00:00"
+  },
+  {
+   "title": "گزارش هفتگی حوادث امنیتی و آسیب‌پذیری‌های سایبری در حوزه‌های مختلف",
+   "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+   "source": "SecurityWeek",
+   "label": "SecurityWeek",
+   "pool": "editorial",
+   "score": 0.19143,
+   "at": "2026-11-13T15:54:47.414924+00:00"
+  },
+  {
+   "title": "بدهی ۵.۵ میلیارد دلاری شرکت Nscale پیش از عرضه عمومی سهام",
+   "url": "https://thenextweb.com/news/nscale-ipo-filing-debt-nvidia-anthropic",
+   "source": "The Next Web",
+   "label": "The Next Web",
+   "pool": "editorial",
+   "score": 0.14659,
+   "at": "2026-11-13T15:54:54.810739+00:00"
+  },
+  {
+   "title": "ابزار جدید برای تست کرش کردن هسته در لینوکس ۷.۵",
+   "url": "https://www.phoronix.com/news/Linux-7.5-hwpoison-panic",
+   "source": "Phoronix",
+   "label": "Phoronix",
+   "pool": "editorial",
+   "score": 0.19335,
+   "at": "2026-11-13T15:55:06.778600+00:00"
+  },
+  {
+   "title": "معماری جدید اپل برای پردازش امن داده‌های محیطی در دستگاه‌ها",
+   "url": "https://9to5mac.com/2026/11/13/security-bite-apple-details-secure-exclaves-a-glimpse-at-its-ambient-computing-future/",
+   "source": "9to5Mac",
+   "label": "9to5Mac",
+   "pool": "editorial",
+   "score": 0.20633,
+   "at": "2026-11-13T15:55:14.559435+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "g502",
-    "lights",
-    "lightspeed",
-    "logitech",
-    "price",
-    "review",
-    "same"
-   ],
-   "at": "2026-11-08T17:59:18.112221+00:00"
-  },
-  {
-   "sig": [
-    "200mm",
-    "creates",
-    "diamond",
-    "first",
-    "foundry",
-    "single-crystal",
-    "wafer",
-    "world"
-   ],
-   "at": "2026-11-08T18:00:16.673949+00:00"
-  },
-  {
-   "sig": [
-    "apps",
-    "behind",
-    "building",
-    "features",
-    "feel",
-    "motorola",
-    "phones",
-    "pixel",
-    "quietly",
-    "samsung",
-    "times"
-   ],
-   "at": "2026-11-08T18:01:35.808348+00:00"
-  },
-  {
-   "sig": [
-    "ports",
-    "reason",
-    "teal",
-    "usb"
-   ],
-   "at": "2026-11-08T18:01:41.567845+00:00"
-  },
-  {
-   "sig": [
-    "desktop",
-    "dux",
-    "file",
-    "free",
-    "manager",
-    "open-source",
-    "shell",
-    "theming",
-    "wayland"
-   ],
-   "at": "2026-11-09T01:53:49.141290+00:00"
-  },
   {
    "sig": [
     "dmarc",
@@ -11465,21 +11446,76 @@
     "teams"
    ],
    "at": "2026-11-13T14:55:22.519086+00:00"
+  },
+  {
+   "sig": [
+    "programming",
+    "systems",
+    "zig"
+   ],
+   "at": "2026-11-13T15:53:55.027047+00:00"
+  },
+  {
+   "sig": [
+    "baker",
+    "breach",
+    "car",
+    "cisa",
+    "connected",
+    "data",
+    "director",
+    "hacking",
+    "news",
+    "nominee",
+    "other",
+    "tilly"
+   ],
+   "at": "2026-11-13T15:54:47.414924+00:00"
+  },
+  {
+   "sig": [
+    "5.5bn",
+    "ahead",
+    "debt",
+    "harder",
+    "hits",
+    "ipo",
+    "leans",
+    "nscale",
+    "nvidia"
+   ],
+   "at": "2026-11-13T15:54:54.810739+00:00"
+  },
+  {
+   "sig": [
+    "7.5",
+    "crashing",
+    "hwpoison-panic",
+    "include",
+    "intentionally",
+    "linux",
+    "system",
+    "tool"
+   ],
+   "at": "2026-11-13T15:55:06.778600+00:00"
+  },
+  {
+   "sig": [
+    "ambient",
+    "apple",
+    "bite",
+    "computing",
+    "details",
+    "exclaves",
+    "future",
+    "glimpse",
+    "secure",
+    "security"
+   ],
+   "at": "2026-11-13T15:55:14.559435+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzc7ptyraseu": [
-   139,
-   "2026-11-02T02:53:47.578991+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzcavjjq2x2a": [
-   272,
-   "2026-11-02T03:53:42.903594+00:00"
-  ],
-  "lobsters:zjjvbo": [
-   28,
-   "2026-11-02T03:53:42.903594+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzcf43bo3ceu": [
    88,
    "2026-11-02T04:53:50.639635+00:00"
@@ -13867,6 +13903,18 @@
   "lobsters:4bvg9z": [
    26,
    "2026-11-13T14:53:41.662104+00:00"
+  ],
+  "hn:50483875": [
+   257,
+   "2026-11-13T15:53:42.339934+00:00"
+  ],
+  "hn:50483611": [
+   128,
+   "2026-11-13T15:53:42.339934+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n27aiwihl226": [
+   92,
+   "2026-11-13T15:53:42.339934+00:00"
   ]
  },
  "skips": {
@@ -13875,9 +13923,9 @@
   "Wired": 25,
   "TechRadar": 9,
   "Lobsters": 6,
-  "Hacker News": 33,
+  "Hacker News": 34,
   "The Next Web": 1,
-  "404 Media": 10,
+  "404 Media": 11,
   "Emily M. Bender": 3,
   "Simon Willison": 2,
   "Xe Iaso": 3,
@@ -13908,22 +13956,22 @@
   "Lobsters": 20,
   "Tom's Hardware": 39,
   "ZDNet": 6,
-  "9to5Mac": 18,
+  "9to5Mac": 19,
   "EFF": 2,
-  "Hacker News": 107,
+  "Hacker News": 108,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
   "InfoQ": 18,
   "The Register": 28,
-  "Phoronix": 26,
-  "The Next Web": 26,
+  "Phoronix": 27,
+  "The Next Web": 27,
   "Android Police": 20,
   "Ars Technica": 2,
   "Simon Willison": 3,
   "Simon Willison RSS": 6,
   "vc.ru": 15,
-  "SecurityWeek": 17,
+  "SecurityWeek": 18,
   "Hi-Tech Mail": 50,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
@@ -13952,22 +14000,22 @@
   "Lobsters": "2026-11-13T14:54:45.271096+00:00",
   "Tom's Hardware": "2026-11-13T11:53:52.167150+00:00",
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
-  "9to5Mac": "2026-11-12T14:56:06.410255+00:00",
+  "9to5Mac": "2026-11-13T15:55:14.559542+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-13T14:54:58.136655+00:00",
+  "Hacker News": "2026-11-13T15:53:55.027170+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
   "InfoQ": "2026-11-13T09:54:17.521781+00:00",
   "The Register": "2026-11-13T12:55:20.731082+00:00",
-  "Phoronix": "2026-11-13T11:54:00.388760+00:00",
-  "The Next Web": "2026-11-13T07:54:30.228023+00:00",
+  "Phoronix": "2026-11-13T15:55:06.778710+00:00",
+  "The Next Web": "2026-11-13T15:54:54.810852+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
   "Ars Technica": "2026-11-11T17:53:47.755359+00:00",
   "Simon Willison": "2026-11-13T03:54:17.433642+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-13T08:54:02.885975+00:00",
-  "SecurityWeek": "2026-11-13T05:54:16.992665+00:00",
+  "SecurityWeek": "2026-11-13T15:54:47.415043+00:00",
   "Hi-Tech Mail": "2026-11-13T13:54:48.144614+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
