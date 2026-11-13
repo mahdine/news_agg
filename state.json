@@ -1,11 +1,5 @@
 {
  "seen": [
-  "https://www.engadget.com/2280302/microsoft-surface-laptop-ultra-specs/",
-  "https://www.theverge.com/?post_type=vm_stream&p=1007147",
-  "https://www.theverge.com/?p=1006378",
-  "https://www.theverge.com/?p=1006445",
-  "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
-  "https://www.neowin.net/news/users-want-microsoft-to-release-windows-12-at-todays-event/",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxcmbxa2sk2s",
   "lobsters:0gvyif",
   "https://www.theregister.com/a/5301831",
@@ -2999,18 +2993,24 @@
   "https://www.securityweek.com/?p=50780",
   "TheNextWeb=70f807c336998a9566a4e0041bec12b7",
   "https://www.phoronix.com/news/Linux-7.5-hwpoison-panic",
-  "https://9to5mac.com/?p=1079138"
+  "https://9to5mac.com/?p=1079138",
+  "lobsters:9oq6fr",
+  "hn:50483759",
+  "hn:50484235",
+  "hn:50484421",
+  "hn:50484496",
+  "hn:50484658"
  ],
  "posted": {
-  "viral": 771,
+  "viral": 776,
   "editorial": 1070
  },
  "recent_labels": [
+  "Lobsters",
   "Hacker News",
-  "SecurityWeek",
-  "The Next Web",
-  "Phoronix",
-  "9to5Mac"
+  "Hacker News",
+  "Hacker News",
+  "Hacker News"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7379,92 +7379,54 @@
    "pool": "editorial",
    "score": 0.20633,
    "at": "2026-11-13T15:55:14.559435+00:00"
+  },
+  {
+   "title": "ضرورت ظهور جایگزین‌های متن‌باز برای سلطه‌ی اندروید و iOS",
+   "url": "https://blog.ovalerio.net/archives/3359",
+   "source": "blog.ovalerio.net",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.09152,
+   "at": "2026-11-13T16:53:53.486629+00:00"
+  },
+  {
+   "title": "موج مخالفت دانشجویان آمریکایی با دوربین‌های پلاک‌خوان در دانشگاه‌ها",
+   "url": "https://www.theguardian.com/technology/ng-interactive/2026/nov/13/universities-drop-flock-camera-contracts",
+   "source": "theguardian.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.14867,
+   "at": "2026-11-13T16:54:34.159231+00:00"
+  },
+  {
+   "title": "چشم‌انداز فنی جدید بنیاد Haskell برای بهبود اکوسیستم برنامه‌نویسی",
+   "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+   "source": "discourse.haskell.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.16403,
+   "at": "2026-11-13T16:55:11.029461+00:00"
+  },
+  {
+   "title": "وضعیت پیاده‌سازی کیف پول دیجیتال اتحادیه اروپا در کشورهای عضو",
+   "url": "https://myid.ie/business/eu-digital-wallet-tracker/",
+   "source": "myid.ie",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.04131,
+   "at": "2026-11-13T16:55:20.370117+00:00"
+  },
+  {
+   "title": "چالش‌های هوش مصنوعی در توسعه نرم‌افزار و واقعیت‌های برنامه‌نویسی",
+   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+   "source": "youtube.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.20733,
+   "at": "2026-11-13T16:55:27.677102+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "dmarc",
-    "domains",
-    "email",
-    "outlook.com",
-    "quietly",
-    "rejecting",
-    "without"
-   ],
-   "at": "2026-11-09T01:53:55.063367+00:00"
-  },
-  {
-   "sig": [
-    "enough",
-    "ford",
-    "paul",
-    "web"
-   ],
-   "at": "2026-11-09T01:54:01.347549+00:00"
-  },
-  {
-   "sig": [
-    "andy",
-    "ceo",
-    "culture",
-    "employees",
-    "fear",
-    "internal",
-    "manifesto",
-    "manifestos-f",
-    "media",
-    "messages",
-    "missed",
-    "obtained",
-    "operating",
-    "proton",
-    "starts",
-    "told",
-    "under",
-    "where",
-    "www.404media.co",
-    "yen"
-   ],
-   "at": "2026-11-09T01:54:07.891674+00:00"
-  },
-  {
-   "sig": [
-    "across",
-    "aggressively",
-    "andy",
-    "came",
-    "ceo",
-    "concerns",
-    "created",
-    "culture",
-    "despite",
-    "fear",
-    "investigation",
-    "media",
-    "move",
-    "proton",
-    "protons-ceo",
-    "published",
-    "pushing",
-    "security",
-    "www.404media.co",
-    "yen"
-   ],
-   "at": "2026-11-09T01:54:13.585628+00:00"
-  },
-  {
-   "sig": [
-    "articles",
-    "crowdsource",
-    "llm",
-    "lobste.rs",
-    "scans",
-    "submitted",
-    "wants"
-   ],
-   "at": "2026-11-09T02:53:49.622761+00:00"
-  },
   {
    "sig": [
     "disks",
@@ -11513,45 +11475,63 @@
     "security"
    ],
    "at": "2026-11-13T15:55:14.559435+00:00"
+  },
+  {
+   "sig": [
+    "least",
+    "need",
+    "option",
+    "third"
+   ],
+   "at": "2026-11-13T16:53:53.486629+00:00"
+  },
+  {
+   "sig": [
+    "cameras",
+    "flock",
+    "students",
+    "surveillance",
+    "tell",
+    "university"
+   ],
+   "at": "2026-11-13T16:54:34.159231+00:00"
+  },
+  {
+   "sig": [
+    "ecosystem",
+    "haskell",
+    "technical",
+    "vision"
+   ],
+   "at": "2026-11-13T16:55:11.029461+00:00"
+  },
+  {
+   "sig": [
+    "board",
+    "digital",
+    "every",
+    "identity",
+    "rollout",
+    "state",
+    "wallet"
+   ],
+   "at": "2026-11-13T16:55:20.370117+00:00"
+  },
+  {
+   "sig": [
+    "blow",
+    "coding",
+    "jonathan",
+    "same",
+    "software",
+    "solved",
+    "still",
+    "video"
+   ],
+   "at": "2026-11-13T16:55:27.677102+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzcf43bo3ceu": [
-   88,
-   "2026-11-02T04:53:50.639635+00:00"
-  ],
-  "hn:50332163": [
-   72,
-   "2026-11-02T05:53:55.673295+00:00"
-  ],
-  "hn:50332086": [
-   121,
-   "2026-11-02T05:53:55.673295+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzck5d2pfa2n": [
-   120,
-   "2026-11-02T05:53:55.673295+00:00"
-  ],
-  "hn:50331784": [
-   101,
-   "2026-11-02T06:53:41.533857+00:00"
-  ],
-  "hn:50331158": [
-   155,
-   "2026-11-02T06:53:41.533857+00:00"
-  ],
-  "hn:50333339": [
-   98,
-   "2026-11-02T07:53:43.594501+00:00"
-  ],
-  "hn:50331957": [
-   73,
-   "2026-11-02T08:53:50.045127+00:00"
-  ],
-  "lobsters:0yxkvs": [
-   30,
-   "2026-11-02T10:53:46.736746+00:00"
-  ],
   "hn:50334704": [
    99,
    "2026-11-02T12:53:43.773906+00:00"
@@ -13915,6 +13895,42 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n27aiwihl226": [
    92,
    "2026-11-13T15:53:42.339934+00:00"
+  ],
+  "hn:50485295": [
+   104,
+   "2026-11-13T16:53:45.676229+00:00"
+  ],
+  "hn:50484658": [
+   107,
+   "2026-11-13T16:53:45.676229+00:00"
+  ],
+  "hn:50484496": [
+   69,
+   "2026-11-13T16:53:45.676229+00:00"
+  ],
+  "hn:50484421": [
+   259,
+   "2026-11-13T16:53:45.676229+00:00"
+  ],
+  "hn:50484235": [
+   101,
+   "2026-11-13T16:53:45.676229+00:00"
+  ],
+  "hn:50484006": [
+   174,
+   "2026-11-13T16:53:45.676229+00:00"
+  ],
+  "hn:50483759": [
+   158,
+   "2026-11-13T16:53:45.676229+00:00"
+  ],
+  "lobsters:9oq6fr": [
+   34,
+   "2026-11-13T16:53:45.676229+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n27eybepaf2c": [
+   70,
+   "2026-11-13T16:53:45.676229+00:00"
   ]
  },
  "skips": {
@@ -13923,7 +13939,7 @@
   "Wired": 25,
   "TechRadar": 9,
   "Lobsters": 6,
-  "Hacker News": 34,
+  "Hacker News": 35,
   "The Next Web": 1,
   "404 Media": 11,
   "Emily M. Bender": 3,
@@ -13953,12 +13969,12 @@
   "The Verge": 22,
   "Cloudflare": 1,
   "TechCrunch AI": 19,
-  "Lobsters": 20,
+  "Lobsters": 21,
   "Tom's Hardware": 39,
   "ZDNet": 6,
   "9to5Mac": 19,
   "EFF": 2,
-  "Hacker News": 108,
+  "Hacker News": 112,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -13997,12 +14013,12 @@
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-13T14:55:22.519235+00:00",
-  "Lobsters": "2026-11-13T14:54:45.271096+00:00",
+  "Lobsters": "2026-11-13T16:53:53.486751+00:00",
   "Tom's Hardware": "2026-11-13T11:53:52.167150+00:00",
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T15:55:14.559542+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-13T15:53:55.027170+00:00",
+  "Hacker News": "2026-11-13T16:55:27.677217+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
