@@ -1,13 +1,5 @@
 {
  "seen": [
-  "https://www.securityweek.com/?p=49716",
-  "hn:49918161",
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwsfhbltis2o",
-  "qbABHvfvACUs4KbMRCNkPY",
-  "711fb89cf970bddc3e4649e0c9d7f371",
-  "https://www.techspot.com/news/114064-hp-joins-macbook-neo-fight-colorful-omnibook-5.html",
-  "https://9to5google.com/2026/10/01/hp-omnibook-5-macbook-neo-competitor-699-oled-display-plenty-of-catches/",
-  "hn:49926069",
   "hn:49929489",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwvkzjudgs2z",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mww3hm6ozk2c",
@@ -2999,18 +2991,26 @@
   "https://www.infoq.com/news/2026/11/dropbox-cookie-auditor/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "https://www.theregister.com/a/5309264",
   "https://www.neowin.net/news/analyst-samsung-remains-king-of-foldables-holds-69-of-foldable-market/",
-  "1515382f4751f38d7b1e15f7d746e19a"
+  "1515382f4751f38d7b1e15f7d746e19a",
+  "hn:50477649",
+  "hn:50478635",
+  "https://www.cnews.ru/news/line/2026-11-13_eshche_49_sel_v_saratovskoj_oblasti",
+  "https://www.cnews.ru/news/line/2026-11-13_sbermobajl_personaliziroval",
+  "https://www.cnews.ru/news/top/2026-11-13_hakery_skomprometirovali",
+  "https://www.cnews.ru/news/line/2026-11-13_ladcraft_zapuskaet_fabriku",
+  "https://www.cnews.ru/news/line/2026-11-13_bell_integrator_fabricaoneai_prinyala",
+  "TheNextWeb=290ddef865a593c856f712ab85280d30"
  ],
  "posted": {
-  "viral": 761,
-  "editorial": 1037
+  "viral": 762,
+  "editorial": 1041
  },
  "recent_labels": [
-  "vc.ru",
-  "InfoQ",
-  "The Register",
-  "Neowin",
-  "Hi-Tech Mail"
+  "Hacker News",
+  "CNews",
+  "CNews",
+  "CNews",
+  "The Next Web"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -10485,39 +10485,54 @@
    "pool": "editorial",
    "score": 0.09617,
    "at": "2026-11-13T06:57:13.483659+00:00"
+  },
+  {
+   "title": "پشتیبانی Brave Search API از پرداخت‌های خودکار با پروتکل x402",
+   "url": "https://brave.com/blog/search-api-agentic-payments/",
+   "source": "brave.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.13223,
+   "at": "2026-11-13T07:53:44.067097+00:00"
+  },
+  {
+   "title": "قابلیت جدید SberMobile برای مدیریت شخصی‌سازی‌شده تماس‌های اسپم",
+   "url": "https://www.cnews.ru/news/line/2026-11-13_sbermobajl_personaliziroval",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.15374,
+   "at": "2026-11-13T07:53:56.545338+00:00"
+  },
+  {
+   "title": "نفوذ به سرورهای شرکت آلمانی Quantum Systems و انتشار بدافزار در به‌روزرسانی پهپادها",
+   "url": "https://www.cnews.ru/news/top/2026-11-13_hakery_skomprometirovali",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.15926,
+   "at": "2026-11-13T07:54:07.454190+00:00"
+  },
+  {
+   "title": "راه‌اندازی پلتفرم Ladcraft برای یکپارچه‌سازی هوش مصنوعی در فرآیندهای تجاری",
+   "url": "https://www.cnews.ru/news/line/2026-11-13_ladcraft_zapuskaet_fabriku",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.16916,
+   "at": "2026-11-13T07:54:18.362716+00:00"
+  },
+  {
+   "title": "نشست سران اتحادیه اروپا برای بررسی استقلال در حوزه هوش مصنوعی",
+   "url": "https://thenextweb.com/news/eu-ai-summit-dublin-first-leaders-meeting",
+   "source": "The Next Web",
+   "label": "The Next Web",
+   "pool": "editorial",
+   "score": 0.18845,
+   "at": "2026-11-13T07:54:30.227901+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "actually",
-    "ai-powered",
-    "cooking",
-    "good",
-    "modifier",
-    "nyt",
-    "pretty",
-    "recipe"
-   ],
-   "at": "2026-11-08T12:53:44.075368+00:00"
-  },
-  {
-   "sig": [
-    "away",
-    "drone",
-    "feeds",
-    "intercepts",
-    "miles",
-    "pocket-sized",
-    "receiver",
-    "russian",
-    "six",
-    "strike",
-    "ukrainian",
-    "video"
-   ],
-   "at": "2026-11-08T12:53:49.948587+00:00"
-  },
   {
    "sig": [
     "brava",
@@ -14567,17 +14582,34 @@
     "samsung"
    ],
    "at": "2026-11-13T06:57:00.441885+00:00"
+  },
+  {
+   "sig": [
+    "accepts",
+    "agentic",
+    "api",
+    "brave",
+    "payments",
+    "protocol",
+    "search",
+    "via",
+    "x402"
+   ],
+   "at": "2026-11-13T07:53:44.067097+00:00"
+  },
+  {
+   "sig": [
+    "bloc",
+    "dublin",
+    "first",
+    "leaders",
+    "meet",
+    "summit"
+   ],
+   "at": "2026-11-13T07:54:30.227901+00:00"
   }
  ],
  "snapshots": {
-  "hn:50324533": [
-   65,
-   "2026-11-01T17:53:41.831928+00:00"
-  ],
-  "hn:50327266": [
-   75,
-   "2026-11-01T17:59:20.012582+00:00"
-  ],
   "hn:50330005": [
    150,
    "2026-11-01T22:12:27.869784+00:00"
@@ -16938,10 +16970,6 @@
    230,
    "2026-11-13T03:53:45.876128+00:00"
   ],
-  "hn:50473190": [
-   628,
-   "2026-11-13T05:54:06.206097+00:00"
-  ],
   "hn:50472260": [
    513,
    "2026-11-13T03:53:45.876128+00:00"
@@ -16949,10 +16977,6 @@
   "hn:50471731": [
    1694,
    "2026-11-13T03:53:45.876128+00:00"
-  ],
-  "hn:50471668": [
-   403,
-   "2026-11-13T04:53:42.460573+00:00"
   ],
   "hn:50470445": [
    127,
@@ -16966,9 +16990,25 @@
    100,
    "2026-11-13T03:53:45.876128+00:00"
   ],
+  "hn:50471668": [
+   403,
+   "2026-11-13T04:53:42.460573+00:00"
+  ],
   "hn:50477331": [
    219,
    "2026-11-13T04:53:42.460573+00:00"
+  ],
+  "hn:50473190": [
+   628,
+   "2026-11-13T05:54:06.206097+00:00"
+  ],
+  "hn:50478635": [
+   152,
+   "2026-11-13T07:53:41.904729+00:00"
+  ],
+  "hn:50477649": [
+   143,
+   "2026-11-13T07:53:41.904729+00:00"
   ]
  },
  "skips": {
@@ -16977,14 +17017,14 @@
   "Wired": 21,
   "TechRadar": 8,
   "Lobsters": 5,
-  "Hacker News": 28,
+  "Hacker News": 29,
   "The Next Web": 1,
   "404 Media": 10,
   "Emily M. Bender": 3,
   "Simon Willison": 2,
   "Xe Iaso": 3,
   "Simon Willison RSS": 1,
-  "CNews": 17,
+  "CNews": 19,
   "vc.ru": 2,
   "Hi-Tech Mail": 6,
   "Slashdot": 2,
@@ -17010,14 +17050,14 @@
   "ZDNet": 6,
   "9to5Mac": 18,
   "EFF": 2,
-  "Hacker News": 101,
+  "Hacker News": 102,
   "TechSpot": 20,
   "The Hacker News": 36,
   "Latent Space": 7,
   "InfoQ": 17,
   "The Register": 26,
   "Phoronix": 25,
-  "The Next Web": 25,
+  "The Next Web": 26,
   "Android Police": 20,
   "Ars Technica": 2,
   "Simon Willison": 3,
@@ -17028,7 +17068,7 @@
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 47,
+  "CNews": 50,
   "Emily M. Bender": 4,
   "antirez": 5,
   "OpenAI": 3,
@@ -17054,14 +17094,14 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-12T14:56:06.410255+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-13T03:54:11.938735+00:00",
+  "Hacker News": "2026-11-13T07:53:44.067209+00:00",
   "TechSpot": "2026-11-13T03:53:47.498872+00:00",
   "The Hacker News": "2026-11-13T05:56:48.238641+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
   "InfoQ": "2026-11-13T06:54:59.180068+00:00",
   "The Register": "2026-11-13T06:56:28.245211+00:00",
   "Phoronix": "2026-11-12T11:53:54.012322+00:00",
-  "The Next Web": "2026-11-12T10:54:08.198232+00:00",
+  "The Next Web": "2026-11-13T07:54:30.228023+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
   "Ars Technica": "2026-11-11T17:53:47.755359+00:00",
   "Simon Willison": "2026-11-13T03:54:17.433642+00:00",
@@ -17072,7 +17112,7 @@
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-13T05:56:31.316773+00:00",
+  "CNews": "2026-11-13T07:54:18.362810+00:00",
   "Emily M. Bender": "2026-11-12T16:56:40.304536+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
