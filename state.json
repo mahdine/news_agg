@@ -1,12 +1,5 @@
 {
  "seen": [
-  "hn:49870417",
-  "https://www.engadget.com/2267714/how-to-improve-carplay-navigation-use-google-maps-not-apple-maps/",
-  "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-  "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-  "https://www.securityweek.com/?p=49615",
-  "hn:49880312",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwm3cwvrf225",
   "6ab697dca0aca56b43c1338d",
   "https://3dnews.ru/1149184/#6abb6566742eec30698b4575",
   "3165122",
@@ -2999,18 +2992,25 @@
   "hn:50471761",
   "lobsters:81hnjw",
   "hn:50472490",
-  "hn:50475713"
+  "hn:50475713",
+  "https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html",
+  "hn:50476586",
+  "hn:50470445",
+  "hn:50471731",
+  "hn:50475735",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n25qivmljs2t",
+  "hn:50472260"
  ],
  "posted": {
-  "viral": 757,
-  "editorial": 1021
+  "viral": 761,
+  "editorial": 1022
  },
  "recent_labels": [
+  "TechSpot",
   "Hacker News",
   "Hacker News",
   "Hacker News",
-  "Lobsters",
-  "Hacker News"
+  "Simon Willison"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -10305,64 +10305,54 @@
    "pool": "viral",
    "score": 0.03203,
    "at": "2026-11-13T02:55:33.085384+00:00"
+  },
+  {
+   "title": "مقابله مدارس شیکاگو با اجبار گوگل برای استفاده از هوش مصنوعی",
+   "url": "https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html",
+   "source": "TechSpot",
+   "label": "TechSpot",
+   "pool": "editorial",
+   "score": 0.18552,
+   "at": "2026-11-13T03:53:47.498737+00:00"
+  },
+  {
+   "title": "CLOUD",
+   "url": "https://www.easel.sh/blog/lambda-web-functions-idle-memory",
+   "source": "easel.sh",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00327,
+   "at": "2026-11-13T03:53:53.129535+00:00"
+  },
+  {
+   "title": "اختلال گسترده در سرویس‌های Microsoft 365",
+   "url": "https://status.cloud.microsoft/",
+   "source": "status.cloud.microsoft",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00243,
+   "at": "2026-11-13T03:53:59.005753+00:00"
+  },
+  {
+   "title": "پیش‌بینی وقوع رکود در بازار هوش مصنوعی",
+   "url": "https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+   "source": "economist.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00305,
+   "at": "2026-11-13T03:54:11.938631+00:00"
+  },
+  {
+   "title": "تغییرات ساختار قیمت‌گذاری و مدل‌های جدید در Gemini 4",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3n25qivmljs2t",
+   "source": "Simon Willison",
+   "label": "Simon Willison",
+   "pool": "viral",
+   "score": 0.06624,
+   "at": "2026-11-13T03:54:17.433538+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "cool",
-    "here",
-    "keep",
-    "overheating",
-    "router",
-    "safely",
-    "working"
-   ],
-   "at": "2026-11-08T08:53:52.160930+00:00"
-  },
-  {
-   "sig": [
-    "disadvantages",
-    "owning",
-    "refrigerators",
-    "smart"
-   ],
-   "at": "2026-11-08T08:53:57.926305+00:00"
-  },
-  {
-   "sig": [
-    "chips",
-    "denies",
-    "dram",
-    "exploring",
-    "memory",
-    "move",
-    "nvidia",
-    "request",
-    "tsmc",
-    "weighing"
-   ],
-   "at": "2026-11-08T09:53:43.517803+00:00"
-  },
-  {
-   "sig": [
-    "backfiring",
-    "mandating",
-    "workplace"
-   ],
-   "at": "2026-11-08T09:53:49.394812+00:00"
-  },
-  {
-   "sig": [
-    "brain",
-    "consumer",
-    "headsets",
-    "privacy",
-    "threaten",
-    "wave"
-   ],
-   "at": "2026-11-08T10:53:43.356709+00:00"
-  },
   {
    "sig": [
     "client",
@@ -14356,13 +14346,75 @@
     "own"
    ],
    "at": "2026-11-13T02:55:33.085384+00:00"
+  },
+  {
+   "sig": [
+    "accept",
+    "chicago",
+    "forced",
+    "google",
+    "lose",
+    "rather",
+    "schools",
+    "search"
+   ],
+   "at": "2026-11-13T03:53:47.498737+00:00"
+  },
+  {
+   "sig": [
+    "aws",
+    "billing",
+    "functions",
+    "keep",
+    "lambda",
+    "last",
+    "memory",
+    "minutes",
+    "request",
+    "web"
+   ],
+   "at": "2026-11-13T03:53:53.129535+00:00"
+  },
+  {
+   "sig": [
+    "degradation",
+    "microsoft",
+    "service"
+   ],
+   "at": "2026-11-13T03:53:59.005753+00:00"
+  },
+  {
+   "sig": [
+    "crash",
+    "expect",
+    "should"
+   ],
+   "at": "2026-11-13T03:54:11.938631+00:00"
+  },
+  {
+   "sig": [
+    "1st",
+    "argon",
+    "carbon",
+    "confusing",
+    "dec",
+    "discount",
+    "each",
+    "gemini",
+    "hydrogen",
+    "orchestrator",
+    "other",
+    "pretty",
+    "price",
+    "pricing",
+    "same",
+    "though",
+    "token"
+   ],
+   "at": "2026-11-13T03:54:17.433538+00:00"
   }
  ],
  "snapshots": {
-  "hn:50327058": [
-   72,
-   "2026-11-01T17:53:41.831928+00:00"
-  ],
   "hn:50324533": [
    65,
    "2026-11-01T17:53:41.831928+00:00"
@@ -16695,32 +16747,12 @@
    119,
    "2026-11-13T01:53:43.470244+00:00"
   ],
-  "hn:50475735": [
-   223,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
-  "hn:50473190": [
-   407,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
   "hn:50472490": [
    407,
    "2026-11-13T02:53:42.161362+00:00"
   ],
-  "hn:50472260": [
-   483,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
   "hn:50471761": [
    196,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
-  "hn:50471731": [
-   1560,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
-  "hn:50471668": [
-   403,
    "2026-11-13T02:53:42.161362+00:00"
   ],
   "hn:50471650": [
@@ -16729,10 +16761,6 @@
   ],
   "hn:50470488": [
    652,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
-  "hn:50470445": [
-   124,
    "2026-11-13T02:53:42.161362+00:00"
   ],
   "hn:50468944": [
@@ -16747,17 +16775,45 @@
    83,
    "2026-11-13T02:53:42.161362+00:00"
   ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n25qivmljs2t": [
-   42,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
-  "hn:50476586": [
-   96,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
   "hn:50475713": [
    112,
    "2026-11-13T02:53:42.161362+00:00"
+  ],
+  "hn:50475735": [
+   230,
+   "2026-11-13T03:53:45.876128+00:00"
+  ],
+  "hn:50473190": [
+   507,
+   "2026-11-13T03:53:45.876128+00:00"
+  ],
+  "hn:50472260": [
+   513,
+   "2026-11-13T03:53:45.876128+00:00"
+  ],
+  "hn:50471731": [
+   1694,
+   "2026-11-13T03:53:45.876128+00:00"
+  ],
+  "hn:50471668": [
+   403,
+   "2026-11-13T03:53:45.876128+00:00"
+  ],
+  "hn:50470445": [
+   127,
+   "2026-11-13T03:53:45.876128+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n25qivmljs2t": [
+   52,
+   "2026-11-13T03:53:45.876128+00:00"
+  ],
+  "hn:50476586": [
+   100,
+   "2026-11-13T03:53:45.876128+00:00"
+  ],
+  "hn:50477331": [
+   144,
+   "2026-11-13T03:53:45.876128+00:00"
   ]
  },
  "skips": {
@@ -16799,8 +16855,8 @@
   "ZDNet": 6,
   "9to5Mac": 18,
   "EFF": 2,
-  "Hacker News": 98,
-  "TechSpot": 19,
+  "Hacker News": 101,
+  "TechSpot": 20,
   "The Hacker News": 35,
   "Latent Space": 6,
   "InfoQ": 16,
@@ -16809,7 +16865,7 @@
   "The Next Web": 25,
   "Android Police": 20,
   "Ars Technica": 2,
-  "Simon Willison": 2,
+  "Simon Willison": 3,
   "Simon Willison RSS": 6,
   "vc.ru": 13,
   "SecurityWeek": 16,
@@ -16843,8 +16899,8 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-12T14:56:06.410255+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-13T02:55:33.085497+00:00",
-  "TechSpot": "2026-11-12T13:53:42.182722+00:00",
+  "Hacker News": "2026-11-13T03:54:11.938735+00:00",
+  "TechSpot": "2026-11-13T03:53:47.498872+00:00",
   "The Hacker News": "2026-11-12T14:54:38.299721+00:00",
   "Latent Space": "2026-11-12T05:54:13.348855+00:00",
   "InfoQ": "2026-11-12T09:53:51.614525+00:00",
@@ -16853,7 +16909,7 @@
   "The Next Web": "2026-11-12T10:54:08.198232+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
   "Ars Technica": "2026-11-11T17:53:47.755359+00:00",
-  "Simon Willison": "2026-11-07T00:10:29.067081+00:00",
+  "Simon Willison": "2026-11-13T03:54:17.433642+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-12T13:54:13.914130+00:00",
   "SecurityWeek": "2026-11-12T10:54:14.068277+00:00",
