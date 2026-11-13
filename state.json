@@ -1,16 +1,5 @@
 {
  "seen": [
-  "6ab697dca0aca56b43c1338d",
-  "https://3dnews.ru/1149184/#6abb6566742eec30698b4575",
-  "3165122",
-  "https://www.theverge.com/?p=1001797",
-  "https://www.engadget.com/2271675/nothing-headphone-1-pro/",
-  "https://www.androidpolice.com/nothing-headphone-1-pro-news/",
-  "hn:49889934",
-  "https://www.theregister.com/a/5299715",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwo4s4falc25",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mwoc6wab4s2d",
-  "https://www.theverge.com/?p=1002201",
   "TheNextWeb=06d7d8ab6fe3ac813f34e19d450ebae5",
   "https://www.theverge.com/?p=1002505",
   "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
@@ -2999,18 +2988,29 @@
   "hn:50471731",
   "hn:50475735",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n25qivmljs2t",
-  "hn:50472260"
+  "hn:50472260",
+  "https://tech.slashdot.org/story/26/11/13/0135237/whoop-launches-a-social-network-where-every-user-has-a-verified-heartbeat?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.theverge.com/?p=1032630",
+  "hn:50477331",
+  "urn:latent-space:post:post_b104ae7d-0991-4ed4-b1c3-402861a8cd00",
+  "https://www.cnews.ru/news/line/2026-11-13_rossijskie_kompanii_pereplachivayut",
+  "https://www.cnews.ru/news/line/2026-11-13_eltex_zapuskaet_novye_modeli",
+  "https://www.cnews.ru/news/line/2026-11-13_portal_postavshchikov_poluchil",
+  "https://www.cnews.ru/news/line/2026-11-13_materinskaya_plata_storex_d32",
+  "https://www.neowin.net/news/microsoft-regrets-outlook-exchange-sharepoint-outage-after-admitting-it-still-cant-fix/",
+  "https://www.neowin.net/news/microsoft-exchange-and-outlook-go-down-right-after-teams-outage/",
+  "https://www.securityweek.com/?p=50746"
  ],
  "posted": {
   "viral": 761,
-  "editorial": 1022
+  "editorial": 1027
  },
  "recent_labels": [
-  "TechSpot",
-  "Hacker News",
-  "Hacker News",
-  "Hacker News",
-  "Simon Willison"
+  "Slashdot",
+  "Latent Space",
+  "CNews",
+  "CNews",
+  "Neowin"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -10350,49 +10350,54 @@
    "pool": "viral",
    "score": 0.06624,
    "at": "2026-11-13T03:54:17.433538+00:00"
+  },
+  {
+   "title": "راه‌اندازی شبکه اجتماعی جدید Whoop با قابلیت تایید هویت کاربران",
+   "url": "https://tech.slashdot.org/story/26/11/13/0135237/whoop-launches-a-social-network-where-every-user-has-a-verified-heartbeat?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "label": "Slashdot",
+   "pool": "editorial",
+   "score": 0.12088,
+   "at": "2026-11-13T04:54:43.869944+00:00"
+  },
+  {
+   "title": "تلاش استارتاپ ArtCraft برای بازسازی نرم‌افزارهای تجاری با هوش مصنوعی",
+   "url": "https://latent.space/p/artcraft/",
+   "source": "Latent Space",
+   "label": "Latent Space",
+   "pool": "editorial",
+   "score": 0.18577,
+   "at": "2026-11-13T04:55:00.976303+00:00"
+  },
+  {
+   "title": "چالش‌های امنیتی و هزینه‌های بالای استفاده از هوش مصنوعی در روسیه",
+   "url": "https://www.cnews.ru/news/line/2026-11-13_rossijskie_kompanii_pereplachivayut",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.15195,
+   "at": "2026-11-13T04:55:09.382402+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل‌های جدید دوربین‌های نظارتی حرفه‌ای توسط شرکت Eltex",
+   "url": "https://www.cnews.ru/news/line/2026-11-13_eltex_zapuskaet_novye_modeli",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.16709,
+   "at": "2026-11-13T04:55:20.167862+00:00"
+  },
+  {
+   "title": "اختلال گسترده در سرویس‌های مایکروسافت و ناتوانی در رفع دائمی آن",
+   "url": "https://www.neowin.net/news/microsoft-regrets-outlook-exchange-sharepoint-outage-after-admitting-it-still-cant-fix/?utm_source=rss",
+   "source": "Neowin",
+   "label": "Neowin",
+   "pool": "editorial",
+   "score": 0.12189,
+   "at": "2026-11-13T04:55:47.907512+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "client",
-    "clients",
-    "isponsorblocktv",
-    "sponsorblock",
-    "youtube"
-   ],
-   "at": "2026-11-08T11:54:25.248253+00:00"
-  },
-  {
-   "sig": [
-    "agent",
-    "memory",
-    "moment",
-    "needs",
-    "opentelemetry"
-   ],
-   "at": "2026-11-08T11:54:31.682603+00:00"
-  },
-  {
-   "sig": [
-    "branch",
-    "directly",
-    "dwarfstar",
-    "enough",
-    "good",
-    "inference",
-    "k3.1",
-    "kimi-k3",
-    "pro",
-    "safetensors",
-    "slow",
-    "ssd",
-    "streaming",
-    "tasks",
-    "weights"
-   ],
-   "at": "2026-11-08T11:54:37.720575+00:00"
-  },
   {
    "sig": [
     "development",
@@ -14412,6 +14417,52 @@
     "token"
    ],
    "at": "2026-11-13T03:54:17.433538+00:00"
+  },
+  {
+   "sig": [
+    "every",
+    "heartbeat",
+    "launched",
+    "launches",
+    "network",
+    "social",
+    "user",
+    "verified",
+    "where",
+    "whoop"
+   ],
+   "at": "2026-11-13T04:54:43.869944+00:00"
+  },
+  {
+   "sig": [
+    "ambition",
+    "artcraft",
+    "cloned",
+    "everything",
+    "photoshop",
+    "rebuild",
+    "wants"
+   ],
+   "at": "2026-11-13T04:55:00.976303+00:00"
+  },
+  {
+   "sig": [
+    "admitting",
+    "disrupts",
+    "down",
+    "exchange",
+    "fix",
+    "microsoft",
+    "online",
+    "outage",
+    "outlook",
+    "regrets",
+    "right",
+    "sharepoint",
+    "still",
+    "teams"
+   ],
+   "at": "2026-11-13T04:55:47.907512+00:00"
   }
  ],
  "snapshots": {
@@ -16784,8 +16835,8 @@
    "2026-11-13T03:53:45.876128+00:00"
   ],
   "hn:50473190": [
-   507,
-   "2026-11-13T03:53:45.876128+00:00"
+   568,
+   "2026-11-13T04:53:42.460573+00:00"
   ],
   "hn:50472260": [
    513,
@@ -16797,7 +16848,7 @@
   ],
   "hn:50471668": [
    403,
-   "2026-11-13T03:53:45.876128+00:00"
+   "2026-11-13T04:53:42.460573+00:00"
   ],
   "hn:50470445": [
    127,
@@ -16812,8 +16863,8 @@
    "2026-11-13T03:53:45.876128+00:00"
   ],
   "hn:50477331": [
-   144,
-   "2026-11-13T03:53:45.876128+00:00"
+   219,
+   "2026-11-13T04:53:42.460573+00:00"
   ]
  },
  "skips": {
@@ -16822,14 +16873,14 @@
   "Wired": 18,
   "TechRadar": 8,
   "Lobsters": 5,
-  "Hacker News": 26,
+  "Hacker News": 27,
   "The Next Web": 1,
   "404 Media": 10,
   "Emily M. Bender": 3,
   "Simon Willison": 2,
   "Xe Iaso": 3,
   "Simon Willison RSS": 1,
-  "CNews": 14,
+  "CNews": 16,
   "vc.ru": 2,
   "Hi-Tech Mail": 6,
   "Slashdot": 2,
@@ -16841,10 +16892,10 @@
  },
  "posts_by_label": {
   "Engadget": 44,
-  "Neowin": 21,
+  "Neowin": 22,
   "Wired": 24,
   "TechRadar": 36,
-  "Slashdot": 30,
+  "Slashdot": 31,
   "404 Media": 40,
   "Xe Iaso": 4,
   "The Verge": 22,
@@ -16858,7 +16909,7 @@
   "Hacker News": 101,
   "TechSpot": 20,
   "The Hacker News": 35,
-  "Latent Space": 6,
+  "Latent Space": 7,
   "InfoQ": 16,
   "The Register": 25,
   "Phoronix": 25,
@@ -16873,7 +16924,7 @@
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 43,
+  "CNews": 45,
   "Emily M. Bender": 4,
   "antirez": 5,
   "OpenAI": 3,
@@ -16885,10 +16936,10 @@
  },
  "last_post": {
   "Engadget": "2026-11-12T14:55:09.676292+00:00",
-  "Neowin": "2026-11-12T11:54:33.187083+00:00",
+  "Neowin": "2026-11-13T04:55:47.907626+00:00",
   "Wired": "2026-11-12T14:54:52.658528+00:00",
   "TechRadar": "2026-11-12T10:53:59.382125+00:00",
-  "Slashdot": "2026-11-12T12:55:17.497961+00:00",
+  "Slashdot": "2026-11-13T04:54:43.870063+00:00",
   "404 Media": "2026-11-13T01:53:54.628589+00:00",
   "Xe Iaso": "2026-11-11T14:54:18.284123+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
@@ -16902,7 +16953,7 @@
   "Hacker News": "2026-11-13T03:54:11.938735+00:00",
   "TechSpot": "2026-11-13T03:53:47.498872+00:00",
   "The Hacker News": "2026-11-12T14:54:38.299721+00:00",
-  "Latent Space": "2026-11-12T05:54:13.348855+00:00",
+  "Latent Space": "2026-11-13T04:55:00.976418+00:00",
   "InfoQ": "2026-11-12T09:53:51.614525+00:00",
   "The Register": "2026-11-12T17:53:52.582241+00:00",
   "Phoronix": "2026-11-12T11:53:54.012322+00:00",
@@ -16917,7 +16968,7 @@
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-12T09:54:18.348558+00:00",
+  "CNews": "2026-11-13T04:55:20.167973+00:00",
   "Emily M. Bender": "2026-11-12T16:56:40.304536+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
