@@ -1,15 +1,5 @@
 {
  "seen": [
-  "TheNextWeb=06d7d8ab6fe3ac813f34e19d450ebae5",
-  "https://www.theverge.com/?p=1002505",
-  "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-  "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
-  "https://www.engadget.com/2272834/amazon-unveils-a-thinner-and-faster-fire-tv-stick-4k-plus-a-new-remote/",
-  "https://www.theverge.com/?p=1002597",
-  "mcRkFjgVPAfXHn46QwMDDo",
-  "https://www.techspot.com/news/114047-amazon-launches-faster-4k-fire-tv-stick-all.html",
-  "https://www.neowin.net/news/amazons-new-fire-tv-stick-4k-is-faster-with-vega-os-and-redesigned-remote/",
-  "TheNextWeb=8691613a1023ed6b2f562d848b9043be",
   "https://3dnews.ru/1149282/#6abd1ecc742eecf43f8b4574",
   "https://3dnews.ru/1149264/#6abcccd1742eec322d8b4586",
   "b6ca05ad546b3af512ac110471e4bf14",
@@ -2999,18 +2989,28 @@
   "https://www.cnews.ru/news/line/2026-11-13_materinskaya_plata_storex_d32",
   "https://www.neowin.net/news/microsoft-regrets-outlook-exchange-sharepoint-outage-after-admitting-it-still-cant-fix/",
   "https://www.neowin.net/news/microsoft-exchange-and-outlook-go-down-right-after-teams-outage/",
-  "https://www.securityweek.com/?p=50746"
+  "https://www.securityweek.com/?p=50746",
+  "hn:50473190",
+  "6af5d68f8875b9db16ffe524",
+  "https://www.theverge.com/?p=1032434",
+  "https://www.securityweek.com/?p=50752",
+  "https://www.cnews.ru/news/line/2026-11-13_positive_technologies_vyyavila_bolee",
+  "https://www.cnews.ru/news/line/2026-11-13_sroki_podbora_personala",
+  "https://www.cnews.ru/news/line/2026-11-13_spetsialisty_i_rabotodateli",
+  "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+  "858bfaab71a6011a4f36438756c11f7b",
+  "https://www.neowin.net/news/nvidia-drops-geforce-62124-driver-for-dawn-of-war-iv-and-dlss-5-upgrades/"
  ],
  "posted": {
   "viral": 761,
-  "editorial": 1027
+  "editorial": 1032
  },
  "recent_labels": [
-  "Slashdot",
-  "Latent Space",
+  "SecurityWeek",
   "CNews",
   "CNews",
-  "Neowin"
+  "The Hacker News",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -10395,46 +10395,54 @@
    "pool": "editorial",
    "score": 0.12189,
    "at": "2026-11-13T04:55:47.907512+00:00"
+  },
+  {
+   "title": "ضبط ۱.۲ میلیارد دلار رمزارز سرقت‌شده از صرافی Binance توسط FBI",
+   "url": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/",
+   "source": "SecurityWeek",
+   "label": "SecurityWeek",
+   "pool": "editorial",
+   "score": 0.04953,
+   "at": "2026-11-13T05:54:16.992552+00:00"
+  },
+  {
+   "title": "شناسایی بیش از ۳۴۰۰ دامنه فیشینگ برای سرقت اطلاعات کاربران",
+   "url": "https://www.cnews.ru/news/line/2026-11-13_positive_technologies_vyyavila_bolee",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.04629,
+   "at": "2026-11-13T05:54:56.511589+00:00"
+  },
+  {
+   "title": "تأثیر هوش مصنوعی بر بازار کار و بهره‌وری نیروی انسانی",
+   "url": "https://www.cnews.ru/news/line/2026-11-13_spetsialisty_i_rabotodateli",
+   "source": "CNews",
+   "label": "CNews",
+   "pool": "editorial",
+   "score": 0.06015,
+   "at": "2026-11-13T05:56:31.316660+00:00"
+  },
+  {
+   "title": "سوءاستفاده از آسیب‌پذیری‌های N-central برای اجرای کد مخرب و استخراج رمزارز",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.28859,
+   "at": "2026-11-13T05:56:48.238528+00:00"
+  },
+  {
+   "title": "انتشار درایور جدید NVIDIA برای بهینه‌سازی بازی‌ها و رفع باگ‌های گرافیکی",
+   "url": "https://hi-tech.mail.ru/news/160445-drajver-nvidia-621-24/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.39212,
+   "at": "2026-11-13T05:57:41.939438+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "development",
-    "ends",
-    "feature",
-    "gcc",
-    "next",
-    "week"
-   ],
-   "at": "2026-11-08T11:54:56.942753+00:00"
-  },
-  {
-   "sig": [
-    "delivers",
-    "doom",
-    "five",
-    "ibm",
-    "mainframe",
-    "minutes",
-    "terminal",
-    "violence"
-   ],
-   "at": "2026-11-08T11:55:02.672236+00:00"
-  },
-  {
-   "sig": [
-    "android",
-    "apks",
-    "found",
-    "install",
-    "keep",
-    "safer",
-    "updated",
-    "way"
-   ],
-   "at": "2026-11-08T12:00:39.091424+00:00"
-  },
   {
    "sig": [
     "company",
@@ -14463,6 +14471,50 @@
     "teams"
    ],
    "at": "2026-11-13T04:55:47.907512+00:00"
+  },
+  {
+   "sig": [
+    "1.2",
+    "billion",
+    "binance",
+    "cryptocurrency",
+    "fbi",
+    "seized",
+    "stolen",
+    "worth"
+   ],
+   "at": "2026-11-13T05:54:16.992552+00:00"
+  },
+  {
+   "sig": [
+    "exploit",
+    "flaws",
+    "hackers",
+    "hotfix",
+    "including",
+    "infect",
+    "n-central",
+    "running",
+    "servers"
+   ],
+   "at": "2026-11-13T05:56:48.238528+00:00"
+  },
+  {
+   "sig": [
+    "621.24",
+    "dawn",
+    "dlss",
+    "driver",
+    "drops",
+    "game",
+    "geforce",
+    "nvidia",
+    "ready",
+    "upgrades",
+    "war",
+    "whql"
+   ],
+   "at": "2026-11-13T05:57:41.939438+00:00"
   }
  ],
  "snapshots": {
@@ -16835,8 +16887,8 @@
    "2026-11-13T03:53:45.876128+00:00"
   ],
   "hn:50473190": [
-   568,
-   "2026-11-13T04:53:42.460573+00:00"
+   628,
+   "2026-11-13T05:54:06.206097+00:00"
   ],
   "hn:50472260": [
    513,
@@ -16870,17 +16922,17 @@
  "skips": {
   "Tom's Hardware": 5,
   "Article 19": 1,
-  "Wired": 18,
+  "Wired": 19,
   "TechRadar": 8,
   "Lobsters": 5,
-  "Hacker News": 27,
+  "Hacker News": 28,
   "The Next Web": 1,
   "404 Media": 10,
   "Emily M. Bender": 3,
   "Simon Willison": 2,
   "Xe Iaso": 3,
   "Simon Willison RSS": 1,
-  "CNews": 16,
+  "CNews": 17,
   "vc.ru": 2,
   "Hi-Tech Mail": 6,
   "Slashdot": 2,
@@ -16908,7 +16960,7 @@
   "EFF": 2,
   "Hacker News": 101,
   "TechSpot": 20,
-  "The Hacker News": 35,
+  "The Hacker News": 36,
   "Latent Space": 7,
   "InfoQ": 16,
   "The Register": 25,
@@ -16919,12 +16971,12 @@
   "Simon Willison": 3,
   "Simon Willison RSS": 6,
   "vc.ru": 13,
-  "SecurityWeek": 16,
-  "Hi-Tech Mail": 43,
+  "SecurityWeek": 17,
+  "Hi-Tech Mail": 44,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
-  "CNews": 45,
+  "CNews": 47,
   "Emily M. Bender": 4,
   "antirez": 5,
   "OpenAI": 3,
@@ -16952,7 +17004,7 @@
   "EFF": "2026-11-06T09:54:49.849333+00:00",
   "Hacker News": "2026-11-13T03:54:11.938735+00:00",
   "TechSpot": "2026-11-13T03:53:47.498872+00:00",
-  "The Hacker News": "2026-11-12T14:54:38.299721+00:00",
+  "The Hacker News": "2026-11-13T05:56:48.238641+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
   "InfoQ": "2026-11-12T09:53:51.614525+00:00",
   "The Register": "2026-11-12T17:53:52.582241+00:00",
@@ -16963,12 +17015,12 @@
   "Simon Willison": "2026-11-13T03:54:17.433642+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-12T13:54:13.914130+00:00",
-  "SecurityWeek": "2026-11-12T10:54:14.068277+00:00",
-  "Hi-Tech Mail": "2026-11-12T11:54:22.186415+00:00",
+  "SecurityWeek": "2026-11-13T05:54:16.992665+00:00",
+  "Hi-Tech Mail": "2026-11-13T05:57:41.939549+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
-  "CNews": "2026-11-13T04:55:20.167973+00:00",
+  "CNews": "2026-11-13T05:56:31.316773+00:00",
   "Emily M. Bender": "2026-11-12T16:56:40.304536+00:00",
   "antirez": "2026-11-10T03:55:22.527580+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
