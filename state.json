@@ -1,15 +1,5 @@
 {
  "seen": [
-  "https://3dnews.ru/1149282/#6abd1ecc742eecf43f8b4574",
-  "https://3dnews.ru/1149264/#6abcccd1742eec322d8b4586",
-  "b6ca05ad546b3af512ac110471e4bf14",
-  "f3d76cd1602c650aaa1849736eb7d9e5",
-  "3167917",
-  "https://www.engadget.com/2272526/samsung-galaxy-tab-s12-ultra-review/",
-  "tqp4wXBWMbQXwhZSzzEXCF",
-  "https://www.androidpolice.com/i-revisited-to-the-galaxy-s26-ultra-samsung-has-already-made-a-better-phone/",
-  "https://www.theregister.com/a/5300056",
-  "https://3dnews.ru/1149293/#6abd6839742eecb0f88b4575",
   "https://www.securityweek.com/?p=49716",
   "hn:49918161",
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwsfhbltis2o",
@@ -2999,17 +2989,27 @@
   "https://www.cnews.ru/news/line/2026-11-13_spetsialisty_i_rabotodateli",
   "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
   "858bfaab71a6011a4f36438756c11f7b",
-  "https://www.neowin.net/news/nvidia-drops-geforce-62124-driver-for-dawn-of-war-iv-and-dlss-5-upgrades/"
+  "https://www.neowin.net/news/nvidia-drops-geforce-62124-driver-for-dawn-of-war-iv-and-dlss-5-upgrades/",
+  "3252722",
+  "6a9078cb73ca164d2fe0efbc",
+  "69c6cf7892e0aa2ee4db1a55",
+  "675b21c447da86b2b1ded251",
+  "6a907f3d1949b5f84a671162",
+  "6719439e8a5bb38da70ec1ba",
+  "https://www.infoq.com/news/2026/11/dropbox-cookie-auditor/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "https://www.theregister.com/a/5309264",
+  "https://www.neowin.net/news/analyst-samsung-remains-king-of-foldables-holds-69-of-foldable-market/",
+  "1515382f4751f38d7b1e15f7d746e19a"
  ],
  "posted": {
   "viral": 761,
-  "editorial": 1032
+  "editorial": 1037
  },
  "recent_labels": [
-  "SecurityWeek",
-  "CNews",
-  "CNews",
-  "The Hacker News",
+  "vc.ru",
+  "InfoQ",
+  "The Register",
+  "Neowin",
   "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-06",
@@ -10440,46 +10440,54 @@
    "pool": "editorial",
    "score": 0.39212,
    "at": "2026-11-13T05:57:41.939438+00:00"
+  },
+  {
+   "title": "سرمایه‌گذاری ۲.۲۷ میلیارد روبلی روسیه برای فیلترینگ هوشمند اینترنت",
+   "url": "https://vc.ru/money/3252722-roskomnadzor-filtraciya-internet-trafika-ii?from=rss",
+   "source": "vc.ru",
+   "label": "vc.ru",
+   "pool": "editorial",
+   "score": 0.09832,
+   "at": "2026-11-13T06:54:06.268518+00:00"
+  },
+  {
+   "title": "سیستم خودکار Dropbox برای بررسی انطباق کوکی‌ها با قوانین حریم خصوصی",
+   "url": "https://www.infoq.com/news/2026/11/dropbox-cookie-auditor/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "source": "InfoQ",
+   "label": "InfoQ",
+   "pool": "editorial",
+   "score": 0.1694,
+   "at": "2026-11-13T06:54:59.179955+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/software/2026/11/13/developer-cleverly-shrank-2600-lines-of-c-into-a-six-line-script-but-still-ending-up-losing-sleep/5309264",
+   "source": "The Register",
+   "label": "The Register",
+   "pool": "editorial",
+   "score": 0.20816,
+   "at": "2026-11-13T06:56:28.245114+00:00"
+  },
+  {
+   "title": "سلطه سامسونگ بر بازار گوشی‌های تاشو با سهم ۶۹ درصدی",
+   "url": "https://www.neowin.net/news/analyst-samsung-remains-king-of-foldables-holds-69-of-foldable-market/?utm_source=rss",
+   "source": "Neowin",
+   "label": "Neowin",
+   "pool": "editorial",
+   "score": 0.15809,
+   "at": "2026-11-13T06:57:00.441885+00:00"
+  },
+  {
+   "title": "اختلال گسترده در سرویس‌های ابری Microsoft 365",
+   "url": "https://hi-tech.mail.ru/news/160453-globalnyj-sboj-microsoft-ne-rabotaet-pochta-v-outlook/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.09617,
+   "at": "2026-11-13T06:57:13.483659+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "company",
-    "earbuds",
-    "headphones",
-    "last",
-    "making",
-    "want"
-   ],
-   "at": "2026-11-08T12:00:49.192976+00:00"
-  },
-  {
-   "sig": [
-    "7.4-rc2",
-    "amd",
-    "boosting",
-    "code",
-    "linux",
-    "perfopt",
-    "performance",
-    "tweaked"
-   ],
-   "at": "2026-11-08T12:00:54.749802+00:00"
-  },
-  {
-   "sig": [
-    "automations",
-    "fixed",
-    "google",
-    "home",
-    "presence",
-    "problems",
-    "setting",
-    "wi-fi"
-   ],
-   "at": "2026-11-08T12:01:00.542833+00:00"
-  },
   {
    "sig": [
     "actually",
@@ -14515,6 +14523,50 @@
     "whql"
    ],
    "at": "2026-11-13T05:57:41.939438+00:00"
+  },
+  {
+   "sig": [
+    "across",
+    "auditor",
+    "behaviour",
+    "consent",
+    "cookie",
+    "dropbox",
+    "in-house",
+    "shares",
+    "surfaces",
+    "tests",
+    "web"
+   ],
+   "at": "2026-11-13T06:54:59.179955+00:00"
+  },
+  {
+   "sig": [
+    "cleverly",
+    "developer",
+    "ending",
+    "lines",
+    "losing",
+    "script",
+    "shrank",
+    "six-line",
+    "sleep",
+    "still"
+   ],
+   "at": "2026-11-13T06:56:28.245114+00:00"
+  },
+  {
+   "sig": [
+    "analyst",
+    "foldable",
+    "foldables",
+    "holds",
+    "king",
+    "market",
+    "remains",
+    "samsung"
+   ],
+   "at": "2026-11-13T06:57:00.441885+00:00"
   }
  ],
  "snapshots": {
@@ -16922,7 +16974,7 @@
  "skips": {
   "Tom's Hardware": 5,
   "Article 19": 1,
-  "Wired": 19,
+  "Wired": 21,
   "TechRadar": 8,
   "Lobsters": 5,
   "Hacker News": 28,
@@ -16944,7 +16996,7 @@
  },
  "posts_by_label": {
   "Engadget": 44,
-  "Neowin": 22,
+  "Neowin": 23,
   "Wired": 24,
   "TechRadar": 36,
   "Slashdot": 31,
@@ -16962,17 +17014,17 @@
   "TechSpot": 20,
   "The Hacker News": 36,
   "Latent Space": 7,
-  "InfoQ": 16,
-  "The Register": 25,
+  "InfoQ": 17,
+  "The Register": 26,
   "Phoronix": 25,
   "The Next Web": 25,
   "Android Police": 20,
   "Ars Technica": 2,
   "Simon Willison": 3,
   "Simon Willison RSS": 6,
-  "vc.ru": 13,
+  "vc.ru": 14,
   "SecurityWeek": 17,
-  "Hi-Tech Mail": 44,
+  "Hi-Tech Mail": 45,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
@@ -16988,7 +17040,7 @@
  },
  "last_post": {
   "Engadget": "2026-11-12T14:55:09.676292+00:00",
-  "Neowin": "2026-11-13T04:55:47.907626+00:00",
+  "Neowin": "2026-11-13T06:57:00.442000+00:00",
   "Wired": "2026-11-12T14:54:52.658528+00:00",
   "TechRadar": "2026-11-12T10:53:59.382125+00:00",
   "Slashdot": "2026-11-13T04:54:43.870063+00:00",
@@ -17006,17 +17058,17 @@
   "TechSpot": "2026-11-13T03:53:47.498872+00:00",
   "The Hacker News": "2026-11-13T05:56:48.238641+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
-  "InfoQ": "2026-11-12T09:53:51.614525+00:00",
-  "The Register": "2026-11-12T17:53:52.582241+00:00",
+  "InfoQ": "2026-11-13T06:54:59.180068+00:00",
+  "The Register": "2026-11-13T06:56:28.245211+00:00",
   "Phoronix": "2026-11-12T11:53:54.012322+00:00",
   "The Next Web": "2026-11-12T10:54:08.198232+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
   "Ars Technica": "2026-11-11T17:53:47.755359+00:00",
   "Simon Willison": "2026-11-13T03:54:17.433642+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
-  "vc.ru": "2026-11-12T13:54:13.914130+00:00",
+  "vc.ru": "2026-11-13T06:54:06.268663+00:00",
   "SecurityWeek": "2026-11-13T05:54:16.992665+00:00",
-  "Hi-Tech Mail": "2026-11-13T05:57:41.939549+00:00",
+  "Hi-Tech Mail": "2026-11-13T06:57:13.483757+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
