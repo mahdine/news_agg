@@ -1,12 +1,5 @@
 {
  "seen": [
-  "gTcd7kmEFDQpwXhV5upQHR",
-  "https://developers.slashdot.org/story/26/10/03/0125235/someone-got-doom-in-an-sql-database?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://3dnews.ru/1149420/#6ac07bbf742eece77d8b456c",
-  "https://www.engadget.com/2274578/iphone-18-pro-feature-try-when-unboxed/",
-  "https://www.engadget.com/2274326/how-to-disable-restrict-iphone-apple-intelligence-features/",
-  "1343899",
-  "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
   "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
   "https://www.theregister.com/a/5300803",
   "https://www.securityweek.com/?p=49752",
@@ -2999,18 +2992,25 @@
   "https://www.theregister.com/a/5309316",
   "https://www.neowin.net/news/housefishing-how-scammers-are-excessively-altering-real-estate-photos-using-ai/",
   "https://www.cnews.ru/news/line/2026-11-13_sibur_zapustil_ekologicheskuyu",
-  "8aJD62thuw5CE5pNJ7Bqmg"
+  "8aJD62thuw5CE5pNJ7Bqmg",
+  "6af5dcf2890acdc23ac9c790",
+  "https://www.theregister.com/a/5309379",
+  "hn:50481187",
+  "6af6159829597bd36fdf1073",
+  "qnSNSHynXKLfmXJCA3rgfn",
+  "d3f54fa3928138d535923508a2e9ff33",
+  "5b6859d57b74175ff490c130b08c071f"
  ],
  "posted": {
-  "viral": 763,
-  "editorial": 1049
+  "viral": 764,
+  "editorial": 1053
  },
  "recent_labels": [
-  "Neowin",
-  "InfoQ",
-  "CNews",
-  "Neowin",
-  "TechRadar"
+  "The Register",
+  "Hacker News",
+  "Tom's Hardware",
+  "Hi-Tech Mail",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -10611,40 +10611,54 @@
    "pool": "editorial",
    "score": 0.20633,
    "at": "2026-11-13T09:54:48.357547+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/security/2026/11/13/brit-police-watchdog-says-cops-use-of-facial-recog-risks-wrongful-arrests/5309379",
+   "source": "The Register",
+   "label": "The Register",
+   "pool": "editorial",
+   "score": 0.18065,
+   "at": "2026-11-13T10:53:47.376505+00:00"
+  },
+  {
+   "title": "اختلال در دسترسی به سرویس‌های هوش مصنوعی Claude",
+   "url": "https://status.claude.com/incidents/nn11wk485zfn",
+   "source": "status.claude.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.85479,
+   "at": "2026-11-13T10:53:53.295735+00:00"
+  },
+  {
+   "title": "هک سیستم قدیمی خودرو با کمک هوش مصنوعی برای عبور از تست آلایندگی",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/1994-jeep-cherokee-owner-hacks-32-year-old-car-with-claude-ai-to-pass-california-smog-tests-enthusiast-reverse-engineered-the-ancient-ecu-for-diagnostics-and-control",
+   "source": "Tom's Hardware",
+   "label": "Tom's Hardware",
+   "pool": "editorial",
+   "score": 0.20249,
+   "at": "2026-11-13T10:54:00.199147+00:00"
+  },
+  {
+   "title": "آینده‌ی واگذاری کارهای روزمره به دستیارهای هوشمند",
+   "url": "https://hi-tech.mail.ru/news/160511-kakie-bytovye-resheniya-chelovek-pervym-delom-otdast-ii-otvet-eksperta/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.17442,
+   "at": "2026-11-13T10:54:09.769846+00:00"
+  },
+  {
+   "title": "اثبات فرضیه محدودیت برتری رایانه‌های کوانتومی توسط هوش مصنوعی",
+   "url": "https://hi-tech.mail.ru/news/160512-ii-dokazal-gipotezu-o-predelah-preimuschestva-kvantovyh/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.18412,
+   "at": "2026-11-13T10:54:17.771167+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "battery",
-    "data",
-    "downloading",
-    "streaming",
-    "which"
-   ],
-   "at": "2026-11-08T13:53:55.136374+00:00"
-  },
-  {
-   "sig": [
-    "address",
-    "anything",
-    "hacker",
-    "really"
-   ],
-   "at": "2026-11-08T13:54:44.742840+00:00"
-  },
-  {
-   "sig": [
-    "done",
-    "gemini",
-    "single",
-    "typing",
-    "way",
-    "without",
-    "word"
-   ],
-   "at": "2026-11-08T13:54:50.449794+00:00"
-  },
   {
    "sig": [
     "addresses",
@@ -14695,13 +14709,50 @@
     "repurposing"
    ],
    "at": "2026-11-13T09:54:48.357547+00:00"
+  },
+  {
+   "sig": [
+    "arrests",
+    "brit",
+    "cops",
+    "facial",
+    "police",
+    "recog",
+    "risks",
+    "watchdog",
+    "wrongful"
+   ],
+   "at": "2026-11-13T10:53:47.376505+00:00"
+  },
+  {
+   "sig": [
+    "claude",
+    "claude.ai",
+    "code",
+    "elevated",
+    "errors",
+    "platform.claude.com"
+   ],
+   "at": "2026-11-13T10:53:53.295735+00:00"
+  },
+  {
+   "sig": [
+    "32-year-old",
+    "california",
+    "car",
+    "cherokee",
+    "claude",
+    "hacks",
+    "jeep",
+    "owner",
+    "pass",
+    "smog",
+    "tests"
+   ],
+   "at": "2026-11-13T10:54:00.199147+00:00"
   }
  ],
  "snapshots": {
-  "hn:50328487": [
-   416,
-   "2026-11-01T22:12:27.869784+00:00"
-  ],
   "hn:50328251": [
    493,
    "2026-11-01T22:12:27.869784+00:00"
@@ -17097,12 +17148,16 @@
   "hn:50477155": [
    80,
    "2026-11-13T08:53:43.609578+00:00"
+  ],
+  "hn:50481187": [
+   262,
+   "2026-11-13T10:53:44.091320+00:00"
   ]
  },
  "skips": {
   "Tom's Hardware": 5,
   "Article 19": 1,
-  "Wired": 21,
+  "Wired": 23,
   "TechRadar": 8,
   "Lobsters": 5,
   "Hacker News": 30,
@@ -17135,16 +17190,16 @@
   "Cloudflare": 1,
   "TechCrunch AI": 18,
   "Lobsters": 17,
-  "Tom's Hardware": 36,
+  "Tom's Hardware": 37,
   "ZDNet": 6,
   "9to5Mac": 18,
   "EFF": 2,
-  "Hacker News": 103,
+  "Hacker News": 104,
   "TechSpot": 20,
   "The Hacker News": 36,
   "Latent Space": 7,
   "InfoQ": 18,
-  "The Register": 26,
+  "The Register": 27,
   "Phoronix": 25,
   "The Next Web": 26,
   "Android Police": 20,
@@ -17153,7 +17208,7 @@
   "Simon Willison RSS": 6,
   "vc.ru": 15,
   "SecurityWeek": 17,
-  "Hi-Tech Mail": 47,
+  "Hi-Tech Mail": 49,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
@@ -17179,16 +17234,16 @@
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-12T13:54:19.433280+00:00",
   "Lobsters": "2026-11-13T02:55:06.956790+00:00",
-  "Tom's Hardware": "2026-11-11T16:54:07.259933+00:00",
+  "Tom's Hardware": "2026-11-13T10:54:00.199266+00:00",
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-12T14:56:06.410255+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-13T08:53:46.668142+00:00",
+  "Hacker News": "2026-11-13T10:53:53.295859+00:00",
   "TechSpot": "2026-11-13T03:53:47.498872+00:00",
   "The Hacker News": "2026-11-13T05:56:48.238641+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
   "InfoQ": "2026-11-13T09:54:17.521781+00:00",
-  "The Register": "2026-11-13T06:56:28.245211+00:00",
+  "The Register": "2026-11-13T10:53:47.376640+00:00",
   "Phoronix": "2026-11-12T11:53:54.012322+00:00",
   "The Next Web": "2026-11-13T07:54:30.228023+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
@@ -17197,7 +17252,7 @@
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-13T08:54:02.885975+00:00",
   "SecurityWeek": "2026-11-13T05:54:16.992665+00:00",
-  "Hi-Tech Mail": "2026-11-13T08:54:35.423832+00:00",
+  "Hi-Tech Mail": "2026-11-13T10:54:17.771281+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
