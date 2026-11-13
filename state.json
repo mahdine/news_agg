@@ -1,17 +1,5 @@
 {
  "seen": [
-  "hn:49967444",
-  "hn:49968105",
-  "EZ4H2PeFvnhYVHoDt7LBgD",
-  "https://yro.slashdot.org/story/26/10/05/1733245/anthropic-reports-florida-womans-claude-diary-threat-to-law-enforcement?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-  "https://www.neowin.net/news/florida-woman-arrested-for-discussing-plans-to-shoot-up-sheriffs-office-in-claude-chat/",
-  "TheNextWeb=866f83fd2c9a3a86104b7ec730da633e",
-  "hn:49975083",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mx7jzoighd26",
-  "6ac40b93916789bae89c75d6",
-  "https://www.theverge.com/?p=1006059",
-  "68d5677861f581c72ac349bc",
   "6ac3edfecaad4b82f9f08c46",
   "6a3921356f2db0127b2a052a",
   "6ac5587bee1eb4b838492be3",
@@ -2999,18 +2987,30 @@
   "https://www.phoronix.com/news/Intel-GCC-Coral-Rapids-Razor",
   "6af5f30237a2c638ea1af1e3",
   "https://www.cnews.ru/news/top/2026-11-13_vzloman_sudohodnyj_gigant",
-  "6af36771190ffd33e9467dde"
+  "6af36771190ffd33e9467dde",
+  "L9Neq24ni4JjZB4Uf9gxVU",
+  "hn:50482379",
+  "TzX5BhzC6ZZUZrfNwWXqWY",
+  "P9djRrXNmUdWACfkQ6E4dW",
+  "hn:50480480",
+  "lobsters:lh9pwf",
+  "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+  "https://www.securityweek.com/?p=50767",
+  "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+  "https://www.securityweek.com/?p=50773",
+  "hn:50482045",
+  "https://www.theregister.com/a/5309699"
  ],
  "posted": {
-  "viral": 764,
-  "editorial": 1058
+  "viral": 766,
+  "editorial": 1061
  },
  "recent_labels": [
-  "Tom's Hardware",
-  "Tom's Hardware",
-  "Phoronix",
-  "CNews",
-  "Wired"
+  "Hacker News",
+  "Lobsters",
+  "The Hacker News",
+  "The Hacker News",
+  "The Register"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -10701,69 +10701,54 @@
    "pool": "editorial",
    "score": 0.27985,
    "at": "2026-11-13T11:54:20.801525+00:00"
+  },
+  {
+   "title": "ظهور نقش مهندس هوش داده در تیم‌های تحلیل‌گر",
+   "url": "https://motherduck.com/blog/the-data-intelligence-engineer/",
+   "source": "motherduck.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.17536,
+   "at": "2026-11-13T12:53:56.299557+00:00"
+  },
+  {
+   "title": "تجربه توسعه یک موزیک‌پلیر با زبان Zig در دوران قطعی اینترنت",
+   "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player",
+   "source": "alichraghi.github.io",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.03523,
+   "at": "2026-11-13T12:54:34.530638+00:00"
+  },
+  {
+   "title": "انهدام شبکه‌ی بدافزاری Operation Endgame و ضبط میلیون‌ها حساب کاربری سرقتی",
+   "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.25646,
+   "at": "2026-11-13T12:54:40.664891+00:00"
+  },
+  {
+   "title": "گروه جاسوسی SilentAir با نفوذ به زیرساخت‌های مخابراتی آسیا پیامک‌ها را شنود می‌کند",
+   "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+   "source": "The Hacker News",
+   "label": "The Hacker News",
+   "pool": "editorial",
+   "score": 0.5049,
+   "at": "2026-11-13T12:54:54.280389+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/public-sector/2026/11/13/palantir-adds-three-uk-police-forces-to-its-beat-with-101m-deal/5309699",
+   "source": "The Register",
+   "label": "The Register",
+   "pool": "editorial",
+   "score": 0.2267,
+   "at": "2026-11-13T12:55:20.730989+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "department",
-    "force",
-    "justice",
-    "name",
-    "sets",
-    "task",
-    "under"
-   ],
-   "at": "2026-11-08T14:54:59.780482+00:00"
-  },
-  {
-   "sig": [
-    "bitmap",
-    "jit",
-    "microcontrollers",
-    "rendering",
-    "text"
-   ],
-   "at": "2026-11-08T15:53:45.374842+00:00"
-  },
-  {
-   "sig": [
-    "apple",
-    "chatbots",
-    "coming",
-    "homeview",
-    "might"
-   ],
-   "at": "2026-11-08T15:53:51.681397+00:00"
-  },
-  {
-   "sig": [
-    "expands",
-    "increases",
-    "model",
-    "pricing",
-    "starlink",
-    "surge-style"
-   ],
-   "at": "2026-11-08T15:53:57.122484+00:00"
-  },
-  {
-   "sig": [
-    "agent",
-    "aiming",
-    "airbnb",
-    "apple",
-    "launch",
-    "like",
-    "next",
-    "report",
-    "siri",
-    "soon",
-    "travelers",
-    "year"
-   ],
-   "at": "2026-11-08T15:54:03.598875+00:00"
-  },
   {
    "sig": [
     "anthropic",
@@ -14803,25 +14788,81 @@
     "stories"
    ],
    "at": "2026-11-13T11:54:20.801525+00:00"
+  },
+  {
+   "sig": [
+    "data",
+    "dawn",
+    "engineer",
+    "intelligence"
+   ],
+   "at": "2026-11-13T12:53:56.299557+00:00"
+  },
+  {
+   "sig": [
+    "build",
+    "music",
+    "player"
+   ],
+   "at": "2026-11-13T12:54:34.530638+00:00"
+  },
+  {
+   "sig": [
+    "6.4m",
+    "castlerat",
+    "disrupts",
+    "down",
+    "endgame",
+    "enforcement",
+    "gootloader",
+    "infrastructure",
+    "law",
+    "logins",
+    "operation",
+    "seizes",
+    "servers",
+    "stealc",
+    "stolen",
+    "takes"
+   ],
+   "at": "2026-11-13T12:54:40.664891+00:00"
+  },
+  {
+   "sig": [
+    "2fa",
+    "asian",
+    "calls",
+    "codes",
+    "hackers",
+    "hijacks",
+    "inside",
+    "intercept",
+    "mobile",
+    "networks",
+    "silentair",
+    "sms",
+    "spy",
+    "taiwanese",
+    "telecom",
+    "users"
+   ],
+   "at": "2026-11-13T12:54:54.280389+00:00"
+  },
+  {
+   "sig": [
+    "10.1m",
+    "adds",
+    "beat",
+    "deal",
+    "forces",
+    "palantir",
+    "police",
+    "three"
+   ],
+   "at": "2026-11-13T12:55:20.730989+00:00"
   }
  ],
  "snapshots": {
-  "hn:50328251": [
-   493,
-   "2026-11-01T22:12:27.869784+00:00"
-  ],
-  "hn:50327650": [
-   717,
-   "2026-11-01T22:12:27.869784+00:00"
-  ],
-  "hn:50325253": [
-   171,
-   "2026-11-01T22:12:27.869784+00:00"
-  ],
-  "lobsters:s2qeww": [
-   40,
-   "2026-11-01T22:12:27.869784+00:00"
-  ],
   "lobsters:bzazar": [
    34,
    "2026-11-01T22:12:27.869784+00:00"
@@ -17205,15 +17246,31 @@
   "hn:50481187": [
    262,
    "2026-11-13T10:53:44.091320+00:00"
+  ],
+  "hn:50482379": [
+   85,
+   "2026-11-13T12:53:40.417037+00:00"
+  ],
+  "hn:50482045": [
+   178,
+   "2026-11-13T12:53:40.417037+00:00"
+  ],
+  "hn:50480480": [
+   165,
+   "2026-11-13T12:53:40.417037+00:00"
+  ],
+  "lobsters:lh9pwf": [
+   29,
+   "2026-11-13T12:53:40.417037+00:00"
   ]
  },
  "skips": {
   "Tom's Hardware": 5,
   "Article 19": 1,
   "Wired": 25,
-  "TechRadar": 8,
+  "TechRadar": 9,
   "Lobsters": 5,
-  "Hacker News": 30,
+  "Hacker News": 31,
   "The Next Web": 1,
   "404 Media": 10,
   "Emily M. Bender": 3,
@@ -17242,17 +17299,17 @@
   "The Verge": 22,
   "Cloudflare": 1,
   "TechCrunch AI": 18,
-  "Lobsters": 17,
+  "Lobsters": 18,
   "Tom's Hardware": 39,
   "ZDNet": 6,
   "9to5Mac": 18,
   "EFF": 2,
-  "Hacker News": 104,
+  "Hacker News": 105,
   "TechSpot": 20,
-  "The Hacker News": 36,
+  "The Hacker News": 38,
   "Latent Space": 7,
   "InfoQ": 18,
-  "The Register": 27,
+  "The Register": 28,
   "Phoronix": 26,
   "The Next Web": 26,
   "Android Police": 20,
@@ -17286,17 +17343,17 @@
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-12T13:54:19.433280+00:00",
-  "Lobsters": "2026-11-13T02:55:06.956790+00:00",
+  "Lobsters": "2026-11-13T12:54:34.530760+00:00",
   "Tom's Hardware": "2026-11-13T11:53:52.167150+00:00",
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-12T14:56:06.410255+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-13T10:53:53.295859+00:00",
+  "Hacker News": "2026-11-13T12:53:56.299669+00:00",
   "TechSpot": "2026-11-13T03:53:47.498872+00:00",
-  "The Hacker News": "2026-11-13T05:56:48.238641+00:00",
+  "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
   "InfoQ": "2026-11-13T09:54:17.521781+00:00",
-  "The Register": "2026-11-13T10:53:47.376640+00:00",
+  "The Register": "2026-11-13T12:55:20.731082+00:00",
   "Phoronix": "2026-11-13T11:54:00.388760+00:00",
   "The Next Web": "2026-11-13T07:54:30.228023+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
