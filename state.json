@@ -1,18 +1,5 @@
 {
  "seen": [
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxcmbxa2sk2s",
-  "lobsters:0gvyif",
-  "https://www.theregister.com/a/5301831",
-  "https://www.techspot.com/news/114137-ransomware-recovery-firm-claimed-could-decrypt-files-but.html",
-  "hn:50007519",
-  "hn:50008427",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxf2ve437v2t",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxf2x34oqs2i",
-  "6ac7b9b9f425ff16c3434abd",
-  "hn:50006948",
-  "hn:50006832",
-  "https://www.engadget.com/2281503/us-suspends-permanent-residency-program-for-microsoft-adobe-and-other-tech-companies/",
-  "xCSnMEBKTPkMWTDMkZS6sY",
   "https://yro.slashdot.org/story/26/10/08/194218/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.neowin.net/news/trump-administration-freezes-green-card-immigration-filings-for-microsoft-adobe/",
   "hn:50011928",
@@ -2999,17 +2986,30 @@
   "hn:50484235",
   "hn:50484421",
   "hn:50484496",
-  "hn:50484658"
+  "hn:50484658",
+  "6ad90ff849d6fa29506e04da",
+  "hn:50484006",
+  "hn:50483533",
+  "hn:50484007",
+  "https://9to5mac.com/?p=1079396",
+  "https://techcrunch.com/?p=3188368",
+  "https://openai.com/index/introducing-chatgpt-wallet",
+  "https://www.neowin.net/news/openai-launches-chatgpt-wallet-allowing-ai-agents-to-make-purchases-on-your-behalf/",
+  "TheNextWeb=f5ded8dbb1e034562a1cbb4d31b80af7",
+  "hn:50485295",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n27eybepaf2c",
+  "hn:50486482",
+  "https://www.theverge.com/?p=1033026"
  ],
  "posted": {
-  "viral": 776,
-  "editorial": 1070
+  "viral": 778,
+  "editorial": 1071
  },
  "recent_labels": [
-  "Lobsters",
   "Hacker News",
   "Hacker News",
   "Hacker News",
+  "9to5Mac",
   "Hacker News"
  ],
  "last_digest": "2026-11-13",
@@ -7424,39 +7424,36 @@
    "pool": "viral",
    "score": 0.20733,
    "at": "2026-11-13T16:55:27.677102+00:00"
+  },
+  {
+   "title": "انتشار نسخه ۰.۳.۰ سرور XMPP با نام Lonewolf",
+   "url": "https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00416,
+   "at": "2026-11-13T17:54:01.454823+00:00"
+  },
+  {
+   "title": "عرضه‌ی کیف پول اختصاصی OpenAI برای پرداخت‌های خودکار توسط ایجنت‌ها",
+   "url": "https://9to5mac.com/2026/11/13/openai-launches-chatgpt-wallet-enabling-dot-agents-to-make-purchases/",
+   "source": "9to5Mac",
+   "label": "9to5Mac",
+   "pool": "editorial",
+   "score": 0.68209,
+   "at": "2026-11-13T17:54:10.685076+00:00"
+  },
+  {
+   "title": "نشت گسترده اطلاعات ۷.۶ میلیون مشتری بیمه Caixa در برزیل",
+   "url": "https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e",
+   "source": "filemanager-cdn.mziq.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.03884,
+   "at": "2026-11-13T17:54:18.256939+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "disks",
-    "encrypted",
-    "reboots",
-    "unattended"
-   ],
-   "at": "2026-11-09T02:53:55.820751+00:00"
-  },
-  {
-   "sig": [
-    "creator",
-    "disagree",
-    "herb",
-    "language",
-    "owners",
-    "pdf",
-    "strongly",
-    "sutter"
-   ],
-   "at": "2026-11-09T02:54:08.712290+00:00"
-  },
-  {
-   "sig": [
-    "bubble",
-    "convinced",
-    "exists"
-   ],
-   "at": "2026-11-09T02:54:14.639284+00:00"
-  },
   {
    "sig": [
     "did",
@@ -11529,21 +11526,68 @@
     "video"
    ],
    "at": "2026-11-13T16:55:27.677102+00:00"
+  },
+  {
+   "sig": [
+    "0.3",
+    "lonewolf",
+    "rust",
+    "server",
+    "standalone",
+    "written",
+    "xmpp"
+   ],
+   "at": "2026-11-13T17:54:01.454823+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "allowing",
+    "approval",
+    "behalf",
+    "card",
+    "chatgpt",
+    "check",
+    "codex",
+    "complete",
+    "dot",
+    "dots",
+    "enabling",
+    "existing",
+    "introducing",
+    "launches",
+    "lets",
+    "openai",
+    "protections",
+    "purchases",
+    "secure",
+    "seeing",
+    "shop",
+    "user",
+    "wallet",
+    "way",
+    "without",
+    "work"
+   ],
+   "at": "2026-11-13T17:54:10.685076+00:00"
+  },
+  {
+   "sig": [
+    "7.6m",
+    "brazil",
+    "breach",
+    "caixa",
+    "customers",
+    "exposes",
+    "ids",
+    "insurer",
+    "names",
+    "tax"
+   ],
+   "at": "2026-11-13T17:54:18.256939+00:00"
   }
  ],
  "snapshots": {
-  "hn:50334704": [
-   99,
-   "2026-11-02T12:53:43.773906+00:00"
-  ],
-  "hn:50334038": [
-   156,
-   "2026-11-02T12:53:43.773906+00:00"
-  ],
-  "hn:50333877": [
-   102,
-   "2026-11-02T12:53:43.773906+00:00"
-  ],
   "lobsters:caksp0": [
    29,
    "2026-11-02T12:53:43.773906+00:00"
@@ -13896,10 +13940,6 @@
    92,
    "2026-11-13T15:53:42.339934+00:00"
   ],
-  "hn:50485295": [
-   104,
-   "2026-11-13T16:53:45.676229+00:00"
-  ],
   "hn:50484658": [
    107,
    "2026-11-13T16:53:45.676229+00:00"
@@ -13916,10 +13956,6 @@
    101,
    "2026-11-13T16:53:45.676229+00:00"
   ],
-  "hn:50484006": [
-   174,
-   "2026-11-13T16:53:45.676229+00:00"
-  ],
   "hn:50483759": [
    158,
    "2026-11-13T16:53:45.676229+00:00"
@@ -13928,20 +13964,40 @@
    34,
    "2026-11-13T16:53:45.676229+00:00"
   ],
+  "hn:50485295": [
+   177,
+   "2026-11-13T17:53:41.340948+00:00"
+  ],
+  "hn:50484006": [
+   202,
+   "2026-11-13T17:53:41.340948+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n27eybepaf2c": [
-   70,
-   "2026-11-13T16:53:45.676229+00:00"
+   98,
+   "2026-11-13T17:53:41.340948+00:00"
+  ],
+  "hn:50486482": [
+   330,
+   "2026-11-13T17:53:41.340948+00:00"
+  ],
+  "hn:50484007": [
+   86,
+   "2026-11-13T17:53:41.340948+00:00"
+  ],
+  "hn:50483533": [
+   87,
+   "2026-11-13T17:53:41.340948+00:00"
   ]
  },
  "skips": {
   "Tom's Hardware": 5,
   "Article 19": 1,
-  "Wired": 25,
+  "Wired": 26,
   "TechRadar": 9,
   "Lobsters": 6,
-  "Hacker News": 35,
+  "Hacker News": 37,
   "The Next Web": 1,
-  "404 Media": 11,
+  "404 Media": 12,
   "Emily M. Bender": 3,
   "Simon Willison": 2,
   "Xe Iaso": 3,
@@ -13956,7 +14012,8 @@
   "TechSpot": 1,
   "9to5Mac": 2,
   "Engadget": 1,
-  "antirez": 1
+  "antirez": 1,
+  "The Verge": 1
  },
  "posts_by_label": {
   "Engadget": 44,
@@ -13972,9 +14029,9 @@
   "Lobsters": 21,
   "Tom's Hardware": 39,
   "ZDNet": 6,
-  "9to5Mac": 19,
+  "9to5Mac": 20,
   "EFF": 2,
-  "Hacker News": 112,
+  "Hacker News": 114,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14016,9 +14073,9 @@
   "Lobsters": "2026-11-13T16:53:53.486751+00:00",
   "Tom's Hardware": "2026-11-13T11:53:52.167150+00:00",
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
-  "9to5Mac": "2026-11-13T15:55:14.559542+00:00",
+  "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
-  "Hacker News": "2026-11-13T16:55:27.677217+00:00",
+  "Hacker News": "2026-11-13T17:54:18.257046+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
