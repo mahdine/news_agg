@@ -1,15 +1,5 @@
 {
  "seen": [
-  "6ac3edfecaad4b82f9f08c46",
-  "6a3921356f2db0127b2a052a",
-  "6ac5587bee1eb4b838492be3",
-  "6a3049e1dc32638554aee625",
-  "6a31bb493c2a0f5fb9c47690",
-  "6ac40ac61ed83fb6eed66b4e",
-  "6ac40fdd9ac498761645ea20",
-  "6a3465ec29654bd9f5f0b3f6",
-  "6ac4f5180bebf3586f2810f9",
-  "6a392f2a4ddf7e7478e60654",
   "6ac40a20afafd73a99ceb10c",
   "6a3998c68dc90da80573fc41",
   "6a303a2457a979ebb6385012",
@@ -2999,18 +2989,28 @@
   "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
   "https://www.securityweek.com/?p=50773",
   "hn:50482045",
-  "https://www.theregister.com/a/5309699"
+  "https://www.theregister.com/a/5309699",
+  "lobsters:f6u0cg",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3n26qr4fnyk2v",
+  "https://www.techspot.com/news/114542-microsoft-struggles-restore-outlook-teams-other-services-global.html",
+  "https://www.engadget.com/2315259/multiple-microsoft-365-services-are-experiencing-an-outage/",
+  "https://www.securityweek.com/?p=50778",
+  "TheNextWeb=2ec9e6730c4ad52a6a19e40e7bd1417e",
+  "https://www.neowin.net/news/new-xbox-update-lets-you-move-the-guide-menu-and-shuffle-home-backgrounds/",
+  "https://www.theverge.com/?p=1032396",
+  "https://www.techspot.com/news/114547-amd-wants-gamers-remember-radeon-loyalty-days-after.html",
+  "45d91a9a5fe13437488f7e390ef6ac88"
  ],
  "posted": {
-  "viral": 766,
-  "editorial": 1061
+  "viral": 767,
+  "editorial": 1065
  },
  "recent_labels": [
-  "Hacker News",
   "Lobsters",
-  "The Hacker News",
-  "The Hacker News",
-  "The Register"
+  "TechSpot",
+  "Neowin",
+  "TechSpot",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -10746,52 +10746,54 @@
    "pool": "editorial",
    "score": 0.2267,
    "at": "2026-11-13T12:55:20.730989+00:00"
+  },
+  {
+   "title": "چالش‌های انجام کارهای زیرساختی و غیررسمی در شرکت‌های بزرگ تکنولوژی",
+   "url": "https://sunshowers.io/posts/glue-work/",
+   "source": "sunshowers.io",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.0159,
+   "at": "2026-11-13T13:53:49.595185+00:00"
+  },
+  {
+   "title": "اختلال گسترده در سرویس‌های مایکروسافت ۳۶۵ و ناتوانی در بازیابی خدمات",
+   "url": "https://www.techspot.com/news/114542-microsoft-struggles-restore-outlook-teams-other-services-global.html",
+   "source": "TechSpot",
+   "label": "TechSpot",
+   "pool": "editorial",
+   "score": 0.24561,
+   "at": "2026-11-13T13:54:01.719091+00:00"
+  },
+  {
+   "title": "به‌روزرسانی جدید رابط کاربری کنسول‌های Xbox",
+   "url": "https://www.neowin.net/news/new-xbox-update-lets-you-move-the-guide-menu-and-shuffle-home-backgrounds/?utm_source=rss",
+   "source": "Neowin",
+   "label": "Neowin",
+   "pool": "editorial",
+   "score": 0.36788,
+   "at": "2026-11-13T13:54:10.098608+00:00"
+  },
+  {
+   "title": "تغییر استراتژی AMD و اولویت‌بندی بخش دیتاسنتر بر گیمینگ",
+   "url": "https://www.techspot.com/news/114547-amd-wants-gamers-remember-radeon-loyalty-days-after.html",
+   "source": "TechSpot",
+   "label": "TechSpot",
+   "pool": "editorial",
+   "score": 0.20239,
+   "at": "2026-11-13T13:54:31.908666+00:00"
+  },
+  {
+   "title": "ثبت پتنت مایکروسافت برای تغییر لحظه‌ای گفتار و حرکات لب در ویدیوها",
+   "url": "https://hi-tech.mail.ru/news/160538-skazhete-odno-a-zriteli-uslyshat-drugoe-microsoft-zapatentovala-ii-kotoryj-menyaet-slova-v-pryamom-efire/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.20089,
+   "at": "2026-11-13T13:54:48.144498+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anthropic",
-    "cves",
-    "developer",
-    "funds",
-    "python",
-    "security",
-    "triple"
-   ],
-   "at": "2026-11-08T15:54:09.397160+00:00"
-  },
-  {
-   "sig": [
-    "coolant",
-    "expire",
-    "here",
-    "last",
-    "long"
-   ],
-   "at": "2026-11-08T16:55:14.240469+00:00"
-  },
-  {
-   "sig": [
-    "busted",
-    "grapheneos",
-    "installing",
-    "myths",
-    "pixel"
-   ],
-   "at": "2026-11-08T16:55:40.065528+00:00"
-  },
-  {
-   "sig": [
-    "detect",
-    "difficult",
-    "music",
-    "signs",
-    "telltale",
-    "there"
-   ],
-   "at": "2026-11-08T16:56:10.599222+00:00"
-  },
   {
    "sig": [
     "loves",
@@ -14860,17 +14862,78 @@
     "three"
    ],
    "at": "2026-11-13T12:55:20.730989+00:00"
+  },
+  {
+   "sig": [
+    "considered",
+    "contra",
+    "glue",
+    "harmful",
+    "work"
+   ],
+   "at": "2026-11-13T13:53:49.595185+00:00"
+  },
+  {
+   "sig": [
+    "businesses",
+    "day",
+    "disrupting",
+    "email",
+    "enters",
+    "experiencing",
+    "global",
+    "hours",
+    "microsoft",
+    "multiple",
+    "other",
+    "outage",
+    "outlook",
+    "passes",
+    "restore",
+    "second",
+    "services",
+    "struggles",
+    "teams",
+    "worldwide"
+   ],
+   "at": "2026-11-13T13:54:01.719091+00:00"
+  },
+  {
+   "sig": [
+    "backgrounds",
+    "customizations",
+    "getting",
+    "guide",
+    "home",
+    "lets",
+    "menu",
+    "move",
+    "owners",
+    "shuffle",
+    "update",
+    "xbox"
+   ],
+   "at": "2026-11-13T13:54:10.098608+00:00"
+  },
+  {
+   "sig": [
+    "amd",
+    "center-first",
+    "company",
+    "data",
+    "days",
+    "declaring",
+    "gamers",
+    "itself",
+    "loyalty",
+    "radeon",
+    "remember",
+    "wants"
+   ],
+   "at": "2026-11-13T13:54:31.908666+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:bzazar": [
-   34,
-   "2026-11-01T22:12:27.869784+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzbmrvrsi32s": [
-   223,
-   "2026-11-01T22:12:27.869784+00:00"
-  ],
   "hn:50330939": [
    405,
    "2026-11-02T01:53:43.907864+00:00"
@@ -17262,6 +17325,14 @@
   "lobsters:lh9pwf": [
    29,
    "2026-11-13T12:53:40.417037+00:00"
+  ],
+  "lobsters:f6u0cg": [
+   25,
+   "2026-11-13T13:53:47.216892+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3n26qr4fnyk2v": [
+   17,
+   "2026-11-13T13:53:47.216892+00:00"
   ]
  },
  "skips": {
@@ -17286,11 +17357,12 @@
   "Neowin": 1,
   "TechSpot": 1,
   "9to5Mac": 2,
-  "Engadget": 1
+  "Engadget": 1,
+  "antirez": 1
  },
  "posts_by_label": {
   "Engadget": 44,
-  "Neowin": 25,
+  "Neowin": 26,
   "Wired": 25,
   "TechRadar": 37,
   "Slashdot": 31,
@@ -17299,13 +17371,13 @@
   "The Verge": 22,
   "Cloudflare": 1,
   "TechCrunch AI": 18,
-  "Lobsters": 18,
+  "Lobsters": 19,
   "Tom's Hardware": 39,
   "ZDNet": 6,
   "9to5Mac": 18,
   "EFF": 2,
   "Hacker News": 105,
-  "TechSpot": 20,
+  "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
   "InfoQ": 18,
@@ -17318,7 +17390,7 @@
   "Simon Willison RSS": 6,
   "vc.ru": 15,
   "SecurityWeek": 17,
-  "Hi-Tech Mail": 49,
+  "Hi-Tech Mail": 50,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
@@ -17334,7 +17406,7 @@
  },
  "last_post": {
   "Engadget": "2026-11-12T14:55:09.676292+00:00",
-  "Neowin": "2026-11-13T09:54:40.447965+00:00",
+  "Neowin": "2026-11-13T13:54:10.098725+00:00",
   "Wired": "2026-11-13T11:54:20.801626+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-13T04:54:43.870063+00:00",
@@ -17343,13 +17415,13 @@
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-12T13:54:19.433280+00:00",
-  "Lobsters": "2026-11-13T12:54:34.530760+00:00",
+  "Lobsters": "2026-11-13T13:53:49.595310+00:00",
   "Tom's Hardware": "2026-11-13T11:53:52.167150+00:00",
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-12T14:56:06.410255+00:00",
   "EFF": "2026-11-06T09:54:49.849333+00:00",
   "Hacker News": "2026-11-13T12:53:56.299669+00:00",
-  "TechSpot": "2026-11-13T03:53:47.498872+00:00",
+  "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
   "InfoQ": "2026-11-13T09:54:17.521781+00:00",
@@ -17362,7 +17434,7 @@
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-13T08:54:02.885975+00:00",
   "SecurityWeek": "2026-11-13T05:54:16.992665+00:00",
-  "Hi-Tech Mail": "2026-11-13T10:54:17.771281+00:00",
+  "Hi-Tech Mail": "2026-11-13T13:54:48.144614+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
