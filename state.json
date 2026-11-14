@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://tech.slashdot.org/story/26/10/12/1841208/googles-fitbit-edge-debuts-a-replaceable-battery-brings-back-the-screen?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.neowin.net/news/google-announces-fitbit-edge-with-seven-day-battery-life-for-179/",
   "https://www.androidpolice.com/googles-fitbit-edge-brings-pixel-watch-features-for-less/",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxqmum5ze22p",
@@ -2999,18 +2998,19 @@
   "hn:50496602",
   "hn:50494696",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2bleyuhad2h",
-  "hn:50496811"
+  "hn:50496811",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3n2b5onqbvc2v"
  ],
  "posted": {
-  "viral": 788,
+  "viral": 789,
   "editorial": 1075
  },
  "recent_labels": [
-  "The Next Web",
   "Engadget",
   "EFF",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "antirez"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7577,19 +7577,18 @@
    "pool": "viral",
    "score": 0.08948,
    "at": "2026-11-14T16:53:55.846545+00:00"
+  },
+  {
+   "title": "انتشار اپلیکیشن YouRec برای ضبط و تدوین ویدیو در آیفون",
+   "url": "https://apps.apple.com/app/id6830752075",
+   "source": "apps.apple.com",
+   "label": "antirez",
+   "pool": "viral",
+   "score": 0.03145,
+   "at": "2026-11-14T17:53:47.726658+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "apple",
-    "budget",
-    "capped",
-    "daily",
-    "engineers"
-   ],
-   "at": "2026-11-09T07:54:00.878189+00:00"
-  },
   {
    "sig": [
     "clustering",
@@ -11665,17 +11664,25 @@
     "teamwork"
    ],
    "at": "2026-11-14T16:53:55.846545+00:00"
+  },
+  {
+   "sig": [
+    "app",
+    "apps.apple.com",
+    "appstore",
+    "code",
+    "github",
+    "id683075",
+    "licensed",
+    "live",
+    "mit",
+    "source",
+    "yourec"
+   ],
+   "at": "2026-11-14T17:53:47.726658+00:00"
   }
  ],
  "snapshots": {
-  "hn:50342424": [
-   159,
-   "2026-11-03T03:53:42.911010+00:00"
-  ],
-  "hn:50341736": [
-   306,
-   "2026-11-03T03:53:42.911010+00:00"
-  ],
   "hn:50346153": [
    287,
    "2026-11-03T03:53:42.911010+00:00"
@@ -14040,18 +14047,6 @@
    152,
    "2026-11-14T16:53:41.571822+00:00"
   ],
-  "hn:50497009": [
-   218,
-   "2026-11-14T16:53:41.571822+00:00"
-  ],
-  "hn:50497892": [
-   68,
-   "2026-11-14T16:53:41.571822+00:00"
-  ],
-  "hn:50497155": [
-   135,
-   "2026-11-14T16:53:41.571822+00:00"
-  ],
   "hn:50496976": [
    129,
    "2026-11-14T16:53:41.571822+00:00"
@@ -14064,9 +14059,29 @@
    29,
    "2026-11-14T16:53:41.571822+00:00"
   ],
+  "hn:50497009": [
+   299,
+   "2026-11-14T17:53:45.292827+00:00"
+  ],
+  "hn:50497892": [
+   155,
+   "2026-11-14T17:53:45.292827+00:00"
+  ],
+  "hn:50497155": [
+   159,
+   "2026-11-14T17:53:45.292827+00:00"
+  ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3n2b5onqbvc2v": [
    16,
-   "2026-11-14T16:53:41.571822+00:00"
+   "2026-11-14T17:53:45.292827+00:00"
+  ],
+  "hn:50498063": [
+   197,
+   "2026-11-14T17:53:45.292827+00:00"
+  ],
+  "hn:50497900": [
+   100,
+   "2026-11-14T17:53:45.292827+00:00"
   ]
  },
  "skips": {
@@ -14131,7 +14146,7 @@
   "Dan Luu": 1,
   "CNews": 52,
   "Emily M. Bender": 4,
-  "antirez": 5,
+  "antirez": 6,
   "OpenAI": 3,
   "Hugging Face": 2,
   "Access Now": 1,
@@ -14175,7 +14190,7 @@
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
   "CNews": "2026-11-13T11:54:14.744898+00:00",
   "Emily M. Bender": "2026-11-12T16:56:40.304536+00:00",
-  "antirez": "2026-11-10T03:55:22.527580+00:00",
+  "antirez": "2026-11-14T17:53:47.726773+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
   "Hugging Face": "2026-11-11T05:54:17.268131+00:00",
   "Access Now": "2026-11-05T10:54:49.232575+00:00",
