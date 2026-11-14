@@ -1,9 +1,5 @@
 {
  "seen": [
-  "hn:50043682",
-  "https://9to5mac.com/?p=1073599",
-  "a9dbfb95b3c4820ae53c187c9416dc9f",
-  "hn:50045946",
   "hn:50047055",
   "hn:50047422",
   "hn:50054092",
@@ -2999,18 +2995,22 @@
   "6af4abdf9181a13e281c83e7",
   "6af4dfb911d8a61e3722dabc",
   "6af48768b9a1088954de93e3",
-  "6af4f17c3111357845393d99"
+  "6af4f17c3111357845393d99",
+  "https://science.slashdot.org/story/26/11/14/0046259/spacex-falls-short-of-historic-double-starship-catch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "TheNextWeb=8ef0dfc12f28cef92bdaf85f03ad21a2",
+  "TheNextWeb=308dcf5539d19f810cbb10d7cd86dfd4",
+  "https://www.securityweek.com/?p=50794"
  ],
  "posted": {
   "viral": 786,
-  "editorial": 1072
+  "editorial": 1073
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
   "Hacker News",
-  "Hacker News",
-  "Wired"
+  "Wired",
+  "The Next Web"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7532,29 +7532,18 @@
    "pool": "editorial",
    "score": 0.22964,
    "at": "2026-11-14T11:53:51.542049+00:00"
+  },
+  {
+   "title": "تحقیق FBI درباره اختلال نرم‌افزاری در سیستم‌های هوانوردی آمریکا",
+   "url": "https://thenextweb.com/news/faa-ground-stop-fbi-software-update",
+   "source": "The Next Web",
+   "label": "The Next Web",
+   "pool": "editorial",
+   "score": 0.34681,
+   "at": "2026-11-14T12:54:05.753547+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "800-volt",
-    "center",
-    "china",
-    "conversion",
-    "cracked",
-    "data",
-    "efficiency",
-    "ever",
-    "first",
-    "greater",
-    "offering",
-    "power",
-    "problem",
-    "system",
-    "world"
-   ],
-   "at": "2026-11-09T05:54:05.253086+00:00"
-  },
   {
    "sig": [
     "ai-generated",
@@ -11651,6 +11640,23 @@
     "time"
    ],
    "at": "2026-11-14T11:53:51.542049+00:00"
+  },
+  {
+   "sig": [
+    "behind",
+    "faa",
+    "fbi",
+    "flight",
+    "ground",
+    "hacking",
+    "probes",
+    "reportedly",
+    "signs",
+    "software",
+    "stop",
+    "update"
+   ],
+   "at": "2026-11-14T12:54:05.753547+00:00"
   }
  ],
  "snapshots": {
@@ -14036,7 +14042,7 @@
   ],
   "hn:50492601": [
    212,
-   "2026-11-14T11:53:41.065294+00:00"
+   "2026-11-14T12:54:02.415209+00:00"
   ],
   "hn:50493251": [
    1211,
@@ -14071,7 +14077,7 @@
   "CNews": 20,
   "vc.ru": 2,
   "Hi-Tech Mail": 8,
-  "Slashdot": 2,
+  "Slashdot": 3,
   "The Register": 8,
   "Google AI": 1,
   "Neowin": 1,
@@ -14104,7 +14110,7 @@
   "InfoQ": 18,
   "The Register": 28,
   "Phoronix": 27,
-  "The Next Web": 27,
+  "The Next Web": 28,
   "Android Police": 20,
   "Ars Technica": 2,
   "Simon Willison": 3,
@@ -14148,7 +14154,7 @@
   "InfoQ": "2026-11-13T09:54:17.521781+00:00",
   "The Register": "2026-11-13T12:55:20.731082+00:00",
   "Phoronix": "2026-11-13T15:55:06.778710+00:00",
-  "The Next Web": "2026-11-13T15:54:54.810852+00:00",
+  "The Next Web": "2026-11-14T12:54:05.753665+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
   "Ars Technica": "2026-11-11T17:53:47.755359+00:00",
   "Simon Willison": "2026-11-13T03:54:17.433642+00:00",
