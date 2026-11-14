@@ -1,7 +1,5 @@
 {
  "seen": [
-  "hn:50047055",
-  "hn:50047422",
   "hn:50054092",
   "6ac7b0fc96a91d67fca30f49",
   "https://3dnews.ru/1149818/#6acd2c54742eec6abc8b458a",
@@ -2999,18 +2997,20 @@
   "https://science.slashdot.org/story/26/11/14/0046259/spacex-falls-short-of-historic-double-starship-catch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "TheNextWeb=8ef0dfc12f28cef92bdaf85f03ad21a2",
   "TheNextWeb=308dcf5539d19f810cbb10d7cd86dfd4",
-  "https://www.securityweek.com/?p=50794"
+  "https://www.securityweek.com/?p=50794",
+  "https://www.engadget.com/2315452/motorola-signature-27-hands-on/",
+  "https://www.androidpolice.com/motorola-signature-27-spec-monster-not-enough-to-beat-samsung/"
  ],
  "posted": {
   "viral": 786,
-  "editorial": 1073
+  "editorial": 1074
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
-  "Hacker News",
   "Wired",
-  "The Next Web"
+  "The Next Web",
+  "Engadget"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7541,41 +7541,18 @@
    "pool": "editorial",
    "score": 0.34681,
    "at": "2026-11-14T12:54:05.753547+00:00"
+  },
+  {
+   "title": "رونمایی از گوشی قدرتمند Motorola Signature 27 با سخت‌افزار رده‌بالا",
+   "url": "https://www.engadget.com/2315452/motorola-signature-27-hands-on/",
+   "source": "Engadget",
+   "label": "Engadget",
+   "pool": "editorial",
+   "score": 0.24797,
+   "at": "2026-11-14T13:54:06.399459+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "ai-generated",
-    "behind",
-    "bit",
-    "bulk",
-    "collapsed",
-    "descriptions",
-    "details",
-    "exhausting",
-    "github",
-    "hiding",
-    "html",
-    "less",
-    "little",
-    "making",
-    "markdown",
-    "nov",
-    "pattern",
-    "recently",
-    "simonwillison.net",
-    "slop",
-    "started",
-    "summary",
-    "supported",
-    "tag",
-    "thankfully",
-    "think",
-    "useful"
-   ],
-   "at": "2026-11-09T05:54:14.907823+00:00"
-  },
   {
    "sig": [
     "ai-prompted",
@@ -11657,17 +11634,22 @@
     "update"
    ],
    "at": "2026-11-14T12:54:05.753547+00:00"
+  },
+  {
+   "sig": [
+    "beast",
+    "beat",
+    "enough",
+    "monster",
+    "motorola",
+    "samsung",
+    "signature",
+    "spec"
+   ],
+   "at": "2026-11-14T13:54:06.399459+00:00"
   }
  ],
  "snapshots": {
-  "hn:50341028": [
-   190,
-   "2026-11-03T02:53:48.274416+00:00"
-  ],
-  "hn:50339224": [
-   143,
-   "2026-11-03T02:53:48.274416+00:00"
-  ],
   "hn:50337716": [
    123,
    "2026-11-03T02:53:48.274416+00:00"
@@ -14032,17 +14014,9 @@
    246,
    "2026-11-14T08:53:40.013648+00:00"
   ],
-  "hn:50492315": [
-   289,
-   "2026-11-14T11:53:41.065294+00:00"
-  ],
   "hn:50490778": [
    93,
    "2026-11-14T09:53:48.021923+00:00"
-  ],
-  "hn:50492601": [
-   212,
-   "2026-11-14T12:54:02.415209+00:00"
   ],
   "hn:50493251": [
    1211,
@@ -14059,6 +14033,22 @@
   "hn:50493904": [
    207,
    "2026-11-14T10:53:44.976229+00:00"
+  ],
+  "hn:50492315": [
+   289,
+   "2026-11-14T11:53:41.065294+00:00"
+  ],
+  "hn:50492601": [
+   212,
+   "2026-11-14T12:54:02.415209+00:00"
+  ],
+  "hn:50494696": [
+   142,
+   "2026-11-14T13:53:56.429660+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2bleyuhad2h": [
+   83,
+   "2026-11-14T13:53:56.429660+00:00"
   ]
  },
  "skips": {
@@ -14088,7 +14078,7 @@
   "The Verge": 1
  },
  "posts_by_label": {
-  "Engadget": 44,
+  "Engadget": 45,
   "Neowin": 26,
   "Wired": 26,
   "TechRadar": 37,
@@ -14132,7 +14122,7 @@
   "LangChain Blog": 1
  },
  "last_post": {
-  "Engadget": "2026-11-12T14:55:09.676292+00:00",
+  "Engadget": "2026-11-14T13:54:06.399584+00:00",
   "Neowin": "2026-11-13T13:54:10.098725+00:00",
   "Wired": "2026-11-14T11:53:51.542167+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
