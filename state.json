@@ -1,7 +1,5 @@
 {
  "seen": [
-  "TyBR3XDcWdvskXNzwtjQXW",
-  "03469bea98ca465a4d1efeee3d848f3d",
   "hn:50043682",
   "https://9to5mac.com/?p=1073599",
   "a9dbfb95b3c4820ae53c187c9416dc9f",
@@ -2999,18 +2997,20 @@
   "hn:50493904",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2aq6ys3s22r",
   "6af4abdf9181a13e281c83e7",
-  "6af4dfb911d8a61e3722dabc"
+  "6af4dfb911d8a61e3722dabc",
+  "6af48768b9a1088954de93e3",
+  "6af4f17c3111357845393d99"
  ],
  "posted": {
   "viral": 786,
-  "editorial": 1071
+  "editorial": 1072
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
   "Hacker News",
   "Hacker News",
-  "Hacker News"
+  "Wired"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7523,20 +7523,18 @@
    "pool": "viral",
    "score": 0.00947,
    "at": "2026-11-14T09:53:50.918229+00:00"
+  },
+  {
+   "title": "لزوم بررسی و مدیریت لینک‌های اشتراک‌گذاری‌شده در سرویس‌های ابری",
+   "url": "https://www.wired.com/story/audit-all-the-cloud-storage-links-youve-shared/",
+   "source": "Wired",
+   "label": "Wired",
+   "pool": "editorial",
+   "score": 0.22964,
+   "at": "2026-11-14T11:53:51.542049+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "device",
-    "fix",
-    "isn",
-    "macbook",
-    "showing",
-    "usb"
-   ],
-   "at": "2026-11-09T05:53:55.929682+00:00"
-  },
   {
    "sig": [
     "800-volt",
@@ -11641,6 +11639,18 @@
     "startups"
    ],
    "at": "2026-11-14T09:53:50.918229+00:00"
+  },
+  {
+   "sig": [
+    "audit",
+    "cloud",
+    "links",
+    "run",
+    "shared",
+    "storage",
+    "time"
+   ],
+   "at": "2026-11-14T11:53:51.542049+00:00"
   }
  ],
  "snapshots": {
@@ -14017,8 +14027,8 @@
    "2026-11-14T08:53:40.013648+00:00"
   ],
   "hn:50492315": [
-   288,
-   "2026-11-14T10:53:44.976229+00:00"
+   289,
+   "2026-11-14T11:53:41.065294+00:00"
   ],
   "hn:50490778": [
    93,
@@ -14026,7 +14036,7 @@
   ],
   "hn:50492601": [
    212,
-   "2026-11-14T10:53:44.976229+00:00"
+   "2026-11-14T11:53:41.065294+00:00"
   ],
   "hn:50493251": [
    1211,
@@ -14048,7 +14058,7 @@
  "skips": {
   "Tom's Hardware": 5,
   "Article 19": 1,
-  "Wired": 28,
+  "Wired": 29,
   "TechRadar": 9,
   "Lobsters": 6,
   "Hacker News": 43,
@@ -14074,7 +14084,7 @@
  "posts_by_label": {
   "Engadget": 44,
   "Neowin": 26,
-  "Wired": 25,
+  "Wired": 26,
   "TechRadar": 37,
   "Slashdot": 31,
   "404 Media": 40,
@@ -14118,7 +14128,7 @@
  "last_post": {
   "Engadget": "2026-11-12T14:55:09.676292+00:00",
   "Neowin": "2026-11-13T13:54:10.098725+00:00",
-  "Wired": "2026-11-13T11:54:20.801626+00:00",
+  "Wired": "2026-11-14T11:53:51.542167+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-13T04:54:43.870063+00:00",
   "404 Media": "2026-11-13T01:53:54.628589+00:00",
