@@ -1,7 +1,5 @@
 {
  "seen": [
-  "08c86e0a7a59bc53743a8e7301cb3002",
-  "https://www.engadget.com/2283307/googles-sleek-new-fitbit-edge-is-packed-with-health-features-and-a-replaceable-battery/",
   "https://tech.slashdot.org/story/26/10/12/1841208/googles-fitbit-edge-debuts-a-replaceable-battery-brings-back-the-screen?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.neowin.net/news/google-announces-fitbit-edge-with-seven-day-battery-life-for-179/",
   "https://www.androidpolice.com/googles-fitbit-edge-brings-pixel-watch-features-for-less/",
@@ -2999,17 +2997,19 @@
   "https://www.androidpolice.com/motorola-signature-27-spec-monster-not-enough-to-beat-samsung/",
   "112537 at https://www.eff.org",
   "hn:50496602",
-  "hn:50494696"
+  "hn:50494696",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2bleyuhad2h",
+  "hn:50496811"
  ],
  "posted": {
-  "viral": 787,
+  "viral": 788,
   "editorial": 1075
  },
  "recent_labels": [
-  "Wired",
   "The Next Web",
   "Engadget",
   "EFF",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-13",
@@ -7568,22 +7568,18 @@
    "pool": "viral",
    "score": 0.02857,
    "at": "2026-11-14T15:54:00.162122+00:00"
+  },
+  {
+   "title": "گوگل از ابزارهای هوش مصنوعی برای حل مسائل پیچیده علمی استفاده کرد",
+   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+   "source": "research.google",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.08948,
+   "at": "2026-11-14T16:53:55.846545+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "apple",
-    "buy",
-    "macbook",
-    "oled",
-    "pro",
-    "right",
-    "sale",
-    "top"
-   ],
-   "at": "2026-11-09T07:53:49.226907+00:00"
-  },
   {
    "sig": [
     "apple",
@@ -11659,33 +11655,19 @@
     "useful"
    ],
    "at": "2026-11-14T15:54:00.162122+00:00"
+  },
+  {
+   "sig": [
+    "advancing",
+    "antigravity",
+    "engineering",
+    "science",
+    "teamwork"
+   ],
+   "at": "2026-11-14T16:53:55.846545+00:00"
   }
  ],
  "snapshots": {
-  "hn:50337661": [
-   90,
-   "2026-11-03T02:53:48.274416+00:00"
-  ],
-  "lobsters:gu6yyl": [
-   35,
-   "2026-11-03T02:53:48.274416+00:00"
-  ],
-  "hn:50340992": [
-   114,
-   "2026-11-03T02:53:48.274416+00:00"
-  ],
-  "hn:50340619": [
-   183,
-   "2026-11-03T02:53:48.274416+00:00"
-  ],
-  "hn:50344222": [
-   170,
-   "2026-11-03T02:53:48.274416+00:00"
-  ],
-  "hn:50343515": [
-   104,
-   "2026-11-03T03:53:42.911010+00:00"
-  ],
   "hn:50342424": [
    159,
    "2026-11-03T03:53:42.911010+00:00"
@@ -14055,12 +14037,36 @@
    "2026-11-14T15:53:55.985854+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2bleyuhad2h": [
-   135,
-   "2026-11-14T15:53:55.985854+00:00"
+   152,
+   "2026-11-14T16:53:41.571822+00:00"
   ],
   "hn:50497009": [
-   116,
-   "2026-11-14T15:53:55.985854+00:00"
+   218,
+   "2026-11-14T16:53:41.571822+00:00"
+  ],
+  "hn:50497892": [
+   68,
+   "2026-11-14T16:53:41.571822+00:00"
+  ],
+  "hn:50497155": [
+   135,
+   "2026-11-14T16:53:41.571822+00:00"
+  ],
+  "hn:50496976": [
+   129,
+   "2026-11-14T16:53:41.571822+00:00"
+  ],
+  "hn:50496811": [
+   79,
+   "2026-11-14T16:53:41.571822+00:00"
+  ],
+  "lobsters:pgmw6b": [
+   29,
+   "2026-11-14T16:53:41.571822+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3n2b5onqbvc2v": [
+   16,
+   "2026-11-14T16:53:41.571822+00:00"
   ]
  },
  "skips": {
@@ -14071,7 +14077,7 @@
   "Lobsters": 6,
   "Hacker News": 43,
   "The Next Web": 1,
-  "404 Media": 12,
+  "404 Media": 13,
   "Emily M. Bender": 3,
   "Simon Willison": 2,
   "Xe Iaso": 5,
@@ -14105,7 +14111,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 123,
+  "Hacker News": 124,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14149,7 +14155,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-14T15:54:00.162232+00:00",
+  "Hacker News": "2026-11-14T16:53:55.846655+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
