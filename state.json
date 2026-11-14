@@ -1,9 +1,5 @@
 {
  "seen": [
-  "hn:50033638",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxjvvajf5e2t",
-  "https://3dnews.ru/1149739/#6ac9e9a6742eec82ff8b456d",
-  "66c97033ca4b6dcf8e8824328bf34d26",
   "TyBR3XDcWdvskXNzwtjQXW",
   "03469bea98ca465a4d1efeee3d848f3d",
   "hn:50043682",
@@ -2999,7 +2995,11 @@
   "hn:50488835",
   "hn:50492141",
   "hn:50492993",
-  "hn:50493251"
+  "hn:50493251",
+  "hn:50493904",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2aq6ys3s22r",
+  "6af4abdf9181a13e281c83e7",
+  "6af4dfb911d8a61e3722dabc"
  ],
  "posted": {
   "viral": 786,
@@ -14017,8 +14017,8 @@
    "2026-11-14T08:53:40.013648+00:00"
   ],
   "hn:50492315": [
-   283,
-   "2026-11-14T09:53:48.021923+00:00"
+   288,
+   "2026-11-14T10:53:44.976229+00:00"
   ],
   "hn:50490778": [
    93,
@@ -14026,7 +14026,7 @@
   ],
   "hn:50492601": [
    212,
-   "2026-11-14T09:53:48.021923+00:00"
+   "2026-11-14T10:53:44.976229+00:00"
   ],
   "hn:50493251": [
    1211,
@@ -14037,26 +14037,26 @@
    "2026-11-14T09:53:48.021923+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2aq6ys3s22r": [
-   11,
-   "2026-11-14T09:53:48.021923+00:00"
+   13,
+   "2026-11-14T10:53:44.976229+00:00"
   ],
   "hn:50493904": [
-   125,
-   "2026-11-14T09:53:48.021923+00:00"
+   207,
+   "2026-11-14T10:53:44.976229+00:00"
   ]
  },
  "skips": {
   "Tom's Hardware": 5,
   "Article 19": 1,
-  "Wired": 26,
+  "Wired": 28,
   "TechRadar": 9,
   "Lobsters": 6,
-  "Hacker News": 42,
+  "Hacker News": 43,
   "The Next Web": 1,
   "404 Media": 12,
   "Emily M. Bender": 3,
   "Simon Willison": 2,
-  "Xe Iaso": 4,
+  "Xe Iaso": 5,
   "Simon Willison RSS": 1,
   "CNews": 20,
   "vc.ru": 2,
