@@ -1,7 +1,5 @@
 {
  "seen": [
-  "hn:50054092",
-  "6ac7b0fc96a91d67fca30f49",
   "https://3dnews.ru/1149818/#6acd2c54742eec6abc8b458a",
   "08c86e0a7a59bc53743a8e7301cb3002",
   "https://www.engadget.com/2283307/googles-sleek-new-fitbit-edge-is-packed-with-health-features-and-a-replaceable-battery/",
@@ -2999,18 +2997,20 @@
   "TheNextWeb=308dcf5539d19f810cbb10d7cd86dfd4",
   "https://www.securityweek.com/?p=50794",
   "https://www.engadget.com/2315452/motorola-signature-27-hands-on/",
-  "https://www.androidpolice.com/motorola-signature-27-spec-monster-not-enough-to-beat-samsung/"
+  "https://www.androidpolice.com/motorola-signature-27-spec-monster-not-enough-to-beat-samsung/",
+  "112537 at https://www.eff.org",
+  "hn:50496602"
  ],
  "posted": {
   "viral": 786,
-  "editorial": 1074
+  "editorial": 1075
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "Wired",
   "The Next Web",
-  "Engadget"
+  "Engadget",
+  "EFF"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7550,22 +7550,18 @@
    "pool": "editorial",
    "score": 0.24797,
    "at": "2026-11-14T13:54:06.399459+00:00"
+  },
+  {
+   "title": "چالش‌های حریم خصوصی در عصر گجت‌های پوشیدنی و نظارت محیطی",
+   "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+   "source": "EFF",
+   "label": "EFF",
+   "pool": "editorial",
+   "score": 0.31293,
+   "at": "2026-11-14T14:54:55.707126+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "ai-prompted",
-    "flood",
-    "linus",
-    "patch",
-    "peaked",
-    "sees",
-    "signs",
-    "torvalds"
-   ],
-   "at": "2026-11-09T05:54:36.440787+00:00"
-  },
   {
    "sig": [
     "amid",
@@ -11647,13 +11643,21 @@
     "spec"
    ],
    "at": "2026-11-14T13:54:06.399459+00:00"
+  },
+  {
+   "sig": [
+    "again",
+    "companies",
+    "concept",
+    "privacy",
+    "shift",
+    "tech",
+    "trying"
+   ],
+   "at": "2026-11-14T14:54:55.707126+00:00"
   }
  ],
  "snapshots": {
-  "hn:50337716": [
-   123,
-   "2026-11-03T02:53:48.274416+00:00"
-  ],
   "hn:50337703": [
    69,
    "2026-11-03T02:53:48.274416+00:00"
@@ -14043,12 +14047,16 @@
    "2026-11-14T12:54:02.415209+00:00"
   ],
   "hn:50494696": [
-   142,
-   "2026-11-14T13:53:56.429660+00:00"
+   146,
+   "2026-11-14T14:53:41.283136+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2bleyuhad2h": [
-   83,
-   "2026-11-14T13:53:56.429660+00:00"
+   110,
+   "2026-11-14T14:53:41.283136+00:00"
+  ],
+  "hn:50496602": [
+   138,
+   "2026-11-14T14:53:41.283136+00:00"
   ]
  },
  "skips": {
@@ -14092,7 +14100,7 @@
   "Tom's Hardware": 39,
   "ZDNet": 6,
   "9to5Mac": 20,
-  "EFF": 2,
+  "EFF": 3,
   "Hacker News": 122,
   "TechSpot": 22,
   "The Hacker News": 38,
@@ -14136,7 +14144,7 @@
   "Tom's Hardware": "2026-11-13T11:53:52.167150+00:00",
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
-  "EFF": "2026-11-06T09:54:49.849333+00:00",
+  "EFF": "2026-11-14T14:54:55.707235+00:00",
   "Hacker News": "2026-11-14T09:53:50.918301+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
