@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://3dnews.ru/1149818/#6acd2c54742eec6abc8b458a",
   "08c86e0a7a59bc53743a8e7301cb3002",
   "https://www.engadget.com/2283307/googles-sleek-new-fitbit-edge-is-packed-with-health-features-and-a-replaceable-battery/",
   "https://tech.slashdot.org/story/26/10/12/1841208/googles-fitbit-edge-debuts-a-replaceable-battery-brings-back-the-screen?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -2999,18 +2998,19 @@
   "https://www.engadget.com/2315452/motorola-signature-27-hands-on/",
   "https://www.androidpolice.com/motorola-signature-27-spec-monster-not-enough-to-beat-samsung/",
   "112537 at https://www.eff.org",
-  "hn:50496602"
+  "hn:50496602",
+  "hn:50494696"
  ],
  "posted": {
-  "viral": 786,
+  "viral": 787,
   "editorial": 1075
  },
  "recent_labels": [
-  "Hacker News",
   "Wired",
   "The Next Web",
   "Engadget",
-  "EFF"
+  "EFF",
+  "Hacker News"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7559,25 +7559,18 @@
    "pool": "editorial",
    "score": 0.31293,
    "at": "2026-11-14T14:54:55.707126+00:00"
+  },
+  {
+   "title": "مهارت‌های کاربردی برای بهره‌برداری اقتصادی از هوش مصنوعی",
+   "url": "https://news.ycombinator.com/item?id=50494696",
+   "source": "Hacker News",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.02857,
+   "at": "2026-11-14T15:54:00.162122+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "amid",
-    "bypass",
-    "cisa",
-    "exploitation",
-    "flags",
-    "flaw",
-    "mfa",
-    "possible",
-    "reports",
-    "sonicos",
-    "sonicwall"
-   ],
-   "at": "2026-11-09T06:53:57.059430+00:00"
-  },
   {
    "sig": [
     "apple",
@@ -11655,13 +11648,20 @@
     "trying"
    ],
    "at": "2026-11-14T14:54:55.707126+00:00"
+  },
+  {
+   "sig": [
+    "ask",
+    "concrete",
+    "independently",
+    "learn",
+    "skills",
+    "useful"
+   ],
+   "at": "2026-11-14T15:54:00.162122+00:00"
   }
  ],
  "snapshots": {
-  "hn:50337703": [
-   69,
-   "2026-11-03T02:53:48.274416+00:00"
-  ],
   "hn:50337661": [
    90,
    "2026-11-03T02:53:48.274416+00:00"
@@ -14046,17 +14046,21 @@
    212,
    "2026-11-14T12:54:02.415209+00:00"
   ],
-  "hn:50494696": [
-   146,
-   "2026-11-14T14:53:41.283136+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2bleyuhad2h": [
-   110,
-   "2026-11-14T14:53:41.283136+00:00"
-  ],
   "hn:50496602": [
    138,
    "2026-11-14T14:53:41.283136+00:00"
+  ],
+  "hn:50494696": [
+   155,
+   "2026-11-14T15:53:55.985854+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2bleyuhad2h": [
+   135,
+   "2026-11-14T15:53:55.985854+00:00"
+  ],
+  "hn:50497009": [
+   116,
+   "2026-11-14T15:53:55.985854+00:00"
   ]
  },
  "skips": {
@@ -14101,7 +14105,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 122,
+  "Hacker News": 123,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14145,7 +14149,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-14T09:53:50.918301+00:00",
+  "Hacker News": "2026-11-14T15:54:00.162232+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
