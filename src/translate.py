@@ -81,8 +81,12 @@ class TranslationError(RuntimeError):
     pass
 
 
-def summarize(text: str, api_key: str, models: list[str], client: httpx.Client) -> str | None:
-    """خلاصه‌ی فارسی برمی‌گرداند، یا None اگر مدل تشخیص داد ارزش پست‌کردن ندارد.
+def summarize(text: str, api_key: str, models: list[str], client: httpx.Client) -> tuple[str, str, str, list[str]] | None:
+    """(تیتر، متن، هشتگ، موضوعات) برمی‌گرداند، یا None اگر مدل تشخیص داد ارزش پست‌کردن ندارد.
+
+    موضوعات کلیدهای خام انگلیسی خط اول مدل‌اند (دسته + برچسب‌ها)؛ هشتگ‌های
+    فارسی از همان‌ها ساخته می‌شوند ولی برای جمع‌بندی بازخورد خودِ کلیدها لازم
+    است چون واژگان بسته و پایدارند.
 
     سهمیه‌ی رایگان Gemini «به ازای هر مدل در روز» است، نه کل حساب. پس وقتی یک
     مدل سهمیه‌اش تمام می‌شود سراغ مدل بعدی می‌رویم و بودجه‌ی روزانه چند برابر
@@ -144,7 +148,7 @@ def _ask(model, payload, api_key, client) -> httpx.Response | None:
     return None
 
 
-def _extract(resp: httpx.Response, model: str) -> str | None:
+def _extract(resp: httpx.Response, model: str) -> tuple[str, str, str, list[str]] | None:
     candidates = resp.json().get("candidates") or []
     if not candidates:
         raise TranslationError(f"پاسخ Gemini خالی بود: {resp.text[:300]}")
@@ -211,18 +215,22 @@ EXTRA = {
 MAX_TAGS = 3
 
 
-def _split(out: str) -> tuple[str, str, str]:
-    """خروجی مدل را به تیتر، متن و هشتگ می‌شکند.
+def _split(out: str) -> tuple[str, str, str, list[str]]:
+    """خروجی مدل را به تیتر، متن، هشتگ و موضوعات می‌شکند.
 
     اگر مدل قالب را رعایت نکرد، بدترین حالت این است که تیتر خالی بماند و
     همه‌چیز متن شود؛ پست باز هم درست می‌رود.
     """
     lines = [line.strip() for line in out.splitlines()]
     tag = TAGS["TECH"]
+    topics: list[str] = []
 
     words = lines[0].replace("·", " ").replace(",", " ").split() if lines else []
     keys = [w.strip("#*").upper() for w in words]
     if keys and keys[0] in TAGS:
+        # کلیدهای خام را نگه می‌داریم: واژگان بسته است و برای جمع‌بندی
+        # بازخورد به همین شکل پایدار لازم است.
+        topics = [keys[0]] + [k for k in keys[1:] if k in EXTRA]
         picked = [TAGS[keys[0]]]
         for key in keys[1:]:
             if key in EXTRA and EXTRA[key] not in picked:
@@ -233,10 +241,10 @@ def _split(out: str) -> tuple[str, str, str]:
     while lines and not lines[0]:
         lines = lines[1:]
     if not lines:
-        return "", out.strip(), tag
+        return "", out.strip(), tag, topics
 
     title = lines[0].lstrip("#*• ").rstrip(".")
     body = "\n".join(lines[1:]).strip()
     if not body:
-        return "", title, tag
-    return title, body, tag
+        return "", title, tag, topics
+    return title, body, tag, topics

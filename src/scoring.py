@@ -37,7 +37,7 @@ import statistics
 from collections import defaultdict
 from datetime import datetime, timezone
 
-from . import cluster
+from . import cluster, topics
 from .models import Item
 
 log = logging.getLogger(__name__)
@@ -100,11 +100,15 @@ def weigh(**signals: int) -> int:
     return sum(WEIGHTS[name] * (count or 0) for name, count in signals.items())
 
 
-def rank(items: list[Item], state=None, now: datetime | None = None) -> list[Item]:
+def rank(items: list[Item], state=None, now: datetime | None = None, feedback: bool = True) -> list[Item]:
     """هر ماجرا را امتیاز می‌دهد و نماینده‌هایش را مرتب برمی‌گرداند.
 
     ورودی، خبرهای خام است. خروجی، یک آیتم به ازای هر ماجرا — چون وقتی هفت سایت
     یک خبر را نوشته‌اند، آن هفت‌تا یک چیزند و باید یک بار پست شوند، نه هفت بار.
+
+    با `feedback` (پیش‌فرض روشن)، ضرایب بازخوردِ جمع‌شده از رأی مخاطب هم
+    اعمال می‌شود: منبعی که مخاطب لایک کرده باشد کمی جلو می‌رود و موضوعی که
+    رأی منفی جمع کرده کمی عقب.
     """
     now = now or datetime.now(timezone.utc)
 
@@ -112,6 +116,9 @@ def rank(items: list[Item], state=None, now: datetime | None = None) -> list[Ite
     baselines = _baselines(items, speeds)
     recent = list(getattr(state, "recent_labels", []) or [])
     echoes = state.recent_stories(now) if hasattr(state, "recent_stories") else []
+
+    fb_label = state.feedback_multipliers() if (state is not None and feedback) else {}
+    fb_topic = state.topic_multipliers() if (state is not None and feedback) else {}
 
     leads: list[Item] = []
     for story in cluster.build(items):
@@ -125,6 +132,7 @@ def rank(items: list[Item], state=None, now: datetime | None = None) -> list[Ite
         _score(lead, story, speeds.get(lead.uid), baselines.get(lead.label, 0.0), now)
         _apply_diversity(lead, recent)
         _apply_echo(lead, echoes)
+        _apply_feedback(lead, fb_label, fb_topic)
         leads.append(lead)
 
     if state is not None:
@@ -244,3 +252,31 @@ def _apply_diversity(item: Item, recent: list[str]) -> None:
     penalty = REPEAT_PENALTY**repeats
     item.score *= penalty
     item.breakdown["diversity"] = round(penalty, 2)
+
+
+def _apply_feedback(item: Item, fb_label: dict[str, float], fb_topic: dict[str, float]) -> None:
+    """ضریب بازخوردِ جمع‌شده از رأی مخاطب: منبع و موضوع.
+
+    ضرایب در state با shrinkage حساب شده‌اند (رأی کم ≈ ۱)، پس اینجا فقط
+    اعمال می‌شوند. ضریب موضوع میانگین هندسیِ موضوعات تخمین‌زده‌ی همین خبر
+    است؛ اگر هیچ موضوعی رأی نداشت، ضریب ۱ می‌ماند.
+    """
+    label_mult = fb_label.get(item.label, 1.0)
+    topic_mult = _topic_multiplier(item, fb_topic)
+    if label_mult == 1.0 and topic_mult == 1.0:
+        return
+    item.score *= label_mult * topic_mult
+    if label_mult != 1.0:
+        item.breakdown["fb_src"] = round(label_mult, 3)
+    if topic_mult != 1.0:
+        item.breakdown["fb_topic"] = round(topic_mult, 3)
+
+
+def _topic_multiplier(item: Item, fb_topic: dict[str, float]) -> float:
+    """میانگین هندسی ضرایبِ موضوعاتی که در متن خبر دیده می‌شوند."""
+    if not fb_topic:
+        return 1.0
+    matched = [fb_topic[t] for t in topics.estimate(item.text) if t in fb_topic]
+    if not matched:
+        return 1.0
+    return math.exp(sum(math.log(m) for m in matched) / len(matched))

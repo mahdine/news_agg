@@ -36,6 +36,10 @@ class Item:
     image_url: str | None = None
     # صفحه‌ی بحث، جدا از خود مقاله. HN و Lobsters هر دو را دارند.
     discussion_url: str | None = None
+
+    # موضوعات خبر (کلیدهای انگلیسی بسته: دسته + برچسب‌ها) که مدل هنگام خلاصه‌سازی
+    # برمی‌گرداند. برای جمع‌بندی بازخورد به تفکیک موضوع استفاده می‌شود.
+    topics: list[str] = field(default_factory=list)
     score: float = 0.0
     breakdown: dict = field(default_factory=dict)
 

@@ -136,13 +136,35 @@ The article page is fetched with a browser user agent. With a bot-looking one, m
 
 Icons, logos, avatars, sprites, and tracking pixels are filtered out by name, and SVG is skipped because Telegram will not accept it.
 
-Each post carries inline buttons: the source article, and the Hacker News or Lobsters discussion when there is one. Both are `url` buttons rather than `callback_data`, which matters because a `url` button needs no running backend. A callback button would require something alive to answer it, and this bot only exists for the sixty seconds a cron job takes.
+Each post carries inline buttons: a row of four feedback buttons (see [Reader feedback](#reader-feedback)), the source article, and the Hacker News or Lobsters discussion when there is one. All of them are `url` buttons rather than `callback_data`, which matters because a `url` button needs no running backend. A callback button would require something alive to answer it, and this bot only exists for the sixty seconds a cron job takes.
 
 Gemini doubles as an editorial filter. The prompt tells it to answer `SKIP` for anything that is not about technology, is promotional, or is otherwise not worth a post, which is how entertainment stories and discount codes get caught before they reach the channel.
 
 Every source is fetched inside its own try block. A dead feed logs a warning and the run continues.
 
 Failed translations do not mark an item as seen, so the next run retries it. Gemini's free tier returns 429 and 503 often enough that the client also retries with exponential backoff.
+
+## Reader feedback
+
+After every news post the bot sends a **native Telegram poll** with four options — 👍 بود / 👎 نبود / 🔁 تکراری / 🕒 قدیمی. Polls are the channel's built-in feedback mechanism: members vote with one tap, Telegram itself enforces one-vote-per-user, and results are public on the poll. Channel polls are always anonymous (the API rejects non-anonymous polls in channel chats), so the bot does not see votes individually; when the poll closes (24 h after being sent, or earlier if stopped manually) it receives a `poll` update with the final per-option counts, which the next hourly run drains and records in `state.json`. The multiplier pipeline takes it from there. No backend, no deep links, no fragile client behavior — the same cron architecture, and it works for **every** member. Trade-off: feedback lands with a ~24 h delay instead of hourly.
+
+Two secondary paths exist and share the same vote store (one vote per user per post; the newest one wins). They are disabled by default because live testing showed their failure modes:
+
+1. **Reactions.** Members can react to the post (👍🔥👏👎); as an administrator the bot would receive `message_reaction` updates per user with the complete reaction list (`new_reaction`). In testing on this channel no reaction updates reached the bot at all, so it is kept as a fallback for channels where it works.
+2. **URL buttons.** Deep-link buttons into the bot (`t.me/<bot>?start=fb:<post_id>:<vote>`). Caveat found in live testing: if the user has *already* started the bot, Telegram does not deliver the `?start=` payload — it just opens the chat — so the tap silently fails for such users.
+
+`state.json` maps each published post to its Telegram `message_id`, the poll's `poll_id`, and the channel id, because reaction/poll updates reference posts only by those ids. Every post also stores its topics — the same closed vocabulary the Gemini summarizer already emits on its first output line (one of five categories plus up to two tags), so it costs no extra model call and needs no embeddings. That lets feedback be aggregated per source *and* per topic.
+
+Aggregated feedback feeds back into ranking as a soft multiplier, shrunk toward 1 by the vote count so a handful of early votes cannot tilt selection:
+
+| level | formula | range | active from |
+|---|---|---|---|
+| source | `1 + 0.25 · s · n/(n+6)` | 0.75 – 1.25 | 3 votes |
+| topic | `1 + 0.15 · s · n/(n+6)` | 0.85 – 1.15 | 3 votes |
+
+where `s` is the average vote weight (−1 … 1.5) and `n` the number of votes. If a user leaves several reactions, their strongest one (highest weight) counts as their single vote. The topic range is narrower because a *candidate's* topic (before it is selected and summarized) can only be estimated by keyword, while the stored post topic is model-confirmed. `--explain` shows the applied factors as `fb_src` / `fb_topic` in the score breakdown, and the scorecard's **Feedback** tab shows per-source and per-topic vote counts (👍🔥👏👎🔁🕒 columns), approval rates, and the multipliers currently in effect. The Scorecard tab's recommendations also pick up sources the audience clearly does (or does not) like once they have ≥5 votes.
+
+To turn it off: `feedback_buttons: false` hides the button row, `feedback_reweight: false` keeps collection but removes the ranking effect (both under `settings` in `config.yaml`). Reactions are collected as long as the bot is a channel administrator.
 
 ## Quickstart
 
@@ -239,10 +261,11 @@ Gemma models answer but ignore the prompt and write commentary about the task in
 src/
   main.py        orchestration, filtering, pool quotas, CLI
   sources.py     fetchers for Bluesky, Hacker News, Lobsters, RSS
-  scoring.py     the virality algorithm
+  scoring.py     the virality algorithm (+ feedback reweighting)
   translate.py   Gemini summarization and the SKIP filter
-  telegram.py    sendPhoto and sendMessage
-  state.py       seen-item tracking
+  topics.py      keyword topic estimator for unranked candidates
+  telegram.py    sendMessage, inline keyboards, and the feedback drain
+  state.py       seen-item tracking and reader-vote storage
   scorecard.py   writes scorecard.html (the serverless dashboard)
   configedit.py  line-oriented editor for config.yaml (preserves Persian comments)
   models.py      the Item dataclass
@@ -256,11 +279,13 @@ Dependencies are `httpx`, `feedparser`, and `PyYAML`. Nothing else.
 
 ## Scorecard
 
-Each run also writes `scorecard.html` — a self-contained, serverless dashboard that the `publish` workflow deploys to GitHub Pages as `index.html` in the same run (only that one page is served, so `state.json` and the rest of the repo never leave the repository). It has two tabs:
+Each run also writes `scorecard.html` — a self-contained, serverless dashboard that the `publish` workflow deploys to GitHub Pages as `index.html` in the same run (only that one page is served, so `state.json` and the rest of the repo never leave the repository). It has three tabs:
 
 **Scorecard** — for each active source: posts in the last 7 days and in total, last post, Gemini skip rate, average score, current tuning (`authority` / `min_engagement` / `min_points`), plus a recommendations section with explicit thresholds — sources that are silent and should be disabled, sources with high skip rates, and sources posting heavily at low scores. Timestamps are shown in Tehran time (UTC+3:30).
 
 **Config** — a live editor over `config.yaml`. It lists every source (active *and* commented-out ones, since PyYAML cannot see the latter) plus the global settings. Tick a source to disable/enable it, edit `authority` / `min_engagement` / `min_points` / `max_age_hours` per source or any value in `settings`, and add a new source. The output is generated **in the browser** by a small line-oriented engine (`src/configedit.py` mirrors the same rules in Python for the backend) so all Persian comments and formatting in `config.yaml` are preserved byte-for-byte. Two export buttons: copy the resulting YAML to the clipboard, or open a chat window with it pre-filled. Nothing is written to the repository from the browser — copy the YAML, commit it, and the next run picks it up.
+
+**Feedback** — reader votes per source and per topic (👍/👎/🔁/🕒 counts, approval rate, and the reweighting multiplier each currently applies to ranking). This is where the [reader feedback loop](#reader-feedback) becomes visible: once a source accumulates enough negative votes, its multiplier drifts down on its own, and the Scorecard tab starts recommending a manual `authority`/`min_engagement` change or disabling it.
 
 Use the Scorecard tab to diagnose and the Config tab to prepare the fix: read the recommendations, edit the settings, copy the generated YAML, then commit `config.yaml`. Nothing is ever written to the repository from the browser, and the scorecard is regenerated on every run and committed alongside `state.json`.
 

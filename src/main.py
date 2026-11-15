@@ -77,13 +77,28 @@ def main() -> int:
     state.backfill(config)
 
     with httpx.Client(timeout=30, follow_redirects=True) as client:
+        # اول رأی‌های بین اجراها را جمع می‌کنیم (دکمه‌های پست‌های قبلی).
+        # این کار state را هم‌ساعت ذخیره می‌کند تا اگر اجرای بعد crash بخورد،
+        # رأی‌ها گم نشوند — تلگرام update را بعد از getUpdates اول نگه نمی‌دارد.
+        bot_username = ""
+        channel_id = None
+        if token:
+            bot_username = telegram.get_username(token, client)
+            channel_id = telegram.get_chat_id(channel, token, client)
+        if not args.dry_run:
+            telegram.drain_feedback(token, client, state)
+            state.save()
+
         items = collect(config.get("sources", []), client)
         chosen = select(items, state, settings, explain=args.explain)
 
         if not chosen:
             log.info("چیز جدیدی نبود.")
         else:
-            publish(chosen, state, settings, client, args, token, channel, gemini_key)
+            publish(
+                chosen, state, settings, client, args,
+                token, channel, gemini_key, bot_username, channel_id,
+            )
 
         maybe_digest(state, settings, client, args, token, channel)
 
@@ -160,7 +175,7 @@ def select(items: list[Item], state: State, settings: dict, explain: bool = Fals
     ]
     fresh = _drop_repeats(fresh, state.recent_stories(now))
 
-    ranked = scoring.rank(fresh, state)
+    ranked = scoring.rank(fresh, state, feedback=settings.get("feedback_reweight", True))
     viral = [i for i in ranked if i.ranked]
     editorial = [i for i in ranked if not i.ranked]
 
@@ -337,11 +352,14 @@ def publish(
     token: str,
     channel: str,
     gemini_key: str,
+    bot_username: str = "",
+    channel_id: int | None = None,
 ) -> None:
     models = settings.get("gemini_models") or ["gemini-2.5-flash"]
     delay = settings.get("seconds_between_posts", 4)
     target = settings.get("max_posts_per_run", 1)
     scrape_text = settings.get("scrape_article_text", True)
+    feedback = settings.get("feedback_buttons", True)
     sent = 0
 
     # در dry-run بدون کلید هم باید بشود شکل خروجی را دید.
@@ -370,7 +388,7 @@ def publish(
                 full = article.fetch(item.url, client) if scrape_text else None
                 source_text = "\n\n".join(part for part in (item.text, full) if part)
                 result = translate.summarize(source_text, gemini_key, models, client)
-                title, persian, tag = result if result else ("", None, "")
+                title, persian, tag, item.topics = result if result else ("", None, "", [])
             except translate.TranslationError as exc:
                 # نه mark می‌کنیم نه می‌فرستیم — اجرای بعدی دوباره تلاش می‌کند.
                 log.warning("ترجمه شکست خورد (%s): %s", item.label, exc)
@@ -394,12 +412,22 @@ def publish(
             min_side=settings.get("min_image_side", 400),
         )
 
+        # پست را قبل از ارسال ثبت می‌کنیم چون دکمه‌های بازخورد به pid نیاز دارند.
+        # اگر ارسال بعدش شکست بخورد رکورد بی‌ضرر می‌ماند (رأیی به آن نمی‌رسد).
+        pid = state.register_post(item, title or persian, item.topics, datetime.now(timezone.utc))
+
         if args.dry_run:
             print("\n" + "─" * 60)
             print(f"[عکس] {item.image_url or 'بدون تصویر (preview غیرفعال)'}")
+            print(f"[موضوعات] {', '.join(item.topics) or '—'}")
             print(telegram.build_message(item, title, persian, tag, channel))
-            buttons = telegram.build_keyboard(item)["inline_keyboard"]
-            print("[دکمه‌ها] " + " | ".join(b["text"] for row in buttons for b in row))
+            buttons = telegram.build_keyboard(
+                item, pid, bot_username or "bot", feedback
+            )["inline_keyboard"]
+            for row in buttons:
+                print("[دکمه‌ها] " + " | ".join(f"{b['text']} → {b.get('url', '')}" for b in row))
+            if settings.get("feedback_polls", True):
+                print("[نظّم] " + " · ".join(text for text, _ in telegram.POLL_OPTIONS))
             _archive(state, item)
             state.remember_story(
                 item.story_signature or item.signature, datetime.now(timezone.utc)
@@ -409,10 +437,25 @@ def publish(
             continue
 
         try:
-            telegram.publish(item, title, persian, token, channel, client, tag)
+            result = telegram.publish(
+                item, title, persian, token, channel, client, tag,
+                pid, bot_username, feedback,
+            )
         except telegram.TelegramError as exc:
             log.error("ارسال نشد: %s", exc)
             continue
+
+        # با وصل‌شدن message_id به پست، واکنش‌های تلگرام بعدی (که فقط
+        # message_id دارند) به همین pid وصل می‌شوند.
+        state.note_message_id(pid, (result or {}).get("message_id"), channel_id)
+
+        # نظّم بازخورد: مسیر اصلی رأی‌گیری (برای همه‌ی مخاطب‌ها کار می‌کند).
+        if settings.get("feedback_polls", True):
+            poll_id = telegram.send_feedback_poll(token, channel, client)
+            if poll_id:
+                state.note_poll_id(pid, poll_id)
+            else:
+                log.warning("نظّم بازخورد برای پست %s ثبت نشد", pid)
 
         now = datetime.now(timezone.utc)
         log.info(

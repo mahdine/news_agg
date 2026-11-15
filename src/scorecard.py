@@ -22,7 +22,7 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from . import configedit
+from . import configedit, translate
 
 # وقت نمایشی صفحه (محاسبات داخلی روی UTC می‌مانند).
 TEHRAN = timezone(timedelta(hours=3, minutes=30), "Iran")
@@ -51,6 +51,9 @@ SETTING_FIELDS = [
     ("digest_weekday", "روز هفته (۰=دوشنبه…۴=جمعه)", "number"),
     ("digest_hour_utc", "ساعت digest (UTC)", "number"),
     ("digest_size", "اندازه‌ی digest", "number"),
+    ("feedback_polls", "نظّم بازخورد بعد از هر خبر", "checkbox"),
+    ("feedback_buttons", "دکمه‌های deep-link زیر پست‌ها", "checkbox"),
+    ("feedback_reweight", "ضریب خودکار از روی بازخورد", "checkbox"),
 ]
 
 
@@ -140,7 +143,8 @@ def pool_share(state) -> tuple[int, int]:
     return viral, editorial
 
 
-def health_checks(rows: list[SourceRow], viral: int, editorial: int, target_share: float) -> list[str]:
+def health_checks(rows: list[SourceRow], viral: int, editorial: int, target_share: float,
+                  feedback: dict | None = None) -> list[str]:
     """فهرست پیشنهادهای قابل‌اجرا."""
     now = datetime.now(timezone.utc)
     checks: list[str] = []
@@ -199,6 +203,29 @@ def health_checks(rows: list[SourceRow], viral: int, editorial: int, target_shar
         stale.sort(key=lambda t: -t[1])
         worst = ", ".join(f"{r.label} ({a/24:.0f} روز)" for r, a in stale[:5])
         checks.append(f"🕰️ منابعی که مدتی است پست ندادند: {worst}.")
+
+    # ۶. بازخورد مخاطب: منبعی که رأی کافی دارد ولی تأییدش پایین (یا خیلی بالا).
+    if feedback:
+        for label, s in sorted(feedback.items(), key=lambda kv: -kv[1]["n"]):
+            if s["n"] < 5:
+                continue
+            pos = s["good"] + s["excellent"] + s["useful"]
+            neg = s["bad"] + s["repeat"] + s["stale"]
+            if pos + neg < 3:
+                continue
+            approval = pos / (pos + neg)
+            if approval < 0.4:
+                checks.append(
+                    f"👎 {label}: مخاطب فقط {approval*100:.0f}٪ پست‌هایش را تأیید کرده "
+                    f"({s['n']} رأی). authority را کم کن، min_engagement را سخت‌تر کن، "
+                    "یا منبع را غیرفعال کن."
+                )
+            elif approval > 0.7:
+                checks.append(
+                    f"✅ {label}: مخاطب {approval*100:.0f}٪ پست‌هایش را تأیید کرده "
+                    f"({s['n']} رأی) — ضریبش در رتبه‌بندی بالا رفته است؛ اگر می‌خواهی بیشتر "
+                    "بیاید، authority‌اش را در تب Config زیاد کن."
+                )
 
     return checks
 
@@ -379,6 +406,7 @@ _TEMPLATE = """<!doctype html>
   <div class="tabs">
     <button class="tab active" data-view="score">Scorecard</button>
     <button class="tab" data-view="config">Config</button>
+    <button class="tab" data-view="feedback">Feedback</button>
   </div>
 
   <!-- ═══════════════ تب ۱: Scorecard (تشخیص) ═══════════════ -->
@@ -408,6 +436,11 @@ _TEMPLATE = """<!doctype html>
     <tbody>__BODY_ROWS__</tbody>
   </table>
   </div>
+  </div>
+
+  <!-- ═══════════════ تب ۳: Feedback (بازخورد مخاطب) ═══════════════ -->
+  <div class="view" id="view-feedback">
+  __FEEDBACK_HTML__
   </div>
 
   <!-- ═══════════════ تب ۲: Config (ویرایش) ═══════════════ -->
@@ -795,8 +828,122 @@ document.getElementById("resetBtn").addEventListener("click", () => location.rel
 </html>"""
 
 
+def _topic_name(key: str) -> str:
+    """کلید انگلیسی موضوع → برچسب فارسی (همان واژگان translate)."""
+    label = translate.TAGS.get(key) or translate.EXTRA.get(key) or key
+    return label.lstrip("#")
+
+
+def _mult_badge(mult: float | None) -> str:
+    if mult is None or abs(mult - 1.0) < 0.005:
+        return '<span class="mut">—</span>'
+    if mult > 1.0:
+        return f'<span style="color:var(--good)">{mult:.2f} ↑</span>'
+    return f'<span style="color:var(--bad)">{mult:.2f} ↓</span>'
+
+
+def _approval_badge(s: dict) -> str:
+    if s["approval"] is None:
+        return '<span class="mut">—</span>'
+    value = s["approval"] * 100
+    color = "var(--good)" if value >= 60 else ("var(--bad)" if value < 40 else "var(--fg)")
+    return f'<span style="color:{color}">{value:.0f}٪</span>'
+
+
+def build_feedback_html(
+    posts: dict[str, dict],
+    label_stats: dict[str, dict],
+    topic_stats: dict[str, dict],
+    label_mults: dict[str, float],
+    topic_mults: dict[str, float],
+) -> str:
+    """محتوای تب Feedback: کارت‌های خلاصه + جدول منبع + جدول موضوع."""
+    total_votes = sum(s["n"] for s in label_stats.values())
+    pos_total = sum(
+        s.get(v, 0) for s in label_stats.values() for v in ("good", "excellent", "useful")
+    )
+    neg_total = sum(
+        s.get(v, 0) for s in label_stats.values() for v in ("bad", "repeat", "stale")
+    )
+    approval = pos_total / (pos_total + neg_total) if (pos_total + neg_total) else None
+    posts_with_votes = sum(1 for p in posts.values() if p.get("votes"))
+
+    cards = f"""
+  <div class="cards">
+    <div class="card"><div class="n">{total_votes}</div><div class="l">کل رأی‌ها</div></div>
+    <div class="card"><div class="n">{f"{approval*100:.0f}٪" if approval is not None else "—"}</div><div class="l">تأیید (رأی مثبت روی مثبت+منفی)</div></div>
+    <div class="card"><div class="n">{posts_with_votes}</div><div class="l">پست با رأی</div></div>
+    <div class="card"><div class="n">{len(label_stats)}</div><div class="l">منبع با رأی</div></div>
+  </div>"""
+
+    if total_votes == 0:
+        return f"""{cards}
+  <h2>بازخورد مخاطب</h2>
+  <div class="note">هنوز رأیی ثبت نشده. مخاطب‌ها می‌توانند به پست react کنند
+  (👍 بود · 🔥 خیلی بود · 👏 مفید بود · 👎 نبود) یا دکمه‌های پایین پست را بزنند
+  (👍 بود · 👎 نبود · 🔁 تکراری · 🕒 قدیمی). هر ضربه در اجرای بعدی (حداکثر یک ساعت)
+  جمع می‌شود و همین‌جا ظاهر می‌شود. با جمع شدن رأی، ضریب هر منبع (۰.۷۵ تا ۱.۲۵)
+  و هر موضوع (۰.۸۵ تا ۱.۱۵) در رتبه‌بندی به‌صورت خودکار تنظیم می‌شود — با رأی کم
+  ضریب تقریباً ۱ می‌ماند تا نویز رأی‌های اول رتبه‌بندی را نچرخاند.</div>"""
+
+    def stat_row(key: str, s: dict, mult: float | None) -> str:
+        return (
+            "<tr>"
+            f"<td class='lbl'>{html.escape(_topic_name(key))}</td>"
+            f"<td class='num'>{s['n']}</td>"
+            f"<td class='num'>{s['good']}</td>"
+            f"<td class='num'>{s['excellent']}</td>"
+            f"<td class='num'>{s['useful']}</td>"
+            f"<td class='num'>{s['bad']}</td>"
+            f"<td class='num'>{s['repeat']}</td>"
+            f"<td class='num'>{s['stale']}</td>"
+            f"<td class='num'>{_approval_badge(s)}</td>"
+            f"<td class='num'>{_mult_badge(mult)}</td>"
+            "</tr>"
+        )
+
+    label_rows = "".join(
+        stat_row(key, s, label_mults.get(key))
+        for key, s in sorted(label_stats.items(), key=lambda kv: -kv[1]["n"])
+    )
+    topic_rows = "".join(
+        stat_row(key, s, topic_mults.get(key))
+        for key, s in sorted(topic_stats.items(), key=lambda kv: -kv[1]["n"])
+    )
+
+    table_head = (
+        "<thead><tr><th>نام</th><th>رأی</th><th>👍</th><th>🔥</th><th>👏</th>"
+        "<th>👎</th><th>🔁</th><th>🕒</th><th>تأیید</th><th>ضریب</th></tr></thead>"
+    )
+
+    return f"""{cards}
+  <div class="note">«ضریب» همان عددی است که الان در رتبه‌بندی اعمال می‌شود.
+  ستون‌های 👍🔥👏👎 از واکنش‌های تلگرام روی پست می‌آیند و ستون‌های 🔁🕒 از
+  دکمه‌های پایین پست. هر کاربر روی هر پست یک رأی دارد و جدید جای قبلی را می‌گیرد؛
+  اگر چند واکنش بگذارد قوی‌ترینش حساب می‌شود.
+  رأی‌های 🔁 و 🕒 وزن کمتر از 👎 دارند چون بیشتر خطای تکرار و تازگی‌اند تا بی‌کیفیتی منبع.
+  برای تغییر دستی منابع (authority، min_engagement، غیرفعال‌کردن) تب Config را ببین.</div>
+
+  <h2>به تفکیک منبع</h2>
+  <div class="tbl-scroll">
+  <table>
+    {table_head}
+    <tbody>{label_rows}</tbody>
+  </table>
+  </div>
+
+  <h2>به تفکیک موضوع</h2>
+  <div class="tbl-scroll">
+  <table>
+    {table_head}
+    <tbody>{topic_rows}</tbody>
+  </table>
+  </div>"""
+
+
 def render(rows: list[SourceRow], viral: int, editorial: int, target_share: float,
-           checks: list[str], now: datetime, config: dict, config_text: str) -> str:
+           checks: list[str], now: datetime, config: dict, config_text: str,
+           feedback_html: str = "") -> str:
     total = viral + editorial
     viral_pct = (viral / total * 100) if total else 0
 
@@ -857,6 +1004,7 @@ def render(rows: list[SourceRow], viral: int, editorial: int, target_share: floa
         "__ED_N__": str(editorial),
         "__CHECKS_HTML__": checks_html,
         "__BODY_ROWS__": "".join(body_rows),
+        "__FEEDBACK_HTML__": feedback_html,
         "__CONFIG_JSON__": _payload(config, config_text),
         "__CONFIG_TEXT_JSON__": json.dumps(config_text, ensure_ascii=False),
     }
@@ -872,7 +1020,19 @@ def generate(state, config: dict, config_text: str, output: Path) -> Path:
     rows = build_rows(config, state)
     viral, editorial = pool_share(state)
     target = float(config.get("settings", {}).get("viral_share", 0.5))
-    checks = health_checks(rows, viral, editorial, target)
-    html_out = render(rows, viral, editorial, target, checks, now, config, config_text)
+
+    label_stats = state.stats_from_counts(state.feedback_counts("label"))
+    topic_stats = state.stats_from_counts(state.feedback_counts("topic"))
+    label_mults = state.feedback_multipliers()
+    topic_mults = state.topic_multipliers()
+
+    checks = health_checks(rows, viral, editorial, target, feedback=label_stats)
+    feedback_html = build_feedback_html(
+        state.posts, label_stats, topic_stats, label_mults, topic_mults
+    )
+    html_out = render(
+        rows, viral, editorial, target, checks, now, config, config_text,
+        feedback_html=feedback_html,
+    )
     output.write_text(html_out, encoding="utf-8")
     return output
