@@ -1,7 +1,5 @@
 {
  "seen": [
-  "hn:50091788",
-  "hn:50094694",
   "lobsters:plcgps",
   "https://linux.slashdot.org/story/26/10/14/2121212/microsoft-defender-now-supports-linux-desktops?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.phoronix.com/news/Microsoft-Defender-For-Linux-D",
@@ -2999,17 +2997,19 @@
   "hn:50504718",
   "lobsters:ofic7z",
   "lobsters:h8tghc",
-  "hn:50506180"
+  "hn:50506180",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2e3tkmdze2c",
+  "hn:50506719"
  ],
  "posted": {
-  "viral": 804,
+  "viral": 805,
   "editorial": 1075
  },
  "recent_labels": [
-  "404 Media",
   "Hacker News",
   "Hacker News",
   "Lobsters",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-13",
@@ -7721,22 +7721,18 @@
    "pool": "viral",
    "score": 0.03094,
    "at": "2026-11-15T15:54:11.483710+00:00"
+  },
+  {
+   "title": "مشکلات سلامت کاربران با نمایشگرهای OLED جدید در MacBook Pro",
+   "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+   "source": "macanorak.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.04118,
+   "at": "2026-11-15T16:53:52.120721+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "boost",
-    "could",
-    "edge",
-    "firefox",
-    "same",
-    "soon",
-    "speed",
-    "windows"
-   ],
-   "at": "2026-11-09T11:54:11.111346+00:00"
-  },
   {
    "sig": [
     "authentication",
@@ -11795,17 +11791,23 @@
     "weaken"
    ],
    "at": "2026-11-15T15:54:11.483710+00:00"
+  },
+  {
+   "sig": [
+    "becomes",
+    "better",
+    "display",
+    "macbook",
+    "oled",
+    "pro",
+    "problem",
+    "pwm",
+    "worse"
+   ],
+   "at": "2026-11-15T16:53:52.120721+00:00"
   }
  ],
  "snapshots": {
-  "hn:50354358": [
-   673,
-   "2026-11-04T01:53:43.163877+00:00"
-  ],
-  "hn:50353192": [
-   1370,
-   "2026-11-04T01:53:43.163877+00:00"
-  ],
   "lobsters:yes2hc": [
    31,
    "2026-11-04T01:53:43.163877+00:00"
@@ -14170,33 +14172,41 @@
    29,
    "2026-11-15T14:53:43.015455+00:00"
   ],
-  "hn:50505271": [
-   294,
-   "2026-11-15T15:53:43.287635+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2e3tkmdze2c": [
-   236,
-   "2026-11-15T15:53:43.287635+00:00"
-  ],
-  "hn:50506719": [
-   302,
-   "2026-11-15T15:53:43.287635+00:00"
-  ],
   "hn:50506180": [
    251,
    "2026-11-15T15:53:43.287635+00:00"
   ],
+  "hn:50505271": [
+   342,
+   "2026-11-15T16:53:44.686319+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2e3tkmdze2c": [
+   257,
+   "2026-11-15T16:53:44.686319+00:00"
+  ],
+  "hn:50506719": [
+   387,
+   "2026-11-15T16:53:44.686319+00:00"
+  ],
   "hn:50507303": [
-   259,
-   "2026-11-15T15:53:43.287635+00:00"
+   725,
+   "2026-11-15T16:53:44.686319+00:00"
   ],
   "hn:50506894": [
-   90,
-   "2026-11-15T15:53:43.287635+00:00"
+   135,
+   "2026-11-15T16:53:44.686319+00:00"
   ],
   "hn:50506376": [
-   80,
-   "2026-11-15T15:53:43.287635+00:00"
+   103,
+   "2026-11-15T16:53:44.686319+00:00"
+  ],
+  "hn:50507206": [
+   103,
+   "2026-11-15T16:53:44.686319+00:00"
+  ],
+  "hn:50506588": [
+   71,
+   "2026-11-15T16:53:44.686319+00:00"
   ]
  },
  "skips": {
@@ -14207,7 +14217,7 @@
   "Lobsters": 8,
   "Hacker News": 44,
   "The Next Web": 1,
-  "404 Media": 15,
+  "404 Media": 16,
   "Emily M. Bender": 3,
   "Simon Willison": 2,
   "Xe Iaso": 6,
@@ -14241,7 +14251,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 136,
+  "Hacker News": 137,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14285,7 +14295,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-15T15:54:11.483849+00:00",
+  "Hacker News": "2026-11-15T16:53:52.120851+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
