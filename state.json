@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://www.securityweek.com/?p=49988",
   "TheNextWeb=6d02ed82c82c909d8f96a8ade3c3fbf9",
   "hn:50086313",
   "QrcKfAiGzGaMGtx2fi82ri",
@@ -2999,18 +2998,19 @@
   "https://9to5mac.com/?p=1079622",
   "lobsters:w9j7xs",
   "hn:50504077",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i",
+  "hn:50504277"
  ],
  "posted": {
-  "viral": 800,
+  "viral": 801,
   "editorial": 1075
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
   "Hacker News",
-  "Hacker News",
-  "404 Media"
+  "404 Media",
+  "Hacker News"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7685,21 +7685,18 @@
    "pool": "viral",
    "score": 0.11463,
    "at": "2026-11-15T11:53:44.526218+00:00"
+  },
+  {
+   "title": "رمزگذاری دیسک در سیستم‌عامل NetBSD برای حفظ امنیت داده‌ها",
+   "url": "https://netbsd.org/~nia/disk-encrypt/",
+   "source": "netbsd.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00537,
+   "at": "2026-11-15T12:53:42.789420+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "car",
-    "clock",
-    "had",
-    "jailbreak",
-    "researcher",
-    "security",
-    "update"
-   ],
-   "at": "2026-11-09T10:56:02.451900+00:00"
-  },
   {
    "sig": [
     "allegations",
@@ -11775,13 +11772,19 @@
     "www.404media.co"
    ],
    "at": "2026-11-15T11:53:44.526218+00:00"
+  },
+  {
+   "sig": [
+    "achieving",
+    "disk",
+    "encryption",
+    "netbsd",
+    "secrecy"
+   ],
+   "at": "2026-11-15T12:53:42.789420+00:00"
   }
  ],
  "snapshots": {
-  "hn:50353229": [
-   750,
-   "2026-11-03T20:10:56.738921+00:00"
-  ],
   "hn:50352757": [
    530,
    "2026-11-03T20:10:56.738921+00:00"
@@ -14175,8 +14178,12 @@
    "2026-11-15T11:53:42.153934+00:00"
   ],
   "hn:50505271": [
-   100,
-   "2026-11-15T11:53:42.153934+00:00"
+   154,
+   "2026-11-15T12:53:40.463302+00:00"
+  ],
+  "hn:50504277": [
+   69,
+   "2026-11-15T12:53:40.463302+00:00"
   ]
  },
  "skips": {
@@ -14221,7 +14228,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 133,
+  "Hacker News": 134,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14265,7 +14272,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-15T10:55:27.108432+00:00",
+  "Hacker News": "2026-11-15T12:53:42.789536+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
