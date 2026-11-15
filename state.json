@@ -1,6 +1,5 @@
 {
  "seen": [
-  "lobsters:plcgps",
   "https://linux.slashdot.org/story/26/10/14/2121212/microsoft-defender-now-supports-linux-desktops?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.phoronix.com/news/Microsoft-Defender-For-Linux-D",
   "https://www.neowin.net/news/microsoft-defender-now-supports-linux-desktops/",
@@ -2999,16 +2998,17 @@
   "lobsters:h8tghc",
   "hn:50506180",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2e3tkmdze2c",
-  "hn:50506719"
+  "hn:50506719",
+  "hn:50506376"
  ],
  "posted": {
-  "viral": 805,
+  "viral": 806,
   "editorial": 1075
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "Lobsters",
+  "Hacker News",
   "Hacker News",
   "Hacker News"
  ],
@@ -7730,28 +7730,18 @@
    "pool": "viral",
    "score": 0.04118,
    "at": "2026-11-15T16:53:52.120721+00:00"
+  },
+  {
+   "title": "بررسی روش‌های کدگذاری موقعیت توکن‌ها در مدل‌های زبانی بزرگ",
+   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+   "source": "magazine.sebastianraschka.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00949,
+   "at": "2026-11-15T17:53:48.849333+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "authentication",
-    "bypass",
-    "disclosure",
-    "exploiting",
-    "flaw",
-    "gain",
-    "hackers",
-    "honeypot",
-    "hours",
-    "openssh",
-    "root",
-    "sshole",
-    "target",
-    "within"
-   ],
-   "at": "2026-11-09T13:53:44.618216+00:00"
-  },
   {
    "sig": [
     "9.5x",
@@ -11805,13 +11795,19 @@
     "worse"
    ],
    "at": "2026-11-15T16:53:52.120721+00:00"
+  },
+  {
+   "sig": [
+    "embeddings",
+    "llms",
+    "modern",
+    "positional",
+    "understanding"
+   ],
+   "at": "2026-11-15T17:53:48.849333+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:yes2hc": [
-   31,
-   "2026-11-04T01:53:43.163877+00:00"
-  ],
   "hn:50356994": [
    328,
    "2026-11-04T01:53:43.163877+00:00"
@@ -14176,10 +14172,6 @@
    251,
    "2026-11-15T15:53:43.287635+00:00"
   ],
-  "hn:50505271": [
-   342,
-   "2026-11-15T16:53:44.686319+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2e3tkmdze2c": [
    257,
    "2026-11-15T16:53:44.686319+00:00"
@@ -14188,25 +14180,33 @@
    387,
    "2026-11-15T16:53:44.686319+00:00"
   ],
+  "hn:50505271": [
+   378,
+   "2026-11-15T17:53:45.669230+00:00"
+  ],
   "hn:50507303": [
-   725,
-   "2026-11-15T16:53:44.686319+00:00"
+   1113,
+   "2026-11-15T17:53:45.669230+00:00"
   ],
   "hn:50506894": [
-   135,
-   "2026-11-15T16:53:44.686319+00:00"
+   182,
+   "2026-11-15T17:53:45.669230+00:00"
   ],
   "hn:50506376": [
-   103,
-   "2026-11-15T16:53:44.686319+00:00"
+   129,
+   "2026-11-15T17:53:45.669230+00:00"
   ],
   "hn:50507206": [
-   103,
-   "2026-11-15T16:53:44.686319+00:00"
+   117,
+   "2026-11-15T17:53:45.669230+00:00"
   ],
   "hn:50506588": [
-   71,
-   "2026-11-15T16:53:44.686319+00:00"
+   87,
+   "2026-11-15T17:53:45.669230+00:00"
+  ],
+  "hn:50507791": [
+   105,
+   "2026-11-15T17:53:45.669230+00:00"
   ]
  },
  "skips": {
@@ -14251,7 +14251,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 137,
+  "Hacker News": 138,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14295,7 +14295,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-15T16:53:52.120851+00:00",
+  "Hacker News": "2026-11-15T17:53:48.849475+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
