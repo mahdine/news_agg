@@ -1,7 +1,5 @@
 {
  "seen": [
-  "hn:50086313",
-  "QrcKfAiGzGaMGtx2fi82ri",
   "https://www.theverge.com/?p=1011110",
   "hn:50091788",
   "hn:50094694",
@@ -2999,18 +2997,20 @@
   "hn:50504077",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i",
   "hn:50504277",
-  "hn:50504718"
+  "hn:50504718",
+  "lobsters:ofic7z",
+  "lobsters:h8tghc"
  ],
  "posted": {
-  "viral": 802,
+  "viral": 803,
   "editorial": 1075
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "404 Media",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Lobsters"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7703,27 +7703,18 @@
    "pool": "viral",
    "score": 0.00667,
    "at": "2026-11-15T13:53:44.852250+00:00"
+  },
+  {
+   "title": "تغییر استاندارد نمایش نشانگر ماوس برای دکمه‌ها در وب",
+   "url": "https://blog.kizu.dev/cursors/",
+   "source": "blog.kizu.dev",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.07845,
+   "at": "2026-11-15T14:54:45.042594+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "dead",
-    "death",
-    "edge",
-    "finds",
-    "older",
-    "pixel",
-    "pixels",
-    "rot",
-    "sets",
-    "suffer",
-    "test",
-    "tvs",
-    "woled"
-   ],
-   "at": "2026-11-09T11:53:57.582014+00:00"
-  },
   {
    "sig": [
     "around",
@@ -11789,21 +11780,17 @@
     "streetfighting"
    ],
    "at": "2026-11-15T13:53:44.852250+00:00"
+  },
+  {
+   "sig": [
+    "buttons",
+    "cursor",
+    "pointer"
+   ],
+   "at": "2026-11-15T14:54:45.042594+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzgjvljp4s2f": [
-   900,
-   "2026-11-04T00:43:04.662527+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzg4xugn542n": [
-   81,
-   "2026-11-04T00:43:04.662527+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzgiw37gmk2h": [
-   356,
-   "2026-11-04T00:43:04.662527+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzge7jeumctj": [
    59,
    "2026-11-04T00:43:04.662527+00:00"
@@ -14176,21 +14163,33 @@
    69,
    "2026-11-15T12:53:40.463302+00:00"
   ],
-  "hn:50505271": [
-   208,
-   "2026-11-15T13:53:42.387662+00:00"
-  ],
   "hn:50504718": [
    97,
    "2026-11-15T13:53:42.387662+00:00"
   ],
+  "hn:50505271": [
+   251,
+   "2026-11-15T14:53:43.015455+00:00"
+  ],
   "lobsters:h8tghc": [
-   29,
-   "2026-11-15T13:53:42.387662+00:00"
+   31,
+   "2026-11-15T14:53:43.015455+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2e3tkmdze2c": [
-   146,
-   "2026-11-15T13:53:42.387662+00:00"
+   216,
+   "2026-11-15T14:53:43.015455+00:00"
+  ],
+  "hn:50506719": [
+   160,
+   "2026-11-15T14:53:43.015455+00:00"
+  ],
+  "hn:50506180": [
+   141,
+   "2026-11-15T14:53:43.015455+00:00"
+  ],
+  "lobsters:ofic7z": [
+   29,
+   "2026-11-15T14:53:43.015455+00:00"
   ]
  },
  "skips": {
@@ -14198,7 +14197,7 @@
   "Article 19": 1,
   "Wired": 29,
   "TechRadar": 9,
-  "Lobsters": 7,
+  "Lobsters": 8,
   "Hacker News": 44,
   "The Next Web": 1,
   "404 Media": 15,
@@ -14230,7 +14229,7 @@
   "The Verge": 22,
   "Cloudflare": 1,
   "TechCrunch AI": 19,
-  "Lobsters": 21,
+  "Lobsters": 22,
   "Tom's Hardware": 39,
   "ZDNet": 6,
   "9to5Mac": 20,
@@ -14274,7 +14273,7 @@
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-13T14:55:22.519235+00:00",
-  "Lobsters": "2026-11-13T16:53:53.486751+00:00",
+  "Lobsters": "2026-11-15T14:54:45.042744+00:00",
   "Tom's Hardware": "2026-11-13T11:53:52.167150+00:00",
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
