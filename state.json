@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://www.neowin.net/news/saudi-national-planted-listening-device-at-openai-office-fbi-investigates-security-threat/",
   "https://www.securityweek.com/?p=49988",
   "TheNextWeb=6d02ed82c82c909d8f96a8ade3c3fbf9",
   "hn:50086313",
@@ -2999,10 +2998,11 @@
   "6af77286c266199fcc84ebbc",
   "https://9to5mac.com/?p=1079622",
   "lobsters:w9j7xs",
-  "hn:50504077"
+  "hn:50504077",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i"
  ],
  "posted": {
-  "viral": 799,
+  "viral": 800,
   "editorial": 1075
  },
  "recent_labels": [
@@ -3010,7 +3010,7 @@
   "Hacker News",
   "Hacker News",
   "Hacker News",
-  "Hacker News"
+  "404 Media"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7676,21 +7676,18 @@
    "pool": "viral",
    "score": 0.00462,
    "at": "2026-11-15T10:55:27.108320+00:00"
+  },
+  {
+   "title": "قانون جدید بریتانیا برای جرم‌انگاری محتوای پورنوگرافی",
+   "url": "https://www.404media.co/uk-crime-and-policing-act-pornography/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.11463,
+   "at": "2026-11-15T11:53:44.526218+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "anv",
-    "av1",
-    "bitrate",
-    "control",
-    "encoding",
-    "intel",
-    "lands"
-   ],
-   "at": "2026-11-09T10:55:05.292291+00:00"
-  },
   {
    "sig": [
     "car",
@@ -11753,13 +11750,34 @@
     "runtime"
    ],
    "at": "2026-11-15T10:55:27.108320+00:00"
+  },
+  {
+   "sig": [
+    "being",
+    "care",
+    "conservatism",
+    "defend",
+    "doesn",
+    "even",
+    "explore",
+    "force-fed",
+    "fuck",
+    "fucked",
+    "media",
+    "people",
+    "porn",
+    "right",
+    "rollout",
+    "sex",
+    "somebody",
+    "through",
+    "uk-crime-and",
+    "www.404media.co"
+   ],
+   "at": "2026-11-15T11:53:44.526218+00:00"
   }
  ],
  "snapshots": {
-  "hn:50353335": [
-   482,
-   "2026-11-03T20:10:56.738921+00:00"
-  ],
   "hn:50353229": [
    750,
    "2026-11-03T20:10:56.738921+00:00"
@@ -14144,10 +14162,6 @@
    99,
    "2026-11-15T09:53:41.155011+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i": [
-   518,
-   "2026-11-15T10:53:45.857706+00:00"
-  ],
   "hn:50504077": [
    104,
    "2026-11-15T10:53:45.857706+00:00"
@@ -14155,6 +14169,14 @@
   "lobsters:w9j7xs": [
    30,
    "2026-11-15T10:53:45.857706+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i": [
+   540,
+   "2026-11-15T11:53:42.153934+00:00"
+  ],
+  "hn:50505271": [
+   100,
+   "2026-11-15T11:53:42.153934+00:00"
   ]
  },
  "skips": {
@@ -14189,7 +14211,7 @@
   "Wired": 26,
   "TechRadar": 37,
   "Slashdot": 31,
-  "404 Media": 41,
+  "404 Media": 42,
   "Xe Iaso": 4,
   "The Verge": 22,
   "Cloudflare": 1,
@@ -14233,7 +14255,7 @@
   "Wired": "2026-11-14T11:53:51.542167+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-13T04:54:43.870063+00:00",
-  "404 Media": "2026-11-15T01:53:55.681144+00:00",
+  "404 Media": "2026-11-15T11:53:44.526310+00:00",
   "Xe Iaso": "2026-11-11T14:54:18.284123+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
