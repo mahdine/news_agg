@@ -1,10 +1,5 @@
 {
  "seen": [
-  "https://www.theverge.com/?p=1010642",
-  "6ace99f7435a00c3d3a1c4d2",
-  "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
-  "https://www.theregister.com/a/5303000",
-  "https://yro.slashdot.org/story/26/10/14/0231224/fbi-arrests-saudi-openai-employee-for-planting-recording-device-in-conference-room?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.neowin.net/news/saudi-national-planted-listening-device-at-openai-office-fbi-investigates-security-threat/",
   "https://www.securityweek.com/?p=49988",
   "TheNextWeb=6d02ed82c82c909d8f96a8ade3c3fbf9",
@@ -2999,10 +2994,15 @@
   "hn:50501844",
   "hn:50502988",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2czuaxhtc2c",
-  "hn:50504072"
+  "hn:50504072",
+  "eeM5CgcEtTCRWtXAYVaYVe",
+  "6af77286c266199fcc84ebbc",
+  "https://9to5mac.com/?p=1079622",
+  "lobsters:w9j7xs",
+  "hn:50504077"
  ],
  "posted": {
-  "viral": 798,
+  "viral": 799,
   "editorial": 1075
  },
  "recent_labels": [
@@ -7667,25 +7667,18 @@
    "pool": "viral",
    "score": 0.00611,
    "at": "2026-11-15T09:53:45.408270+00:00"
+  },
+  {
+   "title": "معرفی Kiri به عنوان جایگزین سریع‌تر برای Docker Desktop",
+   "url": "https://runkiri.com/",
+   "source": "runkiri.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00462,
+   "at": "2026-11-15T10:55:27.108320+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "amid",
-    "attacks",
-    "bitcoin",
-    "down",
-    "lightning",
-    "lnbits",
-    "operators",
-    "servers",
-    "shut",
-    "urges",
-    "wallet"
-   ],
-   "at": "2026-11-09T10:53:47.307297+00:00"
-  },
   {
    "sig": [
     "anv",
@@ -11751,17 +11744,18 @@
     "variables"
    ],
    "at": "2026-11-15T09:53:45.408270+00:00"
+  },
+  {
+   "sig": [
+    "container",
+    "kiri",
+    "modern",
+    "runtime"
+   ],
+   "at": "2026-11-15T10:55:27.108320+00:00"
   }
  ],
  "snapshots": {
-  "hn:50353386": [
-   100,
-   "2026-11-03T20:10:56.738921+00:00"
-  ],
-  "hn:50353383": [
-   195,
-   "2026-11-03T20:10:56.738921+00:00"
-  ],
   "hn:50353335": [
    482,
    "2026-11-03T20:10:56.738921+00:00"
@@ -14146,21 +14140,29 @@
    15,
    "2026-11-15T09:53:41.155011+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i": [
-   490,
-   "2026-11-15T09:53:41.155011+00:00"
-  ],
   "hn:50504072": [
    99,
    "2026-11-15T09:53:41.155011+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i": [
+   518,
+   "2026-11-15T10:53:45.857706+00:00"
+  ],
+  "hn:50504077": [
+   104,
+   "2026-11-15T10:53:45.857706+00:00"
+  ],
+  "lobsters:w9j7xs": [
+   30,
+   "2026-11-15T10:53:45.857706+00:00"
   ]
  },
  "skips": {
-  "Tom's Hardware": 5,
+  "Tom's Hardware": 6,
   "Article 19": 1,
   "Wired": 29,
   "TechRadar": 9,
-  "Lobsters": 6,
+  "Lobsters": 7,
   "Hacker News": 44,
   "The Next Web": 1,
   "404 Media": 15,
@@ -14197,7 +14199,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 132,
+  "Hacker News": 133,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14241,7 +14243,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-15T09:53:45.408398+00:00",
+  "Hacker News": "2026-11-15T10:55:27.108432+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
