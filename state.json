@@ -1,7 +1,5 @@
 {
  "seen": [
-  "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
-  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
   "https://www.theverge.com/?p=1010642",
   "6ace99f7435a00c3d3a1c4d2",
   "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
@@ -2999,10 +2997,12 @@
   "hn:50502768",
   "hn:50503588",
   "hn:50501844",
-  "hn:50502988"
+  "hn:50502988",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2czuaxhtc2c",
+  "hn:50504072"
  ],
  "posted": {
-  "viral": 797,
+  "viral": 798,
   "editorial": 1075
  },
  "recent_labels": [
@@ -7658,22 +7658,18 @@
    "pool": "viral",
    "score": 0.00375,
    "at": "2026-11-15T08:53:51.420477+00:00"
+  },
+  {
+   "title": "ابزار جدید Gawain برای اجبار به استفاده از Type Hint در پایتون",
+   "url": "https://github.com/matheuzgomes/gawain",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00611,
+   "at": "2026-11-15T09:53:45.408270+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "crunch",
-    "kit",
-    "less",
-    "look",
-    "lot",
-    "memory",
-    "refurbished",
-    "secondhand"
-   ],
-   "at": "2026-11-09T09:54:02.309386+00:00"
-  },
   {
    "sig": [
     "amid",
@@ -11743,13 +11739,21 @@
     "price"
    ],
    "at": "2026-11-15T08:53:51.420477+00:00"
+  },
+  {
+   "sig": [
+    "gawain",
+    "hints",
+    "python",
+    "require",
+    "show",
+    "type",
+    "variables"
+   ],
+   "at": "2026-11-15T09:53:45.408270+00:00"
   }
  ],
  "snapshots": {
-  "hn:50353457": [
-   128,
-   "2026-11-03T20:10:56.738921+00:00"
-  ],
   "hn:50353386": [
    100,
    "2026-11-03T20:10:56.738921+00:00"
@@ -14126,25 +14130,29 @@
    236,
    "2026-11-15T07:53:45.997391+00:00"
   ],
-  "hn:50501631": [
-   848,
-   "2026-11-15T08:53:41.181766+00:00"
-  ],
   "hn:50500963": [
    2674,
-   "2026-11-15T08:53:41.181766+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2czuaxhtc2c": [
-   15,
-   "2026-11-15T08:53:41.181766+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i": [
-   451,
    "2026-11-15T08:53:41.181766+00:00"
   ],
   "hn:50502988": [
    153,
    "2026-11-15T08:53:41.181766+00:00"
+  ],
+  "hn:50501631": [
+   854,
+   "2026-11-15T09:53:41.155011+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2czuaxhtc2c": [
+   15,
+   "2026-11-15T09:53:41.155011+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i": [
+   490,
+   "2026-11-15T09:53:41.155011+00:00"
+  ],
+  "hn:50504072": [
+   99,
+   "2026-11-15T09:53:41.155011+00:00"
   ]
  },
  "skips": {
@@ -14158,7 +14166,7 @@
   "404 Media": 15,
   "Emily M. Bender": 3,
   "Simon Willison": 2,
-  "Xe Iaso": 5,
+  "Xe Iaso": 6,
   "Simon Willison RSS": 1,
   "CNews": 20,
   "vc.ru": 2,
@@ -14189,7 +14197,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 131,
+  "Hacker News": 132,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14233,7 +14241,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-15T08:53:51.420631+00:00",
+  "Hacker News": "2026-11-15T09:53:45.408398+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
