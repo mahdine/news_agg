@@ -1,7 +1,5 @@
 {
  "seen": [
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxr6chfx3kcf",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxr6dcedrc2g",
   "hn:50077020",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxrucac3x2cf",
   "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
@@ -2999,14 +2997,16 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ctm55haw2r",
   "hn:50503255",
   "hn:50499017",
-  "hn:50501594"
+  "hn:50501594",
+  "hn:50502768",
+  "hn:50503588"
  ],
  "posted": {
-  "viral": 794,
+  "viral": 795,
   "editorial": 1075
  },
  "recent_labels": [
-  "404 Media",
+  "Hacker News",
   "Hacker News",
   "Hacker News",
   "Hacker News",
@@ -7631,21 +7631,18 @@
    "pool": "viral",
    "score": 0.01485,
    "at": "2026-11-15T05:53:48.390429+00:00"
+  },
+  {
+   "title": "اختلال در یک روتر در آرکانزاس و توقف پروازهای هوایی",
+   "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+   "source": "wsj.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.01739,
+   "at": "2026-11-15T06:54:24.977192+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "5.5",
-    "changed",
-    "nerfed",
-    "november",
-    "opus",
-    "patterns",
-    "thinking"
-   ],
-   "at": "2026-11-09T09:53:45.627032+00:00"
-  },
   {
    "sig": [
     "coarse-to-fine",
@@ -11732,13 +11729,22 @@
     "write"
    ],
    "at": "2026-11-15T05:53:48.390429+00:00"
+  },
+  {
+   "sig": [
+    "air",
+    "arkansas",
+    "ground",
+    "halt",
+    "router",
+    "single",
+    "southern",
+    "travel"
+   ],
+   "at": "2026-11-15T06:54:24.977192+00:00"
   }
  ],
  "snapshots": {
-  "hn:50354960": [
-   1081,
-   "2026-11-03T20:10:56.738921+00:00"
-  ],
   "hn:50354336": [
    154,
    "2026-11-03T20:10:56.738921+00:00"
@@ -14099,41 +14105,45 @@
    1295,
    "2026-11-15T04:53:47.017874+00:00"
   ],
-  "hn:50501844": [
-   221,
-   "2026-11-15T05:53:46.824166+00:00"
-  ],
-  "hn:50501631": [
-   764,
-   "2026-11-15T05:53:46.824166+00:00"
-  ],
   "hn:50501594": [
    295,
-   "2026-11-15T05:53:46.824166+00:00"
-  ],
-  "hn:50500963": [
-   2304,
-   "2026-11-15T05:53:46.824166+00:00"
-  ],
-  "hn:50499945": [
-   160,
    "2026-11-15T05:53:46.824166+00:00"
   ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3n2c4xa25ws2h": [
    31,
    "2026-11-15T05:53:46.824166+00:00"
   ],
+  "hn:50501844": [
+   223,
+   "2026-11-15T06:54:13.970221+00:00"
+  ],
+  "hn:50501631": [
+   820,
+   "2026-11-15T06:54:13.970221+00:00"
+  ],
+  "hn:50500963": [
+   2431,
+   "2026-11-15T06:54:13.970221+00:00"
+  ],
+  "hn:50499945": [
+   163,
+   "2026-11-15T06:54:13.970221+00:00"
+  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2czuaxhtc2c": [
    11,
-   "2026-11-15T05:53:46.824166+00:00"
+   "2026-11-15T06:54:13.970221+00:00"
   ],
   "hn:50502768": [
-   62,
-   "2026-11-15T05:53:46.824166+00:00"
+   66,
+   "2026-11-15T06:54:13.970221+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i": [
-   149,
-   "2026-11-15T05:53:46.824166+00:00"
+   349,
+   "2026-11-15T06:54:13.970221+00:00"
+  ],
+  "hn:50503588": [
+   114,
+   "2026-11-15T06:54:13.970221+00:00"
   ]
  },
  "skips": {
@@ -14142,7 +14152,7 @@
   "Wired": 29,
   "TechRadar": 9,
   "Lobsters": 6,
-  "Hacker News": 43,
+  "Hacker News": 44,
   "The Next Web": 1,
   "404 Media": 15,
   "Emily M. Bender": 3,
@@ -14178,7 +14188,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 128,
+  "Hacker News": 129,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14222,7 +14232,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-15T05:53:48.390537+00:00",
+  "Hacker News": "2026-11-15T06:54:24.977311+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
