@@ -338,6 +338,21 @@ class State:
         post["poll_counts"] = counts
         return True
 
+    def record_reaction_counts(self, pid: str, counts: dict[str, int]) -> bool:
+        """شمارش کامل واکنش‌های پست (update‌ی message_reaction_count).
+
+        واکنش‌های کانال ناشناس‌اند (user id نمی‌آید) و شمارش مطلق است —
+        فهرست کامل واکنش‌های روی پیام، نه تفاوت — پس جایگزین کامل می‌شود.
+        """
+        counts = {k: int(v) for k, v in (counts or {}).items() if v}
+        post = self.posts.get(str(pid))
+        if post is None:
+            return False
+        if post.get("reaction_counts") == counts:
+            return False
+        post["reaction_counts"] = counts
+        return True
+
     def find_pid_by_poll(self, poll_id: str | None) -> str | None:
         """pid پستی که نظّمش با این poll_id است."""
         if not poll_id:
@@ -375,7 +390,8 @@ class State:
         for post in self.posts.values():
             votes = list(post.get("votes", {}).values())
             poll_counts = post.get("poll_counts") or {}
-            if not votes and not poll_counts:
+            reaction_counts = post.get("reaction_counts") or {}
+            if not votes and not poll_counts and not reaction_counts:
                 continue
             keys = [post["label"]] if per == "label" else post.get("topics", [])
             for key in keys:
@@ -385,6 +401,10 @@ class State:
                         acc[key][vote] += 1
                 for vote, count in poll_counts.items():
                     if vote in acc[key]:
+                        acc[key][vote] += count
+                for emoji, count in reaction_counts.items():
+                    vote = REACTION_VOTES.get(emoji)
+                    if vote:
                         acc[key][vote] += count
         return dict(acc)
 

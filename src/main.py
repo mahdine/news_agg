@@ -426,7 +426,7 @@ def publish(
             )["inline_keyboard"]
             for row in buttons:
                 print("[دکمه‌ها] " + " | ".join(f"{b['text']} → {b.get('url', '')}" for b in row))
-            if settings.get("feedback_polls", True):
+            if settings.get("feedback_polls", False):
                 print("[نظّم] " + " · ".join(text for text, _ in telegram.POLL_OPTIONS))
             _archive(state, item)
             state.remember_story(
@@ -449,8 +449,8 @@ def publish(
         # message_id دارند) به همین pid وصل می‌شوند.
         state.note_message_id(pid, (result or {}).get("message_id"), channel_id)
 
-        # نظّم بازخورد: مسیر اصلی رأی‌گیری (برای همه‌ی مخاطب‌ها کار می‌کند).
-        if settings.get("feedback_polls", True):
+        # نظّم بازخورد: مسیر اختیاری (پیش‌فرض خاموش؛ مسیر اصلی واکنش است).
+        if settings.get("feedback_polls", False):
             poll_id = telegram.send_feedback_poll(token, channel, client)
             if poll_id:
                 state.note_poll_id(pid, poll_id)

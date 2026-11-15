@@ -200,6 +200,7 @@ def drain_feedback(token: str, client: httpx.Client, state) -> int:
                     "message",
                     "callback_query",
                     "message_reaction",
+                    "message_reaction_count",
                     "poll_answer",
                     "poll",
                 ],
@@ -245,6 +246,26 @@ def drain_feedback(token: str, client: httpx.Client, state) -> int:
                         reaction.get("chat", {}).get("id"),
                     )
                     if pid and state.record_reaction(pid, user.get("id", 0), emojis):
+                        recorded += 1
+                continue
+
+            rc = update.get("message_reaction_count")
+            if rc:
+                # مسیر اصلی برای کانال: واکنش‌های کانال ناشناس‌اند و تلگرام
+                # به‌جای user id، شمارش مطلق هر ایموجی روی پیام را می‌فرستد
+                # (grouped؛ تا چند دقیقه تأخیر ممکن است).
+                pid = state.find_pid_by_message(
+                    rc.get("message_id"),
+                    rc.get("chat", {}).get("id"),
+                )
+                if pid:
+                    # هر عنصر: {type: {type: "emoji", emoji: ...}, total_count: n}
+                    counts = {}
+                    for rt in rc.get("reactions") or []:
+                        r = rt.get("type") or {}
+                        if r.get("type") == "emoji" and r.get("emoji"):
+                            counts[r["emoji"]] = rt.get("total_count", 0)
+                    if state.record_reaction_counts(pid, counts):
                         recorded += 1
                 continue
 
