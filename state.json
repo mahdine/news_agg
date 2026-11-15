@@ -1,6 +1,5 @@
 {
  "seen": [
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxrucac3x2cf",
   "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
   "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
   "https://www.theverge.com/?p=1010642",
@@ -2999,10 +2998,11 @@
   "hn:50501594",
   "hn:50502768",
   "hn:50503588",
-  "hn:50501844"
+  "hn:50501844",
+  "hn:50502988"
  ],
  "posted": {
-  "viral": 796,
+  "viral": 797,
   "editorial": 1075
  },
  "recent_labels": [
@@ -7649,37 +7649,18 @@
    "pool": "viral",
    "score": 0.00075,
    "at": "2026-11-15T07:53:49.344618+00:00"
+  },
+  {
+   "title": "دادگاه رسیدگی به پرونده تبانی در قیمت‌گذاری تراشه‌های DRAM را تایید کرد",
+   "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+   "source": "litnews.ai",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00375,
+   "at": "2026-11-15T08:53:51.420477+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "already",
-    "assistance",
-    "behind",
-    "bubble",
-    "clear",
-    "compared",
-    "faster",
-    "folks",
-    "happen",
-    "lag",
-    "living",
-    "losing",
-    "means",
-    "other",
-    "programming",
-    "refusing",
-    "see",
-    "significant",
-    "signs",
-    "starting",
-    "way",
-    "where",
-    "work"
-   ],
-   "at": "2026-11-09T09:53:56.680879+00:00"
-  },
   {
    "sig": [
     "crunch",
@@ -11749,6 +11730,19 @@
     "stop"
    ],
    "at": "2026-11-15T07:53:49.344618+00:00"
+  },
+  {
+   "sig": [
+    "case",
+    "court",
+    "denies",
+    "dismiss",
+    "dram",
+    "fixing",
+    "motion",
+    "price"
+   ],
+   "at": "2026-11-15T08:53:51.420477+00:00"
   }
  ],
  "snapshots": {
@@ -14133,24 +14127,24 @@
    "2026-11-15T07:53:45.997391+00:00"
   ],
   "hn:50501631": [
-   838,
-   "2026-11-15T07:53:45.997391+00:00"
+   848,
+   "2026-11-15T08:53:41.181766+00:00"
   ],
   "hn:50500963": [
-   2554,
-   "2026-11-15T07:53:45.997391+00:00"
+   2674,
+   "2026-11-15T08:53:41.181766+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2czuaxhtc2c": [
-   12,
-   "2026-11-15T07:53:45.997391+00:00"
+   15,
+   "2026-11-15T08:53:41.181766+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i": [
-   421,
-   "2026-11-15T07:53:45.997391+00:00"
+   451,
+   "2026-11-15T08:53:41.181766+00:00"
   ],
   "hn:50502988": [
-   109,
-   "2026-11-15T07:53:45.997391+00:00"
+   153,
+   "2026-11-15T08:53:41.181766+00:00"
   ]
  },
  "skips": {
@@ -14195,7 +14189,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 130,
+  "Hacker News": 131,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14239,7 +14233,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-15T07:53:49.344740+00:00",
+  "Hacker News": "2026-11-15T08:53:51.420631+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
