@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://tech.slashdot.org/story/26/10/16/030228/tesla-reveals-spacex-powered-flying-roadster?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://9to5mac.com/?p=1074504",
   "fbb1b38651aff821e8d78296af6e7e53",
   "https://www.cnews.ru/news/line/2026-10-16_set_restore_otkryla_predzakaz",
@@ -2999,18 +2998,19 @@
   "hn:50513160",
   "hn:50511718",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2fibqddot2i",
-  "lobsters:thiekk"
+  "lobsters:thiekk",
+  "hn:50514180"
  ],
  "posted": {
-  "viral": 817,
+  "viral": 818,
   "editorial": 1075
  },
  "recent_labels": [
-  "Lobsters",
   "Hacker News",
   "Hacker News",
   "404 Media",
-  "Lobsters"
+  "Lobsters",
+  "Hacker News"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7876,21 +7876,22 @@
     "PROGRAMMING"
    ],
    "at": "2026-11-16T10:53:54.495368+00:00"
+  },
+  {
+   "title": "مشکل در به‌روزرسانی هسته لینوکس دبیان",
+   "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101",
+   "source": "bugs.debian.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.02708,
+   "topics": [
+    "PROGRAMMING",
+    "LINUX"
+   ],
+   "at": "2026-11-16T11:53:54.355069+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "great",
-    "guy",
-    "had",
-    "hold",
-    "riaa",
-    "talking",
-    "time"
-   ],
-   "at": "2026-11-09T15:55:33.016826+00:00"
-  },
   {
    "sig": [
     "arrest",
@@ -11924,6 +11925,17 @@
     "programs"
    ],
    "at": "2026-11-16T10:53:54.495368+00:00"
+  },
+  {
+   "sig": [
+    "6.1.0-55",
+    "becomes",
+    "debian",
+    "kernel",
+    "unresponsive",
+    "update"
+   ],
+   "at": "2026-11-16T11:53:54.355069+00:00"
   }
  ],
  "snapshots": {
@@ -14316,12 +14328,12 @@
    "2026-11-16T09:53:41.727087+00:00"
   ],
   "hn:50514180": [
-   137,
-   "2026-11-16T10:53:49.671512+00:00"
+   202,
+   "2026-11-16T11:53:44.472034+00:00"
   ],
   "lobsters:rhoopo": [
-   26,
-   "2026-11-16T10:53:49.671512+00:00"
+   31,
+   "2026-11-16T11:53:44.472034+00:00"
   ],
   "lobsters:thiekk": [
    28,
@@ -14370,7 +14382,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 144,
+  "Hacker News": 145,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14414,7 +14426,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-16T08:53:45.229836+00:00",
+  "Hacker News": "2026-11-16T11:53:54.355192+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -14542,7 +14554,10 @@
    "at": "2026-11-16T05:53:44.975987+00:00",
    "votes": {},
    "message_id": 1574,
-   "chat_id": -1004399820759
+   "chat_id": -1004399820759,
+   "reaction_counts": {
+    "👎": 1
+   }
   },
   "10": {
    "label": "Lobsters",
@@ -14556,7 +14571,10 @@
    "at": "2026-11-16T06:53:49.848414+00:00",
    "votes": {},
    "message_id": 1575,
-   "chat_id": -1004399820759
+   "chat_id": -1004399820759,
+   "reaction_counts": {
+    "👎": 1
+   }
   },
   "11": {
    "label": "Hacker News",
@@ -14583,7 +14601,10 @@
    "at": "2026-11-16T08:53:44.877406+00:00",
    "votes": {},
    "message_id": 1577,
-   "chat_id": -1004399820759
+   "chat_id": -1004399820759,
+   "reaction_counts": {
+    "👍": 1
+   }
   },
   "13": {
    "label": "404 Media",
@@ -14597,7 +14618,10 @@
    "at": "2026-11-16T09:53:44.990939+00:00",
    "votes": {},
    "message_id": 1578,
-   "chat_id": -1004399820759
+   "chat_id": -1004399820759,
+   "reaction_counts": {
+    "👍": 1
+   }
   },
   "14": {
    "label": "Lobsters",
@@ -14611,8 +14635,22 @@
    "votes": {},
    "message_id": 1579,
    "chat_id": -1004399820759
+  },
+  "15": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "PROGRAMMING",
+    "LINUX"
+   ],
+   "title": "مشکل در به‌روزرسانی هسته لینوکس دبیان",
+   "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101",
+   "at": "2026-11-16T11:53:53.852047+00:00",
+   "votes": {},
+   "message_id": 1580,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 15,
- "last_update_id": 276814732
+ "next_post_id": 16,
+ "last_update_id": 276814736
 }
