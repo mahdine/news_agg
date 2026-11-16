@@ -1,7 +1,5 @@
 {
  "seen": [
-  "hn:50116255",
-  "https://www.theverge.com/?p=1012783",
   "https://www.engadget.com/2288448/relive-tesla-ridiculously-fun-roadster-stunt-show/",
   "https://tech.slashdot.org/story/26/10/16/030228/tesla-reveals-spacex-powered-flying-roadster?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://9to5mac.com/?p=1074504",
@@ -2999,18 +2997,20 @@
   "lobsters:dxxvek",
   "hn:50512824",
   "hn:50511806",
-  "hn:50513160"
+  "hn:50513160",
+  "hn:50511718",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2fibqddot2i"
  ],
  "posted": {
-  "viral": 815,
+  "viral": 816,
   "editorial": 1075
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "Lobsters",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7851,18 +7851,22 @@
     "VULNERABILITY"
    ],
    "at": "2026-11-16T08:53:45.229715+00:00"
+  },
+  {
+   "title": "محدودیت شرکت‌های بزرگ برای استفاده از هوش مصنوعی در مهندسی معکوس",
+   "url": "http://404media.co/reverse-engineer-anything-ai-companies-crack-down-on-the-coolest-thing-people-were-doing-with-ai/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.09112,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-16T09:53:45.355107+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "horrible",
-    "key",
-    "public",
-    "tricks"
-   ],
-   "at": "2026-11-09T15:54:56.892599+00:00"
-  },
   {
    "sig": [
     "censored",
@@ -11892,6 +11896,31 @@
     "xss"
    ],
    "at": "2026-11-16T08:53:45.229715+00:00"
+  },
+  {
+   "sig": [
+    "404media.co",
+    "artificial",
+    "big",
+    "circumvent",
+    "constraints",
+    "corporations",
+    "devices",
+    "find",
+    "hardware",
+    "llms",
+    "manufacturers",
+    "other",
+    "policy",
+    "protect",
+    "put",
+    "reverse-engi",
+    "show",
+    "tweaks",
+    "users",
+    "ways"
+   ],
+   "at": "2026-11-16T09:53:45.355107+00:00"
   }
  ],
  "snapshots": {
@@ -14276,12 +14305,12 @@
    "2026-11-16T07:53:44.592212+00:00"
   ],
   "hn:50511718": [
-   95,
-   "2026-11-16T08:53:39.958250+00:00"
+   96,
+   "2026-11-16T09:53:41.727087+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2fibqddot2i": [
-   436,
-   "2026-11-16T08:53:39.958250+00:00"
+   443,
+   "2026-11-16T09:53:41.727087+00:00"
   ],
   "hn:50513160": [
    499,
@@ -14292,8 +14321,8 @@
    "2026-11-16T07:53:44.592212+00:00"
   ],
   "hn:50514180": [
-   110,
-   "2026-11-16T08:53:39.958250+00:00"
+   135,
+   "2026-11-16T09:53:41.727087+00:00"
   ]
  },
  "skips": {
@@ -14302,7 +14331,7 @@
   "Wired": 29,
   "TechRadar": 9,
   "Lobsters": 8,
-  "Hacker News": 45,
+  "Hacker News": 46,
   "The Next Web": 1,
   "404 Media": 18,
   "Emily M. Bender": 3,
@@ -14328,7 +14357,7 @@
   "Wired": 26,
   "TechRadar": 37,
   "Slashdot": 31,
-  "404 Media": 43,
+  "404 Media": 44,
   "Xe Iaso": 4,
   "The Verge": 22,
   "Cloudflare": 1,
@@ -14372,7 +14401,7 @@
   "Wired": "2026-11-14T11:53:51.542167+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-13T04:54:43.870063+00:00",
-  "404 Media": "2026-11-16T01:53:49.553669+00:00",
+  "404 Media": "2026-11-16T09:53:45.355236+00:00",
   "Xe Iaso": "2026-11-11T14:54:18.284123+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -14552,8 +14581,22 @@
    "votes": {},
    "message_id": 1577,
    "chat_id": -1004399820759
+  },
+  "13": {
+   "label": "404 Media",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "محدودیت شرکت‌های بزرگ برای استفاده از هوش مصنوعی در مهندسی معکوس",
+   "url": "http://404media.co/reverse-engineer-anything-ai-companies-crack-down-on-the-coolest-thing-people-were-doing-with-ai/",
+   "at": "2026-11-16T09:53:44.990939+00:00",
+   "votes": {},
+   "message_id": 1578,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 13,
+ "next_post_id": 14,
  "last_update_id": 276814732
 }
