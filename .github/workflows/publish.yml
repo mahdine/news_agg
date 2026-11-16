@@ -7,7 +7,8 @@ name: publish
 #   method:  POST
 #   url:     https://api.github.com/repos/<owner>/PersianTwitter/dispatches
 #   body:    {"event": "workflow_dispatch"}
-#   cron:    "23 5-21 * * *"   (UTC — ساعات بیداری تهران: ۹ صبح تا ۱ بامداد)
+#   cron:    "23 5-21 * * *"   (تایمزون job در cron-job.org: Asia/Tehran → ۵:۲۳ تا
+#              ۲۱:۲۳ به‌وقت تهران = ۰۱:۵۳ تا ۱۷:۵۳ UTC؛ dispatchها در دقیقه‌ی :53 UTC می‌رسند)
 #   token:   یک GITHUB_TOKEN با scope repo
 # راهنمای کامل نصب در بخش Deploying بخش README است.
 on:
