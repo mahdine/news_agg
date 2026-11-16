@@ -114,7 +114,7 @@ def build(items: list[Item]) -> list[Cluster]:
     by_url: dict[str, Cluster] = {}
 
     for item in items:
-        key = _url_key(item.url)
+        key = url_key(item.url)
         found = by_url.get(key)
 
         if found is None:
@@ -171,25 +171,41 @@ def similarity(left: set[str], right: set[str]) -> float:
 
 
 def signature_of(text: str) -> set[str]:
-    """توکن‌های لاتین و عددی از دو خط اول متن.
+    """توکن‌های لاتین و عددی از ابتدای متن.
 
     فقط لاتین، چون همین باعث می‌شود خبر روسی و انگلیسیِ یک ماجرا به هم برسند:
     اسم شرکت و محصول و شماره‌ی CVE در هر دو زبان لاتین می‌ماند.
+
+    از دو خط اول می‌گیرد؛ اگر تیتر کم‌توکن بود (مثلا‌ «What the fuck is
+    x.com?» که بعد از فیلتر فقط دو توکن می‌ماند) به خط‌های بعدی برمی‌گردد —
+    امضای خالی یعنی ماجرا هیچ ردی برای dedup بین اجراها باقی نمی‌گذارد.
     """
-    head = " ".join(text.splitlines()[:2]).lower()
-    # نقطه و خط تیره‌ی چسبیده به آخر کلمه باید برود، وگرنه «chips.» در انتهای
-    # جمله و «chips» وسط جمله دو توکن متفاوت می‌شوند و همان اشتراکی که باید دو
-    # روایت یک خبر را به هم برساند از دست می‌رود.
-    tokens = {t.strip(".-") for t in _TOKEN.findall(head)}
-    tokens = {t for t in tokens if len(t) >= 3 and t not in STOP and not t.isdigit()}
-    # کمتر از سه توکن یعنی امضا آن‌قدر ضعیف است که هر چیزی به آن می‌چسبد.
-    return tokens if len(tokens) >= 3 else set()
+    lines = text.splitlines()
+    for count in (2, 4, 8):
+        head = " ".join(lines[:count]).lower()
+        # نقطه و خط تیره‌ی چسبیده به آخر کلمه باید برود، وگرنه «chips.» در
+        # انتهای جمله و «chips» وسط جمله دو توکن متفاوت می‌شوند و همان
+        # اشتراکی که باید دو روایت یک خبر را به هم برساند از دست می‌رود.
+        tokens = {t.strip(".-") for t in _TOKEN.findall(head)}
+        tokens = {t for t in tokens if len(t) >= 3 and t not in STOP and not t.isdigit()}
+        # کمتر از سه توکن یعنی امضا آن‌قدر ضعیف است که هر چیزی به آن می‌چسبد؛
+        # امضاهای ضعیف را نمی‌سازیم (لایه‌ی کلید URL جای آن‌ها را می‌گیرد).
+        if len(tokens) >= 3:
+            return tokens
+    return set()
 
 
-def _url_key(url: str) -> str:
+def url_key(url: str) -> str:
+    """شکل نرمال‌شده‌ی URL برای تطبیق دقیق.
+
+    دامنه بدون www و مسیر بدون شل/amp/پسوند html. دو نسخه‌ی یک خبر از منابع
+    مختلف معمولا‌ فقط در همین جزئیات فرق دارند (siterate در برابر
+    siterate.html)؛ تطبیق دقیق کلید خطای کاذبی ندارد.
+    """
     from urllib.parse import urlsplit
 
     parts = urlsplit(url)
     host = parts.netloc.lower().removeprefix("www.")
-    path = parts.path.rstrip("/").removesuffix("/amp").lower()
+    path = parts.path.lower()
+    path = path.rstrip("/").removesuffix("/amp").removesuffix(".html").removesuffix(".htm")
     return f"{host}{path}"

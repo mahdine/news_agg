@@ -130,16 +130,34 @@ class State:
                 self.posts_by_label = dict(sorted(
                     self.posts_by_label.items(), key=lambda kv: -kv[1])[:200])
 
-    def remember_story(self, signature: set[str], now: datetime) -> None:
+    def remember_story(self, signature: set[str], now: datetime, url_key: str = "") -> None:
         """امضای ماجرایی که پست شد.
 
         `seen` فقط URL مقاله را می‌گیرد، و این برای خبری که ده رسانه پوشش
         می‌دهند کافی نیست: نسخه‌ی رسانه‌ی بعدی URL دیگری دارد و از فیلتر رد
         می‌شود. امضای ماجرا همان چیزی است که همه‌ی آن نسخه‌ها در آن مشترک‌اند.
+
+        `url_key` کلید نرمال‌شده‌ی URL است و حتی وقتی امضا خالی است باید ردی
+        بماند: تیترهای کم‌کلمه امضای خالی می‌دهند، ولی دو نسخه‌ی یک خبر از
+        منابع مختلف معمولا‌ به همان URL می‌رسند و تطبیق دقیق کلید URL خطای
+        کاذبی ندارد.
         """
-        if not signature:
+        if not signature and not url_key:
             return
-        self.stories.append({"sig": sorted(signature), "at": now.isoformat()})
+        row = {"sig": sorted(signature), "at": now.isoformat()}
+        if url_key:
+            row["url"] = url_key
+        self.stories.append(row)
+
+    def recent_story_url_keys(self, now: datetime, hours: int = STORY_MEMORY_HOURS) -> list[str]:
+        """کلیدهای نرمال‌شده‌ی URL ماجراهایی که در پنجره‌ی حافظه پست شده‌اند."""
+        cutoff = now - timedelta(hours=hours)
+        keys = []
+        for row in self.stories:
+            at = _parse(row.get("at"))
+            if at and at >= cutoff and row.get("url"):
+                keys.append(row["url"])
+        return keys
 
     def recent_stories(self, now: datetime, hours: int = STORY_MEMORY_HOURS) -> list[set[str]]:
         """ماجراهایی که در پنجره‌ی حافظه پست شده‌اند."""

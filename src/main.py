@@ -173,7 +173,9 @@ def select(items: list[Item], state: State, settings: dict, explain: bool = Fals
         and within_window(item)
         and len(item.text) >= (min_ranked_text if item.ranked else min_text)
     ]
-    fresh = _drop_repeats(fresh, state.recent_stories(now))
+    fresh = _drop_repeats(
+        fresh, state.recent_stories(now), state.recent_story_url_keys(now)
+    )
 
     ranked = scoring.rank(fresh, state, feedback=settings.get("feedback_reweight", True))
     viral = [i for i in ranked if i.ranked]
@@ -200,22 +202,32 @@ def select(items: list[Item], state: State, settings: dict, explain: bool = Fals
     return chosen
 
 
-def _drop_repeats(items: list[Item], stories: list[set[str]]) -> list[Item]:
+def _drop_repeats(
+    items: list[Item],
+    stories: list[set[str]],
+    story_url_keys: list[str] | tuple[str, ...] = (),
+) -> list[Item]:
     """خبرهایی که همان ماجرای قبلاً پست‌شده‌اند را کنار می‌گذارد.
 
     اینجا همان جایی است که تکرار واقعاً متوقف می‌شود. خوشه‌بندی فقط *داخل* یک
     اجرا کار می‌کند: هفت رسانه‌ای که همزمان در فید هستند یک پست می‌شوند. ولی
     پوشش یک خبر بزرگ ساعت‌ها ادامه دارد و رسانه‌ی هشتم دو ساعت بعد می‌رسد،
-    وقتی خوشه‌ی قبلی دیگر وجود ندارد و URLش هم در seen نیست. تنها چیزی که از
-    آن اجرا باقی مانده امضای ماجراست، و مقایسه با همان، نسخه‌های دیرهنگام را
-    می‌گیرد.
+    وقتی خوشه‌ی قبلی دیگر وجود ندارد و URLش هم در seen نیست.
+
+    دو لایه از آن اجرا مانده:
+    - کلید نرمال‌شده‌ی URL (تطبیق دقیق؛ نسخه‌های بعدی به همان URL می‌رسند)
+    - امضای ماجرا (تطبیق مبهم؛ تیترها و URLهای متفاوت)
     """
     kept: list[Item] = []
     dropped = 0
+    url_keys = set(story_url_keys)
 
     for item in items:
         item.signature = cluster.signature_of(item.text)
-        if cluster.best_match(item.signature, stories) >= cluster.SIMILARITY:
+        if (
+            cluster.url_key(item.url) in url_keys
+            or cluster.best_match(item.signature, stories) >= cluster.SIMILARITY
+        ):
             dropped += 1
             continue
         kept.append(item)
@@ -374,7 +386,11 @@ def publish(
         # کاندیداهای یدکی قبل از ارسالِ اولی انتخاب شده‌اند، پس ممکن است دو
         # تایشان یک ماجرا باشند که خوشه‌بندی از هم جدایشان کرده. حالا که
         # ماجرای پست‌شده ثبت شده، دوباره می‌سنجیم.
-        if cluster.best_match(item.signature, state.recent_stories(now_utc())) >= cluster.SIMILARITY:
+        now = now_utc()
+        if (
+            cluster.url_key(item.url) in state.recent_story_url_keys(now)
+            or cluster.best_match(item.signature, state.recent_stories(now)) >= cluster.SIMILARITY
+        ):
             log.info("رد شد، همان ماجرای پست‌شده: %s — %s", item.label, item.text[:60])
             _archive(state, item)
             continue
@@ -430,7 +446,9 @@ def publish(
                 print("[نظّم] " + " · ".join(text for text, _ in telegram.POLL_OPTIONS))
             _archive(state, item)
             state.remember_story(
-                item.story_signature or item.signature, datetime.now(timezone.utc)
+                item.story_signature or item.signature,
+                datetime.now(timezone.utc),
+                cluster.url_key(item.url),
             )
             state.count_post("viral" if item.ranked else "editorial", item.label)
             sent += 1
@@ -467,7 +485,7 @@ def publish(
         _archive(state, item)
         state.count_post("viral" if item.ranked else "editorial", item.label)
         state.remember(item, title or persian, now)
-        state.remember_story(item.story_signature or item.signature, now)
+        state.remember_story(item.story_signature or item.signature, now, cluster.url_key(item.url))
         sent += 1
 
         if sent < target:

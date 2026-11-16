@@ -30,6 +30,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # checkout روی commitِ لحظه‌ی trigger است، نه main فعلی. اجرایی که
+      # دقیقه‌ها در صف runner مانده باشد (یا پشت یک اجرای قبلی در صف
+      # concurrency بماند) وگرنه state کهنه می‌خواند و ماجراهای پست‌شده‌ی
+      # بعد از trigger را «جدید» می‌پندارد. همگام‌سازی با آخرین main قبل
+      # از کار، دیرهنگام‌ترین اجرا را هم روی تازه‌ترین وضعیت می‌نشاند.
+      - name: sync main
+        run: git fetch origin main && git reset --hard origin/main
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

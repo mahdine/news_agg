@@ -7942,6 +7942,18 @@
    "at": "2026-11-16T15:53:55.777943+00:00"
   },
   {
+   "title": "معمای دامنه ناشناخته با رتبه‌بندی غیرعادی در لیست Majestic Million",
+   "url": "https://jack.cab/blog/siterate.html",
+   "source": "jack.cab",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.0,
+   "topics": [
+    "TECH"
+   ],
+   "at": "2026-11-16T17:53:57.727908+00:00"
+  },
+  {
    "title": "ابهام در رتبه‌بندی عجیب یک دامین ناشناس در لیست Majestic Million",
    "url": "https://jack.cab/blog/siterate.html",
    "source": "jack.cab",
@@ -11995,6 +12007,11 @@
     "thinkpad"
    ],
    "at": "2026-11-16T14:53:58.548500+00:00"
+  },
+  {
+   "sig": [],
+   "at": "2026-11-16T15:53:55.777943+00:00",
+   "url": "jack.cab/blog/siterate"
   }
  ],
  "snapshots": {
@@ -14782,8 +14799,21 @@
    "votes": {},
    "message_id": 1586,
    "chat_id": -1004399820759
+  },
+  "21": {
+   "label": "Lobsters",
+   "pool": "viral",
+   "topics": [
+    "TECH"
+   ],
+   "title": "معمای دامنه ناشناخته با رتبه‌بندی غیرعادی در لیست Majestic Million",
+   "url": "https://jack.cab/blog/siterate.html",
+   "at": "2026-11-16T17:53:57.727908+00:00",
+   "votes": {},
+   "message_id": 1585,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 21,
+ "next_post_id": 22,
  "last_update_id": 276814738
 }
