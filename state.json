@@ -1,7 +1,5 @@
 {
  "seen": [
-  "TheNextWeb=279d9e6d0a31e9544b7f044ed07e939d",
-  "https://apple.slashdot.org/story/26/10/15/189249/meta-and-apple-bring-muse-spark-open-ai-model-to-mac-studio?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "hn:50118320",
   "https://3dnews.ru/1150060/#6ad24e31742eecd4a58b4583",
   "https://www.neowin.net/news/metas-new-muse-spark-open-ai-needs-two-5499-mac-studios-to-run-on-desktop/",
@@ -2999,17 +2997,19 @@
   "https://www.engadget.com/2317283/ula-vulcan-rocket-failure-destroys-40-amazon-leo-satellites/",
   "EJ62xmQjxjJGsF5c5SgPuY",
   "TheNextWeb=7ab5c992d88931f293421a57d3a1c4b7",
-  "hn:50515058"
+  "hn:50515058",
+  "hn:50516245",
+  "hn:50516473"
  ],
  "posted": {
-  "viral": 820,
+  "viral": 821,
   "editorial": 1075
  },
  "recent_labels": [
-  "404 Media",
   "Lobsters",
   "Hacker News",
   "Lobsters",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-13",
@@ -7915,21 +7915,22 @@
     "LLM"
    ],
    "at": "2026-11-16T13:53:45.539110+00:00"
+  },
+  {
+   "title": "یک ترفند ساده برای احیای لپ‌تاپ‌های خاموش ThinkPad",
+   "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+   "source": "masnick.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.07429,
+   "topics": [
+    "TECH",
+    "HARDWARE"
+   ],
+   "at": "2026-11-16T14:53:58.548500+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "crypto",
-    "demanded",
-    "employees",
-    "endorse",
-    "foundation",
-    "pledge",
-    "suicide"
-   ],
-   "at": "2026-11-09T16:54:11.672639+00:00"
-  },
   {
    "sig": [
     "accounts",
@@ -11956,21 +11957,23 @@
     "proof"
    ],
    "at": "2026-11-16T13:53:45.539110+00:00"
+  },
+  {
+   "sig": [
+    "back",
+    "bring",
+    "code",
+    "dead",
+    "laptops",
+    "life",
+    "powerbutton",
+    "secret",
+    "thinkpad"
+   ],
+   "at": "2026-11-16T14:53:58.548500+00:00"
   }
  ],
  "snapshots": {
-  "hn:50364814": [
-   170,
-   "2026-11-04T14:53:47.660770+00:00"
-  ],
-  "hn:50364478": [
-   219,
-   "2026-11-04T14:53:47.660770+00:00"
-  ],
-  "lobsters:cozhtg": [
-   31,
-   "2026-11-04T14:53:47.660770+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzigpsy5hs2r": [
    995,
    "2026-11-04T15:53:41.540009+00:00"
@@ -14347,17 +14350,29 @@
    35,
    "2026-11-16T12:53:54.848376+00:00"
   ],
-  "hn:50516245": [
-   207,
-   "2026-11-16T13:53:41.459226+00:00"
-  ],
   "hn:50515058": [
    142,
    "2026-11-16T13:53:41.459226+00:00"
   ],
+  "hn:50516245": [
+   259,
+   "2026-11-16T14:53:45.204343+00:00"
+  ],
   "hn:50516473": [
-   107,
-   "2026-11-16T13:53:41.459226+00:00"
+   214,
+   "2026-11-16T14:53:45.204343+00:00"
+  ],
+  "hn:50517602": [
+   151,
+   "2026-11-16T14:53:45.204343+00:00"
+  ],
+  "hn:50517488": [
+   147,
+   "2026-11-16T14:53:45.204343+00:00"
+  ],
+  "lobsters:emdfap": [
+   33,
+   "2026-11-16T14:53:45.204343+00:00"
   ]
  },
  "skips": {
@@ -14366,7 +14381,7 @@
   "Wired": 29,
   "TechRadar": 9,
   "Lobsters": 8,
-  "Hacker News": 46,
+  "Hacker News": 47,
   "The Next Web": 1,
   "404 Media": 18,
   "Emily M. Bender": 3,
@@ -14402,7 +14417,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 146,
+  "Hacker News": 147,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14446,7 +14461,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-16T13:53:45.539235+00:00",
+  "Hacker News": "2026-11-16T14:53:58.548623+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -14697,8 +14712,22 @@
    "votes": {},
    "message_id": 1582,
    "chat_id": -1004399820759
+  },
+  "18": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "TECH",
+    "HARDWARE"
+   ],
+   "title": "یک ترفند ساده برای احیای لپ‌تاپ‌های خاموش ThinkPad",
+   "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+   "at": "2026-11-16T14:53:58.053962+00:00",
+   "votes": {},
+   "message_id": 1583,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 18,
+ "next_post_id": 19,
  "last_update_id": 276814736
 }
