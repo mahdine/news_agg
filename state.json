@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://www.engadget.com/2288448/relive-tesla-ridiculously-fun-roadster-stunt-show/",
   "https://tech.slashdot.org/story/26/10/16/030228/tesla-reveals-spacex-powered-flying-roadster?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://9to5mac.com/?p=1074504",
   "fbb1b38651aff821e8d78296af6e7e53",
@@ -2999,18 +2998,19 @@
   "hn:50511806",
   "hn:50513160",
   "hn:50511718",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2fibqddot2i"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2fibqddot2i",
+  "lobsters:thiekk"
  ],
  "posted": {
-  "viral": 816,
+  "viral": 817,
   "editorial": 1075
  },
  "recent_labels": [
-  "Hacker News",
   "Lobsters",
   "Hacker News",
   "Hacker News",
-  "404 Media"
+  "404 Media",
+  "Lobsters"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7864,27 +7864,21 @@
     "LLM"
    ],
    "at": "2026-11-16T09:53:45.355107+00:00"
+  },
+  {
+   "title": "ابزار بصری‌سازی و دستکاری حافظه پردازش‌های در حال اجرا",
+   "url": "https://citrons.xyz/journal/2026-04-13",
+   "source": "citrons.xyz",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.03092,
+   "topics": [
+    "PROGRAMMING"
+   ],
+   "at": "2026-11-16T10:53:54.495368+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "censored",
-    "deepfakes",
-    "emojis",
-    "find",
-    "generated",
-    "girlfriends",
-    "instagram",
-    "like",
-    "might",
-    "nonconsensual",
-    "saying",
-    "sex",
-    "somehow"
-   ],
-   "at": "2026-11-09T15:55:04.458948+00:00"
-  },
   {
    "sig": [
     "great",
@@ -11921,17 +11915,18 @@
     "ways"
    ],
    "at": "2026-11-16T09:53:45.355107+00:00"
+  },
+  {
+   "sig": [
+    "memory",
+    "other",
+    "paint",
+    "programs"
+   ],
+   "at": "2026-11-16T10:53:54.495368+00:00"
   }
  ],
  "snapshots": {
-  "hn:50362993": [
-   170,
-   "2026-11-04T12:53:39.773986+00:00"
-  ],
-  "hn:50360947": [
-   56,
-   "2026-11-04T12:53:39.773986+00:00"
-  ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzhw4774us2b": [
    15,
    "2026-11-04T12:53:39.773986+00:00"
@@ -14284,6 +14279,18 @@
    73,
    "2026-11-16T06:53:46.930569+00:00"
   ],
+  "hn:50510442": [
+   349,
+   "2026-11-16T07:53:44.592212+00:00"
+  ],
+  "hn:50510296": [
+   173,
+   "2026-11-16T07:53:44.592212+00:00"
+  ],
+  "hn:50512824": [
+   234,
+   "2026-11-16T07:53:44.592212+00:00"
+  ],
   "hn:50511806": [
    218,
    "2026-11-16T08:53:39.958250+00:00"
@@ -14296,13 +14303,9 @@
    193,
    "2026-11-16T08:53:39.958250+00:00"
   ],
-  "hn:50510442": [
-   349,
-   "2026-11-16T07:53:44.592212+00:00"
-  ],
-  "hn:50510296": [
-   173,
-   "2026-11-16T07:53:44.592212+00:00"
+  "hn:50513160": [
+   499,
+   "2026-11-16T08:53:39.958250+00:00"
   ],
   "hn:50511718": [
    96,
@@ -14312,17 +14315,17 @@
    443,
    "2026-11-16T09:53:41.727087+00:00"
   ],
-  "hn:50513160": [
-   499,
-   "2026-11-16T08:53:39.958250+00:00"
-  ],
-  "hn:50512824": [
-   234,
-   "2026-11-16T07:53:44.592212+00:00"
-  ],
   "hn:50514180": [
-   135,
-   "2026-11-16T09:53:41.727087+00:00"
+   137,
+   "2026-11-16T10:53:49.671512+00:00"
+  ],
+  "lobsters:rhoopo": [
+   26,
+   "2026-11-16T10:53:49.671512+00:00"
+  ],
+  "lobsters:thiekk": [
+   28,
+   "2026-11-16T10:53:49.671512+00:00"
   ]
  },
  "skips": {
@@ -14362,7 +14365,7 @@
   "The Verge": 22,
   "Cloudflare": 1,
   "TechCrunch AI": 19,
-  "Lobsters": 24,
+  "Lobsters": 25,
   "Tom's Hardware": 39,
   "ZDNet": 6,
   "9to5Mac": 20,
@@ -14406,7 +14409,7 @@
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-13T14:55:22.519235+00:00",
-  "Lobsters": "2026-11-16T06:53:50.429684+00:00",
+  "Lobsters": "2026-11-16T10:53:54.495480+00:00",
   "Tom's Hardware": "2026-11-13T11:53:52.167150+00:00",
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
@@ -14595,8 +14598,21 @@
    "votes": {},
    "message_id": 1578,
    "chat_id": -1004399820759
+  },
+  "14": {
+   "label": "Lobsters",
+   "pool": "viral",
+   "topics": [
+    "PROGRAMMING"
+   ],
+   "title": "ابزار بصری‌سازی و دستکاری حافظه پردازش‌های در حال اجرا",
+   "url": "https://citrons.xyz/journal/2026-04-13",
+   "at": "2026-11-16T10:53:53.844566+00:00",
+   "votes": {},
+   "message_id": 1579,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 14,
+ "next_post_id": 15,
  "last_update_id": 276814732
 }
