@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://9to5mac.com/?p=1074504",
   "fbb1b38651aff821e8d78296af6e7e53",
   "https://www.cnews.ru/news/line/2026-10-16_set_restore_otkryla_predzakaz",
   "https://www.theverge.com/?p=988582",
@@ -2999,18 +2998,19 @@
   "hn:50511718",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2fibqddot2i",
   "lobsters:thiekk",
-  "hn:50514180"
+  "hn:50514180",
+  "lobsters:rhoopo"
  ],
  "posted": {
-  "viral": 818,
+  "viral": 819,
   "editorial": 1075
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "404 Media",
   "Lobsters",
-  "Hacker News"
+  "Hacker News",
+  "Lobsters"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -7889,22 +7889,22 @@
     "LINUX"
    ],
    "at": "2026-11-16T11:53:54.355069+00:00"
+  },
+  {
+   "title": "مهاجرت از پلتفرم GitHub به Codeberg",
+   "url": "https://yorickpeterse.com/articles/migrating-from-github-to-codeberg/",
+   "source": "yorickpeterse.com",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.00753,
+   "topics": [
+    "PROGRAMMING",
+    "OPENSOURCE"
+   ],
+   "at": "2026-11-16T12:53:58.155013+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "arrest",
-    "exec",
-    "interview",
-    "minutes",
-    "safety",
-    "threat",
-    "touched",
-    "trump"
-   ],
-   "at": "2026-11-09T15:55:45.346919+00:00"
-  },
   {
    "sig": [
     "chromium",
@@ -11936,17 +11936,17 @@
     "update"
    ],
    "at": "2026-11-16T11:53:54.355069+00:00"
+  },
+  {
+   "sig": [
+    "codeberg",
+    "github",
+    "migrating"
+   ],
+   "at": "2026-11-16T12:53:58.155013+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzhw4774us2b": [
-   15,
-   "2026-11-04T12:53:39.773986+00:00"
-  ],
-  "hn:50364336": [
-   306,
-   "2026-11-04T13:06:36.524615+00:00"
-  ],
   "hn:50365982": [
    96,
    "2026-11-04T14:53:47.660770+00:00"
@@ -14327,17 +14327,25 @@
    443,
    "2026-11-16T09:53:41.727087+00:00"
   ],
+  "lobsters:thiekk": [
+   28,
+   "2026-11-16T10:53:49.671512+00:00"
+  ],
   "hn:50514180": [
    202,
    "2026-11-16T11:53:44.472034+00:00"
   ],
   "lobsters:rhoopo": [
-   31,
-   "2026-11-16T11:53:44.472034+00:00"
+   35,
+   "2026-11-16T12:53:54.848376+00:00"
   ],
-  "lobsters:thiekk": [
-   28,
-   "2026-11-16T10:53:49.671512+00:00"
+  "hn:50516245": [
+   131,
+   "2026-11-16T12:53:54.848376+00:00"
+  ],
+  "hn:50515058": [
+   101,
+   "2026-11-16T12:53:54.848376+00:00"
   ]
  },
  "skips": {
@@ -14377,7 +14385,7 @@
   "The Verge": 22,
   "Cloudflare": 1,
   "TechCrunch AI": 19,
-  "Lobsters": 25,
+  "Lobsters": 26,
   "Tom's Hardware": 39,
   "ZDNet": 6,
   "9to5Mac": 20,
@@ -14421,7 +14429,7 @@
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-13T14:55:22.519235+00:00",
-  "Lobsters": "2026-11-16T10:53:54.495480+00:00",
+  "Lobsters": "2026-11-16T12:53:58.155130+00:00",
   "Tom's Hardware": "2026-11-13T11:53:52.167150+00:00",
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
@@ -14649,8 +14657,22 @@
    "votes": {},
    "message_id": 1580,
    "chat_id": -1004399820759
+  },
+  "16": {
+   "label": "Lobsters",
+   "pool": "viral",
+   "topics": [
+    "PROGRAMMING",
+    "OPENSOURCE"
+   ],
+   "title": "مهاجرت از پلتفرم GitHub به Codeberg",
+   "url": "https://yorickpeterse.com/articles/migrating-from-github-to-codeberg/",
+   "at": "2026-11-16T12:53:57.603013+00:00",
+   "votes": {},
+   "message_id": 1581,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 16,
+ "next_post_id": 17,
  "last_update_id": 276814736
 }
