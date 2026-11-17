@@ -30,6 +30,41 @@ MAX_TEXT = 3500
 # زیر پست وصل می‌کند.
 READ_MORE = "برای ادامه‌ی خواندن روی <b>source</b> بزنید"
 
+# سرعت امتیازگیری که ماجرا «داغ» حساب شود: امتیاز در ساعت. با آستانه‌ی
+# min_points=50 یکسان‌اند: خبری که تازه از آستانه رد شده و در دو ساعت ۵۰ امتیاز
+# گرفته دقیقاً ۲۵ در ساعت است — همان لحظه‌ای که داغ می‌شود بج را می‌بیند.
+# داستان‌های عادی فرانت‌پیجِ کند حدود ۱۰–۱۵ امتیاز در ساعت می‌گیرند و بج
+# نمی‌گیرند؛ خبری که دارد منفجر می‌شود معمولاً بالای ۵۰ است.
+HOT_POINTS_PER_HOUR = 25.0
+
+
+def _fa(value) -> str:
+    """عدد فارسی: 156 → ۱۵۶. بج‌ها در متن فارسی پست باید فارسی‌رقم باشند."""
+    return str(value).translate(str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹"))
+
+
+def _badges(item: Item) -> str:
+    """خط بج زیر تیتر: سرعت امتیاز (🔥) و پوشش چند منبع مستقل.
+
+    هر دو عدد از داده‌ای می‌آیند که اجرا همین لحظه جمع کرده — بدون درخواست
+    اضافه: points از Algolia در همان fetch، و sources از خوشه‌بندی که برای
+    امتیاز دادن همین آیتم‌ها ساخته شده بود (breakdown["sources"]).
+    """
+    parts = []
+    if item.points:
+        age = item.age_hours()
+        if item.points / age >= HOT_POINTS_PER_HOUR:
+            when = (
+                "کمتر از یک ساعت"
+                if age < 1
+                else f"{_fa(max(1, round(age)))} ساعت"
+            )
+            parts.append(f"🔥 {_fa(item.points)} امتیاز در {when}")
+    sources = item.breakdown.get("sources") or 0
+    if sources >= 2:
+        parts.append(f"{_fa(sources)} منبع مستقل")
+    return "  ·  ".join(parts)
+
 
 def build_message(
     item: Item,
@@ -44,7 +79,8 @@ def build_message(
         source += f"  ·  via {html.escape(item.label)}"
 
     footer = "  ".join(part for part in (tag, _handle(channel)) if part)
-    fixed = len(source) + len(footer) + len(title) + 12
+    badges = _badges(item)
+    fixed = len(source) + len(footer) + len(title) + len(badges) + 12
     body = body.strip()
     if len(body) > MAX_TEXT - fixed:
         body = body[: MAX_TEXT - fixed].rsplit(" ", 1)[0] + "…"
@@ -52,6 +88,9 @@ def build_message(
     parts = []
     if title:
         parts.append(f"<b>{html.escape(title)}</b>")
+    if badges:
+        # متن داخلی است (فارسی + ایموجی)، نه ورودی کاربر — escape ندارد.
+        parts.append(badges)
     parts.append(html.escape(body))
     parts.append(f"<i>{source}</i>")
     if footer:
@@ -146,14 +185,19 @@ def build_keyboard(item: Item, pid: str = "", bot_username: str = "", feedback: 
     """دکمه‌های زیر پست.
 
     ردیف اول (وقتی فعال باشد) چهار دکمه‌ی بازخورد است و ردیف دوم دکمه‌ی
-    source. همه url هستند — نه دکمه‌ای backend زنده می‌خواهد.
+    source — و «دیدگاه‌ها» وقتی بحث جدا از مقاله دارد (HN، Lobsters). در
+    Ask HN مقاله و بحث یکی‌اند و دکمه‌ی دوم تکرار، پس جا نمی‌افتد.
+    همه url هستند — نه دکمه‌ای backend زنده می‌خواهد.
     """
     rows = []
     if feedback and pid and bot_username:
         rows.append(
             [{"text": text, "url": vote_url(bot_username, pid, vote)} for text, vote in FEEDBACK_BUTTONS]
         )
-    rows.append([{"text": "source", "url": item.url}])
+    source_row = [{"text": "source", "url": item.url}]
+    if item.discussion_url and item.discussion_url != item.url:
+        source_row.append({"text": "دیدگاه‌ها", "url": item.discussion_url})
+    rows.append(source_row)
     return {"inline_keyboard": rows}
 
 

@@ -26,6 +26,11 @@ class Item:
     engagement: int = 0
     ranked: bool = False
 
+    # امتیاز خام (points از Algolia، score از Lobsters) بدون وزن‌دهی.
+    # engagement برای رتبه‌بندی است (لایک ۱، کامنت ۲) ولی بج 🔥 باید همان
+    # عددی را نشان دهد که خواننده در تاپر خودِ HN می‌بیند.
+    points: int | None = None
+
     # اعتبار منبع، فقط برای استخر editorial. از config می‌آید.
     authority: float = 0.5
 

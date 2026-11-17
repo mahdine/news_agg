@@ -193,6 +193,7 @@ def _fetch_hackernews(source: dict, client: httpx.Client) -> list[Item]:
                     comment=hit.get("num_comments"),
                 ),
                 ranked=True,
+                points=hit.get("points") or 0,
                 discussion_url=discussion,
                 publisher=_publisher(hit.get("url")),
             )
@@ -229,6 +230,7 @@ def _fetch_lobsters(source: dict, client: httpx.Client) -> list[Item]:
                     comment=story.get("comment_count"),
                 ),
                 ranked=True,
+                points=story.get("score") or 0,
                 discussion_url=story.get("comments_url"),
                 publisher=_publisher(story.get("url")),
             )

@@ -177,6 +177,9 @@ def _score(lead: Item, story, velocity, baseline: float, now: datetime) -> None:
         speed = velocity if velocity is not None else 0.0
         ratio = speed / baseline if baseline > 0 else 0.0
         heat = math.log10(1 + story.engagement) * (1 + math.log10(1 + ratio))
+        # تعامل در ساعت: همان چیزی که بج 🔥 پست می‌سنجد، ولی اینجا برای
+        # --explain و دیباگِ «چرا این ماجرا داغ شد؟» ثبت می‌شود.
+        lead.breakdown["velocity"] = round(speed, 1)
 
     pickup = sources / (span + 1)
 
