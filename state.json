@@ -1,7 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my6kh24suw2n",
-  "hn:50148441",
   "https://9to5mac.com/?p=1074583",
   "TmVLU5PHTHTcw7hZ35U4g6",
   "https://9to5mac.com/?p=1065617",
@@ -2999,18 +2997,20 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jaxpn5sq2h",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2jchuqtfk2r",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2jdvrcm6k2j",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jeczqcfj2r"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jeczqcfj2r",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2j7yvfats2r",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2jaicvghc2r"
  ],
  "posted": {
-  "viral": 838,
+  "viral": 839,
   "editorial": 1076
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "Lobsters",
   "Hacker News",
-  "404 Media"
+  "404 Media",
+  "Emily M. Bender"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8164,22 +8164,22 @@
     "AI"
    ],
    "at": "2026-11-17T15:56:46.405457+00:00"
+  },
+  {
+   "title": "نقد فنی بر ابزارهای تشخیص متن‌های تولید شده با هوش مصنوعی",
+   "url": "https://buttondown.com/maiht3k/archive/pangram-is-not-an-oracle/",
+   "source": "buttondown.com",
+   "label": "Emily M. Bender",
+   "pool": "viral",
+   "score": 0.30671,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-17T16:53:51.934076+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "away",
-    "find",
-    "here",
-    "mac",
-    "show",
-    "someone",
-    "were",
-    "while"
-   ],
-   "at": "2026-11-10T02:55:02.567925+00:00"
-  },
   {
    "sig": [
     "any",
@@ -12195,37 +12195,28 @@
    ],
    "at": "2026-11-17T15:56:46.405457+00:00",
    "url": "404media.co/the-department-of-justice-is-using-ai-detector-pangram-against-defense-attorneys"
+  },
+  {
+   "sig": [
+    "asserting",
+    "attention",
+    "economists",
+    "gotten",
+    "hostile",
+    "largely",
+    "lot",
+    "people",
+    "post",
+    "seems",
+    "technical",
+    "thing",
+    "weirdest"
+   ],
+   "at": "2026-11-17T16:53:51.934076+00:00",
+   "url": "buttondown.com/maiht3k/archive/pangram-is-not-an-oracle"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlh5e7ebk2v": [
-   324,
-   "2026-11-05T20:44:04.823831+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlem6ttsb2c": [
-   77,
-   "2026-11-05T20:44:04.823831+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzllc4rwcz2k": [
-   744,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
-  "hn:50385870": [
-   159,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
-  "hn:50385272": [
-   847,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
-  "hn:50384822": [
-   352,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
-  "hn:50383163": [
-   224,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
   "hn:50382594": [
    77,
    "2026-11-06T01:53:38.127058+00:00"
@@ -14550,40 +14541,8 @@
    242,
    "2026-11-17T14:53:46.990619+00:00"
   ],
-  "hn:50530163": [
-   1196,
-   "2026-11-17T15:53:59.812094+00:00"
-  ],
-  "hn:50529612": [
-   362,
-   "2026-11-17T15:53:59.812094+00:00"
-  ],
-  "lobsters:kseyz1": [
-   37,
-   "2026-11-17T15:53:59.812094+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jaxpn5sq2h": [
    183,
-   "2026-11-17T15:53:59.812094+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2j7yvfats2r": [
-   226,
-   "2026-11-17T15:53:59.812094+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2jaicvghc2r": [
-   132,
-   "2026-11-17T15:53:59.812094+00:00"
-  ],
-  "hn:50532086": [
-   274,
-   "2026-11-17T15:53:59.812094+00:00"
-  ],
-  "hn:50531751": [
-   286,
-   "2026-11-17T15:53:59.812094+00:00"
-  ],
-  "lobsters:1dj9w1": [
-   25,
    "2026-11-17T15:53:59.812094+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jeczqcfj2r": [
@@ -14597,6 +14556,66 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2jdvrcm6k2j": [
    31,
    "2026-11-17T15:53:59.812094+00:00"
+  ],
+  "hn:50530163": [
+   1457,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "hn:50529612": [
+   408,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "lobsters:kseyz1": [
+   40,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2j7yvfats2r": [
+   261,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2jaicvghc2r": [
+   173,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "hn:50532086": [
+   542,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "hn:50531751": [
+   491,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "lobsters:1dj9w1": [
+   58,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "hn:50532849": [
+   328,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "hn:50532385": [
+   76,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "hn:50532322": [
+   121,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "hn:50532315": [
+   207,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "hn:50532191": [
+   157,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "hn:50531484": [
+   187,
+   "2026-11-17T16:53:46.372820+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jf3odzfs2r": [
+   77,
+   "2026-11-17T16:53:46.372820+00:00"
   ]
  },
  "skips": {
@@ -14607,7 +14626,7 @@
   "Lobsters": 8,
   "Hacker News": 50,
   "The Next Web": 1,
-  "404 Media": 19,
+  "404 Media": 20,
   "Emily M. Bender": 4,
   "Simon Willison": 2,
   "Xe Iaso": 8,
@@ -14660,7 +14679,7 @@
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
   "CNews": 52,
-  "Emily M. Bender": 4,
+  "Emily M. Bender": 5,
   "antirez": 6,
   "OpenAI": 3,
   "Hugging Face": 2,
@@ -14704,7 +14723,7 @@
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
   "CNews": "2026-11-13T11:54:14.744898+00:00",
-  "Emily M. Bender": "2026-11-12T16:56:40.304536+00:00",
+  "Emily M. Bender": "2026-11-17T16:53:51.934192+00:00",
   "antirez": "2026-11-14T17:53:47.726773+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
   "Hugging Face": "2026-11-11T05:54:17.268131+00:00",
@@ -15223,8 +15242,22 @@
    "votes": {},
    "message_id": 1608,
    "chat_id": -1004399820759
+  },
+  "38": {
+   "label": "Emily M. Bender",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "نقد فنی بر ابزارهای تشخیص متن‌های تولید شده با هوش مصنوعی",
+   "url": "https://buttondown.com/maiht3k/archive/pangram-is-not-an-oracle/",
+   "at": "2026-11-17T16:53:51.397015+00:00",
+   "votes": {},
+   "message_id": 1615,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 38,
+ "next_post_id": 39,
  "last_update_id": 276814742
 }
