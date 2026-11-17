@@ -1,9 +1,5 @@
 {
  "seen": [
-  "https://hardware.slashdot.org/story/26/10/17/2247220/woman-arrested-after-blocking-delivery-robot-to-protest-job-displacements?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://www.theverge.com/?p=1013541",
-  "hn:50144005",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my6c4t3mce2v",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my6kh24suw2n",
   "hn:50148441",
   "https://9to5mac.com/?p=1074583",
@@ -2999,18 +2995,22 @@
   "hn:50526152",
   "hn:50526560",
   "lobsters:z4rhlt",
-  "hn:50530450"
+  "hn:50530450",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jaxpn5sq2h",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2jchuqtfk2r",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2jdvrcm6k2j",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jeczqcfj2r"
  ],
  "posted": {
-  "viral": 837,
+  "viral": 838,
   "editorial": 1076
  },
  "recent_labels": [
-  "Wired",
   "Hacker News",
   "Hacker News",
   "Lobsters",
-  "Hacker News"
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8152,17 +8152,21 @@
     "LLM"
    ],
    "at": "2026-11-17T14:53:51.122284+00:00"
+  },
+  {
+   "title": "استفاده از ابزارهای تشخیص هوش مصنوعی در دادگاه‌های فدرال آمریکا",
+   "url": "https://www.404media.co/the-department-of-justice-is-using-ai-detector-pangram-against-defense-attorneys/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.87751,
+   "topics": [
+    "AI"
+   ],
+   "at": "2026-11-17T15:56:46.405457+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "mail",
-    "microsoft",
-    "rejecting"
-   ],
-   "at": "2026-11-10T02:54:56.814883+00:00"
-  },
   {
    "sig": [
     "away",
@@ -12181,33 +12185,19 @@
    ],
    "at": "2026-11-17T14:53:51.122284+00:00",
    "url": "nitter.cf/kevinnbass/status/2099621874279817638"
+  },
+  {
+   "sig": [
+    "case",
+    "chatgpt",
+    "defense",
+    "turned"
+   ],
+   "at": "2026-11-17T15:56:46.405457+00:00",
+   "url": "404media.co/the-department-of-justice-is-using-ai-detector-pangram-against-defense-attorneys"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlewrj3y22v": [
-   581,
-   "2026-11-05T17:53:53.665867+00:00"
-  ],
-  "hn:50382179": [
-   440,
-   "2026-11-05T20:44:04.823831+00:00"
-  ],
-  "hn:50381849": [
-   222,
-   "2026-11-05T20:44:04.823831+00:00"
-  ],
-  "hn:50381623": [
-   348,
-   "2026-11-05T20:44:04.823831+00:00"
-  ],
-  "hn:50380658": [
-   93,
-   "2026-11-05T20:44:04.823831+00:00"
-  ],
-  "hn:50380268": [
-   75,
-   "2026-11-05T20:44:04.823831+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlh5e7ebk2v": [
    324,
    "2026-11-05T20:44:04.823831+00:00"
@@ -14556,33 +14546,57 @@
    48,
    "2026-11-17T13:53:44.186159+00:00"
   ],
-  "hn:50530163": [
-   839,
-   "2026-11-17T14:53:46.990619+00:00"
-  ],
-  "hn:50529612": [
-   310,
-   "2026-11-17T14:53:46.990619+00:00"
-  ],
-  "lobsters:kseyz1": [
-   33,
-   "2026-11-17T14:53:46.990619+00:00"
-  ],
   "hn:50530450": [
    242,
    "2026-11-17T14:53:46.990619+00:00"
   ],
+  "hn:50530163": [
+   1196,
+   "2026-11-17T15:53:59.812094+00:00"
+  ],
+  "hn:50529612": [
+   362,
+   "2026-11-17T15:53:59.812094+00:00"
+  ],
+  "lobsters:kseyz1": [
+   37,
+   "2026-11-17T15:53:59.812094+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jaxpn5sq2h": [
-   117,
-   "2026-11-17T14:53:46.990619+00:00"
+   183,
+   "2026-11-17T15:53:59.812094+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2j7yvfats2r": [
-   159,
-   "2026-11-17T14:53:46.990619+00:00"
+   226,
+   "2026-11-17T15:53:59.812094+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2jaicvghc2r": [
-   72,
-   "2026-11-17T14:53:46.990619+00:00"
+   132,
+   "2026-11-17T15:53:59.812094+00:00"
+  ],
+  "hn:50532086": [
+   274,
+   "2026-11-17T15:53:59.812094+00:00"
+  ],
+  "hn:50531751": [
+   286,
+   "2026-11-17T15:53:59.812094+00:00"
+  ],
+  "lobsters:1dj9w1": [
+   25,
+   "2026-11-17T15:53:59.812094+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jeczqcfj2r": [
+   79,
+   "2026-11-17T15:53:59.812094+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2jchuqtfk2r": [
+   58,
+   "2026-11-17T15:53:59.812094+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2jdvrcm6k2j": [
+   31,
+   "2026-11-17T15:53:59.812094+00:00"
   ]
  },
  "skips": {
@@ -14593,10 +14607,10 @@
   "Lobsters": 8,
   "Hacker News": 50,
   "The Next Web": 1,
-  "404 Media": 18,
-  "Emily M. Bender": 3,
+  "404 Media": 19,
+  "Emily M. Bender": 4,
   "Simon Willison": 2,
-  "Xe Iaso": 7,
+  "Xe Iaso": 8,
   "Simon Willison RSS": 1,
   "CNews": 20,
   "vc.ru": 2,
@@ -14617,7 +14631,7 @@
   "Wired": 27,
   "TechRadar": 37,
   "Slashdot": 31,
-  "404 Media": 46,
+  "404 Media": 47,
   "Xe Iaso": 4,
   "The Verge": 22,
   "Cloudflare": 1,
@@ -14661,7 +14675,7 @@
   "Wired": "2026-11-17T10:53:44.587771+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-13T04:54:43.870063+00:00",
-  "404 Media": "2026-11-17T01:53:43.200958+00:00",
+  "404 Media": "2026-11-17T15:56:46.405566+00:00",
   "Xe Iaso": "2026-11-11T14:54:18.284123+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -15196,8 +15210,21 @@
    "votes": {},
    "message_id": 1601,
    "chat_id": -1004399820759
+  },
+  "37": {
+   "label": "404 Media",
+   "pool": "viral",
+   "topics": [
+    "AI"
+   ],
+   "title": "استفاده از ابزارهای تشخیص هوش مصنوعی در دادگاه‌های فدرال آمریکا",
+   "url": "https://www.404media.co/the-department-of-justice-is-using-ai-detector-pangram-against-defense-attorneys/",
+   "at": "2026-11-17T15:56:45.812158+00:00",
+   "votes": {},
+   "message_id": 1608,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 37,
+ "next_post_id": 38,
  "last_update_id": 276814742
 }
