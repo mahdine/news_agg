@@ -1,9 +1,5 @@
 {
  "seen": [
-  "https://www.theverge.com/?p=1013409",
-  "https://techcrunch.com/?p=3178941",
-  "6acf9742b89c86bafd0c52a0",
-  "nRApjCym63soXUM2zkNX5B",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my4i7yk63n2i",
   "lobsters:k5omum",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my4rhbyhjm2v",
@@ -2999,18 +2995,22 @@
   "hn:50523291",
   "hn:50525052",
   "lobsters:sz6o8w",
-  "hn:50525575"
+  "hn:50525575",
+  "6af61ecccd85a690853e7e8b",
+  "https://www.theverge.com/?p=1034668",
+  "QAiT2MtH8jigKvkuaR2cR3",
+  "https://news.slashdot.org/story/26/11/16/2137223/just-400-us-data-centers-use-more-electricity-than-michigan?utm_source=rss1.0mainlinkanon&utm_medium=feed"
  ],
  "posted": {
   "viral": 833,
-  "editorial": 1075
+  "editorial": 1076
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
-  "Hacker News",
   "Lobsters",
-  "Hacker News"
+  "Hacker News",
+  "Wired"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8091,19 +8091,21 @@
     "HARDWARE"
    ],
    "at": "2026-11-17T09:53:52.914949+00:00"
+  },
+  {
+   "title": "مصرف برق مراکز داده در آمریکا به اندازه کل ایالت میشیگان است",
+   "url": "https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/",
+   "source": "Wired",
+   "label": "Wired",
+   "pool": "editorial",
+   "score": 0.88927,
+   "topics": [
+    "TECH"
+   ],
+   "at": "2026-11-17T10:53:44.587636+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "code",
-    "mandate",
-    "nobody",
-    "understands",
-    "year"
-   ],
-   "at": "2026-11-10T01:53:59.889157+00:00"
-  },
   {
    "sig": [
     "5.2",
@@ -12114,6 +12116,25 @@
    ],
    "at": "2026-11-17T09:53:52.914949+00:00",
    "url": "twitter.com/id_aa_carmack/status/2122478083319992513"
+  },
+  {
+   "sig": [
+    "burn",
+    "centers",
+    "consumption",
+    "country",
+    "data",
+    "electricity",
+    "entire",
+    "hyperscale",
+    "michigan",
+    "midsized",
+    "staggering",
+    "terawatts",
+    "year"
+   ],
+   "at": "2026-11-17T10:53:44.587636+00:00",
+   "url": "wired.com/story/data-centers-use-more-electricity-than-michigan"
   }
  ],
  "snapshots": {
@@ -14494,16 +14515,16 @@
    "2026-11-17T08:53:47.897065+00:00"
   ],
   "hn:50525658": [
-   181,
-   "2026-11-17T09:53:49.341011+00:00"
+   196,
+   "2026-11-17T10:53:42.361974+00:00"
   ],
   "hn:50526152": [
-   273,
-   "2026-11-17T09:53:49.341011+00:00"
+   292,
+   "2026-11-17T10:53:42.361974+00:00"
   ],
   "hn:50526560": [
-   251,
-   "2026-11-17T09:53:49.341011+00:00"
+   286,
+   "2026-11-17T10:53:42.361974+00:00"
   ],
   "hn:50525575": [
    201,
@@ -14547,7 +14568,7 @@
  "posts_by_label": {
   "Engadget": 45,
   "Neowin": 26,
-  "Wired": 26,
+  "Wired": 27,
   "TechRadar": 37,
   "Slashdot": 31,
   "404 Media": 46,
@@ -14591,7 +14612,7 @@
  "last_post": {
   "Engadget": "2026-11-14T13:54:06.399584+00:00",
   "Neowin": "2026-11-13T13:54:10.098725+00:00",
-  "Wired": "2026-11-14T11:53:51.542167+00:00",
+  "Wired": "2026-11-17T10:53:44.587771+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-13T04:54:43.870063+00:00",
   "404 Media": "2026-11-17T01:53:43.200958+00:00",
@@ -15063,8 +15084,21 @@
    "votes": {},
    "message_id": 1596,
    "chat_id": -1004399820759
+  },
+  "32": {
+   "label": "Wired",
+   "pool": "editorial",
+   "topics": [
+    "TECH"
+   ],
+   "title": "مصرف برق مراکز داده در آمریکا به اندازه کل ایالت میشیگان است",
+   "url": "https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/",
+   "at": "2026-11-17T10:53:44.127624+00:00",
+   "votes": {},
+   "message_id": 1597,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 32,
+ "next_post_id": 33,
  "last_update_id": 276814742
 }
