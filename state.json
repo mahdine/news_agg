@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://9to5mac.com/?p=1074583",
   "TmVLU5PHTHTcw7hZ35U4g6",
   "https://9to5mac.com/?p=1065617",
   "TheNextWeb=ad21852a0b4d503d24b31ffec55dd92d",
@@ -2999,18 +2998,19 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2jdvrcm6k2j",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jeczqcfj2r",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2j7yvfats2r",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2jaicvghc2r"
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2jaicvghc2r",
+  "hn:50532191"
  ],
  "posted": {
-  "viral": 839,
+  "viral": 840,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News",
   "Lobsters",
   "Hacker News",
   "404 Media",
-  "Emily M. Bender"
+  "Emily M. Bender",
+  "Hacker News"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8177,22 +8177,22 @@
     "LLM"
    ],
    "at": "2026-11-17T16:53:51.934076+00:00"
+  },
+  {
+   "title": "ارزیابی عملکرد و هزینه‌ی ابزارهای کمکی مدل‌های هوش مصنوعی",
+   "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+   "source": "runta.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.09813,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-17T17:54:00.005234+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "any",
-    "every",
-    "passed",
-    "photos",
-    "place",
-    "satellite",
-    "show",
-    "week"
-   ],
-   "at": "2026-11-10T03:54:51.246242+00:00"
-  },
   {
    "sig": [
     "iphone",
@@ -12214,17 +12214,19 @@
    ],
    "at": "2026-11-17T16:53:51.934076+00:00",
    "url": "buttondown.com/maiht3k/archive/pangram-is-not-an-oracle"
+  },
+  {
+   "sig": [
+    "best",
+    "each",
+    "harness",
+    "model"
+   ],
+   "at": "2026-11-17T17:54:00.005234+00:00",
+   "url": "runta.com/blog/introducing-frontierharness-eval-v1-1"
   }
  ],
  "snapshots": {
-  "hn:50382594": [
-   77,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
-  "lobsters:yoywed": [
-   44,
-   "2026-11-06T01:53:38.127058+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlryozt6k2s": [
    802,
    "2026-11-06T01:53:38.127058+00:00"
@@ -14557,18 +14559,6 @@
    31,
    "2026-11-17T15:53:59.812094+00:00"
   ],
-  "hn:50530163": [
-   1457,
-   "2026-11-17T16:53:46.372820+00:00"
-  ],
-  "hn:50529612": [
-   408,
-   "2026-11-17T16:53:46.372820+00:00"
-  ],
-  "lobsters:kseyz1": [
-   40,
-   "2026-11-17T16:53:46.372820+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2j7yvfats2r": [
    261,
    "2026-11-17T16:53:46.372820+00:00"
@@ -14577,45 +14567,65 @@
    173,
    "2026-11-17T16:53:46.372820+00:00"
   ],
+  "hn:50530163": [
+   1710,
+   "2026-11-17T17:53:57.037471+00:00"
+  ],
+  "hn:50529612": [
+   464,
+   "2026-11-17T17:53:57.037471+00:00"
+  ],
+  "lobsters:kseyz1": [
+   41,
+   "2026-11-17T17:53:57.037471+00:00"
+  ],
   "hn:50532086": [
-   542,
-   "2026-11-17T16:53:46.372820+00:00"
+   626,
+   "2026-11-17T17:53:57.037471+00:00"
   ],
   "hn:50531751": [
-   491,
-   "2026-11-17T16:53:46.372820+00:00"
+   559,
+   "2026-11-17T17:53:57.037471+00:00"
   ],
   "lobsters:1dj9w1": [
-   58,
-   "2026-11-17T16:53:46.372820+00:00"
+   93,
+   "2026-11-17T17:53:57.037471+00:00"
   ],
   "hn:50532849": [
-   328,
-   "2026-11-17T16:53:46.372820+00:00"
+   574,
+   "2026-11-17T17:53:57.037471+00:00"
   ],
   "hn:50532385": [
-   76,
-   "2026-11-17T16:53:46.372820+00:00"
+   117,
+   "2026-11-17T17:53:57.037471+00:00"
   ],
   "hn:50532322": [
-   121,
-   "2026-11-17T16:53:46.372820+00:00"
+   140,
+   "2026-11-17T17:53:57.037471+00:00"
   ],
   "hn:50532315": [
-   207,
-   "2026-11-17T16:53:46.372820+00:00"
+   215,
+   "2026-11-17T17:53:57.037471+00:00"
   ],
   "hn:50532191": [
-   157,
-   "2026-11-17T16:53:46.372820+00:00"
+   319,
+   "2026-11-17T17:53:57.037471+00:00"
   ],
   "hn:50531484": [
-   187,
-   "2026-11-17T16:53:46.372820+00:00"
+   200,
+   "2026-11-17T17:53:57.037471+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jf3odzfs2r": [
-   77,
-   "2026-11-17T16:53:46.372820+00:00"
+   90,
+   "2026-11-17T17:53:57.037471+00:00"
+  ],
+  "hn:50534044": [
+   353,
+   "2026-11-17T17:53:57.037471+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jk7aciru2a": [
+   178,
+   "2026-11-17T17:53:57.037471+00:00"
   ]
  },
  "skips": {
@@ -14660,7 +14670,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 158,
+  "Hacker News": 159,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14704,7 +14714,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-17T14:53:51.122424+00:00",
+  "Hacker News": "2026-11-17T17:54:00.005351+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -15256,8 +15266,22 @@
    "votes": {},
    "message_id": 1615,
    "chat_id": -1004399820759
+  },
+  "39": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "ارزیابی عملکرد و هزینه‌ی ابزارهای کمکی مدل‌های هوش مصنوعی",
+   "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+   "at": "2026-11-17T17:53:59.634210+00:00",
+   "votes": {},
+   "message_id": 1616,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 39,
+ "next_post_id": 40,
  "last_update_id": 276814742
 }
