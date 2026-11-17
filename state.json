@@ -1,6 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my4rhbyhjm2v",
   "lobsters:ggpwfi",
   "hn:50141657",
   "https://hardware.slashdot.org/story/26/10/17/2247220/woman-arrested-after-blocking-delivery-robot-to-protest-job-displacements?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -2999,17 +2998,18 @@
   "QAiT2MtH8jigKvkuaR2cR3",
   "https://news.slashdot.org/story/26/11/16/2137223/just-400-us-data-centers-use-more-electricity-than-michigan?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "hn:50525658",
-  "hn:50526152"
+  "hn:50526152",
+  "hn:50526560"
  ],
  "posted": {
-  "viral": 834,
+  "viral": 835,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News",
   "Lobsters",
   "Hacker News",
   "Wired",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-13",
@@ -8115,23 +8115,23 @@
     "PROGRAMMING"
    ],
    "at": "2026-11-17T11:54:03.983496+00:00"
+  },
+  {
+   "title": "افزایش کنترل کاربران بر دسترسی‌های حساس در macOS 27.3",
+   "url": "https://support.apple.com/en-us/149699",
+   "source": "support.apple.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.0074,
+   "topics": [
+    "SECURITY",
+    "PRIVACY",
+    "APPLE"
+   ],
+   "at": "2026-11-17T12:53:49.775420+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "access",
-    "critical",
-    "every",
-    "flaw",
-    "grants",
-    "instant",
-    "major",
-    "shell",
-    "terminal2shell"
-   ],
-   "at": "2026-11-10T02:53:52.801545+00:00"
-  },
   {
    "sig": [
     "asd-ste100",
@@ -12148,21 +12148,23 @@
    ],
    "at": "2026-11-17T11:54:03.983496+00:00",
    "url": "blog.antonio.cx/running-agents-with-lend"
+  },
+  {
+   "sig": [
+    "access",
+    "app",
+    "asks",
+    "disk",
+    "full",
+    "override",
+    "protection",
+    "system"
+   ],
+   "at": "2026-11-17T12:53:49.775420+00:00",
+   "url": "support.apple.com/en-us/149699"
   }
  ],
  "snapshots": {
-  "hn:50378508": [
-   106,
-   "2026-11-05T16:53:46.546125+00:00"
-  ],
-  "hn:50375653": [
-   85,
-   "2026-11-05T16:53:46.546125+00:00"
-  ],
-  "hn:50379773": [
-   262,
-   "2026-11-05T17:53:53.665867+00:00"
-  ],
   "hn:50376313": [
    336,
    "2026-11-05T17:53:53.665867+00:00"
@@ -14515,6 +14517,14 @@
    105,
    "2026-11-17T07:53:49.877087+00:00"
   ],
+  "hn:50523300": [
+   191,
+   "2026-11-17T08:53:47.897065+00:00"
+  ],
+  "lobsters:sz6o8w": [
+   27,
+   "2026-11-17T08:53:47.897065+00:00"
+  ],
   "hn:50524225": [
    162,
    "2026-11-17T09:53:49.341011+00:00"
@@ -14523,9 +14533,13 @@
    476,
    "2026-11-17T09:53:49.341011+00:00"
   ],
-  "hn:50523300": [
-   191,
-   "2026-11-17T08:53:47.897065+00:00"
+  "hn:50525575": [
+   201,
+   "2026-11-17T09:53:49.341011+00:00"
+  ],
+  "lobsters:ki1l5r": [
+   34,
+   "2026-11-17T09:53:49.341011+00:00"
   ],
   "hn:50525658": [
    203,
@@ -14536,20 +14550,20 @@
    "2026-11-17T11:53:51.902267+00:00"
   ],
   "hn:50526560": [
-   309,
-   "2026-11-17T11:53:51.902267+00:00"
+   327,
+   "2026-11-17T12:53:43.725660+00:00"
   ],
-  "hn:50525575": [
-   201,
-   "2026-11-17T09:53:49.341011+00:00"
+  "hn:50530163": [
+   87,
+   "2026-11-17T12:53:43.725660+00:00"
   ],
-  "lobsters:ki1l5r": [
+  "hn:50529612": [
+   202,
+   "2026-11-17T12:53:43.725660+00:00"
+  ],
+  "lobsters:z4rhlt": [
    34,
-   "2026-11-17T09:53:49.341011+00:00"
-  ],
-  "lobsters:sz6o8w": [
-   27,
-   "2026-11-17T08:53:47.897065+00:00"
+   "2026-11-17T12:53:43.725660+00:00"
   ]
  },
  "skips": {
@@ -14594,7 +14608,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 156,
+  "Hacker News": 157,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14638,7 +14652,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-17T11:54:03.983616+00:00",
+  "Hacker News": "2026-11-17T12:53:49.775529+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -15123,8 +15137,23 @@
    "votes": {},
    "message_id": 1598,
    "chat_id": -1004399820759
+  },
+  "34": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "SECURITY",
+    "PRIVACY",
+    "APPLE"
+   ],
+   "title": "افزایش کنترل کاربران بر دسترسی‌های حساس در macOS 27.3",
+   "url": "https://support.apple.com/en-us/149699",
+   "at": "2026-11-17T12:53:49.436994+00:00",
+   "votes": {},
+   "message_id": 1599,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 34,
+ "next_post_id": 35,
  "last_update_id": 276814742
 }
