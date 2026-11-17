@@ -1,6 +1,5 @@
 {
  "seen": [
-  "hn:50141657",
   "https://hardware.slashdot.org/story/26/10/17/2247220/woman-arrested-after-blocking-delivery-robot-to-protest-job-displacements?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.theverge.com/?p=1013541",
   "hn:50144005",
@@ -2999,18 +2998,19 @@
   "hn:50525658",
   "hn:50526152",
   "hn:50526560",
-  "lobsters:z4rhlt"
+  "lobsters:z4rhlt",
+  "hn:50530450"
  ],
  "posted": {
-  "viral": 836,
+  "viral": 837,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News",
   "Wired",
   "Hacker News",
   "Hacker News",
-  "Lobsters"
+  "Lobsters",
+  "Hacker News"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8139,20 +8139,22 @@
    "score": 0.04899,
    "topics": [],
    "at": "2026-11-17T13:53:47.400412+00:00"
+  },
+  {
+   "title": "ادعای ایجاد چرخه‌ی مالی ناسالم و انحصار نظارتی توسط Anthropic",
+   "url": "https://nitter.cf/kevinnbass/status/2099621874279817638",
+   "source": "nitter.cf",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.05639,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-17T14:53:51.122284+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "100b",
-    "claims",
-    "deepx",
-    "inference",
-    "less",
-    "parameters"
-   ],
-   "at": "2026-11-10T02:54:49.248114+00:00"
-  },
   {
    "sig": [
     "mail",
@@ -12168,25 +12170,20 @@
    ],
    "at": "2026-11-17T13:53:47.400412+00:00",
    "url": "redict.io/posts/2026-11-17-redict-deprecated"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "capture",
+    "metr",
+    "regulatory",
+    "through"
+   ],
+   "at": "2026-11-17T14:53:51.122284+00:00",
+   "url": "nitter.cf/kevinnbass/status/2099621874279817638"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5vimwri2a": [
-   325,
-   "2026-11-05T17:53:53.665867+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5lt6u7k2v": [
-   2484,
-   "2026-11-05T17:53:53.665867+00:00"
-  ],
-  "hn:50381033": [
-   78,
-   "2026-11-05T17:53:53.665867+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlfglujbc2k": [
-   76,
-   "2026-11-05T17:53:53.665867+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlewrj3y22v": [
    581,
    "2026-11-05T17:53:53.665867+00:00"
@@ -14555,21 +14552,37 @@
    327,
    "2026-11-17T12:53:43.725660+00:00"
   ],
-  "hn:50530163": [
-   414,
-   "2026-11-17T13:53:44.186159+00:00"
-  ],
-  "hn:50529612": [
-   268,
-   "2026-11-17T13:53:44.186159+00:00"
-  ],
   "lobsters:z4rhlt": [
    48,
    "2026-11-17T13:53:44.186159+00:00"
   ],
+  "hn:50530163": [
+   839,
+   "2026-11-17T14:53:46.990619+00:00"
+  ],
+  "hn:50529612": [
+   310,
+   "2026-11-17T14:53:46.990619+00:00"
+  ],
   "lobsters:kseyz1": [
-   27,
-   "2026-11-17T13:53:44.186159+00:00"
+   33,
+   "2026-11-17T14:53:46.990619+00:00"
+  ],
+  "hn:50530450": [
+   242,
+   "2026-11-17T14:53:46.990619+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jaxpn5sq2h": [
+   117,
+   "2026-11-17T14:53:46.990619+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2j7yvfats2r": [
+   159,
+   "2026-11-17T14:53:46.990619+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2jaicvghc2r": [
+   72,
+   "2026-11-17T14:53:46.990619+00:00"
   ]
  },
  "skips": {
@@ -14614,7 +14627,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 157,
+  "Hacker News": 158,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14658,7 +14671,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-17T12:53:49.775529+00:00",
+  "Hacker News": "2026-11-17T14:53:51.122424+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -15169,8 +15182,22 @@
    "votes": {},
    "message_id": 1600,
    "chat_id": -1004399820759
+  },
+  "36": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "ادعای ایجاد چرخه‌ی مالی ناسالم و انحصار نظارتی توسط Anthropic",
+   "url": "https://nitter.cf/kevinnbass/status/2099621874279817638",
+   "at": "2026-11-17T14:53:50.630020+00:00",
+   "votes": {},
+   "message_id": 1601,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 36,
+ "next_post_id": 37,
  "last_update_id": 276814742
 }
