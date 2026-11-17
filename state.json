@@ -1,7 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my4i7yk63n2i",
-  "lobsters:k5omum",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my4rhbyhjm2v",
   "lobsters:ggpwfi",
   "hn:50141657",
@@ -2999,18 +2997,20 @@
   "6af61ecccd85a690853e7e8b",
   "https://www.theverge.com/?p=1034668",
   "QAiT2MtH8jigKvkuaR2cR3",
-  "https://news.slashdot.org/story/26/11/16/2137223/just-400-us-data-centers-use-more-electricity-than-michigan?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://news.slashdot.org/story/26/11/16/2137223/just-400-us-data-centers-use-more-electricity-than-michigan?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50525658",
+  "hn:50526152"
  ],
  "posted": {
-  "viral": 833,
+  "viral": 834,
   "editorial": 1076
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "Lobsters",
   "Hacker News",
-  "Wired"
+  "Wired",
+  "Hacker News"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8103,20 +8103,21 @@
     "TECH"
    ],
    "at": "2026-11-17T10:53:44.587636+00:00"
+  },
+  {
+   "title": "ابزار lend برای مدیریت امن دسترسی ایجنت‌های کدنویسی به اعتبارنامه‌ها",
+   "url": "https://blog.antonio.cx/running-agents-with-lend",
+   "source": "blog.antonio.cx",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00221,
+   "topics": [
+    "PROGRAMMING"
+   ],
+   "at": "2026-11-17T11:54:03.983496+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "5.2",
-    "dream",
-    "fable",
-    "game",
-    "nephew",
-    "one-shotted"
-   ],
-   "at": "2026-11-10T01:54:05.279016+00:00"
-  },
   {
    "sig": [
     "access",
@@ -12135,6 +12136,18 @@
    ],
    "at": "2026-11-17T10:53:44.587636+00:00",
    "url": "wired.com/story/data-centers-use-more-electricity-than-michigan"
+  },
+  {
+   "sig": [
+    "agents",
+    "coding",
+    "credentials",
+    "handing",
+    "running",
+    "without"
+   ],
+   "at": "2026-11-17T11:54:03.983496+00:00",
+   "url": "blog.antonio.cx/running-agents-with-lend"
   }
  ],
  "snapshots": {
@@ -14515,16 +14528,16 @@
    "2026-11-17T08:53:47.897065+00:00"
   ],
   "hn:50525658": [
-   196,
-   "2026-11-17T10:53:42.361974+00:00"
+   203,
+   "2026-11-17T11:53:51.902267+00:00"
   ],
   "hn:50526152": [
-   292,
-   "2026-11-17T10:53:42.361974+00:00"
+   300,
+   "2026-11-17T11:53:51.902267+00:00"
   ],
   "hn:50526560": [
-   286,
-   "2026-11-17T10:53:42.361974+00:00"
+   309,
+   "2026-11-17T11:53:51.902267+00:00"
   ],
   "hn:50525575": [
    201,
@@ -14545,7 +14558,7 @@
   "Wired": 29,
   "TechRadar": 9,
   "Lobsters": 8,
-  "Hacker News": 49,
+  "Hacker News": 50,
   "The Next Web": 1,
   "404 Media": 18,
   "Emily M. Bender": 3,
@@ -14581,7 +14594,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 155,
+  "Hacker News": 156,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14625,7 +14638,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-17T09:53:52.915078+00:00",
+  "Hacker News": "2026-11-17T11:54:03.983616+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -15097,8 +15110,21 @@
    "votes": {},
    "message_id": 1597,
    "chat_id": -1004399820759
+  },
+  "33": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "PROGRAMMING"
+   ],
+   "title": "ابزار lend برای مدیریت امن دسترسی ایجنت‌های کدنویسی به اعتبارنامه‌ها",
+   "url": "https://blog.antonio.cx/running-agents-with-lend",
+   "at": "2026-11-17T11:54:03.311898+00:00",
+   "votes": {},
+   "message_id": 1598,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 33,
+ "next_post_id": 34,
  "last_update_id": 276814742
 }
