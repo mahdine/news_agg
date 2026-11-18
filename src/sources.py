@@ -3,7 +3,7 @@
 import html
 import logging
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import feedparser
 import httpx
@@ -18,6 +18,8 @@ BLUESKY_FEED = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
 HN_SEARCH = "https://hn.algolia.com/api/v1/search_by_date"
 HN_ITEM = "https://news.ycombinator.com/item?id={id}"
 LOBSTERS_FEED = "https://lobste.rs/hottest.json"
+TME_PREVIEW = "https://t.me/s/{handle}"
+GITHUB_TRENDING = "https://github.com/trending"
 
 # بعضی فیدها (VentureBeat 429، Substack 403) آدرس IP datacenter و User-Agent
 # رباتی را می‌شکنند؛ با UA مرورگر رد می‌شوند. همان UA‌ای که article/images هم
@@ -47,6 +49,8 @@ def fetch(source: dict, client: httpx.Client) -> list[Item]:
         "hackernews": _fetch_hackernews,
         "lobsters": _fetch_lobsters,
         "rss": _fetch_rss,
+        "telegram": _fetch_tme,
+        "gittrending": _fetch_gittrending,
     }.get(kind)
     if handler is None:
         raise ValueError(f"نوع منبع ناشناخته: {kind!r}")
@@ -238,6 +242,180 @@ def _fetch_lobsters(source: dict, client: httpx.Client) -> list[Item]:
     return items
 
 
+# ──────────────────────────────────────────────── منابع وب عمومی (بدون API)
+
+
+def _fetch_tme(source: dict, client: httpx.Client) -> list[Item]:
+    """کانال عمومی تلگرام از طریق پیش‌نمایش وب t.me/s/ — بدون توکن بات.
+
+    این کانال داستان‌های HN را با امتیاز لحظه‌ای بازنشر می‌کند. لینک‌های
+    readhacker.news کوتاه‌شده‌اند؛ مقاله اصلی را با دنبال‌کردن redirect به‌دست
+    می‌آوریم تا url_key با داستان مستقیم HN یکی شود و خوشه‌بندی تکرار را
+    بگیرد. اگر redirect نشکست، لینک کوتاه می‌ماند و امضای تیتر جای آن را
+    می‌گیرد.
+
+    صفحات پیش‌نمایش ۲۰ پست می‌دهند که معمولاً ~۱۳ ساعت را می‌پوشانند. اگر
+    قدیمی‌ترین پست هنوز داخل پنجره‌ی ویروسی بود، یک صفحه‌ی بعدی هم می‌آوریم.
+    """
+    handle = source["handle"]
+    label = source.get("label", handle)
+    authority = source.get("authority", 0.9)
+    max_age_hours = source.get("max_age_hours", 12)
+
+    url = TME_PREVIEW.format(handle=handle)
+    now = datetime.now(timezone.utc)
+
+    # صفحات پیش‌نمایش ۲۰ پست می‌دهند که معمولا‌ ~۱۳ ساعت را می‌پوشانند. تا وقتی
+    # قدیمی‌ترین پستِ صفحه هنوز داخل پنجره است، صفحه‌ی بعد می‌آوریم (حداکثر
+    # سه صفحه). در DOM، پیام‌ها از قدیمی به جدید‌تر می‌آیند (تلمگرام بصری آن را
+    # برعکس نشان می‌دهد) — پس اولیِ لیست قدیمی‌ترین است.
+    items = []
+    seen_uids: set[str] = set()
+    page_url: str = url
+    for _ in range(3):
+        resp = client.get(page_url, headers=UA)
+        resp.raise_for_status()
+        page_items = _parse_tme(resp.text, handle, label, authority, client)
+        fresh = [i for i in page_items if i.uid not in seen_uids]
+        seen_uids.update(i.uid for i in fresh)
+        items.extend(fresh)
+
+        times = re.findall(r"<time datetime=\"([^\"]+)\"", resp.text)
+        oldest_t = _parse_time(times[0]) if times else None
+        if oldest_t is None or oldest_t < now - timedelta(hours=max_age_hours + 2):
+            break  # پنجره کامل پوشیده شد
+        more = re.search(
+            r'<a href="([^"]+)"[^>]*class="tme_messages_more[^"]*"', resp.text
+        )
+        if not more:
+            break
+        page_url = "https://t.me" + more.group(1)
+    return items
+
+
+def _parse_tme(html_text: str, handle: str, label: str, authority: float,
+               client: httpx.Client) -> list[Item]:
+    items = []
+    # هر پیام در یک div با data-post="handle/12345" است.
+    for chunk in re.split(r"<div class=\"tgme_widget_message_wrap", html_text)[1:]:
+        post = re.search(r'data-post="([^"]+)"', chunk)
+        tm = re.search(r'<time datetime="([^"]+)"', chunk)
+        m = re.search(
+            r'<div class="tgme_widget_message_text[^"]*"[^>]*>(.*?)</div>', chunk, re.S
+        )
+        if not (post and tm and m):
+            continue
+
+        published = _parse_time(tm.group(1))
+        if published is None:
+            continue
+        text_html = m.group(1)
+
+        # تیتر اولین بولد پیام است؛ «(Score: N+ in X hours)» بیرون آن و فقط
+        # برای ما است — در امضا نباید بیاید.
+        t = re.search(r"<b>(.*?)</b>", text_html, re.S)
+        title = html.unescape(re.sub(r"<[^>]+>", "", t.group(1))).strip() if t else ""
+        if not title:
+            continue
+
+        sm = re.search(r"Score:\s*([\d,]+)", text_html)
+        score = int(sm.group(1).replace(",", "")) if sm else 0
+
+        # لینک‌های داخل متن: /s/ مقاله اصلی، /c/ بحث HN.
+        links = re.findall(r'href="(https?://[^"]+)"', text_html)
+        article = next((l for l in links if "/s/" in l), None)
+        comments = next((l for l in links if "/c/" in l), None)
+        if not article:
+            # بعضی پیام‌ها لینک را فقط در preview می‌گذارند.
+            pv = re.search(r'tgme_widget_message_link_preview" href="([^"]+)"', chunk)
+            article = pv.group(1) if pv else None
+        if not article:
+            continue  # پیام بدون لینکِ خبر (عکس/متن) برای ما خبر نیست
+
+        article = _resolve_redirects(client, article)
+
+        reactions = sum(
+            int(n) for n in re.findall(r"tgme_reaction\">.*?</i>(\d+)", chunk, re.S)
+        )
+
+        # توضیح preview برای زمینه‌ی ترجمه؛ اگر نبود خود تیتر کافی است.
+        pv_desc = re.search(r"link_preview_description[^>]*>([^<]*)<", chunk, re.S)
+        desc = html.unescape(pv_desc.group(1)).strip() if pv_desc else ""
+        pv_site = re.search(r"link_preview_site_name[^>]*>([^<]+)<", chunk)
+
+        items.append(
+            Item(
+                uid=f"tg:{post.group(1)}",
+                label=label,
+                text=f"{title}\n\n{desc}".strip(),
+                url=article,
+                published=published,
+                publisher=(pv_site.group(1).strip() if pv_site else None) or _publisher(article),
+                engagement=weigh(point=score, like=reactions),
+                ranked=True,
+                points=score or None,
+                discussion_url=comments,
+                authority=authority,
+            )
+        )
+    return items
+
+
+def _fetch_gittrending(source: dict, client: httpx.Client) -> list[Item]:
+    """repوها‌ی ترند امروز GitHub — «N stars today» همان تعاملش است.
+
+    صفحه snapshot است، زمان انتشار ندارد؛ published همان لحظه‌ی fetch می‌شود
+    (ترند یعنی تازه) و dedup روی uid rep است: repی که پست شد دیگر برنمی‌گردد.
+    """
+    label = source.get("label", "GitHub Trending")
+    authority = source.get("authority", 0.85)
+
+    resp = client.get(GITHUB_TRENDING, headers=UA)
+    resp.raise_for_status()
+    now = datetime.now(timezone.utc)
+
+    items = []
+    for a in re.split(r'<article class="Box-row">', resp.text)[1:]:
+        href = re.search(r'<h2 class="h3 lh-condensed">\s*<a[^>]*href="([^"]+)"', a)
+        if not href:
+            continue
+        repo = href.group(1).strip("/")
+        if not repo or "/" not in repo:
+            continue
+
+        d = re.search(r'<p class="col-9[^"]*">\s*(.*?)\s*</p>', a, re.S)
+        desc = html.unescape(re.sub(r"<[^>]+>", "", d.group(1))).strip() if d else ""
+        lang = re.search(r'itemprop="programmingLanguage">([^<]+)</span>', a)
+        today = re.search(r"([\d,]+)\s+stars?\s+today", a)
+        stars = re.findall(r'href="[^"]+/stargazers[^"]*"[^>]*>.*?</svg>\s*([\d,]+)', a, re.S)
+
+        stars_today = int(today.group(1).replace(",", "")) if today else 0
+        stars_total = int(stars[0].replace(",", "")) if stars else 0
+
+        text = f"{repo} — {desc}" if desc else repo
+        if lang:
+            text += f" ({lang.group(1).strip()})"
+        text += f" — {stars_total:,} stars total, {stars_today:,} today"
+
+        items.append(
+            Item(
+                uid=f"gh:{repo}",
+                label=label,
+                text=text,
+                url=f"https://github.com/{repo}",
+                published=now,
+                publisher="github.com",
+                engagement=stars_today,
+                ranked=True,
+                # ستاره «امتیاز در X ساعت» نیست؛ با points بج 🔥ِ گمراه‌کننده
+                # می‌زد. وزنش از engagement می‌آید.
+                points=None,
+                authority=authority,
+            )
+        )
+    return items
+
+
 # ───────────────────────────────────────────────────────────────── فیدهای خبری
 
 
@@ -311,6 +489,34 @@ def _rss_image(entry) -> str | None:
 
 
 # ────────────────────────────────────────────────────────────────────── کمکی‌ها
+
+
+def _resolve_redirects(client: httpx.Client, url: str, max_hops: int = 4) -> str:
+    """لینک کوتاه را تا مقصد آخر دنبال می‌کند — بدون دانلود بدنه‌ی مقاله.
+
+    حتی اگر صفحه‌ی مقصد ۴۰۳/۴۲۹ بدهد (VentureBeat و شبیهانش IP datacenter را
+    می‌شکنند)، آدرس واقعی را داریم که برای dedup و دکمه‌ی source کافی است.
+    هر خطایی به لینکِ همان‌جا که مانده برگشته می‌شود.
+    """
+    from urllib.parse import urljoin
+
+    current = url
+    for _ in range(max_hops):
+        try:
+            r = client.get(current, headers=UA, follow_redirects=False, timeout=10)
+        except Exception:
+            break
+        if r.status_code in (301, 302, 303, 307, 308):
+            loc = r.headers.get("location")
+            if not loc:
+                break
+            nxt = urljoin(current, loc)
+            if nxt == current:
+                break
+            current = nxt
+        else:
+            break
+    return current
 
 
 def _clean(raw: str) -> str:

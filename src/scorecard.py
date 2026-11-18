@@ -102,7 +102,7 @@ def build_rows(config: dict, state) -> list[SourceRow]:
         rows[label] = SourceRow(
             label=label,
             kind=kind,
-            pool="viral" if kind in ("hackernews", "lobsters", "bluesky") else "editorial",
+            pool="viral" if kind in ("hackernews", "lobsters", "bluesky", "telegram", "gittrending") else "editorial",
             authority=src.get("authority"),
             min_engagement=src.get("min_engagement"),
             min_points=src.get("min_points"),
