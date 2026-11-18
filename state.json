@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://www.techspot.com/news/114269-us-bans-deepseek-ai-tools-built-models-federal.html",
   "https://www.neowin.net/news/department-of-homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycurvyums2z",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycrkkyu2i2e",
@@ -2999,15 +2998,16 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ksg4td2w2c",
   "hn:50540178",
   "hn:50540437",
-  "hn:50540836"
+  "hn:50540836",
+  "hn:50540472"
  ],
  "posted": {
-  "viral": 849,
+  "viral": 850,
   "editorial": 1076
  },
  "recent_labels": [
-  "Lobsters",
   "404 Media",
+  "Hacker News",
   "Hacker News",
   "Hacker News",
   "Hacker News"
@@ -8304,22 +8304,22 @@
     "AI"
    ],
    "at": "2026-11-18T09:53:48.202733+00:00"
+  },
+  {
+   "title": "راهکار جدید Cerebras برای افزایش سرعت و بهره‌وری در استنتاج هوش مصنوعی",
+   "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+   "source": "cerebras.ai",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.0073,
+   "topics": [
+    "AI",
+    "CHIP"
+   ],
+   "at": "2026-11-18T10:54:00.652043+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "chrome",
-    "eighth",
-    "exploited",
-    "patches",
-    "update",
-    "xml",
-    "year",
-    "zero-day"
-   ],
-   "at": "2026-11-10T06:54:03.292161+00:00"
-  },
   {
    "sig": [
     "active",
@@ -12311,6 +12311,15 @@
    ],
    "at": "2026-11-18T09:53:48.202733+00:00",
    "url": "washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages"
+  },
+  {
+   "sig": [
+    "cerebras",
+    "disaggregated",
+    "inference"
+   ],
+   "at": "2026-11-18T10:54:00.652043+00:00",
+   "url": "cerebras.ai/blog/cerebras-launches-disaggregated-inference"
   }
  ],
  "snapshots": {
@@ -14667,8 +14676,8 @@
    "2026-11-18T08:53:43.259995+00:00"
   ],
   "hn:50539610": [
-   459,
-   "2026-11-18T09:53:42.796914+00:00"
+   485,
+   "2026-11-18T10:53:50.319498+00:00"
   ],
   "hn:50538994": [
    980,
@@ -14683,8 +14692,8 @@
    "2026-11-18T09:53:42.796914+00:00"
   ],
   "hn:50540472": [
-   118,
-   "2026-11-18T09:53:42.796914+00:00"
+   123,
+   "2026-11-18T10:53:50.319498+00:00"
   ],
   "hn:50538841": [
    108,
@@ -14695,24 +14704,24 @@
    "2026-11-18T09:53:42.796914+00:00"
   ],
   "hn:50542705": [
-   878,
-   "2026-11-18T09:53:42.796914+00:00"
+   1061,
+   "2026-11-18T10:53:50.319498+00:00"
   ],
   "hn:50541790": [
-   183,
-   "2026-11-18T09:53:42.796914+00:00"
+   215,
+   "2026-11-18T10:53:50.319498+00:00"
   ],
   "hn:50541619": [
-   102,
-   "2026-11-18T09:53:42.796914+00:00"
+   117,
+   "2026-11-18T10:53:50.319498+00:00"
   ],
   "hn:50539039": [
    61,
    "2026-11-18T09:53:42.796914+00:00"
   ],
   "lobsters:spmgsd": [
-   39,
-   "2026-11-18T09:53:42.796914+00:00"
+   88,
+   "2026-11-18T10:53:50.319498+00:00"
   ]
  },
  "skips": {
@@ -14757,7 +14766,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 164,
+  "Hacker News": 165,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14801,7 +14810,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-18T09:53:48.202867+00:00",
+  "Hacker News": "2026-11-18T10:54:00.652181+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -15493,8 +15502,22 @@
    "votes": {},
    "message_id": 1625,
    "chat_id": -1004399820759
+  },
+  "49": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "CHIP"
+   ],
+   "title": "راهکار جدید Cerebras برای افزایش سرعت و بهره‌وری در استنتاج هوش مصنوعی",
+   "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+   "at": "2026-11-18T10:54:00.186570+00:00",
+   "votes": {},
+   "message_id": 1626,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 49,
+ "next_post_id": 50,
  "last_update_id": 276814743
 }
