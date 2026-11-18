@@ -1,9 +1,5 @@
 {
  "seen": [
-  "https://www.engadget.com/2291389/apple-store-two-iphone-duo-limit/",
-  "e86a1cc625c3d799c5a4bebeedd4272d",
-  "https://9to5mac.com/?p=1074872",
-  "https://www.theregister.com/a/5304010",
   "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
   "https://techcrunch.com/?p=3179571",
   "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
@@ -2999,18 +2995,22 @@
   "hn:50538240",
   "lobsters:g0bf9i",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jvmvnjkc27",
-  "lobsters:jm8vk1"
+  "lobsters:jm8vk1",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2kfr4rsd2k2",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2kqyy44qsk2",
+  "hn:50542135",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ksg4td2w2c"
  ],
  "posted": {
-  "viral": 845,
+  "viral": 846,
   "editorial": 1076
  },
  "recent_labels": [
-  "404 Media",
   "Hacker News",
   "Hacker News",
   "404 Media",
-  "Lobsters"
+  "Lobsters",
+  "404 Media"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8253,18 +8253,22 @@
     "PROGRAMMING"
    ],
    "at": "2026-11-18T05:53:47.905675+00:00"
+  },
+  {
+   "title": "گزارش گالوپ از تعامل جوانان با هوش مصنوعی و تنهایی دیجیتال",
+   "url": "https://www.404media.co/gallup-study-friendship-ai-companions/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.13324,
+   "topics": [
+    "AI",
+    "CHATBOT"
+   ],
+   "at": "2026-11-18T06:53:57.785429+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "cross",
-    "exact",
-    "framework",
-    "platform"
-   ],
-   "at": "2026-11-10T05:54:34.157492+00:00"
-  },
   {
    "sig": [
     "bond",
@@ -12263,21 +12267,23 @@
    ],
    "at": "2026-11-18T05:53:47.905675+00:00",
    "url": "nimony.org"
+  },
+  {
+   "sig": [
+    "complex",
+    "gallup",
+    "in-person",
+    "online",
+    "people",
+    "relationships",
+    "studied",
+    "survey"
+   ],
+   "at": "2026-11-18T06:53:57.785429+00:00",
+   "url": "404media.co/gallup-study-friendship-ai-companions"
   }
  ],
  "snapshots": {
-  "hn:50393105": [
-   151,
-   "2026-11-06T16:53:58.806356+00:00"
-  ],
-  "hn:50392499": [
-   138,
-   "2026-11-06T16:53:58.806356+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznrpwjvrt25": [
-   206,
-   "2026-11-06T16:53:58.806356+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznptn3xuc2v": [
    88,
    "2026-11-06T16:53:58.806356+00:00"
@@ -14590,81 +14596,93 @@
    37,
    "2026-11-18T04:53:46.985854+00:00"
   ],
-  "hn:50540437": [
-   472,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "hn:50540178": [
-   606,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "hn:50539610": [
-   339,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "hn:50538994": [
-   681,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "hn:50537290": [
-   188,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "hn:50537120": [
-   230,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "hn:50536813": [
-   466,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "hn:50536565": [
-   113,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "hn:50536468": [
-   138,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
   "hn:50536031": [
    290,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jub2y5r42k": [
-   116,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2k4j57tg22m": [
-   54,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "hn:50538303": [
-   482,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2kfr4rsd2k2": [
-   92,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "hn:50540836": [
-   101,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "hn:50540472": [
-   86,
-   "2026-11-18T05:53:45.649617+00:00"
-  ],
-  "hn:50538841": [
-   98,
    "2026-11-18T05:53:45.649617+00:00"
   ],
   "lobsters:jm8vk1": [
    27,
    "2026-11-18T05:53:45.649617+00:00"
   ],
+  "hn:50540437": [
+   538,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50540178": [
+   716,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50539610": [
+   371,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50538994": [
+   750,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50537290": [
+   194,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50537120": [
+   234,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50536813": [
+   490,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50536565": [
+   117,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50536468": [
+   138,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jub2y5r42k": [
+   116,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2k4j57tg22m": [
+   54,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50538303": [
+   529,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2kfr4rsd2k2": [
+   96,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50540836": [
+   115,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50540472": [
+   93,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50538841": [
+   102,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2kqyy44qsk2": [
-   62,
-   "2026-11-18T05:53:45.649617+00:00"
+   80,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50542135": [
+   227,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50538942": [
+   116,
+   "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ksg4td2w2c": [
+   72,
+   "2026-11-18T06:53:47.401149+00:00"
   ]
  },
  "skips": {
@@ -14673,10 +14691,10 @@
   "Wired": 29,
   "TechRadar": 9,
   "Lobsters": 8,
-  "Hacker News": 50,
+  "Hacker News": 51,
   "The Next Web": 1,
   "404 Media": 20,
-  "Emily M. Bender": 4,
+  "Emily M. Bender": 6,
   "Simon Willison": 2,
   "Xe Iaso": 8,
   "Simon Willison RSS": 1,
@@ -14699,7 +14717,7 @@
   "Wired": 27,
   "TechRadar": 37,
   "Slashdot": 31,
-  "404 Media": 49,
+  "404 Media": 50,
   "Xe Iaso": 4,
   "The Verge": 22,
   "Cloudflare": 1,
@@ -14743,7 +14761,7 @@
   "Wired": "2026-11-17T10:53:44.587771+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-13T04:54:43.870063+00:00",
-  "404 Media": "2026-11-18T04:53:50.189074+00:00",
+  "404 Media": "2026-11-18T06:53:57.785555+00:00",
   "Xe Iaso": "2026-11-11T14:54:18.284123+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -15390,8 +15408,22 @@
    "votes": {},
    "message_id": 1621,
    "chat_id": -1004399820759
+  },
+  "45": {
+   "label": "404 Media",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "CHATBOT"
+   ],
+   "title": "گزارش گالوپ از تعامل جوانان با هوش مصنوعی و تنهایی دیجیتال",
+   "url": "https://www.404media.co/gallup-study-friendship-ai-companions/",
+   "at": "2026-11-18T06:53:57.373528+00:00",
+   "votes": {},
+   "message_id": 1622,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 45,
+ "next_post_id": 46,
  "last_update_id": 276814743
 }
