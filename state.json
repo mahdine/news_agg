@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
   "https://www.techspot.com/news/114269-us-bans-deepseek-ai-tools-built-models-federal.html",
   "https://www.neowin.net/news/department-of-homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycurvyums2z",
@@ -2999,16 +2998,17 @@
   "hn:50542135",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ksg4td2w2c",
   "hn:50540178",
-  "hn:50540437"
+  "hn:50540437",
+  "hn:50540836"
  ],
  "posted": {
-  "viral": 848,
+  "viral": 849,
   "editorial": 1076
  },
  "recent_labels": [
-  "404 Media",
   "Lobsters",
   "404 Media",
+  "Hacker News",
   "Hacker News",
   "Hacker News"
  ],
@@ -8292,22 +8292,21 @@
     "PRIVACY"
    ],
    "at": "2026-11-18T08:53:52.477599+00:00"
+  },
+  {
+   "title": "اختلال گسترده در زیرساخت‌های آمریکا به دلیل به‌روزرسانی‌های خودکار هوش مصنوعی",
+   "url": "https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages",
+   "source": "washingtonsun.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.02128,
+   "topics": [
+    "AI"
+   ],
+   "at": "2026-11-18T09:53:48.202733+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "4.6",
-    "amazon",
-    "decider",
-    "millions",
-    "replacing",
-    "saves",
-    "sonnet",
-    "strands"
-   ],
-   "at": "2026-11-10T06:53:57.816371+00:00"
-  },
   {
    "sig": [
     "chrome",
@@ -12297,21 +12296,24 @@
    ],
    "at": "2026-11-18T08:53:52.477599+00:00",
    "url": "consumerrights.wiki/w/id.me_terms_required_for_irs_sign-in"
+  },
+  {
+   "sig": [
+    "ai-driven",
+    "bank",
+    "behind",
+    "ceos",
+    "congress",
+    "nsa",
+    "outages",
+    "patches",
+    "tell"
+   ],
+   "at": "2026-11-18T09:53:48.202733+00:00",
+   "url": "washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages"
   }
  ],
  "snapshots": {
-  "hn:50389990": [
-   112,
-   "2026-11-06T17:53:42.559297+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznv6nxpok2v": [
-   272,
-   "2026-11-06T17:53:42.559297+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznujgrcpc2v": [
-   163,
-   "2026-11-06T17:53:42.559297+00:00"
-  ],
   "hn:50395318": [
    94,
    "2026-11-06T19:59:38.450036+00:00"
@@ -14644,21 +14646,9 @@
    72,
    "2026-11-18T06:53:47.401149+00:00"
   ],
-  "hn:50540437": [
-   637,
-   "2026-11-18T08:53:43.259995+00:00"
-  ],
   "hn:50540178": [
    804,
    "2026-11-18T07:53:42.503075+00:00"
-  ],
-  "hn:50539610": [
-   438,
-   "2026-11-18T08:53:43.259995+00:00"
-  ],
-  "hn:50538994": [
-   896,
-   "2026-11-18T08:53:43.259995+00:00"
   ],
   "hn:50537290": [
    201,
@@ -14668,37 +14658,61 @@
    116,
    "2026-11-18T07:53:42.503075+00:00"
   ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2k4j57tg22m": [
-   59,
+  "hn:50540437": [
+   637,
    "2026-11-18T08:53:43.259995+00:00"
   ],
   "hn:50538303": [
    624,
    "2026-11-18T08:53:43.259995+00:00"
   ],
+  "hn:50539610": [
+   459,
+   "2026-11-18T09:53:42.796914+00:00"
+  ],
+  "hn:50538994": [
+   980,
+   "2026-11-18T09:53:42.796914+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2k4j57tg22m": [
+   59,
+   "2026-11-18T09:53:42.796914+00:00"
+  ],
   "hn:50540836": [
-   137,
-   "2026-11-18T08:53:43.259995+00:00"
+   144,
+   "2026-11-18T09:53:42.796914+00:00"
   ],
   "hn:50540472": [
-   108,
-   "2026-11-18T08:53:43.259995+00:00"
+   118,
+   "2026-11-18T09:53:42.796914+00:00"
   ],
   "hn:50538841": [
    108,
-   "2026-11-18T08:53:43.259995+00:00"
+   "2026-11-18T09:53:42.796914+00:00"
   ],
   "hn:50538942": [
-   120,
-   "2026-11-18T08:53:43.259995+00:00"
+   124,
+   "2026-11-18T09:53:42.796914+00:00"
   ],
   "hn:50542705": [
-   638,
-   "2026-11-18T08:53:43.259995+00:00"
+   878,
+   "2026-11-18T09:53:42.796914+00:00"
   ],
   "hn:50541790": [
-   162,
-   "2026-11-18T08:53:43.259995+00:00"
+   183,
+   "2026-11-18T09:53:42.796914+00:00"
+  ],
+  "hn:50541619": [
+   102,
+   "2026-11-18T09:53:42.796914+00:00"
+  ],
+  "hn:50539039": [
+   61,
+   "2026-11-18T09:53:42.796914+00:00"
+  ],
+  "lobsters:spmgsd": [
+   39,
+   "2026-11-18T09:53:42.796914+00:00"
   ]
  },
  "skips": {
@@ -14743,7 +14757,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 163,
+  "Hacker News": 164,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14787,7 +14801,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-18T08:53:52.477717+00:00",
+  "Hacker News": "2026-11-18T09:53:48.202867+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -15466,8 +15480,21 @@
    "votes": {},
    "message_id": 1624,
    "chat_id": -1004399820759
+  },
+  "48": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "AI"
+   ],
+   "title": "اختلال گسترده در زیرساخت‌های آمریکا به دلیل به‌روزرسانی‌های خودکار هوش مصنوعی",
+   "url": "https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages",
+   "at": "2026-11-18T09:53:47.785616+00:00",
+   "votes": {},
+   "message_id": 1625,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 48,
+ "next_post_id": 49,
  "last_update_id": 276814743
 }
