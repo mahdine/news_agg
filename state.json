@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
   "https://techcrunch.com/?p=3179571",
   "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
   "https://www.techspot.com/news/114269-us-bans-deepseek-ai-tools-built-models-federal.html",
@@ -2999,18 +2998,19 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2kfr4rsd2k2",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2kqyy44qsk2",
   "hn:50542135",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ksg4td2w2c"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ksg4td2w2c",
+  "hn:50540178"
  ],
  "posted": {
-  "viral": 846,
+  "viral": 847,
   "editorial": 1076
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "404 Media",
   "Lobsters",
-  "404 Media"
+  "404 Media",
+  "Hacker News"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8266,21 +8266,22 @@
     "CHATBOT"
    ],
    "at": "2026-11-18T06:53:57.785429+00:00"
+  },
+  {
+   "title": "کاهش ۴۰ درصدی ترافیک وب‌سایت‌ها با استفاده از هوش مصنوعی گوگل",
+   "url": "https://revscope.co/blog/search-seo-geo-2026/",
+   "source": "revscope.co",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.03951,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-18T07:53:44.815972+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "bond",
-    "coreweave",
-    "credit",
-    "rises",
-    "stress",
-    "tops",
-    "yield"
-   ],
-   "at": "2026-11-10T05:56:05.182661+00:00"
-  },
   {
    "sig": [
     "5.5",
@@ -12281,17 +12282,20 @@
    ],
    "at": "2026-11-18T06:53:57.785429+00:00",
    "url": "404media.co/gallup-study-friendship-ai-companions"
+  },
+  {
+   "sig": [
+    "answers",
+    "google",
+    "reducing",
+    "search",
+    "traffic"
+   ],
+   "at": "2026-11-18T07:53:44.815972+00:00",
+   "url": "revscope.co/blog/search-seo-geo-2026"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznptn3xuc2v": [
-   88,
-   "2026-11-06T16:53:58.806356+00:00"
-  ],
-  "hn:50393165": [
-   166,
-   "2026-11-06T17:53:42.559297+00:00"
-  ],
   "hn:50389990": [
    112,
    "2026-11-06T17:53:42.559297+00:00"
@@ -14604,26 +14608,6 @@
    27,
    "2026-11-18T05:53:45.649617+00:00"
   ],
-  "hn:50540437": [
-   538,
-   "2026-11-18T06:53:47.401149+00:00"
-  ],
-  "hn:50540178": [
-   716,
-   "2026-11-18T06:53:47.401149+00:00"
-  ],
-  "hn:50539610": [
-   371,
-   "2026-11-18T06:53:47.401149+00:00"
-  ],
-  "hn:50538994": [
-   750,
-   "2026-11-18T06:53:47.401149+00:00"
-  ],
-  "hn:50537290": [
-   194,
-   "2026-11-18T06:53:47.401149+00:00"
-  ],
   "hn:50537120": [
    234,
    "2026-11-18T06:53:47.401149+00:00"
@@ -14640,32 +14624,8 @@
    138,
    "2026-11-18T06:53:47.401149+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jub2y5r42k": [
-   116,
-   "2026-11-18T06:53:47.401149+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2k4j57tg22m": [
-   54,
-   "2026-11-18T06:53:47.401149+00:00"
-  ],
-  "hn:50538303": [
-   529,
-   "2026-11-18T06:53:47.401149+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2kfr4rsd2k2": [
    96,
-   "2026-11-18T06:53:47.401149+00:00"
-  ],
-  "hn:50540836": [
-   115,
-   "2026-11-18T06:53:47.401149+00:00"
-  ],
-  "hn:50540472": [
-   93,
-   "2026-11-18T06:53:47.401149+00:00"
-  ],
-  "hn:50538841": [
-   102,
    "2026-11-18T06:53:47.401149+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2kqyy44qsk2": [
@@ -14676,13 +14636,65 @@
    227,
    "2026-11-18T06:53:47.401149+00:00"
   ],
-  "hn:50538942": [
-   116,
-   "2026-11-18T06:53:47.401149+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ksg4td2w2c": [
    72,
    "2026-11-18T06:53:47.401149+00:00"
+  ],
+  "hn:50540437": [
+   595,
+   "2026-11-18T07:53:42.503075+00:00"
+  ],
+  "hn:50540178": [
+   804,
+   "2026-11-18T07:53:42.503075+00:00"
+  ],
+  "hn:50539610": [
+   402,
+   "2026-11-18T07:53:42.503075+00:00"
+  ],
+  "hn:50538994": [
+   828,
+   "2026-11-18T07:53:42.503075+00:00"
+  ],
+  "hn:50537290": [
+   201,
+   "2026-11-18T07:53:42.503075+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jub2y5r42k": [
+   116,
+   "2026-11-18T07:53:42.503075+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2k4j57tg22m": [
+   58,
+   "2026-11-18T07:53:42.503075+00:00"
+  ],
+  "hn:50538303": [
+   585,
+   "2026-11-18T07:53:42.503075+00:00"
+  ],
+  "hn:50540836": [
+   129,
+   "2026-11-18T07:53:42.503075+00:00"
+  ],
+  "hn:50540472": [
+   104,
+   "2026-11-18T07:53:42.503075+00:00"
+  ],
+  "hn:50538841": [
+   107,
+   "2026-11-18T07:53:42.503075+00:00"
+  ],
+  "hn:50538942": [
+   116,
+   "2026-11-18T07:53:42.503075+00:00"
+  ],
+  "hn:50542705": [
+   93,
+   "2026-11-18T07:53:42.503075+00:00"
+  ],
+  "hn:50541790": [
+   113,
+   "2026-11-18T07:53:42.503075+00:00"
   ]
  },
  "skips": {
@@ -14727,7 +14739,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 161,
+  "Hacker News": 162,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14771,7 +14783,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-18T03:53:51.513547+00:00",
+  "Hacker News": "2026-11-18T07:53:44.816090+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -15422,8 +15434,22 @@
    "votes": {},
    "message_id": 1622,
    "chat_id": -1004399820759
+  },
+  "46": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "کاهش ۴۰ درصدی ترافیک وب‌سایت‌ها با استفاده از هوش مصنوعی گوگل",
+   "url": "https://revscope.co/blog/search-seo-geo-2026/",
+   "at": "2026-11-18T07:53:44.479794+00:00",
+   "votes": {},
+   "message_id": 1623,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 46,
+ "next_post_id": 47,
  "last_update_id": 276814743
 }
