@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://techcrunch.com/?p=3179571",
   "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
   "https://www.techspot.com/news/114269-us-bans-deepseek-ai-tools-built-models-federal.html",
   "https://www.neowin.net/news/department-of-homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
@@ -2999,17 +2998,18 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2kqyy44qsk2",
   "hn:50542135",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ksg4td2w2c",
-  "hn:50540178"
+  "hn:50540178",
+  "hn:50540437"
  ],
  "posted": {
-  "viral": 847,
+  "viral": 848,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News",
   "404 Media",
   "Lobsters",
   "404 Media",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-13",
@@ -8279,29 +8279,22 @@
     "LLM"
    ],
    "at": "2026-11-18T07:53:44.815972+00:00"
+  },
+  {
+   "title": "نگرانی‌ها درباره حریم خصوصی و شرایط استفاده از سرویس ID.me در IRS",
+   "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+   "source": "consumerrights.wiki",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.02791,
+   "topics": [
+    "SECURITY",
+    "PRIVACY"
+   ],
+   "at": "2026-11-18T08:53:52.477599+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "5.5",
-    "claude",
-    "cost",
-    "ember",
-    "fraction",
-    "gpt-6",
-    "haiku",
-    "luna",
-    "matches",
-    "meta",
-    "muse",
-    "per",
-    "takes",
-    "task",
-    "third"
-   ],
-   "at": "2026-11-10T06:53:50.343591+00:00"
-  },
   {
    "sig": [
     "4.6",
@@ -12293,6 +12286,17 @@
    ],
    "at": "2026-11-18T07:53:44.815972+00:00",
    "url": "revscope.co/blog/search-seo-geo-2026"
+  },
+  {
+   "sig": [
+    "id.me",
+    "irs",
+    "required",
+    "sign-in",
+    "terms"
+   ],
+   "at": "2026-11-18T08:53:52.477599+00:00",
+   "url": "consumerrights.wiki/w/id.me_terms_required_for_irs_sign-in"
   }
  ],
  "snapshots": {
@@ -14641,20 +14645,20 @@
    "2026-11-18T06:53:47.401149+00:00"
   ],
   "hn:50540437": [
-   595,
-   "2026-11-18T07:53:42.503075+00:00"
+   637,
+   "2026-11-18T08:53:43.259995+00:00"
   ],
   "hn:50540178": [
    804,
    "2026-11-18T07:53:42.503075+00:00"
   ],
   "hn:50539610": [
-   402,
-   "2026-11-18T07:53:42.503075+00:00"
+   438,
+   "2026-11-18T08:53:43.259995+00:00"
   ],
   "hn:50538994": [
-   828,
-   "2026-11-18T07:53:42.503075+00:00"
+   896,
+   "2026-11-18T08:53:43.259995+00:00"
   ],
   "hn:50537290": [
    201,
@@ -14665,36 +14669,36 @@
    "2026-11-18T07:53:42.503075+00:00"
   ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2k4j57tg22m": [
-   58,
-   "2026-11-18T07:53:42.503075+00:00"
+   59,
+   "2026-11-18T08:53:43.259995+00:00"
   ],
   "hn:50538303": [
-   585,
-   "2026-11-18T07:53:42.503075+00:00"
+   624,
+   "2026-11-18T08:53:43.259995+00:00"
   ],
   "hn:50540836": [
-   129,
-   "2026-11-18T07:53:42.503075+00:00"
+   137,
+   "2026-11-18T08:53:43.259995+00:00"
   ],
   "hn:50540472": [
-   104,
-   "2026-11-18T07:53:42.503075+00:00"
+   108,
+   "2026-11-18T08:53:43.259995+00:00"
   ],
   "hn:50538841": [
-   107,
-   "2026-11-18T07:53:42.503075+00:00"
+   108,
+   "2026-11-18T08:53:43.259995+00:00"
   ],
   "hn:50538942": [
-   116,
-   "2026-11-18T07:53:42.503075+00:00"
+   120,
+   "2026-11-18T08:53:43.259995+00:00"
   ],
   "hn:50542705": [
-   93,
-   "2026-11-18T07:53:42.503075+00:00"
+   638,
+   "2026-11-18T08:53:43.259995+00:00"
   ],
   "hn:50541790": [
-   113,
-   "2026-11-18T07:53:42.503075+00:00"
+   162,
+   "2026-11-18T08:53:43.259995+00:00"
   ]
  },
  "skips": {
@@ -14739,7 +14743,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 162,
+  "Hacker News": 163,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -14783,7 +14787,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-18T07:53:44.816090+00:00",
+  "Hacker News": "2026-11-18T08:53:52.477717+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -15448,8 +15452,22 @@
    "votes": {},
    "message_id": 1623,
    "chat_id": -1004399820759
+  },
+  "47": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "SECURITY",
+    "PRIVACY"
+   ],
+   "title": "نگرانی‌ها درباره حریم خصوصی و شرایط استفاده از سرویس ID.me در IRS",
+   "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+   "at": "2026-11-18T08:53:52.154457+00:00",
+   "votes": {},
+   "message_id": 1624,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 47,
+ "next_post_id": 48,
  "last_update_id": 276814743
 }
