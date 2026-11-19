@@ -1,8 +1,5 @@
 {
  "seen": [
-  "112449 at https://www.eff.org",
-  "112452 at https://www.eff.org",
-  "https://habr.com/ru/articles/1097800/",
   "https://tech.slashdot.org/story/26/10/21/1637221/openai-models-are-now-on-all-three-major-us-cloud-platforms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://openai.com/index/openai-models-google-cloud",
   "https://3dnews.ru/1150300/#6ada13f5742eecb0a98b4589",
@@ -2999,18 +2996,21 @@
   "hn:50556533",
   "tg:hacker_news_feed/133945",
   "hn:50556287",
-  "hn:50559140"
+  "hn:50559140",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2o7txlvvk2h",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ochc47r224",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ocvinlrm2c"
  ],
  "posted": {
-  "viral": 871,
+  "viral": 872,
   "editorial": 1076
  },
  "recent_labels": [
-  "GitHub Trending",
   "Hacker News",
   "Hacker News Feed",
   "Hacker News Feed",
-  "Hacker News"
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8587,27 +8587,23 @@
     "LLM"
    ],
    "at": "2026-11-19T13:54:08.162215+00:00"
+  },
+  {
+   "title": "همکاری مخفیانه AT&T و ICE برای نظارت گسترده بر تماس‌های تلفنی",
+   "url": "https://www.404media.co/ice-is-paying-at-t-to-dig-through-a-mountain-of-call-records-hemisphere-data-analytical-services/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 1.52258,
+   "topics": [
+    "SECURITY",
+    "PRIVACY",
+    "SURVEILLANCE"
+   ],
+   "at": "2026-11-19T14:54:20.801286+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "binance",
-    "confirmed",
-    "could",
-    "crypto",
-    "escape",
-    "expose",
-    "fix",
-    "ios",
-    "keys",
-    "sandbox",
-    "seed",
-    "wallet",
-    "warns"
-   ],
-   "at": "2026-11-10T12:54:19.974002+00:00"
-  },
   {
    "sig": [
     "children",
@@ -12610,37 +12606,39 @@
    ],
    "at": "2026-11-19T13:54:08.162215+00:00",
    "url": "spectrum.ieee.org/ai-superintelligence-debate"
+  },
+  {
+   "sig": [
+    "access",
+    "analytical",
+    "call",
+    "data",
+    "document",
+    "experts",
+    "ice",
+    "impact",
+    "internal",
+    "lawmakers",
+    "mass",
+    "may",
+    "media",
+    "obtained",
+    "paying",
+    "peoples",
+    "phone",
+    "program",
+    "raw",
+    "records",
+    "services",
+    "shows",
+    "surveillance",
+    "trillions"
+   ],
+   "at": "2026-11-19T14:54:20.801286+00:00",
+   "url": "404media.co/ice-is-paying-at-t-to-dig-through-a-mountain-of-call-records-hemisphere-data-analytical-services"
   }
  ],
  "snapshots": {
-  "hn:50422168": [
-   82,
-   "2026-11-09T09:53:41.880630+00:00"
-  ],
-  "hn:50422069": [
-   246,
-   "2026-11-09T09:53:41.880630+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzukga6eo22b": [
-   18,
-   "2026-11-09T09:53:41.880630+00:00"
-  ],
-  "hn:50424704": [
-   269,
-   "2026-11-09T13:53:42.430999+00:00"
-  ],
-  "hn:50423569": [
-   74,
-   "2026-11-09T13:53:42.430999+00:00"
-  ],
-  "hn:50422628": [
-   121,
-   "2026-11-09T13:53:42.430999+00:00"
-  ],
-  "hn:50421155": [
-   107,
-   "2026-11-09T13:53:42.430999+00:00"
-  ],
   "lobsters:tt42jc": [
    39,
    "2026-11-09T13:53:42.430999+00:00"
@@ -14925,93 +14923,121 @@
    158,
    "2026-11-19T12:53:55.971166+00:00"
   ],
-  "gh:HKUDS/CLI-Anything": [
-   899,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "gh:mvanhorn/last30days-skill": [
-   952,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "gh:google-labs-code/stitch-skills": [
-   303,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "gh:obra/superpowers": [
-   2029,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "tg:hacker_news_feed/133936": [
-   156,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "tg:hacker_news_feed/133937": [
-   150,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "tg:hacker_news_feed/133939": [
-   167,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "tg:hacker_news_feed/133940": [
-   168,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "tg:hacker_news_feed/133943": [
-   168,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "hn:50557537": [
-   173,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "gh:jingyaogong/minimind": [
-   687,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "gh:firecrawl/firecrawl": [
-   795,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "gh:openvinotoolkit/openvino": [
-   246,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "gh:cathrynlavery/diagram-design": [
-   332,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   542,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "gh:toeverything/AFFiNE": [
-   170,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "hn:50558533": [
-   466,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "hn:50557885": [
-   213,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
-  "tg:hacker_news_feed/133946": [
-   154,
-   "2026-11-19T13:54:01.113451+00:00"
-  ],
   "hn:50559140": [
    197,
    "2026-11-19T13:54:01.113451+00:00"
   ],
-  "tg:hacker_news_feed/133947": [
+  "gh:HKUDS/CLI-Anything": [
+   899,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "gh:mvanhorn/last30days-skill": [
+   952,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "gh:google-labs-code/stitch-skills": [
+   303,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "gh:obra/superpowers": [
+   2029,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "tg:hacker_news_feed/133936": [
+   156,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "tg:hacker_news_feed/133937": [
+   150,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "tg:hacker_news_feed/133939": [
+   167,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "tg:hacker_news_feed/133940": [
    168,
-   "2026-11-19T13:54:01.113451+00:00"
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "tg:hacker_news_feed/133943": [
+   169,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "hn:50557537": [
+   203,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "gh:jingyaogong/minimind": [
+   687,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "gh:firecrawl/firecrawl": [
+   795,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "gh:openvinotoolkit/openvino": [
+   246,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "gh:cathrynlavery/diagram-design": [
+   332,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   542,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "gh:toeverything/AFFiNE": [
+   170,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "hn:50558533": [
+   679,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "hn:50557885": [
+   232,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "tg:hacker_news_feed/133946": [
+   156,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "tg:hacker_news_feed/133947": [
+   177,
+   "2026-11-19T14:53:59.755127+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2o37kpgmk2a": [
-   12,
-   "2026-11-19T13:54:01.113451+00:00"
+   13,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "hn:50559719": [
+   80,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "hn:50558559": [
+   100,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "tg:hacker_news_feed/133949": [
+   161,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ocvinlrm2c": [
+   131,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ochc47r224": [
+   405,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2o7bahqwr2k": [
+   80,
+   "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2o7txlvvk2h": [
+   206,
+   "2026-11-19T14:53:59.755127+00:00"
   ]
  },
  "skips": {
@@ -15023,7 +15049,7 @@
   "Hacker News": 52,
   "The Next Web": 1,
   "404 Media": 20,
-  "Emily M. Bender": 6,
+  "Emily M. Bender": 7,
   "Simon Willison": 2,
   "Xe Iaso": 8,
   "Simon Willison RSS": 1,
@@ -15046,7 +15072,7 @@
   "Wired": 27,
   "TechRadar": 37,
   "Slashdot": 31,
-  "404 Media": 51,
+  "404 Media": 52,
   "Xe Iaso": 5,
   "The Verge": 22,
   "Cloudflare": 1,
@@ -15092,7 +15118,7 @@
   "Wired": "2026-11-17T10:53:44.587771+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-13T04:54:43.870063+00:00",
-  "404 Media": "2026-11-18T15:53:48.603994+00:00",
+  "404 Media": "2026-11-19T14:54:20.801396+00:00",
   "Xe Iaso": "2026-11-18T17:53:57.797084+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -16107,8 +16133,23 @@
    "votes": {},
    "message_id": 1647,
    "chat_id": -1004399820759
+  },
+  "71": {
+   "label": "404 Media",
+   "pool": "viral",
+   "topics": [
+    "SECURITY",
+    "PRIVACY",
+    "SURVEILLANCE"
+   ],
+   "title": "همکاری مخفیانه AT&T و ICE برای نظارت گسترده بر تماس‌های تلفنی",
+   "url": "https://www.404media.co/ice-is-paying-at-t-to-dig-through-a-mountain-of-call-records-hemisphere-data-analytical-services/",
+   "at": "2026-11-19T14:54:20.243297+00:00",
+   "votes": {},
+   "message_id": 1648,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 71,
+ "next_post_id": 72,
  "last_update_id": 276814746
 }
