@@ -1,7 +1,5 @@
 {
  "seen": [
-  "https://tech.slashdot.org/story/26/10/21/1637221/openai-models-are-now-on-all-three-major-us-cloud-platforms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://openai.com/index/openai-models-google-cloud",
   "https://3dnews.ru/1150300/#6ada13f5742eecb0a98b4589",
   "XDNJEwFBpUSt4XZejmx7oh",
   "https://3dnews.ru/1150309/#6ada2d90742eeceb258b457e",
@@ -2999,17 +2997,19 @@
   "hn:50559140",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2o7txlvvk2h",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ochc47r224",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ocvinlrm2c"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ocvinlrm2c",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2oefm2ub224",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ofb4pm5q2e"
  ],
  "posted": {
-  "viral": 872,
+  "viral": 873,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News",
   "Hacker News Feed",
   "Hacker News Feed",
   "Hacker News",
+  "404 Media",
   "404 Media"
  ],
  "last_digest": "2026-11-13",
@@ -8601,18 +8601,21 @@
     "SURVEILLANCE"
    ],
    "at": "2026-11-19T14:54:20.801286+00:00"
+  },
+  {
+   "title": "تبعیض نژادی در جانمایی مراکز داده ایالات متحده",
+   "url": "https://www.404media.co/redlining-ai-data-centers-and-race-study/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.83787,
+   "topics": [
+    "TECH"
+   ],
+   "at": "2026-11-19T15:54:21.585793+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "children",
-    "constant",
-    "doing",
-    "surveillance"
-   ],
-   "at": "2026-11-10T13:53:43.202211+00:00"
-  },
   {
    "sig": [
     "attack",
@@ -12636,37 +12639,23 @@
    ],
    "at": "2026-11-19T14:54:20.801286+00:00",
    "url": "404media.co/ice-is-paying-at-t-to-dig-through-a-mountain-of-call-records-hemisphere-data-analytical-services"
+  },
+  {
+   "sig": [
+    "2.6",
+    "4.2",
+    "goes",
+    "majority-asian",
+    "majority-hispanic",
+    "neighborhoods",
+    "number",
+    "times"
+   ],
+   "at": "2026-11-19T15:54:21.585793+00:00",
+   "url": "404media.co/redlining-ai-data-centers-and-race-study"
   }
  ],
  "snapshots": {
-  "lobsters:tt42jc": [
-   39,
-   "2026-11-09T13:53:42.430999+00:00"
-  ],
-  "hn:50425303": [
-   113,
-   "2026-11-09T14:53:46.220168+00:00"
-  ],
-  "hn:50424199": [
-   80,
-   "2026-11-09T14:53:46.220168+00:00"
-  ],
-  "lobsters:txkq8s": [
-   31,
-   "2026-11-09T15:53:45.587184+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzv64dfjc22c": [
-   204,
-   "2026-11-09T15:53:45.587184+00:00"
-  ],
-  "hn:50426899": [
-   173,
-   "2026-11-09T16:53:47.449230+00:00"
-  ],
-  "hn:50426207": [
-   112,
-   "2026-11-09T16:53:47.449230+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzv6abhfur26": [
    65,
    "2026-11-09T16:53:47.449230+00:00"
@@ -14927,100 +14916,8 @@
    197,
    "2026-11-19T13:54:01.113451+00:00"
   ],
-  "gh:HKUDS/CLI-Anything": [
-   899,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "gh:mvanhorn/last30days-skill": [
-   952,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "gh:google-labs-code/stitch-skills": [
-   303,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "gh:obra/superpowers": [
-   2029,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
   "tg:hacker_news_feed/133936": [
    156,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "tg:hacker_news_feed/133937": [
-   150,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "tg:hacker_news_feed/133939": [
-   167,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "tg:hacker_news_feed/133940": [
-   168,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "tg:hacker_news_feed/133943": [
-   169,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "hn:50557537": [
-   203,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "gh:jingyaogong/minimind": [
-   687,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "gh:firecrawl/firecrawl": [
-   795,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "gh:openvinotoolkit/openvino": [
-   246,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "gh:cathrynlavery/diagram-design": [
-   332,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   542,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "gh:toeverything/AFFiNE": [
-   170,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "hn:50558533": [
-   679,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "hn:50557885": [
-   232,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "tg:hacker_news_feed/133946": [
-   156,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "tg:hacker_news_feed/133947": [
-   177,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2o37kpgmk2a": [
-   13,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "hn:50559719": [
-   80,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "hn:50558559": [
-   100,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
-  "tg:hacker_news_feed/133949": [
-   161,
    "2026-11-19T14:53:59.755127+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ocvinlrm2c": [
@@ -15031,13 +14928,133 @@
    405,
    "2026-11-19T14:53:59.755127+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2o7bahqwr2k": [
-   80,
-   "2026-11-19T14:53:59.755127+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2o7txlvvk2h": [
    206,
    "2026-11-19T14:53:59.755127+00:00"
+  ],
+  "gh:HKUDS/CLI-Anything": [
+   899,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "gh:mvanhorn/last30days-skill": [
+   952,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "gh:google-labs-code/stitch-skills": [
+   303,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "gh:obra/superpowers": [
+   2029,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "tg:hacker_news_feed/133937": [
+   150,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "tg:hacker_news_feed/133939": [
+   167,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "tg:hacker_news_feed/133940": [
+   168,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "tg:hacker_news_feed/133943": [
+   169,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "hn:50557537": [
+   238,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "gh:jingyaogong/minimind": [
+   687,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "gh:firecrawl/firecrawl": [
+   795,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "gh:openvinotoolkit/openvino": [
+   246,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "gh:cathrynlavery/diagram-design": [
+   332,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   542,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "gh:toeverything/AFFiNE": [
+   170,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "hn:50558533": [
+   862,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "hn:50557885": [
+   244,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "tg:hacker_news_feed/133946": [
+   158,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "tg:hacker_news_feed/133947": [
+   180,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2o37kpgmk2a": [
+   13,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "hn:50559719": [
+   126,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "hn:50558559": [
+   152,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "tg:hacker_news_feed/133949": [
+   161,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2o7bahqwr2k": [
+   85,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "hn:50560795": [
+   89,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "hn:50559749": [
+   136,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "hn:50558906": [
+   157,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "lobsters:rzuasm": [
+   39,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "tg:hacker_news_feed/133951": [
+   151,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ofb4pm5q2e": [
+   136,
+   "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2oefm2ub224": [
+   940,
+   "2026-11-19T15:54:14.955406+00:00"
   ]
  },
  "skips": {
@@ -15072,7 +15089,7 @@
   "Wired": 27,
   "TechRadar": 37,
   "Slashdot": 31,
-  "404 Media": 52,
+  "404 Media": 53,
   "Xe Iaso": 5,
   "The Verge": 22,
   "Cloudflare": 1,
@@ -15118,7 +15135,7 @@
   "Wired": "2026-11-17T10:53:44.587771+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-13T04:54:43.870063+00:00",
-  "404 Media": "2026-11-19T14:54:20.801396+00:00",
+  "404 Media": "2026-11-19T15:54:21.585917+00:00",
   "Xe Iaso": "2026-11-18T17:53:57.797084+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -16148,8 +16165,21 @@
    "votes": {},
    "message_id": 1648,
    "chat_id": -1004399820759
+  },
+  "72": {
+   "label": "404 Media",
+   "pool": "viral",
+   "topics": [
+    "TECH"
+   ],
+   "title": "تبعیض نژادی در جانمایی مراکز داده ایالات متحده",
+   "url": "https://www.404media.co/redlining-ai-data-centers-and-race-study/",
+   "at": "2026-11-19T15:54:21.193179+00:00",
+   "votes": {},
+   "message_id": 1649,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 72,
+ "next_post_id": 73,
  "last_update_id": 276814746
 }
