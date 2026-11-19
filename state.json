@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
   "https://tech.slashdot.org/story/26/10/21/054204/php-warns-it-plans-to-release-2-emergency-patches-imminently?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.techspot.com/downloads/5680-php.html",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfoqauwk42t",
@@ -2999,18 +2998,19 @@
   "hn:50553225",
   "gh:n8n-io/n8n",
   "tg:hacker_news_feed/133942",
-  "hn:50553843"
+  "hn:50553843",
+  "gh:nvm-sh/nvm"
  ],
  "posted": {
-  "viral": 866,
+  "viral": 867,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News Feed",
   "Hacker News",
   "Hacker News Feed",
   "GitHub Trending",
-  "Hacker News Feed"
+  "Hacker News Feed",
+  "GitHub Trending"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8523,20 +8523,21 @@
     "STARTUP"
    ],
    "at": "2026-11-19T08:53:59.879086+00:00"
+  },
+  {
+   "title": "مدیریت آسان نسخه‌های مختلف Node.js با ابزار nvm",
+   "url": "https://github.com/nvm-sh/nvm",
+   "source": "github.com",
+   "label": "GitHub Trending",
+   "pool": "viral",
+   "score": 0.63421,
+   "topics": [
+    "PROGRAMMING"
+   ],
+   "at": "2026-11-19T09:54:09.707434+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "breach",
-    "customers",
-    "fireworks",
-    "impacts",
-    "notion",
-    "security"
-   ],
-   "at": "2026-11-10T11:54:11.650951+00:00"
-  },
   {
    "sig": [
     "attack",
@@ -12544,13 +12545,32 @@
    ],
    "at": "2026-11-19T08:53:59.879086+00:00",
    "url": "anthropic.com/news/anthropic-prices-initial-public-offering"
+  },
+  {
+   "sig": [
+    "active",
+    "bash",
+    "manage",
+    "manager",
+    "multiple",
+    "node",
+    "node.js",
+    "nvm",
+    "nvm-sh",
+    "posix-compliant",
+    "script",
+    "shell",
+    "stars",
+    "today",
+    "total",
+    "version",
+    "versions"
+   ],
+   "at": "2026-11-19T09:54:09.707434+00:00",
+   "url": "github.com/nvm-sh/nvm"
   }
  ],
  "snapshots": {
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mztdrnphgs2r": [
-   8,
-   "2026-11-09T02:53:47.645222+00:00"
-  ],
   "hn:50418975": [
    188,
    "2026-11-09T02:53:47.645222+00:00"
@@ -14819,80 +14839,8 @@
    192,
    "2026-11-19T07:54:11.491997+00:00"
   ],
-  "gh:HKUDS/CLI-Anything": [
-   389,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "gh:mvanhorn/last30days-skill": [
-   1059,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "gh:getarcaneapp/arcane": [
-   547,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "gh:NVIDIA/SkillEvaluator": [
-   312,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "gh:astral-sh/uv": [
-   258,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "gh:google-research/paper-orchestra": [
-   1524,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "gh:google-labs-code/stitch-skills": [
-   365,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "gh:appwrite/appwrite": [
-   232,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "gh:obra/superpowers": [
-   822,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "gh:DeanChensj/jiangshan-map": [
-   218,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "hn:50554045": [
-   1060,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "hn:50554038": [
-   396,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "hn:50554010": [
-   366,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
   "tg:hacker_news_feed/133928": [
    156,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "tg:hacker_news_feed/133930": [
-   176,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "tg:hacker_news_feed/133932": [
-   161,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "tg:hacker_news_feed/133933": [
-   183,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "tg:hacker_news_feed/133934": [
-   159,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "gh:nvm-sh/nvm": [
-   237,
    "2026-11-19T08:53:57.709420+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2mgw7w3lc2f": [
@@ -14903,49 +14851,125 @@
    688,
    "2026-11-19T08:53:57.709420+00:00"
   ],
-  "hn:50554269": [
-   174,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "tg:hacker_news_feed/133936": [
-   155,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "hn:50554935": [
-   293,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "hn:50554641": [
-   181,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "tg:hacker_news_feed/133937": [
-   150,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "tg:hacker_news_feed/133939": [
-   162,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "tg:hacker_news_feed/133940": [
-   159,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
-  "hn:50554009": [
-   86,
-   "2026-11-19T08:53:57.709420+00:00"
-  ],
   "tg:hacker_news_feed/133942": [
    163,
    "2026-11-19T08:53:57.709420+00:00"
   ],
+  "gh:HKUDS/CLI-Anything": [
+   389,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "gh:mvanhorn/last30days-skill": [
+   1059,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "gh:getarcaneapp/arcane": [
+   547,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "gh:NVIDIA/SkillEvaluator": [
+   312,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "gh:astral-sh/uv": [
+   258,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "gh:google-research/paper-orchestra": [
+   1524,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "gh:google-labs-code/stitch-skills": [
+   365,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "gh:appwrite/appwrite": [
+   232,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "gh:obra/superpowers": [
+   822,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "gh:DeanChensj/jiangshan-map": [
+   218,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "hn:50554045": [
+   1165,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "hn:50554038": [
+   435,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "hn:50554010": [
+   369,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "tg:hacker_news_feed/133930": [
+   176,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "tg:hacker_news_feed/133932": [
+   161,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "tg:hacker_news_feed/133933": [
+   183,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "tg:hacker_news_feed/133934": [
+   159,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "gh:nvm-sh/nvm": [
+   237,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "hn:50554269": [
+   175,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "tg:hacker_news_feed/133936": [
+   155,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "hn:50554935": [
+   305,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "hn:50554641": [
+   192,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "tg:hacker_news_feed/133937": [
+   150,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "tg:hacker_news_feed/133939": [
+   163,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "tg:hacker_news_feed/133940": [
+   160,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "hn:50554009": [
+   97,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
   "hn:50556533": [
-   108,
-   "2026-11-19T08:53:57.709420+00:00"
+   157,
+   "2026-11-19T09:54:02.538017+00:00"
   ],
   "tg:hacker_news_feed/133943": [
-   159,
-   "2026-11-19T08:53:57.709420+00:00"
+   161,
+   "2026-11-19T09:54:02.538017+00:00"
+  ],
+  "hn:50556287": [
+   143,
+   "2026-11-19T09:54:02.538017+00:00"
   ]
  },
  "skips": {
@@ -15017,7 +15041,7 @@
   "Google AI": 1,
   "Rest of World": 1,
   "LangChain Blog": 1,
-  "GitHub Trending": 3,
+  "GitHub Trending": 4,
   "Hacker News Feed": 5
  },
  "last_post": {
@@ -15063,7 +15087,7 @@
   "Google AI": "2026-11-06T04:54:24.190387+00:00",
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
-  "GitHub Trending": "2026-11-19T07:54:22.291471+00:00",
+  "GitHub Trending": "2026-11-19T09:54:09.707569+00:00",
   "Hacker News Feed": "2026-11-19T08:53:59.879187+00:00"
  },
  "posts": {
@@ -15969,8 +15993,21 @@
    "votes": {},
    "message_id": 1642,
    "chat_id": -1004399820759
+  },
+  "66": {
+   "label": "GitHub Trending",
+   "pool": "viral",
+   "topics": [
+    "PROGRAMMING"
+   ],
+   "title": "مدیریت آسان نسخه‌های مختلف Node.js با ابزار nvm",
+   "url": "https://github.com/nvm-sh/nvm",
+   "at": "2026-11-19T09:54:09.271228+00:00",
+   "votes": {},
+   "message_id": 1643,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 66,
+ "next_post_id": 67,
  "last_update_id": 276814745
 }
