@@ -1,7 +1,5 @@
 {
  "seen": [
-  "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
-  "hn:50180836",
   "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
   "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
   "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
@@ -2999,18 +2997,20 @@
   "tg:hacker_news_feed/133929",
   "hn:50554374",
   "tg:hacker_news_feed/133938",
-  "hn:50555093"
+  "hn:50555093",
+  "tg:hacker_news_feed/133941",
+  "hn:50553225"
  ],
  "posted": {
-  "viral": 863,
+  "viral": 864,
   "editorial": 1076
  },
  "recent_labels": [
   "Hacker News Feed",
-  "Hacker News Feed",
   "GitHub Trending",
   "Hacker News Feed",
-  "Hacker News"
+  "Hacker News",
+  "Hacker News Feed"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8485,26 +8485,22 @@
     "LLM"
    ],
    "at": "2026-11-19T05:54:00.570486+00:00"
+  },
+  {
+   "title": "شتاب‌دهی به مهندسی معکوس و هک سخت‌افزار با استفاده از هوش مصنوعی",
+   "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+   "source": "Slow Chronicle",
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "score": 0.48786,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-19T06:54:13.567226+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "amateur",
-    "commands",
-    "doom",
-    "earth",
-    "esa",
-    "operators",
-    "orbiting",
-    "plays",
-    "radio",
-    "receiving",
-    "satellite",
-    "voice"
-   ],
-   "at": "2026-11-10T10:54:28.746045+00:00"
-  },
   {
    "sig": [
     "approved",
@@ -12499,17 +12495,19 @@
    "sig": [],
    "at": "2026-11-19T05:54:00.570486+00:00",
    "url": "colossus.com/article/ai-will-not-make-you-rich"
+  },
+  {
+   "sig": [
+    "assisted",
+    "engineering",
+    "llm",
+    "reverse"
+   ],
+   "at": "2026-11-19T06:54:13.567226+00:00",
+   "url": "slowchronicle.com/posts/llm-assisted-reverse-engineering"
   }
  ],
  "snapshots": {
-  "hn:50418818": [
-   205,
-   "2026-11-09T02:53:47.645222+00:00"
-  ],
-  "hn:50415817": [
-   307,
-   "2026-11-09T02:53:47.645222+00:00"
-  ],
   "hn:50413885": [
    136,
    "2026-11-09T02:53:47.645222+00:00"
@@ -14754,153 +14752,161 @@
    182,
    "2026-11-19T05:53:58.552475+00:00"
   ],
-  "tg:hacker_news_feed/133926": [
-   179,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "gh:HKUDS/CLI-Anything": [
-   389,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "gh:mvanhorn/last30days-skill": [
-   1059,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "gh:getarcaneapp/arcane": [
-   547,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "gh:NVIDIA/SkillEvaluator": [
-   312,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "gh:astral-sh/uv": [
-   258,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "gh:google-research/paper-orchestra": [
-   1524,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "gh:google-labs-code/stitch-skills": [
-   365,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "gh:appwrite/appwrite": [
-   232,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "gh:obra/superpowers": [
-   822,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "gh:DeanChensj/jiangshan-map": [
-   218,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "gh:n8n-io/n8n": [
-   325,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2m6joljbck2": [
    79,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2mcxfyrw22s": [
-   38,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "hn:50554045": [
-   776,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "hn:50554038": [
-   270,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "hn:50554010": [
-   336,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "hn:50553225": [
-   201,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "hn:50551398": [
-   124,
    "2026-11-19T05:53:58.552475+00:00"
   ],
   "hn:50550096": [
    161,
    "2026-11-19T05:53:58.552475+00:00"
   ],
-  "lobsters:zr0hkw": [
-   31,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "tg:hacker_news_feed/133928": [
-   156,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "tg:hacker_news_feed/133930": [
-   176,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "tg:hacker_news_feed/133932": [
-   157,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "tg:hacker_news_feed/133933": [
-   177,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "tg:hacker_news_feed/133934": [
-   155,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "gh:nvm-sh/nvm": [
-   237,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2mgw7w3lc2f": [
-   294,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "hn:50553843": [
-   379,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
-  "hn:50551601": [
-   191,
-   "2026-11-19T05:53:58.552475+00:00"
-  ],
   "hn:50555093": [
    185,
    "2026-11-19T05:53:58.552475+00:00"
   ],
+  "tg:hacker_news_feed/133926": [
+   184,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "gh:HKUDS/CLI-Anything": [
+   389,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "gh:mvanhorn/last30days-skill": [
+   1059,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "gh:getarcaneapp/arcane": [
+   547,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "gh:NVIDIA/SkillEvaluator": [
+   312,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "gh:astral-sh/uv": [
+   258,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "gh:google-research/paper-orchestra": [
+   1524,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "gh:google-labs-code/stitch-skills": [
+   365,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "gh:appwrite/appwrite": [
+   232,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "gh:obra/superpowers": [
+   822,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "gh:DeanChensj/jiangshan-map": [
+   218,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "gh:n8n-io/n8n": [
+   325,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2mcxfyrw22s": [
+   38,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "hn:50554045": [
+   868,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "hn:50554038": [
+   311,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "hn:50554010": [
+   346,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "hn:50553225": [
+   230,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "hn:50551398": [
+   126,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "lobsters:zr0hkw": [
+   31,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "tg:hacker_news_feed/133928": [
+   156,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "tg:hacker_news_feed/133930": [
+   176,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "tg:hacker_news_feed/133932": [
+   158,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "tg:hacker_news_feed/133933": [
+   179,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "tg:hacker_news_feed/133934": [
+   156,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "gh:nvm-sh/nvm": [
+   237,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2mgw7w3lc2f": [
+   296,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "hn:50553843": [
+   391,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "hn:50551601": [
+   192,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
   "hn:50554269": [
    160,
-   "2026-11-19T05:53:58.552475+00:00"
+   "2026-11-19T06:54:10.557060+00:00"
   ],
   "tg:hacker_news_feed/133936": [
-   154,
-   "2026-11-19T05:53:58.552475+00:00"
+   155,
+   "2026-11-19T06:54:10.557060+00:00"
   ],
   "hn:50554935": [
-   177,
-   "2026-11-19T05:53:58.552475+00:00"
+   246,
+   "2026-11-19T06:54:10.557060+00:00"
   ],
   "hn:50554641": [
-   139,
-   "2026-11-19T05:53:58.552475+00:00"
+   150,
+   "2026-11-19T06:54:10.557060+00:00"
   ],
   "tg:hacker_news_feed/133937": [
    150,
-   "2026-11-19T05:53:58.552475+00:00"
+   "2026-11-19T06:54:10.557060+00:00"
   ],
   "tg:hacker_news_feed/133939": [
+   159,
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "tg:hacker_news_feed/133940": [
    154,
-   "2026-11-19T05:53:58.552475+00:00"
+   "2026-11-19T06:54:10.557060+00:00"
+  ],
+  "tg:hacker_news_feed/133941": [
+   153,
+   "2026-11-19T06:54:10.557060+00:00"
   ]
  },
  "skips": {
@@ -14973,7 +14979,7 @@
   "Rest of World": 1,
   "LangChain Blog": 1,
   "GitHub Trending": 2,
-  "Hacker News Feed": 3
+  "Hacker News Feed": 4
  },
  "last_post": {
   "Engadget": "2026-11-14T13:54:06.399584+00:00",
@@ -15019,7 +15025,7 @@
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
   "GitHub Trending": "2026-11-19T03:54:14.395253+00:00",
-  "Hacker News Feed": "2026-11-19T04:54:04.722083+00:00"
+  "Hacker News Feed": "2026-11-19T06:54:13.567340+00:00"
  },
  "posts": {
   "1": {
@@ -15883,8 +15889,22 @@
    "votes": {},
    "message_id": 1639,
    "chat_id": -1004399820759
+  },
+  "63": {
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "شتاب‌دهی به مهندسی معکوس و هک سخت‌افزار با استفاده از هوش مصنوعی",
+   "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+   "at": "2026-11-19T06:54:13.073724+00:00",
+   "votes": {},
+   "message_id": 1640,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 63,
+ "next_post_id": 64,
  "last_update_id": 276814745
 }
