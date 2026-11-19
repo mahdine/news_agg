@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://3dnews.ru/1150300/#6ada13f5742eecb0a98b4589",
   "XDNJEwFBpUSt4XZejmx7oh",
   "https://3dnews.ru/1150309/#6ada2d90742eeceb258b457e",
   "https://www.theverge.com/?p=1016932",
@@ -2999,18 +2998,19 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ochc47r224",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ocvinlrm2c",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2oefm2ub224",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ofb4pm5q2e"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ofb4pm5q2e",
+  "tg:hacker_news_feed/133952"
  ],
  "posted": {
-  "viral": 873,
+  "viral": 874,
   "editorial": 1076
  },
  "recent_labels": [
   "Hacker News Feed",
-  "Hacker News Feed",
   "Hacker News",
   "404 Media",
-  "404 Media"
+  "404 Media",
+  "Hacker News Feed"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8613,21 +8613,22 @@
     "TECH"
    ],
    "at": "2026-11-19T15:54:21.585793+00:00"
+  },
+  {
+   "title": "جلوگیری از ریبوت شدن دستگاه MyQ Home Bridge با شبیه‌سازی سرور ابری",
+   "url": "https://kusha.me/blog/stop_myq_homebridge_819lmb_rebooting/",
+   "source": "kusha.me",
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "score": 0.47268,
+   "topics": [
+    "SECURITY",
+    "HARDWARE"
+   ],
+   "at": "2026-11-19T16:54:11.889336+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "attack",
-    "chain",
-    "dozen",
-    "hit",
-    "organizations",
-    "qubole",
-    "supply"
-   ],
-   "at": "2026-11-10T13:54:24.527707+00:00"
-  },
   {
    "sig": [
     "back",
@@ -12653,33 +12654,24 @@
    ],
    "at": "2026-11-19T15:54:21.585793+00:00",
    "url": "404media.co/redlining-ai-data-centers-and-race-study"
+  },
+  {
+   "sig": [
+    "aes",
+    "dumping",
+    "garage",
+    "key",
+    "myq",
+    "offline",
+    "opener",
+    "rebooting",
+    "stop"
+   ],
+   "at": "2026-11-19T16:54:11.889336+00:00",
+   "url": "kusha.me/blog/stop_myq_homebridge_819lmb_rebooting"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzv6abhfur26": [
-   65,
-   "2026-11-09T16:53:47.449230+00:00"
-  ],
-  "hn:50427362": [
-   348,
-   "2026-11-09T17:53:45.931025+00:00"
-  ],
-  "hn:50427085": [
-   212,
-   "2026-11-09T17:53:45.931025+00:00"
-  ],
-  "hn:50426175": [
-   151,
-   "2026-11-09T17:53:45.931025+00:00"
-  ],
-  "lobsters:jxigk6": [
-   25,
-   "2026-11-09T17:53:45.931025+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvhbvmb622b": [
-   17,
-   "2026-11-09T17:53:45.931025+00:00"
-  ],
   "hn:50431058": [
    690,
    "2026-11-09T23:25:27.622778+00:00"
@@ -14932,120 +14924,8 @@
    206,
    "2026-11-19T14:53:59.755127+00:00"
   ],
-  "gh:HKUDS/CLI-Anything": [
-   899,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "gh:mvanhorn/last30days-skill": [
-   952,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "gh:google-labs-code/stitch-skills": [
-   303,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "gh:obra/superpowers": [
-   2029,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
   "tg:hacker_news_feed/133937": [
    150,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "tg:hacker_news_feed/133939": [
-   167,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "tg:hacker_news_feed/133940": [
-   168,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "tg:hacker_news_feed/133943": [
-   169,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "hn:50557537": [
-   238,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "gh:jingyaogong/minimind": [
-   687,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "gh:firecrawl/firecrawl": [
-   795,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "gh:openvinotoolkit/openvino": [
-   246,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "gh:cathrynlavery/diagram-design": [
-   332,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   542,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "gh:toeverything/AFFiNE": [
-   170,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "hn:50558533": [
-   862,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "hn:50557885": [
-   244,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "tg:hacker_news_feed/133946": [
-   158,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "tg:hacker_news_feed/133947": [
-   180,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2o37kpgmk2a": [
-   13,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "hn:50559719": [
-   126,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "hn:50558559": [
-   152,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "tg:hacker_news_feed/133949": [
-   161,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2o7bahqwr2k": [
-   85,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "hn:50560795": [
-   89,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "hn:50559749": [
-   136,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "hn:50558906": [
-   157,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "lobsters:rzuasm": [
-   39,
-   "2026-11-19T15:54:14.955406+00:00"
-  ],
-  "tg:hacker_news_feed/133951": [
-   151,
    "2026-11-19T15:54:14.955406+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ofb4pm5q2e": [
@@ -15055,6 +14935,142 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2oefm2ub224": [
    940,
    "2026-11-19T15:54:14.955406+00:00"
+  ],
+  "gh:HKUDS/CLI-Anything": [
+   899,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "gh:mvanhorn/last30days-skill": [
+   952,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "gh:google-labs-code/stitch-skills": [
+   303,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "gh:obra/superpowers": [
+   2029,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "tg:hacker_news_feed/133939": [
+   167,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "tg:hacker_news_feed/133940": [
+   168,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "tg:hacker_news_feed/133943": [
+   169,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "hn:50557537": [
+   277,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "gh:jingyaogong/minimind": [
+   301,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "gh:firecrawl/firecrawl": [
+   795,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "gh:openvinotoolkit/openvino": [
+   246,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "gh:cathrynlavery/diagram-design": [
+   332,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   542,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "gh:toeverything/AFFiNE": [
+   170,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "hn:50558533": [
+   1011,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "hn:50557885": [
+   246,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "tg:hacker_news_feed/133946": [
+   158,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "tg:hacker_news_feed/133947": [
+   182,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2o37kpgmk2a": [
+   19,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "hn:50559719": [
+   162,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "hn:50558559": [
+   153,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "tg:hacker_news_feed/133949": [
+   162,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2o7bahqwr2k": [
+   90,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "hn:50560795": [
+   216,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "hn:50559749": [
+   208,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "hn:50558906": [
+   218,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "lobsters:rzuasm": [
+   75,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "tg:hacker_news_feed/133951": [
+   152,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "hn:50561508": [
+   126,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "hn:50560822": [
+   262,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "hn:50560461": [
+   92,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "tg:hacker_news_feed/133952": [
+   150,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2oj4v7s2k24": [
+   68,
+   "2026-11-19T16:54:02.355537+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ohrokhar2e": [
+   137,
+   "2026-11-19T16:54:02.355537+00:00"
   ]
  },
  "skips": {
@@ -15127,7 +15143,7 @@
   "Rest of World": 1,
   "LangChain Blog": 1,
   "GitHub Trending": 4,
-  "Hacker News Feed": 7
+  "Hacker News Feed": 8
  },
  "last_post": {
   "Engadget": "2026-11-14T13:54:06.399584+00:00",
@@ -15173,7 +15189,7 @@
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
   "GitHub Trending": "2026-11-19T09:54:09.707569+00:00",
-  "Hacker News Feed": "2026-11-19T12:53:58.000835+00:00"
+  "Hacker News Feed": "2026-11-19T16:54:11.889463+00:00"
  },
  "posts": {
   "1": {
@@ -16178,8 +16194,22 @@
    "votes": {},
    "message_id": 1649,
    "chat_id": -1004399820759
+  },
+  "73": {
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "topics": [
+    "SECURITY",
+    "HARDWARE"
+   ],
+   "title": "جلوگیری از ریبوت شدن دستگاه MyQ Home Bridge با شبیه‌سازی سرور ابری",
+   "url": "https://kusha.me/blog/stop_myq_homebridge_819lmb_rebooting/",
+   "at": "2026-11-19T16:54:11.455965+00:00",
+   "votes": {},
+   "message_id": 1650,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 73,
+ "next_post_id": 74,
  "last_update_id": 276814746
 }
