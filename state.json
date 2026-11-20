@@ -1,6 +1,5 @@
 {
  "seen": [
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mykogzc2ls2r",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mykltaywc22x",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mykrgjzxxs2y",
   "https://habr.com/ru/articles/1098746/",
@@ -2999,18 +2998,19 @@
   "hn:50570479",
   "gh:HKUDS/CLI-Anything",
   "hn:50571189",
-  "gh:jingyaogong/minimind"
+  "gh:jingyaogong/minimind",
+  "hn:50569516"
  ],
  "posted": {
-  "viral": 884,
+  "viral": 885,
   "editorial": 1076
  },
  "recent_labels": [
-  "GitHub Trending",
   "Hacker News",
   "Hacker News Feed",
   "GitHub Trending",
-  "GitHub Trending"
+  "GitHub Trending",
+  "Hacker News"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8754,21 +8754,22 @@
     "LLM"
    ],
    "at": "2026-11-20T09:53:56.273209+00:00"
+  },
+  {
+   "title": "بهینه‌سازی خودکار فضای جداول در نسخه جدید Postgres",
+   "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+   "source": "snowflake.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.05496,
+   "topics": [
+    "PROGRAMMING",
+    "DATABASE"
+   ],
+   "at": "2026-11-20T10:53:53.017776+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "devices",
-    "home",
-    "internet",
-    "should",
-    "smart",
-    "without",
-    "work"
-   ],
-   "at": "2026-11-10T17:54:16.203244+00:00"
-  },
   {
    "sig": [
     "congress",
@@ -12816,21 +12817,22 @@
    ],
    "at": "2026-11-20T09:53:56.273209+00:00",
    "url": "github.com/jingyaogong/minimind"
+  },
+  {
+   "sig": [
+    "bloat",
+    "built-in",
+    "cleanup",
+    "faster",
+    "postgres",
+    "repack",
+    "table"
+   ],
+   "at": "2026-11-20T10:53:53.017776+00:00",
+   "url": "snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat"
   }
  ],
  "snapshots": {
-  "hn:50442691": [
-   89,
-   "2026-11-10T17:53:44.026163+00:00"
-  ],
-  "hn:50442202": [
-   325,
-   "2026-11-10T17:53:44.026163+00:00"
-  ],
-  "hn:50441707": [
-   205,
-   "2026-11-10T17:53:44.026163+00:00"
-  ],
   "hn:50441518": [
    88,
    "2026-11-10T17:53:44.026163+00:00"
@@ -15147,38 +15149,6 @@
    898,
    "2026-11-20T08:53:54.114053+00:00"
   ],
-  "gh:google-labs-code/stitch-skills": [
-   302,
-   "2026-11-20T09:53:52.354199+00:00"
-  ],
-  "gh:jingyaogong/minimind": [
-   238,
-   "2026-11-20T09:53:52.354199+00:00"
-  ],
-  "gh:openvinotoolkit/openvino": [
-   246,
-   "2026-11-20T09:53:52.354199+00:00"
-  ],
-  "gh:cathrynlavery/diagram-design": [
-   271,
-   "2026-11-20T09:53:52.354199+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   377,
-   "2026-11-20T09:53:52.354199+00:00"
-  ],
-  "gh:toeverything/AFFiNE": [
-   182,
-   "2026-11-20T09:53:52.354199+00:00"
-  ],
-  "hn:50568130": [
-   784,
-   "2026-11-20T09:53:52.354199+00:00"
-  ],
-  "hn:50568082": [
-   264,
-   "2026-11-20T09:53:52.354199+00:00"
-  ],
   "hn:50566261": [
    141,
    "2026-11-20T08:53:54.114053+00:00"
@@ -15191,33 +15161,77 @@
    154,
    "2026-11-20T08:53:54.114053+00:00"
   ],
-  "tg:hacker_news_feed/133969": [
-   171,
-   "2026-11-20T09:53:52.354199+00:00"
+  "hn:50566779": [
+   109,
+   "2026-11-20T08:53:54.114053+00:00"
   ],
-  "hn:50567735": [
-   103,
-   "2026-11-20T09:53:52.354199+00:00"
-  ],
-  "tg:hacker_news_feed/133971": [
-   161,
-   "2026-11-20T09:53:52.354199+00:00"
-  ],
-  "hn:50569516": [
-   113,
-   "2026-11-20T09:53:52.354199+00:00"
-  ],
-  "hn:50568643": [
-   105,
+  "gh:jingyaogong/minimind": [
+   238,
    "2026-11-20T09:53:52.354199+00:00"
   ],
   "hn:50571189": [
    387,
    "2026-11-20T09:53:52.354199+00:00"
   ],
-  "hn:50566779": [
-   109,
-   "2026-11-20T08:53:54.114053+00:00"
+  "gh:google-labs-code/stitch-skills": [
+   302,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "gh:openvinotoolkit/openvino": [
+   246,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "gh:cathrynlavery/diagram-design": [
+   271,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   377,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "gh:toeverything/AFFiNE": [
+   182,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "hn:50568130": [
+   792,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "hn:50568082": [
+   266,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "tg:hacker_news_feed/133969": [
+   173,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "hn:50567735": [
+   103,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "tg:hacker_news_feed/133971": [
+   163,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "hn:50569516": [
+   129,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "hn:50568643": [
+   105,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "lobsters:y8k2n1": [
+   38,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "tg:hacker_news_feed/133975": [
+   151,
+   "2026-11-20T10:53:51.174435+00:00"
+  ],
+  "tg:hacker_news_feed/133976": [
+   165,
+   "2026-11-20T10:53:51.174435+00:00"
   ]
  },
  "skips": {
@@ -15263,7 +15277,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 175,
+  "Hacker News": 176,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -15309,7 +15323,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-20T06:54:01.778398+00:00",
+  "Hacker News": "2026-11-20T10:53:53.017895+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -16500,8 +16514,22 @@
    "votes": {},
    "message_id": 1660,
    "chat_id": -1004399820759
+  },
+  "84": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "PROGRAMMING",
+    "DATABASE"
+   ],
+   "title": "بهینه‌سازی خودکار فضای جداول در نسخه جدید Postgres",
+   "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+   "at": "2026-11-20T10:53:52.565846+00:00",
+   "votes": {},
+   "message_id": 1661,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 84,
+ "next_post_id": 85,
  "last_update_id": 276814748
 }
