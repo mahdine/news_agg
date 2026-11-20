@@ -1,6 +1,5 @@
 {
  "seen": [
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mykltaywc22x",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mykrgjzxxs2y",
   "https://habr.com/ru/articles/1098746/",
   "hn:50213337",
@@ -2999,17 +2998,18 @@
   "gh:HKUDS/CLI-Anything",
   "hn:50571189",
   "gh:jingyaogong/minimind",
-  "hn:50569516"
+  "hn:50569516",
+  "hn:50572430"
  ],
  "posted": {
-  "viral": 885,
+  "viral": 886,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News",
   "Hacker News Feed",
   "GitHub Trending",
   "GitHub Trending",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-13",
@@ -8767,22 +8767,22 @@
     "DATABASE"
    ],
    "at": "2026-11-20T10:53:53.017776+00:00"
+  },
+  {
+   "title": "عملیات محرمانه برای ایمن‌سازی یخچال‌های صنعتی در بریتانیا",
+   "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o",
+   "source": "bbc.co.uk",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.10973,
+   "topics": [
+    "SECURITY",
+    "VULNERABILITY"
+   ],
+   "at": "2026-11-20T11:53:57.168816+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "congress",
-    "democratic",
-    "faces",
-    "former",
-    "hires",
-    "palantir",
-    "scrutiny",
-    "senator"
-   ],
-   "at": "2026-11-10T17:54:22.025751+00:00"
-  },
   {
    "sig": [
     "dns",
@@ -12830,21 +12830,21 @@
    ],
    "at": "2026-11-20T10:53:53.017776+00:00",
    "url": "snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat"
+  },
+  {
+   "sig": [
+    "fridges",
+    "hackers",
+    "nationwide",
+    "operation",
+    "secret",
+    "secured"
+   ],
+   "at": "2026-11-20T11:53:57.168816+00:00",
+   "url": "bbc.co.uk/news/articles/c6eq49zyx7p4o"
   }
  ],
  "snapshots": {
-  "hn:50441518": [
-   88,
-   "2026-11-10T17:53:44.026163+00:00"
-  ],
-  "hn:50439448": [
-   83,
-   "2026-11-10T17:53:44.026163+00:00"
-  ],
-  "hn:50439284": [
-   273,
-   "2026-11-10T17:53:44.026163+00:00"
-  ],
   "hn:50438377": [
    153,
    "2026-11-10T17:53:44.026163+00:00"
@@ -15173,26 +15173,6 @@
    387,
    "2026-11-20T09:53:52.354199+00:00"
   ],
-  "gh:google-labs-code/stitch-skills": [
-   302,
-   "2026-11-20T10:53:51.174435+00:00"
-  ],
-  "gh:openvinotoolkit/openvino": [
-   246,
-   "2026-11-20T10:53:51.174435+00:00"
-  ],
-  "gh:cathrynlavery/diagram-design": [
-   271,
-   "2026-11-20T10:53:51.174435+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   377,
-   "2026-11-20T10:53:51.174435+00:00"
-  ],
-  "gh:toeverything/AFFiNE": [
-   182,
-   "2026-11-20T10:53:51.174435+00:00"
-  ],
   "hn:50568130": [
    792,
    "2026-11-20T10:53:51.174435+00:00"
@@ -15201,37 +15181,69 @@
    266,
    "2026-11-20T10:53:51.174435+00:00"
   ],
-  "tg:hacker_news_feed/133969": [
-   173,
-   "2026-11-20T10:53:51.174435+00:00"
-  ],
   "hn:50567735": [
    103,
-   "2026-11-20T10:53:51.174435+00:00"
-  ],
-  "tg:hacker_news_feed/133971": [
-   163,
    "2026-11-20T10:53:51.174435+00:00"
   ],
   "hn:50569516": [
    129,
    "2026-11-20T10:53:51.174435+00:00"
   ],
-  "hn:50568643": [
-   105,
-   "2026-11-20T10:53:51.174435+00:00"
-  ],
   "lobsters:y8k2n1": [
    38,
    "2026-11-20T10:53:51.174435+00:00"
   ],
+  "gh:google-labs-code/stitch-skills": [
+   315,
+   "2026-11-20T11:53:49.042555+00:00"
+  ],
+  "gh:openvinotoolkit/openvino": [
+   219,
+   "2026-11-20T11:53:49.042555+00:00"
+  ],
+  "gh:cathrynlavery/diagram-design": [
+   271,
+   "2026-11-20T11:53:49.042555+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   377,
+   "2026-11-20T11:53:49.042555+00:00"
+  ],
+  "gh:toeverything/AFFiNE": [
+   182,
+   "2026-11-20T11:53:49.042555+00:00"
+  ],
+  "tg:hacker_news_feed/133969": [
+   174,
+   "2026-11-20T11:53:49.042555+00:00"
+  ],
+  "tg:hacker_news_feed/133971": [
+   163,
+   "2026-11-20T11:53:49.042555+00:00"
+  ],
+  "hn:50568643": [
+   105,
+   "2026-11-20T11:53:49.042555+00:00"
+  ],
   "tg:hacker_news_feed/133975": [
    151,
-   "2026-11-20T10:53:51.174435+00:00"
+   "2026-11-20T11:53:49.042555+00:00"
   ],
   "tg:hacker_news_feed/133976": [
-   165,
-   "2026-11-20T10:53:51.174435+00:00"
+   170,
+   "2026-11-20T11:53:49.042555+00:00"
+  ],
+  "hn:50572503": [
+   302,
+   "2026-11-20T11:53:49.042555+00:00"
+  ],
+  "hn:50572430": [
+   121,
+   "2026-11-20T11:53:49.042555+00:00"
+  ],
+  "hn:50572116": [
+   184,
+   "2026-11-20T11:53:49.042555+00:00"
   ]
  },
  "skips": {
@@ -15277,7 +15289,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 176,
+  "Hacker News": 177,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -15323,7 +15335,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-20T10:53:53.017895+00:00",
+  "Hacker News": "2026-11-20T11:53:57.168958+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -16528,8 +16540,22 @@
    "votes": {},
    "message_id": 1661,
    "chat_id": -1004399820759
+  },
+  "85": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "SECURITY",
+    "VULNERABILITY"
+   ],
+   "title": "عملیات محرمانه برای ایمن‌سازی یخچال‌های صنعتی در بریتانیا",
+   "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o",
+   "at": "2026-11-20T11:53:56.742068+00:00",
+   "votes": {},
+   "message_id": 1662,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 85,
+ "next_post_id": 86,
  "last_update_id": 276814748
 }
