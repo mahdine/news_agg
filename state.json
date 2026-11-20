@@ -1,6 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynzsqt7yg2c",
   "hn:50229587",
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myoydwmvle2o",
   "hn:50230181",
@@ -2999,18 +2998,19 @@
   "gh:zhouxiaoka/autoclip",
   "tg:hacker_news_feed/133983",
   "tg:hacker_news_feed/133985",
-  "hn:50572348"
+  "hn:50572348",
+  "hn:50575644"
  ],
  "posted": {
-  "viral": 890,
+  "viral": 891,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News",
   "Hacker News Feed",
   "Lobsters",
   "GitHub Trending",
-  "Hacker News Feed"
+  "Hacker News Feed",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4537,20 +4537,23 @@
     "LLM"
    ],
    "at": "2026-11-20T15:54:09.279460+00:00"
+  },
+  {
+   "title": "محدودیت‌های اپل برای استفاده از موتورهای مرورگر غیر از WebKit در iOS",
+   "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
+   "source": "blog.mozilla.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.23502,
+   "topics": [
+    "TECH",
+    "APPLE",
+    "BROWSER"
+   ],
+   "at": "2026-11-20T16:53:57.704614+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "findings",
-    "glasswing",
-    "maintainers",
-    "months",
-    "overwelms",
-    "underwhelming"
-   ],
-   "at": "2026-11-11T01:54:25.385968+00:00"
-  },
   {
    "sig": [
     "available",
@@ -8597,33 +8600,20 @@
    ],
    "at": "2026-11-20T15:54:09.279460+00:00",
    "url": "signal.org/blog/protecting-your-privacy"
+  },
+  {
+   "sig": [
+    "browsers",
+    "ios",
+    "non-webkit",
+    "still",
+    "there"
+   ],
+   "at": "2026-11-20T16:53:57.704614+00:00",
+   "url": "blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules"
   }
  ],
  "snapshots": {
-  "hn:50442303": [
-   576,
-   "2026-11-11T02:53:40.727231+00:00"
-  ],
-  "hn:50444684": [
-   152,
-   "2026-11-11T02:53:40.727231+00:00"
-  ],
-  "hn:50443812": [
-   438,
-   "2026-11-11T02:53:40.727231+00:00"
-  ],
-  "hn:50443714": [
-   89,
-   "2026-11-11T02:53:40.727231+00:00"
-  ],
-  "hn:50443090": [
-   337,
-   "2026-11-11T02:53:40.727231+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzyd7r6ttc24": [
-   122,
-   "2026-11-11T02:53:40.727231+00:00"
-  ],
   "hn:50442426": [
    583,
    "2026-11-11T03:53:46.380396+00:00"
@@ -10928,68 +10918,8 @@
    141,
    "2026-11-20T14:54:02.602456+00:00"
   ],
-  "gh:google-labs-code/stitch-skills": [
-   315,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "gh:openvinotoolkit/openvino": [
-   219,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "gh:cathrynlavery/diagram-design": [
-   634,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   874,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "gh:toeverything/AFFiNE": [
-   686,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "tg:hacker_news_feed/133971": [
-   164,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "tg:hacker_news_feed/133975": [
-   151,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "tg:hacker_news_feed/133976": [
-   176,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "hn:50573087": [
-   277,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "tg:hacker_news_feed/133981": [
-   151,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "gh:nginx/nginx": [
-   246,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "hn:50572448": [
-   197,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "hn:50573886": [
-   190,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
   "hn:50572348": [
    293,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "lobsters:hneb5m": [
-   41,
-   "2026-11-20T15:54:06.610027+00:00"
-  ],
-  "hn:50574383": [
-   236,
    "2026-11-20T15:54:06.610027+00:00"
   ],
   "tg:hacker_news_feed/133983": [
@@ -10999,6 +10929,90 @@
   "tg:hacker_news_feed/133985": [
    153,
    "2026-11-20T15:54:06.610027+00:00"
+  ],
+  "gh:google-labs-code/stitch-skills": [
+   315,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "gh:openvinotoolkit/openvino": [
+   219,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "gh:cathrynlavery/diagram-design": [
+   634,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   874,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "gh:toeverything/AFFiNE": [
+   686,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "tg:hacker_news_feed/133971": [
+   164,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "tg:hacker_news_feed/133975": [
+   151,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "tg:hacker_news_feed/133976": [
+   176,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "hn:50573087": [
+   291,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "tg:hacker_news_feed/133981": [
+   152,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "gh:nginx/nginx": [
+   246,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "hn:50572448": [
+   225,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "hn:50573886": [
+   319,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "lobsters:hneb5m": [
+   46,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "hn:50574383": [
+   394,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "hn:50576855": [
+   358,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "hn:50575644": [
+   211,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "lobsters:cmifpg": [
+   45,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "lobsters:vo5jve": [
+   27,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "lobsters:hcahbx": [
+   28,
+   "2026-11-20T16:53:54.387311+00:00"
+  ],
+  "tg:hacker_news_feed/133986": [
+   180,
+   "2026-11-20T16:53:54.387311+00:00"
   ]
  },
  "skips": {
@@ -11044,7 +11058,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 177,
+  "Hacker News": 178,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11090,7 +11104,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-20T11:53:57.168958+00:00",
+  "Hacker News": "2026-11-20T16:53:57.704737+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -12364,8 +12378,23 @@
    "votes": {},
    "message_id": 1667,
    "chat_id": -1004399820759
+  },
+  "90": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "TECH",
+    "APPLE",
+    "BROWSER"
+   ],
+   "title": "محدودیت‌های اپل برای استفاده از موتورهای مرورگر غیر از WebKit در iOS",
+   "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
+   "at": "2026-11-20T16:53:57.364417+00:00",
+   "votes": {},
+   "message_id": 1668,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 90,
+ "next_post_id": 91,
  "last_update_id": 276814748
 }
