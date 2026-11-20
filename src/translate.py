@@ -248,3 +248,61 @@ def _split(out: str) -> tuple[str, str, str, list[str]]:
     if not body:
         return "", title, tag, topics
     return title, body, tag, topics
+
+
+# ── ترجمه‌ی کامل (درخواست کاربر) ────────────────────────────────────
+
+FULL_PROMPT = """\
+متن زیر یک خبر یا مقاله‌ی تکنولوژی است به زبان اصلی. خروجی تو ترجمه‌ی
+فارسیِ کاملِ تمامِ متن است — نه خلاصه.
+
+قواعد:
+- پاراگراف به پاراگراف ترجمه کن و شکست‌های پاراگراف متن اصلی را حفظ کن.
+- اصطلاحات فنی، نام محصولات، شرکت‌ها و کد را به لاتین نگه دار.
+- چیزی اضافه یا کم نکن: نه مقدمه، نه جمع‌بندی، نه «در این خبر آمده است».
+- اعداد، درصد، تاریخ و نام‌ها را دقیق نگه دار.
+- فارسی روان و رسمی، نه ماشینی و خشک.
+
+متن:
+---
+{text}
+---"""
+
+
+def translate_full(text: str, api_key: str, models: list[str], client: httpx.Client) -> str | None:
+    """ترجمه‌ی کامل متن، با همان زنجیره‌ی fallback مدل‌های summarize.
+
+    TranslationError اگر هیچ مدلی جواب نداد (شلوغ ماند / سهمیه تمام).
+    """
+    payload = {
+        "contents": [{"parts": [{"text": FULL_PROMPT.format(text=text[:8000])}]}],
+        "generationConfig": {"temperature": 0.2, "maxOutputTokens": 8192},
+    }
+
+    errors = []
+    for model in models:
+        resp = _ask(model, payload, api_key, client)
+        if resp is None:
+            errors.append(f"{model}: شلوغ")
+            continue
+        if resp.status_code == EXHAUSTED:
+            log.info("سهمیه‌ی %s تمام شد، مدل بعدی", model)
+            errors.append(f"{model}: سهمیه تمام")
+            continue
+        if resp.status_code != 200:
+            errors.append(f"{model}: {resp.status_code} {resp.text[:120]}")
+            continue
+        candidates = resp.json().get("candidates") or []
+        if not candidates:
+            errors.append(f"{model}: پاسخ خالی")
+            continue
+        out = "".join(
+            p.get("text", "") for p in candidates[0].get("content", {}).get("parts") or []
+        ).strip()
+        if not out:
+            errors.append(f"{model}: خروجی خالی")
+            continue
+        log.info("ترجمه‌ی کامل با %s", model)
+        return out
+
+    raise TranslationError(" | ".join(errors) or "هیچ مدلی امتحان نشد")

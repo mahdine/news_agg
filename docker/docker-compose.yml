@@ -1,0 +1,27 @@
+# worker زندهٔ news_agg — پروژه‌ی جدا از tg-media-bot:
+# image، container، .env و data همگی جدا؛ هیچ وابستگی به آن نیست.
+#
+# استفاده (داخل WSL):
+#   cd /home/mahdi/news-live
+#   git pull
+#   bash docker/bootstrap.sh                      # فقط بار اول
+#   docker compose -f docker/docker-compose.yml up -d --build live
+#   docker logs -f newsagg-live
+
+services:
+  live:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: newsagg-live
+    container_name: newsagg-live
+    restart: unless-stopped
+    env_file:
+      - ../.env
+    environment:
+      LIVE_REPO_DIR: /repo
+      LIVE_DATA_DIR: /data
+      PAGES_BASE_URL: https://mahdine.github.io/news_agg
+    volumes:
+      - ./repo:/repo
+      - ./data:/data

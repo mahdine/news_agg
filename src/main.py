@@ -77,16 +77,19 @@ def main() -> int:
     state.backfill(config)
 
     with httpx.Client(timeout=30, follow_redirects=True) as client:
-        # اول رأی‌های بین اجراها را جمع می‌کنیم (دکمه‌های پست‌های قبلی).
-        # این کار state را هم‌ساعت ذخیره می‌کند تا اگر اجرای بعد crash بخورد،
-        # رأی‌ها گم نشوند — تلگرام update را بعد از getUpdates اول نگه نمی‌دارد.
+        # بازخورد (واکنش/رأی/نظّم) را worker زنده به‌صورت مداوم جمع می‌کند
+        # و در live/feedback.json push می‌کند. اینجا آخرین snapshot را پیش از
+        # رتبه‌بندی و scorecard روی state overlay می‌کنیم. اجرای Actions دیگر
+        # getUpdates نمی‌زند، پس update بین دو مصرف‌کننده شکسته نمی‌شود.
         bot_username = ""
         channel_id = None
         if token:
             bot_username = telegram.get_username(token, client)
             channel_id = telegram.get_chat_id(channel, token, client)
         if not args.dry_run:
-            telegram.drain_feedback(token, client, state)
+            applied = state.apply_live_feedback(ROOT / "live" / "feedback.json")
+            if applied:
+                log.info("بازخورد زنده روی %d پست overlay شد", applied)
             state.save()
 
         items = collect(config.get("sources", []), client)

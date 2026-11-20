@@ -1,0 +1,40 @@
+name: iv-deploy
+
+# worker زنده وقتی صفحه‌ی ترجمه‌ی کامل (iv/*.html) push می‌کند، سایت باید
+# ظرف چند دقیقه deploy شود تا لینکی که در تلگرام فرستاده شده باز شود.
+# ساختار سایت با publish.yml یکسان است: scorecard به‌عنوان index + صفحات iv/.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "iv/**"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: stage site
+        run: |
+          mkdir site
+          cp scorecard.html site/index.html
+          mkdir -p site/iv
+          cp iv/*.html site/iv/ 2>/dev/null || true
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - uses: actions/deploy-pages@v4

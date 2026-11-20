@@ -371,6 +371,38 @@ class State:
         post["reaction_counts"] = counts
         return True
 
+    def apply_live_feedback(self, path) -> int:
+        """snapshot بازخورد worker زنده (live/feedback.json) را روی posts overlay می‌کند.
+
+        worker همیشگی updateهای تلگرام را بلافاصله می‌بیند و رأی‌ها و
+        شمارش واکنش‌ها را در snapshot جمع می‌کند و push می‌کند. هر اجرا
+        پیش از رتبه‌بندی و scorecard آخرین snapshot را اینجا اعمال می‌کند.
+        جایگزین کامل درست است: worker همیشه روی تازه‌ترین state.json
+        شروع کرده و تنها نویسنده‌ی این فیلدهاست.
+        """
+        path = Path(path)
+        if not path.exists():
+            return 0
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            log.warning("snapshot بازخورد خوانده نشد: %s", exc)
+            return 0
+        n = 0
+        for pid, fb in (data.get("posts") or {}).items():
+            post = self.posts.get(str(pid))
+            if post is None:
+                continue
+            if isinstance(fb.get("votes"), dict):
+                post["votes"] = dict(fb["votes"])
+            if isinstance(fb.get("reaction_counts"), dict):
+                post["reaction_counts"] = {k: int(v) for k, v in fb["reaction_counts"].items() if v}
+            if isinstance(fb.get("poll_counts"), dict):
+                post["poll_counts"] = {k: int(v) for k, v in fb["poll_counts"].items() if v}
+            n += 1
+        self.last_update_id = max(self.last_update_id, int(data.get("last_update_id", 0)))
+        return n
+
     def find_pid_by_poll(self, poll_id: str | None) -> str | None:
         """pid پستی که نظّمش با این poll_id است."""
         if not poll_id:

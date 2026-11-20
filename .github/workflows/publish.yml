@@ -95,11 +95,15 @@ jobs:
 
       # deploy همان scorecard تازه‌ی تولیدشده در این اجرا به GitHub Pages.
       # مستقیم داخل همین workflow است (نه workflow جدا): هر اجرا scorecard
-      # دارد، پس deploy هم دقیقاً همان لحظه و بدون وابستگی به trigger push.
+      # دارد، پس deploy هم دقیقا‌ همان لحظه و بدون وابستگی به trigger push.
       - name: stage site
         run: |
           mkdir site
           cp scorecard.html site/index.html
+          # صفحات ترجمه‌ی کامل (worker در iv/ منتشر می‌کند) نباید در
+          # deploy ساعتی از سایت ریزند — iv-deploy.yml همان ساختار را دارد.
+          mkdir -p site/iv
+          cp iv/*.html site/iv/ 2>/dev/null || true
 
       - uses: actions/configure-pages@v5
 
