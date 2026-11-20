@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://www.neowin.net/news/apple-makes-it-easier-to-identify-iphone-duo-apps-on-the-app-store/",
   "rapuEnHrrAWLoj9AGDJEz3",
   "https://www.theverge.com/?p=1017667",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mykogzc2ls2r",
@@ -2999,18 +2998,19 @@
   "tg:hacker_news_feed/133963",
   "tg:hacker_news_feed/133966",
   "tg:hacker_news_feed/133972",
-  "hn:50570479"
+  "hn:50570479",
+  "gh:HKUDS/CLI-Anything"
  ],
  "posted": {
-  "viral": 882,
+  "viral": 883,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News",
   "GitHub Trending",
   "GitHub Trending",
   "Hacker News",
-  "Hacker News Feed"
+  "Hacker News Feed",
+  "GitHub Trending"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -8728,19 +8728,22 @@
     "PRIVACY"
    ],
    "at": "2026-11-20T07:53:52.026965+00:00"
+  },
+  {
+   "title": "پروژه CLI-Anything برای تعامل هوش مصنوعی با نرم‌افزارهای دسکتاپ",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "source": "github.com",
+   "label": "GitHub Trending",
+   "pool": "viral",
+   "score": 0.09664,
+   "topics": [
+    "AI",
+    "PYTHON"
+   ],
+   "at": "2026-11-20T08:53:57.094200+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "devices",
-    "future",
-    "hacking",
-    "local",
-    "open-weight"
-   ],
-   "at": "2026-11-10T17:53:48.556625+00:00"
-  },
   {
    "sig": [
     "anything",
@@ -12775,17 +12778,27 @@
    ],
    "at": "2026-11-20T07:53:52.026965+00:00",
    "url": "grapheneos.social/@grapheneos/117645038299496084"
+  },
+  {
+   "sig": [
+    "agent-native",
+    "cli-anything",
+    "cli-hub",
+    "clianything.cc",
+    "hkuds",
+    "https",
+    "making",
+    "python",
+    "software",
+    "stars",
+    "today",
+    "total"
+   ],
+   "at": "2026-11-20T08:53:57.094200+00:00",
+   "url": "github.com/hkuds/cli-anything"
   }
  ],
  "snapshots": {
-  "hn:50439000": [
-   179,
-   "2026-11-10T14:53:48.956138+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxnpsucf62f": [
-   393,
-   "2026-11-10T17:53:44.026163+00:00"
-  ],
   "hn:50442691": [
    89,
    "2026-11-10T17:53:44.026163+00:00"
@@ -15094,89 +15107,97 @@
    127,
    "2026-11-20T06:53:58.550511+00:00"
   ],
-  "gh:HKUDS/CLI-Anything": [
-   898,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "gh:google-labs-code/stitch-skills": [
-   302,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "gh:jingyaogong/minimind": [
-   238,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "gh:openvinotoolkit/openvino": [
-   246,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "gh:cathrynlavery/diagram-design": [
-   271,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   377,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "gh:toeverything/AFFiNE": [
-   182,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "hn:50568130": [
-   759,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "hn:50568082": [
-   256,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "hn:50566261": [
-   132,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
   "tg:hacker_news_feed/133963": [
    201,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "tg:hacker_news_feed/133964": [
-   157,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "tg:hacker_news_feed/133965": [
-   154,
    "2026-11-20T07:53:48.348512+00:00"
   ],
   "tg:hacker_news_feed/133966": [
    162,
    "2026-11-20T07:53:48.348512+00:00"
   ],
-  "tg:hacker_news_feed/133969": [
-   168,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "hn:50567735": [
-   100,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "tg:hacker_news_feed/133971": [
-   158,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
   "hn:50570479": [
    473,
-   "2026-11-20T07:53:48.348512+00:00"
-  ],
-  "hn:50569516": [
-   85,
    "2026-11-20T07:53:48.348512+00:00"
   ],
   "tg:hacker_news_feed/133972": [
    179,
    "2026-11-20T07:53:48.348512+00:00"
   ],
+  "gh:HKUDS/CLI-Anything": [
+   898,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "gh:google-labs-code/stitch-skills": [
+   302,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "gh:jingyaogong/minimind": [
+   238,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "gh:openvinotoolkit/openvino": [
+   246,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "gh:cathrynlavery/diagram-design": [
+   271,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   377,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "gh:toeverything/AFFiNE": [
+   182,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "hn:50568130": [
+   767,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "hn:50568082": [
+   260,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "hn:50566261": [
+   141,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "tg:hacker_news_feed/133964": [
+   158,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "tg:hacker_news_feed/133965": [
+   154,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "tg:hacker_news_feed/133969": [
+   169,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "hn:50567735": [
+   101,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "tg:hacker_news_feed/133971": [
+   158,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "hn:50569516": [
+   99,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
   "hn:50568643": [
    102,
-   "2026-11-20T07:53:48.348512+00:00"
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "hn:50571189": [
+   203,
+   "2026-11-20T08:53:54.114053+00:00"
+  ],
+  "hn:50566779": [
+   109,
+   "2026-11-20T08:53:54.114053+00:00"
   ]
  },
  "skips": {
@@ -15249,7 +15270,7 @@
   "Google AI": 1,
   "Rest of World": 1,
   "LangChain Blog": 1,
-  "GitHub Trending": 7,
+  "GitHub Trending": 8,
   "Hacker News Feed": 11
  },
  "last_post": {
@@ -15295,7 +15316,7 @@
   "Google AI": "2026-11-06T04:54:24.190387+00:00",
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
-  "GitHub Trending": "2026-11-20T05:54:06.684494+00:00",
+  "GitHub Trending": "2026-11-20T08:53:57.094323+00:00",
   "Hacker News Feed": "2026-11-20T07:53:52.027069+00:00"
  },
  "posts": {
@@ -16431,8 +16452,22 @@
    "votes": {},
    "message_id": 1658,
    "chat_id": -1004399820759
+  },
+  "82": {
+   "label": "GitHub Trending",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "PYTHON"
+   ],
+   "title": "پروژه CLI-Anything برای تعامل هوش مصنوعی با نرم‌افزارهای دسکتاپ",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "at": "2026-11-20T08:53:56.667680+00:00",
+   "votes": {},
+   "message_id": 1659,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 82,
+ "next_post_id": 83,
  "last_update_id": 276814748
 }
