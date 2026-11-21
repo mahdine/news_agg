@@ -1,7 +1,5 @@
 {
  "seen": [
-  "https://www.engadget.com/2293248/how-much-playstation-plus-cost-2010-vs-2026/",
-  "https://9to5mac.com/?p=1075634",
   "Ep6fsYRTRinQZBa7LtJ42M",
   "f211f4d7dfaa46ed93cd750d7bc8e12e",
   "https://www.techspot.com/news/114323-only-one-person-world-can-play-free-steam.html",
@@ -2999,18 +2997,20 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2t6nh2a5m2t",
   "tg:hacker_news_feed/134017",
   "tg:hacker_news_feed/134018",
-  "hn:50587875"
+  "hn:50587875",
+  "hn:50588436",
+  "hn:50588916"
  ],
  "posted": {
-  "viral": 906,
+  "viral": 907,
   "editorial": 1076
  },
  "recent_labels": [
   "Hacker News Feed",
-  "Hacker News Feed",
   "Hacker News",
   "Hacker News Feed",
-  "Hacker News Feed"
+  "Hacker News Feed",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4744,22 +4744,23 @@
     "HARDWARE"
    ],
    "at": "2026-11-21T15:54:08.281836+00:00"
+  },
+  {
+   "title": "شکست مدل‌های زبانی در آزمون استدلال انسانی SimpleBench",
+   "url": "https://simple-bench.com/",
+   "source": "simple-bench.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.12539,
+   "topics": [
+    "AI",
+    "LLM",
+    "CHATBOT"
+   ],
+   "at": "2026-11-21T16:55:50.502358+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "coming",
-    "fold",
-    "foldable",
-    "galaxy",
-    "motorola",
-    "officially",
-    "razr",
-    "wide"
-   ],
-   "at": "2026-11-11T05:54:23.447100+00:00"
-  },
   {
    "sig": [
     "ai-powered",
@@ -8805,13 +8806,21 @@
    ],
    "at": "2026-11-21T15:54:08.281836+00:00",
    "url": "blog.tymscar.com/posts/studiodisplayethernet"
+  },
+  {
+   "sig": [
+    "6.2",
+    "astra",
+    "bench",
+    "flop",
+    "simple",
+    "sol"
+   ],
+   "at": "2026-11-21T16:55:50.502358+00:00",
+   "url": "simple-bench.com"
   }
  ],
  "snapshots": {
-  "hn:50459321": [
-   1258,
-   "2026-11-12T09:53:42.744847+00:00"
-  ],
   "hn:50462613": [
    155,
    "2026-11-12T09:53:42.744847+00:00"
@@ -11148,65 +11157,69 @@
    183,
    "2026-11-21T14:54:08.434022+00:00"
   ],
-  "gh:google-labs-code/stitch-skills": [
-   324,
-   "2026-11-21T15:54:05.811771+00:00"
-  ],
-  "gh:openvinotoolkit/openvino": [
-   202,
-   "2026-11-21T15:54:05.811771+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   724,
-   "2026-11-21T15:54:05.811771+00:00"
-  ],
-  "gh:nginx/nginx": [
-   195,
-   "2026-11-21T15:54:05.811771+00:00"
-  ],
-  "tg:hacker_news_feed/134010": [
-   165,
-   "2026-11-21T15:54:05.811771+00:00"
-  ],
-  "hn:50586292": [
-   200,
-   "2026-11-21T15:54:05.811771+00:00"
-  ],
-  "tg:hacker_news_feed/134013": [
-   150,
-   "2026-11-21T15:54:05.811771+00:00"
-  ],
-  "tg:hacker_news_feed/134016": [
-   154,
-   "2026-11-21T15:54:05.811771+00:00"
-  ],
-  "hn:50588982": [
-   385,
-   "2026-11-21T15:54:05.811771+00:00"
-  ],
-  "hn:50588436": [
-   307,
-   "2026-11-21T15:54:05.811771+00:00"
-  ],
   "hn:50587875": [
    333,
-   "2026-11-21T15:54:05.811771+00:00"
-  ],
-  "hn:50589618": [
-   230,
-   "2026-11-21T15:54:05.811771+00:00"
-  ],
-  "hn:50588916": [
-   167,
    "2026-11-21T15:54:05.811771+00:00"
   ],
   "tg:hacker_news_feed/134018": [
    154,
    "2026-11-21T15:54:05.811771+00:00"
   ],
+  "gh:google-labs-code/stitch-skills": [
+   324,
+   "2026-11-21T16:53:59.911898+00:00"
+  ],
+  "gh:openvinotoolkit/openvino": [
+   202,
+   "2026-11-21T16:53:59.911898+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   724,
+   "2026-11-21T16:53:59.911898+00:00"
+  ],
+  "gh:nginx/nginx": [
+   195,
+   "2026-11-21T16:53:59.911898+00:00"
+  ],
+  "tg:hacker_news_feed/134010": [
+   165,
+   "2026-11-21T16:53:59.911898+00:00"
+  ],
+  "hn:50586292": [
+   206,
+   "2026-11-21T16:53:59.911898+00:00"
+  ],
+  "tg:hacker_news_feed/134013": [
+   150,
+   "2026-11-21T16:53:59.911898+00:00"
+  ],
+  "tg:hacker_news_feed/134016": [
+   154,
+   "2026-11-21T16:53:59.911898+00:00"
+  ],
+  "hn:50588982": [
+   529,
+   "2026-11-21T16:53:59.911898+00:00"
+  ],
+  "hn:50588436": [
+   331,
+   "2026-11-21T16:53:59.911898+00:00"
+  ],
+  "hn:50589618": [
+   654,
+   "2026-11-21T16:53:59.911898+00:00"
+  ],
+  "hn:50588916": [
+   261,
+   "2026-11-21T16:53:59.911898+00:00"
+  ],
   "tg:hacker_news_feed/134019": [
-   157,
-   "2026-11-21T15:54:05.811771+00:00"
+   159,
+   "2026-11-21T16:53:59.911898+00:00"
+  ],
+  "tg:hacker_news_feed/134021": [
+   156,
+   "2026-11-21T16:53:59.911898+00:00"
   ]
  },
  "skips": {
@@ -11215,7 +11228,7 @@
   "Wired": 29,
   "TechRadar": 9,
   "Lobsters": 8,
-  "Hacker News": 55,
+  "Hacker News": 56,
   "The Next Web": 1,
   "404 Media": 21,
   "Emily M. Bender": 8,
@@ -11252,7 +11265,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 182,
+  "Hacker News": 183,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11298,7 +11311,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-21T12:54:00.289994+00:00",
+  "Hacker News": "2026-11-21T16:55:50.502463+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -12797,9 +12810,27 @@
    "at": "2026-11-21T15:54:07.860134+00:00",
    "votes": {},
    "message_id": 1683,
+   "chat_id": -1004399820759,
+   "reaction_counts": {
+    "👎": 1
+   }
+  },
+  "106": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM",
+    "CHATBOT"
+   ],
+   "title": "شکست مدل‌های زبانی در آزمون استدلال انسانی SimpleBench",
+   "url": "https://simple-bench.com/",
+   "at": "2026-11-21T16:55:49.926216+00:00",
+   "votes": {},
+   "message_id": 1684,
    "chat_id": -1004399820759
   }
  },
- "next_post_id": 106,
- "last_update_id": 276814756
+ "next_post_id": 107,
+ "last_update_id": 276814760
 }
