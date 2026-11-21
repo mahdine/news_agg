@@ -36,6 +36,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 import httpx
+import html as html_mod
 import yaml
 
 from . import article, images, ivpage, telegram, translate
@@ -75,7 +76,7 @@ BAD_T_MSG = "بعد از /t یا شماره‌ی پست یا لینک کامل �
 FETCH_FAIL_MSG = "متن کامل را نمی‌شود گرفت (paywall، چالش جاوااسکریپت، یا صفحه خراب است).\nمقاله‌ی اصلی: {url}"
 TRANSLATE_FAIL_MSG = "ترجمه فعلاً نشد (مدل‌ها مشغول‌اند یا سهمیه تمام شده).\nمقاله‌ی اصلی: {url}"
 ERROR_MSG = "یه چیزی دراز و کوتاه شد. بعداً دوباره امتحان کن."
-DONE_MSG = "📄 ترجمه‌ی کامل:\n{url}"
+DONE_MSG = "📄 ترجمه‌ی کامل:\n<a href=\"{url}\">{title}</a>"
 
 GREETING = (
     "سلام! پستی که می‌خواهی متن کاملش را بخوانی را برایم forward کن، "
@@ -220,14 +221,15 @@ class LiveWorker:
         return self.state
 
     # ── تلگرام ─────────────────────────────────────────────────────
-    def _send(self, chat_id, text: str, client: httpx.Client | None = None) -> None:
+    def _send(self, chat_id, text: str, client: httpx.Client | None = None,
+              parse_mode: str | None = None) -> None:
         if not chat_id:
             return
+        payload: dict = {"chat_id": chat_id, "text": text}
+        if parse_mode:
+            payload["parse_mode"] = parse_mode
         try:
-            telegram._call(
-                "sendMessage", {"chat_id": chat_id, "text": text},
-                self.token, client or self.client,
-            )
+            telegram._call("sendMessage", payload, self.token, client or self.client)
         except telegram.TelegramError as exc:
             log.warning("پیام نرفت: %s", exc)
 
@@ -419,7 +421,14 @@ class LiveWorker:
         # اگر قبلا‌ ترجمه شده، فقط لینکِ موجود می‌رود — سهمیه نمی‌سوزد.
         cached = self._cache.get(key)
         if cached and cached.get("url") == url:
-            self._send(chat_id, DONE_MSG.format(url=iv_link(ivpage.page_url(PAGES_BASE, key))), client)
+            self._send(
+                chat_id,
+                DONE_MSG.format(
+                    url=iv_link(ivpage.page_url(PAGES_BASE, key)),
+                    title=html_mod.escape(title or "مقاله"),
+                ),
+                parse_mode="HTML",
+            )
             return
 
         full = article.fetch_full(url, client)
@@ -439,6 +448,10 @@ class LiveWorker:
         if not translated:
             self._send(chat_id, TRANSLATE_FAIL_MSG.format(url=url), client)
             return
+        # خط اولِ قرارداد = عنوان فارسیِ خود مقاله (نه تیتر خلاصه‌ی خبر).
+        iv_title, translated = translate.split_full_text(translated)
+        if iv_title:
+            title = iv_title
 
         rel = f"iv/{ivpage.page_filename(key)}"
         page = ivpage.build_page(title, label, date_str, url, translated, cover)
@@ -453,10 +466,20 @@ class LiveWorker:
 
         page_url = ivpage.page_url(PAGES_BASE, key)
         # لینک قطعی است ولی deploy چند دقیقه طول می‌کشد؛ منتظر 200 می‌مانیم.
+        # متن نمایشی = عنوان مقاله؛ خود لینک (t.me/iv) داخل هایپرلینک پنهان است.
         if self._wait_ready(page_url, client):
-            self._send(chat_id, DONE_MSG.format(url=iv_link(page_url)), client)
+            self._send(
+                chat_id,
+                DONE_MSG.format(url=iv_link(page_url), title=html_mod.escape(title or "مقاله")),
+                parse_mode="HTML",
+            )
         else:
-            self._send(chat_id, f"صفحه در حال انتشار است؛ اگر باز نشد یک دقیقه صبر کن:\n{iv_link(page_url)}", client)
+            self._send(
+                chat_id,
+                "صفحه در حال انتشار است؛ اگر باز نشد یک دقیقه صبر کن:\n"
+                + DONE_MSG.format(url=iv_link(page_url), title=html_mod.escape(title or "مقاله")),
+                parse_mode="HTML",
+            )
 
     def _wait_ready(self, page_url: str, client: httpx.Client) -> bool:
         deadline = time.time() + PAGE_WAIT_SECONDS
