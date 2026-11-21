@@ -228,7 +228,10 @@ class LiveWorker:
         return result if isinstance(result, list) else []
 
     def handle_update(self, update: dict) -> None:
-        self.offset = max(self.offset, update.get("update_id", 0))
+        # سمانتیکِ offset ما = «offset بعدی برای getUpdates» = update_id + 1.
+        # بدون این +1 تلگرام همان update را بارها برمی‌گرداند و worker هر
+        # response را بی‌نهایت تکرار می‌کند (اسپم ۲۰۲۶-۱۱-۲۱).
+        self.offset = max(self.offset, update.get("update_id", 0) + 1)
         self._save_offset()
         if m := update.get("message"):
             self._handle_message(m)
@@ -470,7 +473,9 @@ class LiveWorker:
                 posts[pid] = fb
         snapshot = {
             "at": datetime.now(timezone.utc).isoformat(),
-            "last_update_id": self.offset,
+            # همان سمانتیکِ اجرای قدیمی: آخرین update_idِ پردازش‌شده
+            # (offset ما = بعدی، پس یک کم می‌کنیم).
+            "last_update_id": self.offset - 1,
             "posts": posts,
         }
         try:
@@ -493,7 +498,8 @@ class LiveWorker:
         self.refresh_state(force=True)
         if self.offset == 0 and self.state:
             # اولین اجرا: از جایی که اجرای ساعتی رسیده ادامه بده.
-            self.offset = self.state.last_update_id
+            # state.last_update_id = آخرین id پردازش‌شده؛ offset ما = بعدی.
+            self.offset = self.state.last_update_id + 1
         self._save_offset()
 
         while True:
