@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://www.phoronix.com/news/Linux-7.4-MM",
   "255cfb8133ccc74cbe511f27b791764a",
   "TheNextWeb=3d8f7495cee95b7421c9abab26d98df4",
   "https://www.androidpolice.com/fitbit-air-apple-watch-borrow-features/",
@@ -2999,17 +2998,18 @@
   "hn:50581110",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2scymsbas2s",
   "tg:hacker_news_feed/134009",
-  "hn:50585376"
+  "hn:50585376",
+  "hn:50583856"
  ],
  "posted": {
-  "viral": 900,
+  "viral": 901,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News Feed",
   "Hacker News",
   "Hacker News Feed",
   "Hacker News Feed",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-20",
@@ -4664,17 +4664,23 @@
     "PROGRAMMING"
    ],
    "at": "2026-11-21T08:53:47.023722+00:00"
+  },
+  {
+   "title": "حمله سایبری سنگین توسط هکرهای متمول",
+   "url": "https://www.ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411",
+   "source": "ruv.is",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.01566,
+   "topics": [
+    "SECURITY",
+    "BREACH",
+    "MALWARE"
+   ],
+   "at": "2026-11-21T09:54:18.414631+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "deleted",
-    "keys",
-    "ssh"
-   ],
-   "at": "2026-11-11T04:53:49.702129+00:00"
-  },
   {
    "sig": [
     "game-programming",
@@ -8735,13 +8741,21 @@
    ],
    "at": "2026-11-21T08:53:47.023722+00:00",
    "url": "eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain"
+  },
+  {
+   "sig": [
+    "backed",
+    "cyberattack",
+    "operators",
+    "serious",
+    "thought",
+    "wealthy"
+   ],
+   "at": "2026-11-21T09:54:18.414631+00:00",
+   "url": "ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411"
   }
  ],
  "snapshots": {
-  "hn:50455633": [
-   223,
-   "2026-11-12T02:53:46.535645+00:00"
-  ],
   "hn:50455332": [
    310,
    "2026-11-12T02:53:46.535645+00:00"
@@ -11046,22 +11060,6 @@
    155,
    "2026-11-21T06:53:57.583965+00:00"
   ],
-  "gh:google-labs-code/stitch-skills": [
-   315,
-   "2026-11-21T08:53:45.059487+00:00"
-  ],
-  "gh:openvinotoolkit/openvino": [
-   217,
-   "2026-11-21T08:53:45.059487+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   869,
-   "2026-11-21T08:53:45.059487+00:00"
-  ],
-  "gh:nginx/nginx": [
-   246,
-   "2026-11-21T08:53:45.059487+00:00"
-  ],
   "hn:50581438": [
    571,
    "2026-11-21T07:53:52.194655+00:00"
@@ -11086,6 +11084,14 @@
    176,
    "2026-11-21T07:53:52.194655+00:00"
   ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2scymsbas2s": [
+   25,
+   "2026-11-21T07:53:52.194655+00:00"
+  ],
+  "tg:hacker_news_feed/134009": [
+   183,
+   "2026-11-21T07:53:52.194655+00:00"
+  ],
   "tg:hacker_news_feed/134000": [
    175,
    "2026-11-21T08:53:45.059487+00:00"
@@ -11098,45 +11104,57 @@
    176,
    "2026-11-21T08:53:45.059487+00:00"
   ],
-  "tg:hacker_news_feed/134003": [
-   152,
-   "2026-11-21T08:53:45.059487+00:00"
-  ],
-  "tg:hacker_news_feed/134004": [
-   176,
-   "2026-11-21T08:53:45.059487+00:00"
-  ],
-  "hn:50583768": [
-   134,
-   "2026-11-21T08:53:45.059487+00:00"
-  ],
-  "hn:50583877": [
-   93,
-   "2026-11-21T08:53:45.059487+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2scymsbas2s": [
-   25,
-   "2026-11-21T07:53:52.194655+00:00"
-  ],
-  "hn:50583856": [
-   153,
-   "2026-11-21T08:53:45.059487+00:00"
-  ],
   "hn:50582280": [
    65,
-   "2026-11-21T08:53:45.059487+00:00"
-  ],
-  "tg:hacker_news_feed/134009": [
-   183,
-   "2026-11-21T07:53:52.194655+00:00"
-  ],
-  "tg:hacker_news_feed/134010": [
-   160,
    "2026-11-21T08:53:45.059487+00:00"
   ],
   "hn:50585376": [
    126,
    "2026-11-21T08:53:45.059487+00:00"
+  ],
+  "gh:google-labs-code/stitch-skills": [
+   315,
+   "2026-11-21T09:53:47.325785+00:00"
+  ],
+  "gh:openvinotoolkit/openvino": [
+   217,
+   "2026-11-21T09:53:47.325785+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   869,
+   "2026-11-21T09:53:47.325785+00:00"
+  ],
+  "gh:nginx/nginx": [
+   246,
+   "2026-11-21T09:53:47.325785+00:00"
+  ],
+  "tg:hacker_news_feed/134003": [
+   152,
+   "2026-11-21T09:53:47.325785+00:00"
+  ],
+  "tg:hacker_news_feed/134004": [
+   177,
+   "2026-11-21T09:53:47.325785+00:00"
+  ],
+  "hn:50583768": [
+   147,
+   "2026-11-21T09:53:47.325785+00:00"
+  ],
+  "hn:50583877": [
+   95,
+   "2026-11-21T09:53:47.325785+00:00"
+  ],
+  "hn:50583856": [
+   168,
+   "2026-11-21T09:53:47.325785+00:00"
+  ],
+  "tg:hacker_news_feed/134010": [
+   161,
+   "2026-11-21T09:53:47.325785+00:00"
+  ],
+  "hn:50586292": [
+   94,
+   "2026-11-21T09:53:47.325785+00:00"
   ]
  },
  "skips": {
@@ -11182,7 +11200,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 180,
+  "Hacker News": 181,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11228,7 +11246,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-21T08:53:47.023853+00:00",
+  "Hacker News": "2026-11-21T09:54:18.414748+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -12642,8 +12660,23 @@
    "votes": {},
    "message_id": 1677,
    "chat_id": -1004399820759
+  },
+  "100": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "SECURITY",
+    "BREACH",
+    "MALWARE"
+   ],
+   "title": "حمله سایبری سنگین توسط هکرهای متمول",
+   "url": "https://www.ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411",
+   "at": "2026-11-21T09:54:18.056583+00:00",
+   "votes": {},
+   "message_id": 1678,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 100,
+ "next_post_id": 101,
  "last_update_id": 276814756
 }
