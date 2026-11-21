@@ -28,5 +28,6 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
     volumes:
-      - ./repo:/repo
-      - ./data:/data
+      # مسیرها نسبی به دایرکتوری compose (docker/) هستند، پس ../ لازم است.
+      - ../repo:/repo
+      - ../data:/data
