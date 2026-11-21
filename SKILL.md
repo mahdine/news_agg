@@ -5,7 +5,7 @@ description: Use when working on the news_agg PersianTech news bot.
 
 # news_agg — PersianTech Telegram news aggregator
 
-Repo: this checkout (github.com/mahdine/news_agg, public; production channel @persiantechtwiter via GH Actions secret). Collects tech/security items (HN Algolia, t.me HN channels, GitHub Trending, Lobsters, Bluesky, ~40 RSS) → dedupes + clusters into "stories" → ranks with a virality algorithm → Gemini free tier summarizes to Persian → posts to Telegram with image/badges/buttons → audience reactions/poll feedback reweights future ranking. No server, no database: committed `state.json` + GitHub Actions + GitHub Pages.
+Repo: this checkout (github.com/mahdine/news_agg, public; production channel @ai_news_agg via GH Actions secret — @persiantechtwiter retired 2026-11-21). Collects tech/security items (HN Algolia, t.me HN channels, GitHub Trending, Lobsters, Bluesky, ~40 RSS) → dedupes + clusters into "stories" → ranks with a virality algorithm → Gemini free tier summarizes to Persian → posts to Telegram with image/badges/buttons → audience reactions/poll feedback reweights future ranking. No server, no database: committed `state.json` + GitHub Actions + GitHub Pages.
 
 ## Module map (src/, ~5200 lines, Python 3.12, no tests/ dir)
 
@@ -27,7 +27,7 @@ Repo: this checkout (github.com/mahdine/news_agg, public; production channel @pe
 | `configedit.py` (250) | Line-oriented config.yaml edits (`set_setting`/`set_source`/`disable_source`/`add_source`) — PyYAML would drop the Persian comments |
 
 ## One run, in order (main.main)
-1. `.env` → env (local checkout's `.env` points at the OLD TEST channel @ai_news_agg — local posts are not the production channel, but still track/clean them up). Production channel only exists in GH Actions secrets.
+1. `.env` → env (local `.env`'s TELEGRAM_CHANNEL is the PRODUCTION channel @ai_news_agg — a local run posts to production; prefer `--dry-run` and be deliberate about real local runs).
 2. Load config + `State`; one-time `state.backfill(config)`.
 3. If not dry-run: bot username + channel id, then overlay `live/feedback.json` via `State.apply_live_feedback` BEFORE ranking/scorecard (worker is the only update consumer).
 4. `collect()`: per-source try/except — one dead source logs and continues.
