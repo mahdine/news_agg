@@ -1,6 +1,5 @@
 {
  "seen": [
-  "GXtRbgxYeoFvtTHz5CHQda",
   "XoseyemJUtaWmaAr4YwrjR",
   "hn:50230995",
   "hn:50231310",
@@ -2999,18 +2998,19 @@
   "tg:hacker_news_feed/134019",
   "hn:50588982",
   "tg:hacker_news_feed/134021",
-  "gh:google-labs-code/stitch-skills"
+  "gh:google-labs-code/stitch-skills",
+  "tg:hacker_news_feed/134016"
  ],
  "posted": {
-  "viral": 908,
+  "viral": 909,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News",
   "Hacker News Feed",
   "Hacker News Feed",
   "Hacker News",
-  "GitHub Trending"
+  "GitHub Trending",
+  "Hacker News Feed"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4770,24 +4770,21 @@
     "AI"
    ],
    "at": "2026-11-21T17:54:19.504595+00:00"
+  },
+  {
+   "title": "بهینه‌سازی مصرف حافظه در Valkey با جایگزینی ساختار داده Skiplist",
+   "url": "https://valkey.io/blog/from-skiplist-to-b+tree/",
+   "source": "valkey.io",
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "score": 0.02514,
+   "topics": [
+    "PROGRAMMING"
+   ],
+   "at": "2026-11-21T18:43:14.256016+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "acquires",
-    "agent",
-    "buys",
-    "created",
-    "founder",
-    "odessia",
-    "openai",
-    "sonder",
-    "startup",
-    "travel"
-   ],
-   "at": "2026-11-11T06:53:51.794522+00:00"
-  },
   {
    "sig": [
     "chatgpt",
@@ -8846,17 +8843,22 @@
    ],
    "at": "2026-11-21T17:54:19.504595+00:00",
    "url": "github.com/google-labs-code/stitch-skills"
+  },
+  {
+   "sig": [
+    "cuts",
+    "kills",
+    "overhead",
+    "set",
+    "skiplist",
+    "sorted",
+    "valkey"
+   ],
+   "at": "2026-11-21T18:43:14.256016+00:00",
+   "url": "valkey.io/blog/from-skiplist-to-b+tree"
   }
  ],
  "snapshots": {
-  "hn:50463540": [
-   105,
-   "2026-11-12T11:53:43.093685+00:00"
-  ],
-  "hn:50465352": [
-   155,
-   "2026-11-12T12:53:48.385357+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n24miuqjqkle": [
    173,
    "2026-11-12T14:53:43.238015+00:00"
@@ -11209,28 +11211,12 @@
    324,
    "2026-11-21T17:54:14.847131+00:00"
   ],
-  "gh:openvinotoolkit/openvino": [
-   202,
-   "2026-11-21T17:54:14.847131+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   724,
-   "2026-11-21T17:54:14.847131+00:00"
-  ],
   "gh:nginx/nginx": [
    195,
    "2026-11-21T17:54:14.847131+00:00"
   ],
   "tg:hacker_news_feed/134010": [
    165,
-   "2026-11-21T17:54:14.847131+00:00"
-  ],
-  "tg:hacker_news_feed/134013": [
-   150,
-   "2026-11-21T17:54:14.847131+00:00"
-  ],
-  "tg:hacker_news_feed/134016": [
-   154,
    "2026-11-21T17:54:14.847131+00:00"
   ],
   "hn:50588982": [
@@ -11245,9 +11231,33 @@
    167,
    "2026-11-21T17:54:14.847131+00:00"
   ],
-  "tg:hacker_news_feed/134023": [
+  "gh:openvinotoolkit/openvino": [
+   202,
+   "2026-11-21T18:43:11.788721+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   724,
+   "2026-11-21T18:43:11.788721+00:00"
+  ],
+  "tg:hacker_news_feed/134013": [
    150,
-   "2026-11-21T17:54:14.847131+00:00"
+   "2026-11-21T18:43:11.788721+00:00"
+  ],
+  "tg:hacker_news_feed/134016": [
+   154,
+   "2026-11-21T18:43:11.788721+00:00"
+  ],
+  "tg:hacker_news_feed/134023": [
+   151,
+   "2026-11-21T18:43:11.788721+00:00"
+  ],
+  "hn:50590279": [
+   139,
+   "2026-11-21T18:43:11.788721+00:00"
+  ],
+  "lobsters:fjueso": [
+   27,
+   "2026-11-21T18:43:11.788721+00:00"
   ]
  },
  "skips": {
@@ -11321,7 +11331,7 @@
   "Rest of World": 1,
   "LangChain Blog": 1,
   "GitHub Trending": 13,
-  "Hacker News Feed": 21
+  "Hacker News Feed": 22
  },
  "last_post": {
   "Engadget": "2026-11-14T13:54:06.399584+00:00",
@@ -11367,7 +11377,7 @@
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
   "GitHub Trending": "2026-11-21T17:54:19.504712+00:00",
-  "Hacker News Feed": "2026-11-21T15:54:08.281960+00:00"
+  "Hacker News Feed": "2026-11-21T18:43:14.256155+00:00"
  },
  "posts": {
   "1": {
@@ -12870,8 +12880,21 @@
    "votes": {},
    "message_id": 1685,
    "chat_id": -1004399820759
+  },
+  "108": {
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "topics": [
+    "PROGRAMMING"
+   ],
+   "title": "بهینه‌سازی مصرف حافظه در Valkey با جایگزینی ساختار داده Skiplist",
+   "url": "https://valkey.io/blog/from-skiplist-to-b+tree/",
+   "at": "2026-11-21T18:43:13.705034+00:00",
+   "votes": {},
+   "message_id": 1686,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 108,
+ "next_post_id": 109,
  "last_update_id": 276814760
 }
