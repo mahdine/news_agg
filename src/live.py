@@ -120,7 +120,23 @@ class LiveWorker:
         return r
 
     def _git_push(self, *args: str) -> subprocess.CompletedProcess:
-        return self._git("-c", f"http.extraHeader=Authorization: Bearer {self.github_token}", *args)
+        # هدر Bearer (extraHeader) credential-prompt خود git را سرکوب
+        # نمی‌کند و در محیط بدون TTY می‌شکند؛ push به URL با توکنِ
+        # درج‌شده الگوی اثبات‌شده است.
+        argv = list(args)
+        if len(argv) >= 2 and argv[0] == "push" and argv[1] == "origin":
+            argv[1] = self._remote_url()
+        return self._git(*argv)
+
+    def _remote_url(self) -> str:
+        r = subprocess.run(
+            ["git", "-C", str(REPO_DIR), "remote", "get-url", "origin"],
+            capture_output=True, text=True, timeout=30,
+        )
+        url = r.stdout.strip()
+        return url.replace(
+            "https://", f"https://x-access-token:{self.github_token}@", 1
+        )
 
     def _publish_file(self, rel_path: str, content: str, message: str) -> None:
         """فایل را روی main منتشر می‌کند: fetch → reset → بازنویسی → commit → push.
