@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>معرفی فریم‌ورک Slopstrap برای طراحی وب‌سایت‌های با ظاهر هوش مصنوعی</title>
+<meta property="og:title" content="معرفی فریم‌ورک Slopstrap برای طراحی وب‌سایت‌های با ظاهر هوش مصنوعی">
+</head>
+<body>
+<article>
+<h1>معرفی فریم‌ورک Slopstrap برای طراحی وب‌سایت‌های با ظاهر هوش مصنوعی</h1>
+<p class="meta">Hacker News Feed  ·  2026-11-21</p>
+<p>ساعات کاری آخر هفته</p>
+<p>شنبه‌ها از ساعت ۸:۰۰ صبح تا ۴:۰۰ بعدازظهر باز است. تماس‌های مربوط به قطع اضطراری به‌صورت ۲۴ ساعته پاسخ داده می‌شوند.</p>
+<p>سایت خود را به شکلی عجولانه و با حال‌وهوای «vibecoded» درآورید.</p>
+<p>این فقط یک فریم‌ورک CSS نیست؛ بلکه یک شتاب‌دهنده‌ی زیربنایی است تا هر چیزی را طوری جلوه دهید که انگار توسط یک LLM ساخته شده است.</p>
+<p>&lt;!-- 1. Include Slopstrap CSS &amp; JS --&gt;</p>
+<p>&lt;link rel=&quot;stylesheet&quot; href=&quot;./dist/slopstrap.css&quot; /&gt;</p>
+<p>&lt;script src=&quot;./dist/slopstrap.js&quot; defer&gt;&lt;/script&gt;</p>
+<p>&lt;!-- 2. Enable full-page dark mode &amp; ambient orbs --&gt;</p>
+<p>&lt;body class=&quot;slop-body slop-grid-bg&quot;&gt;</p>
+<p>&lt;div class=&quot;slop-orb-layer&quot;&gt;</p>
+<p>&lt;div class=&quot;slop-orb slop-orb-purple&quot;&gt;&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-orb slop-orb-cyan&quot;&gt;&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;!-- Your content goes here ✨ --&gt;</p>
+<p>&lt;/body&gt;</p>
+<p>کامپوننت‌های ساده‌ای که می‌توانید در سایت خود کپی-پیست کنید تا به نظر برسد توسط یک ماشین-خدای نوظهور و تشنه‌ی منابع تولید شده است.</p>
+<p>نقاط چشمک‌زن متحرک دو حلقه‌ای برای القای حس فوریتِ لحظه‌ای به HTML ایستا.</p>
+<p>&lt;span class=&quot;slop-status&quot;&gt;</p>
+<p>&lt;span class=&quot;slop-dot slop-dot-green&quot;&gt;&lt;/span&gt;</p>
+<p>All Systems Operational</p>
+<p>&lt;/span&gt;</p>
+<p>&lt;span class=&quot;slop-status&quot;&gt;</p>
+<p>&lt;span class=&quot;slop-dot slop-dot-purple&quot;&gt;&lt;/span&gt;</p>
+<p>AI Engine Active</p>
+<p>&lt;/span&gt;</p>
+<p>&lt;!-- Variants: green, purple, cyan, amber, pink, red, indigo, rainbow --&gt;</p>
+<p>&lt;span class=&quot;slop-status&quot;&gt;</p>
+<p>&lt;span class=&quot;slop-dot slop-dot-rainbow&quot;&gt;&lt;/span&gt;</p>
+<p>RGB Overclocked</p>
+<p>&lt;/span&gt;</p>
+<p>وقتی ماشین‌ها ما را به غلاف‌های مغذی‌مان بفرستند، دستورات با یک حاشیه‌ی رنگی در سمت چپ همراه خواهند بود.</p>
+<p>&lt;div class=&quot;slop-card slop-border-l-purple&quot;&gt;</p>
+<p>Purple 4px accent stripe</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-border-l-cyan&quot;&gt;</p>
+<p>Cyan 4px accent stripe</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-border-l-gradient&quot;&gt;</p>
+<p>Glowing purple-to-cyan gradient stripe</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-border-l-rainbow&quot;&gt;</p>
+<p>Animated vertical RGB left beam ✨</p>
+<p>&lt;/div&gt;</p>
+<p>قرص‌های (pill) گردی که می‌توانید عملاً روی همه‌چیز بچسبانید.</p>
+<p>&lt;div class=&quot;slop-pill slop-pill-shimmer&quot;&gt;</p>
+<p>&lt;span class=&quot;slop-dot slop-dot-purple&quot;&gt;&lt;/span&gt;</p>
+<p>✨ Introducing v2.0 — Now Live →</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;span class=&quot;slop-badge slop-badge-popular&quot;&gt;✨ MOST POPULAR&lt;/span&gt;</p>
+<p>&lt;span class=&quot;slop-badge slop-badge-ai&quot;&gt;AI-POWERED&lt;/span&gt;</p>
+<p>&lt;span class=&quot;slop-badge slop-badge-emerald&quot;&gt;✓ VERIFIED&lt;/span&gt;</p>
+<p>&lt;span class=&quot;slop-badge slop-badge-cyan&quot;&gt;BETA&lt;/span&gt;</p>
+<p>&lt;span class=&quot;slop-badge slop-badge-amber&quot;&gt;EARLY ACCESS&lt;/span&gt;</p>
+<p>فونت Inter که با رنگ‌های تکنیکالر می‌درخشد. متن بدنه که خاکستریِ کدر است.</p>
+<p>این فقط متن بدنه نیست؛ بلکه یک رنگ slate-400 با کنتراست پایین و شسته-رفته است که برای حداکثر اعتبار در SaaS مهندسی شده است.</p>
+<p>&lt;h1 class=&quot;slop-h1 slop-text-gradient&quot;&gt;</p>
+<p>Supercharge your workflow at scale</p>
+<p>&lt;/h1&gt;</p>
+<p>&lt;h3 class=&quot;slop-h3 slop-text-gradient-hot&quot;&gt;</p>
+<p>Hot Magenta-to-Indigo Subheading</p>
+<p>&lt;/h3&gt;</p>
+<p>&lt;h3 class=&quot;slop-h3 slop-text-gradient-animated&quot;&gt;</p>
+<p>Animated Rainbow Text</p>
+<p>&lt;/h3&gt;</p>
+<p>&lt;p class=&quot;slop-muted slop-sparkle&quot;&gt;</p>
+<p>Low-contrast slate body copy with automatic ✨ prefix.</p>
+<p>&lt;/p&gt;</p>
+<p>باعث شوید نثر تولیدشده‌ی احتمالی شما، عمیقاً هدفمند به نظر برسد.</p>
+<p>&lt;h2 class=&quot;slop-h2&quot;&gt;</p>
+<p>Build the &lt;span class=&quot;slop-serif-emphasis&quot;&gt;future&lt;/span&gt; of work.</p>
+<p>&lt;/h2&gt;</p>
+<p>&lt;!-- Pair with a gradient for peak 2026 slop --&gt;</p>
+<p>&lt;h2 class=&quot;slop-h2&quot;&gt;</p>
+<p>Ship at &lt;span class=&quot;slop-serif-emphasis slop-text-gradient-hot&quot;&gt;unprecedented&lt;/span&gt; velocity.</p>
+<p>&lt;/h2&gt;</p>
+<p>چون انجام این کارها حدود چهار سال پیش خیلی سخت بود.</p>
+<p>&lt;!-- Default swooping purple-pink marker underline --&gt;</p>
+<p>Make your &lt;span class=&quot;slop-underline&quot;&gt;site&lt;/span&gt; look vibecoded.</p>
+<p>&lt;!-- Styles: default | .slop-underline-double | .slop-underline-squiggle --&gt;</p>
+<p>&lt;!-- Colors: default | cyan | amber | emerald | pink | rainbow --&gt;</p>
+<p>&lt;!-- Draw-in animation: .slop-underline-animated --&gt;</p>
+<p>&lt;span class=&quot;slop-underline slop-underline-double slop-underline-amber&quot;&gt;</p>
+<p>10x faster</p>
+<p>&lt;/span&gt;</p>
+<p>&lt;span class=&quot;slop-underline slop-underline-squiggle slop-underline-rainbow&quot;&gt;</p>
+<p>animated RGB</p>
+<p>&lt;/span&gt;</p>
+<p>کارت‌های درخشان درون کارت‌های درخشان درون کارت‌های درخشان.</p>
+<p>چون یک جعبه‌ی گرد هرگز کافی نیست.</p>
+<p>انیمیشن گرادینت مخروطی (conic gradient) مداوم CSS در اطراف کل محیط کانتینر.</p>
+<p>&lt;!-- Glass Card + Icon Squircle + Nested Card --&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-border-l-purple&quot;&gt;</p>
+<p>&lt;div class=&quot;slop-icon-box&quot;&gt;⚡&lt;/div&gt;</p>
+<p>&lt;h3 class=&quot;slop-h3&quot;&gt;⚡ Glass Card&lt;/h3&gt;</p>
+<p>&lt;p class=&quot;slop-muted&quot;&gt;With cursor spotlight.&lt;/p&gt;</p>
+<p>&lt;div class=&quot;slop-card-nested slop-border-l-cyan&quot;&gt;</p>
+<p>📦 Card inside a card</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;!-- Rotating Conic Border Beam Card --&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-card-beam&quot;&gt;</p>
+<p>&lt;div class=&quot;slop-icon-box slop-icon-cyan&quot;&gt;🌀&lt;/div&gt;</p>
+<p>&lt;h3 class=&quot;slop-h3&quot;&gt;🌀 Rotating Border Beam&lt;/h3&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>جعبه‌های فراخوان (callout) مات و تیره با نوارهای رنگی ضخیم در سمت چپ، نقاط چشمک‌زن و ایموجی‌های بی‌دلیل.</p>
+<p>.slop-serif-emphasis برای پیچیدگی فوری.</p>
+<p>&lt;div class=&quot;slop-alert slop-border-l-purple&quot;&gt;</p>
+<p>&lt;span class=&quot;slop-dot slop-dot-purple&quot;&gt;&lt;/span&gt;</p>
+<p>&lt;div&gt;&lt;strong&gt;✨ AI Insight:&lt;/strong&gt; Injected 14 orbs.&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-alert slop-border-l-emerald&quot;&gt;</p>
+<p>&lt;span class=&quot;slop-dot slop-dot-green&quot;&gt;&lt;/span&gt;</p>
+<p>&lt;div&gt;&lt;strong&gt;🚀 Deployment Ready:&lt;/strong&gt; All vibes green.&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-alert slop-border-l-amber&quot;&gt;</p>
+<p>&lt;span class=&quot;slop-dot slop-dot-amber&quot;&gt;&lt;/span&gt;</p>
+<p>&lt;div&gt;&lt;strong&gt;⚡ Pro Tip:&lt;/strong&gt; Add more em-dashes.&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>اوه عزیزم، ببین چطور با هم جور می‌شوند.</p>
+<p>هر پاراگراف ساده‌ای را به یک شبکه‌ی نامتقارن از جعبه‌های گرد درخشان تبدیل کنید.</p>
+<p>به‌طور یکپارچه با .slop-card-beam جفت می‌شود.</p>
+<p>ردیف پایین متقارن ۳ تایی.</p>
+<p>بدون نیاز به سلسله‌مراتب ساختاری.</p>
+<p>همچنین با نام .slop-grid-3 در دسترس است.</p>
+<p>&lt;!-- 12-Column Asymmetrical Bento Grid (.slop-bento-4 | 5 | 6 | 7 | 8 | 12) --&gt;</p>
+<p>&lt;div class=&quot;slop-bento&quot;&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-bento-7 slop-border-l-purple&quot;&gt;Wide Bento Tile&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-card-beam slop-bento-5&quot;&gt;Companion Tile&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-bento-4 slop-border-l-emerald&quot;&gt;Tile 1&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-bento-4 slop-border-l-amber&quot;&gt;Tile 2&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-bento-4 slop-border-l-pink&quot;&gt;Tile 3&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;!-- Or the Classic Symmetrical 3-Card Feature Grid --&gt;</p>
+<p>&lt;div class=&quot;slop-grid-3&quot;&gt;</p>
+<p>&lt;div class=&quot;slop-card&quot;&gt;Card 1&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-card&quot;&gt;Card 2&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-card&quot;&gt;Card 3&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>به‌به، اعداد بالا و بالاتر می‌روند.</p>
+<p>&lt;div class=&quot;slop-grid-4&quot;&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-stat-card slop-border-l-purple&quot;&gt;</p>
+<p>&lt;div class=&quot;slop-stat-value&quot; data-slop-count=&quot;99.99%&quot;&gt;99.99%&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-stat-label&quot;&gt;Uptime or something&lt;/div&gt;</p>
+<p>&lt;span class=&quot;slop-stat-delta&quot;&gt;▲ +0.04% MoM&lt;/span&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-stat-card slop-border-l-cyan&quot;&gt;</p>
+<p>&lt;div class=&quot;slop-stat-value&quot; data-slop-count=&quot;14.8M+&quot;&gt;14.8M+&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-stat-label&quot;&gt;Users, probably&lt;/div&gt;</p>
+<p>&lt;span class=&quot;slop-stat-delta&quot;&gt;▲ +420% YoY&lt;/span&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-stat-card slop-border-l-emerald&quot;&gt;</p>
+<p>&lt;div class=&quot;slop-stat-value&quot; data-slop-count=&quot;847K&quot;&gt;847K&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-stat-label&quot;&gt;That&#x27;s like, a lot&lt;/div&gt;</p>
+<p>&lt;span class=&quot;slop-stat-delta&quot;&gt;&lt;span class=&quot;slop-dot slop-dot-green&quot; style=&quot;width:0.35rem;height:0.35rem&quot;&gt;&lt;/span&gt; Live&lt;/span&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-card slop-stat-card slop-border-l-pink&quot;&gt;</p>
+<p>&lt;div class=&quot;slop-stat-value&quot; data-slop-count=&quot;0&quot;&gt;0&lt;/div&gt;</p>
+<p>&lt;div class=&quot;slop-stat-label&quot;&gt;Bad things or events&lt;/div&gt;</p>
+<p>&lt;span class=&quot;slop-stat-delta&quot;&gt;✓ Certified&lt;/span&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>یک تگ کوچک برای اینکه فوراً به شما اعتبار ببخشد.</p>
+<p>&lt;!-- Auto-populates 10 iconic startup logos (OpenAI, Stripe, Vercel, YC...) --&gt;</p>
+<p>&lt;div data-slop-marquee&gt;&lt;/div&gt;</p>
+<p>Sarah Chen از محصول شما استفاده کرده و نمی‌تواند از صحبت کردن درباره‌ی آن دست بردارد.</p>
+<p>&lt;!-- Summon 1 to 6 pre-packaged synthetic thought leaders --&gt;</p>
+<p>&lt;div data-slop-testimonials=&quot;3&quot;&gt;&lt;/div&gt;</p>
+<p>&lt;!-- Or render all 6 (Dr. Sarah Chen, Marcus Vance, Elena Rostova...) --&gt;</p>
+<p>&lt;div data-slop-testimonials=&quot;6&quot;&gt;&lt;/div&gt;</p>
+<p>چون این فقط کلمات است و صادقانه بگویم، چه کسی اهمیت می‌دهد؟</p>
+<p>&lt;!-- Industries: saas | ai | fintech | robotics | devices | defense --&gt;</p>
+<p>&lt;div data-slop-prose=&quot;saas&quot; data-slop-paragraphs=&quot;2&quot;&gt;&lt;/div&gt;</p>
+<p>&lt;!-- Or render programmatically via JS --&gt;</p>
+<p>&lt;script&gt;</p>
+<p>Slopstrap.renderProse(&#x27;#about-copy&#x27;, &#x27;saas&#x27;, 2);</p>
+<p>&lt;/script&gt;</p>
+<p>یک خط کد می‌تواند باعث شود یک سایتِ دست‌ساز، دقیقاً شبیه خروجیِ بی‌نقصِ یک LLM به نظر برسد.</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://slopstrap.mikelacher.com/">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
