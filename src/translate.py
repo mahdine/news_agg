@@ -1,6 +1,7 @@
 """ترجمه و خلاصه‌سازی فارسی با Gemini free tier."""
 
 import logging
+import os
 import time
 
 import httpx
@@ -14,6 +15,15 @@ EXHAUSTED = 429
 ATTEMPTS = 3
 
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+
+# Google از آدرس‌های ایران 403 می‌دهد (geo-block). اگر GEMINI_HTTP_PROXY
+# ست باشد، فقط دروازه‌های Gemini از آن پراکسی می‌روند — بقیه‌ی ترافیک
+# (تلگرام، فچ مقاله، git) مستقیم می‌ماند. در GitHub Actions (آی‌پی آمریکایی)
+# این متغیر خالی است و رفتار عوض نمی‌شود.
+_PROXY = os.environ.get("GEMINI_HTTP_PROXY", "").strip()
+_GEMINI_CLIENT: httpx.Client | None = (
+    httpx.Client(proxy=_PROXY, timeout=90, follow_redirects=True) if _PROXY else None
+)
 
 PROMPT = """\
 متن زیر یک خبر یا مقاله‌ی تکنولوژی است. زبانش هرچه باشد — انگلیسی، روسی یا
@@ -118,9 +128,10 @@ def summarize(text: str, api_key: str, models: list[str], client: httpx.Client) 
 
 def _ask(model, payload, api_key, client) -> httpx.Response | None:
     """None یعنی مدل بعد از چند تلاش هنوز شلوغ بود."""
+    c = _GEMINI_CLIENT or client
     for attempt in range(1, ATTEMPTS + 1):
         try:
-            resp = client.post(
+            resp = c.post(
                 ENDPOINT.format(model=model),
                 params={"key": api_key},
                 json=payload,

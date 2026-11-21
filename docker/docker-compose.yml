@@ -22,6 +22,11 @@ services:
       LIVE_REPO_DIR: /repo
       LIVE_DATA_DIR: /data
       PAGES_BASE_URL: https://mahdine.github.io/news_agg
+      # Google از آی‌پی ایران 403 می‌دهد؛ فقط تماس‌های Gemini از پراکسی
+      # host (privoxy -> رله SOCKS5 کاربر) می‌روند.
+      GEMINI_HTTP_PROXY: http://host.docker.internal:8118
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     volumes:
       - ./repo:/repo
       - ./data:/data
