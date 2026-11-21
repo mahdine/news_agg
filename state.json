@@ -1,6 +1,5 @@
 {
  "seen": [
-  "255cfb8133ccc74cbe511f27b791764a",
   "TheNextWeb=3d8f7495cee95b7421c9abab26d98df4",
   "https://www.androidpolice.com/fitbit-air-apple-watch-borrow-features/",
   "https://www.theverge.com/?p=1018253",
@@ -2999,18 +2998,19 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2scymsbas2s",
   "tg:hacker_news_feed/134009",
   "hn:50585376",
-  "hn:50583856"
+  "hn:50583856",
+  "tg:hacker_news_feed/134014"
  ],
  "posted": {
-  "viral": 901,
+  "viral": 902,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News",
   "Hacker News Feed",
   "Hacker News Feed",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Hacker News Feed"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4678,18 +4678,23 @@
     "MALWARE"
    ],
    "at": "2026-11-21T09:54:18.414631+00:00"
+  },
+  {
+   "title": "اجرای مستقیم فایل‌های APK در مرورگر با پروژه Winedroid",
+   "url": "https://winedroid.soham.sh/demo/",
+   "source": "winedroid.soham.sh",
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "score": 0.30182,
+   "topics": [
+    "TECH",
+    "ANDROID",
+    "RUST"
+   ],
+   "at": "2026-11-21T10:53:57.029302+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "game-programming",
-    "great",
-    "hack",
-    "old-timey"
-   ],
-   "at": "2026-11-11T04:53:55.820695+00:00"
-  },
   {
    "sig": [
     "5.3ghz",
@@ -8753,21 +8758,22 @@
    ],
    "at": "2026-11-21T09:54:18.414631+00:00",
    "url": "ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411"
+  },
+  {
+   "sig": [
+    "android",
+    "apps",
+    "demo",
+    "run",
+    "wasm",
+    "winedroid",
+    "without"
+   ],
+   "at": "2026-11-21T10:53:57.029302+00:00",
+   "url": "winedroid.soham.sh/demo"
   }
  ],
  "snapshots": {
-  "hn:50455332": [
-   310,
-   "2026-11-12T02:53:46.535645+00:00"
-  ],
-  "hn:50454823": [
-   106,
-   "2026-11-12T02:53:46.535645+00:00"
-  ],
-  "hn:50454625": [
-   342,
-   "2026-11-12T02:53:46.535645+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n23drmufbs2q": [
    15,
    "2026-11-12T02:53:46.535645+00:00"
@@ -11112,22 +11118,6 @@
    126,
    "2026-11-21T08:53:45.059487+00:00"
   ],
-  "gh:google-labs-code/stitch-skills": [
-   315,
-   "2026-11-21T09:53:47.325785+00:00"
-  ],
-  "gh:openvinotoolkit/openvino": [
-   217,
-   "2026-11-21T09:53:47.325785+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   869,
-   "2026-11-21T09:53:47.325785+00:00"
-  ],
-  "gh:nginx/nginx": [
-   246,
-   "2026-11-21T09:53:47.325785+00:00"
-  ],
   "tg:hacker_news_feed/134003": [
    152,
    "2026-11-21T09:53:47.325785+00:00"
@@ -11136,25 +11126,53 @@
    177,
    "2026-11-21T09:53:47.325785+00:00"
   ],
-  "hn:50583768": [
-   147,
-   "2026-11-21T09:53:47.325785+00:00"
-  ],
-  "hn:50583877": [
-   95,
-   "2026-11-21T09:53:47.325785+00:00"
-  ],
   "hn:50583856": [
    168,
    "2026-11-21T09:53:47.325785+00:00"
   ],
+  "gh:google-labs-code/stitch-skills": [
+   315,
+   "2026-11-21T10:53:52.662112+00:00"
+  ],
+  "gh:openvinotoolkit/openvino": [
+   217,
+   "2026-11-21T10:53:52.662112+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   869,
+   "2026-11-21T10:53:52.662112+00:00"
+  ],
+  "gh:nginx/nginx": [
+   246,
+   "2026-11-21T10:53:52.662112+00:00"
+  ],
+  "hn:50583768": [
+   162,
+   "2026-11-21T10:53:52.662112+00:00"
+  ],
+  "hn:50583877": [
+   96,
+   "2026-11-21T10:53:52.662112+00:00"
+  ],
   "tg:hacker_news_feed/134010": [
-   161,
-   "2026-11-21T09:53:47.325785+00:00"
+   163,
+   "2026-11-21T10:53:52.662112+00:00"
   ],
   "hn:50586292": [
-   94,
-   "2026-11-21T09:53:47.325785+00:00"
+   112,
+   "2026-11-21T10:53:52.662112+00:00"
+  ],
+  "tg:hacker_news_feed/134013": [
+   150,
+   "2026-11-21T10:53:52.662112+00:00"
+  ],
+  "tg:hacker_news_feed/134014": [
+   150,
+   "2026-11-21T10:53:52.662112+00:00"
+  ],
+  "tg:hacker_news_feed/134015": [
+   150,
+   "2026-11-21T10:53:52.662112+00:00"
   ]
  },
  "skips": {
@@ -11228,7 +11246,7 @@
   "Rest of World": 1,
   "LangChain Blog": 1,
   "GitHub Trending": 12,
-  "Hacker News Feed": 17
+  "Hacker News Feed": 18
  },
  "last_post": {
   "Engadget": "2026-11-14T13:54:06.399584+00:00",
@@ -11274,7 +11292,7 @@
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
   "GitHub Trending": "2026-11-21T03:54:19.884821+00:00",
-  "Hacker News Feed": "2026-11-21T07:53:56.409174+00:00"
+  "Hacker News Feed": "2026-11-21T10:53:57.029440+00:00"
  },
  "posts": {
   "1": {
@@ -12675,8 +12693,23 @@
    "votes": {},
    "message_id": 1678,
    "chat_id": -1004399820759
+  },
+  "101": {
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "topics": [
+    "TECH",
+    "ANDROID",
+    "RUST"
+   ],
+   "title": "اجرای مستقیم فایل‌های APK در مرورگر با پروژه Winedroid",
+   "url": "https://winedroid.soham.sh/demo/",
+   "at": "2026-11-21T10:53:56.528874+00:00",
+   "votes": {},
+   "message_id": 1679,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 101,
+ "next_post_id": 102,
  "last_update_id": 276814756
 }
