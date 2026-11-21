@@ -7,7 +7,9 @@ worker یک فرآیند همیشگی است (Docker در WSL، پروژه‌ی 
 1. **ترجمه‌ی فوری**: کاربر پست کانال را برای بات forward می‌کند (یا
    /t <message_id|url> می‌زند) → worker مقاله را می‌گیرد، کامل ترجمه
    می‌کند، صفحه‌ی Instant View در iv/ منتشر می‌کند و لینکش را در چت
-   خصوصی همان کاربر می‌فرستد.
+   خصوصی همان کاربر می‌فرستد. دکمه‌ی «ترجمه کامل» زیر هر پست این مسیر را
+   معرفی می‌کند: deep-link tr:<pid> به بات — در اولین /start همان پست
+   مستقیم ترجمه می‌شود، وگرنه کاربر پست را forward می‌کند.
 
 2. **بازخورد مداوم**: این worker مصرف‌کننده‌ی انحصاری updateهای تلگرام
    است. واکنش/رأی/نظّم در stateٔ حافظه‌ای ثبت و هر گاه تغییر کرد، به‌صورت
@@ -82,6 +84,13 @@ LOADING_MSG = "⏳ در حال ترجمه‌ی کاملِ مقاله… (معم�
 GREETING = (
     "سلام! پستی که می‌خواهی متن کاملش را بخوانی را برایم forward کن، "
     "یا /t <لینک> بفرست — ترجمه‌ی کاملش همین‌جا می‌آید."
+)
+
+# دکمه‌ی «ترجمه کامل» payload tr بدون pid فرستاده (یا کاربر مستقیم /start tr
+# زده): چت باز است، فقط بگو پست را forward کند.
+TRANSLATE_PROMPT = (
+    "سلام! پست موردنظر را همین‌جا برایم forward کن (یا /t <لینک> بفرست) "
+    "تا ترجمه‌ی کاملش را بفرستم. 📄"
 )
 
 
@@ -320,6 +329,17 @@ class LiveWorker:
         # رفتار اجرای ساعتی — فقط /start جواب می‌گرفت).
 
     def _handle_start(self, payload: str, user_id, chat_id) -> None:
+        # دکمه‌ی «ترجمه کامل» زیر پست: tr:<pid>. payload فقط در اولین
+        # /start می‌رسد (قلم تلگرام) — با pid همان پست را مستقیم ترجمه
+        # می‌کنیم؛ بدون pid فقط راهنمای forward می‌رود (کاربر بازگشتی
+        # اصلا payload ندارد و پست را forward می‌کند).
+        if (tpid := telegram.parse_translate(payload)) is not None:
+            if chat_id:
+                if tpid:
+                    self._spawn_job(chat_id, tpid)
+                else:
+                    self._send(chat_id, TRANSLATE_PROMPT)
+            return
         parsed = telegram.parse_vote(payload)
         if not parsed:
             if chat_id:
@@ -438,7 +458,10 @@ class LiveWorker:
             if not state:
                 self._send(chat_id, ERROR_MSG, client)
                 return
-            pid = state.find_pid_by_message(int(key))
+            # دو شکل: pid مستقیم (دکمه‌ی «ترجمه کامل»: /start tr:<pid>) یا
+            # message_id (forward یا /t). pidها کوچک‌اند و message_idهای
+            # کانال بزرگ — اول posts را می‌چکیم که بی‌ابهام بماند.
+            pid = key if key in state.posts else state.find_pid_by_message(int(key))
             if not pid:
                 self._send(chat_id, STALE_MSG, client)
                 return

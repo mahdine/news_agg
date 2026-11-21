@@ -28,7 +28,7 @@ MAX_TEXT = 3500
 
 # خلاصه هرچقدر هم کامل باشد جای مقاله را نمی‌گیرد؛ این خط خواننده را به دکمه‌ی
 # زیر پست وصل می‌کند.
-READ_MORE = "برای ادامه‌ی خواندن روی <b>source</b> بزنید"
+READ_MORE = "برای ادامه‌ی خواندن روی <b>منبع</b> بزنید"
 
 # سرعت امتیازگیری که ماجرا «داغ» حساب شود: امتیاز در ساعت. با آستانه‌ی
 # min_points=50 یکسان‌اند: خبری که تازه از آستانه رد شده و در دو ساعت ۵۰ امتیاز
@@ -181,20 +181,47 @@ def parse_vote(payload: str) -> tuple[str, str] | None:
     return pid, vote
 
 
+def translate_url(bot_username: str, pid: str = "") -> str:
+    """لینک دکمه‌ی «ترجمه کامل»: چت خصوصی بات با payload tr:<pid>.
+
+    payload فقط در اولین /start همان کاربر می‌رسد (قلم تلگرام) — worker
+    همان پست را مستقیم ترجمه می‌کند. کاربر بازگشتی بدون payload فقط چت را
+    باز می‌کند و پست را forward می‌کند (مسیر اصلی که همیشه کار می‌کند).
+    """
+    payload = f"tr:{pid}" if pid else "tr"
+    return f"https://t.me/{bot_username}?start={payload}"
+
+
+def parse_translate(payload: str) -> str | None:
+    """«tr:123» → «123»، «tr» → «». هر چیز دیگر None."""
+    parts = payload.strip().split(":", 1)
+    if parts[0] != "tr":
+        return None
+    pid = parts[1].strip() if len(parts) > 1 else ""
+    if pid and not pid.isdigit():
+        return None
+    return pid
+
+
 def build_keyboard(item: Item, pid: str = "", bot_username: str = "", feedback: bool = True) -> dict:
     """دکمه‌های زیر پست.
 
-    ردیف اول (وقتی فعال باشد) چهار دکمه‌ی بازخورد است و ردیف دوم دکمه‌ی
-    source — و «دیدگاه‌ها» وقتی بحث جدا از مقاله دارد (HN، Lobsters). در
-    Ask HN مقاله و بحث یکی‌اند و دکمه‌ی دوم تکرار، پس جا نمی‌افتد.
-    همه url هستند — نه دکمه‌ای backend زنده می‌خواهد.
+    ردیف اول (وقتی فعال باشد) چهار دکمه‌ی بازخورد است و ردیف دوم «منبع»،
+    «ترجمه کامل» (deep-link به بات: tr:<pid>) و «دیدگاه‌ها» وقتی بحث جدا از
+    مقاله دارد (HN، Lobsters). در Ask HN مقاله و بحث یکی‌اند و دکمه‌ی
+    دیدگاه‌ها تکرار، پس جا نمی‌افتد. همه url هستند — backend نمی‌خواهند.
     """
     rows = []
     if feedback and pid and bot_username:
         rows.append(
             [{"text": text, "url": vote_url(bot_username, pid, vote)} for text, vote in FEEDBACK_BUTTONS]
         )
-    source_row = [{"text": "source", "url": item.url}]
+    source_row = [{"text": "منبع", "url": item.url}]
+    if bot_username:
+        # دکمه‌ی ترجمه: reader بداند پست را می‌شود کامل خواند. payload با pid
+        # فقط در اولین /start می‌رسد — worker همان پست را ترجمه می‌کند؛
+        # بقیه چت را باز می‌کنند و پست را forward می‌کنند.
+        source_row.append({"text": "ترجمه کامل", "url": translate_url(bot_username, pid)})
     if item.discussion_url and item.discussion_url != item.url:
         source_row.append({"text": "دیدگاه‌ها", "url": item.discussion_url})
     rows.append(source_row)
