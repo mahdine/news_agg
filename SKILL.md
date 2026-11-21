@@ -66,6 +66,12 @@ The production state of record is `origin/main` (state commits by github-actions
 - Pushing from this machine needs the GCM-hang workaround (see memory). Dispatch/logs: GitHub API token via git-credential-manager; logs via `curl -sL` (302 to signed S3; urllib mangles the signature).
 - User standing preference: show a summary of code changes and get approval BEFORE committing.
 
+## Instant View (translated full-text pages)
+- Page (`ivpage.build_page`): og:title/og:description/og:image + `<img class="hero">`; EVERYTHING (h1, meta line, paragraphs, footer link) lives inside ONE `<article>` — the IV template relies on that exact structure; don't split it.
+- **Template**: created at instantview.telegram.org, bound to domain `mahdine.github.io`, v2.1. Rules: `?path: /news_agg/iv/.*.html` · `title: //h1` · `body: //article` · `@remove: //article/h1` · `cover: //img[@class="hero"]` · `image_url` (hero src) · `description` (og:description) · `site_name: "PersianTech"` · `channel: "@ai_news_agg"` (join button).
+- **Delivery**: worker sends `t.me/iv?url=<enc>&rhash=<IV_RHASH>` (helper `iv_link()` in live.py) — opens Instant View in-app with our template, NO Telegram approval needed for our own audience. `IV_RHASH` is env-overridable and pinned to the template REVISION: editing the template in the editor changes the rhash — take the new one from the editor's "View in Telegram" link and update `IV_RHASH` (or the container env) in the same change.
+- Editor ops quirks: login session is PER-TAB (sessionStorage) — never open a new tab mid-session; phone login needs the user's in-app tap and the temp_session expires in ~5 min; save via `App.editor` + `saveRules()` (Ctrl+S key dispatch is focus-flaky — call `saveRules()` directly); `?path` regex takes a SINGLE leading slash, no closing slash; the 3-column editor needs a wide viewport (`Emulation.setDeviceMetricsOverride` width ≥1800).
+
 ## Hard rules (each has a why)
 - **config.yaml is edited line-oriented via `src/configedit.py` — never round-trip through PyYAML** (it silently drops the Persian comments, which ARE the design docs). The scorecard Config tab and any new tooling use the same functions.
 - **`label` is the identity key** (velocity baseline, rotation, feedback reweighting, scorecard). Never rename a label after posting history exists.
@@ -86,7 +92,7 @@ The production state of record is `origin/main` (state commits by github-actions
 | New feedback signal | `live.py` handler (new update type) + `state.py` record + `live/feedback.json` schema + `apply_live_feedback` overlay + scorecard Feedback tab |
 | New on-demand user action | live worker only (must respond <1 min); trigger = forward to bot or `/t` — never a deep-link button as the trigger (payload fires only on first /start) |
 | Summary/translation behavior | `translate.py` PROMPT — line 1 topic format is a machine contract `_split` depends on; the SKIP list is editorial policy, not noise |
-| IV page content | `ivpage.py` — keep minimal RTL (`dir=rtl`, `<article>`, `<h1>`, `<p>`); the generic Instant View parser reads it |
+| IV page content | `ivpage.py` — keep minimal RTL (`dir=rtl`, `<article>`, `<h1>`, `<p>`); the IV TEMPLATE (instantview.telegram.org, domain mahdine.github.io) reads `//h1`/`//article`/`img.hero` — see "Instant View" section |
 | New diagnostic / dashboard tab | `scorecard.py` — self-contained HTML, zero external deps, generated each run |
 
 ## Two locations — keep in sync
