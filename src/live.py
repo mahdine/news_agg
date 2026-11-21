@@ -469,6 +469,22 @@ class LiveWorker:
 
         if key.startswith("http"):
             url = key
+            if state:
+                # پیامِ share dialog فقط URL دارد. اگر همین URL قبلا‌ پست شده،
+                # کلید صفحه = pidِ آن پست: (الف) اگر خط پست‌گذاری صفحه را
+                # پیش‌ترجمه کرده، HEAD پایین آن را می‌کَند و ترجمه‌ی دوباره
+                # نمی‌سازد؛ (ب) صفحه‌ی ساخته‌شده در آدرس رسمی iv/<pid>.html
+                # می‌نشیند، همان‌جا که رتبه‌ی بعدیِ خط هم به همان صفحه وصل است.
+                match = next(
+                    (pid for pid, post in state.posts.items() if post.get("url") == url),
+                    None,
+                )
+                if match:
+                    key = match
+                    post = state.posts[match]
+                    title = post.get("title") or ""
+                    label = post.get("label") or ""
+                    date_str = (post.get("at") or "")[:10]
         else:
             if not key.isdigit():
                 self._send(chat_id, BAD_T_MSG, client)
