@@ -20,6 +20,7 @@ The always-on half of the runtime: a Docker container in WSL owning user-facing 
 ## Pages facts
 - Repo is PUBLIC; Pages project page `mahdine.github.io/news_agg` (already live for the scorecard).
 - BOTH workflows deploy the same site structure (index.html = scorecard + iv/*.html) — change staging in both or the hourly deploy drops the article pages.
+- **iv-deploy race (fixed 2026-11-21):** deploy-pages@v4 queries the artifact index ~0.3–0.6s after upload finalization; sometimes the artifact isn't indexed yet → "No artifacts named 'github-pages' were found" even though the upload succeeded (artifact is visible via API seconds later). `iv-deploy.yml` has a `sleep 20` between upload-pages-artifact and deploy-pages — don't remove it. The hourly publish.yml runs without the sleep and has not hit it, but shares the same latent race.
 - Instant View only renders for domains with an IV template (Telegram-maintained + some community). Most of this feed's domains (news.ycombinator.com, github.com, 404media.co, bsky.app, cnews.ru/vc.ru/mail.ru) have none — IV cannot be the reading path for ORIGINAL articles; it is a delivery format only for pages WE host (own domain ⇒ generic parser or own template).
 - If in-app rendering is bad: author a template at instantview.telegram.org for mahdine.github.io.
 
@@ -30,9 +31,14 @@ The always-on half of the runtime: a Docker container in WSL owning user-facing 
 
 ## Deploy (WSL; separate from tg-media-bot — standing user rule)
 - Home: `~/news-live` (WSL home) — own clone, own .env, container `newsagg-live`, data in ./data. Never mix code/env/containers with tg-media-bot.
-- .env: production TELEGRAM_BOT_TOKEN + TELEGRAM_CHANNEL + GEMINI_API_KEY (from GH Secrets — the local .env key is stale/invalid) + GITHUB_TOKEN = fine-grained PAT on news_agg (Contents: read+write), used only for the worker's pushes.
-- First time: `bash docker/bootstrap.sh` (clones repo, sets git identity) then `docker compose -f docker/docker-compose.yml up -d --build live`. Later: `git pull && docker compose ... up -d --build live`, then verify the deployed code (grep a new string in /app) — same discipline as tg-media-bot.
+- .env: production TELEGRAM_BOT_TOKEN + TELEGRAM_CHANNEL + GEMINI_API_KEY (from GH Secrets — the local .env key is stale/invalid) + GITHUB_TOKEN = fine-grained PAT on news_agg (Contents: read+write), used only for the worker's pushes. NOTE: the PAT has NO Actions permission (workflow rerun API → 403); trigger workflow re-runs by pushing a change instead.
+- First time: `bash docker/bootstrap.sh` (clones repo, sets git identity) then `docker compose -f docker/docker-compose.yml up -d --build live`. Later code changes: `git pull` in the repo volume only — the Dockerfile has NO COPY of source (WORKDIR /repo), so the container runs the volume's code; no rebuild needed.
+- **`docker compose restart` does NOT reload .env** (env_file loads at container creation) — after editing .env use `docker compose up -d --force-recreate live`.
+- Privoxy on the WSL host bridges the container to the user's SOCKS5 relay: `listen-address 0.0.0.0:8118` (NOT 127.0.0.1 — the container reaches it via host.docker.internal = 172.17.0.1) and `forward-socks5 / proxy.shenakhtic.ir:8124 .` — the 3-argument syntax is the only form privoxy accepts (2- or 4-arg lines are silently ignored → traffic goes DIRECT and 403s from Iran). Enabled via systemd. `GEMINI_HTTP_PROXY=http://host.docker.internal:8118` routes ONLY Gemini through it.
+- Docker Hub pulls also 403 from Iran: daemon proxy via systemd drop-in `/etc/systemd/system/docker.service.d/proxy.conf` (HTTP_PROXY/HTTPS_PROXY=http://127.0.0.1:8118) — affects `docker pull`/build only, not container runtime traffic.
+- **git push from the container uses GIT_ASKPASS, not token-in-URL** (`src/live.py::_git_push`): git 2.47's URL parser rejects long tokens (≥~90 chars) embedded in `https://user:token@…` with "URL rejected: Port number was not a decimal number" (reproduced with a dummy token of the same length — it's a parser bug, not the token). The ASKPASS temp script (chmod 700, deleted after) keeps the token out of the URL.
 - Dockerfile carries `git config --system --add safe.directory /repo` (container git runs as root over a user-owned volume).
+- WSL repo sync: the outer `~/news-live` clone AND the inner `~/news-live/repo` (the /repo volume) both need `git pull`/`fetch + reset --hard origin/main` — the worker pushes from the inner repo. Uncommitted local edits in the outer clone block `git pull` (stash → pull → the upstream often already contains the fix from a parallel session).
 
 ## Testing
 - Units: build_page HTML escaping/structure, apply_live_feedback overlay, worker init — run with the repo's .venv python (the Hermes kernel python lacks trafilatura).
