@@ -33,6 +33,7 @@ import threading
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 import httpx
 import yaml
@@ -45,6 +46,17 @@ log = logging.getLogger("live")
 REPO_DIR = Path(os.environ.get("LIVE_REPO_DIR", "/repo"))
 DATA_DIR = Path(os.environ.get("LIVE_DATA_DIR", "/data"))
 PAGES_BASE = os.environ.get("PAGES_BASE_URL", "https://mahdine.github.io/news_agg")
+
+# هشِ نسخهٔ قالب Instant View در instantview.telegram.org (دامنهٔ
+# mahdine.github.io). با هر ویرایش قالب در ادیتور این هش عوض می‌شود —
+# لینک «View in Telegram» ادیتور rhash جدید را می‌دهد؛ آنجا را به‌روز کن.
+IV_RHASH = os.environ.get("IV_RHASH", "3f8f57ce2ac84f")
+
+
+def iv_link(page_url: str) -> str:
+    """لینک t.me/iv: صفحهٔ ترجمه‌شده به‌صورت Instant View با قالب خودمان
+    باز می‌شود — بدون نیاز به تأیید تیم تلگرام (audience خودمان)."""
+    return f"https://t.me/iv?url={quote(page_url, safe='')}&rhash={IV_RHASH}"
 
 # long-poll: تلگرام اتصال را نگه می‌دارد و به‌محض رسیدن update پاسخ می‌دهد.
 POLL_TIMEOUT = 25
@@ -407,7 +419,7 @@ class LiveWorker:
         # اگر قبلا‌ ترجمه شده، فقط لینکِ موجود می‌رود — سهمیه نمی‌سوزد.
         cached = self._cache.get(key)
         if cached and cached.get("url") == url:
-            self._send(chat_id, DONE_MSG.format(url=ivpage.page_url(PAGES_BASE, key)), client)
+            self._send(chat_id, DONE_MSG.format(url=iv_link(ivpage.page_url(PAGES_BASE, key))), client)
             return
 
         full = article.fetch_full(url, client)
@@ -442,9 +454,9 @@ class LiveWorker:
         page_url = ivpage.page_url(PAGES_BASE, key)
         # لینک قطعی است ولی deploy چند دقیقه طول می‌کشد؛ منتظر 200 می‌مانیم.
         if self._wait_ready(page_url, client):
-            self._send(chat_id, DONE_MSG.format(url=page_url), client)
+            self._send(chat_id, DONE_MSG.format(url=iv_link(page_url)), client)
         else:
-            self._send(chat_id, f"صفحه در حال انتشار است؛ اگر باز نشد یک دقیقه صبر کن:\n{page_url}", client)
+            self._send(chat_id, f"صفحه در حال انتشار است؛ اگر باز نشد یک دقیقه صبر کن:\n{iv_link(page_url)}", client)
 
     def _wait_ready(self, page_url: str, client: httpx.Client) -> bool:
         deadline = time.time() + PAGE_WAIT_SECONDS
