@@ -37,4 +37,10 @@ jobs:
         with:
           path: site
 
+      # deploy-pages index را بلافاصله بعد از final شدن artifact query می‌کند؛
+      # گاهی artifact هنوز در index ثبت نشده و "No artifacts named github-pages
+      # were found" می‌دهد. یک توقف کوتاه race را برطرف می‌کند.
+      - name: wait for artifact index
+        run: sleep 20
+
       - uses: actions/deploy-pages@v4
