@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://www.theverge.com/?p=1018253",
   "hn:50230917",
   "hn:50231189",
   "lobsters:zfoiw1",
@@ -2999,18 +2998,19 @@
   "hn:50583856",
   "tg:hacker_news_feed/134014",
   "hn:50586648",
-  "tg:hacker_news_feed/134015"
+  "tg:hacker_news_feed/134015",
+  "hn:50587859"
  ],
  "posted": {
-  "viral": 903,
+  "viral": 904,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News Feed",
   "Hacker News",
   "Hacker News",
   "Hacker News Feed",
-  "Hacker News Feed"
+  "Hacker News Feed",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4705,24 +4705,22 @@
     "CHIP"
    ],
    "at": "2026-11-21T11:54:29.569107+00:00"
+  },
+  {
+   "title": "تحقیق FBI درباره نفوذ احتمالی به پایگاه داده جرایم ملی",
+   "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+   "source": "bbc.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.09656,
+   "topics": [
+    "SECURITY",
+    "BREACH"
+   ],
+   "at": "2026-11-21T12:54:00.289873+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "adds",
-    "battery",
-    "built-in",
-    "debut",
-    "design",
-    "mini",
-    "starlink",
-    "swappable",
-    "thinner",
-    "wi-fi"
-   ],
-   "at": "2026-11-11T05:53:59.180425+00:00"
-  },
   {
    "sig": [
     "code",
@@ -8769,17 +8767,22 @@
    ],
    "at": "2026-11-21T11:54:29.569107+00:00",
    "url": "ankitg.me/blog/vibecoding-inference-chip"
+  },
+  {
+   "sig": [
+    "apparent",
+    "criminal",
+    "database",
+    "fbi",
+    "hack",
+    "investigating",
+    "reportedly"
+   ],
+   "at": "2026-11-21T12:54:00.289873+00:00",
+   "url": "bbc.com/news/articles/cvze7de86pk3o"
   }
  ],
  "snapshots": {
-  "hn:50457669": [
-   100,
-   "2026-11-12T02:53:46.535645+00:00"
-  ],
-  "hn:50458900": [
-   1304,
-   "2026-11-12T03:53:43.492504+00:00"
-  ],
   "hn:50457939": [
    738,
    "2026-11-12T03:53:43.492504+00:00"
@@ -11136,34 +11139,6 @@
    150,
    "2026-11-21T10:53:52.662112+00:00"
   ],
-  "gh:google-labs-code/stitch-skills": [
-   324,
-   "2026-11-21T11:53:56.953318+00:00"
-  ],
-  "gh:openvinotoolkit/openvino": [
-   202,
-   "2026-11-21T11:53:56.953318+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   724,
-   "2026-11-21T11:53:56.953318+00:00"
-  ],
-  "gh:nginx/nginx": [
-   195,
-   "2026-11-21T11:53:56.953318+00:00"
-  ],
-  "tg:hacker_news_feed/134010": [
-   164,
-   "2026-11-21T11:53:56.953318+00:00"
-  ],
-  "hn:50586292": [
-   124,
-   "2026-11-21T11:53:56.953318+00:00"
-  ],
-  "tg:hacker_news_feed/134013": [
-   150,
-   "2026-11-21T11:53:56.953318+00:00"
-  ],
   "tg:hacker_news_feed/134015": [
    159,
    "2026-11-21T11:53:56.953318+00:00"
@@ -11171,6 +11146,42 @@
   "hn:50586648": [
    84,
    "2026-11-21T11:53:56.953318+00:00"
+  ],
+  "gh:google-labs-code/stitch-skills": [
+   324,
+   "2026-11-21T12:53:55.921390+00:00"
+  ],
+  "gh:openvinotoolkit/openvino": [
+   202,
+   "2026-11-21T12:53:55.921390+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   724,
+   "2026-11-21T12:53:55.921390+00:00"
+  ],
+  "gh:nginx/nginx": [
+   195,
+   "2026-11-21T12:53:55.921390+00:00"
+  ],
+  "tg:hacker_news_feed/134010": [
+   164,
+   "2026-11-21T12:53:55.921390+00:00"
+  ],
+  "hn:50586292": [
+   149,
+   "2026-11-21T12:53:55.921390+00:00"
+  ],
+  "tg:hacker_news_feed/134013": [
+   150,
+   "2026-11-21T12:53:55.921390+00:00"
+  ],
+  "hn:50587859": [
+   101,
+   "2026-11-21T12:53:55.921390+00:00"
+  ],
+  "tg:hacker_news_feed/134016": [
+   152,
+   "2026-11-21T12:53:55.921390+00:00"
   ]
  },
  "skips": {
@@ -11216,7 +11227,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 181,
+  "Hacker News": 182,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11262,7 +11273,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-21T09:54:18.414748+00:00",
+  "Hacker News": "2026-11-21T12:54:00.289994+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -12720,8 +12731,22 @@
    "votes": {},
    "message_id": 1680,
    "chat_id": -1004399820759
+  },
+  "103": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "SECURITY",
+    "BREACH"
+   ],
+   "title": "تحقیق FBI درباره نفوذ احتمالی به پایگاه داده جرایم ملی",
+   "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+   "at": "2026-11-21T12:53:59.790709+00:00",
+   "votes": {},
+   "message_id": 1681,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 103,
+ "next_post_id": 104,
  "last_update_id": 276814756
 }
