@@ -2,6 +2,7 @@
 
 import html
 import logging
+import os
 
 import httpx
 from urllib.parse import quote
@@ -167,6 +168,22 @@ POLL_OPTION_VOTES = {text: vote for text, vote in POLL_OPTIONS}
 POLL_DURATION = 24 * 3600  # حداکثر مجاز در API
 
 
+# هشِ نسخهٔ قالب Instant View در instantview.telegram.org (دامنهٔ
+# mahdine.github.io). با هر ویرایش قالب در ادیتور این هش عوض می‌شود —
+# لینک «View in Telegram» ادیتور rhash جدید را می‌دهد؛ آنجا را به‌روز کن.
+IV_RHASH = os.environ.get("IV_RHASH", "3f8f57ce2ac84f")
+
+
+def iv_link(page_url: str) -> str:
+    """لینک t.me/iv: صفحهٔ ترجمه‌شده به‌صورت Instant View با قالب خودمان
+    باز می‌شود — بدون نیاز به تأیید تیم تلگرام (audience خودمان).
+
+    دکمه‌ی «ترجمه کامل» پست‌ها هم همین را می‌سازد: یک tap، ترجمه‌ی کامل،
+    داخل تلگرام — بدون چت و بدون بات.
+    """
+    return f"https://t.me/iv?url={quote(page_url, safe='')}&rhash={IV_RHASH}"
+
+
 def vote_url(bot_username: str, pid: str, vote: str) -> str:
     return f"https://t.me/{bot_username}?start=fb:{pid}:{vote}"
 
@@ -216,13 +233,23 @@ def parse_translate(payload: str) -> str | None:
     return pid
 
 
-def build_keyboard(item: Item, pid: str = "", bot_username: str = "", feedback: bool = True) -> dict:
+def build_keyboard(
+    item: Item,
+    pid: str = "",
+    bot_username: str = "",
+    feedback: bool = True,
+    translate_target: str = "",
+) -> dict:
     """دکمه‌های زیر پست.
 
     ردیف اول (وقتی فعال باشد) چهار دکمه‌ی بازخورد است و ردیف دوم «منبع»،
-    «ترجمه کامل» (deep-link به بات: tr:<pid>) و «دیدگاه‌ها» وقتی بحث جدا از
-    مقاله دارد (HN، Lobsters). در Ask HN مقاله و بحث یکی‌اند و دکمه‌ی
-    دیدگاه‌ها تکرار، پس جا نمی‌افتد. همه url هستند — backend نمی‌خواهند.
+    «ترجمه کامل» و «دیدگاه‌ها» وقتی بحث جدا از مقاله دارد (HN، Lobsters).
+    در Ask HN مقاله و بحث یکی‌اند و دکمه‌ی دیدگاه‌ها تکرار، پس جا نمی‌افتد.
+    همه url هستند — backend نمی‌خواهند.
+
+    «ترجمه کامل»: اگر صفحه‌ی ترجمه‌شده deploy شده (translate_target)، با یک
+    tap Instant View باز می‌شود؛ وگرنه فالبک = share dialog که پیام را به
+    چت بات می‌رساند و worker ترجمه را خودکار شروع می‌کند.
     """
     rows = []
     if feedback and pid and bot_username:
@@ -231,11 +258,14 @@ def build_keyboard(item: Item, pid: str = "", bot_username: str = "", feedback: 
         )
     source_row = [{"text": "منبع", "url": item.url}]
     if bot_username:
-        # دکمه‌ی ترجمه: share dialog با لینک مقاله باز می‌شود؛ کاربر بات را
-        # انتخاب می‌کند، پیام «ترجمه کامل این پست… <لینک>» در چت خصوصی می‌رسد
-        # و worker ترجمه را خودکار شروع می‌کند (برای همه‌ی کاربران).
-        share_text = f"{TRANSLATE_SHARE_PREFIX} را برای {bot_username} بفرست"
-        source_row.append({"text": "ترجمه کامل", "url": share_url(item.url, share_text)})
+        if translate_target:
+            # حالت اصلی: صفحه آماده روی Pages است — یک tap، داخل تلگرام.
+            source_row.append({"text": "ترجمه کامل", "url": iv_link(translate_target)})
+        else:
+            # فالبک: share dialog با لینک مقاله؛ کاربر بات را انتخاب می‌کند و
+            # worker لینک را می‌کَنَد و ترجمه را خودکار شروع می‌کند.
+            share_text = f"{TRANSLATE_SHARE_PREFIX} را برای {bot_username} بفرست"
+            source_row.append({"text": "ترجمه کامل", "url": share_url(item.url, share_text)})
     if item.discussion_url and item.discussion_url != item.url:
         source_row.append({"text": "دیدگاه‌ها", "url": item.discussion_url})
     rows.append(source_row)
@@ -434,6 +464,7 @@ def publish(
     pid: str = "",
     bot_username: str = "",
     feedback: bool = True,
+    translate_target: str = "",
 ) -> dict:
     """پست را با عکس بزرگ بالای متن می‌فرستد.
 
@@ -442,7 +473,7 @@ def publish(
     محدودیت. result تلگرام برمی‌گردد (message_id برای نگاشت واکنش‌ها).
     """
     text = build_message(item, title, body, tag, channel)
-    keyboard = build_keyboard(item, pid, bot_username, feedback)
+    keyboard = build_keyboard(item, pid, bot_username, feedback, translate_target)
     has_image = bool(item.image_url)
     if has_image:
         preview = {

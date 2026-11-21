@@ -38,31 +38,21 @@ import threading
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import quote
-
 import httpx
 import html as html_mod
 import yaml
 
 from . import article, images, ivpage, telegram, translate
+from .ivpage import PAGES_BASE
 from .state import State
+from .telegram import iv_link
 
 log = logging.getLogger("live")
 
 REPO_DIR = Path(os.environ.get("LIVE_REPO_DIR", "/repo"))
 DATA_DIR = Path(os.environ.get("LIVE_DATA_DIR", "/data"))
-PAGES_BASE = os.environ.get("PAGES_BASE_URL", "https://mahdine.github.io/news_agg")
-
-# هشِ نسخهٔ قالب Instant View در instantview.telegram.org (دامنهٔ
-# mahdine.github.io). با هر ویرایش قالب در ادیتور این هش عوض می‌شود —
-# لینک «View in Telegram» ادیتور rhash جدید را می‌دهد؛ آنجا را به‌روز کن.
-IV_RHASH = os.environ.get("IV_RHASH", "3f8f57ce2ac84f")
-
-
-def iv_link(page_url: str) -> str:
-    """لینک t.me/iv: صفحهٔ ترجمه‌شده به‌صورت Instant View با قالب خودمان
-    باز می‌شود — بدون نیاز به تأیید تیم تلگرام (audience خودمان)."""
-    return f"https://t.me/iv?url={quote(page_url, safe='')}&rhash={IV_RHASH}"
+# PAGES_BASE و iv_link/IV_RHASH مشترک با خط پست‌گذاری است (ivpage/telegram)
+# — منبعِ تکی، تا هشِ قالب در دو جای کد تکرار نشود.
 
 # long-poll: تلگرام اتصال را نگه می‌دارد و به‌محض رسیدن update پاسخ می‌دهد.
 POLL_TIMEOUT = 25
@@ -486,8 +476,8 @@ class LiveWorker:
             if not state:
                 self._send(chat_id, ERROR_MSG, client)
                 return
-            # دو شکل: pid مستقیم (دکمه‌ی «ترجمه کامل»: /start tr:<pid>) یا
-            # message_id (forward یا /t). pidها کوچک‌اند و message_idهای
+            # دو شکل: pid مستقیم یا message_id (forward یا /t از share
+            # dialogِ دکمه‌ی «ترجمه کامل»). pidها کوچک‌اند و message_idهای
             # کانال بزرگ — اول posts را می‌چکیم که بی‌ابهام بماند.
             pid = key if key in state.posts else state.find_pid_by_message(int(key))
             if not pid:
@@ -503,14 +493,17 @@ class LiveWorker:
             self._send(chat_id, NO_URL_MSG, client)
             return
 
+        page_url = ivpage.page_url(PAGES_BASE, key)
         # اگر قبلا‌ ترجمه شده، فقط لینکِ موجود می‌رود — سهمیه نمی‌سوزد.
         cached = self._cache.get(key)
         if cached and cached.get("url") == url:
-            self._send(
-                chat_id,
-                _done_text(title, iv_link(ivpage.page_url(PAGES_BASE, key))),
-                parse_mode="HTML",
-            )
+            self._send(chat_id, _done_text(title, iv_link(page_url)), client, parse_mode="HTML")
+            return
+        # یا خط پست‌گذاری صفحه را پیش از پست ساخته و deploy کرده است
+        # (حالت تک‌تپِ دکمه‌ی «ترجمه کامل»): یک HEAD — اگر ۲۰۰ است، ترجمه‌ی
+        # دوباره نمی‌سازیم و همان صفحه را می‌فرستیم.
+        if self._page_ready(page_url, client):
+            self._send(chat_id, _done_text(title, iv_link(page_url)), client, parse_mode="HTML")
             return
 
         # بلافاصله خبر بده کاربر؛ پیام لودینگ همین‌جا به متن نهایی تبدیل می‌شود.
@@ -549,7 +542,6 @@ class LiveWorker:
             }
             self._save_cache()
 
-            page_url = ivpage.page_url(PAGES_BASE, key)
             # لینک قطعی است ولی deploy چند دقیقه طول می‌کشد؛ منتظر 200 می‌مانیم.
             # متن نمایشی = عنوان مقاله؛ خود لینک (t.me/iv) داخل هایپرلینک پنهان است.
             if self._wait_ready(page_url, client):
@@ -568,6 +560,14 @@ class LiveWorker:
         except Exception:
             log.exception("job ترجمه شکست خورد")
             self._finish(chat_id, mid, ERROR_MSG, client)
+
+    def _page_ready(self, page_url: str, client: httpx.Client) -> bool:
+        """HEAD سریع: صفحه از قبل روی Pages هست؟ (خط پست‌گذاری آن را پیش از
+        پست ساخته و deploy کرده است — ترجمه‌ی دوباره سهمیه هدر می‌رود.)"""
+        try:
+            return client.head(page_url, timeout=15, follow_redirects=True).status_code == 200
+        except httpx.HTTPError:
+            return False
 
     def _wait_ready(self, page_url: str, client: httpx.Client) -> bool:
         deadline = time.time() + PAGE_WAIT_SECONDS

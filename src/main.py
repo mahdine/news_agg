@@ -4,6 +4,7 @@ import argparse
 import html
 import logging
 import os
+import subprocess
 import sys
 import time
 from datetime import datetime, timedelta, timezone
@@ -12,7 +13,7 @@ from pathlib import Path
 import httpx
 import yaml
 
-from . import article, cluster, images, scoring, scorecard, sources, telegram, translate
+from . import article, cluster, images, ivpage, scoring, scorecard, sources, telegram, translate
 from .models import Item
 from .state import State, now_utc
 
@@ -358,6 +359,94 @@ def maybe_digest(state, settings, client, args, token, channel) -> None:
     log.info("خلاصه‌ی هفتگی ارسال شد (%d خبر)", len(top))
 
 
+def _git(root: Path, *args: str) -> subprocess.CompletedProcess:
+    """یک دستور git در ریشه‌ی مخزن؛ شکست = RuntimeError (retry با caller)."""
+    r = subprocess.run(
+        ["git", "-C", str(root), *args], capture_output=True, text=True, timeout=120
+    )
+    if r.returncode != 0:
+        raise RuntimeError(f"git {' '.join(args[:4])} شکست: {(r.stderr or r.stdout)[:200]}")
+    return r
+
+
+def _commit_iv(rel: str, page: str, message: str) -> bool:
+    """صفحه‌ی iv را روی main می‌نهد — همان الگوی pushِ worker (fetch → reset →
+    commit → push، سه تلاش). push همان فایل iv-deploy.yml را بیدار می‌کند و
+    صفحه روی Pages می‌نشیند؛ deploy ساعتیِ publish.yml هم بعدا‌ همان
+    ساختار را می‌کوبد، پس تداخل ندارند.
+    """
+    target = ROOT / rel
+    for attempt in range(1, 4):
+        try:
+            _git(ROOT, "fetch", "origin", "main")
+            _git(ROOT, "reset", "--hard", "origin/main")
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(page, encoding="utf-8")
+            _git(ROOT, "add", rel)
+            if _git(ROOT, "diff", "--cached", "--quiet").returncode == 0:
+                return True  # صفحه از قبل موجود است (درخواست تکراری)
+            _git(
+                ROOT,
+                "-c", "user.name=github-actions[bot]",
+                "-c", "user.email=41898282+github-actions[bot]@users.noreply.github.com",
+                "commit", "-m", message,
+            )
+            _git(ROOT, "push", "origin", "HEAD:main")
+            return True
+        except Exception as exc:
+            log.warning("push صفحه‌ی iv نشد (تلاش %d): %s", attempt, str(exc)[:150])
+            time.sleep(5)
+    return False
+
+
+def _wait_page_ready(client: httpx.Client, page_url: str,
+                     timeout: int = 240, interval: int = 15) -> bool:
+    """deploy Pages چند دقیقه طول می‌کشد؛ تا 200 شدن صفحه صبر می‌کنیم تا
+    دکمه‌ی «ترجمه کامل» با کلیکِ همان لحظه، صفحه‌ی آماده ببیند (الگوی worker).
+    """
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        try:
+            if client.head(page_url, timeout=15, follow_redirects=True).status_code == 200:
+                return True
+        except httpx.HTTPError:
+            pass
+        time.sleep(interval)
+    return False
+
+
+def _pretranslate(item: Item, pid: str, full: str, html_doc: str, title: str,
+                  client: httpx.Client, gemini_key: str, models: list[str]) -> str:
+    """ترجمه‌ی کاملِ پیش از پست: ترجمه → صفحه‌ی iv → commit+push → wait 200.
+
+    page_url برمی‌گردد تا دکمه‌ی «ترجمه کامل» با یک tap داخل تلگرام (Instant
+    View) باز شود. در شکست «» برمی‌گردد و دکمه فالبک به مسیر share→بات
+    می‌نشیند — پست نمی‌افتد، فقط دکمه‌اش نسخه‌ی دو-tap می‌شود.
+    """
+    url = item.url
+    try:
+        translated = translate.translate_full(full, gemini_key, models, client)
+    except translate.TranslationError as exc:
+        log.warning("پیش‌ترجمه نشد (%s): %s", item.label, exc)
+        return ""
+    if not translated:
+        log.warning("پیش‌ترجمه خالی برگشت (%s)", item.label)
+        return ""
+    # خط اولِ قرارداد = عنوان فارسیِ خود مقاله (نه تیتر خلاصه‌ی خبر).
+    iv_title, translated = translate.split_full_text(translated)
+    if iv_title:
+        title = iv_title
+    cover = images.cover_url(html_doc, url) if html_doc else ""
+    page = ivpage.build_page(
+        title, item.label, now_utc().date().isoformat(), url, translated, cover or ""
+    )
+    rel = f"iv/{ivpage.page_filename(pid)}"
+    if not _commit_iv(rel, page, f"iv: ترجمه‌ی کامل {pid}"):
+        return ""
+    page_url = ivpage.page_url(ivpage.PAGES_BASE, pid)
+    return page_url if _wait_page_ready(client, page_url) else ""
+
+
 def publish(
     items: list[Item],
     state: State,
@@ -398,13 +487,17 @@ def publish(
             _archive(state, item)
             continue
 
+        full, html_doc = None, ""
         if not translating:
             title, persian, tag = "", item.text, ""
         else:
             try:
                 # متن کامل مقاله را می‌گیریم؛ تیتر تنها برای خلاصه‌ی ۲۵۰
                 # کلمه‌ای کافی نیست و مدل مجبور می‌شد تیتر را بازنویسی کند.
-                full = article.fetch(item.url, client) if scrape_text else None
+                # fetch_full (نه fetch): html برای کاورِ صفحه‌ی ترجمه هم لازم است.
+                fetched = article.fetch_full(item.url, client) if scrape_text else None
+                full = fetched[0] if fetched else None
+                html_doc = fetched[1] if fetched else ""
                 source_text = "\n\n".join(part for part in (item.text, full) if part)
                 result = translate.summarize(source_text, gemini_key, models, client)
                 title, persian, tag, item.topics = result if result else ("", None, "", [])
@@ -435,6 +528,19 @@ def publish(
         # اگر ارسال بعدش شکست بخورد رکورد بی‌ضرر می‌ماند (رأیی به آن نمی‌رسد).
         pid = state.register_post(item, title or persian, item.topics, datetime.now(timezone.utc))
 
+        # دکمه‌ی «ترجمه کامل» تک‌تپ: صفحه‌ی ترجمه‌شده باید پیش از پست روی Pages
+        # باشد تا کلیکِ همان لحظه صفحه‌ی آماده ببیند (push همان صفحه
+        # iv-deploy.yml را بیدار می‌کند). شکست = فالبک share→بات، بدون تأخیر.
+        translate_target = ""
+        if not args.dry_run and translating and full:
+            translate_target = _pretranslate(
+                item, pid, full, html_doc, title or "", client, gemini_key, models
+            )
+            log.info(
+                "ترجمه کامل: %s",
+                translate_target or "فالبک (صفحه‌ی پیش‌ترجمه‌شده نبود)",
+            )
+
         if args.dry_run:
             print("\n" + "─" * 60)
             print(f"[عکس] {item.image_url or 'بدون تصویر (preview غیرفعال)'}")
@@ -460,7 +566,7 @@ def publish(
         try:
             result = telegram.publish(
                 item, title, persian, token, channel, client, tag,
-                pid, bot_username, feedback,
+                pid, bot_username, feedback, translate_target,
             )
         except telegram.TelegramError as exc:
             log.error("ارسال نشد: %s", exc)

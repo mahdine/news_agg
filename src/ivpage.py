@@ -17,9 +17,13 @@ instantview.telegram.org ساخته می‌شود (قالب و تصویر خود
 
 import html
 import logging
+import os
 import re
 
 log = logging.getLogger("ivpage")
+
+# ریشه‌ی سایت GitHub Pages — worker و خط پست‌گذاری هر دو همین را می‌سازند.
+PAGES_BASE = os.environ.get("PAGES_BASE_URL", "https://mahdine.github.io/news_agg")
 
 _STYLE = """<style>
 body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
