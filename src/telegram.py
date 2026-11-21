@@ -4,6 +4,7 @@ import html
 import logging
 
 import httpx
+from urllib.parse import quote
 
 from .models import Item
 
@@ -192,6 +193,18 @@ def translate_url(bot_username: str, pid: str = "") -> str:
     return f"https://t.me/{bot_username}?start={payload}"
 
 
+# پیشوند ثابتِ پیام دکمه‌ی «ترجمه کامل» (share dialog). worker همین پیشوند
+# را می‌بیند، لینک را از متن می‌کَنَد و ترجمه را خودکار شروع می‌کند. برای همه‌ی
+# کاربران — اول‌بار و بازگشتی — کار می‌کند، برخلاف ?start که payload‌اش فقط
+# در اولین /start می‌رسد و کلیکِ کاربر بازگشتی هیچ event تولید نمی‌کند.
+TRANSLATE_SHARE_PREFIX = "ترجمه کامل این پست"
+
+
+def share_url(url: str, text: str) -> str:
+    """لینک share dialog تلگرام با لینک مقاله و متن درخواست."""
+    return f"https://t.me/share/url?url={quote(url, safe='')}&text={quote(text, safe='')}"
+
+
 def parse_translate(payload: str) -> str | None:
     """«tr:123» → «123»، «tr» → «». هر چیز دیگر None."""
     parts = payload.strip().split(":", 1)
@@ -218,10 +231,11 @@ def build_keyboard(item: Item, pid: str = "", bot_username: str = "", feedback: 
         )
     source_row = [{"text": "منبع", "url": item.url}]
     if bot_username:
-        # دکمه‌ی ترجمه: reader بداند پست را می‌شود کامل خواند. payload با pid
-        # فقط در اولین /start می‌رسد — worker همان پست را ترجمه می‌کند؛
-        # بقیه چت را باز می‌کنند و پست را forward می‌کنند.
-        source_row.append({"text": "ترجمه کامل", "url": translate_url(bot_username, pid)})
+        # دکمه‌ی ترجمه: share dialog با لینک مقاله باز می‌شود؛ کاربر بات را
+        # انتخاب می‌کند، پیام «ترجمه کامل این پست… <لینک>» در چت خصوصی می‌رسد
+        # و worker ترجمه را خودکار شروع می‌کند (برای همه‌ی کاربران).
+        share_text = f"{TRANSLATE_SHARE_PREFIX} را برای {bot_username} بفرست"
+        source_row.append({"text": "ترجمه کامل", "url": share_url(item.url, share_text)})
     if item.discussion_url and item.discussion_url != item.url:
         source_row.append({"text": "دیدگاه‌ها", "url": item.discussion_url})
     rows.append(source_row)

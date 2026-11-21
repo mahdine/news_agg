@@ -7,9 +7,11 @@ worker یک فرآیند همیشگی است (Docker در WSL، پروژه‌ی 
 1. **ترجمه‌ی فوری**: کاربر پست کانال را برای بات forward می‌کند (یا
    /t <message_id|url> می‌زند) → worker مقاله را می‌گیرد، کامل ترجمه
    می‌کند، صفحه‌ی Instant View در iv/ منتشر می‌کند و لینکش را در چت
-   خصوصی همان کاربر می‌فرستد. دکمه‌ی «ترجمه کامل» زیر هر پست این مسیر را
-   معرفی می‌کند: deep-link tr:<pid> به بات — در اولین /start همان پست
-   مستقیم ترجمه می‌شود، وگرنه کاربر پست را forward می‌کند.
+   خصوصی همان کاربر می‌فرستد. دکمه‌ی «ترجمه کامل» زیر هر پست share dialog
+   با لینک مقاله می‌سازد: کاربر بات را انتخاب می‌کند، پیام با پیشوند
+   TRANSLATE_SHARE_PREFIX می‌رسد و worker لینک را می‌کَنَد و ترجمه را
+   خودکار شروع می‌کند — برای همه‌ی کاربران (اول‌بار و بازگشتی)، چون
+   share بر خلاف ?start هیچ payload ندارد و همیشه یک پیام واقعی است.
 
 2. **بازخورد مداوم**: این worker مصرف‌کننده‌ی انحصاری updateهای تلگرام
    است. واکنش/رأی/نظّم در stateٔ حافظه‌ای ثبت و هر گاه تغییر کرد، به‌صورت
@@ -28,6 +30,7 @@ state.json را لمس نمی‌کند — با commit ساعتی state تعار
 import json
 import logging
 import os
+import re
 import shlex
 import subprocess
 import tempfile
@@ -82,8 +85,17 @@ DONE_MSG = "📄 ترجمه‌ی کامل:\n<a href=\"{url}\">{title}</a>"
 LOADING_MSG = "⏳ در حال ترجمه‌ی کاملِ مقاله… (معمولا‌ ۳۰ تا ۶۰ ثانیه)"
 
 GREETING = (
-    "سلام! پستی که می‌خواهی متن کاملش را بخوانی را برایم forward کن، "
-    "یا /t <لینک> بفرست — ترجمه‌ی کاملش همین‌جا می‌آید."
+    "سلام! برای خواندن متن کاملِ یک پست: روی دکمه‌ی «ترجمه کامل» زیر پست "
+    "بزن (یا پست را برایم forward کن / /t <لینک> بفرست) — ترجمه‌ی کامل "
+    "همین‌جا می‌آید."
+)
+
+# بعد از هر ترجمه‌ی موفق به پیام DONE اضافه می‌شود تا آخرین پیامِ چت همیشه
+# راهنمای مرحله‌ی بعد باشد (کاربری که دکمه می‌زند و چت را باز می‌کند،
+# آخرین پیام = راهنمای تازه).
+NEXT_STEPS = (
+    "\n\nبرای ترجمه‌ی پست بعدی: روی دکمه‌ی «ترجمه کامل» زیر پست بزن — "
+    "یا پست را برایم فوروارد کن."
 )
 
 # دکمه‌ی «ترجمه کامل» payload tr بدون pid فرستاده (یا کاربر مستقیم /start tr
@@ -92,6 +104,11 @@ TRANSLATE_PROMPT = (
     "سلام! پست موردنظر را همین‌جا برایم forward کن (یا /t <لینک> بفرست) "
     "تا ترجمه‌ی کاملش را بفرستم. 📄"
 )
+
+
+def _done_text(title: str, link: str) -> str:
+    """پیام DONE + راهنمای مرحله‌ی بعد — تا آخرین پیام چت همیشه راهنما باشد."""
+    return DONE_MSG.format(url=link, title=html_mod.escape(title or "مقاله")) + NEXT_STEPS
 
 
 class LiveWorker:
@@ -317,6 +334,17 @@ class LiveWorker:
                 self._spawn_job(chat_id, arg)
             return
 
+        # دکمه‌ی «ترجمه کامل»: share dialog پیامی با پیشوند ثابت + لینک
+        # مقاله می‌سازد. اینجا لینک را می‌کنیم و job می‌اندازیم — برای همه‌ی
+        # کاربران کار می‌کند (share همیشه پیام واقعی است، برخلاف ?start).
+        if text.startswith(telegram.TRANSLATE_SHARE_PREFIX):
+            m = re.search(r"https?://\S+", text)
+            if m:
+                self._spawn_job(chat_id, m.group(0))
+            else:
+                self._send(chat_id, BAD_T_MSG)
+            return
+
         fwd_id = msg.get("forward_from_message_id")
         if fwd_id:
             fchat = msg.get("forward_from_chat") or {}
@@ -480,10 +508,7 @@ class LiveWorker:
         if cached and cached.get("url") == url:
             self._send(
                 chat_id,
-                DONE_MSG.format(
-                    url=iv_link(ivpage.page_url(PAGES_BASE, key)),
-                    title=html_mod.escape(title or "مقاله"),
-                ),
+                _done_text(title, iv_link(ivpage.page_url(PAGES_BASE, key))),
                 parse_mode="HTML",
             )
             return
@@ -530,14 +555,14 @@ class LiveWorker:
             if self._wait_ready(page_url, client):
                 self._finish(
                     chat_id, mid,
-                    DONE_MSG.format(url=iv_link(page_url), title=html_mod.escape(title or "مقاله")),
+                    _done_text(title, iv_link(page_url)),
                     client, parse_mode="HTML",
                 )
             else:
                 self._finish(
                     chat_id, mid,
                     "صفحه در حال انتشار است؛ اگر باز نشد یک دقیقه صبر کن:\n"
-                    + DONE_MSG.format(url=iv_link(page_url), title=html_mod.escape(title or "مقاله")),
+                    + _done_text(title, iv_link(page_url)),
                     client, parse_mode="HTML",
                 )
         except Exception:
