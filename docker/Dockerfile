@@ -16,8 +16,10 @@ RUN git config --system --add safe.directory /repo
 WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-COPY src/ src/
-COPY config.yaml .
+
+# کد (src/ و config.yaml) در تصویر bake نمی‌شود؛ همیشه از volume /repo
+# (تازه‌یترین commit) import می‌شود تا update لازم نباشد.
+WORKDIR /repo
 
 # راپور clone (برای push کردن iv/*.html و live/feedback.json) و داده‌های
 # محلی (offset، کش ترجمه) — هر دو از volume می‌آیند.
