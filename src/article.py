@@ -32,8 +32,12 @@ MIN_USEFUL = 400
 MAX_CHARS = 8000
 
 
-def fetch(url: str, client: httpx.Client) -> str | None:
-    """متن مقاله، یا None اگر چیز به‌دردبخوری در نیامد."""
+def fetch_full(url: str, client: httpx.Client) -> tuple[str, str] | None:
+    """(متن مقاله، html خام صفحه) یا None اگر چیز به‌دردبخوری در نیامد.
+
+    html خام برای استخراج og:image (تصویر کاور صفحه‌ی Instant View) لازم
+    است؛ fetch() فقط متن برمی‌گرداند و همان قرارداد قدیمی را نگه می‌دارد.
+    """
     if not url.startswith("http"):
         return None
 
@@ -59,4 +63,10 @@ def fetch(url: str, client: httpx.Client) -> str | None:
 
     if not text or len(text) < MIN_USEFUL:
         return None
-    return text[:MAX_CHARS]
+    return text[:MAX_CHARS], resp.text
+
+
+def fetch(url: str, client: httpx.Client) -> str | None:
+    """متن مقاله، یا None اگر چیز به‌دردبخوری در نیامد."""
+    full = fetch_full(url, client)
+    return full[0] if full else None

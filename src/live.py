@@ -37,7 +37,7 @@ from pathlib import Path
 import httpx
 import yaml
 
-from . import article, ivpage, telegram, translate
+from . import article, images, ivpage, telegram, translate
 from .state import State
 
 log = logging.getLogger("live")
@@ -410,10 +410,13 @@ class LiveWorker:
             self._send(chat_id, DONE_MSG.format(url=ivpage.page_url(PAGES_BASE, key)), client)
             return
 
-        text = article.fetch(url, client)
-        if not text:
+        full = article.fetch_full(url, client)
+        if not full:
             self._send(chat_id, FETCH_FAIL_MSG.format(url=url), client)
             return
+        text, html_doc = full
+        # تصویر کاور (og:image سایت اصلی) برای صفحه‌ی IV و پیش‌نمایش تلگرام.
+        cover = images.cover_url(html_doc, url) or ""
 
         try:
             translated = translate.translate_full(text, self.gemini_key, self.models, client)
@@ -426,7 +429,7 @@ class LiveWorker:
             return
 
         rel = f"iv/{ivpage.page_filename(key)}"
-        page = ivpage.build_page(title, label, date_str, url, translated)
+        page = ivpage.build_page(title, label, date_str, url, translated, cover)
         self._publish_file(rel, page, f"iv: ترجمه‌ی کامل {key}")
 
         self._cache[key] = {

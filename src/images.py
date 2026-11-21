@@ -141,6 +141,27 @@ def _candidates(html: str, base: str) -> list[str]:
     return out[:8]
 
 
+def cover_url(html_doc: str, base: str) -> str | None:
+    """تصویر کاور مقاله از og:image/twitter:image — برای صفحه‌ی Instant View.
+
+    برخلاف resolve() اینجا اندازه اعتبارسنجی نمی‌شود (درخواست اضافه نمی‌خواهیم)؛
+    صفحه‌ی IV و پارسر تلگرام URL را خودشان استفاده می‌کنند. None = بدون کاور.
+    """
+    for tag in _META.finditer(html_doc):
+        content = _CONTENT.search(tag.group(0))
+        if not content:
+            continue
+        url = urljoin(base, html_lib.unescape(content.group(1).strip()))
+        if not url.startswith("http"):
+            continue
+        if urlparse(url).path.lower().endswith(_BAD_EXT):
+            continue
+        if _JUNK.search(url):
+            continue
+        return url
+    return None
+
+
 def _pick(candidates: list[str], client: httpx.Client, min_side: int) -> str | None:
     """بزرگ‌ترین تصویر قابل قبول. اولین گزینه لزوماً بهترین نیست."""
     best, best_area = None, 0
