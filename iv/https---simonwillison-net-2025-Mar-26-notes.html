@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>۲۶ مارس ۲۰۲۵</title>
+<meta name="description" content="من یک نوع محتوای جدید به وبلاگم اضافه کرده‌ام: یادداشت‌ها (notes). این نوع محتوا به دسته‌بندی‌های موجود من یعنی ورودی‌ها (entries)، نشان‌گذاری‌ها (boo…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="۲۶ مارس ۲۰۲۵">
+<meta property="og:description" content="من یک نوع محتوای جدید به وبلاگم اضافه کرده‌ام: یادداشت‌ها (notes). این نوع محتوا به دسته‌بندی‌های موجود من یعنی ورودی‌ها (entries)، نشان‌گذاری‌ها (boo…">
+<meta property="og:url" content="https://simonwillison.net/2025/Mar/26/notes/">
+<meta property="og:site_name" content="PersianTech">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="۲۶ مارس ۲۰۲۵">
+<meta name="twitter:description" content="من یک نوع محتوای جدید به وبلاگم اضافه کرده‌ام: یادداشت‌ها (notes). این نوع محتوا به دسته‌بندی‌های موجود من یعنی ورودی‌ها (entries)، نشان‌گذاری‌ها (boo…">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<h1>۲۶ مارس ۲۰۲۵</h1>
+<p>من یک نوع محتوای جدید به وبلاگم اضافه کرده‌ام: یادداشت‌ها (notes). این نوع محتوا به دسته‌بندی‌های موجود من یعنی ورودی‌ها (entries)، نشان‌گذاری‌ها (bookmarks) و نقل‌قول‌ها (quotations) اضافه می‌شود.</p>
+<p>یک یادداشت، تا حدی شبیه به یک نشان‌گذاری بدون لینک است. این یادداشت‌ها برای نوشته‌های کوتاه هستند؛ افکار یا تصاویری که نیازی به یک ورودی کامل با عنوان ندارند. از همان نوع مطالبی که قبلاً در Twitter منتشر می‌کردم، اما حس می‌کنم برای بازنشر در شبکه‌های اجتماعی متعدد (مثلاً Mastodon و Bluesky) مناسب نیستند.</p>
+<p>من تا حدی از افکار کوتاه، یادداشت‌ها، لینک‌ها و تأملات Molly White الهام گرفتم.</p>
+<p>مدتی بود که به این موضوع فکر می‌کردم، اما حجم کاری که برای تغییر تمام بخش‌های سایتم جهت پشتیبانی از سه نوع محتوای مختلف لازم بود، دلهره‌آور به نظر می‌رسید. سپس همین امشب تصمیم گرفتم کد منبع وبلاگم را (با استفاده از files-to-prompt و LLM) از طریق مدل جدید Gemini 2.5 Pro اجرا کنم:</p>
+<p>```bash</p>
+<p>files-to-prompt . -e py -c | \</p>
+<p>llm -m gemini-2.5-pro-exp-03-25 -s \</p>
+<p>&#x27;I want to add a new type of content called a Note,</p>
+<p>similar to quotation and bookmark and entry but it</p>
+<p>only has a markdown text body. Output all of the</p>
+<p>code I need to add for that feature and tell me</p>
+<p>which files to add  the code to.&#x27;</p>
+<p>```</p>
+<p>مدل Gemini یک برنامه ۱۳ مرحله‌ای دقیق به من داد که تمام تغییرات خسته‌کننده‌ای را که از فکر کردن به آن‌ها طفره می‌رفتم، پوشش می‌داد!</p>
+<p>کد مربوطه در این PR قرار دارد که ۱۸ فایل مختلف را تحت تأثیر قرار داد. کل این پروژه از ابتدا تا انتها حدود ۴۵ دقیقه زمان برد.</p>
+<p>(من از Claude برای ایده‌پردازی جهت انتخاب نام این قابلیت استفاده کردم؛ از او خواستم اسم‌های احتمالی را پیشنهاد دهد و سپس آن‌ها را «از کم‌ادعاترین تا پرادعاترین رتبه‌بندی کند» و در نهایت «notes» به عنوان گزینه برتر انتخاب شد.)</p>
+<p>این متن اکنون برای یک یادداشت بیش از حد طولانی شده و در واقع باید به یک ورودی (entry) ارتقا یابد، اما من باید اولین یادداشت را منتشر کنم تا مطمئن شوم همه چیز همان‌طور که باید، کار می‌کند.</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://simonwillison.net/2025/Mar/26/notes/">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
