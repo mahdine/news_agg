@@ -26,7 +26,9 @@ state.json را لمس نمی‌کند — با commit ساعتی state تعار
 import json
 import logging
 import os
+import shlex
 import subprocess
+import tempfile
 import threading
 import time
 from datetime import datetime, timezone
@@ -110,33 +112,41 @@ class LiveWorker:
         )
 
     # ── git ─────────────────────────────────────────────────────────
-    def _git(self, *args: str, check: bool = True) -> subprocess.CompletedProcess:
+    def _git(self, *args: str, check: bool = True,
+             env_extra: dict | None = None) -> subprocess.CompletedProcess:
+        env = {**os.environ, **(env_extra or {})}
         r = subprocess.run(
             ["git", "-C", str(REPO_DIR), *args],
             capture_output=True, text=True, timeout=120,
+            env=env,
         )
         if check and r.returncode != 0:
             raise RuntimeError(f"git {' '.join(args[:4])} شکست: {(r.stderr or r.stdout)[:200]}")
         return r
 
     def _git_push(self, *args: str) -> subprocess.CompletedProcess:
-        # هدر Bearer (extraHeader) credential-prompt خود git را سرکوب
-        # نمی‌کند و در محیط بدون TTY می‌شکند؛ push به URL با توکنِ
-        # درج‌شده الگوی اثبات‌شده است.
-        argv = list(args)
-        if len(argv) >= 2 and argv[0] == "push" and argv[1] == "origin":
-            argv[1] = self._remote_url()
-        return self._git(*argv)
-
-    def _remote_url(self) -> str:
-        r = subprocess.run(
-            ["git", "-C", str(REPO_DIR), "remote", "get-url", "origin"],
-            capture_output=True, text=True, timeout=30,
+        # parserِ URL در git 2.47 توکن‌های طولانیِ درج‌شده در URL را رد
+        # می‌کند (URL rejected: Port number ...)؛ از URL پاک (origin) استفاده
+        # می‌کنیم و توکن را با GIT_ASKPASSِ موقت می‌فرستیم.
+        fd, path = tempfile.mkstemp(prefix="git-askpass-")
+        os.close(fd)
+        askpass = Path(path)
+        askpass.write_text(
+            "#!/bin/sh\n"
+            "case \"$1\" in\n"
+            "  *Username*) echo \"x-access-token\" ;;\n"
+            f"  *) echo {shlex.quote(self.github_token)} ;;\n"
+            "esac\n",
+            encoding="utf-8",
         )
-        url = r.stdout.strip()
-        return url.replace(
-            "https://", f"https://x-access-token:{self.github_token}@", 1
-        )
+        askpass.chmod(0o700)
+        try:
+            return self._git(*args, env_extra={
+                "GIT_ASKPASS": str(askpass),
+                "GIT_TERMINAL_PROMPT": "0",
+            })
+        finally:
+            askpass.unlink(missing_ok=True)
 
     def _publish_file(self, rel_path: str, content: str, message: str) -> None:
         """فایل را روی main منتشر می‌کند: fetch → reset → بازنویسی → commit → push.
