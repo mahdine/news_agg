@@ -383,8 +383,15 @@ def _commit_iv(rel: str, page: str, message: str) -> bool:
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(page, encoding="utf-8")
             _git(ROOT, "add", rel)
-            if _git(ROOT, "diff", "--cached", "--quiet").returncode == 0:
+            # --quiet: خروجی ۰ = بدون تغییر، ۱ = تغییرات موجود (سیگنال، نه خطا!)
+            diff = subprocess.run(
+                ["git", "-C", str(ROOT), "diff", "--cached", "--quiet"],
+                capture_output=True, text=True, timeout=30,
+            )
+            if diff.returncode == 0:
                 return True  # صفحه از قبل موجود است (درخواست تکراری)
+            if diff.returncode > 1:
+                raise RuntimeError(f"git diff شکست: {diff.stderr[:200]}")
             _git(
                 ROOT,
                 "-c", "user.name=github-actions[bot]",
