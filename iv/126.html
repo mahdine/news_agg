@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>افزونه‌های PostgreSQL با استفاده از Go</title>
+<meta name="description" content="پروژه gopgext با استفاده از TinyGo، افزونه‌های PostgreSQL را از کدهای ساده Go می‌سازد. کافی است یک تابع را با دستور `//gopgext:function` نشان‌گذاری کن…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="افزونه‌های PostgreSQL با استفاده از Go">
+<meta property="og:description" content="پروژه gopgext با استفاده از TinyGo، افزونه‌های PostgreSQL را از کدهای ساده Go می‌سازد. کافی است یک تابع را با دستور `//gopgext:function` نشان‌گذاری کن…">
+<meta property="og:url" content="https://jespino.github.io/gopgext/">
+<meta property="og:site_name" content="PersianTech">
+<meta property="og:image" content="https://jespino.github.io/gopgext/img/social.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="افزونه‌های PostgreSQL با استفاده از Go">
+<meta name="twitter:description" content="پروژه gopgext با استفاده از TinyGo، افزونه‌های PostgreSQL را از کدهای ساده Go می‌سازد. کافی است یک تابع را با دستور `//gopgext:function` نشان‌گذاری کن…">
+<meta name="twitter:image" content="https://jespino.github.io/gopgext/img/social.png">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<img class="hero" src="https://jespino.github.io/gopgext/img/social.png" alt="" loading="lazy">
+<h1>افزونه‌های PostgreSQL با استفاده از Go</h1>
+<p class="meta">Hacker News Feed  ·  2026-11-22</p>
+<p>پروژه gopgext با استفاده از TinyGo، افزونه‌های PostgreSQL را از کدهای ساده Go می‌سازد. کافی است یک تابع را با دستور `//gopgext:function` نشان‌گذاری کنید تا به یک تابع SQL تبدیل شود: gopgext کدهای رابط C، اسکریپت نصب و فایل کنترل را می‌نویسد.</p>
+<p>فقط Go</p>
+<p>یک پروژه شامل فایل‌های ساده Go است. کتابخانه استاندارد به خوبی کار می‌کند: fmt، regexp، encoding/json، crypto/*، maps، generics، iterators و defer/recover.</p>
+<p>نگاشت انواع داده به SQL</p>
+<p>رشته‌ها، اعداد، آرایه‌ها، مقادیر NULL، مجموعه‌ها، سطرها، timestamps، UUIDها و JSON به انواع داده‌های SQL نگاشت می‌شوند. شما می‌توانید انواع داده‌های اختصاصی و انواع ترکیبی (composite types) خود را در Go تعریف کنید.</p>
+<p>پرس‌وجوها و خطاها</p>
+<p>اجرای SQL از طریق SPI، بازگرداندن خطاها با کدهای SQLSTATE، ثبت وقایع (log)، خواندن تنظیمات و حفظ پاسخ‌گویی به لغو پرس‌وجوها امکان‌پذیر است.</p>
+<p>فراتر از توابع</p>
+<p>نوشتن تریگرها، توابع تجمعی (aggregates)، کلاس‌های عملگر GiST، GIN، SP-GiST و BRIN، روش‌های دسترسی به ایندکس، نگاشت‌گرهای داده‌های خارجی (foreign data wrappers) و قلاب‌های پرس‌وجو (query hooks).</p>
+<p>اثبات‌شده در contrib</p>
+<p>پورت‌های ماژول‌های contrib در PostgreSQL (مانند pgcrypto، hstore، pg_stat_statements، cube و غیره) تست‌های رگرسیون اصلی (upstream) را با موفقیت پشت سر می‌گذارند.</p>
+<p>هم‌زیستی ایمن</p>
+<p>چندین افزونه Go می‌توانند در یک بک‌اند بارگذاری شوند. خطاهای PostgreSQL هرگز از طریق فریم‌های Go منتشر نمی‌شوند و نتایج در حافظه PostgreSQL کپی می‌شوند.</p>
+<p>Hello, world</p>
+<p>```go</p>
+<p>package main</p>
+<p>import (</p>
+<p>&quot;strings&quot;</p>
+<p>&quot;gopgext/pg&quot;</p>
+<p>)</p>
+<p>// Hello یک خوش‌آمدگویی برای نام بازمی‌گرداند.</p>
+<p>//</p>
+<p>//gopgext:function immutable parallel=safe</p>
+<p>func Hello(name string) string {</p>
+<p>return &quot;Hello, &quot; + name + &quot;!&quot;</p>
+<p>}</p>
+<p>// Shout رشته s را به حروف بزرگ تبدیل می‌کند. رشته خالی باعث بروز خطا می‌شود.</p>
+<p>//</p>
+<p>//gopgext:function immutable parallel=safe</p>
+<p>func Shout(s string) (string, error) {</p>
+<p>if s == &quot;&quot; {</p>
+<p>return &quot;&quot;, pg.Errorf(pg.CodeInvalidParameterValue, &quot;nothing to shout&quot;)</p>
+<p>}</p>
+<p>return strings.ToUpper(s) + &quot;!&quot;, nil</p>
+<p>}</p>
+<p>func main() {} // یک بار در هر بک‌اند، هنگام بارگذاری کتابخانه توسط PostgreSQL اجرا می‌شود</p>
+<p>```</p>
+<p>```bash</p>
+<p>gopgext init hello       # ایجاد hello/go.mod و hello/main.go</p>
+<p>gopgext install hello    # ساخت hello.so، hello.control، hello--1.0.sql و نصب آن‌ها</p>
+<p>psql -c &#x27;CREATE EXTENSION hello&#x27; -c &quot;SELECT hello(&#x27;world&#x27;)&quot;</p>
+<p>#     hello</p>
+<p># ---------------</p>
+<p>#  Hello, world!</p>
+<p>```</p>
+<p>آموزش موجود، مراحل را گام‌به‌گام توضیح می‌دهد.</p>
+<p>یک پروژه هم‌خانواده</p>
+<p>پروژه gopgext از همان رویکرد gokm استفاده می‌کند که ماژول‌های هسته لینوکس را با Go می‌سازد: یک هدف (target) سفارشی در TinyGo و لایه زمان اجرا برای میزبان، یک زمان اجرای C که توسط سیستم ساخت خودِ میزبان (در اینجا PGXS و در آنجا kbuild) کامپایل می‌شود، و کدهای رابط (glue) تولیدشده.</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://jespino.github.io/gopgext/">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
