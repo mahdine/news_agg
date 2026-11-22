@@ -1,8 +1,5 @@
 {
  "seen": [
-  "hn:50238763",
-  "hn:50238884",
-  "hn:50239027",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myqxosyjij2l",
   "https://www.neowin.net/news/microsoft-issues-urgent-net-security-patches-for-critical-buffer-overflow-flaws/",
   "ff2cecfcb18227434537181c0ba96a70",
@@ -2999,18 +2996,21 @@
   "hn:50596133",
   "tg:hacker_news_feed/134037",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224",
-  "tg:hacker_news_feed/134038"
+  "tg:hacker_news_feed/134038",
+  "tg:hacker_news_feed/134039",
+  "5fd89af2854023e920f6cf289f0edd46",
+  "https://techcrunch.com/?p=3190451"
  ],
  "posted": {
   "viral": 922,
-  "editorial": 1077
+  "editorial": 1078
  },
  "recent_labels": [
-  "Hacker News",
   "Lobsters",
   "Hacker News",
   "vc.ru",
-  "Hacker News Feed"
+  "Hacker News Feed",
+  "Hi-Tech Mail"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4963,22 +4963,23 @@
     "PROGRAMMING"
    ],
    "at": "2026-11-22T09:03:52.658584+00:00"
+  },
+  {
+   "title": "عرضه اولیه‌ی سهام Anthropic و ارزش‌گذاری میلیاردی سرمایه‌گذاری‌های Sound Ventures",
+   "url": "https://hi-tech.mail.ru/news/161258-sound-ventures-otsenili-v-7-mlrd-dolyu-v-anthropic/",
+   "source": "Hi-Tech Mail",
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "score": 0.17807,
+   "topics": [
+    "AI",
+    "LLM",
+    "CHATBOT"
+   ],
+   "at": "2026-11-22T09:53:04.153337+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "cpu",
-    "fix",
-    "functional",
-    "intel",
-    "issues",
-    "microcode",
-    "releases",
-    "variety"
-   ],
-   "at": "2026-11-11T10:54:15.482013+00:00"
-  },
   {
    "sig": [
     "ai-generated",
@@ -9074,6 +9075,35 @@
    ],
    "at": "2026-11-22T09:03:52.658584+00:00",
    "url": "onurgumus.github.io/zero-csharp/index"
+  },
+  {
+   "sig": [
+    "above",
+    "amd",
+    "ant",
+    "anthropic",
+    "bloomberg",
+    "broadcom",
+    "claude",
+    "exchanges",
+    "fortune",
+    "google",
+    "hits",
+    "ipo",
+    "micron",
+    "microsoft",
+    "nasdaq",
+    "nvidia",
+    "openai",
+    "partners",
+    "price",
+    "sound",
+    "technology",
+    "tsmc",
+    "ventures"
+   ],
+   "at": "2026-11-22T09:53:04.153337+00:00",
+   "url": "hi-tech.mail.ru/news/161258-sound-ventures-otsenili-v-7-mlrd-dolyu-v-anthropic"
   }
  ],
  "snapshots": {
@@ -11471,11 +11501,11 @@
   ],
   "tg:hacker_news_feed/134039": [
    153,
-   "2026-11-22T09:02:03.749663+00:00"
+   "2026-11-22T09:42:07.883636+00:00"
   ],
   "lobsters:32rhzb": [
-   27,
-   "2026-11-22T09:02:03.749663+00:00"
+   30,
+   "2026-11-22T09:42:07.883636+00:00"
   ]
  },
  "skips": {
@@ -11503,7 +11533,7 @@
   "Engadget": 1,
   "antirez": 1,
   "The Verge": 1,
-  "Hacker News Feed": 14
+  "Hacker News Feed": 15
  },
  "posts_by_label": {
   "Engadget": 45,
@@ -11535,7 +11565,7 @@
   "Simon Willison RSS": 6,
   "vc.ru": 16,
   "SecurityWeek": 18,
-  "Hi-Tech Mail": 50,
+  "Hi-Tech Mail": 51,
   "MIT Tech Review": 1,
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
@@ -11581,7 +11611,7 @@
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
   "vc.ru": "2026-11-22T08:55:23.450509+00:00",
   "SecurityWeek": "2026-11-13T15:54:47.415043+00:00",
-  "Hi-Tech Mail": "2026-11-13T13:54:48.144614+00:00",
+  "Hi-Tech Mail": "2026-11-22T09:53:04.153449+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
@@ -13309,8 +13339,24 @@
    "message_id": 1712,
    "chat_id": -1004399820759,
    "iv_message_id": 1713
+  },
+  "123": {
+   "label": "Hi-Tech Mail",
+   "pool": "editorial",
+   "topics": [
+    "AI",
+    "LLM",
+    "CHATBOT"
+   ],
+   "title": "عرضه اولیه‌ی سهام Anthropic و ارزش‌گذاری میلیاردی سرمایه‌گذاری‌های Sound Ventures",
+   "url": "https://hi-tech.mail.ru/news/161258-sound-ventures-otsenili-v-7-mlrd-dolyu-v-anthropic/",
+   "at": "2026-11-22T09:42:13.304083+00:00",
+   "votes": {},
+   "message_id": 1719,
+   "chat_id": -1004399820759,
+   "iv_message_id": 1720
   }
  },
- "next_post_id": 123,
+ "next_post_id": 124,
  "last_update_id": 276814760
 }
