@@ -587,14 +587,23 @@ class LiveWorker:
 
     def _wait_ready(self, page_url: str, client: httpx.Client) -> bool:
         deadline = time.time() + PAGE_WAIT_SECONDS
+        ready = False
         while time.time() < deadline:
             try:
                 if client.head(page_url, timeout=15, follow_redirects=True).status_code == 200:
-                    return True
+                    ready = True
+                    break
             except httpx.HTTPError:
                 pass
             time.sleep(PAGE_WAIT_INTERVAL)
-        return False
+        if not ready:
+            return False
+        # همان تثبیت CDN خط پست‌گذاری: تلگرام صفحه را در لحظه‌ی ارسال پیام
+        # DONE fetch می‌کند تا IV را تعیین کند — اگر edge‌اش هنوز پر نشده باشد،
+        # لینکِ آن پیام برای همیشه بدون IV می‌ماند (2026-11-22).
+        log.info("تثبیت CDN پیش از DONE: %d ثانیه", ivpage.CDN_GRACE_SECONDS)
+        time.sleep(ivpage.CDN_GRACE_SECONDS)
+        return self._page_ready(page_url, client)
 
     # ── snapshot بازخورد ───────────────────────────────────────────
     def flush_feedback(self) -> None:

@@ -25,6 +25,15 @@ log = logging.getLogger("ivpage")
 # ریشه‌ی سایت GitHub Pages — worker و خط پست‌گذاری هر دو همین را می‌سازند.
 PAGES_BASE = os.environ.get("PAGES_BASE_URL", "https://mahdine.github.io/news_agg")
 
+# چند ثانیه‌ی صبر پس از اولین 200، پیش از ارسال پیامی که لینک IV دارد.
+# CDNِ Pages چندحاشیه‌ای است و آبشاری پر می‌شود: runner (آمریکا) ممکن است
+# 200 ببیند در حالی که edge‌ای که سرورهای تلگرام از آن fetch می‌کنند هنوز 404
+# دارد. تلگرام صلاحت IV را در لحظه‌ی ارسال پیام تعیین و cache می‌کند — اگر آن
+# لحظه صفحه نباشد، آن پیام برای همیشه بدون IV می‌ماند (مشاهده‌شده 2026-11-22:
+# پست‌های 116/119/120 حدود 0.4 ثانیه بعد از اولین 200 ارسال شدند → بدون IV؛
+# همان لینک چند دقیقه بعد → IV درست).
+CDN_GRACE_SECONDS = int(os.environ.get("CDN_GRACE_SECONDS", "45"))
+
 _STYLE = """<style>
 body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
 article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
