@@ -1,7 +1,5 @@
 {
  "seen": [
-  "hn:50234232",
-  "hn:50234474",
   "3215473",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mypvg37zje2a",
   "u5rQgqRudRKQW7AfjBnvfG",
@@ -2999,18 +2997,20 @@
   "tg:hacker_news_feed/134032",
   "tg:hacker_news_feed/134035",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2uk7yfree2t",
-  "gh:openvinotoolkit/openvino"
+  "gh:openvinotoolkit/openvino",
+  "tg:hacker_news_feed/134028",
+  "tg:hacker_news_feed/134029"
  ],
  "posted": {
-  "viral": 915,
+  "viral": 916,
   "editorial": 1076
  },
  "recent_labels": [
-  "Emily M. Bender",
   "Hacker News Feed",
   "Hacker News",
   "Hacker News",
-  "GitHub Trending"
+  "GitHub Trending",
+  "Hacker News Feed"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4861,19 +4861,22 @@
     "OPENSOURCE"
    ],
    "at": "2026-11-22T05:58:13.868632+00:00"
+  },
+  {
+   "title": "توانایی مدل‌های زبانی در تحلیل و ویرایش مستقیم کدهای ماشین",
+   "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
+   "source": "sgiannopoulos.github.io",
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "score": 0.03901,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-22T06:58:09.129816+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "ginux",
-    "greg",
-    "kernel",
-    "kurtzer",
-    "userspace"
-   ],
-   "at": "2026-11-11T08:53:50.759444+00:00"
-  },
   {
    "sig": [
     "addressed",
@@ -8949,13 +8952,22 @@
    ],
    "at": "2026-11-22T05:58:13.868632+00:00",
    "url": "github.com/openvinotoolkit/openvino"
+  },
+  {
+   "sig": [
+    "byte",
+    "dump",
+    "executables",
+    "hex",
+    "llms",
+    "read",
+    "write"
+   ],
+   "at": "2026-11-22T06:58:09.129816+00:00",
+   "url": "sgiannopoulos.github.io/blog/machine-code-programming"
   }
  ],
  "snapshots": {
-  "hn:50471650": [
-   115,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
   "hn:50470488": [
    652,
    "2026-11-13T02:53:42.161362+00:00"
@@ -11288,40 +11300,12 @@
    200,
    "2026-11-22T05:53:59.969975+00:00"
   ],
-  "gh:mjmirza/app-store-compliance": [
-   720,
-   "2026-11-22T05:53:59.969975+00:00"
-  ],
   "hn:50591853": [
    620,
    "2026-11-22T05:53:59.969975+00:00"
   ],
-  "tg:hacker_news_feed/134024": [
-   163,
-   "2026-11-22T05:53:59.969975+00:00"
-  ],
-  "tg:hacker_news_feed/134025": [
-   165,
-   "2026-11-22T05:53:59.969975+00:00"
-  ],
-  "hn:50593737": [
-   189,
-   "2026-11-22T05:53:59.969975+00:00"
-  ],
   "hn:50592097": [
    193,
-   "2026-11-22T05:53:59.969975+00:00"
-  ],
-  "tg:hacker_news_feed/134028": [
-   190,
-   "2026-11-22T05:53:59.969975+00:00"
-  ],
-  "tg:hacker_news_feed/134029": [
-   154,
-   "2026-11-22T05:53:59.969975+00:00"
-  ],
-  "tg:hacker_news_feed/134031": [
-   155,
    "2026-11-22T05:53:59.969975+00:00"
   ],
   "tg:hacker_news_feed/134032": [
@@ -11336,21 +11320,53 @@
    347,
    "2026-11-22T05:53:59.969975+00:00"
   ],
+  "gh:mjmirza/app-store-compliance": [
+   720,
+   "2026-11-22T06:53:56.668304+00:00"
+  ],
+  "tg:hacker_news_feed/134024": [
+   163,
+   "2026-11-22T06:53:56.668304+00:00"
+  ],
+  "tg:hacker_news_feed/134025": [
+   165,
+   "2026-11-22T06:53:56.668304+00:00"
+  ],
+  "hn:50593737": [
+   205,
+   "2026-11-22T06:53:56.668304+00:00"
+  ],
+  "tg:hacker_news_feed/134028": [
+   192,
+   "2026-11-22T06:53:56.668304+00:00"
+  ],
+  "tg:hacker_news_feed/134029": [
+   155,
+   "2026-11-22T06:53:56.668304+00:00"
+  ],
+  "tg:hacker_news_feed/134031": [
+   155,
+   "2026-11-22T06:53:56.668304+00:00"
+  ],
   "hn:50595554": [
-   131,
-   "2026-11-22T05:53:59.969975+00:00"
+   165,
+   "2026-11-22T06:53:56.668304+00:00"
   ],
   "hn:50593481": [
-   77,
-   "2026-11-22T05:53:59.969975+00:00"
+   86,
+   "2026-11-22T06:53:56.668304+00:00"
   ],
   "hn:50596133": [
-   327,
-   "2026-11-22T05:53:59.969975+00:00"
+   507,
+   "2026-11-22T06:53:56.668304+00:00"
   ],
   "tg:hacker_news_feed/134037": [
-   154,
-   "2026-11-22T05:53:59.969975+00:00"
+   168,
+   "2026-11-22T06:53:56.668304+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224": [
+   35,
+   "2026-11-22T06:53:56.668304+00:00"
   ]
  },
  "skips": {
@@ -11378,7 +11394,7 @@
   "Engadget": 1,
   "antirez": 1,
   "The Verge": 1,
-  "Hacker News Feed": 13
+  "Hacker News Feed": 14
  },
  "posts_by_label": {
   "Engadget": 45,
@@ -11424,7 +11440,7 @@
   "Rest of World": 1,
   "LangChain Blog": 1,
   "GitHub Trending": 14,
-  "Hacker News Feed": 23
+  "Hacker News Feed": 24
  },
  "last_post": {
   "Engadget": "2026-11-14T13:54:06.399584+00:00",
@@ -11470,7 +11486,7 @@
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
   "GitHub Trending": "2026-11-22T05:58:13.868736+00:00",
-  "Hacker News Feed": "2026-11-22T02:58:20.418554+00:00"
+  "Hacker News Feed": "2026-11-22T06:58:09.129921+00:00"
  },
  "posts": {
   "1": {
@@ -13071,8 +13087,22 @@
    "votes": {},
    "message_id": 1692,
    "chat_id": -1004399820759
+  },
+  "115": {
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "توانایی مدل‌های زبانی در تحلیل و ویرایش مستقیم کدهای ماشین",
+   "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
+   "at": "2026-11-22T06:53:58.695356+00:00",
+   "votes": {},
+   "message_id": 1693,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 115,
+ "next_post_id": 116,
  "last_update_id": 276814760
 }
