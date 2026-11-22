@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://www.theverge.com/?p=1017508",
   "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "https://www.androidpolice.com/samsung-expert-raw-upgrades-over-default-camera/",
   "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
@@ -2999,18 +2998,19 @@
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2tsb6pguk27",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ucwmctac2c",
   "tg:hacker_news_feed/134033",
-  "tg:hacker_news_feed/134034"
+  "tg:hacker_news_feed/134034",
+  "hn:50594132"
  ],
  "posted": {
-  "viral": 912,
+  "viral": 913,
   "editorial": 1076
  },
  "recent_labels": [
-  "GitHub Trending",
   "Hacker News Feed",
   "Simon Willison",
   "Emily M. Bender",
-  "Hacker News Feed"
+  "Hacker News Feed",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4822,19 +4822,22 @@
     "CLOUD"
    ],
    "at": "2026-11-22T02:58:20.418418+00:00"
+  },
+  {
+   "title": "ابزار متن‌باز برای تحلیل خودکار فایل‌های Pcap و عیب‌یابی شبکه",
+   "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.10664,
+   "topics": [
+    "NETWORK",
+    "OPENSOURCE"
+   ],
+   "at": "2026-11-22T03:58:13.794629+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "detail",
-    "fucking",
-    "jesus",
-    "nvd.nist.gov",
-    "vuln"
-   ],
-   "at": "2026-11-11T07:54:03.268213+00:00"
-  },
   {
    "sig": [
     "7-powered",
@@ -8902,13 +8905,21 @@
    ],
    "at": "2026-11-22T02:58:20.418418+00:00",
    "url": "klauria.tech/klauria-art"
+  },
+  {
+   "sig": [
+    "analyzer",
+    "detectors",
+    "pcap",
+    "pcapanalyzer",
+    "problem",
+    "self-hosted"
+   ],
+   "at": "2026-11-22T03:58:13.794629+00:00",
+   "url": "github.com/sebaandrada-cell/pcapanalyzer"
   }
  ],
  "snapshots": {
-  "lobsters:pty8pn": [
-   49,
-   "2026-11-13T01:53:43.470244+00:00"
-  ],
   "lobsters:ubbxhd": [
    33,
    "2026-11-13T01:53:43.470244+00:00"
@@ -11225,68 +11236,8 @@
    357,
    "2026-11-22T01:53:56.026913+00:00"
   ],
-  "gh:openvinotoolkit/openvino": [
-   200,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   720,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "tg:hacker_news_feed/134023": [
-   152,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
   "hn:50590279": [
    333,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "hn:50591853": [
-   560,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "hn:50590441": [
-   178,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "tg:hacker_news_feed/134024": [
-   163,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "tg:hacker_news_feed/134025": [
-   164,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2tve52qhf2c": [
-   410,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "hn:50594132": [
-   89,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "hn:50593737": [
-   142,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "hn:50592097": [
-   149,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "tg:hacker_news_feed/134028": [
-   189,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "tg:hacker_news_feed/134029": [
-   152,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "tg:hacker_news_feed/134031": [
-   153,
-   "2026-11-22T02:54:01.127764+00:00"
-  ],
-  "tg:hacker_news_feed/134032": [
-   153,
    "2026-11-22T02:54:01.127764+00:00"
   ],
   "tg:hacker_news_feed/134033": [
@@ -11297,13 +11248,77 @@
    150,
    "2026-11-22T02:54:01.127764+00:00"
   ],
+  "gh:openvinotoolkit/openvino": [
+   200,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   720,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "tg:hacker_news_feed/134023": [
+   152,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "hn:50591853": [
+   583,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "hn:50590441": [
+   180,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "tg:hacker_news_feed/134024": [
+   163,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "tg:hacker_news_feed/134025": [
+   165,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2tve52qhf2c": [
+   411,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "hn:50594132": [
+   101,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "hn:50593737": [
+   156,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "hn:50592097": [
+   165,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "tg:hacker_news_feed/134028": [
+   189,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "tg:hacker_news_feed/134029": [
+   152,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "tg:hacker_news_feed/134031": [
+   153,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "tg:hacker_news_feed/134032": [
+   153,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
   "tg:hacker_news_feed/134035": [
-   151,
-   "2026-11-22T02:54:01.127764+00:00"
+   152,
+   "2026-11-22T03:54:04.355263+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2uk7yfree2t": [
-   174,
-   "2026-11-22T02:54:01.127764+00:00"
+   253,
+   "2026-11-22T03:54:04.355263+00:00"
+  ],
+  "hn:50595168": [
+   143,
+   "2026-11-22T03:54:04.355263+00:00"
   ]
  },
  "skips": {
@@ -11349,7 +11364,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 183,
+  "Hacker News": 184,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11395,7 +11410,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-21T16:55:50.502463+00:00",
+  "Hacker News": "2026-11-22T03:58:13.794745+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -12982,8 +12997,22 @@
    "votes": {},
    "message_id": 1689,
    "chat_id": -1004399820759
+  },
+  "112": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "NETWORK",
+    "OPENSOURCE"
+   ],
+   "title": "ابزار متن‌باز برای تحلیل خودکار فایل‌های Pcap و عیب‌یابی شبکه",
+   "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+   "at": "2026-11-22T03:54:06.305004+00:00",
+   "votes": {},
+   "message_id": 1690,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 112,
+ "next_post_id": 113,
  "last_update_id": 276814760
 }
