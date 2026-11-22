@@ -1,7 +1,5 @@
 {
  "seen": [
-  "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "https://www.androidpolice.com/samsung-expert-raw-upgrades-over-default-camera/",
   "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
   "https://www.techspot.com/news/114322-google-privacy-policy-now-has-loophole-using-gmail.html",
   "NkN6EFFa8YnpMPTkuRNsUL",
@@ -2999,17 +2997,19 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ucwmctac2c",
   "tg:hacker_news_feed/134033",
   "tg:hacker_news_feed/134034",
-  "hn:50594132"
+  "hn:50594132",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2tve52qhf2c",
+  "hn:50595168"
  ],
  "posted": {
-  "viral": 913,
+  "viral": 914,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News Feed",
   "Simon Willison",
   "Emily M. Bender",
   "Hacker News Feed",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-20",
@@ -4835,22 +4835,22 @@
     "OPENSOURCE"
    ],
    "at": "2026-11-22T03:58:13.794629+00:00"
+  },
+  {
+   "title": "پروژه Leonida برای اجرای بومی بازی GTA 6 روی کامپیوتر",
+   "url": "https://github.com/ItsNotRexed/Leonida",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.13117,
+   "topics": [
+    "TECH",
+    "GAMEDEV"
+   ],
+   "at": "2026-11-22T04:58:03.499741+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "7-powered",
-    "angular",
-    "beta",
-    "compiler",
-    "enters",
-    "preprocessor",
-    "rust-based",
-    "typescript"
-   ],
-   "at": "2026-11-11T07:54:09.506556+00:00"
-  },
   {
    "sig": [
     "llms",
@@ -8917,17 +8917,20 @@
    ],
    "at": "2026-11-22T03:58:13.794629+00:00",
    "url": "github.com/sebaandrada-cell/pcapanalyzer"
+  },
+  {
+   "sig": [
+    "gta",
+    "leonida",
+    "recompilation",
+    "version",
+    "xbox"
+   ],
+   "at": "2026-11-22T04:58:03.499741+00:00",
+   "url": "github.com/itsnotrexed/leonida"
   }
  ],
  "snapshots": {
-  "lobsters:ubbxhd": [
-   33,
-   "2026-11-13T01:53:43.470244+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n24xu2w7xg2x": [
-   119,
-   "2026-11-13T01:53:43.470244+00:00"
-  ],
   "hn:50472490": [
    407,
    "2026-11-13T02:53:42.161362+00:00"
@@ -11248,77 +11251,85 @@
    150,
    "2026-11-22T02:54:01.127764+00:00"
   ],
-  "gh:openvinotoolkit/openvino": [
-   200,
-   "2026-11-22T03:54:04.355263+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   720,
-   "2026-11-22T03:54:04.355263+00:00"
-  ],
-  "tg:hacker_news_feed/134023": [
-   152,
-   "2026-11-22T03:54:04.355263+00:00"
-  ],
-  "hn:50591853": [
-   583,
-   "2026-11-22T03:54:04.355263+00:00"
-  ],
   "hn:50590441": [
    180,
-   "2026-11-22T03:54:04.355263+00:00"
-  ],
-  "tg:hacker_news_feed/134024": [
-   163,
-   "2026-11-22T03:54:04.355263+00:00"
-  ],
-  "tg:hacker_news_feed/134025": [
-   165,
-   "2026-11-22T03:54:04.355263+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2tve52qhf2c": [
-   411,
    "2026-11-22T03:54:04.355263+00:00"
   ],
   "hn:50594132": [
    101,
    "2026-11-22T03:54:04.355263+00:00"
   ],
+  "gh:openvinotoolkit/openvino": [
+   200,
+   "2026-11-22T04:53:50.190558+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   720,
+   "2026-11-22T04:53:50.190558+00:00"
+  ],
+  "tg:hacker_news_feed/134023": [
+   152,
+   "2026-11-22T04:53:50.190558+00:00"
+  ],
+  "hn:50591853": [
+   601,
+   "2026-11-22T04:53:50.190558+00:00"
+  ],
+  "tg:hacker_news_feed/134024": [
+   163,
+   "2026-11-22T04:53:50.190558+00:00"
+  ],
+  "tg:hacker_news_feed/134025": [
+   165,
+   "2026-11-22T04:53:50.190558+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2tve52qhf2c": [
+   437,
+   "2026-11-22T04:53:50.190558+00:00"
+  ],
   "hn:50593737": [
-   156,
-   "2026-11-22T03:54:04.355263+00:00"
+   168,
+   "2026-11-22T04:53:50.190558+00:00"
   ],
   "hn:50592097": [
-   165,
-   "2026-11-22T03:54:04.355263+00:00"
+   178,
+   "2026-11-22T04:53:50.190558+00:00"
   ],
   "tg:hacker_news_feed/134028": [
-   189,
-   "2026-11-22T03:54:04.355263+00:00"
+   190,
+   "2026-11-22T04:53:50.190558+00:00"
   ],
   "tg:hacker_news_feed/134029": [
    152,
-   "2026-11-22T03:54:04.355263+00:00"
+   "2026-11-22T04:53:50.190558+00:00"
   ],
   "tg:hacker_news_feed/134031": [
    153,
-   "2026-11-22T03:54:04.355263+00:00"
+   "2026-11-22T04:53:50.190558+00:00"
   ],
   "tg:hacker_news_feed/134032": [
    153,
-   "2026-11-22T03:54:04.355263+00:00"
+   "2026-11-22T04:53:50.190558+00:00"
   ],
   "tg:hacker_news_feed/134035": [
    152,
-   "2026-11-22T03:54:04.355263+00:00"
+   "2026-11-22T04:53:50.190558+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2uk7yfree2t": [
-   253,
-   "2026-11-22T03:54:04.355263+00:00"
+   300,
+   "2026-11-22T04:53:50.190558+00:00"
   ],
   "hn:50595168": [
-   143,
-   "2026-11-22T03:54:04.355263+00:00"
+   192,
+   "2026-11-22T04:53:50.190558+00:00"
+  ],
+  "hn:50595554": [
+   102,
+   "2026-11-22T04:53:50.190558+00:00"
+  ],
+  "hn:50593481": [
+   72,
+   "2026-11-22T04:53:50.190558+00:00"
   ]
  },
  "skips": {
@@ -11329,7 +11340,7 @@
   "Lobsters": 8,
   "Hacker News": 57,
   "The Next Web": 1,
-  "404 Media": 21,
+  "404 Media": 22,
   "Emily M. Bender": 8,
   "Simon Willison": 2,
   "Xe Iaso": 9,
@@ -11364,7 +11375,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 184,
+  "Hacker News": 185,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11410,7 +11421,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-22T03:58:13.794745+00:00",
+  "Hacker News": "2026-11-22T04:58:03.499847+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -13011,8 +13022,22 @@
    "votes": {},
    "message_id": 1690,
    "chat_id": -1004399820759
+  },
+  "113": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "TECH",
+    "GAMEDEV"
+   ],
+   "title": "پروژه Leonida برای اجرای بومی بازی GTA 6 روی کامپیوتر",
+   "url": "https://github.com/ItsNotRexed/Leonida",
+   "at": "2026-11-22T04:53:52.788700+00:00",
+   "votes": {},
+   "message_id": 1691,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 113,
+ "next_post_id": 114,
  "last_update_id": 276814760
 }
