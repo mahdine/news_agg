@@ -1,6 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mypvg37zje2a",
   "u5rQgqRudRKQW7AfjBnvfG",
   "jARQyUtxWHPW6qRLZQWw9H",
   "6adbb6231cfad481ad7e3d27",
@@ -2999,18 +2998,19 @@
   "gh:openvinotoolkit/openvino",
   "tg:hacker_news_feed/134028",
   "tg:hacker_news_feed/134029",
-  "tg:hacker_news_feed/134031"
+  "tg:hacker_news_feed/134031",
+  "hn:50593737"
  ],
  "posted": {
-  "viral": 917,
+  "viral": 918,
   "editorial": 1076
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "GitHub Trending",
   "Hacker News Feed",
-  "Hacker News Feed"
+  "Hacker News Feed",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4887,25 +4887,22 @@
     "LLM"
    ],
    "at": "2026-11-22T07:40:56.050133+00:00"
+  },
+  {
+   "title": "چالش‌ها و آینده توسعه رابط کاربری با زبان Rust",
+   "url": "https://linebender.org/blog/next-100-guis/",
+   "source": "linebender.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.01549,
+   "topics": [
+    "PROGRAMMING",
+    "RUST"
+   ],
+   "at": "2026-11-22T07:59:12.368224+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "available",
-    "devices",
-    "dictation",
-    "google",
-    "impressive",
-    "pixel",
-    "rambler",
-    "tag",
-    "tech",
-    "too",
-    "tracker"
-   ],
-   "at": "2026-11-11T09:53:54.659751+00:00"
-  },
   {
    "sig": [
     "actively",
@@ -8980,6 +8977,16 @@
    ],
    "at": "2026-11-22T07:40:56.050133+00:00",
    "url": "contralabs.com/frontierdesign"
+  },
+  {
+   "sig": [
+    "advice",
+    "guis",
+    "next",
+    "rust"
+   ],
+   "at": "2026-11-22T07:59:12.368224+00:00",
+   "url": "linebender.org/blog/next-100-guis"
   }
  ],
  "snapshots": {
@@ -11341,47 +11348,47 @@
   ],
   "gh:mjmirza/app-store-compliance": [
    720,
-   "2026-11-22T07:37:20.246779+00:00"
+   "2026-11-22T07:53:57.562460+00:00"
   ],
   "tg:hacker_news_feed/134025": [
    165,
-   "2026-11-22T07:37:20.246779+00:00"
+   "2026-11-22T07:53:57.562460+00:00"
   ],
   "hn:50593737": [
-   227,
-   "2026-11-22T07:37:20.246779+00:00"
+   236,
+   "2026-11-22T07:53:57.562460+00:00"
   ],
   "tg:hacker_news_feed/134031": [
    155,
    "2026-11-22T07:37:20.246779+00:00"
   ],
   "hn:50595554": [
-   179,
-   "2026-11-22T07:37:20.246779+00:00"
+   192,
+   "2026-11-22T07:53:57.562460+00:00"
   ],
   "hn:50593481": [
-   99,
-   "2026-11-22T07:37:20.246779+00:00"
+   102,
+   "2026-11-22T07:53:57.562460+00:00"
   ],
   "hn:50596133": [
-   629,
-   "2026-11-22T07:37:20.246779+00:00"
+   676,
+   "2026-11-22T07:53:57.562460+00:00"
   ],
   "tg:hacker_news_feed/134037": [
-   180,
-   "2026-11-22T07:37:20.246779+00:00"
+   184,
+   "2026-11-22T07:53:57.562460+00:00"
   ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224": [
-   47,
-   "2026-11-22T07:37:20.246779+00:00"
+   53,
+   "2026-11-22T07:53:57.562460+00:00"
   ],
   "tg:hacker_news_feed/134038": [
    154,
-   "2026-11-22T07:37:20.246779+00:00"
+   "2026-11-22T07:53:57.562460+00:00"
   ],
   "tg:hacker_news_feed/134039": [
    152,
-   "2026-11-22T07:37:20.246779+00:00"
+   "2026-11-22T07:53:57.562460+00:00"
   ]
  },
  "skips": {
@@ -11427,7 +11434,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 185,
+  "Hacker News": 186,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11473,7 +11480,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-22T04:58:03.499847+00:00",
+  "Hacker News": "2026-11-22T07:59:12.368356+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -13130,8 +13137,22 @@
    "votes": {},
    "message_id": 1694,
    "chat_id": -1004399820759
+  },
+  "117": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "PROGRAMMING",
+    "RUST"
+   ],
+   "title": "چالش‌ها و آینده توسعه رابط کاربری با زبان Rust",
+   "url": "https://linebender.org/blog/next-100-guis/",
+   "at": "2026-11-22T07:54:00.401799+00:00",
+   "votes": {},
+   "message_id": 1695,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 117,
+ "next_post_id": 118,
  "last_update_id": 276814760
 }
