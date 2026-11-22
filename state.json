@@ -1,9 +1,5 @@
 {
  "seen": [
-  "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-  "https://www.techspot.com/news/114322-google-privacy-policy-now-has-loophole-using-gmail.html",
-  "NkN6EFFa8YnpMPTkuRNsUL",
-  "https://www.neowin.net/deals/samsung-990-2tb-nvme-ssd-is-an-excellent-deal-for-limited-time-only/",
   "hn:50234232",
   "hn:50234474",
   "3215473",
@@ -2999,18 +2995,22 @@
   "tg:hacker_news_feed/134034",
   "hn:50594132",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2tve52qhf2c",
-  "hn:50595168"
+  "hn:50595168",
+  "tg:hacker_news_feed/134032",
+  "tg:hacker_news_feed/134035",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2uk7yfree2t",
+  "gh:openvinotoolkit/openvino"
  ],
  "posted": {
-  "viral": 914,
+  "viral": 915,
   "editorial": 1076
  },
  "recent_labels": [
-  "Simon Willison",
   "Emily M. Bender",
   "Hacker News Feed",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "GitHub Trending"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4848,18 +4848,22 @@
     "GAMEDEV"
    ],
    "at": "2026-11-22T04:58:03.499741+00:00"
+  },
+  {
+   "title": "بهینه‌سازی و اجرای مدل‌های هوش مصنوعی با ابزار OpenVINO",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "source": "github.com",
+   "label": "GitHub Trending",
+   "pool": "viral",
+   "score": 0.29294,
+   "topics": [
+    "AI",
+    "OPENSOURCE"
+   ],
+   "at": "2026-11-22T05:58:13.868632+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "llms",
-    "play",
-    "tis-100",
-    "zachtronics"
-   ],
-   "at": "2026-11-11T08:53:43.511149+00:00"
-  },
   {
    "sig": [
     "ginux",
@@ -8928,17 +8932,26 @@
    ],
    "at": "2026-11-22T04:58:03.499741+00:00",
    "url": "github.com/itsnotrexed/leonida"
+  },
+  {
+   "sig": [
+    "deploying",
+    "inference",
+    "open",
+    "openvino",
+    "openvinotoolkit",
+    "optimizing",
+    "source",
+    "stars",
+    "today",
+    "toolkit",
+    "total"
+   ],
+   "at": "2026-11-22T05:58:13.868632+00:00",
+   "url": "github.com/openvinotoolkit/openvino"
   }
  ],
  "snapshots": {
-  "hn:50472490": [
-   407,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
-  "hn:50471761": [
-   196,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
   "hn:50471650": [
    115,
    "2026-11-13T02:53:42.161362+00:00"
@@ -11259,77 +11272,85 @@
    101,
    "2026-11-22T03:54:04.355263+00:00"
   ],
-  "gh:openvinotoolkit/openvino": [
-   200,
-   "2026-11-22T04:53:50.190558+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   720,
-   "2026-11-22T04:53:50.190558+00:00"
-  ],
   "tg:hacker_news_feed/134023": [
    152,
-   "2026-11-22T04:53:50.190558+00:00"
-  ],
-  "hn:50591853": [
-   601,
-   "2026-11-22T04:53:50.190558+00:00"
-  ],
-  "tg:hacker_news_feed/134024": [
-   163,
-   "2026-11-22T04:53:50.190558+00:00"
-  ],
-  "tg:hacker_news_feed/134025": [
-   165,
    "2026-11-22T04:53:50.190558+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2tve52qhf2c": [
    437,
    "2026-11-22T04:53:50.190558+00:00"
   ],
-  "hn:50593737": [
-   168,
-   "2026-11-22T04:53:50.190558+00:00"
-  ],
-  "hn:50592097": [
-   178,
-   "2026-11-22T04:53:50.190558+00:00"
-  ],
-  "tg:hacker_news_feed/134028": [
-   190,
-   "2026-11-22T04:53:50.190558+00:00"
-  ],
-  "tg:hacker_news_feed/134029": [
-   152,
-   "2026-11-22T04:53:50.190558+00:00"
-  ],
-  "tg:hacker_news_feed/134031": [
-   153,
-   "2026-11-22T04:53:50.190558+00:00"
-  ],
-  "tg:hacker_news_feed/134032": [
-   153,
-   "2026-11-22T04:53:50.190558+00:00"
-  ],
-  "tg:hacker_news_feed/134035": [
-   152,
-   "2026-11-22T04:53:50.190558+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2uk7yfree2t": [
-   300,
-   "2026-11-22T04:53:50.190558+00:00"
-  ],
   "hn:50595168": [
    192,
    "2026-11-22T04:53:50.190558+00:00"
   ],
+  "gh:openvinotoolkit/openvino": [
+   200,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   720,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "hn:50591853": [
+   620,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "tg:hacker_news_feed/134024": [
+   163,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "tg:hacker_news_feed/134025": [
+   165,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "hn:50593737": [
+   189,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "hn:50592097": [
+   193,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "tg:hacker_news_feed/134028": [
+   190,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "tg:hacker_news_feed/134029": [
+   154,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "tg:hacker_news_feed/134031": [
+   155,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "tg:hacker_news_feed/134032": [
+   155,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "tg:hacker_news_feed/134035": [
+   152,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2uk7yfree2t": [
+   347,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
   "hn:50595554": [
-   102,
-   "2026-11-22T04:53:50.190558+00:00"
+   131,
+   "2026-11-22T05:53:59.969975+00:00"
   ],
   "hn:50593481": [
-   72,
-   "2026-11-22T04:53:50.190558+00:00"
+   77,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "hn:50596133": [
+   327,
+   "2026-11-22T05:53:59.969975+00:00"
+  ],
+  "tg:hacker_news_feed/134037": [
+   154,
+   "2026-11-22T05:53:59.969975+00:00"
   ]
  },
  "skips": {
@@ -11340,7 +11361,7 @@
   "Lobsters": 8,
   "Hacker News": 57,
   "The Next Web": 1,
-  "404 Media": 22,
+  "404 Media": 23,
   "Emily M. Bender": 8,
   "Simon Willison": 2,
   "Xe Iaso": 9,
@@ -11357,7 +11378,7 @@
   "Engadget": 1,
   "antirez": 1,
   "The Verge": 1,
-  "Hacker News Feed": 11
+  "Hacker News Feed": 13
  },
  "posts_by_label": {
   "Engadget": 45,
@@ -11402,7 +11423,7 @@
   "Google AI": 1,
   "Rest of World": 1,
   "LangChain Blog": 1,
-  "GitHub Trending": 13,
+  "GitHub Trending": 14,
   "Hacker News Feed": 23
  },
  "last_post": {
@@ -11448,7 +11469,7 @@
   "Google AI": "2026-11-06T04:54:24.190387+00:00",
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
-  "GitHub Trending": "2026-11-21T17:54:19.504712+00:00",
+  "GitHub Trending": "2026-11-22T05:58:13.868736+00:00",
   "Hacker News Feed": "2026-11-22T02:58:20.418554+00:00"
  },
  "posts": {
@@ -13036,8 +13057,22 @@
    "votes": {},
    "message_id": 1691,
    "chat_id": -1004399820759
+  },
+  "114": {
+   "label": "GitHub Trending",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "OPENSOURCE"
+   ],
+   "title": "بهینه‌سازی و اجرای مدل‌های هوش مصنوعی با ابزار OpenVINO",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "at": "2026-11-22T05:54:04.979521+00:00",
+   "votes": {},
+   "message_id": 1692,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 114,
+ "next_post_id": 115,
  "last_update_id": 276814760
 }
