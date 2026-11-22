@@ -51,6 +51,11 @@ jobs:
 
       - name: run bot
         env:
+          # از 2026 گیت‌هاب env متغیر GITHUB_TOKEN را دیگر در stepها تزریق
+          # نمی‌کند (probe 2026-11-22: len=0 ولی github.token = 377 کاراکتر) —
+          # صریح می‌دهیم تا _dispatch_iv_deploy بیدار شدن iv-deploy.yml را
+          # request کند (push از داخل workflow روی on:push اثر ندارد).
+          GITHUB_TOKEN: ${{ github.token }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

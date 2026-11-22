@@ -425,8 +425,13 @@ def _dispatch_iv_deploy() -> None:
     بیدار نمی‌کند (GitHub برای جلوگیری از حلقه push‌های ناشی از workflow را
     suppress می‌کند — مشاهده‌شده 2026-11-22: صفحات iv از Actions push شدند
     ولی iv-deploy اجرا نشد). push از بیرون Actions (worker) این محدودیت را
-    ندارد. GITHUB_TOKEN داخل Actions scope‌ی workflow دارد؛ بیرون از Actions
-    (container) توکن یا نیست یا PAT بدون Actions است → سکوت می‌کنیم.
+    ندارد.
+
+    نکته‌ی حیاتی (probe 2026-11-22): GitHub از 2026 env متغیر GITHUB_TOKEN
+    را دیگر خودکار در stepها تزریق نمی‌کند (len=0) — publish.yml آن را با
+    `GITHUB_TOKEN: ${{ github.token }}` صریح می‌دهد (اثر permissions بلوک
+    workflow را دارد). بیرون از Actions (container) توکن یا نیست یا PAT
+    بدون Actions است → سکوت می‌کنیم.
     """
     token = os.environ.get("GITHUB_TOKEN", "")
     slug = _repo_slug()
