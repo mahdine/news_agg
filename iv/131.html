@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>توسعه‌دهندگان پایتون مستنداتی برای «خنثی‌سازی تریگرهای خطرناک در GitHub Actions» منتشر کردند</title>
+<meta name="description" content="دو توسعه‌دهنده امنیتی در Python Software Foundation هشدار می‌دهند: «تعداد انگشت‌شماری از تریگرهای GitHub Actions به یک غریبه در اینترنت اجازه می‌دهند …">
+<meta property="og:type" content="article">
+<meta property="og:title" content="توسعه‌دهندگان پایتون مستنداتی برای «خنثی‌سازی تریگرهای خطرناک در GitHub Actions» منتشر کردند">
+<meta property="og:description" content="دو توسعه‌دهنده امنیتی در Python Software Foundation هشدار می‌دهند: «تعداد انگشت‌شماری از تریگرهای GitHub Actions به یک غریبه در اینترنت اجازه می‌دهند …">
+<meta property="og:url" content="https://it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<meta property="og:site_name" content="PersianTech">
+<meta property="og:image" content="https://a.fsdn.com/sd/topics/security_64.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="توسعه‌دهندگان پایتون مستنداتی برای «خنثی‌سازی تریگرهای خطرناک در GitHub Actions» منتشر کردند">
+<meta name="twitter:description" content="دو توسعه‌دهنده امنیتی در Python Software Foundation هشدار می‌دهند: «تعداد انگشت‌شماری از تریگرهای GitHub Actions به یک غریبه در اینترنت اجازه می‌دهند …">
+<meta name="twitter:image" content="https://a.fsdn.com/sd/topics/security_64.png">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<img class="hero" src="https://a.fsdn.com/sd/topics/security_64.png" alt="" loading="lazy">
+<h1>توسعه‌دهندگان پایتون مستنداتی برای «خنثی‌سازی تریگرهای خطرناک در GitHub Actions» منتشر کردند</h1>
+<p class="meta">Slashdot  ·  2026-11-22</p>
+<p>دو توسعه‌دهنده امنیتی در Python Software Foundation هشدار می‌دهند: «تعداد انگشت‌شماری از تریگرهای GitHub Actions به یک غریبه در اینترنت اجازه می‌دهند تا گردش‌کاری (workflow) را آغاز کند که ممکن است به اسرار (secrets) شما دسترسی داشته باشد.»</p>
+<p>آیا تریگرهای خطرناک باعث حوادث واقعی شده‌اند؟ بله، بارها و بارها... نگهدارندگان این پروژه‌ها بی‌دقت نبوده‌اند. این تریگرها در یک فایل گردش‌کار بی‌خطر به نظر می‌رسند و نسخه ناامن تنها یک خط با نسخه امن فاصله دارد...</p>
+<p>هنگامی که شخصی یک pull request از یک fork باز می‌کند، تریگر pull_request کد او را با یک توکن فقط‌خواندنی و بدون دسترسی به هیچ‌گونه secret اجرا می‌کند. این نسخه امن است. pull_request_target در فایل گردش‌کار تقریباً مشابه به نظر می‌رسد اما رفتار بسیار متفاوتی دارد. این تریگر با یک توکن خواندن/نوشتن و دسترسی به اسرار مخزن و سازمان شما اجرا می‌شود. GitHub آن را برای کارهای ساده‌ای مانند برچسب‌گذاری pull requestها از forkها ساخته است، جایی که گردش‌کار هرگز با کد مشارکت‌کننده تماسی ندارد. مشکل زمانی شروع می‌شود که یک گردش‌کار، pull request را checkout کرده و به هر حال آن را اجرا می‌کند... هر کسی که یک حساب GitHub داشته باشد می‌تواند آن pull request را باز کند. کد آن‌ها اکنون با اعتبارنامه‌های شما اجرا می‌شود. به این وضعیت &quot;pwn request&quot; گفته می‌شود و مستندات GitHub آن را عامل اصلی چندین مورد نفوذ به زنجیره تأمین (supply-chain) توصیف می‌کنند.</p>
+<p>تریگر issue_comment نیز همین خطر را به همراه دارد. این تریگر زمانی فعال می‌شود که هر کسی روی یک issue یا pull request نظری ثبت کند و گردش‌کار با توکن و اسرار مخزن اجرا شود... گاهی اوقات گردش‌کار، متن نظر را در یک دستور shell قالب‌بندی‌شده قرار می‌دهد و مشخص می‌شود که آن نظر، دستورات متفاوتی را به shell گردش‌کار تزریق می‌کند.</p>
+<p>Seth Larson، توسعه‌دهنده امنیتی رسمی پایتون، به همراه Mike Fiedler، مهندس ایمنی/امنیت PyPI، برای حذف این تریگرهای خطرناک و همچنین اعمال سیاست‌ها در سازمان‌های GitHub تحت مدیریت Python Software Foundation (شامل psf، python و pypi) همکاری کردند. آن‌ها همچنین مستندات فنی در مورد نحوه پیاده‌سازی این سیاست‌ها برای پروژه‌ها و سازمان‌های خودتان تهیه کرده‌اند.</p>
+<p>«در طرح GitHub Team یا Enterprise، می‌توانید آن‌ها را برای هر مخزن در سازمان خود با یک سیاست واحد غیرفعال کنید. در طرح Free، می‌توانید این کار را برای هر مخزن به صورت جداگانه انجام دهید. سیاست را تنظیم کنید، بررسی کنید که چه چیزی را مسدود می‌کند و سپس آن را اعمال نمایید.»</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
