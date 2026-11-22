@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title># C# بدون هیچ پیش‌نیاز</title>
+<meta name="description" content="یک انشعاب (Fork) از bflat، زبان C# را مستقیماً به یک برنامه بومی (Native) کوچک کامپایل می‌کند: بدون .NET runtime، بدون Garbage Collector و بدون نیاز ب…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="# C# بدون هیچ پیش‌نیاز">
+<meta property="og:description" content="یک انشعاب (Fork) از bflat، زبان C# را مستقیماً به یک برنامه بومی (Native) کوچک کامپایل می‌کند: بدون .NET runtime، بدون Garbage Collector و بدون نیاز ب…">
+<meta property="og:url" content="https://onurgumus.github.io/zero-csharp/index.html">
+<meta property="og:site_name" content="PersianTech">
+<meta property="og:image" content="https://onurgumus.github.io/zero-csharp/img/social.png?v=2">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="# C# بدون هیچ پیش‌نیاز">
+<meta name="twitter:description" content="یک انشعاب (Fork) از bflat، زبان C# را مستقیماً به یک برنامه بومی (Native) کوچک کامپایل می‌کند: بدون .NET runtime، بدون Garbage Collector و بدون نیاز ب…">
+<meta name="twitter:image" content="https://onurgumus.github.io/zero-csharp/img/social.png?v=2">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<img class="hero" src="https://onurgumus.github.io/zero-csharp/img/social.png?v=2" alt="" loading="lazy">
+<h1># C# بدون هیچ پیش‌نیاز</h1>
+<p class="meta">Hacker News Feed  ·  2026-11-22</p>
+<p>یک انشعاب (Fork) از bflat، زبان C# را مستقیماً به یک برنامه بومی (Native) کوچک کامپایل می‌کند: بدون .NET runtime، بدون Garbage Collector و بدون نیاز به نصب هیچ‌چیز در مقصد اجرا.</p>
+<p>شما نحو (Syntax)، بررسی نوع (Type checking) و Genericهای C# را حفظ می‌کنید. حافظه از طریق Arenaها تأمین می‌شود که می‌توانید همه آن‌ها را یک‌جا آزاد کنید، و یک کتابخانه کوچک، رشته‌ها، مجموعه‌ها، ورودی و خروجی را با همین شرایط در اختیار شما قرار می‌دهد. همان سورس‌کد روی Linux، macOS و Windows، روی WebAssembly و روی DOS در یک پردازنده 386 اجرا می‌شود.</p>
+<p>```csharp</p>
+<p>// خواندن در یک بافر پشته: هیچ‌چیز به ازای هر پاسخ تخصیص نمی‌یابد.</p>
+<p>Span&lt;char&gt; buffer = stackalloc char[32];</p>
+<p>Out.Write($&quot;Q{i}: {a} + {b} = &quot;);</p>
+<p>int length = In.ReadLine(buffer);</p>
+<p>// تا پایان نگه داشته می‌شود، بنابراین به یک Arena می‌رود.</p>
+<p>mistakes.Add(Str.Format(keep,</p>
+<p>$&quot;{a} + {b} = {a + b}, not {value}&quot;));</p>
+<p>```</p>
+<p>### زبان باقی می‌ماند، Runtime می‌رود</p>
+<p>کامپایلر همچنان تمام مواردی را که در .NET بررسی می‌کند، چک می‌کند. آنچه حذف شده، کارهایی است که یک Runtime در حین اجرای برنامه شما انجام می‌دهد.</p>
+<p>**شما حفظ می‌کنید:**</p>
+<p>- **C# 15:** یونیون‌ها (Unions)، اعضای افزونه (Extension members) و قوانین جدید ایمنی حافظه.</p>
+<p>- **Genericهای واقعی:** یک کپی تخصصی برای هر نوع، و اعضای استاتیک انتزاعی (Static abstract members).</p>
+<p>- **اینترفیس‌ها و متدهای مجازی:** متدهای پیش‌فرض اینترفیس، Castها، is و as.</p>
+<p>- **رکوردها، تاپل‌ها، انواع ناشناس:** برابری مقداری (Value equality)، with و متد تولیدشده ToString.</p>
+<p>- **لامبداها و کوئری‌ها:** Where، Select و GroupBy، از یک کتابخانه کوچک به جای LINQ.</p>
+<p>- **رشته‌ها:** Parallel.For که یک حلقه را روی تمام هسته‌ها اجرا می‌کند.</p>
+<p>**شما صرف‌نظر می‌کنید از:**</p>
+<p>- **Garbage collector:** آرناها (Arenas) حافظه خود را هر زمان که شما بخواهید، یک‌جا آزاد می‌کنند.</p>
+<p>- **.NET runtime:** برنامه Hello world روی ویندوز ۱۱ کیلوبایت و روی لینوکس ۴۰ کیلوبایت است، بدون نیاز به نصب هیچ‌چیز.</p>
+<p>- **Catch کردن استثناها:** throw برنامه را خاتمه می‌دهد. خطاها را به صورت یونیون برگردانید.</p>
+<p>- **Reflection و async:** یک نوع داده قابل مقایسه است، اما نامی ندارد.</p>
+<p>### یک برنامه، پنج ماشین</p>
+<p>نمونه hello-world، بدون تغییر، برای هر هدف ساخته شده است. هر بیلد توسط همان مجموعه تست بررسی می‌شود که خروجی یکسانی را در همه جا می‌طلبد.</p>
+<p>```bash</p>
+<p>$ ./build.sh Minimal</p>
+<p>$ ./run.sh Minimal</p>
+<p>Hello from zero-mode!</p>
+<p>$ wc -c bin/Minimal</p>
+<p>39848 bin/Minimal</p>
+<p>```</p>
+<p>**Linux, x64 یا arm64**</p>
+<p>یک برنامه بومی که فقط به کتابخانه C نیاز دارد. در macOS، این برنامه در یک کانتینر ساخته و اجرا می‌شود.</p>
+<p>```bash</p>
+<p>$ ./build.sh --mac Minimal</p>
+<p>$ bin/mac/Minimal</p>
+<p>Hello from zero-mode!</p>
+<p>$ wc -c bin/mac/Minimal</p>
+<p>64728 bin/mac/Minimal</p>
+<p>```</p>
+<p>**macOS روی Apple Silicon**</p>
+<p>یک برنامه بومی مک: bflat آن را کامپایل می‌کند و clang خودِ مک آن را لینک می‌کند. بدون نیاز به کانتینر برای اجرا.</p>
+<p>```bash</p>
+<p>$ ./build.sh --win Minimal</p>
+<p>$ ./run.sh --win Minimal</p>
+<p>Hello from zero-mode!</p>
+<p>$ wc -c bin/win/Minimal.exe</p>
+<p>10752 bin/win/Minimal.exe</p>
+<p>```</p>
+<p>**Windows x64**</p>
+<p>یک برنامه کنسولی بر پایه کتابخانه C ویندوز، که از لینوکس یا macOS ساخته شده است. تست‌شده تحت Wine.</p>
+<p>```bash</p>
+<p>$ ./build.sh --wasm Minimal</p>
+<p>$ ./run.sh --wasm Minimal</p>
+<p>Hello from zero-mode!</p>
+<p>$ wc -c bin/wasm/Minimal.wasm</p>
+<p>15833 bin/wasm/Minimal.wasm</p>
+<p>```</p>
+<p>**WebAssembly**</p>
+<p>یک ماژول WASI، از طریق NativeAOT-LLVM. اجرا تحت wasmtime.</p>
+<p>```text</p>
+<p>C:\&gt;D:</p>
+<p>D:\&gt;PROGRAM</p>
+<p>Hello from zero-mode!</p>
+<p>D:\&gt;DIR PROGRAM.EXE</p>
+<p>PROGRAM  EXE     16,384</p>
+<p>D:\&gt;</p>
+<p>```</p>
+<p>**DOS روی یک 386**</p>
+<p>همان بیت‌کد که برای 386 کامپایل شده و توسط HX DOS extender اجرا می‌شود. تست‌شده روی مدل i386 در Bochs.</p>
+<p>### چه چیزی متفاوت است و چه چیزی به دست می‌آورید</p>
+<p>بدون Runtime، چند مورد متفاوت عمل می‌کنند. هر کدام صفحه‌ای دارند که توضیح می‌دهد چرا و به جای آن چه باید کرد.</p>
+<p>- **حافظه برای آزاد کردن در اختیار شماست:** Garbage collector وجود ندارد، بنابراین Memory بدون Garbage collector هرگز با new آزاد نمی‌شود. آرناها (Arenas) حافظه را تخصیص می‌دهند و همه را یک‌جا، در پایان طول عمرشان آزاد می‌کنند.</p>
+<p>- **متن بدون رشته‌های دورریختنی:** رشته‌ها بدون Garbage collector؛ متد Out.Line($&quot;...&quot;) مستقیماً در بافر خروجی فرمت می‌شود و In.ReadLine در یک Span می‌خواند. رشته‌هایی که باید باقی بمانند در یک Arena قرار می‌گیرند.</p>
+<p>- **مجموعه‌هایی که در آرناها زندگی می‌کنند:** انتخاب یک مجموعه؛ List، Dict و نسخه‌های آن‌ها برای ارجاعات و کلیدهای رشته‌ای، همگی هندل‌هایی به یک Arena هستند.</p>
+<p>- **C# 15، با قوانین ایمنی فعال:** هر برنامه تحت قوانین به‌روز شده ایمنی حافظه کامپایل می‌شود: ایجاد یک اشاره‌گر (Pointer) ایمن است، خواندن از طریق آن علامت‌گذاری و توضیح داده می‌شود.</p>
+<p>### از کجا شروع کنیم</p>
+<p>اگر تازه‌کار هستید، این چهار صفحه شما را از صفر به یک برنامه تعاملی می‌رسانند.</p>
+<p>- **نصب:** با dotnet روی لینوکس یا ویندوز، یا از مخزن برای هر هدف.</p>
+<p>- **اولین برنامه شما:** آن را بسازید، اجرا کنید و ببینید چقدر کوچک است.</p>
+<p>- **اجرا روی DOS:** همان برنامه تحت FreeDOS، در یک شبیه‌ساز.</p>
+<p>- **آموزش:** یک آزمون: خروجی، ورودی، ورودی بد، آرناها.</p>
+<p>به دنبال چیز خاصی هستید؟ راهنماهای وظیفه (Task guides) به هر سوال پاسخ می‌دهند و بخش مرجع، تمام انواع موجود در کتابخانه را فهرست می‌کند.</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://onurgumus.github.io/zero-csharp/index.html">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
