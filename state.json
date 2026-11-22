@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://mobile.slashdot.org/story/26/10/23/1916222/spacex-in-talks-to-access-80000-cell-sites-for-new-network?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "TheNextWeb=efaf2da12e8800f17bca5a422d255ba4",
   "hn:50237712",
   "hn:50238088",
@@ -2999,17 +2998,18 @@
   "tg:hacker_news_feed/134043",
   "https://www.engadget.com/2310887/samsung-vs-lg-oled-tv-difference-between/",
   "7e7iBHYVPxHG3B6PNUs4rR",
-  "hn:50596155"
+  "hn:50596155",
+  "hn:50597743"
  ],
  "posted": {
-  "viral": 925,
+  "viral": 926,
   "editorial": 1079
  },
  "recent_labels": [
-  "Hi-Tech Mail",
   "The Register",
   "Hacker News",
   "Hacker News Feed",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-20",
@@ -5029,26 +5029,22 @@
     "RUST"
    ],
    "at": "2026-11-22T13:04:39.908709+00:00"
+  },
+  {
+   "title": "سوگیری جنسیتی مدل‌های زبانی در قضاوت‌های اخلاقی",
+   "url": "https://arxiv.org/abs/2606.14068",
+   "source": "arxiv.org",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.05,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-22T14:05:18.644301+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "down",
-    "due",
-    "duties",
-    "influx",
-    "kernel",
-    "linux",
-    "management",
-    "memory",
-    "patches",
-    "reviewer",
-    "slop",
-    "steps"
-   ],
-   "at": "2026-11-11T12:54:15.564712+00:00"
-  },
   {
    "sig": [
     "actually",
@@ -9162,6 +9158,20 @@
    ],
    "at": "2026-11-22T13:04:39.908709+00:00",
    "url": "github.com/el4cteo/fast-anything"
+  },
+  {
+   "sig": [
+    "conflicts",
+    "evaluating",
+    "framing",
+    "gender-asymmetric",
+    "harsher",
+    "llms",
+    "male",
+    "moral"
+   ],
+   "at": "2026-11-22T14:05:18.644301+00:00",
+   "url": "arxiv.org/abs/2606.14068"
   }
  ],
  "snapshots": {
@@ -11554,12 +11564,12 @@
    "2026-11-22T11:53:56.684850+00:00"
   ],
   "lobsters:32rhzb": [
-   52,
-   "2026-11-22T12:53:55.952939+00:00"
+   63,
+   "2026-11-22T13:53:51.445703+00:00"
   ],
   "hn:50597743": [
-   164,
-   "2026-11-22T12:53:55.952939+00:00"
+   204,
+   "2026-11-22T13:53:51.445703+00:00"
   ],
   "hn:50596155": [
    138,
@@ -11609,7 +11619,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 190,
+  "Hacker News": 191,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11655,7 +11665,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-22T13:04:39.908818+00:00",
+  "Hacker News": "2026-11-22T14:05:18.644412+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -13473,8 +13483,22 @@
    "message_id": 1728,
    "chat_id": -1004399820759,
    "iv_message_id": 1729
+  },
+  "128": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "سوگیری جنسیتی مدل‌های زبانی در قضاوت‌های اخلاقی",
+   "url": "https://arxiv.org/abs/2606.14068",
+   "at": "2026-11-22T13:53:53.478599+00:00",
+   "votes": {},
+   "message_id": 1732,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 128,
+ "next_post_id": 129,
  "last_update_id": 276814760
 }
