@@ -1,7 +1,5 @@
 {
  "seen": [
-  "lobsters:x1s5oq",
-  "hn:50237485",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myql4ogqth2n",
   "https://www.cnews.ru/news/line/2026-10-26_agrokompleks_ivanisovo",
   "4db0cccaea6935a25125a7a26485c950",
@@ -2999,18 +2997,20 @@
   "ZiWrz6jJ3a6doJnSb6hL99",
   "https://www.theregister.com/a/5311023",
   "hn:50596664",
-  "hn:50597612"
+  "hn:50597612",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2uzclecwf25",
+  "tg:hacker_news_feed/134043"
  ],
  "posted": {
-  "viral": 923,
+  "viral": 924,
   "editorial": 1079
  },
  "recent_labels": [
-  "vc.ru",
   "Hacker News Feed",
   "Hi-Tech Mail",
   "The Register",
-  "Hacker News"
+  "Hacker News",
+  "Hacker News Feed"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5003,19 +5003,22 @@
     "AI"
    ],
    "at": "2026-11-22T11:04:57.692880+00:00"
+  },
+  {
+   "title": "توسعه افزونه‌های PostgreSQL با استفاده از زبان Go",
+   "url": "https://jespino.github.io/gopgext/",
+   "source": "gopgext",
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "score": 0.31242,
+   "topics": [
+    "PROGRAMMING",
+    "DATABASE"
+   ],
+   "at": "2026-11-22T12:04:36.318898+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "aren",
-    "developers",
-    "ever",
-    "happy",
-    "powerful"
-   ],
-   "at": "2026-11-11T11:54:45.572895+00:00"
-  },
   {
    "sig": [
     "connected",
@@ -9130,13 +9133,28 @@
    ],
    "at": "2026-11-22T11:04:57.692880+00:00",
    "url": "betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power"
+  },
+  {
+   "sig": [
+    "become",
+    "build",
+    "code",
+    "extensions",
+    "function",
+    "functions",
+    "gopgext",
+    "marked",
+    "plain",
+    "postgresql",
+    "sql",
+    "tinygo",
+    "using"
+   ],
+   "at": "2026-11-22T12:04:36.318898+00:00",
+   "url": "jespino.github.io/gopgext"
   }
  ],
  "snapshots": {
-  "hn:50470445": [
-   127,
-   "2026-11-13T03:53:45.876128+00:00"
-  ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n25qivmljs2t": [
    52,
    "2026-11-13T03:53:45.876128+00:00"
@@ -11517,10 +11535,6 @@
    153,
    "2026-11-22T09:42:07.883636+00:00"
   ],
-  "lobsters:32rhzb": [
-   35,
-   "2026-11-22T10:53:55.405666+00:00"
-  ],
   "hn:50597612": [
    421,
    "2026-11-22T10:53:55.405666+00:00"
@@ -11529,9 +11543,17 @@
    89,
    "2026-11-22T10:53:55.405666+00:00"
   ],
+  "lobsters:32rhzb": [
+   43,
+   "2026-11-22T11:53:56.684850+00:00"
+  ],
   "tg:hacker_news_feed/134043": [
-   151,
-   "2026-11-22T10:53:55.405666+00:00"
+   159,
+   "2026-11-22T11:53:56.684850+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2uzclecwf25": [
+   66,
+   "2026-11-22T11:53:56.684850+00:00"
   ]
  },
  "skips": {
@@ -11542,7 +11564,7 @@
   "Lobsters": 8,
   "Hacker News": 58,
   "The Next Web": 1,
-  "404 Media": 23,
+  "404 Media": 24,
   "Emily M. Bender": 8,
   "Simon Willison": 3,
   "Xe Iaso": 9,
@@ -11605,7 +11627,7 @@
   "Rest of World": 1,
   "LangChain Blog": 1,
   "GitHub Trending": 14,
-  "Hacker News Feed": 26
+  "Hacker News Feed": 27
  },
  "last_post": {
   "Engadget": "2026-11-14T13:54:06.399584+00:00",
@@ -11651,7 +11673,7 @@
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
   "GitHub Trending": "2026-11-22T05:58:13.868736+00:00",
-  "Hacker News Feed": "2026-11-22T09:03:52.658700+00:00"
+  "Hacker News Feed": "2026-11-22T12:04:36.319036+00:00"
  },
  "posts": {
   "1": {
@@ -13411,8 +13433,23 @@
    "message_id": 1723,
    "chat_id": -1004399820759,
    "iv_message_id": 1724
+  },
+  "126": {
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "topics": [
+    "PROGRAMMING",
+    "DATABASE"
+   ],
+   "title": "توسعه افزونه‌های PostgreSQL با استفاده از زبان Go",
+   "url": "https://jespino.github.io/gopgext/",
+   "at": "2026-11-22T11:53:59.259520+00:00",
+   "votes": {},
+   "message_id": 1726,
+   "chat_id": -1004399820759,
+   "iv_message_id": 1727
   }
  },
- "next_post_id": 126,
+ "next_post_id": 127,
  "last_update_id": 276814760
 }
