@@ -1,6 +1,5 @@
 {
  "seen": [
-  "6adbb6231cfad481ad7e3d27",
   "hn:50235217",
   "hn:50233929",
   "hn:50236081",
@@ -2999,18 +2998,19 @@
   "tg:hacker_news_feed/134031",
   "hn:50593737",
   "hn:50596511",
-  "lobsters:et5q0q"
+  "lobsters:et5q0q",
+  "hn:50595554"
  ],
  "posted": {
-  "viral": 920,
+  "viral": 921,
   "editorial": 1076
  },
  "recent_labels": [
   "Hacker News Feed",
-  "Hacker News Feed",
   "Hacker News",
   "Hacker News",
-  "Lobsters"
+  "Lobsters",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4925,18 +4925,22 @@
     "SECURITY"
    ],
    "at": "2026-11-22T08:14:36.818211+00:00"
+  },
+  {
+   "title": "شناسایی نشت داده در برخی ارائه‌دهندگان مدل‌های هوش مصنوعی",
+   "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+   "source": "openrouter.ai",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.00795,
+   "topics": [
+    "SECURITY",
+    "PRIVACY"
+   ],
+   "at": "2026-11-22T08:48:09.547860+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "curl",
-    "internet",
-    "transfers",
-    "years"
-   ],
-   "at": "2026-11-11T10:53:46.261183+00:00"
-  },
   {
    "sig": [
     "driver",
@@ -9002,13 +9006,20 @@
    ],
    "at": "2026-11-22T08:14:36.818211+00:00",
    "url": "sipacid.com/blog/port-scanning-for-mojang"
+  },
+  {
+   "sig": [
+    "data",
+    "incidents",
+    "inference",
+    "processing",
+    "providers"
+   ],
+   "at": "2026-11-22T08:48:09.547860+00:00",
+   "url": "openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers"
   }
  ],
  "snapshots": {
-  "hn:50475713": [
-   112,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
   "hn:50475735": [
    230,
    "2026-11-13T03:53:45.876128+00:00"
@@ -11369,41 +11380,45 @@
    63,
    "2026-11-22T07:59:58.502629+00:00"
   ],
-  "gh:mjmirza/app-store-compliance": [
-   720,
-   "2026-11-22T08:13:39.416212+00:00"
-  ],
-  "hn:50595554": [
-   212,
-   "2026-11-22T08:13:39.416212+00:00"
-  ],
-  "hn:50593481": [
-   103,
-   "2026-11-22T08:13:39.416212+00:00"
-  ],
-  "hn:50596133": [
-   726,
-   "2026-11-22T08:13:39.416212+00:00"
-  ],
-  "tg:hacker_news_feed/134037": [
-   187,
-   "2026-11-22T08:13:39.416212+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224": [
-   58,
-   "2026-11-22T08:13:39.416212+00:00"
-  ],
-  "tg:hacker_news_feed/134038": [
-   154,
-   "2026-11-22T08:13:39.416212+00:00"
-  ],
-  "tg:hacker_news_feed/134039": [
-   152,
-   "2026-11-22T08:13:39.416212+00:00"
-  ],
   "lobsters:et5q0q": [
    25,
    "2026-11-22T08:13:39.416212+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   720,
+   "2026-11-22T08:47:16.635110+00:00"
+  ],
+  "hn:50595554": [
+   227,
+   "2026-11-22T08:47:16.635110+00:00"
+  ],
+  "hn:50593481": [
+   112,
+   "2026-11-22T08:47:16.635110+00:00"
+  ],
+  "hn:50596133": [
+   805,
+   "2026-11-22T08:47:16.635110+00:00"
+  ],
+  "tg:hacker_news_feed/134037": [
+   195,
+   "2026-11-22T08:47:16.635110+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224": [
+   68,
+   "2026-11-22T08:47:16.635110+00:00"
+  ],
+  "tg:hacker_news_feed/134038": [
+   155,
+   "2026-11-22T08:47:16.635110+00:00"
+  ],
+  "tg:hacker_news_feed/134039": [
+   153,
+   "2026-11-22T08:47:16.635110+00:00"
+  ],
+  "lobsters:32rhzb": [
+   26,
+   "2026-11-22T08:47:16.635110+00:00"
   ]
  },
  "skips": {
@@ -11449,7 +11464,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 187,
+  "Hacker News": 188,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11495,7 +11510,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-22T08:05:11.514339+00:00",
+  "Hacker News": "2026-11-22T08:48:09.547955+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -13193,8 +13208,23 @@
    "votes": {},
    "message_id": 1697,
    "chat_id": -1004399820759
+  },
+  "120": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "SECURITY",
+    "PRIVACY"
+   ],
+   "title": "شناسایی نشت داده در برخی ارائه‌دهندگان مدل‌های هوش مصنوعی",
+   "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+   "at": "2026-11-22T08:47:18.308785+00:00",
+   "votes": {},
+   "message_id": 1708,
+   "chat_id": -1004399820759,
+   "iv_message_id": 1709
   }
  },
- "next_post_id": 120,
+ "next_post_id": 121,
  "last_update_id": 276814760
 }
