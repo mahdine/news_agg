@@ -430,7 +430,11 @@ def _dispatch_iv_deploy() -> None:
     """
     token = os.environ.get("GITHUB_TOKEN", "")
     slug = _repo_slug()
-    if not token or not slug:
+    if not token:
+        log.info("dispatch iv-deploy: GITHUB_TOKEN نیست — رد شد")
+        return
+    if not slug:
+        log.warning("dispatch iv-deploy: slug به دست نیامد — رد شد")
         return
     req = urllib.request.Request(
         f"https://api.github.com/repos/{slug}/actions/workflows/iv-deploy.yml/dispatches",
@@ -438,15 +442,15 @@ def _dispatch_iv_deploy() -> None:
         headers={
             "Authorization": f"Bearer {token}",
             "Accept": "application/vnd.github+json",
+            "Content-Type": "application/json",
         },
         data=b'{"ref": "main"}',
     )
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
-            if resp.status not in (200, 204):
-                log.warning("dispatch iv-deploy: HTTP %s", resp.status)
+            log.info("dispatch iv-deploy: HTTP %s", resp.status)
     except Exception as exc:
-        log.warning("dispatch iv-deploy نشد: %s", str(exc)[:120])
+        log.warning("dispatch iv-deploy نشد: %s", str(exc)[:200])
 
 
 def _wait_page_ready(client: httpx.Client, page_url: str,
