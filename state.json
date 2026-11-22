@@ -1,8 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myqxosyjij2l",
-  "https://www.neowin.net/news/microsoft-issues-urgent-net-security-patches-for-critical-buffer-overflow-flaws/",
-  "ff2cecfcb18227434537181c0ba96a70",
   "eb4d78de86ae38666f2506ede11d069e",
   "lobsters:hzrmwz",
   "lobsters:x1s5oq",
@@ -2999,18 +2996,21 @@
   "tg:hacker_news_feed/134038",
   "tg:hacker_news_feed/134039",
   "5fd89af2854023e920f6cf289f0edd46",
-  "https://techcrunch.com/?p=3190451"
+  "https://techcrunch.com/?p=3190451",
+  "oiyo9sY3egpU6M2gtDzrQM",
+  "ZiWrz6jJ3a6doJnSb6hL99",
+  "https://www.theregister.com/a/5311023"
  ],
  "posted": {
   "viral": 922,
-  "editorial": 1078
+  "editorial": 1079
  },
  "recent_labels": [
-  "Lobsters",
   "Hacker News",
   "vc.ru",
   "Hacker News Feed",
-  "Hi-Tech Mail"
+  "Hi-Tech Mail",
+  "The Register"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4977,19 +4977,23 @@
     "CHATBOT"
    ],
    "at": "2026-11-22T09:53:04.153337+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
+   "source": "The Register",
+   "label": "The Register",
+   "pool": "editorial",
+   "score": 0.18002,
+   "topics": [
+    "SECURITY",
+    "PHISHING",
+    "IRAN"
+   ],
+   "at": "2026-11-22T10:04:58.882617+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "ai-generated",
-    "banning",
-    "contributions",
-    "oss",
-    "projects"
-   ],
-   "at": "2026-11-11T11:54:01.141566+00:00"
-  },
   {
    "sig": [
     "apple",
@@ -9104,6 +9108,22 @@
    ],
    "at": "2026-11-22T09:53:04.153337+00:00",
    "url": "hi-tech.mail.ru/news/161258-sound-ventures-otsenili-v-7-mlrd-dolyu-v-anthropic"
+  },
+  {
+   "sig": [
+    "airborne",
+    "detect",
+    "ghost",
+    "own",
+    "passive",
+    "position",
+    "radar",
+    "revealing",
+    "threats",
+    "without"
+   ],
+   "at": "2026-11-22T10:04:58.882617+00:00",
+   "url": "theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023"
   }
  ],
  "snapshots": {
@@ -11504,12 +11524,12 @@
    "2026-11-22T09:42:07.883636+00:00"
   ],
   "lobsters:32rhzb": [
-   30,
-   "2026-11-22T09:42:07.883636+00:00"
+   31,
+   "2026-11-22T09:54:02.736866+00:00"
   ]
  },
  "skips": {
-  "Tom's Hardware": 6,
+  "Tom's Hardware": 8,
   "Article 19": 1,
   "Wired": 29,
   "TechRadar": 9,
@@ -11556,7 +11576,7 @@
   "The Hacker News": 38,
   "Latent Space": 7,
   "InfoQ": 18,
-  "The Register": 28,
+  "The Register": 29,
   "Phoronix": 27,
   "The Next Web": 28,
   "Android Police": 20,
@@ -11602,7 +11622,7 @@
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
   "InfoQ": "2026-11-13T09:54:17.521781+00:00",
-  "The Register": "2026-11-13T12:55:20.731082+00:00",
+  "The Register": "2026-11-22T10:04:58.882740+00:00",
   "Phoronix": "2026-11-13T15:55:06.778710+00:00",
   "The Next Web": "2026-11-14T12:54:05.753665+00:00",
   "Android Police": "2026-11-11T05:54:23.447205+00:00",
@@ -13355,8 +13375,24 @@
    "message_id": 1719,
    "chat_id": -1004399820759,
    "iv_message_id": 1720
+  },
+  "124": {
+   "label": "The Register",
+   "pool": "editorial",
+   "topics": [
+    "SECURITY",
+    "PHISHING",
+    "IRAN"
+   ],
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
+   "at": "2026-11-22T09:54:06.462420+00:00",
+   "votes": {},
+   "message_id": 1721,
+   "chat_id": -1004399820759,
+   "iv_message_id": 1722
   }
  },
- "next_post_id": 124,
+ "next_post_id": 125,
  "last_update_id": 276814760
 }
