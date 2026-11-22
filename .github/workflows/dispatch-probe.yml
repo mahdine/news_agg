@@ -16,26 +16,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: probe
+        env:
+          EXPR_TOKEN: ${{ github.token }}
         run: |
-          python3 - <<'EOF'
-          import os, subprocess, urllib.request
-          token = os.environ.get("GITHUB_TOKEN", "")
-          print("token_len:", len(token))
-          remote = subprocess.run(["git", "remote", "get-url", "origin"], capture_output=True, text=True).stdout.strip()
-          print("remote:", remote)
-          req = urllib.request.Request(
-              "https://api.github.com/repos/mahdine/news_agg/actions/workflows/iv-deploy.yml/dispatches",
-              method="POST",
-              headers={
-                  "Authorization": f"Bearer {token}",
-                  "Accept": "application/vnd.github+json",
-                  "Content-Type": "application/json",
-              },
-              data=b'{"ref": "main"}',
-          )
-          try:
-              with urllib.request.urlopen(req, timeout=30) as r:
-                  print("dispatch status:", r.status)
-          except Exception as e:
-              print("dispatch ERROR:", type(e).__name__, e)
-          EOF
+          echo "shell GITHUB_TOKEN len: ${#GITHUB_TOKEN}"
+          echo "expr token len: ${#EXPR_TOKEN}"
+          echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
+          echo "GITHUB_SHA: $GITHUB_SHA"
+          env | cut -d= -f1 | grep -i "^GITHUB" | sort
+          git config --local --get-regexp 'http\..*extraheader' >/dev/null && echo "extraheader: present" || echo "no extraheader"
