@@ -1,10 +1,5 @@
 {
  "seen": [
-  "https://www.theverge.com/?p=1018233",
-  "https://www.engadget.com/2294022/devices-could-be-wrong-wifi-band-slowing-them-down/",
-  "https://www.androidpolice.com/default-browser-brave-arc-iceraven-firefox-bare/",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myq7h4kdcd2k",
-  "hn:50238739",
   "hn:50238763",
   "hn:50238884",
   "hn:50239027",
@@ -2999,18 +2994,23 @@
   "3268620",
   "gh:mjmirza/app-store-compliance",
   "https://www.cnews.ru/news/top/2026-11-20_ushla_tselaya_epohaposle_23",
-  "https://www.neowin.net/news/google-is-retiring-the-nest-app-in-2027-and-some-users-need-to-act-to-avoid-losing-data/"
+  "https://www.neowin.net/news/google-is-retiring-the-nest-app-in-2027-and-some-users-need-to-act-to-avoid-losing-data/",
+  "https://tech.slashdot.org/story/26/11/21/0627227/toyota-nissan-and-honda-to-standardize-parts-to-lower-costs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50596133",
+  "tg:hacker_news_feed/134037",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224",
+  "tg:hacker_news_feed/134038"
  ],
  "posted": {
-  "viral": 921,
+  "viral": 922,
   "editorial": 1077
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "Lobsters",
   "Hacker News",
-  "vc.ru"
+  "vc.ru",
+  "Hacker News Feed"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4951,24 +4951,21 @@
     "APPLE"
    ],
    "at": "2026-11-22T08:55:23.450391+00:00"
+  },
+  {
+   "title": "تولید برنامه‌های بومی C# بدون نیاز به دات‌نت و زباله‌روب",
+   "url": "https://onurgumus.github.io/zero-csharp/index.html",
+   "source": "Zero C#",
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "score": 0.3797,
+   "topics": [
+    "PROGRAMMING"
+   ],
+   "at": "2026-11-22T09:03:52.658584+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "beat",
-    "cooling",
-    "heat",
-    "loop",
-    "modder",
-    "outside",
-    "radiator",
-    "routes",
-    "water",
-    "winter"
-   ],
-   "at": "2026-11-11T10:54:09.944347+00:00"
-  },
   {
    "sig": [
     "cpu",
@@ -9067,6 +9064,16 @@
    ],
    "at": "2026-11-22T08:55:23.450391+00:00",
    "url": "vc.ru/legal/3268620-vk-podala-isk-k-apple-na-vozvrat-sredstv"
+  },
+  {
+   "sig": [
+    "runtime",
+    "show",
+    "without",
+    "zero"
+   ],
+   "at": "2026-11-22T09:03:52.658584+00:00",
+   "url": "onurgumus.github.io/zero-csharp/index"
   }
  ],
  "snapshots": {
@@ -11447,28 +11454,28 @@
    "2026-11-22T08:47:16.635110+00:00"
   ],
   "hn:50596133": [
-   832,
-   "2026-11-22T08:54:28.090580+00:00"
+   856,
+   "2026-11-22T09:02:03.749663+00:00"
   ],
   "tg:hacker_news_feed/134037": [
-   196,
-   "2026-11-22T08:54:28.090580+00:00"
+   199,
+   "2026-11-22T09:02:03.749663+00:00"
   ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224": [
-   70,
-   "2026-11-22T08:54:28.090580+00:00"
+   72,
+   "2026-11-22T09:02:03.749663+00:00"
   ],
   "tg:hacker_news_feed/134038": [
    155,
-   "2026-11-22T08:54:28.090580+00:00"
+   "2026-11-22T09:02:03.749663+00:00"
   ],
   "tg:hacker_news_feed/134039": [
    153,
-   "2026-11-22T08:54:28.090580+00:00"
+   "2026-11-22T09:02:03.749663+00:00"
   ],
   "lobsters:32rhzb": [
-   26,
-   "2026-11-22T08:54:28.090580+00:00"
+   27,
+   "2026-11-22T09:02:03.749663+00:00"
   ]
  },
  "skips": {
@@ -11481,13 +11488,13 @@
   "The Next Web": 1,
   "404 Media": 23,
   "Emily M. Bender": 8,
-  "Simon Willison": 2,
+  "Simon Willison": 3,
   "Xe Iaso": 9,
   "Simon Willison RSS": 1,
   "CNews": 20,
   "vc.ru": 2,
   "Hi-Tech Mail": 8,
-  "Slashdot": 4,
+  "Slashdot": 5,
   "The Register": 8,
   "Google AI": 1,
   "Neowin": 1,
@@ -11542,7 +11549,7 @@
   "Rest of World": 1,
   "LangChain Blog": 1,
   "GitHub Trending": 14,
-  "Hacker News Feed": 25
+  "Hacker News Feed": 26
  },
  "last_post": {
   "Engadget": "2026-11-14T13:54:06.399584+00:00",
@@ -11588,7 +11595,7 @@
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
   "GitHub Trending": "2026-11-22T05:58:13.868736+00:00",
-  "Hacker News Feed": "2026-11-22T07:40:56.050257+00:00"
+  "Hacker News Feed": "2026-11-22T09:03:52.658700+00:00"
  },
  "posts": {
   "1": {
@@ -13288,8 +13295,22 @@
    "message_id": 1710,
    "chat_id": -1004399820759,
    "iv_message_id": 1711
+  },
+  "122": {
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "topics": [
+    "PROGRAMMING"
+   ],
+   "title": "تولید برنامه‌های بومی C# بدون نیاز به دات‌نت و زباله‌روب",
+   "url": "https://onurgumus.github.io/zero-csharp/index.html",
+   "at": "2026-11-22T09:02:12.845263+00:00",
+   "votes": {},
+   "message_id": 1712,
+   "chat_id": -1004399820759,
+   "iv_message_id": 1713
   }
  },
- "next_post_id": 122,
+ "next_post_id": 123,
  "last_update_id": 276814760
 }
