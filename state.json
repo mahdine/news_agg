@@ -1,12 +1,5 @@
 {
  "seen": [
-  "KMAkycWLZnK7euBiqcLQwE",
-  "77499eca0de0937e583088da5a6fe6ad",
-  "https://www.cnews.ru/news/line/2026-10-26_vvp_group_rasshiryaet_assortiment",
-  "hn:50238708",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myqqgszdv22z",
-  "https://www.infoq.com/articles/agentic-ai-architecture-harness-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "a23fd11922f1c0a61c7ee60337abdf50",
   "xvUnMKT6mVuz4CfiWYtFNb",
   "TheNextWeb=9fd634bf75695080ccdbb2c3942fa9cc",
   "https://9to5mac.com/?p=1075681",
@@ -2999,18 +2992,25 @@
   "tg:hacker_news_feed/134045",
   "https://9to5mac.com/?p=1078582",
   "https://www.engadget.com/2319367/ipad-alternatives-to-ditch-apple/",
-  "hn:50599762"
+  "hn:50599762",
+  "https://9to5mac.com/?p=1082086",
+  "XJDMDYjgsvCUWp6jvTrGgL",
+  "ujWRpqjtvX53fkyPYXp2h9",
+  "https://9to5mac.com/?p=1074725",
+  "hn:50599583",
+  "https://www.theverge.com/?p=1039762",
+  "https://it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions?utm_source=rss1.0mainlinkanon&utm_medium=feed"
  ],
  "posted": {
   "viral": 928,
-  "editorial": 1079
+  "editorial": 1080
  },
  "recent_labels": [
-  "Hacker News Feed",
   "Hacker News",
   "Hacker News",
   "Hacker News Feed",
-  "Hacker News"
+  "Hacker News",
+  "Slashdot"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5069,21 +5069,22 @@
     "CHATBOT"
    ],
    "at": "2026-11-22T16:04:49.117539+00:00"
+  },
+  {
+   "title": "خطرات امنیتی در GitHub Actions و سوءاستفاده از تریگرهای مخرب",
+   "url": "https://it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "label": "Slashdot",
+   "pool": "editorial",
+   "score": 0.19429,
+   "topics": [
+    "SECURITY",
+    "VULNERABILITY"
+   ],
+   "at": "2026-11-22T17:04:58.050763+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "a100",
-    "card",
-    "glitching",
-    "mining",
-    "unleash",
-    "using",
-    "voltage"
-   ],
-   "at": "2026-11-11T14:53:48.268856+00:00"
-  },
   {
    "sig": [
     "going",
@@ -9196,13 +9197,23 @@
    ],
    "at": "2026-11-22T16:04:49.117539+00:00",
    "url": "github.com/gulivan/worker755"
+  },
+  {
+   "sig": [
+    "actions",
+    "dangerous",
+    "de-fanging",
+    "devs",
+    "document",
+    "github",
+    "python",
+    "triggers"
+   ],
+   "at": "2026-11-22T17:04:58.050763+00:00",
+   "url": "it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions"
   }
  ],
  "snapshots": {
-  "hn:50478635": [
-   152,
-   "2026-11-13T07:53:41.904729+00:00"
-  ],
   "hn:50477649": [
    143,
    "2026-11-13T07:53:41.904729+00:00"
@@ -11598,6 +11609,10 @@
   "hn:50599762": [
    91,
    "2026-11-22T15:53:51.543362+00:00"
+  ],
+  "hn:50599583": [
+   221,
+   "2026-11-22T16:53:53.881783+00:00"
   ]
  },
  "skips": {
@@ -11606,7 +11621,7 @@
   "Wired": 30,
   "TechRadar": 9,
   "Lobsters": 8,
-  "Hacker News": 59,
+  "Hacker News": 60,
   "The Next Web": 1,
   "404 Media": 24,
   "Emily M. Bender": 8,
@@ -11621,10 +11636,10 @@
   "Google AI": 1,
   "Neowin": 1,
   "TechSpot": 1,
-  "9to5Mac": 4,
+  "9to5Mac": 5,
   "Engadget": 2,
   "antirez": 1,
-  "The Verge": 1,
+  "The Verge": 2,
   "Hacker News Feed": 15
  },
  "posts_by_label": {
@@ -11632,7 +11647,7 @@
   "Neowin": 26,
   "Wired": 27,
   "TechRadar": 37,
-  "Slashdot": 31,
+  "Slashdot": 32,
   "404 Media": 54,
   "Xe Iaso": 5,
   "The Verge": 22,
@@ -11678,7 +11693,7 @@
   "Neowin": "2026-11-13T13:54:10.098725+00:00",
   "Wired": "2026-11-17T10:53:44.587771+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
-  "Slashdot": "2026-11-13T04:54:43.870063+00:00",
+  "Slashdot": "2026-11-22T17:04:58.050897+00:00",
   "404 Media": "2026-11-21T02:54:08.482519+00:00",
   "Xe Iaso": "2026-11-18T17:53:57.797084+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
@@ -13552,8 +13567,22 @@
    "message_id": 1735,
    "chat_id": -1004399820759,
    "iv_message_id": 1736
+  },
+  "131": {
+   "label": "Slashdot",
+   "pool": "editorial",
+   "topics": [
+    "SECURITY",
+    "VULNERABILITY"
+   ],
+   "title": "خطرات امنیتی در GitHub Actions و سوءاستفاده از تریگرهای مخرب",
+   "url": "https://it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "at": "2026-11-22T16:54:05.576918+00:00",
+   "votes": {},
+   "message_id": 1737,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 131,
+ "next_post_id": 132,
  "last_update_id": 276814760
 }
