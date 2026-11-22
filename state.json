@@ -1,6 +1,5 @@
 {
  "seen": [
-  "xvUnMKT6mVuz4CfiWYtFNb",
   "TheNextWeb=9fd634bf75695080ccdbb2c3942fa9cc",
   "https://9to5mac.com/?p=1075681",
   "https://www.techspot.com/news/114331-elon-musk-predicts-mass-extinction-ai-cloud-companies.html",
@@ -2999,18 +2998,19 @@
   "https://9to5mac.com/?p=1074725",
   "hn:50599583",
   "https://www.theverge.com/?p=1039762",
-  "https://it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50598961"
  ],
  "posted": {
-  "viral": 928,
+  "viral": 929,
   "editorial": 1080
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "Hacker News Feed",
   "Hacker News",
-  "Slashdot"
+  "Slashdot",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5082,18 +5082,22 @@
     "VULNERABILITY"
    ],
    "at": "2026-11-22T17:04:58.050763+00:00"
+  },
+  {
+   "title": "تأثیر مخرب مراکز داده هوش مصنوعی بر تغییرات اقلیمی و محیط‌زیست",
+   "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+   "source": "bloodinthemachine.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.01709,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-22T18:04:52.464350+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "going",
-    "nowhere",
-    "project",
-    "zig"
-   ],
-   "at": "2026-11-11T14:53:54.316986+00:00"
-  },
   {
    "sig": [
     "72h",
@@ -9211,21 +9215,18 @@
    ],
    "at": "2026-11-22T17:04:58.050763+00:00",
    "url": "it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions"
+  },
+  {
+   "sig": [
+    "becoming",
+    "climate",
+    "disaster"
+   ],
+   "at": "2026-11-22T18:04:52.464350+00:00",
+   "url": "bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the"
   }
  ],
  "snapshots": {
-  "hn:50477649": [
-   143,
-   "2026-11-13T07:53:41.904729+00:00"
-  ],
-  "hn:50479876": [
-   183,
-   "2026-11-13T08:53:43.609578+00:00"
-  ],
-  "hn:50477155": [
-   80,
-   "2026-11-13T08:53:43.609578+00:00"
-  ],
   "hn:50481187": [
    262,
    "2026-11-13T10:53:44.091320+00:00"
@@ -11613,6 +11614,18 @@
   "hn:50599583": [
    221,
    "2026-11-22T16:53:53.881783+00:00"
+  ],
+  "hn:50600789": [
+   233,
+   "2026-11-22T17:53:50.623922+00:00"
+  ],
+  "hn:50600677": [
+   170,
+   "2026-11-22T17:53:50.623922+00:00"
+  ],
+  "hn:50598961": [
+   83,
+   "2026-11-22T17:53:50.623922+00:00"
   ]
  },
  "skips": {
@@ -11658,7 +11671,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 192,
+  "Hacker News": 193,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11704,7 +11717,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-22T16:04:49.117643+00:00",
+  "Hacker News": "2026-11-22T18:04:52.464493+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -13581,8 +13594,22 @@
    "votes": {},
    "message_id": 1737,
    "chat_id": -1004399820759
+  },
+  "132": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "تأثیر مخرب مراکز داده هوش مصنوعی بر تغییرات اقلیمی و محیط‌زیست",
+   "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+   "at": "2026-11-22T17:53:54.916645+00:00",
+   "votes": {},
+   "message_id": 1738,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 132,
+ "next_post_id": 133,
  "last_update_id": 276814760
 }
