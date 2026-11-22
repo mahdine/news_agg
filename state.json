@@ -1,6 +1,5 @@
 {
  "seen": [
-  "hn:50231310",
   "lobsters:tbbiqb",
   "https://techcrunch.com/?p=3181532",
   "https://www.theverge.com/?p=1017508",
@@ -2999,18 +2998,19 @@
   "gh:google-labs-code/stitch-skills",
   "tg:hacker_news_feed/134016",
   "hn:50591835",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2tsb6pguk27"
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2tsb6pguk27",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ucwmctac2c"
  ],
  "posted": {
-  "viral": 910,
+  "viral": 911,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News Feed",
   "Hacker News",
   "GitHub Trending",
   "Hacker News Feed",
-  "Simon Willison"
+  "Simon Willison",
+  "Emily M. Bender"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4796,30 +4796,22 @@
     "CHATBOT"
    ],
    "at": "2026-11-21T21:11:24.894607+00:00"
+  },
+  {
+   "title": "انتقاد از تمرکز شرکت‌های هوش مصنوعی بر مسائل ریاضی",
+   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3n2ucwmctac2c",
+   "source": "Emily M. Bender",
+   "label": "Emily M. Bender",
+   "pool": "viral",
+   "score": 0.48144,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-22T01:53:58.115145+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "across",
-    "adobe",
-    "airplay",
-    "apple",
-    "bluetooth",
-    "chat",
-    "flaws",
-    "group",
-    "imessage",
-    "pairing",
-    "patched",
-    "patches",
-    "platforms",
-    "privacy",
-    "products",
-    "vulnerabilities"
-   ],
-   "at": "2026-11-11T07:53:51.357534+00:00"
-  },
   {
    "sig": [
     "audiences",
@@ -8879,49 +8871,29 @@
    ],
    "at": "2026-11-21T21:11:24.894607+00:00",
    "url": "bsky.app/profile/simonwillison.net/post/3n2tsb6pguk27"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "because",
+    "believe",
+    "building",
+    "famous",
+    "folks",
+    "gods",
+    "going",
+    "machine",
+    "math",
+    "openai",
+    "problems",
+    "remember",
+    "want"
+   ],
+   "at": "2026-11-22T01:53:58.115145+00:00",
+   "url": "bsky.app/profile/emilymbender.bsky.social/post/3n2ucwmctac2c"
   }
  ],
  "snapshots": {
-  "lobsters:2drgwh": [
-   32,
-   "2026-11-12T16:53:52.508305+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n24vdostzo2g": [
-   115,
-   "2026-11-12T17:53:46.725340+00:00"
-  ],
-  "hn:50469994": [
-   146,
-   "2026-11-12T17:53:46.725340+00:00"
-  ],
-  "hn:50469007": [
-   141,
-   "2026-11-12T17:53:46.725340+00:00"
-  ],
-  "hn:50468888": [
-   132,
-   "2026-11-12T17:53:46.725340+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n24wq7mias2k": [
-   116,
-   "2026-11-12T17:53:46.725340+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n24xfwwgcc2k": [
-   269,
-   "2026-11-13T01:53:43.470244+00:00"
-  ],
-  "hn:50474883": [
-   265,
-   "2026-11-13T01:53:43.470244+00:00"
-  ],
-  "hn:50474311": [
-   272,
-   "2026-11-13T01:53:43.470244+00:00"
-  ],
-  "hn:50473231": [
-   557,
-   "2026-11-13T01:53:43.470244+00:00"
-  ],
   "hn:50467869": [
    198,
    "2026-11-13T01:53:43.470244+00:00"
@@ -11230,57 +11202,97 @@
    154,
    "2026-11-21T18:43:11.788721+00:00"
   ],
-  "gh:openvinotoolkit/openvino": [
-   202,
-   "2026-11-21T21:11:15.194874+00:00"
-  ],
-  "gh:mjmirza/app-store-compliance": [
-   724,
-   "2026-11-21T21:11:15.194874+00:00"
-  ],
   "tg:hacker_news_feed/134013": [
    150,
-   "2026-11-21T21:11:15.194874+00:00"
-  ],
-  "tg:hacker_news_feed/134023": [
-   151,
-   "2026-11-21T21:11:15.194874+00:00"
-  ],
-  "hn:50590279": [
-   232,
-   "2026-11-21T21:11:15.194874+00:00"
-  ],
-  "lobsters:fjueso": [
-   33,
-   "2026-11-21T21:11:15.194874+00:00"
-  ],
-  "hn:50591853": [
-   326,
    "2026-11-21T21:11:15.194874+00:00"
   ],
   "hn:50591835": [
    661,
    "2026-11-21T21:11:15.194874+00:00"
   ],
-  "hn:50590441": [
-   100,
-   "2026-11-21T21:11:15.194874+00:00"
-  ],
-  "tg:hacker_news_feed/134024": [
-   158,
-   "2026-11-21T21:11:15.194874+00:00"
-  ],
-  "tg:hacker_news_feed/134025": [
-   160,
-   "2026-11-21T21:11:15.194874+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2tve52qhf2c": [
-   281,
-   "2026-11-21T21:11:15.194874+00:00"
-  ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2tsb6pguk27": [
    95,
    "2026-11-21T21:11:15.194874+00:00"
+  ],
+  "gh:openvinotoolkit/openvino": [
+   200,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   720,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "tg:hacker_news_feed/134023": [
+   152,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "hn:50590279": [
+   325,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "lobsters:fjueso": [
+   54,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "hn:50591853": [
+   546,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "hn:50590441": [
+   170,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "tg:hacker_news_feed/134024": [
+   163,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "tg:hacker_news_feed/134025": [
+   164,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2tve52qhf2c": [
+   399,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "hn:50594132": [
+   66,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "hn:50593737": [
+   108,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "hn:50592097": [
+   138,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "tg:hacker_news_feed/134028": [
+   189,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "tg:hacker_news_feed/134029": [
+   151,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "tg:hacker_news_feed/134031": [
+   153,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "tg:hacker_news_feed/134032": [
+   153,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "tg:hacker_news_feed/134033": [
+   150,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "tg:hacker_news_feed/134034": [
+   150,
+   "2026-11-22T01:53:56.026913+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ucwmctac2c": [
+   357,
+   "2026-11-22T01:53:56.026913+00:00"
   ]
  },
  "skips": {
@@ -11345,7 +11357,7 @@
   "Filippo Valsorda": 1,
   "Dan Luu": 1,
   "CNews": 52,
-  "Emily M. Bender": 5,
+  "Emily M. Bender": 6,
   "antirez": 6,
   "OpenAI": 3,
   "Hugging Face": 2,
@@ -11391,7 +11403,7 @@
   "Filippo Valsorda": "2026-11-02T16:54:10.732895+00:00",
   "Dan Luu": "2026-11-03T05:54:58.391973+00:00",
   "CNews": "2026-11-13T11:54:14.744898+00:00",
-  "Emily M. Bender": "2026-11-17T16:53:51.934192+00:00",
+  "Emily M. Bender": "2026-11-22T01:53:58.115263+00:00",
   "antirez": "2026-11-14T17:53:47.726773+00:00",
   "OpenAI": "2026-11-11T06:54:19.720294+00:00",
   "Hugging Face": "2026-11-11T05:54:17.268131+00:00",
@@ -12931,8 +12943,22 @@
    "votes": {},
    "message_id": 1687,
    "chat_id": -1004399820759
+  },
+  "110": {
+   "label": "Emily M. Bender",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "انتقاد از تمرکز شرکت‌های هوش مصنوعی بر مسائل ریاضی",
+   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3n2ucwmctac2c",
+   "at": "2026-11-22T01:53:57.579468+00:00",
+   "votes": {},
+   "message_id": 1688,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 110,
+ "next_post_id": 111,
  "last_update_id": 276814760
 }
