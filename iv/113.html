@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida</title>
+<meta name="description" content="Leonida یک پروژه بازگردانی ایستا (static recompilation) است. پردازنده مرکزی Xbox Series مانند یک کامپیوتر شخصی از معماری x86-64 استفاده می‌کند، بنابرا…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Leonida">
+<meta property="og:description" content="Leonida یک پروژه بازگردانی ایستا (static recompilation) است. پردازنده مرکزی Xbox Series مانند یک کامپیوتر شخصی از معماری x86-64 استفاده می‌کند، بنابرا…">
+<meta property="og:url" content="https://github.com/ItsNotRexed/Leonida">
+<meta property="og:site_name" content="PersianTech">
+<meta property="og:image" content="https://opengraph.githubassets.com/e7793524da76a67d0d47069a421fa003b5eec42e4106425481dfa53d048965ae/ItsNotRexed/Leonida">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Leonida">
+<meta name="twitter:description" content="Leonida یک پروژه بازگردانی ایستا (static recompilation) است. پردازنده مرکزی Xbox Series مانند یک کامپیوتر شخصی از معماری x86-64 استفاده می‌کند، بنابرا…">
+<meta name="twitter:image" content="https://opengraph.githubassets.com/e7793524da76a67d0d47069a421fa003b5eec42e4106425481dfa53d048965ae/ItsNotRexed/Leonida">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<img class="hero" src="https://opengraph.githubassets.com/e7793524da76a67d0d47069a421fa003b5eec42e4106425481dfa53d048965ae/ItsNotRexed/Leonida" alt="" loading="lazy">
+<h1>Leonida</h1>
+<p class="meta">Hacker News  ·  2026-11-22</p>
+<p>Leonida یک پروژه بازگردانی ایستا (static recompilation) است. پردازنده مرکزی Xbox Series مانند یک کامپیوتر شخصی از معماری x86-64 استفاده می‌کند، بنابراین کد بازی به صورت بومی (natively) بارگذاری و اجرا می‌شود و نرم‌افزار سیستمی کنسول نیز بازنویسی شده است. برنامه‌های GPU کنسول که از پیش برای RDNA2 کامپایل شده‌اند، به SPIR-V برای Vulkan ترجمه می‌شوند. مدل‌ها، بافت‌ها (textures) و فایل‌های صوتی بازی از بسته (package) متعلق به شما خوانده می‌شوند. تمام این فرآیندها بر روی کامپیوتر شخصی شما و با استفاده از نسخه قانونی بازی خودتان انجام می‌شود.</p>
+<p>مهم</p>
+<p>این مخزن حاوی بازی، کلیدها یا فایل اجرایی نیست و نحوه دریافت آن‌ها را نیز توضیح نمی‌دهد. شما به نسخه متعلق به خودتان نیاز دارید که فایل‌های آن از قبل روی دیسک قابل خواندن باشند. هیچ بخشی از این پروژه، فایل‌ها را رمزگشایی نمی‌کند یا محدودیت‌های حفاظتی را دور نمی‌زند. هر آنچه که فرآیند ساخت ایجاد می‌کند (شیدر‌های تولیدشده، دارایی‌های استخراج‌شده، پوشه زمان اجرا و فایل‌های ذخیره بازی)، از خودِ بازی شما گرفته شده و روی کامپیوتر شما باقی می‌ماند. هرگز این فایل‌ها را به اشتراک نگذارید.</p>
+<p>Discord: https://discord.gg/rexed</p>
+<p>وضعیت: اولیه. بازی هنوز بوت نمی‌شود. تمام کارهایی که بدون فایل اجرایی بازی قابل انجام بوده‌اند، تکمیل شده‌اند؛ بنابراین به محض اینکه فایل اجرایی در دسترس توسعه‌دهندگان قرار گیرد، کار بر روی بوت کردن بازی آغاز خواهد شد.</p>
+<p>این پورت به صورت آماده برای دانلود نیست. بلکه روی کامپیوتر شما و از روی نسخه متعلق به خودتان ساخته می‌شود.</p>
+<p>روش آسان:</p>
+<p>- پیش‌نیازهای زیر را نصب کنید.</p>
+<p>- این پروژه را به همراه زیرماژول آن دانلود کنید: git clone --recursive https://github.com/ItsNotRexed/Leonida . گزینه &quot;Download ZIP&quot; از گیت‌هاب، پوشه third_party/rpf9-explorer را شامل نمی‌شود. اگر git نصب باشد، فرآیند ساخت آن را دریافت می‌کند، در غیر این صورت به شما می‌گوید که چه کاری انجام دهید.</p>
+<p>- روی Build.bat دوبار کلیک کنید.</p>
+<p>این فایل به طور خودکار نسخه بازی شما را پیدا می‌کند: در پوشه‌های Downloads، Desktop، Documents، Games، پوشه اصلی کاربر (home folder) و ریشه هر درایو تا دو سطح زیرین جستجو می‌کند. این برنامه نسخه بازی را از روی اندازه چند فایل شناسایی می‌کند، بدون اینکه فایل‌های حجیم را بخواند. اگر بیش از یک نسخه داشته باشید، از شما می‌پرسد کدام‌یک مد نظر است و اگر هیچ نسخه‌ای پیدا نکند، از شما می‌خواهد مسیر پوشه را وارد کنید. پیش از شروع، برنامه بررسی می‌کند که تمام موارد زیر نصب شده باشند و فضای خالی کافی وجود داشته باشد؛ سپس تمام موارد مفقود را یکجا لیست می‌کند. نتیجه در مسیر Documents\Leonida ذخیره می‌شود. ساختِ متوقف‌شده، از همان‌جایی که رها شده ادامه می‌یابد.</p>
+<p>پوشه بازی شما همان پوشه‌ای است که فایل‌های MicrosoftGame.Config و آرشیوهای .rpf را به صورت فایل‌های معمولی در خود دارد.</p>
+<p>پیش‌نیازها:</p>
+<p>- نسخه متعلق به خودتان از بسته Xbox Series، نسخه 1.0.2.1.</p>
+<p>- ویندوز 10/11 نسخه x64، با حدود 350 گیگابایت فضای خالی برای فایل‌های کاری. این فایل‌ها می‌توانند با استفاده از سوئیچ --work در درایو دیگری قرار بگیرند.</p>
+<p>- پایتون 3.12 یا بالاتر (گزینه &quot;Add python.exe to PATH&quot; را تیک بزنید).</p>
+<p>- .NET 8 SDK.</p>
+<p>- Vulkan SDK، برای spirv-as / spirv-val.</p>
+<p>- LLVM 21 یا بالاتر با هدف AMDGPU برای llvm-mc. نسخه رسمی ویندوز، هدف AMDGPU را ندارد. در ویندوز، اسکریپت scripts\build_llvm_mc.ps1 یک فایل اجرایی بومی llvm-mc.exe با این قابلیت می‌سازد (بدون WSL؛ نیاز به git و ابزارهای Visual Studio C++ در زیر دارد) و متغیر LLVM_MC را تنظیم می‌کند. یا llvm-21 را در WSL نصب کرده و LLVM_MC را روی کل دستور تنظیم کنید: LLVM_MC=&quot;wsl -d Ubuntu -e /usr/lib/llvm-21/bin/llvm-mc&quot; (به docs/design.md مراجعه کنید). در لینوکس، وجود llvm-mc در PATH کافی است.</p>
+<p>- Visual Studio 2022 با قابلیت Desktop development with C++ و Windows SDK نسخه 10.0.26100 یا جدیدتر، برای مرحله زمان اجرا (runtime) (زمان اجرا از امضاهای ریشه نسخه 1.2 استفاده می‌کند که SDKهای قدیمی‌تر آن را تعریف نمی‌کنند).</p>
+<p>- ffmpeg در PATH (اختیاری: جریان‌های XMA2 را رمزگشایی می‌کند و برای --wav ضروری است).</p>
+<p>از طریق ترمینال، با همان رفتار و کنترل بیشتر:</p>
+<p>python -I make_game.py --find                          # لیست کردن نسخه‌های پیدا شده در این کامپیوتر</p>
+<p>python -I make_game.py --check                         # بررسی نسخه بازی، بدون ساخت هیچ فایلی</p>
+<p>python -I make_game.py --game &quot;D:\path\to\your\package&quot; --out &quot;D:\Games\Leonida&quot; --work &quot;E:\leonida-work&quot;</p>
+<p>python -I make_game.py --stages shaders,assets         # فقط مراحل خاص</p>
+<p>python -I make_game.py --game &quot;D:\path\to\your\package&quot; --wav   # رمزگشایی Opus به PCM WAV (حجیم)</p>
+<p>python -I make_game.py --wave64-emulate off            # خودکار (پیش‌فرض)، روشن یا خاموش؛ به زیر مراجعه کنید</p>
+<p>گزینه --wave64-emulate تعیین می‌کند که آیا شیدرهای محاسباتی و مش (mesh) wave64 برای دقت در هر اندازه زیرگروه (subgroup) ترجمه شوند یا خیر (به &quot;Wave64 emulation&quot; در docs/design.md مراجعه کنید). پردازنده‌های گرافیکی NVIDIA و Intel دارای زیرگروه‌های 32-عرضی هستند و به این قابلیت نیاز دارند. حالت پیش‌فرض (auto)، از vulkaninfo (بخشی از Vulkan SDK) پرس‌وجو می‌کند و آن را روشن می‌کند، مگر اینکه تمام پردازنده‌های گرافیکی زیرگروه‌های 64-عرضی گزارش دهند یا زمانی که نتواند تشخیص دهد؛ همچنین زمانی که پردازنده گرافیکی مورد استفاده در زمان اجرا نتواند شیدرهای محاسباتی و مش را به صورت 64-عرضی اجرا کند، آن را روشن می‌کند. این حالت در کنار شیدرهای ترجمه‌شده ذخیره می‌شود و تغییر آن باعث ترجمه مجدد آن‌ها می‌گردد. در حالت auto، پوشه کاری که قبلاً از شبیه‌سازی استفاده کرده، آن را برای ترجمه‌های بعدی حفظ می‌کند، حتی اگر پردازنده گرافیکی فعلی از wave64 بومی پشتیبانی کند. برای ترجمه بومی از --wave64-emulate off استفاده کنید.</p>
+<p>فرآیند ساخت ثبت می‌کند که کدام منابع مترجم، شیدرها را تولید کرده‌اند. تغییر در آن فایل‌ها باعث اجرای مجدد ترجمه با استفاده از کدهای اسمبلی ذخیره‌شده می‌شود. پوشه‌های کاری قدیمی پس از ارتقا، برای ثبت این اطلاعات به یک بار ترجمه نیاز دارند.</p>
+<p>مراحل به ترتیب اجرا می‌شوند: check، shaders، assets، runtime، pipelines (هر شیدر ترجمه‌شده را روی درایور گرافیکی شما ایجاد کرده و یک کش پایپ‌لاین ذخیره می‌کند تا بوت اول بازی نیاز به کامپایل آن‌ها نداشته باشد). ترجمه شیدر طولانی‌ترین مرحله است: این مرحله روی پردازش‌های --jobs اجرا می‌شود (به‌طور پیش‌فرض نصف رشته‌های پردازنده).</p>
+<p>گزینه --wav به‌طور پیش‌فرض خاموش است زیرا فایل‌های 16-bit PCM WAV چندین برابر بزرگ‌تر از Ogg Opus هستند. این گزینه جریان‌های Ogg Opus بسته‌بندی‌شده را پس از مرحله بانک صوتی به مسیر work\assets\audio\wav رمزگشایی می‌کند؛ هنگام از سرگیری ساخت، فایل‌های WAV موجود نادیده گرفته می‌شوند.</p>
+<p>با استفاده از CMake 3.24+، یک کامپایلر C++20، و هدرها و لودر توسعه Vulkan نصب‌شده:</p>
+<p>cmake -S runtime -B runtime/build/linux</p>
+<p>cmake --build runtime/build/linux --parallel</p>
+<p>./runtime/build/linux/vk_pipeline_check /path/to/spirv</p>
+<p>دایرکتوری حاوی index.json و فایل‌های SPIR-V ترجمه‌شده را به vk_pipeline_check بدهید.</p>
+<p>فایل make_game.py روی لینوکس نیز اجرا می‌شود. مرحله pipelines از vk_pipeline_check ساخته‌شده در بالا استفاده می‌کند (runtime/build/linux یا runtime/build). مرحله runtime فقط روی ویندوز ساخته می‌شود، بنابراین در لینوکس به یک نسخه ویندوزی از runtime/ نیاز دارد؛ بدون آن، این مرحله از مراحل پیش‌فرض حذف می‌شود و درخواست برای اجرای آن پیش از شروع هر کاری با خطا مواجه می‌شود.</p>
+<p>لودر یک برنامه ویندوزی است و تحت Wine یا Proton اجرا می‌شود؛ CI تست‌های خود را تحت Wine در هر تغییر در runtime/ اجرا می‌کند (job مربوط به wine در گردش کار Runtime). به مرحله runtime یک پوشه حاوی gta6rt.exe و gta6rt_tls_host.dll بدهید، مانند آرتیفکت runtime-windows از job ویندوزی آن گردش کار، که از حالت فشرده خارج شده باشد:</p>
+<p>python3 -I make_game.py --runtime-build ~/Downloads/runtime-windows</p>
+<p>این دستور هر دو فایل را در --out کپی کرده و gta6rt.sh را در کنار آن‌ها می‌نویسد که gta6rt.exe را با wine یا با Wine مشخص‌شده توسط WINE (برای Proton، فایل files/bin/wine آن) اجرا می‌کند. همین گزینه ساخت را در ویندوز نادیده می‌گیرد.</p>
+<p>قرارداد زمان اجرای مترجم (user SGPRs، push constants، مدل حافظه، bindless images، واکشی راس، مقادیر سیستم) و تمام یادداشت‌های فرمت در docs/design.md قرار دارند؛ یادداشت‌های فرمت، دارایی‌ها، زمان اجرا و اعتبارسنجی در docs/README.md فهرست شده‌اند. طرح Xbox D3D12 در docs/d3d12_vulkan.md موجود است. فرمت‌های بانک صوتی و ابزارهای استخراج در docs/audio.md هستند؛ docs/related_projects.md کارهای قبلی که ممکن است مطالعه کرده باشیم و محدودیت‌های مجوز آن‌ها را ثبت می‌کند.</p>
+<p>بزرگ‌ترین بخش‌های باز:</p>
+<p>- مترجم شیدر روی سخت‌افزار: شیدرهای محاسباتی، مش و هندسی اکنون ترجمه می‌شوند (قرارداد مترجم را در docs/design.md ببینید)؛ طرح‌بندی ورودی شیدر راس (v0 =VertexIndex هنوز تأیید نشده است که آیا کنسول VS را به عنوان NGG اجرا می‌کند یا خیر) و کد cross-half برای wave64 در VS/PS/GS روی زیرگروه‌های 32-عرضی همچنان باز هستند.</p>
+<p>- Xbox D3D12 به Vulkan: لیست دستورات d3d12_xs و مدل descriptor heap.</p>
+<p>- طرح‌بندی‌های مدل که رمزگشا در حال حاضر رد می‌کند.</p>
+<p>به CONTRIBUTING.md مراجعه کنید. هرگز فایل‌های بازی، دارایی‌های استخراج‌شده یا شیدرهای تولیدشده را به Issues یا Pull Requests پیوست نکنید.</p>
+<p>- rpf9-explorer اثر breadbbbb: رمزگشاهای RPF9 برای مدل، استخر بافت و AWC که توسط tools/rpf9dump استفاده می‌شوند (زیرماژول git).</p>
+<p>- Mesa (MIT): طرح‌بندی توصیف‌گر منابع GFX10 (tools/gfx10_formats.json)، و قوانین ACO/RADV که به عنوان مرجع برای نتایج 16-بیتی و ثبات‌های سیستم شیدر استفاده می‌شوند.</p>
+<p>- libHttpClient (MIT) اثر مایکروسافت: پیاده‌سازی XTaskQueue/XAsync در third_party/xtaskqueue، که توسط shim مربوط به offlinexgameruntime استفاده می‌شود.</p>
+<p>- LLVM: دیس‌اسمبلر AMDGPU.</p>
+<p>- لوگو: آیکون &quot;Grand Theft Auto VI&quot; اثر SlyDevil در St.</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://github.com/ItsNotRexed/Leonida">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
