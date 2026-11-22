@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>یک هسته واقعی Linux که برای WebAssembly کامپایل شده است. این هسته در کمتر از یک ثانیه به یک shell بوت می‌شود.</title>
+<meta name="description" content="unkernel یک Linux 7.x است که به عنوان یک ماژول واحد wasm با یک MMU واقعی ساخته شده است. هسته (شامل syscallها، زمان‌بند، مدیریت حافظه، ext4 و TCP/IP) ک…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="یک هسته واقعی Linux که برای WebAssembly کامپایل شده است. این هسته در کمتر از یک ثانیه به یک shell بوت می‌شود.">
+<meta property="og:description" content="unkernel یک Linux 7.x است که به عنوان یک ماژول واحد wasm با یک MMU واقعی ساخته شده است. هسته (شامل syscallها، زمان‌بند، مدیریت حافظه، ext4 و TCP/IP) ک…">
+<meta property="og:url" content="https://github.com/pithings/unkernel">
+<meta property="og:site_name" content="PersianTech">
+<meta property="og:image" content="https://opengraph.githubassets.com/ec37788117d79b452d4f27480abb3e9a02c96fb7bec8a36dbc2b6e43917dfa31/pithings/unkernel">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="یک هسته واقعی Linux که برای WebAssembly کامپایل شده است. این هسته در کمتر از یک ثانیه به یک shell بوت می‌شود.">
+<meta name="twitter:description" content="unkernel یک Linux 7.x است که به عنوان یک ماژول واحد wasm با یک MMU واقعی ساخته شده است. هسته (شامل syscallها، زمان‌بند، مدیریت حافظه، ext4 و TCP/IP) ک…">
+<meta name="twitter:image" content="https://opengraph.githubassets.com/ec37788117d79b452d4f27480abb3e9a02c96fb7bec8a36dbc2b6e43917dfa31/pithings/unkernel">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<img class="hero" src="https://opengraph.githubassets.com/ec37788117d79b452d4f27480abb3e9a02c96fb7bec8a36dbc2b6e43917dfa31/pithings/unkernel" alt="" loading="lazy">
+<h1>یک هسته واقعی Linux که برای WebAssembly کامپایل شده است. این هسته در کمتر از یک ثانیه به یک shell بوت می‌شود.</h1>
+<p class="meta">Hacker News Feed  ·  2026-11-22</p>
+<p>unkernel یک Linux 7.x است که به عنوان یک ماژول واحد wasm با یک MMU واقعی ساخته شده است. هسته (شامل syscallها، زمان‌بند، مدیریت حافظه، ext4 و TCP/IP) کد کامپایل‌شده است، نه شبیه‌سازی‌شده؛ بنابراین برنامه‌ها دقیقاً همان رفتار Linux را حتی در موارد خاص (edge cases) دریافت می‌کنند. تنها برنامه‌های کاربر شبیه‌سازی می‌شوند: باینری‌های Linux با معماری aarch64 (arm64) بدون تغییر اجرا می‌شوند، بنابراین بسته‌های Alpine و Debian همان‌طور که هستند کار می‌کنند.</p>
+<p>با باز کردن یک صفحه، شما یک ماشین Linux با یک shell، مدیر بسته، دیسک دائمی، دسترسی به اینترنت و صفحه‌نمایش با صدا در اختیار دارید. این سیستم کاملاً روی دستگاه شما اجرا می‌شود، بدون نیاز به نصب هیچ‌چیز و بدون سرور، و تمام لایه‌های آن متن‌باز هستند. بخش How it works طراحی آن را توضیح می‌دهد.</p>
+<p>بخش بزرگی از آنچه باعث می‌شود یک سیستم کند به نظر برسد، در هسته نهفته است: شروع فرآیندها، syscallها، خطاهای صفحه (page faults)، ورودی/خروجی فایل و شبکه. در unkernel این مسیر با سرعت wasm اجرا می‌شود.</p>
+<p>- بوت: هسته حدود ۷۰ میلی‌ثانیه پس از شروع به /init می‌رسد و اعلان (prompt) Alpine حدود ۰.۳ ثانیه پس از اجرای node ظاهر می‌شود. صفحه حدود ۱۰ مگابایت دانلود می‌کند و Alpine در ۴۸ مگابایت حافظه مهمان بوت می‌شود.</p>
+<p>- Syscallها با هزینه‌ای نزدیک به حالت بومی (native): اجرای getppid حدود ۱۷۰ نانوثانیه طول می‌کشد (۱۱۰ نانوثانیه در حالت بومی، ۱.۷ میکروثانیه در qemu-system) و یک read ۶۴ بایتی حدود ۱۷۰ نانوثانیه (۱۶۰ نانوثانیه در حالت بومی).</p>
+<p>- fork با سرعت بومی: عملیات fork + exit + wait حدود ۶۰ میکروثانیه طول می‌کشد، در حالی که این مقدار در حالت بومی حدود ۷۰ میکروثانیه و در qemu-system حدود ۱.۲ میلی‌ثانیه است.</p>
+<p>- یک JIT برای کد کاربر: کدهای داغ aarch64، شامل دستورالعمل‌های AES، PMULL و SHA که OpenSSL استفاده می‌کند، در حین اجرا به wasm کامپایل می‌شوند. با این کار، یک حلقه shell حدود ۱.۶ برابر و دستور sort حدود ۲.۳ برابر سریع‌تر از حالت مفسر (interpreter) اجرا می‌شوند و OpenSSL در سیستم مهمان، AES-128-GCM را با سرعت حدود ۱۰۰ مگابایت بر ثانیه و SHA-256 را با سرعت حدود ۱۶۰ مگابایت بر ثانیه انجام می‌دهد.</p>
+<p>اعداد مربوط به syscall و fork در تاریخ ۲۰۲۶-۱۱-۱۴ اندازه‌گیری شده‌اند (با فضای کاربری riscv64 که پروژه با آن شروع شد؛ مسیر از طریق هسته یکسان است) و اعداد JIT در ۲۰۲۶-۱۱-۱۸. برنامه‌های سنگین از نظر CPU بسیار عقب‌تر از حالت بومی هستند: جستجوی apk در فهرست اصلی حدود ۰.۸ ثانیه و نصب apk add python3 حدود ۳.۴ ثانیه طول می‌کشد. بخش Benchmarks اعداد کامل را دارد.</p>
+<p>هر چیزی که یک برنامه به آن متکی است، از /proc و epoll گرفته تا cgroups و overlayfs، دقیقاً همان‌طور که در یک سرور رفتار می‌کند، عمل می‌کند، زیرا همان کد را اجرا می‌کند.</p>
+<p>- یک MMU واقعی (arch/wasm با جداول صفحه Sv39): عملیات fork، mmap، copy-on-write، حافظه اشتراکی، تردها و سیگنال‌ها همان‌طور که در سخت‌افزار رفتار می‌کنند، عمل می‌کنند. این یک پورت NOMMU نیست که در آن برنامه‌ها به vfork محدود باشند.</p>
+<p>- سیستم‌فایل‌های اختصاصی Linux: شامل ext4، overlayfs، tmpfs، دستگاه‌های loop، FUSE و 9p که سیستم‌فایل‌هایی را که برنامه شما از میزبان ارائه می‌دهد، مونت می‌کند. سیستم‌فایل ریشه یک overlay است: یک تصویر توزیع فقط‌خواندنی زیر تغییرات شما، که به یک دیسک ext4 دائمی می‌رود، بنابراین هر تغییری که ایجاد می‌کنید پس از بارگذاری مجدد باقی می‌ماند و یک حالت ایمن (safe mode) سیستمی را که خراب کرده‌اید بازیابی می‌کند.</p>
+<p>- پشته TCP/IP اختصاصی Linux، با DHCP و DNS، که از طریق سوکت‌های میزبان شما یا یک پروکسی Wisp به اینترنت دسترسی پیدا می‌کند (Add a network).</p>
+<p>- cgroups، فضای نام (namespaces)، userfaultfd، fanotify و TUN: به اندازه‌ای که systemd بتواند Ubuntu 26.10 را تا multi-user.target بوت کند.</p>
+<p>- دستگاه‌ها: یک framebuffer (/dev/fb0)، کیبورد evdev، ماوس و لمس، صدا از طریق ALSA و /dev/dsp، AF_VSOCK و حافظه اشتراکی با میزبان.</p>
+<p>- فضای کاربری aarch64: شامل ARMv8.0-A با FP و AdvSIMD به همراه افزونه‌های AES، PMULL، SHA1، SHA2، SHA512، SHA3، CRC32 و LSE atomics، بنابراین باینری‌های توزیع و مسیرهای سخت‌افزاری AES، GHASH و SHA در OpenSSL بدون تغییر اجرا می‌شوند. aarch64 یک پورت درجه یک برای هر توزیع است، بنابراین آرشیوهای کامل و به‌روز بسته‌های آن‌ها در دسترس هستند.</p>
+<p>بخش Known limits آنچه را که هنوز موجود نیست فهرست می‌کند.</p>
+<p>- یک shell لینوکس را همه جا همراه داشته باشید. Alpine Linux 3.24 در Chrome، Edge، Firefox و Safari، از جمله روی گوشی‌ها اجرا می‌شود. هر چیزی را با apk add از مخازن معمولی Alpine نصب کنید. دستوری را تایپ کنید که نصب نشده است، مانند htop، و بسته آن برای شما نصب می‌شود. apk فقط با مخزن main شروع می‌شود، زیرا حدود ۴ برابر سریع‌تر است؛ مخزن community اولین باری که دستوری به آن نیاز داشته باشد، اضافه می‌شود.</p>
+<p>- زمان‌اجراها (runtimes) و ابزارهای واقعی را اجرا کنید: Node و npm، Python، OpenSSL، curl و wget، مستقیماً از توزیع. Debian 13 به همان روش Alpine (--distro debian) با apt بوت می‌شود.</p>
+<p>- برنامه‌های گرافیکی و صوتی را برای /dev/fb0، evdev و ALSA بنویسید. glimmer را امتحان کنید، یک بازی کوچک با صدا.</p>
+<p>- لینوکس را در برنامه خود با یک TypeScript SDK بدون وابستگی، که با نام unkernel منتشر شده، تعبیه کنید. همان فایل هسته در Node و در هر مرورگر پشتیبانی‌شده، به صورت اختیاری در یک worker اجرا می‌شود. دیسک‌ها می‌توانند تصاویر محلی ext4، تصاویر http(s) که بر اساس محدوده (range) دریافت می‌شوند، یا یک دیسک دائمی در IndexedDB باشند. این SDK دارای مجوز MIT است و هیچ موتور بسته یا کلید مجوزی پشت آن نیست، بنابراین می‌توانید آن را در محصول خود عرضه کرده و هر کجا که دوست دارید میزبانی کنید.</p>
+<p>- با سیستم مهمان از طریق نشست‌های ترمینال صحبت کنید، که هر کدام دارای pty و shell مخصوص به خود، دایرکتوری‌های میزبان و سیستم‌فایل‌های درون‌حافظه‌ای مونت‌شده در مهمان، جریان‌های بایت vsock و حافظه اشتراکی بدون کپی (zero-copy) هستند، بدون اینکه شبکه‌ای در میان باشد.</p>
+<p>- اسکریپت‌نویسی و تست: CLI ورودی‌ها را طبق زمان‌بندی تایپ می‌کند، در صورت اتمام زمان متوقف می‌شود و گزارش می‌دهد که مهمان چگونه با کد خروجی خود پایان یافته است.</p>
+<p>unkernel.dev را باز کنید. یک shell پس از دانلود حدود ۱۰ مگابایت ظاهر می‌شود. تغییرات شما در مرورگر ذخیره می‌شوند و آیکون وضعیت، گزینه‌ها، عیب‌یابی و خروجی گرفتن یا بازنشانی دیسک شما را باز می‌کند. Ctrl-A n (یا ⌘A n در مک) یا + در خط وضعیت، یک پنجره ترمینال دیگر با shell مخصوص به خود را باز می‌کند (تا ۹ پنجره)؛ Ctrl-A و یک عدد بین آن‌ها جابه‌جا می‌شود. صفحه چند پارامتر URL می‌پذیرد:</p>
+<p>در Debian، مهمان یک GPU دریافت می‌کند (/dev/dri، Options، Guest GL): درایور virgl در Mesa از طریق WebGL2 مرورگر شما ترسیم می‌کند. رندرکننده پشت آن تنها زمانی دانلود می‌شود که یک برنامه مهمان برای اولین بار از GL استفاده کند؛ ردیف Guest GL در پنل وضعیت سپس نام GPU را نمایش می‌دهد (یک رندرکننده نرم‌افزاری مانند SwiftShader علامت‌گذاری می‌شود). Mesa در مهمان نصب می‌شود، نه به صورت پیش‌فرض:</p>
+<p>sudo apt-get install -y mesa-utils libegl-mesa0 libgles2 kmscube</p>
+<p>eglinfo -B -p gbm                 # OpenGL ES renderer: virgl (&lt;your GPU&gt;)</p>
+<p>kmscube                           # روی نمایشگر (Enter آن را پایان می‌دهد)</p>
+<p>sudo apt-get install -y xvfb xauth glmark2-es2-x11</p>
+<p>xvfb-run -a -s &quot;-screen 0 640x480x24&quot; glmark2-es2   # نرخ فریم</p>
+<p>برنامه‌های Wayland به صورت پنجره در صفحه نمایش داده می‌شوند: wland foot (یا کاشی foot در لانچر) رله wland را در مهمان شروع کرده و برنامه را روی آن اجرا می‌کند؛ کامپوزیتور wland در صفحه اجرا می‌شود و پیکسل‌های برنامه را مستقیماً از حافظه مهمان می‌خواند. آیکون دسکتاپ در خط وضعیت (Ctrl-A w) بین پنجره‌ها و ترمینال جابه‌جا می‌شود.</p>
+<p>sudo apt-get install -y foot fonts-dejavu-core</p>
+<p>wland foot</p>
+<p>مرورگرها نمی‌توانند سوکت‌های TCP خام را باز کنند، بنابراین صفحه از طریق یک پروکسی Wisp به اینترنت دسترسی پیدا می‌کند. پروکسی پیش‌فرض فقط مبدأهای شناخته‌شده را می‌پذیرد، بنابراین اگر صفحه را جای دیگری میزبانی می‌کنید، ?wisp= را به پروکسی خودتان اشاره دهید.</p>
+<p>npx unkernel</p>
+<p>این دستور Alpine را با شبکه از طریق سوکت‌های میزبان شما بوت می‌کند. برای خروج Ctrl-] را فشار دهید. این بسته شامل هسته و یک سیستم پایه کوچک است؛ اولین اجرا تصویر Alpine (حدود ۴ مگابایت) را از نسخه GitHub مربوط به نسخه شما دانلود کرده و در ~/.cache/unkernel نگه می‌دارد.</p>
+<p>npx unkernel --distro debian                 # Debian 13 به جای آن (حدود ۵۷ مگابایت، یک بار دانلود می‌شود)</p>
+<p>npx unkernel --distro none                   # بدون توزیع: shell پایه (busybox)</p>
+<p>npx unkernel --data my-data.img              # تغییرات روی یک دیسک /data باقی می‌مانند، که در اولین استفاده ایجاد می‌شود</p>
+<p>npx unkernel --display --sound               # یک framebuffer و یک کارت صدا</p>
+<p>npx unkernel --mem 1024 --no-net             # حافظه بیشتر، بدون شبکه</p>
+<p>npx unkernel --mount .:/work                 # این دایرکتوری در /work در مهمان (:ro برای فقط‌خواندنی)</p>
+<p>npx unkernel --forward 8000:80               # میزبان 127.0.0.1:8000 به پورت 80 در مهمان</p>
+<p>npx unkernel --timeout 60 --input &#x27;{8}uname -a\n{2}poweroff\n&#x27;   # اسکریپت‌شده: صبر، تایپ، صبر، تایپ</p>
+<p>npx unkernel --help                          # سایر موارد</p>
+<p>بدون --data، تغییرات در سیستم‌فایل ریشه در حافظه نگه داشته شده و هنگام خروج از بین می‌روند؛ با آن، هر توزیع تغییرات خود را در /data/distros/&lt;name&gt;/ نگه می‌دارد. --distro همچنین یک فایل تصویری یا یک URL http(s) را می‌پذیرد و UNKERNEL_CACHE_DIR کش دانلود را جابه‌جا می‌کند.</p>
+<p>کدهای خروجی: ۰ خاموش شدن، ۱ توقف یا شکست بوت، ۲ راه‌اندازی مجدد، ۱۲۴ زمان پایان.</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://github.com/pithings/unkernel">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
