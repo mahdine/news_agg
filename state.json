@@ -1,8 +1,5 @@
 {
  "seen": [
-  "hn:50238557",
-  "hn:50239748",
-  "https://www.cnews.ru/news/line/2026-10-26_bazalt_spo_i_tyumgu_podgotovyat",
   "KMAkycWLZnK7euBiqcLQwE",
   "77499eca0de0937e583088da5a6fe6ad",
   "https://www.cnews.ru/news/line/2026-10-26_vvp_group_rasshiryaet_assortiment",
@@ -2999,18 +2996,21 @@
   "Nor4GfuX4EbNXobWA5zqsN",
   "https://www.neowin.net/deals/early-black-friday-deals-best-mechanical-keyboards-for-under-100/",
   "https://9to5mac.com/?p=1082011",
-  "tg:hacker_news_feed/134045"
+  "tg:hacker_news_feed/134045",
+  "https://9to5mac.com/?p=1078582",
+  "https://www.engadget.com/2319367/ipad-alternatives-to-ditch-apple/",
+  "hn:50599762"
  ],
  "posted": {
-  "viral": 927,
+  "viral": 928,
   "editorial": 1079
  },
  "recent_labels": [
-  "Hacker News",
   "Hacker News Feed",
   "Hacker News",
   "Hacker News",
-  "Hacker News Feed"
+  "Hacker News Feed",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5056,21 +5056,22 @@
     "OPENSOURCE"
    ],
    "at": "2026-11-22T15:05:06.212239+00:00"
+  },
+  {
+   "title": "بازی مرورگری با نقش‌آفرینی به عنوان زیرمجموعه یک هوش مصنوعی",
+   "url": "https://github.com/gulivan/worker755",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.06329,
+   "topics": [
+    "AI",
+    "CHATBOT"
+   ],
+   "at": "2026-11-22T16:04:49.117539+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "android",
-    "device",
-    "jaw-dropping",
-    "record",
-    "uptime",
-    "world",
-    "years"
-   ],
-   "at": "2026-11-11T12:56:14.451602+00:00"
-  },
   {
    "sig": [
     "a100",
@@ -9183,13 +9184,21 @@
    ],
    "at": "2026-11-22T15:05:06.212239+00:00",
    "url": "github.com/pithings/unkernel"
+  },
+  {
+   "sig": [
+    "built",
+    "game",
+    "llm",
+    "show",
+    "subagent",
+    "where"
+   ],
+   "at": "2026-11-22T16:04:49.117539+00:00",
+   "url": "github.com/gulivan/worker755"
   }
  ],
  "snapshots": {
-  "hn:50473190": [
-   628,
-   "2026-11-13T05:54:06.206097+00:00"
-  ],
   "hn:50478635": [
    152,
    "2026-11-13T07:53:41.904729+00:00"
@@ -11585,6 +11594,10 @@
   "tg:hacker_news_feed/134045": [
    153,
    "2026-11-22T14:53:56.950892+00:00"
+  ],
+  "hn:50599762": [
+   91,
+   "2026-11-22T15:53:51.543362+00:00"
   ]
  },
  "skips": {
@@ -11608,7 +11621,7 @@
   "Google AI": 1,
   "Neowin": 1,
   "TechSpot": 1,
-  "9to5Mac": 3,
+  "9to5Mac": 4,
   "Engadget": 2,
   "antirez": 1,
   "The Verge": 1,
@@ -11630,7 +11643,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 191,
+  "Hacker News": 192,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11676,7 +11689,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-22T14:05:18.644412+00:00",
+  "Hacker News": "2026-11-22T16:04:49.117643+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -13524,8 +13537,23 @@
    "message_id": 1733,
    "chat_id": -1004399820759,
    "iv_message_id": 1734
+  },
+  "130": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "CHATBOT"
+   ],
+   "title": "بازی مرورگری با نقش‌آفرینی به عنوان زیرمجموعه یک هوش مصنوعی",
+   "url": "https://github.com/gulivan/worker755",
+   "at": "2026-11-22T15:53:55.575431+00:00",
+   "votes": {},
+   "message_id": 1735,
+   "chat_id": -1004399820759,
+   "iv_message_id": 1736
   }
  },
- "next_post_id": 130,
+ "next_post_id": 131,
  "last_update_id": 276814760
 }
