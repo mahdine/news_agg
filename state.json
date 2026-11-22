@@ -1,6 +1,5 @@
 {
  "seen": [
-  "u5rQgqRudRKQW7AfjBnvfG",
   "jARQyUtxWHPW6qRLZQWw9H",
   "6adbb6231cfad481ad7e3d27",
   "hn:50235217",
@@ -2999,17 +2998,18 @@
   "tg:hacker_news_feed/134028",
   "tg:hacker_news_feed/134029",
   "tg:hacker_news_feed/134031",
-  "hn:50593737"
+  "hn:50593737",
+  "hn:50596511"
  ],
  "posted": {
-  "viral": 918,
+  "viral": 919,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News",
   "GitHub Trending",
   "Hacker News Feed",
   "Hacker News Feed",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-20",
@@ -4900,27 +4900,22 @@
     "RUST"
    ],
    "at": "2026-11-22T07:59:12.368224+00:00"
+  },
+  {
+   "title": "نشت گسترده داده‌های حساس کاربران در سرویس‌های هوش مصنوعی و بازارهای واسط",
+   "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+   "source": "dragos.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.07191,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-22T08:05:11.514257+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "actively",
-    "actors",
-    "available",
-    "broadworks",
-    "cisco",
-    "despite",
-    "exploit",
-    "exploited",
-    "flaws",
-    "openwave",
-    "patches",
-    "threat",
-    "vulnerabilities"
-   ],
-   "at": "2026-11-11T09:54:00.557293+00:00"
-  },
   {
    "sig": [
     "20b",
@@ -8987,13 +8982,21 @@
    ],
    "at": "2026-11-22T07:59:12.368224+00:00",
    "url": "linebender.org/blog/next-100-guis"
+  },
+  {
+   "sig": [
+    "canary",
+    "chain",
+    "found",
+    "security",
+    "supply",
+    "tokens"
+   ],
+   "at": "2026-11-22T08:05:11.514257+00:00",
+   "url": "dragos.com/blog/ai-supply-chain-security-canary-tokens"
   }
  ],
  "snapshots": {
-  "hn:50468720": [
-   131,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
   "lobsters:81hnjw": [
    83,
    "2026-11-13T02:53:42.161362+00:00"
@@ -11346,49 +11349,53 @@
    155,
    "2026-11-22T06:53:56.668304+00:00"
   ],
-  "gh:mjmirza/app-store-compliance": [
-   720,
-   "2026-11-22T07:53:57.562460+00:00"
-  ],
-  "tg:hacker_news_feed/134025": [
-   165,
-   "2026-11-22T07:53:57.562460+00:00"
+  "tg:hacker_news_feed/134031": [
+   155,
+   "2026-11-22T07:37:20.246779+00:00"
   ],
   "hn:50593737": [
    236,
    "2026-11-22T07:53:57.562460+00:00"
   ],
-  "tg:hacker_news_feed/134031": [
-   155,
-   "2026-11-22T07:37:20.246779+00:00"
+  "gh:mjmirza/app-store-compliance": [
+   720,
+   "2026-11-22T07:59:58.502629+00:00"
+  ],
+  "tg:hacker_news_feed/134025": [
+   165,
+   "2026-11-22T07:59:58.502629+00:00"
   ],
   "hn:50595554": [
-   192,
-   "2026-11-22T07:53:57.562460+00:00"
+   196,
+   "2026-11-22T07:59:58.502629+00:00"
   ],
   "hn:50593481": [
    102,
-   "2026-11-22T07:53:57.562460+00:00"
+   "2026-11-22T07:59:58.502629+00:00"
   ],
   "hn:50596133": [
-   676,
-   "2026-11-22T07:53:57.562460+00:00"
+   684,
+   "2026-11-22T07:59:58.502629+00:00"
   ],
   "tg:hacker_news_feed/134037": [
-   184,
-   "2026-11-22T07:53:57.562460+00:00"
+   187,
+   "2026-11-22T07:59:58.502629+00:00"
   ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224": [
-   53,
-   "2026-11-22T07:53:57.562460+00:00"
+   54,
+   "2026-11-22T07:59:58.502629+00:00"
   ],
   "tg:hacker_news_feed/134038": [
    154,
-   "2026-11-22T07:53:57.562460+00:00"
+   "2026-11-22T07:59:58.502629+00:00"
   ],
   "tg:hacker_news_feed/134039": [
    152,
-   "2026-11-22T07:53:57.562460+00:00"
+   "2026-11-22T07:59:58.502629+00:00"
+  ],
+  "hn:50596511": [
+   63,
+   "2026-11-22T07:59:58.502629+00:00"
   ]
  },
  "skips": {
@@ -11434,7 +11441,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 186,
+  "Hacker News": 187,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11480,7 +11487,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-22T07:59:12.368356+00:00",
+  "Hacker News": "2026-11-22T08:05:11.514339+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -13151,8 +13158,22 @@
    "votes": {},
    "message_id": 1695,
    "chat_id": -1004399820759
+  },
+  "118": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "نشت گسترده داده‌های حساس کاربران در سرویس‌های هوش مصنوعی و بازارهای واسط",
+   "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+   "at": "2026-11-22T08:00:00.559126+00:00",
+   "votes": {},
+   "message_id": 1696,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 118,
+ "next_post_id": 119,
  "last_update_id": 276814760
 }
