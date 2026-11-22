@@ -1,6 +1,5 @@
 {
  "seen": [
-  "jARQyUtxWHPW6qRLZQWw9H",
   "6adbb6231cfad481ad7e3d27",
   "hn:50235217",
   "hn:50233929",
@@ -2999,18 +2998,19 @@
   "tg:hacker_news_feed/134029",
   "tg:hacker_news_feed/134031",
   "hn:50593737",
-  "hn:50596511"
+  "hn:50596511",
+  "lobsters:et5q0q"
  ],
  "posted": {
-  "viral": 919,
+  "viral": 920,
   "editorial": 1076
  },
  "recent_labels": [
-  "GitHub Trending",
   "Hacker News Feed",
   "Hacker News Feed",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Lobsters"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4913,22 +4913,21 @@
     "LLM"
    ],
    "at": "2026-11-22T08:05:11.514257+00:00"
+  },
+  {
+   "title": "استفاده Mojang از اسکنرهای شخص ثالث برای مسدودسازی سرورهای Minecraft",
+   "url": "https://sipacid.com/blog/port-scanning-for-mojang/",
+   "source": "sipacid.com",
+   "label": "Lobsters",
+   "pool": "viral",
+   "score": 0.04021,
+   "topics": [
+    "SECURITY"
+   ],
+   "at": "2026-11-22T08:14:36.818211+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "20b",
-    "750m",
-    "ainews",
-    "mercor",
-    "rate",
-    "run",
-    "series",
-    "valuation"
-   ],
-   "at": "2026-11-11T09:54:24.134306+00:00"
-  },
   {
    "sig": [
     "curl",
@@ -8994,13 +8993,18 @@
    ],
    "at": "2026-11-22T08:05:11.514257+00:00",
    "url": "dragos.com/blog/ai-supply-chain-security-canary-tokens"
+  },
+  {
+   "sig": [
+    "mojang",
+    "port",
+    "scanning"
+   ],
+   "at": "2026-11-22T08:14:36.818211+00:00",
+   "url": "sipacid.com/blog/port-scanning-for-mojang"
   }
  ],
  "snapshots": {
-  "lobsters:81hnjw": [
-   83,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
   "hn:50475713": [
    112,
    "2026-11-13T02:53:42.161362+00:00"
@@ -11357,45 +11361,49 @@
    236,
    "2026-11-22T07:53:57.562460+00:00"
   ],
-  "gh:mjmirza/app-store-compliance": [
-   720,
-   "2026-11-22T07:59:58.502629+00:00"
-  ],
   "tg:hacker_news_feed/134025": [
    165,
-   "2026-11-22T07:59:58.502629+00:00"
-  ],
-  "hn:50595554": [
-   196,
-   "2026-11-22T07:59:58.502629+00:00"
-  ],
-  "hn:50593481": [
-   102,
-   "2026-11-22T07:59:58.502629+00:00"
-  ],
-  "hn:50596133": [
-   684,
-   "2026-11-22T07:59:58.502629+00:00"
-  ],
-  "tg:hacker_news_feed/134037": [
-   187,
-   "2026-11-22T07:59:58.502629+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224": [
-   54,
-   "2026-11-22T07:59:58.502629+00:00"
-  ],
-  "tg:hacker_news_feed/134038": [
-   154,
-   "2026-11-22T07:59:58.502629+00:00"
-  ],
-  "tg:hacker_news_feed/134039": [
-   152,
    "2026-11-22T07:59:58.502629+00:00"
   ],
   "hn:50596511": [
    63,
    "2026-11-22T07:59:58.502629+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   720,
+   "2026-11-22T08:13:39.416212+00:00"
+  ],
+  "hn:50595554": [
+   212,
+   "2026-11-22T08:13:39.416212+00:00"
+  ],
+  "hn:50593481": [
+   103,
+   "2026-11-22T08:13:39.416212+00:00"
+  ],
+  "hn:50596133": [
+   726,
+   "2026-11-22T08:13:39.416212+00:00"
+  ],
+  "tg:hacker_news_feed/134037": [
+   187,
+   "2026-11-22T08:13:39.416212+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224": [
+   58,
+   "2026-11-22T08:13:39.416212+00:00"
+  ],
+  "tg:hacker_news_feed/134038": [
+   154,
+   "2026-11-22T08:13:39.416212+00:00"
+  ],
+  "tg:hacker_news_feed/134039": [
+   152,
+   "2026-11-22T08:13:39.416212+00:00"
+  ],
+  "lobsters:et5q0q": [
+   25,
+   "2026-11-22T08:13:39.416212+00:00"
   ]
  },
  "skips": {
@@ -11436,7 +11444,7 @@
   "The Verge": 22,
   "Cloudflare": 1,
   "TechCrunch AI": 19,
-  "Lobsters": 31,
+  "Lobsters": 32,
   "Tom's Hardware": 39,
   "ZDNet": 6,
   "9to5Mac": 20,
@@ -11482,7 +11490,7 @@
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
   "TechCrunch AI": "2026-11-13T14:55:22.519235+00:00",
-  "Lobsters": "2026-11-20T13:54:09.877516+00:00",
+  "Lobsters": "2026-11-22T08:14:36.818323+00:00",
   "Tom's Hardware": "2026-11-13T11:53:52.167150+00:00",
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
@@ -13172,8 +13180,21 @@
    "votes": {},
    "message_id": 1696,
    "chat_id": -1004399820759
+  },
+  "119": {
+   "label": "Lobsters",
+   "pool": "viral",
+   "topics": [
+    "SECURITY"
+   ],
+   "title": "استفاده Mojang از اسکنرهای شخص ثالث برای مسدودسازی سرورهای Minecraft",
+   "url": "https://sipacid.com/blog/port-scanning-for-mojang/",
+   "at": "2026-11-22T08:13:41.359408+00:00",
+   "votes": {},
+   "message_id": 1697,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 119,
+ "next_post_id": 120,
  "last_update_id": 276814760
 }
