@@ -459,34 +459,37 @@ def _dispatch_iv_deploy() -> None:
 
 
 def _wait_page_ready(client: httpx.Client, page_url: str,
-                     timeout: int = 300, interval: int = 15,
-                     grace: int = ivpage.CDN_GRACE_SECONDS) -> bool:
+                     timeout: int = 1500, interval: int = 15,
+                     warm: int = ivpage.IV_PAGE_WARM_SECONDS) -> bool:
     """deploy Pages چند دقیقه طول می‌کشد؛ تا 200 شدن صفحه صبر می‌کنیم و بعد
-    `grace` ثانیه برای تثبیت CDN — چرا: تلگرام صفحه را در لحظه‌ی ارسال پیام
-    fetch می‌کند تا IV را تعیین کند و نتیجه را cache می‌کند؛ اگر در آن لحظه
-    صفحه روی edge‌ی تلگرام نباشد (CDN هنوز پر نشده)، آن پیام برای همیشه
-    بدون IV می‌ماند (2026-11-22: پست‌های 116/119/120).
+    `warm` ثانیه warm-up — چرا: تلگرام صفحه را در لحظه‌ی اولین نمایش لینک
+    fetch می‌کند تا IV را تعیین و cache کند؛ edge‌ای که از آن fetch می‌کند
+    دیرتر از runner پر می‌شود. سوابق: 0.4s/45s/180s ❌، ۶+ دقیقه ✅ — پس
+    لینک t.me/iv پیش از آنکه صفحه همین مدت warm باشد نباید دیده شود، وگرنه
+    آن URL برای ساعت‌ها بدون IV می‌ماند (2026-11-22).
     """
     deadline = time.time() + timeout
-    ready = False
+    ready_at = 0.0
     while time.time() < deadline:
         try:
             if client.head(page_url, timeout=15, follow_redirects=True).status_code == 200:
-                ready = True
+                ready_at = time.time()
                 break
         except httpx.HTTPError:
             pass
         time.sleep(interval)
-    if not ready:
+    if not ready_at:
         return False
-    if grace:
-        log.info("تثبیت CDN پیش از پست: %d ثانیه", grace)
-        time.sleep(grace)
+    if warm:
+        log.info("warm-up صفحه پیش از پست: %d ثانیه", warm)
+        warm_deadline = ready_at + warm
+        while time.time() < warm_deadline:
+            time.sleep(interval)
         try:
-            ready = client.head(page_url, timeout=15, follow_redirects=True).status_code == 200
+            return client.head(page_url, timeout=15, follow_redirects=True).status_code == 200
         except httpx.HTTPError:
-            ready = False
-    return ready
+            return False
+    return True
 
 
 def _pretranslate(item: Item, pid: str, full: str, html_doc: str, title: str,

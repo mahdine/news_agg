@@ -586,6 +586,10 @@ class LiveWorker:
             return False
 
     def _wait_ready(self, page_url: str, client: httpx.Client) -> bool:
+        # اگر صفحه همین حالا 200 است، خط پست‌گذاری آن را deploy کرده و
+        # warm-up کاملش را طی کرده — IVش سالم است، صبر اضافی لازم نیست.
+        if self._page_ready(page_url, client):
+            return True
         deadline = time.time() + PAGE_WAIT_SECONDS
         ready = False
         while time.time() < deadline:
@@ -598,11 +602,11 @@ class LiveWorker:
             time.sleep(PAGE_WAIT_INTERVAL)
         if not ready:
             return False
-        # همان تثبیت CDN خط پست‌گذاری: تلگرام صفحه را در لحظه‌ی ارسال پیام
-        # DONE fetch می‌کند تا IV را تعیین کند — اگر edge‌اش هنوز پر نشده باشد،
-        # لینکِ آن پیام برای همیشه بدون IV می‌ماند (2026-11-22).
-        log.info("تثبیت CDN پیش از DONE: %d ثانیه", ivpage.CDN_GRACE_SECONDS)
-        time.sleep(ivpage.CDN_GRACE_SECONDS)
+        # صفحه همین حالا deploy شد: تلگرام صلاحت IV را در لحظه‌ی اولین
+        # نمایش لینک تعیین و cache می‌کند — warm-up کامل تا پر شدن edge
+        # (0.4s/45s/180s ❌، ۶+ دقیقه ✅؛ 2026-11-22).
+        log.info("warm-up صفحه پیش از DONE: %d ثانیه", ivpage.IV_PAGE_WARM_SECONDS)
+        time.sleep(ivpage.IV_PAGE_WARM_SECONDS)
         return self._page_ready(page_url, client)
 
     # ── snapshot بازخورد ───────────────────────────────────────────

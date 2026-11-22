@@ -26,13 +26,13 @@ log = logging.getLogger("ivpage")
 PAGES_BASE = os.environ.get("PAGES_BASE_URL", "https://mahdine.github.io/news_agg")
 
 # چند ثانیه‌ی صبر پس از اولین 200، پیش از ارسال پیامی که لینک IV دارد.
-# CDNِ Pages چندحاشیه‌ای است و آبشاری پر می‌شود: runner (آمریکا) ممکن است
-# 200 ببیند در حالی که edge‌ای که سرورهای تلگرام از آن fetch می‌کنند هنوز 404
-# دارد. تلگرام صلاحت IV را در لحظه‌ی ارسال پیام تعیین و cache می‌کند — اگر آن
-# لحظه صفحه نباشد، آن پیام برای همیشه بدون IV می‌ماند (مشاهده‌شده 2026-11-22:
-# پست‌های 116/119/120 حدود 0.4 ثانیه بعد از اولین 200 ارسال شدند → بدون IV؛
-# همان لینک چند دقیقه بعد → IV درست).
-CDN_GRACE_SECONDS = int(os.environ.get("CDN_GRACE_SECONDS", "45"))
+# تلگرام صلاحت IV را در لحظه‌ی ارسال پیام تعیین و cache می‌کند؛ edge‌ای که
+# سرورهای تلگرام صفحه را از آن fetch می‌کنند دیرتر از runner پر می‌شود.
+# سوابق (2026-11-22): 0.4s (پست‌های 116/119/120) ❌، 45s (122) ❌، 180s
+# (تست 999 با URL تازه و صفحه‌ی گرم) ❌، اما صفحه‌هایی که ۶-۲۰ دقیقه پیش از
+# اولین نمایش لینک live بودند (تست‌های A–G و کپی‌های دستی) ✅. پس لینکِ
+# t.me/iv نباید پیش از آنکه صفحه همین مدت warm باشد در هیچ پیامی دیده شود.
+IV_PAGE_WARM_SECONDS = int(os.environ.get("IV_PAGE_WARM_SECONDS", "600"))
 
 _STYLE = """<style>
 body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
