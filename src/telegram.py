@@ -75,6 +75,7 @@ def build_message(
     tag: str = "",
     channel: str = "",
     translate_url: str = "",
+    translate_hint: bool = False,
 ) -> str:
     """تیتر، متن، خط منبع، و ردیف هشتگ و امضا.
 
@@ -82,6 +83,11 @@ def build_message(
     متنِ پست می‌افتد نه دکمه — لینک داخل متن است که تلگرام را مجبور به باز
     شدن IV درون اپ می‌کند؛ همان لینک در دکمه‌ی URL در مرورگر بیرون باز
     می‌شود (مشاهده‌شده 2026-11-22).
+
+    `translate_hint`: وقتی IV در پیام دوم می‌افتد (پست‌های عکس‌دار — کارت
+    preview لینک‌های متن را از IV درون‌اپ بیرون می‌فرستد؛ تست کانال
+    2026-11-22: E ✅ بدون preview / L ❌ با preview)، یک خط راهنمای ساده
+    به‌جای لینک می‌افتد تا خواننده بداند ترجمه در پیام بعدی است.
     """
     source = html.escape(item.publisher or item.label)
     if item.publisher and item.publisher != item.label:
@@ -90,7 +96,8 @@ def build_message(
     footer = "  ".join(part for part in (tag, _handle(channel)) if part)
     badges = _badges(item)
     translate_line = f'📄 <a href="{translate_url}">ترجمه‌ی کامل</a>' if translate_url else ""
-    fixed = len(source) + len(footer) + len(title) + len(badges) + len(translate_line) + 12
+    hint_line = "📄 ترجمه‌ی کامل: پیام بعدی" if (translate_hint and not translate_url) else ""
+    fixed = len(source) + len(footer) + len(title) + len(badges) + len(translate_line) + len(hint_line) + 12
     body = body.strip()
     if len(body) > MAX_TEXT - fixed:
         body = body[: MAX_TEXT - fixed].rsplit(" ", 1)[0] + "…"
@@ -107,6 +114,8 @@ def build_message(
     parts.append(f"<i>{source}</i>")
     if footer:
         parts.append(html.escape(footer))
+    if hint_line:
+        parts.append(html.escape(hint_line))
     return "\n\n".join(parts)
 
 
@@ -472,16 +481,28 @@ def publish(
     bot_username: str = "",
     feedback: bool = True,
     translate_target: str = "",
+    translate_in_text: bool = True,
 ) -> dict:
     """پست را با عکس بزرگ بالای متن می‌فرستد.
 
     از sendPhoto استفاده نمی‌کنیم چون caption اش به ۱۰۲۴ کاراکتر محدود است و
     خلاصه‌های ما بلندترند. link preview همان عکس را بزرگ نشان می‌دهد بدون آن
     محدودیت. result تلگرام برمی‌گردد (message_id برای نگاشت واکنش‌ها).
+
+    `translate_in_text`: لینک IV در خودِ متن بیفتد یا نه. پست‌های عکس‌دار
+    False می‌گیرند — کارت preview (و هر media) لینک‌های متن را از IV درون‌اپ
+    بیرون می‌فرستد (تست کانال 2026-11-22: L ❌ با preview / E ✅ بدون) — و
+    لینک IV به پیام دوم خالص‌متنی می‌رود (publish_iv_message). در آن حالت یک
+    خط راهنما «ترجمه‌ی کامل: پیام بعدی» به‌جای لینک می‌افتد.
     """
+    if translate_target and translate_in_text:
+        t_url = iv_link(translate_target)
+    else:
+        t_url = ""
     text = build_message(
         item, title, body, tag, channel,
-        translate_url=iv_link(translate_target) if translate_target else "",
+        translate_url=t_url,
+        translate_hint=bool(translate_target and not translate_in_text),
     )
     keyboard = build_keyboard(item, pid, bot_username, feedback, translate_target)
     has_image = bool(item.image_url)
@@ -520,6 +541,32 @@ def publish(
             "parse_mode": "HTML",
             "link_preview_options": {"is_disabled": True},
             "reply_markup": keyboard,
+        },
+        token,
+        client,
+    )
+
+
+def publish_iv_message(
+    token: str,
+    channel: str,
+    client: httpx.Client,
+    translate_url: str,
+) -> dict:
+    """پیام دومِ پست‌های عکس‌دار: لینک «ترجمه‌ی کامل» به‌صورت خالص‌متنی.
+
+    نه preview، نه media: هر دو لینک‌های متن را از IV درون‌اپ بیرون می‌فرستند
+    (تست‌های کانال 2026-11-22: A/C/E/G ✅ متن خالص — حتی با کیبورد کامل /
+    H/J/K ❌ sendPhoto / L ❌ کارت preview). پیام خالصِ لینکی = IV درون اپ.
+    کیبورد ندارد چون این پیام فقط لینک است؛ دکمه‌ها روی پیام اول می‌مانند.
+    """
+    return _call(
+        "sendMessage",
+        {
+            "chat_id": channel,
+            "text": f'📄 <a href="{translate_url}">ترجمه‌ی کامل</a>',
+            "parse_mode": "HTML",
+            "link_preview_options": {"is_disabled": True},
         },
         token,
         client,

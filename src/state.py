@@ -312,6 +312,16 @@ class State:
         if chat_id:
             post["chat_id"] = chat_id
 
+    def note_iv_message_id(self, pid: str, message_id: int | None) -> None:
+        """message_id پیام دوم (لینک IV خالص‌متنی پست‌های عکس‌دار) را نگه می‌دارد.
+
+        برای ویرایش/حذف بعدی همان پیام — واکنشی به آن نمی‌رسد (دکمه ندارد).
+        """
+        post = self.posts.get(str(pid))
+        if post is None or not message_id:
+            return
+        post["iv_message_id"] = message_id
+
     def find_pid_by_message(self, message_id: int | None, chat_id: int | None = None) -> str | None:
         """pid پستی که message_id تلگرامش با این است (برای update‌های واکنش).
 
@@ -517,7 +527,7 @@ class State:
         self.history = [
             row
             for row in self.history
-            if _parse(row.get("at")) and _parse(row["at"]) >= cutoff
+            if (t := _parse(row.get("at"))) is not None and t >= cutoff
         ]
         return self.history
 

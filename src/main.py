@@ -626,10 +626,25 @@ def publish(
             continue
 
         try:
-            result = telegram.publish(
-                item, title, persian, token, channel, client, tag,
-                pid, bot_username, feedback, translate_target,
-            )
+            # پست‌های عکس‌دار با ترجمه‌ی آماده: دو پیام. کارت preview (یا هر
+            # media) لینک IV را از حالت درون‌اپ بیرون می‌فرستد (تست کانال
+            # 2026-11-22: L ❌ با preview / E ✅ بدون) — پس IV در پیام دوم
+            # خالص‌متنی می‌رود و پیام اول راهنما دارد.
+            if translate_target and item.image_url:
+                result = telegram.publish(
+                    item, title, persian, token, channel, client, tag,
+                    pid, bot_username, feedback, translate_target,
+                    translate_in_text=False,
+                )
+                iv_result = telegram.publish_iv_message(
+                    token, channel, client, telegram.iv_link(translate_target)
+                )
+            else:
+                result = telegram.publish(
+                    item, title, persian, token, channel, client, tag,
+                    pid, bot_username, feedback, translate_target,
+                )
+                iv_result = None
         except telegram.TelegramError as exc:
             log.error("ارسال نشد: %s", exc)
             continue
@@ -637,6 +652,8 @@ def publish(
         # با وصل‌شدن message_id به پست، واکنش‌های تلگرام بعدی (که فقط
         # message_id دارند) به همین pid وصل می‌شوند.
         state.note_message_id(pid, (result or {}).get("message_id"), channel_id)
+        if iv_result:
+            state.note_iv_message_id(pid, iv_result.get("message_id"))
 
         # نظّم بازخورد: مسیر اختیاری (پیش‌فرض خاموش؛ مسیر اصلی واکنش است).
         if settings.get("feedback_polls", False):
