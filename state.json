@@ -1,7 +1,5 @@
 {
  "seen": [
-  "eb4d78de86ae38666f2506ede11d069e",
-  "lobsters:hzrmwz",
   "lobsters:x1s5oq",
   "hn:50237485",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myql4ogqth2n",
@@ -2999,18 +2997,20 @@
   "https://techcrunch.com/?p=3190451",
   "oiyo9sY3egpU6M2gtDzrQM",
   "ZiWrz6jJ3a6doJnSb6hL99",
-  "https://www.theregister.com/a/5311023"
+  "https://www.theregister.com/a/5311023",
+  "hn:50596664",
+  "hn:50597612"
  ],
  "posted": {
-  "viral": 922,
+  "viral": 923,
   "editorial": 1079
  },
  "recent_labels": [
-  "Hacker News",
   "vc.ru",
   "Hacker News Feed",
   "Hi-Tech Mail",
-  "The Register"
+  "The Register",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4991,26 +4991,21 @@
     "IRAN"
    ],
    "at": "2026-11-22T10:04:58.882617+00:00"
+  },
+  {
+   "title": "وابستگی شدید دیتاسنترهای Anthropic به سوخت‌های فسیلی و پیامدهای زیست‌محیطی آن",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "source": "betterdatacenterproject.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.30493,
+   "topics": [
+    "AI"
+   ],
+   "at": "2026-11-22T11:04:57.692880+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "apple",
-    "close",
-    "community",
-    "down",
-    "end",
-    "era",
-    "forums",
-    "november",
-    "online",
-    "permanently",
-    "shutting",
-    "support"
-   ],
-   "at": "2026-11-11T11:54:07.032906+00:00"
-  },
   {
    "sig": [
     "aren",
@@ -9124,21 +9119,20 @@
    ],
    "at": "2026-11-22T10:04:58.882617+00:00",
    "url": "theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "coal",
+    "come",
+    "gas",
+    "power"
+   ],
+   "at": "2026-11-22T11:04:57.692880+00:00",
+   "url": "betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power"
   }
  ],
  "snapshots": {
-  "hn:50475735": [
-   230,
-   "2026-11-13T03:53:45.876128+00:00"
-  ],
-  "hn:50472260": [
-   513,
-   "2026-11-13T03:53:45.876128+00:00"
-  ],
-  "hn:50471731": [
-   1694,
-   "2026-11-13T03:53:45.876128+00:00"
-  ],
   "hn:50470445": [
    127,
    "2026-11-13T03:53:45.876128+00:00"
@@ -11491,10 +11485,6 @@
    25,
    "2026-11-22T08:13:39.416212+00:00"
   ],
-  "gh:mjmirza/app-store-compliance": [
-   720,
-   "2026-11-22T08:54:28.090580+00:00"
-  ],
   "hn:50595554": [
    227,
    "2026-11-22T08:47:16.635110+00:00"
@@ -11502,6 +11492,10 @@
   "hn:50593481": [
    112,
    "2026-11-22T08:47:16.635110+00:00"
+  ],
+  "gh:mjmirza/app-store-compliance": [
+   720,
+   "2026-11-22T08:54:28.090580+00:00"
   ],
   "hn:50596133": [
    856,
@@ -11524,8 +11518,20 @@
    "2026-11-22T09:42:07.883636+00:00"
   ],
   "lobsters:32rhzb": [
-   31,
-   "2026-11-22T09:54:02.736866+00:00"
+   35,
+   "2026-11-22T10:53:55.405666+00:00"
+  ],
+  "hn:50597612": [
+   421,
+   "2026-11-22T10:53:55.405666+00:00"
+  ],
+  "hn:50596664": [
+   89,
+   "2026-11-22T10:53:55.405666+00:00"
+  ],
+  "tg:hacker_news_feed/134043": [
+   151,
+   "2026-11-22T10:53:55.405666+00:00"
   ]
  },
  "skips": {
@@ -11534,7 +11540,7 @@
   "Wired": 29,
   "TechRadar": 9,
   "Lobsters": 8,
-  "Hacker News": 57,
+  "Hacker News": 58,
   "The Next Web": 1,
   "404 Media": 23,
   "Emily M. Bender": 8,
@@ -11571,7 +11577,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 188,
+  "Hacker News": 189,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11617,7 +11623,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-22T08:48:09.547955+00:00",
+  "Hacker News": "2026-11-22T11:04:57.693003+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -13391,8 +13397,22 @@
    "message_id": 1721,
    "chat_id": -1004399820759,
    "iv_message_id": 1722
+  },
+  "125": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "AI"
+   ],
+   "title": "وابستگی شدید دیتاسنترهای Anthropic به سوخت‌های فسیلی و پیامدهای زیست‌محیطی آن",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "at": "2026-11-22T10:54:00.391608+00:00",
+   "votes": {},
+   "message_id": 1723,
+   "chat_id": -1004399820759,
+   "iv_message_id": 1724
   }
  },
- "next_post_id": 125,
+ "next_post_id": 126,
  "last_update_id": 276814760
 }
