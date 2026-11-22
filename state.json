@@ -1,6 +1,5 @@
 {
  "seen": [
-  "3215473",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mypvg37zje2a",
   "u5rQgqRudRKQW7AfjBnvfG",
   "jARQyUtxWHPW6qRLZQWw9H",
@@ -2999,17 +2998,18 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2uk7yfree2t",
   "gh:openvinotoolkit/openvino",
   "tg:hacker_news_feed/134028",
-  "tg:hacker_news_feed/134029"
+  "tg:hacker_news_feed/134029",
+  "tg:hacker_news_feed/134031"
  ],
  "posted": {
-  "viral": 916,
+  "viral": 917,
   "editorial": 1076
  },
  "recent_labels": [
-  "Hacker News Feed",
   "Hacker News",
   "Hacker News",
   "GitHub Trending",
+  "Hacker News Feed",
   "Hacker News Feed"
  ],
  "last_digest": "2026-11-20",
@@ -4874,21 +4874,22 @@
     "LLM"
    ],
    "at": "2026-11-22T06:58:09.129816+00:00"
+  },
+  {
+   "title": "ارزیابی توانمندی مدل‌های هوش مصنوعی در پروژه‌های طراحی گرافیکی",
+   "url": "https://contralabs.com/frontierdesign",
+   "source": "Frontier Design Benchmark",
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "score": 0.01779,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-22T07:40:56.050133+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "addressed",
-    "amd",
-    "chipmaker",
-    "intel",
-    "patch",
-    "tuesday",
-    "vulnerabilities"
-   ],
-   "at": "2026-11-11T08:55:30.078776+00:00"
-  },
   {
    "sig": [
     "available",
@@ -8965,17 +8966,23 @@
    ],
    "at": "2026-11-22T06:58:09.129816+00:00",
    "url": "sgiannopoulos.github.io/blog/machine-code-programming"
+  },
+  {
+   "sig": [
+    "5.2",
+    "ahead",
+    "appeared",
+    "both",
+    "fable",
+    "leaderboard",
+    "models",
+    "stealth"
+   ],
+   "at": "2026-11-22T07:40:56.050133+00:00",
+   "url": "contralabs.com/frontierdesign"
   }
  ],
  "snapshots": {
-  "hn:50470488": [
-   652,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
-  "hn:50468944": [
-   156,
-   "2026-11-13T02:53:42.161362+00:00"
-  ],
   "hn:50468720": [
    131,
    "2026-11-13T02:53:42.161362+00:00"
@@ -11320,20 +11327,8 @@
    347,
    "2026-11-22T05:53:59.969975+00:00"
   ],
-  "gh:mjmirza/app-store-compliance": [
-   720,
-   "2026-11-22T06:53:56.668304+00:00"
-  ],
   "tg:hacker_news_feed/134024": [
    163,
-   "2026-11-22T06:53:56.668304+00:00"
-  ],
-  "tg:hacker_news_feed/134025": [
-   165,
-   "2026-11-22T06:53:56.668304+00:00"
-  ],
-  "hn:50593737": [
-   205,
    "2026-11-22T06:53:56.668304+00:00"
   ],
   "tg:hacker_news_feed/134028": [
@@ -11344,29 +11339,49 @@
    155,
    "2026-11-22T06:53:56.668304+00:00"
   ],
+  "gh:mjmirza/app-store-compliance": [
+   720,
+   "2026-11-22T07:37:20.246779+00:00"
+  ],
+  "tg:hacker_news_feed/134025": [
+   165,
+   "2026-11-22T07:37:20.246779+00:00"
+  ],
+  "hn:50593737": [
+   227,
+   "2026-11-22T07:37:20.246779+00:00"
+  ],
   "tg:hacker_news_feed/134031": [
    155,
-   "2026-11-22T06:53:56.668304+00:00"
+   "2026-11-22T07:37:20.246779+00:00"
   ],
   "hn:50595554": [
-   165,
-   "2026-11-22T06:53:56.668304+00:00"
+   179,
+   "2026-11-22T07:37:20.246779+00:00"
   ],
   "hn:50593481": [
-   86,
-   "2026-11-22T06:53:56.668304+00:00"
+   99,
+   "2026-11-22T07:37:20.246779+00:00"
   ],
   "hn:50596133": [
-   507,
-   "2026-11-22T06:53:56.668304+00:00"
+   629,
+   "2026-11-22T07:37:20.246779+00:00"
   ],
   "tg:hacker_news_feed/134037": [
-   168,
-   "2026-11-22T06:53:56.668304+00:00"
+   180,
+   "2026-11-22T07:37:20.246779+00:00"
   ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224": [
-   35,
-   "2026-11-22T06:53:56.668304+00:00"
+   47,
+   "2026-11-22T07:37:20.246779+00:00"
+  ],
+  "tg:hacker_news_feed/134038": [
+   154,
+   "2026-11-22T07:37:20.246779+00:00"
+  ],
+  "tg:hacker_news_feed/134039": [
+   152,
+   "2026-11-22T07:37:20.246779+00:00"
   ]
  },
  "skips": {
@@ -11440,7 +11455,7 @@
   "Rest of World": 1,
   "LangChain Blog": 1,
   "GitHub Trending": 14,
-  "Hacker News Feed": 24
+  "Hacker News Feed": 25
  },
  "last_post": {
   "Engadget": "2026-11-14T13:54:06.399584+00:00",
@@ -11486,7 +11501,7 @@
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
   "GitHub Trending": "2026-11-22T05:58:13.868736+00:00",
-  "Hacker News Feed": "2026-11-22T06:58:09.129921+00:00"
+  "Hacker News Feed": "2026-11-22T07:40:56.050257+00:00"
  },
  "posts": {
   "1": {
@@ -13101,8 +13116,22 @@
    "votes": {},
    "message_id": 1693,
    "chat_id": -1004399820759
+  },
+  "116": {
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "ارزیابی توانمندی مدل‌های هوش مصنوعی در پروژه‌های طراحی گرافیکی",
+   "url": "https://contralabs.com/frontierdesign",
+   "at": "2026-11-22T07:37:22.406498+00:00",
+   "votes": {},
+   "message_id": 1694,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 116,
+ "next_post_id": 117,
  "last_update_id": 276814760
 }
