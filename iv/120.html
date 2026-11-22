@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>حوادث پردازش داده در ارائه‌دهندگان استنتاج</title>
+<meta name="description" content="اوایل این هفته، محققان امنیتی گزارش دادند که برخی از ارائه‌دهندگان استنتاج (Inference Providers) دچار نشت داده شده‌اند یا شواهدی نشان داده‌اند که سیاس…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="حوادث پردازش داده در ارائه‌دهندگان استنتاج">
+<meta property="og:description" content="اوایل این هفته، محققان امنیتی گزارش دادند که برخی از ارائه‌دهندگان استنتاج (Inference Providers) دچار نشت داده شده‌اند یا شواهدی نشان داده‌اند که سیاس…">
+<meta property="og:url" content="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/">
+<meta property="og:site_name" content="PersianTech">
+<meta property="og:image" content="https://openrouter.ai/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="حوادث پردازش داده در ارائه‌دهندگان استنتاج">
+<meta name="twitter:description" content="اوایل این هفته، محققان امنیتی گزارش دادند که برخی از ارائه‌دهندگان استنتاج (Inference Providers) دچار نشت داده شده‌اند یا شواهدی نشان داده‌اند که سیاس…">
+<meta name="twitter:image" content="https://openrouter.ai/og.png">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<img class="hero" src="https://openrouter.ai/og.png" alt="" loading="lazy">
+<h1>حوادث پردازش داده در ارائه‌دهندگان استنتاج</h1>
+<p class="meta">Hacker News  ·  2026-11-22</p>
+<p>اوایل این هفته، محققان امنیتی گزارش دادند که برخی از ارائه‌دهندگان استنتاج (Inference Providers) دچار نشت داده شده‌اند یا شواهدی نشان داده‌اند که سیاست‌های داده‌ای آن‌ها رعایت نمی‌شود. ما همکاری نزدیکی با محققان و ارائه‌دهندگان داشته‌ایم تا یافته‌ها را درک کرده و آن‌ها را به رسیدگی به این موارد تشویق کنیم.</p>
+<p>این یافته‌ها هیچ‌گونه نفوذ یا دسترسی غیرمجاز به OpenRouter را نشان ندادند. نتایج این آزمایش‌ها، یافته‌های جدیدی را درباره ارائه‌دهندگان استنتاج خاص آشکار کرد. فهرست به‌روزی از اطلاعیه‌های امنیتی که از ارائه‌دهندگان دریافت کرده‌ایم، در ادامه آمده است.</p>
+<p>به‌عنوان لایه عملیاتی میان مشتریان و اکوسیستمِ به‌سرعت در حال تغییرِ مدل‌ها و ارائه‌دهندگان، ما اجرای سیاست‌های داده را بسیار جدی می‌گیریم. ما اقدامات زیر را انجام داده‌ایم:</p>
+<p>- سه ارائه‌دهنده را بر اساس نتایج بررسی‌هایمان از OpenRouter حذف کردیم.</p>
+<p>- ۱۲۵ نقطه پایانی (Endpoint) را از واجد شرایط بودن برای «عدم نگهداری داده» (ZDR) خارج کردیم. این موارد شامل ارائه‌دهندگانی بود که توسط محققان علامت‌گذاری شده بودند، به‌علاوه نقاط پایانی دیگری که به‌عنوان یک اقدام احتیاطی حذف کردیم.</p>
+<p>- به تمام مشتریانی که احتمالاً تحت تأثیر قرار گرفته‌اند، اطلاع‌رسانی کردیم.</p>
+<p>اقدامات زیر در حال انجام است:</p>
+<p>- ما در حال تطبیق رویکرد آزمایشی محققان هستیم تا بتوانیم این بررسی‌ها را به‌صورت مستمر انجام دهیم.</p>
+<p>- ما در حال انجام تأیید فنی مسیرهای شبکه هستیم تا مواردی را که ممکن است درخواست‌ها و پاسخ‌ها به اشخاص ثالث ارسال شوند، شناسایی کنیم.</p>
+<p>- ما پیش از بازگرداندن وضعیت واجد شرایط بودن ZDR برای هر نقطه پایانی که در این بررسی حذف شده است، خواستار تضمین‌ها و اعتبارسنجی‌های مناسب هستیم.</p>
+<p>ما از گزارش Dragos سپاسگزاریم. همان‌طور که تکنیک‌های آزمایشی مشابه را در OpenRouter ادغام می‌کنیم، به ارتقای استانداردها ادامه خواهیم داد و ارائه‌دهندگانی که می‌خواهند در OpenRouter حضور داشته باشند، باید این استانداردها را برآورده کنند.</p>
+<p>اطلاعیه‌های امنیتی ارائه‌دهندگان</p>
+<p>- Novita: اطلاعیه حریم خصوصی در مورد درخواست‌های MiniMax در Novita</p>
+<p>- Phala: گزارش اولیه حادثه در ماه نوامبر</p>
+<p>- Together: رویداد امنیتی: نشت پرامپت برای درخواست‌ها در ژوئن و ژوئیه ۲۰۲۶</p>
+<p>همه ارائه‌دهندگانِ تحت تأثیر قرار گرفته، به‌صورت عمومی اطلاع‌رسانی نکرده‌اند. ما بدون توجه به وجود یا عدم وجود پست عمومی، به کاربرانِ تحت تأثیر اطلاع داده‌ایم. ما همه ارائه‌دهندگان را تشویق می‌کنیم که گزارش‌های حادثه تهیه کنند و این فهرست را به‌روز نگه خواهیم داشت.</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
