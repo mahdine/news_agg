@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PcapAnalyzer: عیب‌یابی شبکه در چند ثانیه</title>
+<meta name="description" content="خطاهای شبکه را در چند ثانیه، نه چند ساعت، پیدا کنید. یک فایل capture با فرمت .pcap یا .pcapng (و همچنین gzip) را بارگذاری کنید تا PcapAnalyzer به شما …">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PcapAnalyzer: عیب‌یابی شبکه در چند ثانیه">
+<meta property="og:description" content="خطاهای شبکه را در چند ثانیه، نه چند ساعت، پیدا کنید. یک فایل capture با فرمت .pcap یا .pcapng (و همچنین gzip) را بارگذاری کنید تا PcapAnalyzer به شما …">
+<meta property="og:url" content="https://github.com/sebaandrada-cell/PcapAnalyzer">
+<meta property="og:site_name" content="PersianTech">
+<meta property="og:image" content="https://opengraph.githubassets.com/3d2a23e08ef60bff614048599a220e4f6aee362370ebd1c0595a38c33c23db01/sebaandrada-cell/PcapAnalyzer">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PcapAnalyzer: عیب‌یابی شبکه در چند ثانیه">
+<meta name="twitter:description" content="خطاهای شبکه را در چند ثانیه، نه چند ساعت، پیدا کنید. یک فایل capture با فرمت .pcap یا .pcapng (و همچنین gzip) را بارگذاری کنید تا PcapAnalyzer به شما …">
+<meta name="twitter:image" content="https://opengraph.githubassets.com/3d2a23e08ef60bff614048599a220e4f6aee362370ebd1c0595a38c33c23db01/sebaandrada-cell/PcapAnalyzer">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<img class="hero" src="https://opengraph.githubassets.com/3d2a23e08ef60bff614048599a220e4f6aee362370ebd1c0595a38c33c23db01/sebaandrada-cell/PcapAnalyzer" alt="" loading="lazy">
+<h1>PcapAnalyzer: عیب‌یابی شبکه در چند ثانیه</h1>
+<p class="meta">Hacker News  ·  2026-11-22</p>
+<p>خطاهای شبکه را در چند ثانیه، نه چند ساعت، پیدا کنید. یک فایل capture با فرمت .pcap یا .pcapng (و همچنین gzip) را بارگذاری کنید تا PcapAnalyzer به شما بگوید چه چیزی دچار مشکل شده، دلیل آن چیست و گام بعدی برای بررسی چیست. این ابزار روی سیستم خودتان اجرا می‌شود، بنابراین فایل‌های capture هرگز از شبکه شما خارج نمی‌شوند. رایگان و متن‌باز (Apache 2.0). وضعیت: بتا.</p>
+<p>- امتحان کردن بدون نیاز به نصب: https://pcap-analyzer-seven.vercel.app/#demo</p>
+<p>- دانلود: https://sebaandrada6.gumroad.com/l/hspgx (رایگان) یا کلون کردن این مخزن.</p>
+<p>- ۲۷ آشکارساز که روی هر capture اجرا می‌شوند و هر کدام دارای سطح اهمیت و گام بعدی هستند:</p>
+<p>- TCP: مسدودسازی توسط فایروال (SYN→RST)، بازنشانی‌ها (Retransmissions)، تکرار ACKها، گم شدن و به‌هم‌ریختگی ترتیب بسته‌ها، پنجره‌های صفر و کامل، ریست شدن پس از دست‌دادن (Handshake)، و دست‌دادن‌های کند.</p>
+<p>- مسیر (Path): حفره‌های سیاه PMTUD، مقدار MSS پایین، تکه‌تکه شدن IP (Fragmentation)، خطاهای ICMP، و حلقه‌های مسیریابی.</p>
+<p>- سرویس‌های نام و آدرس: DNSهای بی‌پاسخ یا کند، SERVFAIL، انفجار NXDOMAIN، خطاهای DHCP NAK / DECLINE / عدم پاسخ، IPهای تکراری، و طوفان‌های ARP.</p>
+<p>- برنامه‌ها: پاسخ‌های HTTP 4xx / 5xx و پاسخ‌های کند، هشدارهای TLS، و SSL 3.0 / TLS 1.0 / 1.1.</p>
+<p>- تونل‌ها: IPsec (IKE و ESP)، WireGuard، OpenVPN، GRE، L2TP و Teredo که یک‌طرفه هستند، به دست‌دادن پاسخ نمی‌دهند یا مدام در حال بازنشانی هستند.</p>
+<p>- امنیت: اسکن و جاروب پورت‌ها، ورودهای متنی ساده (FTP, POP3, IMAP, SMTP AUTH, HTTP Basic؛ اعتبارنامه‌ها هرگز ذخیره یا نمایش داده نمی‌شوند)، Telnet / SMBv1 / SNMP v1-v2c، جعل ARP، و قطعات IP هم‌پوشانی‌شده.</p>
+<p>- اولویت با کیفیت capture است. این ابزار زمانی که خودِ capture محدودکننده نتیجه باشد، هشدار می‌دهد: فریم‌های تکراری توسط پورت mirror، ترافیک دیده‌شده فقط در یک جهت، بسته‌های ناقص، و اتصالاتی که هنگام شروع capture از قبل باز بوده‌اند.</p>
+<p>- نماهای مشابه Wireshark: لیست بسته‌ها با فیلترهای نمایش واقعی Wireshark روی کل capture، رنگ‌بندی، خروجی CSV، اطلاعات تخصصی، جداول HTTP / DNS / DHCP / TLS، زمان‌های پاسخ و نمودار جریان (Flow diagram) برای هر مکالمه.</p>
+<p>- بررسی با هوش مصنوعی (اختیاری): یک هوش مصنوعی با استفاده از ابزارها (فیلترهای واقعی، جزئیات جریان، آمار) capture را بررسی کرده و به بسته‌هایی که پشت هر ادعا هستند استناد می‌کند. سپس می‌توانید سوالات تکمیلی بپرسید. این قابلیت از کلید API شخصی Anthropic شما استفاده می‌کند؛ بدون آن، یک حالت دمو، کل جریان را با متنی که از تحلیل تولید شده، بدون هزینه اجرا می‌کند.</p>
+<p>- گزارش PDF، رابط کاربری به زبان‌های اسپانیایی و انگلیسی، تم روشن و تیره.</p>
+<p>شما به Docker و Docker Compose نیاز دارید. در ویندوز، اسکریپت را از Git Bash یا WSL اجرا کنید.</p>
+<p>git clone https://github.com/sebaandrada-cell/PcapAnalyzer.git</p>
+<p>cd PcapAnalyzer</p>
+<p>./start.sh</p>
+<p>این اسکریپت یک توکن دسترسی تصادفی ایجاد می‌کند (که یک بار نمایش داده شده و در فایل .env ذخیره می‌شود) و برنامه را اجرا می‌کند. پس از پایان بیلد، آدرس http://localhost:8080 را باز کنید، توکن را در فیلد &quot;API token&quot; (بالا سمت راست) وارد کنید و یک capture بارگذاری کنید، یا روی &quot;Try the sample capture&quot; کلیک کنید. برنامه فقط روی 127.0.0.1 گوش می‌دهد. آن را بدون یک پروکسی معکوس احراز هویت‌شده در شبکه قرار ندهید: API می‌تواند از حساب هوش مصنوعی شما استفاده کند.</p>
+<p>فایل QUICKSTART.md شامل جزئیات، تنظیمات هوش مصنوعی و عیب‌یابی است.</p>
+<p>شما به Python 3.9+، Node 20+ و tshark (نصب‌شده همراه با Wireshark) نیاز دارید.</p>
+<p>cd backend</p>
+<p>python3 -m venv .venv</p>
+<p>.venv/bin/pip install -r requirements-dev.txt</p>
+<p>export API_TOKENS=&quot;$(openssl rand -hex 32)&quot;</p>
+<p>.venv/bin/uvicorn app.main:app --reload</p>
+<p>cd frontend</p>
+<p>npm install</p>
+<p>npm run dev</p>
+<p>آدرس http://localhost:5173 را باز کرده و همان توکن را وارد کنید. اگر tshark در PATH شما نیست، TSHARK_PATH را روی فایل اجرایی تنظیم کنید.</p>
+<p>- capture روی سیستم شما تحلیل می‌شود. در حین بررسی هوش مصنوعی، فایل به‌صورت رمزگذاری‌شده نگهداری می‌شود (۶۰ دقیقه عدم فعالیت، یا تا زمانی که دکمه &quot;Delete capture now&quot; را بزنید) و سپس حذف می‌شود.</p>
+<p>- هوش مصنوعی اختیاری است. این ابزار فقط آنچه را که ابزارهایش برمی‌گردانند می‌بیند (متادیتای بسته؛ محتوای بسته فقط در صورتی که برای آن نشست فعالش کنید)، و هرگز فایل pcap را نمی‌بیند.</p>
+<p>- بدون تله‌متری و بدون نیاز به حساب کاربری برای نسخه خود-میزبانی (self-hosted).</p>
+<p>cd backend &amp;&amp; .venv/bin/python -m pytest -q    # نیاز به tshark دارد</p>
+<p>cd frontend &amp;&amp; npm test</p>
+<p>PcapAnalyzer در مرحله بتا است. این ابزار با نمونه‌های مصنوعی و captureهای عمومی تست شده است و مفیدترین بازخورد، captureای است که در آن مشکلی نادیده گرفته شده یا مشکلی گزارش شده که واقعی نیست. لطفاً یک issue در https://github.com/sebaandrada-cell/PcapAnalyzer/issues باز کنید و مورد را شرح دهید. captureهایی که حاوی اعتبارنامه‌های واقعی یا داده‌های مشتری هستند را پیوست نکنید؛ ابتدا آن‌ها را ناشناس‌سازی کنید یا الگو را شرح دهید.</p>
+<p>مرجع فنی (طرح JSON، آستانه‌های آشکارساز، محدودیت‌ها، خطاهای API) در فایل README.es.md به زبان اسپانیایی موجود است.</p>
+<p>مجوز Apache License 2.0. برای نرم‌افزارهای شخص ثالث به فایل NOTICE مراجعه کنید: tshark / Wireshark (GPL) به عنوان یک برنامه جداگانه اجرا می‌شود و همراه با PcapAnalyzer توزیع نمی‌شود.</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://github.com/sebaandrada-cell/PcapAnalyzer">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
