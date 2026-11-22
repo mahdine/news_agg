@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>کل برنامه را با Rust بازنویسی نکنید. آن ۵ درصدی که کند است را بازنویسی کنید.</title>
+<meta name="description" content="بازنویسی کل یک اپلیکیشن با Rust ماه‌ها زمان می‌برد، زمان کامپایل را به دقیقه می‌رساند و گیگابایت‌ها فضای target/ اشغال می‌کند. به هر حال، بخش عمده زما…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="کل برنامه را با Rust بازنویسی نکنید. آن ۵ درصدی که کند است را بازنویسی کنید.">
+<meta property="og:description" content="بازنویسی کل یک اپلیکیشن با Rust ماه‌ها زمان می‌برد، زمان کامپایل را به دقیقه می‌رساند و گیگابایت‌ها فضای target/ اشغال می‌کند. به هر حال، بخش عمده زما…">
+<meta property="og:url" content="https://github.com/EL4CTEO/fast-anything">
+<meta property="og:site_name" content="PersianTech">
+<meta property="og:image" content="https://opengraph.githubassets.com/14b9e18eda71ea9424ffa4329ce18b04313705efa90ecd7373ca279943abf488/EL4CTEO/fast-anything">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="کل برنامه را با Rust بازنویسی نکنید. آن ۵ درصدی که کند است را بازنویسی کنید.">
+<meta name="twitter:description" content="بازنویسی کل یک اپلیکیشن با Rust ماه‌ها زمان می‌برد، زمان کامپایل را به دقیقه می‌رساند و گیگابایت‌ها فضای target/ اشغال می‌کند. به هر حال، بخش عمده زما…">
+<meta name="twitter:image" content="https://opengraph.githubassets.com/14b9e18eda71ea9424ffa4329ce18b04313705efa90ecd7373ca279943abf488/EL4CTEO/fast-anything">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<img class="hero" src="https://opengraph.githubassets.com/14b9e18eda71ea9424ffa4329ce18b04313705efa90ecd7373ca279943abf488/EL4CTEO/fast-anything" alt="" loading="lazy">
+<h1>کل برنامه را با Rust بازنویسی نکنید. آن ۵ درصدی که کند است را بازنویسی کنید.</h1>
+<p class="meta">Hacker News  ·  2026-11-22</p>
+<p>بازنویسی کل یک اپلیکیشن با Rust ماه‌ها زمان می‌برد، زمان کامپایل را به دقیقه می‌رساند و گیگابایت‌ها فضای target/ اشغال می‌کند. به هر حال، بخش عمده زمان اجرا در چند تابع خاص خلاصه می‌شود.</p>
+<p>ابزار fast-anything آن توابع را پیدا می‌کند، از ایجنت کدنویسی شما می‌خواهد که فقط همان‌ها را به Rust پورت کند، اثبات می‌کند که پورت انجام‌شده در فراخوانی‌های واقعیِ ثبت‌شده نتایج یکسانی می‌دهد و سپس آن را جایگزین می‌کند. تنها با یک دستور و کاملاً قابل بازگشت.</p>
+<p>npm i -g @el4cteo/fast-anything      # یا: cargo install fast-anything</p>
+<p>پورت‌ها با زنجیره ابزار Rust شما (rustup) کامپایل می‌شوند.</p>
+<p>fast-anything go --agent claude -- python app.py     # یا: -- node app.ts / ruby app.rb / java App.java / mvn exec:java / gradle run / go run . / php app.php / clang -O2 main.c</p>
+<p>یا مرحله‌به‌مرحله پیش بروید:</p>
+<p>پارامتر --agent از claude، codex یا هر دستوری که یک پرامپت را از stdin بخواند پشتیبانی می‌کند. بدون آن، فایل TASK.md را به هر ابزاری که استفاده می‌کنید بدهید.</p>
+<p>آن پورت درست به نظر می‌رسید اما به جای کاراکترها، بایت‌ها را مقایسه می‌کرد. ۱۴۸ مورد از ۵۰۰ فراخوانی واقعی این خطا را شناسایی کرد. علاوه بر فراخوانی‌های ثبت‌شده، fast-anything موارد اضافی را استخراج کرده و به نسخه اصلی اجازه می‌دهد به آن‌ها پاسخ دهد: موارد خاص (NaN، ±infinity، -0.0، صفر و ±1، متن‌های غیر ASCII، ورودی‌های خالی و تا ۱۶ برابر بزرگ‌تر) و ورودی‌های کوچک‌شده (اسلایس‌های بسیار کوچک و تصادفی). تا زمانی که تمام موارد مطابقت نداشته باشند، هیچ‌چیز فعال نمی‌شود: مقادیر یکسان (اعداد اعشاری با دقت 1e-9)، و خطاهای مشابه در جایی که نسخه اصلی خطا می‌دهد. پورتی که درست باشد اما در هر فراخوانی کندتر از نسخه اصلی عمل کند (چون هزینه فراخوانی به Rust بیشتر از کار ذخیره‌شده است) نیز فعال نمی‌شود. با تنظیم FAST_ANYTHING_DISABLE=1، همیشه نسخه اصلی اجرا می‌شود.</p>
+<p>اجراهای واقعی روی i5-10500 و Windows 11 (برای C و C++: یک رانر ۴ هسته‌ای GitHub Actions Linux) انجام شده است. می‌توانید آن‌ها را از پوشه examples/ بازتولید کنید.</p>
+<p>ابزار fast-anything بیرونی‌ترین حلقه‌ای که بتواند را پورت می‌کند، نه تابع کوچکی که درون آن فراخوانی می‌شود؛ بنابراین اپلیکیشن به جای میلیون‌ها بار، تنها یک بار وارد Rust می‌شود. پورت کردن فقط تابع داخلی levenshtein منجر به بهبود ۳۵ برابری و ۱.۹ برابری شد.</p>
+<p>- زمان کامپایل: هر پورت یک crate تک‌تابعی است. ثانیه‌ها، نه دقیقه‌ها.</p>
+<p>- کش: هر پورت از یک .fast/target مشترک استفاده می‌کند. هر زمان که خواستید آن را حذف کنید.</p>
+<p>- ریسک: کد شما همان‌طور که هست باقی می‌ماند. Rust به صورت انتخابی (opt-in) برای هر تابع و با بررسی رفتار واقعی اعمال می‌شود.</p>
+<p>- پلاگین Claude Code: دستور /plugin marketplace add EL4CTEO/fast-anything و سپس /plugin install fast-anything@fast-anything و /fast-anything:fast python app.py را اجرا کنید.</p>
+<p>- سرور MCP (برای Claude Code، Codex، Cursor و غیره) که در فایل باینری تعبیه شده است: claude mcp add fast-anything -- fast-anything mcp . شامل ۸ ابزار: fast_scan، fast_port، fast_verify، fast_enable، fast_disable، fast_bench، fast_report، fast_status.</p>
+<p>- مهارت: بخش skills/fast-anything به هر ایجنتی نحوه کار با حلقه را آموزش می‌دهد.</p>
+<p>این ابزار توابع سطح بالا و قطعی (deterministic) که داده‌های ساده (اعداد، رشته‌ها، لیست‌ها، دیکشنری‌ها، آرایه‌های تایپ‌شده و غیره) را می‌پذیرند پورت می‌کند؛ این شامل توابع موجود در اسکریپت اصلی شما نیز می‌شود، زمانی که کد اصلی آن زیر if __name__ == &quot;__main__&quot;: (یا if __FILE__ == $0، یا if (import.meta.main) / if (require.main === module)) قرار دارد. در Python این به معنای توابع سطح ماژول و @staticmethods است؛ در Java، C# و PHP به معنای متدهای استاتیک (و توابع در PHP)؛ در Go توابع ساده؛ و در C و C++ توابع آزاد (free functions) و متدهای استاتیک است. دستور scan توضیح می‌دهد که چرا سایر موارد هنوز قابل انتقال نیستند.</p>
+<p>با استفاده از Intel oneAPI در ویندوز، fast-anything را از پوسته‌ای (shell) اجرا کنید که setvars.bat در آن اجرا شده باشد (این فایل لینکر را تنظیم می‌کند). هسته‌های SYCL روی دستگاه اجرا می‌شوند و پورت نمی‌شوند؛ با استفاده از -fsycl، فقط توابع میزبان (host functions) پروفایل و پورت می‌شوند.</p>
+<p>زبان‌های Ruby، Java، Go، PHP، C، C++ و C# نیازی به هدر، بایندینگ یا ابزارهای اضافی ندارند: پورت یک کتابخانه ساده Rust با یک نقطه ورود C است که JSON می‌گیرد و برمی‌گرداند، و fast-anything فراخوانی‌های ثبت‌شده را مستقیماً روی آن بازپخش می‌کند. هر زبانی که بتواند C را فراخوانی کند، می‌تواند از این پل استفاده کند.</p>
+<p>MIT</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://github.com/EL4CTEO/fast-anything">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
