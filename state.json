@@ -1,9 +1,5 @@
 {
  "seen": [
-  "hn:50235217",
-  "hn:50233929",
-  "hn:50236081",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myq4rdkkmc2e",
   "https://www.theverge.com/?p=1018233",
   "https://www.engadget.com/2294022/devices-could-be-wrong-wifi-band-slowing-them-down/",
   "https://www.androidpolice.com/default-browser-brave-arc-iceraven-firefox-bare/",
@@ -2999,18 +2995,22 @@
   "hn:50593737",
   "hn:50596511",
   "lobsters:et5q0q",
-  "hn:50595554"
+  "hn:50595554",
+  "3268620",
+  "gh:mjmirza/app-store-compliance",
+  "https://www.cnews.ru/news/top/2026-11-20_ushla_tselaya_epohaposle_23",
+  "https://www.neowin.net/news/google-is-retiring-the-nest-app-in-2027-and-some-users-need-to-act-to-avoid-losing-data/"
  ],
  "posted": {
   "viral": 921,
-  "editorial": 1076
+  "editorial": 1077
  },
  "recent_labels": [
-  "Hacker News Feed",
   "Hacker News",
   "Hacker News",
   "Lobsters",
-  "Hacker News"
+  "Hacker News",
+  "vc.ru"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -4938,21 +4938,22 @@
     "PRIVACY"
    ],
    "at": "2026-11-22T08:48:09.547860+00:00"
+  },
+  {
+   "title": "شکایت جدید VK از اپل برای بازپس‌گیری درآمدهای مسدود شده",
+   "url": "https://vc.ru/legal/3268620-vk-podala-isk-k-apple-na-vozvrat-sredstv?from=rss",
+   "source": "vc.ru",
+   "label": "vc.ru",
+   "pool": "editorial",
+   "score": 1.674,
+   "topics": [
+    "TECH",
+    "APPLE"
+   ],
+   "at": "2026-11-22T08:55:23.450391+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "driver",
-    "finger",
-    "gestures",
-    "haiku",
-    "tap",
-    "three",
-    "ufs"
-   ],
-   "at": "2026-11-11T10:54:03.345271+00:00"
-  },
   {
    "sig": [
     "beat",
@@ -9017,6 +9018,55 @@
    ],
    "at": "2026-11-22T08:48:09.547860+00:00",
    "url": "openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers"
+  },
+  {
+   "sig": [
+    "act",
+    "age",
+    "agents",
+    "app",
+    "app-store-compliance",
+    "apple",
+    "avoid",
+    "bugmenot",
+    "checks",
+    "coding",
+    "common",
+    "coppa",
+    "data",
+    "deadlines",
+    "documented",
+    "dsa",
+    "fixes",
+    "google",
+    "guard",
+    "laws",
+    "losing",
+    "manifest",
+    "mjmirza",
+    "need",
+    "nest",
+    "open",
+    "patterns",
+    "play",
+    "playbook",
+    "pre-submission",
+    "privacy",
+    "rejection",
+    "rejections",
+    "retiring",
+    "safety",
+    "shell",
+    "skill",
+    "stars",
+    "store",
+    "today",
+    "total",
+    "tracked",
+    "users"
+   ],
+   "at": "2026-11-22T08:55:23.450391+00:00",
+   "url": "vc.ru/legal/3268620-vk-podala-isk-k-apple-na-vozvrat-sredstv"
   }
  ],
  "snapshots": {
@@ -11386,7 +11436,7 @@
   ],
   "gh:mjmirza/app-store-compliance": [
    720,
-   "2026-11-22T08:47:16.635110+00:00"
+   "2026-11-22T08:54:28.090580+00:00"
   ],
   "hn:50595554": [
    227,
@@ -11397,28 +11447,28 @@
    "2026-11-22T08:47:16.635110+00:00"
   ],
   "hn:50596133": [
-   805,
-   "2026-11-22T08:47:16.635110+00:00"
+   832,
+   "2026-11-22T08:54:28.090580+00:00"
   ],
   "tg:hacker_news_feed/134037": [
-   195,
-   "2026-11-22T08:47:16.635110+00:00"
+   196,
+   "2026-11-22T08:54:28.090580+00:00"
   ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224": [
-   68,
-   "2026-11-22T08:47:16.635110+00:00"
+   70,
+   "2026-11-22T08:54:28.090580+00:00"
   ],
   "tg:hacker_news_feed/134038": [
    155,
-   "2026-11-22T08:47:16.635110+00:00"
+   "2026-11-22T08:54:28.090580+00:00"
   ],
   "tg:hacker_news_feed/134039": [
    153,
-   "2026-11-22T08:47:16.635110+00:00"
+   "2026-11-22T08:54:28.090580+00:00"
   ],
   "lobsters:32rhzb": [
    26,
-   "2026-11-22T08:47:16.635110+00:00"
+   "2026-11-22T08:54:28.090580+00:00"
   ]
  },
  "skips": {
@@ -11476,7 +11526,7 @@
   "Ars Technica": 2,
   "Simon Willison": 4,
   "Simon Willison RSS": 6,
-  "vc.ru": 15,
+  "vc.ru": 16,
   "SecurityWeek": 18,
   "Hi-Tech Mail": 50,
   "MIT Tech Review": 1,
@@ -11522,7 +11572,7 @@
   "Ars Technica": "2026-11-11T17:53:47.755359+00:00",
   "Simon Willison": "2026-11-21T21:11:24.894731+00:00",
   "Simon Willison RSS": "2026-11-09T05:54:14.907823+00:00",
-  "vc.ru": "2026-11-13T08:54:02.885975+00:00",
+  "vc.ru": "2026-11-22T08:55:23.450509+00:00",
   "SecurityWeek": "2026-11-13T15:54:47.415043+00:00",
   "Hi-Tech Mail": "2026-11-13T13:54:48.144614+00:00",
   "MIT Tech Review": "2026-11-02T13:54:53.911216+00:00",
@@ -13223,8 +13273,23 @@
    "message_id": 1708,
    "chat_id": -1004399820759,
    "iv_message_id": 1709
+  },
+  "121": {
+   "label": "vc.ru",
+   "pool": "editorial",
+   "topics": [
+    "TECH",
+    "APPLE"
+   ],
+   "title": "شکایت جدید VK از اپل برای بازپس‌گیری درآمدهای مسدود شده",
+   "url": "https://vc.ru/legal/3268620-vk-podala-isk-k-apple-na-vozvrat-sredstv?from=rss",
+   "at": "2026-11-22T08:54:32.190830+00:00",
+   "votes": {},
+   "message_id": 1710,
+   "chat_id": -1004399820759,
+   "iv_message_id": 1711
   }
  },
- "next_post_id": 121,
+ "next_post_id": 122,
  "last_update_id": 276814760
 }
