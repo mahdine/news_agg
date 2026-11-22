@@ -59,6 +59,11 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # 2026-11-22: تلگرام Instant View را روی پیام‌های بات سرکوب کرد
+          # (هر کانال، هر بات — فقط پیام‌های انسانی owner IV می‌گیرند)؛
+          # حالت button = دکمه‌ی «ترجمه کامل» مستقیم روی URL صفحه (webview
+          # درون اپ). وقتی IV برگرديد به text برگردان.
+          IV_DELIVERY_MODE: button
         run: python -m src.main
 
       - name: commit state

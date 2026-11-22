@@ -203,6 +203,35 @@ def iv_link(page_url: str) -> str:
     return f"https://t.me/iv?url={quote(page_url, safe='')}&rhash={IV_RHASH}"
 
 
+def iv_delivery_mode() -> str:
+    """حالت تحویل لینک «ترجمه کامل».
+
+    `text` (طراحی نهایی): لینک IV در متن پست — Instant View درون اپ.
+    `button` (حالت موقت): دکمه‌ی «ترجمه کامل» مستقیم روی URL صفحه — webview
+    درون اپ.
+
+    حالت button فالبک وقتی است که تلگرام Instant View را روی پیام‌های بات
+    سرکوب کند (مشاهده‌شده 2026-11-22: لینک t.me/iv به صفحه‌ی بینابینی
+    "OPEN LINK" بدل می‌شود و فقط پیام‌های انسانیِ خودِ owner کانال IV
+    می‌گیرند). چون button به IV وابسته نیست، هم‌زمانی که IV خاموش است هم
+    کار می‌کند و خواننده ترجمه‌ی کامل را درون اپ می‌بیند. با env
+    `IV_DELIVERY_MODE` تعیین می‌شود؛ پیش‌فرض text است.
+    """
+    return (os.environ.get("IV_DELIVERY_MODE", "text").strip().lower()) or "text"
+
+
+def delivery_link(page_url: str) -> str:
+    """لینک مقصدِ «ترجمه کامل» بر اساس حالت تحویل.
+
+    `text` → t.me/iv (Instant View درون اپ). `button` → خودِ URL صفحه
+    (webview درون اپ). همه‌جا که لینک «خواندن ترجمه کامل» می‌سازیم این را
+    صدا می‌زنیم تا سوییچ حالت یک‌جا و منسجم باشد.
+    """
+    if iv_delivery_mode() == "button":
+        return page_url
+    return iv_link(page_url)
+
+
 def vote_url(bot_username: str, pid: str, vote: str) -> str:
     return f"https://t.me/{bot_username}?start=fb:{pid}:{vote}"
 
@@ -277,7 +306,12 @@ def build_keyboard(
             [{"text": text, "url": vote_url(bot_username, pid, vote)} for text, vote in FEEDBACK_BUTTONS]
         )
     source_row = [{"text": "منبع", "url": item.url}]
-    if bot_username and not translate_target:
+    mode = iv_delivery_mode()
+    if translate_target and mode == "button":
+        # حالت موقت: دکمه مستقیم روی URL صفحه — webview درون اپ، همیشه
+        # کار می‌کند (IV روی پیام‌های بات سرکوب‌شده است؛ 2026-11-22).
+        source_row.append({"text": "ترجمه کامل", "url": translate_target})
+    elif bot_username and not translate_target:
         # فالبک: share dialog با لینک مقاله؛ کاربر بات را انتخاب می‌کند و
         # worker لینک را می‌کَنَد و ترجمه را خودکار شروع می‌کند.
         share_text = f"{TRANSLATE_SHARE_PREFIX} را برای {bot_username} بفرست"
@@ -495,14 +529,17 @@ def publish(
     لینک IV به پیام دوم خالص‌متنی می‌رود (publish_iv_message). در آن حالت یک
     خط راهنما «ترجمه‌ی کامل: پیام بعدی» به‌جای لینک می‌افتد.
     """
-    if translate_target and translate_in_text:
+    mode = iv_delivery_mode()
+    # حالت button: لینکی به متن نمی‌افتد (دکمه‌ی «ترجمه کامل» می‌افتد) و
+    # پیام دوم وجود ندارد، پس خط راهنما هم نمی‌افتد.
+    if translate_target and translate_in_text and mode == "text":
         t_url = iv_link(translate_target)
     else:
         t_url = ""
     text = build_message(
         item, title, body, tag, channel,
         translate_url=t_url,
-        translate_hint=bool(translate_target and not translate_in_text),
+        translate_hint=bool(translate_target and not translate_in_text and mode == "text"),
     )
     keyboard = build_keyboard(item, pid, bot_username, feedback, translate_target)
     has_image = bool(item.image_url)

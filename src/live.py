@@ -45,7 +45,7 @@ import yaml
 from . import article, images, ivpage, telegram, translate
 from .ivpage import PAGES_BASE
 from .state import State
-from .telegram import iv_link
+from .telegram import delivery_link
 
 log = logging.getLogger("live")
 
@@ -513,13 +513,13 @@ class LiveWorker:
         # اگر قبلا‌ ترجمه شده، فقط لینکِ موجود می‌رود — سهمیه نمی‌سوزد.
         cached = self._cache.get(key)
         if cached and cached.get("url") == url:
-            self._send(chat_id, _done_text(title, iv_link(page_url)), client, parse_mode="HTML")
+            self._send(chat_id, _done_text(title, delivery_link(page_url)), client, parse_mode="HTML")
             return
         # یا خط پست‌گذاری صفحه را پیش از پست ساخته و deploy کرده است
         # (حالت تک‌تپِ دکمه‌ی «ترجمه کامل»): یک HEAD — اگر ۲۰۰ است، ترجمه‌ی
         # دوباره نمی‌سازیم و همان صفحه را می‌فرستیم.
         if self._page_ready(page_url, client):
-            self._send(chat_id, _done_text(title, iv_link(page_url)), client, parse_mode="HTML")
+            self._send(chat_id, _done_text(title, delivery_link(page_url)), client, parse_mode="HTML")
             return
 
         # بلافاصله خبر بده کاربر؛ پیام لودینگ همین‌جا به متن نهایی تبدیل می‌شود.
@@ -563,14 +563,14 @@ class LiveWorker:
             if self._wait_ready(page_url, client):
                 self._finish(
                     chat_id, mid,
-                    _done_text(title, iv_link(page_url)),
+                    _done_text(title, delivery_link(page_url)),
                     client, parse_mode="HTML",
                 )
             else:
                 self._finish(
                     chat_id, mid,
                     "صفحه در حال انتشار است؛ اگر باز نشد یک دقیقه صبر کن:\n"
-                    + _done_text(title, iv_link(page_url)),
+                    + _done_text(title, delivery_link(page_url)),
                     client, parse_mode="HTML",
                 )
         except Exception:

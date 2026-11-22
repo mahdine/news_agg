@@ -644,19 +644,25 @@ def publish(
             continue
 
         try:
-            # پست‌های عکس‌دار با ترجمه‌ی آماده: دو پیام. کارت preview (یا هر
-            # media) لینک IV را از حالت درون‌اپ بیرون می‌فرستد (تست کانال
-            # 2026-11-22: L ❌ با preview / E ✅ بدون) — پس IV در پیام دوم
-            # خالص‌متنی می‌رود و پیام اول راهنما دارد.
+            # پست‌های عکس‌دار با ترجمه‌ی آماده:
+            # حالت text: دو پیام — کارت preview (یا هر media) لینک IV را از
+            # حالت درون‌اپ بیرون می‌فرستد (تست کانال 2026-11-22: L ❌ با
+            # preview / E ✅ بدون) — پس IV در پیام دوم خالص‌متنی می‌رود و
+            # پیام اول راهنما دارد.
+            # حالت button: یک پیام — دکمه‌ی «ترجمه کامل» مستقیم روی URL
+            # صفحه (webview درون اپ) روی همان پیام می‌افتد.
             if translate_target and item.image_url:
                 result = telegram.publish(
                     item, title, persian, token, channel, client, tag,
                     pid, bot_username, feedback, translate_target,
                     translate_in_text=False,
                 )
-                iv_result = telegram.publish_iv_message(
-                    token, channel, client, telegram.iv_link(translate_target)
-                )
+                if telegram.iv_delivery_mode() == "text":
+                    iv_result = telegram.publish_iv_message(
+                        token, channel, client, telegram.iv_link(translate_target)
+                    )
+                else:
+                    iv_result = None
             else:
                 result = telegram.publish(
                     item, title, persian, token, channel, client, tag,
