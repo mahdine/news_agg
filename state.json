@@ -1,8 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myql4ogqth2n",
-  "https://www.cnews.ru/news/line/2026-10-26_agrokompleks_ivanisovo",
-  "4db0cccaea6935a25125a7a26485c950",
   "https://mobile.slashdot.org/story/26/10/23/1916222/spacex-in-talks-to-access-80000-cell-sites-for-new-network?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "TheNextWeb=efaf2da12e8800f17bca5a422d255ba4",
   "hn:50237712",
@@ -2999,18 +2996,21 @@
   "hn:50596664",
   "hn:50597612",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2uzclecwf25",
-  "tg:hacker_news_feed/134043"
+  "tg:hacker_news_feed/134043",
+  "https://www.engadget.com/2310887/samsung-vs-lg-oled-tv-difference-between/",
+  "7e7iBHYVPxHG3B6PNUs4rR",
+  "hn:50596155"
  ],
  "posted": {
-  "viral": 924,
+  "viral": 925,
   "editorial": 1079
  },
  "recent_labels": [
-  "Hacker News Feed",
   "Hi-Tech Mail",
   "The Register",
   "Hacker News",
-  "Hacker News Feed"
+  "Hacker News Feed",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5016,23 +5016,22 @@
     "DATABASE"
    ],
    "at": "2026-11-22T12:04:36.318898+00:00"
+  },
+  {
+   "title": "ابزار Fast-Anything برای بهینه‌سازی عملکرد با بازنویسی انتخابی کد به Rust",
+   "url": "https://github.com/EL4CTEO/fast-anything",
+   "source": "github.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.03282,
+   "topics": [
+    "PROGRAMMING",
+    "RUST"
+   ],
+   "at": "2026-11-22T13:04:39.908709+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "connected",
-    "devices",
-    "finite",
-    "firmware",
-    "million",
-    "raises",
-    "secure",
-    "software",
-    "state"
-   ],
-   "at": "2026-11-11T12:53:59.100689+00:00"
-  },
   {
    "sig": [
     "down",
@@ -9152,17 +9151,20 @@
    ],
    "at": "2026-11-22T12:04:36.318898+00:00",
    "url": "jespino.github.io/gopgext"
+  },
+  {
+   "sig": [
+    "don",
+    "fast-anything",
+    "rewrite",
+    "rust",
+    "slow"
+   ],
+   "at": "2026-11-22T13:04:39.908709+00:00",
+   "url": "github.com/el4cteo/fast-anything"
   }
  ],
  "snapshots": {
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n25qivmljs2t": [
-   52,
-   "2026-11-13T03:53:45.876128+00:00"
-  ],
-  "hn:50476586": [
-   100,
-   "2026-11-13T03:53:45.876128+00:00"
-  ],
   "hn:50471668": [
    403,
    "2026-11-13T04:53:42.460573+00:00"
@@ -11543,10 +11545,6 @@
    89,
    "2026-11-22T10:53:55.405666+00:00"
   ],
-  "lobsters:32rhzb": [
-   43,
-   "2026-11-22T11:53:56.684850+00:00"
-  ],
   "tg:hacker_news_feed/134043": [
    159,
    "2026-11-22T11:53:56.684850+00:00"
@@ -11554,6 +11552,18 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2uzclecwf25": [
    66,
    "2026-11-22T11:53:56.684850+00:00"
+  ],
+  "lobsters:32rhzb": [
+   52,
+   "2026-11-22T12:53:55.952939+00:00"
+  ],
+  "hn:50597743": [
+   164,
+   "2026-11-22T12:53:55.952939+00:00"
+  ],
+  "hn:50596155": [
+   138,
+   "2026-11-22T12:53:55.952939+00:00"
   ]
  },
  "skips": {
@@ -11578,7 +11588,7 @@
   "Neowin": 1,
   "TechSpot": 1,
   "9to5Mac": 2,
-  "Engadget": 1,
+  "Engadget": 2,
   "antirez": 1,
   "The Verge": 1,
   "Hacker News Feed": 15
@@ -11599,7 +11609,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 189,
+  "Hacker News": 190,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11645,7 +11655,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-22T11:04:57.693003+00:00",
+  "Hacker News": "2026-11-22T13:04:39.908818+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -13448,8 +13458,23 @@
    "message_id": 1726,
    "chat_id": -1004399820759,
    "iv_message_id": 1727
+  },
+  "127": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "PROGRAMMING",
+    "RUST"
+   ],
+   "title": "ابزار Fast-Anything برای بهینه‌سازی عملکرد با بازنویسی انتخابی کد به Rust",
+   "url": "https://github.com/EL4CTEO/fast-anything",
+   "at": "2026-11-22T12:54:00.744551+00:00",
+   "votes": {},
+   "message_id": 1728,
+   "chat_id": -1004399820759,
+   "iv_message_id": 1729
   }
  },
- "next_post_id": 127,
+ "next_post_id": 128,
  "last_update_id": 276814760
 }
