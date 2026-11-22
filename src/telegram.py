@@ -74,15 +74,23 @@ def build_message(
     body: str,
     tag: str = "",
     channel: str = "",
+    translate_url: str = "",
 ) -> str:
-    """تیتر، متن، خط منبع، و ردیف هشتگ و امضا."""
+    """تیتر، متن، خط منبع، و ردیف هشتگ و امضا.
+
+    `translate_url`: لینک Instant Viewِ ترجمه‌ی کامل (صفحه‌ی پیش‌ساخته). در
+    متنِ پست می‌افتد نه دکمه — لینک داخل متن است که تلگرام را مجبور به باز
+    شدن IV درون اپ می‌کند؛ همان لینک در دکمه‌ی URL در مرورگر بیرون باز
+    می‌شود (مشاهده‌شده 2026-11-22).
+    """
     source = html.escape(item.publisher or item.label)
     if item.publisher and item.publisher != item.label:
         source += f"  ·  via {html.escape(item.label)}"
 
     footer = "  ".join(part for part in (tag, _handle(channel)) if part)
     badges = _badges(item)
-    fixed = len(source) + len(footer) + len(title) + len(badges) + 12
+    translate_line = f'📄 <a href="{translate_url}">ترجمه‌ی کامل</a>' if translate_url else ""
+    fixed = len(source) + len(footer) + len(title) + len(badges) + len(translate_line) + 12
     body = body.strip()
     if len(body) > MAX_TEXT - fixed:
         body = body[: MAX_TEXT - fixed].rsplit(" ", 1)[0] + "…"
@@ -94,6 +102,8 @@ def build_message(
         # متن داخلی است (فارسی + ایموجی)، نه ورودی کاربر — escape ندارد.
         parts.append(badges)
     parts.append(html.escape(body))
+    if translate_line:
+        parts.append(translate_line)
     parts.append(f"<i>{source}</i>")
     if footer:
         parts.append(html.escape(footer))
@@ -247,9 +257,10 @@ def build_keyboard(
     در Ask HN مقاله و بحث یکی‌اند و دکمه‌ی دیدگاه‌ها تکرار، پس جا نمی‌افتد.
     همه url هستند — backend نمی‌خواهند.
 
-    «ترجمه کامل»: اگر صفحه‌ی ترجمه‌شده deploy شده (translate_target)، با یک
-    tap Instant View باز می‌شود؛ وگرنه فالبک = share dialog که پیام را به
-    چت بات می‌رساند و worker ترجمه را خودکار شروع می‌کند.
+    «ترجمه کامل»: اگر صفحه‌ی ترجمه‌شده deploy شده (translate_target)، لینک
+    IV به متن خودِ پست می‌افتد (build_message) و دکمه‌ای نمی‌افتد — لینک
+    داخل متن است که IV درون اپ باز می‌کند. وگرنه فالبک = دکمه‌ی share dialog
+    که پیام را به چت بات می‌رساند و worker ترجمه را خودکار شروع می‌کند.
     """
     rows = []
     if feedback and pid and bot_username:
@@ -257,15 +268,11 @@ def build_keyboard(
             [{"text": text, "url": vote_url(bot_username, pid, vote)} for text, vote in FEEDBACK_BUTTONS]
         )
     source_row = [{"text": "منبع", "url": item.url}]
-    if bot_username:
-        if translate_target:
-            # حالت اصلی: صفحه آماده روی Pages است — یک tap، داخل تلگرام.
-            source_row.append({"text": "ترجمه کامل", "url": iv_link(translate_target)})
-        else:
-            # فالبک: share dialog با لینک مقاله؛ کاربر بات را انتخاب می‌کند و
-            # worker لینک را می‌کَنَد و ترجمه را خودکار شروع می‌کند.
-            share_text = f"{TRANSLATE_SHARE_PREFIX} را برای {bot_username} بفرست"
-            source_row.append({"text": "ترجمه کامل", "url": share_url(item.url, share_text)})
+    if bot_username and not translate_target:
+        # فالبک: share dialog با لینک مقاله؛ کاربر بات را انتخاب می‌کند و
+        # worker لینک را می‌کَنَد و ترجمه را خودکار شروع می‌کند.
+        share_text = f"{TRANSLATE_SHARE_PREFIX} را برای {bot_username} بفرست"
+        source_row.append({"text": "ترجمه کامل", "url": share_url(item.url, share_text)})
     if item.discussion_url and item.discussion_url != item.url:
         source_row.append({"text": "دیدگاه‌ها", "url": item.discussion_url})
     rows.append(source_row)
@@ -472,7 +479,10 @@ def publish(
     خلاصه‌های ما بلندترند. link preview همان عکس را بزرگ نشان می‌دهد بدون آن
     محدودیت. result تلگرام برمی‌گردد (message_id برای نگاشت واکنش‌ها).
     """
-    text = build_message(item, title, body, tag, channel)
+    text = build_message(
+        item, title, body, tag, channel,
+        translate_url=iv_link(translate_target) if translate_target else "",
+    )
     keyboard = build_keyboard(item, pid, bot_username, feedback, translate_target)
     has_image = bool(item.image_url)
     if has_image:

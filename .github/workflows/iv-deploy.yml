@@ -8,6 +8,10 @@ on:
     branches: [main]
     paths:
       - "iv/**"
+  # خط پست‌گذاری صفحه را از داخل همان workflow push می‌کند و pushِ workflow
+  # روی on:pushِ workflow‌های دیگر اثر ندارد (GitHub برای جلوگیری از حلقه) —
+  # پس main.py بعد از push، همین workflow را workflow_dispatch می‌کند.
+  workflow_dispatch:
 
 permissions:
   contents: read

@@ -4,9 +4,11 @@ import argparse
 import html
 import logging
 import os
+import re
 import subprocess
 import sys
 import time
+import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -406,8 +408,49 @@ def _commit_iv(rel: str, page: str, message: str) -> bool:
     return False
 
 
+def _repo_slug() -> str:
+    """owner/repo از remote URL — برای API‌یای که آدرس مخزن می‌خواهند."""
+    try:
+        r = _git(ROOT, "remote", "get-url", "origin")
+        m = re.search(r"[:/]([\w.-]+)/([\w.-]+?)(?:\.git)?\s*$", r.stdout.strip())
+        return f"{m.group(1)}/{m.group(2)}" if m else ""
+    except Exception:
+        return ""
+
+
+def _dispatch_iv_deploy() -> None:
+    """iv-deploy.yml را صریح بیدار می‌کند — فقط در Actions لازم است.
+
+    push از داخل یک workflow به همان branch، workflowهای دیگرِ on:push را
+    بیدار نمی‌کند (GitHub برای جلوگیری از حلقه push‌های ناشی از workflow را
+    suppress می‌کند — مشاهده‌شده 2026-11-22: صفحات iv از Actions push شدند
+    ولی iv-deploy اجرا نشد). push از بیرون Actions (worker) این محدودیت را
+    ندارد. GITHUB_TOKEN داخل Actions scope‌ی workflow دارد؛ بیرون از Actions
+    (container) توکن یا نیست یا PAT بدون Actions است → سکوت می‌کنیم.
+    """
+    token = os.environ.get("GITHUB_TOKEN", "")
+    slug = _repo_slug()
+    if not token or not slug:
+        return
+    req = urllib.request.Request(
+        f"https://api.github.com/repos/{slug}/actions/workflows/iv-deploy.yml/dispatches",
+        method="POST",
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github+json",
+        },
+        data=b'{"ref": "main"}',
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            if resp.status not in (200, 204):
+                log.warning("dispatch iv-deploy: HTTP %s", resp.status)
+    except Exception as exc:
+        log.warning("dispatch iv-deploy نشد: %s", str(exc)[:120])
+
+
 def _wait_page_ready(client: httpx.Client, page_url: str,
-                     timeout: int = 240, interval: int = 15) -> bool:
+                     timeout: int = 300, interval: int = 15) -> bool:
     """deploy Pages چند دقیقه طول می‌کشد؛ تا 200 شدن صفحه صبر می‌کنیم تا
     دکمه‌ی «ترجمه کامل» با کلیکِ همان لحظه، صفحه‌ی آماده ببیند (الگوی worker).
     """
@@ -450,6 +493,9 @@ def _pretranslate(item: Item, pid: str, full: str, html_doc: str, title: str,
     rel = f"iv/{ivpage.page_filename(pid)}"
     if not _commit_iv(rel, page, f"iv: ترجمه‌ی کامل {pid}"):
         return ""
+    # در Actions، pushِ خودش iv-deploy را بیدار نمی‌کند (محدودیت GitHub) —
+    # deploy صریح request می‌شود تا صفحه پیش از پست live شود.
+    _dispatch_iv_deploy()
     page_url = ivpage.page_url(ivpage.PAGES_BASE, pid)
     return page_url if _wait_page_ready(client, page_url) else ""
 
