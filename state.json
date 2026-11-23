@@ -1,6 +1,5 @@
 {
  "seen": [
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myrqbfixqk2h",
   "hn:50242734",
   "https://www.theverge.com/?p=1018434",
   "https://www.engadget.com/2296637/apple-updates-the-ipad-mini-with-an-a20-processor-and-oled-display/",
@@ -2999,18 +2998,19 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2xdwyzku32c",
   "tg:hacker_news_feed/134068",
   "tg:hacker_news_feed/134069",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2wrigc73l2t"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2wrigc73l2t",
+  "hn:50609079"
  ],
  "posted": {
-  "viral": 939,
+  "viral": 940,
   "editorial": 1080
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "404 Media",
   "Hacker News Feed",
-  "404 Media"
+  "404 Media",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5223,31 +5223,22 @@
     "CHATBOT"
    ],
    "at": "2026-11-23T11:04:52.990371+00:00"
+  },
+  {
+   "title": "جمع‌آوری پروفایل رفتاری بازیکنان GTA 6 توسط سیستم Lens",
+   "url": "https://huijzer.xyz/posts/174/gta-6-building-personal-behavioral-profile-for-eve",
+   "source": "huijzer.xyz",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.07214,
+   "topics": [
+    "SECURITY",
+    "PRIVACY"
+   ],
+   "at": "2026-11-23T12:04:53.647347+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "7900-series",
-    "asrock",
-    "bricked",
-    "cards",
-    "disastrous",
-    "explanation",
-    "firmware",
-    "gpu",
-    "gpus",
-    "killed",
-    "offers",
-    "previous",
-    "quietly",
-    "radeon",
-    "releases",
-    "rolls",
-    "update"
-   ],
-   "at": "2026-11-11T16:54:07.259819+00:00"
-  },
   {
    "sig": [
     "memoriam",
@@ -9371,25 +9362,22 @@
    ],
    "at": "2026-11-23T11:04:52.990371+00:00",
    "url": "404media.co/a-man-and-his-muse-ai-agent-sue-meta"
+  },
+  {
+   "sig": [
+    "behavioral",
+    "building",
+    "every",
+    "gta",
+    "personal",
+    "player",
+    "profile"
+   ],
+   "at": "2026-11-23T12:04:53.647347+00:00",
+   "url": "huijzer.xyz/posts/174/gta-6-building-personal-behavioral-profile-for-eve"
   }
  ],
  "snapshots": {
-  "hn:50488664": [
-   83,
-   "2026-11-14T06:53:41.664151+00:00"
-  ],
-  "hn:50488470": [
-   223,
-   "2026-11-14T06:53:41.664151+00:00"
-  ],
-  "hn:50488464": [
-   161,
-   "2026-11-14T06:53:41.664151+00:00"
-  ],
-  "hn:50492950": [
-   66,
-   "2026-11-14T06:53:41.664151+00:00"
-  ],
   "hn:50488835": [
    141,
    "2026-11-14T07:53:45.886349+00:00"
@@ -11726,25 +11714,9 @@
    161,
    "2026-11-23T09:53:54.450973+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2wrigc73l2t": [
-   237,
-   "2026-11-23T10:53:57.254545+00:00"
-  ],
-  "tg:hacker_news_feed/134061": [
-   155,
-   "2026-11-23T10:53:57.254545+00:00"
-  ],
-  "tg:hacker_news_feed/134062": [
-   181,
-   "2026-11-23T10:53:57.254545+00:00"
-  ],
   "hn:50604540": [
    86,
    "2026-11-23T09:53:54.450973+00:00"
-  ],
-  "hn:50606499": [
-   159,
-   "2026-11-23T10:53:57.254545+00:00"
   ],
   "tg:hacker_news_feed/134068": [
    161,
@@ -11754,25 +11726,57 @@
    150,
    "2026-11-23T09:53:54.450973+00:00"
   ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2wrigc73l2t": [
+   237,
+   "2026-11-23T10:53:57.254545+00:00"
+  ],
   "hn:50605445": [
    85,
    "2026-11-23T10:53:57.254545+00:00"
   ],
+  "tg:hacker_news_feed/134061": [
+   155,
+   "2026-11-23T11:53:59.193423+00:00"
+  ],
+  "tg:hacker_news_feed/134062": [
+   182,
+   "2026-11-23T11:53:59.193423+00:00"
+  ],
+  "hn:50606499": [
+   172,
+   "2026-11-23T11:53:59.193423+00:00"
+  ],
   "hn:50609079": [
-   228,
-   "2026-11-23T10:53:57.254545+00:00"
+   234,
+   "2026-11-23T11:53:59.193423+00:00"
   ],
   "hn:50607668": [
-   287,
-   "2026-11-23T10:53:57.254545+00:00"
+   373,
+   "2026-11-23T11:53:59.193423+00:00"
   ],
   "lobsters:l8u1tj": [
-   32,
-   "2026-11-23T10:53:57.254545+00:00"
+   39,
+   "2026-11-23T11:53:59.193423+00:00"
   ],
   "tg:hacker_news_feed/134070": [
-   173,
-   "2026-11-23T10:53:57.254545+00:00"
+   174,
+   "2026-11-23T11:53:59.193423+00:00"
+  ],
+  "hn:50609685": [
+   275,
+   "2026-11-23T11:53:59.193423+00:00"
+  ],
+  "hn:50607194": [
+   263,
+   "2026-11-23T11:53:59.193423+00:00"
+  ],
+  "hn:50605699": [
+   167,
+   "2026-11-23T11:53:59.193423+00:00"
+  ],
+  "tg:hacker_news_feed/134071": [
+   156,
+   "2026-11-23T11:53:59.193423+00:00"
   ]
  },
  "skips": {
@@ -11818,7 +11822,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 196,
+  "Hacker News": 197,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11864,7 +11868,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-23T07:53:55.260145+00:00",
+  "Hacker News": "2026-11-23T12:04:53.647466+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -13893,8 +13897,22 @@
    "votes": {},
    "message_id": 1748,
    "chat_id": -1004399820759
+  },
+  "143": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "SECURITY",
+    "PRIVACY"
+   ],
+   "title": "جمع‌آوری پروفایل رفتاری بازیکنان GTA 6 توسط سیستم Lens",
+   "url": "https://huijzer.xyz/posts/174/gta-6-building-personal-behavioral-profile-for-eve",
+   "at": "2026-11-23T11:54:01.210425+00:00",
+   "votes": {},
+   "message_id": 1749,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 143,
+ "next_post_id": 144,
  "last_update_id": 276814760
 }
