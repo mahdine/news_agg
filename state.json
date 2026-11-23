@@ -1,8 +1,5 @@
 {
  "seen": [
-  "hn:50242734",
-  "https://www.theverge.com/?p=1018434",
-  "https://www.engadget.com/2296637/apple-updates-the-ipad-mini-with-an-a20-processor-and-oled-display/",
   "0c6d2865e641693953d7e62e613dfb43",
   "https://www.theverge.com/?p=1017801",
   "https://9to5mac.com/?p=1075705",
@@ -2999,18 +2996,21 @@
   "tg:hacker_news_feed/134068",
   "tg:hacker_news_feed/134069",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2wrigc73l2t",
-  "hn:50609079"
+  "hn:50609079",
+  "hn:50609252",
+  "tg:hacker_news_feed/134070",
+  "tg:hacker_news_feed/134071"
  ],
  "posted": {
-  "viral": 940,
+  "viral": 941,
   "editorial": 1080
  },
  "recent_labels": [
-  "Hacker News",
   "404 Media",
   "Hacker News Feed",
   "404 Media",
-  "Hacker News"
+  "Hacker News",
+  "Hacker News Feed"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5236,17 +5236,22 @@
     "PRIVACY"
    ],
    "at": "2026-11-23T12:04:53.647347+00:00"
+  },
+  {
+   "title": "تلاش جمعی هوش مصنوعی برای حل مسئله پیچیده P در برابر NP",
+   "url": "https://pequalnp.com/",
+   "source": "pequalnp.com",
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "score": 0.24917,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-23T13:05:04.402151+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "memoriam",
-    "peters",
-    "tim"
-   ],
-   "at": "2026-11-11T16:54:13.513377+00:00"
-  },
   {
    "sig": [
     "browser",
@@ -9375,17 +9380,19 @@
    ],
    "at": "2026-11-23T12:04:53.647347+00:00",
    "url": "huijzer.xyz/posts/174/gta-6-building-personal-behavioral-profile-for-eve"
+  },
+  {
+   "sig": [
+    "agent",
+    "solve",
+    "swarm",
+    "trying"
+   ],
+   "at": "2026-11-23T13:05:04.402151+00:00",
+   "url": "pequalnp.com"
   }
  ],
  "snapshots": {
-  "hn:50488835": [
-   141,
-   "2026-11-14T07:53:45.886349+00:00"
-  ],
-  "hn:50489678": [
-   197,
-   "2026-11-14T08:53:40.013648+00:00"
-  ],
   "hn:50489641": [
    3845,
    "2026-11-14T08:53:40.013648+00:00"
@@ -11734,49 +11741,57 @@
    85,
    "2026-11-23T10:53:57.254545+00:00"
   ],
-  "tg:hacker_news_feed/134061": [
-   155,
-   "2026-11-23T11:53:59.193423+00:00"
-  ],
-  "tg:hacker_news_feed/134062": [
-   182,
-   "2026-11-23T11:53:59.193423+00:00"
-  ],
-  "hn:50606499": [
-   172,
-   "2026-11-23T11:53:59.193423+00:00"
-  ],
   "hn:50609079": [
    234,
-   "2026-11-23T11:53:59.193423+00:00"
-  ],
-  "hn:50607668": [
-   373,
-   "2026-11-23T11:53:59.193423+00:00"
-  ],
-  "lobsters:l8u1tj": [
-   39,
-   "2026-11-23T11:53:59.193423+00:00"
-  ],
-  "tg:hacker_news_feed/134070": [
-   174,
-   "2026-11-23T11:53:59.193423+00:00"
-  ],
-  "hn:50609685": [
-   275,
-   "2026-11-23T11:53:59.193423+00:00"
-  ],
-  "hn:50607194": [
-   263,
    "2026-11-23T11:53:59.193423+00:00"
   ],
   "hn:50605699": [
    167,
    "2026-11-23T11:53:59.193423+00:00"
   ],
+  "tg:hacker_news_feed/134061": [
+   155,
+   "2026-11-23T12:53:48.848907+00:00"
+  ],
+  "tg:hacker_news_feed/134062": [
+   184,
+   "2026-11-23T12:53:48.848907+00:00"
+  ],
+  "hn:50606499": [
+   191,
+   "2026-11-23T12:53:48.848907+00:00"
+  ],
+  "hn:50607668": [
+   471,
+   "2026-11-23T12:53:48.848907+00:00"
+  ],
+  "lobsters:l8u1tj": [
+   45,
+   "2026-11-23T12:53:48.848907+00:00"
+  ],
+  "tg:hacker_news_feed/134070": [
+   177,
+   "2026-11-23T12:53:48.848907+00:00"
+  ],
+  "hn:50609685": [
+   487,
+   "2026-11-23T12:53:48.848907+00:00"
+  ],
+  "hn:50607194": [
+   299,
+   "2026-11-23T12:53:48.848907+00:00"
+  ],
   "tg:hacker_news_feed/134071": [
-   156,
-   "2026-11-23T11:53:59.193423+00:00"
+   160,
+   "2026-11-23T12:53:48.848907+00:00"
+  ],
+  "hn:50609252": [
+   103,
+   "2026-11-23T12:53:48.848907+00:00"
+  ],
+  "tg:hacker_news_feed/134072": [
+   174,
+   "2026-11-23T12:53:48.848907+00:00"
   ]
  },
  "skips": {
@@ -11785,7 +11800,7 @@
   "Wired": 30,
   "TechRadar": 9,
   "Lobsters": 8,
-  "Hacker News": 61,
+  "Hacker News": 62,
   "The Next Web": 1,
   "404 Media": 24,
   "Emily M. Bender": 8,
@@ -11804,7 +11819,7 @@
   "Engadget": 2,
   "antirez": 1,
   "The Verge": 2,
-  "Hacker News Feed": 20
+  "Hacker News Feed": 21
  },
  "posts_by_label": {
   "Engadget": 45,
@@ -11850,7 +11865,7 @@
   "Rest of World": 1,
   "LangChain Blog": 1,
   "GitHub Trending": 14,
-  "Hacker News Feed": 31
+  "Hacker News Feed": 32
  },
  "last_post": {
   "Engadget": "2026-11-14T13:54:06.399584+00:00",
@@ -11896,7 +11911,7 @@
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
   "GitHub Trending": "2026-11-22T05:58:13.868736+00:00",
-  "Hacker News Feed": "2026-11-23T10:05:01.793512+00:00"
+  "Hacker News Feed": "2026-11-23T13:05:04.402290+00:00"
  },
  "posts": {
   "1": {
@@ -13911,8 +13926,22 @@
    "votes": {},
    "message_id": 1749,
    "chat_id": -1004399820759
+  },
+  "144": {
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "تلاش جمعی هوش مصنوعی برای حل مسئله پیچیده P در برابر NP",
+   "url": "https://pequalnp.com/",
+   "at": "2026-11-23T12:54:13.995057+00:00",
+   "votes": {},
+   "message_id": 1750,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 144,
+ "next_post_id": 145,
  "last_update_id": 276814760
 }
