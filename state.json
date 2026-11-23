@@ -1,7 +1,5 @@
 {
  "seen": [
-  "7zNGrK5ARbKcmbogZaWmQ3",
-  "https://9to5mac.com/?p=1075697",
   "https://www.engadget.com/2294291/built-in-android-phone-app-most-users-never-use/",
   "https://www.techspot.com/news/114332-phantom-blade-zero-pc-requirements-reveal-145gb-install.html",
   "TheNextWeb=a8f31f19c965106a8803a8c233b5fb0f",
@@ -2999,18 +2997,20 @@
   "hn:50606192",
   "hn:50604988",
   "hn:50607261",
-  "hn:50607498"
+  "hn:50607498",
+  "tg:hacker_news_feed/134064",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2xdwyzku32c"
  ],
  "posted": {
-  "viral": 936,
+  "viral": 937,
   "editorial": 1080
  },
  "recent_labels": [
-  "404 Media",
   "Hacker News Feed",
   "Hacker News",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5185,27 +5185,22 @@
     "SECURITY"
    ],
    "at": "2026-11-23T07:53:55.260034+00:00"
+  },
+  {
+   "title": "استفاده وزارت دادگستری آمریکا از ابزار تشخیص هوش مصنوعی علیه وکلا",
+   "url": "https://www.404media.co/the-department-of-justice-is-using-ai-detector-pangram-against-defense-attorneys/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.11714,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-23T09:04:54.191621+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "advanced",
-    "backlash",
-    "chatgpt",
-    "favorite",
-    "furious",
-    "modes",
-    "openai",
-    "retiring",
-    "sparking",
-    "standard",
-    "user",
-    "users",
-    "voice"
-   ],
-   "at": "2026-11-11T15:55:04.484240+00:00"
-  },
   {
    "sig": [
     "hyper-realistic",
@@ -9326,13 +9321,21 @@
    ],
    "at": "2026-11-23T07:53:55.260034+00:00",
    "url": "facebook.com/shugvermonte/posts/the-deflock-america-group-with-over-840k-members-has-been-suspended-by-meta-what/10165140280736049"
+  },
+  {
+   "sig": [
+    "case",
+    "chatgpt",
+    "defense",
+    "the-departme",
+    "turned",
+    "www.404media.co"
+   ],
+   "at": "2026-11-23T09:04:54.191621+00:00",
+   "url": "404media.co/the-department-of-justice-is-using-ai-detector-pangram-against-defense-attorneys"
   }
  ],
  "snapshots": {
-  "hn:50487469": [
-   177,
-   "2026-11-14T05:53:44.297230+00:00"
-  ],
   "hn:50487228": [
    319,
    "2026-11-14T05:53:44.297230+00:00"
@@ -11645,89 +11648,93 @@
    278,
    "2026-11-23T06:54:02.621184+00:00"
   ],
-  "hn:50604472": [
-   152,
-   "2026-11-23T07:53:53.245433+00:00"
-  ],
-  "hn:50604314": [
-   387,
-   "2026-11-23T07:53:53.245433+00:00"
-  ],
   "hn:50603465": [
    164,
-   "2026-11-23T07:53:53.245433+00:00"
-  ],
-  "lobsters:leqwqu": [
-   73,
    "2026-11-23T07:53:53.245433+00:00"
   ],
   "lobsters:wc8fla": [
    46,
    "2026-11-23T07:53:53.245433+00:00"
   ],
-  "tg:hacker_news_feed/134052": [
-   165,
-   "2026-11-23T07:53:53.245433+00:00"
-  ],
-  "tg:hacker_news_feed/134054": [
-   163,
-   "2026-11-23T07:53:53.245433+00:00"
-  ],
-  "tg:hacker_news_feed/134055": [
-   176,
-   "2026-11-23T07:53:53.245433+00:00"
-  ],
-  "tg:hacker_news_feed/134056": [
-   161,
-   "2026-11-23T07:53:53.245433+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2wrigc73l2t": [
-   222,
-   "2026-11-23T07:53:53.245433+00:00"
-  ],
-  "hn:50604123": [
-   175,
-   "2026-11-23T07:53:53.245433+00:00"
-  ],
   "hn:50603730": [
    66,
-   "2026-11-23T07:53:53.245433+00:00"
-  ],
-  "tg:hacker_news_feed/134061": [
-   153,
-   "2026-11-23T07:53:53.245433+00:00"
-  ],
-  "tg:hacker_news_feed/134062": [
-   166,
-   "2026-11-23T07:53:53.245433+00:00"
-  ],
-  "tg:hacker_news_feed/134064": [
-   164,
-   "2026-11-23T07:53:53.245433+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2xdwyzku32c": [
-   164,
    "2026-11-23T07:53:53.245433+00:00"
   ],
   "hn:50607498": [
    198,
    "2026-11-23T07:53:53.245433+00:00"
   ],
+  "hn:50604472": [
+   162,
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
+  "hn:50604314": [
+   396,
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
+  "lobsters:leqwqu": [
+   81,
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
+  "tg:hacker_news_feed/134052": [
+   167,
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
+  "tg:hacker_news_feed/134054": [
+   165,
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
+  "tg:hacker_news_feed/134055": [
+   178,
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
+  "tg:hacker_news_feed/134056": [
+   161,
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2wrigc73l2t": [
+   229,
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
+  "hn:50604123": [
+   187,
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
+  "tg:hacker_news_feed/134061": [
+   153,
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
+  "tg:hacker_news_feed/134062": [
+   169,
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
+  "tg:hacker_news_feed/134064": [
+   164,
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2xdwyzku32c": [
+   187,
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
   "hn:50604540": [
-   80,
-   "2026-11-23T07:53:53.245433+00:00"
+   84,
+   "2026-11-23T08:53:59.282503+00:00"
   ],
   "hn:50606499": [
-   81,
-   "2026-11-23T07:53:53.245433+00:00"
+   118,
+   "2026-11-23T08:53:59.282503+00:00"
   ],
   "tg:hacker_news_feed/134068": [
    157,
-   "2026-11-23T07:53:53.245433+00:00"
+   "2026-11-23T08:53:59.282503+00:00"
   ],
   "tg:hacker_news_feed/134069": [
    150,
-   "2026-11-23T07:53:53.245433+00:00"
+   "2026-11-23T08:53:59.282503+00:00"
+  ],
+  "hn:50605445": [
+   77,
+   "2026-11-23T08:53:59.282503+00:00"
   ]
  },
  "skips": {
@@ -11755,7 +11762,7 @@
   "Engadget": 2,
   "antirez": 1,
   "The Verge": 2,
-  "Hacker News Feed": 18
+  "Hacker News Feed": 19
  },
  "posts_by_label": {
   "Engadget": 45,
@@ -11763,7 +11770,7 @@
   "Wired": 27,
   "TechRadar": 37,
   "Slashdot": 32,
-  "404 Media": 56,
+  "404 Media": 57,
   "Xe Iaso": 5,
   "The Verge": 22,
   "Cloudflare": 1,
@@ -11809,7 +11816,7 @@
   "Wired": "2026-11-17T10:53:44.587771+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-22T17:04:58.050897+00:00",
-  "404 Media": "2026-11-23T04:05:05.958588+00:00",
+  "404 Media": "2026-11-23T09:04:54.191733+00:00",
   "Xe Iaso": "2026-11-18T17:53:57.797084+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -13807,8 +13814,22 @@
    "votes": {},
    "message_id": 1745,
    "chat_id": -1004399820759
+  },
+  "140": {
+   "label": "404 Media",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "استفاده وزارت دادگستری آمریکا از ابزار تشخیص هوش مصنوعی علیه وکلا",
+   "url": "https://www.404media.co/the-department-of-justice-is-using-ai-detector-pangram-against-defense-attorneys/",
+   "at": "2026-11-23T08:54:02.542583+00:00",
+   "votes": {},
+   "message_id": 1746,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 140,
+ "next_post_id": 141,
  "last_update_id": 276814760
 }
