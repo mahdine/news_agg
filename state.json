@@ -1,6 +1,5 @@
 {
  "seen": [
-  "lobsters:xzp4m0",
   "lobsters:olnqh2",
   "hn:50242870",
   "https://www.infoq.com/news/2026/10/java-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2999,18 +2998,19 @@
   "hn:50610334",
   "tg:hacker_news_feed/134072",
   "hn:50609685",
-  "hn:50610830"
+  "hn:50610830",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ydrcvpn52i"
  ],
  "posted": {
-  "viral": 943,
+  "viral": 944,
   "editorial": 1080
  },
  "recent_labels": [
-  "404 Media",
   "Hacker News",
   "Hacker News Feed",
   "Hacker News Feed",
-  "Hacker News"
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5275,18 +5275,22 @@
     "STARTUP"
    ],
    "at": "2026-11-23T15:05:25.565905+00:00"
+  },
+  {
+   "title": "گسترش ابزار متن‌باز ARTEX برای حملات سایبری خودکار با استفاده از هوش مصنوعی",
+   "url": "https://www.404media.co/the-code-is-already-copied-everywhere-the-ai-hacking-tool-causing-havoc-around-the-world-artex-github/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.24624,
+   "topics": [
+    "SECURITY",
+    "OPENSOURCE"
+   ],
+   "at": "2026-11-23T16:09:21.050155+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "controllable",
-    "photographs",
-    "physically",
-    "relighting"
-   ],
-   "at": "2026-11-11T17:53:53.446441+00:00"
-  },
   {
    "sig": [
     "benchmarking",
@@ -9412,25 +9416,31 @@
    ],
    "at": "2026-11-23T15:05:25.565905+00:00",
    "url": "theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness"
+  },
+  {
+   "sig": [
+    "anyone",
+    "artex",
+    "author",
+    "distributing",
+    "down",
+    "download",
+    "framework",
+    "hacking",
+    "may",
+    "media",
+    "multiple",
+    "original",
+    "people",
+    "spoke",
+    "taken",
+    "tool"
+   ],
+   "at": "2026-11-23T16:09:21.050155+00:00",
+   "url": "404media.co/the-code-is-already-copied-everywhere-the-ai-hacking-tool-causing-havoc-around-the-world-artex-github"
   }
  ],
  "snapshots": {
-  "hn:50496602": [
-   138,
-   "2026-11-14T14:53:41.283136+00:00"
-  ],
-  "hn:50494696": [
-   155,
-   "2026-11-14T15:53:55.985854+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2bleyuhad2h": [
-   152,
-   "2026-11-14T16:53:41.571822+00:00"
-  ],
-  "hn:50496976": [
-   129,
-   "2026-11-14T16:53:41.571822+00:00"
-  ],
   "hn:50496811": [
    79,
    "2026-11-14T16:53:41.571822+00:00"
@@ -11775,10 +11785,6 @@
    26,
    "2026-11-23T13:53:48.350169+00:00"
   ],
-  "hn:50607668": [
-   617,
-   "2026-11-23T14:53:57.802562+00:00"
-  ],
   "lobsters:l8u1tj": [
    51,
    "2026-11-23T14:53:57.802562+00:00"
@@ -11787,33 +11793,53 @@
    363,
    "2026-11-23T14:53:57.802562+00:00"
   ],
-  "tg:hacker_news_feed/134074": [
-   158,
-   "2026-11-23T14:53:57.802562+00:00"
-  ],
-  "hn:50611588": [
-   2229,
-   "2026-11-23T14:53:57.802562+00:00"
-  ],
   "hn:50610830": [
    167,
    "2026-11-23T14:53:57.802562+00:00"
   ],
+  "hn:50607668": [
+   674,
+   "2026-11-23T15:54:03.360357+00:00"
+  ],
+  "tg:hacker_news_feed/134074": [
+   158,
+   "2026-11-23T15:54:03.360357+00:00"
+  ],
+  "hn:50611588": [
+   3917,
+   "2026-11-23T15:54:03.360357+00:00"
+  ],
   "hn:50610318": [
-   111,
-   "2026-11-23T14:53:57.802562+00:00"
+   179,
+   "2026-11-23T15:54:03.360357+00:00"
   ],
   "tg:hacker_news_feed/134075": [
-   442,
-   "2026-11-23T14:53:57.802562+00:00"
+   482,
+   "2026-11-23T15:54:03.360357+00:00"
   ],
   "tg:hacker_news_feed/134076": [
-   154,
-   "2026-11-23T14:53:57.802562+00:00"
+   158,
+   "2026-11-23T15:54:03.360357+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ydrcvpn52i": [
-   77,
-   "2026-11-23T14:53:57.802562+00:00"
+   135,
+   "2026-11-23T15:54:03.360357+00:00"
+  ],
+  "hn:50610743": [
+   161,
+   "2026-11-23T15:54:03.360357+00:00"
+  ],
+  "tg:hacker_news_feed/134077": [
+   152,
+   "2026-11-23T15:54:03.360357+00:00"
+  ],
+  "tg:hacker_news_feed/134078": [
+   150,
+   "2026-11-23T15:54:03.360357+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yffbacvk2g": [
+   232,
+   "2026-11-23T15:54:03.360357+00:00"
   ]
  },
  "skips": {
@@ -11849,7 +11875,7 @@
   "Wired": 27,
   "TechRadar": 37,
   "Slashdot": 32,
-  "404 Media": 58,
+  "404 Media": 59,
   "Xe Iaso": 5,
   "The Verge": 22,
   "Cloudflare": 1,
@@ -11895,7 +11921,7 @@
   "Wired": "2026-11-17T10:53:44.587771+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-22T17:04:58.050897+00:00",
-  "404 Media": "2026-11-23T11:04:52.990486+00:00",
+  "404 Media": "2026-11-23T16:09:21.050273+00:00",
   "Xe Iaso": "2026-11-18T17:53:57.797084+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -13990,8 +14016,22 @@
    "votes": {},
    "message_id": 1752,
    "chat_id": -1004399820759
+  },
+  "147": {
+   "label": "404 Media",
+   "pool": "viral",
+   "topics": [
+    "SECURITY",
+    "OPENSOURCE"
+   ],
+   "title": "گسترش ابزار متن‌باز ARTEX برای حملات سایبری خودکار با استفاده از هوش مصنوعی",
+   "url": "https://www.404media.co/the-code-is-already-copied-everywhere-the-ai-hacking-tool-causing-havoc-around-the-world-artex-github/",
+   "at": "2026-11-23T15:55:32.319075+00:00",
+   "votes": {},
+   "message_id": 1753,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 147,
+ "next_post_id": 148,
  "last_update_id": 276814760
 }
