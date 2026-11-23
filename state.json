@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://www.theverge.com/?p=1018476",
   "lobsters:xzp4m0",
   "lobsters:olnqh2",
   "hn:50242870",
@@ -2999,18 +2998,19 @@
   "lobsters:t8c4vj",
   "hn:50610334",
   "tg:hacker_news_feed/134072",
-  "hn:50609685"
+  "hn:50609685",
+  "hn:50610830"
  ],
  "posted": {
-  "viral": 942,
+  "viral": 943,
   "editorial": 1080
  },
  "recent_labels": [
-  "Hacker News Feed",
   "404 Media",
   "Hacker News",
   "Hacker News Feed",
-  "Hacker News Feed"
+  "Hacker News Feed",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5261,33 +5261,23 @@
     "AI"
    ],
    "at": "2026-11-23T13:57:55.487985+00:00"
+  },
+  {
+   "title": "پیشنهاد مدیر Anthropic برای آرام کردن جوامع پس از بیکاری ناشی از هوش مصنوعی",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+   "source": "theverge.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.21528,
+   "topics": [
+    "AI",
+    "LLM",
+    "STARTUP"
+   ],
+   "at": "2026-11-23T15:05:25.565905+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agent",
-    "amount",
-    "belonging",
-    "build",
-    "coding",
-    "confidential",
-    "data",
-    "elon",
-    "grok",
-    "info",
-    "leaked",
-    "leaking",
-    "leaks",
-    "musk",
-    "oodles",
-    "sensitive",
-    "serious",
-    "spacexsi",
-    "vibe-coding"
-   ],
-   "at": "2026-11-11T17:53:47.755244+00:00"
-  },
   {
    "sig": [
     "controllable",
@@ -9407,33 +9397,24 @@
    ],
    "at": "2026-11-23T13:57:55.487985+00:00",
    "url": "z.ai/blog/glm-5.4"
+  },
+  {
+   "sig": [
+    "amodei",
+    "could",
+    "games",
+    "jobs",
+    "masses",
+    "pacify",
+    "reportedly",
+    "suggested",
+    "took"
+   ],
+   "at": "2026-11-23T15:05:25.565905+00:00",
+   "url": "theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness"
   }
  ],
  "snapshots": {
-  "hn:50493251": [
-   1211,
-   "2026-11-14T09:53:48.021923+00:00"
-  ],
-  "hn:50492993": [
-   294,
-   "2026-11-14T09:53:48.021923+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2aq6ys3s22r": [
-   13,
-   "2026-11-14T10:53:44.976229+00:00"
-  ],
-  "hn:50493904": [
-   207,
-   "2026-11-14T10:53:44.976229+00:00"
-  ],
-  "hn:50492315": [
-   289,
-   "2026-11-14T11:53:41.065294+00:00"
-  ],
-  "hn:50492601": [
-   212,
-   "2026-11-14T12:54:02.415209+00:00"
-  ],
   "hn:50496602": [
    138,
    "2026-11-14T14:53:41.283136+00:00"
@@ -11778,20 +11759,8 @@
    184,
    "2026-11-23T13:53:48.350169+00:00"
   ],
-  "hn:50607668": [
-   560,
-   "2026-11-23T13:53:48.350169+00:00"
-  ],
-  "lobsters:l8u1tj": [
-   47,
-   "2026-11-23T13:53:48.350169+00:00"
-  ],
   "hn:50609685": [
    715,
-   "2026-11-23T13:53:48.350169+00:00"
-  ],
-  "hn:50607194": [
-   328,
    "2026-11-23T13:53:48.350169+00:00"
   ],
   "tg:hacker_news_feed/134072": [
@@ -11806,9 +11775,45 @@
    26,
    "2026-11-23T13:53:48.350169+00:00"
   ],
+  "hn:50607668": [
+   617,
+   "2026-11-23T14:53:57.802562+00:00"
+  ],
+  "lobsters:l8u1tj": [
+   51,
+   "2026-11-23T14:53:57.802562+00:00"
+  ],
+  "hn:50607194": [
+   363,
+   "2026-11-23T14:53:57.802562+00:00"
+  ],
   "tg:hacker_news_feed/134074": [
-   155,
-   "2026-11-23T13:53:48.350169+00:00"
+   158,
+   "2026-11-23T14:53:57.802562+00:00"
+  ],
+  "hn:50611588": [
+   2229,
+   "2026-11-23T14:53:57.802562+00:00"
+  ],
+  "hn:50610830": [
+   167,
+   "2026-11-23T14:53:57.802562+00:00"
+  ],
+  "hn:50610318": [
+   111,
+   "2026-11-23T14:53:57.802562+00:00"
+  ],
+  "tg:hacker_news_feed/134075": [
+   442,
+   "2026-11-23T14:53:57.802562+00:00"
+  ],
+  "tg:hacker_news_feed/134076": [
+   154,
+   "2026-11-23T14:53:57.802562+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ydrcvpn52i": [
+   77,
+   "2026-11-23T14:53:57.802562+00:00"
   ]
  },
  "skips": {
@@ -11854,7 +11859,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 197,
+  "Hacker News": 198,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -11900,7 +11905,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-23T12:04:53.647466+00:00",
+  "Hacker News": "2026-11-23T15:05:25.565969+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -13970,8 +13975,23 @@
    "votes": {},
    "message_id": 1751,
    "chat_id": -1004399820759
+  },
+  "146": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM",
+    "STARTUP"
+   ],
+   "title": "پیشنهاد مدیر Anthropic برای آرام کردن جوامع پس از بیکاری ناشی از هوش مصنوعی",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+   "at": "2026-11-23T14:54:16.351633+00:00",
+   "votes": {},
+   "message_id": 1752,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 146,
+ "next_post_id": 147,
  "last_update_id": 276814760
 }
