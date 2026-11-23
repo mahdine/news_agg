@@ -1,6 +1,5 @@
 {
  "seen": [
-  "lobsters:olnqh2",
   "hn:50242870",
   "https://www.infoq.com/news/2026/10/java-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "https://techcrunch.com/?p=3181633",
@@ -2999,17 +2998,18 @@
   "tg:hacker_news_feed/134072",
   "hn:50609685",
   "hn:50610830",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ydrcvpn52i"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ydrcvpn52i",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yffbacvk2g"
  ],
  "posted": {
-  "viral": 944,
+  "viral": 945,
   "editorial": 1080
  },
  "recent_labels": [
-  "Hacker News",
   "Hacker News Feed",
   "Hacker News Feed",
   "Hacker News",
+  "404 Media",
   "404 Media"
  ],
  "last_digest": "2026-11-20",
@@ -5288,19 +5288,22 @@
     "OPENSOURCE"
    ],
    "at": "2026-11-23T16:09:21.050155+00:00"
+  },
+  {
+   "title": "نقش عام های هوش مصنوعی در نقض داده های بزرگ",
+   "url": "https://bsky.app/profile/404media.co/post/3n2yffbacvk2g",
+   "source": "404 Media",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.23094,
+   "topics": [
+    "SECURITY",
+    "BREACH"
+   ],
+   "at": "2026-11-23T17:05:10.728632+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "benchmarking",
-    "neumann",
-    "next-level",
-    "overfitting",
-    "thomas"
-   ],
-   "at": "2026-11-11T17:54:01.037876+00:00"
-  },
   {
    "sig": [
     "godbolt-in-a-floating-window",
@@ -9438,29 +9441,39 @@
    ],
    "at": "2026-11-23T16:09:21.050155+00:00",
    "url": "404media.co/the-code-is-already-copied-everywhere-the-ai-hacking-tool-causing-havoc-around-the-world-artex-github"
+  },
+  {
+   "sig": [
+    "agents",
+    "behind",
+    "breaches",
+    "cox",
+    "data",
+    "don",
+    "down",
+    "eat",
+    "hacking",
+    "history",
+    "instead",
+    "joseph",
+    "journalist",
+    "media",
+    "need",
+    "raphael",
+    "recent",
+    "reuters",
+    "satter",
+    "significant",
+    "sleep",
+    "slowing",
+    "spoke",
+    "stop"
+   ],
+   "at": "2026-11-23T17:05:10.728632+00:00",
+   "url": "bsky.app/profile/404media.co/post/3n2yffbacvk2g"
   }
  ],
  "snapshots": {
-  "hn:50496811": [
-   79,
-   "2026-11-14T16:53:41.571822+00:00"
-  ],
-  "lobsters:pgmw6b": [
-   29,
-   "2026-11-14T16:53:41.571822+00:00"
-  ],
-  "hn:50497009": [
-   299,
-   "2026-11-14T17:53:45.292827+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3n2b5onqbvc2v": [
-   16,
-   "2026-11-14T17:53:45.292827+00:00"
-  ],
-  "hn:50497155": [
-   258,
-   "2026-11-15T01:53:43.531180+00:00"
-  ],
   "hn:50497416": [
    88,
    "2026-11-15T01:53:43.531180+00:00"
@@ -11797,49 +11810,69 @@
    167,
    "2026-11-23T14:53:57.802562+00:00"
   ],
-  "hn:50607668": [
-   674,
-   "2026-11-23T15:54:03.360357+00:00"
-  ],
-  "tg:hacker_news_feed/134074": [
-   158,
-   "2026-11-23T15:54:03.360357+00:00"
-  ],
-  "hn:50611588": [
-   3917,
-   "2026-11-23T15:54:03.360357+00:00"
-  ],
-  "hn:50610318": [
-   179,
-   "2026-11-23T15:54:03.360357+00:00"
-  ],
-  "tg:hacker_news_feed/134075": [
-   482,
-   "2026-11-23T15:54:03.360357+00:00"
-  ],
-  "tg:hacker_news_feed/134076": [
-   158,
-   "2026-11-23T15:54:03.360357+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ydrcvpn52i": [
    135,
    "2026-11-23T15:54:03.360357+00:00"
   ],
+  "hn:50607668": [
+   735,
+   "2026-11-23T16:53:53.162427+00:00"
+  ],
+  "tg:hacker_news_feed/134074": [
+   159,
+   "2026-11-23T16:53:53.162427+00:00"
+  ],
+  "hn:50611588": [
+   1665,
+   "2026-11-23T16:53:53.162427+00:00"
+  ],
+  "hn:50610318": [
+   263,
+   "2026-11-23T16:53:53.162427+00:00"
+  ],
+  "tg:hacker_news_feed/134075": [
+   500,
+   "2026-11-23T16:53:53.162427+00:00"
+  ],
+  "tg:hacker_news_feed/134076": [
+   158,
+   "2026-11-23T16:53:53.162427+00:00"
+  ],
   "hn:50610743": [
-   161,
-   "2026-11-23T15:54:03.360357+00:00"
+   237,
+   "2026-11-23T16:53:53.162427+00:00"
   ],
   "tg:hacker_news_feed/134077": [
    152,
-   "2026-11-23T15:54:03.360357+00:00"
+   "2026-11-23T16:53:53.162427+00:00"
   ],
   "tg:hacker_news_feed/134078": [
-   150,
-   "2026-11-23T15:54:03.360357+00:00"
+   151,
+   "2026-11-23T16:53:53.162427+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yffbacvk2g": [
-   232,
-   "2026-11-23T15:54:03.360357+00:00"
+   293,
+   "2026-11-23T16:53:53.162427+00:00"
+  ],
+  "hn:50611576": [
+   3622,
+   "2026-11-23T16:53:53.162427+00:00"
+  ],
+  "lobsters:vldbcn": [
+   114,
+   "2026-11-23T16:53:53.162427+00:00"
+  ],
+  "tg:hacker_news_feed/134079": [
+   151,
+   "2026-11-23T16:53:53.162427+00:00"
+  ],
+  "tg:hacker_news_feed/134080": [
+   233,
+   "2026-11-23T16:53:53.162427+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yjmvwgpa2c": [
+   100,
+   "2026-11-23T16:53:53.162427+00:00"
   ]
  },
  "skips": {
@@ -11875,7 +11908,7 @@
   "Wired": 27,
   "TechRadar": 37,
   "Slashdot": 32,
-  "404 Media": 59,
+  "404 Media": 60,
   "Xe Iaso": 5,
   "The Verge": 22,
   "Cloudflare": 1,
@@ -11921,7 +11954,7 @@
   "Wired": "2026-11-17T10:53:44.587771+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-22T17:04:58.050897+00:00",
-  "404 Media": "2026-11-23T16:09:21.050273+00:00",
+  "404 Media": "2026-11-23T17:05:10.728765+00:00",
   "Xe Iaso": "2026-11-18T17:53:57.797084+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -14030,8 +14063,22 @@
    "votes": {},
    "message_id": 1753,
    "chat_id": -1004399820759
+  },
+  "148": {
+   "label": "404 Media",
+   "pool": "viral",
+   "topics": [
+    "SECURITY",
+    "BREACH"
+   ],
+   "title": "نقش عام های هوش مصنوعی در نقض داده های بزرگ",
+   "url": "https://bsky.app/profile/404media.co/post/3n2yffbacvk2g",
+   "at": "2026-11-23T16:54:09.796646+00:00",
+   "votes": {},
+   "message_id": 1754,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 148,
+ "next_post_id": 149,
  "last_update_id": 276814760
 }
