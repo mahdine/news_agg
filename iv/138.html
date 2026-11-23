@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>اجرای فضای کاربری macOS بر روی لینوکس با بارگذاری هسته macOS در آن.</title>
+<meta name="description" content="xnulinux هسته XNU، که هسته متن‌باز macOS است، را از منابع منتشر شده توسط Apple می‌سازد و آن را به عنوان یک ماژول هسته قابل بارگذاری (xnu.ko) در داخل ی…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="اجرای فضای کاربری macOS بر روی لینوکس با بارگذاری هسته macOS در آن.">
+<meta property="og:description" content="xnulinux هسته XNU، که هسته متن‌باز macOS است، را از منابع منتشر شده توسط Apple می‌سازد و آن را به عنوان یک ماژول هسته قابل بارگذاری (xnu.ko) در داخل ی…">
+<meta property="og:url" content="https://github.com/AFK-surf/xnulinux">
+<meta property="og:site_name" content="PersianTech">
+<meta property="og:image" content="https://opengraph.githubassets.com/db090d4d5ee7296d12c1485ad455ea9f94176cc313bb7967f4caf725277bb747/AFK-surf/xnulinux">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="اجرای فضای کاربری macOS بر روی لینوکس با بارگذاری هسته macOS در آن.">
+<meta name="twitter:description" content="xnulinux هسته XNU، که هسته متن‌باز macOS است، را از منابع منتشر شده توسط Apple می‌سازد و آن را به عنوان یک ماژول هسته قابل بارگذاری (xnu.ko) در داخل ی…">
+<meta name="twitter:image" content="https://opengraph.githubassets.com/db090d4d5ee7296d12c1485ad455ea9f94176cc313bb7967f4caf725277bb747/AFK-surf/xnulinux">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<img class="hero" src="https://opengraph.githubassets.com/db090d4d5ee7296d12c1485ad455ea9f94176cc313bb7967f4caf725277bb747/AFK-surf/xnulinux" alt="" loading="lazy">
+<h1>اجرای فضای کاربری macOS بر روی لینوکس با بارگذاری هسته macOS در آن.</h1>
+<p class="meta">Hacker News  ·  2026-11-23</p>
+<p>xnulinux هسته XNU، که هسته متن‌باز macOS است، را از منابع منتشر شده توسط Apple می‌سازد و آن را به عنوان یک ماژول هسته قابل بارگذاری (xnu.ko) در داخل یک هسته arm64 لینوکس دست‌نخورده اجرا می‌کند. XNU میزبانی‌شده، CPU و MMU را مستقیماً هدایت می‌کند، بنابراین پردازش‌های macOS به صورت بومی در کنار پردازش‌های لینوکس بر روی همان CPUها و بدون هیچ هایپروایزری در میان آن‌ها اجرا می‌شوند. لینوکس حافظه، تایمرها، فایل‌ها، شبکه و GPU خود را از طریق یک ماژول رابط کوچک (fki.ko) به XNU قرض می‌دهد.</p>
+<p>با یک هسته استاندارد Ubuntu، دستور insmod xnu.ko یک دیسک سیستم macOS 27 که توسط نصب‌کننده خود Apple ساخته شده است را تا محیط دسکتاپ بوت می‌کند: loginwindow، WindowServer، Dock، Finder، Safari و Chrome.</p>
+<p>یک سیستم، دو فضای کاربری. سمت چپ: یک ترمینال در macOS 27.2.1 میزبانی‌شده (sw_vers، هسته Darwin، launchd، WindowServer، Dock و Finder در حال اجرا). سمت راست: از همان macOS، یک نشست SSH به لینوکسی که در آن اجرا می‌شود (Ubuntu، Linux 7.0، ماژول‌های xnu و fki بارگذاری شده‌اند، و پردازش insmod xnu.ko که هسته macOS در آن اجرا می‌شود).</p>
+<p>مستقیماً از فریم‌بافر میزبانی‌شده، ۱۲۸۰×۸۰۰.</p>
+<p>دسکتاپ میزبانی‌شده در پایان یک اجرای استرس ۳۰ دقیقه‌ای، که بر روی CPU رندر شده است (بدون پل GPU).</p>
+<p>Safari در macOS میزبانی‌شده: مقاله ویکی‌پدیا درباره XNU، kernel.org و مخزن لینوکس در GitHub، از طریق لینک شبکه سیستم میزبانی‌شده در لینوکس، با پل GPU فعال (GPU=auto).</p>
+<p>پردازش‌های macOS (launchd, WindowServer, Safari...) | پردازش‌های لینوکس (systemd, sshd, xnudrmd...)</p>
+<p>────────────────────────────────────────────────── | ────────────────────────────────────────────</p>
+<p>XNU (ساخته شده از سورس، لایه ماشین LINUX64، kexts) |</p>
+<p>↕ فراخوانی‌های میزبان linux64 (xnu-patches/include/linux64_abi.h)</p>
+<p>xnu.ko (سمت APSL: مجموعه هسته را بارگذاری و اجرا می‌کند)</p>
+<p>↕ FKI، رابط هسته خارجی (fki_*)</p>
+<p>fki.ko (سمت GPL: CPUها، حافظه، خطاها، IPIها، فایل‌ها، شبکه، فراخوانی‌های میزبان)</p>
+<p>هسته لینوکس (هسته توزیع استاندارد، صفحات 4K، PAC)</p>
+<p>- CPUها: هر CPU میزبانی‌شده یک ترد هسته لینوکس است که به یک CPU لینوکس متصل شده است. XNU تا زمانی که میزبان را فراخوانی نکند (بیکار، I/O، یک تایمر) بر روی آن اجرا می‌شود؛ لینوکس بردارهای استثنای خود را حفظ می‌کند و fki.ko خطاها و استثناهای کاربری کد XNU را به هندلرهای XNU ارسال می‌کند.</p>
+<p>- حافظه: XNU یک بلوک فیزیکی پیوسته از لینوکس (CMA) دریافت می‌کند و آن را با pmap خود مدیریت می‌کند؛ XNU و لینوکس نیمه کاربری طرح فضای آدرس (صفحات 4K) را به اشتراک می‌گذارند.</p>
+<p>- دستگاه‌ها: kexts در kexts/ به macOS یک دیسک (یک فایل در سمت لینوکس)، یک نمایشگر (یک فریم‌بافر که لینوکس می‌خواند)، یک صفحه‌کلید و اشاره‌گر، یک لینک اترنت (یک رابط شبکه لینوکس)، یک keystore و یک پل GPU می‌دهد.</p>
+<p>- GPU: متال (Metal) در macOS میزبانی‌شده بر روی gpu/xnu-cpu-metal (metal2vulkan بر روی Vulkan) اجرا می‌شود. Vulkan از طریق پل DRM (kexts/XnuDrm → فراخوانی میزبان → gpu/xnu-drm/xnudrmd → گره رندر لینوکس) با استفاده از درایور Venus از Mesa به GPU میزبان لینوکس می‌رسد؛ بدون GPU، به Mesa lavapipe بر روی CPU بازمی‌گردد.</p>
+<p>در حال کار، بر روی یک Mac با Apple Silicon که یک VM لینوکس arm64 (krunkit) را با ۱ تا ۶ CPU میزبانی‌شده اجرا می‌کند:</p>
+<p>- macOS 27.2.1 با ورود خودکار در ۳۱ تا ۴۸ ثانیه به دسکتاپ بوت می‌شود (یک VM macOS مجازی‌سازی Apple بر روی همان Mac: ۴۹ ثانیه).</p>
+<p>- برنامه‌ها باز و بسته می‌شوند، Spotlight و سیستم فایل کار می‌کنند؛ یک اجرای استرس ۳۰ دقیقه‌ای (۴۰ دور Safari، Notes، Calculator، TextEdit، System Settings، Spotlight و پیمایش دیسک) بدون هیچ panic و گزارش خرابی به پایان می‌رسد.</p>
+<p>- به عنوان یک سرویس systemd اجرا می‌شود: در بوت شروع می‌شود، با VM به طور تمیز متوقف می‌شود، پس از panic هسته میزبانی‌شده دوباره راه‌اندازی می‌شود، لاگ هر اجرا در /var/log/xnulinux/ نگهداری می‌شود.</p>
+<p>- پل GPU به برنامه‌های میزبانی‌شده، GPU میزبان (Virtio-GPU Venus (Apple M5 Max)) را می‌دهد و زمانی که یک گره رندر لینوکس وجود داشته باشد به طور پیش‌فرض فعال است (GPU=auto)، در غیر این صورت به رندرینگ CPU (GPU=off) بازمی‌گردد.</p>
+<p>آنچه هنوز یک راهکار موقت است در docs/production.md فهرست شده است. به طور قابل توجهی: cryptex سیستم در حجم سیستم ادغام شده است، AMFI پچ شده و SIP تسهیل شده است، و دسترسی به حافظه کندتر از یک VM بومی است (صفحات 4K در مقابل 16K).</p>
+<p>- یک میزبان لینوکس arm64 با PAC (Apple Silicon M1 یا جدیدتر در یک VM: krunkit برای دسترسی به GPU، یا tart)، صفحات 4K، ۱۶ گیگابایت رم (۸ گیگابایت آن برای هسته میزبانی‌شده رزرو شده است).</p>
+<p>- یک Mac با Xcode برای ساخت دیسک سیستم و ساخت بخش‌های GPU.</p>
+<p>- یک نصب macOS 27 (یک دیسک VM مجازی‌سازی Apple) متعلق به خودتان. هیچ باینری Apple در این مخزن وجود ندارد یا توسط آن توزیع نمی‌شود: kextهایی که Apple ارسال می‌کند، دیسک سیستم macOS و کش اعتماد آن از نصب خودتان می‌آیند.</p>
+<p>- scripts/vm-xnu-build.sh (در VM لینوکس، یک بار): زنجیره ابزار لینوکس macOS-DroidVM را تنظیم می‌کند و XNU (xnu-12377.121.6) را به صورت بومی بر روی arm64 می‌سازد.</p>
+<p>- scripts/vm-xnu-rebuild.sh: پچ‌های xnu-patches/ را اعمال می‌کند، هسته و kexts/ را می‌سازد، و مجموعه هسته را با kextهای Apple از نصب macOS شما لینک می‌کند.</p>
+<p>- scripts/mk-macvm-disk.sh (بر روی Mac): یک دیسک VM macOS ساخته شده توسط نصب‌کننده Apple را به دیسک سیستم میزبانی‌شده تبدیل می‌کند و آن را در VM لینوکس کپی می‌کند.</p>
+<p>- scripts/xnulinux-boot.sh (در VM لینوکس): fki.ko و xnu.ko را بر اساس هسته در حال اجرا می‌سازد، شبکه (و پل GPU در صورت وجود گره رندر) را بالا می‌آورد و سیستم میزبانی‌شده را بوت می‌کند. کنسول آن scripts/xnu-console.sh، صفحه نمایش آن tools/hosted/fb2png.py و ورودی آن tools/hosted/xnu-input.py است.</p>
+<p>- scripts/install-service.sh (در VM لینوکس): آن را به عنوان xnulinux.service اجرا می‌کند، که در /etc/xnulinux.conf (CPUها، حافظه، دیسک، GPU) پیکربندی شده است. بر روی Mac، scripts/install-krun-agent.sh خود VM را در حال اجرا نگه می‌دارد.</p>
+<p>- GPU (اختیاری، بر روی Mac): gpu/venus/build-darwin.sh درایور Vulkan میزبانی‌شده را می‌سازد، gpu/xnu-cpu-metal/ پلاگین Metal را (به README آن مراجعه کنید).</p>
+<p>سمت لینوکس و سمت XNU توسط مجوز جدا نگه داشته شده‌اند و تنها در FKI به هم می‌رسند. هر فایل سورس دارای یک SPDX-License-Identifier است؛ متن مجوزها در LICENSES/ قرار دارند.</p>
+<p>xnu.ko در سمت XNU خط قرار دارد: کد XNU را در فضای آدرس خود اجرا می‌کند، بنابراین مانند XNU دارای مجوز APSL-2.0 است و لینوکس آن را به عنوان یک ماژول غیر GPL گزارش می‌دهد (MODULE_LICENSE(&quot;Proprietary&quot;)، که هسته را مانند ZFS آلوده می‌کند). این ماژول نباید شامل هدرهای لینوکس فراتر از ABI ماژول باشد، توابع لینوکس را به جز fki_* فراخوانی کند، یا کد لینوکس را حمل کند. کد بالادستی (XNU، زنجیره ابزار macOS-DroidVM، Mesa، metal2vulkan، لودر Vulkan، LLVM) در نسخه‌های ثابت دریافت شده و در زمان ساخت پچ می‌شوند؛ آن‌ها هرگز کامیت نمی‌شوند.</p>
+<p>- macOS-DroidVM و UniXNU: پایه XNU با صفحات 4K، زنجیره ابزار XNU میزبانی‌شده در لینوکس، و kextهای نمایشگر، اترنت و ورودی که این‌ها از آن‌ها مشتق شده‌اند.</p>
+<p>- metal2vulkan، Mesa (Venus, lavapipe)، virglrenderer و krunkit.</p>
+<p>- XNU متن‌باز Apple.</p>
+<p>macOS، Metal و XNU علائم تجاری Apple Inc هستند. این پروژه وابسته به Apple نیست و توسط آن تایید نشده است.</p>
+<p>حق نشر © ۲۰۲۶ Heyang Zhou و مشارکت‌کنندگان.</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://github.com/AFK-surf/xnulinux">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
