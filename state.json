@@ -1,6 +1,5 @@
 {
  "seen": [
-  "TheNextWeb=a8f31f19c965106a8803a8c233b5fb0f",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myrqbfixqk2h",
   "hn:50242734",
   "https://www.theverge.com/?p=1018434",
@@ -2999,18 +2998,19 @@
   "tg:hacker_news_feed/134064",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2xdwyzku32c",
   "tg:hacker_news_feed/134068",
-  "tg:hacker_news_feed/134069"
+  "tg:hacker_news_feed/134069",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2wrigc73l2t"
  ],
  "posted": {
-  "viral": 938,
+  "viral": 939,
   "editorial": 1080
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
-  "Hacker News",
   "404 Media",
-  "Hacker News Feed"
+  "Hacker News Feed",
+  "404 Media"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5210,20 +5210,22 @@
     "NETWORK"
    ],
    "at": "2026-11-23T10:05:01.793390+00:00"
+  },
+  {
+   "title": "شکایت یک کاربر از Meta با کمک عامل هوش مصنوعی خود",
+   "url": "https://www.404media.co/a-man-and-his-muse-ai-agent-sue-meta/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.02604,
+   "topics": [
+    "AI",
+    "CHATBOT"
+   ],
+   "at": "2026-11-23T11:04:52.990371+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agent",
-    "atuin",
-    "every",
-    "machine",
-    "sessions",
-    "threads"
-   ],
-   "at": "2026-11-11T16:54:01.310199+00:00"
-  },
   {
    "sig": [
     "7900-series",
@@ -9347,6 +9349,28 @@
    ],
    "at": "2026-11-23T10:05:01.793390+00:00",
    "url": "jeffgeerling.com/blog/2026/i-joined-the-ntp-pool"
+  },
+  {
+   "sig": [
+    "a-man-and-hi",
+    "access",
+    "agent",
+    "baby",
+    "did",
+    "facebook",
+    "file",
+    "giving",
+    "lawsuit",
+    "locked",
+    "meta",
+    "mia",
+    "named",
+    "page",
+    "should",
+    "www.404media.co"
+   ],
+   "at": "2026-11-23T11:04:52.990371+00:00",
+   "url": "404media.co/a-man-and-his-muse-ai-agent-sue-meta"
   }
  ],
  "snapshots": {
@@ -11703,24 +11727,24 @@
    "2026-11-23T09:53:54.450973+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2wrigc73l2t": [
-   229,
-   "2026-11-23T09:53:54.450973+00:00"
+   237,
+   "2026-11-23T10:53:57.254545+00:00"
   ],
   "tg:hacker_news_feed/134061": [
-   154,
-   "2026-11-23T09:53:54.450973+00:00"
+   155,
+   "2026-11-23T10:53:57.254545+00:00"
   ],
   "tg:hacker_news_feed/134062": [
-   176,
-   "2026-11-23T09:53:54.450973+00:00"
+   181,
+   "2026-11-23T10:53:57.254545+00:00"
   ],
   "hn:50604540": [
    86,
    "2026-11-23T09:53:54.450973+00:00"
   ],
   "hn:50606499": [
-   146,
-   "2026-11-23T09:53:54.450973+00:00"
+   159,
+   "2026-11-23T10:53:57.254545+00:00"
   ],
   "tg:hacker_news_feed/134068": [
    161,
@@ -11731,24 +11755,24 @@
    "2026-11-23T09:53:54.450973+00:00"
   ],
   "hn:50605445": [
-   81,
-   "2026-11-23T09:53:54.450973+00:00"
+   85,
+   "2026-11-23T10:53:57.254545+00:00"
   ],
   "hn:50609079": [
-   112,
-   "2026-11-23T09:53:54.450973+00:00"
+   228,
+   "2026-11-23T10:53:57.254545+00:00"
   ],
   "hn:50607668": [
-   201,
-   "2026-11-23T09:53:54.450973+00:00"
+   287,
+   "2026-11-23T10:53:57.254545+00:00"
   ],
   "lobsters:l8u1tj": [
-   27,
-   "2026-11-23T09:53:54.450973+00:00"
+   32,
+   "2026-11-23T10:53:57.254545+00:00"
   ],
   "tg:hacker_news_feed/134070": [
-   162,
-   "2026-11-23T09:53:54.450973+00:00"
+   173,
+   "2026-11-23T10:53:57.254545+00:00"
   ]
  },
  "skips": {
@@ -11784,7 +11808,7 @@
   "Wired": 27,
   "TechRadar": 37,
   "Slashdot": 32,
-  "404 Media": 57,
+  "404 Media": 58,
   "Xe Iaso": 5,
   "The Verge": 22,
   "Cloudflare": 1,
@@ -11830,7 +11854,7 @@
   "Wired": "2026-11-17T10:53:44.587771+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-22T17:04:58.050897+00:00",
-  "404 Media": "2026-11-23T09:04:54.191733+00:00",
+  "404 Media": "2026-11-23T11:04:52.990486+00:00",
   "Xe Iaso": "2026-11-18T17:53:57.797084+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -13855,8 +13879,22 @@
    "votes": {},
    "message_id": 1747,
    "chat_id": -1004399820759
+  },
+  "142": {
+   "label": "404 Media",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "CHATBOT"
+   ],
+   "title": "شکایت یک کاربر از Meta با کمک عامل هوش مصنوعی خود",
+   "url": "https://www.404media.co/a-man-and-his-muse-ai-agent-sue-meta/",
+   "at": "2026-11-23T10:53:58.985159+00:00",
+   "votes": {},
+   "message_id": 1748,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 142,
+ "next_post_id": 143,
  "last_update_id": 276814760
 }
