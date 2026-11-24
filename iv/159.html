@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elixir HLS: ساخت مدارهای FPGA از توابع نوشته‌شده با Elixir</title>
+<meta name="description" content="Elixir HLS مدارهای FPGA را از توابع نوشته‌شده در زبان Elixir می‌سازد: سنتز سطح بالا (HLS).">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Elixir HLS: ساخت مدارهای FPGA از توابع نوشته‌شده با Elixir">
+<meta property="og:description" content="Elixir HLS مدارهای FPGA را از توابع نوشته‌شده در زبان Elixir می‌سازد: سنتز سطح بالا (HLS).">
+<meta property="og:url" content="https://github.com/elixir-hls/elixir-hls">
+<meta property="og:site_name" content="PersianTech">
+<meta property="og:image" content="https://opengraph.githubassets.com/d60f4655afe89e9ac95e2ed3c0d8def015ee664f18f9d08f86bfcd812ad5a3c9/elixir-hls/elixir-hls">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Elixir HLS: ساخت مدارهای FPGA از توابع نوشته‌شده با Elixir">
+<meta name="twitter:description" content="Elixir HLS مدارهای FPGA را از توابع نوشته‌شده در زبان Elixir می‌سازد: سنتز سطح بالا (HLS).">
+<meta name="twitter:image" content="https://opengraph.githubassets.com/d60f4655afe89e9ac95e2ed3c0d8def015ee664f18f9d08f86bfcd812ad5a3c9/elixir-hls/elixir-hls">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<img class="hero" src="https://opengraph.githubassets.com/d60f4655afe89e9ac95e2ed3c0d8def015ee664f18f9d08f86bfcd812ad5a3c9/elixir-hls/elixir-hls" alt="" loading="lazy">
+<h1>Elixir HLS: ساخت مدارهای FPGA از توابع نوشته‌شده با Elixir</h1>
+<p class="meta">Hacker News Feed  ·  2026-11-24</p>
+<p>Elixir HLS مدارهای FPGA را از توابع نوشته‌شده در زبان Elixir می‌سازد: سنتز سطح بالا (HLS).</p>
+<p>مدارهای FPGA معمولاً با استفاده از یک زبان توصیف سخت‌افزار مانند Verilog یا VHDL و به صورت ثبات به ثبات (register by register) نوشته می‌شوند: اینکه چه مقداری در کدام ثبات و در کدام کلاک قرار می‌گیرد. به این روش RTL (سطح انتقال ثبات) گفته می‌شود. سنتز سطح بالا، آن RTL را از کدِ یک زبان نرم‌افزاری تولید می‌کند: نویسنده مشخص می‌کند که چه چیزی محاسبه شود و ابزار، کلاک‌ها و ثبات‌ها را تعیین می‌کند.</p>
+<p>در Elixir HLS، آن زبان همان Elixir است. تابعی که با `defhls` تعریف می‌شود، یک تابع معمولی Elixir باقی می‌ماند که روی CPU اجرا می‌شود و در عین حال به یک مدار FPGA تبدیل می‌گردد. هر مدار در برابر تابع Elixir مربوط به خود شبیه‌سازی می‌شود و تنها در صورتی استفاده می‌شود که نتایج مطابقت داشته باشند؛ بنابراین تابع Elixir، مشخصات (specification) مدار است. دلیل این نوع طراحی، چشم‌انداز آن است.</p>
+<p>Elixir HLS 0.1.0 اولین نسخه و نسخه‌ای اولیه است: این ابزار توابع صحیح (integer)، همراه با وضعیت (state)، جداول، حافظه‌ها و حلقه‌های ثابت را سنتز می‌کند و نمونه‌هایی (instances) را با استفاده از استریم‌ها، سطوح و رویدادها در FPGA یا روی CPU به هم متصل می‌نماید؛ اولین هدف آن Sipeed Tang Primer 25K با AtomVM است و نمونه کاری آن رادیو FM (atomvm-fm-radio) می‌باشد که کل دمدولاتور آن در FPGA اجرا می‌شود. قابلیت‌هایی که هنوز پیاده‌سازی نشده‌اند شامل مواردی چون تقسیم، اعداد اعشاری، بازگشت (recursion) و بخش‌هایی از استریم‌های Elixir که نیاز به کل مجموعه دارند، است.</p>
+<p>```elixir</p>
+<p>defmodule KernelDemo do</p>
+<p>use EHLS</p>
+<p>defhls stream_kernel(x :: u32) :: u32 do</p>
+<p>a = signed(x &amp;&amp;&amp; 0xFFFF, 16)</p>
+<p>b = signed(x &gt;&gt;&gt; 16, 16)</p>
+<p>if a &gt; b, do: a * 3 + b, else: a + b * 2</p>
+<p>end</p>
+<p>end</p>
+<p>KernelDemo.stream_kernel(123)        # =&gt; 369 (محاسبه روی CPU)</p>
+<p>```</p>
+<p>`stream_kernel` یک مقدار ۳۲ بیتی می‌گیرد، ۱۶ بیت کم‌ارزش و پرارزش آن را به عنوان اعداد علامت‌دار مقایسه می‌کند و نتیجه را بسته به اینکه کدام بزرگتر است، محاسبه می‌کند. با دریافت یک عدد صحیح، این تابع روی CPU به عنوان یک تابع Elixir محاسبه می‌شود. نحوه اجرای همان تابع به عنوان یک مدار در FPGA:</p>
+<p>روی یک برد.</p>
+<p>نوعی مانند `u32` (بدون علامت، ۳۲ بیتی) عرض بیت مدار است. یک مدار برای هر بیت، سیم‌کشی و منطق مصرف می‌کند، بنابراین عرض‌های کمتر باعث کوچک‌تر و سریع‌تر شدن آن می‌شود. روی CPU، مقادیر به همان عرض‌ها برش داده می‌شوند، بنابراین CPU و مدار نتایج یکسانی را محاسبه می‌کنند.</p>
+<p>`mix ehls.compile --out build lib/kernel_demo.ex`</p>
+<p>`mix ehls.compile` هر تابع `defhls` در فایل‌ها را به یک مدار SystemVerilog تبدیل کرده و سپس هر مدار را در برابر تابع مربوط به آن شبیه‌سازی می‌کند؛ این فرآیند در صورت عدم تطابق مدار متوقف می‌شود.</p>
+<p>آنچه می‌توان با `defhls` (تابعی که هم روی CPU و هم به عنوان مدار اجرا می‌شود) و `definstance` (یک نمونه: توابعی که به عنوان مدار قرار می‌گیرند) نوشت، فراتر از Elixir است. (✗: در Elixir HLS موجود نیست). جزئیات:</p>
+<p>نحوه کارکرد Elixir HLS، `EHLS.defhls/2`، `EHLS.Pipeline`، `EHLS.Stream`.</p>
+<p>مقادیر و انواع (`defhls`)</p>
+<p>تعریف یک تابع (`defhls`)</p>
+<p>توابع روی استریم‌ها</p>
+<p>وضعیت مشترک و رویدادها (`definstance`)</p>
+<p>`definstance` توابع را به عنوان مدار (یا بدون FPGA، به عنوان پردازش‌هایی روی CPU) قرار می‌دهد و موارد جدیدی برای فراخوانی در اختیار برنامه می‌گذارد:</p>
+<p>- فراخوانی یک نمونه، فراخوانی یک تابع است: `my_inst(x)` نتیجه تابع قرار داده شده را می‌دهد، `my_inst(list)` (یا یک باینری) لیستی از نتایج را برمی‌گرداند؛ پردازش فراخوان در یک `receive` منتظر می‌ماند و بقیه ادامه می‌یابند. با استفاده از پیام‌ها: `my_inst(:send, :x, data)`، `my_inst(:request, :out, n)`؛ یک عنصر، بدون DMA، `my_inst(:send, :x, 5)`. خواندن وضعیت آن: `my_inst(:state, n)`.</p>
+<p>- استفاده از مقداری که CPU تنظیم می‌کند: CPU نمونه‌ای از مقادیر را تنظیم می‌کند (`definstance gain_hw(g :: u9)`, `gain_hw(12)`) و توابع مدار آن را به عنوان آرگومان می‌گیرند (`map(&amp;volume(&amp;1, gain_hw(:value)))`). تغییرات آن نیز می‌تواند یک استریم باشد، هر بار که تغییر می‌کند یک عنصر ارسال می‌شود (`changes(gain_hw(:value))`).</p>
+<p>- محل اجرا: در FPGA در صورت وجود، در غیر این صورت روی CPU، با همان فراخوانی‌ها؛ `on: :cpu | :fpga` محل اجرا را مشخص می‌کند، همچنین برای یک تابع از یک نمونه.</p>
+<p>- پین‌ها و دستگاه‌ها در مدار: پین‌های دکمه‌ها و حسگرها، صدا، USB، که بدون CPU به توابع مدار متصل می‌شوند. `changes(:button0, :rising) |&gt; transform(0, &amp;count/2) |&gt; pin_out(:led0)` مداری است که فشارها را می‌شمارد و کم‌ارزش‌ترین بیت شمارش را روی LED قرار می‌دهد (با هر فشار روشن و خاموش می‌شود). صدا و USB بلوک‌هایی از بسته‌ها هستند که در یک لوله قرار می‌گیرند (`x |&gt; i2s_out()`, `usb_bulk_in()`). از سمت CPU، `EHLS.GPIO.read(:pin)` و `EHLS.GPIO.write(:pin, v)` پین‌ها را می‌خوانند و می‌نویسند.</p>
+<p>- تست: توابع `defhls` توابع Elixir هستند و در `mix test` نمونه‌ها روی CPU اجرا می‌شوند؛ `mix ehls.compile` و `mix ehls.sim` هر مدار را در برابر تابع آن بررسی می‌کنند.</p>
+<p>- یک نمونه به عنوان GenServer: با بسته‌بندی در `EHLS.Server`، یک نمونه به عنوان یک GenServer مدیریت می‌شود (در یک درخت نظارتی، که با برنامه شروع می‌شود و فراخوان‌های آن منتظر نوبت خود می‌مانند). تفاوت آن با GenServer: `EHLS.Server`.</p>
+<p>- Elixir 1.18 یا جدیدتر</p>
+<p>- باینری‌های نسخه CIRCT 1.160.0 (`hlstool` و `mlir-opt`). CIRCT، پروژه‌ای از LLVM، یک زیرساخت کامپایلر برای مدارها است. دایرکتوری آن‌ها در `CIRCT_BIN` قرار می‌گیرد (مثلاً `export CIRCT_BIN=$HOME/tools/circt-1.160.0/bin` در پروفایل شل).</p>
+<p>- python3</p>
+<p>- Icarus Verilog (`iverilog`، تست شده با 12.0)، برای شبیه‌سازی مدارها: `sudo apt install iverilog` در Ubuntu / Debian، `brew install icarus-verilog` در macOS.</p>
+<p>یک تابع `defhls` در FPGA در جایی که `definstance` آن را قرار می‌دهد، اجرا می‌شود. ساده‌ترین نمونه یک مقدار می‌گیرد و یک مقدار می‌دهد، که مانند یک تابع از CPU فراخوانی می‌شود؛ یک نمونه همچنین می‌تواند یک استریم (مقادیر یکی پس از دیگری) بگیرد و به تنهایی اجرا شود، به طوری که داده‌ها از دستگاه‌ها از طریق کرنل‌ها بدون نیاز به CPU جریان یابند.</p>
+<p>```elixir</p>
+<p>defmodule InstanceDemo do</p>
+<p>use EHLS</p>
+<p>defhls stream_kernel(x :: u32) :: u32 do</p>
+<p>a = signed(x &amp;&amp;&amp; 0xFFFF, 16)</p>
+<p>b = signed(x &gt;&gt;&gt; 16, 16)</p>
+<p>if a &gt; b, do: a * 3 + b, else: a + b * 2</p>
+<p>end</p>
+<p># یک مقدار ورودی، یک مقدار خروجی: CPU آن را می‌نویسد، مدار محاسبه می‌کند، نتیجه نگه داشته می‌شود</p>
+<p>definstance kernel_hw(x :: u32) do</p>
+<p>stream_kernel(x)</p>
+<p>end</p>
+<p># یک استریم: مقادیر CPU یکی پس از دیگری از طریق کرنل عبور می‌کنند و برمی‌گردند</p>
+<p>definstance accel(words) do</p>
+<p>words |&gt; map(&amp;stream_kernel/1)</p>
+<p>end</p>
+<p># ticks یک شمارش ۱۰۰۰ بار در ثانیه می‌دهد، از طریق کرنل، به CPU</p>
+<p>definstance demo do</p>
+<p>ticks(1000) |&gt; map(&amp;stream_kernel/1)</p>
+<p>end</p>
+<p>end</p>
+<p>InstanceDemo.stream_kernel(0x0002_0001)       # 5، روی CPU</p>
+<p>InstanceDemo.kernel_hw(0x0002_0001)           # 5، محاسبه شده در FPGA</p>
+<p>InstanceDemo.accel([0x0002_0001])            # [5]: یک استریم، لیست ورودی، لیست خروجی</p>
+<p>InstanceDemo.accel(&lt;&lt;1, 0, 2, 0&gt;&gt;)            # یا باینری ورودی، باینری خروجی</p>
+<p>InstanceDemo.demo(:out, 4)                    # ۴ مقدار می‌گیرد</p>
+<p>```</p>
+<p>گام‌های بعدی (آنچه نیاز به برد ندارد، مراحل روی برد): شروع به کار.</p>
+<p>- شروع به کار: از یک تابع تا مدار روی برد</p>
+<p>- مرجع، در مستندات ماژول‌ها در HexDocs: `EHLS.defhls/2` (انواع و عبارات، وضعیت، حافظه‌ها، سطوح، حلقه‌ها، توابع استریم)، `EHLS.Pipeline` (نمونه‌ها، سطوح، رویدادها و استریم‌ها، فراخوانی از CPU)، `EHLS.Stream` (توابعی که یک نمونه به آن‌ها می‌پیوندد، به عنوان `Stream`)، `EHLS.Agent` (یک وضعیت برای چندین خط)، `EHLS.PubSub` (موضوعات: رویدادها)، `EHLS.GPIO` (پین‌ها)، `EHLS.Server` (یک نمونه به عنوان GenServer)، `EHLS.Backend` (انتخاب بک‌اندها، فایل‌هایی که یک هدف دریافت می‌کند)</p>
+<p>- نحوه کارکرد Elixir HLS: `defhls` و `definstance`، مقادیر، آنچه می‌تواند به سخت‌افزار تبدیل شود، استریم‌ها (اتصال‌ها، انشعاب‌ها، نمونه‌ها در نمونه‌ها)، صحبت با CPU، رویدادها، FPGA یا CPU، آنچه تا زمان خواندن اتفاق می‌افتد</p>
+<p>- واژه‌نامه</p>
+<p>- تست‌های این مخزن: `mix test` (معناشناسی MLIR و توضیحات نوشته شده، CPU)، `EHLS_TEST_CIRCT=1 mix test` (همچنین بررسی هر مورد از طریق CIRCT و iverilog؛ چند دقیقه)</p>
+<p>- چشم‌انداز: چرا، لایه‌ها، آنچه برنامه‌ریزی شده است</p>
+<p>- طراحی: چگونه یک تابع به یک مدار تبدیل می‌شود، در داخل</p>
+<p>`mix docs` این مستندات و مستندات ماژول‌ها (ماژول‌های بالا، بک‌اندها و تسک‌های mix) را به صورت HTML در `doc/` می‌سازد، همان‌طور که در HexDocs موجود است.</p>
+<p>Apache-2.0 (به LICENSE مراجعه کنید).</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://github.com/elixir-hls/elixir-hls">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
