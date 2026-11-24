@@ -1,6 +1,5 @@
 {
  "seen": [
-  "https://slashdot.org/story/26/10/26/2128235/skydance-offers-buyouts-gives-5-day-rto-order?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "hn:50249116",
   "TheNextWeb=221f6c8c2320a9103679eaeb42a14235",
   "https://openai.com/index/building-scientific-understanding-with-academic-communities",
@@ -2999,18 +2998,19 @@
   "hn:50626861",
   "hn:50625888",
   "tg:hacker_news_feed/134104",
-  "hn:50627340"
+  "hn:50627340",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n32uajxyrs2e"
  ],
  "posted": {
-  "viral": 961,
+  "viral": 962,
   "editorial": 1080
  },
  "recent_labels": [
-  "Hacker News",
   "Hacker News Feed",
   "Hacker News",
   "Hacker News",
-  "Hacker News Feed"
+  "Hacker News Feed",
+  "404 Media"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5510,21 +5510,24 @@
     "LLM"
    ],
    "at": "2026-11-24T16:55:19.155085+00:00"
+  },
+  {
+   "title": "حق ثبت اختراع جدید گوگل برای کانال تلویزیونی شخصی‌سازی‌شده با هوش مصنوعی",
+   "url": "https://www.404media.co/googles-customized-ai-tv-channel-starring-you/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.06029,
+   "topics": [
+    "AI",
+    "GOOGLE",
+    "LLM",
+    "CHATBOT"
+   ],
+   "at": "2026-11-24T17:57:23.366018+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agent",
-    "artifacts",
-    "builds",
-    "consistent",
-    "gtm",
-    "high-quality",
-    "sales"
-   ],
-   "at": "2026-11-12T05:53:48.515680+00:00"
-  },
   {
    "sig": [
     "break",
@@ -9716,25 +9719,24 @@
    ],
    "at": "2026-11-24T16:55:19.155085+00:00",
    "url": "michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you"
+  },
+  {
+   "sig": [
+    "customized",
+    "generate",
+    "generating",
+    "model",
+    "play",
+    "protagonist",
+    "user",
+    "video",
+    "where"
+   ],
+   "at": "2026-11-24T17:57:23.366018+00:00",
+   "url": "404media.co/googles-customized-ai-tv-channel-starring-you"
   }
  ],
  "snapshots": {
-  "lobsters:thiekk": [
-   28,
-   "2026-11-16T10:53:49.671512+00:00"
-  ],
-  "hn:50514180": [
-   202,
-   "2026-11-16T11:53:44.472034+00:00"
-  ],
-  "lobsters:rhoopo": [
-   35,
-   "2026-11-16T12:53:54.848376+00:00"
-  ],
-  "hn:50515058": [
-   142,
-   "2026-11-16T13:53:41.459226+00:00"
-  ],
   "hn:50516245": [
    259,
    "2026-11-16T14:53:45.204343+00:00"
@@ -12091,33 +12093,49 @@
    126,
    "2026-11-24T15:53:51.815513+00:00"
   ],
-  "tg:hacker_news_feed/134099": [
-   216,
-   "2026-11-24T16:53:58.189050+00:00"
-  ],
   "hn:50627340": [
    1056,
-   "2026-11-24T16:53:58.189050+00:00"
-  ],
-  "hn:50625384": [
-   311,
    "2026-11-24T16:53:58.189050+00:00"
   ],
   "tg:hacker_news_feed/134104": [
    191,
    "2026-11-24T16:53:58.189050+00:00"
   ],
+  "tg:hacker_news_feed/134099": [
+   216,
+   "2026-11-24T17:53:52.558697+00:00"
+  ],
+  "hn:50625384": [
+   407,
+   "2026-11-24T17:53:52.558697+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n32uajxyrs2e": [
-   207,
-   "2026-11-24T16:53:58.189050+00:00"
+   223,
+   "2026-11-24T17:53:52.558697+00:00"
   ],
   "tg:hacker_news_feed/134107": [
-   234,
-   "2026-11-24T16:53:58.189050+00:00"
+   238,
+   "2026-11-24T17:53:52.558697+00:00"
   ],
   "tg:hacker_news_feed/134108": [
-   168,
-   "2026-11-24T16:53:58.189050+00:00"
+   174,
+   "2026-11-24T17:53:52.558697+00:00"
+  ],
+  "hn:50630594": [
+   199,
+   "2026-11-24T17:53:52.558697+00:00"
+  ],
+  "hn:50629231": [
+   68,
+   "2026-11-24T17:53:52.558697+00:00"
+  ],
+  "lobsters:rfcgkx": [
+   26,
+   "2026-11-24T17:53:52.558697+00:00"
+  ],
+  "tg:hacker_news_feed/134112": [
+   186,
+   "2026-11-24T17:53:52.558697+00:00"
   ]
  },
  "skips": {
@@ -12153,7 +12171,7 @@
   "Wired": 27,
   "TechRadar": 37,
   "Slashdot": 32,
-  "404 Media": 62,
+  "404 Media": 63,
   "Xe Iaso": 5,
   "The Verge": 22,
   "Cloudflare": 1,
@@ -12199,7 +12217,7 @@
   "Wired": "2026-11-17T10:53:44.587771+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-22T17:04:58.050897+00:00",
-  "404 Media": "2026-11-24T08:05:22.094506+00:00",
+  "404 Media": "2026-11-24T17:57:23.366159+00:00",
   "Xe Iaso": "2026-11-18T17:53:57.797084+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -14547,8 +14565,24 @@
    "votes": {},
    "message_id": 1770,
    "chat_id": -1004399820759
+  },
+  "165": {
+   "label": "404 Media",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "GOOGLE",
+    "LLM",
+    "CHATBOT"
+   ],
+   "title": "حق ثبت اختراع جدید گوگل برای کانال تلویزیونی شخصی‌سازی‌شده با هوش مصنوعی",
+   "url": "https://www.404media.co/googles-customized-ai-tv-channel-starring-you/",
+   "at": "2026-11-24T17:55:51.556007+00:00",
+   "votes": {},
+   "message_id": 1771,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 165,
+ "next_post_id": 166,
  "last_update_id": 276814760
 }
