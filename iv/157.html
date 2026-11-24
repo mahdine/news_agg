@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>عرضه‌ی مدل Qwen3.8-27B با تکنیک کوانتایزاسیون NariQ در حجم ۱۰ گیگابایت</title>
+<meta name="description" content="دستورالعمل‌های استفاده از nari-labs/Qwen3.8-27B-NariQ-GGUF با کتابخانه‌ها، ارائه‌دهندگان استنتاج، نوت‌بوک‌ها و برنامه‌های محلی. برای شروع، این لینک‌ها…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="عرضه‌ی مدل Qwen3.8-27B با تکنیک کوانتایزاسیون NariQ در حجم ۱۰ گیگابایت">
+<meta property="og:description" content="دستورالعمل‌های استفاده از nari-labs/Qwen3.8-27B-NariQ-GGUF با کتابخانه‌ها، ارائه‌دهندگان استنتاج، نوت‌بوک‌ها و برنامه‌های محلی. برای شروع، این لینک‌ها…">
+<meta property="og:url" content="https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF">
+<meta property="og:site_name" content="PersianTech">
+<meta property="og:image" content="https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nari-labs/Qwen3.8-27B-NariQ-GGUF.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="عرضه‌ی مدل Qwen3.8-27B با تکنیک کوانتایزاسیون NariQ در حجم ۱۰ گیگابایت">
+<meta name="twitter:description" content="دستورالعمل‌های استفاده از nari-labs/Qwen3.8-27B-NariQ-GGUF با کتابخانه‌ها، ارائه‌دهندگان استنتاج، نوت‌بوک‌ها و برنامه‌های محلی. برای شروع، این لینک‌ها…">
+<meta name="twitter:image" content="https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nari-labs/Qwen3.8-27B-NariQ-GGUF.png">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<img class="hero" src="https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nari-labs/Qwen3.8-27B-NariQ-GGUF.png" alt="" loading="lazy">
+<h1>عرضه‌ی مدل Qwen3.8-27B با تکنیک کوانتایزاسیون NariQ در حجم ۱۰ گیگابایت</h1>
+<p class="meta">Hacker News Feed  ·  2026-11-24</p>
+<p>دستورالعمل‌های استفاده از nari-labs/Qwen3.8-27B-NariQ-GGUF با کتابخانه‌ها، ارائه‌دهندگان استنتاج، نوت‌بوک‌ها و برنامه‌های محلی. برای شروع، این لینک‌ها را دنبال کنید.</p>
+<p>- Notebooks</p>
+<p>- Google Colab</p>
+<p>- Kaggle</p>
+<p>- Local Apps Settings</p>
+<p>- llama.cpp</p>
+<p>نحوه استفاده از nari-labs/Qwen3.8-27B-NariQ-GGUF با llama.cpp:</p>
+<p>نصب (macOS, Linux)</p>
+<p>curl -LsSf https://llama.app/install.sh | sh</p>
+<p># راه‌اندازی یک سرور محلی سازگار با OpenAI همراه با رابط کاربری وب:</p>
+<p>llama serve -hf nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p># اجرای استنتاج مستقیماً در ترمینال:</p>
+<p>llama cli -hf nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p>نصب از طریق WinGet (ویندوز)</p>
+<p>winget install llama.cpp</p>
+<p># راه‌اندازی یک سرور محلی سازگار با OpenAI همراه با رابط کاربری وب:</p>
+<p>llama serve -hf nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p># اجرای استنتاج مستقیماً در ترمینال:</p>
+<p>llama cli -hf nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p>ساخت از کد منبع</p>
+<p>git clone https://github.com/ggml-org/llama.cpp.git</p>
+<p>cd llama.cpp</p>
+<p>cmake -B build</p>
+<p>cmake --build build -j --target llama-app</p>
+<p># راه‌اندازی یک سرور محلی سازگار با OpenAI همراه با رابط کاربری وب:</p>
+<p>./build/bin/llama serve -hf nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p># اجرای استنتاج مستقیماً در ترمینال:</p>
+<p>./build/bin/llama cli -hf nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p>استفاده از Docker</p>
+<p>docker model run hf.co/nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p>- Llama new</p>
+<p>- LM Studio</p>
+<p>- Jan</p>
+<p>- vLLM</p>
+<p>نحوه استفاده از nari-labs/Qwen3.8-27B-NariQ-GGUF با vLLM:</p>
+<p>نصب از طریق pip و سرویس‌دهی مدل</p>
+<p># نصب vLLM از طریق pip:</p>
+<p>pip install vllm</p>
+<p># راه‌اندازی سرور vLLM:</p>
+<p>vllm serve &quot;nari-labs/Qwen3.8-27B-NariQ-GGUF&quot;</p>
+<p># فراخوانی سرور با استفاده از curl (API سازگار با OpenAI):</p>
+<p>curl -X POST &quot;http://localhost:8000/v1/chat/completions&quot; \</p>
+<p>-H &quot;Content-Type: application/json&quot; \</p>
+<p>--data &#x27;{</p>
+<p>&quot;model&quot;: &quot;nari-labs/Qwen3.8-27B-NariQ-GGUF&quot;,</p>
+<p>&quot;messages&quot;: [</p>
+<p>{</p>
+<p>&quot;role&quot;: &quot;user&quot;,</p>
+<p>&quot;content&quot;: [</p>
+<p>{</p>
+<p>&quot;type&quot;: &quot;text&quot;,</p>
+<p>&quot;text&quot;: &quot;Describe this image in one sentence.&quot;</p>
+<p>},</p>
+<p>{</p>
+<p>&quot;type&quot;: &quot;image_url&quot;,</p>
+<p>&quot;image_url&quot;: {</p>
+<p>&quot;url&quot;: &quot;https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg&quot;</p>
+<p>}</p>
+<p>}</p>
+<p>]</p>
+<p>}</p>
+<p>]</p>
+<p>}&#x27;</p>
+<p>استفاده از Docker</p>
+<p>docker model run hf.co/nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p>- Ollama</p>
+<p>نحوه استفاده از nari-labs/Qwen3.8-27B-NariQ-GGUF با Ollama:</p>
+<p>ollama run hf.co/nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p>- Unsloth Desktop</p>
+<p>- Pi</p>
+<p>نحوه استفاده از nari-labs/Qwen3.8-27B-NariQ-GGUF با Pi:</p>
+<p>راه‌اندازی سرور llama.cpp</p>
+<p># نصب llama.cpp:</p>
+<p>brew install llama.cpp</p>
+<p># راه‌اندازی یک سرور محلی سازگار با OpenAI:</p>
+<p>llama serve -hf nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p>پیکربندی مدل در Pi</p>
+<p># نصب Pi:</p>
+<p>npm install -g @earendil-works/pi-coding-agent</p>
+<p># افزودن به ~/.pi/agent/models.json:</p>
+<p>{</p>
+<p>&quot;providers&quot;: {</p>
+<p>&quot;llama-cpp&quot;: {</p>
+<p>&quot;baseUrl&quot;: &quot;http://localhost:9931/v1&quot;,</p>
+<p>&quot;api&quot;: &quot;openai-completions&quot;,</p>
+<p>&quot;apiKey&quot;: &quot;none&quot;,</p>
+<p>&quot;models&quot;: [</p>
+<p>{</p>
+<p>&quot;id&quot;: &quot;nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16&quot;</p>
+<p>}</p>
+<p>]</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>اجرای Pi</p>
+<p># اجرای Pi در دایرکتوری پروژه:</p>
+<p>pi</p>
+<p>- Docker Model Runner</p>
+<p>نحوه استفاده از nari-labs/Qwen3.8-27B-NariQ-GGUF با Docker Model Runner:</p>
+<p>docker model run hf.co/nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p>- Lemonade</p>
+<p>نحوه استفاده از nari-labs/Qwen3.8-27B-NariQ-GGUF با Lemonade:</p>
+<p>دریافت مدل</p>
+<p># دانلود Lemonade از https://lemonade-server.ai/</p>
+<p>lemonade pull nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p>اجرا و چت با مدل</p>
+<p>lemonade run user.Qwen3.8-27B-NariQ-GGUF-BF16</p>
+<p>فهرست کردن تمام مدل‌های موجود</p>
+<p>lemonade list</p>
+<p>- Hermes Agent</p>
+<p>نحوه استفاده از nari-labs/Qwen3.8-27B-NariQ-GGUF با Hermes Agent:</p>
+<p>راه‌اندازی سرور llama.cpp</p>
+<p># نصب llama.cpp:</p>
+<p>brew install llama.cpp</p>
+<p># راه‌اندازی یک سرور محلی سازگار با OpenAI:</p>
+<p>llama serve -hf nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p>پیکربندی Hermes</p>
+<p># نصب Hermes:</p>
+<p>curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash</p>
+<p>hermes setup</p>
+<p># معرفی سرور محلی به Hermes:</p>
+<p>hermes config set model.provider custom</p>
+<p>hermes config set model.base_url http://127.0.0.1:9931/v1</p>
+<p>hermes config set model.default nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p>اجرای Hermes</p>
+<p>hermes</p>
+<p>- Atomic Chat</p>
+<p>- OpenClaw</p>
+<p>نحوه استفاده از nari-labs/Qwen3.8-27B-NariQ-GGUF با OpenClaw:</p>
+<p>راه‌اندازی سرور llama.cpp</p>
+<p># نصب llama.cpp:</p>
+<p>brew install llama.cpp</p>
+<p># راه‌اندازی یک سرور محلی سازگار با OpenAI:</p>
+<p>llama serve -hf nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16</p>
+<p>پیکربندی OpenClaw</p>
+<p># نصب OpenClaw:</p>
+<p>npm install -g openclaw@latest</p>
+<p># ثبت سرور محلی و تنظیم آن به عنوان مدل پیش‌فرض:</p>
+<p>openclaw onboard --non-interactive --mode local \</p>
+<p>--auth-choice custom-api-key \</p>
+<p>--custom-base-url http://127.0.0.1:9931/v1 \</p>
+<p>--custom-model-id &quot;nari-labs/Qwen3.8-27B-NariQ-GGUF:BF16&quot; \</p>
+<p>--custom-provider-id llama-cpp \</p>
+<p>--custom-compatibility openai \</p>
+<p>--custom-text-input \</p>
+<p>--accept-risk \</p>
+<p>--skip-health</p>
+<p>اجرای OpenClaw</p>
+<p>openclaw agent --local --agent main --message &quot;Hello from Hugging Face&quot;</p>
+<p>NariQ: مدل Qwen3.8-27B در یک فایل ۱۰ گیگابایتی، با عملکردی در سطح BF16 برای وظایف عاملی بلندمدت</p>
+<p>(۲۰ نوامبر ۲۰۲۶) ما نسخه‌های NariQ v1 GGUF از مدل Qwen3.8-27B را با نرخ ۳، ۲.۵ و ۲ بیت به ازای هر وزن منتشر می‌کنیم. این مدل‌ها را روی فورک llama.cpp ما (که الزامی است) اجرا کنید.</p>
+<p>- فایل‌های ۳ بیتی و ۲.۵ بیتی در وظایف عاملی بلندمدت، ریاضیات و درک تصویر با عملکرد BF16 برابری می‌کنند. فایل ۲ بیتی امتیاز پایین‌تری کسب می‌کند.</p>
+<p>- NariQ یک روش کوانتش پس از آموزش (PTQ) با کدگذاری ترلیس (Trellis-coded) است که بر اساس ردپاهای واقعی عامل‌های کدنویسی کالیبره شده و در قالبی ذخیره شده است که روی یک GPU واحد اجرا می‌شود.</p>
+<p>- جزئیات بیشتر در گزارش فنی موجود است.</p>
+<p>هر سلول یک درصد و یک تعداد را در پرانتز نشان می‌دهد. برای DeepSWE، این تعداد میانگین وظایف کاملاً حل‌شده در هر دور است. در طول همان سه دور، میانگین سهم تست‌های جدیدِ پاس‌شده برای هر وظیفه برابر بود با ۸۳.۱٪ (BF16)، ۸۲.۹٪ (۳ بیتی)، ۸۳.۲٪ (۲.۵ بیتی) و ۷۷.۲٪ (۲ بیتی). یک مورد تایم‌اوت در تأییدکننده BF16 در دور ۳، صفر در نظر گرفته شده است (۳۳۸ از ۳۳۹ آزمایش درجه‌بندی شد). هر نسخه NariQ تمام ۳۳۹ آزمایش را درجه‌بندی کرد. Terminal-Bench تعداد آزمایش‌های حل‌شده را می‌شمارد و ستون‌های باقی‌مانده پاسخ‌های صحیح را شمارش می‌کنند. اجرای عامل‌ها از Claude Code CLI (نسخه ۲.۱.۳۰۹، با فعال بودن thinking و حداکثر تلاش) استفاده می‌کند که مدل محلی را با کانتکست ۲۶۲,۱۴۴ توکنی و نمونه‌برداری حالت تفکر مدل (دمای ۱.۰، top-p ۰.۹۵، top-k ۲۰) هدایت می‌کند.</p>
+<p>واگرایی KL از مدل BF16 در ردپاهای نگه‌داشته‌شده (held-out) عامل کدنویسی، در برابر اندازه فایل. هر نقطه توسط ما با همان کد اندازه‌گیری شده است. مقدار کمتر، بهتر است.</p>
+<p>وظایف کاملاً حل‌شده DeepSWE از ۱۱۳ مورد، در برابر اندازه فایل. نقاط NariQ ما و خط ممتد BF16 میانگین سه دور با Claude Code هستند. نقاط GSQ-RCO ما از یک دور استفاده می‌کنند. لوزی‌های توخالی میانگین‌های تقریبی از نمودار Dynamic V3.1 منتشر شده توسط Unsloth (mini-swe-agent) را نشان می‌دهند. هر نقطه را با خط BF16 برای همان ابزار (harness) مقایسه کنید. مقدار بیشتر، بهتر است.</p>
+<p>امتیاز Terminal-Bench 2.1 در بیش از ۸۲ وظیفه × ۳ تلاش، در برابر اندازه فایل. دایره‌های توپر اجراهای ما (Claude Code) هستند؛ لوزی‌های توخالی نتایج گزارش‌شده توسط Unsloth (mini-swe-agent) هستند که از نمودار Dynamic V3.1 منتشر شده آن خوانده شده‌اند (بنابراین ≈؛ امتیازات آن میانگین چندین پاس هستند). این دو ابزار متفاوت هستند، بنابراین هر نقطه را با خط BF16 مربوط به ابزار خودش مقایسه کنید (ممتد: ما، خط‌چین: Unsloth). مقدار بیشتر، بهتر است.</p>
+<p>شروع سریع</p>
+<p>یک دستور در لینوکس با GPU انویدیا و درایور ۵۷۰ یا جدیدتر (باینری‌های فورک و فایل‌ها را دانلود، بررسی کرده و کانتکست را با GPU شما متناسب می‌کند):</p>
+<p>curl -fsSLO https://github.com/nari-labs/nari-llama.cpp/releases/download/b12431-nariv0/run.sh</p>
+<p>bash run.sh 3.0   # یا 2.5, 2.0</p>
+<p>یا خودتان دانلود و سرویس‌دهی کنید، با استفاده از llama-server از همان فورک:</p>
+<p>hf download nari-labs/Qwen3.8-27B-NariQ-GGUF \</p>
+<p>Qwen3.8-27B-NariQ-3.0bpw.gguf Qwen3.8-27B-NariQ-mmproj-BF16.gguf --local-dir .</p>
+<p>llama-server -m Qwen3.8-27B-NariQ-3.0bpw.gguf --mmproj Qwen3.8-27B-NariQ-mmproj-BF16.gguf \</p>
+<p>-ngl 99 -c 131072 --jinja --port 8080 \</p>
+<p>--temp 1.0 --top-p 0.95 --top-k 20 --min-p 0</p>
+<p>پرچم‌های نمونه‌برداری، تنظیمات حالت تفکر هستند که امتیازات ما از آن‌ها استفاده کرده‌اند. مقدار -c 131072 برای یک GPU با ۲۴ گیگابایت حافظه با فضای خالی اندک مناسب است؛ اگر نمایشگر از همان GPU استفاده می‌کند، آن را کاهش دهید، یا اجازه دهید run.sh بزرگترین کانتکست متناسب را انتخاب کند. برای ۳۲ گیگابایت یا بیشتر، از -c 262144 (کل کانتکست مدل) استفاده کنید. حافظه GPU با پروژکتور بینایی:</p>
+<p>باینری‌های از پیش ساخته‌شده، ایمیج Docker، GPUهای پشتیبانی‌شده و مراحل ساخت: در README فورک موجود است.</p>
+<p>سرعت رمزگشایی روی یک NVIDIA RTX PRO 6000 (Blackwell)، تک نشست.</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
