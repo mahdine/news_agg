@@ -1,6 +1,5 @@
 {
  "seen": [
-  "hn:50249275",
   "hn:50250016",
   "hn:50250937",
   "https://slashdot.org/story/26/10/26/2128235/skydance-offers-buyouts-gives-5-day-rto-order?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -2999,17 +2998,18 @@
   "hn:50624061",
   "https://www.phoronix.com/review/amd-epyc-9006-7601",
   "tg:hacker_news_feed/134106",
-  "hn:50626861"
+  "hn:50626861",
+  "hn:50625888"
  ],
  "posted": {
-  "viral": 959,
+  "viral": 960,
   "editorial": 1080
  },
  "recent_labels": [
-  "Hacker News",
   "Hacker News Feed",
   "Hacker News",
   "Hacker News Feed",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-20",
@@ -5484,23 +5484,22 @@
     "LINUX"
    ],
    "at": "2026-11-24T14:05:39.832732+00:00"
+  },
+  {
+   "title": "چالش مالی شرکت‌های هوش مصنوعی با وجود افزایش سرسام‌آور حجم توکن‌ها",
+   "url": "https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex/",
+   "source": "philippdubach.com",
+   "label": "Hacker News",
+   "pool": "viral",
+   "score": 0.01535,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-24T16:08:31.136406+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agents",
-    "airlines",
-    "bans",
-    "behalf",
-    "booking",
-    "flights",
-    "restricting",
-    "travelers",
-    "united"
-   ],
-   "at": "2026-11-12T03:54:12.270224+00:00"
-  },
   {
    "sig": [
     "apache",
@@ -9691,13 +9690,22 @@
    ],
    "at": "2026-11-24T14:05:39.832732+00:00",
    "url": "fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg"
+  },
+  {
+   "sig": [
+    "capex",
+    "cheaper",
+    "jevons",
+    "paradox",
+    "pay",
+    "tokens",
+    "won"
+   ],
+   "at": "2026-11-24T16:08:31.136406+00:00",
+   "url": "philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex"
   }
  ],
  "snapshots": {
-  "hn:50511718": [
-   96,
-   "2026-11-16T09:53:41.727087+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2fibqddot2i": [
    443,
    "2026-11-16T09:53:41.727087+00:00"
@@ -12050,36 +12058,16 @@
    96,
    "2026-11-24T13:53:52.708004+00:00"
   ],
-  "tg:hacker_news_feed/134099": [
-   211,
-   "2026-11-24T14:53:49.082604+00:00"
-  ],
   "hn:50624061": [
    339,
-   "2026-11-24T14:53:49.082604+00:00"
-  ],
-  "hn:50627340": [
-   547,
    "2026-11-24T14:53:49.082604+00:00"
   ],
   "hn:50626861": [
    289,
    "2026-11-24T14:53:49.082604+00:00"
   ],
-  "hn:50625888": [
-   115,
-   "2026-11-24T14:53:49.082604+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n32rlu4v4r2b": [
    378,
-   "2026-11-24T14:53:49.082604+00:00"
-  ],
-  "hn:50625384": [
-   133,
-   "2026-11-24T14:53:49.082604+00:00"
-  ],
-  "tg:hacker_news_feed/134104": [
-   178,
    "2026-11-24T14:53:49.082604+00:00"
   ],
   "tg:hacker_news_feed/134105": [
@@ -12090,9 +12078,33 @@
    160,
    "2026-11-24T14:53:49.082604+00:00"
   ],
+  "tg:hacker_news_feed/134099": [
+   212,
+   "2026-11-24T15:53:51.815513+00:00"
+  ],
+  "hn:50627340": [
+   877,
+   "2026-11-24T15:53:51.815513+00:00"
+  ],
+  "hn:50625888": [
+   126,
+   "2026-11-24T15:53:51.815513+00:00"
+  ],
+  "hn:50625384": [
+   227,
+   "2026-11-24T15:53:51.815513+00:00"
+  ],
+  "tg:hacker_news_feed/134104": [
+   188,
+   "2026-11-24T15:53:51.815513+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n32uajxyrs2e": [
-   85,
-   "2026-11-24T14:53:49.082604+00:00"
+   143,
+   "2026-11-24T15:53:51.815513+00:00"
+  ],
+  "tg:hacker_news_feed/134107": [
+   217,
+   "2026-11-24T15:53:51.815513+00:00"
   ]
  },
  "skips": {
@@ -12138,7 +12150,7 @@
   "ZDNet": 6,
   "9to5Mac": 20,
   "EFF": 3,
-  "Hacker News": 203,
+  "Hacker News": 204,
   "TechSpot": 22,
   "The Hacker News": 38,
   "Latent Space": 7,
@@ -12184,7 +12196,7 @@
   "ZDNet": "2026-11-12T14:54:14.140225+00:00",
   "9to5Mac": "2026-11-13T17:54:10.685199+00:00",
   "EFF": "2026-11-14T14:54:55.707235+00:00",
-  "Hacker News": "2026-11-24T14:05:39.832850+00:00",
+  "Hacker News": "2026-11-24T16:08:31.136532+00:00",
   "TechSpot": "2026-11-13T13:54:31.908780+00:00",
   "The Hacker News": "2026-11-13T12:54:54.280500+00:00",
   "Latent Space": "2026-11-13T04:55:00.976418+00:00",
@@ -14494,8 +14506,22 @@
    "votes": {},
    "message_id": 1768,
    "chat_id": -1004399820759
+  },
+  "163": {
+   "label": "Hacker News",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "چالش مالی شرکت‌های هوش مصنوعی با وجود افزایش سرسام‌آور حجم توکن‌ها",
+   "url": "https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex/",
+   "at": "2026-11-24T15:54:04.804900+00:00",
+   "votes": {},
+   "message_id": 1769,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 163,
+ "next_post_id": 164,
  "last_update_id": 276814760
 }
