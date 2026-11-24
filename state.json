@@ -1,9 +1,5 @@
 {
  "seen": [
-  "https://www.theverge.com/?p=1018666",
-  "https://www.engadget.com/2297175/microsoft-reportedly-offers-voluntary-buyouts-to-60000-employees/",
-  "https://www.neowin.net/news/microsoft-offers-voluntary-exit-packages-to-60000-employees-across-four-countries/",
-  "TheNextWeb=80dfc385294c4920c0c25d8c0455efaf",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys4lj6csi2s",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mys5g5x64r2a",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mys7uwobcs2z",
@@ -2999,18 +2995,22 @@
   "tg:hacker_news_feed/134094",
   "hn:50620349",
   "hn:50620328",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ywzyq6xv2r"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ywzyq6xv2r",
+  "tg:hacker_news_feed/134095",
+  "hn:50620822",
+  "tg:hacker_news_feed/134098",
+  "tg:hacker_news_feed/134100"
  ],
  "posted": {
-  "viral": 953,
+  "viral": 954,
   "editorial": 1080
  },
  "recent_labels": [
-  "Hacker News Feed",
   "Hacker News",
   "Hacker News Feed",
   "Hacker News",
-  "404 Media"
+  "404 Media",
+  "Hacker News Feed"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5406,21 +5406,22 @@
     "TECH"
    ],
    "at": "2026-11-24T08:05:22.094379+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل Qwen3.8-27B با تکنیک کوانتایزاسیون NariQ در حجم ۱۰ گیگابایت",
+   "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+   "source": "huggingface.co",
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "score": 0.08726,
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "at": "2026-11-24T09:05:37.653159+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "huawei",
-    "inference",
-    "internal",
-    "local",
-    "macaq",
-    "quantizer",
-    "releases"
-   ],
-   "at": "2026-11-12T02:54:09.774476+00:00"
-  },
   {
    "sig": [
     "apple",
@@ -9603,29 +9604,19 @@
    ],
    "at": "2026-11-24T08:05:22.094379+00:00",
    "url": "404media.co/ypsilanti-michigan-data-center-vote"
+  },
+  {
+   "sig": [
+    "bf16-level",
+    "file",
+    "nariq",
+    "qwen3.8-27b"
+   ],
+   "at": "2026-11-24T09:05:37.653159+00:00",
+   "url": "huggingface.co/nari-labs/qwen3.8-27b-nariq-gguf"
   }
  ],
  "snapshots": {
-  "hn:50512950": [
-   105,
-   "2026-11-16T02:53:42.198104+00:00"
-  ],
-  "lobsters:ek4fkg": [
-   64,
-   "2026-11-16T03:53:44.279965+00:00"
-  ],
-  "hn:50512441": [
-   79,
-   "2026-11-16T03:53:44.279965+00:00"
-  ],
-  "hn:50511395": [
-   457,
-   "2026-11-16T04:53:43.149254+00:00"
-  ],
-  "hn:50509023": [
-   479,
-   "2026-11-16T04:53:43.149254+00:00"
-  ],
   "hn:50508715": [
    265,
    "2026-11-16T04:53:43.149254+00:00"
@@ -11922,14 +11913,6 @@
    60,
    "2026-11-24T06:53:56.956429+00:00"
   ],
-  "hn:50620822": [
-   762,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "hn:50620102": [
-   881,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
   "tg:hacker_news_feed/134089": [
    172,
    "2026-11-24T07:53:48.886906+00:00"
@@ -11938,73 +11921,101 @@
    210,
    "2026-11-24T07:53:48.886906+00:00"
   ],
-  "tg:hacker_news_feed/134092": [
-   171,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "tg:hacker_news_feed/134093": [
-   159,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "tg:hacker_news_feed/134095": [
-   193,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ywzyq6xv2r": [
    437,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2zbiqydh22d": [
-   98,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2z5f6wby22o": [
-   97,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2z3xled5s2s": [
-   7,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "tg:hacker_news_feed/134097": [
-   155,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "hn:50622774": [
-   417,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "hn:50622769": [
-   246,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "hn:50619630": [
-   102,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "tg:hacker_news_feed/134098": [
-   160,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "tg:hacker_news_feed/134099": [
-   177,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "tg:hacker_news_feed/134100": [
-   156,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "hn:50624487": [
-   246,
-   "2026-11-24T07:53:48.886906+00:00"
-  ],
-  "hn:50622934": [
-   94,
    "2026-11-24T07:53:48.886906+00:00"
   ],
   "lobsters:xxgezw": [
    26,
    "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "hn:50620822": [
+   767,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "hn:50620102": [
+   900,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "tg:hacker_news_feed/134092": [
+   171,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "tg:hacker_news_feed/134093": [
+   163,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "tg:hacker_news_feed/134095": [
+   198,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2zbiqydh22d": [
+   103,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2z5f6wby22o": [
+   100,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2z3xled5s2s": [
+   7,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "tg:hacker_news_feed/134097": [
+   155,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "hn:50622774": [
+   481,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "hn:50622769": [
+   249,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "hn:50619630": [
+   105,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "tg:hacker_news_feed/134098": [
+   162,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "tg:hacker_news_feed/134099": [
+   191,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "tg:hacker_news_feed/134100": [
+   158,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "hn:50624487": [
+   360,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "hn:50622934": [
+   104,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "hn:50624061": [
+   89,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "hn:50622854": [
+   129,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "hn:50622638": [
+   169,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "hn:50621466": [
+   105,
+   "2026-11-24T08:53:55.499927+00:00"
+  ],
+  "tg:hacker_news_feed/134101": [
+   165,
+   "2026-11-24T08:53:55.499927+00:00"
   ]
  },
  "skips": {
@@ -12032,7 +12043,7 @@
   "Engadget": 2,
   "antirez": 1,
   "The Verge": 2,
-  "Hacker News Feed": 21
+  "Hacker News Feed": 23
  },
  "posts_by_label": {
   "Engadget": 45,
@@ -12078,7 +12089,7 @@
   "Rest of World": 1,
   "LangChain Blog": 1,
   "GitHub Trending": 14,
-  "Hacker News Feed": 37
+  "Hacker News Feed": 38
  },
  "last_post": {
   "Engadget": "2026-11-14T13:54:06.399584+00:00",
@@ -12124,7 +12135,7 @@
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
   "GitHub Trending": "2026-11-22T05:58:13.868736+00:00",
-  "Hacker News Feed": "2026-11-24T06:05:56.248843+00:00"
+  "Hacker News Feed": "2026-11-24T09:05:37.653267+00:00"
  },
  "posts": {
   "1": {
@@ -14322,8 +14333,22 @@
    "votes": {},
    "message_id": 1762,
    "chat_id": -1004399820759
+  },
+  "157": {
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "topics": [
+    "AI",
+    "LLM"
+   ],
+   "title": "عرضه‌ی مدل Qwen3.8-27B با تکنیک کوانتایزاسیون NariQ در حجم ۱۰ گیگابایت",
+   "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+   "at": "2026-11-24T08:54:34.287724+00:00",
+   "votes": {},
+   "message_id": 1763,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 157,
+ "next_post_id": 158,
  "last_update_id": 276814760
 }
