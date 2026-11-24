@@ -1,8 +1,5 @@
 {
  "seen": [
-  "lobsters:p9obkt",
-  "hn:50245322",
-  "hn:50245385",
   "https://slashdot.org/story/26/10/26/1544243/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "hn:50245524",
   "https://www.theverge.com/?p=1018666",
@@ -2999,18 +2996,21 @@
   "hn:50621977",
   "tg:hacker_news_feed/134096",
   "hn:50619103",
-  "hn:50618490"
+  "hn:50618490",
+  "hn:50620250",
+  "tg:hacker_news_feed/134094",
+  "hn:50620349"
  ],
  "posted": {
-  "viral": 950,
+  "viral": 951,
   "editorial": 1080
  },
  "recent_labels": [
-  "Hacker News Feed",
   "404 Media",
   "Hacker News Feed",
   "Hacker News Feed",
-  "Hacker News"
+  "Hacker News",
+  "Hacker News Feed"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5367,19 +5367,22 @@
     "CHIP"
    ],
    "at": "2026-11-24T05:04:49.487961+00:00"
+  },
+  {
+   "title": "ارائه‌ی سرور Stalwart به عنوان جایگزین متن‌باز برای Microsoft Exchange",
+   "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+   "source": "Stalwart",
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "score": 0.03111,
+   "topics": [
+    "NETWORK",
+    "OPENSOURCE"
+   ],
+   "at": "2026-11-24T06:05:56.248713+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "paint",
-    "perl",
-    "programs",
-    "splatters",
-    "valid"
-   ],
-   "at": "2026-11-12T01:54:34.825986+00:00"
-  },
   {
    "sig": [
     "activity",
@@ -9553,13 +9556,20 @@
    ],
    "at": "2026-11-24T05:04:49.487961+00:00",
    "url": "cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump"
+  },
+  {
+   "sig": [
+    "drop-in",
+    "exchange",
+    "microsoft",
+    "replacement",
+    "stalwart"
+   ],
+   "at": "2026-11-24T06:05:56.248713+00:00",
+   "url": "stalw.art/blog/microsoft-exchange-replacement"
   }
  ],
  "snapshots": {
-  "hn:50507303": [
-   2278,
-   "2026-11-16T01:53:46.501499+00:00"
-  ],
   "hn:50507206": [
    166,
    "2026-11-16T01:53:46.501499+00:00"
@@ -11832,129 +11842,133 @@
    185,
    "2026-11-24T04:54:06.770487+00:00"
   ],
-  "hn:50620822": [
-   735,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "hn:50620349": [
-   612,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "hn:50620250": [
-   275,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "hn:50620102": [
-   811,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
   "hn:50618490": [
    179,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "hn:50616933": [
-   788,
    "2026-11-24T04:54:06.770487+00:00"
   ],
   "hn:50615308": [
    2918,
    "2026-11-24T04:54:06.770487+00:00"
   ],
-  "tg:hacker_news_feed/134084": [
-   162,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "tg:hacker_news_feed/134085": [
-   167,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "tg:hacker_news_feed/134086": [
-   171,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "tg:hacker_news_feed/134087": [
-   199,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "tg:hacker_news_feed/134089": [
-   170,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "tg:hacker_news_feed/134090": [
-   207,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "tg:hacker_news_feed/134092": [
-   167,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "tg:hacker_news_feed/134093": [
-   156,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "tg:hacker_news_feed/134094": [
-   168,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "tg:hacker_news_feed/134095": [
-   178,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ywzyq6xv2r": [
-   433,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yr736uql2b": [
-   273,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yqzncohs2g": [
-   198,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2zbiqydh22d": [
-   73,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2z5f6wby22o": [
-   78,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ysz6a5fs24": [
-   128,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2yskx2gukst": [
-   241,
-   "2026-11-24T04:54:06.770487+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2yoxoxle22s": [
    141,
    "2026-11-24T04:54:06.770487+00:00"
   ],
+  "hn:50620822": [
+   748,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "hn:50620349": [
+   672,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "hn:50620250": [
+   277,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "hn:50620102": [
+   831,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "hn:50616933": [
+   798,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "tg:hacker_news_feed/134084": [
+   163,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "tg:hacker_news_feed/134085": [
+   168,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "tg:hacker_news_feed/134086": [
+   172,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "tg:hacker_news_feed/134087": [
+   200,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "tg:hacker_news_feed/134089": [
+   171,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "tg:hacker_news_feed/134090": [
+   208,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "tg:hacker_news_feed/134092": [
+   170,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "tg:hacker_news_feed/134093": [
+   158,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "tg:hacker_news_feed/134094": [
+   170,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "tg:hacker_news_feed/134095": [
+   181,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ywzyq6xv2r": [
+   433,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yr736uql2b": [
+   281,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yqzncohs2g": [
+   198,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2zbiqydh22d": [
+   80,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2z5f6wby22o": [
+   88,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ysz6a5fs24": [
+   129,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2yskx2gukst": [
+   242,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2z3xled5s2s": [
    7,
-   "2026-11-24T04:54:06.770487+00:00"
+   "2026-11-24T05:54:30.207611+00:00"
   ],
   "tg:hacker_news_feed/134097": [
-   152,
-   "2026-11-24T04:54:06.770487+00:00"
+   153,
+   "2026-11-24T05:54:30.207611+00:00"
   ],
   "hn:50622774": [
-   175,
-   "2026-11-24T04:54:06.770487+00:00"
+   243,
+   "2026-11-24T05:54:30.207611+00:00"
   ],
   "hn:50622769": [
-   156,
-   "2026-11-24T04:54:06.770487+00:00"
+   240,
+   "2026-11-24T05:54:30.207611+00:00"
   ],
   "hn:50619630": [
-   75,
-   "2026-11-24T04:54:06.770487+00:00"
+   86,
+   "2026-11-24T05:54:30.207611+00:00"
   ],
   "tg:hacker_news_feed/134098": [
-   152,
-   "2026-11-24T04:54:06.770487+00:00"
+   159,
+   "2026-11-24T05:54:30.207611+00:00"
+  ],
+  "hn:50617640": [
+   65,
+   "2026-11-24T05:54:30.207611+00:00"
   ]
  },
  "skips": {
@@ -11963,7 +11977,7 @@
   "Wired": 30,
   "TechRadar": 9,
   "Lobsters": 9,
-  "Hacker News": 65,
+  "Hacker News": 66,
   "The Next Web": 1,
   "404 Media": 24,
   "Emily M. Bender": 8,
@@ -12028,7 +12042,7 @@
   "Rest of World": 1,
   "LangChain Blog": 1,
   "GitHub Trending": 14,
-  "Hacker News Feed": 36
+  "Hacker News Feed": 37
  },
  "last_post": {
   "Engadget": "2026-11-14T13:54:06.399584+00:00",
@@ -12074,7 +12088,7 @@
   "Rest of World": "2026-11-09T08:53:50.184598+00:00",
   "LangChain Blog": "2026-11-12T05:53:48.515796+00:00",
   "GitHub Trending": "2026-11-22T05:58:13.868736+00:00",
-  "Hacker News Feed": "2026-11-24T03:54:11.804934+00:00"
+  "Hacker News Feed": "2026-11-24T06:05:56.248843+00:00"
  },
  "posts": {
   "1": {
@@ -14230,8 +14244,22 @@
    "votes": {},
    "message_id": 1759,
    "chat_id": -1004399820759
+  },
+  "154": {
+   "label": "Hacker News Feed",
+   "pool": "viral",
+   "topics": [
+    "NETWORK",
+    "OPENSOURCE"
+   ],
+   "title": "ارائه‌ی سرور Stalwart به عنوان جایگزین متن‌باز برای Microsoft Exchange",
+   "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+   "at": "2026-11-24T05:54:58.477349+00:00",
+   "votes": {},
+   "message_id": 1760,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 154,
+ "next_post_id": 155,
  "last_update_id": 276814760
 }
