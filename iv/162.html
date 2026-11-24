@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تحلیل critical path با Rewind</title>
+<meta name="description" content="خب، من اولین کسی هستم که اعتراف می‌کنم در مورد AI کمی وسواسی هستم. وقتی روی مسئله‌ای کار می‌کنید که احتمالات بی‌پایانی دارد، محدود کردن خودتان به مجمو…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="تحلیل critical path با Rewind">
+<meta property="og:description" content="خب، من اولین کسی هستم که اعتراف می‌کنم در مورد AI کمی وسواسی هستم. وقتی روی مسئله‌ای کار می‌کنید که احتمالات بی‌پایانی دارد، محدود کردن خودتان به مجمو…">
+<meta property="og:url" content="https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg">
+<meta property="og:site_name" content="PersianTech">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="تحلیل critical path با Rewind">
+<meta name="twitter:description" content="خب، من اولین کسی هستم که اعتراف می‌کنم در مورد AI کمی وسواسی هستم. وقتی روی مسئله‌ای کار می‌کنید که احتمالات بی‌پایانی دارد، محدود کردن خودتان به مجمو…">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<h1>تحلیل critical path با Rewind</h1>
+<p class="meta">Hacker News  ·  2026-11-24</p>
+<p>خب، من اولین کسی هستم که اعتراف می‌کنم در مورد AI کمی وسواسی هستم. وقتی روی مسئله‌ای کار می‌کنید که احتمالات بی‌پایانی دارد، محدود کردن خودتان به مجموعه‌ای از ویژگی‌های خاص دشوار است.</p>
+<p>می‌توانم فقط یک مورد دیگر اضافه کنم؟</p>
+<p>من از تمام کارهای سرگرم‌کننده و مفیدی که یک deterministic VM مانند Rewind امکان‌پذیر می‌کند، شگفت‌زده شده‌ام. من از آن برای کمک به یافتن heisenbugs، بازتولید‌پذیر کردن profile-guided optimization و بازتولید‌پذیر کردن بیت‌به‌بیتِ Nix builds استفاده کرده‌ام. اما لذت‌بخش‌ترین بخش، استفاده از آن برای درک performance بوده است.</p>
+<p>مشخص شد که performance حوزه دیگری است که Rewind در آن می‌درخشد. من از آن برای تحلیل critical path در buildها استفاده کرده‌ام.</p>
+<p>critical path چیست؟</p>
+<p>مسیر بحرانی یا critical path طولانی‌ترین زنجیره از کارهای وابسته به هم در یک برنامه است. این حداقل زمانی است که برنامه برای تکمیل نیاز دارد، صرف‌نظر از اینکه چه مقدار منابع به آن اختصاص دهید. تنها راه برای سریع‌تر کردن یک برنامه، کوتاه کردن critical path است.</p>
+<p>اگر از پیروان Brendan Gregg باشید، می‌دانید که او سال‌ها وقت صرف کرد تا تحلیل performance را از یک هنر مبهم به یک علم تبدیل کند. این یک پیشکش کوچک به اوست. 🤲</p>
+<p>من یک دستور جدید به نام `rewind time` به Rewind اضافه کردم که یک recording را تحلیل می‌کند و به شما می‌گوید زمان کجا صرف شده و چه چیزی باعث می‌شود اجرا زودتر تمام شود. شما می‌توانید در هر بخش از آن پاسخ دقیق شوید و source lines مسئول آن را ببینید. این شبیه به flame graphs متعلق به Brendan Gregg است، اما بسیار قدرتمندتر برای critical path و همراه با یک debugger متصل. تمام ایده‌های این دستور یا الهام‌گرفته از کارهای Brendan Gregg هستند یا مستقیماً تحت تأثیر آن‌ها قرار دارند. در برابر Zod زانو بزنید!</p>
+<p>حاشیه: با Rewind تازه‌آشنا هستید؟ با یک flaky build شروع کنید که فقط یک بار با آن مواجه می‌شوید؛ و اصلاً deterministic VM چیست؟</p>
+<p>بیایید با تحلیل critical path مربوط به یک build و اجرای تست libuv ببینیم چگونه کار می‌کند. فرآیند build و مجموعه تست‌ها داخل Rewind حدود 78 ثانیه طول می‌کشد و حتی با 64 cores باز هم 47 ثانیه زمان می‌برد. چرا؟</p>
+<p>پاسخ معمول این است که به یک CPU profile نگاه کنیم، اما در این مورد، یک CPU profile تقریباً بی‌فایده خواهد بود. در دو سوم از آن 47 ثانیه، کاری که build منتظر آن است اصلاً در حال پردازش نیست: در وضعیت خواب (asleep) است. 💤💤💤</p>
+<p>زمان کجا می‌رود</p>
+<p>هر `rewind time` با دو عدد شروع می‌شود:</p>
+<p>$ rewind time 7a29e716</p>
+<p>libuv-1.51.0</p>
+<p>78.0 s  elapsed on the VM&#x27;s one CPU    47.4 s  critical path: the least it can take on any number of CPUs            67% asleep (epoll_pwait 23.1 s, clock_nanosleep 8.53 s, futex 100 ms), 33% computing</p>
+<p>عدد اول نشان می‌دهد که اجرا روی تک CPU مجازیِ VM چقدر طول کشیده است. عدد دوم critical path است: طولانی‌ترین زنجیره کار که در آن هر مرحله باید منتظر مرحله قبلی می‌ماند.</p>
+<p>هیچ تعدادی از CPUها نمی‌تواند یک اجرا را کوتاه‌تر از critical path آن کند، بنابراین فاصله بین این دو عدد تمام آن چیزی است که parallelism می‌تواند برای شما بخرد.</p>
+<p>خط زیر این دو عدد، تحلیل thread state متعلق به Gregg را اعمال می‌کند. در اینجا بزرگترین وضعیت، asleep است: 23 ثانیه در epoll_pwait و 8.5 ثانیه در clock_nanosleep.</p>
+<p>یک thread در حال خواب برای یک CPU profiler نامرئی است. پاسخ Gregg تحلیل off-CPU است: نگاه کردن به جایی که threadها block می‌شوند، نه فقط جایی که پردازش می‌کنند.</p>
+<p>روی یک ماشین زنده، تحلیل off-CPU سخت است. Linux می‌تواند ردیابی کند که کدام thread باعث بیداری دیگری شده است و Gregg تحلیل‌های wakeup و off-wake profiling را بر پایه آن بنا کرد، اما شما باید قبل از وقوع اجرای کند، در حال tracing باشید؛ این tracing هزینه دارد و بیشتر خواب‌هایی که ثبت می‌کنید نویز هستند. Rewind از قبل هر context switch را لاگ می‌کند چون برای replay به آن‌ها نیاز دارد، و حالا هر wakeup و عامل آن را نیز ثبت می‌کند. تمام این اطلاعات ارزشمند در هر recording وجود دارد. 🤤</p>
+<p>در اینجا خروجی کامل برای libuv آمده است:</p>
+<p>$ rewind time 7a29e716</p>
+<p>libuv-1.51.0</p>
+<p>78.0 s  elapsed on the VM&#x27;s one CPU</p>
+<p>47.4 s  critical path: the least it can take on any number of CPUs</p>
+<p>67% asleep (epoll_pwait 23.1 s, clock_nanosleep 8.53 s, futex 100 ms), 33% computing</p>
+<p>The critical path by phase</p>
+<p>3.54 s  configurePhase  ██</p>
+<p>1.67 s  buildPhase      █</p>
+<p>42.0 s  checkPhase      █████████████████████</p>
+<p>99 ms  5 other phases</p>
+<p>The critical path by process</p>
+<p>on path      pid  process, with what it started</p>
+<p>47.4 s       34  init › bash -e source-stdenv.sh default-builder.sh</p>
+<p>41.9 s     4076  ├─ make -j8 SHELL=bash-5.3p3/bin/bash VERBOSE=y check</p>
+<p>36.4 s     4910  │  ├─ make › bash › lt-run-tests</p>
+<p>3.38 s     5412  │  │  ├─ lt-run-tests hrtime hrtime  asleep in clock_nanosleep 3.38 s</p>
+<p>2.00 s     5013  │  │  ├─ lt-run-tests delayed_accept delayed_accept  asleep in epoll_pwait 2.00 s</p>
+<p>1.62 s     5126  │  │  ├─ lt-run-tests fs_event_watch_dir fs_event_watch_dir  asleep in epoll_pwait 1.62 s</p>
+<p>1.60 s     5103  │  │  ├─ lt-run-tests fs_event_close_in_callback fs_event_close_in…  asleep in epoll_pwait 1.60 s</p>
+<p>1.60 s     5508  │  │  ├─ lt-run-tests metrics_idle_time metrics_idle_time  asleep in epoll_pwait 1.00 s, computing 600 ms</p>
+<p>1.24 s     6095  │  │  ├─ lt-run-tests tcp_write_ready tcp_write_ready</p>
+<p>1.14 s     5510  │  │  ├─ lt-run-tests metrics_idle_time_thread metrics_idle_time_t…  asleep in epoll_pwait 1.00 s</p>
+<p>1.10 s     5132  │  │  ├─ lt-run-tests fs_event_watch_file_current_dir fs_event_wat…  asleep in epoll_pwait 1.10 s</p>
+<p>22.6 s           │  │  └─ 279 more</p>
+<p>5.59 s     4077  │  └─ make test/run-tests</p>
+<p>2.22 s     4183  │     ├─ gcc -fPIC -fstack-clash-protection -O2 -U_FORTIFY_SOURCE …</p>
+<p>2.10 s     4189  │     │  └─ cc1 /build/source/test/test-fs.c</p>
+<p>3.35 s           │     └─ 20 more</p>
+<p>1.99 s       68  ├─ sh ./autogen.sh</p>
+<p>1.99 s           │  └─ 9 more</p>
+<p>1.67 s     2642  ├─ make -j8 SHELL=bash-5.3p3/bin/bash</p>
+<p>1.67 s           │  └─ 5 more</p>
+<p>1.53 s      403  └─ bash ./configure --disable-static --disable-dependency-tracking…</p>
+<p>1.47 s              └─ 581 more</p>
+<p>What would shorten it</p>
+<p>sooner      pid  if this took no time</p>
+<p>36.1 s           every lt-run-tests, 600 processes</p>
+<p>6.66 s           every cc1, 283 processes</p>
+<p>3.38 s     5412  75 sleeps in clock_nanosleep: lt-run-tests hrtime hrtime</p>
+<p>2.00 s     5013  2 sleeps in epoll_pwait: lt-run-tests delayed_accept delayed_accept</p>
+<p>1.76 s     4189  cc1 /build/source/test/test-fs.c</p>
+<p>1.62 s     5126  30 sleeps in epoll_pwait: lt-run-tests fs_event_watch_dir fs_event_watc…</p>
+<p>1.60 s     5103  16 sleeps in epoll_pwait: lt-run-tests fs_event_close_in_callback fs_ev…</p>
+<p>1.60 s     5508  lt-run-tests metrics_idle_time metrics_idle_time</p>
+<p>1.22 s           every perl, 9 processes</p>
+<p>1.14 s     5510  lt-run-tests metrics_idle_time_thread metrics_idle_time_thread</p>
+<p>نگاه دقیق‌تر</p>
+<p>rewind time 7a29e716 --in PID             one process: its threads, sleeps and waits</p>
+<p>rewind time 7a29e716 --folded             the path for flamegraph.pl or speedscope.app</p>
+<p>rewind time 7a29e716 --perfetto F         every process on a timeline, for ui.perfetto.dev</p>
+<p>جدول دوم، مسیر را به صورت درختی از فرآیندها بر اساس ایده colony graph متعلق به Gregg نشان می‌دهد. هر خط یک process است به همراه تمام چیزهایی که شروع کرده و زمان آن در critical path. یک ps snapshot ممکن است فراخوانی‌های کوتاه-مدت فرآیند را از دست بدهد؛ اما recording شامل هر fork است، فارغ از اینکه چقدر کوتاه باشد.</p>
+<p>در این build، دستور `make check` به 41.9 ثانیه از کل 47.4 ثانیه نیاز دارد و 36.4 ثانیه از آن مربوط به `lt-run-tests` (تست‌رنر libuv) است. تست‌رنر 287 تست را فراخوانی می‌کند که هر کدام 1 تا 3 ثانیه زمان می‌برند.</p>
+<p>تمام آن تست‌ها در مسیر هستند و مسیر یک زنجیره واحد است، بنابراین رنر آن‌ها را یکی پس از دیگری اجرا کرده است. بدتر اینکه، بخش عمده هر تست در وضعیت asleep و در انتظار تایمرها سپری شده است.</p>
+<p>Drag می‌تواند کمتر از زمانِ روی مسیر باشد.</p>
+<p>جدول آخر به سوال متفاوتی پاسخ می‌دهد: اگر این بخش هیچ زمانی نمی‌برد، اجرا چقدر زودتر تمام می‌شد؟ متد critical path این را drag می‌نامد.</p>
+<p>برای بخش واقعاً جادویی، ما می‌توانیم به هر نقطه از مسیر بپریم و ببینیم چه اتفاقی در حال رخ دادن بوده است، gdb را فراخوانی کنیم و اجرا را در همان لحظه fork کنیم. یک profiler به شما یک stack تحویل می‌دهد که در لحظه‌ای نمونه‌برداری شده که هرگز نمی‌توانید به آن بازگردید. هر فریم در `rewind time` لحظه‌ای در یک recording است و Rewind می‌تواند اجرا را تا آن لحظه replay کند.</p>
+<p>گزینه `--in` داخل یک فرآیند را بررسی می‌کند، پس بیایید به سراغ تست `hrtime` برویم که 3.38 ثانیه را در وضعیت asleep در `clock_nanosleep` گذرانده است:</p>
+<p>$ rewind time 7a29e716 --in hrtim</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
