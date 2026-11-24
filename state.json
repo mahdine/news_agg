@@ -1,6 +1,5 @@
 {
  "seen": [
-  "hn:50245524",
   "https://www.theverge.com/?p=1018666",
   "https://www.engadget.com/2297175/microsoft-reportedly-offers-voluntary-buyouts-to-60000-employees/",
   "https://www.neowin.net/news/microsoft-offers-voluntary-exit-packages-to-60000-employees-across-four-countries/",
@@ -2999,18 +2998,19 @@
   "hn:50620250",
   "tg:hacker_news_feed/134094",
   "hn:50620349",
-  "hn:50620328"
+  "hn:50620328",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ywzyq6xv2r"
  ],
  "posted": {
-  "viral": 952,
+  "viral": 953,
   "editorial": 1080
  },
  "recent_labels": [
   "Hacker News Feed",
-  "Hacker News Feed",
   "Hacker News",
   "Hacker News Feed",
-  "Hacker News"
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -5394,19 +5394,21 @@
     "CHATBOT"
    ],
    "at": "2026-11-24T07:08:17.293021+00:00"
+  },
+  {
+   "title": "تصویب ساخت مرکز داده ۱.۲۵ میلیارد دلاری دانشگاه میشیگان برای تحقیقات هسته‌ای",
+   "url": "https://www.404media.co/ypsilanti-michigan-data-center-vote/",
+   "source": "404media.co",
+   "label": "404 Media",
+   "pool": "viral",
+   "score": 0.04639,
+   "topics": [
+    "TECH"
+   ],
+   "at": "2026-11-24T08:05:22.094379+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "better",
-    "efficient",
-    "faster",
-    "rag",
-    "retrieval"
-   ],
-   "at": "2026-11-12T02:53:55.886033+00:00"
-  },
   {
    "sig": [
     "huawei",
@@ -9585,21 +9587,25 @@
    ],
    "at": "2026-11-24T07:08:17.293021+00:00",
    "url": "arxiv.org/abs/2602.20031"
+  },
+  {
+   "sig": [
+    "7-1",
+    "approve",
+    "center",
+    "controversial",
+    "data",
+    "michigan",
+    "project",
+    "regents",
+    "university",
+    "voted"
+   ],
+   "at": "2026-11-24T08:05:22.094379+00:00",
+   "url": "404media.co/ypsilanti-michigan-data-center-vote"
   }
  ],
  "snapshots": {
-  "hn:50507791": [
-   237,
-   "2026-11-16T02:53:42.198104+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2f7wuvky52k": [
-   299,
-   "2026-11-16T02:53:42.198104+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2fdaubrn22y": [
-   6,
-   "2026-11-16T02:53:42.198104+00:00"
-  ],
   "hn:50512950": [
    105,
    "2026-11-16T02:53:42.198104+00:00"
@@ -11892,52 +11898,12 @@
    198,
    "2026-11-24T05:54:30.207611+00:00"
   ],
-  "hn:50620822": [
-   754,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "hn:50620102": [
-   869,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
   "tg:hacker_news_feed/134086": [
    173,
    "2026-11-24T06:53:56.956429+00:00"
   ],
   "tg:hacker_news_feed/134087": [
    202,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "tg:hacker_news_feed/134089": [
-   172,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "tg:hacker_news_feed/134090": [
-   210,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "tg:hacker_news_feed/134092": [
-   170,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "tg:hacker_news_feed/134093": [
-   158,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "tg:hacker_news_feed/134095": [
-   189,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ywzyq6xv2r": [
-   433,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2zbiqydh22d": [
-   92,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2z5f6wby22o": [
-   89,
    "2026-11-24T06:53:56.956429+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ysz6a5fs24": [
@@ -11948,30 +11914,6 @@
    244,
    "2026-11-24T06:53:56.956429+00:00"
   ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2z3xled5s2s": [
-   7,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "tg:hacker_news_feed/134097": [
-   155,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "hn:50622774": [
-   326,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "hn:50622769": [
-   244,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "hn:50619630": [
-   99,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
-  "tg:hacker_news_feed/134098": [
-   160,
-   "2026-11-24T06:53:56.956429+00:00"
-  ],
   "hn:50617640": [
    67,
    "2026-11-24T06:53:56.956429+00:00"
@@ -11980,13 +11922,89 @@
    60,
    "2026-11-24T06:53:56.956429+00:00"
   ],
+  "hn:50620822": [
+   762,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "hn:50620102": [
+   881,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "tg:hacker_news_feed/134089": [
+   172,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "tg:hacker_news_feed/134090": [
+   210,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "tg:hacker_news_feed/134092": [
+   171,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "tg:hacker_news_feed/134093": [
+   159,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "tg:hacker_news_feed/134095": [
+   193,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ywzyq6xv2r": [
+   437,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2zbiqydh22d": [
+   98,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2z5f6wby22o": [
+   97,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2z3xled5s2s": [
+   7,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "tg:hacker_news_feed/134097": [
+   155,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "hn:50622774": [
+   417,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "hn:50622769": [
+   246,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "hn:50619630": [
+   102,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "tg:hacker_news_feed/134098": [
+   160,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
   "tg:hacker_news_feed/134099": [
-   173,
-   "2026-11-24T06:53:56.956429+00:00"
+   177,
+   "2026-11-24T07:53:48.886906+00:00"
   ],
   "tg:hacker_news_feed/134100": [
-   155,
-   "2026-11-24T06:53:56.956429+00:00"
+   156,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "hn:50624487": [
+   246,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "hn:50622934": [
+   94,
+   "2026-11-24T07:53:48.886906+00:00"
+  ],
+  "lobsters:xxgezw": [
+   26,
+   "2026-11-24T07:53:48.886906+00:00"
   ]
  },
  "skips": {
@@ -12022,7 +12040,7 @@
   "Wired": 27,
   "TechRadar": 37,
   "Slashdot": 32,
-  "404 Media": 61,
+  "404 Media": 62,
   "Xe Iaso": 5,
   "The Verge": 22,
   "Cloudflare": 1,
@@ -12068,7 +12086,7 @@
   "Wired": "2026-11-17T10:53:44.587771+00:00",
   "TechRadar": "2026-11-13T09:54:48.357650+00:00",
   "Slashdot": "2026-11-22T17:04:58.050897+00:00",
-  "404 Media": "2026-11-24T02:04:59.159924+00:00",
+  "404 Media": "2026-11-24T08:05:22.094506+00:00",
   "Xe Iaso": "2026-11-18T17:53:57.797084+00:00",
   "The Verge": "2026-11-11T15:54:22.068826+00:00",
   "Cloudflare": "2026-10-30T18:08:35.724517+00:00",
@@ -14291,8 +14309,21 @@
    "votes": {},
    "message_id": 1761,
    "chat_id": -1004399820759
+  },
+  "156": {
+   "label": "404 Media",
+   "pool": "viral",
+   "topics": [
+    "TECH"
+   ],
+   "title": "تصویب ساخت مرکز داده ۱.۲۵ میلیارد دلاری دانشگاه میشیگان برای تحقیقات هسته‌ای",
+   "url": "https://www.404media.co/ypsilanti-michigan-data-center-vote/",
+   "at": "2026-11-24T07:54:13.952440+00:00",
+   "votes": {},
+   "message_id": 1762,
+   "chat_id": -1004399820759
   }
  },
- "next_post_id": 156,
+ "next_post_id": 157,
  "last_update_id": 276814760
 }
