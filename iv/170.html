@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>آنچه Cloudflare به شما نمی‌گوید</title>
+<meta name="description" content="Cloudflare احتمالاً بیش از هر شرکت دیگری برای پیشبرد فناوری‌های مدرن اینترنت تلاش کرده است. اقداماتی که آن‌ها برای فعال‌سازی TLS، IPv6، رمزنگاری پساکو…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="آنچه Cloudflare به شما نمی‌گوید">
+<meta property="og:description" content="Cloudflare احتمالاً بیش از هر شرکت دیگری برای پیشبرد فناوری‌های مدرن اینترنت تلاش کرده است. اقداماتی که آن‌ها برای فعال‌سازی TLS، IPv6، رمزنگاری پساکو…">
+<meta property="og:url" content="https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/">
+<meta property="og:site_name" content="PersianTech">
+<meta property="og:image" content="https://charlie.fish/images/posts/2026/11/23/what-cloudflare-doesnt-tell-you/header.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="آنچه Cloudflare به شما نمی‌گوید">
+<meta name="twitter:description" content="Cloudflare احتمالاً بیش از هر شرکت دیگری برای پیشبرد فناوری‌های مدرن اینترنت تلاش کرده است. اقداماتی که آن‌ها برای فعال‌سازی TLS، IPv6، رمزنگاری پساکو…">
+<meta name="twitter:image" content="https://charlie.fish/images/posts/2026/11/23/what-cloudflare-doesnt-tell-you/header.jpg">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<img class="hero" src="https://charlie.fish/images/posts/2026/11/23/what-cloudflare-doesnt-tell-you/header.jpg" alt="" loading="lazy">
+<h1>آنچه Cloudflare به شما نمی‌گوید</h1>
+<p class="meta">Hacker News Feed  ·  2026-11-25</p>
+<p>Cloudflare احتمالاً بیش از هر شرکت دیگری برای پیشبرد فناوری‌های مدرن اینترنت تلاش کرده است. اقداماتی که آن‌ها برای فعال‌سازی TLS، IPv6، رمزنگاری پساکوانتومی (post quantum encryption) و سایر استانداردهای مدرن برای میلیون‌ها وب‌سایت انجام داده‌اند، شایسته تقدیر فراوان است.</p>
+<p>با وجود این نکات مثبت، Cloudflare بسیاری از کاستی‌های زیرساخت‌های اصلی را هم از دید کاربران و هم از دید صاحبان وب‌سایت پنهان می‌کند. بله، شما می‌توانید به یک وب‌سایت تحت Cloudflare متصل شوید و این سرویس امکان استفاده از IPv6، رمزنگاری پساکوانتومی و TLS را فراهم می‌کند؛ اما اتصال Cloudflare به سرور اصلی (origin server) ممکن است کاملاً رمزنگاری‌نشده باشد و صرفاً بر IPv4 متکی باشد. این موضوع باعث ایجاد شکاف بزرگی میان آنچه به کاربران ارائه می‌شود و واقعیتِ اتصال می‌گردد.</p>
+<p>یکی از بزرگ‌ترین مشکلات من با این وضعیت، این است که Cloudflare تلاش کافی برای آگاه‌سازی مدیران وب‌سایت‌ها درباره این مسائل انجام نمی‌دهد. اگرچه Cloudflare ابزارهایی برای بررسی این موارد ارائه می‌دهد، اما دید جامع و کاملی وجود ندارد. داشبورد Cloudflare باید در هر موردی که این شرکت از استانداردهای بهتری نسبت به سرور اصلی شما استفاده می‌کند، به شما اطلاع دهد، بدون اینکه مدیران وب‌سایت مجبور باشند برای یافتن این اطلاعات، در تنظیمات جست‌وجو کنند. هشدارهای شفاف و اطلاع‌رسانی پیش‌دستانه به مدیران، کمک شایانی خواهد کرد.</p>
+<p>علاوه بر این، طبق مستندات خودِ Cloudflare، آن‌ها هنگام ارسال درخواست به سرور اصلی، فعالانه IPv4 را به IPv6 ترجیح می‌دهند که این موضوع برای شرکتی که تا این حد برای پیشبرد پذیرش IPv6 تلاش کرده، بسیار ناامیدکننده است:</p>
+<p>برای رکوردهای DNS پروکسی‌شده که هم دارای آدرس مبدأ IPv6 و هم IPv4 هستند، Cloudflare هنگام اتصال به سرور اصلی شما، آدرس IPv4 را ترجیح می‌دهد.</p>
+<p>حتی زمانی که مدیران وب‌سایت برای پیاده‌سازی IPv6 روی سرورهای اصلی خود سرمایه‌گذاری می‌کنند، Cloudflare همچنان IPv4 را در اولویت قرار می‌دهد.</p>
+<p>من همچنین معتقدم که صنعت باید به فکر افزودن قابلیتی باشد که به CDNها و سایر شبکه‌های واسط اجازه دهد اطلاعات اتصال TLS به سرور اصلی را در کنار اطلاعات خودشان نمایش دهند. این کار به کاربران و پژوهشگران شبکه اجازه می‌دهد تا وضعیت رمزنگاری کل مسیر را بهتر درک کنند و صاحبان وب‌سایت‌ها را در قبال شیوه‌های امنیتی ضعیف پاسخگو نگه دارند. مکانیسم مشابهی می‌تواند مشخص کند که از کدام نسخه IP برای ارتباط با سرور اصلی استفاده می‌شود.</p>
+<p>Cloudflare این فرصت را دارد که نه تنها فناوری‌های مدرن اینترنت را برای کاربران در دسترس قرار دهد، بلکه پذیرش این فناوری‌ها را در سراسر زیرساخت‌های اصلی تشویق کند. Cloudflare باید کاتالیزوری برای مدرن‌سازی اینترنت باشد، نه مکانیسمی که به صاحبان وب‌سایت‌ها اجازه دهد تا ابد از مدرن‌سازی اجتناب کنند. بهبود شفافیت، گامی معنادار در جهت دستیابی به این هدف خواهد بود.</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
