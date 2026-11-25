@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>نصب و پیکربندی Grafana</title>
+<meta name="description" content="```bash">
+<meta property="og:type" content="article">
+<meta property="og:title" content="نصب و پیکربندی Grafana">
+<meta property="og:description" content="```bash">
+<meta property="og:url" content="https://grafana.com/grafana/download">
+<meta property="og:site_name" content="PersianTech">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="نصب و پیکربندی Grafana">
+<meta name="twitter:description" content="```bash">
+<style>
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,'Segoe UI',Tahoma,'Vazirmatn',sans-serif;line-height:1.9;font-size:17px}
+article{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{width:100%;height:auto;border-radius:12px;margin:0 0 18px;display:block}
+h1{font-size:24px;line-height:1.5;margin:0 0 6px}
+p{margin:0 0 14px}
+.meta{color:#777;font-size:14px}
+.footer{color:#999;font-size:14px;border-top:1px solid #eee;margin-top:28px;padding-top:14px}
+a{color:#3466c4;text-decoration:none}
+</style>
+</head>
+<body>
+<article>
+<h1>نصب و پیکربندی Grafana</h1>
+<p class="meta">Hacker News Feed  ·  2026-11-25</p>
+<p>```bash</p>
+<p>sudo apt-get install -y adduser libfontconfig1 musl</p>
+<p>wget https://dl.grafana.com/grafana-enterprise/release/13.3.2/grafana-enterprise_13.3.2_44555861735_linux_amd64.deb</p>
+<p>sudo dpkg -i grafana-enterprise_13.3.2_44555861735_linux_amd64.deb</p>
+<p>```</p>
+<p>راهنمای نصب Ubuntu / Debian را مطالعه کنید. ما همچنین یک مخزن APT ارائه می‌دهیم.</p>
+<p>```bash</p>
+<p>sudo yum install -y https://dl.grafana.com/grafana-enterprise/release/13.3.2/grafana-enterprise_13.3.2_44555861735_linux_amd64.rpm</p>
+<p>```</p>
+<p>راهنمای نصب Red Hat و Fedora را مطالعه کنید. ما همچنین یک مخزن YUM ارائه می‌دهیم.</p>
+<p>```bash</p>
+<p>wget https://dl.grafana.com/grafana-enterprise/release/13.3.2/grafana-enterprise_13.3.2_44555861735_linux_amd64.rpm</p>
+<p>sudo rpm -Uvh grafana-enterprise_13.3.2_44555861735_linux_amd64.rpm</p>
+<p>```</p>
+<p>راهنمای نصب OpenSUSE و SUSE را مطالعه کنید. ما همچنین یک مخزن YUM / zypper ارائه می‌دهیم.</p>
+<p>بک‌اند Grafana دارای تعدادی گزینه‌ی پیکربندی است که در فایل تنظیمات آن (که معمولاً در سیستم‌های لینوکسی در مسیر /etc/grafana/grafana.ini قرار دارد) تعریف شده‌اند.</p>
+<p>در این فایل پیکربندی، می‌توانید مواردی مانند رمز عبور پیش‌فرض مدیر، پورت HTTP، پایگاه داده Grafana (شامل SQLite، MySQL، Postgres)، گزینه‌های احراز هویت (Google، GitHub، LDAP، auth proxy) و بسیاری از تنظیمات دیگر را تغییر دهید.</p>
+<p>سرور Grafana خود را راه‌اندازی کنید. با کاربر مدیر خود (به‌صورت پیش‌فرض admin/admin) وارد شوید. منوی کناری را باز کنید (روی آیکون Grafana در منوی بالا کلیک کنید)، به بخش Data Sources بروید و منبع داده خود را اضافه کنید.</p>
+<p class="footer">ترجمه‌ی کامل خودکار — <a href="https://grafana.com/grafana/download">مقاله‌ی اصلی</a></p>
+</article>
+</body>
+</html>
